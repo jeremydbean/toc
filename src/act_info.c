@@ -91,6 +91,7 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
  /*
       if ( IS_AFFECTED(ch, AFF_DETECT_GOOD)
 	    && IS_OBJ_STAT(obj, ITEM_GOOD)   )   strcat( buf, "(Silver) ");
+
 	 <if used, declare in merc.h for new item spec>
 */
     if ( fShort )
@@ -1065,22 +1066,16 @@ void do_worth( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
 
-    if (IS_NPC(ch))
+    if (IS_NPC(ch) || (IS_IMMORTAL(ch)))
     {
-	sprintf(buf,"You have %ld gold.\n\r",ch->gold);
+	sprintf(buf,"You have %ld platinum, %ld gold, %ld silver and %ld copper.\n\r",
+        ch->new_platinum, ch->new_gold, ch->new_silver, ch->new_copper);
 	send_to_char(buf,ch);
 	return;
     }
-    if(IS_IMMORTAL(ch) )
-        sprintf(buf, "You have %ld gold, and %ld experience ( 0 exp to level).\n\r",
-	ch->gold, ch->exp);
-    else
-    {
-       sprintf(buf, "You have %ld gold and %ld experience (%ld exp to level).\n\r",
-       ch->gold, ch->exp, next_xp_level(ch)-ch->exp);
-    }
+    sprintf(buf, "You have %ld platinum, %ld gold, %ld silver, %ld copper\n\rand %ld experience (%ld exp to level).\n\r",
+       ch->new_platinum, ch->new_gold, ch->new_silver, ch->new_copper, ch->exp, next_xp_level(ch)-ch->exp);
     send_to_char(buf,ch);
-
     return;
 }
 
@@ -1088,259 +1083,262 @@ void do_worth( CHAR_DATA *ch, char *argument )
 void do_score( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    int i;
+    char kader[MAX_STRING_LENGTH];
+    int i = 0;
 
-    sprintf( buf,
-	"You are %s%s, level %d, %d years old (%d hours).\n\r",
-	ch->name,
-	IS_NPC(ch) ? "" : ch->pcdata->title,
-	ch->level, get_age(ch),
-        ( ch->played + (int) (current_time - ch->logon) ) / 3600);
+    sprintf(kader,"%60s\n\r",
+    "--------------------------------------------------------------");
+    send_to_char(kader, ch);
+
+    sprintf( buf, "| %-6s %13s | %-6s %7d | %-7s %10s |\n\r",
+        "Name:",ch->name,
+        "Level:",ch->level,
+        "Class:",(IS_NPC(ch) ? "Mobile" : capitalize(class_table[ch->class].name)));
+    send_to_char(buf, ch);
+
+    sprintf(buf,"| %-7s %6d hours | %-6s %7s | %-8s %9s |\n\r",
+      "Played:",(( ch->played + (int) (current_time - ch->logon) )/3600),
+      "Sex:", (ch->sex == 0 ? "Sexless" :
+                              (ch->sex == 1 ? "Male" : "Female")),
+      "Guild:",
+      IS_NPC(ch) ? "None" : capitalize(get_guildname(ch->pcdata->guild)));
+    send_to_char(buf, ch);
+
+    sprintf(buf,
+      "| %-6s %7d years | %-6s %7s | %-8s %9s |\n\r",
+      "Age:", get_age(ch),
+      "Race:", capitalize(race_table[ch->race].name),
+      "Castle:",
+      IS_NPC(ch) ? "None" : capitalize(get_castlename(ch->pcdata->castle)));
+
+    send_to_char(buf, ch);
+    send_to_char(kader, ch);
+
+    sprintf(buf, "| %-9s %10ld | %-7s %6d | %-10s %7ld |\n\r",
+        "Exp:",ch->exp,
+        "Pracs:",(IS_NPC(ch) ? 0 : ch->practice),
+        "Given Pks:",(IS_NPC(ch) ? 0 : ch->pcdata->pkills_given));
+    send_to_char(buf, ch);
+
+    sprintf(buf, "| %-9s %10ld | %-7s %6d | %-10s %7ld |\n\r",
+        "To Level:",(IS_NPC(ch) ? 0 : next_xp_level(ch) - ch->exp),
+        "Trains:",(IS_NPC(ch) ? 0 : ch->train),
+        "Recvd Pks:",(IS_NPC(ch) ? 0 : ch->pcdata->pkills_received));
+    send_to_char(buf, ch);
+    send_to_char(kader, ch);
+
+
+    sprintf(buf, "| %-4s %2d (%2d) | %-5s %5d (%5d) | %-9s %11ld |\n\r",
+            "Str:", ch->perm_stat[STAT_STR], get_curr_stat(ch,STAT_STR),
+            "Hp:" , ch->hit,                 ch->max_hit,
+            "Platinum:", ch->new_platinum);
+    send_to_char(buf, ch);
+
+    sprintf(buf, "| %-4s %2d (%2d) | %-5s %5d (%5d) | %-9s %11ld |\n\r",
+            "Int:"  , ch->perm_stat[STAT_INT], get_curr_stat(ch,STAT_INT),
+            "Mana:" , ch->mana,                ch->max_mana,
+            "Gold:",  ch->new_gold);
+    send_to_char(buf, ch);
+
+    sprintf(buf, "| %-4s %2d (%2d) | %-5s %5d (%5d) | %-9s %11ld |\n\r",
+            "Wis:"  , ch->perm_stat[STAT_WIS], get_curr_stat(ch,STAT_WIS),
+            "Move:" , ch->move,                ch->max_move,
+            "Silver:", ch->new_silver);
+    send_to_char(buf, ch);
+
+    sprintf(buf, "| %-4s %2d (%2d) | %-5s %5s  %5s  | %-9s %11ld |\n\r",
+            "Dex:"  , ch->perm_stat[STAT_DEX], get_curr_stat(ch,STAT_DEX),
+            " " , " ", " ",
+            "Copper:",  ch->new_copper);
+    send_to_char(buf, ch);
+
+    sprintf(buf, "| %-4s %2d (%2d) | %-5s %-5s  %-5s  | %-9s %11d |\n\r",
+            "Con:"  , ch->perm_stat[STAT_CON], get_curr_stat(ch,STAT_CON),
+            " " , " ", " ",
+            "Bank:",  (IS_NPC(ch) ? 0 : ch->pcdata->bank));
+    send_to_char(buf, ch);
+    send_to_char(kader, ch);
+
+    sprintf( buf, "| %-11s %8d | %-14s %18ld |\n\r",
+             "Quest Points:", ch->questpoints,
+             "Coins carried:",ch->new_platinum + ch->new_gold +
+                              ch->new_silver + ch->new_copper);
+    send_to_char(buf, ch);
+
+    sprintf( buf, "| %-11s %8d | %-14s %7d (%8d) |\n\r",
+             "Wimpy Points:",ch->wimpy,
+             "Items carried:",ch->carry_number, can_carry_n(ch));
+    send_to_char(buf, ch);
+
+    sprintf( buf, "| %-11s %10d | %-14s %7d (%8d) |\n\r",
+             "Alignment:",ch->alignment,
+             "Encumbrance:", query_carry_weight(ch), can_carry_w(ch));
     send_to_char( buf, ch );
+    send_to_char( kader, ch);
 
-    if ( get_trust( ch ) != ch->level )
+    sprintf( buf, "| %-11s  %8d | %-16s %5d %11s|\n\r",
+             "Piercing AC:", GET_AC(ch,AC_PIERCE),
+             "To Hit Bonus:", GET_HITROLL(ch), " ");
+    send_to_char(buf, ch);
+
+    sprintf( buf, "| %-11s  %8d | %-16s %5d %11s|\n\r",
+             "Bashing AC: ", GET_AC(ch,AC_BASH),
+             "To Damage Bonus:", GET_DAMROLL(ch), " ");
+    send_to_char(buf, ch);
+
+
+    sprintf( buf, "| %-11s  %8d | %-16s %5s %11s|\n\r",
+             "Slashing AC:", GET_AC(ch,AC_SLASH),
+             " ", " ", " ");
+    send_to_char(buf, ch);
+
+    sprintf( buf, "| %-11s  %8d | %-16s %5s %11s|\n\r",
+             "Magical AC: ", GET_AC(ch,AC_EXOTIC),
+             " ", " ", " ");
+    send_to_char(buf, ch);
+    send_to_char(kader, ch);
+
+    if ( !IS_NPC(ch) )
     {
-	sprintf( buf, "You are trusted at level %d.\n\r",
-	    get_trust( ch ) );
-	send_to_char( buf, ch );
-    }
+      if (ch->level != get_trust(ch))
+      {  sprintf(buf, "| You have been trusted by the gods at level %2d.%13s|\n\r",
+                 get_trust(ch)," ");
+         send_to_char(buf, ch);
+      }
 
-    sprintf(buf, "Race: %s  Sex: %s  Class: %s  Guild: %s  Castle: %s \n\r",
-	race_table[ch->race].name,
-	ch->sex == 0 ? "sexless" : ch->sex == 1 ? "male" : "female",
-	IS_NPC(ch) ? "mobile" : class_table[ch->class].name,
- 	IS_NPC(ch) ? "none" : get_guildname(ch->pcdata->guild),
- 	IS_NPC(ch) ? "none" : get_castlename(ch->pcdata->castle));
-    send_to_char(buf,ch);
-
-
-    sprintf( buf,
-	"You have %d/%d hit, %d/%d mana, %d/%d endurance.\n\r",
-	ch->hit,  ch->max_hit,
-	ch->mana, ch->max_mana,
-	ch->move, ch->max_move);
-    send_to_char( buf, ch );
-
-    sprintf( buf,
-	"You have %d practices and %d training sessions.\n\r",
-	ch->practice, ch->train);
-    send_to_char( buf, ch );
-
-    sprintf( buf,
-	"You are carrying %d/%d items with weight %d/%d pounds.\n\r",
-	ch->carry_number, can_carry_n(ch),
-	ch->carry_weight, can_carry_w(ch) );
-    send_to_char( buf, ch );
-
-    sprintf( buf,
-	"Str: %d(%d)  Int: %d(%d)  Wis: %d(%d)  Dex: %d(%d)  Con: %d(%d)\n\r",
-	ch->perm_stat[STAT_STR],
-	get_curr_stat(ch,STAT_STR),
-	ch->perm_stat[STAT_INT],
-	get_curr_stat(ch,STAT_INT),
-	ch->perm_stat[STAT_WIS],
-	get_curr_stat(ch,STAT_WIS),
-	ch->perm_stat[STAT_DEX],
-	get_curr_stat(ch,STAT_DEX),
-	ch->perm_stat[STAT_CON],
-	get_curr_stat(ch,STAT_CON) );
-    send_to_char( buf, ch );
-
-    sprintf( buf,
-	"You have scored %ld exp, and have %ld gold coins.\n\r",
-	ch->exp,  ch->gold );
-    send_to_char( buf, ch );
-
-    /* RT shows exp to level */
-    if(IS_IMMORTAL(ch) )
-      sprintf (buf, "You need 0 exp to level.\n\r");
-    else
-    if (!IS_NPC(ch) )
-    {
-      sprintf(buf,"You need %ld exp to level.\n\r",next_xp_level(ch) - ch->exp);
-      send_to_char(buf,ch);
-    }
-
-    sprintf( buf, "Wimpy set to %d hit points.\n\r", ch->wimpy );
-    send_to_char( buf, ch );
-
-    sprintf(buf,"You have %d quest points.\n\r",ch->questpoints);
-    send_to_char(buf,ch);
-
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]   > 10 )
-	send_to_char( "You are drunk.\n\r",   ch );
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] ==  0 )
-	send_to_char( "You are thirsty.\n\r", ch );
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL]   ==  0 )
-	send_to_char( "You are hungry.\n\r",  ch );
-
-    if(!IS_NPC(ch) && ch->pcdata->mounted)
-      send_to_char("You are mounted.\n\r",ch);
-    else if(ch->ridden)
-      send_to_char("You are serving as someones beast of burden.\n\r",ch);
-    else
-     switch ( ch->position )
-     {
-      case POS_DEAD:
-	send_to_char( "You are DEAD!!\n\r",		ch );
-	break;
-      case POS_MORTAL:
-	send_to_char( "You are mortally wounded.\n\r",	ch );
-	break;
-      case POS_INCAP:
-	send_to_char( "You are incapacitated.\n\r",	ch );
-	break;
-      case POS_STUNNED:
-	send_to_char( "You are stunned.\n\r",		ch );
-	break;
-      case POS_SLEEPING:
-	send_to_char( "You are sleeping.\n\r",		ch );
-	break;
-      case POS_RESTING:
-	send_to_char( "You are resting.\n\r",		ch );
-	break;
-      case POS_STANDING:
-	send_to_char( "You are standing.\n\r",		ch );
-	break;
-      case POS_FIGHTING:
-	send_to_char( "You are fighting.\n\r",		ch );
-	break;
-     }
-
-
-    /* print AC values */
-    if (ch->level >= 25)
-    {
-	sprintf( buf,"Armor: pierce: %d  bash: %d  slash: %d  magic: %d\n\r",
-		 GET_AC(ch,AC_PIERCE),
-		 GET_AC(ch,AC_BASH),
-		 GET_AC(ch,AC_SLASH),
-		 GET_AC(ch,AC_EXOTIC));
-    	send_to_char(buf,ch);
-    }
-
-    for (i = 0; i < 4; i++)
-    {
-	char * temp;
-
-	switch(i)
-	{
-	    case(AC_PIERCE):	temp = "piercing";	break;
-	    case(AC_BASH):	temp = "bashing";	break;
-	    case(AC_SLASH):	temp = "slashing";	break;
-	    case(AC_EXOTIC):	temp = "magic";		break;
-	    default:		temp = "error";		break;
-	}
-
-	send_to_char("You are ", ch);
-
-	if      (GET_AC(ch,i) >=  101 )
-	    sprintf(buf,"hopelessly vulnerable to %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 80)
-	    sprintf(buf,"defenseless against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 60)
-	    sprintf(buf,"barely protected from %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 40)
-	    sprintf(buf,"slighty armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 20)
-	    sprintf(buf,"somewhat armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 0)
-	    sprintf(buf,"armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -20)
-	    sprintf(buf,"well-armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -40)
-	    sprintf(buf,"very well-armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -60)
-	    sprintf(buf,"heavily armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -80)
-	    sprintf(buf,"superbly armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -100)
-	    sprintf(buf,"almost invulnerable to %s.\n\r",temp);
-	else
-	    sprintf(buf,"divinely armored against %s.\n\r",temp);
-
-	send_to_char(buf,ch);
-    }
-
-
-    /* RT wizinvis and holy light */
-    if ( IS_IMMORTAL(ch))
-    {
-      send_to_char("Holy Light: ",ch);
-      if (IS_SET(ch->act,PLR_HOLYLIGHT))
-	send_to_char("on",ch);
+      if ((ch->pcdata->condition[COND_DRUNK] > 10) &&
+          (ch->pcdata->condition[COND_THIRST] == 0) &&
+          (ch->pcdata->condition[COND_FULL] == 0))
+         sprintf(buf, "| You are drunk, thirsty and hungry. %23s|\n\r", " ");
       else
-        send_to_char("off",ch);
+      if ((ch->pcdata->condition[COND_DRUNK] > 10) &&
+          (ch->pcdata->condition[COND_THIRST] == 0))
+         sprintf(buf,"| You are drunk and thirsty.          %23s|\n\r", " ");
 
-      if (IS_SET(ch->act,PLR_WIZINVIS))
-      {
-        sprintf( buf, "  Invisible: level %d",ch->invis_level);
-        send_to_char(buf,ch);
+      else
+      if ((ch->pcdata->condition[COND_DRUNK] > 10) &&
+          (ch->pcdata->condition[COND_FULL] == 0))
+         sprintf(buf,"| You are drunk and hungry.           %23s|\n\r", " ");
+      else
+      if ((ch->pcdata->condition[COND_THIRST] == 0) &&
+          (ch->pcdata->condition[COND_FULL] == 0))
+         sprintf(buf,"| You are thirsty and hungry.         %23s|\n\r", " ");
+
+      else
+      if (ch->pcdata->condition[COND_DRUNK] > 10 )
+         sprintf(buf,"| You are drunk.                      %23s|\n\r", " " );
+      else
+      if (ch->pcdata->condition[COND_THIRST] == 0 )
+         sprintf(buf,"| You are thirsty.                    %23s|\n\r", " " );
+      else
+      if (ch->pcdata->condition[COND_FULL] == 0 )
+         sprintf(buf,"| You are hungry.                     %23s|\n\r", " " );
+
+      if ((ch->pcdata->condition[COND_DRUNK] > 10) ||
+          (ch->pcdata->condition[COND_THIRST] == 0) ||
+          (ch->pcdata->condition[COND_FULL] == 0))
+        send_to_char(buf, ch);
+
+      if (ch->pcdata->mounted)
+      {  sprintf(buf,"| You are mounted on a steed.         %23s|\n\r", " " );
+         send_to_char(buf, ch);
       }
 
-      if (IS_SET(ch->act,PLR_CLOAKED))
+
+      sprintf(buf,"| You are %8s                            %15s|\n\r",
+              (ch->alignment > 900 ? "angelic." :
+               (ch->alignment > 700 ? "saintly." :
+                (ch->alignment > 350 ? "good.   " :
+                 (ch->alignment > 100 ? "kind.   " :
+                  (ch->alignment > -100 ? "neutral." :
+                   (ch->alignment > -350 ? "mean.   " :
+                    (ch->alignment > -700 ? "evil.   " :
+                     (ch->alignment > -900 ? "demonic." : "satanic."))))))))," ");
+      send_to_char(buf, ch);
+
+      for (i = 0; i < 4; i++)
       {
-	sprintf( buf, "  Cloaked: level %d",ch->cloak_level);
-	send_to_char(buf,ch);
-      }
-      send_to_char("\n\r",ch);
-    }
+        char * temp;
 
-    if( !IS_NPC(ch) && ch->pcdata->pk_state == 1 )
-	send_to_char( "PKiller: On",ch );
-    else
-	send_to_char( "PKiller: Off",ch);
-
-    if( !IS_NPC(ch) && IS_SET(ch->act, PLR_KILLER) )
-	send_to_char( "  KILLER: Yes",ch);
-    else
-	send_to_char( "  KILLER: No",ch);
-
-    if( !IS_NPC(ch) && IS_SET(ch->act, PLR_THIEF ) )
-	send_to_char( "  THIEF: Yes\n\r",ch);
-    else
-	send_to_char( "  THIEF: No\n\r",ch);
-
-    if ( ch->level >= 15 )
-    {   if (!IS_NPC(ch))
-        { if (ch->pcdata->pk_state > 0)
-          { sprintf( buf, "Pkills given: %ld   Pkills received: %ld.\n\r",
-                     ch->pcdata->pkills_given,
-                     ch->pcdata->pkills_received);
-            send_to_char(buf,ch);
-          }
+        switch(i)
+        {
+            case(AC_PIERCE):    temp = "piercing.";      break;
+            case(AC_BASH):      temp = "bashing. ";      break;
+            case(AC_SLASH):     temp = "slashing.";      break;
+            case(AC_EXOTIC):    temp = "magic.   ";      break;
+            default:            temp = "error.   ";      break;
         }
-	sprintf( buf, "Hitroll: %d  Damroll: %d.\n\r",
-	    GET_HITROLL(ch), GET_DAMROLL(ch) );
-	send_to_char( buf, ch );
 
-    }
+        send_to_char("| You are ", ch);
 
-    if ( ch->level >= 10 )
-    {
-	sprintf( buf, "Alignment: %d.  ", ch->alignment );
-	send_to_char( buf, ch );
-    }
+        if      (GET_AC(ch,i) >=  101 )
+            sprintf(buf,"hopelessly vulnerable to %s %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= 80)
+            sprintf(buf,"defenseless against %s      %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= 60)
+            sprintf(buf,"barely protected from %s    %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= 40)
+            sprintf(buf,"slighty armored against %s  %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= 20)
+            sprintf(buf,"somewhat armored against %s %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= 0)
+            sprintf(buf,"armored against %s          %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= -20)
+            sprintf(buf,"well-armored against %s     %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= -40)
+            sprintf(buf,"very well-armored against %s%16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= -60)
+            sprintf(buf,"heavily armored against %s  %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= -80)
+            sprintf(buf,"superbly armored against %s %16s|\n\r",temp," ");
+        else if (GET_AC(ch,i) >= -100)
+            sprintf(buf,"almost invulnerable to %s   %16s|\n\r",temp," ");
+        else
+            sprintf(buf,"divinely armored against %s %16s|\n\r",temp," ");
+        send_to_char(buf, ch);
+      }
+      send_to_char(kader, ch);
 
-    send_to_char( "You are ", ch );
-         if ( ch->alignment >  900 ) send_to_char( "angelic.\n\r", ch );
-    else if ( ch->alignment >  700 ) send_to_char( "saintly.\n\r", ch );
-    else if ( ch->alignment >  350 ) send_to_char( "good.\n\r",    ch );
-    else if ( ch->alignment >  100 ) send_to_char( "kind.\n\r",    ch );
-    else if ( ch->alignment > -100 ) send_to_char( "neutral.\n\r", ch );
-    else if ( ch->alignment > -350 ) send_to_char( "mean.\n\r",    ch );
-    else if ( ch->alignment > -700 ) send_to_char( "evil.\n\r",    ch );
-    else if ( ch->alignment > -900 ) send_to_char( "demonic.\n\r", ch );
-    else                             send_to_char( "satanic.\n\r", ch );
+      sprintf(buf, "| Pkiller: %3s Flags:",
+             (ch->pcdata->pk_state == 1 ? "Yes" : "No "));
+      sprintf(buf + strlen(buf), " %6s ",
+              (IS_SET(ch->act, PLR_WANTED) ? "WANTED" : " "));
+      sprintf(buf + strlen(buf), " %6s ",
+              (IS_SET(ch->act, PLR_JAILED) ? "JAILED" :  " "));
+      sprintf(buf + strlen(buf), " %6s ",
+              (IS_SET(ch->comm,COMM_WHINE) ? "WHINER" : " "));
+      sprintf(buf + strlen(buf), "%13s |\n\r"," ");
+      send_to_char(buf, ch);
 
-    if (!IS_NPC(ch))
-    {
+
       if (IS_SET( ch->act, PLR_JAILED ))
       {
-        sprintf( buf, "You are jailed until %s\n\r",(char *)ctime(&ch->pcdata->jw_timer));
+        sprintf( buf, "| You are jailed until %s.           %23s\n\r",
+                 (char *)ctime(&ch->pcdata->jw_timer) , " ");
         send_to_char(buf,ch);
       }
+
+      if ( IS_IMMORTAL(ch))
+      {
+        send_to_char(kader, ch);
+        sprintf(buf,"| Holy Light: %5s |",
+               (IS_SET(ch->act,PLR_HOLYLIGHT) ? "On" : "Off"));
+
+        if (IS_SET(ch->act,PLR_WIZINVIS))
+           sprintf(buf + strlen(buf)," Invis level: %3d |", ch->invis_level);
+        else
+           sprintf(buf + strlen(buf)," Invis level: %3s |", "Off");
+
+        if (IS_SET(ch->act,PLR_CLOAKED))
+           sprintf(buf + strlen(buf)," Cloak level: %3d    |\n\r", ch->cloak_level);
+        else
+           sprintf(buf + strlen(buf)," Cloak level: %3s    |\n\r", "Off");
+
+        send_to_char(buf, ch);
+      }
+      send_to_char(kader, ch);
     }
+
 
   return;
 
@@ -1661,7 +1659,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		}
 
 	    /* a little formatting */
-	    sprintf(buf, "[%2d %s %s%s ] %s%s%s%s%s%s%s%s%s%s%s%s%s\n\r",
+	    sprintf(buf, "[%2d %s %s%s ] %s%s%s%s%s%s%s%s%s%s%s%s%s%s\n\r",
 		wch->level,
 		wch->race < MAX_PC_RACE ? pc_race_table[wch->race].who_name
 					: "      ",
@@ -1672,6 +1670,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		wch->pcdata->castle == 0 ? "" : "] ",
 		IS_SET(wch->act,PLR_WIZINVIS) ? "(WIZI) " : "",
 		IS_SET(wch->comm,COMM_WHINE) ? "(WHINER) " : "",
+		IS_SET(wch->act,PLR_WANTED) ? "(WANTED) " : "",
 		IS_SET(wch->act,PLR_WARNED) ? "(WARNED) " : "",
   	 	IS_SET(wch->act,PLR_JAILED) ? "(JAILED) " : "",
 		IS_SET(wch->act,PLR_EXCON) ? "(EXCON) " : "",
@@ -1891,7 +1890,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	/*
 	 * Format it up.
 	 */
-	sprintf( buf, "[%2d %s %s%s ] %s%s%s%s%s%s%s%s%s%s%s%s%s%s\n\r",
+	sprintf( buf, "[%2d %s %s%s ] %s%s%s%s%s%s%s%s%s%s%s%s%s%s%s\n\r",
 	    wch->level,
             (!str_cmp(wch->name,"Blackbird") ? "Bird   "
              : (!str_cmp(wch->name,"Gravestone") ? "Tomb   "
@@ -1911,6 +1910,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	    wch->pcdata->castle == 0 ? "" : "] ",
 	    IS_SET(wch->act, PLR_WIZINVIS) ? "(WIZI) " : "",
 	    IS_SET(wch->comm,COMM_WHINE) ? "(WHINER) " : "",
+	    IS_SET(wch->act, PLR_WANTED)  ? "(WANTED) "  : "",
 	    IS_SET(wch->act, PLR_WARNED)  ? "(WARNED) "  : "",
 	    IS_SET(wch->act, PLR_JAILED)  ? "(JAILED) "  : "",
 	    IS_SET(wch->act, PLR_EXCON)  ? "(EXCON) "  : "",
@@ -2344,13 +2344,9 @@ void do_consider( CHAR_DATA *ch, char *argument )
     {
 	send_to_char("***PKILLER***\n\r",ch);
     }
-    else if(!IS_NPC(victim) && IS_SET(victim->act, PLR_KILLER ) )
+    else if(!IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED ) )
     {
-	send_to_char("***KILLER***\n\r",ch);
-    }
-    else if(!IS_NPC(victim) && IS_SET(victim->act, PLR_THIEF) )
-    {
-	send_to_char("***THIEF***\n\r",ch);
+	send_to_char("***WANTED***\n\r",ch);
     }
 
     return;
@@ -3632,18 +3628,22 @@ void do_danger( CHAR_DATA *ch, char *argument )
     CHAR_DATA *list;
     int door, loop = 0, chance;
     bool danger = FALSE, found = FALSE;
+
     if(IS_NPC(ch) )
        return;
+
     if ( ch->position < POS_SLEEPING )
     {
 	send_to_char( "Your down for the count!\n\r", ch );
 	return;
     }
+
    if( (chance = ch->pcdata->learned[gsn_danger_sense]) < 1)
    {
      send_to_char("Huh?\n\r",ch);
      return;
    }
+
     if ( ch->position == POS_SLEEPING
      && number_percent() + 25 > chance  )
     {
@@ -3655,21 +3655,26 @@ void do_danger( CHAR_DATA *ch, char *argument )
       send_to_char("You sense no danger.\n\r",ch);
       return;
     }
+
     was_in_room = ch->in_room;
     scan_room   = ch->in_room;
+
 	for ( door = 0; door <= 9; door++ )
 	{
 	  EXIT_DATA *pexit;
 	  int counter = 0;
+
 	  if(ch->level >= LEVEL_HERO)
 	     loop = 3;
 	  else
 	    loop = 2;
+
 	  while( loop != 0 )
 	  {
 	    found = FALSE;
 	    counter += 1;
 	    loop -= 1;
+
 	    if ( ( pexit = scan_room->exit[door] ) != NULL
 	    &&   !IS_SET(pexit->exit_info, EX_SECRET)
 	    &&   pexit->u1.to_room != NULL
@@ -3678,10 +3683,12 @@ void do_danger( CHAR_DATA *ch, char *argument )
 		ch->in_room = pexit->u1.to_room;
 		scan_room = ch->in_room;
 		list = ch->in_room->people;
+
 		for ( rch = list; rch != NULL; rch = rch->next_in_room )
 		{
 		  if ( rch == ch )
 		      continue;
+
 		  if( IS_NPC(rch) && rch->level >= ch->level - 7
 		      && IS_SET(rch->act, ACT_AGGRESSIVE) )
 		  {
@@ -3690,6 +3697,7 @@ void do_danger( CHAR_DATA *ch, char *argument )
 		    break;
 		  }
 		}
+
 	       if(danger)
 		  switch ( door )
 		  {
@@ -3780,11 +3788,14 @@ void do_danger( CHAR_DATA *ch, char *argument )
 	  }
 	  scan_room = was_in_room;
 	}
+
     if(!found)
       send_to_char("You sense no danger.\n\r",ch);
     else
       check_improve(ch,gsn_danger_sense,TRUE,5);
+
     ch->in_room = was_in_room;
+
     return;
 }
 */
@@ -3856,8 +3867,10 @@ void do_listen( CHAR_DATA *ch, char *argument )
 void do_pkill( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+
     if(IS_NPC(ch))
   	return;
+
     if(ch->pcdata->confirm_pkill)
     {
 	if(argument[0] != '\0')
@@ -3876,28 +3889,33 @@ void do_pkill( CHAR_DATA *ch, char *argument )
 	    return;
 	}
     }
+
     if(ch->pcdata->pk_state == 1)
     {
 	send_to_char("You are already a pkiller!\n\r",ch);
 	return;
     }
+
     if(ch->level < 15)
     {
 	send_to_char("You can only use this command after you have reached\n\r",ch);
 	send_to_char("level 15. Please consult the help for further info.\n\r",ch);
 	return;
     }
+
     if( ch->level > 30 )
     {
 	send_to_char("Your time to choose to be a pkiller has come and gone.\n\r",ch);
 	send_to_char("You should have read the help.\n\r",ch);
 	return;
     }
+
     if( argument[0] != '\0' )
     {
 	send_to_char("Just type pkill, no argument\n\r",ch);
 	return;
     }
+
     send_to_char("Type pkill again to confirm this command.\n\r",ch);
     send_to_char("WARNING: This command is irreversable.\n\r",ch);
     send_to_char("Please make sure you have read the helps about pkilling\n\r",ch);
@@ -3989,6 +4007,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
    char arg1[MAX_INPUT_LENGTH];
    char arg2[MAX_INPUT_LENGTH];
    char arg3[MAX_INPUT_LENGTH];
+   char arg4[MAX_INPUT_LENGTH];
    char get_class[MAX_INPUT_LENGTH];
    char *to_strip;
    char buf[MAX_STRING_LENGTH];
@@ -3996,6 +4015,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
    int had_classes[2*MAX_CLASS];
    int requested_class = -2;
    int requested_guild = -2;
+   int requested_race = -2;
    int i;
    int ind_class;
    OBJ_DATA *obj;
@@ -4007,10 +4027,11 @@ void do_remort( CHAR_DATA *ch, char *arg)
    to_strip = one_argument(arg,arg1);
    to_strip = one_argument(to_strip,arg2);
    to_strip = one_argument(to_strip,arg3);
+   to_strip = one_argument(to_strip,arg4);
 
    if ((to_strip[0] != '\0') || (arg1[0] == '\0') ||
-       (strlen(arg2) < 2) || (strlen(arg3) < 2)) {
-     send_to_char("Syntax: remort <password> <class> <guild>\n\r", ch);
+       (strlen(arg2) < 2) || (strlen(arg3) < 2) || (strlen(arg4) < 2)) {
+     send_to_char("Syntax: remort <password> <class> <guild> <race>\n\r", ch);
      send_to_char("In case you choose a class that does not have a guild,\n\r"
                   "you have to supply the guild by typing none.\n\r", ch);
      send_to_char("The class & guild you have to supply by a minimum of 2 characters\n\r",ch);
@@ -4025,6 +4046,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
 
    for (i=0;arg2[i] != '\0';i++) arg2[i] = LOWER(arg2[i]);
    for (i=0;arg3[i] != '\0';i++) arg3[i] = LOWER(arg3[i]);
+   for (i=0;arg4[i] != '\0';i++) arg4[i] = LOWER(arg4[i]);
 
    for (i=0;i<MAX_CLASS;i++) {
      if (!str_prefix(arg2,class_table[i].name)) {
@@ -4053,7 +4075,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
       requested_guild = -1;
 
    if (requested_guild == -2) {
-     send_to_char("The guild you have supplied was not valid.\n",ch);
+     send_to_char("The guild you have supplied was not valid.\n\r",ch);
      return;
    }
    if ((requested_guild >= 0) &&
@@ -4064,6 +4086,30 @@ void do_remort( CHAR_DATA *ch, char *arg)
        send_to_char("The guild selected is not valid.\n\r",ch);
        return;
    }
+
+   requested_race = race_lookup(arg4);
+   if (requested_race <= 0 || !race_table[requested_race].pc_race)
+   {
+     send_to_char("The race you selected was not a valid race.\n\r",ch);
+     return;
+   }
+
+   if ((requested_class == CLASS_NECRO) &&
+       (requested_race != race_lookup("elf")) &&
+       (requested_race != race_lookup("human")))
+   { send_to_char("A Necromancer can only have as race Elf or Human.\n\r",ch);
+     return;
+   }
+
+   if ((requested_class == CLASS_MONK) &&
+       (requested_race != race_lookup("dwarf")) &&
+       (requested_race != race_lookup("human")))
+   {
+     send_to_char("A Monk can only have as race Dwarf or Human.\n\r",ch);
+     return;
+   }
+
+
    if (ch->level != LEVEL_HERO3 + ch->pcdata->num_remorts) {
      send_to_char("You are not yet ready to remort.\n\r",ch);
      sprintf(buf,"You need to advance till level %d.\n\r",
@@ -4156,30 +4202,31 @@ void do_remort( CHAR_DATA *ch, char *arg)
    ch->mana     = ch->max_mana;
    ch->move     = ch->max_move;
    ch->class    = requested_class;
-    if (ch->class == CLASS_MONK)
-   { ch->pcdata->guild = GUILD_MONK;
-     ch->race = 1;
-   }
+   ch->race     = requested_race;
+   if (ch->class == CLASS_MONK)
+     ch->pcdata->guild = GUILD_MONK;
    else
      if (ch->class == CLASS_NECRO)
-     { ch->pcdata->guild = GUILD_NECRO;
-       ch->race = 1;
-     }
+       ch->pcdata->guild = GUILD_NECRO;
      else
-        if (requested_guild >= 0) ch->pcdata->guild = requested_guild;
-        else
+       if (requested_guild >= 0)
+           ch->pcdata->guild = requested_guild;
+       else
            ch->pcdata->guild = GUILD_NONE;
+   ch->size = pc_race_table[ch->race].size;
 
    while (ch->affected) affect_remove(ch,ch->affected );
    ch->affected = NULL;
+   ch->imm_flags = 0;
+   ch->res_flags = 0;
+   ch->vuln_flags = 0;
    ch->affected_by = 0;
    ch->affected_by2 = 0;
 
    for (i = 0; i < 4; i++) ch->armor[i]= 100;
    if ( ch->pcdata->mounted) ch->pcdata->mounted = FALSE;
-   REMOVE_BIT(ch->act, PLR_THIEF);
    REMOVE_BIT(ch->act, PLR_BOUGHT_PET);
-   REMOVE_BIT(ch->act, PLR_KILLER);
+   REMOVE_BIT(ch->act, PLR_WANTED);
    sprintf(buf, "the %s", title_table[ch->class][1][(ch->sex == SEX_FEMALE? 1 : 0)]);
    set_title(ch, buf);
    for (i=0;i<MAX_SKILL;i++) ch->pcdata->learned[i] = 0;
@@ -4188,7 +4235,20 @@ void do_remort( CHAR_DATA *ch, char *arg)
    ch->pcdata->learned[gsn_recall] = 100;
    group_add(ch,"rom basics",FALSE);
    group_add(ch,class_table[ch->class].base_group,FALSE);
+   group_add(ch,class_table[ch->class].default_group,TRUE);
 
+   for (i = 0; i < 5; i++)
+   {
+      if (pc_race_table[ch->race].skills[i] == NULL)
+        break;
+      group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
+   }
+   ch->affected_by = ch->affected_by|race_table[ch->race].aff;
+   ch->imm_flags   = ch->imm_flags | race_table[ch->race].imm;
+   ch->res_flags   = ch->res_flags | race_table[ch->race].res;
+   ch->vuln_flags  = ch->vuln_flags | race_table[ch->race].vuln;
+   ch->form        = race_table[ch->race].form;
+   ch->parts       = race_table[ch->race].parts;
 
    for (i=1;i<9;i++) {
      switch(i) {
@@ -4228,7 +4288,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
    }
    ch->position = POS_STANDING;
    ch->pcdata->bank = 0;
-   ch->gold = 500;
+   ch->new_silver = 50;
    ch->pcdata->last_level = 2;
 
    save_char_obj(ch);
