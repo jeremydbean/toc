@@ -432,11 +432,11 @@ int main( int argc, char **argv )
    /* mudport = port; */
     control = init_socket( port );
     boot_db();
-    init_web(port+2);
+    /*init_web(port+2);*/
     sprintf( log_buf, "TOC is ready to rock on port %d.", port );
     log_string( log_buf );
     game_loop_unix( control );
-    shutdown_web();
+   /* shutdown_web();*/
     close (control);
 #endif
 
@@ -613,7 +613,7 @@ void game_loop_mac_msdos( void )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-	handle_web();
+	/*handle_web();*/
 
 
 	/*
@@ -818,7 +818,7 @@ void game_loop_unix( int control )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-	handle_web();
+	/*handle_web();*/
 
 	/*
 	 * Output.
@@ -1721,13 +1721,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	if ( ch->pcdata->pwd[0] == '\0')
-	{
-	    write_to_buffer( d, "Warning! Null password!\n\r",0 );
-	    write_to_buffer( d, "Please report old password with bug.\n\r",0);
-	    write_to_buffer( d,
-		"Type 'password null <new password>' to fix.\n\r",0);
-	}
+	/*if ( ch->pcdata->pwd[0] == '\0')
+	/*{
+	/*    write_to_buffer( d, "Warning! Null password!\n\r",0 );
+	/*    write_to_buffer( d, "Please report old password with bug.\n\r",0);
+	/*    write_to_buffer( d,
+	/*	"Type 'password null <new password>' to fix.\n\r",0);
+	/*}
 
 	write_to_buffer( d, echo_on_str, 0 );
 
@@ -2553,7 +2553,7 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
 	if ( dold != d
 	&&   dold->character != NULL
 	&&   dold->connected != CON_GET_NAME
-	&&   dold->connected != CON_GET_OLD_PASSWORD
+	//&&   dold->connected != CON_GET_OLD_PASSWORD
 	&&   !str_cmp( name, dold->original
 		 ? dold->original->name : dold->character->name ) )
 	{
