@@ -17,6 +17,7 @@ RASPBERRY PI PREREQUIREMENTS:
 
 - sudo apt install csh
 - sudo apt-get install build-essential
+- sudo apt-get install telnet
 - sudo apt update
 - sudo apt upgrade
 
