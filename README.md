@@ -43,9 +43,8 @@ STARTING THE MUD:
 - make
 - cp merc ../area
 - cd ../area
-- chmod +x startup
-- ./startup &
-	- NOTE: If errors, you can try typing './merc 9000 &' from areas folder.
+- ./merc 9000 &
+
 	
 	
 TESTING THE MUD:
@@ -56,10 +55,10 @@ WAYS TO MAKE MUD OPEN EASILY:
 - sudo nano ~/.bashrc
 - Add the following lines to the bottom
 	- cd /home/pi/ToC/area
-	- ./startup &
+	- ./merc 9000 &
 - Ctrl + X, Y, ENTER
 - Every time you open a terminal window, you will be in the areas directory, and the MUD will attempt to start if not already running.
 
 OTHER COMMANDS:
-- ps ux : views all running processes.  First number listed after pi is the 'Process ID'  last line is the description.  The MUD is both ./startup and ./merc 9000
-- If you need to force kill the MUD, use 'ps ux' to find the process ID, then do 'kill <number>'
+- ps ux : views all running processes.  First number listed after pi is the 'Process ID'  last line is the description.  The MUD is: 	- './merc 9000'
+- If you need to force kill the MUD, use 'ps ux' to find the process ID for './merc 9000', then do 'kill <number>'
