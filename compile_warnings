@@ -1,0 +1,295 @@
+make
+gcc -c -g -O -Wall -DROM   act_comm.c
+gcc -c -g -O -Wall -DROM   act_info.c
+act_info.c: In function ‘do_whois’:
+act_info.c:1652:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if(wch->class != CLASS_MONK
+       ^~
+act_info.c:1654:23: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+       guild = "    "; break;
+                       ^~~~~
+act_info.c: In function ‘do_equipment’:
+act_info.c:1983:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+        else
+        ^~~~
+act_info.c:1986:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+  if ( can_see_obj( ch, obj ) )
+  ^~
+act_info.c: In function ‘do_teachlist’:
+act_info.c:2641:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+        if ((gmdata.guild != GUILD_ANY)
+        ^~
+act_info.c:2645:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+          col = 0;
+          ^~~
+act_info.c: In function ‘do_gainlist’:
+act_info.c:2709:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+        if ((gmdata.guild != GUILD_ANY)
+        ^~
+act_info.c:2713:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+          col = 0;
+          ^~~
+gcc -c -g -O -Wall -DROM   act_move.c
+act_move.c: In function ‘move_char’:
+act_move.c:512:8: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+        for( pick_door = 0; pick_door < 10; pick_door++)
+        ^~~
+act_move.c:519:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘for’
+   pick_door = number_range(0,count);
+   ^~~~~~~~~
+gcc -c -g -O -Wall -DROM   act_obj.c
+gcc -c -g -O -Wall -DROM   act_wiz.c
+act_wiz.c: In function ‘do_finger’:
+act_wiz.c:219:1: warning: implicit declaration of function ‘ctime’ [-Wimplicit-function-declaration]
+ ctime(&logon ) );
+ ^~~~~
+act_wiz.c: In function ‘do_switch’:
+act_wiz.c:2643:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->were_shape.name != NULL && victim->name != "ghost")
+                                                         ^~
+act_wiz.c: In function ‘do_return’:
+act_wiz.c:2679:22: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->name != "ghost")
+                      ^~
+act_wiz.c: In function ‘do_advance’:
+act_wiz.c:3070:9: warning: variable ‘updown’ set but not used [-Wunused-but-set-variable]
+     int updown = 1;
+         ^~~~~~
+gcc -c -g -O -Wall -DROM   comm.c
+comm.c: In function ‘new_descriptor’:
+comm.c:922:54: warning: pointer targets in passing argument 3 of ‘getsockname’ differ in signedness [-Wpointer-sign]
+     getsockname( control, (struct sockaddr *) &sock, &size );
+                                                      ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/arm-linux-gnueabihf/sys/socket.h:127:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~~~~~~
+comm.c:923:63: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+     if ( ( desc = accept( control, (struct sockaddr *) &sock, &size) ) < 0 )
+                                                               ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/arm-linux-gnueabihf/sys/socket.h:243:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~
+comm.c:955:56: warning: pointer targets in passing argument 3 of ‘getpeername’ differ in signedness [-Wpointer-sign]
+     if ( getpeername( desc, (struct sockaddr *) &sock, &size ) < 0 )
+                                                        ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/arm-linux-gnueabihf/sys/socket.h:141:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int getpeername (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~~~~~~
+comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
+     int ipaddr[4];
+         ^~~~~~
+comm.c: In function ‘close_socket’:
+comm.c:1102:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+    if(!IS_SET(ch->act, PLR_WIZINVIS) )
+    ^~
+comm.c:1104:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+      sprintf(buf, "%s has lost %s link. [Room: %d]", ch->name,
+      ^~~~~~~
+comm.c: In function ‘nanny’:
+comm.c:1725:2: warning: "/*" within comment [-Wcomment]
+  /*{
+
+comm.c:1726:2: warning: "/*" within comment [-Wcomment]
+  /*    write_to_buffer( d, "Warning! Null password!\n\r",0 );
+
+comm.c:1727:2: warning: "/*" within comment [-Wcomment]
+  /*    write_to_buffer( d, "Please report old password with bug.\n\r",0);
+
+comm.c:1728:2: warning: "/*" within comment [-Wcomment]
+  /*    write_to_buffer( d,
+
+comm.c:1729:2: warning: "/*" within comment [-Wcomment]
+  /* "Type 'password null <new password>' to fix.\n\r",0);
+
+comm.c:1730:2: warning: "/*" within comment [-Wcomment]
+  /*}
+
+comm.c:1749:9: warning: "/*" within comment [-Wcomment]
+         /* bugfix by blackbird */
+
+comm.c: In function ‘check_reconnect’:
+comm.c:2490:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if(!IS_SET(ch->act, PLR_WIZINVIS) )
+       ^~
+comm.c:2492:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+   sprintf( log_buf, "%s@%s reconnected. [Room: %d]", ch->name,
+   ^~~~~~~
+comm.c: In function ‘show_string’:
+comm.c:2719:6: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+      for (chk = d->showstr_point; isspace(*chk); chk++);
+      ^~~
+comm.c:2720:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘for’
+      {
+      ^
+gcc -c -g -O -Wall -DROM   const.c
+gcc -c -g -O -Wall -DROM   db.c
+db.c: In function ‘fread_string’:
+db.c:3305:9: warning: case label value is less than minimum value for type
+         case EOF:
+         ^~~~
+db.c: In function ‘fread_string_eol’:
+db.c:3413:9: warning: case label value is less than minimum value for type
+         case EOF:
+         ^~~~
+gcc -c -g -O -Wall -DROM   edit.c
+edit.c: In function ‘edit_exit’:
+edit.c:183:9: warning: variable ‘vnum’ set but not used [-Wunused-but-set-variable]
+     int vnum;
+         ^~~~
+gcc -c -g -O -Wall -DROM   fight.c
+fight.c: In function ‘violence_update’:
+fight.c:81:16: warning: variable ‘ch_next’ set but not used [-Wunused-but-set-variable]
+     CHAR_DATA *ch_next;
+                ^~~~~~~
+fight.c: In function ‘check_killer’:
+fight.c:1686:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if ( IS_NPC(ch) ||   ch == victim )
+     ^~
+fight.c:1689:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  if ( !IS_SET(victim->act, PLR_WANTED)
+  ^~
+fight.c: In function ‘check_parry’:
+fight.c:1718:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if(victim->class != CLASS_MONK)
+       ^~
+fight.c:1721:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  chance  = victim->pcdata->learned[gsn_parry] / 2;
+  ^~~~~~
+fight.c: In function ‘group_gain’:
+fight.c:2294:16: warning: variable ‘lch’ set but not used [-Wunused-but-set-variable]
+     CHAR_DATA *lch;
+                ^~~
+gcc -c -g -O -Wall -DROM   handler.c
+handler.c: In function ‘affect_remove’:
+handler.c:987:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^~~~
+handler.c:987:9: warning: incompatible implicit declaration of built-in function ‘exit’
+handler.c:987:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+handler.c: In function ‘affect_join’:
+handler.c:1129:17: warning: operation on ‘paf->level’ may be undefined [-Wsequence-point]
+      paf->level = (paf->level += paf_old->level) / 2;
+      ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+handler.c:1122:10: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
+     bool found;
+          ^~~~~
+gcc -c -g -O -Wall -DROM   misc.c
+gcc -c -g -O -Wall -DROM   interp.c
+gcc -c -g -O -Wall -DROM   magic.c
+magic.c: In function ‘spell_dispel_magic’:
+magic.c:1937:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (check_dispel(level,victim,skill_lookup("detect invis")))
+     ^~
+magic.c:1940:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  found = TRUE;
+  ^~~~~
+magic.c: In function ‘spell_heat_metal’:
+magic.c:2890:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+      if ( number_bits( 2 ) != 0 )
+      ^~
+magic.c:2893:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+    switch ( obj_lose->item_type )
+    ^~~~~~
+gcc -c -g -O -Wall -DROM   pkill.c
+gcc -c -g -O -Wall -DROM   save.c
+save.c: In function ‘fread_char’:
+save.c:839:24: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
+     int cur_alias = 0, temp;
+                        ^~~~
+gcc -c -g -O -Wall -DROM   skills.c
+skills.c: In function ‘exp_per_level’:
+skills.c:600:9: warning: variable ‘expl’ set but not used [-Wunused-but-set-variable]
+     int expl,inc;
+         ^~~~
+gcc -c -g -O -Wall -DROM   special.c
+special.c: In function ‘spec_psionic’:
+special.c:663:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
+     char *spell;
+           ^~~~~
+special.c: In function ‘spec_monk’:
+special.c:2653:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
+     char *spell;
+           ^~~~~
+gcc -c -g -O -Wall -DROM   hunt.c
+hunt.c: In function ‘do_danger_sense’:
+hunt.c:407:24: warning: variable ‘dir’ set but not used [-Wunused-but-set-variable]
+     int count, chance, dir, count2;
+                        ^~~
+gcc -c -g -O -Wall -DROM   update.c
+update.c:80:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:80:3: note: (near initialization for ‘were_types[0]’)
+update.c:85:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:85:3: note: (near initialization for ‘were_types[1]’)
+update.c:89:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:89:3: note: (near initialization for ‘were_types[2]’)
+update.c:93:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:93:3: note: (near initialization for ‘were_types[3]’)
+update.c:97:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:97:3: note: (near initialization for ‘were_types[4]’)
+update.c:101:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:101:3: note: (near initialization for ‘were_types[5]’)
+update.c:105:3: warning: missing braces around initializer [-Wmissing-braces]
+   {
+   ^
+update.c:105:3: note: (near initialization for ‘were_types[6]’)
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:74:1: note: (near initialization for ‘were_types’)
+update.c: In function ‘disaster_update’:
+update.c:2732:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+update.c:2760:7: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+       if(hit == TRUE)
+       ^~
+update.c:2813:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+        else
+        ^~~~
+update.c:2850:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+         if( hit )
+         ^~
+gcc -c -g -O -Wall -DROM   magic2.c
+magic2.c: In function ‘do_lore’:
+magic2.c:143:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  else if( check < 1)
+       ^~
+magic2.c:146:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+    send_to_char( ".\n\r", ch );
+    ^~~~~~~~~~~~
+magic2.c:166:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+magic2.c:169:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+    send_to_char( ".\n\r", ch );
+    ^~~~~~~~~~~~
+magic2.c: In function ‘spell_vengence’:
+magic2.c:2925:9: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+     int count;
+         ^~~~~
+gcc -c -g -O -Wall -DROM   quest.c
+gcc -c -g -O -Wall -DROM   maxload.c
+gcc -c -g -O -Wall -DROM   wizlist.c
+rm -f merc
+gcc -g -O -lcrypt  -o merc act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o

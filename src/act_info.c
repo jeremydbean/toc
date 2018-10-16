@@ -1651,12 +1651,13 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		    default            :
 		 if (wch->class != CLASS_MONK
 		    && wch->class != CLASS_NECRO)
-				guild = "    ";	break;
+      {
+        guild = "    ";	break;
 		    case GUILD_MAGE    : guild = "/M  ";	break;
 		    case GUILD_CLERIC  : guild = "/C  ";	break;
 		    case GUILD_THIEF   : guild = "/T  ";	break;
-		    case GUILD_WARRIOR : guild = "/W  ";	break;
-		}
+		    case GUILD_WARRIOR : guild = "/W  ";	break;}
+  		}
 
 	    /* a little formatting */
 	    sprintf(buf, "[%2d %s %s%s ] %s%s%s%s%s%s%s%s%s%s%s%s%s%s\n\r",
