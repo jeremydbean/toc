@@ -12,6 +12,7 @@ CURRENT REPORTED BUGS:
 
 Raspberry Pi:
 
+- sudo git clone http://www.github.com/jeremydbean/ToC.git
 - sudo git config credential.helper store
 - sudo git pull
 - sudo git push
