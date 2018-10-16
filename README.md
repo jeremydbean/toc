@@ -53,11 +53,11 @@ TESTING THE MUD:
 
 WAYS TO MAKE MUD OPEN EASILY:
 - sudo nano ~/.bashrc
-- Add the following lines to the bottom
+- Add the following line to the bottom
 	- cd /home/pi/ToC/area
-	- ./merc 9000 &
 - Ctrl + X, Y, ENTER
-- Every time you open a terminal window, you will be in the areas directory, and the MUD will attempt to start if not already running.
+- Every time you open a terminal window, you will be in the areas directory.
+- Simply type ./merc 9000 &  (or, hit the "Up" key and it's usually the last command used), and hit ENTER.
 
 OTHER COMMANDS:
 - ps ux : views all running processes.  First number listed after pi is the 'Process ID'  last line is the description.  The MUD is: 	- './merc 9000'
