@@ -64,7 +64,7 @@ void    btick_update    args( ( void ) );
 void	damage_eq	args( (CHAR_DATA *victim, int damage));
 
 /* defined in handler.c for use with dual wield skill */
-extern  get_dual_sn     args( (CHAR_DATA *ch) );
+extern int get_dual_sn     args( (CHAR_DATA *ch) );
 extern const WERE_FORM were_types[];
 
 extern const    sh_int  rev_dir[];
@@ -794,11 +794,12 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
     else if (victim->position < POS_FIGHTING)
 	dam = dam * 3 / 2;
 
-    if ( dt == gsn_backstab && wield != NULL)
+    if ( dt == gsn_backstab && wield != NULL) {
 	if ( wield->value[0] != 2 )
 	    dam *= 2 + ch->level / 15;
 	else
 	    dam *= 2 + ch->level / 10;
+    }
 
     if ( (dt != gsn_backstab) && (get_skill(ch,gsn_enhanced_damage) > 0) )
     {
@@ -1277,23 +1278,22 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
 
 	    if(victim->hunting)
 		do_stop_hunting(victim, victim->hunting->name);
-
-	    if(victim->level >= LEVEL_HERO)
-	    {
-	      int xp      = 0;
-	      int xp2     = 0;
-	      int xp3     = 0;
-                   
-              xp = ch->exp;
-	      xp2 = victim->exp;
-              xp3 = xp - xp2;
-	      if(xp3 < 0)
-		gain_exp( victim, xp3 * 0.05 );
-	    }
-	    else if ( victim->exp > exp_per_level(victim,victim->pcdata->points)
-				  * victim->level )
-		gain_exp( victim, (exp_per_level(victim,victim->pcdata->points)
-				    * victim->level - victim->exp)/2 );
+          
+	    if(IS_NPC(ch)) {
+              long curr_exp;
+              long base_exp;
+              base_exp = exp_per_level(victim,victim->pcdata->points) * victim->level;
+              curr_exp = victim->exp;
+              if (curr_exp > base_exp) {
+                gain_exp(victim, UMIN(-1 * ((curr_exp - base_exp)/2),-1));
+              } else if (curr_exp < base_exp) {
+                { sprintf( log_buf, "[GAMEDRIVER] %s has %ld exp at level %d. Minimum for level is %ld.",
+                                  victim->name, curr_exp, victim->level, base_exp);
+                log_string(log_buf);
+                wizinfo(log_buf,LEVEL_IMMORTAL);
+                }
+	      }
+            }
 	} else
 	{
 	    remove_all_hates(victim);
@@ -1342,13 +1342,18 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
 	    if (IS_SET(ch->act,PLR_AUTOGOLD) &&
 		corpse && corpse->contains  && /* exists and not empty */
 		!IS_SET(ch->act,PLR_AUTOLOOT))
-	      do_get(ch, "coin corpse");
+             { do_get(ch, "gold corpse");
+                do_get(ch, "platinum corpse");
+                do_get(ch, "silver corpse");
+                do_get(ch, "copper corpse");
+             }
 
-	    if ( IS_SET(ch->act, PLR_AUTOSAC) )
+	    if ( IS_SET(ch->act, PLR_AUTOSAC) ) {
 	      if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
 		return TRUE;  /* leave if corpse has treasure */
 	      else
 		do_sacrifice( ch, "corpse" );
+	    }
 	}
 
 	return TRUE;
@@ -1400,7 +1405,6 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
 
 bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim )
 {
-
     /* no killing in shops hack */
     if (IS_NPC(victim) && victim->pIndexData->pShop != NULL)
     {
@@ -1460,7 +1464,7 @@ bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim )
 	if (!IS_NPC(ch) && IS_SET(ch->in_room->room_flags, ROOM_ARENA) )
 	    return FALSE;
 
-	if ( !IS_NPC(victim) &&
+	if ( !IS_NPC(victim) && !IS_SET(victim->act,PLR_WANTED) &&
 	((ch->level - victim->level > 5) || (victim->level - ch->level > 5)))
 	{
 	    send_to_char("Pick on someone your own size!!\n\r", ch);
@@ -1553,10 +1557,10 @@ bool is_safe_spell(CHAR_DATA *ch, CHAR_DATA *victim, bool area )
 	if (IS_NPC(victim) && area)
 	    return TRUE;
 
-	if (IS_SET(victim->act, PLR_KILLER) )
+	if (IS_SET(victim->act, PLR_WANTED) )
 	    return FALSE;
 
-	if ( !IS_NPC(victim) &&
+	if ( !IS_NPC(victim) && !IS_SET(victim->act,PLR_WANTED) &&
 	((ch->level - victim->level > 5) || (victim->level - ch->level > 5)))
 	    return TRUE;
 
@@ -1635,12 +1639,6 @@ void check_killer( CHAR_DATA *ch, CHAR_DATA *victim )
 	return;
 
     /*
-     * Killing Thiefs are kewl also
-     */
-    if (IS_SET(victim->act, PLR_THIEF))
-	return;
-
-    /*
      * Arenas are kewl
      */
     if ( IS_SET(ch->in_room->room_flags, ROOM_ARENA) ) 
@@ -1668,11 +1666,11 @@ void check_killer( CHAR_DATA *ch, CHAR_DATA *victim )
 
 	if (!IS_NPC(ch->master) && !IS_NPC(victim) )
 	{
-	    if ( !IS_SET(victim->act, PLR_KILLER)
-	    &&   !IS_SET(ch->act, PLR_KILLER) )
+	    if ( !IS_SET(victim->act, PLR_WANTED)
+	    &&   !IS_SET(ch->act, PLR_WANTED) )
 	    {
-		send_to_char("*** You are now a KILLER!! ***\n\r", ch->master );
-		SET_BIT(ch->master->act, PLR_KILLER);
+		send_to_char("*** You are now WANTED!! ***\n\r", ch->master );
+		SET_BIT(ch->master->act, PLR_WANTED);
 	    }
 	}
 
@@ -1688,11 +1686,11 @@ void check_killer( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( IS_NPC(ch) ||   ch == victim )
 	return;
 
-	if ( !IS_SET(victim->act, PLR_KILLER)
-	&&   !IS_SET(ch->act, PLR_KILLER) )
+	if ( !IS_SET(victim->act, PLR_WANTED)
+	&&   !IS_SET(ch->act, PLR_WANTED) )
 	{
-	    send_to_char( "*** You are now a KILLER!! ***\n\r", ch );
-	    SET_BIT(ch->act, PLR_KILLER);
+	    send_to_char( "*** You are now WANTED!! ***\n\r", ch );
+	    SET_BIT(ch->act, PLR_WANTED);
 	    save_char_obj( ch );
 	}
 	return;
@@ -1930,8 +1928,13 @@ void stop_fighting( CHAR_DATA *ch, bool fBoth )
         CHAR_DATA *victim = ch->fighting;
 
         if ( !IS_NPC(ch) && !IS_NPC(victim)) {
-           ch->battleticks     = BATTLE_TICKS;
-           victim->battleticks = BATTLE_TICKS;
+	    if( IS_SET(ch->in_room->room_flags, ROOM_ARENA) && IS_SET(victim->in_room->room_flags, ROOM_ARENA) ) {
+		ch->battleticks = 0;
+	 	victim->battleticks = 0;
+	    } else {
+	       ch->battleticks     = BATTLE_TICKS;
+               victim->battleticks = BATTLE_TICKS;
+	    }
 	}
     }
 
@@ -1966,11 +1969,26 @@ void make_corpse( CHAR_DATA *ch )
 	name            = ch->short_descr;
 	corpse          = create_object(get_obj_index(OBJ_VNUM_CORPSE_NPC), 0);
 	corpse->timer   = number_range( 5, 7 );
-	if ( ch->gold > 0 )
+	if ( ch->new_gold > 0 )
 	{
-	    obj_to_obj( create_money( ch->gold ), corpse );
-	    ch->gold = 0;
+	    obj_to_obj( create_money( ch->new_gold, TYPE_GOLD ), corpse );
+	    ch->new_gold = 0;
 	}
+        if ( ch->new_copper > 0 )
+        {
+            obj_to_obj( create_money( ch->new_copper, TYPE_COPPER ), corpse );
+            ch->new_copper= 0;
+        }
+        if ( ch->new_silver > 0 )
+        {
+            obj_to_obj( create_money( ch->new_silver, TYPE_SILVER ), corpse );
+            ch->new_silver = 0;
+        }
+        if ( ch->new_platinum > 0 )
+        {
+            obj_to_obj( create_money( ch->new_platinum, TYPE_PLATINUM ), corpse );
+            ch->new_platinum = 0;
+        }
 	corpse->cost = 0;
     }
     else
@@ -1979,7 +1997,7 @@ void make_corpse( CHAR_DATA *ch )
 	corpse          = create_object(get_obj_index(OBJ_VNUM_CORPSE_PC), 0);
 	corpse->timer   = number_range( 25, 35 );
 	REMOVE_BIT(ch->act,PLR_CANLOOT);
-	if (!IS_SET(ch->act,PLR_KILLER) && !IS_SET(ch->act,PLR_THIEF))
+	if (!IS_SET(ch->act,PLR_WANTED))
 	    corpse->owner = str_dup(ch->name);
 	else
 	    corpse->owner = NULL;
@@ -2255,15 +2273,14 @@ void raw_kill( CHAR_DATA *ch, CHAR_DATA *victim )
     victim->mana        = UMAX( 1, victim->mana );
     victim->move        = UMAX( 1, victim->move );
 
-    REMOVE_BIT(victim->act, PLR_THIEF);
     REMOVE_BIT(victim->act, PLR_BOUGHT_PET);
 /*  save_char_obj( victim ); */
 
     /* Not easy to get rid of those pesky flags! */
     if (!IS_NPC(ch) && !IS_NPC(victim))
     {
-  	if(!IS_SET(ch->act, PLR_KILLER) && IS_SET(victim->act, PLR_KILLER ) )
-	    REMOVE_BIT(victim->act, PLR_KILLER);
+  	if(!IS_SET(ch->act, PLR_WANTED) && IS_SET(victim->act, PLR_WANTED))
+	    REMOVE_BIT(victim->act, PLR_WANTED);
     }
     return;
 }
@@ -2935,8 +2952,8 @@ void do_bash( CHAR_DATA *ch, char *argument )
     /* modifiers */
 
     /* size  and weight */
-    chance += ch->carry_weight / 25;
-    chance -= victim->carry_weight / 25;
+    chance += query_carry_weight(ch) / 25;
+    chance -= query_carry_weight(victim) / 25;
 
     if (ch->size < victim->size)
 	chance += (ch->size - victim->size) * 25;
@@ -3296,8 +3313,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
 
     if ( !IS_NPC(victim) )
     {
-	if ( !IS_SET(victim->act, PLR_KILLER)
-	&&   !IS_SET(victim->act, PLR_THIEF) )
+	if ( !IS_SET(victim->act, PLR_WANTED))
 	{
 	    send_to_char( "You must MURDER a player.\n\r", ch );
 	    return;
@@ -4264,22 +4280,19 @@ void fatality(CHAR_DATA *ch, CHAR_DATA *victim)
 	     * 1/2 way back to previous level.
 	     */
 	    remove_hate( ch, victim );
-	    if(victim->level >= LEVEL_HERO)
-	    {
-	      int xp      = 0;
-	      int xp2     = 0;
-	      int xp3     = 0;
-              xp = ch->exp;
-              xp2 = victim->exp;
-              xp3 = xp - xp2;
-              if(xp3 < 0)
-                gain_exp( victim, xp3 * 0.05 );
-  
+            { long curr_exp;
+              long base_exp;
+              base_exp = exp_per_level(victim,victim->pcdata->points) * victim->level;
+              curr_exp = victim->exp;
+              if (curr_exp > base_exp)
+                gain_exp(victim, UMIN(-1 * ((curr_exp - base_exp)/2),-1));
+              else if (curr_exp < base_exp)
+              { sprintf( log_buf, "[GAMEDRIVER] %s has %ld exp at level %d. Minimum for level is %ld.",
+                                  victim->name, curr_exp, victim->level, base_exp);
+                log_string(log_buf);
+                wizinfo(log_buf,LEVEL_IMMORTAL);
+              }
             }
-	    else if ( victim->exp > exp_per_level(victim,victim->pcdata->points)
-				  * victim->level )
-		gain_exp( victim, (exp_per_level(victim,victim->pcdata->points)
-				    * victim->level - victim->exp)/2 );
 	} else
 	{
 	    remove_all_hates(victim);
@@ -4330,13 +4343,18 @@ void fatality(CHAR_DATA *ch, CHAR_DATA *victim)
 	    if (IS_SET(ch->act,PLR_AUTOGOLD) &&
 		corpse && corpse->contains  && /* exists and not empty */
 		!IS_SET(ch->act,PLR_AUTOLOOT))
-	      do_get(ch, "gold corpse");
+	      { do_get(ch, "gold corpse");
+                do_get(ch, "platinum corpse");
+                do_get(ch, "silver corpse");
+                do_get(ch, "copper corpse");
+             }
 
-	    if ( IS_SET(ch->act, PLR_AUTOSAC) )
+	    if ( IS_SET(ch->act, PLR_AUTOSAC) ) {
 	      if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
 		return;  /* leave if corpse has treasure */
 	      else
 		do_sacrifice( ch, "corpse" );
+	    }
 	}
    return;
 }

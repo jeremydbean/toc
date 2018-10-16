@@ -69,12 +69,11 @@ int  get_maxload_with_players(int vnum)
 
  FILE          *fp;
  char          buf[1000];
- char          gelezen;
  int           amount;
 
  amount = 0;
 
- sprintf(buf,"grep -c \"Vnum %d\" ../player/* | grep :[123456789]",vnum);
+ sprintf(buf,"grep \"Vnum %d\\b\" ../player/* | grep -c :",vnum);
  
  fclose(fpReserve);
  if ((fp = popen(buf,"r")) == NULL ) {
@@ -82,9 +81,6 @@ int  get_maxload_with_players(int vnum)
    return 0;
  }
  while (!feof(fp)) {
-   gelezen = fread_letter( fp );
-   if (gelezen != ':') 
-     continue;
    amount += fread_number(fp);
    fread_to_eol(fp);
  }   
@@ -150,6 +146,9 @@ void add_maxload_index( int vnum, int signval, int game_load )
           if (signval > 0) {
             if (game_load) {
               pLoad->item_game_load += 1;
+	      sprintf(log_buf,"Vnum %d|Signval: %d|Gameload|Total: %d",
+		vnum,signval,pLoad->item_game_load);
+	      log_string(log_buf);
               break;
             }
             else {
@@ -157,6 +156,9 @@ void add_maxload_index( int vnum, int signval, int game_load )
               pLoad->item_game_load = UMAX(0,pLoad->item_game_load); 
               pLoad->item_curr_load += 1;
               modified = 1;
+	      sprintf(log_buf,"Vnum %d|Signval: %d|!Gameload|Total: %d",
+		vnum,signval,pLoad->item_game_load);
+	      log_string(log_buf);
               break;
             }
           }
@@ -164,6 +166,9 @@ void add_maxload_index( int vnum, int signval, int game_load )
             if (game_load) {
               pLoad->item_game_load -= 1;
               pLoad->item_game_load = UMAX(0,pLoad->item_game_load);
+	      sprintf(log_buf,"Vnum %d|Signval: %d|Gameload|Total: %d",
+		vnum,signval,pLoad->item_game_load);
+	      log_string(log_buf);
               break;
 	    }
             else {
@@ -171,6 +176,9 @@ void add_maxload_index( int vnum, int signval, int game_load )
               pLoad->item_curr_load = UMAX(0,pLoad->item_curr_load); 
               pLoad->item_game_load += 1;
               modified = 1;
+	      sprintf(log_buf,"Vnum %d|Signval: %d|!Gameload|Total: %d",
+		vnum,signval,pLoad->item_game_load);
+	      log_string(log_buf);
               break;
 	    }
           }
@@ -353,6 +361,7 @@ void do_lst_maxload( CHAR_DATA *ch, char *argument )
   char buf[MAX_STRING_LENGTH];
   int i;
   ITEM_MAX_LOAD *pLoad;
+  OBJ_INDEX_DATA *pObj;
   int prevent_overflow = 0;
 
   if (!IS_IMMORTAL(ch)) {
@@ -380,18 +389,22 @@ void do_lst_maxload( CHAR_DATA *ch, char *argument )
   }
 
   sprintf(buf,"Listing of all items which have a %s set.\n\r","maxload");
-  sprintf(buf+strlen(buf),"ML %8s %8s %8s %8s\n\r","VNUM","IN_GAME","WITH_PLA","MAX");
+  sprintf(buf+strlen(buf),"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\r");
+  sprintf(buf+strlen(buf),"       %-8s %-8s %-8s %-8s %-40s\n\r","VNUM","IN_GAME","WITH_PLA","MAX","DESCRIPTION");
+  sprintf(buf+strlen(buf),"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\r");
 
   for (i=0;i<MAXLOAD_KEY_HASH;i++) {
      for (pLoad = maxload_index_hash[i];
           pLoad != NULL;
           pLoad = pLoad->next) {
+        
         if (strlen(buf) < 4000)
-          sprintf(buf+strlen(buf),"ML %8d %8d %8d %8d\n\r",
+          sprintf(buf+strlen(buf),"ML     %-8d %-8d %-8d %-8d %-40s\n\r",
                   pLoad->vnum,
                   pLoad->item_game_load,
                   pLoad->item_curr_load,
-                  pLoad->item_max_load);
+                  pLoad->item_max_load,
+                  ( ((pObj = (get_obj_index(pLoad->vnum))) == NULL ? "UNKNOWN" : pObj->short_descr) ));
         else {
            prevent_overflow = 1;
            break;
@@ -400,6 +413,7 @@ void do_lst_maxload( CHAR_DATA *ch, char *argument )
   }
   if (prevent_overflow)
     send_to_char("TRUNCATED INFORMATION\n\r",ch);
+  sprintf(buf+strlen(buf),"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\r");
   page_to_char(buf,ch);
 
   return;

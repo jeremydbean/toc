@@ -470,12 +470,12 @@ void reset_char(CHAR_DATA *ch)
 	ch->pcdata->perm_mana   = ch->max_mana;
 	ch->pcdata->perm_move   = ch->max_move;
 	ch->pcdata->last_level  = ch->played/3600;
-	if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
+	if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2) {
 		if (ch->sex > 0 && ch->sex < 3)
 		    ch->pcdata->true_sex        = ch->sex;
 		else
 		    ch->pcdata->true_sex        = 0;
-
+	}
     }
 
     /* now restore the character to his/her true condition */
@@ -667,19 +667,16 @@ int get_max_train( CHAR_DATA *ch, int stat )
 	return MAX_STAT;
 
     max = pc_race_table[ch->race].max_stats[stat];
-    if (class_table[ch->class].attr_prime == stat)
+    if (class_table[ch->class].attr_prime == stat) {
 	if (ch->race == race_lookup("human"))
 	   max += 3;
 	else
 	   max += 2;
+    }
 
     return UMIN(max,MAX_STAT);
 }
    
-	
-/*
- * Retrieve a character's carry capacity.
- */
 int can_carry_n( CHAR_DATA *ch )
 {
     if ( !IS_NPC(ch) && ch->level >= LEVEL_IMMORTAL )
@@ -694,11 +691,6 @@ int can_carry_n( CHAR_DATA *ch )
     return MAX_WEAR +  2 * get_curr_stat(ch,STAT_DEX) + ch->level;
 }
 
-
-
-/*
- * Retrieve a character's carry capacity.
- */
 int can_carry_w( CHAR_DATA *ch )
 {
     if ( !IS_NPC(ch) && ch->level >= LEVEL_IMMORTAL )
@@ -1902,8 +1894,11 @@ void extract_obj_player( OBJ_DATA *obj )
         if (get_maxload_index(vnum) != NULL)
            add_maxload_index(vnum, +1, 0);
     }
-    else if ( obj->in_obj != NULL )
+    else if ( obj->in_obj != NULL ) {
         obj_from_obj( obj );
+        if (get_maxload_index(vnum) != NULL)
+           add_maxload_index(vnum, +1, 0);
+    }
 /* This line added by Eclipse to check for NULL data to function call */
     else if( obj == NULL)
         return;
@@ -2409,32 +2404,65 @@ OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )
 }
 
 
-
-/*
- * Create a 'money' obj.
- */
-OBJ_DATA *create_money( int amount )
+OBJ_DATA *create_money( int amount, int type )
 {
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
 
-    if ( amount <= 0 )
-    {
+    if ( amount <= 0 ) {
 	bug( "Create_money: zero or negative money %d.", amount );
 	amount = 1;
     }
 
-    if ( amount == 1 )
-    {
+    if ( amount == 1 ) {
 	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_ONE ), 0 );
-    }
-    else
-    {
+	sprintf(buf,obj->name,
+	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_SILVER   ? "silver"   :
+	    type == TYPE_GOLD     ? "gold"     :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
+	free_string(obj->name);
+	obj->name = str_dup(buf);
+	sprintf(buf,obj->short_descr,
+	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_SILVER   ? "silver"   :
+	    type == TYPE_GOLD     ? "gold"     :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
+	free_string(obj->short_descr);
+	obj->short_descr = str_dup(buf);
+	sprintf(buf,obj->description,
+	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_SILVER   ? "silver"   :
+	    type == TYPE_GOLD     ? "gold"     :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
+	free_string(obj->description);
+	obj->description= str_dup(buf);
+	obj->value[1]	= type;
+    } else {
 	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_SOME ), 0 );
-	sprintf( buf, obj->short_descr, amount );
+	sprintf(buf,obj->name,
+	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_SILVER   ? "silver"   :
+	    type == TYPE_GOLD     ? "gold"     :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
+	free_string(obj->name);
+	obj->name = str_dup(buf);
+	sprintf( buf, obj->short_descr, amount, 
+	    type == TYPE_COPPER   ? "copper" : 
+	    type == TYPE_SILVER   ? "silver" :
+	    type == TYPE_GOLD     ? "gold" :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
 	free_string( obj->short_descr );
 	obj->short_descr        = str_dup( buf );
+	sprintf(buf,obj->description,
+	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_SILVER   ? "silver"   :
+	    type == TYPE_GOLD     ? "gold"     :
+	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
+	free_string(obj->description);
+	obj->description= str_dup(buf);
 	obj->value[0]           = amount;
+	obj->value[1]		= type;
 	obj->cost               = amount;
     }
 
@@ -2463,16 +2491,16 @@ int get_obj_number( OBJ_DATA *obj )
     return number;
 }
 
-
-/*
- * Return weight of an object, including weight of contents.
- */
 int get_obj_weight( OBJ_DATA *obj )
 {
     int weight;
 
-    weight = obj->weight;
-    for ( obj = obj->contains; obj != NULL; obj = obj->next_content )
+    if(obj->item_type == ITEM_MONEY)
+	weight = obj->value[0]/100;
+    else
+        weight = obj->weight;
+
+    for ( obj = obj->contains; obj; obj = obj->next_content )
 	weight += get_obj_weight( obj );
 
     return weight;
@@ -2594,9 +2622,6 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( room_is_dark( ch->in_room ) && !IS_AFFECTED(ch, AFF_INFRARED) )
 	return FALSE;
 
-    if( !IS_AFFECTED2(ch, AFF2_DETECT_STEALTH) && IS_AFFECTED2(victim, AFF2_STEALTH) && !IS_IMMORTAL(ch) )
-       return FALSE;
-    
     if ( IS_AFFECTED(victim, AFF_INVISIBLE)
     &&   !IS_AFFECTED(ch, AFF_DETECT_INVIS) )
 	return FALSE;
@@ -2604,6 +2629,27 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( IS_AFFECTED2(victim, AFF2_GHOST)
     &&   !IS_AFFECTED(ch, AFF_DETECT_INVIS ) )
 	return FALSE;
+
+    if ( IS_AFFECTED2(victim, AFF2_STEALTH) ) {
+	int chance = get_skill(victim,gsn_stealth);
+
+	if(weather_info.sunlight == SUN_RISE || weather_info.sunlight == SUN_SET)
+	    chance -= 10;
+	if(weather_info.sunlight == SUN_LIGHT)
+	    chance -= 20;
+	if(weather_info.sunlight == SUN_DARK)
+	    chance += 10;
+
+	if(weather_info.sky == SKY_RAINING || weather_info.sky == SKY_CLOUDY)
+	    chance += 10;
+	if(weather_info.sky == SKY_CLOUDLESS)
+	    chance -= 10;
+	if(weather_info.sky == SKY_LIGHTNING)
+	    chance += 15;
+
+	if(number_percent() < chance)
+	    return FALSE;
+    }
 
     if ( IS_AFFECTED(victim, AFF_HIDE)
     &&   !IS_AFFECTED(ch, AFF_DETECT_HIDDEN)
@@ -2798,7 +2844,6 @@ char *affect2_bit_name( int vector )
     if ( vector & AFF2_FORCE_SWORD  ) strcat( buf,  " force_sword"   );
     if ( vector & AFF2_GHOST	    ) strcat( buf,  " ghostly_presence" );
     if ( vector & AFF2_DIVINE_PROT  ) strcat( buf,  " divine protection" );
-    if ( vector & AFF2_DETECT_STEALTH) strcat(buf,  " detect stealth" );
     return (buf[0] != '\0' ) ? buf+1 : "none";
 }
 /*
@@ -2903,8 +2948,7 @@ char *act_bit_name( int act_flags )
 	if (act_flags & PLR_NOSUMMON    ) strcat(buf, " no_summon");
 	if (act_flags & PLR_NOFOLLOW    ) strcat(buf, " no_follow");
 	if (act_flags & PLR_FREEZE      ) strcat(buf, " frozen");
-	if (act_flags & PLR_THIEF       ) strcat(buf, " thief");
-	if (act_flags & PLR_KILLER      ) strcat(buf, " killer");
+	if (act_flags & PLR_WANTED      ) strcat(buf, " wanted");
     }
     return ( buf[0] != '\0' ) ? buf+1 : "none";
 }

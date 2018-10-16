@@ -88,7 +88,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "channels",  	do_channels,  	POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "donate",     	do_donate,    	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "exits",		do_exits,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
-    { "exchange",       do_exchange,    POS_RESTING,     0,  LOG_NORMAL, 1 },
+    { "exchange",       do_exchange,    POS_RESTING,     0,  LOG_ALWAYS, 1 },
     { "get",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "goto",       	do_goto,      	POS_DEAD,       IM,  LOG_NORMAL, 1 },
     { "hit",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 0 },
@@ -194,7 +194,7 @@ const	struct	cmd_type	cmd_table	[] =
 	* Communication commands.
 	*/
 /*  { "board",		do_board,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 }, */
-
+    { "beep",		do_beep,	POS_DEAD,	60,  LOG_NORMAL, 1 },
     { "deaf",		do_deaf,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "emote",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { ".",		do_gossip,	POS_SLEEPING,	 0,  LOG_NORMAL, 0 },
@@ -228,6 +228,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "flip",		do_flip,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "give",		do_give,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "jump",		do_jump,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
+    { "convert",	do_convert,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "deposit",	do_deposit,	POS_RESTING,	 0,  LOG_ALWAYS, 1 },
     { "withdraw",	do_withdraw,	POS_RESTING,	 0,  LOG_ALWAYS, 1 },
     { "balance",	do_balance,	POS_RESTING,	 0,  LOG_ALWAYS, 1 },
@@ -423,7 +424,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "listclue",       do_listclue,    POS_DEAD,       50,  LOG_NORMAL, 1 },*/
     { "=",		do_hero,	POS_DEAD,	HE,  LOG_NORMAL, 0 },
     { ":",		do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 0 },
-//  { "remort",         do_remort,      POS_STANDING,   54,  LOG_ALWAYS,1 },
+    { "remort",         do_remort,      POS_STANDING,   54,  LOG_ALWAYS, 1 },
 /* End of list. */
     { "",		0,		POS_DEAD,	 0,  LOG_NORMAL, 0 }
 };

@@ -1703,34 +1703,6 @@ void spell_detect_good( int sn, int level, CHAR_DATA *ch, void *vo )
     return;
 }
 
-void spell_detect_stealth( int sn, int level, CHAR_DATA *ch, void *vo )
-{
-    CHAR_DATA *victim = (CHAR_DATA *) vo;
-    AFFECT_DATA af;
-
-    if ( IS_AFFECTED2(victim, AFF2_DETECT_STEALTH) )
-    {
-        if (victim == ch)
-          send_to_char("You can already sense stealthy people.\n\r",ch);
-        else
-          act("$N can already sense stealthy people .",ch,
-                  NULL,victim,TO_CHAR);
-        return;
-    }
-    af.type       = sn;
-    af.level      = level;
-    af.duration   = 5 + level/8;
-    af.modifier   = 0;
-    af.location   = APPLY_NONE;
-    af.bitvector  = 0;
-    af.bitvector2 = AFF2_DETECT_STEALTH;
-    affect_to_char( victim, &af );
-    send_to_char( "Your eyes tingle.\n\r", victim );
-    if ( ch != victim )
-        send_to_char( "Ok.\n\r", ch );
-    return;
-}
-
 
 void spell_detect_hidden( int sn, int level, CHAR_DATA *ch, void *vo )
 {
@@ -2083,11 +2055,13 @@ void spell_earthquake( int sn, int level, CHAR_DATA *ch, void *vo )
 	    continue;
 	if ( vch->in_room == ch->in_room )
 	{
-	    if ( vch != ch && !is_safe_spell(ch,vch,TRUE))
+	    if ( vch != ch && !is_safe_spell(ch,vch,TRUE)) {
 		if (IS_AFFECTED(vch,AFF_FLYING))
 		    damage(ch,vch,0,sn,DAM_BASH);
 		else
 		    damage( ch, vch, level + dice(2, 8), sn, DAM_BASH );
+	    }
+
 	    continue;
 	}
 
@@ -4591,11 +4565,13 @@ void spell_blizzard( int sn, int level, CHAR_DATA *ch, void *vo )
 	    continue;
 	if ( vch->in_room == ch->in_room )
 	{
-	    if ( vch != ch && !is_safe_spell(ch,vch,TRUE))
+	    if ( vch != ch && !is_safe_spell(ch,vch,TRUE)) {
 		if ( saves_spell( level, victim ) )
 		    damage(ch,vch,dam/2,sn,DAM_BASH);
 		else
 		    damage( ch, vch, dam, sn, DAM_COLD );
+	    }
+
 	    continue;
 	}
 
@@ -4691,11 +4667,3 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
 
     return;
 }
-
-
-
-
-
-
-
-

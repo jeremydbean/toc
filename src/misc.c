@@ -55,16 +55,16 @@ void do_heal(CHAR_DATA *ch, char *argument)
     {
         /* display price list */
 	act("$N says 'I offer the following spells:'",ch,NULL,mob,TO_CHAR);
-	send_to_char("  light:   cure light wounds     500 gold\n\r",ch);
-	send_to_char("  serious: cure serious wounds  1400 gold\n\r",ch);
-	send_to_char("  critic:  cure critical wounds 2500 gold\n\r",ch);
-	send_to_char("  heal:    healing spell	      5000 gold\n\r",ch);
-	send_to_char("  blind:   cure blindness       1000 gold\n\r",ch);
-	send_to_char("  disease: cure disease         1000 gold\n\r",ch);
-	send_to_char("  poison:  cure poison	       750 gold\n\r",ch); 
-	send_to_char("  uncurse: remove curse	      2500 gold\n\r",ch);
-	send_to_char("  refresh: restore movement      100 gold\n\r",ch);
-	send_to_char("  mana:    restore mana	      1000 gold\n\r",ch);
+	send_to_char("  light:   cure light wounds     50 gold\n\r",ch);
+	send_to_char("  serious: cure serious wounds  140 gold\n\r",ch);
+	send_to_char("  critic:  cure critical wounds 250 gold\n\r",ch);
+	send_to_char("  heal:    healing spell	      500 gold\n\r",ch);
+	send_to_char("  blind:   cure blindness       100 gold\n\r",ch);
+	send_to_char("  disease: cure disease         100 gold\n\r",ch);
+	send_to_char("  poison:  cure poison	       75 gold\n\r",ch); 
+	send_to_char("  uncurse: remove curse	      250 gold\n\r",ch);
+	send_to_char("  refresh: restore movement      10 gold\n\r",ch);
+	send_to_char("  mana:    restore mana	      100 gold\n\r",ch);
 	send_to_char(" Type heal <type> to be healed.\n\r",ch);
 	return;
     }
@@ -75,70 +75,70 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	    spell = spell_cure_light;
 	    sn    = skill_lookup("cure light");
 	    words = "judicandus dies";
-	    cost  =  500;
+	    cost  =  50;
 	    break;
 
 	case 's' :
 	    spell = spell_cure_serious;
 	    sn    = skill_lookup("cure serious");
 	    words = "judicandus gzfuajg";
-	    cost  = 1500;
+	    cost  = 150;
 	    break;
 
 	case 'c' :
 	    spell = spell_cure_critical;
 	    sn    = skill_lookup("cure critical");
 	    words = "judicandus qfuhuqar";
-	    cost  = 2500;
+	    cost  = 250;
 	    break;
 
 	case 'h' :
 	    spell = spell_heal;
 	    sn = skill_lookup("heal");
 	    words = "pzar";
-	    cost  = 5000;
+	    cost  = 500;
 	    break;
 
 	case 'b' :
 	    spell = spell_cure_blindness;
 	    sn    = skill_lookup("cure blindness");
       	    words = "judicandus noselacri";		
-            cost  = 1000;
+            cost  = 100;
 	    break;
 
     	case 'd' :
 	    spell = spell_cure_disease;
 	    sn    = skill_lookup("cure disease");
 	    words = "judicandus eugzagz";
-	    cost = 1000;
+	    cost = 100;
 	    break;
 
 	case 'p' :
 	    spell = spell_cure_poison;
 	    sn    = skill_lookup("cure poison");
 	    words = "judicandus sausabru";
-	    cost  =  750;
+	    cost  =  75;
 	    break;
 	
 	case 'u' :
 	    spell = spell_remove_curse; 
 	    sn    = skill_lookup("remove curse");
 	    words = "candussido judifgz";
-	    cost  = 2500;
+	    cost  = 250;
 	    break;
 
 	case 'r' :
 	    spell =  spell_refresh;
 	    sn    = skill_lookup("refresh");
 	    words = "candusima"; 
-	    cost  = 100;
+	    cost  = 10;
 	    break;
 
 	case 'm' :
 	    spell = NULL;
 	    sn = -1;
 	    words = "energizer";
-	    cost = 1000;
+	    cost = 100;
 	    break;
 
 	default :
@@ -147,7 +147,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	    return;
     }
 
-    if (cost > ch->gold)
+    if (cost > query_gold(ch))
     {
 	act("$N says 'You do not have enough gold for my services.'",
 	    ch,NULL,mob,TO_CHAR);
@@ -156,8 +156,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 
     WAIT_STATE(ch,PULSE_VIOLENCE);
 
-    ch->gold -= cost;
-    mob->gold += cost;
+    add_money(ch,-1 * cost);
     act("$n utters the words '$T'.",mob,NULL,words,TO_ROOM);
   
     if (spell == NULL)  /* restore mana trap...kinda hackish */

@@ -508,6 +508,7 @@ void save_offense ()
 /*
  * Place an offense or view the offense list
  */
+
 void do_offense (CHAR_DATA *ch, char *argument)
 {
     char arg1[MAX_INPUT_LENGTH];

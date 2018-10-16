@@ -3719,15 +3719,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_smite,          SLOT( 0),        0,     24,
         "smite",             "!SMITE!"
-    },
-
-    {
-        "detect stealth",
-        { 10, 10, 13, 13, 62, 62 },     { 1,  1,  2,  2, 2, 2},
-        spell_detect_stealth,      TAR_CHAR_SELF,          POS_STANDING,
-        NULL,                   SLOT(601),      35,     12,
-        "",                     "You no longer see stealthy people"
-    },
+    }
 
 
 };

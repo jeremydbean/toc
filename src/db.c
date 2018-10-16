@@ -771,7 +771,7 @@ void load_mobiles( FILE *fp )
     {
         sh_int vnum;
         char letter,temp;
-        int iHash,total,left;
+        int iHash,total;
  
         letter                          = fread_letter( fp );
         if ( letter != '#' )
@@ -885,84 +885,35 @@ void load_mobiles( FILE *fp )
 
         total		                = fread_number( fp );
         if(total != 0) {
-   	    temp = total/500;
- 	    left = total - (temp*500);
-	    pMobIndex->new_platinum = UMAX(0,temp);
-            total = left;
-	    temp = total/100;
-	    left = total - (temp*100);
-  	    pMobIndex->new_gold = UMAX(0,temp);
-            total = left;
-	    temp = total/10;
-	    left = total - (temp*10);
-	    pMobIndex->new_silver = temp;
-	    pMobIndex->new_copper = left;
+            pMobIndex->new_platinum = UMAX(0,total/179);
+            pMobIndex->new_gold     = UMAX(0,total/69);
+            pMobIndex->new_silver   = UMAX(0,total/39);
+            pMobIndex->new_copper   = UMAX(0,total/29);
 	} else {
-	    if(pMobIndex->level < 10) {
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*3,pMobIndex->level/2);
+	    if(pMobIndex->level < 5) {
+                pMobIndex->new_copper = number_range(1,2*pMobIndex->level);
+	    } else if(pMobIndex->level < 10) {
+                pMobIndex->new_silver = number_range(1,2*pMobIndex->level);
+                pMobIndex->new_copper = number_range(1,4*pMobIndex->level);
 	    } else if(pMobIndex->level < 20) {
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level,pMobIndex->level/2);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
+                pMobIndex->new_gold =   number_range(1,pMobIndex->level);
+                pMobIndex->new_silver = number_range(1,2*pMobIndex->level);
+                pMobIndex->new_copper = number_range(1,8*pMobIndex->level);
 	    } else if(pMobIndex->level < 30) {
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-	    } else if(pMobIndex->level < 40) {
-		pMobIndex->new_gold = 
-		    number_range(pMobIndex->level/2,pMobIndex->level/3);
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
+                pMobIndex->new_gold =   number_range(1,2*pMobIndex->level);
+                pMobIndex->new_silver = number_range(1,4*pMobIndex->level);
+                pMobIndex->new_copper = number_range(1,16*pMobIndex->level);
 	    } else if(pMobIndex->level < 50) {
-		pMobIndex->new_gold = 
-		    number_range(pMobIndex->level,pMobIndex->level/2);
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-	    } else if(pMobIndex->level < 60) {
-		pMobIndex->new_platinum = 
-		    number_range(pMobIndex->level,pMobIndex->level/2);
-		pMobIndex->new_gold = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-	    } else {
-		pMobIndex->new_platinum = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_gold = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_silver = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
-		pMobIndex->new_copper = 
-		    number_range(pMobIndex->level*2,pMobIndex->level);
+                pMobIndex->new_gold =   number_range(1,3*pMobIndex->level);
+                pMobIndex->new_silver = number_range(1,6*pMobIndex->level);
+                pMobIndex->new_copper = number_range(1,12*pMobIndex->level);
+            } else {
+                pMobIndex->new_platinum = number_range(1,pMobIndex->level/2);
+                pMobIndex->new_gold =     number_range(1,4*pMobIndex->level);
+                pMobIndex->new_silver =   number_range(1,8*pMobIndex->level);
+                pMobIndex->new_copper =   number_range(1,4*pMobIndex->level);
 	    }
         }
-/*
-        if(total_copper == 0)
-            total_copper = number_range(1, 20 * pMobIndex->level *
-		pMobIndex->level);
-        else
-            total_copper = number_range(total_copper/2, 
-		total_copper * 3/2);
-
-        divided_perc = number_range(1,10);
-        pMobIndex->new_platinum =
-		(((total_copper/(500))*divided_perc)/100);
-        divided_perc = number_range(1,20);
-        pMobIndex->new_gold = (((total_copper/(10*10))*divided_perc)/100);
-        divided_perc = number_range(1,40);
-        pMobIndex->new_silver = (((total_copper/(10))*divided_perc)/100);
-        divided_perc = number_range(1,30);
-        pMobIndex->new_copper = (total_copper*divided_perc)/100;
-*/
         pMobIndex->form                 = fread_flag( fp )
                                         | race_table[pMobIndex->race].form;
         pMobIndex->parts                = fread_flag( fp )
@@ -4713,15 +4664,17 @@ bool str_suffix( const char *astr, const char *bstr )
  */
 char *capitalize( const char *str )
 {
-    static char strcap[MAX_STRING_LENGTH];
     int i;
- 
-    for ( i = 0; str[i] != '\0'; i++ )
-        strcap[i] = LOWER(str[i]);
-    strcap[i] = '\0';
-    strcap[0] = UPPER(strcap[0]);
-    return strcap;
-}
+    char *bla = str_dup(str);
+    
+    for (i=0;bla[i] != '\0';i++)
+    { if (i != 0)
+        bla[i] = LOWER(bla[i]);
+      else
+        bla[i] = UPPER(bla[i]);
+    }
+    return bla;
+} 
  
  
 /*

@@ -806,7 +806,7 @@ void do_pardon( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
-	send_to_char("Syntax: pardon <character> <killer|thief|excon>.\n\r", ch );
+	send_to_char("Syntax: pardon <character> <wanted|excon>.\n\r", ch );
 	return;
     }
 
@@ -822,14 +822,14 @@ void do_pardon( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp( arg2, "killer" ) )
+    if ( !str_cmp( arg2, "wanted" ) )
     {
-	if ( IS_SET(victim->act, PLR_KILLER) )
+	if ( IS_SET(victim->act, PLR_WANTED) )
 	{
-	    REMOVE_BIT( victim->act, PLR_KILLER );
-	    sprintf(buf,"KILLER flag removed from %s.\n\r",victim->name);
+	    REMOVE_BIT( victim->act, PLR_WANTED );
+	    sprintf(buf,"WANTED flag removed from %s.\n\r",victim->name);
 	    send_to_char( buf, ch );
-	    send_to_char( "You are no longer a KILLER.\n\r", victim );
+	    send_to_char( "You are no longer WANTED.\n\r", victim );
 	}
 	return;
     }
@@ -846,24 +846,10 @@ void do_pardon( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp( arg2, "thief" ) )
-    {
-	if ( IS_SET(victim->act, PLR_THIEF) )
-	{
-	    REMOVE_BIT( victim->act, PLR_THIEF );
-	    sprintf(buf,"THIEF flag removed from %s.\n\r",victim->name);
-	    send_to_char( buf, ch );
-	    send_to_char( "You are no longer a THIEF.\n\r", victim );
-	}
-	return;
-    }
-
     /* give them the syntax */
     do_pardon(ch,"");
     return;
 }
-
-
 
 void do_echo( CHAR_DATA *ch, char *argument )
 {
@@ -1883,13 +1869,18 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     send_to_char( buf, ch );
 
     sprintf( buf,
-	"Lv: %d  Class: %s  Guild: %s  Castle: %s\n\rAlign: %d  Gold: %ld  Exp: %ld  Trains: %d\n\r",
+	"Lv: %d  Class: %s  Guild: %s  Castle: %s\n\rAlign: %d  Exp: %ld  Trains: %d\n\r",
 	victim->level,
 	IS_NPC(victim) ? "mobile" : class_table[victim->class].name,
 	IS_NPC(victim) ? "none" : get_guildname(victim->pcdata->guild),
 	IS_NPC(victim) ? "none" : get_castlename(victim->pcdata->castle),
-	victim->alignment, victim->gold, victim->exp, victim->train );
+	victim->alignment, victim->exp, victim->train );
     send_to_char( buf, ch );
+
+    sprintf( buf,
+        "Money: %ld Platinum, %ld Gold, %ld Silver, %ld Copper\n\r",
+        victim->new_platinum, victim->new_gold, victim->new_silver, victim->new_copper);
+    send_to_char(buf,ch);
 
     sprintf(buf,"Armor: pierce: %d  bash: %d  slash: %d  magic: %d\n\r",
 	    GET_AC(victim,AC_PIERCE), GET_AC(victim,AC_BASH),
@@ -1935,7 +1926,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     }
 
     sprintf( buf, "Carry number: %d  Carry weight: %d\n\r",
-	victim->carry_number, victim->carry_weight );
+	victim->carry_number, query_carry_weight(victim) );
     send_to_char( buf, ch );
 
 
@@ -2349,38 +2340,44 @@ void do_mwhere( CHAR_DATA *ch, char *argument )
     return;
 }
 
-/* Idea from Talen of Vego's do_where command */
-
 void do_owhere( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
     char buffer[8*MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
-    bool found = FALSE;
+    bool found = FALSE, bvnum = FALSE;
     OBJ_DATA *obj;
     OBJ_DATA *in_obj;
-    int count;
+    int count, vnum;
     int obj_counter = 1;
 
     one_argument( argument, arg );
 
-    count = 0;
+    vnum = count = 0;
 
-    if( arg[0] == '\0' )
-    {
+    if( arg[0] == '\0' ) {
 	send_to_char( "Syntax:  owhere <object>.\n\r", ch );
 	return;
-    }
-    else
-    {
-	 buffer[0] = '\0';
-       for ( obj = object_list; obj != NULL; obj = obj->next )
-	{
+    } else {
+	if(is_number(arg)) {
+	    bvnum = TRUE;
+	    vnum = atoi(arg);
+	}
+	
+        buffer[0] = '\0';
+        for ( obj = object_list; obj != NULL; obj = obj->next ) {
             if (count > 100)
-            break;      
+                break;      
      
-	    if ( !can_see_obj( ch, obj ) || !is_name( arg, obj->name ) )
-		continue;
+	    if(bvnum) {
+		if(!can_see_obj(ch,obj) || obj->pIndexData->vnum != vnum) {
+		    continue;
+		}
+	    } else {
+	        if(!can_see_obj(ch,obj) || !is_name(arg,obj->name)) {
+		    continue;
+		}
+	    }
 
 	    found = TRUE;
 
@@ -3852,7 +3849,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("  set char <name> <field> <value>\n\r",ch);
 	send_to_char( "  Field being one of:\n\r",                      ch );
 	send_to_char( "    str int wis dex con sex class level\n\r",    ch );
-	send_to_char( "    race gold hp mana end practice align\n\r",  ch );
+	send_to_char( "    race platinum gold silver copper hp mana end practice align\n\r",  ch );
 	send_to_char( "    train thirst drunk hunger timer hunt annoy\n\r",ch );
 	send_to_char( "    guild castle castlehead mountable were\n\r",	ch );
 	return;
@@ -4153,12 +4150,45 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char(buf,ch);
 	return;
     }
+ 
+    if ( !str_prefix( arg2, "copper" ) )
+    {
+        victim->new_copper = value;
+        if(victim != ch)
+          sprintf(buf,"Copper amount on %s now set to %d.\n\r",IS_NPC(victim) ? victim->short_descr : victim->name,value);
+        else
+          sprintf(buf,"You now have %d Copper.\n\r",value);
+        send_to_char(buf,ch);
+        return;
+    }
+ 
+    if ( !str_prefix( arg2, "silver" ) )
+    {
+        victim->new_silver = value;
+        if(victim != ch)
+          sprintf(buf,"Silver amount on %s now set to %d.\n\r",IS_NPC(victim) ? victim->short_descr : victim->name,value);
+        else
+          sprintf(buf,"You now have %d Silver.\n\r",value);
+        send_to_char(buf,ch);
+        return;
+    }
+
+    if ( !str_prefix( arg2, "platinum" ) )
+    {
+	victim->new_platinum = value;
+	if(victim != ch)
+	  sprintf(buf,"Platinum amount on %s now set to %d.\n\r",IS_NPC(victim) ? victim->short_descr : victim->name,value);
+	else
+	  sprintf(buf,"You now have %d Platinum.\n\r",value);
+	send_to_char(buf,ch);
+	return;
+    }
 
     if ( !str_prefix( arg2, "gold" ) )
     {
-	victim->gold = value;
+	victim->new_gold = value;
 	if(victim != ch)
-	  sprintf(buf,"Gold ammount on %s now set to %d.\n\r",IS_NPC(victim) ? victim->short_descr : victim->name,value);
+	  sprintf(buf,"Gold amount on %s now set to %d.\n\r",IS_NPC(victim) ? victim->short_descr : victim->name,value);
 	else
 	  sprintf(buf,"You now have %d Gold.\n\r",value);
 	send_to_char(buf,ch);

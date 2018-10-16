@@ -191,14 +191,16 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 
     fprintf( fp, "HMV  %d %d %d %d %d %d\n",
 	ch->hit, ch->max_hit, ch->mana, ch->max_mana, ch->move, ch->max_move );
-    if (ch->gold > 0)
-      fprintf( fp, "Gold %ld\n",	ch->gold		);
-    else
-      fprintf( fp, "Gold %d\n", 0			);
-    if (ch->pcdata->bank > 0)
-      fprintf( fp, "Bank %ld\n",	ch->pcdata->bank		);
-    else
-      fprintf( fp, "Bank %d\n", 0			);
+    if (ch->new_gold < 0) ch->new_gold = 0;
+    if (ch->new_silver < 0) ch->new_silver = 0;
+    if (ch->new_platinum < 0) ch->new_platinum = 0;
+    if (ch->new_copper < 0)  ch->new_copper = 0;
+    if (ch->pcdata->bank < 0) ch->pcdata->bank = 0;
+    fprintf( fp, "NewGold %ld\n",	ch->new_gold		);
+    fprintf( fp, "NewPlat %ld\n",	ch->new_platinum	);
+    fprintf( fp, "NewCopp %ld\n",	ch->new_copper		);
+    fprintf( fp, "NewSilv %ld\n",	ch->new_silver		);
+    fprintf( fp, "Bank %d\n",	        ch->pcdata->bank	);
     if (ch->pcdata->dcount > 0)
 	fprintf( fp, "Dcount %ld\n",	ch->pcdata->dcount	);
     else
@@ -413,8 +415,14 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp)
 	fprintf(fp,"Levl %d\n", pet->level);
     fprintf(fp, "HMV  %d %d %d %d %d %d\n",
 	pet->hit, pet->max_hit, pet->mana, pet->max_mana, pet->move, pet->max_move);
-    if (pet->gold > 0)
-	fprintf(fp,"Gold %ld\n",pet->gold);
+    if (pet->new_platinum > 0)
+	fprintf(fp,"NewPlat %ld\n",pet->new_platinum);
+    if (pet->new_copper > 0)
+	fprintf(fp,"NewCopp %ld\n",pet->new_copper);
+    if (pet->new_silver > 0)
+	fprintf(fp,"NewSilv %ld\n",pet->new_silver);
+    if (pet->new_gold > 0)
+	fprintf(fp,"NewGold %ld\n",pet->new_gold);
     if (pet->exp > 0)
 	fprintf(fp, "Exp  %ld\n", pet->exp);
     if (pet->act != pet->pIndexData->act)
@@ -997,11 +1005,14 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	case 'E':
 	    if ( !str_cmp( word, "End" ) )
 		return;
-	    KEY( "Exp",		ch->exp,		fread_long( fp ) );
+            KEY( "Exp",		ch->exp,		fread_long( fp ) );
 	    break;
 
 	case 'G':
-	    KEY( "Gold",	ch->gold,		fread_number( fp ) );
+	    if(!str_cmp(word,"Gold")) {
+		ch->new_gold = fread_number(fp);
+		break;
+	    }
 	    KEY( "Gui",		ch->pcdata->guild,	fread_number( fp ) );
             if ( !str_cmp( word, "Group" )  || !str_cmp(word,"Gr"))
             {
@@ -1079,6 +1090,10 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    break;
 
 	case 'N':
+            KEY( "NewGold",     ch->new_gold,            fread_long( fp ) );
+            KEY( "NewPlat",     ch->new_platinum,        fread_long( fp ) );
+            KEY( "NewCopp",     ch->new_copper,          fread_long( fp ) );
+            KEY( "NewSilv",     ch->new_silver,          fread_long( fp ) );
 	    KEY( "Name",	ch->name,		fread_string( fp ) );
 	    KEY( "Note",	ch->last_note,		fread_number( fp ) );
             KEY( "NumRemorts",  ch->pcdata->num_remorts, fread_number( fp ) );
@@ -1385,7 +1400,8 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
 	     break;
     	     
     	 case 'G':
-    	     KEY( "Gold",	pet->gold,		fread_number(fp));
+    	     KEY( "Gold",	pet->new_gold,		fread_number(fp));
+             pet->new_gold = 0;
     	     break;
     	     
     	 case 'H':
@@ -1411,6 +1427,10 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	     
     	case 'N':
     	     KEY( "Name",	pet->name,		fread_string(fp));
+             KEY( "NewGold",    pet->new_gold,          fread_long(fp));
+             KEY( "NewSilv",    pet->new_silver,        fread_long(fp));
+             KEY( "NewCopp",    pet->new_copper,        fread_long(fp));
+             KEY( "NewPlat",    pet->new_platinum,      fread_long(fp));
     	     break;
     	     
     	case 'P':

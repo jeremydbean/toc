@@ -357,11 +357,13 @@ void do_spells(CHAR_DATA *ch, char *argument)
     }
 
     for (lev = 0; lev < LEVEL_HERO1; lev++)
-      if (spell_list[lev][0] != '\0')
+      if (spell_list[lev][0] != '\0') {
 	 if(ch->lines)
 	   page_to_char(spell_list[lev],ch);
 	 else
 	   send_to_char(spell_list[lev],ch);
+    }
+
     send_to_char("\n\r",ch);
 }
 

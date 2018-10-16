@@ -596,26 +596,6 @@ void do_note( CHAR_DATA *ch, char *argument )
 	    send_to_char("You need to provide a subject.\n\r",ch);
 	    return;
 	}
-/*
-         if (  strstr(ch->pnote->to_list,"all") 
-            || strstr(ch->pnote->to_list,"All")
-            || strstr(ch->pnote->to_list,"ALl")
-            || strstr(ch->pnote->to_list,"ALL")
-            || strstr(ch->pnote->to_list,"aLL")
-            || strstr(ch->pnote->to_list,"aLl")
-            || strstr(ch->pnote->to_list,"alL"))
-        {
-           if ((ch->gold < 1000) && (ch->level > 20) && (!IS_IMMORTAL(ch)) ) {
-             send_to_char("You can't afford the noteman.\n\r",ch);
-             return;
-           }
-           if ((ch->level > 20) && (!IS_IMMORTAL(ch)) ) { 
-             ch->gold -= 1000; 
-             send_to_char("You pay 1000 gold to the noteman.\n\r",ch);
-           }
-        }
-*/
-
 
 	if( strstr(ch->pnote->to_list,"Immortal")
 	|| strstr(ch->pnote->to_list,"Imm")
@@ -626,6 +606,13 @@ void do_note( CHAR_DATA *ch, char *argument )
 	{
 	    sprintf(buf,"A note to immortal has been posted by %s",ch->name);
 	    wizinfo(buf,LEVEL_IMMORTAL);
+	}
+
+	if( strstr(ch->pnote->to_list,"Imp")
+        || strstr(ch->pnote->to_list,"Imps"))
+	{
+	    sprintf(buf,"A note to imp has been posted by %s",ch->name);
+	    wizinfo(buf,MAX_LEVEL);
 	}
 
 	if( !str_cmp(ch->pnote->to_list,"all" )
@@ -1314,7 +1301,7 @@ void do_gossip( CHAR_DATA *ch, char *argument )
 	  return;
 
 	}
-    if(ch->level < 2 )
+    if(ch->level < 1 )
     {
       send_to_char("You must be level 2 to use this channel.\n\r",ch);
       return;
@@ -2570,7 +2557,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
 
       d_next = d->next;
       tch = d->original ? d->original : d->character;
-      if( tch && tch->pcdata->id == id && ch != tch)
+      if( tch && tch->pcdata->id == id && ch != tch && get_trust(tch) != MAX_LEVEL)
       {
 	sprintf(buf,"%s tried to use the clone bug.",tch->name);
 	wizinfo(buf,LEVEL_IMMORTAL);
@@ -2590,7 +2577,7 @@ void do_save( CHAR_DATA *ch, char *argument )
     if ( IS_NPC(ch) )
 	return;
     
-    if (ch -> level < 3)
+    if (ch -> level < 1)
     {
       send_to_char("You cannot save until you are level 3.\n\r",ch);
       return;
@@ -2961,58 +2948,65 @@ void do_group( CHAR_DATA *ch, char *argument )
     return;
 }
 
-
-
-/*
- * 'Split' originally by Gnort, God of Chaos.
- */
 void do_split( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char arg[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH];
+    char arg2[MAX_INPUT_LENGTH];
     CHAR_DATA *gch;
-    int members;
-    int amount;
-    int share;
-    int extra;
+    int members,amount,share,extra,type;
 
-    one_argument( argument, arg );
+    argument = one_argument(argument,arg1);
+    argument = one_argument(argument,arg2);
 
-    if ( arg[0] == '\0' )
-    {
-	send_to_char( "Split how much?\n\r", ch );
+    if(arg2[0] == '\0' ) {
+	send_to_char( "Syntax: split <amount> <type of coin>\n\r",ch);
 	return;
     }
 
-    amount = atoi( arg );
+    amount = atoi(arg1);
 
-    if ( amount < 0 )
-    {
-	send_to_char( "Your group wouldn't like that.\n\r", ch );
+    if(amount < 0) {
+	send_to_char("Your group wouldn't like that.\n\r",ch);
 	return;
     }
 
-    if ( amount == 0 )
-    {
-	send_to_char( "You hand out zero coins, but no one notices.\n\r", ch );
+    if(amount == 0) {
+	send_to_char("You hand out zero coins, but no one notices.\n\r",ch);
 	return;
     }
 
-    if ( ch->gold < amount )
-    {
-	send_to_char( "You don't have that much gold.\n\r", ch );
+	 if(!str_cmp(arg2,"platinum")) type = TYPE_PLATINUM;
+    else if(!str_cmp(arg2,"gold"))     type = TYPE_GOLD;
+    else if(!str_cmp(arg2,"silver"))   type = TYPE_SILVER;
+    else if(!str_cmp(arg2,"copper"))   type = TYPE_COPPER;
+    else {
+        send_to_char("With the new monetary system, you need to "
+             "specify which type of coin.\n"
+             "Options are: copper, silver, gold or platinum\n\r",ch);
+        return;
+    }
+
+    if(type == TYPE_PLATINUM && amount > ch->new_platinum) {
+	send_to_char( "You don't have that much platinum.\n\r",ch);
+	return;
+    } else  if(type == TYPE_GOLD && amount > ch->new_gold) {
+	send_to_char( "You don't have that much gold.\n\r",ch);
+	return;
+    } else if(type == TYPE_SILVER && amount > ch->new_silver) {
+	send_to_char( "You don't have that much silver.\n\r",ch);
+	return;
+    } else if(type == TYPE_COPPER && amount > ch->new_copper) {
+	send_to_char( "You don't have that much copper.\n\r",ch);
 	return;
     }
 
     members = 0;
-    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-    {
-	if ( is_same_group( gch, ch ) && !IS_AFFECTED(gch,AFF_CHARM))
+    for(gch = ch->in_room->people;gch;gch = gch->next_in_room)
+	if(is_same_group(gch,ch) && !IS_AFFECTED(gch,AFF_CHARM))
 	    members++;
-    }
 
-    if ( members < 2 )
-    {
+    if(members < 2) {
 	send_to_char( "Just keep it all.\n\r", ch );
 	return;
     }
@@ -3020,29 +3014,90 @@ void do_split( CHAR_DATA *ch, char *argument )
     share = amount / members;
     extra = amount % members;
 
-    if ( share == 0 )
-    {
+    if ( share == 0 ) {
 	send_to_char( "Don't even bother, cheapskate.\n\r", ch );
 	return;
     }
 
-    ch->gold -= amount;
-    ch->gold += share + extra;
-
-    sprintf( buf,
-	"You split %d gold coins.  Your share is %d gold coins.\n\r",
-	amount, share + extra );
+    switch(type) {
+    case TYPE_PLATINUM:
+	ch->new_platinum -= amount;
+	ch->new_platinum += share+extra;
+	break;
+     case TYPE_GOLD:
+	ch->new_gold -= amount;
+	ch->new_gold += share+extra;
+	break;
+     case TYPE_SILVER:
+	ch->new_silver -= amount;
+	ch->new_silver += share+extra;
+	break;
+     case TYPE_COPPER:
+	ch->new_copper -= amount;
+	ch->new_copper += share+extra;
+	break;
+    }
+    
+    sprintf(buf,
+	"You split an amount worth %d in %s coins."
+	"Your share is worth %d coins.\n\r",amount,
+	type == TYPE_PLATINUM ? "platinum" :
+	type == TYPE_GOLD     ? "gold" :
+	type == TYPE_SILVER   ? "silver" :
+	type == TYPE_COPPER   ? "copper" : "bug_money_type",
+	share+extra);
     send_to_char( buf, ch );
 
-    sprintf( buf, "$n splits %d gold coins.  Your share is %d gold coins.",
-	amount, share );
+    sprintf(buf,"$n splits %d %s coins."
+		  " Your share is worth %d coins.",amount,
+	type == TYPE_PLATINUM ? "platinum" :
+	type == TYPE_GOLD     ? "gold" :
+	type == TYPE_SILVER   ? "silver" :
+	type == TYPE_COPPER   ? "copper" : "bug_money_type",
+	share);
 
-    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-    {
-	if ( gch != ch && is_same_group( gch, ch ) && !IS_AFFECTED(gch,AFF_CHARM))
-	{
-	    act( buf, ch, NULL, gch, TO_VICT );
-	    gch->gold += share;
+    for (gch = ch->in_room->people;gch;gch = gch->next_in_room) {
+	if(gch != ch && is_same_group(gch,ch) && 
+		!IS_AFFECTED(gch,AFF_CHARM)) {
+	    act(buf,ch,NULL,gch,TO_VICT);
+	    switch(type) {
+	    case TYPE_PLATINUM:
+                if (query_carry_coins(gch,share) > can_carry_w(gch))
+                { send_to_char("You can't carry that many coins. You drop them.\n\r",gch);
+                  act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
+                  obj_to_room( create_money(share,TYPE_PLATINUM), ch->in_room);
+                }
+                else
+		  gch->new_platinum += share;
+		break;
+	     case TYPE_GOLD:
+                if (query_carry_coins(gch,share) > can_carry_w(gch))
+                { send_to_char("You can't carry that many coins. You drop them.\n\r",gch);
+                  act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
+                  obj_to_room( create_money(share,TYPE_GOLD), ch->in_room);
+                }
+                else 
+		  gch->new_gold += share;
+		break;
+	     case TYPE_SILVER:
+                if (query_carry_coins(gch,share) > can_carry_w(gch))
+                { send_to_char("You can't carry that many coins. You drop them.\n\r",gch);
+                  act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
+                  obj_to_room( create_money(share,TYPE_SILVER), ch->in_room);
+                }
+                else 
+		  gch->new_silver += share;
+		break;
+	     case TYPE_COPPER:
+                if (query_carry_coins(gch,share) > can_carry_w(gch))
+                { send_to_char("You can't carry that many coins. You drop them.\n\r",gch);
+                  act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
+                  obj_to_room( create_money(share,TYPE_COPPER), ch->in_room);
+                }
+                else 
+		  gch->new_copper += share;
+		break;
+	    }
 	}
     }
 
@@ -3328,4 +3383,46 @@ void do_color ( CHAR_DATA *ch, char *argument )
   send_to_char ("Color type not found.\n\r",ch);
   
   return;
+}
+
+void do_beep( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+
+    if(IS_NPC(ch))
+        return;
+
+    argument = one_argument(argument,arg);
+
+    if(arg[0] == '\0') {
+        if(IS_SET(ch->comm,COMM_NOBEEP)) {
+            send_to_char("You can now be beeped.\n\r",ch);
+            REMOVE_BIT(ch->comm,COMM_NOBEEP);
+        } else {
+            send_to_char("People can no longer beep you.\n\r",ch);
+            SET_BIT(ch->comm,COMM_NOBEEP);
+        }
+        return;
+    }
+
+    if(!(victim = get_char_world(ch,arg))) {
+        send_to_char("They are not here.\n\r",ch);
+        return;
+    }
+
+    if(IS_NPC(victim) || IS_SET(victim->comm,COMM_NOBEEP)) {
+        send_to_char("They are not beepable at this time.\n\r",ch);
+        return;
+    }
+
+    sprintf(buf,"You beep %s.\n\r",victim->name);
+    send_to_char(buf,ch);
+    sprintf(buf,"\a\a");
+    send_to_char(buf,victim);
+    sprintf(buf,"%s has beeped you.\n\r",ch->name);
+    send_to_char(buf,victim);
+
+    return;
 }

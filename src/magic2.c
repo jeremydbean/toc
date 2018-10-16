@@ -35,7 +35,7 @@ bool    check_dispel    args( ( int dis_level, CHAR_DATA *victim, int sn) );
  */
 char *target_name;
 
-extern say_spell   args( ( CHAR_DATA *ch, int sn ) );
+extern void say_spell   args( ( CHAR_DATA *ch, int sn ) );
 extern  const char * dir_name	[];
 extern ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];
 extern int top_room;
@@ -80,13 +80,14 @@ void do_lore( CHAR_DATA *ch, char *argument )
 
     if( (chance = ch->pcdata->learned[gsn_lore]) < 1)
        return;
-
-    if( (ch->gold -= (obj->level * 20 - (chance * 2 + ch->level/2) ) ) < 1)
+   
+    if (query_gold(ch) < (obj->level * 20 - (chance * 2 + ch->level/2)))
     {
       send_to_char("You don't have enough gold for the research.\n\r",ch);
-      ch->gold += obj->level * 20 - (chance * 2 + ch->level/2);
       return;
     }
+
+    add_money(ch,-1 * (obj->level * 20 - (chance * 2 + ch->level/2)));
 
     WAIT_STATE( ch, skill_table[gsn_lore].beats );
 
@@ -792,7 +793,7 @@ void do_telekinesis( CHAR_DATA *ch, char *argument )
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
         continue;
 
-    if ( ch->carry_weight + get_obj_weight( obj ) > can_carry_w( ch ) )
+    if ( query_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
         continue;
        }
 	   if ( !is_full_name( arg, obj->name )
@@ -2866,23 +2867,6 @@ void do_scribe( CHAR_DATA *ch, char *argument )
      found = TRUE;
    }
 
-   if(pObj_one->pIndexData->vnum == 78
-   && pObj_two->pIndexData->vnum == 81 
-   && pObj_three->pIndexData->vnum == 87)
-   {
-     scroll = create_object(get_obj_index(90), ch->level);
-     spell_one = skill_lookup("vengence");
-     free_string( scroll->short_descr );
-     sprintf(buf,"a deadly black scroll");
-     scroll->short_descr = str_dup( buf );
-     free_string( scroll->name );
-     sprintf(buf,"deadly black scroll");
-     scroll->name = str_dup( buf );
-     found = TRUE;
-     sprintf(buf,"Vengence may soon fall upon you from %s!", ch->name);
-     log_string(buf);
-     wizinfo(buf,LEVEL_IMMORTAL);
-   }
 
    if(found)
    {
@@ -3042,8 +3026,8 @@ void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
     sprintf(buf,"%s got farslayed by %s.",victim->name,ch->name);
     wizinfo(buf, LEVEL_IMMORTAL);
     log_string(buf);
-    SET_BIT(ch->act, PLR_KILLER);
-    send_to_char("You are now a KILLER!!",ch);
+    SET_BIT(ch->act, PLR_WANTED);
+    send_to_char("You are now WANTED!!",ch);
     raw_kill(ch,victim);
     }
     else
@@ -3058,7 +3042,7 @@ void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
     sprintf(buf,"%s got hit by their own farslay *tee-hee*",ch->name);
     wizinfo(buf,LEVEL_IMMORTAL);
     log_string(buf);
-    SET_BIT(ch->act, PLR_KILLER);
+    SET_BIT(ch->act, PLR_WANTED);
     raw_kill(ch,ch);
     }
 
@@ -3132,7 +3116,7 @@ void spell_raise_dead( int sn, int level, CHAR_DATA *ch, void *vo )
       if( victim->carry_number + get_obj_number( obj ) > can_carry_n( victim ) )
 	break;
 
-      if( victim->carry_weight + get_obj_weight( obj ) > can_carry_w( victim ) )
+      if( query_carry_weight(victim) + get_obj_weight( obj ) > can_carry_w( victim ) )
 	break;
 
       obj_from_obj( obj );

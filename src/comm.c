@@ -1345,7 +1345,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
 	/* battle prompt */
 
-	if ( (victim = ch->fighting) != NULL)
+	if ((ch != NULL) && ((victim = ch->fighting) != NULL))
 	{
 	    int percent;
 	    char wound[100];
@@ -2126,7 +2126,7 @@ case CON_GET_ALIGNMENT:
 	    set_title( ch, buf );
 
 	    do_outfit(ch,"");
-	    ch->gold = 250;
+	    ch->new_silver = 50;
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP),-1),ch);
 
 	    for(weapon = 1;weapon < 9; weapon++)
@@ -2187,43 +2187,9 @@ case CON_GET_ALIGNMENT:
 	    }
 
 	}
-     if(!IS_SET(ch->act, PLR_WIZINVIS) )
-	act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
+        if(!IS_SET(ch->act, PLR_WIZINVIS) )
+          act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
 	do_look( ch, "auto" );
-
-	if (ch->gold > 1000000 /* && !IS_IMMORTAL(ch) EC */ )
-	{
-	    sprintf(buf,"You are taxed %ld gold to pay for the Mayor's bar.\n\r",
-		(ch->gold - 1000000) / 2);
-	    send_to_char(buf,ch);
-	    ch->gold -= (ch->gold - 1000000) / 2;
-	}
-
-	if (ch->pcdata->bank > 100000 && number_percent () > 45 )
-	{
-	    sprintf(buf,"You are charged %d gold in banking fees.\n\r",
-	      number_percent()/10*ch->level/2);
-	    send_to_char(buf,ch);
-	    ch->pcdata->bank -= ch->level*10;
-	}
-
-	if (ch->pcdata->bank > 2000000 )
-	{
-	    sprintf(buf,"The IRS takes %ld taxes from your bank account.\n\r",
-		(ch->pcdata->bank - 1000000) / 2);
-	    send_to_char(buf,ch);
-	    ch->pcdata->bank -= (ch->pcdata->bank - 1000000) / 2;
-	}
-
-/*	if( (ch->pcdata->jw_timer < current_time - 5*24*60*60 ) &&
-	 IS_SET(ch->act, PLR_WARNED ) )
-	{
-	    REMOVE_BIT(ch->act, PLR_WARNED);
-	    REMOVE_BIT(ch->act, PLR_LOG);
-	    send_to_char("Your warning has been removed.\n\r",ch);
-	    ch->act = 65788;
-	    ch->pcdata->jw_timer = 0;
-	}*/
 
         if( (ch->pcdata->jw_timer < current_time) &&
           IS_SET( ch->act, PLR_JAILED ) )
@@ -2295,6 +2261,13 @@ case CON_GET_ALIGNMENT:
            REMOVE_BIT(ch->act,PLR_QFLAG);
         }
 
+	if (ch->pcdata->pk_state == 0 && ch->level > 25) {
+	    send_to_char("You've joined the ranks of the PKILLERS!\n\r",ch);
+	    sprintf(log_buf,"%s turned into a PKILLER.",ch->name);
+	    log_string(log_buf);
+	    ch->pcdata->pk_state = 1;
+	}
+	  
 	break;
     }
 
@@ -3455,7 +3428,7 @@ void config_prompt( CHAR_DATA *ch )
             sprintf(buf,"none");
         str_replace_c(buf2, "%X", buf);
 
-        sprintf(buf,"%ld",ch->gold);
+        sprintf(buf,"%ld",query_gold(ch));
         str_replace_c(buf2, "%g", buf);
 
         sprintf(buf,"%d",ch->alignment);

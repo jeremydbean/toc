@@ -34,7 +34,7 @@
 /* Externals */
 extern const char       *       dir_name[];
 extern ROOM_INDEX_DATA  *       room_index_hash [MAX_KEY_HASH];
-extern social_count;
+extern int social_count;
 
 /* global */
 HUNTER_DATA	hunter_list[MAX_HUNTERS];

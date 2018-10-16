@@ -29,7 +29,7 @@ void log_string ( const char * str );
 int
 main ( int argc, char * argv[] )
 {
-    int port = 9000;
+    int port = 2468;
 
     if ( argc > 2
     ||   ( argc == 2 && !strcmp ( argv[1], "-h" ) ) )

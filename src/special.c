@@ -738,20 +738,18 @@ bool spec_executioner( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
 	    continue;
  
 	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_TRAITOR) )
-	    { crime = "TRAITOR"; break; }
+	    { crime = "a TRAITOR"; break; }
  
-	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_KILLER) )
-	    { crime = "KILLER"; break; }
+	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED) )
+	    { crime = "WANTED"; break; }
  
-	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_THIEF) )
-	    { crime = "THIEF"; break; }
     }
  
     if ( victim != NULL )
     {
 	if (victim->hit > 300)
 	{
-		sprintf( buf, "%s is a %s!  PROTECT THE INNOCENT!  MORE BLOOOOD!!!",
+		sprintf( buf, "%s is %s!  PROTECT THE INNOCENT!  MORE BLOOOOD!!!",
 			victim->name, crime );
 		do_yell( mob, buf );
 		multi_hit( mob, victim, TYPE_UNDEFINED );
@@ -941,13 +939,10 @@ bool spec_guard( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
 	    continue;
  
 	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_TRAITOR) )
-	    { crime = "TRAITOR"; break; }
+	    { crime = "a TRAITOR"; break; }
  
-	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_KILLER) )
-	    { crime = "KILLER"; break; }
- 
-	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_THIEF) )
-	    { crime = "THIEF"; break; }
+	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED) )
+	    { crime = "WANTED"; break; }
  
 	if ( IS_SET(victim->comm,COMM_WHINE) ) 
 	{
@@ -992,7 +987,7 @@ bool spec_guard( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
  
     if ( victim != NULL )
     {
-      sprintf( buf, "%s is a %s!  PROTECT THE INNOCENT!!  BANZAI!!",
+      sprintf( buf, "%s is %s!  PROTECT THE INNOCENT!!  BANZAI!!",
 	    victim->name, crime );
 	do_yell( mob, buf );
 	multi_hit( mob, victim, TYPE_UNDEFINED );
@@ -1182,6 +1177,7 @@ bool spec_thief( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
     long gold;
+    int type;
  
     if ( cmd != NULL)
 	return FALSE;
@@ -1211,12 +1207,35 @@ bool spec_thief( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
 	    return TRUE;
 	}
 	else
-	{
-	    gold = victim->gold * UMIN(number_range( 1, 20 ),mob->level) / 100;
-	    gold = UMIN(gold, mob->level * mob->level * 20 );
-	    mob->gold     += gold;
-	    victim->gold -= gold;
-	    return TRUE;
+	{   type = number_range(1,4);
+            switch(type)
+            { case 1:
+	           gold = (victim->new_gold) * UMIN(number_range( 1, 20 ),mob->level) / 100;
+	           gold = UMIN(gold, mob->level * mob->level * 20 );
+	           mob->new_gold     += gold;
+	           victim->new_gold -= gold;
+	           return TRUE;
+              case 2:
+                   gold = (victim->new_platinum) * UMIN(number_range( 1, 20 ),mob->level) / 100;
+                   gold = UMIN(gold, mob->level * mob->level * 20 );
+                   mob->new_platinum     += gold;
+                   victim->new_platinum -= gold;
+                   return TRUE;
+              case 3:
+                  gold = (victim->new_silver) * UMIN(number_range( 1, 20 ),mob->level) / 100;
+                   gold = UMIN(gold, mob->level * mob->level * 20 );
+                   mob->new_silver     += gold;
+                   victim->new_silver -= gold;
+                   return TRUE;
+              case 4:
+                  gold = (victim->new_copper) * UMIN(number_range( 1, 20 ),mob->level) / 100;
+                   gold = UMIN(gold, mob->level * mob->level * 20 );
+                   mob->new_copper     += gold;
+                   victim->new_copper -= gold;
+                   return TRUE;
+            };
+            return FALSE;
+
 	}
     }
  
@@ -1373,7 +1392,7 @@ struct {
       return TRUE;
     }
  
-    cost = 500;
+    cost = 1;
  
     if (arg[0] == '\0')
     {
@@ -1391,14 +1410,14 @@ struct {
 	return TRUE;
     }
  
-    if (ch->gold < cost)
+    if (query_gold(ch) < cost)
     {
 	act("$n tells you 'You don't have enough money to join a guild.'",
 	    mob, NULL, ch, TO_VICT);
 	return TRUE;
     }
- 
-    ch->gold -= cost;
+
+    add_money(ch,-1 * cost);
     ch->pcdata->guild = guild;
     act("$n tells you 'You are now a member of the $t guild.'",
 	mob, get_guildname(guild), ch, TO_VICT);
@@ -1498,7 +1517,7 @@ bool spec_pet_shop_owner( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd,
  
 	cost = 10 * pet->level * pet->level;
  
-	if ( ch->gold < cost )
+	if ( query_gold(ch) < cost )
 	{
 	    send_to_char( "You can't afford it.\n\r", ch );
 	    return TRUE;
@@ -1522,8 +1541,7 @@ bool spec_pet_shop_owner( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd,
 	    send_to_char(buf,ch);
 	    check_improve(ch,gsn_haggle,TRUE,4);
 	}
- 
-	ch->gold                -= cost;
+        add_money(ch,-1 * cost);
 	pet                     = create_mobile( pet->pIndexData );
 	SET_BIT(ch->act, PLR_BOUGHT_PET);
 	SET_BIT(pet->act, ACT_PET);
@@ -1688,7 +1706,7 @@ bool spec_pawn_shop_owner( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg
 	sprintf( buf, "You sell $p for %d gold piece%s.",
 	    cost, cost == 1 ? "" : "s" );
 	act( buf, ch, obj, NULL, TO_CHAR );
-	ch->gold     += cost;
+        add_money(ch,cost);
  
 	extract_obj( obj );
  
@@ -1954,8 +1972,7 @@ bool spec_club_bouncer( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
 	{
 	    if ( !IS_NPC(ch)
 	    && ( IS_SET(ch->act, PLR_TRAITOR) ||
-		 IS_SET(ch->act, PLR_KILLER)  ||
-		 IS_SET(ch->act, PLR_THIEF) ) )
+		 IS_SET(ch->act, PLR_WANTED)))
 		victim = ch;
 	    else
 		victim = NULL;
@@ -1970,8 +1987,7 @@ bool spec_club_bouncer( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
  
 		if ( !IS_NPC(victim)
 		&& ( IS_SET(victim->act, PLR_TRAITOR) ||
-		     IS_SET(victim->act, PLR_KILLER)  ||
-		     IS_SET(victim->act, PLR_THIEF) ) )
+		     IS_SET(victim->act, PLR_WANTED)))
 		    break;
 	    }
 	}
@@ -2022,7 +2038,7 @@ bool spec_club_clerk( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
     if (IS_NPC(ch))
 	return TRUE;
  
-    if (ch->gold < 10)
+    if (query_gold(ch) < 10)
     {
 	act("$n wants to enter the club but $e is to broke.",
 		ch, NULL, ch, TO_ROOM);
@@ -2032,7 +2048,7 @@ bool spec_club_clerk( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
     }
  
     /* take the money from the patron and let them in */
-    ch->gold -= 10;
+    add_money(ch,-10);
  
     send_to_char("You give the clerk the 10 coin cover charge "
 		 "and enter the elevator.\n\r", ch);
@@ -2198,8 +2214,7 @@ bool spec_paramedic( CHAR_DATA *mob, CHAR_DATA *ch, DO_FUN *cmd, char *arg )
 
   for ( vch = char_list; vch != NULL; vch = vch->next )
   {
- 
-     if(IS_NPC(vch) || IS_IMMORTAL(vch) )
+     if(IS_NPC(vch) || IS_IMMORTAL(vch) || vch->battleticks > 0)
        continue;
  
      if(vch->hit < vch->max_hit/2)

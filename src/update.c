@@ -234,11 +234,14 @@ void advance_level( CHAR_DATA *ch, bool is_advance )
 
     if(ch->level == 6 && ch->pcdata->guild == GUILD_NONE)
     {
-      if(ch->gold < 500)
-	ch->gold = 0;
+      if(query_gold(ch) < 50)
+      { ch->new_gold = 0;
+        ch->new_copper = 0;
+        ch->new_silver = 0;
+        ch->new_platinum = 0;
+      }
       else
-	ch->gold -= 500;
-
+	add_money(ch,-50);
       ch->pcdata->guild = ch->class;
       send_to_char("You have been ambushed by a group of men. They take some gold\n\r", ch);
       send_to_char("from you and inform you that you are now a member of their guild.\n\r",ch);
@@ -313,6 +316,10 @@ EC				  + get_curr_stat(ch,STAT_WIS))/5);
     add_train   = 1;
     if( ch->level < 20 && number_percent () > 85 + ch->level/5 )
       add_train += 1;
+
+    if( (get_curr_stat(ch,STAT_INT) >= 17 ) ) {
+	add_mana = add_mana + number_range(4,6);
+    }
 
     ch->max_hit 	+= add_hp;
     ch->max_mana	+= add_mana;
@@ -1757,7 +1764,7 @@ void obj_update( void )
              {
                 if (IS_NPC(obj->carried_by)
                 &&  obj->carried_by->pIndexData->pShop != NULL)
-                obj->carried_by->gold += obj->cost/5;
+                obj->carried_by->new_gold += obj->cost/5;
                    else
                 act( message, obj->carried_by, obj, NULL, TO_CHAR );
              }
@@ -1830,7 +1837,7 @@ void obj_update( void )
              {
                 if (IS_NPC(obj->carried_by)
                 &&  obj->carried_by->pIndexData->pShop != NULL)
-                obj->carried_by->gold += obj->cost/5;
+                obj->carried_by->new_gold += obj->cost/5;
                    else
                 act( message, obj->carried_by, obj, NULL, TO_CHAR );
              }
@@ -1880,7 +1887,7 @@ void obj_update( void )
 	{
 	    if (IS_NPC(obj->carried_by)
 	    &&  obj->carried_by->pIndexData->pShop != NULL)
-		obj->carried_by->gold += obj->cost/5;
+		obj->carried_by->new_gold += obj->cost/5;
 	    else
 		act( message, obj->carried_by, obj, NULL, TO_CHAR );
 	}
@@ -2493,7 +2500,7 @@ void update_handler( void )
 	btick_update	();
 	obj_update	( );
 	room_aff_update ( );
-	update_relics   (); // REMOVERELIC
+//	update_relics   ();  REMOVERELIC
     }
 
     if ( --pulse_hunting   <= 0 )

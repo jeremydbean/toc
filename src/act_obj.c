@@ -84,54 +84,44 @@ bool can_loot(CHAR_DATA *ch, OBJ_DATA *obj)
 
 void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 {
-    /* variables for AUTOSPLIT */
-    char buf[MAX_STRING_LENGTH];
     CHAR_DATA *gch;
     int members, chance;
     char buffer[100];
     bool hidden = FALSE;
 
-    if ( !CAN_WEAR(obj, ITEM_TAKE)  )
-    {
-	send_to_char( "You can't take that.\n\r", ch );
+    if(!CAN_WEAR(obj,ITEM_TAKE)) {
+	send_to_char("You can't take that.\n\r",ch);
 	return;
     }
 
-    if ( obj->item_type != ITEM_MONEY)
-     {
-    if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
-    {
-	act( "$d: you can't carry that many items.",
-	    ch, NULL, obj->name, TO_CHAR );
-	return;
+    if(obj->item_type != ITEM_MONEY) {
+        if(ch->carry_number + get_obj_number(obj) > can_carry_n(ch)) {
+	    act("$d: you can't carry that many items.",
+	      ch, NULL, obj->name, TO_CHAR );
+	    return;
+        }
     }
 
-    if ( ch->carry_weight + get_obj_weight( obj ) > can_carry_w( ch ) )
-    {
+    if(query_carry_weight(ch) + get_obj_weight(obj) > can_carry_w(ch)) {
 	act( "$d: you can't carry that much weight.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
     } 
-     }
 
-    if (!can_loot(ch,obj))
-    {
+    if (!can_loot(ch,obj)) {
 	act("Corpse looting is not permitted.",ch,NULL,NULL,TO_CHAR );
 	return;
     }
 
     chance = get_skill(ch,gsn_sleight_of_hand);
-    if(number_percent () < chance - 5 || IS_IMMORTAL(ch) )
-    {
+    if(number_percent () < chance - 5 || IS_IMMORTAL(ch) ) {
       check_improve( ch, gsn_sleight_of_hand, TRUE, 8 );
       hidden = TRUE;
     }
 
-    if ( container != NULL )
-    {
+    if(container) {
 	if (container->pIndexData->vnum == OBJ_VNUM_PIT
-	&&  get_trust(ch) < obj->level)
-	{
+	&&  get_trust(ch) < obj->level) {
 	    send_to_char("You are not powerful enough to use it.\n\r",ch);
 	    return;
 	}
@@ -139,52 +129,92 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	if (container->pIndexData->vnum == OBJ_VNUM_PIT
 	&&  !CAN_WEAR(container, ITEM_TAKE) && obj->timer)
 	    obj->timer = 0;
+
 	act( "You get $p from $P.", ch, obj, container, TO_CHAR );
 	if(!hidden)
 	  act( "$n gets $p from $P.", ch, obj, container, TO_ROOM );
 	obj_from_obj( obj );
-    }
-    else
-    {
+    } else {
 	act( "You get $p.", ch, obj, container, TO_CHAR );
 	if(!hidden)
 	 act( "$n gets $p.", ch, obj, container, TO_ROOM );
 	obj_from_room( obj );
     }
 
-    if ( obj->item_type == ITEM_MONEY)
-    {
-	ch->gold += obj->value[0];
-	if(obj->value[0] >= 10000)
-	{
-	  sprintf( buf, "%s has picked up %d gold. [Room: %d]", ch->name,
-		obj->value[0], ch->in_room->vnum);
-	  log_string(buf);
-	  if( IS_SET(ch->act, PLR_WIZINVIS) )
-	     wizinfo(buf, ch->invis_level);
-	  else
-	    wizinfo(buf, LEVEL_IMMORTAL);
-	}
-	if (IS_SET(ch->act,PLR_AUTOSPLIT))
-	{ /* AUTOSPLIT code */
-	  members = 0;
-	  for (gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-	  {
-	    if ( is_same_group( gch, ch ) )
-	      members++;
+    if(obj->item_type == ITEM_MONEY) {
+        if (query_carry_coins(ch,obj->value[0]) > can_carry_w(ch)) {
+            act( "$d: you can't carry that much weight.",
+                  ch, NULL, obj->name, TO_CHAR );
+        return;
+        }
+	switch(obj->value[1]) {
+	case TYPE_PLATINUM:
+	  ch->new_platinum += obj->value[0];
+
+	  if(IS_SET(ch->act,PLR_AUTOSPLIT)) {
+	    members = 0;
+	    for(gch=ch->in_room->people;gch;gch=gch->next_in_room)
+	        if(is_same_group(gch,ch))
+	            members++;
+
+ 	    if(members > 1 && obj->value[0] > 1) {
+	        sprintf(buffer,"%d platinum",obj->value[0]);
+	        do_split(ch,buffer);
+	    }
+	  }
+	  extract_obj( obj );
+	  break;
+	case TYPE_GOLD:
+	  ch->new_gold += obj->value[0];
+
+	  if(IS_SET(ch->act,PLR_AUTOSPLIT)) {
+	    members = 0;
+	    for(gch=ch->in_room->people;gch;gch=gch->next_in_room)
+	        if(is_same_group(gch,ch))
+	            members++;
+
+ 	    if(members > 1 && obj->value[0] > 1) {
+	        sprintf(buffer,"%d gold",obj->value[0]);
+	        do_split(ch,buffer);
+	    }
+	  } 
+	  extract_obj( obj );
+	  break;
+	case TYPE_SILVER:
+	  ch->new_silver += obj->value[0];
+
+	  if(IS_SET(ch->act,PLR_AUTOSPLIT)) {
+	    members = 0;
+	    for(gch=ch->in_room->people;gch;gch=gch->next_in_room)
+	        if(is_same_group(gch,ch))
+	            members++;
+
+ 	    if(members > 1 && obj->value[0] > 1) {
+	        sprintf(buffer,"%d silver",obj->value[0]);
+	        do_split(ch,buffer);
+	    }
+	  }
+	  extract_obj( obj );
+	  break;
+	case TYPE_COPPER:
+	  ch->new_copper += obj->value[0];
+
+	  if(IS_SET(ch->act,PLR_AUTOSPLIT)) {
+	    members = 0;
+	    for(gch=ch->in_room->people;gch;gch=gch->next_in_room)
+	        if(is_same_group(gch,ch))
+	            members++;
+
+ 	    if(members > 1 && obj->value[0] > 1) {
+	        sprintf(buffer,"%d copper",obj->value[0]);
+	        do_split(ch,buffer);
+	    }
 	  }
 
-	  if ( members > 1 && obj->value[0] > 1)
-	  {
-	    sprintf(buffer,"%d",obj->value[0]);
-	    do_split(ch,buffer);
-	  }
+	  extract_obj( obj );
+	  break;
 	}
-
-	extract_obj( obj );
-    }
-    else
-    {
+    } else {
 	obj_to_char( obj, ch );
     }
 
@@ -369,7 +399,9 @@ void do_get( CHAR_DATA *ch, char *argument )
 	}
     }
     else
-    {
+    {   int amount;
+        char buf[1000];
+
 	/* 'get ... container' */
 	if ( !str_cmp( arg2, "all" ) || !str_prefix( "all.", arg2 ) )
 	{
@@ -398,7 +430,51 @@ void do_get( CHAR_DATA *ch, char *argument )
 	case ITEM_CONTAINER:
 	case ITEM_CORPSE_NPC:
 	    break;
-
+        case ITEM_MONEY:
+          if (!is_number(arg1)) {
+             send_to_char("Specify a number of coins you want to get.\n\r",ch);
+             return;
+          }
+          amount = atoi(arg1);
+          if (amount < 1) {
+            send_to_char("How many coins do you want to get?\n\r",ch);
+            return;
+          }
+          if (container->value[0] < amount) {
+             send_to_char("But there are not that many coins.\n\r",ch);
+             return;
+          }
+          if (query_carry_coins(ch,amount) > can_carry_w(ch)) {
+             send_to_char("but you can't carry that many coins.\n\r",ch);
+             return;
+          }
+          switch(container->value[1]) {
+             case TYPE_PLATINUM: 
+                ch->new_platinum += amount;
+                sprintf(buf,"You get %d platinum coins.\n\r",amount);
+                break;
+             case TYPE_GOLD:
+                ch->new_gold += amount;
+                sprintf(buf,"You get %d gold coins.\n\r",amount);
+                break;
+             case TYPE_SILVER:
+                ch->new_silver += amount;
+                sprintf(buf,"You get %d silver coins.\n\r",amount);
+                break;
+             case TYPE_COPPER:
+                ch->new_copper += amount;
+                sprintf(buf,"You get %d copper coins.\n\r",amount);
+                break;
+             default:
+                sprintf(buf,"You get zippo.\n\r");
+          }
+          send_to_char(buf,ch);
+          container->value[0] -= amount;
+          if (container->value[0] <= 0) {
+            extract_obj(container);
+          } 
+          return;
+ 
 	case ITEM_CORPSE_PC:
 	    {
 
@@ -542,14 +618,17 @@ void do_put( CHAR_DATA *ch, char *argument )
 	}
 
 	if (container->pIndexData->vnum == OBJ_VNUM_PIT
-	&&  !CAN_WEAR(container,ITEM_TAKE))
+	&&  !CAN_WEAR(container,ITEM_TAKE)) {
 	    if (obj->timer)
 	    {
 		send_to_char( "Only permanent items may go in the pit.\n\r",ch);
 		return;
 	    }
 	    else
+	    {
 		obj->timer = number_range(100,200);
+	    }
+	}
 
 	chance = get_skill(ch,gsn_sleight_of_hand);
 	if(number_percent () < chance - 5 || IS_IMMORTAL (ch) )
@@ -579,10 +658,12 @@ void do_put( CHAR_DATA *ch, char *argument )
 	    {
 		if (container->pIndexData->vnum == OBJ_VNUM_PIT
 		&&  !CAN_WEAR(obj, ITEM_TAKE) )
+		{
 		    if (obj->timer)
 			continue;
 		    else
 			obj->timer = number_range(100,200);
+		}
 
 		obj_from_char( obj );
 		obj_to_obj( obj, container );
@@ -619,63 +700,168 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( is_number( arg ) )
-    {
-	/* 'drop NNNN coins' */
-	int amount;
+    if(is_number(arg)) {
+	int amount = atoi(arg);	
 
-	amount   = atoi(arg);
-	argument = one_argument( argument, arg );
-	if ( amount <= 0
-	|| ( str_cmp( arg, "coins" ) && str_cmp( arg, "coin" ) &&
-	     str_cmp( arg, "gold"  ) ) )
-	{
-	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+	argument = one_argument(argument,arg);
+	if(amount<= 0) {
+	    send_to_char("Drop negative coins? Put that bottle down.\n\r",ch);
 	    return;
 	}
 
-	if ( ch->gold < amount )
-	{
-	    send_to_char( "You haven't got that many coins.\n\r", ch );
+	if(!str_cmp(arg,"coins") || !str_cmp(arg, "coin" )) {
+	    send_to_char("With the new monetary system, you need to "
+		 "specify which type of coin.\n"
+		 "Options are: copper, silver, gold or platinum\n\r",ch);
 	    return;
 	}
 
-	ch->gold -= amount;
+	if(!str_cmp(arg,"platinum")) {
+	    if(amount > ch->new_platinum) {
+		send_to_char("You don't have enough platinum.\n\r",ch);
+		return;
+	    } else {
+		for(obj = ch->in_room->contents;obj;obj = obj_next) {
+		    obj_next = obj->next_content;
 
-	for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
-	{
-	    obj_next = obj->next_content;
+		    switch(obj->pIndexData->vnum) {
+		    case OBJ_VNUM_MONEY_ONE:
+			if(obj->value[1] == TYPE_PLATINUM) {
+			    amount += 1;
+			    extract_obj( obj );
+			    break;
+			}
+		    case OBJ_VNUM_MONEY_SOME:
+			if(obj->value[1] == TYPE_PLATINUM) {
+			    amount += obj->value[0];
+			    extract_obj( obj );
+			    break;
+			}
+		    }
+		}
 
-	    switch ( obj->pIndexData->vnum )
-	    {
-	    case OBJ_VNUM_MONEY_ONE:
-		amount += 1;
-		extract_obj( obj );
-		break;
+		obj_to_room( create_money(amount,TYPE_PLATINUM),
+			ch->in_room);
+		act( "$n drops some platinum.", ch, NULL, NULL, TO_ROOM );
+		ch->new_platinum -= amount;
 
-	    case OBJ_VNUM_MONEY_SOME:
-		amount += obj->value[0];
-		extract_obj( obj );
-		break;
-	    }
+		if(amount >= 5000) {
+		    sprintf( buf, "%s dropped %d platinum. [Room: %d]",
+			ch->name, amount, ch->in_room->vnum);
+	            wizinfo(buf,LEVEL_IMMORTAL);
+		}
+
+		send_to_char( "OK.\n\r", ch );
+		return;
+    	    }
+	} else if(!str_cmp(arg,"gold")) {
+	    if(amount > ch->new_gold) {
+		send_to_char("You don't have enough gold.\n\r",ch);
+		return;
+	    } else {
+		for(obj = ch->in_room->contents;obj;obj = obj_next) {
+		    obj_next = obj->next_content;
+
+		    switch(obj->pIndexData->vnum) {
+		    case OBJ_VNUM_MONEY_ONE:
+			if(obj->value[1] == TYPE_GOLD) {
+			    amount += 1;
+			    extract_obj( obj );
+			    break;
+			}
+		    case OBJ_VNUM_MONEY_SOME:
+			if(obj->value[1] == TYPE_GOLD) {
+			    amount += obj->value[0];
+			    extract_obj( obj );
+			    break;
+			}
+		    }
+		}
+
+		obj_to_room( create_money(amount,TYPE_GOLD),
+			ch->in_room);
+		act( "$n drops some gold.", ch, NULL, NULL, TO_ROOM );
+		ch->new_gold -= amount;
+
+		if(amount >= 25000) {
+		    sprintf( buf, "%s dropped %d gold. [Room: %d]",
+			ch->name, amount, ch->in_room->vnum);
+	            wizinfo(buf,LEVEL_IMMORTAL);
+		}
+
+		send_to_char( "OK.\n\r", ch );
+		return;
+    	    }
+	} else if(!str_cmp(arg,"silver")) {
+	    if(amount > ch->new_silver) {
+		send_to_char("You don't have enough silver.\n\r",ch);
+		return;
+	    } else {
+		for(obj = ch->in_room->contents;obj;obj = obj_next) {
+		    obj_next = obj->next_content;
+
+		    switch(obj->pIndexData->vnum) {
+		    case OBJ_VNUM_MONEY_ONE:
+			if(obj->value[1] == TYPE_SILVER) {
+			    amount += 1;
+			    extract_obj( obj );
+			    break;
+			}
+		    case OBJ_VNUM_MONEY_SOME:
+			if(obj->value[1] == TYPE_SILVER) {
+			    amount += obj->value[0];
+			    extract_obj( obj );
+			    break;
+			}
+		    }
+		}
+
+		obj_to_room( create_money(amount,TYPE_SILVER),
+			ch->in_room);
+		act( "$n drops some silver.", ch, NULL, NULL, TO_ROOM );
+		ch->new_silver -= amount;
+		send_to_char( "OK.\n\r", ch );
+		return;
+    	    }
+	} else if(!str_cmp(arg,"copper")) {
+	    if(amount > ch->new_copper) {
+		send_to_char("You don't have enough copper.\n\r",ch);
+		return;
+	    } else {
+		for(obj = ch->in_room->contents;obj;obj = obj_next) {
+		    obj_next = obj->next_content;
+
+		    switch(obj->pIndexData->vnum) {
+		    case OBJ_VNUM_MONEY_ONE:
+			if(obj->value[1] == TYPE_COPPER) {
+			    amount += 1;
+			    extract_obj( obj );
+			    break;
+			}
+		    case OBJ_VNUM_MONEY_SOME:
+			if(obj->value[1] == TYPE_COPPER) {
+			    amount += obj->value[0];
+			    extract_obj( obj );
+			    break;
+			}
+		    }
+		}
+
+		obj_to_room( create_money(amount,TYPE_COPPER),
+			ch->in_room);
+		act( "$n drops some copper.", ch, NULL, NULL, TO_ROOM );
+		ch->new_copper -= amount;
+		send_to_char( "OK.\n\r", ch );
+		return;
+    	    }
+	} else {
+	    send_to_char("With the new monetary system, you need to "
+		 "specify which type of coin.\n"
+		 "Options are: copper, silver, gold or platinum\n\r",ch);
+	    return;
 	}
-
-	obj_to_room( create_money( amount ), ch->in_room );
-	act( "$n drops some gold.", ch, NULL, NULL, TO_ROOM );
-	if(amount >= 5000)
-	{
-	  sprintf( buf, "%s dropped %d gold. [Room: %d]",ch->name, amount,
-		    ch->in_room->vnum);
-
-	  if(IS_SET(ch->act, PLR_WIZINVIS) )
-	    wizinfo(buf, ch->invis_level);
-	  else
-	    wizinfo(buf,LEVEL_IMMORTAL);
-	}
-	send_to_char( "OK.\n\r", ch );
-	return;
     }
-
+		
     count = 0;
 
     if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
@@ -762,8 +948,6 @@ void do_drop( CHAR_DATA *ch, char *argument )
     return;
 }
 
-
-
 void do_give( CHAR_DATA *ch, char *argument )
 {
     char arg1 [MAX_INPUT_LENGTH];
@@ -771,64 +955,129 @@ void do_give( CHAR_DATA *ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
     OBJ_DATA  *obj;
+    int type;
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if ( arg1[0] == '\0' || arg2[0] == '\0' )
-    {
+    if ( arg1[0] == '\0' || arg2[0] == '\0' ) {
 	send_to_char( "Give what to whom?\n\r", ch );
 	return;
     }
 
-    if ( is_number( arg1 ) )
-    {
-	/* 'give NNNN coins victim' */
+    if(is_number(arg1)) {
 	int amount;
 
-	amount   = atoi(arg1);
-	if ( amount <= 0
-	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" ) &&
-	     str_cmp( arg2, "gold"  ) ) )
-	{
-	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+	amount = atoi(arg1);
+	if(amount <= 0) {
+	    send_to_char("Give a negative amount?"
+		" Put that bottle down.\n\r",ch);
 	    return;
 	}
-	else
+
+	if(!str_cmp(arg2,"coins") || !str_cmp(arg2,"coin")) {
+            send_to_char("With the new monetary system, you need to "
+                 "specify which type of coin.\n"
+                 "Options are: copper, silver, gold or platinum\n\r",ch);
+            return;
+	}
+
+	     if(!str_cmp(arg2,"platinum"))	type = TYPE_PLATINUM;
+	else if(!str_cmp(arg2,"gold"))		type = TYPE_GOLD;
+	else if(!str_cmp(arg2,"silver"))	type = TYPE_SILVER;
+	else if(!str_cmp(arg2,"copper"))	type = TYPE_COPPER;
+	else {
+            send_to_char("With the new monetary system, you need to "
+                 "specify which type of coin.\n"
+                 "Options are: copper, silver, gold or platinum\n\r",ch);
+            return;
+ 	}
+
 	argument = one_argument( argument, arg2 );
-	if ( arg2[0] == '\0' )
-	{
+	if(arg2[0] == '\0') {
 	    send_to_char( "Give what to whom?\n\r", ch );
 	    return;
 	}
 
-	if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
-	{
+	if(!(victim = get_char_room(ch,arg2))) {
 	    send_to_char( "They aren't here.\n\r", ch );
 	    return;
 	}
 
-	if ( ch->gold < amount )
-	{
-	    send_to_char( "You haven't got that much gold.\n\r", ch );
-	    return;
-	}
+        if (query_carry_coins(victim,amount) > can_carry_w(victim))
+        {   act("$N wouldn't survive this extra weight.",ch,NULL,victim,TO_CHAR);
+            return;
+        }
 
-	ch->gold     -= amount;
-	victim->gold += amount;
-	sprintf(buf,"$n gives you %d gold.",amount);
-	act( buf, ch, NULL, victim, TO_VICT    );
-	act( "$n gives $N some gold.",  ch, NULL, victim, TO_NOTVICT );
-	sprintf(buf,"You give $N %d gold.",amount);
-	act( buf, ch, NULL, victim, TO_CHAR    );
-	if(amount >= 10000)
-	{
-	  sprintf(buf, "%s gave %s %d gold", ch->name, victim->name, amount);
+	switch(type) {
+	case TYPE_PLATINUM:
+	    if(ch->new_platinum < amount) {
+		send_to_char("You don't have enough platinum.\n\r",ch);
+		return;
+	    } else {
+		ch->new_platinum     -= amount;
+		victim->new_platinum += amount;
+		sprintf(buf,"$n gives you %d platinum.",amount);
+		act(buf,ch,NULL,victim,TO_VICT);
+		act("$n gives $N some platinum.",
+			ch,NULL,victim,TO_NOTVICT);
+		sprintf(buf,"You give $N %d platinum.",amount);
+		act(buf,ch,NULL,victim,TO_CHAR);
 
-	  if( IS_SET(ch->act, PLR_WIZINVIS) )
-	    wizinfo(buf, ch->invis_level);
-	 else
-	    wizinfo(buf, LEVEL_IMMORTAL);
+		if(amount >= 5000) {
+	  	    sprintf(buf,"%s gave %s %d platinum",
+			ch->name,victim->name,amount);
+		    wizinfo(buf, LEVEL_IMMORTAL);
+		}
+	    } break;
+	case TYPE_GOLD:
+	    if(ch->new_gold < amount) {
+		send_to_char("You don't have enough gold.\n\r",ch);
+		return;
+	    } else {
+		ch->new_gold     -= amount;
+		victim->new_gold += amount;
+		sprintf(buf,"$n gives you %d gold.",amount);
+		act(buf,ch,NULL,victim,TO_VICT);
+		act("$n gives $N some gold.",
+			ch,NULL,victim,TO_NOTVICT);
+		sprintf(buf,"You give $N %d gold.",amount);
+		act(buf,ch,NULL,victim,TO_CHAR);
+
+		if(amount >= 25000) {
+	  	    sprintf(buf,"%s gave %s %d gold",
+			ch->name,victim->name,amount);
+		    wizinfo(buf, LEVEL_IMMORTAL);
+		}
+	    } break;
+	case TYPE_SILVER:
+	    if(ch->new_silver < amount) {
+		send_to_char("You don't have enough silver.\n\r",ch);
+		return;
+	    } else {
+		ch->new_silver     -= amount;
+		victim->new_silver += amount;
+		sprintf(buf,"$n gives you %d silver.",amount);
+		act(buf,ch,NULL,victim,TO_VICT);
+		act("$n gives $N some silver.",
+			ch,NULL,victim,TO_NOTVICT);
+		sprintf(buf,"You give $N %d silver.",amount);
+		act(buf,ch,NULL,victim,TO_CHAR);
+	    } break;
+	case TYPE_COPPER:
+	    if(ch->new_copper < amount) {
+		send_to_char("You don't have enough copper.\n\r",ch);
+		return;
+	    } else {
+		ch->new_copper     -= amount;
+		victim->new_copper += amount;
+		sprintf(buf,"$n gives you %d copper.",amount);
+		act(buf,ch,NULL,victim,TO_VICT);
+		act("$n gives $N some copper.",
+			ch,NULL,victim,TO_NOTVICT);
+		sprintf(buf,"You give $N %d copper.",amount);
+		act(buf,ch,NULL,victim,TO_CHAR);
+	    } break;
 	}
 	return;
     }
@@ -863,7 +1112,7 @@ void do_give( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( victim->carry_weight + get_obj_weight( obj ) > can_carry_w( victim ) )
+    if ( query_carry_weight(victim) + get_obj_weight( obj ) > can_carry_w( victim ) )
     {
 	act( "$N can't carry that much weight.", ch, NULL, victim, TO_CHAR );
 	return;
@@ -885,149 +1134,142 @@ void do_give( CHAR_DATA *ch, char *argument )
 /*
  * First bank of TOC code
  * Written by Gravestone.
+ * Adapted by Ungrim to work with monetary system.
  */
-
 void do_deposit( CHAR_DATA *ch, char *argument )
 {
     char arg1[MAX_INPUT_LENGTH];
-    char arg2[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
+    int amount;
 
     argument = one_argument( argument, arg1 );
-    argument = one_argument( argument, arg2 );
 
-    if( arg1[0] == '\0' || arg2[0] == '\0' )
-    {
-	send_to_char( "Syntax is: Deposit <$> gold/coins/coin.\n\r", ch );
+    if( arg1[0] == '\0' || !is_number(arg1)) {
+	send_to_char( "Syntax is: Deposit <$>.\n\r", ch );
 	return;
     }
 
-    if( is_number( arg1 ) )
-    {
-	int amount;
-
-	amount = atoi(arg1);
-	if ( amount <= 0
-	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" )
-	     && str_cmp( arg2, "gold" ) ) )
-	{
-		send_to_char( "You can't do that.\n\r", ch );
-		return;
-  	}
-	else
-
-	if( ch->in_room != get_room_index(ROOM_VNUM_BANK) )
-	{
-		send_to_char( "Your not in the bank!\n\r", ch );
-		return;
-	}
-
-	  if ( ch->gold < amount )
-	  {
-		send_to_char( "You dont have that much.\n\r", ch );
-		return;
-	  }
-	ch->gold -= amount;
-	ch->pcdata->bank += amount;
-	sprintf( buf,"You have deposited %d gold in the bank.\n\r", amount );
-	send_to_char( buf, ch );
-	sprintf( buf,"Your new balance is %ld.\n\r", ch->pcdata->bank );
-	send_to_char( buf, ch );
-	if( amount >= 100000 )
-	{
-	    sprintf( buf,"%s deposited %d in the bank", ch->name, amount );
-
-	    if( IS_SET(ch->act, PLR_WIZINVIS) )
-		wizinfo( buf, ch->invis_level );
-	    else
-		wizinfo( buf, LEVEL_IMMORTAL );
-	}
-        return;
+    amount = atoi(arg1);
+    if(amount <= 0) {
+	send_to_char( "You can't do that.\n\r", ch );
+	return;
     }
 
+    if(ch->in_room != get_room_index(ROOM_VNUM_BANK)) {
+	send_to_char( "Your not in the bank!\n\r", ch );
+	return;
+    }
+
+    if(ch->new_platinum < amount) {
+	send_to_char( "You dont have that much platinum. Convert first?\n\r", ch );
+	return;
+    }
+
+    ch->new_platinum -= amount;
+    ch->pcdata->bank += amount;
+    sprintf(buf,"You have deposited %d platinum in the bank.\n\r",amount);
+    send_to_char(buf,ch);
+    sprintf(buf,"Your new balance is %d platinum.\n\r",ch->pcdata->bank);
+    send_to_char(buf,ch);
 }
 
 void do_withdraw( CHAR_DATA *ch, char *argument )
 {
     char arg1[MAX_INPUT_LENGTH];
-    char arg2[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
+    int amount;
 
     argument = one_argument( argument, arg1 );
-    argument = one_argument( argument, arg2 );
 
-    if ( arg1[0] == '\0' || arg2[0] == '\0' )
-    {
-	send_to_char( "Syntax is withdraw <$> coins/coin/gold.\n\r",ch );
+    if(arg1[0] == '\0' || !is_number(arg1)) {
+	send_to_char( "Syntax is withdraw <$>.\n\r",ch );
 	return;
     }
 
-    if ( is_number( arg1 ) )
-    {
-	int amount;
+    amount = atoi(arg1);
+    if(amount <= 0) {
+	send_to_char( "You can't do that.\n\r", ch );
+        return;
+    }
 
-	amount = atoi(arg1);
-	if ( amount <= 0
-	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" )
-	     && str_cmp( arg2, "gold" ) ) )
-	{
-		send_to_char( "You can't do that.\n\r", ch );
-		return;
-	}
-	else
-
-	if ( ch->in_room != get_room_index(ROOM_VNUM_BANK) )
-	{
-		send_to_char ( "Your not in the bank!\n\r", ch );
-		return;
-	}
-
-	if ( ch->pcdata->bank < amount )
-	{
-		send_to_char ( "You dont have that much in the bank.\n\r", ch );
-		return;
-	}
-	ch->pcdata->bank -= amount;
-	ch->gold += amount;
-	sprintf( buf,"You withdrew %d gold from your account.\n\r", amount );
-	send_to_char( buf, ch );
-	sprintf( buf,"Your new balance is %ld.\n\r", ch->pcdata->bank );
-	send_to_char( buf, ch );
-	if( amount >= 100000 )
-	{
-		sprintf( buf,"%s withdrew %d from the bank.",
-			 ch->name, amount );
-
-		if( IS_SET(ch->act, PLR_WIZINVIS) )
-		    wizinfo( buf, ch->invis_level );
-		else
-		    wizinfo( buf, LEVEL_IMMORTAL );
-	}
+    if(ch->in_room != get_room_index(ROOM_VNUM_BANK)) {
+	send_to_char("Your not in the bank!\n\r",ch);
 	return;
     }
+
+    if(ch->pcdata->bank < amount) {
+        send_to_char ( "You dont have that much platinum in the bank.\n\r", ch);
+        return;
+    }
+
+    if (query_carry_coins(ch,amount) > can_carry_w(ch))
+    {   send_to_char("You can't carry that many coins.\n\r",ch);
+        return;
+    }
+
+    ch->pcdata->bank -= amount;
+    ch->new_platinum += amount;
+    sprintf( buf,"You withdrew %d platinum from your account.\n\r",amount);
+    send_to_char(buf,ch);
+    sprintf( buf,"Your new balance is %d platinum.\n\r", ch->pcdata->bank);
+    send_to_char( buf, ch );
+}
+
+void do_convert(CHAR_DATA *ch, char *argument)
+{
+    int temp, left;
+
+    if(ch->in_room != get_room_index(ROOM_VNUM_BANK)) {
+	send_to_char("Your not in the bank!\n\r",ch);
+	return;
+    }
+
+    temp = ch->new_copper/500;
+    left = ch->new_copper - temp*500;
+    ch->new_platinum += temp;
+    ch->new_copper = left;
+    temp = ch->new_copper/100;
+    left = ch->new_copper - temp*100;
+    ch->new_gold += temp;
+    ch->new_copper = left;
+    temp = ch->new_copper/10;
+    left = ch->new_copper - temp*10;
+    ch->new_silver += temp;
+    ch->new_copper = left;
+
+    temp = ch->new_silver/50;
+    left = ch->new_silver - temp*50;
+    ch->new_platinum += temp;
+    ch->new_silver = left;
+    temp = ch->new_silver/10;
+    left = ch->new_silver - temp*10;
+    ch->new_gold += temp;
+    ch->new_silver = left;
+
+    temp = ch->new_gold/5;
+    left = ch->new_gold - temp*5;
+    ch->new_platinum += temp;
+    ch->new_gold = left;
+
+    send_to_char("Your money has been converted into platinum as much as possible.\n\r",ch);
+    return;
 }
 
 void do_balance( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    int balance;
 
-    if(IS_NPC( ch ) )
+    if(IS_NPC(ch))
 	return;
 
-    balance = ch->pcdata->bank;
-
-    if( ch->in_room != get_room_index(ROOM_VNUM_BANK) )
-    {
-	send_to_char( "You need to be in the bank!\n\r", ch );
+    if(ch->in_room != get_room_index(ROOM_VNUM_BANK)) {
+	send_to_char("You need to be in the bank!\n\r",ch);
 	return;
     }
 
-    sprintf( buf,"Your current balance is %d.\n\r", balance );
-    send_to_char( buf, ch );
-
+    sprintf(buf,"Your current balance is %d.\n\r",ch->pcdata->bank);
+    send_to_char(buf,ch);
     return;
-
 }
 
 /* 
@@ -1938,26 +2180,21 @@ void do_remove( CHAR_DATA *ch, char *argument )
     return;
 }
 
-
-
 void do_sacrifice( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
-    int gold;
+    int copper;
     
-    /* variables for AUTOSPLIT */
     CHAR_DATA *gch;
     int members;
     char buffer[100];
 
-
     one_argument( argument, arg );
 
-    if ( arg[0] == '\0' || !str_cmp( arg, ch->name ) )
-    {
-	act( "$n offers $mself to the Gods, who graciously declines.",
+    if ( arg[0] == '\0' || !str_cmp(arg,ch->name)) {
+	act( "$n offers $mself to the Gods, who graciously decline.",
 	    ch, NULL, NULL, TO_ROOM );
 	send_to_char(
 	    "The Gods appreciates your offer and may accept it later.\n\r", ch );
@@ -1965,58 +2202,45 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     }
 
     obj = get_obj_list( ch, arg, ch->in_room->contents );
-    if ( obj == NULL )
-    {
+    if(!obj) {
 	send_to_char( "You can't find it.\n\r", ch );
 	return;
     }
 
-    if ( obj->item_type == ITEM_CORPSE_PC )
-    {
-	if (obj->contains)
-        {
-	   send_to_char(
-	     "The Gods wouldn't like that.\n\r",ch);
-	   return;
-        }
+    if(obj->item_type == ITEM_CORPSE_PC && obj->contains) {
+	send_to_char("The Gods wouldn't like that.\n\r",ch);
+	return;
     }
 
-
-    if ( !CAN_WEAR(obj, ITEM_TAKE))
-    {
+    if(!CAN_WEAR(obj,ITEM_TAKE)) {
 	act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
 	return;
     }
 
-    gold = UMAX(1,obj->level * 2);
+    copper = UMAX(1,obj->level * 2);
 
-    if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
-	gold = UMIN(gold,obj->cost);
+    if(obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
+	copper = UMIN(copper,obj->cost);
 
-    if (gold == 1)
-        send_to_char(
-	    "The Gods give you one gold coin for your sacrifice.\n\r", ch );
-    else
-    {
-	sprintf(buf,"The Gods give you %d gold coins for your sacrifice.\n\r",
-		gold);
+    if(copper == 1)
+        send_to_char("The Gods give you one "
+		"copper coin for your sacrifice.\n\r",ch);
+    else {
+	sprintf(buf,"The Gods give you %d "
+		"copper coins for your sacrifice.\n\r",copper);
 	send_to_char(buf,ch);
     }
     
-    ch->gold += gold;
+    ch->new_copper += copper;
     
-    if (IS_SET(ch->act,PLR_AUTOSPLIT) )
-    { /* AUTOSPLIT code */
+    if (IS_SET(ch->act,PLR_AUTOSPLIT) ) {
     	members = 0;
-	for (gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-    	{
+	for (gch = ch->in_room->people;gch;gch = gch->next_in_room)
 	    if ( is_same_group( gch, ch ) )
-            members++;
-    	}
+                members++;
 
-	if ( members > 1 && gold > 1)
-	{
-	    sprintf(buffer,"%d",gold);
+	if ( members > 1 && copper > 1) {
+	    sprintf(buffer,"%d copper",copper);
 	    do_split(ch,buffer);	
 	}
     }
@@ -2359,8 +2583,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if(IS_AFFECTED2(ch,AFF2_STEALTH) )
-    {
+    if(IS_AFFECTED2(ch,AFF2_STEALTH)) {
       send_to_char("You can't steal, your too busy being stealthful!\n\r",ch);
       return;
     }
@@ -2392,7 +2615,6 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-
     WAIT_STATE( ch, skill_table[gsn_steal].beats );
     percent  = number_percent( ) + ( IS_AWAKE(victim) ? 5 : -50 );
 
@@ -2407,12 +2629,8 @@ void do_steal( CHAR_DATA *ch, char *argument )
 
     if ( ch->level + 5 < victim->level
     ||   victim->position == POS_FIGHTING
-/*  ||   !IS_NPC(victim) */
     || ( !IS_NPC(ch) && percent > chance ) )
     {
-	/*
-	 * Failure.
-	 */
 	send_to_char( "Oops.\n\r", ch );
 	act( "$n tried to steal from you.\n\r", ch, NULL, victim, TO_VICT    );
 	act( "$n tried to steal from $N.\n\r",  ch, NULL, victim, TO_NOTVICT );
@@ -2443,10 +2661,10 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	    else
 	    {
 		log_string( buf );
-		if ( !IS_SET(ch->act, PLR_THIEF) )
+		if ( !IS_SET(ch->act, PLR_WANTED) )
 		{
-		    SET_BIT(ch->act, PLR_THIEF);
-		    send_to_char( "*** You are now a THIEF!! ***\n\r", ch );
+		    SET_BIT(ch->act, PLR_WANTED);
+		    send_to_char( "*** You are now WANTED!! ***\n\r", ch );
 		    save_char_obj( ch );
 		}
 	    }
@@ -2455,55 +2673,94 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp( arg1, "coin"  )
-    ||   !str_cmp( arg1, "coins" )
-    ||   !str_cmp( arg1, "gold"  ) )
-    {
+    if(!str_cmp(arg1,"platinum")) {
 	int amount;
 
-	amount = victim->gold * number_range(1, 10) / 100;
-	if ( amount <= 0 )
-	{
+	amount = victim->new_platinum * number_range(1, 10) / 100;
+
+	if ((amount <= 0) || (query_carry_coins(ch,amount) > can_carry_w(ch))) {
+	    send_to_char( "You couldn't get any platinum.\n\r", ch );
+	    return;
+	}
+
+	ch->new_platinum     += amount;
+	victim->new_platinum -= amount;
+	sprintf(buf,"Bingo! You got %d platinum coins.\n\r",amount);
+	send_to_char(buf,ch);
+	check_improve(ch,gsn_steal,TRUE,2);
+	return;
+    }
+
+    if(!str_cmp(arg1,"gold")) {
+	int amount;
+
+	amount = victim->new_gold * number_range(1, 10) / 100;
+
+	if ((amount <= 0) || (query_carry_coins(ch,amount) > can_carry_w(ch))) {
 	    send_to_char( "You couldn't get any gold.\n\r", ch );
 	    return;
 	}
 
-	ch->gold     += amount;
-	victim->gold -= amount;
-	sprintf( buf, "Bingo!  You got %d gold coins.\n\r", amount );
-	send_to_char( buf, ch );
+	ch->new_gold     += amount;
+	victim->new_gold -= amount;
+	sprintf(buf,"Bingo! You got %d gold coins.\n\r",amount);
+	send_to_char(buf,ch);
 	check_improve(ch,gsn_steal,TRUE,2);
 	return;
     }
-/*
-    if ( ( obj = get_obj_carry( victim, arg1 ) ) == NULL )
-    {
-	send_to_char( "You can't find it.\n\r", ch );
+
+    if(!str_cmp(arg1,"silver")) {
+	int amount;
+
+	amount = victim->new_silver * number_range(1, 10) / 100;
+
+	if ((amount <= 0) || (query_carry_coins(ch,amount) > can_carry_w(ch))) {
+	    send_to_char( "You couldn't get any silver.\n\r", ch );
+	    return;
+	}
+
+	ch->new_silver     += amount;
+	victim->new_silver -= amount;
+	sprintf(buf,"Bingo! You got %d silver coins.\n\r",amount);
+	send_to_char(buf,ch);
+	check_improve(ch,gsn_steal,TRUE,2);
 	return;
     }
-*/
 
-    /* Fix so that you can steal items from a victim even if the victim
-       can't see the item in their inventory but the stealer can see it - Rico */
+    if(!str_cmp(arg1,"copper")) {
+	int amount;
+
+	amount = victim->new_copper * number_range(1, 10) / 100;
+
+	if ((amount <= 0) || (query_carry_coins(ch,amount) > can_carry_w(ch))) {
+	    send_to_char( "You couldn't get any copper.\n\r", ch );
+	    return;
+	}
+
+	ch->new_copper     += amount;
+	victim->new_copper -= amount;
+	sprintf(buf,"Bingo! You got %d copper coins.\n\r",amount);
+	send_to_char(buf,ch);
+	check_improve(ch,gsn_steal,TRUE,2);
+	return;
+    }
+
     count = 0;
-    for ( obj = victim->carrying; obj != NULL; obj = obj->next_content )
-    {
-        if ( obj->wear_loc == WEAR_NONE
-        &&   (can_see_obj( ch, obj ) )
-        &&   is_name( arg1, obj->name ) )
-        {
+    for(obj = victim->carrying;obj;obj = obj->next_content) {
+        if(obj->wear_loc == WEAR_NONE
+        && (can_see_obj(ch,obj))
+        && is_name(arg1,obj->name)) {
            count = 1;
            break;
         }
     }
 
-    if (count == 0)
-    {
+    if (count == 0) {
         send_to_char( "You can't find it.\n\r", ch );
         return;
     }
 	
-    if ( !can_drop_obj( ch, obj )
+    if(!can_drop_obj( ch, obj )
     ||   IS_SET(obj->extra_flags, ITEM_INVENTORY)
     ||   obj->level > ch->level 
     ||   IS_SET(obj->extra_flags2, ITEM2_NOSTEAL ) )
@@ -2518,7 +2775,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ch->carry_weight + get_obj_weight( obj ) > can_carry_w( ch ) )
+    if ( query_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
     {
 	send_to_char( "You can't carry that much weight.\n\r", ch );
 	return;
@@ -2537,7 +2794,6 @@ void do_steal( CHAR_DATA *ch, char *argument )
  */
 CHAR_DATA *find_keeper( CHAR_DATA *ch )
 {
-    char buf[MAX_STRING_LENGTH];
     CHAR_DATA *keeper;
     SHOP_DATA *pShop;
 
@@ -2554,24 +2810,15 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 	return NULL;
     }
 
-    /*
-     * Undesirables.
-     */
-    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_KILLER) )
+/*  Undesirables.
+    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_WANTED) )
     {
-	do_say( keeper, "Killers are not welcome!" );
-	sprintf( buf, "%s the KILLER is over here!\n\r", ch->name );
+	do_say( keeper, "Wanted ones are not welcome!" );
+	sprintf( buf, "%s is over here!\n\r", ch->name );
 	do_yell( keeper, buf );
 	return NULL;
     }
-
-    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_THIEF) )
-    {
-	do_say( keeper, "Thieves are not welcome!" );
-	sprintf( buf, "%s the THIEF is over here!\n\r", ch->name );
-	do_yell( keeper, buf );
-	return NULL;
-    }
+*/
 
     /*
      * Shop hours.
@@ -2652,88 +2899,76 @@ int get_cost( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy )
 void do_buy( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *keeper;
+    OBJ_DATA *obj;
+
     int cost,roll;
 
-    if ( argument[0] == '\0' )
-    {
+    if(argument[0] == '\0') {
 	send_to_char( "Buy what?\n\r", ch );
 	return;
     }
 
-    {
-	CHAR_DATA *keeper;
-	OBJ_DATA *obj;
 
-	if ( ( keeper = find_keeper( ch ) ) == NULL )
-	    return;
+    if(!(keeper = find_keeper(ch)))
+	return;
 
-	obj  = get_obj_carry( keeper, argument );
-	cost = get_cost( keeper, obj, TRUE );
+    obj  = get_obj_carry( keeper, argument );
+    cost = get_cost( keeper, obj, TRUE );
 
-	if ( cost <= 0 || !can_see_obj( ch, obj ) )
-	{
-	    act( "$n tells you 'I don't sell that -- try 'list''.",
-		keeper, NULL, ch, TO_VICT );
-	    ch->reply = keeper;
-	    return;
-	}
-
-	if ( ch->gold < cost )
-	{
-	    act( "$n tells you 'You can't afford to buy $p'.",
-		keeper, obj, ch, TO_VICT );
-	    ch->reply = keeper;
-	    return;
-	}
-
-	if ( obj->level > ch->level )
-	{
-	    act( "$n tells you 'You can't use $p yet'.",
-		keeper, obj, ch, TO_VICT );
-	    ch->reply = keeper;
-	    return;
-	}
-
-	if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
-	{
-	    send_to_char( "You can't carry that many items.\n\r", ch );
-	    return;
-	}
-
-	if ( ch->carry_weight + get_obj_weight( obj ) > can_carry_w( ch ) )
-	{
-	    send_to_char( "You can't carry that much weight.\n\r", ch );
-	    return;
-	}
-
-	/* haggle */
-	roll = number_percent();
-	if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
-	{
-	    cost -= obj->cost / 2 * roll / 100;
-	    sprintf(buf,"You haggle the price down to %d coins.\n\r",cost);
-	    send_to_char(buf,ch);
-	    check_improve(ch,gsn_haggle,TRUE,4);
-	}
-
-	act( "$n buys $p.", ch, obj, NULL, TO_ROOM );
-	act( "You buy $p.", ch, obj, NULL, TO_CHAR );
-	ch->gold     -= cost;
-	keeper->gold += cost;
-
-	if ( IS_SET( obj->extra_flags, ITEM_INVENTORY ) )
-	    obj = create_object( obj->pIndexData, -1 * obj->level );
-	else
-	    obj_from_char( obj );
-
-
-	if (obj->timer > 0)
-	    obj-> timer = 0;
-	obj_to_char( obj, ch );
-	if (cost < obj->cost)
-	    obj->cost = cost;
+    if(cost <= 0 || !can_see_obj(ch,obj)) {
+	act( "$n tells you 'I don't sell that -- try 'list''.",
+	    keeper, NULL, ch, TO_VICT );
 	return;
     }
+
+    if(query_gold(ch) < cost) {
+	act( "$n tells you 'You can't afford to buy $p'.",
+	    keeper, obj, ch, TO_VICT );
+	return;
+    }
+
+    if(obj->level > ch->level) {
+	act( "$n tells you 'You can't use $p yet'.",
+	    keeper, obj, ch, TO_VICT );
+        return;
+    }
+
+    if(ch->carry_number + get_obj_number(obj) > can_carry_n(ch)) {
+	send_to_char( "You can't carry that many items.\n\r", ch );
+	return;
+    }
+
+    if(query_carry_weight(ch) + get_obj_weight(obj) > can_carry_w(ch)) {
+	send_to_char( "You can't carry that much weight.\n\r",ch);
+	return;
+    }
+
+    roll = number_percent();
+    if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle]) {
+	cost -= obj->cost / 2 * roll / 100;
+	sprintf(buf,"You haggle the price down to %d coins.\n\r",cost);
+	send_to_char(buf,ch);
+	check_improve(ch,gsn_haggle,TRUE,4);
+    }
+
+    act( "$n buys $p.", ch, obj, NULL, TO_ROOM );
+    act( "You buy $p.", ch, obj, NULL, TO_CHAR );
+    add_money(ch,cost*-1);
+    keeper->new_gold += cost;
+
+    if(IS_SET( obj->extra_flags, ITEM_INVENTORY ) )
+        obj = create_object( obj->pIndexData, -1 * obj->level );
+    else
+        obj_from_char( obj );
+
+    if (obj->timer > 0)
+        obj-> timer = 0;
+
+    obj_to_char( obj, ch );
+    if(cost < obj->cost)
+	obj->cost = cost;
+    return;
 }
 
 
@@ -2828,7 +3063,7 @@ void do_sell( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( cost > keeper->gold )
+    if ( cost > keeper->new_gold )
     {
 	act("$n tells you 'I'm afraid I don't have enough gold to buy $p.",
 	    keeper,obj,ch,TO_VICT);
@@ -2843,16 +3078,16 @@ void do_sell( CHAR_DATA *ch, char *argument )
         send_to_char("You haggle with the shopkeeper.\n\r",ch);
         cost += obj->cost / 2 * roll / 100;
         cost = UMIN(cost,95 * get_cost(keeper,obj,TRUE) / 100);
-	cost = UMIN(cost,keeper->gold);
+	cost = UMIN(cost,keeper->new_gold);
         check_improve(ch,gsn_haggle,TRUE,4);
     }
     sprintf( buf, "You sell $p for %d gold piece%s.",
 	cost, cost == 1 ? "" : "s" );
     act( buf, ch, obj, NULL, TO_CHAR );
-    ch->gold     += cost;
-    keeper->gold -= cost;
-    if ( keeper->gold < 0 )
-	keeper->gold = 0;
+    ch->new_gold     += cost;
+    keeper->new_gold -= cost;
+    if ( keeper->new_gold < 0 )
+	keeper->new_gold = 0;
 
     if ( obj->item_type == ITEM_TRASH )
     {
@@ -3413,7 +3648,7 @@ void do_repair( CHAR_DATA *ch, char *argument )
 
     cost = ((100 - obj->condition) * obj->level) * 10;
 
-    if(ch->gold < cost) {
+    if(query_gold(ch) < cost) {
       sprintf(buf,"It will cost you %d to repair %s.\n\r",cost,
               obj->short_descr);
       send_to_char(buf,ch);
@@ -3429,11 +3664,254 @@ void do_repair( CHAR_DATA *ch, char *argument )
 	extract_obj(obj);
 	do_say(rpr,"Heh, old thing broke apart, guess you don't have to pay.\n\r");
     } else {
-        ch->gold -= cost;
+	add_money(ch,cost*-1);
         obj->condition = 100;
         act( "$N repairs your $p.", ch, obj, rpr, TO_CHAR );
         act( "$N repairs $n's $p.", ch, obj, rpr, TO_ROOM );
        return;
     }
 }
+
+
+
+long query_gold(CHAR_DATA *ch) 
+{
+  if (ch == NULL) return 0; 
+  return (long) ((5 * ch->new_platinum) + (ch -> new_gold) + 
+                 (0.1 * ch -> new_silver) + (0.01 * ch->new_copper));
+}
+
+int query_carry_coins(CHAR_DATA *ch, long amount)
+{
+  if (ch == NULL) return 0;
+  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold + 
+                               ch->new_silver + ch->new_copper + amount)/100));
+}
+
+int query_carry_weight(CHAR_DATA *ch)
+{
+  if (ch == NULL) return 0;
+  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold + ch->new_silver + ch->new_copper)/100));
+}
+
+void add_money(CHAR_DATA *ch, long amount)
+{ 
+  char buf[1000];
+  long has_money;
+  long i;
+  if (amount > 0) 
+  {  ch->new_platinum += amount/5;
+     ch->new_gold += amount%5;
+     return;
+  }
+  if (amount == 0)
+  {  return;
+  }
+  amount *= -1;
+  has_money = query_gold(ch);
+  if (has_money < amount)
+  { sprintf(buf,"[ADD_MONEY] Trying to substract %ld money while char %s has only %ld.\n\r",
+            amount,ch->name,has_money); 
+    log_string(buf);
+    ch->new_gold = 0;
+    ch->new_platinum = 0;
+    ch->new_silver = 0;
+    ch->new_copper = 0;
+    return;
+  } 
+  i = 100 * amount;
+  if ((i > 0) && (ch->new_copper >= 100))
+  { if (ch->new_copper >= i)
+    { ch->new_copper -= i;
+      return;
+    }
+    amount = amount - (ch->new_copper/100);
+    ch->new_copper = ch->new_copper % 100;
+    add_money(ch,-1 * amount);
+    return;
+  }
+  i = 10 * amount;
+  if ((i > 0) && (ch->new_silver >= 10))
+  { if (ch->new_silver >= i)
+    { ch->new_silver -= i;
+      return;
+    }
+    amount = amount - (ch->new_silver/10); 
+    ch->new_silver = ch->new_silver % 10;
+    add_money(ch,-1 * amount);
+    return;
+  }
+  i = amount;
+  if ((i > 0) && (ch->new_gold >= 1))
+  { if (ch->new_gold >= i)
+    { ch->new_gold -= i;
+      return;
+    }
+    amount = amount - ch->new_gold;
+    ch->new_gold = 0;
+    add_money(ch,-1 * amount);
+    return;
+  }
+  i = amount/5;
+  if ((i > 0) && (ch->new_platinum >= 1))
+  { if (ch->new_platinum >= i)
+    { ch->new_platinum -= i;
+      add_money(ch,-1 * (amount % 5));
+      return;
+    }
+    amount = amount - (5 * ch->new_platinum);
+    ch -> new_platinum = 0;
+    add_money(ch,-1 * amount);
+    return;
+  }
+  if (ch->new_platinum > 0)
+  { ch->new_platinum -= 1;
+    ch->new_gold += 5 - amount;
+    return;
+  }
+  sprintf(buf,"[ADD_MONEY] Trying to substract %ld money while char %s has no money left.\n\r",
+          amount,ch->name); 
+  log_string(buf);
+}
+
+void add_gold(CHAR_DATA *ch, long amount)
+{ 
+  if (ch == NULL) return; 
+  ch->new_gold += amount;
+  if (ch->new_gold < 0) ch->new_gold = 0;
+}
+
+void add_copper(CHAR_DATA *ch, long amount)
+{ 
+  if (ch == NULL) return; 
+  ch->new_copper += amount;
+  if (ch->new_copper < 0) ch->new_copper = 0;
+}
+
+void add_silver(CHAR_DATA *ch, long amount)
+{ 
+  if (ch == NULL) return; 
+  ch->new_silver += amount;
+  if (ch->new_silver < 0) ch->new_silver = 0;
+}
+
+void add_platinum(CHAR_DATA *ch, long amount)
+{
+  if (ch == NULL) return; 
+  ch->new_platinum += amount;
+  if (ch->new_platinum < 0) ch->new_platinum = 0;
+}
+
+/* Old money code, left here just in case. Ungrim. | do_drop*/
+/*    if ( is_number( arg ) )
+    {
+	int amount;
+
+	amount   = atoi(arg);
+
+	argument = one_argument( argument, arg );
+	if ( amount <= 0
+	|| ( str_cmp( arg, "coins" ) && str_cmp( arg, "coin" ) &&
+	     str_cmp( arg, "gold"  ) ) )
+	{
+	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+	    return;
+	}
+
+	if ( ch->gold < amount )
+	{
+	    send_to_char( "You haven't got that many coins.\n\r", ch );
+	    return;
+	}
+
+	ch->gold -= amount;
+
+	for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+	{
+	    obj_next = obj->next_content;
+
+	    switch ( obj->pIndexData->vnum )
+	    {
+	    case OBJ_VNUM_MONEY_ONE:
+		amount += 1;
+		extract_obj( obj );
+		break;
+
+	    case OBJ_VNUM_MONEY_SOME:
+		amount += obj->value[0];
+		extract_obj( obj );
+		break;
+	    }
+	}
+
+	obj_to_room( create_money( amount ), ch->in_room );
+	act( "$n drops some gold.", ch, NULL, NULL, TO_ROOM );
+	if(amount >= 5000)
+	{
+	  sprintf( buf, "%s dropped %d gold. [Room: %d]",ch->name, amount,
+		    ch->in_room->vnum);
+
+	  if(IS_SET(ch->act, PLR_WIZINVIS) )
+	    wizinfo(buf, ch->invis_level);
+	  else
+	    wizinfo(buf,LEVEL_IMMORTAL);
+	}
+	send_to_char( "OK.\n\r", ch );
+	return;
+    }
+*/
+
+/* Old money code, left here just in case. Ungrim. | do_give*/
+/*    if ( is_number( arg1 ) )
+    {
+	int amount;
+
+	amount   = atoi(arg1);
+	if ( amount <= 0
+	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" ) &&
+	     str_cmp( arg2, "gold"  ) ) )
+	{
+	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+	    return;
+	}
+	else
+	argument = one_argument( argument, arg2 );
+	if ( arg2[0] == '\0' )
+	{
+	    send_to_char( "Give what to whom?\n\r", ch );
+	    return;
+	}
+
+	if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
+	{
+	    send_to_char( "They aren't here.\n\r", ch );
+	    return;
+	}
+
+	if ( ch->gold < amount )
+	{
+	    send_to_char( "You haven't got that much gold.\n\r", ch );
+	    return;
+	}
+
+	ch->gold     -= amount;
+	victim->gold += amount;
+	sprintf(buf,"$n gives you %d gold.",amount);
+	act( buf, ch, NULL, victim, TO_VICT    );
+	act( "$n gives $N some gold.",  ch, NULL, victim, TO_NOTVICT );
+	sprintf(buf,"You give $N %d gold.",amount);
+	act( buf, ch, NULL, victim, TO_CHAR    );
+	if(amount >= 10000)
+	{
+	  sprintf(buf, "%s gave %s %d gold", ch->name, victim->name, amount);
+
+	  if( IS_SET(ch->act, PLR_WIZINVIS) )
+	    wizinfo(buf, ch->invis_level);
+	 else
+	    wizinfo(buf, LEVEL_IMMORTAL);
+	}
+	return;
+    }
+*/
+
 

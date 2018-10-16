@@ -245,14 +245,14 @@ void do_look( CHAR_DATA *ch, char *argument )
           {
             if(!IS_IMMORTAL(ch) )
             {
-              if(ch->gold < 500)
+              if (query_gold(ch) < 50)
               {
                 act("You don't have enough gold to activate the $p.",ch,
                   obj, NULL, TO_CHAR);
                 return;
               }
               else
-                ch->gold -= 500;
+                add_money(ch, -50);
             }
           }
 
@@ -322,22 +322,24 @@ void do_look( CHAR_DATA *ch, char *argument )
         if ( can_see_obj( ch, obj ) )
         {
             pdesc = get_extra_descr( arg3, obj->extra_descr );
-            if ( pdesc != NULL )
+            if ( pdesc != NULL ) {
                 if (++count == number)
                 {
                     send_to_char( pdesc, ch );
                     return;
                 }
                 else continue;
+	    }
 
             pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
-            if ( pdesc != NULL )
+            if ( pdesc != NULL ) {
                 if (++count == number)
                 {
                     send_to_char( pdesc, ch );
                     return;
                 }
                 else continue;
+	    }
 
             if ( is_name( arg3, obj->name ) )
                 if (++count == number)
@@ -374,8 +376,49 @@ void do_look( CHAR_DATA *ch, char *argument )
         if ( is_name( arg3, obj->name ) )
             if (++count == number)
             {
-                send_to_char( obj->description, ch );
-                send_to_char("\n\r",ch);
+                if (obj->item_type == ITEM_MONEY) {
+                  switch(obj->value[1]) {
+                    case TYPE_PLATINUM:
+                      if (obj->value[0] == 1) 
+                        sprintf(buf,"A platinum coin.\n\r");
+                      else if (obj->value[0] < 10)
+                        sprintf(buf,"A pile of %d platinum coins.\n\r",obj->value[0]);
+                      else      
+                        sprintf(buf,"A heap of %d platinum coins.\n\r",obj->value[0]);
+                      break;
+                    case TYPE_GOLD:
+                      if (obj->value[0] == 1) 
+                        sprintf(buf,"A gold coin.\n\r");
+                      else if (obj->value[0] < 10)
+                        sprintf(buf,"A pile of %d gold coins.\n\r",obj->value[0]);
+                      else      
+                        sprintf(buf,"A heap of %d gold coins.\n\r",obj->value[0]);
+                      break;
+                    case TYPE_SILVER:
+                      if (obj->value[0] == 1) 
+                        sprintf(buf,"A silver coin.\n\r");
+                      else if (obj->value[0] < 10)
+                        sprintf(buf,"A pile of %d silver coins.\n\r",obj->value[0]);
+                      else      
+                        sprintf(buf,"A heap of %d silver coins.\n\r",obj->value[0]);
+                      break;
+                    case TYPE_COPPER:
+                      if (obj->value[0] == 1) 
+                        sprintf(buf,"A copper coin.\n\r");
+                      else if (obj->value[0] < 10)
+                        sprintf(buf,"A pile of %d copper coins.\n\r",obj->value[0]);
+                      else      
+                        sprintf(buf,"A heap of %d copper coins.\n\r",obj->value[0]);
+                      break;
+                    default:
+                      sprintf(buf,"You non valuable coins.\n\r");
+                  }
+                  send_to_char(buf,ch);
+                }
+                else {
+                  send_to_char( obj->description, ch );
+                  send_to_char("\n\r",ch);
+                }
                 return;
             }
     }
@@ -2842,14 +2885,14 @@ void do_enter( CHAR_DATA *ch, char *argument )
    case 1:               /* for windows in hall of hero's */
      if(!IS_IMMORTAL(ch) )
      {
-       if(ch->gold < 5000)
+       if(query_gold(ch) < 500)
        {
 	 act("You don't have enough gold to activate the $p.",ch,
 	    obj, NULL, TO_CHAR);
 	 return;
        }
        else
-	 ch->gold -= 5000;
+         add_money(ch,-500);
      }
      break;
    case 2:                 /* for summon spell portals */
@@ -3739,7 +3782,7 @@ void do_stealth( CHAR_DATA *ch, char *argument )
 	check_improve(ch,gsn_stealth,TRUE,4);
 	af.type      = gsn_stealth;
 	af.level     = ch->level;
-	af.duration  = dice(1,ch->level/8);
+	af.duration  = 3;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
 	af.bitvector = 0;

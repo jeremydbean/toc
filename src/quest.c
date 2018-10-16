@@ -194,7 +194,8 @@ void do_quest(CHAR_DATA *ch, char *argument)
    very nice items, and no one has one yet, because it takes awhile to
    build up quest points :> Make the item worth their while. */
 
-    if (!strcmp(arg1, "list"))
+/*  commented this section out below, and replaced with quest.c data from 1999 - Forrest */
+/*    if (!strcmp(arg1, "list"))
     {
         act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM); 
 	act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
@@ -208,6 +209,20 @@ void do_quest(CHAR_DATA *ch, char *argument)
 To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	send_to_char(buf, ch);
 	return;
+    }*/
+
+    if (!strcmp(arg1, "list"))
+    {
+        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM);
+        act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
+        send_to_char("Current Quest Items available for Purchase:\n\r"
+    "Potion of Sanctuary                150qp\n\r"
+        "1-3 Practices:                 500qp\n\r"
+        "Potion of Extra Heal           450qp\n\r"
+        "Jug O' Moonshine               450qp\n\r"
+        "level 51 hero!                7000qp\n\r"
+    "To buy an item, type 'AQUEST BUY <item>'.\n\r", ch);
+        return;
     }
 
     else if (!strcmp(arg1, "buy"))
@@ -233,6 +248,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 		else
                   ch->questpoints -= 500;
 		ch->level += 1;
+                ch->exp = exp_per_level(ch,ch->pcdata->points) * ch->level;
 	        send_to_char("You raise a level!  ", ch );
 		advance_level(ch,FALSE);
 	    }
@@ -293,6 +309,8 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	        ch->practice += dice(1,2) + 1;
     	        act( "$N gives some practices to $n.", ch, NULL, questman, TO_ROOM );
     	        act( "$N gives you some practices.",   ch, NULL, questman, TO_CHAR );
+		sprintf(log_buf,"%s gained pracs from quest.",ch->name);
+		log_string(log_buf);
 	        return;
 	    }
 	    else
@@ -367,7 +385,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	    {
 		int reward, pointreward;
 
-		reward = number_range(1500,3000);
+		reward = number_range(1,30);
 		pointreward = number_range(10,40);
 
 		sprintf(buf, "Congratulations on completing your quest!");
@@ -380,7 +398,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	        ch->countdown = 0;
 	        ch->questmob = 0;
 		ch->questobj = 0;
-		ch->gold += reward;
+                add_money(ch,reward);
 		ch->questpoints += pointreward;
 		if( ch->level == 50 )
 		    ch->nextquest = 5;
@@ -406,7 +424,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 		{
 		    int reward, pointreward;
 
-		    reward = number_range(1500,3000);
+		    reward = number_range(15,30);
 		    pointreward = number_range(10,40);
 
 		    act("You hand $p to $N.",ch, obj, questman, TO_CHAR);
@@ -422,7 +440,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	            ch->countdown = 0;
 	            ch->questmob = 0;
 		    ch->questobj = 0;
-		    ch->gold += reward;
+                    add_money(ch,reward);
 		    ch->questpoints += pointreward;
 		    extract_obj(obj);
 		    if( ch->level == 50 )
