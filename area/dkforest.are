@@ -1,0 +1,1625 @@
+#AREA  { 10+ } Dazed   The Dark Forest~
+
+#MOBILES
+#3600
+spirit evil dark~
+A tiny forest spirit~
+A twisted, evil forest spirit peers at you from behind a tree.
+~
+This small dark being looks like it belongs in this horrid forest, it grins
+evilly at you and slips between the trees.
+~
+undead~
+BHT LQ -800 S
+10 2 12d8+80 10d5+70 1d10+2 22
+-2 -2 -2 -2
+FIKN Q 0 0
+8 8 1 150
+0 0 T 0
+
+#3601
+gnoll dog warrior~
+A dog faced warrior~
+A dog faced warrior snarls and attacks!
+~
+Seeing you, this fearsome gnoll warrior throws back his head and howls with
+animal fury. He looks pissed and he's headed your way!
+~
+kobold~
+BFT FJ -700 S
+12 5 12d9+150 6d12+72 1d10+3 5
+-5 -2 -2 0
+CDEFIK AQ I HP
+8 8 1 120
+0 0 L 0
+
+#3602
+mound leaves shambling~
+A shambling mound~
+This huge mound of vegetable refuse seems almost sentient in its movements.
+~
+You see a disgusting compost of dead, diseased foliage. Maggots and other
+larva crawl throughout the mound as it moves toward you!
+~
+unique~
+FS DFN -800 S
+22 7 22d18+260 10d10+100 4d6+8 9
+-4 -5 -3 0
+CDEFHKNO FEQ FJ K
+8 8 0 45
+0 0 H 0
+
+#3603
+dragon black beast~
+An Adult Black Dragon~
+An adult black dragon swoops down from the sky.
+~
+You cower in fear at the mere sight of this great beast. Its impenetrable
+black scales gleam in the dim light of the swamp as it turns its awesome
+gaze on you, you know this is the end of your puny life.
+~
+dragon~
+BCFMT DFGJNT -1000 S
+30 10 30d20+700 15d30+250 7d6+25 31
+-13 -14 -18 -11
+ACDEFHIKO KLQR HMP IS
+8 8 2 4000
+0 0 G 0
+
+#3604
+bog octopus~
+a bog octopus~
+A huge octopus like beast senses your presence and attacks!
+~
+This beast has the green skin, huge round eyes and tentacles of an octopus,
+but there the similarity ends. It moves quickly through the swamp toward
+you.
+~
+unique~
+BCFMTV DFJLQ -1000 S
+25 8 25d22+200 12d25+150 2d12+8 15
+-7 -7 -7 0
+AEFHKNO PRQ I H
+8 8 0 1500
+0 0 G 0
+
+#3605
+leech giant black~
+A giant leech~
+A giant leech slides through the muck toward you.
+~
+This loathesome blood sucking beast squelches through the muck.
+~
+snake~
+CF FJL -500 S
+14 5 2d20+160 10d20+100 1d15+4 10
+-1 -1 -1 0
+FHL QPR I H
+8 8 0 25
+0 0 L 0
+
+#3606
+worm fen snake~
+A fen worm~
+A huge snake like creature burrows through the mud of the swamp.
+~
+This worm creature moves slowly through the mud of the swamp. Its mottled
+green and brown skin keeps it well camouflaged from sight.
+~
+snake~
+BHG LQ 0 S
+14 5 2d20+150 10d20+100 2d5+4 10
+0 0 0 0
+FHN R I H
+8 8 0 0
+0 0 L 0
+
+#3607
+manticore lion~
+A manticore~
+A winged leonine body with the a human face launches itself at you!
+~
+A fearsome beast of legend, The manticore possesses all the might of a
+lion and the cunning of a human.
+~
+wolf~
+BFT QDFT -750 S
+18 4 3d9+280 10d20+120 2d8+4 5
+-3 -3 -3 -3
+CEFIMN A P R
+8 8 0 800
+0 0 L 0
+
+#3608
+troll brown green~
+A swamp troll~
+A brownish-green fungus covered monster is here gnawing on a club.
+~
+This tall, skinny beast looks almost comical until you see its razor teeth
+and the hunger in its eyes.
+~
+troll~
+BCFGT G -1000 S
+22 4 22d17+240 4d10+140 4d5+6 5
+-2 -2 -2 -2
+CEFIKN QI K HP
+8 8 0 400
+0 0 L 0
+
+#3609
+troll brown green~
+A swamp troll~
+A brownish-green fungus covered monster is here gnawing on a club.
+~
+This tall, skinny beast looks almost comical until you see its razor teeth
+and the hunger in its eyes.
+~
+troll~
+CGT G -800 S
+22 4 22d17+240 4d10+140 4d5+6 5
+-2 -2 -2 -2
+CEFIKN QI K HP
+8 8 0 400
+0 0 L 0
+
+#3610
+gnoll dog~
+A dog faced warrior~
+A dog faced warrior is here sharpening his axe.
+~
+A dog faced creature dressed in rough leathers is surprised by your presence
+and grabs for his weapon to attack.
+~
+kobold~
+FT FJ -700 S
+12 5 12d9+140 6d12+72 1d10+3 5
+-5 -2 -2 0
+CDEFIK AQ I HP
+8 8 1 120
+0 0 L 0
+
+#3611
+mushroom man~
+A mushroom man~
+A man shaped mushroom wielding a wicked club lumbers toward you.
+~
+This greyish brown man shaped mushroom seems intent only on killing anything
+that moves.
+~
+unique~
+BFT Q -700 S
+15 4 15d8+240 8d15+88 2d7+4 25
+-5 -5 20 20
+CEFIN PQ R H
+8 8 0 115
+0 0 M 0
+
+#3612
+mushroom man~
+A mushroom man~
+A man shaped mushroom wielding a wicked club lumbers toward you.
+~
+This greyish brown man shaped mushroom seems intent only on killing anything
+that moves.
+~
+unique~
+FT Q -700 S
+15 4 15d8+240 8d15+88 2d7+4 25
+-5 -5 20 20
+CEFIN PQ R H
+8 8 0 115
+0 0 M 0
+
+#3613
+fungus yellow fungi~
+a strange yellow fungus~
+A huge patch of yellow fungus lies here innocently.
+~
+The strange yellow fungus grows all around and on the mushrooms, as it
+senses your presences it begins to move ominously toward you.
+~
+unique~
+CFMT DFOV -1000 S
+18 10 18d14+330 9d18+100 2d8+7 14
+0 0 0 100
+EHN DEFGQR 0 CHIMOY
+8 8 0 0
+0 0 M 0
+
+#3614
+golem iron statue~
+An iron golem~
+A huge iron statue moves clumsily toward you.
+~
+These huge iron golems were created by the ancient master of this tower to
+protect his eternal resting place, and keep it free from thieves. They lumber
+slowly toward you, intent to fulfill their duty.
+~
+giant~
+BFMT DGOV 0 S
+55 30 30d24+5000 15d30+180 6d8+35 27
+-40 -40 -40 -45
+CDEFHIKNPO BILPQ HIJMNPOS K
+8 8 0 0
+0 0 G 0
+
+#3615
+brush plant bloodsedge~
+A bloodsedge~
+A strange plant with bright red blossoms grows along the river here.
+~
+This unusual plant apparently feeds on anything it can get its branches on.
+It begins thrashing its branches as it senses your presences. Trying to pull
+you in to its gaping maw.
+~
+unique~
+BCFT DFN 0 S
+22 10 22d16+240 10d30+150 2d9+12 18
+-2 -2 -2 -2
+AEFHKNP EQR JKP CH
+8 8 0 2000
+0 0 M 0
+
+#3616
+will will'o'wisp wisp light~
+A will'o'wisp~
+A ghostly light flits around the swamp.
+~
+A small ball of dancing light, the Will'o'Wisp flitters back and forth
+over the swamp.
+~
+unique~
+BHR AOV 0 S
+12 6 12d5+80 10d30+110 2d4+5 26
+0 0 0 0
+FHKN HJ 0 Y
+8 8 0 100
+0 0 S 0
+
+#3617
+will will'o'wisp wisp light~
+A will'o'wisp~
+A ghostly light flits around the swamp.
+~
+A small ball of dancing light, the Will'o'Wisp flitters back and forth
+over the swamp.
+~
+unique~
+HR AOV 0 S
+12 6 12d5+80 10d30+110 2d4+0 26
+0 0 0 0
+FHKN HJ 0 Y
+8 8 0 100
+0 0 S 0
+
+#3618
+spirit evil dark~
+A small forest spirit~
+A twisted, evil forest spirit peers at you from behind a tree.
+~
+This small twisted creature looks like it belongs in this horrid forest, it
+grins evilly at you and slips between the trees.
+~
+undead~
+HS LQ -800 S
+15 2 12d8+150 10d5+70 2d9+2 22
+-2 -2 -2 -2
+FIKNQ Q 0 0
+8 8 1 150
+0 0 T 0
+
+#3619
+spirit evil dark~
+A large forest spirit~
+A twisted, forest spirit leers at you.
+~
+This large green being flits through the trees waiting for anyone foolhardy
+enough to leave the path.
+~
+undead~
+HS LQ -1000 S
+20 2 12d8+250 10d5+140 2d10+2 13
+-4 -4 -4 -4
+FIKN Q 0 0
+8 8 1 150
+0 0 T 0
+
+#3620
+spirit evil dark~
+A large forest spirit~
+A twisted, forest spirit leers at you.
+~
+This large green being flits through the trees waiting for anyone foolhardy
+enough to leave the path.
+~
+undead~
+BHS LQ -1000 S
+22 2 12d8+250 10d5+140 2d10+2 5
+-4 -4 -4 -4
+FIKNQ Q 0 0
+8 8 1 150
+0 0 T 0
+
+#3621
+tree diseased~
+A diseased tree~
+A gnarled and twisted tree towers above you.
+~
+A twisted and horribly deformed tree covered in a strange green slime. The
+stench alone of the foul thing makes you gag. Hacking at a tree wouldnt make
+much sense now, would it?
+~
+human~
+BM AOX 0 S
+30 15 9d10+9999 1d10+100 3d10+1 1
+-1 -1 -1 -1
+CEO ABCD 0 0
+8 8 0 0
+0 0 G 0
+
+#3622
+gnoll dog~
+A dog faced cleric~
+A dog like creature wearing a huge purple headdress howls fiercely at you!
+~
+You seem to have interrupted some sort of strange service and this fellow
+looks like he's mighty annoyed about it!
+~
+kobold~
+FQ DFJ -700 S
+15 5 12d9+170 6d12+72 2d8+3 27
+-5 -2 -2 0
+CDEFIKQ AQ I HP
+8 8 1 120
+0 0 L 0
+
+#3623
+evil servant guardian~
+An ancient evil guardian~
+A ghostly amorphous shape floats in the air in front of you.
+~
+This being has only one purpose in life, to guard his masters tower from
+intruders.. like YOU!
+~
+unique~
+FOT BDEFHNOPQUV -1000 M
+55 32 30d20+2100 10d30+300 4d8+35 13
+-23 -21 -23 -30
+ADEFHN ABIM GKP HN
+8 8 1 0
+0 0 L 0
+{
+A 50
+$n screams at $N to flee for his life!~
+$n screams at you to flee for your life!~
+A -1
+$n whispers something to $N.~
+$n whispers quietly, "The master of the tower awaits you."~
+}
+
+#3624
+golem iron statue~
+An iron golem~
+A huge iron statue moves clumsily toward you.
+~
+These huge iron golems were created by the ancient master of this tower to
+protect his eternal resting place, and keep it free from thieves. They lumber
+slowly toward you, intent to fulfill their duty.
+~
+giant~
+BFMT DGOV 0 M
+61 30 30d24+10000 15d30+180 6d8+35 27
+-50 -50 -50 -55
+CDEFHIKNPO BILPQ HIJMNPOS K
+8 8 0 0
+0 0 G 0
+{
+A 50
+$n speaks with $N.~
+$n tells you, "The only treasure here is DEATH."~
+}
+
+#0
+
+#OBJECTS
+#3600
+dagger tiny black~
+A tiny black dagger~
+A black dagger fashioned from some strange wood is here.~
+wood~
+5 BEJ AN
+2 3 4 11 0
+10 5 300 P
+E
+dagger tiny~
+A small sharp dagger is fashioned of some strange wood is here.
+~
+A
+18 4
+A
+19 3
+
+#3601
+dagger large black~
+A large black dagger~
+A large black dagger fashioned of some strange wood is here.~
+wood~
+5 BEJ AN
+2 5 7 11 0
+20 10 2000 P
+A
+2 2
+A
+5 -1
+A
+18 3
+A
+19 2
+
+#3602
+axe crude~
+A crudely made axe~
+An axe fashioned by some crude beast is here.~
+wood~
+5 C AN
+5 3 5 3 0
+12 25 200 P
+A
+18 3
+A
+19 -3
+
+#3603
+tunic leather~
+A rough leather tunic~
+A tunic fashioned from badly cured animal skins lies here.~
+leather~
+9 0 AD
+8 8 4 2 0
+12 20 100 W
+A
+13 20
+
+#3604
+club wooden~
+A large wooden club~
+Whats left of a half eaten tree is here.~
+wood~
+5 C AN
+4 5 6 27 F
+22 40 25 P
+A
+13 -2
+A
+12 -15
+
+#3605
+ring etched signet~
+An etched signet ring~
+A small signet ring etched by some powerful acid lies here.~
+steel~
+9 AU AB
+5 5 4 5 0
+8 2 1000 P
+A
+4 1
+A
+5 1
+
+#3606
+unicorn medallion~
+A small medallion~
+A small medallion engraved with a unicorn lies forgotten in the dust.~
+silver~
+9 AIK AC
+10 8 10 5 0
+15 4 360 P
+A
+2 1
+A
+3 1
+A
+12 25
+A
+18 2
+A
+17 -12
+#3607
+club spiked~
+A wicked spiked club~
+A wooden club with several hard spikes is here.~
+wood~
+5 CJ AN
+4 4 6 27 0
+13 15 200 P
+A
+19 2
+A
+2 -2
+
+#3608
+opal pitch black~
+A pitch black opal~
+A pitch black opal is here gleaming in the darkness.~
+stone~
+9 FCEUV AO
+8 8 10 10 5
+48 5 8000  P
+A
+18 5
+A
+12 45
+A
+13 20
+A
+19 5
+A
+5 -4
+A
+24 5
+
+#3609
+steel black vambraces~
+black steel vambraces~
+Vambraces made of some strange dark metal lie here forgotten.~
+steel~
+9 ACEJHM AI
+6 7 6 6 0
+30 30 4000 P
+A
+13 -15
+A
+12 -15
+A
+1 2
+A
+2 1
+A
+18 -1
+A
+19 6
+
+#3610
+steel black leggings~
+etched steel leggings~
+Leggings of some strange black metal etched by acid lie here.~
+steel~
+9 ACEJH AF
+6 6 7 6 0
+24 25 1500 P
+A
+2 -2
+A
+13 15
+A
+18 3
+A
+19 3
+
+#3611
+altar granite~
+the granite altar~
+~
+stone~
+15 0 0
+1000 1 0 0 0
+50 1 1 P
+E
+altar~
+The shapes of different forest creatures have been carved into the face of
+the altar.. The altar seems remarkably well preserved considering the state
+of the rest of the temple. Looking closely at it you realize there may be a
+hidden compartment of some sort.
+~
+#3612
+Notice~
+~
+~
+paper~
+12 0 0
+0 0 0 0 0
+0 0 0 P
+E
+notice~
+A tattered and faded note was left here ages ago, what you can make of it
+reads as follows:
+   'I  you en er t  s for st,  now that my m n o s s a l s re y s a  you.
+A   mpt to d st  b my f na  re t  g place and you WILL be destroyed. T    is
+ ou  only warning.'
+                   It is signed,
+                      Dazed, Wizard of the First Order.
+~
+
+#3613
+corpse mangled body~
+a mangled corpse~
+A mangled, half eaten corpse of some unfortunate adventurer.~
+stone~
+15 0 0
+1000 1 0 0 0
+50 1 1 P
+E
+corpse~
+The mangled remains of some fellow unlucky enough to be caught by the dragon,
+his armor looks to be made of some sort of strange metal, most has been
+corroded beyond use.
+~
+#3614
+cabinet~
+a cabinet~
+~
+stone~
+15 0 0
+1000 1 0 0 0
+50 1 1 P
+#3615
+pale blue potion~
+A pale blue potion~
+A pale blue potion with magenta flecks is here.~
+stone~
+10 AFJHU AO
+60 25 25 25 0
+50 5 5 P
+#3616
+pale blue potion~
+A pale blue potion~
+A pale blue potion with green flecks is here.~
+stone~
+10 AFJHU AO
+50 81 81 10 0
+50 5 5 P
+#0
+
+#ROOMS
+#3601
+Entrance to the Dark Forest.~
+The normal sounds of the forest die away as you walk down this path. Ahead
+you can see the trees grow so dense that no light reaches the ground. There
+is a faded notice on a nearby tree.
+~
+36 A 3
+D0
+~
+~
+0 -1 70
+D2
+~
+~
+0 -1 3602
+S
+
+#3602
+Entering the forest~
+Dark and twisted trees line the path you walk and vegetation chokes the way
+further south. However an east-west path leads further into the forest, the
+entrance of to the forest is back to the north.
+~
+36 A 3
+D0
+~
+~
+0 -1 3601
+D1
+~
+~
+0 -1 3603
+D3
+~
+~
+0 -1 3612
+S
+
+#3603
+Eastern path through the forest~
+The path here is fairly clear and the you think you actually see some light
+up ahead. This forest doesnt seem quite so bad after all.
+~
+36 A 3
+D1
+~
+~
+0 -1 3604
+D3
+~
+~
+0 -1 3602
+S
+
+#3604
+The eastern path~
+The ancient trees lining the path here look somehow more benign then further
+back to the west. It reminds you more of a druids grove than a haunted forest
+Further to the east you see what might be a clearing.
+~
+36 A 3
+D1
+~
+~
+0 -1 3605
+D3
+~
+~
+0 -1 3603
+S
+
+#3605
+A clearing in the forest~
+The path you were following ends and you enter a small clearing in the
+woods. Light breaks through the foliage above here, giving you your first
+glimpse of the sky since entering this dreary forest. An overgrown trail
+leads off to the south.
+~
+36 A 3
+D2
+~
+~
+0 -1 3606
+D3
+~
+~
+0 -1 3604
+S
+
+#3606
+A faint path~
+You push your way through some prickly brush and small trees and follow what
+looks to be an animal track through the woods. The faint track continues
+through the trees to the east.
+~
+36 A 3
+D0
+~
+~
+0 -1 3605
+D1
+~
+~
+0 -1 3607
+S
+
+#3607
+Following the faint path~
+You continue to follow the overgrown path, the trees grow more dense and the
+woods once again take on a somewhat sinister feel. The path curves and
+heads north.
+~
+36 A 3
+D0
+~
+~
+0 -1 3608
+D3
+~
+~
+0 -1 3606
+S
+
+#3608
+Following the faint path~
+The path is overgrown with smaller vegetation and the trees grow dark and
+close in this area.  From the north you hear bestial barks and growls but
+you are unable to see the cause.
+~
+36 AC 3
+D0
+~
+~
+0 -1 3609
+D2
+~
+~
+0 -1 3607
+S
+
+#3609
+Encounter in the forest~
+You stumble over a sharp drop off and find yourself in the midst of a small
+group of dog faced creatures, none of whom seem pleased by your presence. To
+the east you hear the sound of running water.
+~
+36 A 3
+D1
+~
+~
+0 -1 3610
+D2
+~
+~
+0 -1 3608
+S
+
+#3610
+The gnoll camp~
+A small stream flows through a clearing with several rough tents and the
+debris and garbage of a small tribe of gnolls. To the north you see an
+ancient building of some sort.
+~
+36 D 3
+D0
+~
+~
+0 -1 3611
+D3
+~
+~
+0 -1 3609
+S
+
+#3611
+An ancient temple~
+This ancient building is filled with debris and garbage from the gnolls. The
+windows are all shattered and the walls smeared with what looks like feces
+and blood. The only portion of the room free of the gnolls handiwork is a
+large granite altar in the eastern part of the room.
+~
+36 AD 1
+D2
+~
+~
+0 -1 3610
+S
+
+#3612
+Western path through the forest~
+As you turn and head west along this path you begin to get the feeling you
+made a mistake and should turn back. The air is filled with the scent of dead
+and decaying foliage and the dense trees surrounding you seem diseased.
+~
+36 A 3
+D1
+~
+~
+0 -1 3602
+D2
+~
+~
+0 -1 3613
+S
+
+#3613
+Turn in the path~
+The scent of death and rot grows particularly strong as you continue down
+this path and it seems the very leaves themselves rise up against you in a
+huge mound. The trail turns and once again heads west.
+~
+36 A 3
+D0
+~
+~
+0 -1 3612
+D3
+~
+~
+0 -1 3614
+S
+
+#3614
+An intersection~
+The path you are following branches and heads north and south now. The
+ground to the north looks moist and the smell of swamp gas is in the air.
+To the south the trees look diseased and dying.
+~
+36 AC 3
+D0
+~
+~
+0 -1 3616
+D1
+~
+~
+0 -1 3613
+D2
+~
+~
+0 -1 3615
+S
+
+#3615
+The mushroom covered path~
+The trees here look even worse, there seems to be some sort of fungus
+covering many of them. All along and on the path you notice huge mushroom
+like plants. To the south you see the beginning of a mountain range.
+~
+36 A 3
+D0
+~
+~
+0 -1 3614
+D2
+~
+~
+0 -1 3628
+D3
+~
+~
+0 -1 3637
+S
+
+#3616
+Beginning of the swamp~
+The ground has become quite soft now, and you realize the journey ahead will
+not be pleasant. The smell of this place is enough to gag you. Its worse
+than even the sewers of Dresden. The swamp stretches around you to the north
+and west, the forest is back to the south.
+~
+36 A 3
+D0
+~
+~
+0 -1 3627
+D2
+~
+~
+0 -1 3614
+D3
+~
+~
+0 -1 3617
+S
+
+#3617
+Wandering through the swamp~
+You move into an area filled with bubbling, oozing pits of slime covered
+water. You see movement all around you, the swamp is alive with snakes and
+insects of all kinds. Unfortunately, something larger is interested
+specifically in you. The swamp continues to the west and a deep quagmire lies
+to the north.
+~
+36 A 3
+D0
+~
+~
+0 -1 3624
+D1
+~
+~
+0 -1 3616
+D3
+~
+~
+0 -1 3618
+S
+
+#3618
+End of the path~
+The path ends here and your only choice is to head into the thick of the
+swamp. Off to the north you see a faint light, and to the south a stand
+of trees and what looks like solid ground, either way you'll need to wade
+through the swamp, or turn back.
+~
+36 A 3
+D0
+~
+~
+0 -1 3647
+D1
+~
+~
+0 -1 3617
+D2
+~
+~
+0 -1 3619
+S
+
+#3619
+Firm ground at last~
+You've made it through the worst of the swamp, or so it seems. A path leads
+west through the trees into what looks like another wooded region of the
+forest. The trees in this area look stunted and somewhat fungus ridden.
+~
+36 A 3
+D0
+~
+~
+0 -1 3618
+D3
+~
+~
+0 -1 3620
+S
+
+#3620
+A path through the trees~
+The trees here are twisted and scarred, the tops of some are sheered off, as
+if by great force. The ground once again grows soft and marshy as you
+continue to the north. The sounds of the swamp are some what quieter here,
+but the smell is still quite strong.
+~
+36 A 3
+D0
+~
+~
+0 -1 3621
+D1
+~
+~
+0 -1 3619
+S
+
+#3621
+Entrance to the bog~
+You stop at the eastern part of a large bog, further passage to the west
+would require waiding through the horrid slime covered water you've become
+so accustomed to seeing here. Several large trees lay strewn about the area
+apparently struck down by some great force.
+~
+36 A 3
+D2
+~
+~
+0 -1 3620
+D3
+~
+~
+0 -1 3622
+S
+
+#3622
+Center of the bog~
+You reluctantly wade through the slimy water and after a short distance find
+yourself once again on somewhat solid ground. Just as you begin to relax
+there is a great rush of wind and a huge shape falls from the sky upon you.
+~
+36 AC 3
+D1
+~
+~
+0 -1 3621
+D3
+~
+~
+0 -1 3623
+S
+
+#3623
+The Nest~
+The great wyrms nest is here, trees and foliage mangled into a matted tangled
+bed. The bones of all sorts of beings are strewn about along with dead and
+rotting corpses of more recent kills. 
+~
+36 D 4
+D1
+~
+~
+0 -1 3622
+S
+
+#3624
+Mired in the sand~
+The seemingly firm footing beneath you gives way and you find yourselves
+being sucked down into the sand. To make matters worse it seems you've
+wandered into the home of something large and nasty.
+~
+36 AC 3
+S
+
+#3625
+Lost in the swamp~
+You wander hopelessly through the swamp, all directions seem the same. You
+feel almost hopeless looking at this place. The trees and vegetation seem
+afflicted by some horrible rotting disease. To the west you spot a hill.
+~
+36 D 4
+D2
+~
+~
+0 -1 3627
+D3
+~
+~
+0 -1 3626
+S
+
+#3626
+A hill in the swamp~
+You scramble up a moss covered mound of mud and muck, more like a pile of mud
+than a hill. As you get to the top you spot a huge shape circling the swamp
+in the west, it looks to be a huge bird or perhaps even a dragon! The
+only way that looks passable is to the south.
+~
+36 A 3
+D1
+~
+~
+0 -1 3625
+D2
+~
+~
+0 -1 3624
+S
+
+#3627
+Through the swamp~
+You trudge through the scummy, bug infested swamp. Stinging, biting insects
+assail you and you know coming here was a mistake. Direction has no meaning
+here but travel to the north seems easier.
+~
+36 A 3
+D0
+~
+~
+0 -1 3625
+D2
+~
+~
+0 -1 3616
+S
+
+#3628
+Intersection on the mushroom path~
+The path you are following branches off to the east and west. The west path
+winds between huge mushroom plants and the ever present dark trees. The
+sound of running water can be heard to the west.
+~
+36 AC 3
+D0
+~
+~
+0 -1 3615
+D1
+~
+~
+0 -1 3629
+D3
+~
+~
+0 -1 3633
+S
+
+#3629
+In the mushrooms~
+You follow a path between the huge mushroom plants. As you walk among
+them you begin to the get the feeling you are being watched. An old trail
+leads off to the south, while the path you are on continues through the
+dense mushrooms to the east.
+~
+36 A 5
+D1
+~
+~
+0 -1 3638
+D2
+~
+~
+0 -1 3630
+D3
+~
+~
+0 -1 3628
+S
+
+#3630
+Along a faint path~
+A faint path leads out of the mushrooms and into a more normal, if anything
+in this forest could be called normal, section of trees. The feeling of
+being watched leaves you. To the east trees overhang a small, dark cave in
+the mountains.
+~
+36 AC 5
+D0
+~
+~
+0 -1 3629
+D1
+~
+~
+0 -1 3631
+S
+
+#3631
+A dark cave~
+This shallow cave is apparently a natural formation of some sort. There are
+the remains of a campfire in the rear of the cave. It looks like it might
+be a good place to rest.
+~
+36 AC 5
+D3
+~
+~
+0 -1 3630
+S
+
+#3632
+Wrong turn~
+This natural formation in the rock is scattered with the bones and
+equipment of past victims of its current occupant. The entrance to the
+cave is back to the north.
+~
+36 D 4
+D0
+~
+~
+0 -1 3633
+S
+
+#3633
+East cliff over the stream~
+You stand at the east edge of a muddy cliff. Down below you see a small,
+clear stream lined with strange plants. To the south you spot a cave in the
+mountains.
+~
+36 A 4
+D1
+~
+~
+0 -1 3628
+D2
+~
+~
+0 -1 3632
+D3
+~
+~
+0 -1 3634
+S
+
+#3634
+Bottom of the cliff~
+You try to descend the muddy cliff carefully, but its to no avail as you
+quickly lose your footing and end up in a pile of muck amidst the strange
+brush which lines the stream. From this view you notice several dried
+skeletons beneath the plants. The cliff is far to unstable to climb in
+any direction, your only choice is to enter the stream.
+~
+36 A 4
+D3
+~
+~
+0 -1 3635
+S
+
+#3635
+Exploring the stream~
+The cold, clear mountain stream runs from a small opening in the cliff face
+to the south into the swamps in the north. The opening in the mountains is
+too small for you to explore further, and the swamps are impassable.
+~
+36 AC 4
+D1
+~
+~
+0 -1 3634
+S
+
+#3636
+A dust filled study~
+This sparsely furnished room is filled with soft white light by small globes
+hovering near the ceiling. There is a small wooden desk covered with
+crumbling papers in the center of the room, and two large bookcases filled
+with books to the north. The door is back to the east.
+~
+36 D 4
+D1
+~
+~
+0 -1 3649
+S
+
+#3637
+Northern cliff over the stream~
+You stand at the northern edge of a muddy cliff overhanging a beautiful
+mountain stream. Strange plants with bright red blossoms line the banks.
+Further south you see the beginning of the mountains.
+~
+36 D 4
+D1
+~
+~
+0 -1 3615
+D2
+~
+~
+0 -1 3634
+S
+
+#3638
+In the mushroom forest~
+You walk through the seemingly endless giant, fungi covered mushrooms...
+They stretch as far as you can see in all directions. The path meanders off
+to the north, skirting the most dense areas.
+~
+36 A 4
+D0
+~
+~
+0 -1 3639
+D3
+~
+~
+0 -1 3629
+S
+
+#3639
+Lost in the Mushrooms~
+You wander aimlessly through the mushrooms, unable to tell one from the next,
+except maybe by the different color fungi growing on them. Occasionally, you
+catch glimpses of a tower off to the southeast.
+~
+36 D 4
+D1
+~
+~
+0 -1 3640
+D2
+~
+~
+0 -1 3638
+S
+
+#3640
+In the fungus~
+You try to head towards the tower, wanting desperately to get out of this
+unnatural forest. Unfortunately, you dont keep a close enough eye on the
+path and wander into a particularly dense patch of yellow fungus.
+~
+36 A 3
+D2
+~
+~
+0 -1 3641
+D3
+~
+~
+0 -1 3639
+S
+
+#3641
+End of the mushrooms~
+The mushrooms end suddenly at the edge of what looks like a normal forest
+clearing. A little further south the strange tower looms ominously, framed
+by a low mountain range.
+~
+36 D 4
+D0
+~
+~
+0 -1 3640
+D1
+~
+~
+0 -1 3642
+S
+
+#3642
+Clearing before the tower~
+You stumble out from between the mushrooms into a deserted grassy clearing.
+The mushroom plants grow all around, but not inside it. It seems almost as if
+some force is holding them back. Filling the southern half of the clearing is
+the tower you saw from afar.
+~
+36 AC 4
+D2
+~
+door~
+1 0 3643
+D3
+~
+~
+0 -1 3641
+S
+
+#3643
+Base of the tower~
+You are at the base of a dusty, old deserted tower. The circular walls are
+lined with ancient faded tapestries which show a handsome man in dark robes
+using magic of all sorts to defend this very tower from an assault by all
+sorts of creatures, Ki-Rin, Knights mounted on Pegasi and other creatures
+of the light are pictured dying hideous deaths. Torch brackets line a spiral
+stair which leads both up and down, the exit is back to the north.
+~
+36 D 4
+D0
+~
+~
+0 -1 3642
+D4
+~
+~
+0 -1 3644
+D5
+~
+~
+0 -1 3649
+S
+
+#3644
+Roof of the tower~
+You follow the stair straight to the top of the tower and come out on the
+roof. The view from here is stupendous, you can see the dark forest spread
+out for miles all around, and the view of the mountains is breath taking.
+~
+36 D 5
+D5
+~
+~
+0 -1 3643
+S
+
+#3645
+An ancient tomb~
+The stairs lead down to an ancient crypt belonging to the master of the
+tower. As your feet leave the stairs, the room shimmers and the stairs
+disapear... A crumbling skeleton is lying in state on a large stone tablet
+in the center of the room. The skeletal remains are covered in ornately
+worked, dark robes, and hold in their bony grip a pitch black opal. To your
+chagrined surprise, two large statues at the far end of the room begin
+to move toward you.
+~
+36 AQ 3
+S
+
+#3646
+Dead end~
+You come into a sandy, mud filled area, you can now see the light you've
+been following is just a plain will'o'wisp dancing through the swamp,
+unfortunately, its led you into mischief.
+~
+36 D 3
+D1
+~
+~
+0 -1 3647
+S
+
+#3647
+In the swamp~
+You trudge thru the slimey scummy water of the swamp. Small insects assail
+you making every moment torture. You spot the faint light moving over the
+water to the west.
+~
+36 A 4
+D2
+~
+~
+0 -1 3618
+D3
+~
+~
+0 -1 3646
+S
+
+#3648
+An ornate laboratory~
+You enter a small laboratory filled with the usual implements of an
+alchemist or mage. Dust covered beakers, vials, and braziers fill a long
+table in the center of the room. There is a large steel cabinet against
+the south wall, the door is back to the west.
+~
+36 D 4
+D3
+~
+~
+0 -1 3649
+S
+
+#3649
+Below the tower~
+You travel briefly down the stairs and come out in a large, dust free
+chamber. Comfortable furniture fills the room, and an ornate rug the center
+of the room. Heavy oak doors stand open to the east and west.
+~
+36 D 7
+D1
+~
+~
+0 -1 3648
+D3
+~
+~
+0 -1 3636
+D4
+~
+~
+0 -1 3643
+D5
+~
+rug~
+4 0 3645
+S
+
+#0
+
+#RESETS
+M 0 3601 4 3609   Gnoll Warrior
+E 0 3602 50 16    Equip Gnoll Warrior with Axe
+E 0 3603 25 5     Equip Gnoll Warrior with Tunic
+M 0 3601 4 3609   Gnoll Warrior
+E 0 3602 50 16    Equip Gnoll Warrior with Axe
+E 0 3603 25 5     Equip Gnoll Warrior with Tunic
+M 0 3601 4 3610   Gnoll Warrior
+E 0 3602 50 16    Equip Gnoll Warrior with Axe
+E 0 3603 25 5     Equip Gnoll Warrior with Tunic
+M 0 3601 4 3610   Gnoll Warrior
+M 0 3610 2 3610   Wandering Gnoll
+E 0 3602 50 16    Equip Gnoll Warrior with Axe
+E 0 3603 25 5     Equip Gnoll Warrior with Tunic
+M 0 3610 2 3609   Wandering Gnoll
+M 0 3600 4 3613   Tiny Spirit
+E 0 3600 50 16    Equip Tiny Spirit with Tiny Dagger
+M 0 3600 4 3615   Tiny Spirit
+E 0 3600 50 16    Equip Tiny Spirit with Tiny Dagger
+M 0 3600 4 3637   Tiny Spirit
+E 0 3600 50 16    Equip Tiny Spirit with Tiny Dagger
+M 0 3600 4 3616   Tiny Spirit
+M 0 3602 1 3614   Shambling Mound
+M 0 3603 1 3622   Black Dragon
+G 1 3605 5        Give dragon ring
+M 0 3604 1 3624   Bog Octopus
+M 0 3605 6 3617   Leeches
+M 0 3605 6 3617   Leeches
+M 0 3605 6 3618   Leeches
+M 0 3605 6 3625   Leeches
+M 0 3605 6 3627   Leeches
+M 0 3606 3 3617   Fen Snake
+M 0 3606 3 3647   Fen Snake
+M 0 3606 3 3625   Fen Snake
+M 0 3607 1 3632   Manticore
+M 0 3608 3 3646   Troll
+E 0 3604 50 16    Equip Troll with Club
+M 0 3608 3 3646   Troll
+E 0 3604 50 16    Equip Troll with Club
+M 0 3608 3 3625   Troll
+E 0 3604 50 16    Equip Troll with Club
+M 0 3609 3 3627   Troll
+E 0 3604 50 16    Equip Troll with Club
+M 0 3609 3 3627   Troll
+M 0 3609 3 3619   Troll
+M 0 3611 2 3638   Mushroom Man
+E 0 3607 25 16    Equip Mushroom Man with Club
+M 0 3611 2 3641   Mushroom Man
+E 0 3607 25 16    Equip Mushroom Man with Club
+M 0 3612 2 3639   Wandering Mushroom Man
+M 0 3612 2 3640   Wandering Mushroom Man
+M 0 3613 1 3640   Yellow fungus
+M 0 3614 1 3645   Golem
+M 0 3624 1 3645   Higher level Golem for detect stealth
+M 0 3615 1 3634   Bloodsedge
+M 0 3617 1 3625   Will'O'Wisp
+M 0 3616 1 3646   W-o-W
+M 0 3618 3 3612   Wandering Small Spirit
+M 0 3618 3 3612   Wandering Small Spirit
+M 0 3618 3 3637   Wandering Small Spirit
+M 0 3619 2 3620   Wandering Large Spirit
+M 0 3619 2 3629   Wandering Large Spirit
+M 0 3620 3 3630   Large Spirit
+E 0 3601 25 16    Equip Large Spirit with Large Dagger
+M 0 3620 3 3633   Large Spirit
+E 0 3601 25 16    Equip Large Spirit with Large Dagger
+M 0 3620 3 3633   Large Spirit
+M 0 3621 5 3615   Diseased Tree
+M 0 3621 5 3637   Diseased Tree
+M 0 3621 5 3612   Diseased Tree
+M 0 3621 5 3613   Diseased Tree
+M 0 3621 5 3629   Diseased Tree
+M 0 3622 1 3611   Gnoll Cleric
+M 0 3623 2 3644   Guardian in tower
+M 0 3623 2 3648   Guardian in tower
+O 0 3611 1 3611   Altar
+P 1 3606 1 3611   Put Medallion in Altar
+O 0 3608 1 3645   Load Opal in Tomb
+O 0 3612 1 3601   Load Notice
+O 0 3613 1 3623   Load Corpse in Lair
+P 1 3610 1 3613   Put Leggings in corpse
+P 1 3609 1 3613   Put Vambraces in corpse
+O 0 3614 1 3648   Cabinet in tower
+P 1 3615 1 3614   Put potion in cabinet *Energy drain*
+P 1 3616 1 3614   Put 2potion in cabinet *Refresh*
+R 0 3625 2        Randomize exits, Swamp
+R 0 3627 2        Randomize exits, Swamp
+R 0 3639 2        Randomize exits, Mushroom Forest
+R 0 3640 2        Randomize exits, Mushroom Forest
+D 0 3642 2 1      Close door, tower
+D 0 3649 5 1      Close secret rug
+S
+
+#SPECIALS
+M 3603 spec_breath_acid     Black Dragons breath
+M 3618 spec_thief           Wandering Small Spirit
+M 3619 spec_thief           Wandering Large Spirit
+M 3622 spec_cast_adept      Gnoll Cleric
+M 3623 spec_cast_undead     Guardians in tower
+S
+
+#$
+

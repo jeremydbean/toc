@@ -1,0 +1,89 @@
+#PLAYER
+Name Tarren~
+Id   1125
+LogO 950494432
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 6
+Plyd 9340
+ListRemorts ~
+NumRemorts 0
+Note 950455040
+Scro 22
+Room 1561
+HMV  103 103 105 105 130 130
+NewGold 0
+NewPlat 0
+NewCopp 84
+NewSilv 3
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12715
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 7
+Color 3 7
+Color 4 0
+Color 5 8
+Color 6 0
+Color 7 7
+Color 8 8
+Color 9 0
+Color 10 8
+Color 11 8
+Color 12 8
+Color 13 8
+Color 14 0
+Color 15 0
+Color 16 8
+Pos  8
+Alig  1000
+ACs 100 100 100 100
+Wimp  12
+Attr 19 13 14 13 14
+AMod 0 0 0 0 0
+Pass TaiPsZEWYJxkA~
+Titl  the destined~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 103 105 130
+Cond 0 0 26
+Sk 30 'axe'
+Sk 54 'dagger'
+Sk 25 'flail'
+Sk 49 'mace'
+Sk 35 'polearm'
+Sk 37 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 34 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#END

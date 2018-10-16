@@ -1,0 +1,1609 @@
+#AREA   {45 60} Graves  Assassins Guild~
+
+
+#MOBILES
+
+#17000
+watchman~
+The Watchman~
+The Night Watchman stands here guarding the gate.
+~
+This is the most unique person you have seen in this wide land. With his low
+slung cape and crooked back, you almost think he is a old man but upon 
+spotting you, he springs from his chair and welcome's you to the guild with
+this warning. "All may enter, but few return, so watch your step, and defend
+your back!"
+~
+human~
+BCT HEFGT -500 M
+51 5 200d2+3500 100d1+50 5d4+5 17
+-5 -5 -5 -5
+BEGNQ ABJK P 0
+8 8 1 600
+0 0 M 0
+{
+A 54
+$n leaps from his chair!~
+$n Welcomes you to the Assassin's guild of Old Midgaard!~
+}
+#17001
+apprentice~
+An Apprentice~
+A apprentice assassin skulks silently in the corners.
+~
+This distraught looking your man seems to be on the edge of his seat all the
+time. His nervous eyes dart from here to there in a frenzy of activity, and 
+his hands almost seem to be in constant motion. This young pupil will someday
+become one of the most feared entities in this realm, so learn his face well
+because one day he might be on the giving end of that dagger that puts an
+end to your life.
+~
+human~
+CFGS BDFGPQ -500 S
+45 3 200d2+1500 100d1+50 5d4+5 17
+-2 -2 -2 0
+ABEGHJZ A AB 0 0
+8 8 1 300
+0 0 M 0
+#17002
+servant~
+A Servant~
+A distraught looking servant runs quickly thru the halls.
+~
+This frightful looking young man is pale of skin, and looks like he hasn't 
+seen the sun in years. Like the apprentice's you have run across his eyes
+dart everywhere, but you can see they look in fear. Not the ruthless cunning
+of the apprentice assassin...or the master......
+~
+human~
+AH 0 0 S
+39 1 100d1+350 100d1+10 3d3+3 17
+0 0 0 0 
+0 AB 0 0
+8 8 1 100
+0 0 M 0
+#17003
+journeyman~
+A Journeyman Assassin~
+A semi-concealed form flits about in the shadows.
+~
+This is the second stage of the training in the assassin's guild. The 
+Journeyman has passed many of the trying and most times painful tests that
+the trainers of this guild can come up with. With night-gaunt features, this 
+person no longer really looks human, deep set eyes that glitter like coal. 
+And a pale complection that reminds you of the undead.....maybe the rumors
+are true and the masters really are the living dead.......
+~
+human~
+CFS BDFGJPTU -1000 S
+49 5 200d2+1300 100d1+50 7d4+5 17
+-3 -3 -3 -1
+BFGHLNUZ A HI 0 0
+8 8 1 500
+0 0 M 0
+#17004
+cat master~
+The Master Cat~
+A small dark man that reminds you of a cat stands here.
+~
+This is the master cat, a minion of the master assassin and guardian of his
+tower. His feline face strikes fear in your heart, like the Bengal tiger of
+india he is a master of the hunt. This guardian is one of your greatest
+challanges, maybe you should turn back now.....
+~
+cat~
+BFG FGHT 0 M
+58 5 200d2+1900 100d1+500 7d6+10 5
+-7 -7 -7 -7
+BFGHNLU HI 0 0
+8 8 2 1000
+0 0 L 0
+{
+A 56
+$n crouches down and considers $N.~
+$n deems you unworthy and ATTACKS!~
+}
+#17005
+stalker stalk~
+A stalker~
+A dark form stalks you from the shadows....
+~
+If death can take form this entity would be it...The stalker has long 
+abandoned his human form for the better one of the undead assassin.
+Although he still retains his soul, the stalker is a master of death,
+and pain. His entire focus is to erradicate the enemies of the master 
+assassin.
+~
+unique~
+CFT BGHPTU -1000 S
+52 9 200d2+1790 100d1+200 7d7+15 17
+-6 -6 -6 -3
+ABCENUZ A ABK C 0
+8 8 0 600
+0 0 M 0
+#17006
+gaunt night~
+A Night Gaunt~
+A pale looking man with glowing red eye's peers at you.
+~
+Another undead servant of the master assassin. His life spent in the pursuit
+of the art of assassination, and his death spent in the service of the
+master of that art. This is no being to be trifeled with since he possess
+all the powers of the dead!
+~
+human~
+CFG BGHJX -1000 M
+49 5 200d2+1000 100d1+100 5d5+5 17
+-3 -3 -3 0
+CEFGLU 0 0 0
+8 8 0 500
+0 0 L 0
+{
+A 43
+$n shuffles towards you.~
+$n screams a blood chilling cry and attacks!~
+}
+#17007
+grey man~
+A Grey Man~
+A grey blur moves quickly by.....
+~
+The grey man is the ultimate in evil. These are the most feared assassin's
+in the realm, for they have given up the rights to their souls in service of
+the great lord of the dark. These semi-living creatures have the ability to
+walk undetected by mortals, to become shadows, to blend perfectly until the
+moment of attack...And even then you might not know what caused your death.
+~
+unique~
+CFT BDEFGHTX -1000 S
+58 10 200d2+3560 100d1+300 7d7+5 17
+-8 -8 -8 -10
+CDEFLNUZ A ABPQ C 0 
+8 8 0 1000
+0 0 M 0
+#17008
+gholem~
+A Gholem~
+A shape-shifting amorphous mass blocks the passage...
+~
+These are the masters of assassination. Non-living entities that are almost
+impossible to kill. They were created by the master of assassins as his 
+personal guards, and he trusts them with his life. Upon encountering one of
+these creatures, you had better pray for you life is for naught.
+~
+unique~
+BCFG DEFGJT -1000 S
+59 15 200d2+3750 100d1+450 10d8+9 17
+-10 -10 -10 -15
+CFHN D P J
+8 8 0 5000
+0 0 L 0
+#17009
+assassin~
+An Assassin~
+An Assassin picks you as his target!
+~
+This is one of the few higher level mortal servants of the master assassin.
+He has dedicated his life to the pursuit of death and has mastered that skill
+in its finest form. The dark shape of his body and the way it blends into the
+stonework behind him tell you that this is a worthy opponent.
+~
+human~
+CFST BDEFGH -1000 M
+52 5 200d2+1650 100d1+100 5d5+4 17
+-4 -4 -5 -3
+BCDEFNZ A AB P 0
+8 8 1 750
+0 0 M 0
+{
+A 47
+$n yells,"Your death is upon you!"~
+$n pounces upon you from the shadowy corner!~
+}
+#17010
+assassin master~
+The Master Assassin~
+Greth Jomark stands patiently here.
+~
+This is the master assassin, probably the most evil person in this entire 
+realm. Flaming red hair, and a quick smile throw you off as you gaze upon
+this person. But if you look closely, the smile only reaches his eye's,
+further down his face you can see the tension and promise of pain etched
+neatly upon his persona.
+~
+human~
+BCRS DEFGHJT -1000 M
+60 15 200d2+9999 100d1+500 10d11+4 17
+-10 -10 -10 -10
+BCDEFIJKX AB 0 0
+8 8 1 15000
+0 0 M 0
+{
+A 60
+$n whispers to $N.~
+$n whispers to you,"Death is the final judgement."~
+}
+#17011
+keller~
+Keller~
+Keller the master huntsman stands here.
+~
+Keller stands here waiting for the chance to punish the weak transgressors
+who dare to enter the upper levels of the guild. He is a master of tracking
+and disguise, and lusts after the blood of humans...as you look more closely
+you notice that his eye's have a quicksilver apperance that constantly 
+seem to change color in the light.
+~
+unique~
+FGMS DEFGHTVZ G 0 S
+60 0 200d2+8745 100d1+5000 10d10+10 17
+-15 -15 -15 -15
+CFIJNVZ A ABCD 0 0
+8 8 1 0
+0 0 M 0
+#17012
+cat prism~
+A Prism Cat~
+A small multi-colored cat watches you from the corner.
+~
+This is probably the most interesting creature you have ever seen. Its body
+appears to be made of glass, but it reflects the light of the sun, and other
+light sources to appear to be rainbow colored. This is a minion of the
+Master Cat, and follows his rules. You can see that the prism cat is a close
+relative to the calico cat.
+~
+cat~
+CT DEFGPTV 0 S
+45 5 200d2+1000 100d1+100 5d5+7 22
+-5 -5 -5 0
+CDEFHN AB 0 0 
+8 8 0 500
+0 0 S 0
+#17013
+Gareth Byrne~
+Gareth Byrne~
+Gareth the sharper glares icily at you.
+~
+Gareth is a top adviser to the master assassin, and also the master recruiter
+to the guild. This gnarled old man is responsible for the upbringing and
+over seeing of the new recruits to the guild, and on the training of the
+current members. This is no man to trifle with...
+~
+human~
+BGT DEFGHJTV -1000 M
+57 11 200d2+3750 100d1+300 3d10+10 17
+-15 -15 -15 -10
+CDEFHNV AB 0 0
+8 8 1 5000
+0 0 M 0
+{
+A 60
+$n nods at you.~
+$n asks,"Are you interested in becoming an assassin?"~
+}
+#0
+
+
+#OBJECTS
+
+#17000
+tooth dagger lion~
+A Lions Tooth Dagger~
+A odd looking animal like dagger lies here.~
+adamantite~
+5 P AN
+2 11 4 6 DE
+49 30 10000 P
+E
+dagger tooth~
+This is the special blade of the master watchman, or better know as the 
+night watchman. It is rumored that if it leaves his hands that it would 
+only last a few hours.
+~
+A
+18 4
+A 
+19 4
+A 
+1 2
+A 
+5 2
+A
+23 -8
+#17001
+hood~
+An apprentice's hood~
+A tattered pile of cloth lies here.~
+cloth~
+9 EF AE
+7 4 4 1 0
+45 5 400 P
+E
+hood~
+This tattered hood bears the crest of the assassins guild of midgaard, its
+is the required piece of rainment for all aspiring assassins that enter
+this guild structure.
+~
+A
+2 3
+A
+3 1
+A
+4 -3
+#17002
+dagger apprentice~
+An apprentice dagger~
+A small, slightly used blade lies on the ground.~
+iron~
+5 C AN
+2 3 4 3 B
+45 5 150 P
+E
+dagger~
+This is a standard issue dagger to all apprentice assassins that have entered
+the assassins guild of midgaard. It seems very cold to the touch.
+~
+A
+1 1
+A
+18 1
+A
+19 1
+#17003
+hood journeyman~
+A Journeymans hood~
+A pile of glittering cloth lies here, seeming to blend into the floor.~
+cloth~
+9 EF AE
+7 6 6 3 0
+50 8 300 P
+E
+hood~
+This piece of cloth signifies a journeyman status in the assassin's guild
+of old midgaard. Its signifigance will strike you when you are attacked
+for wearing this material and not being a member of the assassin's guild.
+~
+A
+14 100
+A
+18 -1
+A 
+19 3
+A
+4 -3
+#17004
+dagger claw hand~
+A journeymans claw dagger~
+A wickedly shaped dagger lies here on the floor.~
+adamantite~
+5 C AN
+2 5 9 3 B
+50 5 300 P
+E
+dagger claw hand~
+This is can only be a tool of death. A dagger in the shape of a human hand,
+ment to bite deep and cause the most painful wounds it can....a great tool
+for the journeyman backstabber.
+~
+A
+4 -5
+A
+18 3
+A 
+19 5
+A 
+1 -3
+A
+2 -1
+#17005
+displacement cloak~
+Cloak of Displacement~
+A glitering cloak of black lies upon the floor.~
+cloth~
+9 EFGM AC
+6 6 7 6 0
+50 10 400 P
+E
+cloak~
+This is one of the rare cloaks of displacement that you can only find in 
+the assassins guild of old midgaard. Its lightshifting properties make
+the wearer harder to hit, and harder to see.
+~
+A
+2 3
+A
+9 20
+A
+12 -20
+A
+13 15
+#17006
+fountain~
+A Fountain~
+A small fountain bubbles quietly here.~
+adamantite~
+25 0 A
+500 500 0 0 0
+1 10000 0 P
+E
+fountain~
+A small fountain
+~
+#17007
+eye cats ring~
+A cats eye ring~
+A small ring containing a cats eye rests on the ground.~
+adamantite~
+8 BC AB
+0 0 0 0 0
+53 6 5000 P
+E
+cats ring eye~
+The legendary cats eye ring, worn by the master cat and though to be the
+container of some powerful magic. It is also rumored to cause the wearer
+good luck.
+~
+A
+2 3
+A
+4 3
+A
+12 -125
+A
+13 75
+#17008
+vorpal sword~
+Vorpal Sword~
+A very very sharp sword lies here sinking into the rock.~
+adamantite~
+5 FG AN
+1 7 11 21 E
+52 15 4800 P
+E
+vorpal sword~
+This is the deadliest blade in the realms, and belongs to the master cat.
+Its legendary cutting power is know thru the realms to be able to cleave
+thru rocks, stone and steel like they were butter.
+~
+A
+1 2
+A
+2 2
+A
+18 5
+A 
+19 -4
+#17009
+cadnium shield~
+The Cadnium Shield~
+A odd looking plate with a strap lies humming in the dirt.~
+adamantite~
+9 BFG AJ
+15 17 16 30 0
+53 20 4500 P
+E
+cadnium shield~
+The cadnium shield is made out of the strongest metal know to man, very 
+unlikely to break in the heat of battle, and it will serve you well in your
+continuing adventures!
+~
+A
+18 -1
+A 
+19 3
+A
+12 -100
+#17010
+dagger hook~
+A Hook-Nose Dagger~
+A evil looking dagger lies in the dust.~
+adamantite~
+5 ABEJ AN
+2 3 15 11 A
+52 7 4500 P
+E
+dagger hook~
+This is a weapon designed to create as much pain as it possibly can in its
+victim. Made in the forges of Thaku'dur, it is only carried by the grey
+men, and is to be considered a very evil weapon.
+~
+A
+1 -2
+A
+18 5
+A 
+19 5
+A 
+9 25
+#17011
+protocol red~
+The Red Protocol~
+A red bound scroll lies on the floor.~
+paper~
+2 A A
+45 1 1 500 0
+45 3 1000 P
+E
+protocol red~
+A sheaf of paper bound in red.
+~
+#17012
+protocol blue~
+The Blue protocol~
+A blue bound scroll lies on the floor.~
+paper~
+2 A A
+45 1 1 506 0
+45 3 1000 P
+E
+protocol blue~
+A sheaf of paper bound in blue.
+~
+#17013
+protocol black~
+The Black protocal~
+A black bound scroll lies on the follr.~
+papaer~
+2 A A
+45 1 1 508 0
+45 3 2000 P
+E
+protocol black~
+A sheaf of paper bound in black.
+~
+#17014
+rod~
+Rod of Cancellation~
+A odd looking metal rod lies on the floor.~
+iron~
+3 AB AO
+50 5 5 59 0
+50 5 5000 P
+E
+rod~
+A rune encrusted rod that resembles a serpent.
+~
+#17015
+cloak masters~
+A Masters Cloak~
+A pile of glittering black material lies on the floor.~
+cloth~
+9 ABF AC
+15 15 15 5 0
+50 9 750 P
+E
+cloak~
+This cloak is made of some shiny material that you cannot identify easily.
+When you look closer you can see the name and class of the previous owner
+written upon it in glowing black runes.
+~
+A
+2 5
+A
+12 100
+A
+13 -50
+A
+14 -50
+#17016
+master dagger~
+A Masters Dagger~
+A glowing black blade lies in the dust.~
+adamantite~
+5 AC AN
+2 3 12 11 A
+50 10 5000 P
+E
+master dagger~
+This is a very evil weapon indeed. Give to those members of the assassins
+guild that reach the level of master. Along with the cloak it is part of the
+regular regalia.
+~
+A
+1 -3
+A
+18 7
+A
+19 5
+#17017
+chest gold~
+A Golden Chest~
+A golden chest sits upon the floor~
+gold~
+15 0 0
+500 13 17018 0 0 
+0 0 0 P
+E
+chest~
+A very ornate chest sits here upon the floor bearing the crest of the 
+guild of assassins.
+~
+#17018
+red key~
+A Red Key~
+A odd looking key lies on the floor.~
+iron~
+18 0 AN
+0 0 0 0 0
+0 0 0 P
+#17019
+grey chain~
+Grey Chain~
+A suit of grey colored armor lies in the dust~
+adamantite~ 
+9 CEM AD
+10 12 17 5 0
+52 30 1500 P
+A
+1 5
+A
+18 5
+A 
+19 7
+A
+2 -6
+#17020
+sword blaze~
+The Blazing sword.~
+A fiery sword lies on the ground.~
+adamantite~
+5 ABEJ AN
+1 7 11 1 AC
+53 20 2000 P
+A
+3 4
+A
+14 -100
+A
+18 10
+A
+19 7
+A
+1 -2
+A
+13 50
+#17021
+soul dagger~
+The Soul Dagger~
+A very cold looking blade lies on the floor.~
+adamantite~
+5 CJ AN
+2 7 10 3 B
+53 15 2500 P
+A
+1 -3
+A
+2 -1
+A
+4 4
+A
+17 -10
+A
+18 7
+#17022
+silver chest~
+A silver chest~
+A silver engraved chest sits on the floor.~
+silver~
+15 0 0
+500 15 17027 0 0
+53 100000 0 P
+E
+chest~
+A very ornate silver chest with the crest of the assassins guild upon it.
+~
+#17023
+Golden sword~
+The Golden Sword~
+A golden sword lies upon the floor~
+adamantite~
+5 BC AN
+1 7 10 21 0
+53 15 1500 P
+A
+2 5
+A
+12 100
+A
+13 -50
+A
+18 5
+A 
+19 5
+#17024
+Lion shield~
+The Lion Shield~
+A shield with the device of a lion rests agains the wall.~
+adamantite~
+9 ABF AJ
+10 10 10 5 0
+53 20 1500 P
+A
+5 5
+A
+17 -20
+A
+18 -10
+A
+19 5
+#17025
+ring masters~
+The Masters Ring~
+A odd looking ring lies in the dirt.~
+adamantite~
+9 BCJ AB
+10 10 15 10 0
+53 5 1500 P
+A
+1 -3
+A 
+2 -3
+A
+18 9
+A
+19 10
+#17026
+bubble~
+a big glass bubble~
+A glowing glass bubble that looks like an aquarium lies here.~
+glass~
+29 AGV AE
+0 0 0 0 0 
+0 2 0 P
+#17027
+key blue~
+The Blue Key~
+A blue key lies here in the dirt.~
+iron~
+18 0 AN
+0 0 0 0 0 
+0 0 0 P
+
+#0
+
+
+ 
+#ROOMS
+#17001
+The Gates~
+Welcome to the assassin's guild of old Midgaard! Its has stood here since the
+founding of this city, some two hundred years ago. Its decrepit structure
+hides one of the most evil places ever to be found in this realm. It is also
+secret, since the four lords of dresden have proclaimed the art of 
+assassination to be outlaw...Few enter this place and survive, maybe you will
+be one of those few....A crooked old figure sits in a rockin chair near the 
+door.
+~
+1 D 0
+D0
+too dark to tell
+~
+gate~
+1 -1 17002
+D2
+too dark to tell
+~
+~
+0 -1 6151
+S
+#17002
+Entry way~
+Dripping....The sound of water assails your ears as you enter this hallway.
+Pools of black water collect upon the floor, and the tinge of dust fills the
+air. All around you, you can hear the sound of water dripping....it is
+almost enough to make you go insane....
+~
+1 D 0
+D0
+too dark to tell
+~
+~
+0 -1 17003
+D2
+to dark to tell
+~
+gate~
+1 -1 17001
+S
+#17003
+CrossRoads~
+This is the central chamber of the guild. Black stone walls, and the tatters
+of a once beautiful rug are the rooms only decorations. In the center of the
+room a small fountain bubbles quietly...But that seems odd for when you try
+to speak no sound exits your mouth......
+~
+1 DX 0
+D2
+to dark to tell
+~
+~
+0 -1 17002
+D0
+to dark to tell
+~
+door~
+1 -1 17004
+D1
+to dark to tell
+~
+~
+0 -1 17011
+D3
+to dark to tell
+~
+~
+0 -1 17005
+D4
+to dark to tell
+~
+~
+0 -1 17018
+S
+#17004
+Trapped!~
+The door slams shut behind you and suddenly dissapears into the wall. You
+are now trapped in a very small room, and it feels like the air is quickly
+becoming stale to breath....
+~
+1 DFNX 0
+17001 8 1
+S
+#17005
+A T-Junction~
+From the CrossRoads you stumble upon a t-junction that leads farther into 
+the guild. Small clumbs of lichen and moss cling to the walls, and the 
+infernal sound of dripping still reaches your ears. An opening can be seen
+to the north, and a closed door to the south.
+~
+1 D 0
+D1
+to dark to tell
+~
+~
+0 -1 17003
+D0
+to dark to tell
+~
+~
+0 -1 17006
+D2
+to dark to tell
+~
+door~
+1 -1 17007
+S
+#17006
+Trapped!~
+The door to the south slams shut behind you and dissapears into the wall.
+The planners of this guild added many traps for the unwary to stumble upon
+and you are unlucky to do so...
+~
+1 D 0
+D4
+to dark to tell
+~
+~
+0 -1 17009
+S
+#17007
+Ruined Post~
+This looks like it used to be a guard post for the guild, back in the times
+that guards were needed. Rubble is strewn about the area, and the chared 
+stump of what looks like it used to be a desk lies in one corner. You can
+see an exit to the north, and a gaping hole in the wall to the west....
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+1 -1 17005
+D3
+to dark to tell
+~
+~
+0 -1 17008
+S
+#17008
+Suprise!~
+You begin to feel unlucky as you stumble upon yet another trap room in the
+guild. As the door dissapears, you try to breath a sigh of outrage...but
+funny enough...you can't hear the sound of your own voice.
+~
+1 DFNX 0
+17010 8 1
+S
+#17009
+No way out.~
+Another trap room, maybe you should have listened to your mother and become 
+a chef like she wanted you to be. No exits lead from this room, and from
+the grafitti on the wall you can see that you weren't the last person to
+be caught here.
+~
+1 DFNX 0
+17010 8 1
+S
+#17010
+The Pit~
+Suddenly you feel yourself move. Like some divine force dragging your body
+against its will, you find yourself in another room. This is the famous pit
+of old Midgaard, a place where the lowest form of criminal was thrown as a
+punishment for his crimes. From the amount of bones littered across this 
+place you can see that many people have died. A shuffling comes to your 
+attention, and you see that not all of them died natural deaths.
+~
+1 D 0
+D4
+to dark to tell
+~
+door~
+1 -1 17001
+S
+#17011
+Four way junction~
+As you leave the CrossRoads you enter another four way junction. Your feet
+splash thru the water as you survey the damage done to this room. Heaps of
+rubble and filth line the walls, and the tracks of something human cross
+the room before you. To the north and south you see openings in the wall, to
+the east is a closed door, and west leads back to the CrossRoads.
+~
+1 D 0
+D3
+to dark to tell
+~
+~
+0 -1 17003
+D1
+to dark to tell
+~
+door~
+1 -1 17014
+D0
+to dark to tell
+~
+~
+0 -1 17012
+D2
+to dark to tell
+~
+~
+0 -1 17013
+S
+#17012
+Dusty Alcove~
+Spiderwebs hang thickly as you enter this room, the water at your feet seems
+to be growing higher at each place you explore. In the background you can 
+faintly hear what sounds to be like the screaming of some tortured soul.
+~
+1 D 0
+D2
+to dark to tell
+~
+~
+0 -1 17011
+S
+#17013
+A Closet~
+This used to be the storage area of some of the apprentice assassin's. Piles
+of moldy clothing, and decayed food line the floor. In the background you can
+hear the sound of someone screaming.
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+0 -1 17011
+S
+#17014
+Three way junction~
+Water flows around you up to your ankles. If it gets much deeper you will 
+have to get a boat to explore further. This intersection leads farther into 
+the eastern apartments of the guild. To the south, which is the source of
+all the water, you see a door. Also doors to the east and to the west.
+~
+1 D 0
+D3
+to dark to tell
+~
+door~
+1 -1 17011
+D1
+to dark to tell
+~
+door~
+1 -1 17015
+D2
+to dark to tell
+~
+door~
+1 -1 17016
+S
+#17015
+Dark corner~
+There is a little water in here, but it seems to be on higher ground than the
+passageway you have just come from. Small slits have been drilled into the 
+walls here, and you realize that this must have been a position that archer's
+used in time's of defense. To the north you can see a door and to the west 
+you can look back into the triple junction.
+~
+1 D 0
+D3
+to dark to tell
+~
+door~
+1 -1 17014
+D0
+to dark to tell
+~
+door~
+1 -1 17017
+S
+#17016
+underwater!~
+You are trapped, as you enter this room the floor gives way and you are
+caught underwater. Dark water flows around you and you dont know how you
+will escape this situation....
+~
+1 D 8
+S
+#17017
+Apprentice training room~
+This is the gym, and relaxation area of the apprentice assassins. Old 
+machinery lines the walls, and you are amazed to see a full length tapestry
+upon the north wall. It depicts a battle that involves dragons and knights
+flying above a ruined town that looks startling like this one...
+~
+1 D 0
+D2
+to dark to tell
+~
+door~
+1 -1 17015
+S
+#17018
+T-junction~
+The second level of the guild looks much like the first, dark moss covered
+walls, and the sound of endlessly dripping water. Long hallways lead off
+to the north and south, and a ladder leads down to the xroads.
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+0 -1 17019
+D2
+to dark to tell
+~
+~
+0 -1 17020
+D5
+to dark to tell
+~
+~
+0 -1 17003
+S
+#17019
+Archers post~
+This is a old ruined archers station. Deep slits have been cut into the walls
+for the defense of this guild during times of trouble. All that is left now
+are burned walls, and piles of moldy clothing. Exits lead to the south and
+to the west.
+~
+1 D 0
+D2
+to dark to tell
+~
+~
+0 -1 17019
+D3
+to dark to tell
+~
+~
+0 -1 17026
+S
+#17020
+Officers mess~
+At times official visitors from the city would visit the guild, and it was a
+custom to bring at least a platoon sized guard detail. This room was used to
+house and to feed those guards. Now all that is left is was looks like the 
+burned remains of a table near the east wall. A large hole looks to have 
+been drilled into the easter wall and you stand in amazement as you look
+out over a misty city.
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+0 -1 17018
+D3
+to dark to tell
+~
+~
+0 -1 17021
+S
+#17021
+Training room~
+This used to be a traning room for the higher level assassins candidates.
+Twisted pieces of machinery and clothing lie strewn about the floor in
+various positions. If you listen closely you can hear the sound of what
+seems to be voices coming from the north.
+~
+1 D 0
+D1
+to dark to tell
+~
+~
+0 -1 17020
+D0
+to dark to tell
+~
+~
+0 -1 17022
+S
+#17022
+Three way intersection~
+Like the rest of the rooms, this one is in a horrible state of disrepair.
+The sound of voices that you heard seems to be coming from behind the door
+on your right. Another closed door leads to the west and further into the
+guild.
+~
+1 D 0
+D2
+to dark to tell
+~
+~
+0 -1 17021
+D1
+to dark to tell
+~
+door~
+1 -1 17023
+D3 to dark to tell
+~
+~
+1 -1 17024
+S
+#17023
+Bedroom~
+This is a bed room of the journeymen assassins, they came here to rest after
+a long days work of training and education. Rows and rows of beds line the 
+walls, and from the three dark cloaked forms in the center of the room, it
+seems that all of the assassins have not left.
+~
+1 D 0
+D3
+to dark to tell
+~
+~
+1 -1 17022
+S
+#17024
+Musty corner~
+Dank and musty smells assail your nose in this part of the structure. Dark 
+pools of water stand stagnant at your feet. To the south you can see a door
+that seems to have some light coming from under it, maybe you should go 
+explore.
+~
+1 D 0
+D1
+to dark to tell
+~
+~
+1 -1 17022
+D2
+to dark to tell
+~
+~
+1 -1 17025
+S
+#17025
+Transportation room~
+Red light blinds you as you enter this room. In the middle of this room 
+stands a glowing red aura that you can deem no purpose from. Its cool to the
+touch and eminates no heat. A large sign on the wall reads:
+WARNING: This is the guild transportation chamber to the upper levels, from
+this point there is no turning back, so if you are summoned pass the guardian
+and enter the masters realm. Intruders beware if you dont know the password.
+~
+1 DFNX 0
+17027 8 1
+S
+#17026
+Treasure!~
+This room is the guild treasury! You barely notice the vanishing of the door
+behind you as you see the piles and piles of gold and jewels that scatter
+the floor. Amongst the jewels and gold you can catch glimpses of glowing
+swords and armor and fabulous cloaks and vestments. How can a place like this
+still exists when the rest of the guild is in ruins?
+~
+1 DFNX 0
+17028 8 1
+S
+#17027
+Entry hall~
+This is a switch, Lavish carpets cover the floor, and rare Thalosian 
+tapestrys cover the walls. A warm golden light comes from some unknown 
+lightsource in the ceiling. And you can see a gold encrusted door leading
+to the north. A low shuffling sound catches your attention.
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+1 -1 17029
+S
+#17028
+Trap!~
+The gold and jewels melt before your eyes to reveal the presence of three
+cloak forms. You berate yourself for not realizing that this was a trap 
+before this. But you enter into battle with a healthy respect for the 
+person who developed this illusion.~
+1 D 0
+S
+#17029
+Plush Hallway~
+Rich carpets and golden walls catch your eye as you walk down this hallway.
+The job of assassination must pay well to keep this kind of lavish 
+decoration. Upon the walls you can see pictures of previous masters of 
+the guild. Each bears the look of evil upon there face that is strikingly
+opposite of the beauty of this hallway.
+~
+1 D 0
+D2
+to dark to tell
+~
+~
+1 -1 17027
+D0
+to dark to tell
+~
+~
+0 -1 17030
+S
+#17030
+Ambush~
+Your are taken unawares by some unseen entity that strikes from the shadows.
+Before you know it you are involved in some heavy fighting. You can notice
+that upon the floor are the mutilated corpses of adventures like yourself
+that have tried to pass this room before.
+~
+1 D 0
+D2
+to dark to tell
+~
+~
+0 -1 17029
+D1
+to dark to tell
+~
+~
+0 -1 17031
+S
+#17031
+A turn in the hall~
+You have reaced a turn in the hall. Back to the west you can hear the sounds 
+of fighting, and a darker hallway leads off to the south. Low torches burn on
+the walls eminating a cool blue light that seems to make more shadows than
+drive them away.
+~
+1 D 0
+D3
+to dark to tell
+~
+~
+0 -1 17030
+D2
+to dark to tell
+~
+~
+0 -1 17032
+S
+#17032
+Triple Junction~
+You have reached a triple junction in the guild. Exits lead to the north and
+the south, and a closed door stares at you from the west. Strangly enough
+you think you hear the sound of a cat.....
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+0 -1 17031
+D3
+to dark to tell
+~
+door~
+1 -1 17033
+D2
+to dark to tell
+~
+~
+0 -1 17034
+S
+#17033
+Master's office~
+This is the office of the master cat. He is one of the top servants of the 
+master assassin, and controls all the animal and were-animal assassins in 
+the realm. The plush office, and golden ornimentation show how wealthy
+and powerful this master is.
+~
+1 D 0
+D1
+to dark to tell
+~
+door~
+1 -1 17032
+S
+#17034
+Passage up~
+A dark ladder is bolted to the floor here and leads upwards into darkness.
+This is your final ascent, for you know the master assassin, and his most
+powerful minions are up there somewhere.....
+~
+1 D 0
+D0
+to dark to tell
+~
+~
+0 -1 17032
+D4
+to dark to tell
+~
+~
+0 -1 17035
+S
+#17035
+hallway~
+A hallway leading to darkness.....You can barely make out the walls, for they
+seem to be made of some strange material that absorbs light. You can see a
+opening to the east that leads on and a latter down which might be your 
+only escape.
+~
+1 D 0
+D5
+to dark to tell
+~
+~
+0 -1 17034
+D1
+to dark to tell
+~
+~
+0 -1 17036
+S
+#17036
+A triple junction~
+Doors lead in all directions here, to the north east and south are closed 
+doors and to the west is the opening you have just come thru. Other than
+that you cannot make out any other feature of this room.
+~
+1 D 0
+D3
+to dark to tell
+~
+~
+0 -1 17035
+D0
+to dark to tell
+~
+door~
+1 -1 17037
+D2
+to dark to tell
+~
+door~
+1 -1 17038
+D1
+to dark to tell
+~
+door~
+1 -1 17039
+S
+#17037
+Ye old Shoppe~
+This is the assassin's guild pride and joy, the assassins shop. You may come
+here to purchase any of the services that the guild provides. Standing behind
+the counter is one of the first servants of the master, Kyler the sharper.
+He will be able to provide you with all you may need.
+~
+1 D 0
+D2
+to dark to tell
+~
+door~
+1 -1 17036
+S
+#17038
+Byrne's office~
+This is the office of Gareth Byrne, the master recruiter. He is one of the 
+most powerfull men in the realm. Lords and ladies once bowed to the power of
+this man. You can see by the shape of this office that he is a very wealthy
+individual. A large map of Sembia hangs on the wall behind his desk, and the
+floor is a rich black marble only found in the evil infested mines of Moria.
+The desk itself is a world of art, made by the anchient craftsman of Thalos
+before the blight took the lives of many in that city. Some have wispered 
+that Byrne and the master had something to do with that......
+~
+1 D 0
+D0
+to dark to tell
+~
+door~
+1 -1 17036
+S
+#17039
+The masters chambers~
+Extravagant is the word that comes to mind when you walk into this room. 
+Rich Thalosian carpets cover the floor, and gold inlay lines the walls. A
+huge tapestry hangs upon the north wall, that depicts the flow of time
+ever since the creation of the realm. You can recognize many of the faces
+on that tapestry as those of the Gods of this realm. Eclipse dresses in
+black vestments, riding on a black nightmare. Modib with a mischevios
+smile, and drakk the builder, overseeing construction on the town of
+dresden. The beauty of this room is only marred by the presence of a 
+small dark man seated in from of a roaring fire.
+~
+1 D 0
+D3
+to dark to tell
+~
+door~
+1 -1 17036
+S
+
+#0
+
+
+#RESETS
+M 0 17000 1 17001 * Watchman
+E 1 17000 -1 16
+*
+M 0 17002 3 17003 * Servant1
+M 0 17002 3 17014 * Servant2
+M 0 17002 3 17018 * Servant3
+*
+M 0 17001 4 17003 * apprentice1
+G 1 17026 -1
+E 1 17001 -1 6    * Hood
+E 1 17002 -1 16   * Dagger
+*
+M 0 17001 4 17007 * apprentice2
+E 1 17001 -1 6    * Hood
+E 1 17002 -1 16   * Dagger
+*
+M 0 17001 4 17017 * apprentice3
+E 1 17001 -1 6    * Hood
+E 1 17002 -1 16   * Dagger
+*
+M 0 17001 4 17017 * apprentice4
+E 1 17001 -1 6    * Hood
+E 1 17002 -1 16   * Dagger
+*
+M 0 17006 3 17010 * Gaunt1
+M 0 17006 3 17010 * Gaunt2
+M 0 17006 3 17010 * Gaunt3
+*
+O 0 17006 1 17003 * Fountain
+*
+M 0 17003 4 17021 * Journeyman1
+E 1 17003 -1 6    * Hood
+E 1 17004 -1 16   * Dagger
+* 
+M 0 17003 4 17023 * Journeyman2
+E 1 17003 -1 6
+E 1 17004 -1 16
+M 0 17003 4 17023 * Journeyman3
+E 1 17003 -1 6
+E 1 17004 -1 16
+*
+M 0 17003 4 17018 * Journeyman4
+E 1 17003 -1 6
+E 1 17004 -1 16
+*
+M 0 17009 5 17028 * Assassin1
+E 1 17015 -1 3
+E 1 17016 -1 16
+*
+M 0 17009 5 17028 * Assassin2
+E 1 17015 -1 3
+E 1 17016 -1 16
+*
+M 0 17009 5 17028 * Assassin3
+E 1 17015 -1 3
+E 1 17016 -1 16
+*
+M 0 17008 2 17025 * Gholem1
+*
+M 0 17007 4 17030 * Grayman1
+E 1 17010 -1 16
+E 1 17019 -1 5
+*
+M 0 17007 4 17030 * Grayman2
+E 1 17010 -1 16
+E 1 17019 -1 5
+*
+M 0 17007 4 17036 * Grayman3
+E 1 17010 -1 16
+E 1 17019 -1 5
+*
+M 0 17007 4 17035 * Grayman4
+E 1 17010 -1 16
+E 1 17019 -1 5
+*
+M 0 17004 1 17033 * MasterCat
+E 1 17007 1 1
+E 1 17008 1 16
+E 1 17009 1 11
+*
+M 0 17012 1 17033 * PrismCat
+*
+M 0 17008 2 17034 * Gholem2
+*
+M 0 17013 1 17038 * Byrne
+G 1 17014 -1
+G 1 17018 -1
+E 1 17023 1 16
+E 1 17024 1 11
+*
+M 0 17011 1 17037 * Kyler
+*
+M 0 17010 1 17039 * MasterAssassin
+E 1 17020 1 16
+E 1 17021 1 11
+E 1 17025 1 1
+*
+M 0 17005 1 17024 * Stalker1
+*
+O 0 17017 1 17039 * Load chest golden
+P 1 17011 1 17017
+P 1 17012 1 17017
+P 1 17013 1 17017
+*
+O 0 17022 1 17016 * Load chest silver
+P 1 17011 1 17022
+P 1 17012 1 17022
+* 
+D 0 17001 0 1 * Door Resets
+D 0 17002 2 1
+D 0 17003 0 1
+D 0 17005 2 1
+D 0 17007 0 1
+D 0 17011 1 1
+D 0 17014 3 1
+D 0 17014 1 1
+D 0 17014 2 1
+D 0 17015 0 1
+D 0 17015 3 1
+D 0 17017 2 1
+D 0 17022 1 1
+D 0 17022 3 1
+D 0 17023 3 1
+D 0 17024 1 1
+D 0 17024 2 1
+D 0 17032 3 1
+D 0 17033 1 1
+D 0 17036 0 1
+D 0 17036 2 1
+D 0 17036 1 1
+D 0 17037 2 1
+D 0 17038 0 1
+D 0 17039 3 1
+S
+
+
+#SPECIALS
+M  17006  spec_cast_undead
+M  17004  spec_cast_mage
+M  17007  spec_breath_any
+M  17008  spec_cast_mage
+M  17010  spec_psionic
+M 17000   spec_cast_mage
+S
+
+#$
+

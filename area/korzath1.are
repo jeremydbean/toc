@@ -1,0 +1,5246 @@
+#AREA   { 5 50} Haze    Korzath's Fortress~
+
+#MOBILES
+#29001
+soldier~
+a Soldier~
+A Soldier is here on patrol.
+~
+This soldier has been sent out to make sure the area is secure.
+~
+human~
+GH J 0 S
+5 1 5d3+50 3d5+30 1d6+1 3
+9 9 9 9
+L 0 0 0
+8 8 1 100
+0 0 M 0
+#29002
+orc guard~
+an Orc guard~
+An Orc guard isn't pleased to see you.
+~
+This is an ugly, putrid Orc Guard and it wants to gnaw on your bones.
+~
+orc~
+G C 0 S
+7 0 7d5+84 3d7+35 1d8+1 3
+4 4 4 4
+L 0 0 0
+8 8 1 100
+0 0 M 0
+#29003
+captain of the guard~
+a Captain of the Guard~
+A Captain of the Guard wants you dead.
+~
+This Captain stands tall and is overconfident about his fighting ability.
+~
+human~
+G C 0 S
+9 0 9d7+108 4d9+54 1d8+2 0
+2 2 2 2
+EL 0 0 0
+8 8 1 100
+0 0 M 0
+#29004
+servant~
+a servant~
+A servant is busy being a servant.
+~
+You see a servant who is ready to serve any master who is welcomed into
+Korzath's fortress.
+~
+human~
+CGH I 0 S
+11 0 11d8+132 5d11+65 1d10+2 22
+1 1 1 1
+M 0 0 0
+8 8 1 150
+0 0 M 0
+#29005
+waiter~
+a waiter~
+A waiter is here ignoring you.
+~
+The waiter hurries about to prepare for tonights feast.
+~
+human~
+CGH J 0 S
+14 0 14d10+168 7d14+84 1d12+3 16
+-1 -1 -1 -1
+0 0 0 0
+8 8 1 150
+0 0 M 0
+#29006
+cook~
+a cook~
+A cook is here preparing a fabulous meal.
+~
+This particular cook is working violently to prepare the main course of
+tonights dinner.
+~
+human~
+G CDEF 0 S
+17 1 17d12+204 8d17+102 3d4+4 7
+-3 -3 -3 -3
+D Q 0 L
+8 8 2 200
+0 0 M 0
+#29007
+post guard~
+a posted guard~
+A guard is here standing post.
+~
+This guard stares at you. Stranger!
+~
+human~
+BGM CDEFG 100 S
+20 1 20d15+240 10d20+120 2d8+5 1
+-4 -4 -4 -4
+ELU 0 0 0
+8 8 1 200
+0 0 M 0
+#29008
+royal servant~
+a royal servant~
+A royal servant is shocked to see you here.
+~
+The royal servant knows you are not on the guest list.
+~
+human~
+GH P 0 S
+22 1 22d17+264 11d22+132 4d4+6 9
+-5 -5 -5 -5
+DEF 0 0 E
+8 8 2 250
+0 0 M 0
+#29009
+royal guard~
+a royal guard~
+One of the royal guards prepares to attack!
+~
+The royal guard know that only Korzath himself may come this way.
+~
+human~
+BFGM CEFGV 200 S
+25 2 25d18+300 12d25+150 2d10+7 11
+-7 -7 -7 -7
+CDKLU E 0 0
+8 8 1 250
+0 0 M 0
+#29010
+guest~
+a guest~
+The guest here thinks you are a servant.
+~
+The guest believes you are a servant and begins to order you around.
+~
+human~
+GH D 0 S
+23 2 23d17+276 11d23+138 3d6+6 13
+-6 -6 -6 -6
+FIJ C 0 F
+8 8 1 300
+0 0 M 0
+#29011
+guardian~
+a Guardian~
+A Guardian of Korzath draws it's blade to execute you.
+~
+This demon Guardian is one of Korzath's minions.  He is here to make sure
+Korzath's bedroom remains safe throughout the evening.
+~
+saurian~
+BFGM CDEFGHV -250 S
+27 3 27d20+324 25d27+160 5d4+7 6
+-8 -8 -8 -8
+ACDFIKL P LQ NO
+8 8 1 300
+0 0 H 0
+#29012
+security guard~
+a security guard~
+A security guard approaches you to pat you down for weapons.
+~
+This man is part of Korzath's security arsenal that makes sure no
+unauthorized personnel enter the manufacturing facilities.
+~
+human~
+GH CDEFG 0 S
+27 3 27d20+325 25d27+160 5d4+7 17
+-8 -8 -8 -8
+CEKL 0 0 0
+8 8 1 300
+0 0 M 0
+#29013
+head of security~
+a head of security~
+The head of security tries to block your way.
+~
+This is one of the heads of security.  It is his job to ensure no spies
+get a look at the manufacturing complex of the fortress.
+~
+human~
+G CDEFGH 0 S
+29 3 29d22+348 14d29+174 2d12+8 0
+-9 -9 -9 -9
+DEFILU 0 0 0
+8 8 1 350
+0 0 M 0
+#29014
+schlepper~
+a schlepper~
+A schlepper is here schlepping stuff.
+~
+This schlepper is carrying schlepping stuff all over the fortress.
+~
+dwarf~
+GH CDEFT 0 S
+31 3 31d23+372 15d31+186 4d6+9 13
+-10 -10 -10 -10
+DFIU 0 P 0
+8 8 1 200
+0 0 M 0
+#29015
+engineer~
+an engineer~
+An engineer is working here studiously.
+~
+You look at this engineer who is hard at work studying ways to increase
+machine performance.
+~
+human~
+GM CDEF 0 S
+33 3 33d24+396 16d33+198 6d4+10 17
+-11 -11 -11 -11
+CEFHN 0 P 0
+8 8 1 300
+0 0 M 0
+#29016
+metalurgist~
+a metalurgist~
+A metalurgist is busy refining metals.
+~
+This metalurgist is pouring molten liquids into molds to create the basic
+forms and shapes of the metal extracts used in making the machinery 
+components.
+~
+hobbit~
+GM CDEFG 0 S
+35 3 35d26+420 17d35+210 4d7+11 2
+-11 -11 -11 -11
+EFHIN 0 H I
+8 8 1 900
+0 0 M 0
+#29017
+blacksmith~
+a blacksmith~
+A blacksmith is here pounding heated metals to make armor and weapons.
+~
+The blacksmith is sweating profusely as he creates armor and weapons
+from mere sheets of metal.  His skill at his job is unbelievable.
+He is also hard at work making sure the component pieces will fit the
+new machines correctly.  He tosses a finished component into a bin
+marked 'Titanium' and another into a bin labeled 'Adamantite.'
+~
+dwarf~
+FGM CDEFG 0 S
+40 5 40d30+480 20d40+240 4d8+13 8
+-13 -13 -13 -13
+CDEFHIKU AB H I
+8 8 1 1200
+0 0 M 0
+#29018
+machinery worker~
+a machinery worker~
+A machinery worker is here operating some heavy machinery.
+~
+The machinery worker uses these advanced machines to mass produce state of
+the art combat weapons.  You've never seen such an advanced facility
+before.  Not even Igor of New Thalos could reproduce such fine powerful
+weapons!
+~
+human~
+CG CDEF 0 S
+36 4 36d27+432 18d36+216 3d10+11 7
+-12 -12 -12 -12
+EFHIJK 0 0 J
+8 8 1 900
+0 0 M 0
+#29019
+supervisor~
+a Supervisor~
+One of the Supervisors stands here watching his workers.
+~
+You the Supervisor is busy keeping an eye on his many workers.
+~
+human~
+GHM CDEFGH 0 S
+38 4 38d28+456 19d38+228 5d6+12 27
+-13 -13 -13 -13
+DEFHKLU 0 0 0
+8 8 1 900
+0 0 M 0
+#29020
+secret guard~
+a secret guard~
+One of the Secret Guard stops you in your tracks.
+~
+The Secret Guard only allow authorized personnel into the Project Starlight
+laboratory.
+~
+human~
+BFGM BCDEFGHT -250 S
+41 5 41d30+492 20d41+246 4d8+14 27
+-14 -14 -14 -14
+CDEFHIKLU AB 0 N
+8 8 1 900
+0 0 M 0
+#29021
+mad mage~
+a mad mage~
+A Mad mage has lost his mind working on the project.
+~
+This mage lost his mind from devoting so much of his time and mental power
+to the Starlight project.
+~
+unique~
+BFMR BCDEFGHJOTV 0 S
+43 5 43d32+516 21d43+258 3d12+15 19
+-15 -15 -15 -15
+AFHJNP AB C E
+8 8 1 1000
+0 0 M 0
+#29022
+dwarf mage~
+a dwarf mage~
+A Dwarf mage hastes his fellow mages.
+~
+The mage spots you and prepares for battle.
+~
+dwarf~
+BFMR BCDEFGHJOTV 0 S
+44 7 44d33+528 22d44+264 8d4+15 19
+-15 -15 -15 -15
+AFHJNP AB C E
+8 8 1 1000
+0 0 M 0
+#29023
+human mage~
+a Human mage~
+A Human mage covers his allies in white auras.
+~
+This mage eyes you sees you are not a member of the Starlight project.
+~
+human~
+BFMR BCDEFGHJOTV 0 S
+44 7 44d33+528 22d44+264 8d4+15 19
+-15 -15 -15 -15
+AFHJNP AB C E
+8 8 1 1000
+0 0 M 0
+#29024
+elf mage~
+an Elf mage~
+An Elf mage makes his friends fly.
+~
+The Elf mage flys into the air to prepare for combat.
+~
+elf~
+BFMR BCDEFGHJOTV 0 S
+44 7 44d33+528 22d44+264 8d4+15 19
+-15 -15 -15 -15
+AFHJNP AB C E
+8 8 1 1000
+0 0 M 0
+#29025
+hobbit mage~
+a Hobbit mage~
+A Hobbit mage sends the other mages into frenzies!
+~
+The Hobbit mage aids his friends and turns to fight you.
+~
+hobbit~
+BFMR BCDEFGHJOTV 0 S
+44 7 44d33+528 22d44+264 8d4+15 19
+-15 -15 -15 -15
+AFHJNP AB C E
+8 8 1 1000
+0 0 M 0
+#29026
+evil diana~
+Evil Diana~
+This must be an evil mirror existing Diana of Ofcol!
+~
+This is an Evil Diana of Ofcol that lives in a strange world that is a mirror
+to our own.
+~
+human~
+BM DHN -750 S
+43 17 43d33+516 10d10+100 3d12+15 18
+-15 -15 -15 -15
+CDEFHIKP AB 0 0
+8 8 2 1000
+0 0 M 0
+#29027
+troll beast~
+a Troll Beast~
+This troll beast must have helped ruin Ofcol.
+~
+This Troll Beast is no good guy.
+~
+human~
+C N -300 S
+41 16 41d30+490 20d41+246 4d8+14 3
+-14 -14 -14 -14
+EFIKPT B 0 0
+8 8 1 1000
+0 0 M 0
+#29028
+robot mech~
+a Robot Mech~
+A massive Robot Mech stares down at you in perplexion.
+~
+This is a huge Robot Mech unlike anything you have ever seen or fought
+before.  It stands at 5 times your own height and looks like a most
+formiddable opponent unless you can locate a vulnerability.
+~
+unique~
+BFM DJO 0 S
+45 15 45d33+540 22d45+270 8d4+16 6
+-15 -15 -15 -15
+CDEFHIKO ABHI J C
+8 8 0 1200
+0 0 H 0
+#29029
+giant~
+a Giant~
+A real tall Giant towers over you.
+~
+Tall, very tall.
+~
+giant~
+BFM DGV -250 S
+45 15 45d33+540 22d45+270 8d4+16 8
+-15 -15 -15 -15
+CDFHIK ABE LQ P
+8 8 2 1000
+0 0 G 0
+#29030
+guard scared~
+Scared Guard~
+A scared guard is here shivering.
+~
+Scared, very scared.
+~
+human~
+BHM I 0 S
+2 0 2d1+24 1d2+12 1d4+0 0
+8 8 8 9
+0 0 0 0
+8 8 1 50
+0 0 M 0
+#29031
+chief security~
+Security Chief~
+The Security Chief is here.
+~
+This is the Security Chief.
+~
+human~
+BM DG 0 S
+25 2 25d18+300 12d25+150 2d10+7 27
+-7 -7 -7 -6
+EF AB 0 P
+8 8 1 200
+0 0 M 0
+#29032
+Knight Guardian~
+Guardian Knight~
+The Guardian Knight guards the entrance to Battleground.
+~
+This is the Guardian Knight of Battleground.
+~
+human~
+BM DGHOTV 250 S
+40 5 40d30+480 20d40+240 4d8+13 21
+-13 -13 -13 -10
+CEFHIK AB P M
+8 8 1 800
+0 0 M 0
+#0
+
+
+#OBJECTS
+#29001
+simple key~
+a simple key~
+A small, very simple key.~
+steel~
+18 P AO
+0 0 0 0 0
+1 1 100 P
+E
+simple key~
+It's a simple key.
+~
+#29002
+crystal key~
+a crystal key~
+A small crystal key.~
+adamantite~
+18 P AO
+0 0 0 0 0
+20 2 100 P
+E
+crystal key~
+A crystal key.
+~
+#29003
+diamond key~
+a diamond key~
+A large diamond key.~
+adamantite~
+18 P AO
+0 0 0 0 0
+40 3 100 P
+E
+diamond key~
+A key made of diamond.
+~
+#29004
+guest room key~
+a guest room key~
+A key to a guest room.~
+brass~
+18 V AO
+0 0 0 0 0
+17 1 100 P
+E
+guest key~
+The key to the guest rooms.
+~
+#29005
+black key~
+a black key~
+A dark black key.~
+stone~
+18 E AO
+0 0 0 0 0
+20 1 100 P
+E
+black key~
+A black colored key.
+~
+#29006
+soldier arm plates~
+some soldier arm plates~
+Some soldier's arm plates are here.~
+brass~
+9 A AI
+3 3 4 0 0
+3 2 100 P
+E
+plates~
+Soldier arm plates.
+~
+A
+1 1
+#29007
+soldier leggings~
+some soldier leggings~
+A pair of soldier's leggings are here.~
+brass~
+9 A AF
+4 4 5 0 0
+3 2 100 P
+E
+leggings~
+Soldier leggings.
+~
+A
+14 25
+#29008
+cord belt~
+a cord belt~
+A belt made of cord lies here.~
+leather~
+9 I AL
+4 3 5 0 0
+4 1 100 P
+E
+belt~
+A belt made of cord.
+~
+A
+5 1
+#29009
+prism cube~
+a prism cube~
+A gleaming prism cube bends light here.~
+adamantite~
+1 A AO
+0 0 999 0 0
+4 1 100 P
+E
+cube~
+A beautiful, light bending prism that provides light.
+~
+A
+3 1
+#29010
+captain's boots~
+some captain's boots~
+A soldier captain's boots sit here.~
+leather~
+9 0 AG
+3 3 3 0 0
+6 2 100 P
+E
+boots~
+Tight fitting boots.
+~
+A
+2 1
+#29011
+sharp sword~
+a sharp sword~
+A sharp sword shines here.~
+steel~
+5 B AN
+1 2 5 1 0
+6 3 100 P
+E
+sword~
+This sword is a standard issue soldier sword.
+~
+A
+3 1
+A
+18 1
+#29012
+serving tray shield~
+a serving tray~
+A makeshift shield lies discarded.~
+steel~
+9 0 AJ
+2 3 4 0 0
+9 2 100 P
+E
+tray~
+A serving tray that can be used as a shield.
+~
+A
+13 10
+#29013
+serving gloves~
+serving gloves~
+Some serving gloves are here.~
+cloth~
+9 0 AH
+3 3 3 0 0
+10 1 100 P
+E
+gloves~
+A pair of serving gloves.
+~
+A
+2 1
+#29014
+tuxedo vest~
+a tuxedo vest~
+A tuxedo vest is here.~
+cloth~
+9 0 AD
+3 4 3 0 0
+12 2 100 P
+E
+vest~
+This vest used to belong to a waiter.
+~
+A
+18 1
+#29015
+carving knife~
+a carving knife~
+A large carving knife is on the ground.~
+bronze~
+5 A AN
+2 4 7 25 0
+15 2 100 P
+E
+knife~
+This is a sharp carving knife.
+~
+A
+18 1
+A
+19 1
+#29016
+cooks apron~
+a cooks apron~
+A cooks apron lies in a pile.~
+cloth~
+9 M AL
+3 4 4 1 0
+16 1 100 P
+E
+apron~
+A white apron that goes around your waist.
+~
+A
+1 1
+A
+2 -1
+A
+18 1
+A
+24 -1
+T
+$n could cook up a storm!~
+You feel like you could cook a batch of Tifarah's brownies!~
+#29017
+chef's hat~
+a chef's hat~
+Some white cloth has been dropped here.~
+cloth~
+9 0 AE
+4 4 5 1 0
+16 1 100 P
+E
+hat~
+A long white top hat.
+~
+A
+24 -1
+T
+$n looks like a prominent chef.~
+You feel like you could cook just like Trinidad...but..oh...does he cook?~
+#29018
+tight black leggings~
+tight black leggings~
+A pair of tight black leggings are nearly hidden from sight.~
+cloth~
+9 F AF
+4 3 4 1 0
+18 4 200 P
+E
+leggings~
+These leggings look really tight.
+~
+A
+12 15
+#29019
+short silver sword~
+a silver sword~
+A short silver sword gleams here.~
+silver~
+5 AI AN
+1 4 8 3 0
+19 9 350 P
+E
+sword~
+A heavy silver sword.
+~
+A
+18 2
+A
+19 2
+A
+24 8
+#29020
+royal cape~
+a royal cape~
+A Royal cape has been left here.~
+wool~
+9 0 AC
+4 4 4 0 0
+21 5 200 P
+E
+cape~
+This cape is embroidered with masterful designs that must have been done by
+an very gifted artist.
+~
+A
+18 2
+#29021
+crafted shoes~
+crafted shoes~
+Some crafted shoes are here.~
+bronze~
+9 0 AG
+4 4 4 1 0
+20 4 250 P
+E
+shoes~
+These shoes must have been made by a master craftsmen.
+~
+A
+2 1
+A
+3 -1
+A
+4 1
+#29022
+royal helmet~
+a royal helmet~
+A Royal helmet has been thrown here.~
+gold~
+9 G AE
+5 4 5 2 0
+24 6 400 P
+E
+helmet~
+The royal helmet looks quite sturdy.
+~
+A
+24 -2
+#29023
+crested arm plates~
+crested arm plates~
+Precious crested arm plates were left behind here.~
+iron~
+9 G AI
+6 5 4 2 0
+24 7 450 P
+E
+plates~
+These arm plates have the crest of Korzath on them.
+~
+A
+19 2
+#29024
+rainbow ring~
+a rainbow ring~
+A rare rainbow ring lies here.~
+adamantite~
+9 G AB
+5 5 6 5 0
+23 3 300 P
+E
+ring~
+A rare rainbow colored ring.
+~
+A
+12 10
+#29025
+silver bracelet~
+a silver bracelet~
+An expensive silver bracelet glimmers in the dust.~
+silver~
+9 AI AM
+5 5 3 2 0
+23 5 375 P
+E
+bracelet~
+The bracelet is made out of pure silver.
+~
+A
+19 2
+#29026
+tainted black platemail~
+(Tainted) black platemail~
+A piece of tainted black platemail is here.~
+adamantite~
+9 CEJ AD
+5 6 5 2 0
+26 5 200 P
+E
+platemail~
+This platemail is tainted with the Guardians vileness.
+~
+A
+18 2
+A
+19 2
+A
+23 -2
+#29027
+fire scorched staff~
+a fire scorched staff~
+A Guardian's fire scorched staff is here.~
+wood~
+4 C AO
+35 7 7 65 0
+27 3 150 P
+E
+staff~
+This staff is scorched from fire.
+~
+A
+23 -2
+#29028
+security vest~
+a security vest~
+A lightweight security vest lies on the floor.~
+leather~
+9 0 AD
+6 7 6 5 0
+27 5 300 P
+E
+vest~
+The security vest is thick and looks like it will fit snugly on you.
+~
+A
+1 2
+#29029
+security light~
+a security light~
+A bright security light shines here.~
+steel~
+1 B AO
+0 0 999 0 0
+27 4 100 P
+E
+light~
+The security light is powered by an unknown source.
+~
+A
+17 -2
+A
+23 -2
+#29030
+security shield~
+a security shield~
+A sturdy security shield is here.~
+iron~
+9 0 AJ
+7 6 7 2 0
+29 4 150 P
+E
+shield~
+The security shield looks reliable.
+~
+#29031
+key card~
+key card~
+An important key card lies here!~
+gold~
+18 B AO
+0 0 0 0 0
+28 1 100 P
+E
+key~
+A very important key card.
+~
+#29032
+metallic pack~
+a metallic pack~
+A strong metallic pack lies in the dust.~
+adamantite~
+15 0 AK
+950 1 0 0 0
+29 5 500 P
+E
+pack~
+This metallic pack sure can hold a lot of stuff.
+~
+A
+1 1
+A
+12 10
+A
+13 10
+A
+14 -25
+A
+18 1
+A
+19 1
+#29033
+walking stick~
+a walking stick~
+A well used walking stick lies warped on the ground.~
+wood~
+4 I AO
+30 15 15 80 0
+30 2 100 P
+E
+stick~
+A sturdy walking stick.
+~
+A
+2 1
+A
+14 15
+#29034
+engineer boots~
+engineer boots~
+A pair of black engineer boots sit here.~
+brass~
+9 0 AG
+7 8 7 0 0
+32 5 200 P
+E
+boots~
+The black engineer boots look brand new.
+~
+A
+18 3
+#29035
+engineer gloves~
+engineer gloves~
+Some engineer gloves would be useful now.~
+steel~
+9 0 AH
+8 8 6 0 0
+32 4 250 P
+E
+gloves~
+Brand new engineer gloves.
+~
+A
+19 3
+#29036
+glowing potion~
+a glowing potion~
+A glowing potion is begging to be quaffed.~
+glass~
+10 0 AO
+35 1 3 28 0
+35 2 150 P
+E
+potion~
+The potion just glows and glows.
+~
+#29037
+green scroll~
+a green scroll~
+A green scroll is dying to be recited!~
+vellum~
+2 0 AO
+35 3 3 39 0
+35 1 175 P
+E
+scroll~
+This scroll is just begging to be recited.
+~
+#29038
+dented hammer~
+dented hammer~
+A large dented hammer was once used by a blacksmith.~
+adamantite~
+5 GI AN
+4 5 10 8 A
+39 10 275 P
+E
+hammer~
+This hammer has been dented by the blacksmith that used it all the time.
+~
+A
+2 2
+A
+13 30
+A
+17 -5
+A
+18 3
+#29039
+titanium arm plates~
+titanium arm plates~
+Blue titanium arm plates look brand new.~
+adamantite~
+9 IM AI
+9 9 9 4 0
+39 10 700 P
+E
+plates~
+These arm plates look like they just came off the assembly line.
+~
+A
+18 -1
+A
+19 3
+#29040
+safety goggles~
+safety goggles~
+Safety goggles that protect the eyes.~
+glass~
+9 I AE
+9 9 7 4 0
+36 3 280 P
+E
+goggles~
+Protection for the eyes!
+~
+A
+18 3
+A
+20 -5
+#29041
+titanium bracers~
+titanium bracers~
+A pair of blue titanium bracers lies here.~
+adamantite~
+9 IM AM
+9 9 9 3 0
+36 10 700 P
+E
+bracers~
+These bracers haven't been used much.
+~
+A
+18 -1
+A
+19 3
+#29042
+denim jeans~
+denim jeans~
+Some faded denim jeans are here.~
+cloth~
+9 M AF
+9 8 9 3 0
+37 4 190 P
+E
+jeans~
+Korzath brand name faded denim jeans.
+~
+A
+2 -1
+A
+12 20
+A
+13 20
+#29043
+water ring~
+a water ring~
+A ring of water glows here.~
+stone~
+17 B AB
+200 200 0 0 0
+38 2 1000 P
+E
+ring~
+A ring that holds water!
+~
+A
+4 1
+A
+12 10
+#29044
+cloak darkness~
+cloak of darkness~
+A dark cloak hums here.~
+cloth~
+9 C AK
+11 12 11 5 0
+40 1 900 P
+E
+cloak~
+A pure cloak of darkness.
+~
+A
+2 2
+A
+24 -4
+#29045
+titanium belt~
+titanium belt~
+A titanium belt is taking up space here.~
+adamantite~
+9 IM AL
+12 12 12 6 0
+40 10 700 P
+E
+belt~
+A strong titanium belt.
+~
+A
+18 -1
+A
+19 3
+#29046
+mind mace~
+Mind Mace~
+A powerful Mind Mace is lying on the ground.~
+adamantite~
+5 G AN
+4 6 8 27 C
+43 9 1000 P
+E
+mace~
+The Mind Mace was made by a Mad Mage.
+~
+A
+3 -3
+A
+12 25
+A
+24 -3
+#29047
+oiled cloak~
+an oiled cloak~
+A richly oiled cloak is collecting dust.~
+leather~
+9 G AK
+12 12 12 6 0
+43 7 900 P
+E
+cloak~
+This cloak is heavily oiled to deter the effect of water.
+~
+A
+1 3
+A
+2 3
+#29048
+scorched plate~
+scorched plate~
+Some scorched plate is here.~
+steel~
+9 GMWZ C AD
+10 10 10 8 0
+44 10 600 P
+E
+plate~
+This plate armor has been scorched by flames.
+~
+A
+1 -3
+A
+2 3
+A
+13 -25
+A
+19 5
+#29049
+starlight~
+Starlight~
+A blasting gleam of Starlight is super bright.~
+adamantite~
+1 AGWZ C AO
+0 0 999 0 0
+45 5 1500 P
+E
+starlight~
+A super bright blast of Starlight!
+~
+A
+12 -20
+A
+14 -40
+A
+18 3
+A
+19 3
+A
+24 -4
+#29050
+concoction list~
+concoction list~
+A list of all the possible concoctions is here!!~
+paper~
+2 0 AO
+40 3 3 74 0
+40 1 500 P
+E
+list~
+Finally!  A list of all the concoctions!
+Oh...maybe not.  The ink has faded to the point where it is impossible to
+read its contents.
+~
+#29051
+robe invisibilty~
+a robe of invisibility~
+An invisible robe is here.~
+adamantite~
+9 FGWXZ AF AK
+10 11 10 4 0
+45 7 1000 P
+E
+robe~
+This robe makes the owner invisible when worn about the body.
+~
+A
+1 1
+A
+2 1
+A
+3 1
+A
+5 -3
+A
+12 25
+#29052
+herbs list~
+herbs list~
+A list of all the herbs is here!!~
+paper~
+2 0 AO
+40 3 3 507 0
+40 1 500 P
+E
+list~
+Finally!  A list of all the herbs!
+Oh...maybe not.  The ink has faded to the point where it is impossible to
+read its contents.
+~
+#29053
+infinity cloak~
+infinity cloak~
+A cloak of infinity is here.~
+stone~
+9 GWZ A AK
+14 13 11 5 0
+44 7 500 P
+E
+cloak~
+A cloak of Infinity.  Maybe it came from the InFiNiTy CoMpLeX.
+~
+A
+3 -5
+A
+4 -5
+A
+12 40
+A
+13 20
+#29054
+staff strength~
+staff of strength~
+A mighty staff looks powerful here.~
+gold~
+9 GWZ B AO
+12 12 12 6 0
+45 5 400 P
+E
+staff~
+A Staff of Strength.
+~
+A
+1 5
+A
+12 -15
+#29055
+shape shifting cloak~
+a shape shifting cloak~
+A shape shifting cloak shifts shape by the seashore.~
+cloth~
+9 GWZ B AK
+12 12 12 3 0
+45 5 900 P
+E
+cloak~
+This cloak shifts shape.
+~
+A
+2 -1
+A
+13 40
+#29056
+eversight~
+Eversight~
+Eversight.~
+gold~
+9 ABGIWXZ DG AE
+14 12 15 3 0
+47 5 2000 P
+E
+eversight~
+These are the goggles of Eversight allowing the wearer to see all.
+~
+A
+1 2
+A
+2 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+18 5
+T
+$n is blessed with the ability to see the invisible.~
+$p grants you the ability to see invis!~
+#29057
+scribe list~
+scribe list~
+A list of all the scribes is here!!~
+paper~
+2 0 AO
+40 3 3 35 0
+40 1 500 P
+E
+list~
+Finally!  A list of all the scibes!
+Oh...maybe not.  The ink has faded to the point where it is impossible to
+read its contents.
+~
+#29058
+chunk mecharmor~
+a chunk of mecharmor~
+A chunk of mecharmor lies on the ground here.~
+adamantite~
+9 B AD
+12 12 12 0 0
+45 30 1500 P
+E
+chunk~
+This is a large chunk of metal from a mech in another dimension.
+~
+A
+19 4
+#29059
+giant hand~
+a giant hand~
+A giant's hand has been severed and left here.~
+stone~
+9 G AJ
+12 14 12 0 0
+45 35 1000 P
+E
+hand~
+This is a giant's severed hand that can be used as a shield.
+~
+A
+23 -4
+#29060
+plate platinum~
+(Dark) platinum plate~
+A pile of silvery metal is on the floor.~
+platinum~
+9 CGJ AD
+10 8 11 5 0
+43 30 700 P
+A
+13 15
+A
+5 2
+#29061
+helmet platinum~
+(Dark) platinum helmet~
+A silvery helmet is on the floor.~
+platinum~
+9 CGJ AE
+11 9 9 5 0
+43 30 500 P
+A
+12 15
+A
+4 2
+#29062
+leggings platinum~
+(Dark) platinum leggings~
+Some silvery leggings are on the floor.~
+platinum~
+9 CGJ AF
+10 9 10 5 0
+43 30 500 P
+A
+13 15
+A
+2 2
+#29063
+boots platinum~
+(Dark) platinum boots~
+Some silvery boots are on the floor.~
+platinum~
+9 CGJ AG
+10 10 9 5 0
+43 30 500 P
+A
+13 15
+A
+14 50
+#29064
+gauntlets platinum~
+(Dark) platinum gauntlets~
+A pair of silvery gauntlets are on the floor.~
+platinum~
+9 CGJ AH
+9 10 10 5 0
+43 30 500 P
+A
+13 15
+A
+18 4
+#29065
+sleeves platinum~
+(Dark) platinum sleeves~
+A pair of silvery sleeves are on the floor.~
+platinum~
+9 CGJ AI
+10 10 9 5 0
+43 30 560 P
+A
+13 15
+A
+1 2
+#29066
+shield spiked platinum~
+(Dark) the platinum spiked shield~
+A jagged, silvery shield is on the floor.~
+platinum~
+9 CGJ AJ
+10 9 10 5 0
+43 30 500 P
+A
+13 15
+A
+19 4
+#29067
+girth platinum~
+(Dark) the platinum girth~
+A silvery girth is on the floor.~
+platinum~
+9 CGJ AL
+9 10 9 4 0
+43 30 450 P
+A
+13 20
+A
+24 -4
+#29068
+avenger unholy sword~
+(Dark) Unholy Avenger~
+A glowing silvery sword is hovering here, ready to possess an owner.~
+platinum~
+5 CGJ AN
+1 6 8 1 0
+43 35 800 P
+A
+18 4
+A
+19 5
+#29069
+water pump~
+a water pump~
+A stainless steel water pump is functioning here.~
+steel~
+25 0 0
+500 500 0 0 0
+1 1 100 P
+E
+pump~
+A stainless steel water pump.
+~
+#29070
+rations travel~
+some travel rations~
+Some travel rations look edible.~
+pill~
+19 0 AO
+40 0 0 0 0
+1 1 100 P
+E
+rations~
+Some hearty travel rations.
+~
+#29071
+sword titanium~
+a titanium sword~
+A gleaming titanium sword shines here.~
+adamantite~
+5 IM AN
+1 2 19 21 D
+29 10 700 P
+E
+sword~
+A heavy sword made of titanium.
+~
+A
+18 -1
+A
+19 3
+A
+24 -2
+#29072
+mace titanium~
+a titanium mace~
+A spiked titanium mace is hooked on the wall.~
+adamantite~
+5 IM AN
+4 2 19 0 0
+29 10 700 P
+E
+mace~
+A large spiked mace made out of titanium.
+~
+A
+18 -1
+A
+19 3
+A
+12 15
+#29073
+dagger titanium~
+a titanium dagger~
+A sharp titanium dagger is sheathed here.~
+adamantite~
+5 IM AN
+2 2 19 11 B
+29 10 700 P
+E
+dagger~
+A sharp dagger fashioned out of titanium.
+~
+A
+18 -1
+A
+19 3
+A
+14 75
+#29074
+desk small oak~
+a small oak desk~
+A small oak desk is in the center of the trophy room.~
+wood~
+15 0 0
+100 5 0 0 0
+1 1 100 P
+E
+desk~
+Korzath's small oak desk.
+~
+#29075
+vial thick black syrup~
+a vial of thick black syrup~
+A vial of some vial black syrup gurgles here.~
+glass~
+10 0 AO
+40 28 402 28 0
+40 1 100 P
+E
+vial~
+The vial is full of a thick black syrup.
+~
+#29076
+desk metal large~
+a large metal desk~
+A large metal desk dominates the room.~
+steel~
+15 0 0
+100 5 0 0 0
+1 1 100 P
+E
+desk~
+A large metal desk.
+~
+#29077
+wand long blue~
+a long blue wand~
+A long blue wand was left here.~
+steel~
+3 0 AO
+20 3 3 36 0
+20 8 100 P
+E
+wand~
+A long blue titanium wand.
+~
+#29078
+mold shaping~
+a shaping mold~
+A huge liquid metal shaping mold is grounded in the floor here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 100 P
+E
+mold~
+This mold is used to shape molten metal into the shapes desired by the
+metalurgists.  Most of the molds are used to made pure sheets of titanium.
+~
+#29079
+christopher~
+a shaping mold~
+A huge liquid metal shaping mold is grounded in the floor here.~
+adamantite~
+15 0 0
+100 5 0 0 0
+1 1 100 P
+E
+mold~
+It opens!
+~
+#29080
+anvil~
+an anvil~
+A large black anvil is bolted into the floor for the blacksmiths to use.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 100 P
+E
+anvil~
+The anvil is used by the blacksmiths.
+~
+#29081
+anvil~
+an anvil~
+A large black anvil is bolted into the floor for the blacksmiths to use.~
+adamantite~
+15 0 0
+100 5 0 0 0
+1 1 100 P
+E
+anvil~
+The anvil is used by the blacksmiths.
+~
+#29082
+forge~
+a forge~
+A blasting fire eminates from a blacksmith's forge.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 100 P
+E
+forge~
+The blacksmiths use the forge to heat metals before they pound them into 
+shape.
+~
+#29083
+medallion saint christopher~
+a Saint Christopher Medallion~
+A medallion depicting the Saint of Travelling is hidden here.~
+adamantite~
+9 AI AC
+9 9 9 10 0
+37 3 1000 P
+E
+medallion~
+A medallion depicting Saint Christopher, the Saint of travelling.
+~
+A
+14 100
+A
+24 -3
+#29084
+belt weight~
+a weight belt~
+A weight belt has been left behind.~
+iron~
+9 M AL
+8 9 9 0 0
+33 0 500 P
+E
+belt~
+A weight belt that keeps your back from being injured when you carry heavy
+things.
+~
+A
+1 3
+#29085
+bracelet id~
+an ID bracelet~
+An ID bracelet.~
+iron~
+9 0 AM
+2 2 2 2 0
+1 1 100 P
+E
+bracelet~
+An ID bracelet but it has somebody elses name on it!
+~
+A
+4 1
+#29086
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the wall before you.~
+adamantite~
+30 O 0
+5 29113 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29087
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the wall before you.~
+adamantite~
+30 O 0
+5 29118 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29088
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the wall before you.~
+adamantite~
+30 O 0
+5 29123 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29089
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the air around you.~
+adamantite~
+30 O 0
+5 29112 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29090
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the air around you.~
+adamantite~
+30 O 0
+5 29110 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29091
+portal starlight~
+The Starlight Portal~
+A massive swirling starlight portal consumes the air around you.~
+adamantite~
+30 O 0
+5 29111 0 0 0
+1 1 100 P
+E
+portal~
+A portal to Mota knows where.
+~
+#29092
+key misty~
+a Misty key~
+A misty key.~
+adamantite~
+18 0 AO
+0 0 0 0 0
+40 1 100 P
+E
+misty key~
+This key is just plain mist that is in the shape of a key.
+~
+#29093
+translation plaque~
+a translation plaque~
+a translation plaque is inscribed into the wall.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+translation plaque~
+This plaque translates the story written on the walls:
+
+                     The Illisandian Family History
+
+     The Illisandian Family was started by Zarith who changed his family
+name to Illisandian after leaving his homeland east of the Dragon Sea.
+Zarith left home at age 17 by buying passage on a ship that was to be the
+first to ever cross the Dragon Sea.  Nobody in Zarith's homeland, including
+his own family, ever expected to see the ship again.
+     Zarith somehow made it safely across the sea though.  The tattered
+remains of Zarith's personal journal tell of how the ship he crossed on was
+attacked by a gigantic sea creature who attacked the ship to grab a mage
+that was onboard.  Zarith managed to escape the jaws of the sinking ship
+and arrived on the shores that make up the western border of the sea.
+     Zarith was ever thankful to the Gods that saved his life so he
+vowed to lay stake to this land and build upon it a great home and shrine
+for the newly founded family he wanted to create under the name Illisandian.
+Zarith headed west and fell upon the small civilization that was founding a
+new city that was to be called 'Midgaard'
+                                                  Continued on 2plaque
+~
+#29094
+papers~
+some papers~
+some papers are strewn on the floor here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+papers~
+You take a closer look at the papers here:
+
+	Master Korzath has requested that his son be retrieved from
+        the campus where he is studying.  I have too many duties here
+        at the fortress so I've not the time to carry out this order
+        so I am leaving it up to you to take a quarter of the garrison
+        with you to the campus to escort young master Zorac from there
+        to to here.  Once he has arrived you are to speak with the
+        Knight of the Battleground and he shall open the doors to the
+        the Battleground so young Zorac may visit his father.  Do not
+        fail me in this, I rarely pass on orders to you and if you are
+        unsuccesful in protecting the young master than I will deal
+        with you personally.
+
+You notice the order is signed by Korzath's Guardian and dated last week.
+~
+#29095
+guest list~
+a guest list~
+a guest list lies discarded.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+guest list~
+ -----------------------------------------------------------------------------
+ |         GUEST LIST         |     All guests are to be shown to their rooms
+ |                            | once they arrive.  They are NOT authorized
+ |  Expected to Arrive today: | to wander throughout the fortress until
+ |  ------------------------  | tomorrow when they are escorted.
+ |  Froboz                    |     They are to be told that they are to stay
+ |  Sultan of New Thalos      | in their rooms and freshen up for tonights
+ |  Werith                    | banquet.  If they give you any trouble or
+ |  High Priest of Hell       | look suspicious then lock the door to the
+ |  Mahn-Tor                  | guest apartments.  Once it is time for dinner
+ |  Grand Mistress            | you are to escort them to the dining hall.
+ |  Prince Augustus Starfire  |     Once dinner is through then escort them
+ |  Princess Semele           | back so they can retire for the evening.
+ |  Draconian King            | Tomorrow they will be given a tour of the
+ |  Hobgoblin King            | various facilities here including Project
+ |  Mayor of New Thalos       | Starlight.
+ |  Mouserider                |                              Signed,
+ |                            |                                  Korzath
+ -----------------------------------------------------------------------------
+~
+#29096
+memo papers desk~
+some papers~
+some papers are on a desk here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+memo papers desk~
+You take a glance at the papers on the engineers desk, one particular 
+paper catches your eye due to Korzath's signature at the bottom of it:
+
+                       **********************
+		       *-=-=-=-=Memo=-=-=-=-*
+		       **********************
+			  From the desk of
+			   Master Korzath
+
+     My loyal Engineers:
+
+	The work and effort that you have put into advancing our
+    manufacturing equipment has been most exquisite.  The progress that
+    we have made in the past months has put us way ahead of schedule.
+        However, I must ask that you work to double your efforts over
+    the next few days.  As you already know, some important guests are
+    arriving from places all over Sembia.  IMPORTANT guests because
+    they might possibly decide to invest in the cause.  Their decison
+    will be based on what they see here during their visit.
+	The funding that these powerful members of society could offer
+    us could quite possibly finance further expansion of our facilities
+    and I don't have to tell you that we could use more space!  If we
+    can expand our fortress I estimate that we could be ready to launch
+    the final phase of our cause within the next three months!  Needless
+    to say, these guests are important to me and if we don't recieve the
+    support from them that I desire then I will be forced to hold your
+    department personally responsible since it is your duty to oversee
+    the manufacturing facilities.
+~
+#29097
+bulletin~
+a bulletin~
+a bulletin board is here on the wall.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+bulletin~
+There is a notice tacked up on the bulletin board.
+~
+#29098
+folder~
+a folder~
+a folder lies in the corner.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+folder~
+You open the folder and read:
+
+                            Project Starlight
+                            -----------------
+                       Funded by Korzath Industries
+
+Project Description:
+====================
+
+  The idea behind Project Starlight is to use a combination of magic and
+mathmatical theory to create a new type of portal.  Current portals allow
+us to enter them and travel long distances within our own world.  The goal
+of Project Starlight is to create a new portal type that will allow us to
+break a hole through time and space, a hole that will allow us to travel
+to different points in time and possibly alternate realities that are
+similar to our own existing world.
+
+						Continued on 2page
+~
+#29099
+plaque~
+a plaque~
+a plaque is attached to the door.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+plaque~
+You look at the plaque:
+ *********************************ATTENTION*********************************
+ *                                                                         *
+ *                      PROJECT STARLIGHT LABORATORIES                     *
+ *        (Absolutely no unathorized personnel allowed past this point)    *
+ *                                                                         *
+ *  -The research taking place behind these doors is highly experimental   *
+ *   and is to be kept secret at all costs!  Passing these doors means     *
+ *   you have been sworn to secrecy and sworn to take all knowledge of     *
+ *   what lies past this point TO YOUR GRAVE.  Breaking this oath means    *
+ *   risking your own safety and existence.  Have a nice day!              *
+ *                                                                         *
+ *  -BEWARE: You enter this laboratory at your own risk! Korzath Industry  *
+ *   is in NO WAY responsible for harm done to you while past this point.  *
+ *                                                                         *
+ *  -All rights to PROJECT STARLIGHT belong to Korzath Industries.  Any    *
+ *   attempt to recreate the results of the project without the expressed  *
+ *   written consent of Korzath Industries, will be a direct violation of  *
+ *   the companies project rights disclaimer.                              *
+ ***************************************************************************
+~
+#0
+
+
+#ROOMS
+#29001
+Entrance to the Fortress~
+     You stand before the entrance to Korzath's mighty fortress.  The
+fortress is built into the lower side of the mountain here.  The entrance
+leads from the mountain path up into a hallway leading to the foyer.
+     Korzath built this fortress as his new residence right after he sold
+a large chunk of land to the Sultan many years ago.  New Thalos now stands
+on that plot of land and some say it was Korzath's biggest mistake to not
+have used his inherited fortune to build his own city there.  Maybe you
+will find an answer inside as to why he invested his money into this fortress
+instead of into building cities.  You notice an upturned rock on the path
+that you might want to look at.
+~
+290 0 5
+D0
+Inside the Fortress
+~
+~
+0 -1 29002
+D2
+Misty Clearing
+~
+~
+0 -1 64
+E
+rock~
+There is an inscription on the rock:
+
+		Korzath's Fortress was written in new format
+		by Haze and made specifically for ToC.  Part
+		two of this Fortress has yet to be completed
+		at this time but will be added later on. The
+		second part will be for players 45 and above
+		and will complete the story that starts here
+		in Part one.
+
+						       -Haze
+						    06/29/95
+~
+S
+#29002
+Inside Korzath's Private Fortress~
+     The paved path leading to the fortress stops at the entrance to the
+hallway that you now stand in.  High above, you can see the stalagmites
+that make up the ceiling.  The walls to the left and right of you are
+covered in painted hieroglyphics that are impossible for you to interpret.
+A translation plaque is imbedded into the floor for you to look at.
+~
+290 0 11
+D0
+The Grand Foyer.
+~
+~
+0 -1 29003
+D2
+The Entrance.
+~
+~
+0 -1 29001
+E
+2plaque~
+     The new city grew quickly.  Every new city needs blacksmiths and Zarith
+used his skills to become the first blacksmith of Midgaard.  As time passed
+Zarith grew quite wealthy and officially purchased the plot of land next to
+The Dragon Sea.  He later met a young woman named Inia and married her.  They
+started their family in Midgaard and the gold continued to pour into Zarith's
+business.  Zarith invested the money into building Market Road in Midgaard
+and he rented out all of the shops along it to make even more money.  His
+investments into shops continued in other towns around the area including
+Ofcol, Rome, the Gnome Village, and Old Thalos.
+     As Zarith grew older he took sick and could no longer maintain his
+business.  He passed the business onto the oldest of his two sons just
+three months before making his wife a widow.  His oldest son, Markaroth
+had his father's business smarts while the youngest son, Fyzac, had his
+ancestors military genius and combat abilities.  Markaroth built his father's
+business into a small empire extending all over the growing land of Sembia.
+Fyzac on the other hand chose a darker path.  He took the destructive
+instincts of his ancestors and raised an army against Midgaard that was
+quickly put down by it's inhabitants.
+                                                  Continued on 3plaque
+~
+E
+3plaque~
+     Fyzac was outcasted from the town and left to live in his home in the
+mountains.  Fyzac married a woman named Kylee.  Kylee had been outcasted
+from Ofcol when she was convicted of being a witch.  Kylee bore Fyzac one 
+son who they named Korzath.  They raised Korzath in their mountain home
+and trained him well in the ways of fighting and spellcasting.  When Korzath
+came of age he travelled out to the towns of Sembia and fought in prize
+fights.  Korzath never lost a single bout and thus established a respected
+reputation.  His uncle Markaroth, who was now stuggling to keep the family
+business number one, took Korzath under his wing to teach him the ways of
+running the business.  With Korzath's reputation behind the business it
+soared to new heights and the family fortune grew tenfold.  When Markaroth
+mysteriously disappeared, the business was turned over to Korzath.
+     Markaroth's will asked that Korzath take the family fortune and carry
+out Zarith's dream of a fabulous home off the coast of The Dragon Sea.
+Instead, Korzath ignored the request and sold the land to the Sultan for
+a great sum of money.  He then sold off each piece of the business and
+used a large chunk of the family fortune to construct this family fortress.
+Korzath then withdrew from all of society to live in this fortress on the
+mountain where he was raised.
+~
+S
+#29003
+Grand Foyer~
+     The Grand Foyer is made up of dark rock walls and three passages
+leading deeper into the fortress.  A remarkable crystal statue stands in
+the center of the foyer.  Light from the torches bounces off of the
+prismatic statue sending glorious rainbow colors in various directions
+illuminating the foyer.
+~
+290 0 11
+D0
+A place for high level players.
+~
+~
+0 -1 29004
+D2
+The Grand Foyer.
+~
+~
+0 -1 29002
+D6
+A place for middle level players.
+~
+~
+0 -1 29060
+D7
+A place for lower level players.
+~
+~
+0 -1 29005
+S
+#29004
+Center Tunnelway~
+     The ceiling in this tunnelway is non existent.  A constant rain 
+falls through making puddles on the floor.  In front of you is a massive
+steel double door.  A sign on the door says, "BATTLEGROUND"
+~
+290 0 5
+D0
+Battleground.
+~
+~
+3 29003 29201
+D2
+Grand Foyer.
+~
+~
+0 -1 29003
+S
+#29005
+Before an Iron Door~
+     From the looks of this door it seems you might be nearing the barracks
+where Korzath's small fortress militia is housed.  Korzath's family made
+it's fortune manufacturing weapons back in the days when Midgaard still
+stood.  You vaguely wonder if their weapon technology has kept up as the
+years have gone by.
+~
+290 0 11
+D3
+The way to the barracks.
+~
+door~
+2 29001 29006
+D8
+The Grand Foyer.
+~
+~
+0 -1 29003
+S
+#29006
+Corridor~
+     More rock walls make up the sides of this corridor.  Korzath may have
+spent a lot creating this fortress but he sure didn't spend that money on
+interior decorators.
+~
+290 0 11
+D1
+The way back.
+~
+door~
+2 29001 29005
+D2
+Corridor.
+~
+~
+0 -1 29007
+S
+#29007
+Corridor~
+     The rock walled corridor continues north and south.  Soldiers patrol
+these corridors in hopes of stopping intruders.
+~
+290 0 11
+D0
+Corridor.
+~
+~
+0 -1 29006
+D2
+Corridor.
+~
+~
+0 -1 29008
+S
+#29008
+Corridor~
+     The corridor goes north and south.  You can smell some food from here.
+You hear more soldiers patrolling the halls.
+~
+290 0 11
+D0
+Corridor.
+~
+~
+0 -1 29007
+D1
+~
+sweet~
+4 -1 29009
+D2
+A turn in the corridor.
+~
+~
+0 -1 29010
+S
+#29009
+Secret Storage~
+     This is a secret storage room where extra rations are stored for the
+fortress soldiers.  You are probably not allowed in here, yet you feel 
+strangely safe here.  Part of the wall is engraved with an inscription.
+~
+290 J 11
+D3
+~
+sweet~
+4 -1 29008
+E
+inscription~
+You look at the inscription here:
+         
+				BOO!
+
+~
+S
+#29010
+Turn in the Corridor~
+     The corridor turns west here.  The echoes of voices and footsteps grows
+louder here.
+~
+290 0 11
+D0
+Corridor.
+~
+~
+0 -1 29008
+D3
+Entrance to the barracks.
+~
+~
+0 -1 29011
+S
+#29011
+Entrance to the Barracks~
+     This is the beginning of the barracks.  The rock walls are replaced by
+wood looking boards.  Torches are mounted along the walls to light the way.
+You wonder why the wood isn't being set afire by the torches?
+~
+290 0 11
+D0
+Hallway.
+~
+~
+0 -1 29012
+D1
+A turn in the corridor.
+~
+~
+0 -1 29010
+S
+#29012
+Hallway through the Barracks~
+     The barracks hall continues west through more halls of wooden plank
+walls.  This is unlike any barracks you have ever seen before. Korzath
+must be an odd man.
+~
+290 0 11
+D2
+Entrance to the barracks.
+~
+~
+0 -1 29011
+D3
+Hallway.
+~
+~
+0 -1 29013
+S
+#29013
+Hallway through the Barracks~
+     The hall leads west and back east towards the entrance.  To the north
+and south are barrack quarters for the soldiers and guards.
+~
+290 0 11
+D0
+Barrack Quarters.
+~
+door~
+1 -1 29014
+D1
+Hallway.
+~
+~
+0 -1 29012
+D2
+Barrack Quarters.
+~
+door~
+1 -1 29015
+D3
+Hallway.
+~
+~
+0 -1 29016
+S
+#29014
+Barrack Quarters~
+     The barrack quarters are full of bunked beds to fit the many soldiers
+and guards, however, none of them seem to be asleep.
+~
+290 0 11
+D2
+Hallway.
+~
+door~
+1 -1 29013
+S
+#29015
+Barrack Quarters~
+     The barrack quarters are full of bunked beds to fit the many soldiers
+and guards, however, none of them seem to be asleep.
+~
+290 0 11
+D0
+Hallway.
+~
+door~
+1 -1 29013
+S
+#29016
+Hallway through the Barracks~
+     The barracks halls continue west and east.
+~
+290 0 11
+D1
+Hallway.
+~
+~
+0 -1 29013
+D3
+Hallway.
+~
+~
+0 -1 29017
+S
+#29017
+Hallway through the Barracks~
+     More barrack quarters lie to the north and south.  The hall leads west
+and back east as well.
+~
+290 0 11
+D0
+Barrack Quarters.
+~
+door~
+1 -1 29018
+D1
+Hallway.
+~
+~
+0 -1 29016
+D2
+Barrack Quarters.
+~
+door~
+1 -1 29019
+D3
+Hallway.
+~
+~
+0 -1 29020
+S
+#29018
+Barrack Quarters~
+     The barrack quarters are full of bunked beds to fit the many soldiers
+and guards, however, none of them seem to be asleep.
+~
+290 0 11
+D2
+Hallway.
+~
+door~
+1 -1 29017
+S
+#29019
+Barrack Quarters~
+     The barrack quarters are full of bunked beds to fit the many soldiers
+and guards, however, none of them seem to be asleep.
+~
+290 0 11
+D0
+Hallway.
+~
+door~
+1 -1 29017
+S
+#29020
+Hallway through the Barracks~
+     Just another strange east-west hallway in the oddest barracks you have
+ever seen.  It is rather strange that they have discovered wood that does
+not burn or fire that does not set wood alight.
+~
+290 0 11
+D1
+Hallway.
+~
+~
+0 -1 29017
+D3
+Hallway.
+~
+~
+0 -1 29021
+S
+#29021
+End of the Barracks~
+     This is the end of the barracks.  The soldier's captains live in the
+rooms to the west and south.
+~
+290 0 11
+D0
+Hallway.
+~
+~
+0 -1 29024
+D1
+Hallway.
+~
+~
+0 -1 29020
+D2
+Captain's Quarters.
+~
+door~
+1 -1 29022
+D3
+Captain's Quarters.
+~
+door~
+1 -1 29023
+S
+#29022
+Captain's Quarters~
+     The Captain's quarters are a mess as the captain scrambled out quickly
+to fight you, the intruder.  Papers lie strewn on the floor by the Captain's
+desk.  This place is in total disarray.  You should take a closer look at
+those papers while you have te chance.
+~
+290 0 11
+D0
+Hallway.
+~
+door~
+0 -1 29021
+S
+#29023
+Captain's Quarters~
+     The Captain's quarters are a mess as the captain scrambled out quickly
+to fight you, the intruder.  Papers lie strewn on the floor by the Captain's
+desk.  This place is in total disarray.
+~
+290 0 11
+D1
+Hallway.
+~
+door~
+0 -1 29021
+S
+#29024
+Hallway~
+     This is an interim hallway between the soldier's barracks and the
+servant's apartments.  The walls are no longer made up of wooden boards.
+They now have a more plastered look to them.  Maybe this part if the
+fortress is where Korzath spent a majority of his money.
+~
+290 0 11
+D0
+Servant's Apartments.
+~
+~
+0 -1 29025
+D2
+Hallway.
+~
+~
+0 -1 29021
+S
+#29025
+Servant's Apartments~
+     This is where the servant's apartments are housed here in the fortress.
+The walls are a bland white and there is only a bare amount of light coming
+from the servant's rooms to the east and west.
+~
+290 0 11
+D0
+Hallway.
+~
+~
+0 -1 29030
+D1
+Servant's room.
+~
+door~
+1 -1 29026
+D2
+Hallway.
+~
+~
+0 -1 29024
+D3
+Servant's room.
+~
+door~
+1 -1 29028
+S
+#29026
+Servant's Room~
+     The servant's room is lit by a candle on a small table that must serve
+as a place to eat.  Multiple beds are here.  Korzath must really be trying
+to maximize space by cramming so many servant's into such a small place.
+~
+290 0 11
+D0
+Servant's room.
+~
+~
+0 -1 29027
+D3
+Hallway.
+~
+door~
+1 -1 29025
+S
+#29027
+Servant's Room~
+     More beds are bolted into the floor here.  The room has an fowl odor
+to it....oh....this is where they store their dirty laundry too.  Eewww!
+~
+290 0 11
+D2
+Servant's Room.
+~
+~
+0 -1 29026
+S
+#29028
+Servant's Room~
+     The servant's room is lit by a candle on a small table that must serve
+as a place to eat.  Multiple beds are here.  Korzath must really be trying
+to maximize space by cramming so many servant's into such a small place.
+~
+290 0 11
+D0
+Servant's Room.
+~
+~
+0 -1 29029
+D1
+Hallway.
+~
+door~
+1 -1 29025
+S
+#29029
+Servant's Room~
+     More beds are bolted into the floor here.  The room has an fowl odor
+to it....oh....this is where they store their dirty laundry too.  Eewww!
+~
+290 0 11
+D2
+Does anybody ever look at these exit descrips?
+~
+~
+0 -1 29028
+S
+#29030
+Hallway~
+    This hall leads from the servant's apartments to the main living area
+of the fortress.  From what you have seen so far this place seems far from
+being the mighty fortress it is rumored to be.  Right now it just seems like
+a large home owned by a wealthy merchant.
+~
+290 0 11
+D0
+Main Intersection.
+~
+~
+0 -1 29031
+D2
+Servant's Apartments.
+~
+~
+0 -1 29025
+S
+#29031
+Main Intersection~
+     The main intersection splits off in four directions.  The floor here
+is well travelled.  The smell of food comes from the kitchen located to the
+east.  Towards the west looks like the path to the dining hall.  The north
+hall looks like it could lead to anything.
+~
+290 0 11
+D0
+Path to main apartments.
+~
+~
+0 -1 29044
+D1
+Kitchen.
+~
+~
+0 -1 29032
+D2
+Hallway.
+~
+~
+0 -1 29030
+D3
+Dining hall.
+~
+~
+0 -1 29039
+S
+#29032
+Kitchen Entrance~
+     Smells of various delicacies waft in from the deeper rooms of the
+kitchen.  You can hear the clanging of pots and pans as the cooks work
+to prepare tonights meal.
+~
+290 0 11
+D1
+Kitchen.
+~
+~
+0 -1 29035
+D3
+Main Intersection.
+~
+~
+0 -1 29031
+S
+#29033
+Kitchen~
+     In this corner of the kitchen you see deserts set out on serving carts
+that will be wheeled into the dining hall once the main course is completed.
+You wonder who Korzath has coming to dinner.
+~
+290 0 11
+D1
+Kitchen.
+~
+~
+0 -1 29034
+D2
+Kitchen.
+~
+~
+0 -1 29035
+S
+#29034
+Kitchen~
+     Many stews are brewing on the stoves in this corner of the kitchen.
+You can distinctly smell beef and carrots that are simmering over the
+hot flames.  It sure is making you hungry.
+~
+290 0 11
+D2
+Kitchen.
+~
+~
+0 -1 29036
+D3
+Kitchen.
+~
+~
+0 -1 29033
+S
+#29035
+Kitchen~
+     You stand before one of the busiest kitchens you've ever seen.  Cooks
+run around in every direction preparing food.  Some even run while stirring
+ingredients in mixing bowls.  Other cooks are yelling orders to the younger
+cooks, making sure they learn the correct amount of spices to add to the
+dinner.  Nobody seems to even notice you standing here.
+~
+290 0 11
+D0
+Kitchen.
+~
+~
+0 -1 29033
+D1
+Kitchen.
+~
+~
+0 -1 29036
+D2
+Kitchen.
+~
+~
+0 -1 29037
+D3
+Kitchen.
+~
+~
+0 -1 29032
+S
+#29036
+Kitchen~
+     This section of the kitchen is where the cooks slice and dice all of
+the herbs, spices, and other various ingredients used in preparing the
+food.  You are amazed at the dexterity with which the cooks chop the 
+ingredients.
+~
+290 0 11
+D0
+Kitchen.
+~
+~
+0 -1 29034
+D2
+Kitchen.
+~
+~
+0 -1 29038
+D3
+Kitchen.
+~
+~
+0 -1 29035
+S
+#29037
+Kitchen~
+     The smell of meat is strongest in this part of the kitchen.  This is
+where the raw meats are sliced and cleaned for cooking.  Most of the meat
+will be placed over roaring fires until it is well-done.
+~
+290 0 11
+D0
+Kitchen.
+~
+~
+0 -1 29035
+D1
+Kitchen.
+~
+~
+0 -1 29038
+S
+#29038
+Kitchen~
+     In this corner of the kitchen are a bunch of boxes.  The boxes are
+stacked to the ceiling.  Looking closely you see that they contain fruits,
+vegetables, and other various supplies that the cook are using to prepare
+tonights dinner appetizers.
+~
+290 0 11
+D0
+Kitchen.
+~
+~
+0 -1 29036
+D3
+Kitchen.
+~
+~
+0 -1 29037
+S
+#29039
+Dining Hall~
+     To the north of you is the inner part of the main formal dining hall.
+The doors to the dining hall are open as waiters carry in the silverware,
+tablecloths, and other dining accesories in preparation for tonights
+banquet.
+~
+290 0 11
+D0
+Dining hall.
+~
+~
+0 -1 29040
+D1
+Main Intersection.
+~
+~
+0 -1 29031
+S
+#29040
+Dining Room~
+     Round tables are placed all over the dining hall.  Waiters are quickly
+working to arrange the tablecloths over the tables and set up the silverware
+properly.  You notice that the utensils are of pure gold.  Korzath must be
+expecting some important guests.
+~
+290 0 11
+D0
+Dining hall.
+~
+~
+0 -1 29041
+D2
+Dining hall.
+~
+~
+0 -1 29039
+D3
+Dining hall.
+~
+~
+0 -1 29043
+S
+#29041
+Dining Room~
+     Round tables are placed all over the dining hall.  Waiters are quickly
+working to arrange the tablecloths over the tables and set up the silverware
+properly.  You notice that the utensils are of pure gold.  Korzath must be
+expecting some important guests.
+~
+290 0 11
+D2
+Dining hall.
+~
+~
+0 -1 29040
+D3
+Dining hall.
+~
+~
+0 -1 29042
+S
+#29042
+Dining Room~
+     Round tables are placed all over the dining hall.  Waiters are quickly
+working to arrange the tablecloths over the tables and set up the silverware
+properly.  You notice that the utensils are of pure gold.  Korzath must be
+expecting some important guests.
+~
+290 0 11
+D1
+Dining hall.
+~
+~
+0 -1 29041
+D2
+Dining hall.
+~
+~
+0 -1 29043
+S
+#29043
+Dining Room~
+     Round tables are placed all over the dining hall.  Waiters are quickly
+working to arrange the tablecloths over the tables and set up the silverware
+properly.  You notice that the utensils are of pure gold.  Korzath must be
+expecting some important guests.
+~
+290 0 11
+D0
+Dining hall.
+~
+~
+0 -1 29042
+D1
+Dining hall.
+~
+~
+0 -1 29040
+S
+#29044
+Path to Main Apartments~
+     This hall leads back towards the main apartments where Korazath's guests
+stay.  Korazth himself has his quarters placed back in this deep part of the
+mountain fortress as well.
+~
+290 0 11
+D1
+Path to the apartments.
+~
+~
+0 -1 29045
+D2
+Main Intersection.
+~
+~
+0 -1 29031
+S
+#29045
+Path to Main Apartments~
+     The smooth coal black rock walls allow the air here to pass by quickly
+creating a chilly breeze along this hall.  The breeze acts as a natural air
+conditioning for the apartments even though the apartments should already
+be cold since they are placed so deep in the mountain itself.  The hall
+continues northward.
+~
+290 0 11
+D0
+Path to the Main Apartments.
+~
+~
+0 -1 29046
+D3
+Path to the Main Apartments.
+~
+~
+0 -1 29044
+S
+#29046
+Path to Main Apartments~
+     The path splits into two halls here.  To the north lies the way to
+Korzath's own quarters.  The hall to the northwest is the passage to the
+guest apartments.  A guard stands here protecting the passageway.
+~
+290 0 11
+D0
+Hallway to Korzath's Quarters.
+~
+~
+0 -1 29056
+D2
+Path to the Main Apartments.
+~
+~
+0 -1 29045
+D7
+Hallway to Guest Quarters.
+~
+~
+0 -1 29047
+S
+#29047
+Hallway to Guest Quarters~
+     The hallway passage continues northwest towards the guest quarters.
+~
+290 0 11
+D7
+Hallway to Guest Quarters.
+~
+~
+0 -1 29048
+D8
+Hallway to Guest Quarters.
+~
+~
+0 -1 29046
+S
+#29048
+Hallway to Guest Quarters~
+     The hallway turns north towards where the guest quarters are.  To the
+east is a guard's checkpoint where guards check off the names of the guests
+that have arrived and plan to stay overnight.
+~
+290 0 11
+D0
+Hallway to Guest Quarters.
+~
+~
+0 -1 29050
+D1
+Checkpoint.
+~
+door~
+1 -1 29049
+D8
+Hallway.
+~
+~
+0 -1 29047
+S
+#29049
+Checkpoint~
+     This is a small room for the checkpoint guard to sit in and check off
+the names on the list of guests who are expected for tonights event.  You,
+however, are an intruder and thus are not on the guest list.  You may want
+to examine the guest list anyway.
+~
+290 0 11
+D3
+Hallway to Guest Quarters.
+~
+door~
+1 -1 29048
+S
+#29050
+Hallway to Guest Quarters~
+     The hall continues north or south.  A servant's room lies to the west.
+~
+290 0 11
+D0
+Hallway to Guest Quarters.
+~
+~
+0 -1 29052
+D2
+Hallway to Guest Quarters.
+~
+~
+0 -1 29048
+D3
+Servant's Quarters.
+~
+door~
+1 -1 29051
+S
+#29051
+Servant's Quarters~
+     This room is for the servants who serve the guests.  Like so many other
+rooms in this place, this one is cramped for space.  Beds are bunked to allow
+some space for walking.
+~
+290 0 11
+D1
+Hallway to Guest Quarters.
+~
+door~
+1 -1 29050
+S
+#29052
+Hallway to Guest Apartments~
+     The hall continues north towards the guest quarters.  The passage
+continues back south as well.
+~
+290 0 11
+D0
+End of the hall.
+~
+~
+0 -1 29053
+D2
+Hallway to Guest Quarters.
+~
+~
+0 -1 29050
+S
+#29053
+End of the Hall~
+     The end of the hall here is quite cold due to this hall being so deep
+in the mountainside.  To the west are the guest quarters.
+~
+290 0 11
+D2
+Hallway to Guest Quarters.
+~
+~
+0 -1 29052
+D3
+Guest Quarters.
+~
+door~
+2 29004 29054
+S
+#29054
+Guest Quarters~
+     The guest quarters are the largest quarters you have seen here yet.
+The room was not entirely built to house a large number of guests so a
+few dividers have been set up to somewhat personalize space for the guests.
+You feel some heat being emitted from the room to the south.
+~
+290 0 11
+D1
+End of the hall.
+~
+door~
+2 29004 29053
+D2
+Guest Quarters.
+~
+~
+0 -1 29055
+S
+#29055
+Guest Quarters~
+     A huge fireplace has been built into this wall and a large fire
+provides heat for these cold quarters.  Large beams of oak have been
+used to cover the rock walls to deter the chill emitted by the black
+mountain rock.  The frame of the beds here has been made of a metal
+material you have never seen before.  The headboards are made of solid
+petrified wood with designs worked in gold. 
+~
+290 0 11
+D0
+Guest Quarters.
+~
+~
+0 -1 29054
+S
+#29056
+Hallway to Korzath's Quarters~
+     The hallway to Korazath's quarters are well guarded.  Korzath
+doesn't like unwanted visitors inspecting his room.
+~
+290 0 11
+D0
+Hallway to Korazth's Quarters.
+~
+~
+0 -1 29057
+D2
+Path to Main Apartments.
+~
+~
+0 -1 29046
+S
+#29057
+Hallway to Korzath's Quarters~
+     This room is guarded as well.  To the north is Korzath's main quarters,
+but the door is sealed with a magical barrier.  A spiritlike voice asks:
+
+		OPEN THE DOOR WITH THE MASTER'S SONS NAME
+~
+290 A 11
+D0
+Korzath's Quarters~
+Zorac~
+4 -1 29058
+D2
+Hallway to Korzath's Quarters.
+~
+~
+0 -1 29056
+S
+#29058
+Korzath's Quarters~
+     This first room of Korazth's quarters is kept warm by a large fireplace
+in the west wall.  With the fire going and heavily insulated walls, you can't
+tell that this room is located so deep in the mountain.  To the north is
+Korzath's bedroom.
+~
+290 0 11
+D0
+Korzath's Bedroom.
+~
+~
+0 -1 29059
+D2
+Hallway to Korzath's Quarters~
+Zorac~
+4 -1 29057
+D3
+~
+trophy~
+4 -1 29087
+S
+#29059
+Korzath's Bedroom~
+     If there was ever a bad time to break into a wealthy and powerful man's
+bedroom that time is now.  Korzath's demon guardian familiar is inspecting
+the room for traps and sees you enter.  It bares it's fangs as it leaps
+forward to attack!
+~
+290 0 11
+D2
+Korazth's Quarters.
+~
+~
+0 -1 29058
+S
+#29060
+Corridor~
+     At the end of this stank corridor is a large steel door in the
+eastern wall.
+~
+290 A 11
+D1
+Corridor.
+~
+door~
+2 29002 29061
+D9
+Grand Foyer.
+~
+~
+0 -1 29003
+S
+#29061
+Corridor~
+     The small corridor leads south.  You notice that the lights that
+illuminate the corridor come from tubes over your head instead of torches
+on the wall.
+~
+290 0 11
+D2
+Corridor.
+~
+~
+0 -1 29062
+D3
+Corridor.
+~
+door~
+2 29002 29060
+S
+#29062
+Corridor~
+     Security guards line this corridor wanting to check the identifications
+of everyone who comes and goes.
+~
+290 0 11
+D0
+Corridor.
+~
+~
+0 -1 29061
+D2
+Corridor.
+~
+~
+0 -1 29063
+S
+#29063
+Corridor~
+     Security guards and the Heads of Security are keeping an eye out for
+anyone looking suspicious.  You notice a hole in the west wall and inside
+the hole is a scrap of paper.
+~
+290 0 11
+D0
+Corridor
+~
+~
+0 -1 29062
+D2
+Service Hallway
+~
+~
+0 -1 29065
+D3
+Secret Storage~
+hole~
+4 -1 29064
+E
+paper scrap~
+You look at the paper scrap:
+
+                  Go on take everything, take everything
+			      I want you to!
+                  Go on take everything, take everything
+			      I want you to!
+                  Go on take everything, I dare you to!
+~	
+S
+#29064
+Secret Storage~
+     This is a secret storage facility for the fortress.
+~
+290 J 11
+D1
+Corridor~
+hole~
+4 -1 29063
+S
+#29065
+Service Hallway~
+     The service hallway leads east towards the main work centers of the
+fortress.  You wonder what all the noises are that are coming from that
+direction.
+~
+290 0 11
+D0
+Corridor.
+~
+~
+0 -1 29063
+D1
+Service Hallway.
+~
+~
+0 -1 29066
+S
+#29066
+Service Hallway~
+     The walls of this hallway are covered in sheer metal.  You marvel at
+how much armor could be made with the metal used in lining the hall.
+~
+290 0 11
+D1
+Service Hallway.
+~
+~
+0 -1 29067
+D3
+Service Hallway.
+~
+~
+0 -1 29065
+S
+#29067
+Service Hallway~
+     The hallway continues to the east and west.  To the north is a storage
+room.  The various noises of clanging metals can be heard to the east.
+~
+290 0 11
+D0
+Too dark to tell.
+~
+door~
+1 -1 29068
+D1
+Too dark to tell.
+~
+~
+0 -1 29070
+D3
+Service Hallway.
+~
+~
+0 -1 29066
+S
+#29068
+Storage Room~
+     Stacks of sheets of metal are stored in this storage room.  Numerous
+blacksmiths tools are handing on the walls.  Other tool type devices are
+scattered about but nothing you've ever seen the likes of before.
+~
+290 A 11
+D1
+Too dark to tell.
+~
+~
+0 -1 29069
+D2
+Too dark to tell.
+~
+door~
+1 -1 29067
+S
+#29069
+Storage Room~
+     Boxes of screws, nails, lugnuts, bolts, and bearings are stacked in
+this room.  Most blacksmiths or weaponsmiths only have one tenth of these 
+materials stored in their shops.  What does Korzath do with such a vast
+supply of parts?
+~
+290 A 11
+D3
+blah blah blah.  Eat at Joes.
+~
+~
+0 -1 29068
+S
+#29070
+Service Hallway~
+     You can now hear the distinct sounds of metal against metal as well as
+the droning whine and buzz of what sounds like drill bit machinery.  You've
+only seen advanced equipment like that in the Igor's weapon shop in New
+Thalos and he is about the richest weaponsmith around.  Igor could only
+afford one such device and you think you hear the sound of many more than
+one.
+~
+290 0 11
+D1
+T-Junction.
+~
+~
+0 -1 29071
+D3
+Too dark to tell.
+~
+~
+0 -1 29067
+S
+#29071
+T-Junction~
+     The service hallway opens up into a T-Junction here.  To the north there
+isn't much sound but, to the east you can hear the sound of machinery.
+~
+290 0 11
+D0
+Too dark to tell.
+~
+~
+0 -1 29080
+D1
+Machine Room.
+~
+~
+0 -1 29072
+D3
+Too dark to tell.
+~
+~
+0 -1 29070
+S
+#29072
+Machine Room~
+     You look around and all you see are machines and men operating them.
+You recognize some of the machines as drill bits but, you haven't seen much
+machinery in your lifetime.  You see workers feeding long sheets of metal
+into some machines and it comes out the other side in another shape.
+They must be using these machines to prepare materials for use in the
+manufacturing of weapons and armor.
+~
+290 0 11
+D0
+Machine Room.
+~
+~
+0 -1 29074
+D1
+Machine Room.
+~
+~
+0 -1 29073
+D3
+T-Junction.
+~
+~
+0 -1 29071
+S
+#29073
+Machine Room~
+     In this part of the machine area workers take and cut the shaped
+sheets of metal materials into what looks like the outline of vests,
+boots, and arm plates.  You've never seen anything so strange in all
+your years of adventuring.
+~
+290 0 11
+D0
+Machine Room.
+~
+~
+0 -1 29075
+D3
+Machine Room.
+~
+~
+0 -1 29072
+S
+#29074
+Machine Room~
+     Workers in this room use drill bits to make the proper holes in the
+metal sheets.  You see other workers taking cartfulls of finished sheets
+to another part of the fortress.  It looks like they prepare the metals here
+and then send them off to blacksmiths somewhere in the fortress.
+~
+290 0 11
+D1
+Machine Room.
+~
+~
+0 -1 29075
+D2
+Machine Room.
+~
+~
+0 -1 29072
+S
+#29075
+Machine Room~
+     Workers are assorting the refined metals here into different carts
+that are taken away to another part of the fortress.  You realize that
+the reason Korzath must keep this place so secretive is because he must
+be getting ready to try and take over the entire weapon and armor industry
+by mass producing his products and most likely sell at such low prices
+that he'll drive the local town smiths out of business.  Somebody needs
+to put a stop to this.
+~
+290 0 11
+D0
+Coffee Break Room.
+~
+door~
+2 29005 29076
+D2
+Machine Room.
+~
+~
+0 -1 29073
+D3
+Machine Room.
+~
+~
+0 -1 29074
+S
+#29076
+Coffee Break Room~
+     This is a break room for Korzath's workers.  They sit back drinking
+coffee and eating doughnuts while on break.  The faint smell of smoke
+drifts through the room.
+~
+290 0 11
+D0
+Coffee Break Room.
+~
+~
+0 -1 29077
+D1
+Coffee Break Room.
+~
+~
+0 -1 29079
+D2
+Machine Room.
+~
+door~
+2 29005 29075
+D3
+Engineering Department.
+~
+~
+2 29005 29083
+S
+#29077
+Coffee Break Room~
+     More workers sit at the tables taking their breaks.  The workers
+supervisor ensures each worker takes the proper amount of break time.
+No more.  No less.
+~
+290 0 11
+D1
+Coffee Break Room.
+~
+~
+0 -1 29078
+D2
+Coffee Break Room.
+~
+~
+0 -1 29076
+S
+#29078
+Coffee Break Room~
+     In this corner of the break room is a large bulletin where the
+supervisors place important information that the workers need to know.
+You can take a look at the bulletin board.
+~
+290 0 11
+D2
+Coffee Break Room.
+~
+~
+0 -1 29079
+D3
+Coffee Break Room.
+~
+~
+0 -1 29077
+E
+notice~
+You look at the tacked up notice:
+
+                           * * * N O T I C E * * *
+
+	  Master Korzath has special guests arriving within the next
+       few days and they will be taking a careful look at our facilities
+       including Project: Starlight.  You are to be on your best behavior
+       and our production efficiency must be higher than ever before.
+	  Any employees who do not cooperate while the guests are here
+       will be stricting punished, in most cases that punishment will
+       be a painful death or worse, you might be chosen to be used in
+       the Project Starlight laboratories.  Don't screw up!
+
+						-Engineering Department
+~
+S
+#29079 Coffee Break Room~
+     This part of the break room is the 'Smoking' area.  Yes, even in
+Korzath's fortress there are smoking regulations.
+~
+290 0 11
+D0
+Coffee Break Room.
+~
+~
+0 -1 29078
+D3
+Coffee Break Room.
+~
+~
+0 -1 29076
+S
+#29080
+Hallway~
+     This hallway stretches north into the mountain.  A small plaque
+designates the area ahead of you as the Engineering Department.
+~
+290 0 11
+D0
+Engineering Department.
+~
+~
+0 -1 29082
+D2
+T-Junction.
+~
+~
+0 -1 29071
+S
+#29081
+Engineering Department~
+     Engineers are hard at work devising new ways to make the equipment
+work more efficiently.
+~
+290 0 11
+D0
+Engineering Department.
+~
+~
+0 -1 29084
+D1
+Engineering Department.
+~
+~
+0 -1 29082
+S
+#29082
+Engineering Department~
+     This is the Engineering Department where engineers work hard to solve
+the problems of machinery breakdown and to figure out new ways to make the
+experimental machinery work mor efficiently.  The engineers look like they
+are the only people who really understand how this technology works.
+Without them, production would most likely be at a standstill.
+~
+290 0 11
+D0
+Engineering Department.
+~
+~
+0 -1 29085
+D1
+Engineering Department.
+~
+~
+0 -1 29083
+D2
+Hallway.
+~
+~
+0 -1 29080
+D3
+Engineering Department.
+~
+~
+0 -1 29081
+S
+#29083
+Engineering Department~
+     Engineers are hard at work devising new ways to make the equipment
+work more efficiently.  To the east is a doorway to the break room.
+~
+290 0 11
+D0
+Engineering Department.
+~
+~
+0 -1 29086
+D1
+Coffee Break Room.
+~
+door~
+2 29005 29076
+D3
+Engineering Department.
+~
+~
+0 -1 29082
+S
+#29084
+Engineering Department~
+     Engineers are hard at work devising new ways to make the equipment
+work more efficiently.  Papers lie all over the engineers desks here.
+One of the papers looks like a memo.  You might want to read it.
+~
+290 0 11
+D1
+Engineering Department.
+~
+~
+0 -1 29085
+D2
+Engineering Department.
+~
+~
+0 -1 29081
+S
+#29085
+Engineering Department~
+     It is suprising that these engineers would know how to develop the
+machinery technology in the first place.  They may know how to prepare
+it but you seriously doubt they could have devised such advanced principles
+on their own considering only a mere quarter of the technology they have
+here has ever been created anywhere else in the world.  To the north is a
+hallway leading deeper into the fortress.  Maybe you will find some more
+answers to your many questions there.
+~
+290 0 11
+D0
+Hallway.
+~
+~
+0 -1 29089
+D1
+Engineering Department.
+~
+~
+0 -1 29086
+D2
+Engineering Department.
+~
+~
+0 -1 29082
+D3
+Engineering Department.
+~
+~
+0 -1 29084
+S
+#29086
+Engineering Department~
+     Engineers are hard at work devising new ways to make the equipment
+work more efficiently.
+~
+290 0 11
+D2
+Engineering Department.
+~
+~
+0 -1 29083
+D3
+Engineering Department.
+~
+~
+0 -1 29085
+S
+#29087
+Korzath's Trophy Room~
+     This is Korzath's trophy room.  The walls are covered in the heads of
+creatures Korzath must have hunted in his day.  Upon further examination
+you notice that some of the heads here are from creatures you have never
+seen before.  Korzath must be well traveled to have found such beasts.
+~
+290 0 11
+D1
+Korzath's Bedroom~
+trophy~
+4 -1 29058
+S
+#29088
+Secret Refining Facility~
+     This is a secret refining facility where metalurgists conduct
+experimental procedures on the refining of new metals.  Their results
+lie on the table here.
+~
+290 0 11
+D9
+Metalurgy Plant~
+mold~
+4 -1 29092
+E
+results~
+You glance at the results:
+
+Metal
+-----
+Titanium
+
+Discovered
+----------
+Discovered as a direct result of Project Starlight.
+
+Uses
+----
+Main use of the titanium alloy is for use in the making of arm plates,
+bracers, and belts.  Other uses are for weapons although we have discovered
+that when used as the main metal compound of a weapon it is difficult to
+wield thus it is more difficult to hit and opponent but the damage per hit
+has been increased by using titanium.
+
+Additional Data
+---------------
+The titanium alloy tends to be extremly lightweigh when compared to platinum.
+~
+S
+#29089
+Hallway~
+     This hallway is dimly lit by the overhanging lights.  They flicker
+slightly as you continue along the hall.  The smells of sweat and the feel
+of extreme heat come from from the north.
+~
+290 0 11
+D0
+Intersection.
+~
+~
+0 -1 29090
+D2
+Engineering Department.
+~
+~
+0 -1 29085
+S
+#29090
+Intersection~
+     You stand in a 4 way intersection.  To the north looks like a checkpoint
+of sorts.  To the west is a closed passage.  To the east is a closed door and
+sounds of metal being pounded against anvils can be heard coming from that
+direction.  A sign on the door says:  METALWORKS.
+~
+290 0 11
+D0
+Checkpoint.
+~
+~
+0 -1 29103
+D1
+Metalworks.
+~
+door~
+1 -1 29093
+D2
+Hallway.
+~
+~
+0 -1 29089
+D3
+Metalurgy Plant.
+~
+~
+1 -1 29099
+S
+#29091
+Metalworks~
+     Anvils are grounded into the floor here.  Blacksmiths stand over the
+anvils pounding away at their work.  Each blacksmith is working on making
+something different.  Some are using the refined sheets the machinery
+workers sent in to make armor and weapons while some of the other blacksmiths
+are shaping the spare components that will be put into the machinery used in
+the fortress.
+~
+290 N 11
+D1
+Metalworks.
+~
+~
+0 -1 29092
+D2
+Metalworks.
+~
+~
+0 -1 29093
+S
+#29092
+Metalworks~
+     Anvils are grounded into the floor here.  Blacksmiths stand over the
+anvils pounding away at their work.  Each blacksmith is working on making
+something different.  Some are using the refined sheets the machinery
+workers sent in to make armor and weapons while some of the other blacksmiths
+are shaping the spare components that will be put into the machinery used in
+the fortress.
+~
+290 N 11
+D2
+Metalworks.
+~
+~
+0 -1 29094
+D3
+Metalworks.
+~
+~
+0 -1 29091
+D6
+~
+mold~
+4 -1 29088
+S
+#29093
+Metalworks~
+     This is the Metalworks facility of the fortress.  Blacksmiths stand
+everywhere working on different projects they have been assigned.  The
+heat of this room is intense due to the many forges near each anvil.
+~
+290 N 11
+D0
+Metalworks.
+~
+~
+0 -1 29091
+D1
+Metalworks.
+~
+~
+0 -1 29094
+D2
+Metalworks.
+~
+~
+0 -1 29095
+D3
+Intersection.
+~
+door~
+1 -1 29090
+S
+#29094
+Metalworks~
+     Anvils are grounded into the floor here.  Blacksmiths stand over the
+anvils pounding away at their work.  Each blacksmith is working on making
+something different.  Some are using the refined sheets the machinery
+workers sent in to make armor and weapons while some of the other blacksmiths
+are shaping the spare components that will be put into the machinery used in
+the fortress.
+~
+290 N 11
+D0
+Metalworks.
+~
+~
+0 -1 29092
+D2
+Metalworks.
+~
+~
+0 -1 29096
+D3
+Metalworks.
+~
+~
+0 -1 29093
+S
+#29095
+Metalworks~
+     Anvils are grounded into the floor here.  Blacksmiths stand over the
+anvils pounding away at their work.  Each blacksmith is working on making
+something different.  Some are using the refined sheets the machinery
+workers sent in to make armor and weapons while some of the other blacksmiths
+are shaping the spare components that will be put into the machinery used in
+the fortress.
+~
+290 N 11
+D0
+Metalworks.
+~
+~
+0 -1 29093
+D1
+Metalworks.
+~
+~
+0 -1 29096
+S
+#29096
+Metalworks~
+     This corner of the metalworks facility seems strange.  There is an anvil
+here but no blacksmiths are using this particular one.  Bins full of finished
+products are stored here as well.  Each is covered with a tight tarpaulin
+so it is impossible to steal it's contents.
+~
+290 N 11
+D0
+Metalworks.
+~
+~
+0 -1 29094
+D3
+Metalworks.
+~
+~
+0 -1 29095
+S
+#29097
+Metalurgy Plant~
+     Metalurgists are busy pouring large cauldrons of molten liquid into
+molds bolted into the ground.  Most of them are to make whole sheets of
+that particular metal while some of the molds are shaped to make machine
+components.
+~
+290 0 11
+D2
+Metalurgy Plant.
+~
+~
+0 -1 29099
+D3
+Metalurgy Plant.
+~
+~
+0 -1 29098
+S
+#29098
+Metalurgy Plant~
+     Metalurgists are busy pouring large cauldrons of molten liquid into
+molds bolted into the ground.  Most of them are to make whole sheets of
+that particular metal while some of the molds are shaped to make machine
+components.  A small mold that is different than all the others in the 
+metalurgy plant is bolted into the ground here.  The design of this mold
+resembles the Saint of travelling.  If only you could remember that Saints
+name.
+~
+290 0 11
+D1
+Metalurgy Plant.
+~
+~
+0 -1 29097
+D2
+Metalurgy Plant.
+~
+~
+0 -1 29100
+S
+#29099
+Metalurgy Plant~
+     This is the metalurgy plant where all of the metals used in the
+manufacturing of armor, weapons, and machine components are devised.
+Metalurgists scurry to each of the boiling cauldrons and pour its
+contents into various molds.
+~
+290 0 11
+D0
+Metalurgy Plant.
+~
+~
+0 -1 29097
+D1
+Intersection.
+~
+door~
+1 -1 29090
+D2
+Metalurgy Plant.
+~
+~
+0 -1 29101
+D3
+Metalurgy Plant.
+~
+~
+0 -1 29100
+S
+#29100
+Metalurgy Plant~
+     Metalurgists are busy pouring large cauldrons of molten liquid into
+molds bolted into the ground.  Most of them are to make whole sheets of
+that particular metal while some of the molds are shaped to make machine
+components.
+~
+291 0 11
+D0
+Metalurgy Plant.
+~
+~
+0 -1 29098
+D1
+Metalurgy Plant.
+~
+~
+0 -1 29099
+D2
+Metalurgy Plant.
+~
+~
+0 -1 29102
+S
+#29101
+Metalurgy Plant~
+     Metalurgists are busy pouring large cauldrons of molten liquid into
+molds bolted into the ground.  Most of them are to make whole sheets of
+that particular metal while some of the molds are shaped to make machine
+components.
+~
+291 0 11
+D0
+Metalurgy Plant.
+~
+~
+0 -1 29099
+D3
+Metalurgy Plant.
+~
+~
+0 -1 29102
+S
+#29102
+Metalurgy Plant~
+     Metalurgists are busy pouring large cauldrons of molten liquid into
+molds bolted into the ground.  Most of them are to make whole sheets of
+that particular metal while some of the molds are shaped to make machine
+components.
+~
+291 0 11
+D0
+Metalurgy Plant.
+~
+~
+0 -1 29100
+D1
+Metalurgy Plant.
+~
+~
+0 -1 29101
+S
+#29103
+Checkpoint~
+     Korzath's secret guard protect this checkpoint.  Not many secrets have
+been kept from you thus far but the buck stops here as far as Korzath is
+concerned.  A plaque is mounted on the door behind the guards for all to see.
+     "Absolutely NO unathorized personnel allowed past this point by order
+of Korzath himself," the guard reports.
+     "Check the guest list," you reply.
+     The other guard snickers, "If you be a guest than me be a drunk pirate."
+~
+291 0 11
+D0
+Entrance to Project Starlight.
+~
+door~
+3 29031 29104
+D2
+Intersection.
+~
+~
+0 -1 29090
+S
+#29104
+Entrance to Project Starlight~
+     Well, now you've done it.  You've broken past the Starlight guards and
+now stand in the entrance to Project Starlight itself.  More guards rush
+from the east and west to stop you.  Beyond the guards are three hallways.
+Each hallway is emitting a brilliant and beautiful white light.  What could
+possibly be in there?
+~
+291 0 11
+D0
+Project Starlight.
+~
+door~
+1 -1 29107
+D1
+Guard Post.
+~
+door~
+1 -1 29105
+D2
+Checkpoint.
+~
+door~
+0 -1 29103
+D3
+Guard Post.
+~
+~
+1 -1 29106
+D6
+Project Starlight.
+~
+~
+1 -1 29108
+D7
+Project Starlight.
+~
+~
+1 -1 29109
+S
+#29105
+Guard Post~
+     This is the guard post for the Starlight guards.  An alarm button
+has been activated on the wall.
+~
+291 0 11
+D3
+Entrance to Project Starlight.
+~
+~
+1 -1 29104
+S
+#29106
+Guard Post~
+     This is the guard post for the Starlight guards.  An alarm button
+has been activated on the wall.  A huge folder has been discarded in the
+in the corner and it is labeled: PROJECT STARLIGHT RESULTS.  You should
+probably take a look at the folder.
+~
+291 0 11
+D1
+Entrance to Project Starlight.
+~
+~
+1 -1 29104
+E
+2page~
+You flip to the next page:
+
+Project Uses:
+=============
+
+  By being able to travel between dimensions we will be able to discover
+new technologies to help us with the Cause.  Our number one hope is that
+we will discover new weapons technologies as well as new types of metals
+for use in the armor equipment we manufacture.
+  We expect to encounter hostile entities in these other dimensions,
+entities that will either be impossible to control or will abide us in
+our quest for knowledge.  Master Korzath has decided that each time a new
+portal is created that we shall send our secert guards through to scout
+the new dimension.  The secret guards will work to capture any new beings
+they fall upon.  Master Korzath hopes to build a new army for the cause,
+an army of creatures from other worlds!  The secret guards will escort
+all captured creatures to the Battleground Arena in the heart of the
+fortress where they will test their abilities against other captured
+creatures.  The strong that survive will be placed under a permanent
+charm spell and then trained to serve in the Army of the Cause.
+                                                Continued on 3page
+~
+E
+3page~
+You turn to the third page:
+
+Project Dangers:
+================
+
+  When opening portals to other dimensions there is a chance that the
+beings on the other side of the portal will too powerful for us to
+capture.  In the event that they are impossible to capture and charm
+the portal is to be closed IMMEDIATELY.  We cannot risk the chance of
+a creature coming through the portal and damaging our fortress.  This
+would spell disaster for our Cause.
+  If we are successful in opening a portal to another dimension we fear
+we may damage the time continuum in the dimension we open the portal to.
+Anyone travelling through a Project Starlight portal will have to be
+careful not to touch the swirling black vorticies that represent the edge
+of the continuum.
+~
+S
+#29107
+Project Starlight~
+     Maybe this wasn't such a good idea.  This room contains nothing except
+for many symbols drawn on the floor and walls but, most importantly it
+contains five mages who are each kneeling on one of the five symbols on
+the floor.  They all turn in unison and stand as they are startled to see
+intruders in their domain.  The blasting white light you saw before must
+be coming from the room to the north of them.
+~
+291 0 11
+D0
+Project Starlight.
+~
+~
+0 -1 29110
+D2
+Entrance to Project Starlight.
+~
+~
+1 -1 29104
+S
+#29108
+Project Starlight~
+     Maybe this wasn't such a good idea.  This room contains nothing except
+for many symbols drawn on the floor and walls but, most importantly it
+contains five mages who are each kneeling on one of the five symbols on
+the floor.  They all turn in unison and stand as they are startled to see
+intruders in their domain.  The blasting white light you saw before must
+be coming from the room to the north of them.     
+~
+291 0 11
+D0
+Project Starlight.
+~
+~
+0 -1 29111
+D9
+Entrance to Project Starlight.
+~
+~
+1 -1 29104
+S
+#29109
+Project Starlight~
+     Maybe this wasn't such a good idea.  This room contains nothing except
+for many symbols drawn on the floor and walls but, most importantly it
+contains five mages who are each kneeling on one of the five symbols on
+the floor.  They all turn in unison and stand as they are startled to see
+intruders in their domain.  The blasting white light you saw before must
+be coming from the room to the north of them.
+~
+291 0 11
+D0
+Project Starlight.
+~
+~
+0 -1 29112
+D8
+Entrance to Project Starlight.
+~
+~
+1 -1 29104
+S
+#29110
+Project Starlight~
+     The thing that produces the brilliant white light is a massive ceiling
+high portal.  The end of the hallway is made up of glittering black rock
+and this portals seems to be a part of the wall itself.
+~
+291 0 11
+D2
+Project Starlight.
+~
+~
+0 -1 29107
+S
+#29111
+Project Starlight~
+     The thing that produces the brilliant white light is a massive ceiling
+high portal.  The end of the hallway is made up of glittering black rock
+and this portals seems to be a part of the wall itself.
+~
+291 0 11
+D2
+Project Starlight.
+~
+~
+0 -1 29108
+S
+#29112
+Project Starlight~
+     The thing that produces the brilliant white light is a massive ceiling
+high portal.  The end of the hallway is made up of glittering black rock
+and this portals seems to be a part of the wall itself.
+~
+291 0 11
+D2
+Project Starlight.
+~
+~
+0 -1 29109
+S
+#29113
+Ofcol~
+     As you recover from traveling through the portal you take a moment to
+look at your surroundings.  You recognize this place right off the bat.
+
+It's Ofcol!
+
+    Or maybe not.  Something doesn't seem right about this Ofcol.  Instead
+of it being the secure city you are used to it is a city in dire straights.
+The road is ravaged with garbage and stained with blood.  Massive battles
+must have taken place but by who?  Where in Sembia has this portal taken
+you?  Toto, I don't think we're in Sembia anymore.
+~
+291 0 1
+D0
+Too dark to tell.
+~
+~
+0 -1 29117
+D1
+Too dark to tell.
+~
+~
+0 -1 29114
+D2
+Too dark to tell.
+~
+~
+0 -1 29115
+D3
+Too dark to tell.
+~
+~
+0 -1 29116
+S
+#29114
+Ofcol~
+     Swirling black vortices are all around you.  Traveling to other worlds
+like this can be hazardous to your health.  The only dircetion you can go
+is the way you came in.
+~
+291 0 1
+D3
+Too dark to tell.
+~
+~
+0 -1 29113
+S
+#29115
+Ofcol~
+     Swirling black vortices are all around you.  Traveling to other worlds
+like this can be hazardous to your health.  The only dircetion you can go
+is the way you came in.
+~
+291 0 1
+D0
+Too dark to tell.
+~
+~
+0 -1 29113
+S
+#29116
+Ofcol~
+     Swirling black vortices are all around you.  Traveling to other worlds
+like this can be hazardous to your health.  The only dircetion you can go
+is the way you came in.
+~
+291 0 1
+D1
+Too dark to tell.
+~
+~
+0 -1 29113
+S
+#29117
+Ofcol~
+     Swirling black vortices are all around you.  Traveling to other worlds
+like this can be hazardous to your health.  The only dircetion you can go
+is the way you came in.
+~
+291 0 1
+D2
+Too dark to tell.
+~
+~
+0 -1 29113
+S
+#29118
+Grassy Plain~
+     You stand on a grassy plain.  A cool breeze blows making the long
+blades of grass on the ground weave back and forth.  In the distance
+you see a glinting metal machine approaching.  The black vortices that
+must represent the rip in time and space are all around you.  You think
+you can make your way northeast or northwest.
+~
+291 0 2
+D6
+Too dark to tell.
+~
+~
+0 -1 29119
+D7
+Too dark to tell.
+~
+~
+0 -1 29121
+S
+#29119
+Grassy Field~
+     You stand on a grassy plain.  A cool breeze blows making the long
+blades of grass on the ground weave back and forth.  In the distance
+you see a glinting metal machine approaching.  The black vortices that
+must represent the rip in time and space are all around you.  You think
+you can make your way northwest or southwest.
+~
+291 0 2
+D7
+Too dark to tell.
+~
+~
+0 -1 29120
+D9
+Too dark to tell.
+~
+~
+0 -1 29118
+S
+#29120
+Grassy Knoll~
+     A grassy knoll?  You get the chilling feeling that something really
+terrible happened here once.  As you look around at the swirling darkness
+around you strange thoughts enter your mind.  Something about a man named
+Kennerly who was killed by somebody named Ofcold and the single bullie
+theory?  You stop daydreaming to fight the oncoming mech.
+~
+291 0 2
+D2
+Too dark to tell~
+rosebud~
+4 -1 29122
+D8
+Too dark to tell.
+~
+~
+0 -1 29119
+D9
+Too dark to tell.
+~
+~
+0 -1 29121
+S
+#29121
+Grassy Hill~
+     You stand on a grassy plain.  A cool breeze blows making the long
+blades of grass on the ground weave back and forth.  In the distance
+you see a glinting metal machine approaching.  The black vortices that
+must represent the rip in time and space are all around you.  You
+think you can manage to move northeast or southeast though.
+~
+291 0 2
+D6
+Too dark to tell.
+~
+~
+0 -1 29120
+D8
+Too dark to tell.
+~
+~
+0 -1 29118
+S
+#29122
+You are here --> X~
+     There is nothing in this place but stars and space yet somehow you
+can breathe without any negative effects such as immediate death.  It
+is as if this room is just a starmap of the mind where each star contains
+countless memories, ideas, and a knowledge so vast that not even a
+psionicist could absorb it all.
+~
+291 A 9
+D0
+If you see this send a note to Haze :)~
+rosebud~
+4 -1 29120
+S
+#29123
+Land of The Giants~
+     In front of you is a vast countryside and....well....one very super 
+large colosal gigantic footprint.  Yes, a massive footprint in the ground
+before you.  You could probably fit twenty-five people in that footprint
+and still have room to stretch your arms out.
+~
+291 0 4
+D6
+Too dark to tell.
+~
+~
+0 -1 29124
+S
+#29124
+Land of The Giants~
+     More footprints.  What kind of giants go around marking their
+coutryside in footprints?  You can travel northeast or back southwest
+without touching the surrounding darkness.
+~
+291 0 4
+D6
+Too dark to tell.
+~
+~
+0 -1 29125
+D9
+Too dark to tell.
+~
+~
+0 -1 29123
+S
+#29125
+Land of The Giants~
+     You have come to a dead end in this land of giants because of the
+massive black space that represents the rip in the continuum.  You can
+travel back southwest.
+~
+291 0 4
+D9
+Too dark to tell.
+~
+~
+0 -1 29124
+S
+#0
+
+#RESETS
+*
+M  0  29001  8   29006          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29008          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29011          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29012          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29013          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29016          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29017          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29001  8   29021          Soldier
+E  1  29006  -1  10               soldier arm plates
+E  1  29007  -1  7                soldier leg plates
+*
+M  0  29002  14  29013          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29014          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29014          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29015          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29015          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29016          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29017          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29018          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29018          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29019          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29019          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29020          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29021          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29002  14  29024          Orc Guard
+E  1  29008  -1  13               cord belt
+E  1  29009  -1  0                cube
+*
+M  0  29003  2   29022          Captain of the Guard
+E  1  29010  -1  8                captains boots
+E  1  29011  -1  16               sharp sword
+*
+M  0  29003  2   29023          Captain of the Guard
+E  1  29010  -1  8                captains boots
+E  1  29011  -1  16               sharp sword
+*
+M  0  29004  6   29025          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29004  6   29026          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29004  6   29027          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29004  6   29028          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29004  6   29029          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29004  6   29030          Servant
+E  1  29012  -1  11               serving tray
+E  1  29013  -1  9                serving gloves
+*
+M  0  29005  5   29039          Waiter
+E  1  29014  20  5                tuxedo vest
+E  1  29015  20  16               carving knife
+*
+M  0  29005  5   29041          Waiter
+E  1  29014  20  5                tuxedo vest
+E  1  29015  20  16               carving knife
+*
+M  0  29005  5   29041          Waiter
+E  1  29014  20  5                tuxedo vest
+E  1  29015  20  16               carving knife
+*
+M  0  29005  5   29042          Waiter
+E  1  29014  20  5                tuxedo vest
+E  1  29015  20  16               carving knife
+*
+M  0  29005  5   29043          Waiter
+E  1  29014  20  5                tuxedo vest
+E  1  29015  20  16               carving knife
+*
+M  0  29006  5   29034          Cook
+E  1  29016  -1  13               apron
+E  1  29017  -1  6                chefs hat
+*
+M  0  29006  5   29035          Cook
+E  1  29016  -1  13               apron
+E  1  29017  -1  6                chefs hat
+*
+M  0  29006  5   29036          Cook
+E  1  29016  -1  13               apron
+E  1  29017  -1  6                chefs hat
+*
+M  0  29006  5   29037          Cook
+E  1  29016  -1  13               apron
+E  1  29017  -1  6                chefs hat
+*
+M  0  29006  5   29038          Cook
+E  1  29016  -1  13               apron
+E  1  29017  -1  6                chefs hat
+*
+M  0  29007  3   29046          Post Guard
+E  1  29004  10  17               key
+E  1  29018  15  7                tight black leggings
+E  1  29019  15  16               sword
+*
+M  0  29007  3   29048          Post Guard
+E  1  29004  10  17               key
+E  1  29018  15  7                tight black leggings
+E  1  29019  15  16               sword
+*
+M  0  29007  3   29049          Post Guard
+E  1  29004  10  17               key
+E  1  29018  15  7                tight black leggings
+E  1  29019  15  16               sword
+*
+M  0  29008  3   29050          Royal Servant
+E  1  29020  20  3                royal cape
+E  1  29021  20  8                crafted shoes
+*
+M  0  29008  3   29051          Royal Servant
+E  1  29020  20  4                royal cape
+E  1  29021  20  8                crafted shoes
+*
+M  0  29008  3   29052          Royal Servant
+E  1  29020  20  3                royal cape
+E  1  29021  20  8                crafted shoes
+*
+M  0  29009  5   29056          Royal Guard
+E  1  29022  20  6                royal helmet
+E  1  29023  20  10               crested arm plates
+*
+M  0  29009  5   29056          Royal Guard
+E  1  29022  20  6                royal helmet
+E  1  29023  20  10               crested arm plates
+*
+M  0  29009  5   29057          Royal Guard
+E  1  29022  20  6                royal helmet
+E  1  29023  20  10               crested arm plates
+*
+M  0  29009  5   29057          Royal Guard
+E  1  29022  20  6               royal helmet
+E  1  29023  20  10              crested arm plates
+*
+M  0  29009  5   29058          Royal Guard
+E  1  29022  20  6                royal helmet
+E  1  29023  20  10               crested arm plates
+*
+M  0  29010  3   29054          Guest
+E  1  29024  10  1                rainbow ring
+E  1  29025  10  14               silver bracelet
+*
+M  0  29010  3   29054          Guest
+E  1  29024  10  2                rainbow ring
+E  1  29025  10  15               silver bracelet
+*
+M  0  29010  3   29055          Guest
+E  1  29024  10  1                rainbow ring
+E  1  29025  10  14               silver bracelet
+*
+M  0  29011  1   29059          Guardian
+E  1  29026  5   5                black platemail
+E  1  29027  5   17               scorched staff
+*
+M  0  29012  5   29061          Security Guard
+E  1  29028  15  5                security vest
+E  1  29029  15  0                security light
+*
+M  0  29012  5   29061          Security Guard
+E  1  29028  15  5                security vest
+E  1  29029  15  0                security light
+*
+M  0  29012  5   29062          Security Guard
+E  1  29028  15  5                security vest
+E  1  29029  15  0                security light
+*
+M  0  29012  5   29065          Security Guard
+E  1  29028  15  5                security vest
+E  1  29029  15  0                security light
+*
+M  0  29012  5   29066          Security Guard
+E  1  29028  15  5                security vest
+E  1  29029  15  0                security light
+*
+M  0  29013  3   29063          Head of Security
+E  1  29030  15  6                security helmet
+E  1  29031  10  17               key card
+*
+M  0  29013  3   29065          Head of Security
+E  1  29030  15  6                security helmet
+E  1  29031  10  17               key card
+*
+M  0  29013  3   29066          Head of Security
+E  1  29030  15  6                security helmet
+E  1  29031  10  17               key card
+*
+M  0  29014  1   29068          Schlepper
+E  1  29005  10  -1               metallic pack
+E  1  29032  3   12               walking stick
+E  1  29033  10  17               key
+*
+M  0  29015  5   29082          Engineer
+E  1  29034  15  8                engineer boots
+E  1  29035  15  9                engineer gloves
+*
+M  0  29015  5   29084          Engineer
+E  1  29034  15  8                engineer boots
+E  1  29035  15  9                engineer gloves
+*
+M  0  29015  5   29085          Engineer
+E  1  29034  15  8                engineer boots
+E  1  29035  15  9                engineer gloves
+*
+M  0  29015  5   29086          Engineer
+E  1  29034  15  8                engineer boots
+E  1  29035  15  9                engineer gloves
+*
+M  0  29015  5   29086          Engineer
+E  1  29034  15  8                engineer boots
+E  1  29035  15  9                engineer gloves
+*
+M  0  29016  6   29088          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29016  6   29099          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29016  5   29098          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29016  6   29100          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29016  6   29100          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29016  6   29102          Metalurgist
+E  1  29036  10  17               glowing potion
+E  1  29037  40  -1               green scroll
+*
+M  0  29017  5   29091          Blacksmith
+E  1  29038  17  16               hammer
+E  1  29039  17  10               titanium arm plates
+*
+M  0  29017  5   29092          Blacksmith
+E  1  29038  17  16               hammer
+E  1  29039  17  10               titanium arm plates
+*
+M  0  29017  5   29094          Blacksmith
+E  1  29038  17  16               hammer
+E  1  29039  17  10               titanium arm plates
+*
+M  0  29017  5   29095          Blacksmith
+E  1  29038  17  16               hammer
+E  1  29039  17  10               titanium arm plates
+*
+M  0  29017  5   29096          Blacksmith
+E  1  29038  17  16               hammer
+E  1  29039  17  10               titanium arm plates
+*
+M  0  29018  5   29073          Machinery Worker
+E  1  29040  15  6                safety goggles
+E  1  29041  15  15               titanium bracer
+*
+M  0  29018  5   29074          Machinery Worker
+E  1  29040  15  6                safety goggles
+E  1  29041  15  14               titanium bracer
+*
+M  0  29018  5   29075          Machinery Worker
+E  1  29040  15  6                safety goggles
+E  1  29041  15  15               titanium bracer
+*
+M  0  29018  5   29077          Machinery Worker
+E  1  29040  15  6                safety goggles
+E  1  29041  15  14               titanium bracer
+*
+M  0  29018  5   29079          Machinery Worker
+E  1  29040  15  6                safety goggles
+E  1  29041  15  15               titanium bracer
+*
+M  0  29019  3   29075          Supervisor
+E  1  29042  15  7                denim jeans
+E  1  29043  10  2                water ring
+*
+M  0  29019  3   29079          Supervisor
+E  1  29042  15  7                denim jeans
+E  1  29043  10  2                water ring
+*
+M  0  29019  3   29078          Supervisor
+E  1  29042  15  7                denim jeans
+E  1  29043  10  2                water ring
+*
+M  0  29020  8   29103          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29103          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29104          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29104          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29105          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29105          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29106          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29020  8   29106          Secret Guard
+E  1  29044  12  12               cloak of darkness
+E  1  29045  12  13               titanium belt
+*
+M  0  29021  3   29107          Mad Mage
+E  1  29046  7   16               mind mace
+E  1  29047  7   4                oiled cloak
+*
+M  0  29021  3   29108          Mad Mage
+E  1  29046  7   16               mind mace
+E  1  29047  7   3                oiled cloak
+*
+M  0  29021  3   29109          Mad Mage
+E  1  29046  7   16               mind mace
+E  1  29047  7   4                oiled cloak
+*
+M  0  29022  3   29107          Dwarf Mage
+E  1  29048  7   5                scorched plate
+E  1  29049  7   0                starlight
+E  1  29050  5   17               concoction list
+*
+M  0  29022  3   29108          Dwarf Mage
+E  1  29048  7   5                scorched plate
+E  1  29049  7   0                starlight
+E  1  29050  5   17               concoction list
+*
+M  0  29022  3   29109          Dwarf Mage
+E  1  29048  7   5                scorched plate
+E  1  29049  7   0                starlight
+E  1  29050  5   17               concoction list
+*
+M  0  29023  3   29107          Human Mage
+E  1  29051  7   12               robe of invisibility
+E  1  29052  5   17               herb list
+E  1  29053  7   3                infinity cloak
+*
+M  0  29023  3   29108          Human Mage
+E  1  29051  7   12               robe of invisibility
+E  1  29052  5   17               herb list
+E  1  29053  7   3                infinity cloak
+*
+M  0  29023  3   29109          Human Mage
+E  1  29051  7   12               robe of invisibility
+E  1  29052  5   17               herb list
+E  1  29053  7   3                infinity cloak
+*
+M  0  29024  3   29107          Elf Mage
+E  1  29054  7   17               staff of strength
+E  1  29055  7   12               shape shifting cloak
+*
+M  0  29024  3   29108          Elf Mage
+E  1  29054  7   17               staff of strength
+E  1  29055  7   12               shape shifting cloak
+*
+M  0  29024  3   29109          Elf Mage
+E  1  29054  7   17               staff of strength
+E  1  29055  7   12               shape shifting cloak
+*
+M  0  29025  3   29107          Hobbit Mage
+E  1  29056  7   6                Eversight
+E  1  29057  7   17               scribe list
+*
+M  0  29025  3   29108          Hobbit Mage
+E  1  29056  7   6                Eversight
+E  1  29057  7   17               scribe list
+*
+M  0  29025  3   29109          Hobbit Mage
+E  1  29056  7   6                Eversight
+E  1  29057  7   17               scribe list
+*
+M  0  29026  1   29113          Evil Diana
+E  1  29060  5   5                platinum plate
+E  1  29061  5   6                platinum helm
+E  1  29062  5   7                platinum leggings
+E  1  29063  5   8                platinum boots
+E  1  29064  5   9                platinum gauntlets
+E  1  29065  5   10               platinum sleeves
+E  1  29066  5   11               platinum spiked shield
+E  1  29067  5   13               platinum girth
+E  1  29068  5   16               unholy avenger
+*
+M  0  29027  4   29114          Troll Beast
+M  0  29027  4   29115          Troll Beast
+M  0  29027  4   29116          Troll Beast
+M  0  29027  4   29117          Troll Beast
+*
+M  0  29028  3   29119          Robot Mech
+E  1  29058  5   5                chunk of mecharmor
+*
+M  0  29028  3   29120          Robot Mech
+E  1  29058  5   5                chunk of mecharmor
+*
+M  0  29028  3   29121          Robot Mech
+E  1  29058  5   5                chunk of mecharmor
+*
+M  0  29029  3   29123          Giant
+E  1  29059  5   11               giant hand
+*
+M  0  29029  3   29124          Giant
+E  1  29059  5   11               giant hand
+*
+M  0  29029  3   29125          Giant
+E  1  29059  5   11               giant hand
+*
+M  0  29030  1   29005          Scared Soldier
+E  1  29001  5   17               simple key
+E  1  29085  -1  15               id bracelet
+*
+M  0  29031  1   29060          Security Chief
+E  1  29002  5   17               crystal key
+*
+M  0  29032  1   29004          Guardian Knight
+E  1  29003  5   17               diamond key
+*
+O  0  29069  1   29009          load water pump in secret storage
+O  0  29070  10  29009          load rations in secret storage
+*
+O  0  29071  5   29064          load titanium sword in secret storage #2
+O  0  29072  5   29064          load titanium mace in secret storage #2 
+O  0  29073  5   29064          load titanium dagger in secret storage #2
+*
+O  0  29074  1   29087          load small oak desk in trophy room
+P  1  29077  5   29074          put long blue wand in desk
+*
+O  0  29076  1   29105          load large metal desk in guard post
+P  0  29075  5   29076          put vial of thick black syrup in desk
+*
+O  0  29078  5   29097          load metal mold in metalurgy plant
+*
+O  0  29078  5   29099          load metal mold in metalurgy plant
+*
+O  0  29078  5   29100          load metal mold in metalurgy plant
+*
+O  0  29078  5   29101          load metal mold in metalurgy plant
+*
+O  0  29078  5   29102          load metal mold in metalurgy plant
+*
+O  0  29079  1   29098          load container metal mold in metalurgy plant
+P  1  29083  1   29079          put Saint Christopher medallion in mold
+*
+O  0  29080  5   29091          load anvil in metalworks
+*
+O  0  29080  5   29092          load anvil in metalworks
+*
+O  0  29080  5   29093          load anvil in metalworks
+*
+O  0  29080  5   29094          load anvil in metalworks
+*
+O  0  29080  5   29095          load anvil in metalworks
+*
+O  0  29081  1   29096          load container anvil in metalworks
+P  1  29084  1   29081          put weight belt in anvil
+*
+O  0  29082  6   29091          load forge in metalworks
+*
+O  0  29082  6   29092          load forge in metalworks
+*
+O  0  29082  6   29093          load forge in metalworks
+*
+O  0  29082  6   29094          load forge in metalworks
+*
+O  0  29082  6   29095          load forge in metalworks
+*
+O  0  29082  6   29096          load forge in metalworks
+*
+O  0  29086  1   29112          load portal to mirror world ofcol
+*
+O  0  29087  1   29110          load portal to grassy plain
+*
+O  0  29088  1   29111          load portal to land of giants
+*
+O  0  29089  1   29113		load portal that leads back to lab
+*
+O  0  29090  1   29118		load portal that leads back to lab
+*
+O  0  29091  1   29123		load portal that leads back to lab
+*
+O  0  29092  1   29122		load misty key in you are here room
+*
+O  0  29093  1   29002		load translation plaque
+*
+O  0  29094  1   29022		load letter (papers)
+*
+O  0  29095  1   29049		load guest list
+*
+O  0  29096  1   29084		load papers
+*
+O  0  29097  1   29078		load bulletin
+*
+O  0  29098  1   29106		load folder
+*
+O  0  29099  1   29103		load plaque
+*
+*-----Door Resets-----*
+*
+D  0  29004  0  3               #Center Tunnelway
+D  0  29005  3  2               #Before an Iron Door
+D  0  29006  1  2               #Corridor
+D  0  29008  1  4               #Corridor
+D  0  29009  3  4               #Secret Storage
+D  0  29013  0  1               #Barracks Hallway
+D  0  29013  2  1               #Barracks Hallway
+D  0  29014  2  1               #Barracks Quarters
+D  0  29015  0  1               #Barracks Quarters
+D  0  29017  0  1               #Barracks Hallway
+D  0  29017  2  1               #Barracks Hallway
+D  0  29018  2  1               #Barracks Quarters
+D  0  29019  0  1               #Barracks Quarters
+D  0  29021  2  1               #End of the Barracks
+D  0  29021  3  1               #End of the Barracks
+D  0  29025  1  1               #Servant's Apartments
+D  0  29025  3  1               #Servant's Apartments
+D  0  29026  3  1               #Servant's Room
+D  0  29028  1  1               #Servant's Room
+D  0  29050  3  1               #Hallway to Guest Quarters
+D  0  29051  1  1               #Servant's Quarters
+D  0  29053  3  2               #End of the Hall
+D  0  29054  1  2               #Guest Quarters
+D  0  29057  0  4               #Secret from Hallway to Korzath's Quarters
+D  0  29058  2  4               #Secret to Korzath's Quarters
+D  0  29058  3  4               #Secret to Korzath's Quarters
+D  0  29060  1  2               #Corridor
+D  0  29061  3  2               #Corridor
+D  0  29063  3  4               #Secret from Corridor to Storage
+D  0  29064  1  4               #Secret Storage
+D  0  29067  0  1               #Service Hallway
+D  0  29068  2  1               #Storage Room
+D  0  29075  0  2               #Machine Room
+D  0  29076  2  2               #Coffee Break Room
+D  0  29076  3  2               #Coffee Break Room
+D  0  29083  1  2               #Engineering Department
+D  0  29087  1  4               #Secret to Korzath's Trophy Room
+D  0  29088  9  4               #Secret Refining Facility
+D  0  29090  1  1               #Intersection
+D  0  29090  3  1               #Intersection
+D  0  29092  6  4               #Metalworks
+D  0  29093  3  1               #Metalworks
+D  0  29099  1  1               #Metalurgy Plant
+D  0  29103  0  3               #Checkpoint
+D  0  29120  2  4               #Grassy Knoll
+D  0  29122  0  4               #You Are Here
+*
+S
+
+#SPECIALS
+M  29011  spec_breath_any
+M  29020  spec_cast_mage
+M  29021  spec_cast_mage
+M  29022  spec_cast_mage
+M  29023  spec_cast_cleric
+M  29024  spec_cast_mage
+M  29025  spec_cast_mage
+S
+
+
+#$

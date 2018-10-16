@@ -1,0 +1,661 @@
+#PLAYER
+Name HataBax~
+Id   64607
+LogO 953486425
+Vers 3
+Desc BOO!
+~
+Prom ~
+Ignoring perrin~
+Race human~
+Sex  2
+Cla  4
+Gui  4
+Psionic  1
+Cast none
+Levl 43
+Plyd 510153
+ListRemorts ~
+NumRemorts 0
+Note 953340529
+Scro 22
+Room 9794
+HMV  477 477 627 633 498 502
+NewGold 126
+NewPlat 51
+NewCopp 192
+NewSilv 213
+Bank 1205
+Dcount 1
+Corpses	0
+PkRec 0
+PkGiv 1
+QuestPnts 392
+Exp  92494
+Act  67109068
+AfBy 10
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 2
+Save  -1
+Alig  1000
+Hit   16
+Dam   32
+ACs 0 15 12 107
+Wimp  90
+Attr 13 15 18 15 16
+AMod 10 1 0 6 0
+Pass HaUPj9WrssPT6~
+Ariv $n lets an arrow fly to the $t.~
+Dprt $n lets an arrow fly to the $t.~
+Titl  the Master Monk~
+Pnts 40
+TSex 1
+LLev 139
+HMVP 452 543 352
+Cond 0 17 47
+Alias k kick~
+Alias os open south~
+Alias on open north~
+Alias st stun~
+Alias ow open west~
+Alias oe open east~
+Alias od open down~
+Alias ou open up~
+Alias ps psionic~
+Alias cf confuse~
+Alias fs fists~
+Alias tr torment~
+Alias br brew~
+Alias sh shove~
+Alias rb remove bow~
+Alias wb wear bow~
+Alias ws wear shield~
+Sk 75 'clairvoyance'
+Sk 81 'confuse'
+Sk 77 'psionic armor'
+Sk 78 'torment'
+Sk 8 'axe'
+Sk 86 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 73 'archery'
+Sk 93 'dodge'
+Sk 76 'enhanced damage'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 94 'parry'
+Sk 76 'trip'
+Sk 98 'second attack'
+Sk 92 'blinding fists'
+Sk 95 'fists of fury'
+Sk 75 'herbal brewing'
+Sk 85 'iron skin'
+Sk 75 'levitate'
+Sk 78 'nerve damage'
+Sk 80 'steel fist'
+Sk 100 'stunning blow'
+Sk 85 'fast healing'
+Sk 96 'meditation'
+Sk 75 'shove'
+Sk 92 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 82
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  13
+Cost 1250
+Cond 80
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2334
+Nest 1
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 86
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5234
+Nest 1
+Wear -1
+Lev  22
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 16038
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7806
+Nest 1
+Wear -1
+Lev  24
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 24 -1 -4 19 0 0
+End
+
+#O
+Vnum 3752
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 90
+Repd 0
+Val  7 7 6 0 0
+Affect -1 18 -1 1 4 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 90
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 28022
+Nest 0
+Wear 6
+Lev  36
+Cost 0
+Cond 94
+Repd 0
+Val  10 10 10 0 0
+Affect -1 36 -1 -2 19 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  7
+Cost 1000
+Cond 89
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 90
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+Affect -1 28 -1 1 2 0 0
+Affect -1 28 -1 13 17 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 322
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 57
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 84 0 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 262
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 227
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#END

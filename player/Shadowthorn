@@ -1,0 +1,1089 @@
+#PLAYER
+Name Shadowthorn~
+Id   51819
+LogO 953239743
+Vers 3
+Desc will steal your panties!
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 50
+Plyd 841099
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  961 961 204 204 260 320
+NewGold 1
+NewPlat 997
+NewCopp 326
+NewSilv 7
+Bank 104000
+Dcount 0
+Corpses	2
+PkRec 3
+PkGiv 0
+QuestPnts 395
+Exp  100077
+Act  65736
+AfBy 56
+AfBy2 64
+Comm 28704
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 839613004
+ColFlag 0
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 9
+Save  2
+Alig  647
+Hit   26
+Dam   54
+ACs -61 -54 -56 48
+Wimp  400
+Attr 16 14 18 19 17
+AMod 10 0 5 4 -2
+Pass She74iokvRkGE~
+Ariv $n grooves in from $T~
+Dprt $n grooves of to $T~
+Titl  the MasTa'~
+Pnts 40
+TSex 1
+LLev 180
+HMVP 866 164 395
+Cond 0 10 26
+Alias lp look in pit~
+Alias lc look in corpse~
+Alias t trip~
+Alias 1 stealth~
+Alias b backstab~
+Alias cat tell shadowcat~
+Alias 2 say heal~
+Alias 4 track em~
+Alias 5 b jugger~
+Alias 3 backstab fel~
+Alias d down~
+Alias 6 track barago~
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 93 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 93 'backstab'
+Sk 95 'dodge'
+Sk 91 'dual wield'
+Sk 100 'parry'
+Sk 100 'trip'
+Sk 96 'second attack'
+Sk 65 'hide'
+Sk 68 'peek'
+Sk 44 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 93 'sleight of hand'
+Sk 75 'steal'
+Sk 97 'stealth'
+Sk 75 'track'
+Sk 79 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'detect hidden'  27   4   0   0         32          0
+AffD 'detect magic'   2   4   0   0         16          0
+AffD 'detect invis'  31   4   0   0          8          0
+AffD 'stealth'  31   1   0   0          0         64
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  55 0 0 0 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 3283 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 72
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10000
+Nest 0
+ExtF 2100289
+Wear -1
+Lev  50
+Cost 6000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 84 0 0 0
+End
+
+#O
+Vnum 66
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13215
+Nest 0
+Wear -1
+Lev  27
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13309
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  1 0 5 0 0
+End
+
+#O
+Vnum 700
+Nest 0
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 62
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 134
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 219
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 39
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 4444
+Nest 0
+Wear 11
+Lev  40
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10030
+Nest 0
+Wear -1
+Lev  22
+Cost 210
+Cond 100
+Repd 0
+Val  8 6 6 0 0
+End
+
+#O
+Vnum 20536
+Nest 0
+Wear -1
+Lev  10
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10047
+Enchanted
+Nest 0
+ExtF 0
+Wear -1
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5234
+Nest 1
+Wear -1
+Lev  23
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 8713
+Nest 1
+Wear -1
+Lev  9
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 29207
+Nest 1
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 86
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2805
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29208
+Nest 1
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10014
+Nest 1
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13225
+Nest 1
+ExtF 1048642
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 1
+Name bong glass pack huge~
+ShD  A Huge Glass Bong~
+Desc A Huge Glass Bong, bowl brimming with fruity buds, smoke wafting from its top, filling the room with a sweet smell, lies here. (FOR MEDICINAL USE ONLY IN CA!)~
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 2
+Wear -1
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 2
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 3
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29208
+Nest 1
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 -1 13 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 0
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 7203
+Nest 0
+Wear 3
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 74
+Nest 0
+Name onyx tea~
+ShD  a onyx container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 33 33 0
+Spell 1 'cure light'
+Spell 2 'cure critical'
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 7657
+Nest 0
+Wear -1
+Lev  35
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13238
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Affect -1 15 -1 4 21 0 0
+End
+
+#END

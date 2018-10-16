@@ -1,0 +1,128 @@
+#AREA {25300 25306} Trinidad's Saved Area~
+
+
+#ROOMS
+#25300
+The way through the bushes.~
+You pushed your way through the bushes and have discovered a small
+overgrown path that leads to the north.  Tiny little bugs keep flying
+all around you and you can feel some landing on the back
+of your neck.  Except for the bugs you can't really sense any
+other animal life.  Even the birds are gone.
+~
+0 0 0
+D0
+~
+~
+0 -1 15448
+D2
+~
+~
+0 -1 7192
+S
+#25301
+Pass the bushes.~
+You've made your way through the bushes to find yourself standing on an old
+brick road.  The road is old and worn.  Weeds are growing up out
+of several of the spaces in between the bricks and dirt covers it in several
+places.  The road leads through the valley to the north.
+~
+0 0 0
+D0
+~
+~
+0 -1 -6736
+D2
+~
+~
+0 -1 -23228
+S
+#25302
+On the old road.~
+Some of the bricks have started to come loose from the main part
+of the road and now make the going tough.  On parts of the road
+a tree or a bush has fallen over blocking the way past making you
+go around them through the shrubbery that has grown up on either
+side.  To the distance to the north you see several birds in the
+circling.
+~
+0 0 0
+D0
+~
+~
+0 -1 29044
+D2
+~
+~
+0 -1 15448
+S
+#25303
+On the old road.~
+The road has started to slope downward and enters a dark
+forest.  You lose sight of the circling birds to the north and
+the sun falls in patches through the deep green leaves on the trees.
+Here the road is a little better maintained than that to the south
+and the going is a lot easier.  Further to the north the road looks
+like it slopes more.
+~
+0 0 0
+D0
+~
+~
+0 -1 -30208
+D2
+~
+~
+0 -1 -6736
+S
+#25304
+The destruction of the road.~
+The bricks of the road have been ripped out of the ground leaving
+a road of dirt and chucks of soil leading to the south as far as
+you can see.  The bricks sit in huge piles on either side of the
+road.  You wonder what would have done this and should you stick
+around to find out.
+~
+0 0 0
+D0
+~
+~
+0 -1 -15992
+D2
+~
+~
+0 -1 29044
+S
+#25305
+Farther through the woods.~
+The road, although torn up and turning into ruins, was better than this.
+The ground is so broken up and destroyed from where the road was torn up
+that it is hard to keep your footing and not go tumbling down the slope
+to whatever is at the bottom of the hill.  Looking back you can't see the
+top of the hill and the way down is covered in foliage and shadow.
+~
+0 0 0
+D0
+~
+~
+0 -1 -2008
+D2
+~
+~
+0 -1 -30208
+S
+#25306
+An Empty Room~
+A newly created room.
+~
+0 0 0
+D2
+~
+~
+0 -1 -15992
+S
+#0
+
+
+
+#$

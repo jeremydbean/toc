@@ -1,0 +1,120 @@
+#PLAYER
+Name Traxanak~
+Id   59609
+LogO 952751191
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 16
+Plyd 83266
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3700
+HMV  186 186 109 205 82 190
+NewGold 5
+NewPlat 212
+NewCopp 42
+NewSilv 9
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  38590
+Act  272630012
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 7
+Trai 2
+Alig  -1000
+ACs 100 100 100 100
+Wimp  15
+Attr 14 15 15 12 17
+AMod 0 0 0 0 0
+Pass TrPVv/cWYL4l.~
+Titl  the Chaplain~
+Pnts 40
+TSex 1
+LLev 21
+HMVP 186 205 190
+Cond 0 0 0
+Sk 75 'aid'
+Sk 75 'armor'
+Sk 75 'bless'
+Sk 1 'calm'
+Sk 1 'cause light'
+Sk 76 'cure critical'
+Sk 1 'cure light'
+Sk 81 'cure serious'
+Sk 1 'demonfire'
+Sk 63 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dispel evil'
+Sk 1 'dispel good'
+Sk 78 'earthquake'
+Sk 1 'flamestrike'
+Sk 1 'frenzy'
+Sk 1 'heat metal'
+Sk 1 'heal'
+Sk 1 'holy word'
+Sk 75 'locate object'
+Sk 1 'mana convert'
+Sk 1 'mass healing'
+Sk 1 'raise dead'
+Sk 1 'divine intervention'
+Sk 77 'refresh'
+Sk 1 'remove curse'
+Sk 75 'spiritual hammer'
+Sk 10 'axe'
+Sk 80 'dagger'
+Sk 20 'flail'
+Sk 87 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 77 'bash'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'attack'
+Gr 'benedictions'
+Gr 'healing'
+End
+
+#END

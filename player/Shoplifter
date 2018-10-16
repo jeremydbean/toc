@@ -1,0 +1,865 @@
+#PLAYER
+Name Shoplifter~
+Id   23775
+LogO 949978772
+Vers 3
+Desc Out of the shadows steps none other than a Shoplifter 
+carrying a stolen Snickers bar and a Big Gulp.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 54
+Plyd 2483223
+ListRemorts ~
+NumRemorts 0
+Note 948164227
+Scro 22
+Room 4208
+HMV  797 1296 186 186 344 344
+NewGold 7114
+NewPlat 5
+NewCopp 36
+NewSilv 2
+Bank 153610
+Dcount 0
+Corpses	3
+PkRec 1
+PkGiv 0
+QuestPnts 69
+Exp  162011
+Act  67240136
+AfBy 128
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 848440933
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 2
+Color 3 2
+Color 4 3
+Color 5 1
+Color 6 2
+Color 7 3
+Color 8 3
+Color 9 3
+Color 10 7
+Color 11 14
+Color 12 2
+Color 13 7
+Color 14 14
+Color 15 14
+Color 16 3
+Pos  8
+Prac 7
+Save  -15
+Alig  1000
+Hit   20
+Dam   36
+ACs 10 14 11 65
+Wimp  300
+Attr 14 13 13 20 17
+AMod 11 1 0 2 0
+Pass ShGE26tvoa5Yk~
+Ariv You zip your pockets as $n arrives from the $t.~
+Dprt $n steals all your quest points as he leaves to the $t.~
+Titl  goes by Billyjoejimbob in real life.~
+Pnts 40
+TSex 1
+LLev 425
+HMVP 1176 196 419
+Cond 0 11 48
+Alias ste stealth~
+Alias [ where~
+Alias herbie emote blows on his Herbie whistle.~
+Alias quest aquest~
+Alias qp aquest points~
+Alias qt aquest time~
+Alias wh who 49~
+Alias ] track dresna~
+Alias 9 trip kazaam~
+Alias 7 murder bl~
+Alias 0 trip bl~
+Alias 1 wear bone~
+Alias 2 wear doom~
+Alias goodnight emote gives you a goodnight kiss.~
+Alias 3 wear doom~
+Alias qr aquest request~
+Alias qc aquest complete~
+Alias - music~
+Alias sh shout~
+Sk 73 'axe'
+Sk 100 'dagger'
+Sk 75 'flail'
+Sk 100 'mace'
+Sk 71 'polearm'
+Sk 5 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'backstab'
+Sk 100 'dodge'
+Sk 100 'dual wield'
+Sk 77 'fatality'
+Sk 100 'parry'
+Sk 100 'trip'
+Sk 100 'second attack'
+Sk 4 'hide'
+Sk 100 'peek'
+Sk 77 'pick lock'
+Sk 100 'shove'
+Sk 19 'sneak'
+Sk 71 'search'
+Sk 100 'sleight of hand'
+Sk 77 'steal'
+Sk 100 'stealth'
+Sk 71 'track'
+Sk 98 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'giant strength'  40  44   4   1          0          0
+AffD 'sanctuary'  48   4   0   0        128          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Name jimbob calli restring~
+ShD  Shoplifter's Sack of Loot~
+Desc A pack lies here bulging with things Shoplifter has acquired... some of it looks -very- familiar, better check your inventory.~
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29220
+Nest 1
+Wear -1
+Lev  52
+Cost 2000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 29220
+Nest 1
+Wear -1
+Lev  52
+Cost 2000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 74
+Nest 1
+Name ruby tea~
+ShD  a ruby container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  26 35 74 -1 0
+Spell 1 'cure light'
+Spell 2 'haste'
+End
+
+#O
+Vnum 29282
+Nest 1
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 74
+Nest 1
+Name ruby tea~
+ShD  a ruby container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  26 35 74 -1 0
+Spell 1 'cure light'
+Spell 2 'haste'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 7817
+Nest 1
+Wear -1
+Lev  3
+Cost 200
+Cond 100
+Repd 0
+Spell 1 'cure critical'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25028
+Nest 1
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'fly'
+End
+
+#O
+Vnum 4502
+Nest 1
+Wear -1
+Lev  40
+Cost 3250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 16030
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29245
+Nest 1
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29237
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Nest 0
+Wear 16
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  13 12 13 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 -1 0
+End
+
+#O
+Vnum 7651
+Nest 0
+Name jersey calli restring~
+ShD  (Autographed) a Larry Bird Jersey~
+Desc A green and white jersey with strange writing on it lies here.~
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 46
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 11
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29220
+Nest 0
+Wear 17
+Lev  52
+Cost 2000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 9917
+Nest 0
+Wear 7
+Lev  52
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9937
+Nest 0
+Wear 6
+Lev  1
+Cost 1
+Cond 33
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#END

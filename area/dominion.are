@@ -1,0 +1,1204 @@
+#AREA   { CAS } Haze    Castle Dominion~
+
+#HELPS
+-1 DOMINION~
+In a land where evil reigns and neutrality flourishes, Castle Dominion 
+stands as a bastion against those who would enslave the people with their
+petty laws. It shields them from the merciless blade of those that wish
+to use good folk in their quests for personal glory and power. In times
+of peace and in times of war you can depend on them to be at your side,
+with a smile on their face and good will in their heart. But woe to those
+who dare oppose them, for their retribution will be swift and deadly.
+
+Whether you be fighter or thief, cleric or mage, all are welcome into the
+ranks of Castle Dominion. But beware, admission is granted only to those
+who possess not only great skill, but a pure heart. Be not discouraged if
+you are turned away, for all goodly folk will be protected and considered 
+friends. And for those who are accepted, be proud in the fact you are one 
+of the Elite of Castle Dominion.
+
+Those seeking admission to Castle Dominion need only to talk to a current 
+member and post a note to us.
+~
+ 
+0 $~
+
+#MOBILES
+#17601
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17602
+keeper peace~
+a Peace Keeper~
+Peace Keepers protect the castle from harm.
+~
+The elite guardians of Castle Dominion.  Just looking at one inspires 
+fear and makes you want to turn and run until you can run no farther.  
+Though not physically huge, you can feel the power that come off of them.
+~
+dwarf~
+BGMRV BDOPTVZ A 0 S
+50 25 100d1+2350 26d55+330 7d5+10 31
+-10 -10 -10 -10
+CDEFHIKRUZ A AB C Y
+8 8 1 0
+0 0 M 0
+#17603
+laes~
+a healer~
+The healer stands here.
+~
+The healer is one of the more beautiful women you have met in your travels.  
+She puts her arm around you and comforts you....asking what is wrong and
+what she can do to help you.
+~
+human~
+BDGMV DHOT 0 S
+60 21 51d39+600 25d51+300 5d8+20 27
+-50 -50 -50 -50
+FK ABCD 0 0
+8 8 2 0
+0 0 M 0
+#17604
+deer~
+a deer~
+A deer is here looking around in wonder.
+~
+This deer feels at home in the peaceful environment of Castle Dominion.
+~
+unique~
+GHT J 0 S
+6 0 6d4+72 3d6+36 1d7+1 15
+4 4 4 6
+EFN A 0 0
+8 8 1 10
+0 0 M 0
+#17605
+bunny rabbit~
+a small bunny~
+A small bunny hops around here.
+~
+This bunny is plump and well fed by the plentiful amount of growth 
+surrounding the castle.
+~
+rabbit~
+GHT J 0 S
+2 0 2d1+24 1d2+12 1d5+0 22
+8 8 8 9
+EFN A 0 0
+8 8 2 10
+0 0 S 0
+#17606
+ixnaymoronus~
+a maid~
+A maid is on her hands and knees scrubbing the floor.
+~
+The maid works extra hard to ensure Castle Dominion remains spotless.
+~
+human~
+BGHIMV H 0 S
+2 0 2d1+24 1d2+12 1d5+0 22
+8 8 8 8
+F BCDEFGHIJKLMNOPQRS 0 0
+8 8 2 0
+0 0 M 0
+#17607
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17608
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17609
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17610
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17611
+rivens~
+Rivens~
+Riven says, "There is only death for you here"
+~
+Standing 8 feet tall, this massive warrior is like a stone statue, but a 
+statue that you are scared to approach.  A fire burns deep within his 
+eyes which tells you that he fears no one.  Especially not you.
+~
+dwarf~
+BCGMTV DGHOQTV 0 S
+55 27 200d1+4700 26d55+330 11d5+5 21
+-30 -30 -30 -30
+CEFHIKNRU AB 0 0
+8 8 1 0
+0 0 M 0
+#17612
+keeper peace~
+a Peace Keeper~
+Peace Keepers protect the castle from harm.
+~
+The elite guardians of Castle Dominion.  Just looking at one inspires 
+fear and makes you want to turn and run until you can run no farther.  
+Though not physically huge, you can feel the power that come off of them.
+~
+dwarf~
+BGMRV BDOPTVZ A 0 S
+50 25 100d1+2350 26d55+330 7d5+10 31
+-10 -10 -10 -10
+CDEFHIKRUZ A AB C Y
+8 8 1 0
+0 0 M 0
+#17613
+keeper peace~
+a Peace Keeper~
+Peace Keepers protect the castle from harm.
+~
+The elite guardians of Castle Dominion.  Just looking at one inspires 
+fear and makes you want to turn and run until you can run no farther.  
+Though not physically huge, you can feel the power that come off of them.
+~
+dwarf~
+BGMRV BDOPTVZ A 0 S
+50 25 100d1+2350 26d55+330 7d5+10 31
+-10 -10 -10 -10
+CDEFHIKRUZ A AB C Y
+8 8 1 0
+0 0 M 0
+#17614
+keeper peace~
+a Peace Keeper~
+Peace Keepers protect the castle from harm.
+~
+The elite guardians of Castle Dominion.  Just looking at one inspires 
+fear and makes you want to turn and run until you can run no farther.  
+Though not physically huge, you can feel the power that come off of them.
+~
+dwarf~
+BGMRV BDOPTVZ A 0 S
+50 25 100d1+2350 26d55+330 7d5+10 31
+-10 -10 -10 -10
+CDEFHIKRUZ A AB C Y
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#17601
+brittle key~
+a brittle key~
+A brittle key.~
+adamantite~
+13 AFHOV AO
+0 0 0 0 0
+51 1 100 P
+E
+key brittle~
+You should drop this key and sac it because it will slowly lower your stats
+if you possess it.
+~
+#17602
+pit circle donation~
+a donation pit~
+A circle type donation pit is here.~
+adamantite~
+15 OV 0
+10000 0 0 10000 0
+1 500 1 P
+E
+pit circle donation~
+This is the donation pit for Castle Dominion.
+~
+#17603
+portal galaxy~
+a portal to Hercules~
+A shimmering portal leads to the stars.  (Enter Galaxy)~
+adamantite~
+30 AO 0
+5 9332 0 0 0
+50 500 500 P
+#17604
+portal mahntor~
+a portal to the Ringkeeper~
+A black portal leads to the minotaurs.  (Enter Mahntor)~
+adamantite~
+30 AO 0
+5 2387 0 0 0
+50 500 500 P
+#17605
+portal tower~
+a portal to the High Tower~
+A white portal is open to a magical tower.  (Enter Tower)~
+adamantite~
+30 AO 0
+5 1312 0 0 0
+50 500 500 P
+#17606
+pool fountain water~
+a clear pool of water~
+~
+adamantite~
+25 0 0
+50 50 0 0 0
+50 500 1 P
+#17607
+relic dominion~
+Castle Dominion's Relic~
+Castle Dominion's Relic.~
+adamantite~
+32 BFOV A
+0 0 0 0 0
+1 20 100 P
+#17608
+sign~
+a sign~
+A large sign is here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+sign~
+We are a peaceful castle but we will retaliate against any attacks.  
+Beware....there are aggressive guards and deathtraps throughout the 
+castle which will kill both Heroes and newbies alike.
+~
+#17609
+throne king~
+a throne~
+a Throne fit for a King is here.~
+adamantite~
+31 0 0
+4 17619 0 1 0
+1 1 1 P
+#17610
+altar~
+an altar~
+~
+adamantite~
+15 OV 0
+950 31 17611 0 0
+1 1 1 P
+#17611
+sacred key~
+a sacred key~
+A sacred key.~
+adamantite~
+13 AFHOV AO
+0 0 0 0 0
+51 1 100 P
+E
+key sacred~
+You truly sacred key.
+~
+#17612
+bracelet obedience~
+a bracelet of obedience~
+A silver bracelet, inscribed with the words "My Will to Thee", lies here.~
+silver~
+9 HM AM
+0 0 0 0 0
+-1 1 0 P
+A
+14 -500
+#0
+
+#ROOMS
+#17601
+Tree of Life~
+  Before you stands a tree of such beauty that your eyes begin to water.  
+It has stood in this spot since the creation of Castle Dominion and will 
+continue to stand long after the rest of the world fades.  It lives only 
+to remind all those that see it, that the members of the castle seek only 
+one thing in life ... to be at peace with themselves.
+~
+176 ACNZ A 3
+D0
+~
+tarin~
+4 17601 5614
+D2
+~
+~
+0 -1 17632
+S
+#17602
+Grassy Knoll~
+   As you climb forth onto the slightly raised ground you notice the 
+softness of the ground and the cool grass beneath your feet.  A sudden 
+urge to sit back and enjoy the beauty of the world overcomes you.  No 
+worries of mobs....no worries of good or evil.  This is a place where you
+can enjoy the world and talk to those that you call friend.
+~
+176 ANZ A 2
+D0
+~
+gates~
+1 17601 17632
+D1
+~
+~
+0 -1 17603
+D3
+~
+~
+0 -1 17608
+S
+#17603
+Path of Hope~
+   Shade trees line either side of this quiet path.  Looking to your left 
+you see a small family of rabbits scamper off at your approach...then 
+turn to look at you curiously.  Somehow they seem to know that though
+they should fear you, they are safe within the walls of the castle.
+~
+176 ANZ A 2
+D1
+~
+~
+0 -1 17604
+D3
+~
+~
+0 -1 17602
+S
+#17604
+Chirping birds~
+   You calmly walk down the path without a fear in the world.  High in 
+the trees you hear the birds chirping happily about the life that they 
+have been given.
+~
+176 ANZ A 3
+D1
+~
+~
+0 -1 17605
+D3
+~
+~
+0 -1 17603
+S
+#17605
+Sunlit path~
+   Warm rays of sun reach down and touch you.  Their warmth invigorates 
+you ... making you feel as though you are but a child ... playing in the 
+woods ... enjoying your youth and freedom.
+~
+176 ANZ A 3
+D2
+~
+~
+0 -1 17621
+D3
+~
+~
+0 -1 17604
+S
+#17606
+Sculpted trees~
+   As you reach the corner you notice perfectly sculpted trees.  Each 
+that must've taken days of work.  You recognize a huge one shaped like 
+Tiamat....another crafted like a minotaur...even one that resembles a 
+unicorn that the mighty Tifarah once rode.
+~
+176 ANZ A 3
+D1
+~
+~
+0 -1 17607
+D2
+~
+~
+0 -1 17609
+S
+#17607
+Roses~
+   Their smell lets you know they exist before you can even see them. 
+As they come into your sight you are amazed by the vibrant colors of the 
+roses that surround you.  Red, white, yellow.....the colors are stunning.
+Then off to the side you notice a solitary rosebush...who's roses are the
+color of night.  Beneath it sits a plaque.
+~
+176 ANZ A 4
+D1
+~
+~
+0 -1 17608
+D3
+~
+~
+0 -1 17606
+E
+plaque~
+Though there is much beauty in the world that surrounds us ... we are
+constantly reminded by this rosebush that not all things in this world 
+are at peace.  There always comes a time in our lives when we must fight 
+... even when the odds are against us ... because it is better to
+fight and die ... than to live as a slave of our fears.
+~
+S
+#17608
+Calm Breeze~
+   The softly blowing air surrounds you, bringing soft fragrances from 
+the west.  The coolness brushes against your arm, helping you forget the 
+pain that exists within the world.
+~
+176 ANZ A 2
+D1
+~
+~
+0 -1 17602
+D3
+~
+~
+0 -1 17607
+S
+#17609
+Relaxing View~
+   As you casually stroll along the path you notice a quiet pool of water 
+that sits just off the trail to the north.  Sitting next to the shallow 
+pool you see the clearest, cleanest water that you have ever laid eyes 
+on.  The water shimmers like a mirror as it reflects the beautiful
+sky above you.
+~
+176 ANZ A 2
+D0
+~
+~
+0 -1 17606
+D2
+~
+~
+0 -1 17610
+S
+#17610
+West Garden Entrance~
+   Before you stands a huge arch that separates the garden from the rest 
+of the castle.  Though the comforts of the building are nice ... it is 
+always nice to know that the beauty of the garden is always near by to 
+provide a place for you to relax.
+~
+176 ANZ A 2
+D0
+~
+~
+0 -1 17612
+D1
+~
+~
+0 -1 17611
+D4
+~
+waygate~
+4 17601 17631
+S
+#17611
+Initiation Room~
+   You enter the room and feel a strange power that seems to emmenate 
+from the walls.  It is in this room that the mightiest heroes of the 
+realm have sworn an oath to defend the honor of this castle.  An oath
+that each one of them would die to defend.
+~
+176 ADNW 0
+D3
+~
+~
+0 -1 17630
+S
+#17612
+Shadowed Hall~
+   Though dimly lit, this hall is both warm and comforting. You feel as 
+though you could curl up along the wall and take a nice long nap...  
+relaxing in quiet solitude.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17617
+D2
+~
+~
+0 -1 17623
+D3
+~
+~
+0 -1 17610
+S
+#17613
+Divine path~
+   Statues of the gods themselves line the walls of this corridor...
+protecting those that enter the halls of this castle from both good and 
+evil...constantly reminding the members, that like the Imms ... they 
+serve neither good nor evil....only the path that benefits the world most.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17618
+D2
+~
+~
+0 -1 17624
+S
+#17614
+Hallway to the throne~
+   This corridor is lined with suits of armor along the walls, standing 
+silently to guard the leaders of the castle from any harm that outsiders 
+might try to inflict on them.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17619
+D1
+~
+~
+0 -1 17615
+D2
+~
+~
+0 -1 17625
+S
+#17615
+The Circle~
+   In the center of this room is drawn a huge circle.  Candles sit around 
+the outside of it producing a hazy layer that prevents you from readily 
+seeing what is on the inside.  As you look around ... you see a stunning 
+lady standing on the outside of the circle....she calmly walks up to you, 
+introduces herself, and asks if she can tend to your wounds....for a
+fee of course....
+~
+176 ADNZ A 0
+D1
+~
+~
+0 -1 17616
+D3
+~
+~
+0 -1 17614
+S
+#17616
+East Entrance to the Garden~
+   A great arch stands before you separating the castle from the fresh 
+air that is abundant in the garden.  The pleasures of the castle or the 
+relaxation of the garden...always a hard decision.
+~
+176 ANZ A 2
+D0
+~
+~
+0 -1 17621
+D3
+~
+~
+0 -1 17615
+S
+#17617
+Quiet Passage~
+   As you walk into this hallway you realize you could hear a stone 
+drop.  Looking at the walls you see great murals of dragons being killed 
+as they attack Dresden and you wonder if it is history, prophecy, or just 
+the dreams of a great artist.
+~
+176 ADNZ A 0
+D1
+~
+~
+0 -1 17618
+D2
+~
+~
+0 -1 17612
+S
+#17618
+DEATHTRAP~
+   You realize that you have only seconds to escape from this
+trap before you meet certain death!!!!!
+~
+176 ADNTUVZ A 0
+D1
+~
+~
+0 -1 17619
+D2
+~
+~
+0 -1 17613
+D3
+~
+~
+0 -1 17617
+S
+#17619
+Throne Room~
+   This is the central point of leadership for Castle Dominion.  Two huge 
+thrones sit on a raised dais in the northern part of the room.  Above the 
+thrones hangs a giant tapestry of a woman that could only be a goddess.  A 
+huge table sits in the southern part of the room...surrounded by richly 
+adorned...yet comfortable chairs.
+~
+176 ADNVZ A 0
+D0
+~
+thiscloses~
+4 -1 17636
+D1
+~
+~
+0 -1 17620
+D2
+~
+~
+0 -1 17614
+D3
+~
+~
+0 -1 17618
+E
+tapestry~
+Upon close inspection you realize that the tapestry is of
+the Goddess Tifarah!  Her beautiful hair and eyes attract your attention
+immediately....then a huge grin crosses your face as you look at the rest of
+the picture.  There is some writing at the bottom of the tapestry.
+~
+E
+writing~
+To Castle Dominion From Gravestone, What better decoration could a castle want
+~
+S
+#17620
+Portal Room~
+   Each mirror in this room seems to go to a different place in the 
+realm.  The north mirror goes to the Hercules in the Galaxy, the east  
+mirror goes to the ringkeeper in Mahn Tohr and the southern mirror goes
+to the entrance to the Tower of High Sorcery.
+~
+176 ADNZ A 0
+D3
+~
+~
+0 -1 17619
+S
+#17621
+Relaxing Walk~
+   You walk down a soft, brown, dirt path that follows the castle wall.  
+It is a beautiful day and nature praises the Immortals for its creation.
+~
+176 ANZ A 2
+D0
+~
+~
+0 -1 17605
+D2
+~
+~
+0 -1 17616
+S
+#17622
+Empty Room~
+   The room is totally barren now...but someday, when a truly outstanding 
+castle member distinguishes himself within the castle,  they will be 
+rewarded with the right of calling this room their own.
+~
+176 ADNZ A 0
+D1
+~
+~
+0 -1 17623
+S
+#17623
+Darkened Hallway~
+   Though the torches flare brightly along the walls, this hallway tends 
+to remain continuously dark.  It is a warm and comfortable place though
+...one that you could curl up in and sleep forever.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17612
+D1
+~
+~
+0 -1 17624
+D2
+~
+~
+0 -1 17627
+D3
+~
+~
+0 -1 17622
+S
+#17624
+Silent Hallway~
+   As you walk into this hallway you sense that something is wrong.  
+Everything looks ok...what could it be?  Then it dawns on you...
+there are no sounds to be heard.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17613
+D1
+~
+~
+0 -1 17625
+D2
+~
+~
+0 -1 17628
+D3
+~
+~
+0 -1 17623
+S
+#17625
+Lighted Hallway~
+   This passageway is well lit.  Expensive furniture adorns the walkway 
+and soft music can be heard coming from the far north.  You walk with a 
+little bounce in your step as you move forward down the hall.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17614
+D1
+~
+~
+0 -1 17626
+D2
+~
+~
+0 -1 17629
+D3
+~
+~
+0 -1 17624
+S
+#17626
+A Golden Bedroom~
+   Focusing on the details of the room, you see that all the walls are plated
+with gold. A large comfortable bed lies in the center of the room and you
+make the brilliant deduction that this is a bedroom. Svatch isn't a very
+clean person and seems to have left a couple priceless elven artifacts on
+the ground. Windows are non existent in this for all light needed comes from
+a small glowing ball in the center of the room. Imprinted on the plush green
+carpet is a large red S, what nice Christmas colors. On the floor is a book
+looking more then 500 years old. Examining the book closer you recognize it
+as Svatch's journal. A small wooden lute is dancing around the room playing
+a soft comforting melody.
+~
+176 ADNZ A 0
+D3
+~
+~
+0 -1 17625
+E
+journal book~
+Look Book, Journal - Opening the first page you realize that reading the
+journal will be a futile attempt. It is all written in ancient elvish.
+~
+S
+#17627
+Empty Room~
+   The room is totally barren now...but someday, when a truly outstanding 
+castle member distinguishes himself within the castle,  they will be 
+rewarded with the right of calling this room their own.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17623
+S
+#17628
+Inner Chamber~
+   As you walk into the room you can tell that it was designed for 
+protection of the castle.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17624
+D1
+~
+~
+0 -1 17629
+D2
+~
+~
+0 -1 17633
+S
+#17629
+Empty Room~
+   The room is totally barren now...but someday, when a truly outstanding 
+castle member distinguishes himself within the castle, they will be 
+rewarded with the right of calling this room their own.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17625
+D2
+~
+quintesa~
+4 17601 17634
+D3
+~
+~
+0 -1 17628
+S
+#17630
+Entrance~
+   You stand before the mighty Castle Dominion.  The castle walls stand 
+almost impregnable before you.  The members of this castle serve neither 
+good nor evil....only their own destinies....seeking only to gain peace 
+with themselves.
+~
+176 ADNZ A 1
+D0
+~
+gates~
+1 17601 17633
+D1
+~
+~
+0 -1 17611
+D2
+too dark to tell.
+~
+~
+0 -1 66
+S
+#17631
+Private Study of Life~
+   A secret room for the mighty Lifeforce to reflect privately on the 
+affairs of the castle.  Comfortable would best describe the room with its 
+soft leather furniture and the roar of the fireplace.  It is here that he 
+can go to relax when everything else in the realm goes wrong.  A haven 
+within a haven....a dream within his life.
+~
+176 ADNTUZ A 0
+D3
+~
+escape~
+1 17601 17032
+D5
+~
+waygate~
+4 17601 17610
+S
+#17632
+Back entrance to Castle Dominion~
+This is the second entrance to Castle Dominion...yet it is even more 
+dangerous than the first.  Do not enter unless you wish to die.
+~
+176 ADNZ A 0
+D0
+~
+~
+0 -1 17601
+D2
+~
+gates~
+1 17601 17602
+S
+#17633
+Entrance Hallway~
+The hallway opens up into many directions leading into the deeper heart
+of castle Dominion.  The gates to the south lead out of the castle.
+~
+176 ANZ A 0
+D0
+~
+~
+0 -1 17628
+D1
+~
+~
+0 -1 17634
+D2
+~
+gates~
+1 17601 17630
+D3
+~
+~
+0 -1 17634
+D4
+~
+~
+0 -1 17634
+D5
+~
+~
+0 -1 17634
+D6
+~
+~
+0 -1 17634
+D7
+~
+~
+0 -1 17634
+D8
+~
+~
+0 -1 17634
+D9
+~
+~
+0 -1 17634
+S
+#17634
+Healing Room~
+The door closes quickly behind you and you notice a few drops of water on
+the ground.  Before you have time to react the ceiling drops open and 
+hundreds of gallons of water come crashing down, sealing you inside this
+watery grave.
+~
+176 ACINXZ A 8
+D0
+~
+quintesa~
+3 17601 17629
+S
+#17635
+Relic Room~
+The Relic Room is dominated by a large stone altar place atop a platform.
+Three marble steps lead up to the brightly lit altar.  An opening in the
+ceiling allows for a powerful light to beam down on the altar that holds
+the treasure every castle wants: The relic of castle Dominion.
+~
+176 ADNZ A 0
+D3
+~
+door~
+4 17611 17636
+S
+#17636
+Relic Room~
+You step in the gleaming marble hallway and hear the echo of your footsteps
+as sounds reflect down the hall and back.  A huge hole in the ceiling allows
+for the blinding sun to pound down on you.  All of a sudden you notice a
+a dark shape block out the light source above you.  A huge relic Knight
+comes charging towards you!
+
+
+A Relic Knight fades into existence.
+You parry a Relic Knight's attack.
+A Relic Knight's wrath === OBLITERATES === you!
+A Relic Knight parries your attack.
+A Relic Knight's wrath ^^^ DESTROYS ^^^ you!
+You dodge a Relic Knight's attack.
+
+[ A Relic Knight: excellent <*> You: wounded ]
+
+You feel very confused.
+A deadly thief fades into existence.
+A deadly thief's backstab does UNSPEAKABLE things to you!
+A Relic Knight's wrath === OBLITERATES === you!
+A deadly thief's stab ^^^ DESTROYS ^^^ you!
+You dodge a deadly thief's attack.
+A Relic Knight sends you sprawling with a powerful bash!
+A Relic Knight's bash grazes you.
+
+[ A Relic Knight: excellent <*> You: awful ]
+
+You are stunned, but will probably recover.
+
+You have been KILLED!!!
+
+YOU SHIVER AND SHAKE AS YOU NOTICE IT'S A HALLUCINATION!!!
+
+You break out in a cold sweat and are more aware of your surroundings.
+~
+176 ADFNZ A 0
+17610 17 0
+D0
+~
+~
+0 -1 17634
+D1
+~
+door~
+4 17611 17635
+D2
+~
+~
+0 -1 17619
+S
+#17637
+Maid's Quarters~
+This is the room where the maid of the castle resides.  She was found
+trapped in the Battleground Arena by Lifeforce on one of his many campaigns
+and he brought her safely away from the place of certain death.  In return,
+she offered to live out the rest of her life serving Castle Dominion in any
+way possible.  Although it is hard to understand her (she claims to be from
+a unknown place called 'France') she is a hard working and easy on the eyes.
+~
+176 Z A 0
+D2
+~
+~
+0 -1 17618
+S
+#0
+
+#RESETS
+*
+M 0 17601 1  17602              gate guard  (Rivens)
+E 1 17612 16 14			  bracelet
+M 0 17607 1  17619              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17608 1  17630              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17609 4  17632              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17609 4  17632              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17609 4  17632              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17609 4  17632              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17610 1  17633              gate guard
+E 1 17612 16 14			  bracelet
+M 0 17611 2  17633              gate guard  (sancted)
+E 1 17612 16 14			  bracelet
+M 0 17611 2  17633              gate guard  (sancted)
+E 1 17612 16 14			  bracelet
+*
+M 0 17602 1  17610              aggie guard  (Peace Keepers)
+*
+M 0 17612 1  17618              aggie guard
+G 1 17611 1                     equips sacred key to altar that holds relic
+*
+M 0 17613 2  17632              aggie guard
+M 0 17613 2  17632              aggie guard
+M 0 17614 4  17633              aggie guard
+M 0 17614 4  17633              aggie guard
+M 0 17614 4  17633              aggie guard
+M 0 17614 4  17633              aggie guard
+M 0 17603 1  17615              healer (name: laes)
+M 0 17604 1  17605              deer
+M 0 17605 1  17603              bunny
+M 0 17606 1  17637              gatemob (name: fredomini)
+*
+*---Objects---*
+*
+O 0 17602 1 17615               loads pit
+O 0 17603 1 17620               loads portal to hercules in Galaxy
+O 0 17604 1 17620               loads portal to ringkeeper in Mahn-tor
+O 0 17605 1 17620               loads portal to entrance of high tower
+O 0 17606 1 17609               loads fountain pool
+*
+P 1 17607 1 17610               puts relic in altar
+*
+O 0 17608 1 17630               loads sign
+O 0 17609 1 17619               loads king's throne
+O 0 17610 1 17635               loads altar
+*
+*---Doors---*
+*
+D 0 17601 0 4                   gates from Tarin into castle (secret tarin)
+D 0 17632 2 1                   gates out of castle towards Tarin
+D 0 17610 4 4                   secret door to Life's study (keyword waygate)
+D 0 17619 0 4                   secret exit to hallway (pull throne to open)
+D 0 17630 0 1                   gates into castle from under Arachnos
+D 0 17629 2 4                   wizlocked door to DT (keyword imdrowning)
+D 0 17631 3 4                   gates out of castle to AG (keyword escape)
+D 0 17631 5 4                   secret door from Life's study (keyword waygate)
+D 0 17632 2 1                   gates into castle from AG
+D 0 17633 2 1                   gates out of castle to Dresden
+D 0 17634 0 3                   secret exit from DT (keyword imdrowing)
+D 0 17635 3 4                   secret exit from relic room (keyword door)
+D 0 17636 1 4                   secret exit to relic room (keyword door)
+*
+S
+
+#SPECIALS
+M 17601  spec_castle_guard
+M 17602  spec_castle_guard_agg
+M 17603  spec_cast_adept
+M 17607  spec_castle_guard
+M 17608  spec_castle_guard
+M 17609  spec_castle_guard
+M 17610  spec_castle_guard
+M 17611  spec_castle_guard
+M 17612  spec_castle_guard
+M 17613  spec_castle_guard_agg
+M 17614  spec_castle_guard_agg
+S
+
+
+#$

@@ -1,0 +1,366 @@
+#PLAYER
+Name Iceknight~
+Id   25665
+LogO 943322720
+Vers 3
+Ignoring ~
+Race human~
+Sex  1
+Cla  1
+Gui  3
+Psionic  2
+Cast none
+Levl 24
+Plyd 297345
+ListRemorts ~
+NumRemorts 0
+Note 907725717
+Scro 64
+Room 4207
+HMV  256 256 97 256 186 238
+Gold 585
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 30
+QuestNext 12
+Exp  48292
+Act  2097404
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 7
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -1
+Alig  -1000
+Hit   7
+Dam   17
+ACs 56 53 48 94
+Attr 16 17 19 13 13
+AMod 3 0 0 1 0
+Pass IcT.SdVaUFTZE~
+Dprt you feel a little warmer as $n goes to the $t~
+Titl  the ruler of the ice realm~
+Pnts 40
+TSex 1
+LLev 71
+HMVP 256 256 238
+Cond 0 0 29
+Sk 80 'armor'
+Sk 78 'bless'
+Sk 80 'cause light'
+Sk 77 'cure light'
+Sk 98 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 57 'flamestrike'
+Sk 1 'locate object'
+Sk 77 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 97 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 85 'kick'
+Sk 77 'second attack'
+Sk 78 'fast healing'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 62 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear 11
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Val  3 4 5 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  13
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 4627
+Enchanted
+Nest 0
+ExtF 323
+Wear 16
+Lev  23
+Cost 500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 7 19 0 0
+AffD 'enchant weapon' 51 -1 4 18 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29022
+Nest 1
+Wear -1
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3022
+Nest 1
+Wear -1
+Lev  10
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9521
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3738
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3738
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8717
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3165
+Nest 1
+Wear -1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3167
+Nest 1
+Wear -1
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 172 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2802
+Nest 0
+Wear -1
+Lev  10
+Cost 1331
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear -1
+Lev  7
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 4486
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#END

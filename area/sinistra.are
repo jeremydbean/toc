@@ -1,0 +1,392 @@
+#AREADATA
+Name        { ALL } Kyrus   Clan Sinistra~
+Builders    Sephiroth~
+VNUMs       15551 15599
+Security    3
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#15551
+sign rules sinistra~
+a sign is posted here.~
+A sign is posted here.~
+unknown~
+13 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+These rules are the rules of the Sinistra Clan.
+ 
+1) Obey unquestioningly your clan leaders and the Immortals.
+2) No cheating ever.
+3) No bitching or whining to immortals about anything ever. Any
+   suggestions/ideas/observations must be respectful and not spammed.
+   Dont throw tantrums.
+4) Play with honor: Dont be a sore loser, dont be a bad winner.
+   Dont throw tantrums.
+5) Be fair with people: If you say you will do something do it.
+   A man without his word doesnt have much.
+6) Castle business is for castle members only.  Anything concerning
+   the castle including but not limited to location, plans, layout,
+   secrets, squabbles etc. is not to be discussed with anyone outside
+   the castle.
+7) The clan comes first.  If the clan needs your help you must give it
+   without fear of being looted.
+ 
+Consequences for breaking the rules
+ 
+1) If you break rule number 6 you are automatically out and you will be
+   hunted and killed repeatedly until you delete.
+2) For everything else you might get a one warning or you might get  
+   booted straight away.  These are not flexible rules. They are not to
+   be bent or broken.  If you want to cheat or bitch to immortals do not
+   join this clan.
+~
+#15552
+tree~
+the hole.~
+A large hole in the side of the tree is here.~
+unknown~
+30 0 0
+0 15270 0 0 0
+0 0 0 P
+#15553
+ladder~
+a tall ladder~
+A tall ladder leads to above.~
+unknown~
+31 0 0
+6 15562 0 2 0
+ 0 0 0 P
+#15554
+ladder~
+a tall ladder~
+A tall ladder leads to above.~
+unknown~
+31 0 0
+7 15559 0 2 0
+ 0 0 0 P
+#0
+
+
+
+#ROOMS
+#15551
+Beneath the Keep~
+With a loud swoosh you have been sucked up the trunk of the tree
+and deposited on a small platform. The canopy is so tight in
+this area of the forest that you cannot see the ground through
+the darkness.  Many aspects of Arbor Keep are an illusion. Light
+creeps through a small hole in the ceiling and partially
+illuminates a steel supporting structure. It appears that the
+trees support the keep but in reality there are huge steel beams,
+which anchor deep within the earth, running down the center of
+the hollow trees.  The keep is entirely supported by steel and
+is thus immune to all manner of natural disaster.
+~
+0 ACDNX 3
+D4
+~
+hatch~
+4 0 15552
+S
+#15552
+Entrance to the Keep~
+A feeling of peace overcomes you as you climb into Arbor Keep.  The trees around you 
+sway gently with the wind but the room remains stationary.  You can hear the occasional 
+call of a bird and far off in the distance you can hear the sound of a waterfall.  It is 
+amazing that so much 'evil' irradiates from a place so beautiful.  The platform you are on 
+is connected by small rope and board bridges to other platforms in other trees.
+~
+0 ADNV 0
+D0
+~
+~
+0 0 15555
+D3
+~
+~
+0 0 15553
+D5
+~
+hatch~
+4 0 15551
+S
+#15553
+Room of Sparring~
+~
+0 ADNV 0
+D0
+~
+~
+0 0 15554
+D1
+~
+~
+0 0 15552
+S
+#15554
+Room of Sparring~
+~
+0 ADNV 0
+D1
+~
+~
+0 0 15555
+D2
+~
+~
+0 0 15553
+S
+#15555
+Room of Sparring~
+~
+0 ADNV 0
+D1
+~
+~
+0 0 15556
+D2
+~
+~
+0 0 15552
+D3
+~
+~
+0 0 15554
+S
+#15556
+Room 6~
+~
+0 ADN 0
+D1
+~
+~
+0 0 15557
+D3
+~
+~
+0 0 15555
+S
+#15557
+Room 7~
+~
+0 ADN 0
+D1
+~
+~
+0 0 15558
+D2
+~
+~
+0 0 15560
+D3
+~
+~
+0 0 15556
+S
+#15558
+Room 8~
+~
+0 ADN 0
+D2
+~
+~
+0 0 15559
+D3
+~
+~
+0 0 15557
+S
+#15559
+Room 9~
+~
+0 ADN 0
+D0
+~
+~
+0 0 15558
+D3
+~
+~
+0 0 15560
+S
+#15560
+Room 10~
+~
+0 ADN 0
+D0
+~
+~
+0 0 15557
+D1
+~
+~
+0 0 15559
+D9
+~
+~
+0 0 15561
+S
+#15561
+Room 11~
+This is the hp/mana room.
+~
+0 ADJN 0
+D6
+~
+~
+0 0 15560
+S
+#15562
+Room 12~
+Time delay teleport to room 17 (The Death Trap)
+~
+0 ADJN 0
+D6
+~
+~
+1 0 15563
+S
+#15563
+Room 13~
+~
+0 ADN 0
+D1
+~
+~
+0 0 15564
+D9
+~
+~
+1 0 15562
+S
+#15564
+Room 14~
+~
+0 ADN 0
+D0
+~
+~
+0 0 15566
+D2
+~
+~
+0 0 15565
+D3
+~
+~
+0 0 15563
+D4
+~
+~
+0 0 15568
+S
+#15565
+Room 15~
+~
+0 ADN 0
+D0
+~
+~
+0 0 15564
+S
+#15566
+Room 16~
+~
+0 ADN 0
+D2
+~
+~
+0 0 15564
+S
+#15568
+Room 18~
+~
+0 AD 0
+D0
+~
+~
+0 0 15569
+D1
+~
+~
+0 0 15571
+D4
+~
+<>?:"{}|~
+4 0 15570
+D5
+~
+~
+0 0 15564
+S
+#15569
+Room 19~
+~
+0 ADN 0
+D2
+~
+~
+0 0 15568
+S
+#15570
+The Crow's Nest~
+~
+0 ADN 0
+D4
+~
+~
+0 0 15672
+D5
+~
+<>?:"{}|~
+4 0 15568
+S
+#15571
+Room 21~
+~
+0 ADN 0
+D3
+~
+~
+0 0 15568
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 15551 4 1
+D 0 15552 5 1
+D 0 15562 6 1
+D 0 15563 9 1
+D 0 15568 4 1
+D 0 15570 5 1
+O 0 15552 0 15551
+O 0 15551 0 15552
+O 0 15553 0 15559
+O 0 15554 0 15562
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,2217 @@
+#AREA  { 9 45} CAW     The Abandoned Cathedral~
+
+#MOBILES
+#24201
+hunchback isaac being deformed~
+Isaac~
+A strange and deformed being stands here tugging on a bell rope.
+~
+The being before you just happens to be named Isaac, although how
+you know that is beyond you. He is a poor and deaf hunchback,
+once hired by the High Priest of the cathedral to ring the bells.
+He is quite large, but appears smaller due to his deformity, and
+looks to be quite strong.
+~
+giant~
+BMT N 600 S
+24 8 1d1+587 1d1+100 8d2+10 8
+-3 -3 -3 -3
+DEIO 0 E P
+8 8 1 340
+0 0 H 0
+#24202
+ghoul corpse-like being~
+the ghoul~
+A strange corpse-like being is here attacking a man in black robes!
+~
+This being looks like a long dead and dessicated human corpse.  Its
+neat translucent skin is taut about its bones and you think you can
+see strange little white movements underneath it.
+~
+undead~
+BHOT J -150 S
+11 4 1d1+168 1d1+100 2d6+3 5
+1 1 1 1
+EK O Q H
+8 8 0 50
+0 0 M 0
+#24203
+esmerelda priestess woman~
+Esmerelda the priestess~
+A woman dressed in dark robes watches the approaching undead
+in fear.
+~
+Dressed in solid black, Esmerelda is the current High Priestess of this
+Cathedral.  Funny how you had never heard of a female high priestess
+before this time, isn't it?  And even stranger, you know her name...
+how distinctly odd.  Anyways, Esmerelda seems to be watching the undead
+before her advancing ever so slowly, maybe you can try to save her!
+~
+human~
+BQ CDFH 750 S 
+18 6 1d1+313 1d1+160 2d7+7 19
+-3 -2 -3 -3
+FO B 0 0
+8 8 2 460
+0 0 M 0
+#24204
+priest man~
+the man~
+A man, dressed in black and silver robes, is fighting off 
+some undead!
+~
+This man is wearing a black and silver robe and is swinging a mace made
+of what looks to be obsidian.  He seems to be sorely beset by the undead
+before him.
+~
+dwarf~
+BQ CDFT 850 S
+20 8 1d1+354 1d1+230 2d8+2 6
+-4 -2 -2 -6
+EO 0 0 J
+8 8 1 200
+0 0 M 0
+#24205
+wyrenthoth dracolich dragon undead~
+Wyrenthoth~
+It is on this ledge that Wyrenthoth sits, preening him... itself.
+~
+Hmmm... seems that you have managed to walk in on Wyrenthoth during one
+of his... preening sessions.  You don't exactly understand what there
+is to see beyond the bones.  Oh, wait, you didn't even know what the
+thing in front of you was did you?  Well, you take the time to look, for
+once, and notice that it is a large collection of bones.  And it just so
+happens that this large collection of bones serves to form what looks to
+be a dragon, although the odd bone or two seems to be out of place.  It
+does appear that Wyrenthoth is a dracolich.
+~
+dragon~
+BFOT JHT -500 S
+37 11 1d1+1741 1d1+100 3d10+15 18
+-14 -13 -12 -12
+BCEHMN 0 C IN 
+8 8 0 1000
+0 0 G 0
+#24206
+vampire erich man~
+Erich~
+A pale white man dressed in black stands before you.
+~
+The man before you is dressed in all black except for his cape which
+has a red satin lining.  He has dark hair and cold green eyes that
+catch and reflect every movement.  Erich, as his name happens to be,
+is the master vampire in control of all of the evil undead which
+infest this cathedral.
+~
+vampire~
+BCFORT HTUV -800 S
+45 20 1d1+4000 1d1+256 8d4+18 10
+-12 -12 -12 -16
+BEFGHO BHO P NY 
+8 8 1 1500
+0 0 M 0
+#24207
+giant zombie~
+the giant zombie~
+A rather large zombie is lumbering about here, quite aimlessly.
+~
+The zombie giant seems to be wandering around crushing those who
+oppose the... it.  It is an enormous mass of rotting flesh and
+filth that smells, to put it bluntly, really bad.
+~
+undead~
+BOT X -300 S
+28 10 1d1+802 1d1+103 3d9+9 8
+-9 -7 -9 0
+BIN Q B KS
+8 8 0 10
+0 0 G 0
+#24208
+skeleton saurian~
+the saurian skeleton~
+A skeletal saurian is standing here, looking rather confused.
+~
+You look upon this being with a good deal of curiosity.  Then it
+begins to twitch, and looks around.  You are rather shocked, until
+you realize that it seems to be looking for someone in particular.
+~
+saurian~
+CGOT Y 0 S
+9 6 1d1+130 1d1+101 1d8+4 5
+1 1 2 4
+K 0 0 CP
+8 8 0 15
+0 0 M 0
+#24209
+zombie corpse~
+the zombie~
+A corpse is standing upright here, wandering these halls.
+~
+The thing before you is a rotting corpse, complete with flesh
+falling off of it in small chunks.  It is dressed in the remains
+of a peasant's clothing and seems to have a single purpose in
+mind (not that its mind could probably handle any more than that).
+~
+undead~
+FGOT P -350 S
+26 9 1d1+682 1d1+108 4d5+10 9
+-6 -7 -5 0
+BIK Q L HJ
+8 8 0 135
+0 0 M 0
+#24210
+shadow~
+the shadow~
+A shadow made of inky blackness moves along the wall towards you.
+~
+The moving shape of blackness looks like it is a shadow that
+lost its owner at some point.  It looks rather malignant.  To
+put it mildly.
+~
+unique~
+CGOT P -200 S
+29 13 1d1+919 1d1+123 3d8+12 12
+-9 -9 -10 -6
+EGH BS 0 0
+8 8 0 390
+0 0 L 0
+#24211
+wight~
+the wight~
+A hideous creature is here, mere skin and bones, howling madly.
+~
+This ghastly apparition fills you with nigh-absolute terror.  Your
+first conscious thought is to run.  Run fast and far that is.
+However, your second thought is to look at it a little more closely.
+In doing so, you notice that it seems to be made of mummified flesh,
+stretched over pointed bones.  Also, it has strangely glowing red
+eyes.
+~
+undead~
+BOR JO -700 S
+33 11 1d1+1056 1d1+243 4d6+11 18
+-10 -9 -10 -13
+H 0 BCO N
+8 8 0 450
+0 0 S 0
+#24212
+wraith~
+the wraith~
+A strange humanoid shape moves towards you.
+~
+This thing looks vaguely humanoid, but does not appear to be made
+of flesh but rather seems to be made of a strange electricity in
+the air.
+~
+undead~
+BOR UT -700 S
+37 12 1d1+1384 1d1+240 4d7+11 5
+-8 -10 -9 -12
+O J C F
+8 8 0 300
+0 0 M 0
+#24213
+banshee form humanoid mother superior~
+the banshee~
+A strange humanoid form stands in one corner of the room, 
+singing.
+~
+The once beautiful complexion of this female has deteriorated under the
+ravages of time and decay, leaving only a pale resemblence to the former
+living elf. Looking closely at the clothing she wears, you notice that
+it appears to be the soul of the cathedral's Mother Superior.
+~
+undead~
+BOQ HNO 600 S
+30 8 1d1+969 1d1+192 4d6+7 20
+-9 -9 -9 -9
+BEHI 0 0 I
+8 8 2 800
+0 0 M 0   
+#24214
+ghost abbott~
+the ghost of the Abbott~
+A portly ghost is sitting on an ethereal bed, 
+singing softly to himself.
+~
+This lost soul looks like he was once the Abbott of the cathedral.
+he is a portly fellow and even though he is long since dead, he looks
+rather jovial.  When you look at him, he stops singing for a minute,
+looks up at you, smiles sadly, and then continues his song.
+~
+undead~
+BOQ BHNO 900 S
+41 11 1d1+2349 1d1+275 5d6+16 8
+-13 -13 -13 -13
+BKV 0 0 M
+8 8 1 1300
+0 0 M 0
+#24215
+mummy~
+An ominous mummy~
+A mummy lurks towards you with outstretched arms.
+~
+This mummy doesn't look anything like the ones you've seen on
+the television.  One of the most noticeable things is that it
+appears to be alive and moving towards you.  Also, you notice
+rather quickly that the cloth wrapped around it is dripping in
+a dark red color.
+~
+undead~
+BOT OX -500 S
+39 10 1d1+1943 1d1+119 5d6+16 15
+-13 -13 -13 -13
+FRO B 0 HJS 
+8 8 0 600
+0 0 M 0
+#24216
+white light being~
+A brilliant white light~
+A white light blinds you with 
+its brilliance
+~
+You stand before a brilliant white light and immediately feel
+obligated to prostrate yourself.  You get the sense that this,
+this ... entity holds an UNSPEAKABLE amount of power and could
+blow you into nonexistance with a snap of his fingers.  However,
+you are relieved to find that it will not harm you and rather is
+here to offer only advice.  It tells you to beware of the winds
+for there you are sure to meet your demise.
+~
+unique~
+BQRT CDEFHNTU 0 S
+70 25 1d1+12000 1d1+500 20d5+20 20
+-35 -35 -35 -35     
+BDHO 0 CD N
+8 8 0 3000
+0 0 G 0
+#24217
+keeper gate angel~
+An archangel~
+An archangel blocks your entrance with its cross
+~
+You see before you another mighty figure.  Its purpose is to admit those
+fortunate beings deemed worthy of entering the land of paradise and to 
+refuse entrance to those evil sinners.  He merely looks at you and a frown
+comes forms at his mouth.  You clearly are not eligible.
+~
+unique~
+BQR CDEFHN 0 S
+62 15 1d1+8500 1d1+350 18d4+15 20
+-25 -25 -25 -25
+BOV ABCDP 0 0
+8 8 0 600
+0 0 H 0
+#0
+
+#OBJECTS
+#24201
+corpse fresh altar~
+a fresh corpse~
+A freshly killed corpse is pinned to the altar with a large knife.~
+stone~
+15 0 A
+500 0 0 0 0
+0 200 0 P
+E
+corpse fresh~
+The corpse lying here is disgusting at best.  Looking closely at it, you
+notice that it has been disembowled, but can find no trace of the entrails
+whatsoever.
+~
+E
+altar~
+The altar before you is covered with glyphs and symbols that mean nothing
+to you.  It obviously is not the original altar that was in this cathedral.
+There are fresh blood stains down the side of it and the top is stained a
+very deep brown.
+~
+#24202
+knife long curved~
+a long, curved knife~
+A long, curved knife waits anxiously to cut you~
+iron~
+5 C AN
+2 3 6 11 D
+19 7 35 P
+E
+knife long curved~
+This long knife has a long curved blade with a bone handle.  The blade is
+very plain, but looks surprisingly sharp.
+~
+A
+17 -10
+A
+18 3
+A 
+19 2
+#24203
+amulet silver~
+a silver amulet~
+A strange silver amulet rests on the ground here.~
+silver~
+9 AG AC
+5 4 5 0 0
+18 10 200 P
+E
+amulet silver~
+This necklace is comprised of a pure silver and seems quite light. A 
+small cross hangs at the bottom with some runes on its back, but they are 
+almost totally indecipherable.
+~
+E
+runes~
+My mistake.  They are *totally* indecipherable.
+~
+A
+2 -1
+A
+4 -1
+A
+5 2
+#24204
+key ivory bone~
+an ivory key~
+An ivory key has been left here.~
+stone~
+18 0 AO
+0 0 0 0 0
+1 5 100 P
+E
+key ivory bone~
+You stare at the shiny white surface of this key, noticing strange
+brownish marks marring its surface.  Suddenly you realize that the
+key is made not of ivory, but rather of bone.  Erk.
+~ 
+#24205
+coffin ebony~
+the coffin~
+An ebony coffin is collecting dust~
+adamantite~
+15 D 0
+500 13 24211 0 0
+0 1000 0 P
+#24206
+corpse evalynn~
+the corpse of Evalynn~
+The corpse of Evalynn is lying here almost as if she had just died.~
+stone~
+15 P A
+100 0 0 0 0
+0 25 0 P
+E
+corpse evalynn~
+Evalynn's corpse does not seem to have decayed at all over the past
+few hundred years.  It appears to be clutching a sword of some sort.
+~
+#24207
+potion dark~
+a dark potion~
+A dark potion is sitting here on the floor, sucking up all the light.~
+glass~
+10 CEU AO
+25 515 512 0 0
+30 5 100 P
+E
+potion dark~
+This potion almost seems to be made of the complete and utter
+absence of light.  Boy, is it ever weird.
+~
+#24208
+staff ivory~
+an ivory staff~
+An elegant ivory staff rests here, giving off a strange 
+     pure white light.~
+wood~
+4 AI AO
+15 6 6 22 0
+20 15 300 P
+E
+staff ivory~
+This staff is really weird.  Not only is it carved from beautiful white
+ivory, but it is giving off a strange white light that bedazzles you with
+its brilliance.
+~
+#24209
+coins pile~
+a mid-sized pile of coins~
+A not-too-small, not-too-large pile of coins glistens in the light.~
+gold~
+20 0 A
+500 0 0 0 0
+1 25 500 P
+E
+coins pile~
+The coins look to be quite pretty.  The pile before you isn't that
+big, but nor is it all that small.  All in all, you would guess that
+it is 'mid-sized'.
+~
+#24210
+sword rune~
+the rune sword~
+A strange sword lies here.~
+steel~
+5 FG AN
+1 6 8 3 C
+43 12 575 P
+E
+sword rune~
+The sword looks rather strange, and has cryptic runes engraved into the blade.
+~
+A
+19 2
+#24211
+key gold golden~
+a beautiful golden key~
+A key made of gold seems to have been forgotten on the ground here.~
+gold~
+18 0 AO
+0 0 0 0 0
+1 5 10 P
+E
+key gold golden~
+This fine key is made out of gold.  There is a very tiny ruby set into
+the teeth of the key.
+~
+#24212
+key blood~
+a strange blood key~
+A sinister key of blood beckons...~
+iron~
+18 A AO
+0 0 0 0 0
+1 3 15 P
+E
+key blood~
+This key seems to have been formed by mystically forming human blood
+into the shape of a rather sinister key.
+~
+#24213
+bones pile crushed~
+a pile of crushed bones~
+A pile of well-crushed bones is lying on the floor here.~
+stone~
+15 0 0
+200 0 0 0 0
+0 500 0 P
+E
+bones pile crushed~
+The bones in this pile look to have been crushed by a large force.
+Like that wasn't expected.  They have all been splintered and most
+are shattered in addition.  You can think of no good reason to pick
+them up and carry them with you.
+~
+#24214
+cape black satin~
+a black cape with a red satin lining~
+A strange black cape lies here.~
+cloth~
+9 CEJ AK
+13 11 12 6 0
+45 5 2000 P
+E
+cape black satin~
+This cape seems to be rather black.  It feels like it is made of
+velvet or some similar material.  Turning it over, you notice that
+the inside lining is made of red satin.  A small gold link holds
+the neck of the cape together.
+~
+A
+3 1
+A
+4 1
+#24215
+necklace onyx~
+an onyx necklace~
+A strange necklace made of onyx stones lies here.~
+iron~
+9 CEJ AC
+18 14 19 8 0
+43 10 300 P
+E
+necklace onyx~
+This necklace is pretty much just a string with a number of
+black onyx stones attached to it.  It gives you a sinister
+feeling simultaneously with a feeling of wonderment.
+~
+A
+5 -2
+A
+12 -30
+#24216
+halberd giant~
+a giant halberd~
+A tremendously large halberd stained with blood rests here.~
+steel~
+5 GM ANP
+8 5 10 8 F
+30 35 1200 P
+E
+halberd giant~
+This has got to be the largest weapon you have ever seen.  Sure, halberds
+are normally big, but this has got to be at least twice as big as any other
+halberd you've seen.  How any mortal can even hope to use it, you are not
+sure, but it is definitely something you wouldn't want to get hit by....
+~
+A
+1 -1
+A
+18 3
+A
+19 3
+#24217
+avenger holy sword~
+the Avenger~
+A beautiful sword glowing white is floating upright here.~
+adamantite~
+5 GKU AN
+0 5 11 1 D
+42 20 8000 P
+E
+avenger holy sword~
+This beautiful weapon has been forged out of an unknown metal
+and seems to glow with an inner light of its own.  The hilt
+is made of what seems to be gold tightly wrapped with a silken
+material.
+~
+A
+13 10
+A 
+18 3
+A
+19 2
+#24218
+human bone~
+a human bone~
+a human bone~
+stone~
+9 BGMUWZ A AG
+10 10 10 5 0
+36 8 0 P
+A
+1 1
+A
+18 2
+A
+19 2
+T
+As $n wears a $p, their ankle seems to lock into place.~
+Your ankle thanks you for wearing $p~
+#24219
+rope~
+a weathered rope~
+~
+leather~
+31 0 0
+6 24257 4 1 0
+0 30 0 P
+#24220
+rope~
+a weathered rope~
+~
+leather~
+31 0 0
+7 24219 5 2 0
+0 30 0 P
+#24221
+coffin vampire~
+a coffin~
+A coffin is collecting dust in the middle of this room~
+stone~
+15 B 0
+500 4 0 0 0
+1 1000 0 P
+E
+coffin~
+This coffin is very ornate and causes the room to resonate.  You
+take a look at it and suddenly realize how far you have come into
+the crypt.  You quickly decide that you don't want to know what is
+in it.
+~
+#24222
+ring strength~
+ring of strength~
+This ring gives its wearer supreme strength~
+iron~
+9 F AB
+8 8 7 0 0
+29 12 2500 P
+A
+1 3
+#24223
+carcass~
+a half-eaten carcass~
+This carcass looks like what used to be a human body~
+stone~
+9 HP AJ
+9 11 7 5 0
+26 10 0 P
+A
+5 -3
+A
+13 50
+A
+19 -3
+#24224
+gloves~
+a pair of Saurian gloves~
+These gloves once worn by a Saurian are now covered in blood~
+leather~
+9 CUWZ E AH
+6 6 6 3 0
+10 5 800 P
+A
+2 1
+A
+12 20
+A
+18 3
+A
+19 2
+A
+24 -2
+#24225
+power world~
+the Power of the world~
+This weapon is something you don't even want to know about ... *shiver*~
+adamantite~
+5 GJKUV AN
+0 8 10 20 AEF
+54 25 10000 P
+A
+3 3
+A 
+4 3
+A
+13 50
+A
+18 9
+A
+19 10
+T
+As $n wields $p, you fall backwards due to the earthquake it caused~
+You wield $p and cause an earthquake~
+#24226
+portal~
+a humming portal~
+A portal invites you to enter~
+silver~
+30 B 0
+5 24258 0 0 0
+51 500 0 P
+#24227
+portal~
+a humming portal~
+A portal invites you to enter~
+silver~
+30 B 0
+5 24257 0 0 0
+51 500 0 P
+#24228
+cross~
+A large wooden cross~
+A large wooden cross is being used to block your entrance~
+wood~
+4 IJKUV AO
+51 7 7 38 0
+51 20 12000 P
+A
+4 2
+A
+24 -5
+#24229
+ledge~
+the ledge~
+a rocky ledge is here~
+stone~
+31 OV 0
+9 24259 3 1 0
+0 1 0 P
+#0
+
+#ROOMS
+#24201
+The Cathedral Courtyard~
+   Leaves blown about by the wind of countless centuries fill this 
+lonely empty courtyard with their dull hollow rustle.  As you look
+around an eerie feeling overcomes you, as if you are being watched.
+   Just to the north, you see that the once beautiful double doors
+leading into the cathedral proper have been torn from their frames
+and left lying on the ground near the now open doorway.
+   At the southern end of the courtyard, a large iron wrought gate
+can be seen, creaking in the wind.  On the other side of the gate,
+there seems to be an older road leading away from the cathedral.
+~
+242 0 2
+D0
+A large fountain of water can be seen inside the open doorway to the
+north.
+~
+~
+0 -1 24202
+D2
+The iron wrought gate stands in the middle of the stone wall, and blocks
+the way southwards towards the old stone road.
+~
+gate iron wrought~
+1 -1 24256
+E
+door doors~
+The remains of the two doors that served as the main entranceway to
+the cathedral are now lying in near ruins on the ground.  The doors
+are covered with scuff and scratch marks and are merely a shadow of
+their former glory.
+~
+S
+#24202
+The Cathedral Entrance~
+   In this large open area just inside the cathedral doors, you can
+see the once beautiful font and the once pristine spring from which
+the holy waters were once drawn.  All that remains now is the result
+of the desolation, despair, and destruction caused by whatever turned
+this cathedral into the ruin it is now.  It seems as though everything
+here has been corrupted and spoiled.
+   There are small alcoves to both the east and west.  The cathedral
+also continues northwards towards where the altar should be.  There
+is a large open doorway to the south, leading out to the courtyard.
+~
+242 D 0
+D0
+The way north looks to be almost blocked by numerous overturned pews,
+but passable all the same.
+~
+~
+0 -1 24205
+D1
+A small alcove opens up to the east.
+~
+~
+0 -1 24203
+D2
+The courtyard of the cathedral can be seen outside the doorway to the
+south.
+~
+~
+0 -1 24201
+D3
+A small alcove opens up to the west.
+~
+~
+0 -1 24204
+S
+#24203
+An Alcove~
+   This is a small alcove which stands just east of the main cathedral
+entrance.  Just to the west, you can see what is left of the font and
+spring in the cathedral.  Just to the east you can see a set of spiral
+stairs leading up and down.
+~
+242 D 0
+D1
+There is a set of spiral stairs just to the east.
+~
+~
+0 -1 24214
+D3
+The cathedral entrance can be seen to the west.
+~
+~
+0 -1 24202
+S
+#24204
+An Alcove~
+   This is a small alcove which stands just west of the main cathedral
+entrance.  Just to the east, you can see what is left of the font and
+spring in the cathedral.  Just to the west you can see a set of spiral
+stairs leading up and down.
+~
+242 D 0
+D1
+The cathedral entrance can be seen to the east.
+~
+~
+0 -1 24202
+D3
+There is a set of spiral stairs just to the west.
+~
+~
+0 -1 24213
+S
+#24205
+The Aisle Of Pews~
+   As you move through the cathedral, you find yourself fighting your
+way through the numerous overturned pews here.  Interspersed amongst
+the pews are mouldy remains of books.  Dust and decay covers everything
+here, giving you the impression that nothing has been touched for years.
+   The cathedral entrance is off to the south, and the altar is surely
+located somewhere to the north.
+   You hear a quiet wail coming from somewhere below.
+~
+242 D 0
+D0
+The mess of pews ends just to the north where the cathedral opens up
+into a sort of worship chambers.
+~
+~
+0 -1 24206
+D2
+The cathedral entrance and courtyard are off to the south.  A dry wind
+is blowing through the cathedral from the south.
+~
+~
+0 -1 24202
+S
+#24206
+The Worship Hall~
+   This portion of the cathedral is an open area between the pews and the
+altar.  This would have been the location where many of the worshippers
+took their offerings.  But now only the decay of years remains.  Looking
+around, you spot what appears to be a stain on the ground and another on
+the wall.  You also seem to hear louder wailings... or was it something
+else?
+   To the east and west, you can see what appear to be confessionals.
+To the north there are some more pews, and to the south, you can see the
+destruction where numerous pews have been strew about.
+~
+242 D 0
+D0
+Just ahead of you are some more pews, but they are much nicer than
+normal pews would be.  Just beyond them, you can see what appears
+to be an altar.
+~
+~
+0 -1 24209
+D1
+There is a curtain hanging across the entrance to the confessional
+just to the east.
+~
+curtain~
+1 -1 24208
+D2
+To the south you can see all of the pews scattered and strewn about
+the cathedral.
+~
+~
+0 -1 24205
+D3
+There is a curtain hanging across the entrance to the confessional
+just to the west.
+~
+curtain~
+1 -1 24207
+E
+wall walls floor stain stains~
+The stains on the floor and wall look to be relatively recent as compared
+to the destruction that hit the cathedral.  You are uncertain as to what
+they could be, but they are fairly large.
+~
+S
+#24207
+The Confessional~
+   In this dingy little room, you can tell that people used to make their
+most holy of confessions here.  There is no relief now for those who have
+have lost their souls.
+   A small and dingy curtain hangs in the entranceway to the east.
+~
+242 DJ 0
+D1
+The curtain to the east is hanging raggedly from the bar along the top of
+the entranceway.  Looking through it you can see a fairly large open area
+just outside.
+~
+curtain~
+1 -1 24206
+S
+#24208
+The Confessional~
+   In this dingy little room, you can tell that people used to make their
+most holy of confessions here.  There is no relief now for those who have 
+have lost their souls.
+   A small and dingy curtain hangs in the entranceway to the west.
+~
+242 DJ 0
+D3
+The curtain to the west is hanging raggedly from the bar along the top of
+the entranceway.  Looking through it you can see a fairly large open area
+just outside.
+~
+curtain~
+1 -1 24206
+S
+#24209
+The High Pews~
+   Standing amongst these pews, you notice that they appear to be in
+better shape than the ones farther to the south. Perhaps this is where 
+the nobles used to worship.  Unfortunately, all has fallen into decay and 
+neglect.
+   The altar is located just to the north, but there is something ever
+so slightly suspicious about it.  There is an open area to the south
+just before the jumble of pews that can be seen there.
+~
+242 D 0
+D0
+The altar stands right before you.
+~
+~
+0 -1 24210
+D2
+There is an open area just to the south, between these pews and the
+common peoples' pews.
+~
+~
+0 -1 24206
+S
+#24210
+At The Altar~
+   Standing before you is the altar.  The floor around the altar, 
+including the steps leading up to it, is stained a deep brown that looks 
+almost wet still.  There are some sticky footprints left on the floor.
+   The cathedral continues southwards through the pews.  Just to the
+northwest there is a small curtain pulled across a doorway.
+~
+242 D 0
+D7
+The curtain has been pulled to across the doorway, making it slighty
+awkward to see through.
+~
+curtain~
+1 -1 24211
+D2
+Rows and rows of pews can be seen to the south.
+~
+~
+0 -1 24209
+S
+#24211
+The Clergical Chambers~
+   These chambers are quite large and appear to be rather clean.  Looking
+about, you notice that the beds are made and clean robes are hanging on
+hooks by the heads of each one.  The beds are arranged so that the foot of
+each is in the middle of the room, whilst the heads are in small alcove in
+the wall.  There is a small chest at the foot of each, but a quick glance
+reveals nothing out of the ordinary.
+   The thing that strikes you most oddly about this room however, is that
+there are no beds along the north wall, but there is a narrow door at the
+east end of it.  A small curtain is located at the southeastern end of the 
+room and small windows line the east and west walls.
+~
+242 D 0
+D6
+You see a narrow door at the eastern end of the north wall.
+~
+door~
+2 24204 24212
+D8
+There is a curtain pulled across the doorway here, but you surmise that it
+must lead out to the main nave of the cathedral.
+~
+curtain~
+1 -1 24210
+S
+#24212
+The Inner Sanctum~
+   This small room is hidden away at the back of the cathedral.  From the
+outside, you would never have known of its existence.  The walls are lined
+with shelves and racks.  The walls beneath the shelves are almost entirely
+lined with chests.  There are no lights visible in the room, and even the
+door to the south seems to have been a perfect fit in its frame.
+   A single door to the south blocks the entrance to this room.
+~
+242 9 0
+D9
+You see a door.
+~
+door~
+1 -1 24211
+S
+#24213
+A Spiral Stairway~
+   You stand on a wooden landing.  Looking eastwards, you notice that
+a small stone hallway leads away from the staircase.  The wooden stairs
+continue above you and below you, leading up into the heights of the
+cathedral tower and down into the gloominess of what you suspect are
+the cathedral's crypts.
+~
+242 D 0
+D1
+A small hallway leads away from the staircase towards the cathedral
+proper.
+~
+~
+0 -1 24204
+D4
+The wooden stairs lead upwards into what must be the bell tower of the
+cathedral.
+~
+~
+0 -1 24217
+D5
+The stairwell leads down into the gloomy darkness below.
+~
+~
+0 -1 24233
+S
+#24214
+A Spiral Stairway~
+   You stand on a wooden landing.  Looking westwards, you notice that
+a small stone hallway leads away from the staircase.  The wooden stairs
+continue above you and below you, leading up into the heights of the
+cathedral tower and down into the gloominess of what you suspect are
+the cathedral's crypts.
+   Looking above you, you notice that the stairwell is swaying dangerously
+and does not seem to be firmly attached to anything at all.
+~
+242 D 0
+D3
+A small hallway leads away from the staircase towards the cathedral
+proper.
+~
+~
+0 -1 24203
+D4
+Looking upwards, the stairs look very unsteady and definitely untrustworthy.
+~
+~
+0 -1 24215
+D5
+The stairwell leads down into the gloomy darkness below.
+~
+~
+0 -1 24235
+S
+#24215
+A Spiral Stairway~
+   You are climbing the wooden stairway and just happen to have arrived
+at a location where, coincidentally, there does not happen to be a floor
+at all.  However, the stairwell continues above you and below you, as it
+wanders merrily on its way.
+~
+242 0 9
+D4
+The wooden stairs continue as normal above you.
+~
+~
+0 -1 24216
+D5
+The staircase continues below you as it nears the ground level.
+~
+~
+0 -1 24214
+S
+#24216
+The Bell Tower~
+   You stand in a small room at the top of the old wooden staircase.  An
+exit to the west leads into what must certainly be the main bell room.
+Loud chimes peal their solemn tones which, due to your certain proximity,
+leave your ears ringing.
+   Even though you can hear the beautiful bell tones, the creaking of the
+stairs below is quite disturbing, as is the unsteady floor upon which you
+stand.
+~
+242 AD 0
+D3
+Looking westwards, you can see the dim light creating eerie shadows with
+the objects in the room.
+~
+~
+0 -1 24219
+D5
+As you look down you can see that this stairway is swaying from side to
+side with every movement you make.  Surely that cannot be safe.
+~
+~
+0 -1 24215
+S
+#24217
+A Spiral Stairway~
+   You stand on a wooden landing.  Looking eastwards, you notice that
+through the stone doorway, a hallway leads northwards and southwards
+away from the staircase.  The wooden stairs continue above you and
+below you, continuing up into the heights of the cathedral tower and
+down into the gloom below as they probe towards the ground level.
+~
+242 AD 0
+D1
+A hallway opens up off of this landing on the staircase.
+~
+~
+0 -1 24220
+D4
+The stairs continue up into the tower.
+~
+~
+0 -1 24218
+D5
+The wooden stairs lead down towards the ground level.
+~
+~
+0 -1 24213
+S
+#24218
+The Bell Tower~
+   You stand in a small room at the top of the old wooden staircase.  An
+exit to the east leads into what must certainly be the main bell room.
+Loud chimes peal their solemn tones which, due to your certain proximity,
+leave your ears ringing.
+   The wooden stairs lead down back towards the main section of the church
+proper.
+~
+242 AD 0
+D1
+Looking eastwards, you can see the dim light creating eerie shadows with
+the objects in the room.
+~
+~
+0 -1 24219
+D5
+The stairs lead down towards ground level.
+~
+~
+0 -1 24217
+S
+#24219
+The Bell Room~
+   Standing in this tall room, you feel rather small.  You look up into
+the gloomy rafters above and you can see countless bells hanging up there,
+swinging to and fro lightly.  Every so often one peals out with its distinct
+ring.  The dim light in here is throwing strange shadows all over the place.
+Wait!  Did one just move?
+~
+242 AD 0
+D1
+Through the doorway, you can only see darkness.
+~
+~
+0 -1 24216
+D3
+Through the doorway, you can only see darkness.
+~
+~
+0 -1 24218
+S
+#24220
+The Cloister Hall~
+   You stand in the middle of a long stone hallway lined with wooden
+doors.  The hallway seems to extend farther northwards than southwards,
+but it would almost appear as if this was once the residence of the
+priests, monks, and nuns who looked after the cathedral.  A narrow
+hallway also made of stone leads westwards into the darkness.
+~
+242 D 0
+D0
+The hallway continues northwards from here.
+~
+~
+0 -1 24224
+D2
+The southern end of the hall is surprisingly dark and shadowy, but
+you think nothing of it.
+~
+~
+0 -1 24221
+D3
+A narrow hallways leads off into the darkness.
+~
+~
+0 -1 24217
+S
+#24221
+The End Of The Dark Hall~
+   You find yourself at what appears to be the southern end of a rather
+long stone hallway lined with wooden doors from end to end.  Looking
+northwards you can see that something is lighting the hallway farther
+along, but insuffuicient light has penetrated the darkness here to
+help your visibility at all.  There is an open wooden door on the east
+side of the hallway here, and a closed one on the west.
+~
+242 AD 0
+D0
+The hallway leads off towards the north, where you can see that it
+is lit somewhat better than here.  Not a difficult task mind you.
+~
+~
+0 -1 24220
+D1
+The doorway to the east looks to have been smashed in by something
+quite, uhm, large.  It looks as if there was a door there... once.
+~
+~
+0 -1 24222
+D3
+The doorway to the west looks to be much sturdier than the one to
+the east, but that doesn't say very much for it.  It hangs from one
+hinge, and pieces of the door appear to be missing.
+~
+door~
+1 -1 24223
+S
+#24222
+A Monk's Room~
+   This room is a complete shambles.  What looks to have once been
+a bed of some sort is now lying in pieces which are scattered about
+the small room.  There is a shattered wooden door lying near the
+doorway to the west.  It almost looks as if the door was bashed in.
+Other than the shards of wood lying about the room, there is nothing
+else out of order, no blood, no material caught anywhere, just the
+broken wood.
+~
+242 AD 0
+D3
+You can see darkness outside the door.  Not much of a change from
+what is in here.
+~
+~
+0 -1 24221
+S
+#24223
+The Abbott's Room~
+   This looks to be a step up from an ordinary monk's residence.
+The cot is still in fine condition in the corner underneath a
+narrow window and there is a small rug in the center of the floor.
+The doorway to the east is in shambles however and it looks as if 
+whatever was trying to break through it got in without too much 
+difficulty.  There does not seem to be any sign of a struggle, so
+it would seem that either the Abbott was not in his room or that
+he went along willingly with whomever (or whatever) broke in.
+~
+242 AD 0
+D1
+The door, or better yet, what is left of it, is made of wood, and hangs
+from one hinge, blocking your way through it.
+~
+door~
+1 -1 24221
+S
+#24224
+A Cloistered Hall~
+   You stand in part of a long stone hallway lined on both the east
+and western sides with doorways.  In most of the doorways it appears
+that the wooden doors that were once there in their entirety are
+smashed and destroyed.  The doors on either side of the hallway here
+are no different.
+~
+242 D 0
+D0
+The hallway continues northwards.
+~
+~
+0 -1 24227
+D1
+Yet another door in the long series has been smashed open on the
+eastern side of the hallway.
+~
+~
+0 -1 24226
+D2
+To the south, you can see that the hallway continues, but you also
+notice that there aren't many lights down that way.
+~
+~
+0 -1 24220
+D3
+Just like the doors on the eastern side of the hall, there is no
+longer a doorway here on the western side.
+~
+~
+0 -1 24225
+S
+#24225
+A Monk's Room~
+   This room is a complete shambles.  What looks to have once been
+a bed of some sort is now lying in pieces which are scattered about
+the small room.  There is a shattered wooden door lying near the
+doorway to the east.  It almost looks as if the door was bashed in.
+Other than the shards of wood lying about the room, there is nothing
+else out of order, no blood, no material caught anywhere, just the
+broken wood.
+~
+242 D 0
+D1
+The doorway to the east is clear for passage except for all of the
+shards of wood lying about the room.  The doorway appears to lead
+out into a hallway of sorts.
+~
+~
+0 -1 24224
+S
+#24226
+A Monk's Room~
+   This room is a complete shambles.  What looks to have once been
+a bed of some sort is now lying in pieces which are scattered about
+the small room.  There is a shattered wooden door lying near the
+doorway to the west.  It almost looks as if the door was bashed in.
+Other than the shards of wood lying about the room, there is nothing
+else out of order, no blood, no material caught anywhere, just the
+broken wood.
+~
+242 D 0
+D3
+The doorway to the west is clear for passage except for all of the
+shards of wood lying about the room.  The doorway appears to lead
+out into a hallway of sorts.
+~
+~
+0 -1 24224
+S
+#24227
+A Cloistered Hall~
+   You stand in part of a long stone hallway lined on both the east
+and western sides with doorways.  In most of the doorways it appears
+that the wooden doors that were once there in their entirety are
+smashed and destroyed.  The doors on either side of the hallway here
+are no different.  You get a strange eerie feeling as you stand in
+this part of the hallway.  Perhaps it is from the strange light source
+that seems to be just to the north.
+~
+242 D 0
+D0
+The hallway continues northwards towards the strange light source down
+there.
+~
+~
+0 -1 24228
+D1
+Another smashed open door can be seen on the east side of the hall.
+~
+~
+0 -1 24230
+D2
+The hallway continues southwards where it appears to be getting darker
+and darker.
+~
+~
+0 -1 24224
+D3
+Is it just me, or are the smashed open doors on the west side of the
+hall becoming ever so slightly predictable?
+~
+~
+0 -1 24229
+S
+#24228
+A Cloistered Hall~
+   You stand in part of a long stone hallway lined on both the east
+and western sides with doorways.  In most of the doorways it appears
+that the wooden doors that were once there in their entirety are
+smashed and destroyed.  The doors on either side of the hallway here
+are no different.  An eerie feeling pervades your body and you notice
+that everything seems to be covered with a strange, yet bright, yellow
+glow.
+~
+242 D 0
+D1
+The doorway to the east is blocked by a wooden door that looks to be
+quite sturdy.
+~
+door~
+1 -1 24232
+D2
+Looking down the hallway to the south, you notice that it becomes
+darker and darker...
+~
+~
+0 -1 24227
+D3
+The door on the western side of the hallway is broken open, just like
+almost every other door it seems.
+~
+~
+0 -1 24231
+S
+#24229
+A Nun's Room~
+   This once beautiful room has obviously been completely and utterly
+destroyed at some time in the past.  At least, everything between its
+four walls has.  Remenants of various articles of clothing and whatnot
+lie scattered around the room, all collecting mold.  There is a wide
+open doorway to the east where a wooden door once hung upon brass hinges.
+'How did you know this?' you ask yourself... and then notice the wooden
+shards lying around the doorway and the remains of brass hinges sitting
+in the doorframe.
+~
+242 D 0
+D1
+The cloistered hallway lies just to the east through the open doorway.
+~
+~
+0 -1 24227
+S
+#24230
+A Nun's Room~
+   This once beautiful room has obviously been completely and utterly
+destroyed at some time in the past.  At least, everything between its
+four walls has.  Remenants of various articles of clothing and whatnot
+lie scattered around the room, all collecting mold.  There is a wide
+open doorway to the west where a wooden door once hung upon brass hinges.
+'How did you know this?' you ask yourself... and then notice the wooden
+shards lying around the doorway and the remains of brass hinges sitting
+in the doorframe.
+~
+242 D 0
+D3
+The hallway to the west can be seen through the open doorway.
+~
+~
+0 -1 24227
+S
+#24231
+A Nun's Room~
+   This once beautiful room has obviously been completely and utterly
+destroyed at some time in the past.  At least, everything between its
+four walls has.  Remenants of various articles of clothing and whatnot
+lie scattered around the room, all collecting mold.  There is a wide
+open doorway to the east where a wooden door once hung upon brass hinges.
+'How did you know this?' you ask yourself... and then notice the wooden
+shards lying around the doorway and the remains of brass hinges sitting
+in the doorframe.
+~
+242 D 0
+D1
+A hallway lies outside the door to the east.
+~
+~
+0 -1 24228
+S
+#24232
+Mother Superior's Room~
+   This room is the same size as all of the others, but contains such
+luxeries as a writing desk and chair in addition to the cot on the
+northern wall.  A narrow window is located in the eastern wall, but
+merely presents a view of the black night outside.
+   A simple wooden door serves as the entrance to this room to the
+east.
+~
+242 D 0
+D3
+The wooden door to the west looks to be quite sturdy as compared to
+some of those that you have seen lately.
+~
+door~
+1 -1 24228
+S
+#24233
+A Crypt~
+   Standing in this part of the crypt, you notice that there is a set
+of wooden stairs set into the corner of the room, leading up to the
+floors above.  This small chamber has two other exits, one to the east
+and one to the south through a pair of archways.  Other things of note
+in here are the small metal plates in the walls with tiny brass plaques
+set into each one.
+~
+242 AD 0
+D1
+The crypt continues through the archway to the east.
+~
+~
+0 -1 24234
+D2
+The crypt continues through the archway to the south.
+~
+~
+0 -1 24236
+D4
+A wooden staircase leads up to the floors above.
+~
+~
+0 -1 24213
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24234
+A Crypt~
+   This small chamber in the crypts has three exits, one to the west,
+one to the east, and one to the south, all through a pair of archways.
+Other things of note in here are the small metal plates in the walls
+with tiny brass plaques set into each one.
+~
+242 AD 0
+D1
+The crypt continues through the archway to the east.
+~
+~
+0 -1 24235
+D2
+The crypt continues through the archway to the south.
+~
+~
+0 -1 24237
+D3
+The crypt continues through the archway to the west.
+~
+~
+0 -1 24233
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24235
+A Crypt~
+   Standing in this part of the crypt, you notice that there is a set
+of wooden stairs set into the corner of the room, leading up to the
+floors above.  This small chamber has two other exits, one to the west
+and one to the south through a pair of archways.  Other things of note
+in here are the small metal plates in the walls with tiny brass plaques
+set into each one.
+~
+242 AD 0
+D2
+The crypt continues through the archway to the south.
+~
+~
+0 -1 24238
+D3
+The crypt continues through the archway to the west.
+~
+~
+0 -1 24234
+D4
+A wooden staircase leads up to the floors above.
+~
+~
+0 -1 24214
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24236
+A Crypt~
+   This small chamber in the crypts has three exits, one to the north,
+one to the east, and one to the south, all through a pair of archways.
+Other things of note in here are the small metal plates in the walls
+with tiny brass plaques set into each one.
+~
+242 AD 0
+D0
+The crypt continues through the archway to the north.
+~
+~
+0 -1 24233
+D1
+The crypt continues through the archway to the east.
+~
+~
+0 -1 24237
+D2
+The crypt continues through the archway to the south.
+~
+~
+0 -1 24239
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24237
+A Crypt~
+   This small chamber in the crypts has three exits, one to the west,
+one to the east, and one to the north, all through a pair of archways.
+Other things of note in here are the small metal plates in the walls
+with tiny brass plaques set into each one.
+~
+242 AD 0
+D0
+The crypt continues through the archway to the north.
+~
+~
+0 -1 24234
+D1
+The crypt continues through the archway to the east.
+~
+~
+0 -1 24238
+D3
+The crypt continues through the archway to the west.
+~
+~
+0 -1 24236
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24238
+A Crypt~
+   This small chamber in the crypts has three exits, one to the west,
+one to the north, and one to the south, all through a pair of archways.
+Other things of note in here are the small metal plates in the walls
+with tiny brass plaques set into each one.
+~
+242 AD 0
+D0
+The crypt continues through the archway to the north.
+~
+~
+0 -1 24235
+D2
+The crypt continues through the archway to the south.
+~
+~
+0 -1 24241
+D3
+The crypt continues through the archway to the west.
+~
+~
+0 -1 24237
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24239
+A Crypt~
+   This small chamber in the crypts has two exits, one to the north
+and one to the east, both through a pair of archways.  Other things
+of note in here are the small metal plates in the walls with tiny
+brass plaques set into each one.
+~
+242 AD 0
+D0
+The crypt continues through the archway to the north.
+~
+~
+0 -1 24236
+D1
+The crypt continues through the archway to the east.
+~
+~
+0 -1 24240
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24240
+A Crypt~
+   This small chamber in the crypts has two exits, one to the west
+and one to the south, both through a pair of archways.  Other things
+of note in here are the small metal plates in the walls with tiny
+brass plaques set into each one.
+~
+242 AD 0
+D2
+Through the archway to the south, you can see glimmerings of what might
+be a storage room of some kind.
+~
+~
+0 -1 24242
+D3
+The crypt continues through the archway to the west.
+~
+~
+0 -1 24239
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24241
+A Crypt~
+   This small chamber in the crypts has one exit, that to the north
+through a stone archway.  The only other things that may be of any
+interest whatsoever is the large number of small metal plates in the
+walls with tiny brass plaques set into each one.
+~
+242 AD 0
+D0
+The crypt continues through the archway to the north.
+~
+~
+0 -1 24238
+E
+metal plate brass plaque wall walls~
+The small metal plates in the walls seem to be drawers of some sort.
+Each one is inset with a small brass plaque.  Each plaque lists the
+name of the occupant, none of whom you recognize at all.
+~
+S
+#24242
+The Antechamber~
+   This looks to be an antechamber of sorts, but an antechamber to
+what?  The walls have shelves upon them that are thick with dust.
+The floor is covered with footprints marring the unvisited look that
+this room seems to have been cultivating for quite a long time.  The 
+walls are covered with mosaics and there is an archway set in the 
+northern wall. 
+~
+242 AD 0
+D0
+Through the archway to the north, you can see what looks to be a crypt.
+~
+~
+0 -1 24240
+D2
+The mosaic to the south does not appear to be properly attached to the
+wall, perhaps you could open it...
+~
+south mosaic~
+2 24212 24243
+E
+wall walls~
+The mosaics covering the walls of this room appear to be merely strange
+designs made of multitudes of small tiles.  The one to the south does
+not appear to be properly attached to the wall, perhaps you could open
+it...
+~
+S
+#24243
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.  A large coffin
+occupying much of the middle of the room catches your eye.
+   The only direction that the crypt leads is to the east.  The
+floor is rather worn down in a track leading from the eastern
+passage to the northern wall.
+~
+242 ADN 0
+D0
+Looking carefully at the northern wall, you notice that something
+is quite out of place in it.  Staring at the worn down track in
+the floor where it meets the wall, you trace your eyes upwards,
+where they discover a well hidden door handle.
+~
+handle~
+1 -1 24242
+D1
+The crypt continues off to the east.
+~
+~
+0 -1 24244
+E
+wall~
+Looking carefully at the northern wall, you notice that something
+is quite out of place in it.  Staring at the worn down track in
+the floor where it meets the wall, you trace your eyes upwards,
+where they discover a well hidden door handle.
+~
+E
+floor track~
+The worn down track in the floor leads to the north wall.  It certainly
+seems to take a lot of hints to get this fact through to you, doesn't it?
+~
+E
+coffin~
+Its BIG and seems to want you to open it but I wouldn't if I were you!
+~
+S
+#24244
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.
+   The crypt continues to the south and west here.  There is
+also a large hole in the eastern wall, through which a fairly
+large amount of light shines through.
+~
+242 ADN 0
+D1
+Through the hole in the eastern wall you can see that a cavern
+opens up.  The cavern also seems to be fairly well lit.
+~
+~
+0 -1 24250
+D2
+The crypt continues off to the south.
+~
+~
+0 -1 24245
+D3
+The crypt continues off to the west.
+~
+~
+0 -1 24243
+S
+#24245
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.
+   The crypt continues to the north and east.
+~
+242 ADN 0
+D0
+The crypt continues off to the north.
+~
+~
+0 -1 24244
+D1
+The crypt continues off to the east.
+~
+~
+0 -1 24246
+S
+#24246
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.
+   The crypt continues to the south and west.
+~
+242 ADN 0
+D2
+The crypt continues off to the south.
+~
+~
+0 -1 24247
+D3
+The crypt continues off to the west.
+~
+~
+0 -1 24245
+S
+#24247
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.
+   The crypt continues to the north and west.
+~
+242 ADN 0
+D0
+The crypt continues off to the north.
+~
+~
+0 -1 24246
+D3
+The crypt continues off to the west.
+~
+~
+0 -1 24248
+S
+#24248
+The Inner Crypt~
+   You continue to wander through this inner crypt.  From past
+experience, you know that this is often where the nobility of
+the realm would be laid to rest after the elaborate ceremonies
+took place upstairs in the cathedral proper.
+
+   The crypt continues east and south here but a strange, VERY warm wind
+blows in an upward direction from the south.  You would have to be CRAZY 
+to RISK entering the wind tunnel.  There is also a large stone door on the 
+western side of the crypt. ~
+242 ADN 0
+D1
+The crypt continues off to the east.
+~
+~
+0 -1 24247
+D2
+Looking in this direction, you can tell that the crypt floor has caved in.
+~
+~
+0 -1 24251
+D3
+A huge stone door sits to the west, blocking the doorway rather nicely.
+The door is covered with strange carvings.
+~
+door~
+2 24211 24249
+E
+door runes carvings~
+The door on the western side of the crypt is covered with strange,
+yet elegant carvings.  Looking somewhat closer at the carvings, you
+notice that they appear to be runes of protection.  Mostly against
+rot and ruin, but there is one near the centre of the design which
+looks to be for protection against the undead.
+~
+S
+#24249
+The Tomb Of Princess Evalynn~
+   This is the tomb in which the legendary Princess Evalynn has been
+entombed for years and years.  Looking about this tomb, you notice
+the numerous candles yet burning about an ebony coffin.  The room
+smells of flowers, roses and carnations to be precise.  A slight
+breeze makes the candles flicker momentarily.  The walls have been
+painted with a multitude of small paintings and designs, probably
+about the life of Princess Evalynn.
+~
+242 D 0
+D1
+A large stone used to stand just to the east, blocking all entrance into
+this wonderous place.
+~
+door~
+1 -1 24248
+E
+coffin~
+The coffin seems to be made of ebony and seems to be very much closed.
+~
+E
+walls wall painting paintings~
+The paintings on the walls show various events in Princess Evalynn's
+life.  One shows her ill-fated wedding day, when the wedding party
+was attacked shortly before the ceremony and Prince Michael was
+carried off by a large golden dragon.  Another shows her donning a
+suit of emerald armor in preparation of war.  She was forced to
+take the kingdom in hand and defend it against many attacks over the
+years by those who thought that Gildoria would fall easily without
+any solid male leadership.
+~
+S
+#24250
+The Large Cavern~
+   This room, er, cavern is quite large as it stretches to the north
+and east and looks to have be carved out of the stone below the
+cathedral's foundations.  Hundreds of thousands of bones lie about
+the cavern in small piles.  There is a rather large pile off in the
+northwestern corner of the cavern.  The stone of the floor has been
+shaped to create a ledge of sorts in the southeastern corner.
+~
+242 D 0
+D3
+A small passageway opens up to the west, making you wonder just how
+anything bigger than an ogre could even get into this chamber.
+~
+~
+0 -1 24244
+S
+#24251
+A Bottomless Pit~
+   Neighbor, it appears that you have chosen the wrong path to continue
+your voyages.  It seems that this pit falls a long, long way, and falling
+to the bottom just might take forever... or your life.
+~
+242 A 9
+D5
+Further down the pit.  It goes on forever you know. Hot, sulphuric wind
+blows upward, stinging your eyes and nose.  Looks like a one way trip
+to hell down there.
+~
+~
+0 -1 24252
+S
+#24252
+Down The Bottomless Pit~
+   You find yourself much, much further down the pit.  It doesn't seem
+like this is going to end anytime soon.  The sides of the pit are quite
+smooth making it obviously impossible to slow your fall.  As you look 
+down into the overwhelming depths, you think you see some type of light 
+reflecting off the sides.  It begins to feel VERY warm in here.
+~ 
+242 A 9
+D5
+The pit is dropping away below you.  It looks to be very deep.  Well,
+then again, if you are going to fall forever, it has to be pretty deep.
+An INTENSE heat and noxious fumes assault you from below. You think you
+can hear Satan himself chuckling at your stupidity for even considering
+venturing further.
+~
+~
+0 -1 24253
+S
+#24253
+Falling Down The Bottomless Pit~
+   You continue your passage down this really deep pit.  You begin to
+wonder just how far from the top you are, and then think to yourself,
+'It doesn't really matter where the top is, I just want to know where
+the bottom is.'  The pit seems to go on in darkness for a good long way 
+but the light is getting stronger. You also notice an INTENSE heat
+radiating from below.
+~
+242 A 9
+D5
+The pit drops away below you, but you notice that there is a good deal
+of reddish-orange light coming from somewhere below. It is extremely
+hard to breathe now due to the gases filling the air. Your hair begins
+to singe, and your face blister as you peer down into the depths of what
+must be hell, below.
+~
+~
+0 -1 24254
+S
+#24254
+Above The Molten Lava~
+   You are currently a short distance above the molten lava which just
+so happens to be below.  The walls of the pit are glassy smooth at this
+point, it is probably that the stone has been melted to that consistency.
+The pit continues down a short distance into the lava.  You are beginning 
+to feel rather hot but as you get closer to your state of delirium, you 
+think you see a ledge you can jump across to -- it may be your salvation.
+~ 
+242 FN 9
+24255 15 1
+S
+#24255
+Burnt Alive In The Molten Lava~
+   Need I really say more?   Suffice to say, after being exposed to
+temperatures well in excess of three thousand degrees, there isn't a
+whole heck of a lot left of you, not even ash.
+~
+242 ADINZ B 0
+S
+#24256
+An Old Stone Road~
+   You find yourself on an old stone road, leading away from a large
+building to the north.  Blocking the road directly to the north is a large
+stone wall with an iron wrought gate planted firmly where the road would
+pass through it.  The building to the north appears to be an old church or
+cathedral.  You can also go west back to the ruins of what used to be 
+Midgaard.
+~ 
+242 AC 3 
+D0 
+An iron wrought gate stands in the middle of the stone wall, and blocks 
+the way northwards into the courtyard of the cathedral. 
+~ 
+gate iron wrought~ 
+1 -1 24201 
+D3
+A road which leads back to the destroyed Midgaard temple.
+~
+~
+0 -1 5379
+S 
+#24257 
+At the Top of the Bell~
+   You made the climb up the bell rope and find yourself standing on a
+platform which was hidden in the bell.  This room is amazingly bright,
+a phenomenon caused by the thing which shares the room with you.  For
+some reason, you feel an overwhelming sense of peace here.
+~
+242 DN 0
+S
+#24258
+At the Pearly White Gates~
+   You stand before a massive set of gates where a large being is 
+standing.  It holds a mighty cross in his hands and his eyes are pure 
+white.  It doesn't seem to notice you yet. 
+~
+242 DN 0
+S
+#24259
+A Ledge Above the Lava~
+   Thankfully, you've discovered this ledge tucked in a safe spot in the 
+rocks above the lava.  If you don't act quickly though, you may still be 
+burnt alive. 
+~
+242 D 0
+S
+#0
+
+#RESETS
+M 0 24201 1 24219         Isaac The Hunchback
+M 0 24202 3 24209         Ghoul
+M 0 24202 3 24210         Ghoul
+M 0 24202 3 24211         Ghoul
+M 0 24203 1 24210         Esmerelda, High Priestess
+E 1 24203 15 3               Sapphire Amulet
+G 1 24204 100                Ivory Key
+O 0 24201 1 24210         Corpse
+P 1 24202 10 24201           Knife
+O 0 24208 3 24212         Ivory Staff
+O 0 24209 100 24212       Coins
+M 0 24204 2 24209         Priest
+M 0 24204 2 24211         Priest
+M 0 24205 1 24250         Wyrenthoth
+E 1 24211 100 17             Gold Key
+O 0 24221 1 24243         Erich's coffin
+H 0 24221 1 24206         Erich The Vampiric Fellow
+E 1 24210 12 16              Rune Sword
+E 1 24214 12 12              Black Cape
+E 1 24215 12 4               Onyx Necklace
+O 0 24205 1 24249         Ebony Coffin
+P 1 24206 1 24205            Evalynn's Corpse
+P 1 24217 20 24206              Avenger
+M 0 24207 1 24236         Giant Zombie
+E 1 24216 10 16              Giant Halberd
+M 0 24208 5 24201         Skeleton
+M 0 24208 5 24202         Skeleton
+E 1 24224 4 9                Saurian gloves
+M 0 24208 5 24202         Skeleton
+M 0 24208 5 24203         Skeleton
+M 0 24208 5 24204         Skeleton
+E 1 24224 4 9                Saurian gloves
+M 0 24209 3 24224         Zombie
+M 0 24209 3 24220         Zombie
+M 0 24209 3 24222         Zombie
+E 1 24223 10 11              Carcass shield
+M 0 24210 5 24224         Shadow
+E 1 24222 10 1               Ring of strength
+M 0 24210 5 24226         Shadow
+M 0 24210 5 24227         Shadow
+M 0 24210 5 24228         Shadow
+E 1 24222 10 1               Ring of strength
+M 0 24210 5 24230         Shadow
+M 0 24211 9 24233         Wight
+M 0 24211 9 24236         Wight
+M 0 24211 9 24238         Wight
+M 0 24211 9 24240         Wight
+M 0 24211 9 24241         Wight
+M 0 24212 4 24243         Wraith
+M 0 24212 4 24244         Wraith
+M 0 24212 4 24246         Wraith
+M 0 24212 4 24248         Wraith
+M 0 24213 1 24232         Banshee Of Mother Superior
+M 0 24214 1 24223         Ghost Of The Abbott
+M 0 24215 1 24242         Mummy
+E 1 24212 100 17             Blood Key
+G 1 24207 4                  Dark Potion 
+M 0 24216 1 24257         Brilliant white light
+E 1 24225 1 16               Power of world
+M 0 24217 1 24258         Archangel
+E 1 24228 1 17               Cross
+* Objects
+O 0 24213 1 24250         Crushed Bones
+P 1 24218 4 24213           Bone in pile
+O 0 24219 1 24219         Rope up
+O 0 24220 1 24257         Rope down
+O 0 24226 1 24257         Portal to gates
+O 0 24227 1 24258         Portal from gates
+O 1 24229 1 24254	  The ledge
+* Doors
+D 0 24201 2 1             Iron Wrought Gates
+D 0 24256 0 1
+D 0 24206 1 1             Confessional
+D 0 24208 3 1 
+D 0 24206 3 1             Confessional
+D 0 24207 1 1
+D 0 24210 7 1             Altar Curtain
+D 0 24211 8 1
+D 0 24211 6 2             Secret Storage Room
+D 0 24212 9 1
+D 0 24221 3 1             Abbot's Room
+D 0 24223 1 1
+D 0 24228 1 1             Mother Superior's Room
+D 0 24232 3 1
+D 0 24242 2 2             Vampire's Inner Crypt
+D 0 24243 0 1
+D 0 24248 3 2             Princess Evalynn's Tomb
+D 0 24249 1 1
+S
+
+#SPECIALS
+M 24205 spec_breath_fire     Dracolich
+M 24206 spec_cast_undead     Vampire
+M 24212 spec_cast_mage       Wraith
+M 24213 spec_cast_cleric     Banshee Mother Superior
+M 24214 spec_cast_cleric     Abbott
+M 24216 spec_cast_mage       Brilliant light
+M 24217 spec_cast_mage       Archangel
+S
+
+#$

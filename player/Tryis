@@ -1,0 +1,226 @@
+#PLAYER
+Name Tryis~
+Id   2107
+LogO 953498407
+Vers 3
+Prom %hhp %mm %vmv %Xexp~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 29
+Plyd 220556
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3241
+HMV  259 259 407 407 268 268
+NewGold 0
+NewPlat 3461
+NewCopp 2
+NewSilv 5
+Bank 10213
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  64101
+Act  252
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 9
+Trai 1
+Alig  1000
+ACs 100 100 100 100
+Wimp  70
+Attr 12 18 13 14 11
+AMod 0 0 0 0 0
+Pass TrReYODkK.bqM~
+Titl  the Maker of Wands~
+Pnts 40
+TSex 1
+LLev 52
+HMVP 259 407 268
+Cond 0 39 0
+Sk 1 'acid blast'
+Sk 79 'armor'
+Sk 99 'burning hands'
+Sk 75 'cancellation'
+Sk 1 'chain lightning'
+Sk 1 'chill touch'
+Sk 95 'colour spray'
+Sk 75 'detect evil'
+Sk 75 'detect good'
+Sk 75 'detect hidden'
+Sk 76 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 75 'dispel magic'
+Sk 1 'enchant armor'
+Sk 1 'enchant weapon'
+Sk 79 'faerie fire'
+Sk 87 'fireball'
+Sk 79 'fire shield'
+Sk 78 'fly'
+Sk 1 'force sword'
+Sk 75 'frost shield'
+Sk 76 'gate'
+Sk 79 'giant strength'
+Sk 83 'haste'
+Sk 1 'haven'
+Sk 1 'heat metal'
+Sk 83 'identify'
+Sk 75 'infravision'
+Sk 1 'know alignment'
+Sk 1 'lightning bolt'
+Sk 82 'locate object'
+Sk 91 'magic missile'
+Sk 1 'major globe'
+Sk 94 'mana convert'
+Sk 77 'pass door'
+Sk 1 'portal'
+Sk 75 'power gloves'
+Sk 75 'protection evil'
+Sk 76 'refresh'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 79 'shield'
+Sk 1 'shocking grasp'
+Sk 77 'slow'
+Sk 77 'stone skin'
+Sk 75 'summon'
+Sk 75 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 77 'dodge'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 75 'wands'
+Sk 86 'recall'
+Sk 83 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'combat'
+Gr 'detection'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+End
+
+#O
+Vnum 66
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6511
+Nest 0
+Wear -1
+Lev  18
+Cost 3600
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#END

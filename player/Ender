@@ -1,0 +1,447 @@
+#PLAYER
+Name Ender~
+Id   57404
+LogO 953441134
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  2
+Cast none
+Levl 22
+Plyd 24993
+ListRemorts ~
+NumRemorts 0
+Note 941137462
+Scro 22
+Room 4208
+HMV  391 394 211 211 169 216
+NewGold 22114
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  51158
+Act  204
+AfBy 524800
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Trai 2
+Alig  -1000
+Hit   7
+Dam   6
+ACs 41 42 32 89
+Attr 17 13 14 12 19
+AMod 0 8 11 0 4
+Pass EniBwGY7BJOJc~
+Titl  the Xenocide~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 394 171 226
+Cond 0 36 39
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 75 'detect invis'
+Sk 25 'faerie fire'
+Sk 75 'fly'
+Sk 75 'giant strength'
+Sk 1 'haste'
+Sk 75 'infravision'
+Sk 1 'lightning bolt'
+Sk 75 'locate object'
+Sk 72 'magic missile'
+Sk 1 'mana convert'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 1 'slow'
+Sk 10 'axe'
+Sk 82 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 77 'shield block'
+Sk 10 'spear'
+Sk 84 'sword'
+Sk 10 'whip'
+Sk 49 'bash'
+Sk 1 'disarm'
+Sk 78 'dodge'
+Sk 72 'kick'
+Sk 82 'parry'
+Sk 77 'rescue'
+Sk 80 'second attack'
+Sk 15 'scrolls'
+Sk 1 'wands'
+Sk 51 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+Gr 'guild enhancement'
+AffD 'fly'  39  20   0   0     524288          0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  13
+Cost 1250
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  5 7 6 0 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear -1
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9929 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 67 0 0 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear -1
+Lev  13
+Cost 190
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  13
+Cost 210
+Cond 100
+Repd 0
+Val  4 4 6 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 4
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 3
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 29015
+Enchanted
+Nest 0
+ExtF 65
+Wear 16
+Lev  18
+Cost 100
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 4 19 0 0
+AffD 'enchant weapon' 51 -1 4 18 0 0
+End
+
+#END

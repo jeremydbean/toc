@@ -1,0 +1,606 @@
+#PLAYER
+Name RedXIII~
+Id   54039
+LogO 953441674
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 50
+Plyd 604386
+ListRemorts ~
+NumRemorts 0
+Note 952065612
+Scro 22
+Room 13261
+HMV  220 778 281 281 424 501
+NewGold 250
+NewPlat 220
+NewCopp 3660
+NewSilv 478
+Bank 2000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 140
+QuestNext 4
+Exp  100002
+Act  204
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 8
+Save  -7
+Alig  830
+Hit   29
+Dam   59
+ACs -128 -113 -124 41
+Wimp  150
+Attr 21 15 18 16 18
+AMod 8 0 0 1 -1
+Pass RedA3rri0dNi2~
+Titl  the Sad Beast {DNG}~
+Pnts 40
+TSex 1
+LLev 164
+HMVP 821 161 394
+Cond 0 12 12
+Alias k kick~
+Sk 75 'axe'
+Sk 84 'dagger'
+Sk 30 'flail'
+Sk 77 'mace'
+Sk 37 'polearm'
+Sk 92 'shield block'
+Sk 30 'spear'
+Sk 100 'sword'
+Sk 30 'whip'
+Sk 16 'disarm'
+Sk 90 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'kick'
+Sk 97 'parry'
+Sk 75 'rescue'
+Sk 100 'second attack'
+Sk 93 'third attack'
+Sk 81 'fast healing'
+Sk 80 'door bash'
+Sk 78 'shove'
+Sk 82 'recall'
+Sk 100 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'giant strength'  40  12   1   1          0          0
+AffD 'armor'  28  23 -20  17          0          0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 88
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 25 -1 -16 13 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  13
+Cost 280
+Cond 72
+Repd 0
+Val  5 4 5 0 0
+Affect -1 13 -1 1 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 -3 2 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  19
+Cost 1000
+Cond 89
+Repd 0
+Val  7 7 5 0 0
+Affect -1 19 -1 -1 2 0 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+Affect -1 20 -1 -16 12 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 95
+Repd 0
+Affect -1 34 -1 -2 13 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 16021
+Nest 0
+Wear 15
+Lev  46
+Cost 1935
+Cond 100
+Repd 0
+Affect -1 46 -1 -4 2 0 0
+End
+
+#O
+Vnum 16021
+Nest 0
+Wear -1
+Lev  46
+Cost 1935
+Cond 100
+Repd 0
+Affect -1 46 -1 -5 3 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 0
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 5312
+Nest 0
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 0
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 10058
+Nest 0
+Wear 5
+Lev  33
+Cost 1800
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+Affect -1 46 -1 17 14 0 0
+End
+
+#O
+Vnum 721
+Nest 0
+Wear 13
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16040
+Nest 0
+Wear -1
+Lev  1
+Cost 11
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Affect -1 48 -1 -4 4 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 0
+Cond 99
+Repd 0
+Val  12 11 12 2 0
+Affect -1 33 -1 2 5 0 0
+End
+
+#O
+Vnum 16040
+Nest 0
+Wear -1
+Lev  1
+Cost 11
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 126 0 0 0
+End
+
+#O
+Vnum 16029
+Nest 0
+Wear -1
+Lev  47
+Cost 2120
+Cond 100
+Repd 0
+Affect -1 47 -1 -1 14 0 0
+Affect -1 47 -1 -15 12 0 0
+Affect -1 47 -1 -4 5 0 0
+Affect -1 47 -1 -15 12 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  51 0 0 0 0
+End
+
+#O
+Vnum 16027
+Nest 0
+Wear -1
+Lev  35
+Cost 60
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16040
+Nest 0
+Wear -1
+Lev  1
+Cost 11
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16006
+Nest 0
+Wear -1
+Lev  43
+Cost 2260
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16036
+Nest 0
+Wear -1
+Lev  42
+Cost 1254
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16036
+Nest 0
+Wear -1
+Lev  42
+Cost 1254
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16036
+Nest 0
+Wear -1
+Lev  42
+Cost 1254
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16040
+Nest 0
+Wear -1
+Lev  1
+Cost 11
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 711
+Nest 0
+Wear -1
+Lev  40
+Cost 1800
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16006
+Nest 0
+Wear -1
+Lev  43
+Cost 2260
+Cond 100
+Repd 0
+Affect -1 43 -1 -1 4 0 0
+End
+
+#O
+Vnum 741
+Nest 0
+Wear -1
+Lev  40
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2101
+Nest 0
+Wear -1
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1504
+Nest 0
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+Val  1 4 3 3 0
+End
+
+#O
+Vnum 16024
+Nest 0
+Wear 16
+Lev  45
+Cost 1641
+Cond 100
+Repd 0
+Val  1 7 7 3 0
+Affect -1 45 -1 -5 13 0 0
+End
+
+#END

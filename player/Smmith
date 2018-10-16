@@ -1,0 +1,1074 @@
+#PLAYER
+Name Smmith~
+Id   19095
+LogO 941148390
+Vers 3
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 35
+Plyd 315576
+ListRemorts ~
+NumRemorts 0
+Note 937252879
+Scro 22
+Room 2412
+HMV  561 561 353 442 114 329
+Gold 75211
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 87
+Exp  79072
+Act  65740
+AfBy 2621960
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -8
+Alig  921
+Hit   15
+Dam   33
+ACs -27 -29 -29 82
+Attr 12 20 13 14 12
+AMod 9 0 0 5 2
+Pass SmzYJVWf.PrNQ~
+Titl .~
+Pnts 40
+TSex 1
+LLev 41
+HMVP 341 412 304
+Cond 0 24 24
+Alias o scan~
+Alias ww where~
+Alias hh c "heat metal"~
+Alias f flee~
+Alias z c "acid"~
+Alias v cast 'detect invis'~
+Alias zz cast slow~
+Alias b cast "lightning bolt"~
+Alias bb c blindness~
+Alias cc c "colour spray"~
+Alias p cast poison~
+Alias power cast "power gloves"~
+Alias fire cast 'fire shield'~
+Alias frost cast 'frost shield'~
+Alias ee cast "energy drain"~
+Alias zzz cast weaken~
+Alias dd c "dispel magic"~
+Alias force cast "force sword"~
+Alias h who~
+Alias ss cast "shocking grasp"~
+Sk 89 'acid blast'
+Sk 84 'armor'
+Sk 75 'blindness'
+Sk 1 'burning hands'
+Sk 75 'cancellation'
+Sk 1 'chain lightning'
+Sk 1 'chill touch'
+Sk 78 'colour spray'
+Sk 75 'curse'
+Sk 78 'detect invis'
+Sk 75 'dispel magic'
+Sk 75 'energy drain'
+Sk 91 'faerie fire'
+Sk 75 'fireball'
+Sk 45 'fire shield'
+Sk 83 'fly'
+Sk 44 'force sword'
+Sk 43 'frost shield'
+Sk 86 'gate'
+Sk 82 'giant strength'
+Sk 94 'haste'
+Sk 1 'haven'
+Sk 43 'heat metal'
+Sk 78 'identify'
+Sk 76 'infravision'
+Sk 91 'lightning bolt'
+Sk 86 'locate object'
+Sk 1 'magic missile'
+Sk 45 'major globe'
+Sk 100 'mana convert'
+Sk 1 'maze'
+Sk 76 'pass door'
+Sk 75 'poison'
+Sk 76 'portal'
+Sk 43 'power gloves'
+Sk 75 'protection evil'
+Sk 79 'refresh'
+Sk 75 'rope trick'
+Sk 85 'sanctuary'
+Sk 79 'shield'
+Sk 75 'shocking grasp'
+Sk 78 'slow'
+Sk 77 'stone skin'
+Sk 75 'summon'
+Sk 1 'teleport'
+Sk 76 'weaken'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 53 'dodge'
+Sk 76 'concoct'
+Sk 75 'scribe'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 1 'wands'
+Sk 67 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'detect invis'  26  10   0   0          8          0
+AffD 'haste'   0   6   4   2    2097152          0
+AffD 'fly'  33  28   0   0     524288          0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 7 -1 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 7354 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  13
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 4 -1 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 6 1 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+Val  6 8 7 -1 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  35 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  2 2 2 -1 0
+End
+
+#O
+Vnum 1361
+Nest 0
+Wear -1
+Lev  21
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 -1 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Affect -1 19 -1 -4 4 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  6 7 6 -1 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear -1
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

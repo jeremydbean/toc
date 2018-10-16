@@ -1,0 +1,116 @@
+#PLAYER
+Name Eternity~
+Id   44086
+LogO 949142598
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  1
+Cast Valh
+Levl 51
+Plyd 16363
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 2497
+HMV  407 407 349 349 400 400
+NewGold 2869
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 800
+Exp  112200
+Act  65724
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 153
+Trai 51
+Alig  1000
+ACs 100 100 100 100
+Attr 12 18 18 14 15
+AMod 0 0 0 0 0
+Pass EtwYj/NG4ScYw~
+Titl  the Hero of the Fifth Order~
+Pnts 40
+TSex 1
+LLev 4
+HMVP 407 349 400
+Cond 0 0 37
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 1 'astral walk'
+Sk 1 'psionic armor'
+Sk 1 'torment'
+Sk 1 'transfusion'
+Sk 10 'axe'
+Sk 79 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 1 'sneak'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 70 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+End
+
+#O
+Vnum 24510
+Nest 0
+Wear -1
+Lev  45
+Cost 670
+Cond 100
+Repd 0
+End
+
+#END

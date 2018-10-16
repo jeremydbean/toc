@@ -1,0 +1,883 @@
+#PLAYER
+Name WanderMan~
+Id   4125
+LogO 941951865
+Vers 3
+Desc Befor you strides in a confidant elf of great stature. He confidently looks around the room and carefully sizes each adn every person up. abnruptl he turns and leaves
+~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 38
+Plyd 947906
+ListRemorts ~
+NumRemorts 0
+Note 941163841
+Scro 22
+Room 16084
+HMV  270 441 370 524 347 347
+Gold 37530
+Bank 117850
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 1149
+Exp  86673
+Act  32974
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 13
+Color 2 8
+Color 3 5
+Color 4 0
+Color 5 0
+Color 6 10
+Color 7 13
+Color 8 6
+Color 9 0
+Color 10 12
+Color 11 11
+Color 12 9
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 2
+Pos  5
+Save  -8
+Alig  1000
+Hit   17
+Dam   35
+ACs -70 -57 -65 64
+Wimp  100
+Attr 12 16 20 15 12
+AMod 8 0 0 2 0
+Pass WaP1JT1WyT/5c~
+Ariv $n slowly steps towards the $T with his eyes downcast~
+Dprt $n leaves the $T fumbling with a CD of Sublime.~
+Titl  Player of the MUD Medievia~
+Pnts 40
+TSex 1
+LLev 242
+HMVP 386 379 322
+Cond 0 0 0
+Sk 78 'aid'
+Sk 92 'armor'
+Sk 86 'bless'
+Sk 78 'calm'
+Sk 78 'cancellation'
+Sk 1 'cause critical'
+Sk 1 'cause light'
+Sk 1 'cause serious'
+Sk 79 'continual light'
+Sk 97 'create food'
+Sk 82 'create spring'
+Sk 75 'create water'
+Sk 84 'cure critical'
+Sk 1 'cure light'
+Sk 95 'cure serious'
+Sk 75 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dispel magic'
+Sk 79 'flamestrike'
+Sk 69 'fly'
+Sk 75 'frenzy'
+Sk 76 'gate'
+Sk 80 'harm'
+Sk 1 'haven'
+Sk 94 'heal'
+Sk 72 'holy word'
+Sk 95 'identify'
+Sk 78 'locate object'
+Sk 73 'major globe'
+Sk 81 'mana convert'
+Sk 75 'mass healing'
+Sk 70 'mass sanctuary'
+Sk 78 'pass door'
+Sk 69 'portal'
+Sk 1 'protection evil'
+Sk 1 'raise dead'
+Sk 1 'divine intervention'
+Sk 86 'refresh'
+Sk 1 'remove curse'
+Sk 82 'rope trick'
+Sk 88 'sanctuary'
+Sk 76 'shield'
+Sk 80 'spiritual hammer'
+Sk 75 'stone skin'
+Sk 69 'summon'
+Sk 41 'teleport'
+Sk 85 'word of recall'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 20 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 94 'sneak'
+Sk 75 'scrolls'
+Sk 76 'staves'
+Sk 75 'wands'
+Sk 78 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'benedictions'
+Gr 'creation'
+Gr 'harmful'
+Gr 'healing'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16014
+Nest 0
+Wear 7
+Lev  36
+Cost 1188
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 9280 0 0
+End
+
+#O
+Vnum 2316
+Nest 0
+Wear 1
+Lev  28
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2316
+Nest 0
+Wear 2
+Lev  28
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 2
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 2
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+End
+
+#O
+Vnum 15011
+Nest 2
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 7 6 0 0
+End
+
+#O
+Vnum 3742
+Nest 2
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 2
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2315
+Nest 2
+Wear -1
+Lev  28
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 2
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 645
+Enchanted
+Nest 0
+Wear 11
+Lev  34
+Cost 500
+Cond 100
+Repd 0
+AffD 'enchant armor' 50 -1 -1 17 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3024
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3024
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3024
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 13281
+Nest 0
+Wear -1
+Lev  25
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29024
+Nest 1
+Wear -1
+Lev  23
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29024
+Nest 1
+Wear -1
+Lev  23
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2003
+Nest 1
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2003
+Nest 1
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  7 8 8 0 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 7806
+Nest 1
+Wear -1
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6511
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  5 7 6 0 0
+End
+
+#O
+Vnum 2319
+Nest 0
+Wear -1
+Lev  28
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear -1
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7303
+Nest 0
+Wear -1
+Lev  28
+Cost 7056
+Cond 100
+Repd 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 45
+Nest 0
+Wear -1
+Time 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

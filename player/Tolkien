@@ -1,0 +1,732 @@
+#PLAYER
+Name Tolkien~
+Id   13518
+LogO 953434816
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  2
+Cast none
+Levl 24
+Plyd 100986
+ListRemorts ~
+NumRemorts 0
+Note 953433338
+Scro 22
+Room 4208
+HMV  426 426 202 202 207 207
+NewGold 3
+NewPlat 3980
+NewCopp 7
+NewSilv 4
+Bank 13942
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  56236
+Act  204
+AfBy 8712
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 7
+Trai 1
+Alig  1000
+Hit   9
+Dam   26
+ACs -39 -34 -35 63
+Attr 17 13 13 12 18
+AMod 12 4 0 3 1
+Pass ToADUIyNo4WNw~
+Titl . ~
+Pnts 40
+TSex 1
+LLev 21
+HMVP 426 211 238
+Cond 0 31 31
+Alias k kick~
+Alias ff cast 'faerie fire'~
+Alias di cast 'detect invis'~
+Alias tit title .~
+Alias ar cast armor~
+Alias 0 level Gratz!~
+Alias re cast refresh~
+Alias fl cast fly~
+Alias mc cast 'mana convert'~
+Alias dm cast 'dispel magic'~
+Alias pe cast 'protection evil'~
+Alias \ who~
+Alias m murder~
+Alias ha cast haste~
+Alias sl cast slow~
+Alias sh shove~
+Sk 28 'armor'
+Sk 1 'burning hands'
+Sk 1 'cancellation'
+Sk 1 'chill touch'
+Sk 30 'detect invis'
+Sk 1 'dispel magic'
+Sk 25 'faerie fire'
+Sk 26 'fly'
+Sk 1 'giant strength'
+Sk 1 'haste'
+Sk 25 'infravision'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 73 'mana convert'
+Sk 25 'protection evil'
+Sk 26 'refresh'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'slow'
+Sk 1 'stone skin'
+Sk 30 'axe'
+Sk 88 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 100 'shield block'
+Sk 30 'spear'
+Sk 96 'sword'
+Sk 30 'whip'
+Sk 2 'bash'
+Sk 1 'disarm'
+Sk 100 'dodge'
+Sk 30 'kick'
+Sk 98 'parry'
+Sk 15 'rescue'
+Sk 44 'second attack'
+Sk 65 'shove'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+Gr 'guild enhancement'
+Gr 'guild protective'
+AffD 'giant strength'   0   4   1   1          0          0
+AffD 'protection evil'   0   2   0   0       8192          0
+AffD 'armor'  24   5 -20  17          0          0
+AffD 'detect invis'  22  17   0   0          8          0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  9
+Cost 1000
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 89
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 0
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  7 7 6 0 0
+End
+
+#O
+Vnum 18017
+Nest 0
+Wear 5
+Lev  16
+Cost 5000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 99
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 -1 14 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+Affect -1 23 -1 1 12 0 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 16049
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24311
+Nest 1
+Wear -1
+Lev  1
+Time 97
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 24314
+Nest 1
+Wear -1
+Lev  1
+Time 46
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'shield'
+End
+
+#O
+Vnum 24313
+Nest 1
+Wear -1
+Lev  1
+Time 10
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24314
+Nest 1
+Wear -1
+Lev  1
+Time 95
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'shield'
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10033
+Nest 1
+Wear -1
+Lev  23
+Cost 1000
+Cond 100
+Repd 0
+Val  2 4 7 2 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 98
+Repd 0
+Val  4 4 3 4 0
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 97
+Repd 0
+Affect -1 4 -1 1 22 0 0
+Affect -1 4 -1 1 23 0 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+Affect -1 15 -1 -13 13 0 0
+Affect -1 15 -1 -4 3 0 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 1
+Cond 97
+Repd 0
+Val  0 0 83 0 0
+Affect -1 0 -1 -6 12 0 0
+Affect -1 0 -1 -7 14 0 0
+End
+
+#O
+Vnum 3020
+Nest 1
+Wear -1
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 7 5 0 0
+Affect -1 18 -1 -1 2 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 99
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 9321
+Nest 1
+Wear -1
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  7 6 8 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 7 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

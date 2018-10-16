@@ -1,0 +1,2097 @@
+Sun Mar 19 11:56:29 2000 :: LOADING COMM TABLE
+Sun Mar 19 11:56:29 2000 ::  INIT OK 
+Sun Mar 19 11:56:29 2000 :: Ended LOADING COMM TABLE
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 3715 maxed out.
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 911 maxed out.
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 911 maxed out.
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (5).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sun Mar 19 11:56:29 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sun Mar 19 11:56:29 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 11:56:29 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sun Mar 19 11:56:29 2000 :: MAXLOAD: vnum 28114 maxed out.
+Sun Mar 19 11:56:29 2000 :: TOC is ready to rock on port 9000.
+Sun Mar 19 11:56:29 2000 :: Setting up signals.
+Sun Mar 19 11:56:32 2000 :: Sock.sinaddr:  195.163.149.132
+Sun Mar 19 11:56:32 2000 :: Automated backup complete.
+Sun Mar 19 11:56:34 2000 :: Sock.sinaddr:  209.130.183.74
+Sun Mar 19 11:56:35 2000 :: Sock.sinaddr:  209.130.183.74
+Sun Mar 19 11:56:35 2000 :: Sock.sinaddr:  194.109.183.44
+Sun Mar 19 11:56:35 2000 :: Loading Misery's playerfile
+Sun Mar 19 11:56:35 2000 :: Misery@209-130-183-74.nas1.FOD.gblx.net has connected. [Room: 2401]
+Sun Mar 19 11:56:35 2000 :: Loading Zyke's playerfile
+Sun Mar 19 11:56:36 2000 :: Zyke@195.163.149.132 has connected. [Room: 4207]
+Sun Mar 19 11:56:36 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 11:56:38 2000 :: Loading Ungrim's playerfile
+Sun Mar 19 11:56:38 2000 :: Ungrim@s340-isdn812.dial.xs4all.nl has connected. [Room: 4207]
+Sun Mar 19 11:56:39 2000 :: Loading Andross's playerfile
+Sun Mar 19 11:56:39 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 2401]
+Sun Mar 19 11:57:46 2000 :: Andross killed by Misery at 2401
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 11:57:46 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 11:57:46 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 11:58:23 2000 :: Sock.sinaddr:  24.0.245.11
+Sun Mar 19 11:58:24 2000 :: Loading Charity's playerfile
+Sun Mar 19 11:58:27 2000 :: Charity@cx876-a.pwtkt1.ri.home.com has connected. [Room: 2]
+Sun Mar 19 11:58:57 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 11:58:57 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 11:58:57 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 11:58:57 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 11:58:57 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 11:58:57 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 11:58:57 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 11:58:57 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 11:58:57 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 11:58:57 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 11:59:06 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 11:59:06 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 11:59:06 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 11:59:06 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 11:59:21 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 11:59:21 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 11:59:21 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 11:59:21 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:00:07 2000 :: Charity has quit. [Room: 16621]
+Sun Mar 19 12:02:53 2000 :: Sock.sinaddr:  207.177.48.161
+Sun Mar 19 12:02:56 2000 :: Loading Canon's playerfile
+Sun Mar 19 12:02:58 2000 :: Canon@blfd-01-32.dialup.netins.net has connected. [Room: 4205]
+Sun Mar 19 12:04:13 2000 :: EOF encountered on read.
+Sun Mar 19 12:04:13 2000 :: Closing link to Zyke.
+Sun Mar 19 12:04:42 2000 :: Ungrim has quit. [Room: 1]
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:04:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:04:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:08:17 2000 :: Sock.sinaddr:  211.74.45.73
+Sun Mar 19 12:08:42 2000 :: Canon has quit. [Room: 4205]
+Sun Mar 19 12:08:42 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:08:42 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:08:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:08:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:08:44 2000 :: Sock.sinaddr:  207.177.48.161
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 12:09:20 2000 :: Sock.sinaddr:  207.177.48.161
+Sun Mar 19 12:09:23 2000 :: Loading HataBax's playerfile
+Sun Mar 19 12:09:24 2000 :: HataBax@blfd-01-32.dialup.netins.net has connected. [Room: 4208]
+Sun Mar 19 12:09:58 2000 :: HataBax killed by The Watcher at 4207
+Sun Mar 19 12:09:58 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:09:58 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:09:58 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:09:58 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:10:16 2000 :: HataBax killed by Andross at 4208
+Sun Mar 19 12:10:24 2000 :: HataBax killed by a cityguard at 4207
+Sun Mar 19 12:10:56 2000 :: HataBax killed by Borip at 2507
+Sun Mar 19 12:12:27 2000 :: Log Andross: drop cor
+Sun Mar 19 12:12:33 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:12:33 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:12:36 2000 :: Log Andross: drop cor
+Sun Mar 19 12:12:36 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:12:36 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:12:51 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:12:51 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:12:51 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:12:51 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:13:17 2000 :: Log HataBax: drop corpse
+Sun Mar 19 12:13:52 2000 :: Log Misery: drop war
+Sun Mar 19 12:13:54 2000 :: Log Misery: drop war
+Sun Mar 19 12:13:56 2000 :: Log Misery: drop war
+Sun Mar 19 12:13:57 2000 :: Log Misery: drop war
+Sun Mar 19 12:13:58 2000 :: Log Misery: drop war
+Sun Mar 19 12:13:59 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:00 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:01 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:02 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:03 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:04 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:05 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:06 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:07 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:08 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:08 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:09 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:10 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:11 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:12 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:13 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:14 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:15 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:16 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:17 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:18 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:19 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:19 2000 :: Zyke has quit. [Room: 2]
+Sun Mar 19 12:14:19 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:21 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:22 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:23 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:24 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:24 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:25 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:26 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:27 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:27 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:28 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:29 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:30 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:30 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:31 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:32 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:33 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:34 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:34 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:46 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:47 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:48 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:49 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:49 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:50 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:51 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:52 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:52 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:53 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:54 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:55 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:55 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:56 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:57 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:58 2000 :: Log Misery: drop war
+Sun Mar 19 12:14:58 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:20 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:22 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:23 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:25 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:26 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:28 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:29 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:31 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:32 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:33 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:35 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:36 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:38 2000 :: Log Misery: drop war
+Sun Mar 19 12:15:39 2000 :: Log Misery: drop war
+Sun Mar 19 12:16:07 2000 :: Log Misery: drop all.war
+Sun Mar 19 12:16:50 2000 :: Log Misery: drop all.war
+Sun Mar 19 12:17:04 2000 :: Log Misery: drop all.war
+Sun Mar 19 12:17:33 2000 :: Log Misery: drop all.war
+Sun Mar 19 12:18:21 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:18:57 2000 :: Log Misery: withdraw 25000 platinum
+Sun Mar 19 12:19:02 2000 :: Log Misery: withdraw 10000 platinum
+Sun Mar 19 12:19:14 2000 :: Log Andross: drop all
+Sun Mar 19 12:19:17 2000 :: Log Misery: drop 10000 platinum
+Sun Mar 19 12:19:24 2000 :: Log Misery: withdraw 10000 platinum
+Sun Mar 19 12:19:26 2000 :: Log Misery: drop 10000 platinum
+Sun Mar 19 12:19:29 2000 :: Log Misery: withdraw 10000 platinum
+Sun Mar 19 12:19:30 2000 :: Log Misery: drop 10000 platinum
+Sun Mar 19 12:19:38 2000 :: Log Misery: with
+Sun Mar 19 12:19:41 2000 :: Log Misery: withdraw 10000 platinum
+Sun Mar 19 12:19:43 2000 :: Log Misery: drop 10000 platinum
+Sun Mar 19 12:19:52 2000 :: Log Misery: withdraw 10000 platinum
+Sun Mar 19 12:19:58 2000 :: Sock.sinaddr:  208.167.147.86
+Sun Mar 19 12:20:01 2000 :: Loading Sajo's playerfile
+Sun Mar 19 12:20:01 2000 :: Sajo@dip-16.maxg1-2.dips.clarion.csonline.net has connected. [Room: 4210]
+Sun Mar 19 12:20:09 2000 :: Log Misery: deposit 7500 platinum
+Sun Mar 19 12:20:22 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:20:25 2000 :: HataBax has quit. [Room: 9794]
+Sun Mar 19 12:20:25 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:20:25 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:20:25 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:20:25 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:20:25 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:20:25 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:20:25 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:20:25 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:20:28 2000 :: Sock.sinaddr:  207.177.48.161
+Sun Mar 19 12:20:36 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:20:41 2000 :: EOF encountered on read.
+Sun Mar 19 12:20:50 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:21:05 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:21:20 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:21:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:21:50 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:22:04 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:22:18 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:22:33 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:22:48 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:23:09 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:23:26 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:23:43 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:23:59 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:24:13 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:24:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:24:44 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:25:04 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:25:19 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:25:36 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:25:51 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:26:07 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:26:23 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:26:38 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:26:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:27:04 2000 :: Sajo has quit. [Room: 4207]
+Sun Mar 19 12:27:04 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:27:04 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:27:04 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:27:04 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:27:04 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 12:27:04 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 12:27:04 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 12:27:04 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 12:27:08 2000 :: Sock.sinaddr:  208.167.147.86
+Sun Mar 19 12:27:08 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:27:14 2000 :: Loading Thiefes's playerfile
+Sun Mar 19 12:27:23 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:27:32 2000 :: Thiefes@dip-16.maxg1-2.dips.clarion.csonline.net new player.
+Sun Mar 19 12:27:37 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:27:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:28:00 2000 :: Thiefes has quit. [Room: 3700]
+Sun Mar 19 12:28:07 2000 :: Log Andross: drop dem
+Sun Mar 19 12:28:07 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:28:11 2000 :: Log Andross: drop claw
+Sun Mar 19 12:28:14 2000 :: Log Andross: drop tent
+Sun Mar 19 12:28:17 2000 :: Log Andross: drop ton
+Sun Mar 19 12:28:22 2000 :: Sock.sinaddr:  208.167.147.86
+Sun Mar 19 12:28:22 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:28:25 2000 :: Loading Sajo's playerfile
+Sun Mar 19 12:28:25 2000 :: Sajo@dip-16.maxg1-2.dips.clarion.csonline.net has connected. [Room: 4207]
+Sun Mar 19 12:28:37 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:28:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:29:07 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:29:24 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:29:41 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:29:58 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:30:13 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:30:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:30:36 2000 :: Sock.sinaddr:  24.0.245.11
+Sun Mar 19 12:30:37 2000 :: Loading Charity's playerfile
+Sun Mar 19 12:30:38 2000 :: Charity@cx876-a.pwtkt1.ri.home.com has connected. [Room: 2]
+Sun Mar 19 12:30:45 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:30:59 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:31:13 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:31:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:31:42 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:31:59 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:32:14 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:32:30 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:32:45 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:33:01 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:33:16 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:33:32 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:33:47 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:34:01 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:34:17 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:34:33 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:34:49 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:35:06 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:35:25 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:35:44 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:35:52 2000 :: Sock.sinaddr:  152.205.248.4
+Sun Mar 19 12:35:54 2000 :: Loading Mask's playerfile
+Sun Mar 19 12:35:55 2000 :: Mask@98CDF804.ipt.aol.com has connected. [Room: 4208]
+Sun Mar 19 12:36:00 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:36:16 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:36:31 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:36:47 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:37:03 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:37:18 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:37:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:37:53 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:38:10 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:38:26 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:38:43 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:38:59 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:39:17 2000 :: Sock.sinaddr:  151.197.212.15
+Sun Mar 19 12:39:19 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:39:21 2000 :: Loading Gravestone's playerfile
+Sun Mar 19 12:39:22 2000 :: Gravestone@adsl-151-197-212-15.bellatlantic.net has connected. [Room: 3]
+Sun Mar 19 12:39:39 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:39:57 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:40:02 2000 :: Log Andross: drop met
+Sun Mar 19 12:40:02 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:40:02 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:40:03 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:40:03 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:40:15 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:40:34 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:40:40 2000 :: Log Andross: drop met
+Sun Mar 19 12:40:40 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:40:40 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:40:40 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:40:40 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:40:53 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:41:09 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:41:26 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:41:34 2000 :: Log Sajo: drop shirt
+Sun Mar 19 12:41:42 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:41:58 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:47:56 2000 :: Mask has quit. [Room: 7405]
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:47:56 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:47:56 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:48:02 2000 :: Sock.sinaddr:  152.205.248.4
+Sun Mar 19 12:48:04 2000 :: Loading Technomancer's playerfile
+Sun Mar 19 12:48:04 2000 :: Technomancer@98CDF804.ipt.aol.com has connected. [Room: 2]
+Sun Mar 19 12:50:32 2000 :: Andross has quit. [Room: 4204]
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:50:32 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:50:32 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:50:48 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:51:05 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:51:20 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:51:36 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:51:51 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:52:08 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:52:25 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:52:41 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:52:57 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:53:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:53:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:53:45 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:53:57 2000 :: Sajo has quit. [Room: 4203]
+Sun Mar 19 12:53:57 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:53:57 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:53:57 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:53:57 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:53:57 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 12:53:57 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 12:53:57 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 12:53:57 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 12:54:02 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:54:03 2000 :: Sock.sinaddr:  208.167.147.86
+Sun Mar 19 12:54:07 2000 :: EOF encountered on read.
+Sun Mar 19 12:54:16 2000 :: Charity has quit. [Room: 24258]
+Sun Mar 19 12:54:19 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:54:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:54:51 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:55:07 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:55:22 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:55:38 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:55:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:56:14 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:56:14 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 12:56:24 2000 :: Loading Bilblo's playerfile
+Sun Mar 19 12:56:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:56:29 2000 :: Loading Bilbo's playerfile
+Sun Mar 19 12:56:30 2000 :: Bilbo@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 809]
+Sun Mar 19 12:56:44 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:56:56 2000 :: Log Technomancer: drop 40000 gold coins
+Sun Mar 19 12:57:00 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:57:18 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:57:34 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:57:49 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:58:05 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:58:21 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:58:37 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:58:53 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:59:11 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:59:27 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:59:45 2000 :: Log Misery: drop all.cake
+Sun Mar 19 12:59:59 2000 :: Technomancer has quit. [Room: 2401]
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 12:59:59 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 12:59:59 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:00:02 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:00:25 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:00:42 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:00:59 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:01:14 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:01:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:01:39 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 13:01:42 2000 :: Loading Andross's playerfile
+Sun Mar 19 13:01:42 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4204]
+Sun Mar 19 13:01:44 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:02:02 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:02:05 2000 :: Sock.sinaddr:  207.18.95.139
+Sun Mar 19 13:02:08 2000 :: Loading Epp's playerfile
+Sun Mar 19 13:02:19 2000 :: Closing link to Epp.
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:02:19 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:02:19 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:02:20 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:02:22 2000 :: Sock.sinaddr:  207.18.95.139
+Sun Mar 19 13:02:24 2000 :: Loading Epp's playerfile
+Sun Mar 19 13:02:29 2000 :: Epp@cc5-139.ccia.com has connected. [Room: 2497]
+Sun Mar 19 13:02:31 2000 :: Epp turned into a PKILLER.
+Sun Mar 19 13:02:38 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:02:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:03:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:03:29 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:03:33 2000 :: Sock.sinaddr:  166.62.36.102
+Sun Mar 19 13:03:36 2000 :: Loading Lau's playerfile
+Sun Mar 19 13:03:37 2000 :: Log Epp: dro gold
+Sun Mar 19 13:03:42 2000 :: Lau@usr10-dialup38.mix1.WillowSprings.cw.net has connected. [Room: 4208]
+Sun Mar 19 13:03:44 2000 :: Lau turned into a PKILLER.
+Sun Mar 19 13:03:48 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:04:11 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:04:28 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:04:46 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:05:02 2000 :: Lau has quit. [Room: 4208]
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:02 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:05:02 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:03 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:05:05 2000 :: Sock.sinaddr:  166.62.36.102
+Sun Mar 19 13:05:12 2000 :: Loading Lau's playerfile
+Sun Mar 19 13:05:17 2000 :: Lau@usr10-dialup38.mix1.WillowSprings.cw.net has connected. [Room: 4208]
+Sun Mar 19 13:05:20 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:05:23 2000 :: Log Epp: dro war
+Sun Mar 19 13:05:41 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:05:49 2000 :: Lau has quit. [Room: 4208]
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:05:49 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:05:49 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:05:53 2000 :: Sock.sinaddr:  166.62.36.102
+Sun Mar 19 13:05:59 2000 :: Loading Tryis's playerfile
+Sun Mar 19 13:06:01 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:06:03 2000 :: Tryis@usr10-dialup38.mix1.WillowSprings.cw.net has connected. [Room: 4216]
+Sun Mar 19 13:06:05 2000 :: Tryis turned into a PKILLER.
+Sun Mar 19 13:06:10 2000 :: Epp killed by Andross at 4208
+Sun Mar 19 13:06:10 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:06:10 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:06:10 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:06:10 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:06:10 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:06:10 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:06:23 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:06:43 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:07:06 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:07:26 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:07:46 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:07:54 2000 :: Log Epp: dro gold
+Sun Mar 19 13:08:02 2000 :: Log Epp: dro 200000 gold
+Sun Mar 19 13:08:06 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:08:09 2000 :: Log Epp: drop 15000 gold
+Sun Mar 19 13:08:21 2000 :: Log Epp: dro 30000 gold
+Sun Mar 19 13:08:26 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:08:26 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:08:26 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:08:26 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:08:26 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:08:26 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:08:27 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:08:36 2000 :: Log Epp: dro hair
+Sun Mar 19 13:08:41 2000 :: Log Epp: dro canoe
+Sun Mar 19 13:08:48 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:09:10 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:09:30 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:09:53 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:10:15 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:10:39 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:11:02 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:11:22 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:11:39 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:11:58 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:12:49 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:12:58 2000 :: Log Epp: dro cor
+Sun Mar 19 13:16:29 2000 :: Misery is a lousy thief!
+Sun Mar 19 13:16:37 2000 :: Misery couldn't rob her way out of a paper bag!
+Sun Mar 19 13:16:46 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:16:49 2000 :: Loading Bilbo's playerfile
+Sun Mar 19 13:16:56 2000 :: Closing link to Bilbo.
+Sun Mar 19 13:16:56 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:16:56 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:16:56 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:16:56 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:16:56 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:16:56 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:16:56 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:16:56 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:16:56 2000 :: Bilbo@1Cust76.tnt1.atlanta2.ga.da.uu.net reconnected. [Room: 4208]
+Sun Mar 19 13:16:58 2000 :: Keep your hands out of there, Misery!
+Sun Mar 19 13:17:51 2000 :: Log Bilbo: deposit 3028 gold
+Sun Mar 19 13:18:12 2000 :: Misery is a lousy thief!
+Sun Mar 19 13:18:58 2000 :: Misery couldn't rob her way out of a paper bag!
+Sun Mar 19 13:19:04 2000 :: Log Bilbo: drop robe
+Sun Mar 19 13:19:06 2000 :: Log Bilbo: drop robe
+Sun Mar 19 13:19:20 2000 :: Log Bilbo: deposit 3000 plat
+Sun Mar 19 13:19:23 2000 :: Misery couldn't rob her way out of a paper bag!
+Sun Mar 19 13:19:30 2000 :: Log Bilbo: deposit 420 plat
+Sun Mar 19 13:19:44 2000 :: Bilbo did a remove all.
+Sun Mar 19 13:19:46 2000 :: Misery couldn't rob her way out of a paper bag!
+Sun Mar 19 13:19:48 2000 :: Log Bilbo: drop all
+Sun Mar 19 13:19:48 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:19:48 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:19:48 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:19:48 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:19:50 2000 :: Bilbo has quit. [Room: 4209]
+Sun Mar 19 13:19:50 2000 :: Epp tried to rob me!
+Sun Mar 19 13:20:05 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:20:10 2000 :: Loading Robert's playerfile
+Sun Mar 19 13:20:13 2000 :: Robert@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4209]
+Sun Mar 19 13:20:17 2000 :: Log Robert: get all
+Sun Mar 19 13:20:17 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:20:17 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:20:17 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:20:17 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:20:20 2000 :: Log Robert: l
+Sun Mar 19 13:20:23 2000 :: Log Robert: quit
+Sun Mar 19 13:20:23 2000 :: Robert has quit. [Room: 4209]
+Sun Mar 19 13:20:23 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:20:23 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:20:23 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:20:23 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:20:23 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:20:23 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:20:23 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:20:23 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:20:26 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:20:32 2000 :: Loading Bilbo's playerfile
+Sun Mar 19 13:20:33 2000 :: Bilbo@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4209]
+Sun Mar 19 13:21:12 2000 :: Log Misery: drop all
+Sun Mar 19 13:21:16 2000 :: Log Bilbo: deposit 3158 plat
+Sun Mar 19 13:21:37 2000 :: Log Bilbo: deposit 3156 plat
+Sun Mar 19 13:21:39 2000 :: Log Misery: drop jug
+Sun Mar 19 13:21:51 2000 :: Log Andross: drop bone
+Sun Mar 19 13:22:29 2000 :: Log Bilbo: deposit 3156 plat
+Sun Mar 19 13:22:52 2000 :: Epp killed by The Watcher at 4207
+Sun Mar 19 13:22:52 2000 :: [GAMEDRIVER] Epp has 119800 exp at level 51. Minimum for level is 119850.
+Sun Mar 19 13:22:52 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:22:52 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:22:52 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:22:52 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:22:52 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:22:52 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:23:17 2000 :: Log Bilbo: deposit 3156 plat
+Sun Mar 19 13:23:27 2000 :: Epp killed by a cityguard at 4207
+Sun Mar 19 13:23:27 2000 :: [GAMEDRIVER] Epp has 119800 exp at level 51. Minimum for level is 119850.
+Sun Mar 19 13:23:39 2000 :: Log Andross: drop excal
+Sun Mar 19 13:23:55 2000 :: Gravestone has quit. [Room: 3]
+Sun Mar 19 13:23:58 2000 :: Log Epp: dro cor
+Sun Mar 19 13:24:44 2000 :: Log Epp: dro cor
+Sun Mar 19 13:24:57 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:24:57 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:24:57 2000 :: Log Misery: drop all.cake
+Sun Mar 19 13:24:58 2000 :: Log Epp: dro 5000 gold
+Sun Mar 19 13:24:59 2000 :: Log Andross: drop all
+Sun Mar 19 13:24:59 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:24:59 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:25:01 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:25:01 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:25:01 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:25:01 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:25:03 2000 :: Log Andross: drop all
+Sun Mar 19 13:25:03 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:25:03 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:25:03 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:25:03 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:25:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:25:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:25:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:25:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:25:04 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:25:04 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:25:09 2000 :: Log Andross: drop all
+Sun Mar 19 13:25:14 2000 :: Log Epp: dro 85000 gold
+Sun Mar 19 13:25:14 2000 :: Log Andross: drop all
+Sun Mar 19 13:25:55 2000 :: Log Bilbo: deposit 3159 plat
+Sun Mar 19 13:26:01 2000 :: Log Andross: drop all
+Sun Mar 19 13:26:01 2000 :: Log Bilbo: deposit 3150 plat
+Sun Mar 19 13:26:07 2000 :: Log Andross: drop all
+Sun Mar 19 13:26:26 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:26:26 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 13:26:26 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 13:26:43 2000 :: Log Bilbo: drop dagger
+Sun Mar 19 13:27:30 2000 :: Tryis has quit. [Room: 4]
+Sun Mar 19 13:27:47 2000 :: Log Epp: dro cor
+Sun Mar 19 13:29:32 2000 :: Log Andross: drop par
+Sun Mar 19 13:29:41 2000 :: Log Andross: drop par
+Sun Mar 19 13:29:45 2000 :: Bilbo has quit. [Room: 4209]
+Sun Mar 19 13:29:48 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:29:52 2000 :: Loading Robert's playerfile
+Sun Mar 19 13:29:54 2000 :: Robert@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4209]
+Sun Mar 19 13:29:58 2000 :: Log Robert: drop all
+Sun Mar 19 13:29:58 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:29:58 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:29:58 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:29:58 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:29:59 2000 :: Log Robert: quit
+Sun Mar 19 13:29:59 2000 :: Robert has quit. [Room: 4209]
+Sun Mar 19 13:30:01 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:30:04 2000 :: Loading Bilbo's playerfile
+Sun Mar 19 13:30:05 2000 :: Bilbo@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4209]
+Sun Mar 19 13:30:09 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:30:09 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:30:09 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:30:09 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:30:12 2000 :: Bilbo has quit. [Room: 4209]
+Sun Mar 19 13:30:12 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:30:12 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:30:12 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:30:12 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:30:12 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:30:12 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:30:12 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:30:12 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:30:14 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:30:23 2000 :: Loading Ikabd's playerfile
+Sun Mar 19 13:30:31 2000 :: Loading Ikabod's playerfile
+Sun Mar 19 13:30:34 2000 :: Ikabod@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4206]
+Sun Mar 19 13:30:51 2000 :: Log Ikabod: drop swo
+Sun Mar 19 13:30:52 2000 :: Ikabod has quit. [Room: 4209]
+Sun Mar 19 13:30:54 2000 :: Sock.sinaddr:  63.25.194.76
+Sun Mar 19 13:30:57 2000 :: Loading Bilbo's playerfile
+Sun Mar 19 13:30:58 2000 :: Bilbo@1Cust76.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4209]
+Sun Mar 19 13:31:38 2000 :: Andross has quit. [Room: 4208]
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:31:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:31:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:31:39 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 13:31:40 2000 :: Loading Harmony's playerfile
+Sun Mar 19 13:31:41 2000 :: Harmony@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4209]
+Sun Mar 19 13:32:43 2000 :: Sock.sinaddr:  24.0.245.11
+Sun Mar 19 13:32:44 2000 :: Loading Charity's playerfile
+Sun Mar 19 13:32:46 2000 :: Charity@cx876-a.pwtkt1.ri.home.com has connected. [Room: 24258]
+Sun Mar 19 13:32:53 2000 :: Charity has quit. [Room: 24258]
+Sun Mar 19 13:33:00 2000 :: Sock.sinaddr:  24.0.245.11
+Sun Mar 19 13:33:01 2000 :: Loading Charity's playerfile
+Sun Mar 19 13:33:02 2000 :: Charity@cx876-a.pwtkt1.ri.home.com has connected. [Room: 24258]
+Sun Mar 19 13:33:10 2000 :: Epp killed by Harmony at 4208
+Sun Mar 19 13:33:10 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:33:10 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:33:10 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:33:10 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:33:10 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:33:10 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:33:24 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:33:24 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:33:24 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:33:24 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:33:24 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:33:24 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:35:19 2000 :: Harmony has quit. [Room: 4209]
+Sun Mar 19 13:35:20 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 13:35:23 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 13:35:23 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4209]
+Sun Mar 19 13:37:17 2000 :: Log Epp: deposit 135 gold
+Sun Mar 19 13:38:02 2000 :: Umbringen has quit. [Room: 4208]
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:38:02 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 13:38:02 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:38:04 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 13:38:05 2000 :: Loading Andross's playerfile
+Sun Mar 19 13:38:06 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 13:39:36 2000 :: Log Epp: deposit 80 platinum
+Sun Mar 19 13:40:16 2000 :: Epp killed by Charity at 2485
+Sun Mar 19 13:40:16 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:40:16 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:40:16 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:40:16 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:40:16 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:40:16 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:40:20 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:40:20 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:40:20 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:40:20 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:40:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:40:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:40:52 2000 :: Log Charity: drop sword
+Sun Mar 19 13:41:00 2000 :: Andross couldn't rob her way out of a paper bag!
+Sun Mar 19 13:41:08 2000 :: Charity did a remove all.
+Sun Mar 19 13:41:39 2000 :: Log Epp: dro cor
+Sun Mar 19 13:41:54 2000 :: Log Epp: dro cor
+Sun Mar 19 13:42:26 2000 :: Log Charity: drop all
+Sun Mar 19 13:43:03 2000 :: Andross has quit. [Room: 4204]
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:43:03 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 13:43:03 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:43:04 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 13:43:07 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 13:43:07 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 13:43:32 2000 :: Log Epp: dro neck
+Sun Mar 19 13:43:34 2000 :: Log Epp: drop copp
+Sun Mar 19 13:43:34 2000 :: Log Epp: drop copp
+Sun Mar 19 13:43:35 2000 :: Log Epp: drop copp
+Sun Mar 19 13:43:42 2000 :: Log Epp: dro metal
+Sun Mar 19 13:43:44 2000 :: Log Epp: dro long
+Sun Mar 19 13:44:16 2000 :: Sock.sinaddr:  209.130.183.74
+Sun Mar 19 13:44:16 2000 :: Loading Misery's playerfile
+Sun Mar 19 13:44:17 2000 :: Misery@209-130-183-74.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 13:44:28 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 13:44:28 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 13:44:28 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 13:44:29 2000 :: Log Epp: dro tin
+Sun Mar 19 13:44:30 2000 :: Sock.sinaddr:  209.130.183.74
+Sun Mar 19 13:44:33 2000 :: Loading Tyrant's playerfile
+Sun Mar 19 13:44:33 2000 :: Tyrant@209-130-183-74.nas1.FOD.gblx.net has connected. [Room: 4206]
+Sun Mar 19 13:44:33 2000 :: Log Epp: dro bone
+Sun Mar 19 13:44:35 2000 :: Log Epp: dro dark
+Sun Mar 19 13:44:40 2000 :: Log Epp: dro tent
+Sun Mar 19 13:44:41 2000 :: Log Epp: dro tent
+Sun Mar 19 13:45:12 2000 :: Log Umbringen: murder ty
+Sun Mar 19 13:46:40 2000 :: Epp has quit. [Room: 2486]
+Sun Mar 19 13:48:58 2000 :: Tyrant has quit. [Room: 4206]
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 13:48:58 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 13:48:58 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 13:49:30 2000 :: Sock.sinaddr:  24.12.31.202
+Sun Mar 19 13:49:32 2000 :: Loading Diablerie's playerfile
+Sun Mar 19 13:49:33 2000 :: Diablerie@c252670-a.scllg1.pa.home.com has connected. [Room: 9969]
+Sun Mar 19 13:49:49 2000 :: Sock.sinaddr:  209.183.93.194
+Sun Mar 19 13:50:29 2000 :: Loading Sacron's playerfile
+Sun Mar 19 13:51:00 2000 :: Sock.sinaddr:  152.169.168.141
+Sun Mar 19 13:51:09 2000 :: Loading Brianna's playerfile
+Sun Mar 19 13:51:22 2000 :: Sacron@ip209-183-93-194.ts.indy.net new player.
+Sun Mar 19 13:52:35 2000 :: Brianna@98A9A88D.ipt.aol.com new player.
+Sun Mar 19 13:55:56 2000 :: Diablerie has quit. [Room: 9969]
+Sun Mar 19 13:55:57 2000 :: Sock.sinaddr:  24.12.31.202
+Sun Mar 19 13:56:00 2000 :: Loading Vladimyr's playerfile
+Sun Mar 19 13:56:00 2000 :: [*****] BUG: Fread_char: no match. 'Gold'
+Sun Mar 19 13:56:01 2000 :: Vladimyr@c252670-a.scllg1.pa.home.com has connected. [Room: 4208]
+Sun Mar 19 13:59:04 2000 :: Vladimyr has quit. [Room: 2401]
+Sun Mar 19 13:59:09 2000 :: Sock.sinaddr:  24.12.31.202
+Sun Mar 19 13:59:15 2000 :: Loading Quit's playerfile
+Sun Mar 19 13:59:28 2000 :: EOF encountered on read.
+Sun Mar 19 14:00:33 2000 :: Log Brianna: drop dagger
+Sun Mar 19 14:00:58 2000 :: Log Sacron: drop all
+Sun Mar 19 14:08:07 2000 :: Charity has quit. [Room: 8197]
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:08:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 14:08:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:08:49 2000 :: Umbringen has quit. [Room: 25289]
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:08:49 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 14:08:49 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:08:50 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:08:50 2000 :: Brianna has quit. [Room: 3712]
+Sun Mar 19 14:08:53 2000 :: Sock.sinaddr:  152.169.168.141
+Sun Mar 19 14:08:54 2000 :: Loading Samus's playerfile
+Sun Mar 19 14:08:54 2000 :: Samus@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 14:08:54 2000 :: [ADD_MONEY] Trying to substract 1 money while char Bilbo has no money left.
+
+Sun Mar 19 14:08:55 2000 :: Loading Brianna's playerfile
+Read_from_descriptor: Broken pipe
+Sun Mar 19 14:08:55 2000 :: Closing link to Brianna.
+Sun Mar 19 14:10:42 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 14:10:43 2000 :: Loading Dominique's playerfile
+Sun Mar 19 14:10:45 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 14:10:56 2000 :: Sock.sinaddr:  207.177.48.161
+Sun Mar 19 14:10:57 2000 :: EOF encountered on read.
+Sun Mar 19 14:12:35 2000 :: EOF encountered on read.
+Sun Mar 19 14:12:35 2000 :: Closing link to Bilbo.
+Sun Mar 19 14:14:14 2000 :: Sock.sinaddr:  216.248.86.206
+Sun Mar 19 14:14:16 2000 :: Log Sacron: drop all
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 14:14:43 2000 :: Samus has quit. [Room: 4208]
+Sun Mar 19 14:14:45 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:14:47 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 14:14:48 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 25289]
+Sun Mar 19 14:15:58 2000 :: Log Sacron: drop all
+Sun Mar 19 14:17:49 2000 :: Sock.sinaddr:  130.212.10.236
+Sun Mar 19 14:17:50 2000 :: Loading Poco's playerfile
+Sun Mar 19 14:18:01 2000 :: Poco@orion.sfsu.edu has connected. [Room: 29060]
+Sun Mar 19 14:20:14 2000 :: Sock.sinaddr:  209.197.225.8
+Sun Mar 19 14:20:19 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 14:20:23 2000 :: Azleshun@dallas.tx.tnt1.8.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 14:20:41 2000 :: Bilbo has quit. [Room: 2]
+Sun Mar 19 14:20:41 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 14:20:41 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:20:41 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 14:20:41 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:20:41 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 14:20:41 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:20:41 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 14:20:41 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:23:04 2000 :: Poco has quit. [Room: 29060]
+Sun Mar 19 14:23:04 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 14:23:04 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:23:04 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 14:23:04 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:25:40 2000 :: Log Azleshun: drop banner
+Sun Mar 19 14:25:49 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:25:49 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 14:25:49 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:25:53 2000 :: Sock.sinaddr:  209.197.225.8
+Sun Mar 19 14:26:46 2000 :: Loading Lilith's playerfile
+Sun Mar 19 14:26:49 2000 :: Lilith@dallas.tx.tnt1.8.fastlane.net has connected. [Room: 3734]
+Sun Mar 19 14:29:43 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 14:30:14 2000 :: Umbringen has quit. [Room: 4208]
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:30:14 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 14:30:14 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:30:16 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:30:17 2000 :: Loading Samus's playerfile
+Sun Mar 19 14:30:17 2000 :: Samus@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 14:33:01 2000 :: Log Lilith: drop toy
+Sun Mar 19 14:33:05 2000 :: Log Lilith: drop toy
+Sun Mar 19 14:33:08 2000 :: Log Lilith: drop id
+Sun Mar 19 14:33:10 2000 :: Log Lilith: drop id
+Sun Mar 19 14:33:23 2000 :: Log Lilith: drop cube
+Sun Mar 19 14:33:55 2000 :: Samus has quit. [Room: 4208]
+Sun Mar 19 14:33:56 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:33:58 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 14:33:59 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 14:35:06 2000 :: Sacron has quit. [Room: 4207]
+Sun Mar 19 14:36:50 2000 :: Umbringen has quit. [Room: 25289]
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:36:50 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 14:36:50 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:41:10 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 14:41:12 2000 :: Loading Permanent's playerfile
+Sun Mar 19 14:41:13 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 14:43:58 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:44:00 2000 :: Loading Andross's playerfile
+Sun Mar 19 14:44:00 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4204]
+Sun Mar 19 14:44:38 2000 :: Andross has quit. [Room: 4204]
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 14:44:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 14:44:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 14:44:39 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 14:44:41 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 14:44:42 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 25289]
+Sun Mar 19 14:44:58 2000 :: Sock.sinaddr:  166.62.173.70
+Sun Mar 19 14:45:02 2000 :: Loading Tryis's playerfile
+Sun Mar 19 14:45:05 2000 :: Tryis@usr47-dialup68.mix1.WillowSprings.cw.net has connected. [Room: 4]
+Sun Mar 19 14:45:22 2000 :: Sock.sinaddr:  203.56.244.126
+Sun Mar 19 14:45:25 2000 :: Loading Gipsy's playerfile
+Sun Mar 19 14:45:26 2000 :: Gipsy@modem006.shaitan.comcen.com.au has connected. [Room: 29206]
+Sun Mar 19 14:52:38 2000 :: Log Lilith: drop war
+Sun Mar 19 14:52:54 2000 :: Log Lilith: drop banner
+Sun Mar 19 15:00:28 2000 :: Gipsy has quit. [Room: 14043]
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 15:00:28 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 15:00:28 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 15:01:00 2000 :: Sock.sinaddr:  203.56.244.126
+Sun Mar 19 15:01:03 2000 :: Loading Zola's playerfile
+Sun Mar 19 15:01:04 2000 :: Zola@modem006.shaitan.comcen.com.au has connected. [Room: 3717]
+Sun Mar 19 15:01:13 2000 :: Sock.sinaddr:  209.183.87.90
+Sun Mar 19 15:01:15 2000 :: Loading Sacron's playerfile
+Sun Mar 19 15:01:32 2000 :: Sacron@ip209-183-87-90.ts.indy.net has connected. [Room: 4207]
+Sun Mar 19 15:04:16 2000 :: Sock.sinaddr:  24.0.245.11
+Sun Mar 19 15:04:18 2000 :: Loading Alma's playerfile
+Sun Mar 19 15:04:25 2000 :: Alma@cx876-a.pwtkt1.ri.home.com new player.
+Sun Mar 19 15:12:48 2000 :: Sock.sinaddr:  209.197.225.16
+Sun Mar 19 15:12:49 2000 :: Lilith has quit. [Room: 2]
+Sun Mar 19 15:13:03 2000 :: Loading Lilith's playerfile
+Sun Mar 19 15:13:05 2000 :: Lilith@dallas.tx.tnt1.16.fastlane.net has connected. [Room: 4207]
+Sun Mar 19 15:13:42 2000 :: Alma has quit. [Room: 4207]
+Sun Mar 19 15:14:57 2000 :: Umbringen has quit. [Room: 25289]
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:14:57 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 15:14:57 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:16:52 2000 :: Zola has quit. [Room: 2]
+Sun Mar 19 15:17:18 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:17:24 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:17:25 2000 :: Loading Killrand's playerfile
+Sun Mar 19 15:17:26 2000 :: Killrand@dialup245.serv.net has connected. [Room: 2]
+Sun Mar 19 15:17:38 2000 :: Log Killrand: drop targ
+Sun Mar 19 15:17:42 2000 :: Log Killrand: drop quick
+Sun Mar 19 15:17:43 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 15:17:43 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:17:43 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:17:43 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:17:43 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:17:43 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:17:43 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:17:43 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:17:43 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:17:49 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:17:50 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:17:51 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:19:48 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:19:54 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:19:56 2000 :: Loading Killrand's playerfile
+Sun Mar 19 15:19:56 2000 :: Killrand@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:23:07 2000 :: Sock.sinaddr:  216.248.86.193
+Sun Mar 19 15:23:19 2000 :: Loading GoldKnight's playerfile
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 15:23:22 2000 :: Closing link to GoldKnight.
+Sun Mar 19 15:23:27 2000 :: Sock.sinaddr:  216.248.86.193
+Sun Mar 19 15:23:32 2000 :: Loading GoldRose's playerfile
+Sun Mar 19 15:23:40 2000 :: Closing link to GoldRose.
+Sun Mar 19 15:23:51 2000 :: Sacron has quit. [Room: 3759]
+Sun Mar 19 15:23:54 2000 :: Killrand has quit. [Room: 4207]
+Sun Mar 19 15:23:54 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:23:54 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:23:54 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:23:54 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:23:54 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:23:54 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:23:54 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:23:54 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:24:01 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:24:02 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:24:02 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:25:32 2000 :: Log Lilith: drop sub belt
+Sun Mar 19 15:28:38 2000 :: Log Lilith: drop war
+Sun Mar 19 15:28:47 2000 :: Log Lilith: drop boots
+Sun Mar 19 15:29:20 2000 :: Log Lilith: drop belt
+Sun Mar 19 15:29:51 2000 :: Log Lilith: drop belt
+Sun Mar 19 15:29:56 2000 :: Log Lilith: drop legg
+Sun Mar 19 15:30:19 2000 :: Sock.sinaddr:  209.155.190.26
+Sun Mar 19 15:30:23 2000 :: Loading Darkside's playerfile
+Sun Mar 19 15:30:23 2000 :: DarkSide@209.155.190.26 has connected. [Room: 2473]
+Sun Mar 19 15:34:44 2000 :: Lilith has quit. [Room: 4210]
+Sun Mar 19 15:34:47 2000 :: Sock.sinaddr:  209.197.225.16
+Sun Mar 19 15:34:51 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 15:34:55 2000 :: Azleshun@dallas.tx.tnt1.16.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 15:35:10 2000 :: DarkSide has quit. [Room: 2473]
+Sun Mar 19 15:35:10 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:35:10 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:35:10 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:35:10 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:36:33 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:36:39 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:36:41 2000 :: Loading Killrand's playerfile
+Sun Mar 19 15:36:41 2000 :: Killrand@dialup245.serv.net has connected. [Room: 4207]
+Sun Mar 19 15:37:34 2000 :: Log Killrand: drop light
+Sun Mar 19 15:37:35 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 15:37:35 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:37:35 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:37:35 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:37:35 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:37:35 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 15:37:35 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:37:35 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 15:37:35 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:37:42 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:37:43 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:37:43 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:37:58 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:38:06 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:38:08 2000 :: Loading Linkdead's playerfile
+Sun Mar 19 15:38:08 2000 :: Linkdead@dialup245.serv.net has connected. [Room: 2626]
+Sun Mar 19 15:38:09 2000 :: Do_remove: Azleshun : holy
+Sun Mar 19 15:38:56 2000 :: Log Linkdead: drop cloak
+Sun Mar 19 15:38:57 2000 :: Log Linkdead: drop cloak
+Sun Mar 19 15:38:59 2000 :: Log Linkdead: drop bracer
+Sun Mar 19 15:38:59 2000 :: Log Linkdead: drop bracer
+Sun Mar 19 15:39:01 2000 :: Log Linkdead: drop pi
+Sun Mar 19 15:39:10 2000 :: Log Linkdead: drop piwa
+Sun Mar 19 15:39:13 2000 :: Log Linkdead: drop roman
+Sun Mar 19 15:39:15 2000 :: Log Linkdead: drop roman
+Sun Mar 19 15:39:17 2000 :: Linkdead has quit. [Room: 2626]
+Sun Mar 19 15:39:17 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:39:17 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:39:17 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:39:17 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:39:23 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:39:24 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:39:25 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:39:55 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:40:01 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:40:02 2000 :: Loading Linkdead's playerfile
+Sun Mar 19 15:40:02 2000 :: Linkdead@dialup245.serv.net has connected. [Room: 2626]
+Sun Mar 19 15:40:07 2000 :: Tryis has quit. [Room: 2]
+Sun Mar 19 15:40:51 2000 :: Log Linkdead: drop cloak
+Sun Mar 19 15:40:51 2000 :: Log Linkdead: drop cloak
+Sun Mar 19 15:40:53 2000 :: Log Linkdead: drop roman
+Sun Mar 19 15:40:54 2000 :: Log Linkdead: drop roman
+Sun Mar 19 15:40:57 2000 :: Log Linkdead: drop piwa
+Sun Mar 19 15:40:58 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:40:58 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 15:40:58 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:41:01 2000 :: Log Linkdead: drop bracer
+Sun Mar 19 15:41:01 2000 :: Log Linkdead: drop bracer
+Sun Mar 19 15:41:10 2000 :: Sock.sinaddr:  207.177.48.233
+Sun Mar 19 15:41:10 2000 :: Log Linkdead: drop bracer
+Sun Mar 19 15:41:12 2000 :: Linkdead has quit. [Room: 4209]
+Sun Mar 19 15:41:12 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:41:12 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:41:12 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:41:12 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:41:13 2000 :: EOF encountered on read.
+Sun Mar 19 15:41:17 2000 :: Sock.sinaddr:  207.207.70.174
+Sun Mar 19 15:41:18 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:41:18 2000 :: Permanent@dialup245.serv.net has connected. [Room: 4209]
+Sun Mar 19 15:42:13 2000 :: Sock.sinaddr:  24.67.78.88
+Sun Mar 19 15:42:19 2000 :: Loading Guko's playerfile
+Sun Mar 19 15:42:21 2000 :: Guko@24.67.78.88.ab.wave.home.com has connected. [Room: 3737]
+Sun Mar 19 15:43:30 2000 :: Sock.sinaddr:  24.67.78.88
+Sun Mar 19 15:43:34 2000 :: Loading Gohon's playerfile
+Sun Mar 19 15:43:36 2000 :: Gohon@24.67.78.88.ab.wave.home.com has connected. [Room: 2483]
+Sun Mar 19 15:43:53 2000 :: Guko has quit. [Room: 3737]
+Sun Mar 19 15:45:10 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 15:45:11 2000 :: Loading Dominique's playerfile
+Sun Mar 19 15:45:13 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 15:46:34 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 15:49:19 2000 :: Log Gohon: drop bracelet
+Sun Mar 19 15:50:17 2000 :: Gohon has quit. [Room: 4210]
+Sun Mar 19 15:50:29 2000 :: Sock.sinaddr:  24.67.78.88
+Sun Mar 19 15:50:33 2000 :: Loading Guko's playerfile
+Sun Mar 19 15:50:36 2000 :: Guko@24.67.78.88.ab.wave.home.com has connected. [Room: 3737]
+Sun Mar 19 15:51:56 2000 :: Sock.sinaddr:  209.183.86.189
+Sun Mar 19 15:51:59 2000 :: Loading Sacron's playerfile
+Sun Mar 19 15:52:05 2000 :: Sacron@ip209-183-86-189.ts.indy.net has connected. [Room: 3759]
+Sun Mar 19 15:52:38 2000 :: Log Guko: drop jerkin
+Sun Mar 19 15:53:08 2000 :: Log Guko: drop key 
+Sun Mar 19 15:53:33 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 15:53:34 2000 :: Loading Permanent's playerfile
+Sun Mar 19 15:53:35 2000 :: Log Guko: drop necklace
+Sun Mar 19 15:53:37 2000 :: Closing link to Permanent.
+Sun Mar 19 15:53:37 2000 :: Permanent@dialup240.serv.net reconnected. [Room: 4209]
+Sun Mar 19 15:56:56 2000 :: Sock.sinaddr:  216.129.149.5
+Sun Mar 19 15:56:59 2000 :: Loading Ungrim's playerfile
+Sun Mar 19 15:57:05 2000 :: Ungrim@ns1.wetdirt.com has connected. [Room: 1]
+Sun Mar 19 15:57:44 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 15:57:46 2000 :: Loading Andross's playerfile
+Sun Mar 19 15:57:46 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4204]
+Sun Mar 19 15:59:00 2000 :: Ungrim has quit. [Room: 4800]
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 15:59:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 15:59:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 15:59:06 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 15:59:12 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 15:59:13 2000 :: Loading Killrand's playerfile
+Sun Mar 19 15:59:14 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 16:03:10 2000 :: Sock.sinaddr:  208.29.104.28
+Sun Mar 19 16:03:36 2000 :: Loading RedRider's playerfile
+Sun Mar 19 16:03:40 2000 :: RedRider@pm5port8.clarion.pcidu.com has connected. [Room: 3772]
+Sun Mar 19 16:04:31 2000 :: Log Andross: drop pike
+Sun Mar 19 16:04:34 2000 :: Log Andross: drop bra
+Sun Mar 19 16:04:34 2000 :: Log Andross: drop bra
+Sun Mar 19 16:05:29 2000 :: Log Sacron: drop all
+Sun Mar 19 16:08:10 2000 :: RedRider killed by The mutant beastly fido at 9402
+Sun Mar 19 16:09:07 2000 :: Andross is a lousy thief!
+Sun Mar 19 16:09:55 2000 :: Andross tried to rob me!
+Sun Mar 19 16:09:58 2000 :: Log Guko: drop glasses
+Sun Mar 19 16:10:01 2000 :: Log Guko: drop vest 
+Sun Mar 19 16:10:52 2000 :: Log Sacron: drop all
+Sun Mar 19 16:11:28 2000 :: MAXLOAD: vnum 3715 maxed out.
+Sun Mar 19 16:12:56 2000 :: Log Guko: drop banner 
+Sun Mar 19 16:15:07 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 16:15:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:15:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:15:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:15:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:15:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Andross has quit. [Room: 4208]
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:15:13 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:15:13 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:15:15 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 16:15:17 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 16:15:18 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 25289]
+Sun Mar 19 16:16:07 2000 :: Umbringen has quit. [Room: 25289]
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:16:07 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 16:16:07 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:18:06 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 16:18:07 2000 :: Loading Permanent's playerfile
+Sun Mar 19 16:18:08 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 16:20:07 2000 :: Sacron killed by The mutant beastly fido at 9401
+Sun Mar 19 16:20:11 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 16:20:18 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 16:20:20 2000 :: Loading Killrand's playerfile
+Sun Mar 19 16:20:20 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 16:20:47 2000 :: Killrand has quit. [Room: 19234]
+Sun Mar 19 16:20:47 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:20:47 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:20:47 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:20:47 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:20:47 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:20:47 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:20:47 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:20:47 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:20:59 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 16:21:01 2000 :: Loading Permanent's playerfile
+Sun Mar 19 16:21:01 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 16:23:40 2000 :: Sacron has quit. [Room: 4207]
+Sun Mar 19 16:30:39 2000 :: Log Guko: drop all 
+Sun Mar 19 16:31:26 2000 :: Sock.sinaddr:  209.130.184.190
+Sun Mar 19 16:31:29 2000 :: Loading Misery's playerfile
+Sun Mar 19 16:31:29 2000 :: Misery@209-130-184-190.nas2.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 16:32:03 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:32:18 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:32:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:32:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:33:08 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:33:24 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:33:41 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:33:58 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:34:00 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 16:34:01 2000 :: Loading Dominique's playerfile
+Sun Mar 19 16:34:03 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 16:34:14 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:34:31 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:34:49 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:35:07 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:35:22 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:35:37 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:35:39 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 16:35:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:36:09 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:36:24 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:36:40 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:36:57 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:37:13 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 16:37:13 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:37:15 2000 :: Loading Andross's playerfile
+Sun Mar 19 16:37:16 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 16:37:30 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:37:47 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:38:04 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:38:21 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:38:37 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:38:38 2000 :: Guko killed by the shark at 7722
+Sun Mar 19 16:38:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:39:13 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:39:30 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:39:47 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:40:05 2000 :: Log Misery: drop all.cake
+Sun Mar 19 16:40:37 2000 :: Guko has deleted.
+Sun Mar 19 16:40:37 2000 :: Guko has quit. [Room: 9412]
+Sun Mar 19 16:40:43 2000 :: Sock.sinaddr:  24.67.78.88
+Sun Mar 19 16:40:47 2000 :: Loading Gohon's playerfile
+Sun Mar 19 16:40:49 2000 :: Gohon@24.67.78.88.ab.wave.home.com has connected. [Room: 4210]
+Sun Mar 19 16:42:02 2000 :: Andross has quit. [Room: 4208]
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:42:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 16:42:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:42:49 2000 :: Log Gohon: drop hammer 
+Sun Mar 19 16:43:22 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 16:43:22 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 16:43:22 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 16:47:19 2000 :: RedRider killed by The mutant beastly fido at 9405
+Sun Mar 19 16:55:36 2000 :: Permanent has quit. [Room: 2]
+Sun Mar 19 16:55:47 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 16:55:48 2000 :: Loading Permanent's playerfile
+Sun Mar 19 16:55:49 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 16:57:49 2000 :: Gohon has quit. [Room: 4207]
+Sun Mar 19 16:59:54 2000 :: Sock.sinaddr:  151.203.49.106
+Sun Mar 19 17:00:00 2000 :: Loading Paz's playerfile
+Sun Mar 19 17:00:23 2000 :: Paz@adsl-151-203-49-106.bellatlantic.net new player.
+Sun Mar 19 17:01:27 2000 :: EOF encountered on read.
+Sun Mar 19 17:01:27 2000 :: Closing link to Paz.
+Sun Mar 19 17:07:11 2000 :: Sock.sinaddr:  209.254.135.144
+Sun Mar 19 17:07:13 2000 :: Loading Deejer's playerfile
+Sun Mar 19 17:07:14 2000 :: Deejer@PRISB109-41.splitrock.net has connected. [Room: 6609]
+Sun Mar 19 17:08:46 2000 :: EOF encountered on read.
+Sun Mar 19 17:08:46 2000 :: Closing link to Deejer.
+Sun Mar 19 17:10:27 2000 :: Paz has quit. [Room: 2]
+Sun Mar 19 17:12:28 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 17:12:30 2000 :: Loading Andross's playerfile
+Sun Mar 19 17:12:31 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 17:15:18 2000 :: Permanent has quit. [Room: 4207]
+Sun Mar 19 17:15:24 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:15:25 2000 :: Loading Killrand's playerfile
+Sun Mar 19 17:15:26 2000 :: Killrand@dialup240.serv.net has connected. [Room: 2]
+Sun Mar 19 17:16:39 2000 :: Sock.sinaddr:  206.229.116.60
+Sun Mar 19 17:17:24 2000 :: Sock.sinaddr:  207.177.48.131
+Sun Mar 19 17:17:27 2000 :: Loading Canon's playerfile
+Sun Mar 19 17:17:29 2000 :: Canon@blfd-01-02.dialup.netins.net has connected. [Room: 4205]
+Sun Mar 19 17:17:32 2000 :: Loading Qhixote's playerfile
+Sun Mar 19 17:17:38 2000 :: Loading Quixote's playerfile
+Sun Mar 19 17:17:42 2000 :: Quixote@pm1port40.clarion.pcidu.com has connected. [Room: 4207]
+Sun Mar 19 17:18:08 2000 :: Log Canon: drop sci
+Sun Mar 19 17:18:15 2000 :: Sock.sinaddr:  209.197.225.10
+Sun Mar 19 17:18:16 2000 :: Sock.sinaddr:  209.197.225.10
+Sun Mar 19 17:18:16 2000 :: EOF encountered on read.
+Sun Mar 19 17:18:16 2000 :: EOF encountered on read.
+Sun Mar 19 17:18:23 2000 :: Sock.sinaddr:  209.197.225.10
+Sun Mar 19 17:18:28 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 17:18:30 2000 :: Azleshun@dallas.tx.tnt1.10.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 17:18:40 2000 :: Andross has quit. [Room: 4208]
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:40 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:18:40 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:18:44 2000 :: Deejer has quit. [Room: 2]
+Sun Mar 19 17:18:46 2000 :: Canon has quit. [Room: 4205]
+Sun Mar 19 17:18:46 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 17:18:46 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:18:46 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 17:18:46 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:20:38 2000 :: Killrand has quit. [Room: 4207]
+Sun Mar 19 17:20:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:20:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:20:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:20:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:20:38 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:20:38 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:20:38 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:20:38 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:20:43 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:20:44 2000 :: Loading Permanent's playerfile
+Sun Mar 19 17:20:45 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4207]
+Sun Mar 19 17:29:18 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:29:18 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 17:29:18 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:29:21 2000 :: Sock.sinaddr:  209.197.225.10
+Sun Mar 19 17:29:28 2000 :: Loading Lilith's playerfile
+Sun Mar 19 17:29:30 2000 :: Lilith@dallas.tx.tnt1.10.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 17:29:58 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 17:29:59 2000 :: Loading Dominique's playerfile
+Sun Mar 19 17:30:01 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 17:30:34 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 17:35:10 2000 :: Log Permanent: drop br
+Sun Mar 19 17:35:10 2000 :: Log Permanent: drop br
+Sun Mar 19 17:35:43 2000 :: Log Permanent: drop br
+Sun Mar 19 17:39:11 2000 :: Sock.sinaddr:  195.121.150.204
+Sun Mar 19 17:39:14 2000 :: Loading Blackbird's playerfile
+Sun Mar 19 17:39:17 2000 :: Blackbird@ipc37996cc.dial.wxs.nl has connected. [Room: 2412]
+Sun Mar 19 17:39:55 2000 :: Blackbird has quit. [Room: 2412]
+Sun Mar 19 17:39:55 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:39:55 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:39:55 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:39:55 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:39:55 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:39:55 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:39:55 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:39:55 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:41:55 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 17:42:03 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:42:04 2000 :: Loading Killrand's playerfile
+Sun Mar 19 17:42:05 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4207]
+Sun Mar 19 17:43:12 2000 :: EOF encountered on read.
+Sun Mar 19 17:43:12 2000 :: Closing link to RedRider.
+Sun Mar 19 17:43:48 2000 :: Log Killrand: drop rhym
+Sun Mar 19 17:43:49 2000 :: Log Killrand: drop rhym
+Sun Mar 19 17:43:49 2000 :: Log Killrand: drop rhym
+Sun Mar 19 17:43:50 2000 :: Log Killrand: drop rhym
+Sun Mar 19 17:43:51 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 17:43:51 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:43:51 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:43:51 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:43:51 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:43:51 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:43:51 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:43:51 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:43:51 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:44:00 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:44:01 2000 :: Loading Permanent's playerfile
+Sun Mar 19 17:44:02 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 17:48:28 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 17:48:34 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:48:35 2000 :: Loading Killrand's playerfile
+Sun Mar 19 17:48:36 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 17:50:20 2000 :: Lilith has quit. [Room: 4210]
+Sun Mar 19 17:50:31 2000 :: Log Killrand: drop rhy
+Sun Mar 19 17:50:31 2000 :: Log Killrand: drop rhy
+Sun Mar 19 17:50:31 2000 :: Log Killrand: drop rhy
+Sun Mar 19 17:50:32 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 17:50:32 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:50:32 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:50:32 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:50:32 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:50:32 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 17:50:32 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:50:32 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 17:50:32 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:50:38 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 17:50:39 2000 :: Loading Permanent's playerfile
+Sun Mar 19 17:50:40 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 17:51:02 2000 :: Sock.sinaddr:  209.197.225.10
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 17:51:32 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 17:51:34 2000 :: Loading Andross's playerfile
+Sun Mar 19 17:51:35 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 17:52:03 2000 :: RedRider has quit. [Room: 2]
+Sun Mar 19 17:55:43 2000 :: Quixote killed by John Doe at 10036
+Sun Mar 19 17:55:54 2000 :: Sock.sinaddr:  209.197.225.251
+Sun Mar 19 17:56:27 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 17:56:30 2000 :: Azleshun@dallas.tx.tnt1.251.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 17:56:37 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 17:56:37 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 17:56:37 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 17:56:41 2000 :: Sock.sinaddr:  209.197.225.251
+Sun Mar 19 17:56:45 2000 :: Loading Lilith's playerfile
+Sun Mar 19 17:56:48 2000 :: Lilith@dallas.tx.tnt1.251.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 17:58:27 2000 :: Log Andross: drop eky
+Sun Mar 19 17:58:31 2000 :: Log Andross: drop key
+Sun Mar 19 18:01:36 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 18:01:41 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:01:43 2000 :: Loading Killrand's playerfile
+Sun Mar 19 18:01:43 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 18:02:03 2000 :: Lilith has quit. [Room: 4210]
+Sun Mar 19 18:02:15 2000 :: Sock.sinaddr:  209.197.225.251
+Sun Mar 19 18:02:41 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 18:02:43 2000 :: Azleshun@dallas.tx.tnt1.251.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 18:04:22 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:04:22 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 18:04:22 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:06:56 2000 :: Killrand has quit. [Room: 4208]
+Sun Mar 19 18:06:56 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:06:56 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:06:56 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:06:56 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:06:56 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:06:56 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:06:56 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:06:56 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:07:03 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:07:04 2000 :: Loading Kaisho's playerfile
+Sun Mar 19 18:07:04 2000 :: Kaisho@dialup240.serv.net has connected. [Room: 4201]
+Sun Mar 19 18:11:27 2000 :: Quixote has quit. [Room: 3758]
+Sun Mar 19 18:11:50 2000 :: Log Andross: drop sword
+Sun Mar 19 18:11:56 2000 :: Log Kaisho: withdraw 1000 platinum
+Sun Mar 19 18:12:07 2000 :: Log Kaisho: drop ex
+Sun Mar 19 18:12:33 2000 :: Kaisho has quit. [Room: 4207]
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:12:33 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:12:33 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:12:39 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:12:41 2000 :: Loading Permanent's playerfile
+Sun Mar 19 18:12:41 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 18:15:58 2000 :: Sock.sinaddr:  129.37.232.54
+Sun Mar 19 18:16:05 2000 :: Loading Seth's playerfile
+Sun Mar 19 18:16:57 2000 :: Seth@slip129-37-232-54.ok.us.prserv.net new player.
+Sun Mar 19 18:17:08 2000 :: Andross has quit. [Room: 29208]
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:17:08 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:17:08 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:26:05 2000 :: Sock.sinaddr:  152.166.173.134
+Sun Mar 19 18:26:10 2000 :: Loading Kunra's playerfile
+Sun Mar 19 18:26:35 2000 :: Kunra@98A6AD86.ipt.aol.com new player.
+Sun Mar 19 18:27:03 2000 :: Kunra has deleted.
+Sun Mar 19 18:27:03 2000 :: Kunra has quit. [Room: 3700]
+Sun Mar 19 18:27:54 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 18:28:00 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:28:01 2000 :: Loading Killrand's playerfile
+Sun Mar 19 18:28:01 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4208]
+Sun Mar 19 18:29:22 2000 :: Log Killrand: drop girth
+Sun Mar 19 18:29:23 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 18:29:23 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:29:23 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:29:23 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:29:23 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:29:23 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 18:29:23 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:29:23 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 18:29:23 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:29:30 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:29:32 2000 :: Loading Permanent's playerfile
+Sun Mar 19 18:29:32 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 18:30:37 2000 :: Log Seth: drop all
+Sun Mar 19 18:30:52 2000 :: Log Seth: drop all
+Sun Mar 19 18:31:24 2000 :: Log Seth: o
+Sun Mar 19 18:34:05 2000 :: Seth killed by an alley cat at 2481
+Sun Mar 19 18:34:20 2000 :: Sock.sinaddr:  63.25.194.211
+Sun Mar 19 18:34:27 2000 :: Loading Gandalf's playerfile
+Sun Mar 19 18:34:29 2000 :: Gandalf@1Cust211.tnt1.atlanta2.ga.da.uu.net has connected. [Room: 4207]
+Sun Mar 19 18:36:05 2000 :: Seth has deleted.
+Sun Mar 19 18:36:05 2000 :: Seth has quit. [Room: 4208]
+Sun Mar 19 18:36:20 2000 :: Sock.sinaddr:  129.37.232.54
+Sun Mar 19 18:36:24 2000 :: Loading Seth's playerfile
+Sun Mar 19 18:38:42 2000 :: Seth@slip129-37-232-54.ok.us.prserv.net new player.
+Sun Mar 19 18:39:59 2000 :: [*****] BUG: Alloc_mem: size 64000 too large.
+Sun Mar 19 18:39:59 2000 :: [*****] BUG: Most likely caused by an infinite loop somewhere.

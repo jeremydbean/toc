@@ -1,0 +1,142 @@
+#PLAYER
+Name Tripocritis~
+Id   28453
+LogO 951438324
+Vers 3
+Prom ~
+Ignoring  ~
+Race dwarf~
+Sex  1
+Cla  4
+Gui  4
+Psionic  0
+Cast none
+Levl 2
+Plyd 630
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3724
+HMV  16 33 100 103 98 106
+NewGold 0
+NewPlat 0
+NewCopp 6
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  4854
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 1
+Trai 2
+Save  -1
+Alig  -750
+Hit   2
+Dam   2
+ACs 95 95 95 99
+Attr 14 13 12 12 21
+AMod 0 0 0 0 0
+Pass TrPVv/cWYL4l.~
+Titl  the Follower of the Path~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 33 103 106
+Cond 0 39 39
+Sk 8 'axe'
+Sk 20 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'bash'
+Sk 1 'dodge'
+Sk 61 'hand to hand'
+Sk 1 'kick'
+Sk 1 'trip'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 191 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#END

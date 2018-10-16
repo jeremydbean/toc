@@ -1,0 +1,17 @@
+#!/bin/tcsh
+
+limit coredumpsize 10000
+
+if ( "$1x" == "x" ) then
+	echo "Using default port 7666."
+	echo "Using logfile /home/TOC/toc1b/log/test9000."
+	/home/TOC/toc1b/src/nicedb 7666 >>&! /home/TOC/toc1b/log/test7666 &
+	echo "Done. nicedb is now maintaining TESTTOC at port 7666."
+else 
+	echo "Using port $1 instead of default port 7666."
+	echo "Using logfile /home/TOC/toc1b/log/test$1."
+	/home/TOC/toc1b/src/nicedb $1 >>&! /home/TOC/toc1b/log/test$1 &
+	echo "Done. nicedb is now maintaining TESTTOC at port $1."
+endif
+
+

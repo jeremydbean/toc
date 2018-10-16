@@ -1,0 +1,5564 @@
+
+#AREA   {HERO}  Haze    Battleground~
+
+#MOBILES
+#29201
+animated skeleton~
+an Animated Skeleton~
+An Animated Skeleton has been brought back from the dead.
+~
+The Animated Skeleton is searching for a way to relieve the pain of living.
+He is an unholy creature who fears the good.
+~
+human~
+CFGHMO DGOV -350 S
+53 22 50d37+1000 25d49+294 4d10+18 5
+-30 -30 -30 -30
+DEFHJKP ABM 0 N
+8 8 1 800
+0 0 M 0
+#29202
+deranged madman~
+a deranged madman~
+A deranged madman wanders aimlessly through the maze.
+~
+This deranged madman was trapped in the maze when he was determined to be
+'unworthy' in the Battleground Arena.
+~
+human~
+CFGM DGOV -250 S
+53 22 53d37+1000 25d49+300 4d10+18 7
+-30 -30 -30 -30
+CDFHIKP AB 0 OP
+8 8 1 900
+0 0 M 0
+#29203
+insane lieutenent~
+an insane lieutenent~
+An insane lieutenent lost his mind during a war.
+~
+The lieutenent went insane after spending many months trapped here in the
+maze.
+~
+human~
+CFGMT DGOV -275 S
+53 22 53d37+1000 25d49+280 4d10+18 11
+-30 -30 -30 -30
+CDEFHIKLP AB 0 G
+8 8 1 1500
+0 0 M 0
+#29204
+shadowman~
+a Shadowman~
+A Shadowman stalks out everything and anything in the maze.
+~
+The Shadowman slips from room to room, shadow by shadow.  His face is
+decrepid and sickly looking.  He must be a creature of the undead.
+~
+undead~
+CFGM BDGOV -500 S
+53 22 53d38+1000 25d50+300 6d7+21 6
+-30 -30 -30 -35
+FHIKPZ A ABM HI NO
+8 8 1 1200
+0 0 M 0
+#29205
+animated vampire~
+an animated vampire~
+An animated vampire searches for blood to drink.  Yours looks good!
+~
+A Necromancer in the Battleground animated a corpse into a vampire and
+sent it to the maze to feed off of the dead adventurers who perish here.
+~
+vampire~
+CFGM DOTV -350 S
+53 23 53d40+1000 21d53+318 6d7+21 5
+-33 -33 -33 -33
+DEFHJKP AB 0 N
+8 8 1 1500
+0 0 M 0
+#29206
+keeper gate~
+a Gate Keeper~
+The Gate Keeper stares at you wildly!
+~
+The Keeper of the Gate has spent many years here waiting for someone to
+successfully defeat him and complete the first test.
+~
+saurian~
+BFGM BDGHOTV -100 S
+54 22 54d41+1400 22d54+324 7d6+22 26
+-34 -34 -34 -23
+CDEFHIJKP AB 0 C
+8 8 1 2000
+0 0 M 0
+#29207
+guardian bridge~
+a Bridge Guardian~
+The Bridge Guardian leaps at you and attacks!
+~
+The Guardian of Bridge only allows captured beings to be sent across the
+bridge and into the Battleground Arena.
+~
+giant~
+BCGMT DGHOTV -100 S
+54 23 54d41+1500 22d54+320 7d6+23 27
+-34 -34 -34 -34
+ACDEFHIK AB E M
+8 8 1 1000
+0 0 L 0
+#29208
+minotaur warrior~
+a minotaur warrior~
+The minotaur warrior has blood dripping from his teeth.
+~
+The minotaur warrior glares at you with his deep, blood read eyes.  He
+rears his black head back and wails out a terrifying battle cry as he moves
+to attack you.
+~
+unique~
+CFGMT GOV -50 S
+54 22 54d41+1500 22d54+350 7d6+22 10
+-54 -55 -54 -55
+CDFHIKLP AB 0 C
+8 8 1 1700
+0 0 L 0
+#29209
+cyclops~
+a cyclops~
+The cyclops gives you a one-eyed stare.
+~
+The cyclops stands equal to your height and his one eye scans over you,
+assessing the strength of you, his opponent.  It is said that a cyclops
+can see when his own death will be.  He attacks as if his time hasn't
+come yet.
+~
+unique~
+CFGM DGOV -50 S
+54 23 54d41+1500 22d54+350 7d6+22 8
+-65 -65 -65 -63
+CDEFHJKLP ABE 0 S
+8 8 1 1500
+0 0 L 0
+#29210
+necromancer~
+a necromancer~
+A Necromancer wants to animate you.
+~
+The Necromancer is surrounded in dead black garb.  The only part of him
+you can see are his cold, pale hands that peek from the sleeves of his
+coat.  His hood falls away revealing his sickly looking face that is
+decorated with oozing sores that come from working with the dead as long
+as he has.  Peering closer you can see the maggots that move and writhe
+in the erupting sickness of his demented face.
+~
+human~
+FGMR BDOTV -400 S
+55 25 55d41+1500 22d55+330 10d4+24 19
+-65 -65 -65 -70
+FHJKP AB C F
+8 8 1 2000
+0 0 M 0
+#29211
+dragon undead~
+an undead dragon~
+An undead dragon looks pretty alive right now.
+~
+This silver dragon looks as ancient as the beginning of the world.  His
+silver scales have dulled with time and death.  He is an undead dragon
+from a world your mind could never comprehend existed.  The dragon stares
+at you and snorts; the smell of the air from his nostrils turns your
+stomach upside down.
+~
+undead~
+CFGMO GOV -200 S
+55 25 55d41+1500 22d55+330 10d4+25 31
+-66 -65 -66 -66
+CDEFHKMP ABJ E LNQ
+8 8 1 1000
+0 0 G 0
+#29212
+x300~
+an X300~
+The X300 stalks towards you murmuring, "Kill kill kill!"
+~
+This monster of a machine moves as smoothly as any creature you've ever
+faced in your many years of adventuring.  It is from another world, another
+time where people built machines whose sole purpose was to annihilate living
+beings.
+~
+unique~
+FGM DGOV -2 S
+55 25 55d41+1500 22d55+200 10d4+25 28
+-67 -67 -67 -50
+ACDEFHKLOPZ A AP J C
+8 8 1 1000
+0 0 H 0
+#29213
+hawk david~
+David the Hawk~
+Even Cort couldn't beat David.
+~
+David the Hawk is on the verge of natural death but, it hasn't lessened
+the birds fighting ability in the slightest.
+~
+song bird~
+BGHM BHOV 500 S
+56 26 56d42+2000 23d56+330 10d4+24 24
+-26 -26 -26 -26
+ACDEFHKLP 0 CD K
+8 8 1 1500
+0 0 M 0
+#29214
+nothingman~
+a Nothingman~
+There is nothing left in this Nothingman.
+~
+"He who forgets, will be destined to remember...."
+~
+undead~
+FGHM GOV 1 S
+56 26 56d42+2500 23d56+300 10d4+25 21
+-67 -66 -66 -67
+DEFHIKP ABM 0 CE
+8 8 1 1500
+0 0 M 0
+#29215
+sunbeast~
+a Sunbeast~
+The Sunbeast gleams with flames of the sun!
+~
+This beast looks like the very sun itself regurgitated a blast of flame
+to form this fiery monster.
+~
+unique~
+ACFGM OTVZ D -500 S
+57 27 57d43+3000 23d57+340 6d8+24 29
+-67 -67 -67 -67
+ACDEFHKP ABH JK IP
+8 8 1 1200
+0 0 H 0
+#29216
+psionicist~
+a psionicist~
+The psionicist is reading your mind.
+~
+This man has merged his soul, body, and mind to become a truly powerful
+psionicist.  You can feel his mind probing and proding your thoughts as
+he digs to find a weakness in you.
+~
+human~
+ACGM OV 1 S
+57 27 57d43+3000 23d57+350 6d8+25 20
+-67 -67 -67 -67
+DFHKP ABP 0 C
+8 8 1 1600
+0 0 M 0
+#29217
+black cloud~
+a Black Cloud~
+A Black Cloud covers the room in darkness.
+~
+The cloud is only a cloud of air but, it has conscious enough thought to
+realize you intend to harm it.
+~
+unique~
+BFGM DHOT 5 S
+58 28 58d44+4000 24d58+350 5d10+25 14
+-28 -28 -28 -28
+FHJKV ABP D HIJ
+8 8 1 1500
+0 0 M 0
+#29218
+grand warlock~
+a Grand Warlock~
+The Grand Warlock tosses magic around like it's firewood.
+~
+The Grand Warlock has spent an eternity working with magic.  He barely
+even needs to think to cast spells that are more powerful than any
+you've seen.  He giggles at you and has obviously underestimated you.
+He makes a small flame in his hand as if mocking any magical ability
+you might have.
+~
+human~
+FGMR DHOTVZ F 50 S
+58 28 58d44+3500 24d58+400 5d10+26 19
+-28 -28 -28 -35
+FHKPV ABP LQ EF
+8 8 1 2200
+0 0 M 0
+#29219
+doomsayer~
+a Doomsayer~
+The Doomsayer screams, "THE END IS NEAR!"
+~
+"THE END IS COMING! SAVE YOURSELVES! AVOID VILENESS! ASK FOR SANCTUARY FROM
+DOOM! PRAY FOR FORGIVENESS! PRAISE TO KORZATH AND THE CAUSE..."
+
+Man, somebody needs to shut this guy up.
+~
+unique~
+CGM BDGOX 50 S
+58 28 58d44+5000 24d58+350 5d10+26 2
+-50 -50 -52 -50
+CDEFHIKP P M Y
+8 8 1 2100
+0 0 M 0
+#29220
+keeper battleground~
+a Keeper of the Battleground~
+The Keeper watches over the Battleground.
+~
+The Keeper evaluates the fighting ability of the Battleground creatures.
+~
+wyvern~
+BCFGM BDHOT 50 S
+59 29 59d44+5000 24d59+350 8d6+26 21
+-30 -30 -30 -32
+CDEFHIJKP ABEGP 0 S
+8 8 1 2000
+0 0 L 0
+#29221
+keeper nexus~
+a Keeper of the Nexus~
+The Keeper is eternally linked to the loop.
+~
+The Keeper of the Nexus is a tall wyvern.  His wings flap wildly when he
+sees you have entered the Loop.
+~
+wyvern~
+BCFGM BDHOT -50 S
+59 29 59d44+6000 24d59+350 8d6+26 32
+-30 -30 -30 -30
+ACEFKP ABP 0 S
+8 8 1 1800
+0 0 L 0
+#29222
+keeper lost souls~
+a Keeper of Lost Souls~
+The Keeper is eternally linked to the loop.
+~
+The Keeper of Lost Souls wishes to make your soul eternally lost in
+the Loop.
+~
+wyvern~
+BCFGM BDHOT -50 S
+59 29 59d44+6000 24d59+350 8d6+26 32
+-30 -30 -30 -30
+ACEFKP ABP 0 S
+8 8 1 1800
+0 0 L 0
+#29223
+lord commander guard~
+a Lord Commander of the Guard~
+The Lord Commander shouts, "Bow to the Cause or die!"
+~
+The Lord Commander is part of Korzath's elite fighting force.  These
+commanders are in charge of training the creatures of the arena that
+are deemed the best of the best.  They work to shape the creatures
+battle talents so that they can be used in Korzath's new military.
+~
+human~
+BFGMT DGHOTV -200 S
+62 32 62d47+6000 31d62+370 9d6+29 3
+-32 -32 -32 -32
+CDEFHIKLP ABP G G
+8 8 1 2300
+0 0 M 0
+#29224
+disease~
+a disease~
+You scream and writhe as plague sores erupt from your skin.
+~
+A terrible, contagious disease.
+~
+unique~
+BFGM DOTX 1 S
+64 45 64d48+6400 22d64+380 8d7+30 12
+-55 -55 -55 -55
+AFHKP ABLP 0 OR
+8 8 1 0
+0 0 M 0
+#29225
+elite imperial soldier~
+an Elite Imperial Soldier~
+An Elite Imperial Soldier grins evilly as he attacks!
+~
+This Elite Imperial Soldier is part of Korzath's core fortress defense
+force.  They are ordered to capture or execute all intruders.  They prefer
+to do the latter.
+~
+giant~
+CFGMT DGHNOTV 200 S
+65 37 65d49+7000 32d65+390 9d8+30 1
+-35 -35 -35 -35
+CDEFHIKLOP ABP 0 F
+8 8 1 2000
+0 0 L 0
+#29226
+general lord~
+a Lord General~
+The Lord General is more man than you, in fact, she's a woman!
+~
+Korzath has entrusted the Lord General positions to his master military
+tacticians who happen to be women.  The Lord Generals are in charge of
+all outside military actions taken by Korzath's personal army.
+~
+human~
+BCFGM DHNOTV 300 S
+68 38 68d51+8000 34d68+410 9d10+23 11
+-40 -38 -40 -38
+CDEFIKLOP ABP 0 0
+8 8 2 2500
+0 0 M 0
+#29227
+fade~
+a Fade~
+A Fade reaches for you from the darkness!
+~
+The Fade can become one with the shadows of darkness.  Beady silver eyes
+are set extremely deep in the Fade's eye sockets.  It moves toward you and
+only then can you smell the vileness of this demon.
+~
+unique~
+BCFGM BDHNOTVZ G -850 S
+69 40 69d52+8500 34d69+400 10d10+20 27
+-41 -40 -41 -42
+ACDEFHIJKLNPZ A ABLMPQ C NO
+8 8 1 2300
+0 0 M 0
+#29228
+guardian master~
+a Master Guardian~
+The Master Guardian will protect it's master at all costs.
+~
+The Master Guardian is Korzath's #1 magical familiar.  He is one with
+his master and Korzath is at one with him.  Together, they are a deadly
+pair.
+~
+giant~
+BCGMR DFGHJNOTVZ F -500 S
+70 50 70d53+4000 35d70+420 10d11+17 30
+-60 -60 -60 -60
+CDEFHKLNOPRV ABMNP PS 0
+8 8 1 5000
+0 0 G 0
+#29229
+korzath~
+Korzath~
+The man, myth, legend, and guy you've learned to hate: Korzath.
+~
+Korzath is the product of two destructive parents.  His brawn and military
+genius come from his Father and his Mother taught him the most powerful
+magics, magics that are in direct touch with the darkest side of evil.
+You know little of his ancestors but, Korzath's strong build and height
+suggest that they were a very dangerous society of people.
+~
+giant~
+BCGM DFGHJNOTVZ F -500 S
+70 50 70d53+4000 35d70+420 10d11+20 20
+-60 -60 -60 -60
+CDEFHKLNPRV ABCP D C
+8 8 1 5000
+0 0 M 0
+#29230
+healer~
+a healer~
+A healer stands ready to cure your wounds.
+~
+Dressed in white robes and golden garbs; this is one powerful healer.
+~
+human~
+BDGMQ DFHOT 0 S
+56 26 56d42+670 23d56+330 10d4+24 0
+-26 -26 -26 -26
+CV AB 0 0
+8 8 1 0
+0 0 M 0
+#29231
+bartender gweedo~
+Gweedo the bartender~
+The bartender Gweedo is here serving drinks fit for an immortal.
+~
+Gweedo has been serving drinks here ever since Haze sat down and wrote
+him into the .are file.
+~
+human~
+BGMS DOT 0 S
+70 50 70d53+1000 35d70+420 10d11+20 20
+-50 -50 -50 -50
+CDEFH ABCD 0 0
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#29200
+statue~
+a hero statue~
+A ten-sided Hero Statue is here.~
+stone~
+13 BO 0
+0 0 0 0 0
+51 5 5000 P
+E
+statue hero~
+A plaque is on the Hero Statue showing the names of the heroes that this
+statue depicts.
+~
+#29201
+key brittle~
+a brittle key~
+a brittle key is here.~
+vellum~
+18 B AO
+0 0 0 0 0
+51 5 500 P
+#29202
+key blood red~
+a blood red key~
+a blood red key lies here.~
+wood~
+18 C AO
+0 0 0 0 0
+51 5 500 P
+#29203
+key translucent~
+a (Translucent) key~
+a see through key is here.~
+adamantite~
+18 G AO
+0 0 0 0 0
+51 5 500 P
+#29204
+key circle shaped~
+a circle shaped key~
+a circle shaped key is here.~
+stone~
+18 G AO
+0 0 0 0 0
+51 5 500 P
+#29205
+key jet black~
+a jet black key~
+a jet black key is on the ground.~
+stone~
+18 G AO
+0 0 0 0 0
+51 5 500 P
+#29206
+belt rib bone~
+a rib bone belt~
+a belt of rib bones is here.~
+stone~
+9 G AL
+13 13 14 7 0
+50 3 2000 P
+E
+belt rib bone~
+This rib bone belt is made entirely of the pure white bones of an unknown
+beast.
+~
+A
+1 2
+A
+18 4
+A
+19 4
+#29207
+mace bone~
+a bone mace~
+a mace made of pure white bone lies here.~
+stone~
+5 ABH AN
+4 18 3 8 0
+51 5 2000 P
+E
+mace bone~
+This is a powerful mace made of bone.
+~
+A
+2 2
+A
+17 -5
+A
+18 5
+A
+19 5
+#29208
+amulet golden~
+a golden amulet~
+a glittering golden amulet is here.~
+gold~
+9 AIV AC
+13 14 12 5 0
+51 2 3000 P
+E
+amulet golden~
+This glittering golden amulet is engraved with a picture of large black
+dragon swooping down from the sky.
+~
+A
+1 -2
+A
+12 40
+A
+18 2
+A
+19 2
+A
+23 -5
+#29209
+arms bronze~
+bronze arm plates~
+some bronze arm plates have been left here.~
+bronze~
+9 GV AI
+12 13 14 6 0
+51 2 2000 P
+E
+arms bronze~
+These are some strong bronze arm plates.
+~
+A
+1 1
+A
+13 40
+A
+17 -5
+#29210
+jacket straight~
+a straight jacket~
+a straight jacket is here.~
+cloth~
+9 MV AD
+12 14 14 6 0
+51 5 2000 P
+E
+jacket straight~
+This straight jacket was made to be worn by madmen.
+~
+A
+18 -2
+A
+19 5
+A
+24 -5
+T
+$n puts on $p and screams, "I'M AS MAD AS A COW HOohOhOhOhEheHeHEEH!"~
+You feel as crazy as a cow, a mad cow that is MAD hohheeieoeieoe!!"~
+#29211
+darkblade blade~
+Darkblade~
+a Darkblade lies here.~
+adamantite~
+5 ABEUV AN
+1 18 3 3 C
+51 5 5000 P
+E
+darkblade blade~
+A pure black Darkblade blurs when you wield it.
+~
+A
+2 2
+A
+18 5
+A
+19 5
+#29212
+shadowskin skin~
+shadowskin~
+some Shadowskin lies here in a pile.~
+cloth~
+9 EIMUV AK
+15 12 13 6 0
+51 4 3000 P
+E
+shadowskin skin~
+Shadowskin can be worn about the body by adventurers daring enough do so.
+~
+A
+14 50
+A
+17 -5
+#29213
+necklace teeth~
+a necklace of teeth~
+a necklace made of teeth is here.~
+stone~
+9 GIV AC
+14 12 13 7 0
+51 2 5000 P
+E
+necklace teeth~
+This necklace is made entirely of, what look to be vampires teeth.
+~
+A
+5 -3
+A
+12 40
+A
+14 50
+A
+18 3
+#29214
+stake wooden~
+a wooden stake~
+a wooden stake is in the ground.~
+wood~
+5 BIUV AN
+3 18 3 0 C
+51 1 4000 P
+E
+stake wooden~
+This wooden stake is stained with blood.
+~
+A
+18 5
+A
+19 5
+A
+24 -5
+#29215
+helmet battle~
+battle helmet~
+a powerful battle helmet is here.~
+bronze~
+9 IV AE
+14 13 14 7 0
+51 5 5000 P
+E
+helmet battle~
+A carefully engineered battle helmet was manufactured in Korzath's Fortress.
+~
+A
+1 2
+A
+2 -2
+A
+12 40
+A
+18 3
+A
+19 4
+#29216
+bracelet beaded~
+a beaded bracelet~
+a bracelet of beads has been left behind.~
+silver~
+9 FUV AM
+10 10 10 5 0
+40 2 4000 P
+E
+bracelet beaded~
+This beaded bracelet was made by Minotaurs near the Keep of Mahn-Tor.
+~
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+A
+17 1
+A
+24 -5
+#29217
+eye cyclopean~
+a cyclopean eye~
+a glowing cyclopean eye emits light here.~
+stone~
+1 AV AO
+0 0 999 0 0
+51 2 3000 P
+E
+eye cyclopean~
+This is the dismembered eye of a cyclops.
+~
+A
+3 3
+A
+12 35
+A
+17 -5
+T
+$n opens and sheds a sickly yellow light over the surrounding area.~
+You watch as the eye opens to cast out a beam of light.~
+#29218
+bow tattered~
+a tattered bow~
+a bow of ancient wood and string is on the ground.~
+cloth~
+5 IUV AN
+9 18 3 6 0
+51 1 2500 P
+E
+bow tattered~
+This bow is tattered and ready to fall apart.
+~
+A
+2 3
+A
+18 5
+A
+19 4
+#29219
+blade doomsday~
+Doomsday Blade~
+a Doomsday Blade is here.~
+iron~
+5 HU AN
+1 13 5 6 0
+52 6 5000 P
+E
+blade doomsday~
+A Doomsday Blade was created from the decomposing parts of a dread beast; a
+creature that a Necromancer once killed.
+~
+A
+1 -1
+A
+12 35
+A
+18 5
+A
+19 5
+#29220
+staff doomstaff~
+doomstaff~
+a Doomstaff lies here.~
+adamantite~
+4 GUV AO
+51 5 5 28 0
+52 3 2000 P
+E
+staff doomstaff~
+A Necromancer's Doom Staff.
+~
+A
+12 40
+#29221
+dragonscales scales~
+some dragonscales~
+some draconian dragon scales shine here.~
+steel~
+9 UVWZ E AF
+13 15 14 8 0
+52 5 5000 P
+E
+dragonscales scales~
+These dragonscales are from an Undead Dragon.
+~
+A
+5 -3
+A
+13 25
+A
+18 4
+A
+19 4
+A
+24 -5
+T
+$p ROARS with draconian power!~
+You feel a surge of draconian power flow through your veins!~
+#29222
+talon golden black~
+a golden black talon~
+a golden black talon is here.~
+stone~
+5 IUV AN
+2 15 4 11 0
+52 4 5000 P
+E
+talon golden black~
+The golden black talon looks to be worth a small fortune.
+~
+A
+2 3
+A
+4 -5
+A
+18 5
+A
+19 5
+A
+24 8
+#29223
+clamps~
+some clamps~
+some attachable metal clamps lie here.~
+steel~
+9 IV AH
+14 10 14 0 0
+52 5 7000 P
+E
+clamps~
+Attachable clamps that can be worn on the hands.
+~
+A
+17 -5
+A
+18 6
+#29224
+vision virtual~
+Virtual Vision~
+a visor of some sort has been discarded here.~
+steel~
+9 GUVXZ G AE
+12 12 15 4 0
+52 2 7000 P
+E
+vision virtual~
+Virtual Vision can be worn over the eyes providing enhanced sight.
+~
+A
+18 5
+#29225
+wings black feathered~
+some black feathered wings~
+some black feathered wings are scattered here.~
+cloth~
+9 GUVXZ H AI
+13 15 14 6 0
+52 2 5000 P
+E
+wings feathered wings~
+Wings that can be used to fly with!
+~
+A
+3 2
+A
+4 2
+#29226
+black hole~
+a black hole~
+a small black hole is in the ground.~
+adamantite~
+15 DFGV AO
+800 13 29269 0 0
+52 3 5000 P
+E
+black hole~
+A tiny, swirling black hole can be used to store items.
+~
+A
+1 1
+A
+4 -3
+A
+18 3
+A
+19 3
+#29227
+corduroys~
+some corduroys~
+some tight fitting corduroys are here.~
+leather~
+9 CIV AF
+14 13 14 0 0
+53 3 5000 P
+E
+corduroys~
+Corduroys that make a swishing sound when you walk with them on.
+~
+A
+1 2
+A
+2 -1
+A
+19 5
+#29228
+staff sun~
+staff of the sun~
+a staff as bright as the sun is burning on the ground.~
+gold~
+4 GUV AO
+51 10 10 4 0
+53 2 5000 P
+E
+staff sun~
+This looks like a staff that may have been thrown 'into the sun.'
+~
+A
+1 -3
+A
+12 50
+A
+13 50
+#29229
+trapdoor~
+a trapdoor~
+a trapdoor in the sun.~
+stone~
+30 ABUV AO
+5 29328 0 0 0
+53 10 0 P
+E
+trapdoor~
+Immortality.  DO NOT ENTER.
+~
+#29230
+psionic ring~
+a psioniscist's ring~
+a ring is here in the dirt.~
+silver~
+9 AIUV AB
+12 10 10 5 0
+53 2 5000 P
+E
+psionic ring~
+A ring intended for psionics.
+~
+A
+4 3
+A
+12 40
+A
+17 3
+A
+18 3
+#29231
+mind beam~
+mind beam~
+A beam of the mind is here.~
+adamantite~
+9 EUV AO
+14 12 13 6 0
+53 4 5000 P
+E
+mind beam~
+A beam of the mind.  When one wielder of psionics uses their psionic ability
+to kill another psioniscist, it is said that the killer will consume the
+knowledge of it's victim and store it in a beam.  Could this be true?
+~
+A
+3 3
+A
+4 3
+#29232
+darkmist mist~
+(Dark) Mist~
+some (Dark) Mist is here.~
+leather~
+9 CUV AK
+16 14 15 2 0
+53 15 1000 P
+E
+darkmist mist~
+The mist is very dark.
+~
+A
+1 -5
+A
+2 -5
+A
+3 -2
+A
+4 -2
+A
+5 -5
+A
+12 30
+A
+18 3
+A
+19 2
+#29233
+staff mana~
+a mana staff~
+a Mana staff has been left behind.~
+adamantite~
+4 GUV AO
+51 3 3 518 0
+53 2 5000 P
+E
+staff mana~
+A staff of mana.
+~
+A
+12 55
+#29234
+potion opaque~
+an opaque potion~
+An opaque potion lies here.~
+glass~
+10 GV AO
+51 3 36 56 0
+51 2 1000 P
+E
+potion opaque~
+This potion is totally opaque.  It smells of sweaty socks.  Ewwwwwww...
+~
+#29235
+gloves battle~
+battle gloves~
+some battle gloves are here.~
+bronze~
+9 IV AH
+12 14 13 4 0
+53 4 5000 P
+E
+gloves battle~
+A carefully engineered pair of battle gloves were manufactured in Korzath's
+Fortress.
+~
+A
+2 2
+A
+17 -5
+A
+18 4
+A
+19 4
+#29236
+boots battle~
+battle boots~
+some battle boots are here.~
+bronze~
+9 IV AG
+10 14 13 5 0
+53 5 5000 P
+E
+boots battle~
+A carefully engineered pair of battle boots were manufactured in Korzath's
+Fortress.
+~
+A
+3 2
+A
+14 100
+A
+18 4
+A
+19 4
+#29237
+plate battle~
+battle plate~
+some battle plate is here.~
+bronze~
+9 IV AD
+15 12 12 6 0
+53 4 5000 P
+E
+plate battle~
+Some carefully engineered battle plate was manufactured in Korzath's 
+Fortress.
+~
+A
+5 2
+A
+13 50
+A
+18 4
+A
+19 4
+#29238
+belt battle~
+battle belt~
+a battle belt is here.~
+bronze~
+9 IV AL
+14 14 13 2 0
+53 4 5000 P
+E
+belt battle~
+A carefully engineered battle belt was manufactured in Korzath's Fortress.
+~
+A
+11 -15
+A
+17 -5
+A
+18 4
+A
+19 4
+#29239
+plate imperial~
+imperial plate~
+an suit of imperial plate is on the ground.~
+brass~
+9 GIMUV AD
+11 11 15 4 0
+54 5 8000 P
+E
+plate imperial~
+This is a powerful suit of Imperial Plate normally worn by Korzath's Elite
+Imperial Soldiers.
+~
+A
+1 2
+A
+17 -5
+A
+18 5
+A
+19 5
+#29240
+shield force~
+force shield~
+a force shield shimmers here.~
+adamantite~
+9 ABGIUV AJ
+15 15 15 10 0
+54 10 9000 P
+E
+shield force~
+A magically enhanced Force Shield.
+~
+A
+2 2
+A
+12 35
+A
+18 4
+A
+19 4
+#29241
+belt combat~
+a combat belt~
+a combat belt is on the floor.~
+cloth~
+9 IV AL
+15 15 15 7 0
+54 4 7000 P
+E
+belt combat~
+A combat belt that only a Hero could wear.
+~
+A
+2 2
+A
+13 75
+A
+18 6
+#29242
+arm plates titanic~
+titanic arm plates~
+some titanic arm plates gleam here.~
+steel~
+9 IMV AI
+14 16 14 8 0
+54 7 7000 P
+E
+arm plates titanic~
+Blue titanic arm plates.
+~
+A
+1 1
+A
+2 1
+A
+12 -15
+A
+18 5
+A
+19 4
+#29243
+axe halfman~
+a half-man's axe~
+an evil half-man's axe draws darkness to the room.~
+iron~
+5 BIMUV AN
+5 17 4 21 DE
+54 5 7000 P
+E
+axe halfman~
+A half-axe fashioned by a creature of fading.
+~
+A
+2 3
+A
+17 -5
+A
+18 6
+A
+19 6
+#29244
+blade halfman~
+a half-man's blade~
+an evil half-man's blade draws death to the room.~
+iron~
+5 AIMUV AN
+1 17 4 1 DE
+54 5 7000 P
+E
+blade halfman~
+A half-man blade was made by a creature of Shadows.
+~
+A
+1 3
+A
+12 -60
+A
+13 60
+A
+17 -5
+A
+18 6
+A
+19 6
+#29245
+cloak halfman~
+a half-man's cloak~
+an evil half-man's cloak draws violence to the room.~
+leather~
+9 IUV AK
+15 15 14 9 0
+54 5 7000 P
+E
+cloak halfman~
+A half-mans cloak that has consumed the souls of the beasts slain by it's
+wearer.
+~
+A
+1 -2
+A
+2 -2
+A
+20 -5
+A
+21 -5
+A
+22 -5
+A
+23 -5
+A
+24 -5
+#29246
+lifetaker~
+(Satanic) Lifetaker~
+a demonic Lifetaker mace is here.~
+adamantite~
+5 ABHIUV AN
+4 18 4 18 CDE
+55 5 10000 P
+E
+lifetaker~
+A Guardian's Lifetaker mace.
+~
+A
+12 65
+A
+13 65
+A
+17 -5
+A
+18 7
+A
+19 7
+#29247
+claws bloody black~
+(Black Aura) bloody black claws~
+bloody black claws give off a sickly black aura.~
+adamantite~
+5 FGIHUV AN
+2 18 4 26 CDE
+55 5 10000 P
+E
+claws bloody black~
+The claws of a Shadow Guardian.
+~
+A
+1 -4
+A
+2 4
+A
+12 70
+A
+13 70
+A
+18 7
+A
+19 7
+#29248
+pill mass~
+a mass pill~
+A mass pill lies here.~
+pill~
+26 V A
+51 516 508 519 0
+51 1 1000 P
+#29249
+seal cause~
+Seal of the Cause~
+the Seal of The Cause has been left here.~
+stone~
+9 FGV AO
+13 15 14 8 0
+55 5 10000 P
+E
+seal cause~
+The Seal of the Cause is engraved with the Korzath Insignia overlapping a
+series of swirling grooves that deface the flat rock that the Seal is made
+out of.
+~
+A
+2 1
+A
+18 5
+A
+19 5
+#29250
+sword starlight~
+Starlight Sword~
+a darkness shattering Sword of Starlight overpowers the room.~
+adamantite~
+5 ABGIMUV AN
+1 18 4 3 ABDE
+55 5 10000 P
+E
+sword starlight~
+This glimmering Sword of Starlight is the product of shadow magic and psionic
+ability that were combined to create deadly weapons of destruction.  This is
+one such weapon.
+~
+A
+12 50
+A
+13 50
+A
+17 -5
+A
+18 8
+A
+19 8
+T
+$n wields the legendary $p and feels the rush of shadow magic.~
+You feel the purest power of the sword forged with shadow magic.~
+#29251
+key cause~
+Key of the Cause~
+A key of the Cause lies here.~
+adamantite~
+18 AUV AO
+0 0 0 0 0
+55 5 1000 P
+#29252
+bracelet belief~
+bracelet of belief~
+A special bracelet glows here.~
+adamantite~
+9 AIMV AM
+14 13 15 7 0
+55 3 9000 P
+E
+bracelet belief~
+The bracelet of belief is to be worn by people who are utterly dedicated to
+the Cause.
+~
+A
+14 -100
+A
+18 6
+A
+19 6
+#29253
+chest grey~
+grey chest~
+a grey chest sits here.~
+adamantite~
+15 0 0
+999 16 29251 0 0
+51 9000 5000 P
+#29254
+chest shining~
+shining chest~
+A shining chest sits here.~
+adamantite~
+15 0 0
+999 16 29251 0 0
+51 9000 5000 P
+#29255
+chest wooden~
+wooden chest~
+A wooden chest sits here.~
+adamantite~
+15 0 0
+999 16 29251 0 0
+51 9000 5000 P
+#29256
+one~
+one~
+Lever 1.~
+steel~
+31 0 0
+3 29217 0 1 0
+51 900 5000 P
+#29257
+two~
+two~
+Lever 2.~
+steel~
+31 0 0
+3 29234 2 1 0
+51 900 5000 P
+#29258
+three~
+three~
+Lever 3.~
+steel~
+31 0 0
+3 29217 3 1 0
+51 900 5000 P
+#29259
+four~
+four~
+Lever 4.~
+steel~
+31 0 0
+3 29217 4 1 0
+51 900 5000 P
+#29260
+five~
+five~
+Lever 5.~
+steel~
+31 0 0
+3 29233 5 1 0
+51 900 5000 P
+#29261
+six~
+six~
+Lever 6.~
+steel~
+31 0 0
+3 29234 5 1 0
+51 900 5000 P
+#29262
+seven~
+seven~
+Lever 7.~
+steel~
+31 0 0
+3 29217 1 1 0
+51 900 5000 P
+#29263
+eight~
+eight~
+Lever 8.~
+steel~
+31 0 0
+3 29217 5 1 0
+51 900 5000 P
+#29264
+nine~
+nine~
+Lever 9.~
+steel~
+31 0 0
+3 29234 4 1 0
+51 900 5000 P
+#29265
+ten~
+ten~
+Lever 10.~
+steel~
+31 0 0
+3 29233 0 1 0
+51 900 5000 P
+#29266
+statue knight~
+Knight Statue~
+A statue of a golden knight stands here with it's arms upraised.~
+gold~
+13 0 0
+0 0 0 0 0
+51 900 5000 P
+E
+statue knight~
+The statue is a depiction of a Dark Knight from Illisandia.
+~
+#29267
+hand right~
+right hand~
+Right hand.~
+gold~
+31 0 0
+3 29302 1 1 0
+51 900 5000 P
+#29268
+arm left~
+left arm~
+Left arm.~
+gold~
+31 0 0
+3 29302 3 1 0
+51 900 5000 P
+#29269
+star key~
+a star key~
+A key in the shape of a five sided star is here.~
+adamantite~
+13 A AO
+0 0 0 0 0
+51 2 1000 P
+E
+star key~
+A five sided star key.
+~
+#29270
+lever red~
+a red lever~
+red lever.~
+stone~
+31 0 0
+3 29269 3 1 0
+51 5 5000 P
+#29271
+lever red~
+a red lever~
+red lever.~
+stone~
+31 0 0
+3 29269 3 1 0
+51 5 5000 P
+#29272
+lever red~
+a red lever~
+red lever.~
+stone~
+31 0 0
+3 29269 3 1 0
+51 5 5000 P
+#29273
+lever red~
+a red lever~
+red lever.~
+stone~
+31 0 0
+3 29270 1 1 0
+51 5 5000 P
+#29274
+pills poison~
+some poison pills~
+pills of poison lie here.~
+pill~
+26 GV AO
+51 33 43 39 0
+51 1 1000 P
+#29275
+seeds sunflower~
+some sunflower seeds~
+some sunflower seeds are here.~
+pill~
+26 GV AO
+51 28 15 61 0
+51 1 1000 P
+#29276
+carrot juice~
+some carrot juice~
+Some sweet carrot juice lies here.~
+glass~
+10 GV AO
+51 14 519 38 0
+51 1 1000 P
+#29277
+pills plague~
+a plague pill~
+a plague pill is here.~
+pill~
+26 GV AO
+51 503 501 548 0
+51 1 1000 P
+#29278
+potion protection~
+a potion of protection~
+A potion of protection is here.~
+glass~
+10 GV AO
+51 1 67 66 0
+51 1 1000 P
+#29279
+pill pain~
+a pill of pain~
+A small painful pill is here.~
+pill~
+26 GV AO
+51 27 3 504 0
+51 1 1000 P
+#29280
+bread cake~
+some bread cake~
+Some bread cake is here.~
+pill~
+26 GV AO
+51 28 401 28 0
+51 1 1000 P
+#29281
+body~
+a dead body~
+a dead body of an Elite Royal Guard decays here.~
+stone~
+15 P 0
+999 0 0 0 0
+51 100 100 P
+E
+body dead~
+This is just one of many decaying corpses scattered about in the bloody
+Battleground Arena.  The army of Elite Royal Guards were all annihilated
+here in a battle of total carnage.
+~
+#29282
+potion sparkling~
+a sparkling potion~
+a sparkling potions lies here.~
+glass~
+10 0 AO
+52 34 0 0 0
+51 1 10 P
+#29283
+ring black gold~
+a black and gold ring~
+a black and gold ring glimmers here.~
+gold~
+9 GV AB
+14 14 14 9 0
+55 1 9000 P
+E
+ring black gold~
+A black and gold ring.  The word "Purdue" is engraved on the inside of the band.
+~
+A
+1 -1
+A
+13 35
+A
+18 4
+A
+19 4
+#29284
+cube star~
+a star cube~
+a gleaming star cube is here.~
+adamantite~
+1 AUV AO
+0 0 999 0 0
+55 3 9000 P
+E
+cube star~
+This is a gleaming star cube.
+~
+A
+1 -1
+A
+2 -1
+A
+18 5
+A
+19 6
+#29285
+cloak chaos~
+a cloak of chaos~
+a chaos cloak hums here.~
+adamantite~
+9 BV AC
+14 15 16 10 0
+55 3 9000 P
+E
+cloak chaos~
+This cloak is to help a person create utter Chaos.
+~
+A
+3 -2
+A
+12 -30
+A
+18 6
+A
+19 6
+#29286
+calliopes poetic punch~
+Calliope's Poetic Punch~
+a glass of Calliope's Poetic Punch lies here.~
+glass~
+17 0 AO
+20 20 14 0 0
+51 1 70 P
+E
+calliope's poetic punch~
+This is the drink of Calliope's choice.
+~
+#29287
+duncans scotish ale~
+Duncan's Scotish Ale~
+a glass of Duncan's Scotish Ale is here.~
+glass~
+17 0 AO
+20 20 3 0 0
+51 1 70 P
+E
+duncans scotish ale~
+This is Duncan's Scotish Ale.  Aye! tis the best!
+~
+#29288
+thalia thessalonkian thunderbolt~
+Thalia's Thessalonkian Thunderbolt~
+Thalia's Thessalonkian Thunderbolt is here.~
+glass~
+17 0 AO
+20 20 9 0 0
+51 1 70 P
+E
+thalia thessalonkian thunderbolt~
+This is Thalia's favorite beverage.
+~
+#29289
+haze boilermaker special~
+a bottle of Haze's Boilermaker Special~
+Haze's Boilermaker Special boils here.~
+glass~
+17 0 AO
+20 20 1 0 0
+51 1 70 P
+E
+~
+Haze doesn't go to Purdue does he?  Hmmmmm...
+~
+#29290
+trinidad boob bomber~
+Trinidad's Boob Bomber~
+a Trinidad Boob Bomber has been left here.~
+glass~
+17 0 AO
+20 20 3 0 0
+51 1 70 P
+E
+~
+Trinidad is a boob and this drink proves it! :)
+~
+#29291
+tifarah cookie crusher~
+Tifarah's Cookie Crusher~
+a glass of Tifarah's Cookie Crusher is here.~
+glass~
+17 0 AO
+20 20 4 0 0
+51 1 70 P
+E
+~
+Tifarah makes brownies, cookies, and now a fantastic beverage!
+~
+#29292
+talis trash pactorspecial pactor special~
+Tali's Trash PactorSpecial~
+Tali's Trash PactorSpecial~
+glass~
+17 0 AO
+20 20 8 0 0
+51 1 70 P
+E
+~
+Tali's Trash PactorSpecial will have you trashed in no time!
+~
+#29293
+soulcrusher sling~
+a Soulcrusher Sling~
+a Soulcrusher Sling is here.~
+glass~
+17 0 AO
+20 20 7 0 0
+51 1 70 P
+E
+~
+A Soulcrusher Sling is not a drink for the weak!  Beware!
+~
+#29294
+gravestone hooter~
+a Gravestone Hooter~
+a Gravestone Hooter is here.~
+glass~
+17 0 AO
+20 20 5 0 0
+51 1 70 P
+E
+~
+A Gravestone Hooter, the drink of champions! (and boobs like Trini)
+~
+#29295
+eclipse cactus beer~
+a stein of Eclipse's Cactus Beer~
+some of Eclipse's Cactus Beer is here.~
+glass~
+17 0 AO
+20 20 1 0 0
+51 1 70 P
+E
+~
+Eclipse's Cactus Beer is rumored to come from a tap placed in a giant cactus.
+~
+#29296
+elite royal guard man~
+an elite man~
+a dying elite royal guard wishes to speak his last words to you.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+elite royal guard man~
+The man raises his head to speak to you:
+
+     "We...tried," he whispers, "tried to...stop him."
+     "Who?" you ask.
+     "Kor...zath," he takes a deep breath before speaking again. "As
+      as soon as the nomads brought word to the Sultan he requested
+      we take immediate action to stop...Korzath."
+     "Stop him from what?"
+     The man stares at you for a moment before speaking...
+     "We must stop him from CROSSING THE DRAGON SEA! IT'S BLASPHEMY!"
+
+     You begin to step away as he is obviously mad.
+
+     "You've not finished with...the second test yet," he gasps and
+     points at the door, "we were slaughtered...in there.  Be careful,
+     the creatures may be deadly but EACH has a vulnerability."
+
+     The man's head nods limpy as his chest ceases to rise.
+~
+#29297
+blackboard~
+a blackboard~
+a blackboard is tacked up on the wall.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+blackboard~
+You look at the blackboard:
+
+ //////////////////////////////////////////////////////////////////////////
+ /                                                                        \
+ /	Secret door names in Fortress and Battleground:                   \
+ /							                  \
+ /		- sweet				-  mold	                  \
+ /		- hole				-  rosebud                \
+ /		- trophy			-  zorac                  \
+ /		- stone				-  secret                 \
+ /								          \
+ /							                  \
+ /\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+~
+#29298
+military warfare strategy tactics~
+a book~
+a book on military tactics is on a crate here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+military warfare strategy tactics~
+You begin to read the book:
+
+		  Military Warfare, Strategy, and Tactics
+		       Written by Bajior the Violent
+
+	-Kill your opponent
+	-Bash them so they can't run
+	-Trip them if they don't fly
+	-Kick them, kick them, and kick them some more
+	-Kill your opponent
+	-Dispel their spells
+	-Use protective spells on yourself
+	-Kill your opponent
+	-Kill kill kiLL kILL KilL KIll KILl KILL KILL KILL KILL!!!!!!
+
+Um, there isn't much point to reading 9,387 more pages of the word kill
+now is there?  This guy was nuts.
+~
+#29299
+castle management~
+a book~
+a leather bound book on castle management is here.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+castle management~
+You look into the book:
+
+			     Castle Management
+		       Written by Desak the Destined
+
+	The following is a philosophy of my enlightened ideals of the
+basic fundamentals of leading a castle that exists in a castle based
+society, into becoming a dominating, stable, and influencial group or
+system of individuals.  My many years of study on the subject since the
+world has moved on has brought me to several conclusions on why castles
+succeed and why they fail.  I have seen many rise and fall in my time and
+I believe I have now devised the components necessary to make a castle
+succeed in a hostile environment.
+	It is important that I first of all explain what a castle consists
+of.  A castle is an organized group that is usually made up of many
+different individuals who all fight or support a certain cause. This
+cause is, in most cases, a cause of either defending the weak, avenging
+of the innocent, oppression of the meek, or a manifest search for utter
+destructive chaos.
+						Continued on 2page
+~
+#29300
+young woman~
+a young woman~
+a young woman is here meditating.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+young woman~
+The woman senses your approach and raises her head.
+
+     "You've completed the Hero test I see," she says, "the worst is
+     yet to come I'm afraid."
+     "What do you mean by that?" you ask.
+     She scoffs at the question and shakes her head.  "You really don't
+     understand this do you.  Do you think you passed those tests all
+     your self?  Fools.  Korzath LET you pass.  He is the one who has
+     allowed you to come this far, he is the one who has allowed you
+     to invade his impenetrable fortress."
+     "You're insane."
+     "Am I?  You defeated the creatures in the Battleground.  You have
+     beaten his best recruits for the Army of The Cause.  And now, now
+     he wants to make you a part of his army.  He will defeat you if you
+     find him.  He will take your soul and make you HIS."
+     "Be sure to explore the Fortress, Gweedo will give you its secrets."
+
+She bows her head and goes back to her meditation.
+~
+#29301
+diary pedestal book~
+a diary~
+a pedestal stands here with an open diary on top.~
+adamantite~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+diary pedestal book~
+You open the diary:
+
+5th week of the 2nd Quarter Month in the Ninth Dread (Illisandian Calender)
+
+   My Father, Fyzac has required of me to keep a log of my thoughts at 
+least once per quarter month.  I will do it only as he requires it of me 
+although once per quarter month is asking for too much of my time.
+   Tomorrow I set out to make a name for myself.  During that time I'll have
+no time for diaries.  When I return I shall continue my writings as I see
+fit.
+						Continued on 2diary
+~
+#29302
+aura black magic~
+an aura of black magic~
+An aura of black magic radiates here.~
+adamantite~
+9 AG AK
+1 1 1 1 0
+55 500 1 P
+A
+14 -300
+#0
+
+#ROOMS
+#29201
+Heroes Hall~
+     Gold plated walls line this hall of heroes.  Statues of heroes from
+the days of old stand along the passage to the north.  A large crystal
+statue stands in the very center of the hallway, almost blocking the way.
+The statues arms are outstretched as if reaching out to you.  The left arm
+holds a silver plated scroll and the right arm holds a gold plated scroll.
+You can look at either scroll.  There is also a piece of the wall you can
+look at.
+~
+292 N 0
+D0
+~
+~
+0 -1 29202
+D2
+~
+~
+0 -1 29004
+E
+gold~
+You read the gold scroll:
+
+	One ten sided statue in this room is dedicated to ten
+	heroes of old.  Another ten sided statue is to the north
+	of here.
+
+	The statues were made for heroes who were well known on DLL
+	and helped to playtest during the test phase before ToC's
+	opening.
+~
+E
+silver~
+You look at the silver scroll:
+
+	To my dear intruders:
+
+		You have trespassed on sacred ground.  Entering
+		My Fortress in the first place was bad enough
+		but now you have dared to step foot into my
+		Battleground.  Am I angry?  No.  Am I bitter?
+		Of course not.  I have nothing but pity towards
+		you fools.
+		If you have come this far then maybe you've come
+		for me.  Maybe you've come to stop the Cause in
+		in its tracks.  I dare you to try.  Come further
+		and I guarantee your death.  Find me and you'll
+		lose your soul.  The choice is up to you.  I
+		look forward to watching you perish.
+
+						Korzath
+~
+E
+wall~
+You read what's on the wall:
+
+		Korzath's Battleground is part two of Korzath's
+		Fortress.  This area was written specifically
+		for ToC and uses features that are unique to
+		this mud.  The Battleground was designed for
+		Heroes only and adds to the story of Korzath
+		and Project Starlight.
+
+						-Haze
+
+~
+E
+plaque~
+   This statue depicts the following heroes:
+
+   (One)   Dax
+   (Two)   Oreous
+   (Three) Gant
+   (Four)  Traveller
+   (Five)  Gunslinger
+   (Six)   Vladimyr	You can look at each name or corresponding number.
+   (Seven) Condor
+   (Eight) Talen
+   (Nine)  Bruenor
+   (Ten)   Mithran
+~
+E
+dax one~
+	Dax, one of the most powerful W/C's to walk the land of Sembia.
+He was also known to all as Sax and Mithrandir.  Dax was famous for his
+expedition to Valhalla with Gunslinger.  The two spent approximately one
+week in the castle of the Gods, forsaken by Mota, and forced to fight their
+way back out.  The two also slayed more of the wretched Grey Men then any
+other group of players.
+~
+E
+oreous two~
+	Oreous led castle Avengers along with Stryfe.  The castle had
+been plagued with leadership problems since it's beginning and Oreous
+struggled to make the castle whole again.  Oreous is gone now though,
+his soul has ascended into an immortal.
+~
+E
+gant three~
+	Gant led Silverglen along with Traveller.  While Traveller kept the
+castle together, Gant worked to add more members.  The castle had nearly
+ceased to add new blood to it's ranks until Gant attained his leadership 
+position.  He interviewed countless possible recruits to find the ones 
+who would be the best candidates to become members of Silverglen.
+~
+E
+traveller four~
+	Successor to the throne of Silverglen, Traveller ruled his castle
+with a swift and sure hand.  The castle that once held such peaceful values,
+fell to corruption after Queen Katrina died of the plague.  Traveller took
+over and quickly moved to Outcast the troublemakers of the castle: Strongarm
+and Gunslinger.  He restored the lawful image to this once unlawful castle.
+~
+E
+gunslinger five~
+	Gunslinger, the Assassin Thief for Silverglen.  Best known for his
+travels with Dax and ability to never be pkilled by Talen and Bruenor or
+any other player.  His skills allowed him to steal the "Soul" item from
+Meana, the item she received from Vladimyr on their wedding day.  Gunslinger
+stole the soul from her after she tried to auction it away when she and
+Vladimyr divorced.  Gunslinger was also the creator and first leader of the
+Dark Circle of Silverglen.
+~
+E
+vladimyr six~
+	Vladimyr, known as the vile and feared leader of Shaded.  The
+castle, once started by Tisha, fell from grace once Tisha vanished and
+Cybersyn took over.  Then, after Cybersyn departed, Vladimyr took over
+and brought Shaded out of it's age of darkness to once again make it a
+castle to be reckoned with.
+~
+E
+condor seven~
+	An Outcast at heart, Condor worked feverishly to establish his
+name in the world of DLL.  As a Hero he quested to ensure everyone knew
+how hung he was.
+~
+E
+talen eight~
+	Talen, the first and most brutal leader of castle Perilous.
+He led the castle along with his advisor Bruenor.  Together they spread
+fear and plagued the land of Sembia with death and disease.  Their rein
+was short lived as the opposing castles united to combat their tyranny.
+When Talen departed and leadership changed hands, the castle ceased to
+be as feared as before.
+~
+E
+bruenor nine~
+	Bruenor Bladesmith was the top advisor and most treasured assistant
+to Talen, the leader of Perilous.  Bruenor was known for spreading plagues
+among young adventurers who crossed his path.  He was feared by other
+heroes even when he was not grouped with Talen.  At their peak they were
+an elite team but, they found failure when it came to hunting.  The two
+warriors had a furious hate for Gunslinger of Silverglen and spent countless
+hours in search of the thief so that they could execute him.  They failed.
+~
+E
+mithran ten~
+	Mithran, second ruler of Silverglen.  Mithran took over as Castle
+leader after King Telemid disappeared.  He selected Traveller as Chancellor
+to the castle and ruled until he the day he vanished like Telemid had.
+~
+S
+#29202
+Hall of Past Heroes~
+     The gold plated hall opens to the east and west here.  To the north
+stands a tall and powerful looking crystalline door.  A door like that
+would be impassable by any means other than using a key in the small
+keyhole placed in the center of the strong door.  You suddenly notice
+that the floor has been painted with some directions:
+
+				Test #3
+				   |
+				  / \
+				 /   \
+				/  H  \
+     Test #1  <================+   E   +================>  Test #2
+			        \  R  /
+				 \ O /
+				  \ /
+				   |
+			      E s c a p e
+~
+292 N 0
+D0
+~
+door~
+3 29203 29294
+D1
+~
+door~
+3 29201 29235
+D2
+~
+~
+0 -1 29201
+D3
+~
+~
+0 -1 29203
+E
+plaque~
+   This statue depicts the following heroes:
+
+   (One)   Judicandus
+   (Two)   Hayduke
+   (Three) Thrombosis
+   (Four)  Drip
+   (Five)  Bennu
+   (Six)   Killboy	You can look at each name or corresponding number.
+   (Seven) Svatch
+   (Eight) OK
+   (Nine)  Chelon
+   (Ten)   Sammuel
+~
+E
+judicandus one~
+	Judicandus Bramsheer, writer of the diaries.  Judicandus is the only
+player to have kept a diary of his journies through the land of Sembia.  His
+travels spanned many years and his diaries give us a way to glance into the
+past.
+~
+E
+hayduke two~
+	Hayduke was a member of castle Perilous.  One of his greatest
+accomplishments was attaining the level of 53 before any other Hero,
+making him a Hero of the Third Order.
+~
+E
+thrombosis three~
+	Thrombosis, known by the name Clot to his friends, was close to 
+attaining the status of Hero on DLL.  He has returned to the land of Sembia
+here on ToC to once again climb the mountain of levels to try and reach Hero 
+status.  His generosity and helpfulness on ToC has been unmatched by any 
+other player and that is the reason his statue is here.  He is already a 
+Hero to those he has helped.
+~
+E
+drip four~
+	(This part of the plague has been scratched out and is no longer
+legible)
+~
+E
+bennu five~
+	Bennu, known to all as one of the most devoted clerics to traverse
+the worlds of DLL and ToC.  He held such titles as Leader of the Knights
+of Dawn and high Cleric of Turm Dur Istari.  Being a major contributer
+to the successes of both castle Silverglen and castle Istari, he has
+earned his place among the ranks of the true heroes in a Time of Chaos.
+~
+E
+killboy six~
+	Killboy, was well known for having another alias, Killgirl.  He
+kept DLL'ers well informed of ToC updates by compiling a list of e-mail
+addresses of the players so he could send them mass mail.
+~
+E
+svatch seven~
+	Svatch, a mage in the mages guild that was a part of castle
+Silverglen.  He was able to compile a charmie army and used it to
+invade castle Shaded all by himself.  Truly a mage to be reckoned with. :)
+~
+E
+ok eight~
+	OK, known as the Prince of Swing, was one of the leaders of castle
+Perilous.  He helped to bring back the free-spirited theme that the castle
+was originally based upon.  It was quite a task to erase the warlike image
+that the castle had while under Talen's leadership.
+~
+E
+chelon nine~
+	Chelon, known to all as The ADVICE GODDESS, was one of the most
+loved Heroes of DLL.  She and Kasandra helped to create the Social Club
+that served as a gathering place where players could sit back, relax, 
+talk, and have a few drinks.  She has returned to ToC to once again offer 
+advice and maybe have the Social Club rebuilt.
+~
+E
+sammuel ten~
+	Sammuel, one of the strongest clerics to join Silverglen.  Sammuel
+was one of the most helpful and peaceful players in Silverglen.  He avoided
+fighting in pkill situations.  He instead offered spells to his allies or
+retrieved their corpses with his psionic ability of telekinesis.
+~
+S
+#29203
+Passage to the Maze~
+     From this room you can see that the maze before you has been constructed
+with large stone walls that stretch from the floor to ceiling.  A slight
+chill overcomes you as you hear moans and screames from the deeper part
+of the maze.  One of the stones here has been engraved with some writing.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29202
+D3
+~
+~
+0 -1 29204
+E
+stone~
+You read the stone:
+
+			The First of Three Hero Tests
+
+	The first test will evaluate your combat skills and test your
+	problem solving abilities.  This is one of three total tests.
+	You will be able to begin the second test after completion of
+	the first test.
+~
+S
+#29204
+Twist in the Maze~
+     The maze twists to the south here.  Unholy moans echo from every
+direction.  The stone walls carry sound every which way making it
+impossible to decipher where the sounds originate from.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29203
+D2
+~
+~
+0 -1 29205
+S
+#29205
+Twist in the Maze~
+     The maze continues on to the east.  You catch a whiff of smells that
+churn the acids of your stomach.  Blood?  No.  You've smelled plenty of
+blood in your adventures.  This smells like rotted meat that was left
+unchilled or unsalted.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29204
+D1
+~
+~
+0 -1 29206
+S
+#29206
+Twist in the Maze~
+     The smell becomes stronger here.  Scanning the floor you notice
+faint blood stains on the cobblestone.  You smell something fishy...well
+more like...something undead.
+~
+292 Q 0
+D2
+~
+~
+0 -1 29207
+D3
+~
+~
+0 -1 29205
+S
+#29207
+Twist in the Maze~
+     The stink of rotted flesh is overwhelming at this point.  Is it
+possible to travel deeper into this maze without passing out?
+~
+292 Q 0
+D0
+~
+~
+0 -1 29206
+D3
+~
+~
+0 -1 29208
+S
+#29208
+Twist the Maze~
+     The source of the stench is visible now.  Glancing down the hall you
+see slow moving creatures that have been brought back to life in one form
+or another.  This maze must be full of undead creatures or whatever other
+creatures that were deemed 'unusable' when brought back through the
+Project Starlight portals.
+~
+292 CQ 0
+D1
+~
+~
+0 -1 29207
+D3
+~
+~
+0 -1 29209
+S
+#29209
+Twist in the Maze~
+     The dark and dreary maze turns north here.  The foul stench of
+decay becomes even more prominent.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29210
+D1
+~
+~
+0 -1 29208
+S
+#29210
+Twist in the Maze~
+     The halls here just seem to lead you on to rooms that are deeper
+in the mountain side that this fortress is built on.  There don't seem
+to be any choices of paths to take.
+~
+292 Q 0
+D2
+~
+~
+0 -1 29209
+D3
+~
+~
+0 -1 29211
+S
+#29211
+Twist in the Maze~
+     The dark halls of the maze twist further north.  The creatures
+you run into moan with the sadness of life.  Korzath has simply left
+them here to rot.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29212
+D1
+~
+~
+0 -1 29210
+S
+#29212
+Twist in the Maze~
+     The maze passage opens into a four direction junction here.  You
+can travel back the way you came or head north or west.  A closed
+platinum door lies east.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29218
+D1
+~
+~
+1 -1 29213
+D2
+~
+~
+0 -1 29211
+D3
+~
+~
+0 -1 29214
+S
+#29213
+Dead End~
+     This room is frigidly cold and is also a dead end in this maze.
+~
+292 Q 0
+D3
+~
+~
+1 -1 29212
+S
+#29214
+Twist in the Maze~
+     A closed door is to the south.  A rank raw smell eminates from that
+ direction.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29212
+D2
+~
+~
+1 -1 29215
+S
+#29215
+Dead End~
+     This is yet another dead end in the maze.
+~
+292 Q 0
+D0
+~
+~
+1 -1 29214
+S
+#29216
+Twist in the Maze~
+     To the west is another closed door.  A strange humming sound comes
+from behind the door.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29218
+D3
+~
+~
+1 -1 29217
+S
+#29217
+Choices~
+     You step into the room and see the the source of the humming sound.
+The whole western wall hums and glows, ten levers are mounted across the
+center of the stone:
+Most commonly used abbreviations on this mud...
+
+    1      2      3      4      5      6      7      8      9      10
+    _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O
+   / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/
+  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\
+  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   / 
+   \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/
+   CoR    R&R    BRH    RFK    COT    DBD    DEA    ToC    TBC  ROFLMAO
+Pull the lever(s) that match the correct answer(s).
+~
+292 NQ 0
+D0
+~
+~
+4 -1 29234
+D1
+~
+~
+4 -1 29234
+D2
+~
+~
+4 -1 29234
+D3
+~
+~
+4 -1 29234
+D4
+~
+~
+4 -1 29234
+D5
+~
+~
+4 -1 29233
+S
+#29218
+Twist in the Maze~
+     The path to the north ends here.  The hallway breaks to the east and
+to the west.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29219
+D2
+~
+~
+0 -1 29212
+D3
+~
+~
+0 -1 29216
+S
+#29219
+Twist in the Maze~
+     The maze continues east or west.  The stone walls carry the echoes
+of groaning sounds made by the trapped souls of this maze.  You'll
+hopefully not share their fate.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29220
+D3
+~
+~
+0 -1 29218
+S
+#29220
+Twist in the Maze~
+     The maze turns north again.  You wonder where this part of the maze
+is leading you to.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29221
+D3
+~
+~
+0 -1 29219
+S
+#29221
+Twist in the Maze~
+     The stone hall of this maze takes a sharp turn to the west.
+~
+292 Q 0
+D0
+~
+stone~
+4 -1 29222
+D2
+~
+~
+0 -1 29220
+D3
+~
+~
+0 -1 29223
+S
+#29222
+A Small Cramped Space~
+     Just a small crapped space here.
+~
+292 Q 0
+D2
+~
+stone~
+4 -1 29221
+S
+#29223
+Twist in the Maze~
+     The hall continues west and east.  The floor beneath you is well
+worn at this section of the hall.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29221
+D3
+~
+~
+0 -1 29224
+S
+#29224
+Twist in the Maze~
+     The maze makes another sharp turn, this time to the north.  You're
+glad that their aren't too many places where you can choose to turn at.
+The walls all look the same to you now and you would probably get lost.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29225
+D1
+~
+~
+0 -1 29223
+S
+#29225
+Twist in the Maze~
+     The hall continues north and back south.  To the east is a tall,
+old worn out pine wood door.  You hear a faint thunmping sound, as if
+somebody were knocking at the door.
+~
+292 Q 0
+D0
+~
+~
+0 -1 29227
+D1
+~
+~
+1 -1 29226
+D2
+~
+~
+0 -1 29224
+S
+#29226
+Dead End~
+     Another dead end.
+~
+292 Q 0
+D3
+~
+~
+1 -1 29225
+S
+#29227
+Twist in the Maze~
+     You round the corner of this hallway and can now travel to the east.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29228
+D2
+~
+~
+0 -1 29225
+S
+#29228
+Twist in the Maze~
+     The stone passage leads east and back to the west.  The stones of
+the wall and floor have almost turned completely red due to the blood
+spilled here in the maze.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29229
+D3
+~
+~
+0 -1 29227
+S
+#29229
+Twist in the Maze~
+     The hall leads further east.  You can feel a soft breeze of cold
+mountain air flowing east to west.  On the breeze is the smell of more
+plagued decay.  You realize there is a closed stone door to the south.
+~
+292 Q 0
+D1
+~
+~
+0 -1 29230
+D2
+~
+~
+1 -1 29232
+D3
+~
+~
+0 -1 29228
+S
+#29230
+Twist in the Maze~
+     The passage turns here towards the southeast.  You've grown so used
+to the rancid smells of the halls that you barely recognize the remnants
+of bodies that lie strewn here.
+~
+292 Q 0
+D3
+~
+~
+0 -1 29229
+D8
+~
+~
+0 -1 29231
+S
+#29231
+Dead End~
+     The end of the hall.
+~
+292 Q 0
+D7
+~
+~
+0 -1 29230
+S
+#29232
+Dead End~
+     Yet another dead end.
+~
+292 Q 0
+D0
+~
+~
+1 -1 29229
+S
+#29233
+You've chosen wisely!!!~
+     Yes!  You pulled the correct lever!
+
+     NOT
+
+     You try to breathe and are met by the feeling of water filling
+your lungs instead of the feel of sweet, life giving oxygen.
+
+     BUT.....
+
+     There could be a way out depending on the levers you pulled....
+~
+292 FNQX 8
+29202 15 1
+D0
+~
+~
+4 -1 29217
+D4
+~
+~
+4 -1 29234
+D5
+~
+~
+4 -1 29325
+S
+#29234
+You've chosen wisely!!!~
+     Yes!  You pulled the correct lever!
+
+     OOPS!  Maybe not!
+
+     You begin to take a breath and are met by the gagging feeling of
+stinking cloud gas pouring into the depths of your lungs.  There is no
+way out of this room except by dying.
+~
+292 FNQX 8
+29202 15 1
+D0
+~
+~
+4 -1 29234
+D1
+~
+~
+4 -1 29234
+D2
+~
+~
+4 -1 29234
+D3
+~
+~
+4 -1 29234
+D4
+~
+~
+4 -1 29234
+D5
+~
+~
+4 -1 29234
+S
+#29235
+Path of Questions~
+     You walk into the room and see a tattered sign with missing letters
+before you:
+
+                            PA H OF QUE TIONS
+
+	1.  Th s is the Path of Questions.  Bewa e tha  once y u dec de to
+begin this test that the  nly way to esc pe the test is to eit er compl te
+the test or die tr ing.
+	2.  There will be ten pos ible ans ers to eac  of the fiv  questions.
+Only one of the answers w ll be the cor ect one.  You can se  the answers by
+loo ing at each of the e its.  Cho se your answer wise y.  A wrong answer
+will mean cer ain death.
+	3.  Ch ose wis ly an do not sh re answ rs wit oth r hero s.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29236
+D3
+~
+~
+3 29201 29202
+S
+#29236
+Question~
+     QUESTION #1:
+		Sarmini has twelve apples.  Kalak comes by and gives
+the healer five apples and the healer already had three apples.  Kalak had
+twice the number of apples that the gnome man had before gnome man lost
+seven apples to the goblins in a bet about how many apples Seraloi had
+given to Kalak (which was six).  Raistlin bought nine apples from the
+druids, leaving the druids with three times the amount that the gnome man
+had after the bet.  After the betting Sarmini ate a green apple and the 
+gnome man had robbed Sarmini.  The gnome man had eleven apples before
+losing the bet.  Before Raistlin bought the apples from the druids, he 
+had three times the apples that the gnome man had after the bet.  The 
+gnome man stole one third the amount of apples from Sarmini that Raistlin
+had after he bought the apples from the druids.  The healer came by and
+sold a quarter of his apples to the druids.
+     Now, how many apples does each person have?  Make your answer in this
+order: Sarmini, Kalak, Raistlin, Gnome man, Druids.  You have limited time
+to move through the exit that has your answer.
+~
+292 NQ 7
+D0
+5, 17, 22, 11, 14
+~
+~
+0 -1 29327
+D1
+4, 23, 21, 4, 14
+~
+~
+0 -1 29327
+D2
+5, 23, 21, 11, 12
+~
+~
+0 -1 29327
+D3
+4, 23, 21, 11, 14
+~
+~
+0 -1 29237
+D4
+4, 17, 21, 4, 14
+~
+~
+0 -1 29327
+D5
+4, 23, 21, 11, 12
+~
+~
+0 -1 29327
+S
+#29237
+Question~
+     QUESTION #2:
+		Paco the Pawn Shop owner was found murdered in Dresden.
+The Mayor called for an immediate investigation to find out who had
+committed such a ruthless crime.  The six subjects were Jazair the Nomad,
+Stehnrik the Dwarven Guard, Maliki of the Wand shop, Darla the pet shop 
+girl, Bidom the Wizard, and Kalak the Blacksmith.  Each was interrogated
+heavily.  Bidom confessed that he did the murder because Paco had robbed
+some potions from his shop.  Jazair confessed that he did it because his
+temper gets a hold of him sometimes.  Stehnrik was reduced to tears during
+his interrogation and said he did the murder because he though Paco got
+his sister pregnant.  Darla also cried many tears that flowed down the
+outside part off her face as she confessed that Paco had fathered her child
+but refused to help raise it.  Maliki claimed he did it because Paco sold
+him a bad batch of firework wands, and Kalak said he killed Paco because
+Paco was honing in on his business.  All of the suspects are lying because
+of their interrogations.  Only one of the suspects committed the murder and
+is playing along with the others by confessing.  Move through the exit that
+has your answer as the exit description.  Time is limited.
+~
+292 NQ 7
+D0
+Jazair.
+~
+~
+0 -1 29327
+D1
+Stehnrik.
+~
+~
+0 -1 29327
+D2
+Maliki.
+~
+~
+0 -1 29327
+D3
+Bidom.
+~
+~
+0 -1 29327
+D4
+Darla.
+~
+~
+0 -1 29238
+D5
+Kalak.
+~
+~
+0 -1 29327
+S
+#29238
+Question~
+     QUESTION #3:
+		A tub is one hundred liters in size and it is filled
+with ice.  When water becomes ice it expands by ten percent.  Because
+of the difference in temperature, ice is melting at a rate of twenty
+liters per minute.  After two minutes the room becomes cooler and ice 
+melts at a rate of ten liters per minute.  After a certain period of 
+time all the ice has melted.  Gioli is measuring the amount of water
+that flows out of the tub.  His instruments add fifty percent to his 
+measurements.  Gioli will measure the overflow eight minutes after it 
+begins to melt.  What is Gioli's measurement?
+
+You have limited time to move through the exit that has your answer.
+~
+292 NQ 7
+D0
+15 liters.
+~
+~
+0 -1 29327
+D1
+45 liters.
+~
+~
+0 -1 29327
+D2
+0 liters.
+~
+~
+0 -1 29239
+D3
+1.5 liters.
+~
+~
+0 -1 29327
+D4
+30 liters.
+~
+~
+0 -1 29327
+D5
+5 liters.
+~
+~
+0 -1 29327
+S
+#29239
+Question~
+     QUESTION #4:
+		When both hands of a clock point to twelve, and it is
+daylight outside then what time is it?  (Spell it).  Time is limited.
+~
+292 NQ 7
+D0
+Noon, It.
+~
+~
+0 -1 29240
+D1
+Midnight.
+~
+~
+0 -1 29327
+D2
+Noon.
+~
+~
+0 -1 29327
+D3
+Twelve.
+~
+~
+0 -1 29327
+D4
+Midnight, It.
+~
+~
+0 -1 29327
+D5
+Twelve pm, It.
+~
+~
+0 -1 29327
+S
+#29240
+Question~
+     QUESTION #5:
+		1. The name of Korzath's Grandmother.
+		2. The name of Korzath's son.
+		3. The name of Korzath's uncle.
+		4. The name of Korzath's mother.
+		5. The old last name of Korzath's family.
+
+Mark your answers in order 1 through 5.
+You have limited time to move through the exit that has your answers.
+~
+292 NQ 7
+D0
+Kylee, Zarith, Markaroth, Inia, Illisandian
+~
+~
+0 -1 29327
+D1
+Inia, Zorac, Markaroth, Kylee, Illisandian
+~
+~
+0 -1 29241
+D2
+Inia, Zarith, Zorac, Kylee, Illisandian
+~
+~
+0 -1 29327
+D3
+Inia, Zorac, Markaroth, Kylee, Illistandian
+~
+~
+0 -1 29327
+D4
+Haze hopes you read the translation plaques.
+~
+~
+0 -1 29327
+D5
+Kylee, Zorac, Zarith, Inia, Illisandiar
+~
+~
+0 -1 29327
+S
+#29241
+Question~
+     You stand before a long rope bridge that stretches the expanse of a
+deep black chasm here inside the mountain.  The cavern here is so large
+and dark that you cannot see walls or the ceiling.  You only see the
+rock floor drop off into the endless looking chasm and the bridge that
+goes over it.  Are you sure you want to cross this?
+~
+292 NQ 7
+D2
+~
+~
+0 -1 29241
+D6
+~
+~
+0 -1 29242
+S
+#29242
+Center of the Bridge~
+     As you approach the center of the bridge you feel it sway and move
+beneath your feet.  You glance up and notice a horridly ugly creature
+approaching you at a fast pace.  He closes the distance quickly and you
+hear his voice boom and echo: "NONE SHALL PASSSSSSSSSS!"
+~
+292 NQ 0
+D6
+~
+~
+0 -1 29243
+D9
+~
+~
+0 -1 29241
+S
+#29243
+End of Freedom~
+     The bridge and chasm come to an end on this small ledge of rock.  A
+huge door stands before you and it glows with an etherally sick light.
+At the foot of the door is a man whose blood is slowly spilling from his
+body making a pool of bloody mud beneath him.  Through the cuts and blood
+on his body you manage to make out the insignia on his arm plates.  The
+plates identify this man as being one of the *Elite* Royal Guards of the
+city of New Thalos.  He lifts a finger and beckons you to take a closer
+look at him so he can speak with you.
+~
+292 CQ 0
+D0
+~
+~
+3 29202 29246
+D9
+~
+~
+0 -1 29242
+S
+#29244
+Cornerground~
+     This room is at the base of one of the four towers that are placed
+around the Battleground Arena.  Atop the tower are some of Korzath's
+top military advisors who log and record data on the combat taking place
+in the arena.  There should be a way up to the top of the tower from here
+but as you search the ceiling you only find that it is pure black rock with
+no opening in sight.  You could chance your luck though and pull the red
+lever located in the back of the room.
+~
+292 NQ 0
+D0
+~
+~
+1 -1 29249
+S
+#29245
+Battleground Arena~
+     To the south of you is the hundread foot high rock wall that closes
+in the Battleground Arena.  To the north and east of you there is more
+space to fight in.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29250
+D1
+~
+~
+0 -1 29246
+S
+#29246
+The Battleground Arena~
+     This is the legendary Battleground Arena that is hidden deep in the
+heart of Korzath's Fortress.  Korzath uses this arena to test the strength
+of the creatures he has captured from other dimensions via Project Starlight
+portals.  You glance around and see many different beasts that have never
+crossed your path in the world of Sembia.  The Arena is surrounded by a one
+hundred foot high black rock wall with towers placed at the four corners.
+In the center of the arena is a + shaped rock structure.
+~
+292 CNQ 0
+D0
+~
+~
+0 -1 29251
+D1
+~
+~
+0 -1 29247
+D2
+~
+~
+0 29202 29243
+D3
+~
+~
+0 -1 29245
+S
+#29247
+Battleground Arena~
+     To the south of you is the hundread foot high rock wall that closes
+in the Battleground Arena.  To the north and west of you there is more
+space to fight in.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29252
+D3
+~
+~
+0 -1 29246
+S
+#29248
+Cornerground~
+     This room is at the base of one of the four towers that are placed
+around the Battleground Arena.  Atop the tower are some of Korzath's
+top military advisors who log and record data on the combat taking place
+in the arena.  There should be a way up to the top of the tower from here
+but as you search the ceiling you only find that it is pure black rock with
+no opening in sight.  You could chance your luck though and pull the red
+lever located in the back of the room.
+~
+292 NQ 0
+D0
+~
+~
+1 -1 29253
+S
+#29249
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29254
+D1
+~
+~
+0 -1 29250
+D2
+~
+~
+1 -1 29244
+S
+#29250
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29255
+D1
+~
+~
+0 -1 29251
+D2
+~
+~
+0 -1 29245
+D3
+~
+~
+0 -1 29249
+S
+#29251
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29256
+D1
+~
+~
+0 -1 29252
+D2
+~
+~
+0 -1 29246
+D3
+~
+~
+0 -1 29250
+S
+#29252
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29257
+D1
+~
+~
+0 -1 29253
+D2
+~
+~
+0 -1 29247
+D3
+~
+~
+0 -1 29251
+S
+#29253
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29258
+D2
+~
+~
+1 -1 29248
+D3
+~
+~
+0 -1 29252
+S
+#29254
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29259
+D1
+~
+~
+0 -1 29255
+D2
+~
+~
+0 -1 29249
+S
+#29255
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29260
+D1
+~
+~
+0 -1 29256
+D2
+~
+~
+0 -1 29250
+D3
+~
+~
+0 -1 29254
+S
+#29256
+Battleground Arena~
+     To the north of you lies the cross shaped structure you saw earlier.
+It seems odd that there is a black rock structure here when there are
+already four towers at the corners of the arena.  What lies inside this
+thing?
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29257
+D2
+~
+~
+0 -1 29251
+D3
+~
+~
+0 -1 29255
+S
+#29257
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29262
+D1
+~
+~
+0 -1 29258
+D2
+~
+~
+0 -1 29252
+D3
+~
+~
+0 -1 29256
+S
+#29258
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29263
+D2
+~
+~
+0 -1 29253
+D3
+~
+~
+0 -1 29257
+S
+#29259
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29264
+D1
+~
+~
+0 -1 29260
+D2
+~
+~
+0 -1 29254
+S
+#29260
+Battleground Arena~
+     The way north and east is blocked by the walls of the high standing
+cross shaped structure of the arena.
+~
+292 NQ 0
+D2
+~
+~
+0 -1 29255
+D3
+~
+~
+0 -1 29259
+S
+#29261
+Battlecross~
+     The cold black rock around you must be quite thick because there isn't
+much space inside the Battlecross.  The ceiling is low and this room is
+has barely enough square footage to equal that of a crawl space.
+~
+292 LQ 0
+D0
+~
+~
+0 -1 29266
+S
+#29262
+Battleground Arena~
+     The way north and west is blocked by the walls of the high standing
+cross shaped structure of the arena.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29263
+D2
+~
+~
+0 -1 29257
+S
+#29263
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29268
+D2
+~
+~
+0 -1 29258
+D3
+~
+~
+0 -1 29262
+S
+#29264
+Battleground Arena~
+     You squeeze through this passage that is made small by the bordering
+wall of the arena and the cross that dominates the center of the arena.
+The black rock of the cross is chilling to the touch.  You can't help
+but wonder at it's purpose.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29269
+D2
+~
+~
+0 -1 29259
+S
+#29265
+Battlecross~
+     The cold black rock around you must be quite thick because there isn't
+much space inside the Battlecross.  The ceiling is low and this room is
+has barely enough square footage to equal that of a crawl space.     
+~
+292 LNQ 0
+D1
+~
+~
+0 -1 29266
+S
+#29266
+Battlecross~
+     This room is the center of the Battlecross.  The ceiling stretches
+high above you and you can see a shaft of light being emitted from somewhere
+at the top.  You notice that there are footprints leading toward all four
+exits of this room.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29271
+D1
+~
+~
+0 -1 29267
+D2
+~
+~
+0 -1 29261
+D3
+~
+~
+0 -1 29265
+S
+#29267
+Battlecross~
+     The cold black rock around you must be quite thick because there isn't
+much space inside the Battlecross.  The ceiling is low and this room is
+has barely enough square footage to equal that of a crawl space.
+~
+292 LNQ 0
+D3
+~
+~
+0 -1 29266
+S
+#29268
+Battleground Arena~
+     You squeeze through this passage that is made small by the bordering
+wall of the arena and the cross that dominates the center of the arena.
+The black rock of the cross is chilling to the touch.  You can't help
+but wonder at it's purpose.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29273
+D2
+~
+~
+0 -1 29263
+S
+#29269
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29274
+D1
+~
+~
+0 -1 29270
+D2
+~
+~
+0 -1 29264
+D3
+~
+~
+4 -1 29324
+S
+#29270
+Battleground Arena~
+     The way south and east is blocked by the walls of the high standing
+cross shaped structure of the arena.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29275
+D1
+~
+~
+4 -1 29271
+D3
+~
+~
+0 -1 29269
+S
+#29271
+Battlecross~
+     The cold black rock around you must be quite thick because there isn't
+much space inside the Battlecross.  The ceiling is low and this room is
+has barely enough square footage to equal that of a crawl space.
+~
+292 LNQ 0
+D2
+~
+~
+0 -1 29266
+D3
+~
+~
+4 -1 29270
+S
+#29272
+Battleground Arena~
+     The way south and west is blocked by the walls of the high standing
+cross shaped structure of the arena.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29277
+D1
+~
+~
+0 -1 29273
+S
+#29273
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29278
+D2
+~
+~
+0 -1 29268
+D3
+~
+~
+0 -1 29272
+S
+#29274
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29279
+D1
+~
+~
+0 -1 29275
+D2
+~
+~
+0 -1 29269
+S
+#29275
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29280
+D1
+~
+~
+0 -1 29276
+D2
+~
+~
+0 -1 29270
+D3
+~
+~
+0 -1 29274
+S
+#29276
+Battleground Arena~
+     To the south of you is the cross of the Battleground.  Maybe there
+is a way in from here?     
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29281
+D1
+~
+~
+0 -1 29277
+D3
+~
+~
+0 -1 29275
+S
+#29277
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29282
+D1
+~
+~
+0 -1 29278
+D2
+~
+~
+0 -1 29272
+D3
+~
+~
+0 -1 29276
+S
+#29278
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29283
+D2
+~
+~
+0 -1 29273
+D3
+~
+~
+0 -1 29277
+S
+#29279
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29284
+D1
+~
+~
+0 -1 29280
+D2
+~
+~
+0 -1 29274
+S
+#29280
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29285
+D1
+~
+~
+0 -1 29281
+D2
+~
+~
+0 -1 29275
+D3
+~
+~
+0 -1 29279
+S
+#29281
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29286
+D1
+~
+~
+0 -1 29282
+D2
+~
+~
+0 -1 29276
+D3
+~
+~
+0 -1 29280
+S
+#29282
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29287
+D1
+~
+~
+0 -1 29283
+D2
+~
+~
+0 -1 29277
+D3
+~
+~
+0 -1 29281
+S
+#29283
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29288
+D2
+~
+~
+0 -1 29278
+D3
+~
+~
+0 -1 29282
+S
+#29284
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the west of you.
+~
+292 NQ 0
+D0
+~
+~
+1 -1 29289
+D1
+~
+~
+0 -1 29285
+D2
+~
+~
+0 -1 29279
+S
+#29285
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29290
+D1
+~
+~
+0 -1 29286
+D2
+~
+~
+0 -1 29280
+D3
+~
+~
+0 -1 29284
+S
+#29286
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29291
+D1
+~
+~
+0 -1 29287
+D2
+~
+~
+0 -1 29281
+D3
+~
+~
+0 -1 29285
+S
+#29287
+Battleground Arena~
+     All around you are creatures screaming in fits of anguish and rage.
+Some stumble about, crippled by the wounds and sores that tattoo their
+bodies.  Others walk unscathed, looking over the beasts they walk by as
+they decide which one to attack next.  This is a warzone and you're in the
+heart of it all.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29292
+D1
+~
+~
+0 -1 29288
+D2
+~
+~
+0 -1 29282
+D3
+~
+~
+0 -1 29286
+S
+#29288
+Battleground Arena~
+     More of the Battleground Arena lies before you.  Off in the distance
+you can see more hideous creatures walking around aimlessly in the arena.
+Once in awhile they stop and savagely attack another creature nearby.  The
+wall of the arena lies to the east of you.
+~
+292 NQ 0
+D0
+~
+~
+1 -1 29293
+D2
+~
+~
+0 -1 29283
+D3
+~
+~
+0 -1 29287
+S
+#29289
+Cornerground~
+     This room is at the base of one of the four towers that are placed
+around the Battleground Arena.  Atop the tower are some of Korzath's
+top military advisors who log and record data on the combat taking place
+in the arena.  There should be a way up to the top of the tower from here
+but as you search the ceiling you only find that it is pure black rock with
+no opening in sight.  You could chance your luck though and pull the red
+lever located in the back of the room.
+~
+292 NQ 0
+D2
+~
+~
+1 -1 29284
+S
+#29290
+Battleground Arena~
+     You've reached the northern wall of the arena.  A wall lies to your
+west but you can follow the wall east or head south.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29291
+D2
+~
+~
+0 -1 29285
+S
+#29291
+Battleground Arena~
+     To the north of you is the massive northern wall of the Battleground
+Arena.  You notice this room is a bit darker than the others in the arena.
+It seems as if you are standing in a black cloud of smoke.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29292
+D2
+~
+~
+0 -1 29286
+D3
+~
+~
+0 -1 29290
+S
+#29292
+Battleground Arena~
+     You've reached the northern wall of the arena.  A wall lies to your
+east but you can follow the wall west or head south.
+~
+292 NQ 0
+D2
+~
+~
+0 -1 29287
+D3
+~
+~
+0 -1 29291
+S
+#29293
+Cornerground~
+     This room is at the base of one of the four towers that are placed
+around the Battleground Arena.  Atop the tower are some of Korzath's
+top military advisors who log and record data on the combat taking place
+in the arena.  There should be a way up to the top of the tower from here
+but as you search the ceiling you only find that it is pure black rock with
+no opening in sight.  You could chance your luck though and pull the red
+lever located in the back of the room.
+~
+292 NQ 0
+D2
+~
+~
+1 -1 29288
+S
+#29294
+The Loop Test~
+     You enter the room and a booming voice greets you:
+
+   "Welcome mortal hero.  Should you be attempting this test while alone
+it is advisable that you remove yourself from the premises now.  If you
+wish to continue with the test then step north but beware.  Once you
+travel north there will be only two ways to escape: complete the test
+successfully or perish while attempting to complete it."
+
+    A kinder, female voice speaks:
+
+    "The loop will send you bouncing from loop room to loop room.  The
+hero must solve this test by figuring out the one way to escape the loop.
+Escaping the loop will take you to the deeper sect of the Fortress.  Failure
+will result in your death.  Note that you cannot recall once you have
+entered the loop.  Have a nice day!"
+~
+292 Q 0
+D0
+~
+~
+0 -1 29295
+D2
+~
+~
+3 29203 29202
+S
+#29295
+The Loop~
+    You are standing on a glowing slab of black rock.  All around you is
+a dark abyss that seems to stretch for miles.  You are not alone.
+~
+292 FNQ 0
+29296 15 1
+S
+#29296
+The Loop~
+    You are standing on a glowing slab of black rock.  All around you is
+a dark abyss that seems to stretch for miles.  You are not alone.
+~
+292 FNQ 0
+29297 15 1
+S
+#29297
+The Loop~
+    You are standing on a glowing slab of black rock.  All around you is
+a dark abyss that seems to stretch for miles.  You are not alone.
+~
+292 FNQ 0
+29298 15 1
+D5
+~
+~
+0 -1 29326
+S
+#29298
+The Loop~
+    You are standing on a glowing slab of black rock.  All around you is
+a dark abyss that seems to stretch for miles.  You are not alone.
+~
+292 FNQ 0
+29299 15 1
+S
+#29299
+The Loop~
+    You are standing on a glowing slab of black rock.  All around you is
+a dark abyss that seems to stretch for miles.  You are not alone.
+~
+292 FNQ 0
+29295 15 1
+D0
+~
+slab~
+4 29204 29300
+S
+#29300
+Tight Corridor~
+     You step into this tight corridor made of pale red stone.  It leads
+slightly north before veering to the northwest.
+~
+292 NQ 0
+D2
+~
+slab~
+3 29204 29299
+D7
+~
+~
+0 -1 29301
+S
+#29301
+Long Hall~
+     To the north of you is a long hallway that stretches for as far
+as the eye can see.  The floor and walls are built out of a deep red
+colored stone.  Any moved here will sent echoes skittering down the
+silent hallway.  You should look cautiously for traps.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29302
+S
+#29302
+Long Hall~
+     The long hall contines north.  Statues of Knights stand to the east
+and west of you.  Each statue is made up of full sets of silver plated
+armor.  Your imagination runs wild when you think you see it move, as if
+someone was inside.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29305
+D1
+~
+~
+4 -1 29303
+D2
+~
+~
+0 -1 29301
+D3
+~
+~
+4 -1 29304
+S
+#29303
+Secret~
+     A small fireplace is built into the wall at the back of the room.
+A steady fire burns within in shedding a warm glow of light over the room.
+A map of Sembia hangs on the northern wall and a blackboard is attached to
+the south wall.
+~
+292 NQ 0
+D3
+~
+door~
+1 -1 29302
+S
+#29304
+Secret~
+     This room is dark and cold.  Boxes and crates of books are stacked
+to the ceiling.  All of the crates are magically sealed but one lies 
+open.  Such books as "Military Warfare, Strategy, and Tactics," and
+"Castle Management," lie atop the crate.  Other books lie below it but
+the titles are written in a language you are unfamiliar with.  You could
+however read the Military or Castle books.
+~
+292 QTU 0
+D1
+~
+door~
+1 -1 29302
+E
+2page~
+     All four types of castles I have defined have a chance at succeeding 
+in their belief.  I will first examine the fundamentals that apply to any 
+type of castle and then I will take a look at them to further explain
+how each can find success or failure and why they will succeed or fail.
+
+Leadership
+""""""""""
+	Strong leadership is imperative to the success of any castle.
+A castle leader should possess the following:
+
+	 -undying support and admiration from the castle members
+	 -ability to speak well in diplomatic situations
+	 -ability to make quick, wise decisions in the heat of the moment
+	 -a known and feared presence in the community
+
+	This last quality is important because if a leader is rarely seen
+by his/her castle members or by anyone within the society then that leader
+loses his/her reputation.			Continued on 3page
+~
+E
+3page~
+Castle Member Quality
+"""""""""""""""""""""
+	Most castles fight to gather as many members as they can possibly 
+gather.  In my opinion this is a mistake.  A castle should keep itself 
+small and tight.  If a castle is kept small then the members will know
+each other, group together for combat, and have a united trust amongst 
+themselves.  If a castle gets too large then the members do not interact 
+as much as they should.  They may not even know the names of all the 
+members of their castle!
+	If a "problem" should begin to arise then a large castle will
+have more trouble dealing with it.  Such problems are:
+
+	 -a scandal in which blame is laid on somebody in the castle
+	 -members being killed by members of an opposing castle
+	 -spys
+
+						Continued on 4page
+~
+E
+4page~
+You continue to read on:
+	A large castle will have a problem stopping spies from other castles
+from infiltrating.  Another problem that was listed is when lower level 
+members get killed.  In most cases, the higher members of the castle will 
+spend countless hours helping the recently deceased.  While this is the good
+samaritan thing to do, it can be detrimental to the castle as a whole.
+	If a castle stays small and the members get to know each other
+well then there is less of a chance of a spy infiltarting, scandal, and
+deaths of castle members will most likely be reduced.  A group of 3-5
+members who fight alongside each other often will learn the combat styles
+and strategies of their companions.  A group like this is about 3 times
+as deadly as a group of 6-10 people who barely know the names of their
+fellow group members.  This shows a contrast to how a small castle can
+have more advantages in the ways of castle life than a large castle.
+
+						Continued on 5page
+~
+E
+5page~
+Four Basic Types of Castle Themes
+"""""""""""""""""""""""""""""""""
+	Now that we have examined the basic fundamentals of a successful
+castle we will now look at the four basic themes that castles usually
+base themselves on.
+
+-Defending the Weak
+     This type of castle is a lawful good type of castle that works
+to protect the innocent and preserve law across the land and among the
+other castles.  Most attempts at this type of castle fail due to the
+strength and momentum that evil castles gain with the passage of time.
+     For this type of castle to succeed it first of all needs a strong
+leader as mentioned above.  Secondly, when the castle works to enforce the
+protective laws it must find a way to deal with the law-breakers.  This is
+usually done by hunting down and killing the individual who broke the law
+and taking his/her equipment as punishment.  What hurts a lawful castle most
+is failure to carry out this punishment.  If they attempt to punish the
+individual of an evil castle who broke the law and the perpretrator escapes
+then it damages the reputation of the good castle.   Continued on 6page
+~
+E
+6page~
+You continue to read:
+     It is important that the good castle can retain the reputation of
+being able to enforce the law efficiently, otherwise the evil castles
+will not think twice before committing a crime because the chance of
+being punished by the good castle is very low.  The evil castle won't be
+hindered in committing crimes if they don't fear retribution.
+     If the castle can establish a strong reputation for enforcing the law
+and thus hinder the crimes committed by evil castles then it will have a
+higher chance of succeeding.
+
+-Avenging the Innocent
+     Castles that avenge the innocent have similar goals to castles that
+work to protect the innocent.  These castles are often neutral and can
+usually have a high impact of the outcome of a war by deciding to ally
+with one of the warring castles.
+     This type of castle will need a strong leader as well but, this type
+of castle does not necessarily have to succeed at anything, just survive.
+It needs inner strength and unity more than it needs physical power in its
+members.					 Continued on 7page
+~
+E
+7page~
+You continue to read:
+-Oppression of the Meek
+     Castles that choose this theme usually work to kill and pillage the
+weak within the society.  These castles are either chaotic, evil or in
+some rare cases choose to call themselves neutral.
+     This type of castle needs a strong leader like all of the others.
+A leader that is well trained in the ways of pkilling.  A leader that
+can teach the members of the castle how to best carry out their goals.
+They also need a number of strong members to create a feared presence
+among the community.  That way they have a higher chance of finding the
+weak when the weak come out of hiding.  If the members of this castle
+learn to work together then they will have a better chance at killing the
+not so weak members of the society and further enhance a feared presence
+because they will establish a reputation for having killed some of the
+more powerful and well known individuals of the community.
+						Continued of 8page
+~
+E
+8page~
+-Chaos
+     The final type of castle is the one whose sole goal is to create a
+world full of utter chaos.  They are usually of chaotic/evil alingment.
+     As with every castle this one requires a strong leader, preferably
+one that is similar to the type needed in an oppressionistic castle.  The
+castles members need to be physically strong and well trained in pkilling
+as well.  The only difference between this type of castle and one that
+oppresses is that they don't just attack the weak, they attack anything
+that moves.  They use their thieves to steal gold and other various
+possessions from people.  Anything that can cause a person stryfe is an
+action that a chaotic castle will take.
+     To succeed, a chaotic castle must overwhelm their opponents in combat.
+They must be able to go into a fight and know they will come out the winners.
+If the castle can make the other castles fear them then they have the upper
+hand when it comes to negotiations or when making demands.
+						Continued on 9page
+~
+E
+9page~
+Conclusion
+""""""""""
+     Those are my conclusions on basic and necessary castle fundamentals
+and how the basic four types of castle themes can become successful to
+survive.  They are my opinions based on my years of experience and
+research on the subject.  I feel that castle leaders can benefit greatly
+though by following the suggestions and guidelines I have listed.
+
+			    Good luck to you!!
+
+			    Desak The Destined
+~
+S
+#29305
+End of The Hall~
+     The hallway comes to an end at the door to the north of you.  The
+deep red stone climbs around the frame of the titanium doorway.  A large
+hole for a key is it's only blemish.
+~
+292 NQ 0
+D0
+~
+~
+3 29232 29306
+D2
+~
+~
+0 -1 29302
+S
+#29306
+Superunknown~
+     A narrow ledge leads across a pit far below you.  A harsh, sharp,
+sheering wind whips and whirls from somewhere high above you, making it
+difficult to keep your balance.  You see the small figure of a woman
+crouching on the middle of the ledge.  You should look closer to speak
+with her and hope you can stay alive in the Superunknown.
+~
+292 NQ 0
+D0
+~
+~
+3 29092 29307
+D2
+~
+~
+1 29232 29305
+S
+#29307
+Inner Fortress~
+     You are deep inside the heart of the fortress now.  A dank, musky
+scent fills the hallway leading north.  The hallway that leads north
+slants upward to give the Fortress Protectors a combat advantage.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29309
+D2
+~
+~
+1 29092 29306
+S
+#29308
+Inner Fortress~
+     The inner section of the fortress is well defended by Korzath's best
+military officers and officials.  They will fight to the finish to protect
+their leader and preserve the purpose of the Cause.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29311
+D1
+~
+~
+0 -1 29309
+S
+#29309
+Inner Fortress~
+     This part of the fortress is heavily defended.  The area opens up
+to the west, east, and north and the floor slants upward in each direction
+to give invaders a disadvantage.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29312
+D1
+~
+~
+0 -1 29310
+D2
+~
+~
+0 -1 29307
+D3
+~
+~
+0 -1 29308
+S
+#29310
+Inner Fortress~
+     The inner section of the fortress is well defended by Korzath's best
+military officers and officials.  They will fight to the finish to protect
+their leader and preserve the purpose of the Cause.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29313
+D3
+~
+~
+0 -1 29309
+S
+#29311
+Inner Fortress~
+     Another slanted floor leads northward as well as to the east.  Elite
+Imperial Soldiers swarm from the corridor to the north and storm towards
+you.
+     "Invaders! Slay the UNBELIEVERS!!" they scream as they charge to attack.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29315
+D1
+~
+~
+0 -1 29312
+D2
+~
+~
+0 -1 29308
+S
+#29312
+Inner Fortress~
+     A strong stone wall stands to the north, as if something is hidden
+behind it.  The floor around you slants downward to the east, south, and
+west.  Protectors of the fortress slip out from the shadows to the north.
+They usually charge down the slanted floor to have a fighting advantage
+over intruders.  You have managed to get up here before these guards
+could detect you and it has only heightened their determintaion to kill
+you.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29313
+D2
+~
+~
+0 -1 29309
+D3
+~
+~
+0 -1 29311
+S
+#29313
+Inner Fortress~
+     Another slanted floor leads northward as well as to the west.  Elite
+Imperial Soldiers swarm from the corridor to the north and storm towards
+you.
+     "Invaders! Slay the UNBELIEVERS!!" they scream as they charge to attack.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29317
+D2
+~
+~
+0 -1 29310
+D3
+~
+~
+0 -1 29312
+S
+#29314
+Protected Path~
+     This path leads towards the deepest part of the fortress.  Your light
+barely manages to shed light on anything in the room.  The path is protected
+by the Power of Shadows, a power that only Korzath is rumored to have control
+of.  Suddenly the shadows around you shift and black shapes dart quickly
+to descend on you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29319
+D1
+~
+~
+0 -1 29315
+S
+#29315
+Inner Fortress~
+     This hallway path continues to the northwest heading even deeper
+into the mountain.  The path is heavily protected by Korzath's Lord
+Generals.
+     "Step no further unbelievers, your quest to upset the Cause ceases
+here," the Lord General warns, "We are drawing too close to the Day to
+stop now."
+~
+292 NQ 0
+D2
+~
+~
+0 -1 29311
+D3
+~
+~
+0 -1 29314
+S
+#29316
+Korzath's Inner Chamber~
+     This is Korzath's private thinking chamber.  A pedestal stands at
+the back of the room.  On the pedestal is a leather bound diary with gold
+trim on the binding.  This might be where he has written down his intermost
+thoughts and dreams.  A wooden chest will silver trim and iron buckles sits
+in the corner of the room.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29321
+E
+2diary~
+24th week of 4th Quarter Month in the Ninth Dread
+
+   At Midnight tonight our family will celebrate the coming of the Eighth 
+Dread.  Another year will have passed for us on this side of the Dragon
+Sea.  For the past three quarter months I have travelled over this land
+called 'Sembia' and fought in prize fights.  I've yet to lose a single bout
+which has surprised me.  My parents have instilled me with unique combat
+abilities, they spent years teaching me the art of combat but I thought my
+training would only prepare me to equal the combatants of Sembia but that is
+not so.  I OVERPOWER them.  I have yet to meet a challenging opponent.
+   My streak of wins has helped me establish a name for myself, a name so
+reputable that my uncle Markaroth asked me 2 quarter months ago to help him
+promote the family business that my grandfather started.  I agreed to do so
+and in return he has taught me much about the economies of the cities around
+me.  I have learned enough that I believe I could run the business myself.
+I have taken measures to take over the family business....tonight.
+						Continued on 3diary
+~
+E
+3diary~
+1st week of the 1st Quarter Month in the Eigth Dread
+   My uncle Markoroth is dead now.  I ensured that one of the mages
+providing the fireworks display for our New Dread celebration would
+'remove' my uncle from the celebration as quickly and quietly as
+possible.  Father wasn't pleased with my plan for going about having his
+brother executed but, he supported it.  I noticed he provided a strong
+security presence of Shadowmen in the crowd incase something had gone
+awry.  I underestimated the people of Midgaard though, they suspect that
+my Uncle was murdered, they just don't suspect me as the man who hired the
+mage and the mage has been disposed of.
+   I will now proceed to take over the business and run it for a short
+period of time until I am ready to sell off all of the pieces of the
+business and milk it for all it's worth.  I know my uncle put in his will
+that I should take the family fortune and erect a temple next to the 
+Dragon Sea in honor of my grandfather's landing but I have other plans 
+for the fortune and that particular plot of land by the Sea.
+						Continued of 4diary
+~
+E
+4diary~
+20th week of the 4th Quarter Month in the Eigth Dread
+   After many weeks and 2 quarter months, the first phase of my plan is
+complete.  The mountain cave that served as my childhood home has now been
+converted and enlarged into a massive, mighty fortress.  This fortress has
+cost me a majority of the money I made from selling the business off but,
+it will pay itself off in the long run.  I can use this fortress to train
+my troops, manufacture armor and weapons, and research the various projects
+that must be completed to help with the Cause.
+   I was also surprised this week when a nomad brought word that Midgaard
+had been destroyed by a massive draconian attack.  Rumor has it that the
+Gods intervened and imprisioned Tiamat again.  She once again is trapped
+in Dragon Tower, maybe I should release her one day.  It is a thought.  I
+imagine that if the Gods decided to stop that attack then they may one day
+try to stop the Cause.  I have a little something for them should they decide
+to make that mistake.				Continued on 5diary
+~
+E
+5diary~
+You read the next entry:
+11th week of the 3rd Quarter Month in the Seventh Dread
+   The city of Dresden has been erected near where Midgaard once stood.
+I travelled there and was surprised by what I found in the Pawn Shop.
+There in the case my eyes fell upon a book with our family insignia
+engraved on the cover.  The book is my Grandfather's diary.  The
+diary goes into disturbing detail about the ongoings in our home country
+of Tandelador.  The reported ongoings have even given me nightmares.  I
+can see why Zarith wanted to leave.
+   My Father never knew this but, my grandfather's most treasured dream
+was not to build a temple alongside the Dragon Sea but it was to one
+day go back across the Sea to save his country from totally destroying
+itself.  So, weeks ago I rented out a shipbuilding yard in New Thalos
+and initiated the construction of a ship that I plan to send across the
+Sea.						Continued on 6diary
+~
+E
+6diary~
+15th week in the 4th Quarter Month of the Seventh Dread
+   Once the ship is complete I will send a vast majority of my military
+to the ship and send them along with Kazor, one of my best Guardian
+advisors.
+   My desire to explore what remains of Tandelador far outweighs my
+desire to rush into launching the final phases of the Cause.  I believe
+that we first need to learn what we can from Tandelador, a vast amount
+of technology may still remain there along with people who may have
+survived the Purge.  We could learn so much from exploring that region.
+The knowledge we could gain may possibly help us complete the Cause in
+a faster, more effective manner.
+						Continued on 7diary
+~
+E
+7diary~
+12th week of the 1st Quarter Month in the Sixth Dread
+   It has been awhile since my last entry.  My fortress has developed nicely.
+The manufacturing section and engineering departments are operating as
+planned.  Project Starlight is now nearly completed and we plan to begin
+sending our newly trained military through the Project Starlight portals
+with orders to bring back any new species they find.  I then plan to put
+these beings into the Battleground Arena for full fledged combat competition.
+The ones that are deemed the best will be implemented into the Army of the
+Cause.  The rejects will be killed off or locked away for future use.
+   The city of Dresden is flourishing but I have become concerned with it's
+impact on the world of Sembia.  It has brought out countless individuals who
+have begun adventuring and exploring the world around them.  Guilds have
+been constructed within the walls of the town to help train these people.
+Trainers like Tia, David, Seraloi, and Kalak have helped organize and
+refine the training process.  It looks like their training expertise will
+help to create a new breed of combatants who could prove to be quite
+formiddable opponents.
+						Continued on 8diary
+~
+E
+8diary~
+17th week in the 2nd Quarter Month in the Fifth Dread
+   It has been over one Dread since I have written an entry and much has
+happened.  The ship is nearly complete and soon I will send most of my armies
+across the Sea to explore my ancestral homeworld of Tandelador.
+   I don't know what they will encounter there though so I must hope for the
+best because I am not so sure about how easy it will be to lay conquest to
+this land of Sembia.
+   The reason my confidence has been shaken is because the quality of the
+adventurers (who have originated from Dresden) is much much higher then
+I expected.  Some have even aquired a status they call "HERO"
+   I did suspect that this would happen though so I do have a plan.  I have
+changed the construct of the inner fortress into 3 Hero Tests.  I believe
+these tests to be difficult and should any "Heroes" pass these tests then
+they will get to me and my Master Guardian familiar.  Once they arrive
+we will use our combined powers to turn them to our side and use them in
+our Army of the Cause! MUAHAHAHHAHAH!
+						Continued on 9diary
+~
+E
+9diary~
+24th week in the 4th Quarter Month of the Fifth Dread
+   The Fourth Dread is almost upon us but, so are a group of Heroes.
+They have managed to pass the tests and are approaching the room where
+my Master Guardian and I await.
+   There is one bad side to this though.  My Guardian and I have forseen
+a group of Heroes in our dreams, a group of Heroes that come to this very
+room and kill us.
+   I realize that many of my dreams have come true while some of them have
+not.  I hope now that the dream is incorrect but I have made plans incase
+the nightmares comes true.
+   Kazor has been ordered to take all the Lord Generals, Lord Commanders,
+Elite Imperial Soldiers, and Fades with him to the ship and sail for
+Tandelador.  I have ordered this regardless of whether I die or not
+because I don't feel that we can complete the Cause without capturing
+Heroes.  Project Starlight has given us so much help, we learned and
+developed so much advanced technology by using those portals but, I feel
+that we desperately need to aquire technology from Tandelador.  I wish
+you the best of luck Kazor.
+~
+S
+#29317
+Inner Fortress~
+     This hallway path continues to the northeast heading even deeper
+into the mountain.  The path is heavily protected by Korzath's Lord
+Generals.
+     "Step no further unbelievers, your quest to upset the Cause ceases
+here," the Lord General warns, "We are drawing too close to the Day to
+stop now."
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29318
+D2
+~
+~
+0 -1 29313
+S
+#29318
+Protected Path~
+     This path leads towards the deepest part of the fortress.  Your light
+barely manages to shed light on anything in the room.  The path is protected
+by the Power of Shadows, a power that only Korzath is rumored to have control
+of.  Suddenly the shadows around you shift and black shapes dart quickly
+to descend on you.
+~
+292 NQ 0
+D0
+~
+~
+0 -1 29323
+D3
+~
+~
+0 -1 29317
+S
+#29319
+Vortex~
+     The room is filled with the whistiling sound of fierce winds.
+The wind swirls around you so quickly that you are lifted into the air.
+You continue to spin until a brilliant white light flashes in three
+short bursts blinding you for a few seconds.  You feel yourself moving
+to another room.
+~
+292 CFNQ 0
+29321 5 1
+D2
+~
+~
+0 -1 29314
+S
+#29320
+Chamber of Starlight~
+     This room is incredibly bright when compared to all the other
+dark black rock walled rooms of the fortress.  The walls here are
+glowing white with swirls of blue lightning moving through the
+whiteness.  A shining treasure chest sits in the center of the room.
+~
+292 NQ 0
+D1
+~
+~
+0 -1 29321
+S
+#29321
+Beam Point 1~
+     The vortex has dropped you here in a pitch black room.  The floor
+beneath you shuffles and grinds as you feel it move upward.  Higher and
+higher it goes, the air flowing past your face as you continue to rise
+at a rapid rate.  The darkness of the floor begins to fade as a huge deep
+blue swirl begins to show itself underneath you.  You can see that the
+blue light is eminating from a swirling groove engraved in the floor.
+Finally, the floor stops moving and two shapes reveal themselves from
+the darkness around you.
+     "Welcome to my humble abode young travellers," Korzath says, "Stay
+awhile...in fact....STAY FOREVER!"
+     A Sword of Starlight appears in Korzath's hands and the darkness of
+the room is destroyed by the utterly powerful light produced by the Sword.
+~
+292 NQ 0
+D0
+~
+~
+2 -1 4207
+D1
+~
+~
+0 -1 29322
+D2
+~
+~
+0 -1 29316
+D3
+~
+~
+0 -1 29320
+S
+#29322
+Chamber of Darklight~
+     The walls of this room glow with a black light as shards of streaking
+red sparks dash across the wall like electricity.  A small grey chest sits
+against the wall in the back of the room.
+~
+292 NQ 0
+D3
+~
+~
+0 -1 29321
+S
+#29323
+Vortex~
+     The room is filled with the whistiling sound of fierce winds.
+The wind swirls around you so quickly that you are lifted into the air.
+You continue to spin until a brilliant white light flashes in three
+short bursts blinding you for a few seconds.  You feel yourself moving
+to another room.
+~
+292 CFNQ 0
+29321 5 0
+D2
+~
+~
+0 -1 29318
+S
+#29324
+Plain Room~
+     You step into a small plain room with white walls and black tile floor.
+Something lifts from the tile and forms before you.
+~
+292 Q 0
+D1
+~
+~
+4 -1 29269
+S
+#29325
+You've chosen wisely!!!~
+     Yes!  You pulled the correct lever!
+
+     Cheer!
+
+     DOH!
+
+     There's a Guardian here who doesn't look friendly.
+~
+292 NQ 0
+D3
+~
+~
+0 -1 29202
+D4
+~
+~
+4 -1 29325
+S
+#29326
+Hole in the Loop~
+     This is a small, safe hole in the loop.
+~
+292 ACJKNQTU 0
+D4
+~
+~
+0 -1 29298
+S
+#29327
+Question~
+     Looks like you chose the wrong answer or you took too long to choose
+one.  You don't have long to live now, maybe you can spend your last few
+minutes of life figuring out the correct answer.
+
+    However, Haze does believe in giving people second chances.....and third
+and fourth.......and fifth chances...well you get the picture SO if you hang
+on to your precious life long enough you just might find yourself teleported
+to safety.
+~
+292 CFNX 8
+29202 25 1
+S
+#29328
+Trapdoor in The Sun~
+     You are on your way to receiving immortality.  Just walk to the north.
+
+     There is a sign here.
+~
+292 CJNX 8
+D0
+~
+~
+0 -1 29328
+E
+sign~
+You're dead...*wave*
+~
+S
+#0
+
+#RESETS
+*
+M  0  29201  3  29209		Animated Skeleton
+E  1  29206  3  13		  equips rib bone belt
+E  1  29207  3  16		  equips bone mace
+G  1  29274  9  		  loads poison pills
+*
+M  0  29201  3  29210		Animated Skeleton
+E  1  29206  3  13		  equips rib bone belt
+E  1  29207  3  16		  equips bone mace
+G  1  29274  9  		  loads poison pills
+*
+M  0  29201  3  29211		Animated Skeleton
+E  1  29206  3  13		  equips rib bone belt
+E  1  29207  3  16		  equips bone mace
+G  1  29274  9  		  loads poison pills
+*
+M  0  29202  3  29212		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  3  29213		Deranged Madman
+E  1  29208  3  4		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  3  29215		Deranged Madman
+E  1  29208  3  4		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29203  3  29218		Insane Lieutenant
+E  1  29210  3  5		  equips straight jacket
+*
+M  0  29203  3  29216		Insane Lieutenant
+E  1  29210  3  5		  equips straight jacket
+*
+M  0  29203  3  29220		Insane Lieutenant
+E  1  29210  3  5		  equips straight jacket
+*
+M  0  29204  3  29219		Shadowman
+E  1  29211  3  16		  equips shadowblade
+E  1  29212  3  12		  equips shadowskin
+*
+M  0  29204  3  29212		Shadowman
+E  1  29211  3  16		  equips shadowblade
+E  1  29212  3  12		  equips shadowskin
+*
+M  0  29204  3  29223		Shadowman
+E  1  29211  3  16		  equips shadowblade
+E  1  29212  3  12		  equips shadowskin
+*
+M  0  29205  3  29225		Animated Vampire
+E  1  29213  3  3		  equips necklace of teeth
+E  1  29214  3  16		  equips steak
+*
+M  0  29205  3  29216		Animated Vampire
+E  1  29213  3  4		  equips necklace of teeth
+E  1  29214  3  16		  equips steak
+*
+M  0  29205  3  29230		Animated Vampire
+E  1  29213  3  3		  equips necklace of teeth
+E  1  29214  3  16		  equips steak
+*
+M  0  29206  1  29325		Keeper of the Gate
+E  1  29201  2  17		  equips brittle key
+*
+M  0  29207  1  29242		Bridge Guardian
+E  1  29202  2  17		  equips blood red key
+*
+M  0  29208  3  29245		Minotaur Warrior
+E  1  29216  3  14		  equips beaded bracelet
+G  1  29234  7  		  loads opaque potion
+*
+M  0  29208  3  29247		Minotaur Warrior
+E  1  29216  3  15		  equips beaded bracelet
+G  1  29234  7  		  loads opaque potion
+*
+M  0  29208  3  29251		Minotaur Warrior
+E  1  29216  3  14		  equips beaded bracelet
+G  1  29234  7  		  loads opaque potion
+*
+M  0  29209  3  29250		Cyclops
+E  1  29217  3  0		  equips cyclopean eye
+E  1  29218  3  16		  equips sling
+*
+M  0  29209  3  29252		Cyclops
+E  1  29217  3  0		  equips cyclopean eye
+E  1  29218  3  16		  equips sling
+*
+M  0  29209  3  29256		Cyclops
+E  1  29217  3  0		  equips cyclopean eye
+E  1  29218  3  16		  equips sling
+*
+M  0  29210  3  29249		Necromancer
+E  1  29219  3  16		  equips doomsday blade
+G  1  29277  9  		  loads plague pills
+*
+M  0  29210  3  29253		Necromancer
+E  1  29219  3  16		  equips doomsday blade
+G  1  29277  9  		  loads plague pills
+*
+M  0  29210  3  29259		Necromancer
+E  1  29219  3  16		  equips doomsday blade
+G  1  29277  9  		  loads plague pills
+*
+M  0  29211  1  29263		Undead Dragon
+E  1  29221  3  5		  equips dragonscales
+*
+M  0  29212  3  29264		X300
+E  1  29223  3  9		  equips clamps
+E  1  29224  3  6		  equips virtual vision
+G  1  29276  9  		  loads carrot juice
+*
+M  0  29212  3  29268		X300
+E  1  29223  3  9		  equips clamps
+E  1  29224  3  6		  equips virtual vision
+G  1  29276  9  		  loads carrot juice
+*
+M  0  29212  3  29275		X300
+E  1  29223  3  9		  equips clamps
+E  1  29224  3  6		  equips virtual vision
+G  1  29276  9  		  loads carrot juice
+*
+M  0  29213  1  29277		David the Hawk
+E  1  29225  3  10		  equips black feathered wings
+*
+M  0  29214  3  29269		Nothingman
+E  1  29226  3  17		  equips black hole
+E  1  29227  3  7		  equips corduroys
+G  1  29280  9  		  loads bread cake
+*
+M  0  29214  3  29273		Nothingman
+E  1  29226  3  17		  equips black hole
+E  1  29227  3  7		  equips corduroys
+G  1  29280  9  		  loads bread cake
+*
+M  0  29214  3  29276		Nothingman
+E  1  29226  3  17		  equips black hole
+E  1  29227  3  7		  equips corduroys
+G  1  29280  9  		  loads bread cake
+*
+M  0  29215  2  29279		Sunbeast
+E  1  29228  3  17		  equips staff of the sun
+G  1  29275  9  		  loads sunflower seeds
+*
+M  0  29215  2  29283		Sunbeast
+E  1  29228  3  17		  equips staff of the sun
+G  1  29275  9  		  loads sunflower seeds
+*
+M  0  29216  2  29285		Psioniscist
+E  1  29230  3  1		  equips psioniscist's ring
+E  1  29231  3  17		  equips mind beam
+G  1  29278  9  		  loads protection potion
+*
+M  0  29216  2  29287		Psioniscist
+E  1  29230  3  2		  equips psioniscist's ring
+E  1  29231  3  17		  equips mind beam
+G  1  29278  9  		  loads protection potion
+*
+M  0  29217  1  29324		Black Cloud
+E  1  29232  2  12		  equips darkmist
+*
+M  0  29218  2  29284		Grand Warlock
+E  1  29233  3  17		  equips mana staff
+E  1  29234  3  -1		  equips opaque potion
+G  1  29278  9  		  loads protection potion
+*
+M  0  29218  2  29288		Grand Warlock
+E  1  29233  3  17		  equips mana staff
+E  1  29234  3  -1		  equips opaque potion
+G  1  29278  9  		  loads protection potion
+*
+M  0  29219  3  29286		Doomsayer
+E  1  29235  2  9		  equips battlegloves
+G  1  29279  9  		  loads pain pill
+*
+M  0  29219  3  29290		Doomsayer
+E  1  29235  2  9 		  equips battlegloves
+G  1  29279  9  		  loads pain pill
+*
+M  0  29219  3  29292		Doomsayer
+E  1  29235  2  9		  equips battlegloves
+G  1  29279  9  		  loads pain pill
+*
+M  0  29220  1  29266		Keeper of the Battleground
+E  1  29236  2  8		  equips battleboots
+E  1  29203  2  17		  equips translucent key
+*
+M  0  29221  2  29295		Keeper of the Nexus
+E  1  29237  2  5		  equips battleplate
+*
+M  0  29221  2  29297		Keeper of the Nexus
+E  1  29237  2  5 		  equips battleplate
+*
+M  0  29222  2  29296		Keeper of the Lost Souls
+E  1  29238  2  13		  equips battlebelt
+E  1  29204  2  17		  equips circle shaped key
+*
+M  0  29222  2  29299		Keeper of the Lost Souls
+E  1  29238  2  13		  equips battlebelt
+*
+M  0  29223  3  29308		Commander of the Guard
+G  1  29269  3  		  equips star key
+*
+M  0  29223  3  29309		Commander of the Guard
+*
+M  0  29223  3  29310		Commander of the Guard
+*
+M  0  29224  1  29307		A disease
+*
+M  0  29225  3  29311		Elite Imperial Soldier
+E  1  29239  4  5		  equips imperial plate
+E  1  29240  4  11		  equips force shield
+G  1  29280  9  		  loads bread cake
+*
+M  0  29225  3  29312		Elite Imperial Soldier
+E  1  29239  4  5		  equips imperial plate
+E  1  29240  4  11		  equips force shield
+G  1  29280  9  		  loads bread cake
+*
+M  0  29225  3  29313		Elite Imperial Soldier
+E  1  29239  4  5		  equips imperial plate
+E  1  29240  4  11		  equips force shield
+G  1  29280  9  		  loads bread cake
+*
+M  0  29226  2  29315		Lord General
+E  1  29241  4  13		  equips combat belt
+E  1  29242  4  10		  equips titanic plates
+*
+M  0  29226  2  29317		Lord General
+E  1  29241  4  13		  equips combat belt
+E  1  29242  4  10		  equips titanic plates
+*
+M  0  29227  2  29314		Fade
+E  1  29243  3  11		  equips half-man axe
+E  1  29244  3  16		  equips half-man blade
+E  1  29245  3  12		  equips half-man cloak
+*
+M  0  29227  2  29318		Fade
+E  1  29243  3  11		  equips half-man axe
+E  1  29244  3  16		  equips half-man blade
+E  1  29245  3  12		  equips half-man cloak
+*
+M  0  29228  1  29321		Master Guardian
+E  1  29246  5  16		  equips lifetaker
+E  1  29247  5  11		  equips bloody black claws
+E  1  29248  2  17		  equips mass pill
+E  1  29302  4  12		  equips aura of black magic
+*
+M  0  29229  1  29321		Korzath
+E  1  29249  5  17		  equips seal of the cause
+E  1  29250  5  16		  equips sword of starlight
+G  1  29251  2  		  equips key of the cause
+E  1  29252  5  14		  equips bracelet of belief
+E  1  29302  4  12		  equips aura of black magic
+*
+M  0  29230  1  29304		Healer
+*
+M  0  29231  1  29303		Gweedo the bartender
+G  1  29286  -1			  Calliope's drink
+G  1  29287  -1			  Rimmon's drink
+G  1  29288  -1			  Thalia's drink
+G  1  29289  -1			  Haze's drink
+G  1  29290  -1			  Trinidad's drink
+G  1  29291  -1			  Tifarah's drink
+G  1  29292  -1			  Taliesin's drink
+G  1  29293  -1			  Soulcrusher's drink
+G  1  29294  -1			  Gravestone's drink
+G  1  29295  -1			  Eclipse's drink
+*
+*---Objects---*
+*
+O  0  29200  2  29201		loads hero statue    
+*
+O  0  29200  2  29202		loads hero statue
+*
+O  0  29281  9  29252		loads body
+P  1  29282  5  29281		  puts sparkling potion in body
+*
+O  0  29281  9  29254		loads body
+*
+O  0  29281  9  29257		loads body
+P  1  29282  5  29281		  puts sparkling potion in body
+*
+O  0  29281  9  29264		loads body
+*
+O  0  29281  9  29275		loads body
+P  1  29282  5  29281		  puts sparkling potion in body
+*
+O  0  29281  9  29281		loads body
+P  1  29282  5  29281		  puts sparkling potion in body
+*
+O  0  29281  9  29288		loads body
+*
+O  0  29281  9  29290		loads body
+P  1  29282  5  29281		  puts sparkling potion in body
+*
+O  0  29253  1  29322		loads grey chest
+P  1  29285  3  29253		  puts cloak of chaos in grey chest
+*
+O  0  29254  1  29320		loads shining chest
+P  1  29284  3  29254		  puts star cube in shining chest
+*
+O  0  29255  1  29316		loads wooden chest
+P  1  29283  3  29255		  puts black and gold ring in wooden chest
+* 
+O  0  29256  1  29217		loads lever 1
+O  0  29257  1  29217		loads lever 2
+O  0  29258  1  29217		loads lever 3
+O  0  29259  1  29217		loads lever 4
+O  0  29260  1  29217		loads lever 5
+O  0  29261  1  29217		loads lever 6
+O  0  29262  1  29217		loads lever 7
+O  0  29263  1  29217		loads lever 8
+O  0  29264  1  29217		loads lever 9
+O  0  29265  1  29217		loads lever 10
+*
+O  0  29266  1  29302		loads knight statue
+O  0  29267  1  29302		loads right arm lever
+O  0  29268  1  29302		loads left arm lever
+*
+O  0  29270  1  29244		loads lever that opens secret door
+*
+O  0  29271  1  29248		loads lever that opens secret door
+*
+O  0  29272  1  29293		loads lever that opens secret door
+*
+O  0  29273  1  29289		loads lever that opens door to center
+*
+O  0  29296  1  29243		loads dying elite royal guard
+*
+O  0  29297  1  29303		loads blackboard
+*
+O  0  29298  1  29304		loads military book
+*
+O  0  29299  1  29304		loads castle management book
+*
+O  0  29300  1  29306		loads young woman
+*
+O  0  29301  1  29316		loads pedestal/diary
+*
+*---Doors---*
+D  0  29212  1  1		#Twist in the Maze
+D  0  29213  3  1		#Dead End
+D  0  29214  2  1		#Twist in the Maze
+D  0  29215  0  1		#Dead End
+D  0  29216  3  1		#Twist in the Maze
+D  0  29217  0  4		#Choices
+D  0  29217  1  4		#Choices
+D  0  29217  2  4		#Choices
+D  0  29217  3  4		#Choices
+D  0  29217  4  4		#Choices
+D  0  29217  5  4		#Choices
+D  0  29221  0  4		#Twist in the Maze
+D  0  29222  2  4		#A small cramped place
+D  0  29225  1  1		#Twist in the Maze
+D  0  29226  3  1		#Dead End
+D  0  29229  2  2		#Twist in the Maze
+D  0  29232  0  2		#Dead End
+D  0  29202  0  3		#Hall of Past Heroes
+D  0  29202  1  3		#Hall of Past Heroes
+D  0  29233  0  4		#You've Chosen Wisely!!!
+D  0  29233  4  4		#You've Chosen Wisely!!!
+D  0  29233  5  4		#You've Chosen Wisely!!!
+D  0  29234  0  4		#You've Chosen Wisely!!!
+D  0  29234  1  4		#You've Chosen Wisely!!!
+D  0  29234  2  4		#You've Chosen Wisely!!!
+D  0  29234  3  4		#You've Chosen Wisely!!!
+D  0  29234  4  4		#You've Chosen Wisely!!!
+D  0  29234  5  4		#You've Chosen Wisely!!!
+D  0  29235  3  3		#Path of Questions
+D  0  29243  0  3		#End of Freedom
+D  0  29244  0  1		#Cornerground
+D  0  29249  2  1		#Battleground Arena
+D  0  29248  0  1		#Cornerground
+D  0  29253  2  1		#Battleground Arena
+D  0  29284  0  1		#Battleground Arena
+D  0  29289  2  1		#Cornerground
+D  0  29288  0  1		#Battleground
+D  0  29293  2  1		#Cornerground
+D  0  29294  2  3		#The Loop Test
+D  0  29270  1  4		#Battleground Arena
+D  0  29271  3  4		#Battlecross
+D  0  29269  3  4		#Battleground Arena
+D  0  29324  1  4		#Plain Room
+D  0  29299  0  4		#The Loop
+D  0  29300  2  3		#Tight Corridor
+D  0  29302  1  4		#Long Hall
+D  0  29302  3  4		#Long Hall
+D  0  29303  3  1		#Secret
+D  0  29304  1  1		#Secret
+D  0  29305  0  3		#End of the Hall
+D  0  29306  0  3		#Superunknown
+D  0  29306  2  1		#Superunknown
+D  0  29307  2  1		#Inner Fortress
+D  0  29321  0  1		#Beam Point 1
+D  0  29325  4  4		#You've Chosen Wisely!!!
+*
+S
+
+#SHOPS
+ 29231   1  2  3  4  9  110   90	0 23   ; Gweedo Bartender
+0
+
+#SPECIALS
+M  29204  spec_psionic
+M  29205  spec_cast_undead
+M  29210  spec_cast_mage
+M  29211  spec_breath_any
+M  29212  spec_cast_judge
+M  29216  spec_psionic
+M  29218  spec_cast_mage
+M  29228  spec_cast_mage
+M  29229  spec_psionic
+M  29230  spec_cast_adept
+S
+
+
+#$
+

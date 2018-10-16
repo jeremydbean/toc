@@ -1,0 +1,370 @@
+#PLAYER
+Name Daniel~
+Id   13210
+LogO 952224815
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  1
+Gui  0
+Psionic  0
+Cast none
+Levl 13
+Plyd 134276
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3743
+HMV  149 149 55 221 80 172
+NewGold 1781
+NewPlat 17
+NewCopp 282
+NewSilv 86
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  30706
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 8
+Trai 1
+Save  -1
+Alig  -1000
+Hit   3
+ACs 55 55 49 90
+Wimp  20
+Attr 12 17 20 16 12
+AMod 1 1 1 0 0
+Pass DaWKM32bKao1A~
+Titl  the Curate~
+Pnts 40
+TSex 1
+LLev 36
+HMVP 149 216 172
+Cond 0 0 0
+Sk 75 'armor'
+Sk 76 'bless'
+Sk 75 'burning hands'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 83 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'flamestrike'
+Sk 75 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 82 'magic missile'
+Sk 78 'refresh'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 87 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'hide'
+Sk 72 'scrolls'
+Sk 72 'staves'
+Sk 75 'wands'
+Sk 54 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'mage guild'
+End
+
+#O
+Vnum 6621
+Nest 0
+Wear 12
+Lev  3
+Cost 2000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4497
+Nest 0
+Wear -1
+Lev  8
+Cost 120
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 801
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2902
+Nest 1
+Wear -1
+Lev  2
+Cost 2
+Cond 100
+Repd 0
+Val  20 11 10 0 0
+End
+
+#O
+Vnum 3112
+Nest 0
+Wear 7
+Lev  10
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3113
+Nest 0
+Wear 8
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9221
+Nest 0
+Wear -1
+Lev  6
+Cost 792
+Cond 100
+Repd 0
+Spell 3 'cause serious'
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear 11
+Lev  8
+Cost 350
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 10026
+Nest 0
+Wear 5
+Lev  11
+Cost 210
+Cond 100
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3043
+Nest 0
+Wear 1
+Lev  5
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 802
+Nest 0
+Wear -1
+Cost 75
+Cond 100
+Repd 0
+Val  8 0 1 0 0
+End
+
+#O
+Vnum 13270
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 13270
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#END

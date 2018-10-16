@@ -1,0 +1,886 @@
+#PLAYER
+Name Killuminati~
+Id   17559
+LogO 953526598
+Vers 3
+Desc .                                        ,   ,
+.                                       $,  $,     ,
+.                                        "ss.$ss. .s'
+.                                ,     .ss$$$$$$$$$$s,
+.                                $. s$$$$$$$$$$$$$$`$$Ss
+.                                "$$$$$$$$$$$$$$$$$$o$$$       ,
+.                               s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s
+.                              s$$$$$$$$$"$$$$$$""""$$$$$$"$$$$$,
+.                              s$$$$$$$$$$s""$$$$ssssss"$$$$$$$$"
+.                             s$$$$$$$$$$'         `"""ss"$"$s""
+.                             s$$$$$$$$$$,              `"""""$  .s$$s
+.                             s$$$$$$$$$$$$s,...               `s$$'  `
+.                         `ssss$$$$$$$$$$$$$$$$$$$$####s.     .$$"$.   , s-
+.                           `""""$$$$$$$$$$$$$$$$$$$$#####$$$$$$"     $.$'
+.                                 "$$$$$$$$$$$$$$$$$$$$$####s""     .$$$|
+.                                  "$$$$$$$$$$$$$$$$$$$$$$$$##s    .$$" $
+.                                   $$""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"   `
+.                                  $$"  "$"$$$$$$$$$$$$$$$$$$$$S""""'
+.                             ,   ,"     '  $$$$$$$$$$$$$$$$####s
+.                             $.          .s$$$$$$$$$$$$$$$$$####"
+.                 ,           "$s.   ..ssS$$$$$$$$$$$$$$$$$$$####"
+.                 $           .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####"
+.                 Ss     ..sS$$$$$$$$$$$$$$$$$$$$$$$$$$$######""
+.                  "$$sS$$$$$$$$$$$$$$$$$$$$$$$$$$$########"
+.           ,      s$$$$$$$$$$$$$$$$$$$$$$$$#########""'
+.           $    s$$$$$$$$$$$$$$$$$$$$$#######""'      s'         ,
+.           $$..$$$$$$$$$$$$$$$$$$######"'       ....,$$....    ,$
+.            "$$$$$$$$$$$$$$$######"' ,     .sS$$$$$$$$$$$$$$$$s$$
+.              $$$$$$$$$$$$#####"     $, .s$$$$$$$$$$$$$$$$$$$$$$$$s.
+.   )          $$$$$$$$$$$#####'      `$$$$$$$$$###########$$$$$$$$$$$.
+.  ((          $$$$$$$$$$$#####       $$$$$$$$###"       "####$$$$$$$$$$
+.  ) \         $$$$$$$$$$$$####.     $$$$$$###"             "###$$$$$$$$$   
+. (   )        $$$$$$$$$$$$$####.   $$$$$###"                ####$$$$$$$$s$$'
+. )  ( (       $$"$$$$$$$$$$$#####.$$$$$###'                .###$$$$$$$$$$"
+. (  )  )   _,$"   $$$$$$$$$$$$######.$$##'                .###$$$$$$$$$$
+. ) (  ( \.         "$$$$$$$$$$$$$#######,,,.          ..####$$$$$$$$$$$"
+. (   )$ )  )        ,$$$$$$$$$$$$$$$$$$####################$$$$$$$$$$$"
+. (   ($$  ( \     _sS"  `"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S$$,
+.  )  )$$$s ) )  .      .   `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"'  `$$
+.   (   $$$Ss/  .$,    .$,,s$$$$$$##S$$$$$$$$$$$$$$$$$$$$$$$$S""        '
+.     \)_$$$$$$$$$$$$$$$$$$$$$$$##"  $$        `$$.        `$$.
+.         `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$
+.             `"""""""""""""'         '           '           '
+
+
+You see something very special about him.
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 52
+Plyd 1645098
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  1108 1556 722 1198 312 481
+NewGold 158
+NewPlat 219
+NewCopp 4601
+NewSilv 294
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 93
+Exp  122925
+Act  65736
+AfBy 33416
+Comm 28704
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 939842012
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  5
+Alig  1000
+Hit   37
+Dam   56
+ACs -103 -91 -115 0
+Wimp  85
+Attr 17 21 18 18 18
+AMod 12 2 2 2 -5
+Pass KiFrswEl6EYCE~
+Ariv $n utters the words, 'panza ra$tne'.~
+Dprt $n utters the words, 'panza ra$tne'.~
+Titl , the Don.~
+Pnts 40
+TSex 1
+LLev 350
+HMVP 1471 888 406
+Cond 0 0 48
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias l get all~
+Alias a cast 'acid blast'~
+Alias fakerep emote says 'I have 756/812 hp 1003/1207 mana 199/375 end 113198 xp.'~
+Alias fs cast 'fire shield'~
+Alias sa cast 'sanctuary'~
+Alias mc cast 'mana convert'~
+Alias ff cast 'faerie fire'~
+Alias 4 cast 'power gloves'~
+Alias p cast 'dispel magic' ~
+Alias id cast 'identify'~
+Alias 2 cast 'force sword'~
+Alias 1 sneak~
+Alias di cast 'detect invis'~
+Alias ha cast 'haste'~
+Alias 5 cast 'giant strength'~
+Alias 3 cast 'major globe'~
+Alias re rest~
+Sk 100 'acid blast'
+Sk 80 'armor'
+Sk 1 'blindness'
+Sk 1 'blizzard'
+Sk 69 'burning hands'
+Sk 1 'water burst'
+Sk 1 'call lightning'
+Sk 98 'cancellation'
+Sk 87 'chain lightning'
+Sk 86 'charm person'
+Sk 76 'chill touch'
+Sk 92 'colour spray'
+Sk 1 'cone of cold'
+Sk 1 'control weather'
+Sk 1 'curse'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'detect hidden'
+Sk 90 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 95 'dispel magic'
+Sk 1 'dust devil'
+Sk 78 'enchant armor'
+Sk 92 'enchant weapon'
+Sk 1 'energy drain'
+Sk 95 'faerie fire'
+Sk 1 'faerie fog'
+Sk 81 'fireball'
+Sk 79 'fire shield'
+Sk 95 'fly'
+Sk 82 'force sword'
+Sk 75 'frost shield'
+Sk 100 'gate'
+Sk 91 'giant strength'
+Sk 1 'geyser'
+Sk 100 'haste'
+Sk 93 'haven'
+Sk 76 'heat metal'
+Sk 1 'icicle'
+Sk 97 'identify'
+Sk 80 'infravision'
+Sk 99 'invis'
+Sk 1 'know alignment'
+Sk 78 'lightning bolt'
+Sk 96 'locate object'
+Sk 86 'magic missile'
+Sk 81 'major globe'
+Sk 100 'mana convert'
+Sk 76 'mass invis'
+Sk 1 'maze'
+Sk 1 'meteor swarm'
+Sk 84 'pass door'
+Sk 1 'poison'
+Sk 95 'portal'
+Sk 60 'power gloves'
+Sk 75 'protection evil'
+Sk 93 'refresh'
+Sk 79 'rope trick'
+Sk 100 'sanctuary'
+Sk 83 'shield'
+Sk 75 'shocking grasp'
+Sk 90 'sleep'
+Sk 100 'slow'
+Sk 75 'stone skin'
+Sk 94 'summon'
+Sk 1 'sunray'
+Sk 87 'teleport'
+Sk 1 'vortex'
+Sk 1 'weaken'
+Sk 1 'acid breath'
+Sk 1 'fire breath'
+Sk 1 'frost breath'
+Sk 1 'gas breath'
+Sk 1 'lightning breath'
+Sk 78 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 1 'archery'
+Sk 100 'dodge'
+Sk 76 'concoct'
+Sk 1 'meditation'
+Sk 1 'ride'
+Sk 76 'scribe'
+Sk 1 'shove'
+Sk 100 'sneak'
+Sk 100 'scrolls'
+Sk 1 'staves'
+Sk 13 'wands'
+Sk 95 'recall'
+Sk 57 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'detection'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+Gr 'weather'
+AffD 'sanctuary'  49   5   0   0        128          0
+AffD 'detect invis'   1  32   0   0          8          0
+AffD 'sneak'  35   5   0   0      32768          0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 6 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 2 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+Val  9 9 9 3 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Enchanted
+Nest 0
+ExtF 65
+Wear 7
+Lev  38
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 8 2 0
+AffD 'enchant armor' 50 -1 -2 17 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Name suleng~
+ShD  his ass~
+Act_room $n looks more complete as he screws on $p.~
+Act_char You struggle but manage to screw on your ass ... wow ... nice fit!~
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24225
+Nest 1
+Wear -1
+Lev  54
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Val  51 68 77 77 0
+Spell 1 'frenzy'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 24223
+Nest 1
+ExtF 0
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+Affect -1 26 -1 -1 13 0 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 11 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 3705
+Nest 1
+Name cow bell~
+ShD  (RINGING) a cow bell~
+Desc A cow bell lies here, forgotten by all.~
+Act_room $n puts their cowbell around their neck and plaintively MUHOOOOOOHS.~
+Act_char You strap on your cowbell and strut your stuff.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt enchant~
+ShD  a receipt for 1 enchant~
+Desc a receipt for 1 enchant~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt cr~
+ShD  a receipt for one free CR~
+Desc a receipt for one CR~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt cr~
+ShD  a receipt for one free CR~
+Desc a receipt for one CR~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt restring~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 29
+Nest 1
+Name desk~
+ShD  a desk~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear 11
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20302
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20302
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9925
+Nest 0
+ExtF 3145731
+Wear 16
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

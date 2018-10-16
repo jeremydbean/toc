@@ -1,0 +1,4804 @@
+#AREA   { 1  5} Hatchet Mud School~
+
+
+#MOBILES
+#3700
+adept~
+the adept of Haze~
+An adept of Haze is here, contemplating your progress.
+~
+He is big and bad.  Don't mess with him.
+~
+human~
+BGQTV CH 1000 S
+30 +10 1d1+999  1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 1 0
+0 0 M 0
+#3701
+shape blob mass amorphous~
+the shapeless mass~
+An amorphous shape is here, waiting to eat you up.
+~
+It is big, very big.  It's a good thing it's chained to the wall, or you
+might be in big trouble. Perhaps now would be a good time to leave, before
+it notices you. 
+~
+~
+BG C 0 S
+5 -5 1d1+49 1d1+99 1d1+0 14
+-15 -15 -15 -15
+AN AB CD 0
+8 8 0 0
+BSc 0 L 0
+#3702
+gremlin~
+the gremlin~
+There is a gremlin chained to the wall here.
+~
+This little guy seems to have been captured and left here to die. You
+wouldn't hurt the poor defenseless little guy now, would you?
+~
+school monster~
+B 0 0 S
+1 0 1d1+7 1d1+99 1d3+0 5
+10 10 10 10
+0 0 0 0
+8 8 0 10
+0 0 M 0
+#3703
+thief man mean shady character~
+the killer~
+A mean looking man has been shackled to the wall by his ankle.
+~
+He sure is a mean looking character.  Looks like he could kill a defensless
+child without a second thought, and probably has.  Killing him would make
+make the world that much safer for everyone else, and save the axeman the
+trouble..
+~
+school monster~
+BH 0 0 S
+1 0 1d1+7 1d1+99 1d2+0 5
+10 10 10 10
+O 0 0 0
+8 8 0 10
+0 0 M 0
+#3704
+kobold~
+the kobold~
+There is a starving kobold here.
+~
+The poor kobolds spirit has been broken on the wrack, not to mention a bone
+or too.  It still seems to be wearing some servicable items, although you
+might need to clean a little dried blood off.
+~
+school monster~
+BF 0 0 S
+1 0 1d1+7 1d1+99 1d4+0 5
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3705
+man lizardman lizard~
+the lizard man~
+There is a lizard man here, fighting to break its bonds.
+~
+The lizard man seems to be in good shape, or at least as far as you can
+tell, though a little on the skinny side.  It looks like it would rather
+eat you than ask for help.
+~
+school monster~
+BFH 0 0 S
+1 0 1d1+7 1d1+99 1d3+0 5
+10 10 10 10
+J 0 0 0
+8 8 0 10
+0 0 M 0 
+#3706
+clown~
+the clown~
+There is a clown here.  His painted face is the essence of terror.
+~
+This guy must be a real nut case.  He seems to have painted his face
+into a demonic mask.  He looks pretty tough, but that key around his
+neck looks like it might be pretty important.
+~
+school monster~
+B J 0 S
+2 1 2d2+20 1d1+99 1d4+1 5
+8 8 8 10
+FN 0 0 0
+8 8 0 25
+0 0 M 0
+#3707
+adept cleric~
+the adept of Shadizar~
+An adept of the god Shadizar is here, contemplating your progress.
+~
+He is big and bad.  Don't mess with him.
+~
+human~
+BGQTV CH 1000 S
+30 +10 1d1+999  1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 1 0
+0 0 M 0
+#3708
+priestess cleric~
+the priestess of Thalia~
+The priestess of Thalia is here, contemplating your progress.
+~
+She's big and bad.  Don't mess with her.
+~
+human~
+BCQTV CH 1000 S
+30 10 1d1+999 1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#3709
+rabbit~
+the rabbit~
+A rabbit is bouncing around here.
+~
+The rabbit smiles at you, completely harmless!
+~
+rabbit~
+GHU 0 100 S
+1 0 1d1+10 1d1+99 1d3+0 10
+10 10 10 10
+0 0 0 0
+8 8 3 0
+0 0 T 0 
+#3710
+lizard~
+the lizard~
+A lizard slithers up to you.
+~
+It smiles at you, and tries to eat your leg.
+~
+lizard~
+GU 0 -100 S
+2 0 2d2+20 1d1+99 1d4+1 10
+8 8 8 10
+R 0 0 0
+8 8 3 0
+0 0 S 0
+#3711
+boar~
+the boar~
+A boar tries to run you over.
+~
+It grunts at you.
+~
+pig~
+GU 0 0 S
+3 1 3d3+30 1d1+99 1d6+1 15
+7 7 7 9
+CDFR 0 0 0
+8 8 3 0
+0 0 M 0
+#3712
+fox~
+the fox~
+A fox is here staring at you.
+~
+It's fur might be worth money.
+~
+fox~
+GHU 0 100 S
+1 1 1d1+12 1d1+99 1d3+1 10
+8 8 8 10
+NR 0 0 0
+8 8 3 0
+0 0 S 0 
+#3713
+snail~
+the snail~
+A snail is trying to get out of your way.
+~
+You don't see much but slime about it.
+~
+~
+GU 0 0 S
+0 0 1d1+0 1d1+99 1d1+0 14
+10 10 10 10
+0 0 0 0
+8 8 0 0
+AGQc AFHM T 0
+#3714
+beast~
+the beast~
+A beast tries to feed off of you.
+~
+It looks mean.  You'd better run.
+~
+school monster~
+FUT 0 0 S
+5 1 5d5+55 1d1+99 1d6+3 10
+5 5 5 8
+EKM 0 HI 0
+8 8 0 50
+0 0 L 0
+#3715
+bear~
+the bear~
+A bear is here growling at you.
+~
+The bear must be bigger than you!  It wants to rip your head off.
+~
+bear~
+GU 0 0 S
+4 1 4d4+44 1d1+99 1d6+2 5
+6 5 6 7
+CR 0 0 0
+8 8 3 0
+0 0 L 0
+#3716
+wolf~
+the wolf~
+A wolf is here snarling at you.
+~
+The wolf doesn't want to be bothered.
+~
+wolf~
+GU 0 0 S
+4 0 4d4+44 1d1+99 1d6+2 10
+7 7 7 10
+NR 0 0 0 
+8 8 3 0
+0 0 M 0
+#3717
+adept cleric~
+the adept of Gravestone~
+An adept of Gravestone is here, grinning and selling you things.
+~
+He is big and bad.  Don't mess with him, but asks 'Would you like to buy a
+monkey?'
+~
+human~
+BCQTV CH 1000 S
+30 10 1d1+999 1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 1 0
+0 0 M 0
+#3718
+adept cleric~
+the adept of Eclipse~
+An adept of Eclipse is here, training young students.
+~
+He is big and bad.  Don't mess with him.
+~
+human~
+BCJQTV CH 1000 S
+30 10 1d1+999 1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 1 0
+0 0 M 0
+#3719
+adept cleric~
+the adept of Soulcrusher~
+An adept of Soulcrusher is ready to help you practice.
+~
+He's big and bad.  Don't mess with him.
+~
+human~
+BGKQTV CH -1000 S
+30 +10 1d1+999 1d1+999 2d4+30 13
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+8 8 1 0
+0 0 M 0
+#3720
+goblin educated~
+the educated goblin~
+An intelligent looking goblin is here, flaunting his diploma.
+~
+This horrible creature is your final test for mud school.  Kill him, and the
+diploma is yours.
+~
+school monster~
+B J 0 S
+3 1 2d4+30 1d1+99 1d6+1 5
+8 8 8 10
+EFN 0 0 0
+8 8 0 30
+0 0 M 0
+#3721
+vicious spider~
+the vicious spider~
+There is a vicious spider climbing around in it's web here.
+~
+It looks mean, with large fangs and a stinger dripping poison. You feel
+comfortable that you can kill it, being the mighty adventurer you are.
+~
+school monster~
+B 0 0 S
+3 1 2d4+30 1d1+99 1d6+1 5
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3722
+mushroom man~
+the mushroom man~
+There is a mushroom here, with arms and legs.
+~
+The little mushroom man seems to find this dank dark cavern a very
+comfortable place to live. He's humming a little ditty as he shuffles
+across the cavern floor.
+~
+school monster~
+GU 0 0 S
+2 0 2d2+20 1d1+99 1d4+1 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3723
+sprite~
+a sprite~
+There is a little sprite here, doing mischievious things.
+~
+The little guy seems to be full of spunk. he darts up to you, then runs
+away quickly.  As you look down, you notice your boot laces have been
+tied together.
+~
+school monster~
+GU 0 0 S
+3 1 2d4+30 1d1+99 1d6+1 5
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3724
+zombie~
+the zombie~
+There is a zombie here, shuffling around aimlessly.
+~
+The zombie doesn't seem to interested in you.  It shuffles around the cavern
+with a total disregard to it's surroundings.  As you take a closer look, you
+notice that it is wearing equipment similar to yours. Hmmmm....
+~
+school monster~
+GU 0 0 S
+2 0 2d2+20 1d1+99 1d4+1 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3725
+teacher bald~
+the bald teacher~
+A bald teacher is here, boring his students to death.
+~
+He has no hair and the light reflecting off of his head is making the
+students close their eyes.  That and his monotone voice has made all of
+his students fall asleep.
+~
+human~
+BU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3726
+student~
+the sleeping student~
+A student is sleeping here.
+~
+The teacher has finally put this student to sleep with this BORING lecture.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+4 4 1 10
+0 0 M 0
+#3727
+teacher hyper~
+the hyperactive teacher~
+A teacher is here talking a thousand miles a minute.
+~
+You can't even see the his lips their moving so fast.  He's jumping and
+running all over the classroom like a rabbit on acid.  Good luck under-
+standing anything he says.
+~
+human~
+BU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3728
+student~
+the student~
+A student is here taking notes just as fast as he can.
+~
+His eyes are concentrated on his paper and his pen has taken on a life of
+its own to take down the information pouring from the instructor at a
+rapid speed.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3729
+student~
+the student~
+A student is here taking notes just as fast as she can.
+~
+Her eyes are concentrated on her paper and her pen has taken on a life of
+its own to take down the information puring from the instructor at a
+rapid speed.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 2 10
+0 0 M 0
+#3730
+teacher geek~
+the geek-god teacher~
+A teacher is here talking in a strange language.
+~
+He's talking in some ultra-modern hi-tech language that absolutely NO ONE
+but his students understand.  He's wearing thick glasses and a pocket
+protector.
+~
+human~
+BU 0 0 S
+5 0 2d5+50 1d1+99 1d5+5 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3731
+student geek~
+the student~
+A geek is here laughing at a strange language his teacher is talking.
+~
+Thick glasses and a pocket protector?  Yep.  This is most certainly a geek.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3732
+student geek~
+the student~
+A geek is here laughing at a strange language his teacher is talking.
+~
+Thick glasses, a pocket protector, and ponytails.  The ever-strange and
+elusive female geek.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 2 10
+0 0 M 0
+#3733
+captive teacher~
+the captive teacher~
+A teacher is here tied to a chair.
+~
+His eyes are filled with despair as he looks at you.  A gag in his mouth
+prevents him from speaking anything.
+~
+human~
+B 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 10
+10 10 10 10
+0 0 0 0
+6 6 1 10
+0 0 M 0
+#3734
+student hoodlum~
+the hoodlum~
+A hoodlum is here dressed in black leather.
+~
+He has the end of a rope in his hand and every once in awhile he jerks it
+making the tied teacher groan.  He looks at you and smiles like the cat
+that ate the canary.  Then he takes a drink from the bottle he is holding
+in his other hand.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3735
+student girl slut~
+the slut~
+A girl is here.  She's dressed like she is ready to 'walk the streets' home.
+~
+She saunters over to you and then chuckles.  She walks back over to her
+boyfriend, licks his ear, and then takes the bottle from his hand to take
+a swig.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 2 10
+0 0 M 0
+#3736
+teacher gym satan~
+the fanatical gym teacher~
+The gym teacher is standing here daring you to stay on the platform.
+~
+He stands here on top of his platform daring student to climb.  He's balding
+and wearing work out clothes.  He's also chewing on pipeweed from The Shire
+and spitting the juice into a cup he is holding in his hand.
+~
+human~
+BU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3737
+student~
+a student~
+A student is laying here covered in his own sweat.
+~
+If you have had a gym class then you've seen this guy before.  Not pretty.
+~
+human~
+BU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3738
+goblin~
+the goblin~
+A released goblin stands here ready to fight.
+~
+He was just released from his storage bottle.  He doesn't look too happy.
+~
+goblin~
+GU 0 0 S
+1 0 1d1+10 1d1+99 1d1+1 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3739
+orc~
+the orc~
+A released orc stands here ready to fight.
+~
+He was just released from his storage bottle.  He doesn't look too happy.
+~
+orc~
+GU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3740
+dragon baby~
+the baby dragon~
+A released dragon baby stands here ready to fight.
+~
+It was just released from his storage bottle.  It doesn't look too happy.
+~
+unique~
+GU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 M 0
+#3741
+newt~
+a newt~
+A released newt stands here ready to fight.
+~
+It was just released from his storage bottle.  It doesn't look too happy.
+~
+lizard~
+G 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 10
+10 10 10 10
+EK 0 0 0
+8 8 0 10
+0 0 S 0
+#3742
+janitor~
+the janitor~
+A janitor stands here cleaning the halls.
+~
+He's old and he looks like he's been working these halls for years.  His
+breath smells of stale beer and he's muttering curses under his breath.
+~
+human~
+GU 0 0 S
+3 0 3d3+30 1d1+99 1d3+3 10
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3743
+warrior teacher~
+the teacher of fighters~
+A man stands here teaching a room of warriors.
+~
+He looks at you and then continues to teach the class.  He hacks the arms
+off of one of his students and then calls for a cleric.
+~
+human~
+BGU 0 0 S
+5 0 3d3+60 1d1+99 1d5+3 0
+10 10 10 10
+EK 0 0 0
+8 8 1 10
+0 0 M 0
+#3744
+warrior student~
+a student~
+A student stands here learning how to fight.
+~
+He doesn't even notice you because all of his attention is focused on
+the teacher.
+~
+human~
+BGU 0 0 S
+2 0 3d3+20 1d1+99 2d2+2 0
+10 10 10 10
+0 0 0 0
+8 8 1 10
+0 0 M 0
+#3745
+cleric teacher~
+the teacher of clerics~
+A woman stands here teaching her students how to heal.
+~
+She looks at you and smiles and offers you a seat at the front of
+  the class.
+~
+human~
+BGU 0 0 S
+5 0 3d3+60 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0
+8 8 2 10
+0 0 M 0
+#3746
+cleric student~
+the student of healing~
+A student sits here learning the finer points of healing loser warriors.
+~
+He is paying more attention to the teacher then you and only nudges you
+ and growls when you block his view.
+~
+human~
+BGU 0 0 S
+1 0 3d3+20 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0
+8 8 1 10
+0 0 M 0
+#3747
+teacher thief~
+the teacher of thieves~
+A teacher sits on his desk watching helplessly as his students rob you blind.
+~
+He looks at you and says, 'There is no honor among thieves.'
+~
+human~
+BGU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 0
+10 10 10 10 
+0 0 0 0
+8 8 1 10
+0 0 M 0
+#3748
+student thief~
+a student thief~
+He sees you and immediatly runs over and tries to steal your gold.
+~
+The only thing you see are hands because he is moving so fast.
+~
+human~
+BGU 0 0 S
+2 0 2d2+20 1d1+99 2d2+2 0
+10 10 10 10
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3749
+teacher mage~
+the teacher of magic~
+He yells at you to sit down because you are interupting HIS class.
+~
+He's twirling his fingers and uttering nonsense words.  A true mage.
+~
+human~
+BGU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3750
+student mage~
+a student of magic~
+A student looks at you then looks at the teacher again.
+~
+She has dreamy eyes as she watches the instructor.
+~
+human~
+BGU 0 0 S
+2 0 2d2+20 1d1+99 2d2+2 0
+10 10 10 10
+0 0 0 0 
+8 8 2 10
+0 0 M 0
+#3751
+teacher monk~
+a teacher of the way~
+A man wearing the robes of the monk is floating here.
+~
+He has his eyes closed and legs crossed.  His shiny bald head almost blinds
+  you when you first see it.
+~
+human~
+BGU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3752
+student monk~
+a student of the way~
+A student is here mimicking his teacher.
+~
+He has his eyes closed and legs crossed and his short hair looks freshly cut.
+~
+human~
+BGU 0 0 S
+1 0 1d1+20 1d1+99 1d2+2 0
+10 10 10 10
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3753
+teacher necromancer~
+a teacher of death~
+A teacher is standing here holding a kris over a corpse.
+~
+His eyes are glazed over as he stabs the corpse fanaticly.
+~
+human~
+BGU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0
+8 8 1 10
+0 0 M 0
+#3754
+student necromancer~
+a student of death~
+A student sits here learning the finer points of corpses.
+~
+He watches the teacher with a maniacle gleam in his eye.
+~
+human~
+BGU 0 0 S
+2 0 2d2+20 1d1+99 1d2+2 0
+10 10 10 10
+0 0 0 0
+8 8 1 10
+0 0 M 0
+#3755
+librarian woman horde dominion consortium istari~
+the librarian~
+A huge woman holding a club watches you.
+~
+She's big.  She's bad.  She needs to shave.  The librarian watches you.
+~
+human~
+BGU 0 0 S
+5 0 5d5+50 1d1+99 1d5+5 0
+10 10 10 10
+0 0 0 0
+8 8 2 19
+0 0 M 0
+#3756
+cook~
+the cook~
+A woman wearing a puffy hat stands here.
+~
+She looks mean and the cigarette in her mouth has burned down to half with 
+  the ashes falling off in the food.  Yum, Yum, good!
+~
+human~
+BGU 0 0 S
+3 0 3d3+30 1d1+99 1d3+3 0
+10 10 10 10
+0 0 0 0
+8 8 2 10
+0 0 M 0
+#3757
+blob~
+the green blob~
+A green blob of unidentifiable food has come to life and attacks!
+~
+UGH! Well, it was food.
+~
+unique~
+BFU 0 0 S
+2 0 1d1+15 1d1+99 1d1+1 0
+10 10 10 10
+0 0 0 0 
+8 8 0 0
+0 0 S 0
+#3758
+principle~
+the principle~
+A half-dressed principle is yelling at you to get out.
+~
+You can't help but laugh as he struggles and falls with his pants around
+  his ankles.
+~
+human~
+BU 0 0 S
+4 0 4d4+40 1d1+99 1d4+4 0
+10 10 10 10 
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3759
+teacher~
+the teacher~
+A half-dressed teacher is trying to cover herself up.
+~
+Her robes are open and her body is exposed.  Sex ed?
+~
+human~
+BU 0 0 S
+4 0 4d4+40 1d1+99 1d4+4 0
+10 10 10 10
+0 0 0 0 
+8 8 2 10
+0 0 M 0
+#3760
+clipsenstein monster~
+Clipsenstein~
+The Clipsenstein Monster is tearing the laboratory apart.
+~
+He's big.  He's bad.  He's drunk and on a rampage.
+~
+human~
+BU 0 0 S
+5 0 5d5+25 1d1+99 1d5+5 0
+10 10 10 10 
+0 0 0 0 
+8 8 1 10
+0 0 M 0
+#3761
+goldfish fish~
+a killer goldfish~
+A goldfish with a huge mouth attacks you.
+~
+It's body is barely viewable behind its teeth.
+~
+fish~
+BFU 0 0 S
+1 0 1d1+10 1d1+99 1d1+1 0
+10 10 10 10
+0 0 0 0 
+8 8 0 0
+0 0 S 0
+#3762
+waitress~
+a waitress~
+A waitress stands here waiting to serve you.
+~
+She looks at you and bats her eyes.  Flirting to get you to buy more.
+~
+human~
+BUV 0 0 S
+5 0 5d5+50 1d1+99 5d5+5 0
+10 10 10 10 
+0 0 0 0 
+8 8 2 100
+0 0 M 0
+#0
+
+
+#OBJECTS
+#3700
+mace sub merc~
+a sub issue mace~
+You see a sub issue mace here.~
+bronze~
+5 0 AN
+4 1 6 7 0
+0 6 0 P 
+E
+mace~
+You see a mace of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 2
+A
+19 2
+#3701
+dagger sub merc~
+a sub issue dagger~
+You see a sub issue dagger here.~
+bronze~
+5 0 AN
+2 1 4 11 0
+0 3 0 P
+E
+dagger~
+You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 2
+A
+19 2
+#3702
+sword sub merc~
+a sub issue sword~
+You see a sub issue sword here.~
+bronze~
+5 0 AN
+1 1 6 3 0
+0 3 0 P
+E
+sword~
+You see a sword of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 2
+A
+19 2
+#3703
+vest sub merc~
+a sub issue vest~
+You see a sub issue vest here.~
+leather~
+9 0 AD
+1 1 1 0 0
+0 5 0 P
+E
+vest~
+You see a vest of great but cheap craftsmanship.  Stamped on the side is:
+Merc Industries
+~
+#3704
+shield sub merc~
+a sub issue shield~
+You see a sub issue shield here.~
+wood~
+9 0 AJ
+1 1 1 0 0
+0 3 0 P
+E
+shield~
+You see a shield of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3705
+cloak sub merc~
+a sub issue cloak~
+You see a sub issue cloak here.~
+cloth~
+9 0 AC
+1 1 1 0 1
+0 4 0 P
+E
+cloak~
+You see a cloak of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3706
+helmet sub merc~
+a sub issue helmet~
+You see a sub issue helmet here.~
+leather~
+9 0 AE
+1 1 1 0 0
+0 3 0 P
+E
+helmet~
+You see a helmet of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3707
+leggings sub merc~
+a pair of sub issue leggings~
+You see a pair of sub issue leggings here.~
+leather~
+9 0 AF
+1 1 1 0 0
+0 3 0 P
+E
+leggings~
+You see leggings of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3708
+boots sub merc~
+a pair of sub issue boots~
+You see a pair of sub issue boots here.~
+leather~
+9 0 AG
+1 1 1 0 0
+0 3 0 P
+E
+boots~
+You see boots of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3709
+gloves sub merc~
+a pair of sub issue gloves~
+You see a pair of sub issue gloves here.~
+leather~
+9 0 AH
+1 1 1 0 0
+0 1 0 P
+E
+gloves~
+You see gloves of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3710
+sleeves sub merc~
+a pair of sub issue sleeves~
+You see a pair of sub issue sleeves here.~
+leather~
+9 0 AI
+1 1 1 0 0
+0 2 0 P
+E
+sleeves~
+You see sleeves of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3711
+cape sub merc~
+a sub issue cape~
+You see a sub issue cape here.~
+cloth~
+9 0 AK
+1 1 1 0 0
+0 2 0 P
+E
+cape~
+You see a cape of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3712
+belt sub merc~
+a sub issue belt~
+You see a sub issue belt here.~
+leather~
+9 0 AL
+1 1 1 0 0
+0 1 0 P
+E
+belt~
+You see a belt of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3713
+bracer sub merc~
+a sub issue bracer~
+You see a sub issue bracer here.~
+bronze~
+9 0 AM
+0 1 1 0 0
+0 1 0 P
+E
+bracer~
+You see a bracer of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3714
+key~
+a key~
+You see a very important key here!~
+brass~
+18 P A
+0 0 0 0 0
+0 1 0 P
+#3715
+diploma~
+a mud school diploma~
+You see a mud school diploma here.~
+vellum~
+8 G AO 
+0 0 0 0 0 
+0 1 0 P
+E
+diploma~
+This document shows that you have graduated from Mud School.
+It also has magical effects on your abilities if you hold it!
+
+Merc Industries
+~
+A
+5 1
+A
+4 1
+#3716
+banner war merc~
+a war banner~
+A war banner is on the floor here.~
+cloth~
+1 AG A
+0 0 200 0 0
+0 2 1 P
+E
+banner~
+This is the official Merc war banner to see you through the darkest realm!
+~
+A
+24 -1
+A
+17 -1
+#3717
+mouth clown~
+a clown's mouth~
+There is great big clown's head here, with a big red painted mouth.~
+stone~
+30 GO 0
+5 12000 0 0 0
+0 1000 0 P
+#3718
+pipeweed bread~
+a pipeweed bread~
+A loaf of pipeweed bread arouses your hunger.~
+food~
+19 0 A
+24 0 0 0 0
+1 1 1 P
+#3719
+glasses~
+thick glasses~
+Two bottle bottoms joined together by wire is here on the ground.
+~
+glass~
+9 0 AE
+0 0 0 0 0
+-1 1 10 P
+A
+3 1
+A
+4 1
+#3720
+pocket protector~
+a pocket protector~
+A pocket protector is here.  It bristles with impliments of destruction.~
+leather~
+9 0 AD
+0 0 0 0 0
+-1 1 10 P
+#3721
+jacket black~
+a black, leather jacket~
+A black leather motorcycle jacket is here gathering dust.~
+leather~
+9 0 AD
+0 0 0 0 0
+-1 2 15 P
+#3722
+jeans black~
+black jeans~
+A pair of black button fly jeans is sitting here.~
+cloth~
+9 0 AF
+0 0 0 0 0
+-1 1 10 P
+#3723
+black leather boots~
+black, leather boots~
+A pair of old black, leather boots sits here.~
+leather~
+9 0 AG
+0 0 0 0 0
+-1 1 10 P
+#3724
+beer~
+A bottle of ToC Beer~
+A bottle of delicious looking ToC Beer is sitting here.~
+glass~
+17 0 A
+10 10 1 0 0
+-1 1 10 P
+E
+beer~
+Proudly Brewed by Soulcrusher Breweries.  *patent pending*
+"If this MUD don't rot your mind, this brew will rot your gut!"
+~
+#3725
+bra black leather~
+a black, leather bra~
+A skimpy looking bra is sitting here.~
+cloth~
+9 0 AD
+0 0 0 0 0
+-1 1 10 P
+#3726
+mini skirt black~
+a black mini-skirt~
+A black mini-skirt is here getting wrinkled.~
+cloth~
+9 0 AL
+0 0 0 0 0
+-1 1 10 P
+#3727
+stockings~
+a set of lacy stockings~
+Some lace is here gathering dust.~
+cloth~
+9 0 AF
+0 0 0 0 0
+-1 1 10 P
+#3728
+boots black~
+black knee-high boots~
+A pair of black boots sits here in the dust.~
+leather~
+9 0 AG
+0 0 0 0 0
+-1 2 10 P
+#3729
+shirt~
+a sweaty t-shirt~
+A sweaty, smelly t-shirt is laying here.~
+cloth~
+9 0 AD
+0 0 0 0 0
+-1 1 10 P
+#3730
+shorts~
+a pair of gym shorts~
+Some cloth is sitting here in the dirt.~
+cloth~
+9 0 AF
+0 0 0 0 0
+-1 1 10 P
+#3731
+soft boots~
+a pair of soft boots~
+A pair of soft boots has been thrown here.~
+cloth~
+9 0 AG
+0 0 0 0 0
+-1 1 10 P
+#3732
+cup spit~
+a spit filled cup~
+A gross looking cup is here.~
+paper~
+17 0 AO
+1 1 13 1 0
+-1 1 0 P
+#3733
+jar dragon~
+a dragon jar~
+A jar marked with the word dragon is sitting here.~
+glass~
+36 OV 0
+0 0 0 0 0
+0 0 0 P
+#3734
+train~
+the Newbie Train~
+A train is here waiting to take you around the world.~
+wood~
+30 O 0
+5 3773 0 0 0
+-1 10000 0 P
+#3735
+rope~
+a rope~
+A rope for climbing.~
+leather~
+31 O 0
+6 3791 0 1 0
+-1 10000 0 P
+#3736
+rope~
+a rope~
+A rope for climbing.~
+leather~
+31 O 0
+7 3790 0 1 0
+-1 10000 0 P
+#3737
+shield~
+newbie shield~
+A brand new shield sits here in a corner.~
+metal~
+9 0 AJ
+1 1 1 0 0
+-1 10 10 P
+A
+5 1
+#3738
+sword~
+newbie sword~
+A brand new sword is laying up against the wall.~
+metal~
+5 0 AN
+1 2 6 3 0
+3 5 10 P
+A 
+18 1
+A
+19 1
+#3739
+mace~
+newbie mace~
+A brand new mace is laying up against the wall.~
+metal~
+5 0 AN
+4 2 6 8 0
+3 5 10 P
+A
+18 2
+A 
+19 2
+#3740
+dagger~
+newbie dagger~
+A brand new dagger is laying up against the wall.~
+metal~
+5 0 AN
+2 2 6 11 0
+3 5 10 P
+A
+18 1
+A 
+19 1
+#3741
+kris~
+newbie kris~
+A brand new kris is sitting here.~
+metal~
+5 0 AN
+2 2 6 11 0
+3 5 10 P
+A
+18 2
+A 
+19 2
+#3742
+robe~
+newbie robes~
+Some robes are sitting here with a big N embroidered on the back.~
+wool~
+9 0 AK
+1 1 1 1 0
+3 1 10 P
+A 
+4 1
+A
+5 1
+#3743
+club~
+a wooden club~
+A heavy looking club is sitting here.~
+wood~
+5 0 AN
+4 2 6 8 0
+3 10 10 P
+A
+18 2
+A 
+19 2
+#3744
+cigarettes pack~
+a pack of cigarettes~
+A pack of Eve Menthol cigarettes are here.~
+paper~
+1 0 AO
+0 0 999 0 0
+3 1 0 P
+A 
+1 1
+#3745
+beer best milwalkee~
+a quart of Milwalkee's Best~
+A quart of Milwalkee's Best is here calling your name.~
+glass~
+17 0 A     1 1 1 0 0
+3 1 10 P
+#3746
+sushi~
+some sushi~
+Some sushi is sitting here waiting to be eaten.~
+fish~
+19 0 A
+48 0 0 0 0 
+3 1 10 P
+#3747
+sweater~
+a sweater with M.U. on it~
+A grey sweater is here in the dirt.~
+wool~
+9 0 AD
+1 1 1 0 0
+3 1 10 P
+A 
+2 1
+A
+12 10
+E
+sweater~
+.              I got my ass kicked at 
+
+                   |\  /|   |    |
+                   | \/ |   |    |
+                   |    |   |    | 
+                   |    |o   \__/ o
+
+           and all I got was this lousy shirt.
+
+~
+#3748
+book~
+a book~
+push this book, idiot~
+paper~
+31 0 0
+4 3216 3 1 0
+50 10000 0 P
+#3749
+burger turkey~
+a turkey burger~
+A meat patty making a gobbling noise is resting here.~
+meat~
+19 0 A
+50 0 0 0 0
+1 1 10 P
+#3750
+nacho salsa~
+nacho's with salsa~
+A little mexican snack to tide you over until dinner.~
+food~
+19 0 A
+12 0 0 0 0
+1 1 10 P
+#3751
+coffee cup~
+a cup of coffee~
+A cup of a hearty rich liquid.~
+steel~
+17 0 A
+3 3 12 0 0
+3 1 1 P
+#3752
+toy train~
+a toy train~
+A souvenir toy train is sitting here.~
+steel~
+13 0 AO
+0 0 0 0 0
+1 1 10 P
+A
+4 1
+A
+5 1
+#3753
+grits~
+a bowl of grits~
+A big heaping bowl of grits with butter is sitting here.~
+steel~
+19 0 A
+48 0 0 0 0
+5 1 10 P
+#3754
+portal~
+A Portal~
+A shimmering portal swirls with a multitude of colors~
+magic~
+30 0 0
+5 15000 0 0 0
+1 10000 0 P
+#3755
+cheese cake~
+a slice of cheesecake~
+A slice of cheese cake is sitting here on a plate.~
+food~
+19 0 A
+24 0 0 0 0
+1 0 1 P
+
+#0
+
+
+
+#ROOMS
+#3700
+Entrance to Mud School~
+  This is the entrance to the Merc Mud School.  Go north to go through mud
+school.  If you have been here before and want to go directly to the arena,
+go south.
+
+  There is also a newbie train station above you.  It will take you to all
+low level areas and even give you directions how to get there on your own.
+
+A sign warns 'You may not pass these doors once you have passed level 5.'
+~
+2 CD 0
+D5
+You see the Temple of Devota.
+~
+~
+0 0 4207
+D0
+You see the doorway into the Mud School Building.
+~
+~
+0 0 3757
+D1
+~
+~
+0 -1 3783
+D2
+You see the one way door into the Arena of Mud School.
+~
+door~
+1 -1 3744
+D4
+~
+~
+0 0 3772
+D3
+~
+~
+0 -1 17
+S
+#3701
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The exits are west and south.  A small plaque is on the
+wall.
+~
+2 CDR 0
+D2
+You see a path into another room.
+~
+~
+0 -1 3757
+D3
+You see a path into another room.
+~
+~
+0 -1 3702
+E
+plaque~
+This zone (Mud School) is created by Hatchet for any Merc Mud.
+Copyright 1992, 1993.
+~
+E
+sign~
+Equipment check time!  Type 'EQUIPMENT' to see your current equipment.  Right
+now, you have just a vest, a shield, and a weapon.  As you go through Mud
+School you will acquire a complete set of equipment.
+
+To pick up items on the ground as you see them, type 'GET item'.
+To wear a piece of armor, type 'WEAR item'.
+To hold a light source, type 'HOLD item'.
+To wield a weapon, type 'WIELD weapon'.
+To wear, hold, and wield everything you have, type 'WEAR ALL'.
+To stop using a piece of equipment, type 'REMOVE item'.
+Finally, to see the items in your inventory, type 'INVENTORY'.
+
+When you are ready to continue, go west.
+~
+S
+#3702
+The Center Room~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits lead in ALL directions.
+~
+2 CDR 0
+D0
+You see the room north that will lead you to the next section.
+~
+~
+0 0 3703
+D1
+You see a room.
+~
+~
+0 0 3701
+D2
+You see a room.
+~
+~
+0 0 3705
+D3
+You see a room.
+~
+~
+0 0 3704
+D5
+You see a room.
+~
+~
+0 0 3707
+D4
+You see a room.
+~
+~
+0 0 3708
+E
+sign~
+This is the direction practicing room.  The directions you can go in any
+room are: north, south, east, west, up, or down.  Of course, not all rooms
+have all exits available.
+
+To see the obvious exits in a room, type 'EXITS'.
+
+Sometimes doors are closed, or locked, or secret.  Then you have to notice
+clues in the room description, or try going into that direction and seeing
+if you bump into a door.
+
+Try going into each direction from here.  When you are done, go NORTH.
+~
+S
+#3703
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits lead north and south.
+~
+2 CDR 0
+D0
+You see the next station ahead.
+~
+~
+0 -1 3709
+D2
+You see the central room.
+~
+~
+0 0 3702
+E
+sign~
+Since you are here, let us have another lesson.  You can see the statistics on
+yourself by typing 'SCORE'.  Do that right now.  At higher levels, 'SCORE'
+gives you more information.
+~
+S
+#3704
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is east.
+~
+2 CDR 0
+D1
+You see the central room.
+~
+~
+0 0 3702
+E
+sign~
+Just go east to the central room.
+~
+S
+#3705
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is north.
+~
+2 CDR 0
+D0
+You see the central room.
+~
+~
+0 0 3702
+E
+sign~
+Just go north to the central room.
+~
+S
+#3707
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is up.
+~
+2 CDR 0
+D4
+You see the central room.
+~
+~
+0 0 3702
+E
+sign~
+Just go up to the central room.
+~
+S
+#3708
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is down.
+~
+2 CDR 0
+D5
+You see the central room.
+~
+~
+0 0 3702
+E
+sign~
+Just go down to the central room.
+~
+S
+#3709
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits reach west and down.
+~
+2 CDR 0
+D5
+You see a cage.
+~
+~
+0 0 3710
+D3
+You see the next station of Mud School.
+~
+~
+0 -1 3711
+E
+sign~
+Welcome to combat training.
+
+The first lesson is knowing whom to fight.  Use the command 'CONSIDER' to
+consider killing a monster.  Avoid fighting monsters that will kill you
+easily.
+
+The second lesson is running away.  There is a monster in the room down.
+He is too strong for you to kill, but he won't kill you.  So go 'DOWN' from
+here, then 'CONSIDER' him, then 'KILL' him.  After a while, type 'FLEE' to
+escape from him.
+
+You can also set your character to flee automatically with the 'WIMPY' command.
+Type 'HELP WIMPY' to find out more about 'WIMPY'.
+
+After you flee, you will be back in this room.  When you are ready to go on
+to the next station, go 'WEST'.
+~
+S
+#3710
+The Amorphous Shapes Cage~
+You are in a smelly cage.  Strangely, the walls are still clean!
+You see a sign here.  The only exit is up.
+~
+2 DR 0
+D4
+You see a safe room up.
+~
+~
+0 0 3709
+E
+sign~
+Remember, don't fight the blob to the finish!  Just type 'KILL BLOB', then
+when you are fighting, type 'FLEE', until you flee and are out of here.
+~
+S
+#3711
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.
+~
+2 CDR 0
+D1
+You see the next station of Mud School.
+~
+~
+0 0 3709
+D5
+You see the combat hall.
+~
+~
+0 0 3712
+E
+sign~
+Welcome to the next station.  Here, you will actually fight real monsters,
+without fleeing!  Kill every mob, since they hold some equipment you need.
+To start, go down.
+~
+S
+#3712
+The Cage Room~
+You are in the cage room.  All around are 4 cages.  Light fluoresces off the
+ceiling in soft white tones.  Of course, there is a big sign on the wall.
+Exits lead into the cardinal directions plus down.
+~
+2 CDR 0
+D0
+You see an aggressive monster inside!
+~
+~
+0 -1 3713
+D1
+You see a monster inside!
+~
+~
+0 -1 3716
+D2
+You see a monster inside!
+~
+~
+0 -1 3715
+D3
+You see a monster inside!
+~
+~
+0 -1 3714
+D5
+You see the next station below.
+~
+~
+0 -1 3717
+D6
+You see a storage room.
+~
+~
+0 -1 3794
+E
+sign~
+Welcome to the cage room.  The adepts of mud school have captured some
+monsters for you to kill.  In the four cages are four monsters of various
+types.  Kill them all!
+
+After you kill each monster, get all of the equipment from their corpses
+with the command 'GET ALL CORPSE'.  You can then use the command 'WEAR ALL'
+to wear your newly won equipment.
+
+When you are done with the corpse, 'SACRIFICE CORPSE' to give it to your God.
+God will reward you for this.
+
+Between combat, you may need to rest or sleep to regenerate hit points.
+You can 'REST' to regenerate hit points, or you can 'SLEEP'.  'SLEEP' will
+refresh you faster than 'REST', but you will be less aware of your
+surroundings.
+~
+S
+#3713
+A Cage~
+You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is south.
+~
+2 DR 0
+D2
+You see the Cage Room.
+~
+~
+0 -1 3712
+E
+sign~
+There is an aggressive monster in this room.  Kill him and get out of here
+fast!  Remember to loot and sacrifice the corpse.
+~
+S
+#3714
+A Cage~
+You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is east.
+~
+2 DR 0
+D1
+You see the Cage Room.
+~
+~
+0 -1 3712
+E
+sign~
+There is a wimpy, aggressive monster in this room.  Kill him and get out of
+here fast!  Remember to loot and sacrifice the corpse.
+~
+S
+#3715
+A Cage~
+You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is north.
+~
+2 DR 0
+D0
+You see the Cage Room.
+~
+~
+0 -1 3712
+E
+sign~
+There is a wimpy monster in this room.  Kill him and get out of here fast!
+Remember to loot and sacrifice the corpse.
+~
+S
+#3716
+A Cage~
+You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is west.
+~
+2 DR 0
+D3
+You see the Cage Room.
+~
+~
+0 -1 3712
+E
+sign~
+There is a monster in this room.  Kill him and get out of here fast!
+Remember to loot and sacrifice the corpse.
+~
+S
+#3717
+A Room in Mud School~
+You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.   There is a collapsed
+wall to the west, and the other exit you will have to find on your own.
+Of course, there is a sign on the wall.
+~
+2 CDR 0
+D4
+You see the Cage room.
+~
+~
+0 -1 3712
+D3
+You see a dark tunnel.
+~
+~
+0 0 3761
+D2
+You see the Shop.
+~
+~
+0 0 3718
+D1
+You see the next station of Mud School.
+~
+door~
+1 -1 3719
+D0
+You see a lighted hallway with lockers along the walls.
+~
+~
+0 -1 3784
+E
+sign~
+By now, you must be hungry and thirsty.  Time to buy groceries!
+To the south is a store.  Inside the store, you can use these commands:
+
+    BUY    Buy an item
+    LIST   List what is for sale
+
+After buying some food and drink, you can 'EAT' and 'DRINK' it.
+
+After that, you will need to find the next exit yourself to continue
+on your journey. The collapsed wall to the west leads to other adventures
+best explored once you've learned all there is to be taught in the rest of
+the school.
+~
+S
+#3718
+The Store in Mud School~
+You are in a cramped room.  Stacked neatly on shelves everywhere are items
+and packages.  Light fluoresces off the ceiling in soft white tones.  Of
+course, there is a sign on the wall.  The only exit is north.
+~
+2 DR 0
+D0
+You see the only exit out of here.
+~
+~
+0 0 3717
+E
+sign~
+The sign reads:
+
+   Buy   - Buy something from the storekeeper.
+   List  - The storekeeper will tell you what's for sale.
+   Value - The storekeeper will tell you how much he will give to you for
+           that item.
+   Sell  - Sell that item to the storekeeper.
+~
+S
+#3719
+A Room in Mud School~
+  You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The exits are north and west, with a door to the east.
+~
+2 CDR 0
+D3
+You see the room you just came from.
+~
+door~
+1 -1 3717
+D0
+You see a darkened room inside.
+~
+~
+0 0 3720
+D1
+You see the next station of Mud School.
+~
+door~
+2 3714 3721
+E
+sign~
+North of you is a dark room.  I hope you still have the lantern!  If not,
+you have to back to the store and buy one.
+
+In the room is a monster with a key that you need.  After killing the
+monster and getting the key, come back here, UNLOCK EAST, OPEN EAST,
+and continue east.
+~
+S
+#3720
+The Darkened Room~
+  This room was purposefully darkened so that you would need to hold on to a
+light source to go through.  The walls are, of course, blank, and white.
+The only exit is south.
+~
+2 ADR 0
+D2
+You see the room that you have come from.
+~
+~
+0 0 3719
+S
+#3721
+The End of Mud School!~
+  This is a very bright room, with a marble pedestal in the center.  Behind
+the pedestal stands a person cloaked in Silver.  Tapestries flow from every
+wall, and you feel very happy to be here right now.  There is a big sign here.
+The only exit is on the other side of the gate north of you.
+~
+2 DR 0
+D0
+You see the Arena ahead.
+~
+gate~
+1 -1 3722
+E
+sign~
+You have graduated from Mud School!  Take your diploma...if you can.
+Go 'NORTH' from here to visit our arena.  There are plenty of low-level
+monsters, but DON'T attack other players.
+
+If you want to go directly back to the temple at any time, type 'RECALL'.
+
+Don't forget to type save to protect your character.  You won't be saved after
+quitting until you reach level 2, so also type save before you type quit.
+
+If you need more help during the game, type 'HELP'.  If you see something
+wrong or have comments, use 'BUG', 'IDEA', or 'TYPO' to report them.
+
+May your visit here be ... mercenary.
+~
+S
+#3722
+South Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D3
+~
+~
+0 0 3723
+D0
+~
+~
+0 0 3729
+D1
+~
+~
+0 0 3725
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3723
+South Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D3
+~
+~
+0 0 3724
+D0
+~
+~
+0 0 3728
+D1
+~
+~
+0 0 3722
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3724
+South West Corner of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3727
+D1
+~
+~
+0 0 3723
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3725
+South Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D3
+~
+~
+0 0 3722
+D0
+~
+~
+0 0 3730
+D1
+~
+~
+0 0 3726
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3726
+South East Corner of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3725
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3727
+West Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3732
+D1
+~
+~
+0 0 3728
+D2
+~
+~
+0 0 3724
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3728
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3733
+D1
+~
+~
+0 0 3729
+D2
+~
+~
+0 0 3723
+D3
+~
+~
+0 0 3727
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3729
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3734
+D1
+~
+~
+0 0 3730
+D2
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3728
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3730
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3735
+D1
+~
+~
+0 0 3731
+D2
+~
+~
+0 0 3725
+D3
+~
+~
+0 0 3729
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3731
+East Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3726
+D3
+~
+~
+0 0 3730
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3732
+West Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3737
+D1
+~
+~
+0 0 3733
+D2
+~
+~
+0 0 3727
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3733
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3738
+D1
+~
+~
+0 0 3734
+D2
+~
+~
+0 0 3728
+D3
+~
+~
+0 0 3732
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3734
+Center of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.  There is a BIG SIGN here.
+~
+2 8 0
+D0
+~
+~
+0 0 3739
+D1
+~
+~
+0 0 3735
+D2
+~
+~
+0 0 3729
+D3
+~
+~
+0 0 3733
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+D5
+You see a dark murky dungeon below.
+~
+grate~
+1 -1 3748
+E
+sign~
+Those with high bravery or low senses of cautiousness might wish to go below
+to the Dungeon.  However, know that there are aggressive monsters down there,
+and there is no quick escape back out of here when you are in the dungeon.
+~
+S
+#3735
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3740
+D1
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3730
+D3
+~
+~
+0 0 3734
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3736
+East Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3735
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3737
+West Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3742
+D1
+~
+~
+0 0 3738
+D2
+~
+~
+0 0 3732
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3738
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3743
+D1
+~
+~
+0 0 3739
+D2
+~
+~
+0 0 3733
+D3
+~
+~
+0 0 3737
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3739
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3744
+D1
+~
+~
+0 0 3740
+D2
+~
+~
+0 0 3734
+D3
+~
+~
+0 0 3738
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3740
+Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3745
+D1
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3735
+D3
+~
+~
+0 0 3739
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3741
+East Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D0
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3736
+D3
+~
+~
+0 0 3740
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3742
+North West Corner of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D1
+~
+~
+0 0 3743
+D2
+~
+~
+0 0 3737
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3743
+North Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  You can barely see the ceiling.  You feel as if you are being watched
+by some divine being.
+~
+2 8 0
+D1
+~
+~
+0 0 3744
+D2
+~
+~
+0 0 3738
+D3
+~
+~
+0 0 3742
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3744
+North Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D1
+~
+~
+0 0 3745
+D2
+~
+~
+0 0 3739
+D3
+~
+~
+0 0 3743
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3745
+North Wall of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D1
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3740
+D3
+~
+~
+0 0 3744
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3746
+North East Corner of Arena~
+You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+2 8 0
+D2
+~
+~
+0 0 3741
+D3
+~
+~
+0 0 3745
+D4
+You see the EXIT.
+~
+~
+0 0 3760
+S
+#3748
+The Center of the Dungeon~
+You are in the center of a large room.  A faint light from above shows that
+the floors are all covered with slime.  A feeling of dread comes over you as
+you notice that this is NOT a great place to go.  Exits go in all directions.
+Of special note is the one that brings you back up!!!
+~
+2 8 0
+D4
+You see safety!
+~
+grate~
+1 -1 3734
+D0
+You see the north wall.
+~
+~
+0 0 3750
+D1
+You see the east wall.
+~
+~
+0 0 3753
+D2
+You see the south wall.
+~
+~
+0 0 3755
+D3
+You see the west wall.
+~
+~
+0 0 3752
+S
+#3749
+The North West Corner of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 9 0
+D1
+You see the north wall.
+~
+~
+0 0 3750
+D2
+You see the south wall.
+~
+~
+0 0 3752
+S
+#3750
+The North Wall of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 9 0
+D1
+You see the north east corner.
+~
+~
+0 0 3751
+D2
+You see the center of the dungeon.
+~
+~
+0 0 3748
+D3
+You see the north west corner.
+~
+~
+0 0 3749
+S
+#3751
+The North East Corner of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D2
+You see the east wall.
+~
+~
+0 0 3753
+D3
+You see the north wall.
+~
+~
+0 0 3750
+S
+#3752
+The West Wall of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D0
+You see the north west corner.
+~
+~
+0 0 3749
+D1
+You see the center of the dungeon.
+~
+~
+0 0 3748
+D2
+You see the south west corner.
+~
+~
+0 0 3754
+S
+#3753
+The East Wall of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D0
+You see the north east corner.
+~
+~
+0 0 3751
+D2
+You see the south east corner.
+~
+~
+0 0 3756
+D3
+You see the center of the dungeon.
+~
+~
+0 0 3748
+S
+#3754
+The South West Corner of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D0
+You see the north wall.
+~
+~
+0 0 3752
+D1
+You see the south wall.
+~
+~
+0 0 3755
+S
+#3755
+The South Wall of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D0
+You see the center of the dungeon.
+~
+~
+0 0 3748
+D1
+You see the south east corner.
+~
+~
+0 0 3756
+D3
+You see the south west corner.
+~
+~
+0 0 3754
+S
+#3756
+The South East Corner of the Dungeon~
+You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+2 1|8 0
+D0
+You see the east wall.
+~
+~
+0 0 3753
+D3
+You see the south wall.
+~
+~
+0 0 3755
+S
+#3757
+A Room in Mud School~
+You are in a room in Mud School.  Paintings of the heroic graduates of mud
+school adorn the walls. To the west is Eclipse's Training Room, and to the
+east is Soulcrusher's Guild Room.  North of you is the next Station of Mud
+School. There is a sign on the wall (type 'LOOK SIGN' to read it).
+~
+2 CD 1
+D0
+You see the next station of Mud School.
+~
+~
+0 0 3701
+D1
+You see Soulcrusher's Guild Room.  Go there to practice your skills.
+~
+~
+0 0 3759
+D2
+You see the entrance to Mud School.
+~
+~
+0 0 3700
+D3
+You see Eclipse's Training Room.  Go there to train your attributes.
+~
+~
+0 0 3758
+E
+sign~
+To find out your attributes, type 'score'.  You can improve your attributes
+in Eclipse's Training Room to the west.  You can practice your skills and
+spells in Soulcrusher's Guild Room to the east.  You can continue through
+mud school by going north.
+
+If you are a new character, you should go 'WEST' from here, train your
+abilities, and then come back here and go 'NORTH'.
+~
+S
+#3758
+Eclipse's Training Room~
+You are in Eclipse's Training Room.  Around you are all sorts of physical
+and mental training tools.  The whole room is filled with magic, holiness, 
+and sweat.  There is a sign on the wall.
+~
+2 CD 1
+D1
+You see the room you came from, and the room you should go to.
+~
+~
+0 0 3757
+E
+sign~
+Welcome to Eclipse's Training Room.  Here you can train your attributes.  To
+train an attribute, you need enough practices.  To find out how many practice
+sessions you have, type 'train' while you are in this room.  To train for a 
+specific attribute, type 'train <attr>' where attr is the first 3 letters of
+the attribute you want increased.  Type 'help train' for more information.
+~
+S
+#3759
+Soulcrusher's Guild Room~
+You are in a room filled with weapons, books, and many combat dummies, some
+cut and stabbed many times, others burnt to a crisp.  The room is filled with
+sweat and an aura of magic.  There is a sign on the wall.
+~
+2 CD 1
+D3
+You see the room you came from and the room you should go to.
+~
+~
+0 0 3757
+E
+sign~
+Welcome to Soulcrusher's Guild Room.  Here you will learn your skills and
+spells. To find out what skills and spells you can practice and how many
+practice sessions you have, type 'practice'.  To practice the specific skill,
+type 'practice <skill>', where 'skill' is the skill or spell you wish to
+practice. Practicing increases the amount you know of that skill or spell,
+up to a certain maximum.  When you have practiced all you wish to practice,
+go west.
+~
+S
+#3760
+A Safe Room~
+You are in a safe room, away from all the mean rabbits and snails of the Arena.
+You can rest here, and go up to go back to the Temple of Devota.
+~
+2 CD 0
+D4
+You see the Temple of Devota.
+~
+~
+0 0 4207
+S
+#3761
+Entrance to a dark cavern~
+This is a dark cavern that seems to have been attached to the mud school
+by something destroying the wall to the east.  Rumor has it that wall
+was disintegrated when one of the gods was playing with a new spell.
+~
+2 1|4|8 0
+D1
+~
+~
+0 0 3717
+D3
+
+~
+~
+0 0 3762
+S
+#3762
+A dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D0
+~
+~
+0 0 3763
+D1
+
+~
+~
+0 0 3761
+D2
+~
+~
+0 0 3770
+D3
+~
+~
+0 0 3771
+S
+#3763
+A dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D2
+~
+~
+0 0 3762
+D3
+
+~
+~
+0 0 3764
+S
+#3764
+A dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D0
+You see a mass of cobwebs. They look well maintained.
+~
+~
+0 0 3765
+D1
+~
+~
+0 0 3763
+D2
+~
+~
+0 0 3771
+D3
+
+~
+~
+0 0 3766
+S
+#3765
+A cobweb filled alcove~
+This is a small cave connected to the large cavern.  There is a huge spider
+web encompassing most of it too.  As you look around, you see hairy legs
+dangling in your face!
+~
+2 1|8 0
+D2
+~
+~
+0 0 3764
+S
+#3766
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D1
+~
+~
+0 0 3764
+D2
+~
+~
+0 0 3767
+S
+#3767
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D0
+~
+~
+0 0 3766
+D2
+
+~
+~
+0 0 3768
+S
+#3768
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D0
+~
+~
+0 0 3767
+D1
+
+~
+~
+0 0 3769
+S
+#3769
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 1|8 0
+D0
+~
+~
+0 0 3771
+D1
+~
+~
+0 0 3770
+D3
+
+~
+~
+0 0 3768
+S
+#3770
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 AD 0
+D0
+~
+~
+0 0 3762
+D3
+
+~
+~
+0 0 3769
+S
+#3771
+Entrance to a dark cavern~
+This is a dark cavern.  You hear strange noises as things shuffle about
+in the darkness.
+~
+2 AD 0
+D0
+~
+~
+0 0 3764
+D1
+~
+~
+0 0 3762
+D2
+
+~
+~
+0 0 3769
+S
+#3772
+Newbie Train Station~
+  This is the Newbie Train Station.  It is supported by taxing the rich and
+is provided as a public service for newbies here at Dresden.  You can relax
+and wait for the train in the rustic Train Cafe, located to the North in a
+train car that has been placed on a side track.
+
+  On the train, you will ride in comfort to all newbie areas and you will
+even be given directions how to get there on you own.
+
+  Exits are North to the Train Cafe, East to the train 
+    and Down to Mud School.
+~
+2 D 0
+D0
+You can see a sign that says The Train Cafe.
+~
+~
+0 -1 3241
+D1
+You see the interior of the once lavish Newbie Train.. now it is smelly,
+messy and in disrepair. Gosh! Newbies are such slobs!!
+~
+~
+0 -1 3773
+D4
+Up into the rafters.
+~
+~
+0 -1 3795
+D5
+Newbies wander the halls of Mud School, obviously confused.
+~
+~
+0 0 3700
+S
+#3773
+Newbie Train Still In The Station~
+  This is the Newbie Train.  The first stop will be the the mob factory.
+Please find a seat if you can.  If you must stand, please hold on to the
+handrails.
+~
+2 DF 0
+3774 5 1
+S
+#3774
+Newbie Train - Mob Factory Stop~
+  This is the Mob Factory.  It is located through some dark alleys east
+of market square.  If you want to get off here, you must hurry, the doors
+will be closing soon.
+
+  Next stop is Gang Land.
+~
+2 DF 0
+3775 5 1
+D1
+~
+~
+0 0 9400
+S
+#3775
+Newbie Train - Gang Land Stop~
+  This is the gang land stop.  It is located east of the docks of Dresden.
+
+  The next stop is the shire.
+~
+2 DF 0
+3776 5 1
+D1
+~
+~
+0 0 2101
+S
+#3776
+Newbie Train - The Shire~
+  This is the shire stop.  It is located east of Crossroads.
+
+  The next stop is the rats lair.
+~
+2 DF 0
+3777 5 1
+D0
+~
+~
+0 0 1103
+S
+#3777
+Newbie Train - The Rats Lair~
+  This is the rats lair stop.  It is located by the docks of Dresden.
+If you have trouble finding it, ask the Captain.
+
+  The next stop is the Fire Newts.
+~
+2 DF 0
+3778 5 1
+D5
+~
+~
+0 0 3801
+S
+#3778
+Newbie Train - The Fire Newts~
+  This is the fire newts stop.  It is located south and east of the
+crossroads.  The crossroads is a popular meeting point located east of
+Dresden.
+
+  The next stop is the Dwarven Daycare.
+~
+2 DF 0
+3779 5 1
+D2
+~
+~
+0 0 2900
+S
+#3779
+Newbie Train - The Dwarven Daycare~
+  This is the Dwarven Daycare stop.  It is located south and east of the
+crossroads.  The crossroads is a popular meeting point located east of
+Dresden.  NOTICE: There are a few aggresive mobs in this area, but there
+are really just teddy bears.
+
+  The next stop is the Elemental Canyon.
+~
+2 DF 0
+3780 5 1
+D2
+~
+~
+0 0 6602
+S
+#3780
+Newbie Train - The Elemental Canyon~
+  This is the Elemental Canyon.  It is located north and west of Dresden.
+It is is a neutral area for all alignments. WORD OF WARNING: Consider (con)
+all mobs before attacking here, as there are some VERY nasty critters who
+like to gang up on unsuspecting newbies.
+
+  The next stop is the gnomes.
+~
+2 DF 0
+3781 5 1
+D0
+~
+~
+0 0 9207
+S
+#3781
+Newbie Train - The Gnomes~
+  This is the Gnomes stop.  The Gnome village is located east and south of
+the crossroads.  The crossroads is a popular meeting point located east of
+Dresden.
+
+  The next stop is the Miden'nir.
+~
+2 DF 0
+3782 5 1
+D2
+~
+~
+0 0 1501
+S
+#3782
+Newbie Train - Miden'nir~
+  This is the Miden'nir stop.  It is located south of Dresden.  Be careful
+in this area, you might get ambushed! NOTICE: There are aggressive mobs in
+this area!
+
+  The next stop is at New Thalos.
+~
+2 DF 0
+3792 5 1
+D2
+~
+~
+0 0 3505
+S
+#3783
+A Gigantic Clown Head~
+  Before you is the largest clowns head you have ever seen, with all the
+makeup intact, to include the big red painted on mouth.  This appears
+to be an extremely busy area, and strangely enough, everybody appears
+to be 'ENTER'ing the open mouth! Painted on the forehead of the clown,
+in big bold sickly glowing green paint is a sign that reads:
+
+|----------------------------------------------------|
+|  **** Froboz Magic Factory: Employee Entrance **** |
+|----------------------------------------------------|
+
+Hmmm. Maybe you shouldn't ENTER. Then again, considering the flow of
+people in and out, they probably wouldn't note one more slack eyed
+soul going in.
+~
+2 CD 0
+D3
+~
+~
+0 0 3700
+S
+#3784
+The Hallway~
+This is a common school hallway with the UGLY tile floor that most school
+administrations seem to love so much.  The lockers on either side of the
+hall are built into the hall and are in an advanced state of disrepair.
+The floor is trashed and you can't see anyone cleaning anything up.  Loud
+voices come from either side of the hallway where class doors are located.
+~
+2 DR 0
+D0
+You see a hallway.
+~
+~
+0 -1 3787
+D1
+You see a classroom.
+~
+~
+0 -1 3785
+D2
+You see the end of the hallway ending in an intersection.
+~
+~
+0 -1 3717
+D3
+You see a classroom.
+~
+~
+0 -1 3786
+S
+#3785
+A Classroom~
+The students in this classroom are all sleeping and a bald old man wearing
+robes is standing in the front of the class giving a speech.  On the board
+you see the title of the lecture.  'Ethical Use of Magic as a Stabalizing
+Factor in the Digestion Tract of Obese Earthworms.'  You can feel his evil
+spell starting to work it's influence on you.  He looks at you and in a
+monotone voice, "Would you please either sit down or leave.  The open door
+is making a draft."
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3784
+S
+#3786
+A Classroom~
+The students in this classroom are all busy taking notes at the rate of
+thousands of lines a second.  They're not even beginning to catch up with
+the hyperactive teacher standing in the front of the class ranting and pacing
+back and forth like a man possessed.
+~
+2 DR 0
+D1
+You see a hallway.
+~
+~
+0 -1 3784
+S
+#3787
+A hallway~
+The lockers here are as messed up as the lockers further south in the hallway
+and the floor is just as messy.  You hear the sound of games from the north
+and you can hear some more sounds of teachers teaching to the east and the
+west.  There is also a stairway that goes up.
+~
+2 DR 0
+D0
+You see the gymnasium.
+~
+~
+0 -1 3790
+D1
+You see a classroom.
+~
+~
+0 -1 3788
+D2
+You see a hallway.
+~
+~
+0 -1 3784
+D3
+You see a classroom.
+~
+~
+0 -1 3789
+D4
+You see some stairs.
+~
+~
+0 -1 3200
+S
+#3788
+A classroom~
+The first thing you notice are all the geeks in this classroom.  Thick
+glasses, pocket protectors filled with every writing implement invented,
+bow ties, and leather pants that come up to the middle of their shins.
+The teacher, now that you can see him, looks just as bad.  The lecture
+he's giving would maybe be interesting if you could understand anything
+that's coming out of his mouth.  Good thing the students can.
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3787
+S
+#3789
+The clasroom~
+The teacher is tied to a chair behind his desk and the students are all
+sitting around in their black leather clothes smoking cigarettes and
+drinking ToC Beer.  The windows are all broke out and most of the desks
+are in pieces sitting around the room.
+~
+2 DR 0
+D1
+You see a hallway.
+~
+~
+0 -1 3787
+S
+#3790
+The gym~
+Bones lie scattered around the running track that runs around this room.
+Students, the living ones, are lying around all over the floor covered
+in sweat and their own body waste.  The gym teacher is an ex-elite soldier
+for the Four Lords of Dresden and he knows how to train students to survive
+in the real world.  Survive that is if they even live through his class.
+He is standing on a platform in the middle of the room.  There is a rope
+hanging from it.  Why don't you try to CLIMB the ROPE?
+~
+2 DR 0
+D2
+You see a hallway.
+~
+~
+0 -1 3787
+S
+#3791
+The platform~
+Well, you've made it to the top of the platform.  You look around and don't
+see anyone here but the teacher.  No one was able to make it.  You might
+want to CLIMB down the ROPE.
+~
+2 DR 0
+S
+#3792
+Newbie Train - New Thalos~
+This is the stop for the desert city of New Thalos.  It sits in the middle
+of the Sands of Sorrow due east of Dresden.  Be careful where you sleep,
+because in a city of this size there's a lot of vultures eager to attack
+the helpless.
+
+  The next stop is Solace and Crystalmir Lake.
+~
+2 DF 0
+3793 5 1
+D1
+You see a desert city.
+~
+~
+0 -1 3532
+S
+#3793
+Newbie Train - Solace~
+This is the stop for the forest town of Solace.  It sits on the banks
+of the beautiful Crystalmir Lake and is southwest of Dresden.  Watch
+out for rats after golden grain.
+
+  The next stop is back at the station.
+~
+2 DF 0
+3772 5 1
+D1
+You see the gates of Solace.
+~
+~
+0 -1 13201
+S
+#3794
+The storage room~
+This room has a single light in the ceiling above you casting a pale radiance
+over the contents of the room.  Some buckets and mops sit in one corner.
+Both are covered with blood that the cleaning crews in the cages are
+constantly cleaning up.  Along either side of the room are shelves that are
+lined with jars.  On the jars are written some names of monsters.  Why don't
+you pick up a jar and open it?
+~
+2 DR 0
+D9
+~
+~
+0 -1 3712
+S
+#3795
+Strange Blending of Time~
+You stand in a room that seems to be some sort of spatial rift in time. You
+see old tomes, scripts and ancient quills mixed in with encyclopedias, 2 ring
+binders and ballpoint pens scattered all around the massive portal that glows
+brightly in the center of the room.  The portal beckons to you.. do you dare
+enter?  There is a large SIGN posted beside the portal, half of it is old
+parchment and where the edges slightly enter the portal, its material is
+strange and foreign to you.. it appears to be shiny, smooth and hard like
+metal, yet metal it is not.  You decide to LOOK at the SIGN.
+~
+2 D 0
+D0
+You see a door in the distance.
+~
+~
+0 -1 24300
+D5
+Newbie Train Station
+~
+~
+0 -1 3772
+E
+sign~
+This portal will bring you to the schools of the future. It was forged by the
+great scholar and journalist, Judicandus Bramsheer.  Beware, this school is
+hazardous to any adventurer not having yet achieved the 15th level of aware-
+ness!
+~
+S
+#3200
+At the top of the stairs.~
+The door to the north are made of heavy metal and have a rod to push in
+the middle of it.  It's strangely quiet in this room and you can hear 
+the echo of your footsteps with each step you take.
+~
+2 DR 0
+D2
+You see a hallway through little windows in the door
+~
+~
+0 -1 3201
+D5
+You see stairs leading downward.
+~
+~
+0 -1 3787
+S
+#3201
+The hallway.~
+Lockers are on both sides of the halls and little bits of trash are
+scattered over the floor.  To the west is a door with a sword on it
+and to the east is a door with a cross on it.  
+~
+2 DR 0
+D0
+You see a room with stairs leading downward.
+~
+~
+0 -1 3200
+D1
+You see a door with a cross on it.
+~
+~
+0 -1 3211
+D2 
+The hallway continues.
+~
+~
+0 -1 3202
+D3
+You see a door with a sword on it.
+~
+~
+0 -1 3210
+S
+#3202
+The hallway.~
+Some of the lockers are open and empty suggesting that the school has had
+students that couldn't live up to the heavy academic requirments.  You can
+hear teachers shouting over the din of the students reciting passages of
+text.  There are two doors.  The one to the west has a small dagger on it
+and the one to the east has a wand on it.
+~
+2 DR 0
+D0
+You see a hallway.
+~
+~
+0 -1 3201
+D1
+You see a door with a wand on it.
+~
+~
+0 -1 3213
+D2
+The hallway continues.
+~
+~
+0 -1 3203
+D3
+You see a door with a tiny dagger on it.
+~
+~
+0 -1 3212
+S
+#3203
+The hallway.~
+The lockers and floors here are immaculate.  Not a piece of trash anywhere.
+There seems to be some smell like decaying flesh coming from the lockers on
+the eastern wall though.  To the west a door with a open hand painted on it
+stands, and to the west the door has a skull painted on it.
+~
+2 DR 0
+D0
+You see the hallway continues.
+~
+~
+0 -1 3202
+D1
+You see a door with a skull painted on it.
+~
+~
+0 -1 3215
+D2
+The hallway continues.
+~
+~
+0 -1 3204
+D3
+You see a door with an open hand on it.
+~
+~
+0 -1 3214
+S
+#3204
+The hallway.~
+Once again the floor here is very clean.  There are no lockers on the wall
+and it's deathly quiet.  On the eastern wall you see a poster and the door
+to the west a door with the word Library written on it stands.
+~
+2 DR 0
+D0
+You see a hallway.
+~
+~
+0 -1 3203
+D2 
+The hallway continues to a corner.
+~
+~
+0 -1 3205
+D3
+You see the library.
+~
+~
+0 -1 3216
+E
+poster~
+.                /________________________________\
+                 |                                |
+                 |         DANCE  TONIGHT         |
+                 |             8 P,M.             |
+                 |         School     Gym         |
+                 |           Attendance           |
+                 |           Mandatory            |
+                 \________________________________/
+~
+S
+#3205
+The curve in the hallway.~
+The sounds of water splashing comes from the south and through the door
+you can see a big swimming pool.  To the east the hall continues.  The
+tile of the floor here is very wet so be careful!
+~
+2 DR 0
+D0
+You see a hallway.
+~
+~
+0 -1 3204
+D1
+You see a hallway.
+~
+~
+0 -1 3206
+D2
+You see a swimming pool.
+~
+~
+0 -1 3217
+S
+#3206
+The hallway.~
+The hall here is bare of anything except the gross light blue paint that 
+coats the wall.  The floor is spotless.  You can hear splashing coming 
+from somewhere and the smell of cooking meat tantalizes your tastebuds.
+~
+2 DR 0
+D1
+You see a door at the end of the hallway.
+~
+~
+0 -1 3207
+D3
+You see a curve in the hallway.
+~
+~
+0 -1 3205
+S
+#3207
+The hallway.~
+Two doors are in the north and east walls.  The one to the north is open
+and you can see several tables with chairs sitting around them.  The one
+to the east is open and you see a piece of paper tacked up to the side
+of it.
+~
+2 DR 0
+D0
+You see several tables.
+~
+~
+0 -1 3209
+D1
+You see an open door.
+~
+~
+0 -1 3208
+D3
+The hallway continues.
+~
+~
+0 -1 3206
+E
+paper~
+ 
+                  ABANDON HOPE ALL YE WHO ENTER HERE!!!
+~
+S
+#3208
+Welcome to Hell!~
+You walk in and a man gets up off of a woman laying on the desk.  Their
+clothes are half undone.  Now you've done it.  You've just caught the
+principle and one of the teachers fooling around.  You won't graduate
+now.  Congratulations.
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3207
+S
+#3209
+The cafeteria.~
+A place no more dreaded than Tiamat awaits you.  The school cafeteria has
+had more legends and myths of pain and horror spread about it than any
+other place in the history of mankind.  You hear a scream and see a green
+glob that one of the cooks just put on a tray attack and devour a student.
+Everyone runs out leaving you to face it alone.
+~
+2 DR 0
+D2
+You see a hallway.
+~
+~
+0 -1 3207
+S
+#3210
+Warrior's classroom.~
+Body parts lay strewn across the floor and a teacher is standing in the 
+middle of the room slapping around a student for not dismembering the
+subject faster.  All kinds of weapons line the wall.  The smell of
+the unwashed students is almost overpowering.
+~
+2 DR 0
+D1 
+You see a hallway.
+~
+~
+0 -1 3201
+S
+#3211
+Cleric's classroom.~
+You stand for a few minutes in awe as a huge man in robes continually beats
+on of his students in the head with a mace and then heals him.  He takes a
+break every once in awhile to have a student try to heal, but it doesn't
+always work.  Cussing the teacher raises the student back from the dead and
+starts the brutal proccess all over again.
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3201
+S
+#3212
+Thief's classroom.~
+You walk in and immediatly all the students run to you and start trying to
+go through your pockets.  You slap them away and look at the teacher with
+a pleading look.  He just shrugs and says, 'I have eager students."
+~
+2 DR 0
+D1
+You see a hallway.
+~
+~
+0 -1 3202
+S
+#3213
+Mage's classroom.~
+You see a dummy at the far end of the classroom and the teacher at this end.
+He utters a few syllables and twin sparks of energy shoot from his hand and
+hits the dummy leaving twin scorch marks.  He tells a student to do it and
+uttering a few syllables he point his finger.  You can feel the energy 
+building in the air around you and it starts raining tulips.
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3202
+S
+#3214
+Monk's classroom.~
+This room is dead quiet.  The teacher and all of the students are
+sitting cross-legged on the floor with their arms resting on their
+knees and their eyes closed.  A really demanding class.
+~
+2 DR 0
+D1
+You see a hallway.
+~
+~
+0 -1 3203
+S
+#3215
+Necromancer's classroom.~
+This room has body parts scattered all over the floor.  Some of them
+are wiggling around and others just lay there lifeless as they should
+be.  A skinny man wearing a robe is using a kris to show the class the
+better way to disembowl a corpse.
+~
+2 DR 0
+D3
+You see a hallway.
+~
+~
+0 -1 3203
+S
+#3216
+The Library.~
+It's quiet.  Looking around you see several students sitting around reading
+books.  It's not the normal school library and looking at the check out
+desk you can see why.  A huge female wearing red robes stands holding 
+a big club.  On the shelves you see a book thats sticking out of the
+stacks.  Why dont you try to PUSH the BOOK back in place.
+~
+2 DR 0
+D1
+You see a hallway.
+~
+~
+0 -1 3204
+D3
+You see a book that needs to be pushed in.
+~
+shelf~
+4 -1 3240
+S
+#3217
+The northern part of the pool room.~
+The water laps gently at the sides of the pool in a most serene manner.  The
+peacefulness though is masking death because you can see bits and pieces of
+bodies floating in the dark bloody water in the center of the pool.  The
+walkway goes all the way around the pool and a ladder goes up to the 
+diving board above the deep end.
+~
+2 DR 0
+D0
+You see a hallway.
+~
+~
+0 -1 3205
+D1
+The walkway around the pool continues.
+~
+~
+0 -1 3218
+D2
+The bloody waters of the swimming pool.
+~
+~
+0 -1 3232
+D3
+The walkway around the pool continues.
+~
+~
+0 -1 3224
+D4
+The ladder leads up to a diving board.
+~
+~
+0 -1 3225
+S
+#3218
+The northeastern walkway around the pool.~
+You keep peering into the waters hoping to catch a glimpse of what
+made the mess in the pool, but all you can see is a dark shadow in
+the center of the pool.  Several towels have been left here by the
+students that were swimming in the pool.
+~
+2 DR 0
+D2
+~
+~
+0 -1 3233
+D8
+The walkway around the pool continues.
+~
+~
+0 -1 3219
+D3
+The walkway around the pool continues.
+~
+~
+0 -1 3217
+S
+#3219
+The eastern walkway around the pool.~
+There is a bloody hand on the side of the pool gripping a towel.  The
+hand looks gnawed upon by some kind of an animal.  The shape in the water
+moves to follow you around the pool as you walk around it.  You're glad
+it's in there and you're up here.
+~
+2 DR 0
+D7
+The northeastern part of the walkway.
+~
+~
+0 -1 3218
+D9
+The southeastern part of the walkway.
+~
+~
+0 -1 3220
+D3
+The bloody waters of the pool.
+~
+~
+0 -1 3236
+S
+#3220
+The southeastern walkway around the pool.~
+The black shape is still there in the pool.  The waters here aren't so
+bloody and you can see that the shape has a slight tint of gold to it.
+The floor has some water on it and might be a little slippery, but other
+than that the area is rather unremarkable.
+~
+2 DR 0
+D6
+You see the eastern walkway around the pool.
+~
+~
+0 -1 3219
+D3
+You see the southern walkway around the pool.
+~
+~
+0 -1 3221
+S
+#3221
+The southern walkway around the pool.~
+You are sure you can see a golden tint to the shape that is following
+you around the pool now.  The water still has a red tint to it and
+the shadows at the bottom of the pool doesn't help much.
+~
+2 DR 0
+D0
+You see the waters of the pool.
+~
+~
+0 -1 3238
+D1
+You see the southeastern part of the walkway.
+~
+~
+0 -1 3220
+D3
+You see the southwestern part of the walkway.
+~
+~
+0 -1 3222
+S
+#3222
+The southwestern part of the walkway.~
+The black shape is still following you.  You can't make out what
+it is but you can tell it is dangerous from all of the blood and
+gore floating in the pool.  You decide not to go into the blood
+tinted waters, but you can only continue around the pool.
+~
+2 DR 0
+D7
+You see the western part of the walkway.
+~
+~
+0 -1 3223
+D1
+You see the southern part of the walkway.
+~
+~
+0 -1 3221
+S
+#3223
+The western part of the walkway.~
+The dark shape you noticed before goes back into the middle of the pool
+where the blood is the thickest at.  The water remains calm and unbroken
+all over the pool.
+~
+2 DR 0
+D6
+You can see the northwestern part of the walkway.
+~
+~
+0 -1 3224
+D1
+You can see the waters of the pool.
+~
+~
+0 -1 3234
+D8
+You can see the southwestern part of the walkway.
+~
+~
+0 -1 3222
+S
+#3224
+The northwestern part of the walkway.~
+The blood and gore cover this part of the pool and walkway.  You still
+wonder what kind of a creature could be causing this kind of death and
+why it would be in the pool until you see a sign on the wall here.
+~
+2 DR 0
+D0
+~
+~
+0 -1 3231
+D1
+You see the entrance to the pool room.
+~
+~
+0 -1 3217
+D9
+You see the western part of the walkway.
+~
+~
+0 -1 3223
+E
+sign~
+This is to test how fast you swim when something is after you.  Good luck!
+
+
+
+BEWARE OF FISH!
+~
+S
+#3225
+Up, up, up, the ladder.~
+You are starting to wish that you didn't start the climb up this ladder.
+It's tall and your exhausted.  You can either go back down now or
+continue to the top.
+~
+2 DR 0
+D4
+You can see the top of the ladder.
+~
+~
+0 -1 3226
+D5
+You can see the bottom of the ladder in the distance.
+~
+~
+0 -1 3217
+S
+#3226
+On the board.~
+Crack!  The moment you step onto the board you know you have made a
+mistake, but before you can remedy your situation you start to fall.
+~
+2 DFR 0
+3227 2 1
+S
+#3227
+Falling towards the bloody waters.~
+The bloody waters are coming closer and closer at incredible speeds.  You
+didn't realize how high up you were until you started to fall.
+~
+2 DFR 0
+3228 0 1
+S
+#3228
+Falling towards the bloody waters.~
+You see that a group of young mages have come in during your fall and
+they listen to their teacher as they watch you fall.  Apparently the
+teacher is belittling you for being such an idiot.
+~
+2 DFR 0
+3229 0 1
+S
+#3229
+The stop.~
+You suddenly stop falling and wonder why.  The teacher of the mages has
+cast a fly spell to teach his students how it can be used to save falling
+objects.  You thank your lucky stars until he wiggles a finger at you and
+you start to fall again.
+~
+2 DFR 0
+3230 5 1
+S
+#3230
+The big splash.~
+You hit the bloody waters and go under.  You are now in the domain
+of whatever thing killed everyone that entered the pool before.
+~
+2 DFR 0
+3232 1 1
+S
+#3231
+In the northwestern part of the pool.~
+The water is bloody and you can't see that much.  You can make out a
+dark shape heading toward you though.
+~
+2 DR 6
+D0
+You see the safety of the northwestern pool room.
+~
+~
+0 -1 3224
+D1
+You see the bloody waters of the pool.
+~
+~
+0 -1 3232
+D2
+You see the bloody waters of the pool.
+~
+~
+0 -1 3234
+D3
+You see the safety of the western pool room.
+~
+~
+0 -1 3223
+S
+#3232
+The bloody pool.~
+You in the northern part of the pool.  The blood and gore make seeing
+anything in the waters impossible.  You are treading water and can't
+feel the bottom of the pool with your feet when you stretch them down.
+You had better watch out for whatever killed the other swimmers.
+~
+2 DR 6
+D0
+You see the safety of the northern part of the pool.
+~
+~
+0 -1 3217
+D1
+You see the northeastern part of the pool.
+~
+~
+0 -1 3233
+D2
+You see the center of the pool.
+~
+~
+0 -1 3235
+D3
+You see the southwestern part of the pool.
+~
+~
+0 -1 3231
+S
+#3233
+The bloody pool.~
+You float and float and wait for whatever it is in the pool with you to
+attack.  Every once in awhile you can feel something brush up against
+your leg.  Maybe it would be a good idea to climb out.
+~
+2 DR 6
+D0
+You see the safety of the northeastern part of the pool room.
+~
+~
+0 -1 3218
+D1
+You see the safety of the eastern part of the pool room.
+~
+~
+0 -1 3219
+D2
+You see the bloody water of the pool.
+~
+~
+0 -1 3236
+D3
+You see the bloody water of the pool.
+~
+~
+0 -1 3232
+S
+#3234
+The bloody waters.~
+The blood and gore are to thick to really see anything below you.  Every
+once in awhile you can feel something brush up against your leg that makes
+your skin crawl and the hairs on the back of your neck stand on end.
+Maybe now would be a good time to get out.
+~
+2 DR 6
+D0
+You see the bloody water.
+~
+~
+0 -1 3231
+D1
+You see the bloody water of the center of the pool.
+~
+~
+0 -1 3235
+D2
+You see the bloody water.
+~
+~
+0 -1 3237
+D3
+You see the safety of the walkway.
+~
+~
+0 -1 3223
+S
+#3235
+The center of the pool.~
+It's a bloody mess but now you see what is killing everyone.  A mages
+experiment gone wrong has affected a school of gold fish in a rather
+negative way.  It left their bodies the same size, but gave them a mouth
+the size of a small mellon.  You hope they dont see you, but it is too
+late and they attack.
+~
+2 DR 6
+D0
+You see the bloody water.
+~
+~
+0 -1 3232
+D1
+You see the bloody water.
+~
+~
+0 -1 3236
+D2
+You see the bloody water.
+~
+~
+0 -1 3238
+D3
+You see the bloody water.
+~
+~
+0 -1 3234
+S
+#3236
+The bloody pool.~
+You can't see much in the water here, but you really want out of the
+pool.
+~
+2 DR 6
+D0
+You see the bloody water.
+~
+~
+0 -1 3233
+D1
+You see the safety of the walkway.
+~
+~
+0 -1 3219
+D2
+You see the bloody water.
+~
+~
+0 -1 3239
+D3
+You see the bloody water.
+~
+~
+0 -1 3235
+S
+#3237
+The bloody water.~
+You're in the bloody water.  You're miserable.  You're sick.  You're scared
+because you just felt something brush your leg.
+Isn't adventuring wonderful?
+~
+2 DR 6
+D0
+You see the bloody water.
+~
+~
+0 -1 3234
+D1
+You see the bloody water.
+~
+~
+0 -1 3238
+D2
+You see the safety of the walkway.
+~
+~
+0 -1 3222
+D3
+You see the safety of the walkway.
+~
+~
+0 -1 3223
+S
+#3238
+The bloody water.~
+The water is a little clearer here.  You can see the shadow of your feet
+touching the bottom of the pool.  You can also feel little gold coins
+underneath your feet that students were diving for.
+~
+2 DR 6
+D0
+Bloody water.
+~
+~
+0 -1 3235
+D1
+You see bloody water.
+~
+~
+0 -1 3239
+D2
+You see the safety of the walkway.
+~
+~
+0 -1 3221
+D3
+You see bloody water.
+~
+~
+0 -1 3237
+S
+#3239
+Bloody water.~
+You are in the southeastern part of the swimming pool.  The water is still
+bloody but it is clear enough to be able to see the bottom of the pool
+directly below you.  You might want to get out though considering a large
+dark shape is heading toward you.
+~
+2 DR 6
+D0
+You can see bloody water.
+~
+~
+0 -1 3236
+D1
+You see the safety of the walkway.
+~
+~
+0 -1 3219
+D2
+You see the safety of the walkway.
+~
+~
+0 -1 3220
+D3
+You see bloody water.
+~
+~
+0 -1 3238
+S
+#3240
+The secret laboratory.~
+Flasks of chemicals bubbling and tubes running back and forth.  Burners
+going at full throttle.  Metal rods with electricity sprouting like
+flowers between them.  Yep, this is the laboratory of a mad scientist.
+It's a shame he made a monster because it killed him, and now it is
+looking at you with a strange look in it's eye.  It is the dreaded...
+Clipsenstein Monster!
+~
+2 DR 0
+D1
+You can see the library.
+~
+~
+0 -1 3216
+S
+#3241
+The Train Cafe.~
+It has a nice relaxing atmosphere.  Candles burn on the tables and the
+bar giving the Cafe it's only light.  The tables are spaced moderately
+apart as to insure privacy.  You see a waitress standing behind the bar
+and she smiles at you and waits for you to order something.
+~
+2 D 0
+D2
+You can see the train getting ready to leave the station.
+~
+~
+0 -1 3772
+S
+#3242
+Secret Garden~
+This quiet hidden garden is totally surrounded and protected by an 8 foot
+tall hedge of roses.  The wicked thorns assure that unwanted visitors will
+never visit this enchanted place.  The sweet intoxicating fragrance of blue
+roses embrace you.  Well-kept cobblestone paths wind throughout the garden,
+allowing you to wander among exotic and brightly colored plants.  Large leaf
+palms and ferns wave gently in a soft breeze, giving the impression of a
+lost tropical paradise.  You notice on arched opening through the hedge but
+you have the eerie feeling that if you walk through that exit, you will never
+return.
+~
+2 JK 1
+D3
+You see a large kitchen.
+~
+~
+0 -1 9970
+S
+
+
+#0
+
+
+
+#RESETS
+* Stuff at beginning of area is level 0
+M 1 3720 1 3721           the hideous diploma beast
+E 0 3715 -1 17            diploma
+*
+M 0 3700 1 3701
+D 0 3700 2 1             door
+M 0 3701 1 3710          blob
+M 0 3702 1 3716          regular monster in cage
+E 1 3705 -1 3            give him cloak
+E 1 3705 -1 4            give him cloak
+M 0 3703 1 3715           wimpy monster in cage
+E 1 3706 -1 6            give him helmet
+E 1 3711 -1 12           give him cape
+M 0 3704 1 3713           aggr monster in cage
+E 1 3707 -1 7            give him leggings
+E 1 3712 -1 13           give him belt
+M 0 3705 1 3714           aggr/wimpy monster in cage
+E 1 3708 -1 8            give him boots
+E 1 3713 -1 14           give him bracer
+*
+D 0 3717 1 1              door
+D 0 3719 3 1              door
+D 0 3719 1 2              door
+*
+M 0 3717 1 3718           storekeeper
+G 1 3718 -1              give him pipeweed bread
+G 1 3138 -1              give him water skin
+G 1 3031 -1              give him lantern
+M 0 3706 1 3720           monster in dark room.
+E 1 3709 -1 9            give him gloves
+E 1 3710 -1 10           give him sleeves
+E 1 3714 -1 17           give him the key
+E 1 3713 -1 14           give him bracer
+*
+D 0 3721 0 1              door
+D 0 3734 5 1              door
+D 0 3748 4 1              door
+*
+M 0 3709 4 3734           rabbit
+M 0 3710 3 3742           lizard
+M 0 3711 3 3746           boar
+M 0 3712 3 3726           fox
+M 0 3713 5 3724           snail
+M 0 3714 1 3749           beast
+M 0 3715 2 3751           bear
+M 0 3716 2 3754           wolf
+M 0 3707 1 3712           adept
+M 0 3708 1 3721           adept
+M 0 3718 1 3758         adept for training
+M 0 3719 1 3759         adept for practicing
+*
+M 0 3724 4 3766          zombie
+E 1 3705 -1 3            give him cloak
+E 1 3710 -1 10           give him sleeves
+M 0 3724 4 3769          zombie
+E 1 3709 -1 9            give him gloves
+M 0 3724 4 3768          zombie
+E 1 3707 -1 7            give him leggings
+M 0 3724 4 3771          zombie
+E 1 3706 -1 6            give him helmet
+M 0 3721 1 3765          spider
+M 0 3722 3 3767          mush man
+M 0 3722 3 3763          mush man
+M 0 3722 3 3770          mush man
+M 0 3723 1 3762          sprite
+O 0 3717 1 3783          clowns head
+M 0 3725 1 3785          bald teacher
+M 0 3726 2 3785          student
+M 0 3727 1 3786          hyper teacher
+M 0 3728 1 3786          student
+M 0 3729 1 3786          student
+M 0 3730 1 3788          geek teacher
+E 1 3719 -1 6            give him glasses
+E 1 3720 -1 5            give him protector
+M 0 3731 1 3788          geek student
+E 1 3719 -1 6            give him glasses
+E 1 3720 -1 5            give him protector
+M 0 3732 1 3788          geek student
+E 1 3719 -1 6            give him glasses
+E 1 3720 -1 5            give him protector
+M 0 3733 1 3789          tied teacher
+M 0 3734 1 3789          hoodlum
+E 1 3721 -1 5            jacket
+E 1 3722 -1 7            jeans
+E 1 3723 -1 8            boots
+G 1 3724 -1              toc beer
+M 0 3735 1 3789          cyberslut
+E 1 3725 -1 5            bra
+E 1 3726 -1 13           skirt
+E 1 3727 -1 7            stockings
+E 1 3728 -1 8            boots
+M 0 3736 1 3791          gym teacher
+G 1 3732 -1
+M 0 3737 1 3790          gym student
+E 1 3729 -1 5            sweat shirt
+E 1 3730 -1 7            shorts
+E 1 3731 -1 8            shoes
+O 0 3733 1 3794          dragon container
+H 0 3733 1 3738            baby dragon
+M 0 3742 1 3784          janitor
+*O 1 3734 1 3772          newbie train
+O 1 3735 1 3790          rope up
+O 1 3736 1 3791          rope down
+M 0 3743 1 3210          warrior teacher
+E 1 3737 -1 11           shield
+E 1 3738 -1 16           sword
+M 0 3744 2 3210          warrior student
+E 1 3737 -1 11           shield
+E 1 3738 -1 16           sword
+M 0 3744 2 3210          warrior student
+E 1 3737 -1 11           shield
+E 1 3738 -1 16           sword
+M 0 3745 1 3211          cleric teacher
+E 1 3739 -1 16           mace
+E 1 3742 -1 12           robes
+M 0 3746 2 3211          cleric student
+E 1 3739 -1 16           mace
+E 1 3742 -1 12           robes
+M 0 3746 2 3211          cleric student
+E 1 3739 -1 16           mace
+E 1 3742 -1 12           robes
+M 0 3747 1 3212          thief teacher
+E 1 3740 -1 16           dagger
+E 1 3742 -1 12           robes
+M 0 3748 2 3212          thief student
+E 1 3740 -1 16           dagger
+M 0 3748 2 3212          thief student
+E 1 3740 -1 16           dagger
+M 0 3749 1 3213          mage teacher
+E 1 3740 -1 16           dagger
+E 1 3742 -1 12           robes
+M 0 3750 2 3213          mage student
+E 1 3740 -1 16           dagger
+E 1 3742 -1 12           robes
+M 0 3750 2 3213          mage student
+E 1 3740 -1 16           dagger
+E 1 3742 -1 12           robes
+M 0 3751 1 3214          monk teacher
+E 1 3742 -1 12           robes
+M 0 3752 2 3214          monk student
+E 1 3742 -1 12           robes
+M 0 3752 2 3214          monk student
+E 1 3742 -1 12           robes
+M 0 3753 1 3215          necro teacher
+E 1 3741 -1 16           kris
+E 1 3742 -1 12           robes
+M 0 3754 2 3215          necro student
+E 1 3741 -1 16           kris
+E 1 3742 -1 12           robes
+M 0 3754 2 3215          necro student
+E 1 3741 -1 16           kris
+E 1 3742 -1 12           robes
+M 0 3755 1 3216          librarian
+E 1 3743 -1 16           club
+M 0 3756 1 3209          cook
+E 1 3744 -1 0            cigarettes
+M 0 3757 1 3209          blob
+M 0 3758 1 3208          principle
+M 0 3759 1 3208          teacher
+M 0 3760 1 3240          Clipsenstein
+G 1 3745 -1              beer
+M 0 3761 9 3231          goldfish
+M 0 3761 9 3232          goldfish
+M 0 3761 9 3233          goldfish
+M 0 3761 9 3234          goldfish
+M 0 3761 9 3235          goldfish
+M 0 3761 9 3236          goldfish
+M 0 3761 9 3237          goldfish
+M 0 3761 9 3238          goldfish
+M 0 3761 9 3239          goldfish
+M 0 3762 1 3241          waitress
+G 1 3716 -1
+G 1 3718 -1
+G 1 3724 -1
+G 1 3746 -1
+G 1 3747 -1
+G 1 3749 -1
+G 1 3750 -1
+G 1 3751 -1
+G 1 3752 -1
+G 1 3753 -1
+G 1 3755 -1
+O 0 3754 1 3795          portal to Strange Campus
+O 0 3748 1 3216          book
+D 0 3216 3 1             door in library
+S
+
+
+
+#SHOPS
+ 3717    1 15 17 19  0   100  100        0 23   ; Adept of Gravestone
+ 3762    0  0  0  0  0   100  100        0 23   ; waitress
+0
+
+
+
+#SPECIALS
+M  3707 spec_cast_adept
+M  3708 spec_cast_adept
+M  3714 spec_fido
+S
+
+
+
+#$
+

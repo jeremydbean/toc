@@ -1,0 +1,1154 @@
+#HELPS
+
+0 AID~
+Syntax: cast 'aid' <victim name>
+
+This spell is for clerics to bestow on other players in the game.
+It will increase staying power in a fight, and combat efficiency.
+Be forewarned, there is a slight chance of the player suffering
+a system shock once the spell runs out, resulting in coma or
+death.  Let the player know that he should be as healthy as
+possible for when the spell expires.
+
+Minimum level depends on your primary class and is:
+Mage:15  Cleric:13  Thief:18  Warrior:20  Monk: N/A   Necromancer:N/A
+~
+
+0 'ACID BLAST' 'COLOUR SPRAY' 'MAGIC MISSILE' 'SHOCK SPHERE'~
+Syntax: cast 'acid blast'     <victim>
+Syntax: cast 'colour spray'   <victim>
+Syntax: cast 'magic missile'  <victim>
+Syntax: cast 'shock sphere'   <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+Magic Missile will fire more than one missile as you get higher in
+levels.
+
+Acid blast is only usable by mages at level 28 or higher.
+
+Shock sphere is only usable by necromancers at level 15 and higher.
+
+For colour spray, minimum level depends on your primary class and is:
+Mage:16  Cleric:18  Thief:20  Warrior:22   Monk: N/A   Necromancer:N/A
+
+For magic missile, minimum level depends on your primary class and is:
+Mage:1  Cleric:3  Thief:4  Warrior:5  Monk: N/A   Necromancer:N/A
+~
+
+0 'GHOSTLY PRESENCE'~
+Syntax: cast 'ghostly presence'
+
+This spell will temporarily turn you into a ghost.  While as a ghost you cannot be 
+attacked and you can't attack anything.
+
+Ghostly presence is only available to necromancers at level 25 and higher.
+~
+
+0 'ANIMATE PARTS'~
+Syntax: cast 'animate parts' <dismembered part>
+
+This spell allows you to animate a body part that has been dismembered from
+some poor unfortunate soul who happens to have been cut up by one of the
+many wandering adventurers.  The body part that is animated will attack
+who you are fighting, then disappear.  You must be fighting someone for this
+spell to work.
+
+This spell is necro only, minimum level 5.
+~
+
+0 ARMOR SHIELD 'STONE SKIN' SHROUD 'MAJOR GLOBE'~
+Syntax: cast armor <character>
+Syntax: cast shield <character>
+Syntax: cast 'stone skin'
+Syntax: cast shroud
+Syntax: cast 'major globe'
+
+These spells protect the caster by decreasing (improving) the caster's armor
+class.  ARMOR and SHIELD each provide 20 points of armor.  STONE SKIN 
+provides 40 points of armor.  SHROUD provides 35 points of armor.
+
+Major Globe provides 80 points of armor. At some future time, it may carry
+a slightly lower mana cost than armor, shield and stone skin.  It cannot be 
+combined with any of the others, however.  
+
+ARMOR and SHIELD may be cast on other characters besides the spellcaster.
+
+Monks and necromancers are unaffected by stone skin, including stone skin
+potions.
+
+For armor, minimum level depends on your primary class and is:
+Mage:3  Cleric:3  Thief:8  Warrior:7  Monk: N/A   Necromancer:3
+
+For shield, minimum level depends on your primary class and is:
+Mage:20   Cleric:24   Thief:25   Warrior:26   Monk: N/A   Necromancer:23
+
+For stone skin, minimum level depends on your primary class and is:
+Mage:25  Cleric:29   Thief:27   Warrior:30   Monk: N/A   Necromancer:N/A
+
+Shroud is limited to Necromancers, with a minimum level of 26.
+
+For major globe, minimum level depends on your primary class and is:
+Mage:30   Cleric:30   Thief:35   Warrior:40   Monk: N/A   Necromancer:32
+~
+0 BEWITCH~
+Syntax: cast bewitch <item>
+
+This spell will curse a weapon, rendering it non-removable when wielded.
+The bewitch spell's affects can be nullified by the remove curse spell.
+
+Bewitch Weapon is a necromancer only spell and is gainable at level 25.
+~
+
+0 BLESS~
+Syntax: cast bless <character>
+
+This spell improves the to-hit roll and saving throw versus spell of the
+target character by an amount depending on the level of the spell caster. 
+
+Minimum level depends on your primary class and is:
+Mage:9  Cleric:6  Thief:12   Warrior:11   Monk: N/A   Necromancer:N/A
+~
+
+0 BLINDNESS~
+Syntax: cast blindness <victim>
+
+This spell renders the target character blind.
+
+Minimum level depends on your primary class and is:
+Mage:10  Cleric:8  Thief:15  Warrior:13  Monk: N/A   Necromancer:N/A
+~
+
+0 BUTCHER~
+Syntax: cast butcher corpse
+
+This spell will "butcher" a corpse into 5 body parts, for use with
+the animate parts spell.
+
+Butcher is a necromancer only spell, useable at Level 10.
+~
+
+0 CALM~
+Syntax: cast calm
+
+This is a powerful spell, which can be used to stop all fighting in the 
+room.
+
+Minimum level depends on your primary class and is:
+Mage:22  Cleric:20  Thief:28  Warrior:30  Monk: N/A   Necromancer:N/A
+~
+
+0 'CAUSE LIGHT' 'CAUSE SERIOUS' 'CAUSE CRITICAL' HARM~
+Syntax: cast 'cause light'    <victim>
+Syntax: cast 'cause serious'  <victim>
+Syntax: cast 'cause critical' <victim>
+Syntax: cast harm             <victim>
+
+These spells inflict damage on the victim.  The higher-level spells do
+more damage.
+
+For cause light, minimum level depends on your primary class and is:
+Mage:4  Cleric:2  Thief:5  Warrior:3  Monk: N/A   Necromancer:4
+
+For cause serious, minimum level depends on your primary class and is:
+Mage:8  Cleric:8  Thief:11  Warrior:10  Monk: N/A   Necromancer:18
+
+For cause critical, minimum level depends on your primary class and is:
+Mage:18  Cleric:14  Thief:22  Warrior:19  Monk: N/A   Necromancer:N/A
+
+For harm, minimum level depends on your primary class and is:
+Mage:25  Cleric:24  Thief:32  Warrior:28  Monk: N/A   Necromancer:N/A
+~
+
+62 'CHANGE SEX'~
+Syntax: cast 'change sex' <victim>
+
+This spell changes the sex of the victim (temporarily).
+~
+
+0 'CHARM PERSON'~
+Syntax: cast 'charm person' <victim>
+
+This spell, if successful, causes the victim to follow you and to take orders
+from you.  Use ORDER to order your charmed followers.
+
+You are responsible for the actions of your followers.  Conversely, other
+people who attack your followers will be penalized as if they attacked you.
+This spell is considered to be an attack; if it is used on another PC you 
+will gain a killer flag for it.
+
+Minimum level depends on your primary class and is:
+Mage:20  Cleric:22  Thief:24  Warrior:26  Monk: N/A   Necromancer:N/A
+~
+
+0 'COLD SPELLS' 'CHILL TOUCH' 'CONE OF COLD' BLIZZARD ICICLE~
+Syntax: cast 'chill touch' <victim>
+Syntax: cast 'cone of cold'
+Syntax: cast 'blizzard' <victim>
+Syntax: cast 'icicle' <victim>
+
+These spells inflict cold damage on the victim. Cone of cold shoots out a cone
+of frozen air that can strike more than one victim, or none at all, depending
+on if the victim makes his saving throw or not.  Blizzard is an area affect 
+spell that hits all attackable characters in the room.  Icicle is a single 
+attack.
+
+In addition to causing damage, chill touch reduces the strength of the
+victim.
+
+For chill touch, minimum level depends on your primary class and is:
+Mage:4  Cleric:5  Thief:6  Warrior:7  Monk: N/A   Necromancer:9
+
+For cone of cold, minimum level depends on your primary class and is:
+Mage:32  Cleric:33  Thief:N/A  Warrior:N/A  Monk: N/A   Necromancer:35
+
+Blizzard is available only to M/M at level 37 or higher.
+
+For icicle, minimum level depends on your primary class and is:
+Mage:24  Cleric:16  Thief:27  Warrior:27  Monk: N/A   Necromancer:21
+
+~
+
+0 'CONTINUAL LIGHT'~
+Syntax: cast 'continual light'
+
+This spell creates a ball of light, which you can hold as a light source.
+The ball of light will last indefinitely.
+
+Minimum level depends on your primary class and is:
+Mage:5  Cleric:4  Thief:7  Warrior:6  Monk: N/A   Necromancer:N/A
+~
+
+0 'CONTROL WEATHER'~
+Syntax: cast 'control weather' better
+Syntax: cast 'control weather' worse
+
+This spell makes the weather either better or worse.  The change in the 
+weather does not take effect until the next tick.
+
+Minimum level depends on your primary class and is:
+Mage:27  Cleric:28  Thief:32  Warrior:32  Monk: N/A   Necromancer:N/A
+~
+
+0 'CREATE FOOD'~
+Syntax: cast 'create food'
+
+This spell creates a Magic Mushroom, which you or anyone else can eat.
+
+Minimum level depends on your primary class and is:
+Mage:10  Cleric:5  Thief:12  Warrior:11  Monk: N/A   Necromancer:N/A
+~
+
+0 'CREATE SPRING'~
+Syntax: cast 'create spring'
+
+This spell brings forth a magical spring from the ground, which has the
+same properties as a fountain.
+
+Minimum level depends on your primary class and is:
+Mage:16  Cleric:14  Thief:20   Warrior:18  Monk: N/A   Necromancer:N/A
+~
+
+0 'CREATE SKELETON' 'CREATE WRAITH' 'CREATE VAMPIRE'~
+Syntax: cast 'create skeleton' corpse
+Syntax: cast 'create wraith' corpse
+Syntax: cast 'create vampire' corpse
+
+These spells summon forth a spirit to animate an npc corpse, creating a
+magical servant that can assist you in combat.  There is a limited number
+of servants you can create with this spell: 5 skeletons, 2 wraiths,
+1 vampire, or various combinations of the three.  The higher level the spell
+the more power the servant will have.  These spells can only hold the spirit
+on the mortal plane for certain amount of time, at the end of which the
+spirit will return from whence it came.
+
+These spells are for necromancers only.  Minimum levels are:
+create skeleton - 15
+create wraith - 30
+create vampire - 45
+~
+
+0 'CREATE WATER'~
+Syntax: cast 'create water' <drink-container>
+
+This spell replenishes a drink container with water.
+
+Minimum level depends on your primary class and is:
+Mage:8  Cleric:3  Thief:11  Warrior:12  Monk: N/A   Necromancer:N/A
+~
+
+0 'CURE BLINDNESS'~
+Syntax: cast 'cure blindness' <character>
+
+This spell cures blindness in one so unfortunate.
+
+Minimum level depends on your primary class and is:
+Mage:8  Cleric:6  Thief:12  Warrior:10  Monk: N/A   Necromancer:N/A
+~
+
+0 'CURE LIGHT' 'CURE SERIOUS' 'CURE CRITICAL' HEALSPELL 'MASS HEALING'~
+Syntax: cast 'cure light'    <character>
+Syntax: cast 'cure serious'  <character>
+Syntax: cast 'cure critical' <character>
+Syntax: cast 'heal'          <character>
+Syntax: cast 'mass healing'
+
+These spells cure damage on the target character.  The higher-level spells
+heal more damage.  Mass healing heals and refreshes all characters in
+the room.
+
+For cure light, minimum level depends on your primary class and is:
+Mage:2  Cleric:1  Thief:5  Warrior:3  Monk: N/A   Necromancer:N/A
+
+For cure serious, minimum level depends on your primary class and is:
+Mage:8  Cleric:7  Thief:12  Warrior:10  Monk: N/A   Necromancer:N/A
+
+For cure critical, minimum level depends on your primary class and is:
+Mage:14  Cleric:13  Thief:16  Warrior:15  Monk: N/A  Necromancer:N/A
+
+For heal, minimum level depends on your primary class and is:
+Mage:25  Cleric:23   Thief:32   Warrior:30   Monk: N/A   Necromancer:N/A
+
+Mass healing is for C/C only with a minimum level of 38.
+~
+
+0 'CURE DISEASE'~
+Syntax: cast 'cure disease' <character>
+
+This spell will help the player character on his way to recovery if he is, by
+some chance, affected by a dreadful disease.
+
+Minimum level depends on your primary class and is:
+Mage:15  Cleric:13  Thief:18   Warrior:16  Monk: N/A  Necromancer:N/A
+~
+
+0 'CURE NIGHTMARE'~
+Syntax: cast 'cure nightmare' <character>
+
+This spell alleviates the minds of those who are suffering from nightmares,
+letting them sleep peacefully once more.
+
+This spell has a minimum level of 20 and is not available to monks and
+necromancers as they cannot join the clerics' guild and, therefore, cannot
+gain the curative spellgroup.
+~
+
+0 'CURE POISON'~
+Syntax: cast 'cure poison' <character>
+
+This spell cures poison in one so unfortunate as to have been poisoned..
+
+Minimum level depends on your primary class and is:
+Mage:15  Cleric:14  Thief:17  Warrior:16  Monk: N/A   Necromancer:N/A
+~
+
+0 CURSE~
+Syntax: cast 'curse' <character>
+
+This spell reduces the character's to-hit roll and save versus spells.
+It also renders the character unclean in the eyes of Mota and
+unable to RECALL.
+
+Minimum level depends on your primary class and is:
+Mage:21  Cleric:19  Thief:25  Warrior:23  Monk: N/A  Necromancer:N/A
+~
+
+0 'DEMONFIRE'~
+Syntax: cast demonfire <target>
+
+This spell calls the fires of hell to strike down your opponent. This
+spell is very very evil and should be used sparingly.
+
+Minimum level depends on your primary class and is:
+Mage:36   Cleric:34   Thief:39   Warrior:37   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT EVIL'~
+Syntax: cast 'detect evil'
+
+This spell enables the caster to detect evil characters, which will
+reveal a characteristic red aura.
+
+Minimum level depends on your primary class and is:
+Mage:10   Cleric:10  Thief:13   Warrior:13   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT GOOD'~
+Syntax: cast 'detect good'
+
+This spell enables the caster to detect good characters, which will reveal
+a characteristic silver aura.
+
+Minimum level depends on your primary class and is:
+Mage:10  Cleric:10  Thief:13   Warrior:13   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT STEALTH'~
+Syntax: cast 'detect stealth'
+
+This spell enables the caster to detect stealthy creatures.
+
+Minimum level depends on your primary class and is:
+Mage:9  Cleric:9  Thief:14   Warrior:14   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT HIDDEN'~
+Syntax: cast 'detect hidden'
+
+This spell enables the caster to detect hidden creatures.
+
+Minimum level depends on your primary class and is:
+Mage:9  Cleric:9  Thief:14   Warrior:14   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT INVIS'~
+Syntax: cast 'detect invis'
+
+This spell enables the caster to detect invisible objects and characters.
+
+Minimum level depends on your primary class and is:
+Mage:8  Cleric:7  Thief:11   Warrior:11   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT MAGIC'~
+Syntax: cast 'detect magic'
+
+This spell enables the caster to detect magical objects.
+
+Minimum level depends on your primary class and is:
+Mage:2  Cleric:2  Thief:5  Warrior:5  Monk: N/A   Necromancer:62
+~
+
+0 'DETECT POISON'~
+Syntax: cast 'detect poison' <object>
+
+This spell detects the presence of poison in food or drink.
+
+Minimum level depends on your primary class and is:
+Mage:12   Cleric:7   Thief:9   Warrior:15   Monk: N/A   Necromancer:N/A
+~
+
+0 'DETECT TRAPS'~
+This spell will reveal any traps that might be in the room, whether they are
+on an object or on a door.
+
+This spell is available only to mages and clerics.  Minimum level is 11.
+~
+
+0 'DISPEL EVIL'~
+Syntax: cast 'dispel evil' <victim>
+
+This spell invokes the wrath of Mota on an evil victim.
+
+Minimum level depends on your primary class and is:
+Mage:23   Cleric:23   Thief:29   Warrior:29   Monk: N/A   Necromancer:N/A
+~
+
+0 'DISPEL GOOD'~
+Syntax: cast 'dispel good' <victim>
+
+This spell invokes the wrath of the demons from hell on a victim.
+
+Minimum level depends on your primary class and is:
+Mage:23   Cleric:23   Thief:29   Warrior:29   Monk: N/A   Necromancer:
+~
+
+0 'DISPEL MAGIC' CANCELLATION 'NEUTRALITY FIELD'~
+Syntax: cast 'dispel magic' <character>
+        cast 'cancellation' <character>
+        cast 'neutrality field'
+ 
+All of these spells remove magical effects from the target.  Dispel magic
+has a reduced chance of working and is considering an attack spell.  Neutrality
+field works the same way as dispel magic, except that it affects everything in
+the room instead of a specific target. Cancellation can only be used on allies, but 
+is much more effective and does not provoke attack.  Unfortunately, the spells do 
+not discriminate between harmful and benign spells.
+ 
+The chance of dispelling is based on the level of the spell. Permanent spells
+(such as mobile sanctuary) are much harder to remove.  Not all spells may
+be dispelled, Notable examples are poison and plague.
+
+In order to cast cancellation on a character, they must have NOSUMMON off.
+
+For dispel magic, minimum level depends on your primary class and is:
+Mage:16  Cleric:18  Thief:20  Warrior:22  Monk: N/A   Necromancer:N/A
+
+For cancellation, minimum level depends on your primary class and is:
+Mage:18  Cleric:16  Thief:22  Warrior:20  Monk: N/A   Necromancer:N/A
+
+Neutrality field is only available to Necromancer at level 40 and higher.
+~
+
+0 EARTHQUAKE~
+Syntax: cast 'earthquake'
+
+This spell inflicts damage on every enemy character in the room.
+Be aware that other characters who are not yet fighting may attack
+you as a result!
+
+Minimum level depends on your primary class and is:
+Mage:14   Cleric:14   Thief:17   Warrior:17   Monk: N/A   Necromancer:N/A
+~
+
+0 'ELECTRIC SPELLS' 'SHOCKING GRASP' 'LIGHTNING BOLT' 'CHAIN LIGHTNING'
+'CALL LIGHTNING'~
+Syntax: cast 'shocking grasp' <victim>
+Syntax: cast 'lightning bolt' <victim>
+Syntax: cast 'chain lightning' <victim>
+Syntax: cast 'call lightning' 
+
+These spells inflict electrical damage on the victim.  The higher-level
+spells do more damage.
+
+Chain lightning is a dangerous area attack spell causes lightning bolts to
+appear and jump from victim to victim in the room. <victim> is the first
+one struck by a bolt.  The caster may also be struck by the lightning bolts.
+
+Call lightning  works only out of doors, and only when the weather is bad.
+It calls down lightning bolts from Mota.
+
+For shocking grasp, minimum level depends on your primary class and is:
+Mage:10   Cleric:12   Thief:13   Warrior:14   Monk: N/A   Necromancer:N/A
+
+For lightning bolt, minimum level depends on your primary class and is:
+Mage:17   Cleric:19   Thief:21   Warrior:21   Monk: N/A   Necromancer:N/A
+
+Chain lightning is only usable by mages of level 38 and above.
+
+For call lightning, minimum level depends on your primary class and is:
+Mage:26  Cleric:26  Thief:30  Warrior:30   Monk: N/A   Necromancer:N/A
+~
+
+0 EMBALM~
+Syntax: cast 'embalm' <corpse or body part>
+
+This spell allows you to increase the amount of time a given corpse or body
+part will stay in existence before decaying. You can only increase the time
+to a certain extent, at which time the spell will fail.
+
+Embalm is for necromancers only, with a minimum level of 7.
+~
+
+0 'ENCHANT ARMOR'~
+The enchant armor spell imbues armor with powerful protective magics. It is
+not nearly as reliable as enchant weapon, being far more prone to destructive
+effects.  Each successful enchant increases the plus of the armor by 1 or 2
+points, and raises its level by one.
+
+Enchant armor is for M/M only and minimum level is 16.
+~
+
+0 'ENCHANT WEAPON'~
+Syntax: cast 'enchant weapon' <weapon>
+
+This spell magically enchants a weapon, increasing its to-hit and to-dam
+bonuses by one or two points.  Multiple enchants may be cast, but as the
+weapon grows more and more powerful, it is more likely to be drained or
+destroyed by the magic.  Also, every successful enchant increases the level
+of the weapon by one ... and there is no turning back.
+
+Enchant weapon is for M/M only and minimum level is 18.
+~
+
+0 'ENERGY DRAIN' 'VAMPIRIC TOUCH'~
+Syntax: cast 'energy drain' <victim>
+Syntax: cast 'vampiric touch' <victim>
+
+Energy drain saps the experience points, mana, and movement points of its
+target.  This is a very evil spell and should be used sparingly.
+
+Vampiric touch drains the life force of your victim, transferring some of
+the power back to you.
+
+For energy drain, minimum level depends on your primary class and is:
+Mage:35 Cleric:36   Thief:40   Warrior:40   Monk: N/A   Necromancer:28
+
+Vampiric touch is limited to necromancers, with a minimum level of 15.
+~
+
+0 'EVIL EYE'~
+Syntax: cast 'evil eye' <victim>
+
+This spell makes the caster's gaze a deadly weapon. While not inherently
+evil, it has become known as such because of the damage that is inflicted.
+
+Evil eye is for necromancers only and has a minimum level of 19.
+~
+
+0 'FAERIE FIRE'~
+Syntax: cast 'faerie fire' <victim>
+
+This spell increases (makes worse) the armor class of its victim.  The base
+start of a faerie fire spell will be 10 points reduction in AC. For each
+2 levels of the caster, this will be increased by one point.
+
+Minimum level depends on your primary class and is:
+Mage:5  Cleric:6  Thief:8  Warrior:8  Monk: N/A   Necromancer:N/A
+~
+
+0 'FAERIE FOG'~
+Syntax: cast 'faerie fog'
+
+This spell reveals all manner of invisible, hidden, and sneaking creatures in
+the same room as you.
+
+Minimum level depends on your primary class and is:
+Mage:14   Cleric:16   Thief:20   Warrior:18  Monk: N/A   Necromancer:N/A
+~
+
+0 'FIRE SPELLS' 'BURNING HANDS' 'FIREBALL' 'METEOR SWARM' 'FLAMESTRIKE'~
+Syntax: cast 'burning hands'  <victim>
+Syntax: cast 'fireball'       <victim>
+Syntax: cast 'meteor swarm'
+Syntax: cast 'flamestrike' <victim>
+
+These spells inflict fire damage on the victim.  The higher-level spells do
+more damage.
+
+Meteor swarm fires 4 balls of fire.  How they strike the opponents depends
+on several factors that need not be explained.  Several balls of fire can
+strike one opponent.
+
+For burning hands, minimum level depends on your primary class and is:
+Mage:7  Cleric:8  Thief:9  Warrior:10  Monk: N/A   Necromancer:N/A
+
+For fireball, minimum level depends on your primary class and is:
+Mage:22  Cleric:26  Thief:28  Warrior:30   Monk: N/A   Necromancer:N/A
+
+Meteor swarm is limited to M/M and has a minimum level of 46.
+
+For flamestrike, minimum level depends on your primary class and is:
+Mage:23  Cleric:20  Thief:27  Warrior:25   Monk: N/A   Necromancer:N/A
+~
+
+0 FIRESHIELD FROSTSHIELD 'DEATHSHROUD'~
+Syntax: cast 'fire shield'
+Syntax: cast 'frost shield'
+Syntax: cast 'death shroud'
+
+These spell cause damage to be inflicted on anyone who attacks you
+while the spell is in effect.  For fire shield, if the person attacking you 
+uses an attack of a hot nature, however, the damage inflicted on you will be 
+increased.  Similarly, if you are surrounded by a frost shield and are
+attacked by a spell of a cold nature, you will suffer greater damage.
+
+Death shroud is similar to the fireshield spells, except you can not control
+which one is cast.  Sometimes the flames will be hot, sometimes they will
+be cold.
+
+Fire and frost shield are for M/M only with a minimum level of 19.
+
+Death shroud is for necromancers only and has a minimum level of 22.
+~
+
+0 FLY~
+Syntax: cast 'fly' <character>
+
+This spell enables the target character to fly.
+
+Minimum level depends on your primary class and is:
+Mage:10  Cleric:11  Thief:12   Warrior:13   Monk: N/A   Necromancer:13
+~
+
+0 'FORCE SWORD'~
+Syntax: cast 'force sword'
+
+This spell creates a magical sword next to the caster that will attack each
+round the caster does.  A character protected by this spell will show up
+as being (Guarded).
+
+This spell is for full mages (M/M) with a minimum level of 32 and for
+necromancers with a minimum level of 34.
+~
+
+0 FRENZY~
+Syntax: cast frenzy <character>
+
+This spell fills the target character with holy wrath, increasing their
+hitroll and damage.  It also increases (makes worse) their armor class.
+
+Minimum level depends on your primary class and is:
+Mage:N/A  Cleric:27   Thief:N/A   Warrior:N/A   Monk: N/A   Necromancer:N/A
+~
+
+0 GATE 'EARTH TRAVEL'~
+Syntax: cast gate <character>
+Syntax: cast 'earth travel' <character>
+
+This spell transports the caster to the target character.
+If the target character is a pc, he or she must have nosummon off.
+
+For gate, minimum level depends on your primary class and is:
+Mage:20   Cleric:19   Thief:22   Warrior:23   Monk: N/A   Necromancer:N/A
+
+Earth travel is for necromancers only, with a minimum level of 25.
+~
+
+0 'GIANT STRENGTH'~
+Syntax: cast 'giant strength' <character>
+
+This spell increases the strength of the target character.
+
+Minimum level depends on your primary class and is:
+Mage:11   Cleric:13   Thief:14   Warrior:15   Monk: N/A   Necromancer:N/A
+~
+
+0 HASTE~
+Syntax: cast haste <character>
+
+This spell causes the target character to move more quickly.  However, it
+also slows healing and mana regeneration.
+
+Minimum level depends on your primary class and is:
+Mage:21  Cleric:25  Thief:27  Warrior:29  Monk: N/A   Necromancer:N/A
+~ 
+
+0 'DIVINE INTERVENTION'~
+Syntax: cast 'divine intervention'
+
+This spell will restore all of the caster's hit points if successful.  The 
+catch is that it also takes all of your mana.  The more mana you have the
+greater chance of the spell being successful.
+
+This spell is only available to C/C at level 43 and higher.
+~
+
+0 HAVEN 'ROPE TRICK'~
+Syntax: cast 'rope trick'
+Syntax: cast haven
+
+This creates a room inside its own dimension, which is not connected to the
+normal playing sections of the game.  This, in effect, creates a safe haven
+for you and your party to rest in until the spell expires.  Spell durations
+vary each time it is cast.
+Haven will take your whole group into the pocket, while rope trick is for
+the caster only. Haven, being a more powerful spell, can sustain the pocket
+dimension for a longer period of time as well.
+
+Rope trick is limited to M/M (minimum level 31), C/C (minimum level 31) and
+Necromancer (minimum level 33).
+
+Haven is only available for M/M and C/C with a minimum level of 44.
+~
+
+0 'HEAT METAL'~
+Syntax: cast 'heat metal' <victim>
+
+This spell will cause armor and weapons carried by the victim to heat
+up. This will naturally burn the victim, and if the victim is unable
+to remove the object, it will burn that much more.
+
+Heat metal is only for M/M at level 17 or up and C/C at level 19 and up.
+~
+
+0 'HOLY WORD'~
+Syntax: cast 'holy word'
+
+This spell calls down the divine wrath of Mota upon the brows of your
+enemies. The divine power is used to cause great harm upon those evil
+creatures who you see fit to punish. This is one of the most powerful
+of the clerical spells.
+
+Minimum level depends on your primary class and is:
+Mage:35   Cleric:32   Thief:37   Warrior:39   Monk: N/A   Necromancer:N/A
+~
+
+0 IDENTIFY~
+Syntax: cast identify <object>
+
+This spell reveals information about the object.
+
+Minimum level depends on your primary class and is:
+Mage:15  Cleric:16   Thief:18   Warrior:20   Monk: N/A   Necromancer:N/A
+~
+
+0 INFRAVISION~
+Syntax: cast infravision <character>
+
+This spell enables the target character to see in the dark.
+
+Minimum level depends on your primary class and is:
+Mage:8  Cleric:10   Thief:13   Warrior:16   Monk: N/A   Necromancer:9
+~
+
+0 INVIS 'MASS INVIS'~
+Syntax: cast invis <character>
+Syntax: cast 'mass invis'
+
+The INVIS spell makes the target character invisible.  Invisible characters
+will become visible when they attack.
+
+The MASS INVIS spell makes all characters in the caster's group invisible,
+including the caster.
+
+For invis, minimum level depends on your primary class and is:
+Mage:5   Cleric:7  Thief:9  Warrior:11   Monk: N/A   Necromancer:N/A
+
+Mass invis is for M/M only, with a minimum level of 22.
+~
+
+0 'KNOW ALIGNMENT'~
+Syntax: cast 'know alignment' <character>
+
+This spell reveals the alignment of the target character.
+
+Minimum level depends on your primary class and is:
+Mage:12  Cleric:9  Thief:20   Warrior:15   Monk: N/A   Necromancer:N/A
+~
+
+0 'LIGHT SPELLS' 'MOONBEAM' 'SUNRAY'~
+Light spells:
+Syntax: cast 'moonbeam' <victim>
+Syntax: cast 'sunray'  <victim>
+
+These spells cause 'light' damage to the victim.  They can only be cast at
+the time of day that corresponds to the name of the spell. They work by
+gathering the available light type, and focusing it into a concentrated
+beam that strikes the victim.
+
+MOONBEAM is only for necromancers with a minimum level of 27.
+
+For SUNRAY, minimum level depends on your primary class and is:
+Mage:31   Cleric:31   Thief:46   Warrior:49   Monk: N/A   Necromancer:N/A
+~
+
+0 'LOCATE OBJECT'~
+Syntax: cast 'locate object' <name>
+
+This spell reveals the location of all objects with the given name.
+
+Minimum level depends on your primary class and is:
+Mage:9  Cleric:13  Thief:15   Warrior:18   Monk: N/A   Necromancer:N/A
+~
+
+0 'MANA CONVERT'~
+Syntax: cast 'mana convert'
+
+This spell converts the physical energy of the caster into magical 
+energy.  It reduces your combat effectiveness, but allows you to 
+cast more spells.
+
+Minimum level depends on your primary class and is:
+Mage:13   Cleric:12   Thief:16   Warrior:16   Monk: N/A   Necromancer:14
+~
+
+0 MAZE~
+Syntax: cast maze <victim>
+
+This spell will cause the victim to be effectively lost.  For example, one
+so affected might try to move north, but end up moving in some other
+direction, if other exits are present.
+
+This spell is available to M/M and C/C with a minimum level of 38.
+~
+
+0 'PASS DOOR'~
+Syntax: cast 'pass door'
+
+This spell enables the caster to pass through closed doors.
+
+Minimum level depends on your primary class and is:
+Mage:24   Cleric:22   Thief:28   Warrior:26   Monk: N/A   Necromancer:24
+~
+
+0 PLAGUE~
+Syntax: cast plague <victim>
+
+This spell causes the victim to suffer horribly with disease.  The 
+victim feels weak, breaks out in boils and will eventually die if not healed.
+The plague is highly contagious.
+
+Minimum level depends on your primary class and is:
+Mage:23   Cleric:17   Thief:29   Warrior:26   Monk: N/A   Necromancer:N/A
+~
+
+0 POISON~
+Syntax: cast poison <victim>
+
+This spell reduces the strength of the victim by two, as well as reducing the
+victim's regeneration rate.
+
+Minimum level depends on your primary class and is:
+Mage:17   Cleric:12   Thief:13  Warrior:21   Monk: N/A   Necromancer:N/A
+~
+
+0 'PROTECTION EVIL' SANCTUARY 'MASS SANCTUARY'~
+Syntax: cast 'protection evil'
+Syntax: cast sanctuary  <character>
+Syntax: cast mass sanctuary
+
+The PROTECTION EVIL spell reduces the damage taken from any attack by an evil
+creature by one quarter.
+
+The SANCTUARY spell reduces the damage taken by the character from any attack
+by one half.
+
+The MASS SANCTUARY spell is the same as the SANCTUARY spell, except that
+it affects all characters in the casters group.
+
+These spells may be used simultaneously for cumulative effect.
+
+For protection evil, minimum level depends on your primary class and is:
+Mage:11   Cleric:9  Thief:13   Warrior:12   Monk: N/A   Necromancer:N/A
+
+For sanctuary, minimum level depends on your primary class and is:
+Mage:33   Cleric:21   Thief:45   Warrior:40   Monk: N/A   Necromancer:37
+
+Mass sanctuary is for C/C only with a minimum level of 35.
+~
+
+0 'PORTAL'~
+Syntax: cast portal <character>
+Syntax: look in <portal name>
+Syntax: enter <portal name>
+
+Portals are gateways to another place.  To create a portal, use 'cast
+portal <target character>'.  This spell allows transport of multiple 
+characters, depending on the level of the caster, and is used primarily 
+to transport groups.  The portal will disappear after some time or when
+a set number of people have entered it based on the level of the caster.
+
+To see what is on the other side of a portal, look in <portal name>.  
+To use a portal to go to this other place, enter <portal name>.  Most 
+portals (including those created using the spell) are called just 'portal', 
+but there may be portals of other names in certain rooms.. 
+
+Portal is limited to M/M (minimum level 29) and C/C (minimum level 30).
+~
+
+0 'POWER GLOVES'~
+Syntax: cast 'power gloves'
+
+This spell creates an aura of power around the mage's hands, which
+also is transferred to a weapon if one is wielded.  This aura will
+increase the damage the mage does to foes.
+
+The power gloves spell is limited to M/M with a minimum level of 25.
+~
+
+0 'RAISE DEAD'~
+Syntax: cast 'raise dead' corpse
+
+This spell will bring back to life a player who has had the misfortune of
+dying.  There is a random chance that the resurrected player may lose none,
+some, or most of their eq, so they should be made aware of the risk involved
+in being resurrected.  The spell will fail if the player has nosummon on.
+
+Only C/C of level 31 or higher and necromancers of level 29 or higher can 
+raise the dead.
+~
+
+0 REFRESH~
+Syntax: cast refresh <character>
+
+This spell refreshes the movement points of a character. 
+
+Minimum level depends on your primary class and is:
+Mage:6  Cleric:4  Thief:8  Warrior:7  Monk: N/A   Necromancer:N/A
+~
+62 'REMOVE ALIGN'~
+Syntax: cast 'remove align' <object>
+
+If you are lucky, this removes alignment restrictions on an object.  If you
+are unlucky, you may blow the object up.
+~
+0 'REMOVE CURSE'~
+Syntax: cast 'remove curse' <character>
+
+This spell removes a curse from a character.  If the character is holding a
+cursed object, the curse may be removed from it.
+
+Minimum level depends on your primary class and is:
+Mage:20   Cleric:18   Thief:24   Warrior:22   Monk: N/A   Necromancer:20
+~
+
+62 'RESTORE MANA'~
+Syntax: c 'restore mana'
+
+This spell restores the mana of the spellcaster.
+~
+
+0 'SKELETAL HANDS'~
+Syntax: cast 'skeletal hands' <victim>
+
+This spell causes the dead to awake from their sleep, reaching up from where
+they were buried to claw at the victim.
+
+Only Necromancers may use skeletal hands, at a minimum level of 13.
+~
+
+0 SLEEPSPELL~
+Syntax: cast sleep <victim>
+
+This spell puts its victim to sleep.
+
+For help on the sleep command, see REST.
+
+Minimum level depends on your primary class and is:
+Mage:12   Cleric:11   Thief:12   Warrior:14   Monk: N/A   Necromancer:N/A
+~
+
+0 SLOW~
+Syntax: cast 'slow' <victim>
+
+This spell will slow down the targeted victim.
+
+Minimum level depends on your primary class and is:
+Mage:21   Cleric:29   Thief:26   Warrior:29   Monk: N/A   Necromancer:N/A
+~
+
+0 'SPIRITUAL HAMMER'~
+Syntax: cast 'spiritual hammer' <victim>
+
+This spell requires that the user have in his or her possession a weapon that
+does damage similar to that of a hammer.  Once cast, the weapon is used
+up by the spell, and a hammer with mystical properties will be thrown at
+the victim.
+
+Minimum level depends on your primary class and is:
+Mage:21   Cleric:15   Thief:26   Warrior:29   Monk: N/A   Necromancer:N/A
+~
+
+62 'STINKING CLOUD'~
+
+This is a placeholder for help on stinking cloud.
+~
+
+0 SUMMON~
+Syntax: cast summon <character>
+
+This spell creates a gateway that works similarly to a portal except it 
+uses up all its magic when a single PC enters it.
+
+Minimum level depends on your primary class and is:
+Mage:24   Cleric:12   Thief:29   Warrior:26   Monk: N/A   Necromancer:N/A
+~
+
+0 TELEPORT~
+Syntax: cast <teleport>
+
+This spell takes you from your current location to a random location 
+somewhere in the world. This can be a risky thing to do, since it's
+a dangerous world.  Note that you can teleport only yourself, not mobs
+or other players.
+
+Minimum level depends on your primary class and is:
+Mage:13  Cleric:22   Thief:25   Warrior:36   Monk: N/A   Necromancer:N/A
+~
+
+0 TENTACLES~
+Syntax: cast tentacles
+
+This spell calls on the powers of the earth to create massive tentacles out
+of the ground itself, striking at all attackable characters in the room.
+
+Only necromancers can use tentacles, at a minimum level of 42.
+~
+
+0 'TRAP THE SOUL'~
+Syntax: cast 'trap the soul' <victim>
+
+This spell requires a material component, a soul container.  If one is in
+your possession, you can cast the spell, and it will suck your victim into
+the container. NPC's stuck in these containers will remain in them until
+you open the container.  PC's cannot be affected at this time.
+
+Only necromancers who have attained hero level may use this spell.
+~
+
+0 VENTRILOQUATE~
+Syntax: cast ventriloquate <speaker> <message>
+
+This spell throws your voice, making it appear that some other object or
+character in the room is saying your message.  Victims who make their saving
+throw will know that someone is using ventriloquism, but not who.  Victims who
+fail their saving throw will think that the object or character really did say
+your message.
+
+This spell is currently not available to players.
+~
+
+62 WATERFALL~
+Syntax: cast waterfall
+
+This spell is currently inactive.
+~
+
+0 'WATER SPELLS' 'WATER BURST' 'GEYSER'~
+
+Syntax: cast 'water burst' <victim>
+Syntax: cast 'geyser' <victim>
+
+Each of these spells inflicts water damage on the victim.  A material
+component is required to cast either of them - namely, water from a 
+container.  Geyser requires more water than 'water burst', as it is a more 
+powerful spell.  The amount of liquid needed will be extracted from the 
+container to fuel the spell.
+
+For water burst, minimum level depends on your primary class and is:
+Mage:19  Cleric:19  Thief:24  Warrior:24  Monk: N/A   Necromancer:N/A
+
+Geyser is only available to M/M and C/C, with a minimum level of 43.
+~
+
+0 WEAKEN~
+Syntax: cast weaken <victim>
+
+This spell reduces the strength of the victim by an amount that depends on 
+the level of the spellcaster.
+
+Minimum level depends on your primary class and is:
+
+Mage:11   Cleric:14   Thief:16   Warrior:17   Monk: N/A   Necromancer:N/A
+~
+
+0 'WIND SPELLS' 'DUST DEVIL' 'VORTEX'~
+Syntax: cast 'dust devil' <victim>
+Syntax: cast 'vortex' <victim>
+
+These spells inflict wind damage on the victim.  Vortex does more damage than
+dust devil.
+
+For dust devil, minimum level depends on your primary class and is:
+Mage:15   Cleric:17   Thief:21   Warrior:21   Monk: N/A   Necromancer:19
+
+For vortex, minimum level depends on your primary class and is:
+Mage:40   Cleric:42   Thief:48   Warrior:48   Monk: N/A   Necromancer:44
+~
+
+0 'WORD OF RECALL'~
+Syntax: cast 'word of recall'
+
+This spell duplicates the built-in RECALL ability.  It is available to 
+full clerics (C/C) of level 28 or higher, but is not generally considered 
+useful since the recall skill is free and costs no mana. 
+
+~
+
+0 'DRACONIAN SPELLS' 'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH' 
+'LIGHTNING BREATH'~
+Syntax: cast 'acid breath'      <victim>
+Syntax: cast 'fire breath'      <victim>
+Syntax: cast 'frost breath'     <victim>
+Syntax: cast 'gas breath'
+Syntax: cast 'lightning breath' <victim>
+
+These spells are for the use of dragons.  Acid, fire, frost, and lightning
+damage one victim, whereas gas damages every PC in the room.  Fire and
+frost can break objects, and acid can damage armor.
+
+High level mages may learn and cast these spells as well.
+
+These spells are limited to full mages (M/M) with minimum levels:
+acid breath - 42
+fire breath - 39
+frost breath - 34
+gas breath - 44
+lightning breath - 36
+~
+
+0 $~
+#$
+
+

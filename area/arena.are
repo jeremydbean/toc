@@ -1,0 +1,519 @@
+#AREA   { 1 51} Klute   Arena of ole Midgaard ~
+
+#HELPS
+-1 arena pkilling pstealing flag~
+The arena was designed so any player may duel with any other player and not 
+aquire a killer or traitor flag.  The entire arena (with the exception of one 
+no-kill room) is fair game, no rules, anything goes.  So remember this before
+you enter.
+
+PKILLING
+This is the act of one player attacking another player.  This is only allowed
+for those who are members of a castle.  And they will also recieve a KILLER
+or TRAITOR flag.  This flag will be with them till the die.  A TRAITOR flag is
+given to those who attack players in thier own CASTLE.
+
+PSTEALING
+This is the act of a player thief stealing items or coins off of another
+player.  Any thief caught in this act is given a THIEF flag.  This is only
+allowed among plyers who join a CASTLE.
+
+FLAGS
+If you have a KILLER, TRAITOR, or THIEF flag many of the guards of the
+different cities will attack you on sight, as well as Sarmini.  Shops will not
+sell to you either.  Soon there will be a place where killers and thieves can
+buy/sell stuff.
+~
+
+0 $~
+
+#OBJECTS
+#2600
+pool stone water~
+a stone pool~
+A shallow stone pool is here. It has a few inches of water on its bottom.
+~
+stone~
+25 0 0
+50 50 0 0 0
+0 500 3000 G
+E
+stone pool~
+Though the condition of the pool doesn't look all that good, the water
+remaining in the pool seems to be clear and free of debris.
+~
+#0
+
+#ROOMS
+#2601
+The Tunnel to the Arena.~
+You have entered a large, dark, murky tunnel.  Torches line the walls.  From
+their light, you see the stones in the walls are slick, dripping, and dirty.
+The ceiling is about 10 feet at its highest point.  You see rat tracks in the
+dirt floor.  The tunnel continues to the east.
+~
+26 12 0
+D1
+Center of the Tunnel.
+~
+~
+0 -1 2602
+D3
+A dark alleyway.
+~
+~
+0 -1 2627
+S
+#2602
+Center of the Tunnel.~
+You are right in the middle of the tunnel.  The ends are just visible to the
+west and east.  The air is cool and clammy here.  You feel suddenly very
+claustrophobic.  When you look down you notice you are standing on a very
+large iron grate.
+~
+26 12 0
+D1
+Entrance to the Arena.
+~
+~
+0 -1 2604
+D3
+The Tunnel to the Arena.
+~
+~
+0 -1 2601
+D5
+A Rusting Iron Grate.
+~
+secret grate iron down~
+1 -1 2603
+E
+grate iron~
+The rusting iron grate still looks safe enough to walk on.  Its lock has long
+since rusted off.  It looks like it may have been opened recently . . .
+~
+S
+#2603
+A Small Storage Room.~
+Ancient, rickety wooden stairs descend into what looks like it used to be a
+simple storage room. Now, it looks like some carnivorous creature has
+discovered it and has made it its home.  The walls are of the same crude stone
+as the tunnel, and equally slick and dirty.  There is a crude bed in one
+corner.  In another corner, signs of a recent meal:  fur matted to crushed
+bones by tacky, drying blood.
+~
+26 9 0
+D4
+A rusty iron grate.
+~
+grate iron~
+1 -1 2602
+S
+#2604
+Entrance to the Arena.~
+Here the tunnel ends, leading into the arena to the east.  The wind makes an
+eerie sound, like the souls of the fallen gladiators are trying to warn you
+away.  There is an inscription on the wall.
+~
+26 12 0
+D1
+The Arena.
+~
+gates~
+1 -1 2605
+D3
+The Center of the Tunnel.
+~
+~
+0 -1 2602
+E
+inscritption wall~
+
+                "Abandon Hope All Ye Who Enter Here"
+~
+E
+sign wooden~
+. 
+                     ____________________________
+                    |                            |
+                    |  Welcome to the grand      |
+                    |  ole Arena where anyone    |
+                    |  can fight anyone without  |
+                    |  fear of retribution by    |
+                    |  the city.  The Mayor.     |
+                    |                            |
+                    |  Created by Klute. 8/4/94  |
+                    |____________________________|
+                                |   |
+                                |   |
+                                |   |
+                                |   |
+                                |   |
+                                |   |
+                    _____\|/____|___|_____________
+~
+S
+#2605
+West end of the Arena.~
+This is the west end of a once-proud arena.  In its days it hosted kings and
+dignitaries.  Brave knights and gladiators battled to the death, slaves and
+prisoners were brutally slayed.  Of late, however, it has fallen into disuse.
+The grass is overgrown and choked by weeds.  The stands are crumbling.  Now it
+is mostly used for settling private feuds.
+~
+26 V 1
+D0
+Northwest Corner of the Arena.
+~
+~
+0 -1 2606
+D1
+Center of the Arena.
+~
+~
+0 -1 2609
+D2
+Southwest Corner of the Arena.
+~
+~
+0 -1 2611
+D3
+Entrance to the Arena.
+~
+gates~
+1 -1 2604
+S
+#2606
+Northwest Corner of the Arena.~
+This is the northwest corner of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D1
+North End of the Arena.
+~
+~
+0 -1 2607
+D2
+West End of the Arena.
+~
+~
+0 -1 2605
+S
+#2607
+North End of the Arena.~
+This is the north end of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D0
+The Mayor's Box.
+~
+door~
+0 -1 2614
+D1
+Northeast Corner of the Arena.
+~
+~
+0 -1 2608
+D2
+The Center of the Arena.
+~
+~
+0 -1 2609
+D3
+Northwest Corner of the Arena.
+~
+~
+0 -1 2606
+S
+#2608
+Northeast Corner of the Arena.~
+This is the northeast corner of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D1
+Debris fills this tunnel.
+~
+~
+0 -1 -1
+D2
+East End of the Arena.
+~
+~
+0 -1 2610
+D3
+North End of the Arena.
+~
+~
+0 -1 2607
+S
+#2609
+Center of the Arena.~
+This is the center of a once-proud arena.  In its days it hosted kings and
+dignitaries.  Brave knights and gladiators battled to the death, slaves and
+prisoners were brutally slayed.  Of late, however, it has fallen into disuse.
+The grass is overgrown and choked by weeds.  The stands are crumbling.  Now it
+is mostly used for settling private feuds.  There is a fountain with a few
+inches of water on the bottom.  It looks safe enought to drink, if barely.
+~
+26 V 1
+D0
+North End of the Arena.
+~
+~
+0 -1 2607
+D1
+East End of the Arena.
+~
+~
+0 -1 2610
+D2
+South End of the Arena.
+~
+~
+0 -1 2612
+D3
+West End of the Arena.
+~
+gates~
+0 -1 2605
+S
+#2610
+East End of the Arena.~
+This is the east end of a once-proud arena.  In its days it hosted kings and
+dignitaries.  Brave knights and gladiators battled to the death, slaves and
+prisoners were brutally slayed.  Of late, however, it has fallen into disuse.
+The grass is overgrown and choked by weeds.  The stands are crumbling.  Now it
+is mostly used for settling private feuds.
+~
+26 V 1
+D0
+~
+~
+0 -1 2608
+D1
+A Chapel.
+~
+~
+0 -1 2624
+D2
+Southeast Corner of the Arena.
+~
+~
+0 -1 2613
+D3
+The Center of the Arena.
+~
+gates~
+0 -1 2609
+S
+#2611
+Southwest Corner of the Arena.~
+This is the southwest corner of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D0
+West End of the Arena.
+~
+~
+0 -1 2605
+D1
+South End of the Arena.
+~
+~
+0 -1 2612
+S
+#2612
+South End of the Arena.~
+This is the south end of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D0
+Center of the Arena.
+~
+~
+0 -1 2609
+D1
+Southwest Corner of the Arena.
+~
+~
+0 -1 2613
+D2
+A dark room.
+~
+~
+0 -1 2626
+D3
+Southwest Corner of the Arena.
+~
+~
+0 -1 2611
+S
+#2613
+Southeast Corner of the Arena.~
+This is the southeast corner of a once-proud arena.  In its days it hosted
+kings and dignitaries.  Brave knights and gladiators battled to the death,
+slaves and prisoners were brutally slayed.  Of late, however, it has fallen
+into disuse.  The grass is overgrown and choked by weeds.  The stands are
+crumbling.  Now it is mostly used for settling private feuds.
+~
+26 V 1
+D0
+East End of the Arena.
+~
+~
+0 -1 2610
+D1
+Debris fill this tunnel.
+~
+~
+0 -1 -1
+D3
+South End of the Arena.
+~
+~
+0 -1 2612
+S
+#2614
+The Mayor's Box.~
+This area was a special raised seating for the mayor.  From this vantage
+point, you can see the full expanse of the arena and imagine its forgotten
+glory.  Hanging from the rotting wooden roof is a tattered, faded banner
+bearing the crest and colors of the fallen city of Midgaard.
+~
+26 CV 0
+D2
+The North End of the Arena.
+~
+~
+0 -1 2607
+D5
+Darkness.
+~
+secret grate iron down~
+0 -1 2615
+E
+grate iron~
+The rusting iron grate still looks safe enough to walk on.  Its lock has long
+since rusted off.  It looks like it may have been opened recently . . .
+~
+S
+#2615
+The Mayors's Hidden Chamber.~
+As you jump down into the small, private, now empty room, the floorboards above
+you slide shut and you hear a click!  You're locked in!  The mayor had this
+room designed to lock automatically in case of an assasination attempt.  The
+key was buried with him in the mass grave west of Midgaard after the war.
+~
+26 9 0
+S
+#2624
+A Small Chapel.~
+You have entered what is left of a small, dignified chapel.  The walls are of
+the same crude stone as the tunnel, but they are dry and clean.  There are
+mosaics depicting the gods of Midgaard -- Sting, Klute, Zon, and others -- and
+their achievements.  Two rows of small pews are separated by a narrow aisle.
+At the east end there is a simple altar, and there is a small window in the
+east wall.  You are overwhelmed by a sense of inner peace and well-being.
+~
+26 CJKNTU 0
+D3
+The Arena.
+~
+~
+0 -1 2610
+S
+#2626
+A Darkened Room.~
+You have entered a small, perfectly square, dark room with a low ceiling.  The
+walls are the same crude stone as in the tunnel.  The only light comes through
+the door and through a tiny window on the south wall.  The ceiling has thick
+oak beams.  The floor is sand and is stained with blood.  You feel this room
+has a strange, ethereal power.
+~
+26 ACNTUV 0
+D0
+The Arena.
+~
+~
+0 -1 2612
+S
+#2627
+A Dark Alleyway.~
+The alleyway ends here at a tall wall made of rough stone. To the east is a
+pair of broken gates that once blocked a tunnel that makes its way eastward.
+There is a broken sign lying in the dirt.
+~
+26 1 1
+D1
+A long tunnel.
+~
+~
+0 -1 2601
+D2
+A Dark Alleyway.
+~
+~
+0 -1 2628
+E
+sign broken wooden~
+.      
+      ______________________________________
+     | Welcome to the glorious Arena of Dres\
+     | Beware those who enter the arena the/
+     | only one victor.  And the penalty /
+     | is death.  Only the bravest men an\
+     | should enter here.  May fortune b/
+     |                                   \
+     | Created by Klute for the Mayor of D/
+     | August 04, 1994                  /
+     |________________________________/
+~
+S
+#2628
+A Dark Alleyway.~
+The dark alley continues towards the north.
+~
+26 1 1
+D0
+Darkness.
+~
+~
+0 -1 2627
+D2
+You see a narrow opening into darkness.
+~
+~
+0 -1 2513
+S
+#0
+
+
+#RESETS
+*
+O 0 2600 1 2609  stone pool
+*
+D 0 2603 4 1     Secret grate in tunnel of arena
+D 0 2602 5 1     Grate exit back up to tunnel from storage room.
+*
+S
+#$

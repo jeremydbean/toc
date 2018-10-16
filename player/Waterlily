@@ -1,0 +1,683 @@
+#PLAYER
+Name Waterlily~
+Id   48721
+LogO 953249519
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 21
+Plyd 152573
+ListRemorts ~
+NumRemorts 0
+Note 943684094
+Scro 22
+Room 4208
+HMV  263 263 129 129 26 420
+NewGold 70756
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 348
+QuestNext 2
+Exp  47304
+Act  98504
+AfBy 56
+AfBy2 64
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 8
+Trai 3
+Save  6
+Alig  1000
+Hit   14
+Dam   15
+ACs -9 -10 -17 71
+Wimp  52
+Attr 10 13 15 19 14
+AMod 5 3 -1 5 0
+Pass Wa8u8YbVoy5TA~
+Titl  the Spy~
+Pnts 40
+TSex 2
+LLev 41
+HMVP 253 129 220
+Cond 0 31 37
+Sk 27 'axe'
+Sk 98 'dagger'
+Sk 5 'flail'
+Sk 47 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 51 'sword'
+Sk 20 'whip'
+Sk 85 'backstab'
+Sk 76 'dodge'
+Sk 51 'dual wield'
+Sk 46 'parry'
+Sk 88 'trip'
+Sk 46 'second attack'
+Sk 53 'hide'
+Sk 34 'peek'
+Sk 35 'pick lock'
+Sk 60 'sneak'
+Sk 41 'search'
+Sk 34 'sleight of hand'
+Sk 17 'steal'
+Sk 59 'stealth'
+Sk 73 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'shield'  45   3 -20  17          0          0
+AffD 'change sex'  38   3  -1   6          0          0
+AffD 'detect invis'   5   8   0   0          8          0
+AffD 'detect magic'  52   8   0   0         16          0
+AffD 'detect hidden'   5   8   0   0         32          0
+AffD 'stealth'  44   1   0   0          0         64
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 1
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 1
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 1
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 2
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 15
+Lev  7
+Cost 400
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  10
+Cost 1250
+Cond 100
+Repd 1
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 8717
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 2
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 0
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 8949 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  15
+Cost 210
+Cond 100
+Repd 1
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 96
+Repd 1
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  6 4 5 0 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29012
+Nest 0
+Wear 11
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Affect -1 9 -1 4 21 0 0
+Affect -1 9 -1 2 21 0 0
+End
+
+#O
+Vnum 29013
+Nest 0
+Wear 9
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29015
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+ExtF 65
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 53 -1 1 5 0 0
+End
+
+#O
+Vnum 9221
+Nest 0
+Wear -1
+Lev  6
+Cost 792
+Cond 100
+Repd 0
+Spell 3 'cause serious'
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 7 7 0 0
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9585
+Nest 0
+Wear 16
+Lev  12
+Cost 80
+Cond 100
+Repd 1
+Val  2 4 4 2 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear -1
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 1 5 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear -1
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8002
+Nest 0
+Wear -1
+Lev  19
+Cost 580
+Cond 100
+Repd 0
+End
+
+#END

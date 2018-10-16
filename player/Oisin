@@ -1,0 +1,312 @@
+#PLAYER
+Name Oisin~
+Id   11124
+LogO 950927393
+Vers 3
+Prom ~
+Ignoring  ~
+Race elf~
+Sex  1
+Cla  2
+Gui  0
+Psionic  0
+Cast none
+Levl 6
+Plyd 4279
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3737
+HMV  48 69 136 136 144 155
+NewGold 0
+NewPlat 0
+NewCopp 169
+NewSilv 40
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13812
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 10
+Trai 3
+Save  -4
+Alig  0
+Hit   8
+Dam   1
+ACs 55 65 59 96
+Attr 12 15 14 17 16
+AMod 0 5 4 0 4
+Pass OiEVgejL5COuc~
+Titl  Tolamax.~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 69 116 130
+Cond 0 0 30
+Alias on open north~
+Alias os open south~
+Alias ow open west~
+Alias oe open east~
+Alias ou open up~
+Alias od open down~
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 76 'backstab'
+Sk 1 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'mage guild'
+AffD 'bless'  34  42  -7  24          0          0
+AffD 'bless'   0  42   7  18          0          0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear -1
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Affect -1 3 -1 -1 24 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Affect -1 2 -1 4 21 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#END

@@ -1,0 +1,95 @@
+#PLAYER
+Name Robert~
+Id   43122
+LogO 953490599
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 21
+Plyd 184825
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4209
+HMV  420 420 120 120 220 220
+NewGold 2
+NewPlat 38
+NewCopp 28
+NewSilv 4
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  47428
+Act  339738876
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 1
+Alig  -1000
+ACs 100 100 100 100
+Attr 17 14 15 12 18
+AMod 0 0 0 0 0
+Pass Ro1XoQfb0Y5TI~
+Ariv $n comes in from the $t and spits at you're feet~
+Dprt $n hawkes up a HUGE one and leaves $t~
+Titl  The master Knight~
+Pnts 40
+TSex 1
+LLev 46
+HMVP 420 120 220
+Cond 0 0 0
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 21 'mace'
+Sk 15 'polearm'
+Sk 77 'shield block'
+Sk 10 'spear'
+Sk 93 'sword'
+Sk 10 'whip'
+Sk 8 'bash'
+Sk 1 'disarm'
+Sk 100 'kick'
+Sk 54 'parry'
+Sk 1 'rescue'
+Sk 61 'second attack'
+Sk 59 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#END

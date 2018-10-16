@@ -1,0 +1,119 @@
+#PLAYER
+Name Ahu~
+Id   287
+LogO 947644125
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  11
+Psionic  0
+Cast none
+Levl 4
+Plyd 12701
+ListRemorts ~
+NumRemorts 0
+Note 947471359
+Scro 22
+Room 2480
+HMV  40 40 126 126 118 118
+NewGold 31
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  8511
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Alig  0
+ACs 100 100 100 100
+Wimp  4
+Attr 14 19 14 14 12
+AMod 0 0 0 0 0
+Pass AhAnniujlp/io~
+Titl  the Delver in Spells~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 40 126 118
+Cond 0 0 0
+Sk 75 'armor'
+Sk 1 'burning hands'
+Sk 45 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 75 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 81 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 1 'sneak'
+Sk 45 'scrolls'
+Sk 45 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+End
+
+#O
+Vnum 62
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#END

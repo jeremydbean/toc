@@ -1,0 +1,344 @@
+#PLAYER
+Name Khamen~
+Id   27289
+LogO 942027550
+Vers 3
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 5
+Plyd 3097
+ListRemorts ~
+NumRemorts 0
+Note 941163841
+Scro 22
+Room 2473
+HMV  70 70 145 145 90 91
+Gold 93
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12011
+Act  65740
+AfBy 2097664
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 2
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 2
+Color 10 4
+Color 11 3
+Color 12 8
+Color 13 2
+Color 14 2
+Color 15 2
+Color 16 5
+Pos  8
+Prac 2
+Trai 3
+Alig  423
+Hit   1
+Dam   1
+ACs 49 53 50 74
+Attr 14 13 12 15 19
+AMod 0 6 5 4 5
+Pass KhrKoIACzSg9c~
+Titl .~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 70 105 124
+Cond 0 30 0
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 78 'backstab'
+Sk 1 'bash'
+Sk 75 'dodge'
+Sk 1 'trip'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'armor'  13  12 -20  17          0          0
+AffD 'haste'  41   1   4   2    2097152          0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 4 2 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Affect -1 2 -1 1 5 0 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Affect -1 2 -1 -33 14 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

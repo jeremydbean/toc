@@ -1,0 +1,1207 @@
+#AREA   { CAS } Soul    The Horde~
+
+#HELPS
+-1 HORDE~
+In the beginning, it was dark. This is a pretty common story, and most 
+people have heard it, but what people don't mention is how LONG it was 
+dark. During the millenia before the light, evil flourished in the deep 
+places on earth. Below the crags of Moria, under the Lonely Mountain, and 
+beneath even the forests and mountains of the world, creatures that had 
+never seen light, nor needed it began to fester, grow, and breed. 
+Anyways, after a while, there was Light, and the evil creatures that had 
+been slowly growing more corrupt due to hideous inbreeding, cannibolism, 
+and evil rites to their Gods began to spill into the daytime. Villages 
+were overrun by shrieking Hordes of these demons, and soon the kingdoms 
+were destroyed. However, as time passed, the creatures began to slowly 
+retreat from the daylight, back to the crags and the darkness they came 
+from, and the terrors they brought with them slowly faded from memory. 
+It is a Time of Chaos. The dark forces are returning, slowly growing in 
+number, and the world is no longer safe in the day. Dark dwarves, corrupt 
+creatures of the light, and the hellish forces at their command are 
+wreaking havoc on the countryside, and they are looking for recruits. 
+Wanna join up?
+~
+0 $~
+
+
+#MOBILES
+#2700
+bovine cow warrior~
+a huge bovine warrior~
+The bovine warrior blocks your path and gives a warning 'mooooo'.
+~
+Before you stands an enormous cow, cud dripping from its massive jowls.
+A deep 'MOOOOOO' comes from its throat as it leaps to the attack!
+~
+cow~
+BMTV DFHJ -750 S
+55 27 200d1+4700 2d155+500 11d5+5 27
+-3 -3 -3 -3
+CDEJKTU AB CLQ N
+8 8 1 0
+0 0 H 0
+#2701
+heffer cow~
+an evil heffer~
+An evil heffer gives a gutteral 'MOO!' and attacks you!
+~
+Probably the nastiest cow you have ever seen. Obviously not a
+naturally occuring heffer, but one obviously summoned from the
+bowels of hell. It is jet black, with claw-like hooves and large
+green and rotting fangs fill its cavernous mouth. Large sores and
+boils cover its hideous hide, dripping a most foul and hideous
+ooze!
+~
+cow~
+AGMQRV CDFJNQ 750 S
+50 25 100d1+2350 2d50+1510 7d5+10 31
+-1 -1 -1 -1
+EFGHTUZ A ABL G H
+8 8 1 0
+0 0 H 0
+#2702
+crone healer~             
+the old crone~
+A bent old crone is here uttering spells.
+~
+Rumored to have once been a great beauty, years of enslavement by the
+evil Horde have ravaged her body, leaving only this hideous crone before
+you.
+
+Type 'heal' to see a listing of her spells.
+~
+human~
+BDMQV DFHJ 1000 S
+60 0 1d1+999 1d1+999 2d4+30 20
+-15 -15 -15 -15
+FHIKT ABCD 0 0
+8 8 2 0
+0 0 M 0
+#2703
+f@rs!de~
+the great pig~
+An enormous and quite insane pig wanders about squealing loudly here.~
+A foul creation of the Horde, this swine must be. Five times the size
+of a normal pig, it is a sickly green color, with human hands and feet.
+A single, large eye bulges from the center of its forehead, and the
+look within that eye is that of a animal far from sanity!
+~
+pig~
+BMRTV BDFJQ 950 S
+50 25 100d1+2350 2d50+640 7d5+10 10
+-1 -1 -1 -1
+F B 0 0
+8 8 1 0
+0 0 H 0
+#2704
+bovine warrior~
+a huge bovine warrior~
+The bovine warrior blocks your path and gives a warning 'moooooo'!
+~
+Before you stands and enormous cow, cud dripping from its massive jowls.
+A deep 'MOOOOOO' comes from its throat as it leaps to the attack!
+~
+cow~
+BMTV DFJ -750 S
+55 27 200d1+4700 2d155+500 11d5+5 27
+-3 -3 -3 -3
+CDEJKTU AB CLQ N
+8 8 1 0
+0 0 H 0
+#2705
+suicide sheep~
+the suicidal sheep~
+An insane sheep gives an ear piercing 'baaaaaa' and attacks!
+~
+This sheep is obviously completely insane, and judging by the lather
+around its muzzle, very rabid as well.
+~
+sheep~
+BMTV DFJ 500 S
+55 27 200d1+4700 2d155+500 11d5+5 1
+-3 -3 -3 -3
+CDEJKTU AB CLQ R
+8 8 1 0
+0 0 M 0
+#0
+
+
+#OBJECTS
+#2700
+pit~
+a pit~
+The castle's pit is here.~
+stone~
+15 O 0
+10000 0 0 1000 0
+0 0 0  P
+E
+pit~
+This is where you put money and items to help the members of Castle Horde
+expand this castle and better equip its warriors.
+~
+#2701
+heart relic~
+an unbeating heart~
+A huge, unbeating heart lies here.~
+jade~
+32 ABFO 0
+0 0 0 0 0 
+100 0 0 P
+#2702
+key steel horde~
+the key to Castle Horde~
+A large steel key with Deimos inscribed on it has been left here.~
+steel~
+8 0 AO
+0 0 0 0 0
+0 1 0 G
+E
+key steel~
+This finely made key has Lord Deimos inscribed on the side.
+~
+#2703
+fountain~
+a lava fountain~
+A large fountain spews molten lava here.~
+stone~
+25 OV 0
+500 500 0 0 0
+0 1000 0 P
+#2704
+luniz~
+~
+~
+glass~
+30 O 0
+5 2742 0 0 0
+1 10000 0 P
+#2705
+tether~
+a tether~
+a leather tether lies here.~
+leather~
+13 0 AC
+0 0 0 0 0
+1 250 0 P
+A
+14 -500
+
+#0
+
+
+#ROOMS
+#2700
+The Gates of Castle Horde~
+Huge twisting pillars of ornately carved steel bar your entrance into the 
+castle of Horde. Here, you stop and look around. Behind you is the bright 
+sun and the fresh air. Below are stagnant pools of barbaric humanity, 
+evil thrown in with evil, a hideous intermeshing of hatred, and death. 
+The scent of flayed skin permeates the area, a sickening stench, and your 
+stomach turns to think of what might be causing such a smell. Above you, 
+written across the top of the black gate, are the simple words which 
+dictate the morales of horde: 'Abandon all hope, ye who enter here'.
+~
+27 CNZ A 1
+D0
+~
+~
+1 -1 2703
+D1
+~
+cypress~
+4 2702 2705
+D2
+too dark to tell
+~
+~
+0 -1 36
+S
+#2701
+Lava Room ~
+Above your head, hang thousands of stalagtites, their rocky points jutting
+sharply towards the floor. Tiny droplets of molten lava drop from their
+tips, forming tiny, hissing craters upon the stone floor. The power radiating
+from this room fills you with pure evil. The utmost security was kept to
+preserve this room as it has been here for an eternity, in the darks of
+Sembia.
+
+~
+27 ACDTUZ A 0
+D0
+~
+future~
+4 -1 2706
+S
+#2702
+Southwest Battleground~
+More corpses, they are everywhere. Bodies heaped upon bodies heaped on
+pieces of bodies. A battle breaks out behind you, and suddenly several
+fresh corpses are added to the piles, a grisly resolution to a minor
+conflict.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2707
+S
+#2703
+Entryway~
+A long, tight, rocky corridor leads into the gloomy darkness. The stench of 
+death grows stronger as you decend into the bowels of the castle. A 
+frenzied roar fills the chamber, the sound of voices, many voices, crying 
+out in anger, or in failure.
+~
+27 ACDNVZ A 1
+D0
+~
+~
+1 -1 2708
+D2
+~
+~
+1 -1 2700
+S
+#2704
+The Burial Grounds~
+Tombs of the countless defenders of horde dot the huge cavern. Occasional 
+bursts of steam erupt from the ground as you walk amongst the ornate 
+graves. Moans come from several, perhaps the recently buried? Some things 
+are better left unspoken off.
+~
+27 DNZ A 1
+D0
+~
+~
+0 -1 2709
+S
+#2705
+Room of the Oath~
+You are here for the initiation to our dark order. You have been accepted 
+by those who will demand your services, and now it is time for you to 
+affirm your loyalty to your brethen. Speak the words written here, and 
+await your acceptance to Horde. 
+
+I swear to defend my castle, to defend my lords, and to defend my brethen 
+against any onslaught. My life means nothing to the collective whole I 
+now declare loyalty to. If my death serves my castle, it will be given, 
+and if my life serves my castle, it shall be given equally free of 
+thought. The dark ways, chaos, hatred, fear, deceit, shall be my words, 
+spoken from my own lips. I shall serve the dark order of Horde. I shall 
+serve it's leaders. Deimos, Rotus, and their Barons, I declare my loyalty 
+to you, eternal. Thus do I petition to join you.
+~
+27 ACDNW 0
+D3
+~
+~
+1 -1 2700
+S
+#2706
+Castle Pit, HP/Mana Room, Healer~
+You step into this outlet and breathe deeply of the stagnant air that 
+fills this place. Here it would seem is a room of repose. Sleeping troops 
+lay about, their wounds leaving small puddles on the floor. The room has 
+a grim ambiance about it, a gentle pressure, almost a throbbing. There is 
+an ornate alter with a large dark pit before it to the north part of the 
+room. Surrounding it are the rotting heads of the invaders of last week. 
+You shudder, and turn away from the sickening sight.
+~
+27 DNTUZ A 0
+D1
+~
+~
+1 -1 2707
+D2
+~
+pepsi~
+4 -1 2701
+S
+#2707
+Southwestern Battleground~
+More corpses, they are everywhere. Bodies heaped on bodies heaped on 
+pieces of bodies. A battle breaks out behind you, and suddenly several 
+fresh corpses are added to the piles, a grisly resolution to a minor 
+conflict.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2712
+D1
+~
+~
+0 -1 2708
+D2
+~
+~
+0 -1 2702
+D3
+~
+~
+1 -1 2706
+S
+#2708
+Southern Battleground~
+The stench grows worse as you step into this vast cavern. Bodies, broken, 
+rotting, hacked apart in battle, lie strewn about the cavern. Perhaps 
+thousands of elvish, human, and dwarven warrior's bodies lay twisted about 
+the landscape. Knee-deep in the dead takes upon a new meaning to you as 
+you begin wading through the decay. Pus drips over your boots, and you 
+shudder as you crush through a female ribcage, making a sickening 
+squelch. You can see people in the distance fighting each other, it would 
+seem that this is a popular fighting ground.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2713
+D1
+~
+~
+0 -1 2709
+D2
+~
+~
+1 -1 2703
+D3
+~
+~
+0 -1 2707
+S
+#2709
+Southeastern Battleground~
+What is this? Bodies. More and more. There would seem to be no end to the 
+carnage of this place. A whimper to your left draws your attention. A small
+elvish child is under a decapitated and mutilated human female, his small
+cries filling the area. As you turn to help him, one of the many broken souls
+of this place wanders by. Before you can stop him, a dark leer breaks across
+his face, and he pulls out his dagger.. you turn away from the revolting display
+of cruelty.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2714
+D1
+~
+~
+1 -1 2710
+D2
+~
+~
+0 -1 2704
+D3
+~
+~
+0 -1 2708
+S
+#2710
+A small crevice~
+Finally, a room free of death.  No bodies litter the floor, no dying reach 
+out to you for help. The stench is still there, but that is growing tolerable.
+~
+27 ADNZ A 0
+D3
+~
+~
+1 -1 2709
+S
+#2711
+An Empty Room~
+A rotted door once sealed this room from the battleground, but now you 
+doubt the security its battered form can offer. A dead goblin lies in 
+the corner, a dagger protruding from its back.
+~
+27 ADN 0
+D1
+~
+~
+1 -1 2712
+S
+#2712
+Western Battleground~
+Here there seem to be fewer rotting corpses. Most have advanced beyond 
+that stage of decay, bones jut out of piles, and metal swords rusting 
+with age are strewn about. A battered old man, whose eyes have been cut 
+out, lays on top of a fresh pile, his blood dripping down across the white 
+bone beneath him. His cries faintly reach your ears, a pitiful sobbing...
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2717
+D1
+~
+~
+1 -1 2713
+D2
+~
+~
+0 -1 2707
+D3
+~
+~
+1 -1 2711
+S
+#2713
+The Center of the Battleground~
+Piled to the very roof of the cavern, corpses nearly fill this 
+part of the battlefield. Pile after pile of horrid death, none peaceful. 
+The looks of anguish and rage on the faces of the dead not so horribly 
+mutilated fill your soul with sadness. A stone fountain gushing forth a 
+gyser of molten lava draws your attention. Well decorated, and obviously 
+hand-carved, it seems quite at home in this land of rot. 
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2718
+D1
+~
+~
+0 -1 2714
+D2
+~
+~
+0 -1 2708
+D3
+~
+~
+0 -1 2712
+S
+#2714
+Eastern Battleground~
+Ah, the sight of the bodies. Everywhere you turn a different face, a 
+different death. some stabbed, some torn, some broken. others rent limb 
+from limb, still others with large portions of their anatomy torn out.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2719
+D1
+~
+~
+1 -1 2715
+D2
+~
+~
+0 -1 2709
+D3
+~
+~
+0 -1 2713
+S
+#2715
+Storage Room~
+Racks of weaponry fill this room, instruments of death of great variety. 
+Barbed swords, notched arrows, large spiked maces, all engraved with the 
+Horde insignia. Perhaps you should arm yourself, and go back into the 
+battlefield prepared.
+~
+27 ADNZ A 0
+D3
+~
+~
+1 -1 2714
+S
+#2716
+Dark Room~
+It is pitch black...
+~
+27 ADNZ A 0
+D1
+~
+~
+1 -1 2717
+S
+#2717
+Northwestern Battleground~
+There are less intact corpses here. Arms and legs litter the floor, some 
+missing digits, others seemingly intact. A little creature in black robes 
+creeps about the piles, looking for rings and other baubles he can sell 
+for profit.
+~
+27 DNVZ A 1
+D1
+~
+~
+0 -1 2718
+D2
+~
+~
+0 -1 2712
+D3
+~
+~
+1 -1 2716
+S
+#2718
+Northern Battleground~
+Through the piles of bodies you can see a clear area to your north. 
+Otherwise, this hellish place looks like the rest of it, bodies 
+everywhere.
+~
+27 DNVZ A 1
+D0
+~
+~
+0 -1 2723
+D1
+~
+~
+0 -1 2719
+D2
+~
+~
+0 -1 2713
+D3
+~
+~
+0 -1 2717
+S
+#2719
+Northeastern Battleground~
+Here the bodies have been cleared, though much of the blood, and bodily 
+fluids left behind by death remain. A large crack splits the wall, hot 
+lava pouring out of the crevice and onto the floor, making a hissing 
+noise as it cools and hardens.
+~
+27 DNVZ A 1
+D1
+~
+~
+1 -1 2720
+D2
+~
+~
+0 -1 2714
+D3
+~
+~
+0 -1 2718
+S
+#2720
+War Planning Room~
+Huge maps of the continent decorate the walls, and a large strategic map 
+of Dresden and it's surrounding areas fills the table at the head of the room.
+Seats encircle the table, apparently tactics of battle are discussed here.
+~
+27 ADNZ A 0
+D3
+~
+~
+1 -1 2719
+S
+#2721
+Dark Tunnel~
+Another hollowed out tunnel. That rotting stench is strong here, and 
+hellish sounds echo down the chamber.
+~
+27 ADNZ A 0
+D1
+~
+~
+1 -1 2722
+S
+#2722
+Dark Tunnel~
+Another hollowed out tunnel. That rotting stench is strong here, and 
+hellish sounds echo down the chamber.
+~
+27 ADNZ A 1
+D1
+~
+~
+1 -1 2723
+D3
+~
+~
+1 -1 2721
+S
+#2723
+A small, twisting hallway~
+A thin passageway leads out of the battlefield, and into the bowls of the 
+castle. Ahead you can see a series of chambers and a gaping stairway 
+leading down into the darkness.
+~
+27 ADNZ A 1
+D1
+~
+~
+1 -1 2724
+D2
+~
+~
+0 -1 2718
+D3
+~
+~
+1 -1 2722
+D5
+~
+~
+1 -1 2743
+S
+#2724
+Dark Tunnel~
+Another hollowed out tunnel. That rotting stench is strong here, and 
+hellish sounds echo down the chamber.
+~
+27 ADNZ A 0
+D1
+~
+~
+1 -1 2725
+D3
+~
+~
+1 -1 2723
+S
+#2725
+Dark Tunnel~
+Another hollowed out tunnel. That rotting stench is strong here, and 
+hellish sounds echo down the chamber.
+~
+27 ADNZ A 0
+D3
+~
+~
+1 -1 2724
+S
+#2726
+The Room of Deimos~
+You step into a huge chamber, vast beyond comprehension. A long rocky 
+bridge stretches across a molten lake of fire that stretches as far as 
+the eye can see. In the center of this pool of lava, a glass bubble 
+floats, supported by dark clouds of evil magic. As you walk down the 
+bridge, the lava surrounding you crackles and churns, it's heat radiating 
+throughout the castle. As you enter the bubble of sanctity at the heart 
+of the pool, it begins to submerge, taking you beneath the surface of the 
+lake. As white hot lava pours around you, you relax in the safety of the 
+magic bubble. Almost as large as some of the caverns on the upper levels, 
+and filled with devilish weapons of ingenious design, it is easy to see 
+why the lord Deimos is so vicious a taskmaster. Dark emblems of Horde 
+whirl about the chamber, and unseen creatures scream threats of dire 
+hatred for your invasion of this space. Best hope Deimos does not catch 
+you here.
+~
+27 DNZ A 0
+D0
+~
+~
+0 -1 2731
+D1
+~
+~
+2 2702 2727
+D5
+~
+cbr~
+4 -1 2701
+S
+#2727
+Steel gates~
+Black gates lay open here, their rusty steel spires broken and disused. 
+They have seen no use in centuries, and they seem to serve no real
+purpose, and yet they remain locked.
+~
+27 DNZ A 0
+D1
+~
+~
+0 -1 2728
+D3
+~
+~
+2 2702 2726
+S
+#2728
+The Throne Room~
+Four white thrones sit atop a ruby dias, sceptres of lordship 
+placed across the arms. Constructed of white bone, perhaps gleaned
+from that endless graveyard about, and held in place by dried tendons,
+these hideous constructions are where the rulers of the castle sit and
+pass judgement upon those seeking advancement in the ranks.
+~
+27 DNTUZ A 0
+D0
+~
+~
+1 -1 2733
+D1
+~
+~
+0 -1 2729
+D3
+~
+~
+0 -1 2727
+S
+#2729
+Smokey chamber~
+You begin to cough and choke as you enter this room, as huge clouds of 
+smoke billow forth from the adjacent cave. Bearing a sweet smelling 
+familiar odor, you are pleased to notice a lightheaded rush sweep over 
+your body as you adjust to inhaling the fumes.
+~
+27 ADZ A 1
+D1
+~
+~
+1 -1 2730
+D3
+~
+~
+0 -1 2728
+S
+#2730
+Room of Rotus~
+As you step from the clouds of smoke, you immediately notice the source of 
+the fumes. A huge black brazier lies in the center of the dark chamber, 
+belching forth the clouds of smoke that fill the adjacent caverns. The 
+cavern stretches well beyond any line of sight, and as you peer upwards, 
+the billowing clouds of smoke are lost to darkness in the upper reaches 
+of the chamber. The walls are hand carved, forming a kaleidescope of 
+agony. Faces locked in different stages of agony jut outward from the 
+rock walls, their engraved features seemingly so lifelike that even you 
+shudder in disgust. In fact, you can clearly make out the faces of some 
+of the hero's of the realm. Sstorda's grim image with his eyes torn from 
+his face, blood pouring from the empty hollows into his nose and mouth, 
+stares at you blanky. There are many others, all in various stages of 
+death and decay. Around the brazier is a huge white pentagram etched on 
+the floor, the center of Rotus' dark power. This room radiates little 
+life, more of a uneasy sense of evil.
+~
+27 DNZ A 0
+D0
+~
+~
+0 -1 2735
+D3
+~
+~
+1 -1 2729
+S
+#2731
+Deimos' Library~
+The northern wall is obscured by an enormous bookcase. Its shelves
+are crammed full with volumes and tomes of every subject. Books of
+sorcery, monsters and demons, ancient relics, far off lands, and even
+on various styles of fighting.
+
+The east and west walls are covered with elaborate tapestries of war
+and death, blood and gore, and every imaginable scene of horror.
+~
+27 DNZ A 0
+D0
+~
+relics~
+4 -1 2736
+D2
+~
+~
+0 -1 2726
+S
+#2732
+The Room of Tiffany~
+You step into a well lit, beautifully decorated room. Splendor and wealth 
+abounds the place. Gothic statues portraying acts of violence align the 
+walls, their contorted visages hand carved by the finest of stoneworkers. 
+Beautiful tapestries are hung from the walls, their embroidered patterns 
+telling the tale of the Hordes glorious history. A large fireplace 
+studded with emeralds fills the northern wall, it's crackling logs heated 
+by a small pool of hot lava enclosed in it's sidings. It is a peaceful 
+place of rest and repose, and you hope lady Tiffany does not catch you 
+snooping about her room.
+~
+27 DNZ A 0
+D1
+~
+~
+1 -1 2733
+S
+#2733
+A well lit corridor~
+Another rocky corridor leading through the bowels of the earth. Torches 
+line the walls, illuminating your descent...
+~
+27 DNZ A 0
+D0
+~
+~
+0 -1 2738
+D1
+~
+~
+1 -1 2734
+D2
+~
+~
+1 -1 2728
+D3
+~
+~
+1 -1 2732
+S
+#2734
+Room of Celes~
+This room is more beautiful then any of the others. White sheets of pure 
+satin encompass the bed, large diamonds and rubies glitter from the 
+ornately decorated walls. Huge silver statues are strewn about the room, 
+greek hero's, the various gods, and in the center stands Hades casting 
+down the lord Zeus from his mountain on high. The wealth and splendor of 
+this room overwhelm you, and you look eagerly around for some loose 
+gems you might be able to pry out. A single diamond would make you rich 
+beyond your dreams...
+~
+27 DNZ A 0
+D3
+~
+~
+1 -1 2733
+S
+#2735
+Rotus' Training Room~
+You are standing in room #2735.
+~
+27 DNZ A 0
+D2
+~
+~
+0 -1 2730
+S
+#2736
+The Relic Chamber of the Horde~
+As you step into this enourmous cavern, a feeling of awe and power brings 
+you to your knees. A black and evil alter lies in the center of the room, 
+it's foul ambiance bringing a shudder to your heart. Dark necromancers 
+worked long and hard, etching runes of power, protection, and warding 
+upon it's sides. Jagged metal torches surround it, their flickering 
+illumination casting a sickly glow upon the object of worship perched 
+atop it. A huge, unbeating heart taken from the breast of a Demon God 
+sits on the unholy dias, a trophy to the glory of the castles leaders. 
+Hacked from the evil creature in it's final death throes by the lords of 
+the castle, Deimos, and Rotus, this grim jewel marks the strength and 
+glory of their dark castle, the Horde.
+~
+27 ADNZ A 0
+D2
+~
+relics~
+4 -1 2731
+S
+#2737
+Room of Shadowthorn~
+You step into what appears to be total nothingness. Suddenly, colour and
+light begin to swirl before you in quick dizzying patterns, they slow..
+stop.. and form the room of Shadowthorn, Sorcerer of Horde. You wonder if
+this room was even here before you stepped through the door. Now, however,
+you can see quite clearly where Shadowthorn spends his time.
+
+Before you, a huge stone room is visible.  A virtual heaven of rare
+artifacts and scholarly knowldegde.  The walls are lined with bookcases,
+filled with tomes of ancient knowldedge and even more ancient magic. Many
+large desks are littered with maps, scrolls, and other magical paraphernalia.
+Hung high on the walls are beautiful paintings depicting the early days of Shadowthorn's endeavors, right up to the quest he took to become a Hero of
+the realm. A ancient dragon skull hangs from the ceiling, glowing with a
+strange magical light that illuminates the room. A stone stairway at the far
+end of the room leads up to his bedchamber..over which hovers the symbol of
+castle Horde.  Come in, have a seat..but be wary..the very walls have eyes
+here...
+~
+27 DNZ A 0
+D1
+~
+~
+1 -1 2738
+S
+#2738
+A well lit corridor~
+Torches line the walls here, their eerie flickering casting a yellow glow 
+on the rocky walls.
+~
+27 DNZ A 0
+D0
+~
+~
+0 -1 2743
+D1
+~
+~
+1 -1 2739
+D2
+~
+~
+1 -1 2733
+D3
+~
+~
+1 -1 2737
+S
+#2739
+Shoplifter's Room of Relaxation~
+As you enter the room the first thing you notice is the fake wood wallpaper
+which seems to engulf the room.  It is quite obviously an attempt at making
+the room seem more like a ski lodge. You marvel at the feel of the luxurious
+thick brown carpet underneath your feet.  On one wall you see, mounted on a
+plaque, the head of one of the biggest bears that you have ever seen. On the
+other side of the room you see a bar where one can mix their own drinks and
+right in the middle of the room there is a pool table with the most beautiful
+red felt covering that you have ever laid eyes upon. Off in a corner you see
+a roaring fireplace and lying on a couch is a beautiful goddess waiting to
+cater to your every need and desire. The only thought that comes to your mind
+is "I never want to leave this place"!
+~
+27 DNZ A 1
+D3
+~
+~
+1 -1 2738
+S
+#2740
+Portal Room~
+This is the castles portal room. Simply look in a direction to see where it
+leads.
+~
+27 ADNZ A 0
+D0
+Warrior's Guild~
+~
+0 -1 2741
+D1
+Cleric's Guild~
+~
+0 -1 2741
+D2
+Mage's Guild~
+~
+0 -1 2741
+D3
+Thieve's Guild~
+~
+0 -1 2741
+S
+#2741
+Dung's Latrine~
+As you approach the beautiful alter, a blackened crack begins to form 
+across the cavern. Suddenly the floor gives out, and you plunge into the 
+very 'Bowels' of the castle...
+
+You land in a pile of murky goop, a disgusting slop. I horrid stench 
+fills the room, and you wonder sickly what excrement you have landed in. 
+~
+27 ACDINXZ A 8
+S
+#2742
+Relic Hall~
+You step into a beautifully decorated hallway. Golden pillars of polished 
+metal stretch across the supported ceiling, and a large brazier belches 
+sweet smelling smoke into the room. Near the back of the room, a small 
+lava-fall gushes downward into a unknown depth, it's roaring crackle 
+filling the chamber. Near the end of the hallways, a huge altar has been 
+erected. Lying upon it is a grisly trophy of the Horde, a large, pulsing 
+heart, huge, and still alive. Though you can barely see it from here, it 
+is obviously very large, and very healthy, it's regular twitching is 
+marked by an occassional spurt of gore from it's innards...
+~
+27 DNZ A 0
+D1
+~
+~
+1 -1 2743
+D2
+~
+~
+1 -1 2741
+D3
+Relic Chamber~
+~
+1 -1 2741
+S
+#2743
+Deeper Caverns~
+You have descended into the very bowels of the volcano. The temperature 
+has been steadily rising as you descrease, and now you behold the reason 
+why... Great streams of molten rock flow throughout these lower 
+chambers. Sheets of white hot lava gush in torrents through cracks in the 
+floor. Now and then a burst of light caused by a minor eruption of fire 
+spurts from the ground, and you would be wise to watch your step.
+~
+27 DNZ A 0
+D1
+~
+~
+1 -1 2744
+D2
+~
+~
+0 -1 2738
+D3
+~
+~
+1 -1 2742
+D4
+~
+~
+1 -1 2723
+S
+#2744
+A Dark Tunnel~
+You walk briskly down this inky dark place, listening to the blind 
+creatures that frequent such places squelch about in the darkness.
+~
+27 ADNZ A 0
+D1
+~
+~
+1 -1 2745
+D3
+~
+~
+1 -1 2743
+S
+#2745
+A darkened passageway~
+It is pitch black...
+~
+27 DNZ A 1
+D2
+~
+~
+0 -1 2740
+D3
+~
+~
+1 -1 2744
+S
+#0
+
+
+#RESETS
+*               
+M 0 2700 2 2700		Bovine Warrior at  Gates (Sanc'd)
+E 1 2705 -1 6		  tether
+M 0 2700 2 2700
+E 1 2705 -1 6		  tether
+*
+M 0 2704 10 2700	Bovine Warrior at Gates (Non-Sanc'd)
+E 1 2705 -1 6		  tether
+M 0 2704 10 2700
+E 1 2705 -1 6		  tether
+*
+M 0 2704 10 2703	Bovine Warrior at  Entryway (Non-Sanc'd)
+E 1 2705 -1 6		  tether
+M 0 2704 10 2703
+E 1 2705 -1 6		  tether
+M 0 2704 10 2703
+E 1 2705 -1 6		  tether
+M 0 2704 10 2703
+E 1 2705 -1 6		  tether
+*
+M 0 2704 10 2708	Bovine Warrior at  Entryway (Non-Sanc'd)
+E 1 2705 -1 6		  tether
+M 0 2704 10 2708
+E 1 2705 -1 6		  tether
+M 0 2704 10 2708
+E 1 2705 -1 6		  tether
+M 0 2704 10 2708
+E 1 2705 -1 6		  tether
+*
+M 0 2702 1 2706            Old Crone at Healing Pit
+*
+M 0 2701 4 2707            Heffer at  Southwest Battleground
+M 0 2705 4 2707            Suicidal Sheep at SW Battleground
+*
+M 0 2701 4 2709            Heffer at  Southeast Battleground
+M 0 2705 4 2709            Suicidal Sheep at SE Battleground
+*
+M 0 2701 4 2723            Heffer in hallway
+M 0 2705 4 2723            Suicidal Sheep in hallway
+*
+M 0 2705 4 2743            Suicidal Sheep at bottom of stairway
+*
+M 0 2701 4 2728	Suicidal Sheep in Throne Room
+*
+M 0 2703 1 2729            Pig (Gatemob - F@rs!de) in Throne Room
+O 0 2700 100 2706             a pit to Healing Pit
+O 0 2701 100 2736             Horde's Relic to Relic Room
+*
+O 0 2703 1 2713		   Fountain
+*
+O 0 2704 1 2741		   DT Escape Portal
+*
+* DOOR RESETS *
+*
+D 0 2703 2 1                  ; Entryway Close South
+D 0 2700 0 1                  ; Gates of Castle Horde Closed North
+D 0 2701 0 4                  ; Room of Refuge Close North
+D 0 2726 5 4		      ; Secret Room from Deimos (cudsucker)
+D 0 2703 0 1                  ; Entryway Close North
+D 0 2708 2 1                  ; Southern Battleground Close South
+D 0 2706 2 4                  ; Healing Pit Close South
+D 0 2705 3 1                  ; Room of the Oath Close West
+D 0 2700 1 4                  ; Before the Gates Lock East
+D 0 2710 3 1                  ; Small Crevice Close West
+D 0 2709 1 1                  ; Southeast Battleground Close East
+D 0 2711 1 1                  ; Empty Room Close East
+D 0 2712 3 1                  ; West Battleground Close West
+D 0 2714 1 1                  ; East Battleground Close East
+D 0 2715 3 1                  ; Storage Room Close West
+D 0 2716 1 1                  ; Dark Room Close East
+D 0 2717 3 1                  ; Northwest Battleground Close West
+D 0 2719 1 1                  ; Northeast Battleground Close East
+D 0 2720 3 1                  ; War Planning Room Close West
+D 0 2722 3 1                  ; Dark Tunnel Close West
+D 0 2723 3 1                  ; Twisting Hallway Close West
+D 0 2723 1 1                  ; Twisting Close East
+D 0 2724 3 1                  ; Dark Tunnel Close West
+D 0 2724 1 1                  ; Dark Tunnel Close East
+D 0 2725 3 1                  ; Dark Tunnel Close West
+D 0 2726 1 2                  ; Deimos' Bedroom Locked East
+D 0 2727 3 2                  ; West Throne Room Lock West
+D 0 2729 1 1                  ; East Throne Room Close East
+D 0 2730 3 1                  ; Co-Leader's Bedroom Close West
+D 0 2733 3 1                  ; Hallway Close West
+D 0 2732 1 1                  ; Bedroom Close East
+D 0 2728 0 1                  ; Throne Room Close North
+D 0 2733 1 1                  ; Hallway Close East
+D 0 2734 3 1                  ; Bedroom Close West
+D 0 2733 2 1                  ; Hallway Close South
+D 0 2736 2 4                  ; Relic Room Hidden South
+D 0 2731 0 4                  ; Leader's Bedroom Hidden North
+D 0 2738 3 1                  ; Hallway Close West
+D 0 2737 1 1                  ; Bedroom Close East
+D 0 2739 3 1                  ; Bedroom Close West
+D 0 2738 1 1                  ; Hallway Close East
+D 0 2744 1 1                  ; Empty Room Close East
+* D 0 2741 0 4                  ; Death Trap Hidden East
+D 0 2742 3 1                  ; Before the Relic Chamber Close West
+D 0 2743 3 1                  ; Stairwell Close West
+D 0 2742 1 1                  ; Before the Relic Chamber Close East
+D 0 2742 2 1		 ; Exit from Relic Chamber
+D 0 2744 3 1                  ; Empty Room Close West
+D 0 2743 1 1                  ; Stairwell Close East
+D 0 2745 3 1                  ; Empty Room Close West
+*
+S
+
+
+#SPECIALS
+M 2700 spec_castle_guard		Bovine Warrior (Sanc'd)
+M 2701 spec_castle_guard_agg		Heffer
+M 2702 spec_cast_adept		Old Crone
+M 2704 spec_castle_guard		Bovine Warrior (un-sanc'd)
+M 2705 spec_castle_guard_agg		Suicidal Sheep
+S
+
+
+#$

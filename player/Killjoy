@@ -1,0 +1,365 @@
+#PLAYER
+Name KillJoy~
+Id   47957
+LogO 953448908
+Vers 3
+Desc KillJoy is using:
+<used as light>     (Shining)(Blazing) The North Star
+<worn around neck>  (Dark) a Dominion Cloak
+<worn around neck>  (Dark) a Dominion Cloak
+<worn on body>      (Glowing)(Humming)(Flaming) Plate of the Titans
+<worn on head>      (Red) An Elder Dragon Skull
+<worn on legs>      Battle Leggings
+<worn on feet>      (Evil) Your moms Combat Boots
+<worn on hands>     (Magical)(Glowing) The Infinity Gauntlet
+<worn on arms>      (Glowing) Soulslayers Arm Plates
+<worn as shield>    (Shining) Shield of Psionic Forces
+<worn about body>   Robe of the Grand Master
+<worn about waist>  Belt of Life
+<worn around wrist> (Glowing) (Humming) Bands of Quasar
+<worn around wrist> (Glowing) (Humming) Bands of Quasar
+<wielded>           (Shining) The Answer
+<held>              (Bloody) The head of Ungrim Ironfist
+
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 51
+Plyd 1023063
+ListRemorts ~
+NumRemorts 0
+Note 953442338
+Scro 22
+Room 4208
+HMV  674 674 173 267 96 400
+NewGold 5373
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 1948
+Exp  116025
+Act  204
+AfBy 568
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Trai 1
+Alig  695
+ACs 100 100 100 100
+Wimp  80
+Attr 20 16 18 12 15
+AMod 0 0 0 0 0
+Pass KiUYtwks57CM.~
+Ariv $n's backstab ^^^ DESTROYS ^^^ you. You're DEAD!$t~
+Dprt $n's backstab ^^^DESTROYS^^^ you! You're DEAD!...$t~
+Titl  is NAKED!!!~
+Pnts 40
+TSex 1
+LLev 283
+HMVP 674 267 400
+Cond 0 0 0
+Sk 86 'aid'
+Sk 76 'armor'
+Sk 84 'bless'
+Sk 69 'blindness'
+Sk 76 'calm'
+Sk 74 'cancellation'
+Sk 77 'cause light'
+Sk 100 'cure critical'
+Sk 77 'cure light'
+Sk 87 'cure serious'
+Sk 1 'curse'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 75 'dispel magic'
+Sk 52 'energy drain'
+Sk 72 'flamestrike'
+Sk 1 'fly'
+Sk 95 'gate'
+Sk 84 'heal'
+Sk 69 'holy word'
+Sk 74 'identify'
+Sk 81 'mana convert'
+Sk 19 'pass door'
+Sk 1 'poison'
+Sk 74 'protection evil'
+Sk 85 'refresh'
+Sk 1 'remove curse'
+Sk 76 'sanctuary'
+Sk 75 'shield'
+Sk 1 'spiritual hammer'
+Sk 51 'stone skin'
+Sk 71 'summon'
+Sk 56 'teleport'
+Sk 72 'weaken'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 96 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 73 'archery'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 1 'rescue'
+Sk 100 'second attack'
+Sk 1 'shove'
+Sk 33 'scrolls'
+Sk 1 'staves'
+Sk 73 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild healing'
+Gr 'guild maladictions'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'detect hidden'  51   8   0   0         32          0
+AffD 'detect magic'  51   8   0   0         16          0
+AffD 'detect invis'  51   8   0   0          8          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 9923
+Nest 1
+ExtF 1048579
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8731
+Nest 1
+Wear -1
+Lev  31
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

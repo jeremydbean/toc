@@ -1,0 +1,771 @@
+#PLAYER
+Name Sajo~
+Id   22647
+LogO 953510648
+Vers 3
+Prom <%hhp %vmv %Xtnl>~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 28
+Plyd 173626
+ListRemorts ~
+NumRemorts 0
+Note 953485148
+Scro 22
+Room 4203
+HMV  305 305 161 161 159 287
+NewGold 9
+NewPlat 3
+NewCopp 154
+NewSilv 17
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  56428
+Act  65784
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 11
+Color 3 1
+Color 4 0
+Color 5 0
+Color 6 12
+Color 7 5
+Color 8 0
+Color 9 0
+Color 10 12
+Color 11 2
+Color 12 2
+Color 13 0
+Color 14 2
+Color 15 0
+Color 16 6
+Pos  8
+Prac 3
+Save  4
+Alig  -951
+Hit   16
+Dam   29
+ACs 19 16 8 106
+Wimp  30
+Attr 17 13 18 17 18
+AMod 7 1 0 3 0
+Pass Sa9vJ/8KQRtLY~
+Ariv $n is done stealing and came back from $T.~
+Dprt $n spots a person to steal from and runs off to $T.~
+Titl  is considering this pk thing..~
+Pnts 40
+TSex 1
+LLev 44
+HMVP 305 161 262
+Cond 0 19 22
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 29 'sword'
+Sk 21 'whip'
+Sk 88 'backstab'
+Sk 74 'dodge'
+Sk 79 'dual wield'
+Sk 77 'second attack'
+Sk 66 'hide'
+Sk 66 'peek'
+Sk 52 'pick lock'
+Sk 75 'shove'
+Sk 71 'sneak'
+Sk 71 'search'
+Sk 65 'sleight of hand'
+Sk 75 'steal'
+Sk 42 'stealth'
+Sk 75 'track'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 191 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 93
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 1 20 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 1 0 0 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  19
+Cost 0
+Cond 77
+Repd 0
+Val  5 6 4 -1 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  9
+Cost 1000
+Cond 93
+Repd 0
+Val  3 3 5 0 0
+Affect -1 9 -1 5 24 0 0
+Affect -1 9 -1 3 20 0 0
+Affect -1 9 -1 -1 1 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  10
+Cost 280
+Cond 94
+Repd 0
+Val  5 6 6 0 0
+Affect -1 10 -1 -5 20 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 95
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 92
+Repd 1
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 84
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 11
+Lev  23
+Cost 1300
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 19119
+Nest 0
+Wear 8
+Lev  19
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19103
+Nest 0
+Wear -1
+Lev  15
+Cost 800
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  10 0 1 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5029
+Nest 0
+Wear -1
+Lev  27
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5028
+Nest 0
+Wear -1
+Lev  27
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3001
+Nest 0
+Wear -1
+Cost 20
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3000
+Nest 0
+Wear -1
+Cost 300
+Cond 100
+Repd 0
+Val  50 42 1 0 0
+End
+
+#O
+Vnum 9515
+Nest 0
+Wear 5
+Lev  23
+Cost 780
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+End
+
+#O
+Vnum 4497
+Nest 0
+Wear -1
+Lev  8
+Cost 120
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+Affect -1 1 -1 13 17 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+Affect -1 18 -1 -1 2 0 0
+Affect -1 18 -1 1 23 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+Affect -1 18 -1 3 24 0 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+ExtF 64
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+Affect -1 52 -1 3 3 0 0
+Affect -1 52 -1 38 14 0 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+Affect -1 1 -1 -1 1 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 16
+Lev  23
+Cost 1300
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 29028
+Nest 0
+Wear -1
+Lev  27
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29029
+Nest 0
+Wear -1
+Lev  27
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#END

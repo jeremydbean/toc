@@ -1,0 +1,45 @@
+    
+void do_swedish( CHAR_DATA *ch, char *argument )
+{
+    char buf[MAX_STRING_LENGTH];
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+
+    one_argument( argument, arg );
+
+    if( arg[0] == '\0' ) {
+	send_to_char("Who do you want to swedish?\n\r",ch);
+	return;
+    }
+
+    if( ( victim = get_char_world( ch, arg ) ) == NULL ) {
+	send_to_char("They aren't here.\n\r",ch);
+	return;
+    }
+
+    if( IS_NPC(victim) ) {
+	send_to_char("Not on NPC's\n\r",ch);
+	return;
+    }
+
+    if( get_trust( victim ) >= get_trust( ch ) ) {
+	send_to_char("You failed\n\r",ch);
+	return;
+    }
+
+    if( IS_SET(victim->act, PLR_SWEDISH ) )
+    {
+	REMOVE_BIT(victim->act, PLR_SWEDISH );
+	send_to_char("They are no longer swedish!\n\r",ch);
+	sprintf(buf,"You are no longer swedish.\n\r");
+	send_to_char(buf, victim);
+    }
+    else {
+	SET_BIT(victim->act, PLR_SWEDISH);
+	send_to_char("You are swedish!\n\r",victim);
+	sprintf(buf,"%s is swedish now...:)\n\r", victim->name );
+	send_to_char( buf, ch );
+    }
+    return;
+}
+

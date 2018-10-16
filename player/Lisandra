@@ -1,0 +1,482 @@
+#PLAYER
+Name Lisandra~
+Id   1141
+LogO 948247263
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 6
+Plyd 8666
+ListRemorts ~
+NumRemorts 0
+Note 936664935
+Scro 22
+Room 3241
+HMV  85 85 111 111 109 130
+NewGold 2704
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 39
+QuestNext 13
+Exp  12076
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -1
+Alig  0
+Hit   1
+Dam   1
+ACs 57 41 45 96
+Wimp  17
+Attr 16 14 18 13 15
+AMod 2 0 1 0 0
+Pass Li7jXlcuu0L8w~
+Titl  the Warrior~
+Pnts 40
+TSex 2
+LLev 1
+HMVP 77 106 130
+Cond 0 6 6
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 50 'shield block'
+Sk 10 'spear'
+Sk 75 'sword'
+Sk 10 'whip'
+Sk 1 'disarm'
+Sk 73 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 169 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 96 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 15
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 96 0 0
+End
+
+#O
+Vnum 3726
+Nest 0
+Wear 13
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 12009
+Nest 0
+Wear -1
+Lev  3
+Cost 5
+Cond 100
+Repd 0
+Spell 3 'waterfall'
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2107
+Nest 0
+Wear -1
+Lev  7
+Cost 350
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 2
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6621
+Nest 0
+Wear 12
+Lev  3
+Cost 2000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3077
+Nest 0
+Wear 10
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3072
+Nest 0
+Wear 5
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3097
+Nest 0
+Wear 11
+Lev  5
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3745
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 3 0 0 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 6 0 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#O
+Vnum 24305
+Nest 0
+Wear -1
+Lev  3
+Time 243
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 24305
+Nest 0
+Wear -1
+Lev  3
+Time 152
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 24312
+Nest 0
+Wear 17
+Lev  1
+Time 205
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3074
+Nest 0
+Wear 7
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3728
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 2 0 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#END

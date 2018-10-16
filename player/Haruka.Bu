@@ -1,0 +1,1217 @@
+#PLAYER
+Name Haruka~
+Id   49227
+LogO 947963418
+Vers 3
+Prom ~
+Ignoring etnie~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  3
+Psionic  1
+Cast Fors
+Levl 54
+Plyd 922762
+ListRemorts ~
+NumRemorts 0
+Note 947914333
+Scro 22
+Room 2401
+HMV  1614 1614 1015 1167 286 342
+NewGold 2
+NewPlat 753
+NewCopp 109
+NewSilv 8
+Bank 173075
+Dcount 1
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 92
+Exp  164793
+Act  67109068
+AfBy 56
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 11
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  -2
+Alig  1000
+Hit   79
+Dam   90
+ACs -240 -212 -268 -56
+Attr 22 16 18 16 19
+AMod 8 4 0 2 0
+Pass HaYCYDL3DEQbo~
+Ariv $n Frost enters from $T.~
+Dprt $n Frost leave to $T.~
+Titl  Frost is Inside Your Head.~
+Pnts 40
+TSex 2
+LLev 235
+HMVP 1557 983 418
+Cond 0 14 48
+Alias co confuse~
+Alias k kick~
+Alias 0 level Congratz!~
+Alias - level Wahoo! Ease your mind with a little sexy bit I like to call: My Girlfriend~
+Alias [ level www.r33t.org/images/mmm.jpg~
+Alias m murder~
+Sk 95 'confuse'
+Sk 100 'project'
+Sk 86 'psionic armor'
+Sk 76 'torment'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 80 'flail'
+Sk 100 'mace'
+Sk 17 'polearm'
+Sk 100 'shield block'
+Sk 100 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 100 'archery'
+Sk 92 'bash'
+Sk 73 'danger sense'
+Sk 100 'dirt kicking'
+Sk 77 'disarm'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 95 'rescue'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 98 'fast healing'
+Sk 100 'door bash'
+Sk 100 'shove'
+Sk 77 'recall'
+Sk 100 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'psionic armor'  51  27   0   0          0          0
+AffD 'detect hidden'  48   5   0   0         32          0
+AffD 'detect magic'  24   5   0   0         16          0
+AffD 'detect invis'  43   5   0   0          8          0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 52 -1 -2 4 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 1
+Affect -1 53 -1 -5 22 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+Affect -1 53 -1 1 1 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 1
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 333
+Cond 100
+Repd 0
+Val  12 12 12 7 0
+Affect -1 54 -1 -1 12 0 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 54 -1 3 21 0 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 3 22 0 0
+End
+
+#O
+Vnum 29219
+Nest 0
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 52 -1 3 20 0 0
+End
+
+#O
+Vnum 29238
+Nest 0
+Name schwanz~
+ShD  the tail the of Saiya-jin~
+Desc A quivering tail lies here.~
+Act_room $n Frost wraps $s tail around $s waist.~
+Act_char You wrap your tail around your waist.~
+Wear 13
+Lev  53
+Cost 5000
+Cond 100
+Repd 1
+Affect -1 53 -1 -1 14 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 24223
+Nest 1
+ExtF 0
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+Val  8 10 6 4 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 14
+Repd 0
+Val  2 2 4 0 0
+End
+
+#O
+Vnum 24225
+Nest 1
+ExtF 3145792
+Wear -1
+Lev  54
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  36 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  36 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 29232
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Affect -1 53 -1 -5 17 0 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  36 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  36 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 29218
+Nest 1
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 1
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 1
+Name present christmas~
+ShD  a christmas present with a big yellow bow~
+Desc A christmas present is lying here, the tag has your name on it!~
+ExtF 2097152
+WeaF 1
+Wear -1
+Cost 6
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt enchant~
+ShD  a receipt for 1 enchant~
+Desc a receipt for 1 enchant~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt enchant~
+ShD  a receipt for 1 enchant~
+Desc a receipt for 1 enchant~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt restring~
+ShD  a receipt for 1 restring.~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt cr~
+ShD  a receipt for one free CR~
+Desc a receipt for one CR~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt cr~
+ShD  a receipt for one free CR~
+Desc a receipt for one CR~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 1
+Name sack burlap~
+ShD  a bloody burlap sack~
+Desc A bloody sack of body parts lies here.~
+Act_room Bring out your dead, $n Frost is collecting body parts again.~
+Act_char MORE BLOOD FOR THE BLOOD GOD!~
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Nazerine~
+Desc The severed head of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Nazerine~
+Desc The sliced-off arm of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Zerocool~
+Desc The sliced-off arm of Zerocool is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Clodius~
+Desc The sliced-off arm of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Clodius~
+Desc The sliced-off arm of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Clodius~
+Desc The sliced-off arm of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Nazerine~
+Desc The sliced-off arm of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Nazerine~
+Desc The sliced-off arm of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Nazerine~
+Desc The sliced-off arm of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 2
+ShD  the arm of Nazerine~
+Desc The sliced-off arm of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Clodius~
+Desc The sliced-off leg of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Clodius~
+Desc The sliced-off leg of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Clodius~
+Desc The sliced-off leg of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Nazerine~
+Desc The sliced-off leg of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Nazerine~
+Desc The sliced-off leg of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Nazerine~
+Desc The sliced-off leg of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Clodius~
+Desc The sliced-off leg of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 17
+Nest 2
+ShD  the brains of Clodius~
+Desc The splattered brains of Clodius are lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 17
+Nest 2
+ShD  the brains of Nazerine~
+Desc The splattered brains of Nazerine are lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 17
+Nest 2
+ShD  the brains of Nazerine~
+Desc The splattered brains of Nazerine are lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 13
+Nest 2
+ShD  the heart of Clodius~
+Desc The torn-out heart of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 13
+Nest 2
+ShD  the heart of Nazerine~
+Desc The torn-out heart of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 16
+Nest 2
+ShD  the guts of Clodius~
+Desc A steaming pile of Clodius's entrails is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 16
+Nest 2
+ShD  the guts of Nazerine~
+Desc A steaming pile of Nazerine's entrails is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Nazerine~
+Desc The severed head of Nazerine is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 2
+ShD  the leg of Tweak~
+Desc The sliced-off leg of Tweak is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 2
+ShD  the head of Clodius~
+Desc The severed head of Clodius is lying here.~
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 0
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 23 0 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 19713
+Wear 5
+Lev  51
+Cost 500
+Cond 100
+Repd 1
+Affect -1 51 -1 17 13 0 0
+End
+
+#O
+Vnum 29242
+Nest 0
+ExtF 2097408
+Wear 10
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 52 -1 27 12 0 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 28105
+Nest 0
+ExtF 2113542
+Wear 16
+Lev  53
+Cost 35000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 286
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9923
+Nest 0
+ExtF 1048579
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9924
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 254
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 281
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 159
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 238
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 172
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 219
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 198
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 166
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 98
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 154
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 227
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Time 223
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#END

@@ -1,0 +1,533 @@
+#PLAYER
+Name Optimus~
+Id   37924
+LogO 947796047
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  1
+Cast none
+Levl 27
+Plyd 162889
+ListRemorts ~
+NumRemorts 0
+Note 945439280
+Scro 22
+Room 3755
+HMV  195 367 207 207 255 255
+NewGold 60362
+NewPlat 0
+NewCopp 11
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  63374
+Act  222
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Save  -3
+Alig  9
+Hit   10
+Dam   29
+ACs -19 -23 -63 79
+Wimp  30
+Attr 18 16 13 12 19
+AMod 8 0 -1 2 1
+Pass OpHSfbiIEdwPY~
+Titl  the Dragon Slayer~
+Pnts 40
+TSex 1
+LLev 38
+HMVP 347 207 256
+Cond 0 44 44
+Sk 48 'armor'
+Sk 61 'bless'
+Sk 37 'cancellation'
+Sk 37 'cause light'
+Sk 77 'cure light'
+Sk 84 'cure serious'
+Sk 1 'demonfire'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dispel evil'
+Sk 1 'dispel good'
+Sk 1 'dispel magic'
+Sk 52 'flamestrike'
+Sk 19 'fly'
+Sk 73 'gate'
+Sk 38 'identify'
+Sk 1 'pass door'
+Sk 37 'protection evil'
+Sk 1 'refresh'
+Sk 1 'sanctuary'
+Sk 28 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 1 'summon'
+Sk 1 'teleport'
+Sk 71 'confuse'
+Sk 1 'project'
+Sk 1 'psionic armor'
+Sk 28 'pyrotechnics'
+Sk 10 'axe'
+Sk 47 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 86 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 14 'kick'
+Sk 70 'parry'
+Sk 1 'rescue'
+Sk 37 'scrolls'
+Sk 1 'staves'
+Sk 51 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild attack'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'bless'  14   0  -3  24          0          0
+AffD 'bless'  14   0   3  18          0          0
+AffD 'shield'  14   2 -20  17          0          0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear -1
+Lev  9
+Cost 1000
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  22
+Cost 1666
+Cond 100
+Repd 0
+Val  7 5 7 -1 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  19
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  5 6 7 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 57
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2805
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  10
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9368 0 0
+End
+
+#O
+Vnum 2366
+Nest 0
+Wear 12
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 142 0 0 0
+End
+
+#O
+Vnum 4449
+Nest 0
+Wear 5
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Affect -1 25 -1 -1 14 0 0
+End
+
+#PET
+Vnum 4465
+Name eagle bird pet~
+Desc The Eagle looks to be a fierce, and agile fighter.
+A neck tag says 'I belong to Optimus'.
+~
+Sex  1
+HMV  357 357 440 440 100 100
+NewCopp 151
+NewSilv 8
+NewGold 120
+AfBy 0
+Comm 7340032
+Pos  8
+ACs  -44 -44 -44 -44
+Attr 20 16 17 19 19
+AMod 0 0 0 0 0
+End
+#END

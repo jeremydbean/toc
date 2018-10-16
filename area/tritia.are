@@ -1,0 +1,3608 @@
+#AREA  {25 50}  BB     Tritia~
+#MOBILES
+#10201
+aboleth~
+the aboleth~
+A horrifying Aboleth stands here.
+~
+You see a slime covered fish-like body with a large
+fluke-like tail which propels it through the water.
+It has a blue-green mottled tail with a pink belly.
+Set in his head are 3 long, slit like, purple red eyes,
+one above each other. Four 10-foot long tentacles grow
+from the corners of his head.
+~
+fish~
+ABCFR DFHL -500 S
+29 5 6d12+778 2d12+263 4d12+8 10
+-9 -9 -9 -9
+DF E H 0
+8 8 0 150
+0 0 L 0
+#10202
+catfish~
+the catfish~
+A large flat catfish swims here.
+~
+You see a large flat fish with a large fin on his back and
+four little ones on his both sides. The catfish has many
+spiny, tentacle-like feelers around his mouth.
+~
+fish~
+AFH GL 0 S
+8 1 2d7+110 2d4+55 2d7+2 10
+0 0 0 0
+H 0 HP S
+8 8 1 0
+0 0 M 0
+#10203
+crab~
+the crab~
+A crab looking for food is here.
+~
+You see a crab with it's long scissors looking for food.
+The crab ignores you completely.
+~
+centipede~
+A L 0 S
+5 0 2d6+60 1d6+30 1d6+0 5
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 S 0
+#10204
+dagahze lathander~
+dagahze of Lathander~
+Dagahze of Lathander stands here.
+~
+Dagahze looks quite intelligent. She knows that you have
+killed tritons. But she is too peaceful to make any problems
+of it. She isn't a triton anyhow, but human. She doesn't wear
+a scuba gear, instead she wears a necklace of adaption. It's
+a very rare item. But you know that you never could kill
+Dagahze.
+~
+human~
+ABDMQ CDEFHLNT 1000 S
+60 25 50d10+9000 50d10+4000 8d6+40 0
+-10 -10 -10 -20
+H ABCEFGHKLMNQRS 0 0
+8 8 2 10000
+0 0 M 0
+#10205
+guardian demon~
+the guardian demon~
+A guardian demon stands here.
+~
+Horrible! This demon must be set here to guard the chest!
+And he doesn't like your face at all.
+~
+undead~
+ABFO FHL -1000 S
+50 85 6d12+12000 6d6+4000 4d60+100 27
+-5 -5 -5 -5
+FO PL 0 0
+8 8 0 3000
+0 0 M 0
+#10206
+eel~
+the eel~
+A long electric eel swims here.
+~
+You see a long eel, with a long fin on his back. You better
+be careful, that you won't be electrified by the electric
+discharges of the eel.
+~
+fish~
+AF L 0 S
+14 0 2d10+190 1d10+95 2d5+4 28
+0 0 0 0
+M 0 0 0
+8 8 0 0
+0 0 M 0
+#10207
+froghemoth~
+the froghemoth~
+A large froghemoth stands here.
+~
+This is a mature tadhemoth. It has a yellow underbelly. Legs
+and four tentacles on the place where a human has his arms.
+The sides are green, and the back, tentacles and upperlegs are
+green. The eyeballs are amber and the vertical pupils are bright
+green edged with orange.
+~
+fish~
+ABFR BCDEFGHJLT -1000 S
+35 15 10d10+3500 5d10+1750 3d12+15 10
+0 0 0 0
+0 0 0 0
+8 8 0 3000
+0 0 L 0
+#10208
+hellhound~
+the hellhound~
+A huge hellhound stands before you.
+~
+The hellhound large dripping teeth are red colored.
+It's unnatural yellow eyes glare banefully at you!
+~
+undead~
+AF DHL -900 S
+45 53 5d10+3550 6d6+3200 3d70+70 10
+0 0 0 0
+0 H 0 0
+8 8 0 250
+0 0 M 0
+#10209
+horse sea-horse~
+the sea-horse~
+A tiny little sea-horse swims here.
+~
+You see a tiny little sea-horse.
+~
+horse~
+AB L 200 S
+5 0 2d6+60 1d6+30 1d6+1 13
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 S 0
+#10210
+ixitxachitl~
+the ixitxachitl~
+A large ixitxachitl swims here.
+~
+You are looking at a race of intelligent rays.
+The ixitxachitl has very sharp teeth and a tail
+covered with barbed hooks. It seems to know how
+to fight.
+~
+fish~
+AF EJHLTV -200 S
+17 5 3d9+260 9d3+130 3d6+6 10
+0 -20 0 0
+HM K O L
+8 8 1 0
+0 0 L 0
+#10211
+kraken~
+the kraken~
+A huge kraken attacks you!
+~
+This kraken is from a race of air- and water breathing squid-
+like creatures. It has 10 barbed tentacles. It is just not
+the monster you wanna see! Better leave this kraken alone.
+~
+water fowl~
+ABFMQR BCDEFGHJLV -1000 S
+45 5 25d10+3000 25d10+3000 4d10+18 27
+0 0 -20 -10
+FH BHLNOPQRS IJM Y
+8 8 1 1000
+0 0 G 0
+#10212
+man~
+the man~
+A man sitting on his chair.
+~
+This is an old looking man. He looks worried,
+but very experienced in dealing with difficult
+situations.
+~
+elf~
+AB D 300 S
+38 3 10d10+1600 10d6+800 5d6+12 0
+0 0 0 0
+0 0 0 0
+8 8 1 500
+0 0 M 0
+#10213
+rat~
+the giant waterrat~
+A huge giant waterrat.
+~
+You see a huge giant waterrat with a very mean face ready
+to bite anything, that comes close enough. At this moment
+it's you that is close enough for it's teeth. This rat has
+a giant form compared to the rats you saw in the sewers.
+~
+fish~
+AF HL -200 S
+14 3 2d10+190 1d10+85 2d5+3 10
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 S 0
+#10214
+lion sea-lion~
+the sea-lion~
+A sea-lion stands on guard.
+~
+You see a lion ready to attack any intruders. At this moment
+you are the one that is under attack.
+~
+fish~
+ABF HL -100 S
+20 0 3d9+333 9d3+150 2d8+5 10
+0 0 0 0
+M 0 0 0
+8 8 0 0
+0 0 M 0
+#10215
+wolf sea-wolf~
+the sea-wolf~
+The sea-wolf looks bored.
+~
+This monster looks like a wolf, acts like a wolf and can
+swim and breathe under water. It has very sharp teeth, so
+be careful.
+~
+fish~
+ABF HL -100 S
+32 5 10d10+1000 5d10+500 6d4+10 10
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 M 0
+#10216
+horse sea-horse~
+the sea-horse~
+A tiny little sea-horse swims here.
+~
+You see a tiny little sea-horse.
+~
+horse~
+AB L 200 S
+7 0 2d6+80 1d6+40 1d8+2 13
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 S 0
+#10217
+septopus~
+the septopus~
+A septopus is here.
+~
+You see a septopus with its long tentacles looking for food.
+It looks like he has chosen you.
+~
+fish~
+ABF HL -300 S
+17 3 3d9+258 1d9+250 3d4+4 8
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 H 0
+#10218
+tadhemoth~
+the tadhemoth~
+A tadhemoth.
+~
+You see the perfect killing machine that has ever been
+produced. It attacks every recognizable food source
+at any time of the day. Be careful that you won't be
+his next dinner.
+~
+fish~
+ABF HL -500 S
+28 5 6d12+800 3d12+400 4d6+7 10
+0 0 0 0
+0 0 0 0
+8 8 0 500
+0 0 M 0
+#10219
+shopkeeper keeper~
+the shopkeeper~
+A shopkeeper stands here in his shop.
+~
+You are looking at the shopkeeper
+~
+goblin~
+ABQV H 500 S
+40 10 15d10+2000 10d10+1000 3d12+14 0
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 0 1000
+0 0 T 0
+#10220
+triton soldier~
+the triton soldier~
+A triton soldier stands on guard.
+~
+You see a young triton soldier. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+The triton is surprised to see you and therefore decides
+to defend his society.
+~
+fish~
+ABF HL 200 S
+10 0 2d7+121 1d8+60 2d4+2 10
+0 0 0 0
+0 0 0 0
+8 8 1 100
+0 0 M 0
+#10221
+triton archer~
+the triton archer~
+A triton archer stands on guard.
+~
+You see a young triton archer. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+~
+fish~
+ABF HL 200 S
+11 0 2d8+134 1d8+65 1d10+2 10
+0 0 0 0
+0 0 0 0
+8 8 1 150
+0 0 M 0
+#10222
+triton captain~
+the triton captain~
+A triton captain stands on guard.
+~
+You see an experienced triton captain. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+It looks like he knows how to use a weapon!
+~
+fish~
+ABF HL 200 S
+15 0 3d9+250 1d8+125 2d10+2 10
+0 0 0 0
+0 0 0 0
+8 8 1 200
+0 0 M 0
+#10223
+triton lieutenant~
+the triton lieutenant~
+A triton lieutenant stands on guard.
+~
+You see an experienced triton lieutenant. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+~
+fish~
+ABF HL 200 S
+15 0 3d9+250 1d8+125 2d10+2 10
+0 0 0 0
+0 0 0 0
+8 8 1 200
+0 0 M 0
+#10224
+triton councellor~
+the triton councellor~
+A triton councellor protects the king.
+~
+You see an old triton councellor. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+It looks like he want's to defend the king with his life!
+~
+fish~
+ABF HL 200 S
+23 0 5d9+450 3d8+225 5d4+2 10
+0 0 0 0
+0 0 0 0
+8 8 1 400
+0 0 M 0
+#10225
+triton king~
+the triton king~
+A triton king sits on his throne.
+~
+You see an experienced triton king. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+~
+fish~
+ABF HL 200 S
+27 0 5d10+650 3d10+325 2d12+8 10
+0 0 0 0
+0 0 0 0
+8 8 1 700
+0 0 M 0
+#10226
+triton sergeant~
+the triton sergeant~
+A triton sergeant stands on guard.
+~
+You see an experienced triton seargeant. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+~
+fish~
+ABF HL 200 S
+12 0 2d10+120 1d10+60 2d6+8 10
+0 0 0 0
+0 0 0 0
+8 8 1 175
+0 0 M 0
+#10227
+triton shaman~
+the triton shaman~
+A triton shaman stands here.
+~
+You see an wise triton shaman. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+~
+fish~
+ABFR HL 200 S
+19 0 3d10+320 2d10+160 2d6+8 10
+0 0 0 0
+0 0 0 0
+8 8 1 275
+0 0 M 0
+#10228
+triton sorcerer~
+the triton sorcerer~
+A triton sorcerer stands here.
+~
+You see an old looking triton sorcerer. It has a silvery skin,
+which fades into silvery blue scales on their lower limbs.
+Looks like he knows his ways with magic!
+~
+fish~
+ABFR HL 200 S
+26 0 5d10+600 2d10+300 3d6+8 10
+0 0 0 0
+0 0 0 0
+8 8 1 1175
+0 0 M 0
+#10229
+treant~
+the treant~
+A treant stands here.
+~
+You see a living tree. It is standing very peaceful and
+observes you. Normally they are indisinguishable from
+trees. You must look very closely to see the treant.
+~
+tree~
+AB HL 200 S
+26 2 5d10+600 2d10+300 3d6+8 10
+0 0 0 0
+0 0 0 0
+8 8 0 0
+0 0 M 0
+#10230
+maid~
+the maid~
+The maid is waiting for your order.
+~
+She is very beautiful with golden hair, and deep blue eyes. A good reason
+for coming here more often.
+~
+elf~
+ABMQ HLN 1000 S
+23 2 5d10+450 2d12+225 3d6+3 10
+0 0 0 0
+EF ABCDEFGHIJKLMNOPQRS 0 0
+8 8 2 0
+0 0 M 0
+#0
+
+#OBJECTS
+#10200
+dagger~
+A short-bladed Triton dagger~
+A short-bladed Triton dagger lies here.~
+steel~
+5 0 AN
+2 2 6 11 0
+-1 3 500 P
+E
+dagger~
+You see a short-bladed weapon, with a blade from 20 cm long.
+This dagger is sharp on one side of the edge.
+~
+A 12 -10
+#10201
+dagger~
+A long-bladed Triton dagger~
+A long-bladed Triton dagger lies here.~
+steel~
+5 0 AN
+2 2 7 11 0
+-1 4 600 P
+E
+dagger~
+You see a long-bladed weapon, with a blade from 40 cm long.
+This dagger is sharp on both sides of the edge.
+~
+A
+12 -5
+#10202
+kris~
+A wickedly curved Triton kris~
+A wickedly curved Triton kris lies here.~
+steel~
+5 ABFJ AN
+2 3 6 11 A
+-1 4 3000 P
+E
+kris~
+You see a short curved weapon, with a very sharp concave
+edge.
+~
+A
+2 2
+A
+18 4
+A
+19 6
+#10203
+sceptre golden~
+A golden sceptre~
+A golden sceptre lies here.~
+gold~
+5 AJ AN
+4 4 5 8 0
+-1 4 8000 P
+E
+sceptre~
+You see a long golden sceptre. It looks very powerful.
+~
+A 1 1
+A 18 3
+A 19 3
+A 9 40
+#10204
+rapier~
+A triton rapier~
+A triton rapier lies here.~
+bronze~
+5 B AN
+1 2 8 3 0
+-1 8 2000 P
+E
+rapier~
+You see a short-bladed weapon, with a blade of 70 cm.
+This rapier is sharp on both sides of the edges.
+~
+A
+14 30
+#10205
+longsword long sword~
+A triton longsword~
+A triton longsword lies here.~
+steel~
+5 E AN
+1 2 8 3 0
+-1 10 4000 P
+E
+longsword~
+You see a long-bladed weapon, with a blade of 150 cm.
+This rapier is sharp on both sides of the edges.
+~
+#10207
+tri trident~
+A Triton trident~
+A Triton trident lies here.~
+steel~
+5 E AN
+8 2 5 2 0
+-1 7 1000 P
+E
+tri trident~
+You see a long spear with three sharp points at the end.
+~
+#10208
+whip six six-headed~
+A six-headed whip~
+A six-headed whip lies here.~
+leather~
+5 ABGIKLUVZ AG AP
+7 6 9 4 B
+-1 25 60000 P
+E
+six-headed six whip~
+You see a long whip, made from the finest leather.
+It has six heavy spided weights at the end.
+~
+A
+1 2
+A
+4 2
+A
+12 20
+A
+18 5
+A
+19 5
+A
+23 -5
+#10211
+potion yellow~
+a yellow potion of see invisible~
+A small yellow potion has carelessly been left here.~
+glass~
+10 G A
+15 19 0 0 0
+7 1 400 P
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#10212
+potion red~
+an red potion of cure poison~
+A small red potion has carelessly been left here.~
+glass~
+10 G A
+15 43 33 33 0
+11 1 500 P
+E
+potion red~
+The potion has a small label 'Remove All Poison'.
+~
+#10213
+potion black~
+a black potion of cure blind~
+A small black potion has carelessly been left here.~
+glass~
+10 G A
+30 14 4 14 0
+11 1 2200 P
+E
+potion black~
+The potion has a small label 'Return Vision'.
+~
+#10214
+potion green~
+a green potion of detect hidden~
+A small green potion has carelessly been left here.~
+glass~
+10 G A
+30 44 19 0 0
+20 1 8600 P
+E
+potion green~
+The potion has a small label 'Detect The Hidden'.
+~
+#10215
+potion white~
+a white potion of sanctuary~
+A large white potion has carelessly been left here.~
+glass~
+10 G A
+30 36 3 0 0
+30 1 37000 P
+E
+potion white~
+The potion has a small label 'Sanctuary'.
+~
+#10216
+yellow gem~
+a yellow gem~
+A tiny yellow gem has carelessly been left here.~
+stone~
+8 A A
+0 0 0 0 0
+-1 1 390 P
+#10217
+bright red gem~
+a bright red gem~
+A bright red gem has carelessly been left here.~
+stone~
+8 A A
+0 0 0 0 0
+-1 1 280 P
+#10218
+dull blue gem~
+a dull blue gem~
+A large dull blue gem has carelessly been left here.~
+stone~
+8 C A
+0 0 0 0 0
+-1 1 100 P
+#10219
+green gem~
+a green gem~
+A green gem has carelessly been left here.~
+stone~
+8 0 A
+0 0 0 0 0
+-1 1 390 P
+#10220
+wand~
+a wand of teleportation~
+A wand of teleportation has carelessly been left here.~
+wood~
+3 BG AO
+20 2 2 2 0
+30 2 4000 P
+A
+12 25
+#10221
+rod~
+a rod of healing~
+A rod of healing has carelessly been left here.~
+brass~
+3 BG AO
+20 2 2 28 0
+30 2 20000 P
+#10223
+boots metal~
+A pair of metal boots~
+A pair of metal boots lies here.~
+steel~
+9 0 AG
+6 6 4 4 0
+-1 3 2000 P
+E
+boots metal~
+This pair of metal boots looks great. The person who
+made it, must be an craftsman. Not the item you would
+find on a normal citizen.
+~
+A
+3 1
+#10224
+gauntlets metal~
+a pair of metal gauntlets~
+A pair of metal gauntlets is lying on the ground.~
+steel~
+9 0 AH
+6 6 4 4 0
+-1 5 1000 P
+E
+gauntlets metal~
+This pair of metal gauntlets looks great. The person who
+made it, must be an craftsman. Not the item you would
+find on a normal citizen.
+~
+#10225
+red cloak~
+a red cloak~
+A red cloak lies on the ground.~
+cloth~
+9 GJ AC
+5 2 2 8
+-1 2 1000 P
+E
+red cloak~
+A strange color for the cloak: red. Who wants to walk
+with a red cloak?
+~
+A
+13 30
+#10226
+shell kraken~
+A kraken shell~
+A kraken shell lies on the ground.~
+adamantite~
+9 ABGJLZ ADE AD
+10 20 15 10 0
+-1 20 10000 P
+E
+shell kraken~
+This is a shell of great thickness and durability.
+The armour gives a red light. That's why it's light
+in this room. This must be an extremely good item.
+~
+A
+2 3
+A
+18 1
+A
+19 -2
+#10227
+necklace adaption~
+A necklace of adaption~
+A necklace of adaption hums here.~
+steel~
+9 ABFGIKLUVZ AH AC
+8 8 7 3 0
+-1 2 10000 P
+E
+necklace adaption~
+This necklace looks tiny. You can't see anything special about
+it, exept that it glows , hums and gives you a feeling of goodness,
+but you have the feeling that it is an important item. You know
+who the owner was of this necklace. So it must be special.
+~
+A
+5 1
+A
+4 2
+A
+12 35
+#10228
+ring silver tiny~
+a tiny silver ring~
+A tiny silver ring lies here~
+silver~
+9 ABGI AB
+5 3 6 10 0
+-1 1 10000 P
+E
+ring silver tiny~
+This ring looks tiny. You can't see anything special about
+it, except that it glows, hums and gives you a feeling of
+goodness, but you know that it is an important item. You
+know who the owner was of this ring. So it must be special.
+~
+A
+1 2
+#10229
+soft silk robe~
+a soft silk robe~
+A soft silk robe lies here.~
+cloth~
+9 A AK
+7 2 4 8 0
+-1 5 8000 P
+E
+soft silk robe~
+The robe feels very soft. This robe is a piece of craftmanship.
+You feel very lucky that the person who carried it was so
+generous to let go off it.
+~
+A
+3 2
+A
+17 -10
+#10230
+scale~
+a scale~
+A scale lies here.~
+steel~
+9 0 AD
+3 3 3 3 0
+-1 2 750 P
+E
+scale~
+This scale looks quite normal. You can't find anything
+unusual about it.
+~
+#10231
+scale~
+a scale~
+A scale lies here.~
+steel~
+9 0 AD
+4 4 4 4 0
+-1 3 1000 P
+E
+scale~
+This scale looks normal. You can't find anything
+unusual about it.
+~
+#10232
+bracers defence~
+bracers of defence~
+A pair bracers of defence lies here.~
+steel~
+9 AG AM
+10 10 10 10 0
+-1 7 8000 P
+E
+bracers defence~
+These bracers look quite normal. You can't find anything
+unusual about it.
+~
+A
+17 -15
+A
+18 -1
+#10233
+scuba gear~
+a scuba gear~
+A scuba gear lies here.~
+steel~
+29 0 AK
+0 0 0 0 0
+15 3 1000 P
+E
+scuba gear~
+This item gives you the possibility to breathe under water.
+~
+#10234
+wooden rod~
+a wooden fishing rod~
+A wooden fishing rod lies here.~
+wood~
+5 0 AO
+4 1 6 7 0
+15 3 200 P
+E
+wooden rod~
+The perfect item to go fish hunting.
+~
+#10235
+potion purple~
+a purple potion of cure light~
+A small purple potion has carelessly been left here.~
+glass~
+10 G A
+10 16 0 0 0
+17 1 200 P
+E
+potion purple~
+The potion has a small label 'Cure light'.
+~
+#10236
+potion magenta~
+a magenta potion of cure serious~
+A small purple potion has carelessly been left here.~
+glass~
+10 G A
+15 61 0 0 0
+17 1 2000 P
+E
+potion magenta~
+The potion has a small label 'Cure serious'.
+~
+#10237
+potion brown~
+a brown potion of cure critical~
+A small brown potion has carelessly been left here.~
+glass~
+10 G A
+20 15 0 0 0
+19 1 5000 P
+E
+potion brown~
+The potion has a small label 'Cure critical'.
+~
+#10238
+potion yellow~
+a yellow potion of healing~
+A small yellow potion has carelessly been left here.~
+glass~
+10 G A
+25 28 0 0 0
+33 1 37000 P
+E
+potion yellow~
+The potion has a small label 'Healing'.
+~
+#10239
+potion orange~
+an orange potion of healing~
+A small orange potion has carelessly been left here.~
+glass~
+10 G A
+30 4 2 4 0
+17 1 10000 P
+E
+potion orange~
+The potion has a small label 'Healing'.
+~
+#10240
+chest~
+A large chest~
+A large chest stands in a corner.~
+wood~
+15 0 0
+100 29 10262 0 0
+30 10 50 P
+E
+chest~
+The chest is well secured against the ground.
+~
+#10242
+tea cup~
+a cup of tea~
+A cup has been set here.~
+glass~
+17 0 A
+2 2 11 0 0
+5 3 10 P
+E
+cup~
+It is a small simple cup.
+~
+#10243
+potpie pot pie~
+a big pot pie~
+A big pot pie has been left here.~
+food~
+19 0 A
+40 0 0 0 0
+5 3 20 P
+#10244
+agate bracelet~
+an agate bracelet~
+An agate bracelet has been left here.~
+steel~
+9 G AM
+3 3 3 3 0
+-1 5 1000 P
+A
+18 3
+A
+19 3
+A
+1 -1
+#10250
+gold coins~
+the gold~
+A lot of gold is here.~
+gold~
+20 0 A
+23958 0 0 0 0
+-1 0 0 P
+#10251
+gold coins~
+the gold~
+A lot of gold is here.~
+gold~
+20 0 A
+14371 0 0 0 0
+-1 0 0 P
+#10252
+gold coins~
+the gold~
+A lot of gold is here.~
+gold~
+20 0 A
+2345 0 0 0 0
+-1 0 0 P
+#10253
+gold coins~
+the gold~
+gold is here.~
+gold~
+20 0 A
+110 0 0 0 0
+-1 0 0 P
+#10254
+gold coins~
+the gold~
+gold is here.~
+gold~
+20 0 A
+50 0 0 0 0
+-1 0 0 P
+#10255
+gold coins~
+the gold~
+gold is here.~
+gold~
+20 0 A
+20 0 0 0 0
+-1 0 0 P
+#10256
+gold coins~
+the gold~
+gold is here.~
+gold~
+20 0 A
+5 0 0 0 0
+-1 0 0 P
+#10260
+key golden~
+the golden key~
+A golden key lies here.~
+gold~
+18 G A
+15 0 0 0 0
+-1 1 100 P
+#10261
+key diamond~
+the diamond key~
+A diamond key lies here.~
+stone~
+18 G A
+20 0 0 0 0
+-1 1 100 P
+#10262
+key wooden~
+the wooden key~
+A wooden key lies here.~
+wood~
+18 0 A
+20 0 0 0 0
+-1 1 100 P
+#10263
+key metal~
+the metal key~
+A metal key lies here.~
+steel~
+18 0 A
+20 0 0 0 0
+-1 1 100 P
+#10264
+leggings leather~
+a pair of leather leggings~
+A pair of leather leggings lies here.~
+leather~
+9 GHM AF
+4 4 4 4 0
+30 10 1000 P
+E
+leggings leather~
+You feel the EVIL spirit in this item.
+Maybe it's wise to leave this item on his place!
+~
+A
+9 30
+A
+18 -2
+A
+19 -2
+A
+12 200
+A
+13 -200
+#10265
+shield defense~
+a shield of defense~
+A shield of defense lies here.~
+steel~
+9 G AJ
+15 15 15 10 0
+-1 10 10000 P
+E
+shield defense~
+It looks great!
+~
+A
+17 -25
+#0
+#ROOMS
+#10200
+The beach~
+Some crabs are searching for some food on the warm pink sand.
+If you extend your sight to the sea, you can see a ship
+far away. To the west you can see a small cabin, and to
+the south the beach extends.
+~
+102 C 2
+D 0
+You see the tower of Siptah.
+~
+~
+0 0 29501
+D 1
+You see the concourse.
+~
+~
+0 -1 5800
+D 2
+The beach extends.
+~
+~
+0 -1 10201
+D 3
+It has been made of stone, only it has a wooden roof.
+The door is open and you see a man sitting on his chair
+As he sees you, he stands up.
+~
+~
+0 -1 10205
+E
+sand~
+It looks like normal sand, only the colour is very
+strange. It is pink.
+~
+E
+cabin~
+It has been made of stone, only it has a wooden roof.
+The door is open and you see a man sitting on his chair
+As he sees you, he stands up.
+~
+E
+shell shells~
+They don't look very valuable.
+~
+E
+water~
+The water looks clean.
+~
+E
+door~
+It's open.
+~
+E
+sea~
+It contains a lot of water.
+~
+E
+chair~
+The white chair has been made of wood. A cushion
+has been placed on it.
+~
+E
+roof~
+The roof has been made of wood.
+~
+E
+cushion~
+It's red.
+~
+E
+ship~
+You can't see anything particular.
+~
+E
+beach~
+You see some pink shells on the pink beach.
+~
+S
+#10201
+The beach~
+Some crabs are searching for some food on the warm pink sand.
+The beach extends to the north and south. The sea is to the east.
+~
+102 0 2
+D 0
+The beach extends.
+~
+~
+0 -1 10200
+D 2
+The beach extends.
+~
+~
+0 -1 10202
+E
+sand~
+It looks like normal sand, only the colour is very
+strange. It is pink.
+~
+E
+shell shells~
+They don't look very valuable.
+~
+E
+water~
+The water looks clean.
+~
+E
+sea~
+It contains a lot of water.
+~
+E
+beach~
+You see some pink shells on the pink beach.
+~
+S
+#10202
+The beach~
+Some crabs are searching for some food on the warm pink sand.
+The beach extends to the north and south. The sea is to the east.
+~
+102 0 2
+D 0
+The beach extends.
+~
+~
+0 -1 10201
+D 2
+The beach extends.
+~
+~
+0 -1 10203
+E
+sand~
+It looks like normal sand, only the colour is very
+strange. It is pink.
+~
+E
+shell shells~
+They don't look very valuable.
+~
+E
+water~
+The water looks clean.
+~
+E
+sea~
+It contains a lot of water.
+~
+E
+beach~
+You see some pink shells on the pink beach.
+~
+S
+#10203
+The beach~
+Some crabs are searching for some food on the warm pink sand.
+To the east you see a small house with a sign on it.
+The beach extends to the north and south.
+~
+102 0 2
+D 0
+The beach extends.
+~
+~
+0 -1 10202
+D 1
+You see a small house with a sign on it.
+~
+~
+0 -1 10206
+D 2
+The beach extends.
+~
+~
+0 -1 10204
+E
+sand~
+It looks like normal sand, only the colour is very
+strange. It is pink.
+~
+E
+shell shells~
+They don't look very valuable.
+~
+E
+beach~
+You see some pink shells on the pink beach.
+~
+E
+house~
+The house is made of stone. It has a
+wooden roof. There is a sign on the house.
+~
+E
+roof~
+It has been made of wood.
+~
+E
+sign~
+It has been made of ordinary wood. There are some
+words written on it in black paint. It says:
+Tritia diving company.
+~
+E
+paint~
+It's black paint.
+~
+E
+words~
+The words has been written in black paint.
+It says: Tritia diving company.
+~
+S
+#10204
+The beach~
+Some crabs are searching for some food on the warm pink sand.
+The beach extends to the north. The sea is to the east.
+There is a cliff to they south. It's unclimable.
+~
+102 0 2
+D 0
+The beach extends.
+~
+~
+0 -1 10203
+E
+sand~
+It looks like normal sand, only the colour is very
+strange. It is pink.
+~
+E
+shell shells~
+They don't look very valuable.
+~
+E
+water~
+The water looks clean.
+~
+E
+sea~
+It contains a lot of water.
+~
+E
+beach~
+You see some pink shells on the pink beach.
+~
+E
+cliff~
+If I say it's unclimable, then it is unclimable.
+~
+S
+#10205
+The small cabin~
+You are in a small cabin. It is barely furnished with
+a table and some chairs. There is a painting on the wall
+A man is sitting on one of those chairs.
+~
+102 D 0
+D 1
+You see the beach
+~
+~
+0 -1 10200
+E
+table~
+The green table has been made of wood. A vase with
+tulips has been placed on it.
+~
+E
+chair chairs ~
+The white chair has been made of wood. A cushion
+has been placed on it.
+~
+E
+lady~
+She looks quite pretty.
+~
+E
+vase~
+It's a green vase.
+~
+E
+tulips~
+You see black tulips.
+~
+E
+necklace~
+It must be very special.
+~
+E
+cushion~
+It's red.
+~
+E
+painting~
+The painting shows a lady with a necklace.
+~
+S
+#10206
+Tritia diving company shop~
+Welcome in the Tritia diving company shop.
+We offer you a complete set of diving equipment for
+only 100 coins. You can also buy a rod.
+The shopkeeper smiles tenderly at you and whistles
+a nice tune. A list is hanging above his head.
+To the south you see a pier.
+~
+102 D 0
+D 3
+You see the beach.
+~
+~
+0 -1 10203
+D 2
+You see the pier.
+~
+~
+0 -1 10210
+E
+list~
+Scuba gear:              100 coins.
+A wooden fishing rod:    100 coins.
+The items are tax-free.
+~
+E
+pier~
+You see some people preparing for a dive.
+Maybe you should go also.
+~
+S
+#10210
+The pier~
+You are on a high pier. This pier has been made out of wooden
+boards. You can see the water through the slits in the boards.
+There is a ladder, which goes down into the water. Far to the
+east you can see a little ship, and the pink beach is to the west.
+You guess it's 3 meters below you, so you can't go west.
+The Tritia fishing company shop is to the north.
+~
+102 C 1
+D 0
+You see the Tritia fishing company shop.
+~
+~
+0 -1 10206
+D 5
+You see a ladder going down.
+~
+~
+0 -1 10211
+E
+pier~
+This pier has been made out of wooden boards.
+You can see the water through the slits in
+the boards.
+~
+E
+ladder~
+The ladder goes down into the water. The ladder
+has been made of iron steel. It seems that it has
+been build by a person, who has taken great pains
+about it.
+~
+E
+boards~
+They are made of olm wood.
+~
+E
+slits~
+You see the water through it.
+~
+E
+steel~
+It feels cold.
+~
+E
+water~
+The water seems very deep.
+~
+E
+ship~
+It's too far away to distinguish something.
+~
+E
+beach~
+It's a lovely pink colored beach.
+~
+E
+store~
+The store has been made of stone, with a wooden
+roof. The shopkeeper looks at you in the shop.
+~
+E
+roof~
+It's a wooden roof.
+~
+S
+#10211
+The stairs~
+You see the ladder, which goes up and down. You can see it is
+very light above you. Some fish are a bit surprised to see you.
+You feel that you are an intruder in this world.
+~
+102 0 8
+D 4
+You see the pier.
+~
+~
+0 -1 10210
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10212
+E
+ladder~
+The ladder has been made of iron steel.
+It looks very solid and gives you a feeling
+of safety.
+~
+E
+fish~
+Just ordinary fish, you also get for dinner at
+the pubs. But they are too fast for you to catch.
+~
+S
+#10212
+The stairs~
+You see the ladder, which goes up and down. You can see it
+is light above you. You notice that the ladder has been
+attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10211
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10213
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10213
+The stairs~
+You see the ladder, which goes up and down. You can see
+because of some flickering stones. You notice that the
+ladder has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10212
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10214
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10214
+The stairs~
+You see the ladder, which goes up and down. You can see it
+is light above you. You notice that the ladder now has been
+attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10213
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10215
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10215
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of some flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall. To the west you see a cave
+entrance.
+~
+102 0 8
+D 3
+You see a yellow cave.
+~
+~
+0 -1 10230
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10214
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10216
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+That's why you can see here.
+~
+E
+cave~
+The cave looks yellow. Just as you want to look
+down you see something moving. You immediately
+recognize it as a sea-horse. A very small one.
+~
+S
+#10216
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10215
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10217
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10217
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10216
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10218
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10218
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10217
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10219
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10219
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall. You see a cave entrance to the
+east.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10218
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10220
+D 1
+You see a red cave.
+~
+~
+0 -1 10240
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+There are some flickering stones in the wall.
+That's why you can see here.
+~
+E
+cave~
+The cave seems to color red. You just manage to
+see something moving in the cave. You are not sure
+but you think that you saw tadhemoths. As you
+think about that, you realize that tadhemoths are
+baby froghemoths. But that doesn't mean that they
+are easy.
+~
+S
+#10220
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10219
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10221
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10221
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10220
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10222
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10222
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall. You see a cave entrance to the
+west.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10221
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10223
+D 3
+The cave has been lit by torches in the wall! Strange,
+burning torches in the wall. How can they burn under water?
+~
+~
+0 -1 10250
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+There are some flickering stones in the wall.
+That's why you can see here.
+~
+E
+cave~
+The cave has been lit by torches in the wall! Strange,
+burning torches in the wall. How can they burn under water?
+~
+S
+#10223
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10222
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10224
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10224
+The stairs~
+You see the ladder, which goes up and down. You can see because
+of the flickering stones in the wall. You notice that the ladder
+has been attached to a rock wall. You see also some slight traces
+of blood on the ladder.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10223
+D 5
+You see the ladder going down.
+~
+~
+0 -1 10225
+E
+ladder~
+The ladder has been made out of iron steel.
+It gives you a feeling of safety. You see
+also some slight traces of blood.
+~
+E
+wall walls~
+You see some flickering stones in the wall.
+~
+S
+#10225
+The stairs above the kraken lair~
+You are on a ladder, which goes up and down. Light is coming from
+below. The ladder has been attached to the rockwall. The walls
+contain traces of slime and blood. Looking down you see a very
+strong and aggressive monster: THE KRAKEN! It is feared by all
+mortal beings.
+~
+102 0 8
+D 4
+You see the ladder going up.
+~
+~
+0 -1 10224
+D 5
+As you look down, you see what reminds you of the Kraken.
+It's a very strong aggressive monster, and you better be
+wise and go up, because it's feared by all mortal beings.
+And that includes YOU!
+~
+~
+0 -1 10226
+E
+ladder~
+The ladder has been made out of iron steel.
+It should have given you a feeling of safety, but
+it doesn't!
+~
+E
+walls wall~
+Traces of slime and blood are on the wall!
+You know sure it is not a long time ago, that something
+tried to get to this room by the ladder, but the Kraken
+didn't like that! Seems that he/she/it didn't make it.
+You don't see any stones on the walls. It must be the
+light from below that lights the room.
+~
+E
+slime blood~
+You know sure it is not a long time ago, that something
+tried to get to this room by the ladder, but the Kraken
+didn't like that! Seems that he/she/it didn't make it.
+~
+S
+#10226
+The kraken lair~
+AAAAAAAAARRRRGGGGHHHHH, The KRAKEN lair.
+You wish that you are on another part of the mud,
+but you aren't. The Kraken doesn't wait anyway.
+You just notice that the exit is UP!!!!
+~
+102 0 8
+D 4
+You see the stairs going up.
+~
+~
+0 -1 10225
+E
+ladder~
+The ladder has been made of iron steel.
+It is covered by slime.
+~
+E
+wall~
+The wall is covered by slime and blood.
+~
+S
+#10230
+The yellow cave~
+You are in a large yellow cave in the rock wall.
+You see that the cave extends to the west and north.
+To the east you see the ladder. This place gives you a
+feeling of peace.
+~
+102 A 8
+D 0
+The cave extends to the north.
+~
+~
+0 -1 10231
+D 1
+You see a ladder going up and down.
+~
+~
+0 -1 10215
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10232
+E
+ladder~
+The ladder has been made out of iron steel.
+Looks very solid.
+~
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10231
+The yellow cave~
+You are in a dead end of the large yellow cave.
+You see that the cave extends to the south.
+This place gives you a feeling of peace.
+~
+102 A 8
+D 2
+The cave extends to the south.
+~
+~
+0 -1 10230
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10232
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west, south
+and east. This place gives you a feeling of peace.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10230
+D 2
+The cave extends to the south.
+~
+~
+0 -1 10233
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10236
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10233
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west and north.
+This place gives you a feeling of peace.
+~
+102 A 8
+D 0
+The cave extends to the north.
+~
+~
+0 -1 10232
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10234
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10234
+The yellow cave~
+You are in a dead end of the large yellow cave.
+You see that the cave extends to the east.
+This place gives you a feeling of peace.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10233
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10235
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west and east.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10234
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10236
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10236
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west and east.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10232
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10237
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10237
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west and east.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10236
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10238
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10238
+The yellow cave~
+You are in a large yellow cave.
+You see that the cave extends to the west and east.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10237
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10239
+E
+wall walls~
+The wall is slippery and wet.
+~
+S
+#10239
+The Aboleth cave~
+You are in a dead end of the large yellow cave.
+You realize that this is the place where an aboleth
+lives. If he's not at home, you're lucky. The aboleth
+is mean and aggressive. There are skulls everywhere.
+~
+102 A 8
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10238
+E
+wall walls~
+The wall is slippery and wet.
+~
+E
+skull skulls~
+Look like human skulls. But where's the owner of it?
+~
+S
+#10240
+The red cave~
+You are in a red cave. The walls are reflecting the light.
+You noticed that you have found a tadhemoth lair.
+The cave extends to the east and north. To the west lies
+the ladder, which goes up and down.
+The water is here a bit cold.
+~
+102 0 8
+D 0
+The cave extends to the north.
+~
+~
+0 -1 10241
+D 1
+The cave extends to the east.
+~
+~
+0 -1 10244
+D 3
+You see the ladder, which goes up and down.
+~
+~
+0 -1 10219
+E
+wall~
+The walls are giving a yellow light. At least enough for
+you to see the room.
+~
+E
+light~
+It is a yellow light.
+~
+E
+water~
+The water seems to be a bit cold.
+~
+E
+ladder~
+It is well secured against the wall.
+It gives you a feeling of safety.
+~
+S
+#10241
+The red cave~
+You are in a red cave. The walls are reflecting the light.
+You notice that you are in a tadhemoth lair.
+The water is here a bit cold. There are some skeletons
+lying on the ground.
+~
+102 0 8
+D 0
+The cave extends to the north.
+~
+~
+0 -1 10242
+D 1
+The cave extends to the east. You just notice that the
+skeletons lie in the same direction.
+~
+~
+0 -1 10243
+D 2
+The cave extends to the south.
+~
+~
+0 -1 10240
+E
+wall walls~
+The wall is giving just enough light for you to see
+the room.
+~
+E
+skeletons skeleton~
+You don't recognize much, but you have the
+feeling that they have died.
+~
+E
+lair~
+You have the feeling that the actual lair is to the
+east. There are also skeletons lying in the east corner.
+~
+S
+#10242
+The red cave~
+You are in a red cave. The walls are reflecting the light.
+You notice that you are in a tadhemoth lair.
+The water is here a bit cold. There lies a broken sword
+on the ground.
+~
+102 0 8
+D 2
+The cave extends to the south.
+~
+~
+0 -1 10241
+E
+sword~
+It used to be a perfect sword, but now it's broken.
+~
+E
+wall walls~
+The wall is giving just enough light for you to see.
+~
+E
+lair~
+You have the feeling that this isn't the place where
+you are looking for.
+~
+S
+#10243
+The red cave~
+You are in a red cave. The walls are reflecting the light.
+You just found a very old tadhemoth. You recognize it
+is a froghemoth, and that a tadhemoth is just a baby
+froghemoth. The exit is west.
+~
+102 0 8
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10241
+E
+wall walls~
+The wall is just giving enough light for you to see.
+~
+S
+#10244
+The red cave~
+You are in a red cave. The walls are reflecting the light.
+You notice that you are in a tadhemoth lair.
+The water is here a bit cold.
+~
+102 0 8
+D 3
+The cave extends to the west.
+~
+~
+0 -1 10240
+E
+sword~
+It used to be a perfect sword, but now it's broken.
+~
+E
+wall walls~
+The wall is giving just enough light for you to see.
+~
+E
+lair~
+You have the feeling that this isn't the place where
+you are looking for.
+~
+S
+#10250
+The tunnel~
+You are in what seems to be a tunnel. This place is lighted
+by some kind of torches in the south wall. If you look
+west you see something strange. You see that the tunnel
+crosses with another tunnel. But it isn't a tunnel with
+water. It's a tunnel with air! It must have been build
+to block sea-animals to get through the tunnel. Luckily
+you don't have problems with air! To the east you see
+the ladder.
+~
+102 0 8
+D 1
+You see the ladder, which goes up and down.
+~
+~
+0 -1 10222
+D 3
+You see a crossing in the tunnels.
+~
+~
+0 -1 10251
+E
+ladder~
+The ladder has been made out of iron steel.
+It looks very solid, and gives you a feeling of safety.
+~
+E
+wall~
+You discover nothing special.
+~
+E
+water~
+You don't think you could drink it.
+~
+E
+torch torches~
+A fire burning in a bowl.
+~
+E
+tunnel~
+It must have been build many years ago.
+~
+E
+air~
+You can breathe the air.
+~
+S
+#10251
+The crossing~
+You are on a cross-road of 2 tunnels. One is heading
+east-west. Then you must enter the water again. One is
+heading north-south. This room belongs to the north-south
+tunnel because it has no water. More strange is it that
+there are trees, plants and birds. It smells good in this
+place. You know it must be a wall against sea-animals on
+the east-west tunnel.
+~
+102 0 0
+D 0
+The tunnel extends to the north.
+~
+~
+0 -1 10281
+D 1
+The tunnel extends to the east.
+~
+~
+0 -1 10250
+D 2
+The tunnel extends to the south.
+~
+~
+0 -1 10280
+D 3
+The tunnels extends to the west.
+~
+~
+0 -1 10252
+E
+water~
+The water seems blocked by the air to come in
+in this room.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+trees~
+You see only birch trees.
+~
+E
+tree~
+You see a birch.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. There must be
+springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful birds you have
+ever seen! Maybe you should shout: I worship blackbirds!
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+Maybe you should shout: I worship blackbird!
+~
+S
+#10252
+The tunnel~
+You are in what seems to be a tunnel. This place is lighted
+by some kind of torches in the south wall. If you look
+east you see something strange. You see that the tunnel
+crosses with another tunnel. But it isn't a tunnel with
+water. It's a tunnel with air! It must have been build
+to block sea-animals to get through the tunnel. Luckily
+you don't have problems with air! To the west you see
+that the tunnels goes to an entrance of a castle.
+It is blocked by a large door.
+~
+102 0 8
+D 1
+You see a crossing in the tunnels.
+~
+~
+0 -1 10251
+D 3
+You see a large red door.
+~
+door large red~
+2 10260 10253
+E
+wall~
+You discover nothing special.
+~
+E
+water~
+You don't think you could drink it.
+~
+E
+torch torches~
+A fire burning in a bowl.
+~
+E
+tunnel~
+It must have been build many years ago
+~
+E
+air~
+You can breathe the air
+~
+S
+#10253
+The entrance to the castle~
+You are in what seems to be the entrance to the castle.
+In the south wall are some kind of torches who lights this
+place. To the north are the stables. To the east is a large
+red door.
+~
+102 0 8
+D 0
+You see the stables.
+~
+~
+0 -1 10275
+D 1
+You see a large red door.~
+large red door~
+2 10260 10252
+D 3
+You see that to the east starts a corridor.
+~
+~
+0 -1 10254
+E
+torch torches~
+A fire burning in a bowl
+~
+E
+wall~
+You discover nothing special.
+~
+S
+#10254
+The corridor~
+You are in a corridor that turns to the north and
+east. You see some torches burning in the south wall.
+As you look around you realize that this place is
+normally guarded. If the guards aren't there, you
+really are lucky!
+~
+102 0 8
+D 0
+The corridor extends to the north.
+~
+~
+0 -1 10255
+D 1
+The corridor extends to the east.
+~
+~
+0 -1 10253
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10255
+The corridor~
+You are in a corridor that turns to the west and
+south. You see some torches burning in the east wall.
+~
+102 0 8
+D 3
+The corridor extends to the west.
+~
+~
+0 -1 10256
+D 2
+The corridor extends to the west.
+~
+~
+0 -1 10254
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10256
+The corridor~
+You are in a corridor that runs to the west and
+east. You see some torches burning in the north wall.
+~
+102 0 8
+D 1
+The corridor extends to the east.
+~
+~
+0 -1 10255
+D 3
+The corridor extends to the west.
+~
+~
+0 -1 10257
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10257
+The corridor~
+You are in a corridor that turns to the east and
+south. You see some torches burning in the north wall.
+~
+102 0 8
+D 1
+The corridor extends to the east.
+~
+~
+0 -1 10256
+D 2
+The corridor extends to the south
+~
+~
+0 -1 10258
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10258
+The corridor~
+You are in a corridor that turns to the west and
+north. You see some torches burning in the south wall.
+~
+102 0 8
+D 0
+The corridor extends to the north.
+~
+~
+0 -1 10257
+D 3
+The sleeping quarters of the guards are to the west.
+~
+~
+0 -1 10259
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10259
+The sleeping quarters~
+You are in the sleeping room of the Tritons. Only five
+beds look as if someone has slept on it. To the west
+you see a corridor. In the middle of the room stands
+a table. There are chests standing beside the beds.
+You see some torches burning in the south wall.
+~
+102 0 8
+D 0
+You see a splitoff in a corridor.
+~
+~
+0 -1 10260
+D 1
+You see a corridor to the east.
+~
+~
+0 -1 10258
+E
+chest~
+The chest is empty.
+~
+E
+table~
+The table is empty.
+~
+E
+torch torches~
+A fire burning in a bowl.
+~
+E
+chests~
+The chests are all empty.
+~
+S
+#10260
+The corridor~
+You are in a room that seems to connect the sleeping
+quarters of the Tritons with the Throne-room and the
+gate to the city. You see some torches burning in the
+south wall.
+~
+102 0 8
+D 0
+You see that a corridor extends to the north.
+~
+~
+0 -1 10265
+D 2
+You see the sleeping quarters of the guards.
+~
+~
+0 -1 10259
+D 3
+You see the entrance to the Throne-room.
+~
+~
+0 -1 10261
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10261
+The entrance to the Throne-room~
+You are in the entrance of the Throne-room. Normally
+this place is guarded by two sea-lions. They are the
+pets of the King. The exit to the city of Tritia is
+to the east. The throne-room is to the west.
+~
+102 0 8
+D 1
+You see a splitoff in the corridor.
+~
+~
+0 -1 10260
+D 3
+You see the actual Throne-room.
+~
+~
+0 -1 10262
+S
+#10262
+The Throne-room~
+You have finally found the Throne-room, where you were
+searching for. Your most interrest goes to a little door
+suited west. To the north you see the throne. It's made
+of solid gold. A lot of paintings are hanging on the walls
+A large chandelier is fastened to the ceiling.
+~
+102 0 8
+D 1
+You see the entrance to the Throne-room.
+~
+~
+0 -1 10261
+D 3
+You see a little door blocking your sight.
+~
+little door~
+2 10261 10263
+E
+wall~
+You see a lot of paintings on the wall.
+~
+E
+paintings~
+This must be the ancestors of the king.
+~
+E
+chandelier~
+It is much too high to get it.
+~
+S
+#10263
+The lair~
+You have found the Triton lair.
+It is completely sober, exept a
+chest, that stands in a corner.
+~
+102 0 8
+D 1
+You see a little door to the east.
+~
+little door~
+2 10261 10262
+S
+#10265
+The corridor~
+You are in a corridor, which runs north and south.
+You see some torches burning in the east wall.
+~
+102 0 8
+D 0
+You see a large gate.
+~
+~
+0 -1 10266
+D 2
+The corridor extends to the south.
+~
+~
+0 -1 10260
+E
+torch torches~
+A fire burning in a bowl.
+~
+S
+#10266
+The gate~
+You are standing in front of a gate. To the south
+starts a corridor to the castle. There are some
+torches burning in the east wall.
+~
+102 0 8
+D 0
+The gate blocks your sight.
+~
+gate~
+2 10263 10267
+D 2
+The corridor extends to the south.
+~
+~
+0 -1 10265
+S
+#10267
+Temple street~
+You are in the city of Tritia, walking on Temple street.
+The citizens ignore you. Far to the north you see a temple.
+This road runs straight ahead to the temple. Must be an
+important building. To the south you see a gate to the
+castle of Tritia.
+~
+102 0 8
+D 0
+You see a temple far to the north.
+~
+~
+0 -1 10268
+D 2
+You see a gate to the south.
+~
+gate~
+2 10263 10266
+S
+#10268
+Temple street~
+You are in the city of Tritia, walking on Temple street.
+The citizens ignore you. Far to the north you see a temple.
+This road runs straight ahead to the temple. Must be an
+important building. To the south you see the castle of Tritia.
+To the west starts West-street.
+~
+102 0 8
+D 0
+You see a temple far to the north.
+~
+~
+0 -1 10269
+D 2
+Temple street continues to the south.
+~
+~
+0 -1 10267
+D 3
+You can see a little tea-house far to the west.
+~
+~
+0 -1 10271
+S
+#10269
+Temple street~
+You are in the city of Tritia, walking on Temple street.
+The citizens ignore you. To the north you see a temple.
+This road runs straight ahead to the temple. Must be an
+important building. Far to the south you see the castle
+of Tritia. To the east lies a little field.
+~
+102 0 8
+D 0
+You see a temple to the north.
+~
+~
+0 -1 10270
+D 1
+You see a field to the east.
+~
+~
+0 -1 10286
+D 2
+Temple street continues to the south.
+~
+~
+0 -1 10268
+S
+#10270
+Temple of Tritia~
+You are in the temple of Tritia. The Tritions come here to
+cure their wounds. You see a large altar in front of you.
+Some people are praying in front of it. One person seems
+to be in charge. They call her: Dagahze of Lathander.
+You also can buy here potions.
+~
+102 0 8
+D 2
+You see Temple street to the south.
+~
+~
+0 -1 10269
+E
+altar~
+There are some artifacts on it. You don't
+dare to get them. It would certainly cost your
+life.
+~
+S
+#10271
+West-street~
+You are in the city of Tritia, walking on West-street.
+The citizens ignore you completely. You almost start
+to think, that you are invisible, but you aren't. Far
+to the west you see a little tea-house. To the south
+you see a large wall of the palace.
+~
+102 0 8
+D 1
+To the east you see Temple street.
+~
+~
+0 -1 10268
+D 3
+You see a little tea-house far to the west.
+~
+~
+0 -1 10272
+E
+palace~
+The palace has been build from white stones.
+~
+E
+park~
+It looks very inviting!
+~
+S
+#10272
+West-street~
+You are in the city of Tritia, walking on West-street.
+The citizens ignore you completely. You almost start
+to think, that you are invisible, but you aren't.
+Far to the west you see a little tea-house. To the
+south you see a large wall of the palace.
+~
+102 0 8
+D 1
+To the east you see West-street.
+~
+~
+0 -1 10271
+D 3
+You see a little tea-house far to the west.
+~
+~
+0 -1 10273
+E
+palace~
+The palace has been build from white stones.
+~
+S
+#10273
+West-street~
+You are in the city of Tritia, walking on West-street.
+The citizens ignore you completely. You almost start
+to think, that you are invisible, but you aren't. To
+the west you see a little tea-house. To the south you
+see a large wall of the palace.
+~
+102 0 8
+D 1
+Far to the east you see Temple street.
+~
+~
+0 -1 10272
+D 3
+You see a little tea-house to the west.
+~
+~
+0 -1 10274
+E
+palace~
+The palace has been build from white stones.
+~
+E
+park~
+It looks very inviting!
+~
+S
+#10274
+Tea-house~
+You are in a little tea-house, where you can buy
+tea and cake. The maid is willing to serve you
+24 hours round the clock. There is a list with prices.
+~
+102 0 8
+D 1
+To the west you see West-street.
+~
+~
+0 -1 10273
+E
+list~
+The prices are:
+tea :  10 coins.
+cake:  20 coins.
+~
+S
+#10275
+The stables~
+You are in the royal stables. You suspected it much larger.
+The Tritons keep their riding horses in the stables.
+But the stable is almost empty. If you are lucky you maybe
+you find a sea-horse.
+~
+102 0 8
+D 2
+You see the entrance to the south.
+~
+~
+0 -1 10253
+S
+#10280
+The air tunnel~
+You only can go north now. The way south has been blocked
+by a rock wall. You breathe the air with much contentness.
+You just can't get enough of it. You see many trees, plants
+and birds.
+~
+102 0 0
+D 0
+You see a crossing in tunnels.
+~
+~
+0 -1 10251
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+trees~
+You see only beech trees.
+~
+E
+tree~
+You see a beech tree.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10281
+The air tunnel~
+You are in a tunnel heading north-south. You breathe the
+air with much contentness. You see trees, plants and birds
+everywhere.
+~
+102 0 0
+D 0
+The tunnel extends to the north.
+~
+~
+0 -1 10282
+D 2
+You see a crossing of tunnels.
+~
+~
+0 -1 10251
+E
+trees~
+You see only oak-trees.
+~
+E
+tree~
+You see an oak-tree.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10282
+The air tunnel~
+You are in a tunnel heading south-west. You breathe the
+air with much contentness. You see trees, plants and birds
+everywhere.
+~
+102 0 0
+D 3
+The tunnel extends to the west.
+~
+~
+0 -1 10283
+D 2
+The tunnel extends to the south.
+~
+~
+0 -1 10281
+E
+trees~
+You see only elm-trees.
+~
+E
+tree~
+You see an olm-tree.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10283
+The air tunnel~
+You are in a tunnel heading east-west. You breathe the
+air with much contentness. You see trees, plants and birds
+everywhere.
+~
+102 0 0
+D 1
+The tunnel extends to the east.
+~
+~
+0 -1 10282
+D 3
+The tunnel extends to the west.
+~
+~
+0 -1 10284
+E
+trees~
+You see only oak-trees.
+~
+E
+tree~
+You see an oak-tree.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10284
+The air tunnel~
+You are in a tunnel heading east-west. You breathe the
+air with much contentness. You see trees, plants and birds
+everywhere.
+~
+102 0 0
+D 1
+The tunnel extends to the east.
+~
+~
+0 -1 10283
+D 3
+The tunnel extends to the west.
+~
+~
+0 -1 10285
+E
+trees~
+You see only lime-trees.
+~
+E
+tree~
+You see a lime-tree.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10285
+The air tunnel~
+There seems to be an end to the tunnel. To the west you
+see a little field. And the water comes back too. You
+breathe the air with much contentness. You see trees,
+plants and birds everywhere.
+~
+102 0 0
+D 1
+The tunnel extends to the east.
+~
+~
+0 -1 10284
+D 3
+The tunnel extends to the west.
+~
+~
+0 -1 10286
+E
+trees~
+You see only fir-trees.
+~
+E
+tree~
+You see a fir-tree.
+~
+E
+air~
+Just the kind of air you normally breathe.
+~
+E
+plant~
+There are so many different kinds of plants.
+~
+E
+plants~
+You see tulips, narcissus and snowdrops. It must
+be springtime.
+~
+E
+birds~
+The only birds you see are blackbirds.
+~
+E
+bird~
+You see a blackbird.
+~
+E
+blackbirds~
+They are the most wonderful bird you have
+ever seen
+~
+E
+blackbird~
+It is the most wonderful bird you have ever seen!
+~
+S
+#10286
+The field~
+You are on a field, that connects Temple street with
+the air tunnel. Temple street lies to the west and
+the air tunnel to the east.
+~
+102 0 0
+D 1
+The air tunnels starts in the east.
+~
+~
+0 -1 10285
+D 3
+Temple street lies to the west.
+~
+~
+0 -1 10269
+S
+#0
+#RESETS
+*
+* Joy, joy, the reset of my nice monsters that will hopefully
+* kill a lot of those mortals and gather a lot of treasure!
+*
+M 0 10201 1 10239     * Aboleth
+G 1 10216 100          * gem
+G 1 10219 100          * gem
+G 1 10260 100          * key
+*
+M 0 10202 1 10233     * Catfish
+G 1 10255 100          * 20 coins
+*
+M 0 10203 3 10200     * Crab 1
+G 1 10256 100          * 5 coins
+*
+M 0 10203 3 10202     * Crab 2
+G 1 10256 100
+*
+M 0 10203 3 10204     * Crab 3
+G 1 10256 100
+*
+M 0 10204 1 10270     * Dagahze
+E 1 10263 100 17       * key to the gate
+E 1 10227 100 3        * necklace
+E 1 10228 100 2        * ring
+E 1 10232 100 14       * bracers
+E 1 10208 100 16       * whip
+G 1 10211 100          * potion of detect invisibility
+G 1 10212 100          * potion of cure poison, poison, poison
+G 1 10213 100          * potion of cure blind, blindness, cure blind
+G 1 10214 100          * potion of detect hidden, detect invis
+G 1 10215 100          * potion of sanctuary, bless
+G 1 10235 100          * potion of cure light
+G 1 10236 100          * potion of cure serious
+G 1 10237 100          * potion of cure critic
+G 1 10238 100          * potion of heal
+*
+M 0 10205 1 10263     * Demon
+E 1 10262 100 17       * key to the chest
+*
+* Moved agate bracelet to Kraken. Thought that item could use
+* a bit more levels for TOC.
+*
+O 0 10240 1 10263     * chest
+P 1 10264 1 10240      * cursed leggings
+P 1 10221 1 10240      * wand
+P 1 10220 1 10240      * rod
+P 1 10250 100 10240    * coins
+*
+M 0 10206 1 10235     * eel
+*
+M 0 10207 1 10243     * froghemoth
+E 1 10263 100 17       * key
+G 1 10252 100          * coins
+*
+M 0 10208 1 10263     * hellhound
+*
+M 0 10209 3 10213     * seahorse
+M 0 10209 3 10214     * seahorse
+M 0 10209 3 10216     * seahorse
+*
+M 0 10210 2 10220     * ixitxachitl
+M 0 10210 2 10218     * ixitxachitl
+*
+M 0 10211 1 10226     * kraken
+E 1 10226 100 5        * shell
+E 1 10265 100 11       * shield of defense
+E 1 10244 100 15       * agate bracelet
+G 1 10239 100          * potion of blindness, gate, blindness
+G 1 10251 100          * coins
+G 1 10217 100          * gem
+G 1 10218 100          * gem
+G 1 10219 100          * gem
+*
+M 0 10212 1 10205     * man
+G 1 10252 100          * coins
+*
+M 0 10213 1 10236     * waterrat
+*
+M 0 10214 2 10261     * sea-lion
+*
+M 0 10215 2 10266     * sea-wolf
+M 0 10215 2 10266     * sea-wolf
+*
+M 0 10216 3 10275     * sea-horse in stable
+*
+M 0 10217 1 10237     * septopus
+*
+M 0 10219 1 10206     * shopkeeper
+G 1 10233 100          * scuba gear
+G 1 10234 100          * fishing rod
+*
+M 0 10220 5 10253     * soldier at entrance
+E 1 10200 100 16       * dagger
+E 1 10230 100 5        * scale
+M 0 10220 5 10253     * soldier at entrance
+E 1 10200 100 16       * dagger
+E 1 10230 100 5        * scale
+M 0 10223 1 10253     * lieutenant
+E 1 10205 100 16       * longsword
+E 1 10231 100 5        * scale
+*
+M 0 10220 5 10256     * soldier
+E 1 10200 100 16       * dagger
+M 0 10221 1 10256     * archer
+E 1 10207 100 16       * trident
+*
+M 0 10220 5 10258    * soldier
+E 1 10207 100  16     * trident
+M 0 10226 1 10258    * sergeant
+E 1 10204 100  16     * rapier
+E 1 10224 100  9      * gauntlets
+*
+M 0 10220 5 10259    * soldier
+E 1 10200 100 16      * dagger
+M 0 10222 1 10259    * captain
+E 1 10204 100 16      * rapier
+M 0 10227 1 10259    * shaman
+E 1 10201 100 16      * dagger
+E 1 10225 100 3       * red cloak
+*
+M 0 10224 1 10262   * councellor
+E 1 10205 100 16      * longsword
+E 1 10223 100 8       * boots
+E 1 10224 100 9       * gauntlets
+E 1 10231 100 5       * scale
+M 0 10225 1 10262   * king
+E 1 10203 100 16      * sceptre
+E 1 10261 100 17      * key
+G 1 10215 100         * potion of sanctuary, bless
+G 1 10252 100         * coins
+M 0 10228 1 10262   * sorcerer
+E 1 10202 100 16      * kris
+E 1 10229 100 12      * robe
+E 1 10232 100 14      * bracers of defense
+*
+M 0 10218 2 10244   * tadhemoth
+G 0 10253 100        * coins
+M 0 10218 2 10242   * tadhemoth
+G 0 10253 100        * coins
+*
+M 0 10230 1 10274   * maid
+G 0 10242 100        * tea
+G 0 10243 100        * pie
+*
+D 0 10252 3 2       * large red door
+D 0 10253 1 2       * large red door
+*
+D 0 10262 3 2       * little door in throne room to lair
+D 0 10263 1 2       * little door in lair to throne room
+*
+D 0 10266 0 2       * gate
+D 0 10267 2 2       * gate
+*
+S
+#SHOPS
+10204  10  4  3  0  0   130 85   12 22    Dagahze
+10219  29  0  0  0  0   200 25   10 17    Shopkeeper
+10230  17 26 19 10  0   200 25    9 18    Maid
+0
+#SPECIALS
+M  10201 spec_cast_mage
+M  10204 spec_cast_adept
+M  10207 spec_cast_mage
+M  10211 spec_cast_mage
+M  10212 spec_cast_cleric
+M  10218 spec_cast_mage
+M  10227 spec_cast_mage
+M  10228 spec_cast_mage
+S
+#$

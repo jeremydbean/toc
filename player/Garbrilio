@@ -1,0 +1,940 @@
+#PLAYER
+Name Garbrilio~
+Id   3986
+LogO 953400457
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  2
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 52
+Plyd 1811823
+ListRemorts ~
+NumRemorts 0
+Note 952319305
+Scro 98
+Room 4210
+HMV  847 878 468 892 124 431
+NewGold 4
+NewPlat 268
+NewCopp 108
+NewSilv 1
+Bank 156100
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 612
+Exp  129670
+Act  65740
+AfBy 533176
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 5
+Trai 4
+Save  2
+Alig  1000
+Hit   44
+Dam   46
+ACs -37 -28 -44 28
+Wimp  200
+Attr 16 13 20 15 17
+AMod 15 -5 0 1 -9
+Pass Ga32dWWZ37eVk~
+Titl  the Heroine of the Fourth Order~
+Pnts 40
+TSex 2
+LLev 428
+HMVP 618 500 406
+Cond 0 16 48
+Sk 92 'aid'
+Sk 80 'armor'
+Sk 89 'bless'
+Sk 83 'blindness'
+Sk 69 'calm'
+Sk 54 'cancellation'
+Sk 76 'cause light'
+Sk 54 'cure blindness'
+Sk 100 'cure critical'
+Sk 51 'cure disease'
+Sk 75 'cure light'
+Sk 26 'cure nightmare'
+Sk 26 'cure poison'
+Sk 82 'cure serious'
+Sk 51 'curse'
+Sk 57 'detect evil'
+Sk 63 'detect good'
+Sk 83 'dispel magic'
+Sk 51 'energy drain'
+Sk 61 'flamestrike'
+Sk 77 'fly'
+Sk 97 'frenzy'
+Sk 90 'gate'
+Sk 77 'haven'
+Sk 100 'heal'
+Sk 62 'holy word'
+Sk 92 'locate object'
+Sk 88 'major globe'
+Sk 100 'mana convert'
+Sk 26 'mass healing'
+Sk 75 'mass sanctuary'
+Sk 25 'maze'
+Sk 84 'pass door'
+Sk 26 'plague'
+Sk 55 'poison'
+Sk 73 'portal'
+Sk 87 'protection evil'
+Sk 26 'raise dead'
+Sk 51 'divine intervention'
+Sk 100 'refresh'
+Sk 74 'remove curse'
+Sk 51 'rope trick'
+Sk 96 'sanctuary'
+Sk 64 'shield'
+Sk 26 'spiritual hammer'
+Sk 55 'stone skin'
+Sk 54 'summon'
+Sk 27 'teleport'
+Sk 52 'weaken'
+Sk 59 'word of recall'
+Sk 34 'axe'
+Sk 100 'dagger'
+Sk 56 'flail'
+Sk 99 'mace'
+Sk 3 'polearm'
+Sk 27 'spear'
+Sk 100 'sword'
+Sk 19 'whip'
+Sk 100 'dodge'
+Sk 100 'meditation'
+Sk 80 'scrolls'
+Sk 60 'staves'
+Sk 96 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'benedictions'
+Gr 'curative'
+Gr 'healing'
+Gr 'cleric maladictions'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+AffD 'detect hidden'  16   7   0   0         32          0
+AffD 'detect magic'  17   7   0   0         16          0
+AffD 'detect invis'   0   7   0   0          8          0
+AffD 'giant strength'   8  45   4   1          0          0
+AffD 'sanctuary'   6   0   0   0        128          0
+AffD 'protection evil'   5  15   0   0       8192          0
+AffD 'frenzy'  29   8  80  17          0          0
+AffD 'frenzy'  27   8   8  19          0          0
+AffD 'frenzy'   0   8   8  18          0          0
+AffD 'bless'  25  29   6  18          0          0
+AffD 'bless'   0  29  -6  24          0          0
+AffD 'major globe'  33   9 -80  17          0          0
+AffD 'fly'   0  41   0   0     524288          0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 4
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 3
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 98
+Repd 0
+Val  950 5 0 0 0
+End
+
+#O
+Vnum 5234
+Nest 1
+Wear -1
+Lev  24
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 723
+Nest 1
+Wear -1
+Lev  45
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20504
+Nest 1
+Wear -1
+Lev  1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Enchanted
+Nest 1
+ExtF 2100547
+Wear -1
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 8 19 0 0
+AffD 'enchant weapon' 50 -1 4 18 0 0
+End
+
+#O
+Vnum 4473
+Nest 1
+Wear -1
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  11 10 12 -2 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 13 -1 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28130
+Nest 1
+Wear -1
+Lev  45
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 103
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 122
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 108
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 252
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 181
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 121
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 330
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 219
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Val  11 12 13 5 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear 15
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear 14
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 0
+ExtF 0
+Wear 7
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+Affect -1 37 -1 -1 12 0 0
+Affect -1 37 -1 3 21 0 0
+Affect -1 37 -1 2 1 0 0
+Affect -1 37 -1 -7 12 0 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 -13 12 0 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 -1 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 -1 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear -1
+Lev  41
+Cost 0
+Cond 100
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 75
+Nest 0
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 25
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 5022
+Nest 0
+Wear -1
+Lev  28
+Time 175
+Cost 300
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'remove curse'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1048576
+Wear 16
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

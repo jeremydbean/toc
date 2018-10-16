@@ -1,0 +1,343 @@
+#PLAYER
+Name Psyder~
+Id   61858
+LogO 953340060
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 6
+Plyd 4540
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4209
+HMV  68 95 25 171 71 130
+NewGold 3
+NewPlat 0
+NewCopp 161
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  15012
+Act  65788
+AfBy 2097792
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 11
+Trai 6
+Save  -8
+Alig  750
+Hit   10
+Dam   1
+ACs 35 33 34 75
+Wimp  7
+Attr 14 16 12 12 15
+AMod 0 3 4 4 3
+Pass PsBB7ZXDvz.zw~
+Titl  the Scribe of Magic~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 60 131 130
+Cond 0 5 47
+Alias mm c 'magic missile'~
+Alias oe open east~
+Alias ow open west~
+Alias os open south~
+Alias on open north~
+Alias ou open up~
+Alias od open down~
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 79 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 81 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 1 'bash'
+Sk 1 'meditation'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+AffD 'haste'  38   6   4   2    2097152          0
+AffD 'sanctuary'  31   1   0   0        128          0
+AffD 'aid'  29  13  35  13          0          0
+AffD 'aid'   4  13   4  18          0          0
+AffD 'bless'   0  48  -5  24          0          0
+AffD 'bless'   7  48   5  18          0          0
+AffD 'armor'   0  19 -20  17          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 125 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 2 4 0 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -2 23 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 3730
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#END

@@ -1,0 +1,295 @@
+#AREA  {25+}  Trinidad Shrine of Dreams~
+
+#MOBILES
+#27001
+dream warrior~
+the dream warrior~
+A dream warrior is standing here guarding the Shrine.
+~
+He's about ten feet tall and armed to the teeth.  Ghostly translucent armor
+covers his body and he shines with an inner light.
+~
+human~
+BNQT BHQTV 1000 S
+60 40 50d10+9500 50d10+9500 8d8+26 1
+-30 -30 -30 -29
+CDEFHIK ABKLPQ 0 0
+8 8 1 8000
+0 0 L 0
+#27002
+sandman sand~
+the sandman~
+A man wearing a brown robe is standing here.  You feel VERY sleepy.
+~
+He looks at you from underneath the hood of his robe.  Grinning he pulls
+out some sand from his pockets and starts to sprinkle it on you.
+~
+human~
+BGMOR BHOTUV 1000 S
+60 40 50d10+9500 50d10+9500 8d8+26 1
+-30 -30 -30 -29
+AEFGKN ABHIJKLP 0 0
+8 8 1 5000
+0 0 M 0
+#27003
+master dream~
+the dream master~
+The dream master is here teaching you how to dream.
+~
+He looks at you and smiles.  His eyes reflect the countless worlds of dreams
+within dreams.  His robes are stitched in gold with different arcane symbols
+and his feet are bare.
+~
+human~
+BDJK HN 1000 S
+60 40 50d10+20000 50d10+20000 8d8+26 20
+-30 -30 -30 -30
+0 0 0 0
+8 8 1 8
+0 0 M 0
+#27004
+shade~
+the shade~
+The shade is standing here looking lost.
+~
+This poor unfortunate soul is one who loved to dream but got lost and
+couldn't find their way back to reality.  They hate anyone that can.
+BEWARE.
+~
+undead~
+CFGHO BPQT -1000 S
+23 5 5d10+200 5d10+200 3d6+6 18
+-4 -4 -4 -4
+0 0 0 0
+8 8 0 1000
+0 0 M 0
+#27005
+dream~
+the dream~
+The most wonderful dream you've ever had is standing here to help you.
+~
+You feel happy and sad all at once.  Every emotion you've ever had runs through
+your body as you see your dream.
+~
+unique~
+BDMQV H 1000 S
+60 60 60d60+20000 200d200+1 3d100+100 18
+-30 -30 -30 -30
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#27006
+weaver dream dreamweaver~
+The Dreamweaver~
+You see a woman here weaving something.
+~
+Catching movement out of the corner of your eye you see a woman sitting on
+top of one of the huge stones.  She has long flowing dark hair with spots of
+starlight dotting the silky strands.  She smiles at you and then weaves you a
+dream.
+~
+unique~
+BMQR HOPQTUV 1000 S
+60 20 200d2+9500 200d2+9500 3d20+20 18
+-30 -30 -30 -30
+EFKN ABJKLPQ D MX
+8 8 2 1900
+0 0 M 0
+#0
+
+#OBJECTS
+#27001
+sword dreamcleaver~
+Dreamcleaver~
+A sword, fading in and out from reality, is here.
+~
+steel~
+5 ABGHUVZ G AN
+0 7 6 3 0
+-1 10 50000 P
+A
+1 2
+A
+18 5
+A
+19 6
+#27002
+dream plate~
+Platemail of Dreams~
+Platemail is here fading in and out from reality.
+~
+steel~
+9 AGI AD
+20 20 20 20
+-1 20 50000 P
+A
+2 3
+#27003
+helm~
+Helm of Dreams~
+A helm is here fading in and out from reality.
+~
+steel~
+9 AGIZ G AE
+10 10 10 10
+-1 5 20000 P
+#27004
+galadriel~
+Galadriel~
+A slim looking sword is sitting here.
+~
+steel~
+5 ABGUVZ FG AN
+0 500 500 1 0
+68 5 0 P
+A
+1 5
+A
+2 5
+A
+8 2
+A
+17 9
+A
+18 29
+A
+19 20
+#27005
+fountain~
+the fountain~
+A large fountain filled with cool water is here.
+~
+stone~
+25 0 0
+25000 25000 0 0 0
+1 10000 0 P
+#0
+
+
+#ROOMS
+#27001
+Circle of Stones~
+You burst through the undergrowth and find yourself standing in the center
+of a circle of stones.  Creeper vines crawl up the sides of the massive
+stones and flowers dot the ground.  Ancient druids built this place as a
+shrine to the gods of the forest and no harm can come to you here from the
+animals of the woods.
+~
+270 0 3
+S
+#27002
+The Waking Chamber~
+When you wake up your not in the circle of stones anymore.  Your in a chamber
+carved from stone.  Looking around the room you can see a crystal window in
+the southern wall.  There's a door to the north.  Maybe that way will answer
+any questions you have.
+~
+270 D 0
+D0
+Mist is outside the room obscuring almost anything you could see.
+~
+~
+0 -1 27003
+E
+crystal~
+You can see yourself sleeping in the Circle of Stones!
+~
+S
+#27003
+The Fountain~
+The mist seems to just hang around the way from which you came.A huge,
+marble fountain takes up the majority of this room.  The floor is old,
+brown, well-worn, stone that has grass growing through the cracks here and
+there.  You can't see a light source, but you can see everything in the room
+clearly.  The ceiling is the only part draped in darkness.
+~
+270 NTU 0
+D0
+You can see a chamber beyond this room with several mats on the floor.
+~
+~
+0 -1 27005
+D1
+You can just barely make out an old man sitting in the room beyond.
+~
+~
+0 -1 27006
+D2
+Through the mist you can see the room from which you came.
+~
+~
+0 -1 27002
+D3
+You can't make much out from the shadow, but you're sure you hear moaning.
+~
+~
+0 -1 27004
+S
+#27004
+The Chamber of The Lost.~
+The wind whips at your body trying to claim your soul.  Dark figures and
+faces are carried in the shadow blown on the maelstrom.
+~
+270 AN 0
+D1
+You can barely make out the fountain in the room beyond.
+~
+~
+0 -1 27003
+S
+#27005
+The Chamber of Sleep.~
+Several comfortable looking mats and pillows are laying all over the floor.
+You feel sleepy just walking in here.  A man wearing a brown robe offers a
+mat.  It sure is dusty in here.
+~
+270 N 0
+D2
+You see the fountain in the room beyond.
+~
+~
+0 -1 27003
+E
+dust~
+Looking closer you see it's not dust, but sand.
+~
+S
+#27006
+The Chamber of the Master.~
+This entire room is covered in runes. A circle has been drawn in the center
+of the room and an old man sits in the center of it.  He beckons you toward
+him as the candles around the outside of the circle burn more brightly.
+~
+270 N 0
+D3
+You can see the fountain in the chamber beyond.
+~
+~
+0 -1 27003
+E
+runes~
+These bright blue runes seem to glow and cover the entire room.
+~
+S
+#0
+
+#RESETS
+M 0 27001 2 27002    *loads the Dream Warrior
+E 1 27001 2 16       *Dreamweaver
+E 1 27002 2 5        *Dreamplate
+E 1 27003 2 6        *Dreamhelm
+M 0 27001 2 27003    *loads second Dream Warrior
+E 1 27001 2 16
+E 1 27002 2 5
+E 1 27003 2 6
+M 0 27002 1 27005    *loads the Sandman
+M 0 27003 1 27006    *loads the Master
+M 0 27004 1 27004    *loads the shade
+O 0 27005 1 27004
+M 0 27005 1 27003    *loads the dream
+M 0 27006 1 27001
+*
+S
+
+#$
+

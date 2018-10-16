@@ -1,0 +1,421 @@
+#PLAYER
+Name Rexius~
+Id   2594
+LogO 949425120
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 10
+Plyd 27535
+ListRemorts ~
+NumRemorts 0
+Note 948481229
+Scro 22
+Room 1103
+HMV  113 127 110 110 354 354
+NewGold 1373
+NewPlat 0
+NewCopp 326
+NewSilv 7
+Bank 28
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  22960
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -6
+Alig  1000
+Hit   9
+Dam   6
+ACs 44 44 47 96
+Wimp  20
+Attr 18 13 18 14 19
+AMod 6 2 4 5 5
+Pass Re0FheCtzSlnE~
+Titl  the Combatant~
+Pnts 40
+TSex 1
+LLev 7
+HMVP 127 110 154
+Cond 0 17 17
+Sk 30 'axe'
+Sk 75 'dagger'
+Sk 25 'flail'
+Sk 74 'mace'
+Sk 35 'polearm'
+Sk 78 'shield block'
+Sk 30 'spear'
+Sk 81 'sword'
+Sk 30 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 80 'kick'
+Sk 75 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'bless'  38  27   7  18          0          0
+AffD 'bless'   4  27  -7  24          0          0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 198 0 0
+End
+
+#O
+Vnum 3745
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  1 1 0 0 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2101
+Nest 0
+Wear 5
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6644
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3033
+Nest 0
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear 16
+Lev  3
+Cost 1000
+Cond 100
+Repd 0
+Val  1 3 3 3 8
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  2
+Cost 100
+Cond 100
+Repd 0
+Val  3 4 2 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  3
+Cost 1000
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+Affect -1 3 -1 -3 24 0 0
+Affect -1 3 -1 4 21 0 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 3
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 3 2 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 4
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 2 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1111
+Nest 0
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 1
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 1
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 1
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 1
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 1
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#END

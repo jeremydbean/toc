@@ -1,0 +1,1157 @@
+#PLAYER
+Name Thanos~
+Id   21521
+LogO 952573667
+Vers 3
+Prom ~
+Ignoring tantris~
+Race human~
+Sex  2
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 46
+Plyd 646466
+ListRemorts ~
+NumRemorts 0
+Note 952573351
+Scro 22
+Room 4208
+HMV  690 690 711 711 192 295
+NewGold 77
+NewPlat 6351
+NewCopp 913
+NewSilv 152
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 132
+Exp  92478
+Act  65740
+AfBy2 1024
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 10
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 14
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 1
+Color 15 6
+Color 16 7
+Pos  8
+Prac 6
+Save  -8
+Alig  1000
+Hit   39
+Dam   65
+ACs -115 -106 -106 -3
+Attr 15 19 16 14 18
+AMod 10 0 0 4 2
+Pass ThuxnLe8MYRu6~
+Titl  the Mistress of Animating~
+Pnts 40
+TSex 1
+LLev 177
+HMVP 670 576 370
+Cond 0 4 34
+Sk 96 'animate parts'
+Sk 1 'armor'
+Sk 80 'blindness'
+Sk 75 'cancellation'
+Sk 1 'cause light'
+Sk 46 'chill touch'
+Sk 1 'cone of cold'
+Sk 75 'create skeleton'
+Sk 43 'create wraith'
+Sk 46 'create vampire'
+Sk 76 'butcher'
+Sk 78 'bewitch weapon'
+Sk 52 'curse'
+Sk 82 'death shroud'
+Sk 48 'dust devil'
+Sk 90 'earth travel'
+Sk 75 'embalm'
+Sk 44 'energy drain'
+Sk 1 'evil eye'
+Sk 61 'fly'
+Sk 48 'force sword'
+Sk 1 'haven'
+Sk 45 'icicle'
+Sk 51 'infravision'
+Sk 56 'major globe'
+Sk 99 'mana convert'
+Sk 43 'maze'
+Sk 92 'moonbeam'
+Sk 47 'pass door'
+Sk 47 'plague'
+Sk 44 'poison'
+Sk 75 'raise dead'
+Sk 48 'remove curse'
+Sk 51 'rope trick'
+Sk 59 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 87 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 82 'tentacles'
+Sk 1 'trap the soul'
+Sk 80 'vampiric touch'
+Sk 1 'vortex'
+Sk 80 'weaken'
+Sk 77 'neutrality field'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 54 'sword'
+Sk 15 'whip'
+Sk 97 'dodge'
+Sk 99 'scrolls'
+Sk 2 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro elemental'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'major globe'  35  17 -80  17          0          0
+AffD 'ghostly presence'  28   0   0   0          0       1024
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 7156 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 4
+Lev  43
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 3
+Lev  43
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 17112
+Enchanted
+Nest 0
+ExtF 5443
+Wear 16
+Lev  37
+Cost 3440
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 8 18 0 0
+AffD 'enchant weapon' 50 -1 8 19 0 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7656
+Nest 0
+Wear 13
+Lev  35
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  9
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 111 0 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 908
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 29037
+Nest 1
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'bless'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29037
+Nest 1
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'bless'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 29015
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  21
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 54 -1 8 18 0 0
+AffD 'enchant weapon' 54 -1 8 19 0 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16049
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 2
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 2
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 2
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 2
+Wear -1
+Lev  42
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 2
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 2
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 2
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 158
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 447
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 315
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 470
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 294
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 271
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 331
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 105
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 105
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 105
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 112
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 22000
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 29045
+Nest 0
+ExtF 256
+Wear -1
+Lev  40
+Cost 700
+Cond 100
+Repd 0
+Affect -1 40 -1 -22 12 0 0
+Affect -1 40 -1 -25 12 0 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 0
+ShD  A surgically removed head~
+Desc A surgically removed head grins at Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 0
+ShD  A surgically removed head~
+Desc A surgically removed head grins at Thanos~
+Wear -1
+Time 236
+Cost 0
+Cond 25
+Repd 0
+End
+
+#END

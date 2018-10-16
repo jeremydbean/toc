@@ -1,0 +1,495 @@
+#PLAYER
+Name GoodGuy~
+Id   34476
+LogO 953418830
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  1
+Psionic  1
+Cast none
+Levl 30
+Plyd 293629
+ListRemorts ~
+NumRemorts 0
+Note 953335589
+Scro 22
+Room 4207
+HMV  351 452 76 153 158 302
+NewGold 5
+NewPlat 5209
+NewCopp 118
+NewSilv 2
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 6
+PkGiv 8
+Exp  68355
+Act  131324
+AfBy 524810
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Trai 2
+Save  12
+Alig  142
+Hit   12
+Dam   36
+ACs -37 -21 -23 53
+Attr 22 16 18 16 19
+AMod 15 0 0 2 -3
+Pass Gojp9t8j0PO5I~
+Titl  the Centurion~
+Pnts 40
+TSex 1
+LLev 69
+HMVP 417 158 274
+Cond 0 0 0
+Alias cs c "cure serious"~
+Alias cl c "cure light"~
+Alias ca c "cause light"~
+Alias t c "refresh"~
+Alias lvl level CONGRADULATIONS!!~
+Alias a get all~
+Alias fl c 'flamestrike'~
+Alias id c identify~
+Alias k kic~
+Alias b buy elix~
+Alias p pose~
+Sk 73 'armor'
+Sk 70 'bless'
+Sk 78 'cause light'
+Sk 78 'cure light'
+Sk 82 'cure serious'
+Sk 75 'detect evil'
+Sk 18 'detect good'
+Sk 75 'flamestrike'
+Sk 76 'identify'
+Sk 79 'refresh'
+Sk 1 'spiritual hammer'
+Sk 1 'nightmare'
+Sk 1 'project'
+Sk 1 'psychic shield'
+Sk 13 'pyrotechnics'
+Sk 30 'axe'
+Sk 32 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 81 'shield block'
+Sk 30 'spear'
+Sk 100 'sword'
+Sk 30 'whip'
+Sk 9 'bash'
+Sk 76 'disarm'
+Sk 100 'kick'
+Sk 92 'parry'
+Sk 76 'rescue'
+Sk 88 'second attack'
+Sk 81 'shove'
+Sk 12 'scrolls'
+Sk 1 'staves'
+Sk 76 'wands'
+Sk 86 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+AffD 'giant strength'  24  22   4   1          0          0
+AffD 'shield'  20  30 -20  17          0          0
+AffD 'fly'  13  25   0   0     524288          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  23
+Cost 5000
+Cond 99
+Repd 0
+Val  8 7 7 0 0
+End
+
+#O
+Vnum 13208
+Nest 0
+Wear 11
+Lev  29
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25221
+Nest 0
+Wear -1
+Lev  20
+Cost 300
+Cond 100
+Repd 0
+Affect -1 20 -1 1 5 0 0
+Affect -1 20 -1 -13 13 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13298
+Nest 0
+Wear 5
+Lev  29
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 1 24 0 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Affect -1 23 -1 -17 14 0 0
+End
+
+#O
+Vnum 13017
+Nest 0
+Wear 6
+Lev  7
+Cost 70
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 21
+Nest 0
+Wear -1
+Cost 0
+Cond 92
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 921
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3050
+Nest 0
+Wear -1
+Cost 1000
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 1307
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1313
+Nest 0
+Wear -1
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1312
+Nest 0
+Wear -1
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1311
+Nest 0
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1310
+Nest 0
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1314
+Nest 0
+Wear -1
+Lev  13
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 5 7 16
+Affect -1 13 -1 -4 14 0 0
+Affect -1 13 -1 -3 2 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  7 8 7 0 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+Affect -1 28 -1 3 23 0 0
+End
+
+#O
+Vnum 13407
+Enchanted
+Nest 0
+ExtF 64
+Wear -1
+Lev  31
+Cost 973
+Cond 100
+Repd 0
+AffD 'enchant weapon' 28 -1 1 19 0 0
+AffD 'enchant weapon' 28 -1 1 18 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  12
+Cost 1250
+Cond 100
+Repd 0
+Val  6 4 4 0 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear 16
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 -3 5 0 0
+End
+
+#O
+Vnum 1019
+Nest 0
+Wear -1
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1020
+Nest 0
+Wear -1
+Lev  30
+Cost 400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1021
+Nest 0
+Wear -1
+Lev  30
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  18
+Cost 2833
+Cond 75
+Repd 0
+Val  6 5 4 -1 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear -1
+Lev  15
+Cost 63
+Cond 100
+Repd 0
+Val  6 6 5 -1 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 11
+Nest 0
+Name GoodGuy corpse~
+ShD  corpse of GoodGuy~
+Desc The corpse of GoodGuy is lying here.~
+Wear -1
+Lev  29
+Cost 0
+Cond 25
+Repd 0
+End
+
+#END

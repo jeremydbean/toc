@@ -1,0 +1,1564 @@
+#AREA   {10 25} Haze    Voyage Across Sea~
+
+#MOBILES
+#29350
+tentacle~
+a tentacle~
+A gross, green, slimy tentacle reaches out to you.
+~
+The large, green tentacle has risen from a beast that lies at the bottom of
+the sea.  It is trying desperatly to pull the ship and its passengers down
+into the oceanic abyss.
+~
+undead~
+GM A -200 S
+12 1 12d9+144 6d12+72 1d10+3 12
+1 1 1 2
+N AR 0 0
+8 8 1 0
+0 0 M 0
+#29351
+sea beast~
+a sea beast~
+The sea beast is searching for a sailor to chew on.
+~
+The sea beast has come from the depths of the sea to feed on the ship.
+~
+undead~
+G M -200 S
+20 2 20d15+240 10d20+120 2d8+5 13
+-4 -4 -4 -2
+EFLU AR 0 H
+8 8 1 0
+0 0 G 0
+#29352
+mutant barnacle~
+the mutant barnacle~
+The mutant barnacle has grown some sharp looking teeth.
+~
+The mutated barnacle has grown tired of feeding on the ships hull.  Now
+it wants to feed on you with its newly grown teeth!
+~
+undead~
+GM D -300 S
+25 2 25d18+300 12d25+150 2d10+7 10
+-7 -7 -7 -4
+FIL ABR 0 H
+8 8 1 0
+0 0 G 0
+#29353
+passenger~
+a passenger~
+A frightened passenger is looking for a better place to hide.
+~
+The passenger just wished to purchase passage so he could explore the Old
+World and help the soldiers find Tandelador.
+~
+human~
+GM Q 0 S
+18 1 18d13+215 9d18+100 2d7+4 17
+-3 -3 -3 -1
+DF AB 0 0
+8 8 1 0
+0 0 M 0
+#29354
+soldier~
+a soldier~
+A Soldier of the Cause is here defending the ship.
+~
+These men are a part of the Army of The Cause, the army that Korzath is
+sending across the Dragon Sea.  They plan to search the Old World to find
+Tandelador.
+~
+dwarf~
+G N 0 S
+27 2 27d20+324 12d27+162 5d4+7 17
+-7 -7 -7 -5
+DEKLS AB 0 R
+8 8 1 0
+0 0 M 0
+#29355
+sailor~
+a sailor~
+A sailor is here drooling with insanity.
+~
+The sailor has gone mad after being touched by a tentacle.  He has wrapped
+a piece of the sail around him and is dancing on the deck screaming,
+"BAWK BAWK BAWGAWWWWWWWKKKK!"
+~
+human~
+GH 0 0 S
+15 1 15d11+180 7d15+90 2d6+3 16
+-2 -2 -2 0
+F AB 0 0
+8 8 1 0
+0 0 M 0
+#29356
+quest alpha~
+a Quest Boss~
+A Quest Boss is here saying, "Use me for a Quest imm!"
+~
+The Quest Boss is a mob to be used as the tougher mobile in a Quest.
+This one is Quest Boss Alpha, he has spec_mage.
+He has the word "alpha" in his name for easier editing.
+~
+dwarf~
+BMRUV DFHOTUVZ F 0 S
+60 30 60d45+1000 30d60+360 8d6+30 18
+-30 -30 -30 -40
+ABCDEFHIJKLMNOVR AB NP 0
+8 8 1 0
+0 0 M 0
+#29357
+quest bravo~
+a Quest Boss~
+A Quest Boss is here saying, "Use me for a Quest imm!"
+~
+The Quest Boss is a mob to be used as the tougher mobile in a Quest.
+This one is Quest Boss Bravo, he has spec_cleric.
+He has the word "bravo" in his name for easier editing.
+~
+dwarf~
+BMQUV DFHOTUVZ F 0 S
+60 30 60d45+1000 30d60+360 8d6+30 18
+-30 -30 -30 -40
+ABCDEFHIJKLMNOVR AB NP 0
+8 8 1 0
+0 0 M 0
+#29358
+quest charlie~
+a Quest Boss~
+A Quest Boss is here saying, "Use me for a Quest imm!"
+~
+The Quest Boss is a mob to be used as the tougher mobile in a Quest.
+This one is Quest Boss Charlie, he has spec_undead.
+He has the word "charlie" in his name for easier editing.
+~
+dwarf~
+BMOUV DFHOTUVZ F 0 S
+60 30 60d45+1000 30d60+360 8d6+30 18
+-30 -30 -30 -40
+ABCDEFHIJKLMNOVR AB NP 0
+8 8 1 0
+0 0 M 0
+#29359
+quest delta~
+a Quest Boss~
+A Quest Boss is here saying, "Use me for a Quest imm!"
+~
+The Quest Boss is a mob to be used as the tougher mobile in a Quest.
+This one is Quest Boss Delta, he has spec_psionic.
+He has the word "delta" in his name for easier editing.
+~
+dwarf~
+BMTUV DFHOTUVZ F 0 S
+60 30 60d45+1000 30d60+360 8d6+30 18
+-30 -30 -30 -40
+ABCDEFHIJKLMNOVR AB NP 0
+8 8 1 0
+0 0 M 0
+#29360
+quest minion fifty~
+a Quest Minion~
+A Quest Minion is here saying, "Use me to help the Quest Bosses!"
+~
+The Quest Minions vary in level and will assist all Quest Bosses.
+This minion is level 50.
+This mob has the word "fifty" in his name for easier editing.
+~
+dwarf~
+BMTUV DFHOTUV 0 S
+50 20 50d38+650 25d50+300 5d8+19 17
+-20 -20 -20 -30
+ABCDEFHIJKLMNR AB NP 0
+8 8 1 0
+0 0 M 0
+#29361
+quest minion forty~
+a Quest Minion~
+A Quest Minion is here saying, "Use me to help the Quest Bosses!"
+~
+The Quest Minions vary in level and will assist all Quest Bosses.
+This minion is level 40.
+This mob has the word "forty" in his name for easier editing.
+~
+dwarf~
+BMUV DFHOTUV 0 S
+40 15 40d30+500 20d40+250 4d8+13 17
+-13 -13 -13 -15
+BCDEFHIJKLNR AB 0 0
+8 8 1 0
+0 0 M 0
+#29362
+quest minion thirty~
+a Quest Minion~
+A Quest Minion is here saying, "Use me to help the Quest Bosses!"
+~
+The Quest Minions vary in level and will assist all Quest Bosses.
+This minion is level 30.
+This mob has the word "thirty" in his name for easier editing.
+~
+dwarf~
+BMUV DFOT 0 S
+30 10 30d23+400 15d30+180 4d6+8 17
+-9 -9 -9 -10
+BCDEFIJKLR AB 0 0
+8 8 1 0
+0 0 M 0
+#29363
+quest minion twenty~
+a Quest Minion~
+A Quest Minion is here saying, "Use me to help the Quest Bosses!"
+~
+The Quest Minions vary in level and will assist all Quest Bosses.
+This minion is level 20.
+This mob has the word "twenty" in his name for easier editing.
+~
+dwarf~
+BMUV DFOT 0 S
+20 5 20d15+250 10d20+120 2d8+5 17
+-4 -4 -4 -5
+BCDEFJLR AB 0 0
+8 8 1 0
+0 0 M 0
+#0
+
+
+#OBJECTS
+#29350
+key little~
+a little key~
+a little key shines here.~
+bronze~
+18 0 AO
+0 0 0 0 0
+15 1 75 P
+E
+key little~
+A little key.
+~
+#29351
+tentacle~
+a tentacle~
+a piece of a tentacle.~
+leather~
+9 0 AO
+3 3 3 3 0
+9 2 100 P
+E
+tentacle~
+A slimy green tentacle.
+~
+A
+1 1
+A
+3 1
+#29352
+box treasure little~
+a little treasure box~
+a little treasure box is here.~
+adamantite~
+15 V A
+300 13 29350 0 0
+15 2 200 P
+E
+box treasure little~
+This treasure box looks like it had been sitting at the bottom of the ocean
+for quite some time until the sea beast brought it to the surface.
+~
+#29353
+note~
+a note~
+a note is here.~
+paper~
+13 V A
+0 0 0 0 0
+10 1 75 P
+E
+note~
+To whom it concerns,
+
+     If you have found this box then you have found the last of my 
+     belongings.  The rest have been tossed overboard as our ship is
+     in horrible condition.  I know it will not be able to complete
+     the journey to the new world so I am locking my last belongings
+     inside of this box as I will have no use for them once I am dead.
+     My dreams of escaping the Purge and the doom of my people will
+     die with me as I will not be able to start a new life and family
+     on the other side of this dreaded Shaito Sea.
+     The elders told us we would never make it, that to leave Tandelador
+     meant throwing our lives away before the final Dread arrives to
+     take us into the Enlightened Land.  Maybe the sea creatures that
+     damaged our ship are beings of the mystics, carrying out their
+     duty by killing us so we do not suffer in the New World.
+     I refuse to believe that this is my fate.  I will struggle with all
+     soul to reach this new land to the west of the sea.  I vow I shall
+     survive to make a family under the name Illisandian!
+
+							ZARITH
+~
+#29354
+coins gold~
+some gold coins~
+some gold coins.~
+gold~
+20 V A
+1500 0 0 0 0
+10 1 1500 P
+#29355
+dagger barbed~
+a barbed dagger~
+a barbed dagger is here.~
+silver~
+5 BUV AN
+2 4 8 2 0
+18 2 200 P
+E
+dagger barbed~
+A sharp, barbed dagger.
+~
+A
+2 1
+A
+12 -10
+A
+18 2
+A
+19 2
+A
+24 10
+T
+$n wields a dagger forged in an ancient land.~
+$p virbrates with anticipation of inflicting wounds.~
+#29356
+jaws mutant~
+mutant jaws~
+the jaws of a mutant barnacle are here.~
+stone~
+5 A AN
+0 4 8 10 0
+20 2 200 P
+E
+jaws mutant~
+Jaws of a mutant barnacle.  Since when did barnacles grow jaws?
+~
+A
+4 1
+A
+12 15
+A
+13 15
+A
+14 -30
+A
+18 2
+A
+19 2
+#29357
+pocket watch~
+a pocket watch~
+a gold pocket watch~
+gold~
+4 G AO
+16 5 5 3 0
+15 2 200 P
+E
+pocket watch~
+A gold pocket watch.
+~
+#29358
+shield titanium~
+a titanium shield~
+a strong, blue shield is here.~
+adamantite~
+9 GM AJ
+5 7 7 4 0
+17 2 150 P
+E
+shield titanium~
+A titanium shield that was manufactured inside Korzath's Fortress.
+~
+A
+13 10
+A
+18 -1
+A
+19 2
+#29359
+sail piece~
+a piece of sail~
+a white piece of the sail.~
+cloth~
+9 0 AK
+3 4 3 2 0
+12 3 100 P
+E
+sail piece~
+A white piece of the ship's sail.
+~
+A
+2 2
+A
+5 1
+A
+13 10
+A
+18 1
+#29360
+sign~
+a sign~
+a sign is here.~
+paper~
+13 V A
+0 0 0 0 0
+10 1 75 P
+E
+sign~
+-
+	Voyage Across The Sea
+	+++++++++++++++++++++
+
+		Written by Haze for ToC Mud.
+		Completed in Fall 1995
+
+		Note that the main concept of this area
+		is that once you are on the ship, the
+		directions you move are the directions
+		you are guiding the ship with as you
+		take command of the vessel.
+~
+#29361
+sword wallace~
+(Courage) Sword of Wallace~
+The sword used by the great William Wallace.~
+iron~
+5 HVZ J AN
+1 18 3 1 0
+-1 15 75 P
+#29362
+stone Hamish~
+the stone of Hamish~
+a large stone of Hamish is here.~
+stone~
+5 HVZ J AN
+0 18 3 8 F
+-1 15 75 P
+#29363
+wits odysseus~
+(Genius) wits of Odysseus~
+A gift from the Gods, the wits of Odysseus~
+stone~
+9 FVZ J AE
+14 15 12 9 0
+-1 5 75 P
+#29364
+halo righteousness~
+(Holy) halo of righteousness~
+a glowing halo made visible by the Gods.~
+adamantite~
+9 KVZ J AE
+12 15 15 8 0
+-1 5 75 P
+#29365
+ball crystal~
+(Cracked) crystal ball~
+a crystal ball that has been cracked open allowing light to escape.~
+adamantite~
+1 AVZ J AO
+0 0 999 0 0
+-1 5 75 P
+#29366
+ring great serpent~
+a great serpent ring~
+the ring depicts a serpent eating it's own tail forming a ring.~
+stone~
+9 GVZ J AB
+14 14 14 9 0
+-1 5 75 P
+#29367
+bracers coradine~
+a coradine bracer~
+a bracer made of a godly material, coradine.~
+adamantite~
+9 BVZ J AM
+12 12 12 9 0
+-1 5 75 P
+#29368
+leggings fairlight~
+fairlight leggings~
+a light pair of dextrous leggings.~
+cloth~
+9 VZ J AF
+11 12 12 9 0
+-1 5 75 P
+#29369
+boots underworld~
+Underworld boots~
+a pair of boots wrought in the Underworld.~
+stone~
+9 JVZ J AG
+12 14 12 8 0
+-1 5 75 P
+#29370
+amulet destiny~
+amulet of destiny~
+an amulet of pure destiny, weaved by the Gods.~
+adamantite~
+9 VZ J AC
+10 11 12 8 0
+-1 5 75 P
+#29371
+plate century~
+(Shining) century plate~
+some century plate created by the Gods.~
+adamantite~
+9 VZ J AD
+15 14 14 9 0
+-1 5 75 P
+#29372
+chest quest~
+a Quest Chest~
+the Quest Chest is here.~
+stone~
+15 FV AO
+999 15 29373 0 0
+62 5 75 P
+#29373
+key quest~
+a quest key~
+the key to the Quest Chest.~
+stone~
+18 AZ J O
+0 0 0 0 0
+62 900 900 P
+#0
+
+
+#ROOMS
+#29350
+Dock before the Sea~
+     The dock in bustling with activity today.  Sailors scurry about tying
+lines and setting up planks to the ships for boarding and deboarding. One
+ship catches your eye though.  It is one that is fives times larger than
+the usual cargo barges the trade along the coast.  The name on the back of
+it reads "Dragonfly" and it's sails are being raised as it prepares to depart.
+~
+293 N 1
+D1
+~
+~
+0 -1 29351
+D3
+~
+~
+0 -1 41
+S
+#29351
+Along the Dock~
+     To the east is a rope bridge extending up to ship called "Dragonfly."
+The sailors on board look too busy with preparations to notice you so you
+could possibly board the ship without being noticed.
+     Before you can walk onto the bridge a man bumps into you from behind.
+His hat and outfit mark him as the captain of this vessel.
+     "Youse lookin to board her is ya?" he asks, "we coulds use more helps
+if you wishin to risk crossin the great Dragon Sea."
+     He turns and heads east onto the rope bridge.
+~
+293 N 1
+D1
+~
+~
+0 -1 29352
+D3
+~
+~
+0 -1 29350
+S
+#29352
+Rope bridge to the ship~
+     As you board the bridge you hear a yelp from behind you.  You turn in
+time to see a drunken nomad of New Thalos rushing towards you.  Before you
+can react his callused hands grasp the sides of your head pulling you closer
+to him.
+     "Tis blasphemy to set sail of the Dragon Sea!!!" he screams at you,
+"You are all heading to your dooms!  The Gods shall forsake thee, FORSAKE 
+THEE!"
+     The bridge shifts beneath your feet.  It is time to board as the ship
+is getting ready to leave port. 
+~
+293 N 1
+D3
+~
+~
+0 -1 29351
+D6
+~
+~
+0 -1 29353
+S
+#29353
+Across the Sea~
+     You board the ship and it begins to pull away from port leaving the
+still screaming nomad behind.  The Captain approaches you.
+     "Tis ain't no free ride youse see.  You needs to be workin or Kazor'll
+have a fit.  Now, youse can begin by swabbin the decks an...."
+     His words are cut short as a thin bladed dagger embeds itself in the
+Captain's throat.  He makes a few gurgling noises before falling to the deck
+in a dead heap.
+    "FORSAKE THEEE!!! FORSAKE THEEE THE GODS WILL!!!" you hear the nomad call.
+    The first mate kneels by the Captain for a moment before addressing you.
+    "Your luck is strong, that dagger was meant for you.  You should be you
+the one to guide the ships direction across the sea.  You can either turn
+us around or help us reach our destination to the Old World."
+~
+293 CN 1
+D0
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29380
+D6
+~
+~
+0 -1 29354
+D9
+~
+~
+0 -1 29352
+S
+#29354
+Across the Sea~
+   The ship continues across the sea...
+
+     As the ship moves deeper out to sea you notice the clouds above the sea
+are black and billowy with rain.  You hear the faint crack of the thunder in
+the distance as you try to decide which direction the ship should go.
+     Suddenly you hear the crys and shouts of the sailors, soldiers, and
+passengers.  "We are under attack!" they cry.
+     Tentacles reach out of the ocean and grasp onto the ship causing it to
+rock back and forth.  Sea beasts and mutated barnacles use the tentacles as
+a means of climbing onto the main deck of the ship.  Fighting surrounds you.
+~
+293 N 1
+D1
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29355
+D9
+~
+~
+0 -1 29379
+S
+#29355
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D0
+~
+~
+0 -1 29380
+D1
+~
+~
+0 -1 29356
+D7
+~
+~
+0 -1 29378
+D8
+~
+~
+0 -1 29380
+S
+#29356
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D1
+~
+~
+0 -1 29357
+D3
+~
+~
+0 -1 29377
+D6
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29380
+S
+#29357
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D0
+~
+~
+0 -1 29380
+D1
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29376
+D8
+~
+~
+0 -1 29358
+S
+#29358
+Across the Sea~
+   The ship continues across the sea...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D1
+~
+~
+0 -1 29380
+D6
+~
+~
+0 -1 29359
+D7
+~
+~
+0 -1 29375
+D8
+~
+~
+0 -1 29380
+S
+#29359
+Across the Sea~
+   The ship continues across the sea...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D0
+~
+~
+0 -1 29360
+D1
+~
+~
+0 -1 29380
+D6
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29374
+S
+#29360
+Across the Sea~
+   The ship continues across the sea...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D1
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29373
+D6
+~
+~
+0 -1 29361
+D8
+~
+~
+0 -1 29380
+S
+#29361
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind throws you off balance and you almost trip over something
+on the floor of the deck.  Glancing down you see it is a latch for a
+trapdoor.
+~
+293 N 1
+D1
+~
+~
+0 -1 29362
+D3
+~
+~
+0 -1 29380
+D5
+~
+trapdoor~
+1 -1 29382
+D8
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29372
+S
+#29362
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D1
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29371
+D6
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29363
+S
+#29363
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D2
+~
+~
+0 -1 29364
+D3
+~
+~
+0 -1 29380
+D6
+~
+~
+0 -1 29380
+D7
+~
+~
+0 -1 29370
+S
+#29364
+Across the Sea~
+   The ship continues across the sea...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D0
+~
+~
+0 -1 29369
+D1
+~
+~
+0 -1 29365
+D6
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29380
+S
+#29365
+Across the Sea~
+   The ship continues across the sea...
+
+     Sunlight begins to break through the dark clouds above you.  As you
+stare at the horizen you think you can see land.
+~
+293 N 1
+D1
+~
+~
+0 -1 29366
+D3
+~
+~
+0 -1 29368
+D6
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29380
+S
+#29366
+Across the Sea~
+   LAND HO!!!
+
+     The voyage is almost complete!  You can clearly see the coast that ends
+the puts an end to the far reaching Dragon Sea.  The sea creatures are giving
+up their fight and withdrawing to the darkness and safety of the sea they
+know as home.
+~
+293 N 1
+D1
+~
+~
+0 -1 29381
+D3
+~
+~
+0 -1 29368
+D9
+~
+~
+0 -1 29367
+S
+#29367
+Across the Sea~
+   The ship heads back towards the port...
+
+     The ship murks back out towards the dark black abyss of the Dragon Sea.
+
+     May The Gods provide safe passage back to home port.
+~
+293 N 1
+D0
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29368
+D6
+~
+~
+0 -1 29366
+D9
+~
+~
+0 -1 29380
+S
+#29368
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D0
+~
+~
+0 -1 29369
+D1
+~
+~
+0 -1 29365
+D7
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29380
+S
+#29369
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D1
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29364
+D7
+~
+~
+0 -1 29370
+D9
+~
+~
+0 -1 29380
+S
+#29370
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind continues to pick up causing the waters to become less 
+calm and the sails begin to billow out with the force of the incredible 
+wind.  The sounds of men fighting creatures of the sea fills your ears.
+~
+293 N 1
+D2
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29371
+D8
+~
+~
+0 -1 29363
+D9
+~
+~
+0 -1 29380
+S
+#29371
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind throws you off balance and you almost trip over something
+on the floor of the deck.  Glancing down you see it is a latch for a
+trapdoor.
+~
+293 N 1
+D1
+~
+~
+0 -1 29362
+D2
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29380
+D5
+~
+~
+1 -1 29382
+D9
+~
+~
+0 -1 29372
+S
+#29372
+Across the Sea~
+   The ship heads back towards the port...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D0
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29373
+D6
+~
+~
+0 -1 29361
+D9
+~
+~
+0 -1 29380
+S
+#29373
+Across the Sea~
+   The ship heads back towards the port...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D0
+~
+~
+0 -1 29360
+D3
+~
+~
+0 -1 29380
+D7
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29374
+S
+#29374
+Across the Sea~
+   The ship heads back towards the port...
+
+     The weather has taken a turn for the worse as the ship travels farther
+over the long dark sea.  The wind gusts have picked up considerably and the
+sails look on the verge of breaking.  Water crashes into the sides of the
+ship and you imagine the ship has taken on quite a bit of water.  The
+fighting continues all around you.
+~
+293 N 1
+D0
+~
+~
+0 -1 29380
+D3
+~
+~
+0 -1 29380
+D6
+~
+~
+0 -1 29359
+D7
+~
+~
+0 -1 29375
+S
+#29375
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D3
+~
+~
+0 -1 29376
+D7
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29358
+D9
+~
+~
+0 -1 29380
+S
+#29376
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D1
+~
+~
+0 -1 29357
+D3
+~
+~
+0 -1 29377
+D7
+~
+~
+0 -1 29380
+D9
+~
+~
+0 -1 29380
+S
+#29377
+Across the Sea~
+   The ship heads back towards the port...
+
+     The wind is beginning to die down but the fighting has not.  Sailors,
+soldiers, and passengers continue to fight the sea creatures that climb over
+the railings.  You hope you are nearly the end of this journey.
+~
+293 N 1
+D1
+~
+~
+0 -1 29356
+D3
+~
+~
+0 -1 29380
+D7
+~
+~
+0 -1 29378
+D9
+~
+~
+0 -1 29380
+S
+#29378
+Across the Sea~
+   The ship heads back towards the port...
+
+     Sunlight begins to break through the dark clouds above you.  As you
+stare at the horizen you think you can see land.
+~
+293 N 1
+D3
+~
+~
+0 -1 29380
+D7
+~
+~
+0 -1 29380
+D8
+~
+~
+0 -1 29355
+D9
+~
+~
+0 -1 29379
+S
+#29379
+Across the Sea~
+   LAND HO!!!
+
+     Once again the port alonside New Thalos is in sight.  The sea creatures
+begin to retreat towards the sea that birthed them.  Safe at last!
+~
+293 N 1
+D6
+~
+~
+0 -1 29354
+D7
+~
+~
+0 -1 29352
+S
+#29380
+Across the Sea~
+
+   WHOOPS!
+
+     Looks like you turned the ship into the harsh wind blowing over the
+deadly Dragon Sea and it carried you right overboard.  You can see the
+ship heading back to port as it ignores splashing about in the black waters.
+You taste the salt of the unforgiving sea as the water pours into the depths
+of your lungs.  You can only hope that The Gods grant you mercy and return
+you to shore.
+~
+293 BCFNX 7
+29350 5 1
+S
+#29381
+On the Beach~
+     You arrived here on land from a small row boat from the "Dragonfly"
+ship to the west.  You can see it anchored safely away from the shore.
+You notice footprints leading in all directions.
+~
+293 N 1
+D0
+~
+~
+0 -1 29410
+D1
+~
+~
+0 -1 29408
+D2
+~
+~
+0 -1 29401
+D3
+~
+~
+0 -1 29366
+S
+#29382
+In the Hull~
+     The hull has been slightly compromised by the crushing waters of the
+sea.  The water only rises aboce the soles of your feet though but it would
+be best to get out of the storm as soon as possible.
+~
+293 N 0
+D4
+~
+~
+0 -1 29361
+S
+#29383
+Quest Preparation Room 1~
+     This is one of the four Quest Preparation Rooms.  Use these mobiles
+to assist you in invasion type quests.  In each room there is a level 60
+mobile, one with spec_mage, one with spec_cleric, one with spec_undead,
+and one with spec_psionic.  There are also level 50, 40, 30, and 20 mobs.
+All of these mobs will assist each other making it easy to group them.
+
+						- Haze
+~
+293 P 0
+D0
+~
+~
+0 -1 29384
+D1
+~
+~
+0 -1 29386
+S
+#29384
+Quest Preparation Room 2~
+     This is one of the four Quest Preparation Rooms.  Use these mobiles
+to assist you in invasion type quests.  In each room there is a level 60
+mobile, one with spec_mage, one with spec_cleric, one with spec_undead,
+and one with spec_psionic.  There are also level 50, 40, 30, and 20 mobs.
+All of these mobs will assist each other making it easy to group them.
+
+						- Haze
+~
+293 P 0
+D1
+~
+~
+0 -1 29385
+D2
+~
+~
+0 -1 29383
+S
+#29385
+Quest Preparation Room 3~
+     This is one of the four Quest Preparation Rooms.  Use these mobiles
+to assist you in invasion type quests.  In each room there is a level 60
+mobile, one with spec_mage, one with spec_cleric, one with spec_undead,
+and one with spec_psionic.  There are also level 50, 40, 30, and 20 mobs.
+All of these mobs will assist each other making it easy to group them.
+
+						- Haze
+~
+293 P 0
+D2
+~
+~
+0 -1 29386
+D3
+~
+~
+0 -1 29384
+S
+#29386
+Quest Preparation Room 4~
+     This is one of the four Quest Preparation Rooms.  Use these mobiles
+to assist you in invasion type quests.  In each room there is a level 60
+mobile, one with spec_mage, one with spec_cleric, one with spec_undead,
+and one with spec_psionic.  There are also level 50, 40, 30, and 20 mobs.
+All of these mobs will assist each other making it easy to group them.
+
+						- Haze
+~
+293 P 0
+D0
+~
+~
+0 -1 29385
+D3
+~
+~
+0 -1 29383
+S
+#0
+
+#RESETS
+*
+M  0  29350  4  29354		loads tentacle mobile
+E  1  29351  2   17		  equips tentacle object
+G  1  29350  2			  gives key to tentacle mob
+*
+M  0  29350  4  29360		loads tentacle mobile
+E  1  29351  2   17		  equips tentacle object
+G  1  29350  2			  gives key to tentacle mob
+*
+M  0  29350  4  29363		loads tentacle mobile
+*
+M  0  29350  4  29376		loads tentacle mobile
+*
+M  0  29351  4  29359		loads sea beast
+G  1  29352  1			  gives treasure box to sea beast
+P  1  29353  1  29352		  puts note in box
+P  1  29354  1  29352		  puts barbed dagger in box
+P  1  29355  1  29352		  puts gold coins in box
+*
+M  0  29351  4  29364		loads sea beast
+*
+M  0  29351  4  29371		loads sea beast
+*
+M  0  29351  4  29375		loads sea beast
+*
+M  0  29352  4  29357		loads mutant barnacle
+E  1  29356  2   16		  equips jaws on barnacle
+*
+M  0  29352  4  29365		loads mutant barnacle
+E  1  29356  2   16		  equips jaws on barnacle
+*
+M  0  29352  4  29368		loads mutant barnacle
+*
+M  0  29352  4  29374		loads mutant barnacle
+*
+M  0  29353  4  29355		loads passenger
+E  1  29357  2   17		  equips pocket watch on passenger
+*
+M  0  29353  4  29359		loads passenger
+E  1  29357  2   17		  equips pocket watch on passenger
+*
+M  0  29353  4  29362		loads passenger
+*
+M  0  29353  4  29367		loads passenger
+*
+M  0  29354  4  29358		loads soldier
+E  1  29358  4   11		  equips shield on soldier
+*
+M  0  29354  4  29363		loads soldier
+E  1  29358  5   11		  equips shield on soldier
+*
+M  0  29354  4  29370		loads soldier
+E  1  29358  5   11		  equips shield on soldier
+*
+M  0  29354  4  29372		loads soldier
+E  1  29358  5   11		  equips shield on soldier
+*
+M  0  29355  4  29360		loads sailor
+E  1  29359  3   12		  equips sail on sailor
+*
+M  0  29355  4  29366		loads sailor
+E  1  29359  3   12		  equips sail on sailor
+*
+M  0  29355  4  29369		loads sailor
+E  1  29359  3   12		  equips sail on sailor
+*
+M  0  29355  4  29378		loads sailor
+*
+M  0  29356  1  29383		loads quest boss alpha
+M  0  29357  1  29384		loads quest boss bravo
+M  0  29358  1  29385		loads quest boss charlie
+M  0  29359  1  29386		loads quest boss delta
+M  0  29360  1  29383		loads quest mob - lev 50
+M  0  29361  1  29384		loads quest mob - lev 40
+M  0  29362  1  29385		loads quest mob - lev 30
+M  0  29363  1  29386		loads quest mob - lev 20
+*
+O  0  29360  1  29350		loads sign
+*
+O  0  29372  1  29383		loads quest chest
+*
+P  0  29361  1  29372		 puts sword of wallace in chest
+P  0  29362  1  29372		 puts hamish rock in chest
+P  0  29363  1  29372		 puts wits of odysseus in chest
+P  0  29364  1  29372		 puts halo of righteousness in chest
+P  0  29365  1  29372		 puts cracked crystal ball in chest
+P  0  29366  1  29372		 puts great serpent ring in chest
+P  0  29367  1  29372		 puts caradine bracers in chest
+P  0  29368  1  29372		 puts fairlight leggings in chest
+P  0  29369  1  29372		 puts underworld boots in chest
+P  0  29370  1  29372		 puts amulet of destiny in chest
+P  0  29371  1  29372		 puts century plate in chest
+*
+*---DOORS---*
+*
+D  0  29361  5  1		closes trapdoor
+D  0  29371  5  1		closes trapdoor
+*
+S
+
+#SPECIALS
+M  29354  spec_guard
+M  29356  spec_cast_mage
+M  29357  spec_cast_cleric
+M  29358  spec_cast_undead
+M  29359  spec_psionic
+
+S
+
+
+#$
+

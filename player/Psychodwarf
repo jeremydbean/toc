@@ -1,0 +1,703 @@
+#PLAYER
+Name PsychoDwarf~
+Id   51009
+LogO 939553306
+Vers 3
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 50
+Plyd 195502
+ListRemorts ~
+NumRemorts 0
+Note 902113578
+Scro 22
+Room 2537
+HMV  1120 1120 212 212 94 279
+Gold 23703
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 246
+Exp  115037
+Act  67109064
+AfBy 520
+AfBy2 64
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 7
+Color 3 7
+Color 4 7
+Color 5 3
+Color 6 14
+Color 7 10
+Color 8 3
+Color 9 14
+Color 10 12
+Color 11 2
+Color 12 5
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 11
+Pos  8
+Prac 6
+Save  -9
+Alig  1000
+Hit   40
+Dam   72
+ACs -67 -58 -61 51
+Wimp  150
+Attr 14 13 12 15 19
+AMod 11 0 2 5 -2
+Pass PsUpWFbbiXPJA~
+Ariv I have come from $T wanting to murder you $n style.~
+Dprt $n cries: Victims!, Victims!, Victims!, $t maybe?~
+Titl  is a polymorphed Hobbit.~
+Pnts 40
+TSex 1
+LLev 50
+HMVP 1055 192 394
+Cond 0 0 0
+Alias cc stealth~
+Alias bb bash~
+Alias mm steal coins~
+Alias xx level Doh!, Why don't you just delete?~
+Alias tt track~
+Alias oo qua potion~
+Alias ow open west~
+Alias oe open east~
+Alias on open north~
+Alias os open south~
+Alias od open down~
+Alias ud open down~
+Alias ss stealth~
+Alias ds get bash~
+Alias dd wear bash~
+Alias rr wear ring~
+Alias aaa aquest time~
+Alias yy track zerocool~
+Alias x track huge~
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 93 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 86 'sword'
+Sk 20 'whip'
+Sk 77 'archery'
+Sk 97 'backstab'
+Sk 84 'bash'
+Sk 94 'dodge'
+Sk 95 'dual wield'
+Sk 75 'fatality'
+Sk 100 'parry'
+Sk 1 'trip'
+Sk 96 'second attack'
+Sk 1 'hide'
+Sk 20 'peek'
+Sk 75 'pick lock'
+Sk 81 'shove'
+Sk 1 'sneak'
+Sk 75 'search'
+Sk 100 'sleight of hand'
+Sk 76 'steal'
+Sk 84 'stealth'
+Sk 75 'track'
+Sk 76 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  50   4   0   0          0         64
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 0
+Cond 100
+Repd 0
+Val  7 9 8 -3 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 11
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 0
+ExtF 2100544
+Wear 16
+Lev  49
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 242
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  45 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  45 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  45 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt cr rico~
+ShD  a receipt for a free CR from an immortal~
+Desc a receipt for a free CR from an immortal~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name free sanc receipt~
+ShD  a receipt for a free sanc from an immortal~
+Desc a receipt for a free sanc from an immortal~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2334
+Nest 1
+Wear -1
+Lev  26
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 736
+Nest 1
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'detect evil'
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 61 0 0 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,1279 @@
+#AREA   { ALL } Graves  Continental Drift~
+
+#MOBILES
+#201
+questor thews~
+Questor Thews~
+Questor Thews is standing here waiting to give you a quest.
+~
+Questor Thews is quite a sight!  He has long white hair that seems to stick 
+out from all directions at once.  His robe is stained a deep grey color, it 
+possibly was white at one time but not now.  He mumbles silently under his
+breath and you can only make out a few word here and there.  Most of them
+seem to have something to do with Eclipse, Soulcrusher and Gravestoneand this
+ridiclous job they have given him...and his other words are not for your
+ears to hear.~
+human~
+BGLMRVY DEFHJNO 1000 S
+60 150 500d1+10000 300d1+400 15d15+10 18
+-50 -50 -50 -50
+ABCDEFGHIJKLMNO ABCDEFGHIJKLMNOPQRS 0 0 
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#111
+berry giant~
+A Giant Berry~
+You see the biggest berry you have EVER seen, and there is a hole thru it.~
+magic~
+30 O 0
+5 101 0 0 0
+1 10000 0 P
+#112
+portal great~
+A Great Portal~
+A shimmering portal of light hangs in the air before you.~
+magic~
+30 O 0
+5 10000 0 0 0
+1 10000 0 P
+#113
+mirror~
+A Mirror~
+A mirror hangs here on the wall.~
+magic~
+30 O 0
+5 27 0 0 0
+1 10000 0 P
+#114 
+portal great~
+A Great Portal~
+A shimmering disc of light hangs in the air here.~
+magic~
+30 O 0 
+5 8001 0 0 0
+1 10000 0 P
+E
+disc~
+Its a portal so erm Enter it
+~
+#116
+portal great~
+A Great Portal~
+A shimmering disc of light hangs in the air here.~
+magic~
+30 O 0 
+5 64 0 0 0
+1 10000 0 P
+E
+disc~
+It's a portal so, umm, like ENTER it already!
+~
+#117
+portal tornado~
+The swirling tornado~
+(Swirling) A giant tornado moves towards you.~
+magic~
+30 O 0
+5 17700 0 0 0
+1 1000 0 P
+#118
+door portal rescue~
+The Rescue Portal~
+A glowing door beckons you to saftey.~
+magic~
+30 O 0
+5 2401 0 0 0 
+1 1000 0 P
+#0
+
+
+#ROOMS
+#10
+A path upwards~
+You have reached a small path that leads upwards into the mountains. Heading
+south will once again put you on the northern plains, but by heading upwards
+you can being your trek across the northern mountains. A small sign stands
+near the path.
+~
+2 C 5
+D4
+up a small mountain path
+~
+~
+0 -1 11
+D2
+To the northern plains
+~
+~
+0 -1 326
+E 
+sign~
+Welcome, 
+	By heading upward you will eventually end up in the realm of the 
+minotaur king Mahn-tor. Heading south will send you into the great northern
+plains. Be aware of the area you enter, for it may save your life.
+
+						- TOC staff
+~
+S
+#11
+Struggling upward~
+You begin a very hard climb that seems to go on forever, just as you begin
+to lose hope, you see the top of the mountains! Moving quicker, you 
+begin the last descent to the top.
+~
+2 C 5
+D4
+The top of the mountain
+~
+~
+0 -1 12
+D5
+The Base of the mountain
+~
+~
+0 -1 10
+S
+#12
+Breathless~
+You reach the top of the mountains, and the view from here is incredible!
+A pinkish colored mist covers the land to the north of the mountains, but 
+this does not hide the golden reflections of light that glint off the
+ice pack that marks the northern realms. From here you can begin your
+journey downward.
+~
+2 C 5
+D5
+hard climb
+~
+~
+0 -1 11
+D0 
+to the downward path
+~
+~
+0 -1 13
+S
+#13
+Downward path~
+From here you being your descent into the unknown, make sure to watch your
+footing, for one false step could lead to disaster.
+~
+2 C 5
+D2
+to dark too tell
+~
+~
+0 -1 12
+D5
+to dark too tell
+~
+~
+0 -1 14
+S
+#14
+End of the Mountain~
+You have reached the end of the mountain path, from here you can begin your
+journey thru the lands of mahn-tor, may your journey be well, and keep
+your spirits high!
+~
+2 C 5
+D4
+to dark too tell
+~
+~
+0 -1 13
+D1
+Into mahn-tor
+~
+~
+0 -1 2300
+S
+#15 
+Bend in River~
+After making a gentle bend, the river becomes dark and sinister. Overhanging
+branches block out the sun and an eerie mist floats above the surface of the
+water.
+~
+2 AE 7
+3 6 1
+D3
+You see a dark shadowy river.
+~
+~
+0 -1 16
+D6
+The river looks less forbidding.
+~ 
+~
+0 -1 9775
+S
+#16 
+Misty River~
+The mist becomes thicker making it almost impossible to view the surrounding
+area. You think you catch a glimpse of a shadowy grove on the northern bank
+of the river.
+~
+2 AE 7
+0 6 1
+D0
+You see a shadowy grove.
+~
+~
+0 -1 1300
+D1
+You see a misty bend in the river.
+~
+~
+0 -1 15
+S
+#17
+An odd sight~
+Standing before you is one of the most incredible things you have EVER seen.
+A giant berry the likes you have never seen before sits in the middle of this
+room. And funny enough there seems to be a large opening drilled into the
+center of this monstrous fruit. You can hear in the distance the sounds of
+singing, and it carry's a very familiar and annoying tune. Maybe you should
+ENTER the berry and take a look.
+~
+2 CD 0
+D1
+~
+~
+0 -1 3700
+S
+#18
+Entering the hills~
+Small hills begin to form here in the northwestern corner of the great forest
+of middenir. From here if you look you can see great mountains towering 
+above you in the distance. A small sign greets you as you walk along this 
+well beaten path.
+~
+2 AC 4
+D0
+~
+~
+0 -1 4000
+D2
+~
+~
+0 -1 3550
+E
+sign~
+Welcome along the path of adventure.
+
+	By heading towards the north, you being your journey into the 
+bottomless mines of moria, watch your back and remember dont feed the 
+Orcs.
+					- TOC staff
+~ 
+S
+#19
+Soggy Cave~
+You sink into the mire and find yourself sinking.  There is an overwhelming
+stench of garbage to the south.  A sign is sinking into the quicksand.  If
+you hurry you might be able to read it before it vanishes.  
+~
+2 AC 11
+D4
+Moisture seeps in from above.
+~
+~
+0 -1 3516
+D2
+too dark to tell
+~
+~
+0 -1 2801
+E
+sign~
+Welcome adventurer.  You can continue south but remember to let sleeping
+trolls lie.
+~
+S
+#20
+Sea of sand~
+The sounds of the great market place become distant to the north. Here in 
+this place, only the sound of wind, timelessly moving the sand of ages meets
+your ears. A person could become lost in the desolate wilderness, For it has
+been rumored that nobody has found there way back to New Thalos after 
+entering the parched land.
+~
+2 C 10
+D0
+The city in the sand
+~
+~
+0 -1 9511
+D2
+The parched land
+~
+~
+0 -1 5028
+S
+#21
+A twisting path~
+A small twisting path leads off of the northeastern plains. Way to the
+southwest you can make out the high walls of the city of dresden, and from
+those walls you mark your direction. Just up ahead you can catch sight of 
+what looks like a large stone structure of some sort.
+~
+2 C 2
+D8
+~
+~
+0 -1 3500
+D3
+~
+~
+0 -1 22
+S
+#22
+Before the great circle~
+You stand here before a monument, that stands out of time and space. 
+Impossibly large stones make up what looks like a ritual or meeting 
+place.  The feeling of some great power flows thru you as you stand in 
+awe of this place. To the south, in the center of structure, you can just 
+make out what looks like a glowing disc that hangs, unsupported in the air.
+~
+2 C 2
+D1
+~
+~
+0 -1 21
+D2
+~
+~
+0 -1 23
+S
+#23
+The Great Portal~
+Here stands one of the last of the great portals. These magical gateways were
+placed here in this land, by the elder race. Each was supposed to lead to
+a realm that existed outside of there own, portals that many used to visit
+great citys that existed far away. But there are few now, destroyed in the
+times of madness, and during the destruction of the great empire of Midgaard.
+Rare it is to find one still intact, but be this a warning....The portal only
+stands as a gate to another place...not as a gate back. There is a small sign
+near one of the great stone columns.
+~
+2 C 2
+D0
+~
+~
+0 -1 22
+E
+sign~
+
+	Glittering like a jewel above the sky
+	Shining like a star from the heavens
+	Journey now young friend, and seek
+	The Glitter Palace.....
+~
+S
+#24
+Crossing the Foothills~
+
+The hills grow steadily steeper as you trudge up the narrow trails.  To the
+northwest, the trail degenerates into a narrow series of switchbacks, 
+acending a steeper mountainside.
+~
+2 0 5
+D0
+~
+~
+0 -1 29
+D1
+~
+~
+0 0 323
+D7
+~
+~
+0 0 25
+S
+#25
+The Switchbacks~
+
+You continue climbing a rocky path.  You need to scramble over boulders and
+jump crevices to make any progress.  The path twists so often you can never
+be sure that you are not going around in circles, though you think you 
+feel the air growing thinner.  As you lean towards the cliffside to check 
+your progress, you notice a small sign.
+~
+2 0 5
+D8
+~
+~
+0 0 24
+D 0
+~
+~
+0 0 9201
+E
+sign~
+Have a pleasant journey and remember not to litter.
+	  - Earth Ruler, Air Ruler, Fire Ruler, Water Ruler, Lightning Ruler
+~
+S
+
+#26
+Tower Foyer~
+You have reached a small but dusty room at the top of the northwestern watch
+tower in oldthalos. The rooms only adornments are a large mirror hanging on
+the north wall. Funny that it is, you seem to hear the sounds of people
+laughing in the background, and can smell the delighful smells of 
+deserts filling the air. A small sign hangs on the east wall.
+~
+2 C 0
+D5
+to dark too tell
+~
+~
+0 -1 5246
+E
+sign~
+	Mirror Mirror on the wall....
+	Whats the Fairest city of them all...
+	Ancient Thalos was in times forgotten....
+	And thru the mirror it can be gotten to?
+
+			Ok its a cheesy ryme but you get the picture.
+					- Gravestone.
+~
+S
+#27
+Tower Foyer~
+You have reached a small but dusty foyer in the northwester watch tower of
+the city of thalos. The sounds of merriment filter in from the city below
+you, and the smell of fresh baked bread fills the air and starts your mouth
+to watering.
+~
+2 C 0
+D5
+~
+~
+0 -1 5346
+S
+#28
+Eye of the Storm~
+Swirling particles of energy galavant around this room in a continual 
+vortex of motion. Here, placed by the great leaders of the elements is one
+of the last great portals to stand here in this realm. The glowing disc of
+light that stands before you is a gateway to another time, and dimension. 
+By looking closely you can make out what looks like the tops of a 
+futuristic city looming on the other side of the disc.
+~
+2 C 0
+D2
+~
+~
+0 -1 9252
+S
+#29
+Steepened Path~
+The path suddenly steepens here as you ascend into the mountains.
+~
+2 0 4
+D0
+~
+~
+0 -1 8846
+D2
+~
+~
+0 -1 24
+S
+#30
+Forest Clearing~
+The bleak oppression of the forest ends suddenly as you step out into a wide
+glade. From here you can continue south, back into the forest, or northwest
+to what looks like the beginnings of a great mountain range. A small sign is
+posted near the head of the path.
+~
+2 C 2
+D2
+~
+~
+0 -1 6137
+D7
+~
+~
+0 -1 31
+E
+sign~
+You stand at the foot of the great northern range of mountains that reach 
+from well to the west, all the way north past the great city of dresden. 
+It is rumored that this place you are about to enter is home to a great 
+parliment of Gods, and the hidden home to a once great Dwarven nation.
+~
+S
+#31
+A Twisting Path~
+You twist and turn your way thru a low set of hill's that lead up to the 
+great peaks of the mountains. You notice that in these far northern 
+places, the air has taken on a much colder tone. Remember to keep warm. 
+For up ahead you begin your real ascent into the mountains.
+~
+2 C 5
+D8
+~
+~
+0 -1 30
+D0
+~
+~
+0 -1 901
+D3
+~
+~
+0 -1 32
+S 
+#32
+An unused path~ 
+A small westward path leads off of the main trail leading north into the 
+mountain range. It twists and turns at random intervals, and looks fairly 
+well overgrown. Further west you can see that the path takes a turn to 
+the northwest, and from there you can just barely make out the sounds for 
+a great rushing river.
+~
+2 C 5
+D1
+~
+~
+0 -1 31
+D3
+~
+~
+0 -1 33
+S
+#33
+Sharp turn~
+From here the path takes a sharp turn to the northwest, the sounds of a 
+great river reach your ears, and fill's your head like the hum of many 
+people talking at once. Far in the north you can just make out what 
+appears to be a solitary peak reaching up out of the mist, pointing 
+towards the heavens like an accusing finger.
+~
+2 C 5
+D1
+~
+~
+0 -1 32
+D7
+~
+~
+0 -1 34
+S
+#34
+The Wind Gap~
+From here you can make out a large river valley that reaches down into 
+the mist canopy of the foresy of Haon dor. To the north a small beaten 
+path leads into a large crevice in the mountain side. Here by the side of 
+the path sits a small sign.
+~
+2 C 5
+D0
+~
+~
+0 -1 25001
+D8
+~
+~
+0 -1 33
+E
+sign~
+This path leads to a once great dwarven kingdom, but be wary for it is 
+told that a great beast still lives in the mountain. So be on your guard 
+and may the gods above keep watch over you.
+~
+S
+#35
+Lava Forest~
+The trees here are just mineralized remnants of their former selves,
+entirely encased in grey-black rock.  Your feet make crunching sounds as
+you trudge along a path of olivine sand, strewn with more rock.  Ahead of
+you is a cavelike opening. 
+~
+2 0 3
+D7
+You see the dwarf forest
+~
+~
+0 0 5261
+D6
+too dark to tell
+~
+~
+0 0 36
+S
+#36
+The Lava Tube~
+You are in a cave formed entirely of solidified lava. Trapped water makes the
+interior relatively lush, dripping with ferns and orchids, in sharp contrast
+to the barren landscape on either end of the tube. The path climbs steeply
+to the east.
+~
+2 ACD 11
+D9
+too dark to tell
+~
+~
+0 0 35
+D1
+You see a glint of sunlight
+~
+~
+0 0 37
+S
+#37
+Lava Field~
+You are in a desolate landscape, entirely ravaged by centuries of eruptions
+and lava flow.  The ground is rough and cracked in places, and short grass
+grows in the cracks.  You wonder if this place could ever have been inhabited,
+but it must have been since you see petroglyphs carved into the rocky field.
+You can see a path worn into the hills ahead of you.
+~
+2 0 2
+D3
+too dark to tell
+~
+~
+0 0 36
+D8
+The path looks climbable.
+~
+~
+0 0 2900
+E
+petroglyph rock~
+A picture of a small lizardlike creature has been carved into the rock.
+~
+S
+#38
+Well Kept Path~
+   You leave the busy Eastern Road and find yourself on a quiet but well
+kept path. You can hear occasional faint sounds of a village to the north.
+~
+2 C 2
+D0
+You see a neat well kept path.
+~
+~
+0 -1 1100
+D2
+You see the heavily travelled Eastern Road.
+~ 
+~
+0 -1 3526
+S
+#39
+Dark Path~
+     Your thoughts wander to past adventures as you trudge down the dismal
+path but your progress is suddenly halted by a large dark mountain range
+which looms in front of you. To the east, a narrow trail leads into the
+mountains.
+~
+2 0 3
+D0
+You see a bend in the forest trail.
+~
+~
+0 -1 5280
+D1
+You see a narrow trail leading into the mountains.
+~
+~
+0 -1 6500
+S
+#40
+Path to the Wayhouse~
+You see a short, but well kept path that is leading up to a very nice 
+building here in the forest. A small sign stands near the head of the 
+path.
+~
+2 C 3
+D0
+~
+~
+0 -1 6001
+D2
+~
+~
+0 -1 14000
+E
+sign~
+	Welcome to Werith's Wayhouse, a place for all you tired adventurers 
+to stop and set a spell. Enter freely and leave some of your happiness 
+behind.
+					- Werith
+~
+S
+#41
+The new pier~
+The sharp scent of pine reaches your nose filling it with the longing to be
+roming back in the forests of the west. You can all smell the smell of 
+the sea, and that alone urges you onward to see what lies ahead. To the 
+north you can make out the large mast of what looks like a ship of war, 
+to the south is the road leading towards the shore and back to the city 
+of New thalos. A small sign greets you.
+~
+2 C 2
+D0
+~
+~
+0 -1 16000
+D1
+~
+~
+0 -1 29350
+D2
+~
+~
+0 -1 9794
+E
+sign~
+Pirates up ahead, watch your money purse and remember leave drunk pirates 
+lie.
+~
+S
+#42
+On the Outskirts of New Thalos~
+  The sun is hot enough to melt your armor, but salvation is at hand.  To the
+east, you see the mighty gates of New Thalos, one of the most prosperous cities
+of all of Thera.  To the north and south, you see the endless wasteland of the
+Sands of Sorrows, and to the west you can barely make out a faint, but
+well-used, road leading to the City of Dresden. 
+~
+2 0 2
+D1
+~
+~
+0 -1 9669
+D3
+~
+~
+0 -1 3532
+S
+#43
+Pathway to Arden.~
+You walk along the pathway which leads you to Forest Arden.
+~
+2 0 3
+D3
+Before Forest Arden.~
+~
+0 -1 701
+D2
+An ancient dirt road leads south.
+~
+~
+0 -1 8318
+S
+#44
+Before the Dwarven Daycare~
+  Before you is a small building. Toys in various stages of disrepair litter
+the rocky yard. From inside the building, you can hear the sounds of chaos
+normally heard in daycare facilities... this one is no different. There is
+a small door to the south. On the door is a sign.
+~
+2 0 3
+D0
+~
+~
+0 -1 6500
+D2
+~
+~
+0 -1 6601
+E
+sign~
+Welcome to the Dwarven Daycare. Parents are asked to drop their young'uns
+off, and quickly depart. You may pick them up when your shift is over. We
+are not responsible for the condition your child is in when their day is
+over. Have a nice day!
+	- The Nannies -
+~
+S
+#45
+Base of Mount Ulmo~
+  Before you is a mountainous path, which leads upward into the clouds
+overhead!
+~
+2 0 4
+D0
+~
+~
+0 -1 1000
+D2
+~
+~
+0 -1 324
+S
+#46
+Steep and Winding Path~
+  The path continues on its difficult climb upwards. From this vantage point
+you can make out the Town of Dresden far to the south, the Village of Ofcol
+below you, to the East, and you believe you can make out the hazy outline of
+New Thalos far off on the eastern horizon.
+~
+2 0 5
+D3
+~
+~
+0 -1 1002
+D4
+~
+~
+0 -1 47
+S
+#47
+Chilly Path~
+  Whew! Sure are feeling winded.. Silently, you hope you are almost to the
+top.. Starting to notice a chill in the air.. hmmm.. is that frost forming
+on the leaves of those plants?
+~
+2 0 5
+D0
+~
+~
+0 -1 18224
+D4
+~
+~
+0 -1 48
+D5
+~
+~
+0 -1 46
+S
+#48
+Onward and Upward~
+  Okay! Enough's enough!! Risking a look upward you can see that you are
+almost to the top.. Snow and Ice cover everything in sight here. You can
+now no longer see anything below you except the fluffy tops of clouds.
+You've never been so high and are beginning to feel a tad giddy.
+~
+2 0 5
+D4
+~
+~
+0 -1 49
+D5
+~
+~
+0 -1 47
+S
+#49
+Top of the World, Ma!~
+  Whoa! Finally at the top. You plop on the ground and rest a bit, but the
+icy surface quickly numbs your bottom and you swiftly jump to your feet.
+Ahead you can make out a blinding whirl of snow... better stay on your toes
+if you intend on going further!
+~
+2 0 5
+D0
+~
+~
+0 -1 50
+D5
+~
+~
+0 -1 48
+S
+#50
+Snow Blind!~
+  Ack! You can't see a thing.. only the swirling snow all around you. I'd
+turn back while you still can!
+~
+2 AN 5
+D0
+~
+~
+0 -1 1801
+D2
+~
+~
+0 -1 49
+S
+#51
+The top of the cliff.~
+You are standing on the ledge of a huge cliff on the side of a valley
+with a beautiful lake and tiny village nestled in it.  It looks so
+peaceful down below.  You see a trail leading down into this sanctuary.
+~
+2 CK 3
+D0
+You see the forest.
+~
+~
+0 -1 6018
+D5
+You see a rocky trail downward into the valley.
+~
+~
+0 -1 13001
+S
+#52
+Outside Ofcol~
+   You are standing outside the village of Ofcol.
+The village looks very small, but still a nice and safe place to stay.
+You may enter the city to the north or journey towards the
+T-intersection in the southern direction.
+~
+2 0 2
+D0
+You can see people wandering the village streets.
+~
+~
+0 -1 5550
+D2
+Here you see the road go towards the intersection.
+~
+~
+0 -1 313
+S
+#53
+Rickety Stairway~
+Musty smells assail your nostrils and you decend into the darkness.
+Faint scratchings and squeaks can be heard from the blackness below.
+~
+2 AD 0
+D4
+You see the underside of the trapdoor.
+~
+~
+1 -1 2450
+D5
+Man, it's dark down there!
+~
+~
+0 -1 3801
+S
+#54
+Sand~
+As you wander around aimlessly in the desert, you begin to appreciate the
+beauty of sand... But then you come to your senses.
+~
+2 0 0
+D0
+Strange glowing, endless sands...
+~
+~
+0 -1 5062
+D2
+Even more sand, if that's possible.
+~
+~
+0 -1 28000
+S
+#55
+Dusty Path~
+  You are on a dusty path that leads north to the eastern road and west
+towards the Gnome Village.  Ahead you can hear the sounds of happy little
+gnomes going about their daily chores.
+~
+2 0 0
+D0
+The dust is settling upon the eastern road.
+~
+~
+0 -1 3526
+D1
+Just ahead is the entrance to Gnome village.
+~
+~
+0 -1 1501
+S
+#56
+Peaceful Path~
+  Immediately upon setting foot on this path, you are filled with a feeling
+of peace and tranquility.  The feeling gets stronger towards the east.
+~
+2 0 0
+D1
+A absolutely beautiful grove of trees bids you welcome.
+~
+~
+0 -1 8950
+D3
+A dusty trail winds around Dresden.
+~
+~
+0 -1 3906
+S
+#57
+On the river bank~
+You have scampered up to the river bank and are standing on an escarpment, 
+watching the dark river meander by.  As you look around, you notice a 
+small, dark path descending into a valley.
+~
+2 0 2
+D0 
+~
+~
+0 -1 9773
+D5
+~
+~
+0 -1 17100
+S
+#58
+Eerie Clearing~
+You are in a small, eerie clearing.. It is virtually silent.. No sounds of
+small animals, birds or any creatures that you would normally expect to find
+in an area such as this.  You get a sense that far off to the west, something
+huge and malevolent waits.. To the east are the forests of Haon Dor and to
+the south are the banks of violently seething river.
+~
+2 0 2
+D1
+You see the forest of Haon Dor across the roiling river with bits of junk
+floating by occasionly from Dresden, to the south.
+~
+~
+0 -1 6121
+D3
+A muddy riverbank along a rushing river.
+~
+~
+0 -1 11057
+S
+#59
+Untamed Prairie~
+Stepping off the path, you find yourself wading through chest high grasses
+of an untamed prairie but sounds of a busy city lead you to invistigate
+further south.
+~
+2 0 2
+D0
+There is a path in this direction.
+~
+~
+0 -1 335
+D2
+More tall grass to wade through.
+~
+~
+0 -1 19168
+S
+#60
+Silver Strand~
+A fine strand of a silvery silk stretches up into the air. Below you can
+see the forests of Haon Dor.
+~
+2 0 2
+D4
+A humungous web of gigantic proportions fills your view.
+~
+~
+0 -1 6301
+D5
+Treetops abound.
+~
+~
+0 -1 6132
+S
+#61
+Before the Rainbow~
+Above you spans the most beautiful rainbow you have ever seen. Below
+you spans the great plains of the north.
+~
+2 0 1
+D4
+Colorful Mists.
+~
+~
+0 -1 7500
+D5
+Endless fields of amber.
+~
+~
+0 -1 315
+S
+#62
+Minor Path~
+Before you, lies the main eastern road. Go to the west and you are back
+in the dark valley.
+~
+2 0 2
+D1
+The old eastern road.
+~
+~
+0 -1 1701
+D3
+The dark valley.
+~
+~
+0 -1 5267
+S
+#63
+Forest Junction~
+You find yourself standing at a small junction where the path splits east
+and west.
+~
+2 A 2
+D1
+Forest.
+~
+~
+0 -1 6151
+D3
+Forest.
+~
+~
+0 -1 5622
+S
+#64
+Misty Clearing~
+As you emerge from the forest, your head  slowly begins to  swim, and you
+get  the  distinct  feeling  that you are very close to a highly powerful
+source of magic. Mist swirls all about you and the air shimmers brightly.
+Ahead you can barely  make out either a large  hill or an extremely large
+castle.
+~
+2 0 1
+D0
+You can't quite see exactly what it is that looms before you.
+~
+~
+0 -1 29001
+D2
+You can barely make out the edge of the forest through the mist.
+~
+~
+0 -1 9783
+S
+#65
+Gateway to The Netherworld~
+As you enter this room, you see an enormous whole in the center of the floor.
+Looking downward you see a spiraling swirl of smoke and mist, intertwined
+with pulsating lights of every color imaginable and not.  A distinct smell
+of sulphur wafts upwards from this hole and you begin to shudder.
+~
+2 AQ 0
+D1
+Ancient Shrine
+~
+~
+0 -1 65
+S
+#66
+A dark section of the forest~
+You have reached a very dark section of the forest, the only thing you can
+see is a dark tornado swirling in the air ahead of you.
+~
+2 A 3
+D2
+Back into the forest
+~
+~
+0 -1 6130
+S
+#67
+A narrow crevice~
+You are standing in a narrow crevice that is formed from a crack in the
+stone. It continues north and south.
+~
+2 AC 11
+S
+#68
+Ethereal Path~
+You find yourself treading upon a mystical path which leads onward through
+the clouds.  Ahead you can feel a great power radiating towards you.
+~
+2 AC 3
+S
+#69
+Into The Light~
+You find yourself drawn, almost beckoned towards the bright white light.
+~
+2 CQ 9
+D4
+You can see only light.
+~
+~
+0 -1 9900
+S
+#70
+Darkened Path~
+You find yourself treading upon a dark and sinister path. You get a strong
+sense of evil emanating from up ahead.
+~
+2 A 3
+D0
+You can't see the forest for the trees.
+~
+~
+0 -1 5689
+D2
+Only a strange hush and evil presence can be detected.
+~
+~
+0 -1 3601
+S
+#0
+
+#RESETS
+* annotation for anyone else that is looking at this area and thinking WTF
+* VNUMS 10-14 connect Mahn-Tor
+* VNUMS 15-16 connect Shadow Grove and its environs.
+* VNUM 17 connects Smurfs to Mud School.
+* VNUM 18 connects Moria to Middenir
+* VNUM 19 connects Troll Den to Middenir
+* VNUM 20 is a one way connection from New Thalos to Sands of Sorrow
+* VNUM 21-23 Is the portal entrance for Glitter Palace
+* VNUM 24-25 Connect Elemental Canyon to Plains of the North
+* VNUM 26 Portal in oldthalos to Thalos
+* VNUM 27 tricky connect room for Thalos
+* VNUM 28 portal from Elemental Canyon to Mega City One
+* VNUM 29 connects Kerofk to Northern Plains
+* VNUM 30-31 entrance to Olympus to Haon Dor
+* VNUM 32 - 34 Connects Lonely Mountain to Haon Dorr
+* VNUM 36 Connects Firenewts and HORDE to Old Thalos
+* VNUM 35-37 Connects Firenewts to Old Thalos
+* VNUM 38 connects Shire and Elven Valley to Middenir
+* VNUM 39 connects Dwarven Kingdom to Thalos
+* VNUM 40 connects Werith's Wayhouse.
+* VNUM 41 connects Pirates to New Thalos and Voyage to Pirates
+* VNUM 42 connects Midennir to New Thalos
+* VNUM 43 connects Camelot to Marsh
+* VNUM 44 connects Dwarven Daycare to Dwarven Kingdom
+* VNUM 45 connects Upper Argo to Plains of the North
+* VNUM 46-50 connects Upper Argo to Glass Fortress (Haven)
+* VNUM 51 connects Town of Haon Dor to Crystalmir Lake
+* VNUM 52 connects Ofcol to Plains of the North
+* VNUM 53 connects Rat's Lair to Dresden (Boat Shop)
+* VNUM 54 connects Pyramid to Eastern Desert
+* VNUM 55 connects Gnome Village to Eastern Road
+* VNUM 56 connects Holy Grove to Eastern Road
+* VNUM 57 connects Highlands to New Thalos (River)
+* VNUM 58 connects Ancalador to Haon Dor
+* VNUM 59 connects Rome to Plains
+* VNUM 60 connects Arachnos to Haon Dor
+* VNUM 61 connects Astral to Plains
+* VNUM 62 connects Wyvern to Thalos
+* VNUM 63 connects Tarin to Hell
+* VNUM 64 connects Korzath to New Thalos (Northern Gate)
+* VNUM 65 connects Hell to The Netherworld
+* VNUM 66 connects Land of Oz to Haon Dor
+* VNUM 67 connects CONSORTIUM to Underdark
+* VNUM 68 connects ISTARI to High Tower
+* VNUM 69 connects VALHALLA to Hell
+* VNUM 70 connects Dkforest to Tarin
+* NOTE THAT OBJECT PORTAL 115 IS USED IN LIMBO.ARE, NEXT OBJ SHOULD BE 116
+*
+O 0 113 1 26 * load the portal to mirror.are
+O 0 112 1 23 * load the portal to glitter palace
+O 0 111 1 17 * load the portal to smurfs
+O 0 114 1 28 * load the portal to mega1
+O 0 117 1 66 * load tornado portal to landoz
+*
+
+S
+
+#$

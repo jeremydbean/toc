@@ -1,0 +1,2388 @@
+#AREA  {35 60} Nero    Perellia~
+
+
+#MOBILES
+#19001
+prospector~
+a gold crazed prospector~
+A gold crazed prospector stares blankly at you.
+~
+The prospector is bent over the Dandane, sifting gold dust with
+his pan.  He is an older man, with white hair concealed under a brown
+hat.  His face is covered with a curly white beard which suffers from
+years of neglect.
+~
+human~
+BMT OJV 0 S
+35 5 1d1+750 1d1+1 12d5+10 27
+-5 -5 -5 +10
+EDFHIKLNU 0 0 JI
+8 8 1 3540
+0 0 M 0
+#19002
+pirhana~
+a giant pirhana~
+A giant pirhana attacks you in a feeding frenzy.
+~
+A very large fish, three feet long with a red belly and a silver back
+menaces towards you.  This little devil is about 90% teeth and about
+1% brains.  Pirhanas will attack anything that moves.
+~
+unique~
+BFMU QJV 0 S
+40 5 1d50+1200 1d1+1 4d11+35 10
+-10 -10 -10 0
+DEFHKMUZ AB 0 0 JHI
+8 8 1 0
+0 0 M 0
+#19003
+bee~
+a giant bee~
+A giant bee is here, buzzing around.
+~
+A six inch bee with big complex eyes and a furry body is flying around.
+~
+insect~
+BMU TJ 0 S
+10 1 1d50+100 1d1+1 1d1+50 26
+0 0 0 0
+GKU 0 0 0
+8 8 1 0
+0 0 S 0
+#19004
+swarm~
+the giant bee swarm~
+A huge swarm of giant bees is here, wreaking havoc.
+~
+The most horrible sight you have ever seen is the giant bee swarm
+diving around the forest at innocent bystanders.  They seem to be
+protecting the queen bee who is oddly out of the hive.
+~
+unique~
+BMUF TJ 0 S
+50 6 5d15+1000 1d1+1 4d15+10 26
+-15 -15 -15 +10
+DFH EFL 0 EHIJKPR
+8 8 1 0
+0 0 L 0
+#19005
+queen bee~
+the queen of the giant bees~
+The queen of the giant bees is here, looking for a drone.
+~
+The queen is much bigger than the average giant bee.  About 10
+inches in length and weighing about 2 pounds she packs a mean
+sting.  She is looking at you with her big bee eyes.
+~
+unique~
+BMU TJ 0 S
+30 3 1d1+500 1d1+1 1d1+75 26
+-15 -15 -15 +10
+DFH EFL 0 EHIJKPR
+8 8 2 0
+0 0 S 0
+#19006
+furlong stungalot beekeeper~
+Furlong Stungalot~
+Furlong Stungalot, the beekeeper of Perellia, is here nursing some stings.
+~
+Furlong Stungalot is a small man, his skin leathery from years of stings.
+Too bad for him the bee net hasn't been invented yet.  He appears to
+be guarding his precious royal jelly.
+~
+human~
+BTU BDFJHOVX 0 S
+36 3 1d1+972 300d2+1 2d10+10 16
+0 0 0 0
+CDEFIJKNV 0 0 0
+8 8 1 680
+0 0 M 0
+#19007
+tormand hessenhorn~
+Tormand Hessenhorn~
+Tormand Hessenhorn is here, taking care of the forest's creatures.
+~
+Tormand Hessenhorn is a peaceful old man, whose main interest
+is watching over the creatures of the forest and making protective
+jewelry for them to wear.  He looks like if he could be a very
+formidable opponent if tampered with.
+~
+human~
+BGR BDFJHOVX 500 S
+42 4 1d1+900 300d2+1 4d15+5 16
+0 0 0 0
+FHIJKNV 0 0 0
+8 8 1 1000
+0 0 M 0
+#19008
+stag~
+the giant stag~
+A giant stag is here, looking for its mate.
+~
+The giant stag is a very large deer of some sort.  Huge antlers
+reach out from his head like many-fingered hands.  His neck
+is covered with dark brown fur and an interesting looking
+amulet.
+~
+horse~
+BMU QJ 0 S
+36 3 1d1+900 1d1+1 4d15+5 15
+0 0 0 0
+FIKO 0 0 0
+8 8 1 0
+0 0 H 0
+#19009
+boar~
+the giant boar~
+A giant boar is here, slopping around.
+~
+The giant boar is a ferocious beast if bothered.  He has long
+ivory tusks and a hairy back.  Boy does he stink!
+~
+horse~
+BMU J 0 S
+30 3 1d1+750 1d1+1 4d6+8 15
+0 0 0 0
+FIKO 0 0 0
+8 8 1 0
+0 0 L 0
+#19010
+sow~
+an angry giant sow~
+An angry giant sow snorts at you and attacks.
+~
+Aggressive and nasty by nature, the sow will try to protect
+her piglets.
+~
+horse~
+FBMU J 0 S
+30 3 1d1+750 1d1+1 4d6+8 15
+0 0 0 0
+FIKO 0 0 0
+8 8 2 0
+0 0 L 0
+#19011
+piglet~
+a giant piglet~
+A giant piglet is here, rolling around in God knows what.
+~
+Looks can be deceiving, this little pig is not as cute as it looks.
+It is about the size of a regular full grown hog and smells much
+worse.
+~
+horse~
+BMU J 0 S
+15 1 1d1+300 1d1+1 4d2+2 15
+0 0 0 0
+FIKO 0 0 0
+8 8 1 0
+0 0 M 0
+#19012
+nymph~
+a nymph~
+A nymph sees you and immediately tries to seduce you.
+~
+This little creature looks like a cross between an elf and a pixie.
+Nymphs are known for enjoying a certain activity...now if you
+could just remember what it is...
+~
+human~
+BHMW IJ 250 S
+36 3 1d1+971 1d1+1 4d5+10 16
+-5 -5 -5 -5
+EFHJKNU 0 0 0
+8 8 2 500
+0 0 M 0
+#19013
+boy~
+a worn out 16 year old boy~
+A worn out 16 year old boy is here resting from vigorous activity.
+~
+The 16 year old boy has a smile on his face as he sleeps.  He is either
+having pleasant dreams or feels gratified in some way.  It is suprising
+to see a 16 year old so worn out....HHHHMMM....damn nymphs!
+~
+human~
+BMH RJ 250 S
+36 3 1d1+971 1d1+1 4d5+10 16
+-5 -5 -5 -5
+EFHJKNU 0 0 0
+4 4 1 500
+0 0 M 0
+#19014
+carrion crawler~
+a carrion crawler~
+A carrion crawler is here, scavenging for dead stuff.
+~
+The carrion crawler is a very large centipede looking beast.
+~
+centipede~
+BCFM J -500 S
+45 4 1d1+2500 1d100+1 10d4+20 32
+-5 -5 -5 -5
+DEFHKMO 0 0 0
+8 8 1 320
+0 0 H 0
+#19015
+lloghoth~
+a lloghoth~
+A lloghoth looks evilly at you and attacks.
+~
+The lloghoth is a creation of the evil Ahka Druz.  It is humanoid in
+form but is distorted beyond all recognition.  Two large eyes are
+perched on stalks extended from a bluish green head.  Its mouth is
+filled with razor sharp fangs.  It has four arms and walks upright.
+Better not mess with it!
+~
+unique~
+BFGHS TJQZ A -1000 S
+54 5 1d1+4000 1d100+1 7d6+20 9
+-5 -5 -5 -5
+BCDEFHIJKNR 0 0 NYPJ
+8 8 1 100
+0 0 L 0
+#19016
+archer~
+an elven archer~
+An elven archer looks at you suspiciously.
+~
+Legend has it that handful of elven archers once held off over
+a hundred raiding orcs.  Looking at this one you can see why.
+~
+elf~
+BGT J 750 S
+40 4 4d10+1850 1d1+100 4d8+13 13
+-5 -5 -5 -5
+EDFHIKLNU 0 0 0
+8 8 1 500
+0 0 M 0
+#19017
+footsoldier~
+an elven footsoldier~
+An elven footsoldier stands nobly and surveys the land.
+~
+Trained in the arts of war by the elven armorer Eliakas, this
+soldier would definitely fight well.
+~
+elf~
+BGT 0 750 S
+40 4 4d10+1850 1d1+100 4d8+13 13
+-5 -5 -5 -5
+EDFHIKLNU J 0 0
+8 8 1 500
+0 0 M 0
+#19018
+royal guard~
+a Royal guard~
+A Royal guard immediately attacks you as you enter the room.
+~
+The Royal guards of the Perellian elves were selected from the
+very best elven soldiers.  They are like the Green Berets, the Seals,
+the Commandos and the Rangers all rolled into one.
+~
+elf~
+BGMTF DHJVZ A 750 S
+54 5 50d10+6500 1d1+100 7d6+22 13
+-10 -10 -10 -10
+EDFHIKLNU 0 0 0
+8 8 1 500
+0 0 M 0
+#19019
+queen elifreda~
+Queen Elifreda~
+Queen Elifreda looks upon you with a fond gaze.
+~
+Queen Elifreda is the most beautiful elf you have ever seen.  She
+is dressed in a blue and gold satin gown studded with garnets.
+~
+elf~
+BGMTR RDHJV 1000 S
+60 7 1d1+7000 1d1+1500 8d6+28 16
+-10 -10 -10 -10
+EDFHIKLNU J 0 0
+8 8 2 6000
+0 0 M 0
+#19020
+king elohim~
+King Elohim~
+The proud and noble King Elohim stands here, holding his sceptre.
+~
+This is the legendary Elohim, great king of the Perellian elves.
+Adored by all of the elves, he is kindly and fair.  In battle, he is one
+of the more formidable opponents one can meet.
+~
+elf~
+BGMTR RDHJV 1000 S
+60 7 1d1+10000 1d1+2000 10d6+30 13
+-10 -10 -10 -10
+EDFHIKLNU 0 0 0
+8 8 1 10000
+0 0 M 0
+#19021
+baker~
+the city baker~
+The city baker is here, preparing some tasty lembas.
+~
+Maybe he will sell you some lembas.
+~
+elf~
+BMX J 0 S
+40 4 1d1+1000 1d1+1 10d6+30 13
+0 0 0 0
+EDFHIKLNU 0 0 0
+8 8 1 0
+0 0 M 0
+#19022
+winer~
+the city winer~
+The city's winer stands here, making fine wines.
+~
+Maybe he will sell you some oerivir.
+~
+elf~
+BMX J 0 S
+40 4 1d1+1000 1d1+1 10d6+30 13
+0 0 0 0
+EDFHIKLNU 0 0 0
+8 8 1 0
+0 0 M 0
+#19023
+elerach~
+Elerach~
+Elerach, the elven armorer stands here, sharpening a weapon.
+~
+A huge figure for an elf, Elerach looks like a Neanderthal.  His
+combat skills are legendary, so watch out!
+~
+elf~
+BMT HVJ 750 S
+50 4 1d1+3000 1d1+1 5d7+20 13
+-5 -5 -5 -5
+EDFHIKLNU 0 0 0
+8 8 1 0
+0 0 M 0
+#19024
+mage~
+an elven mage~
+An elven mage rests here, recovering.
+~
+An average ordinary elf with magic is what you see.
+~
+elf~
+BMR JV 750 S
+40 4 15d10+1700 40d5+100 3d10+12 16
+0 0 0 0
+EFHKU 0 0 0
+8 8 1 500
+0 0 M 0
+#19025
+rat koko~
+Pico's lab rat "Koko"~
+Pico's lab rat named "Koko" scurries around here.
+~
+Wait a minute!  That is not a rat!  Its a little brown toy poodle!!!
+~
+dog~
+BMR JV 0 S
+1 1 1d20+1 1d100+100 1d5+2 10
+0 0 0 0
+EFHKU A 0 0
+8 8 1 10
+0 0 S 0
+
+#0
+#OBJECTS
+#19002
+tormand ring~
+Ring of Tormand~
+A small, simple ring set with a star garnet lies here.~
+silver~
+9 ABV AB
+0 0 0 0 0
+42 5 5000 P
+A
+2 -1
+A
+3 1
+A
+12 30
+#19003
+swatter fly~
+Furlong's Fly Swatter~
+A fly swatter with a bluish green metal handle rests here.~
+adamantite~
+5 ABV AN
+0 3 16 27 0
+33 15 5000 P
+A
+19 3
+A
+4 -2
+A
+18 2
+#19004
+medallion garnet~
+A garnet medallion~
+An ornately crafted white gold medallion set with garnets rests here.~
+steel~
+9 AGV AC
+0 0 0 0 0
+30 15 5000 P
+A 
+1 -1
+A
+13 25
+A
+12 25
+A
+18 2
+A
+19 -1
+#19005
+tusk~
+A giant boar's tusk~
+A long ivory tusk lies here.~
+wood~
+5 BJ AN
+2 3 16 11 0
+30 30 5000 P
+A
+2 1
+A
+18 4
+A 
+19 3
+#19007
+bow~
+A Perrelian bow~
+A beautifully crafted bow, carved from the Perrelian Yew tree, lies here.~
+wood~
+5 B AN
+9 4 12 11 0
+40 15 20000 P
+A
+18 5
+A
+19 4
+#19008
+blade~
+A Foot Soldier's Blade~
+A short blue metal sword lies here.~
+steel~
+5 B AN
+1 4 12 3 0
+40 15 20000 P
+A
+1 3
+A
+18 5
+A
+19 4
+#19009
+shield~
+A Foot Soldier's shield~
+A blue metal shield lies here gathering dust.~
+steel~
+9 0 AJ
+11 10 7 8 0
+40 15 20000 P
+A
+1 1
+A
+18 2
+A
+19 3
+#19010
+boots~
+A Foot Soldier's boots~
+A pair of small leather boots sends a sour smell your way.~
+leather~
+9 0 AG
+10 9 12 11 0
+40 15 20000 P
+A
+2 1
+A
+18 2
+A
+19 3
+#19011
+dagger perellian~
+A Perrelian dagger~
+A blue metal dagger lies here, gleaming in its own light.~
+steel~
+5 ABFGV AN
+2 4 15 11 0
+50 15 50000 P
+A
+1 3
+A
+2 -1
+A
+18 7
+A
+19 7
+#19012
+whip~
+Queen Elifreda's S&M whip~
+A long leather bullwhip lies here.~
+leather~
+5 0 AN
+7 5 15 4 0
+51 15 50000 P
+A
+1 3
+A
+18 7
+A
+19 6
+#19013
+handcuffs cuffs~
+Queen Elifreda's Handcuffs~
+A pair of blue metal handcuffs lies here.~
+steel~
+9 0 AM
+15 15 15 15 0
+50 15 50000 P
+A
+1 -1
+A
+18 3
+A
+19 3
+#19014
+nighty satin~
+Queen Elifreda's red satin nighty~
+A lacy red nighty made of satin lies here.~
+cloth~
+9 0 AK
+20 20 20 20 0
+51 10 50000 P
+A
+1 3
+A
+18 4
+A
+19 2
+#19015
+phallic sceptre~
+King Elohim's Phallic sceptre~
+A long blue metal rod with an interesting shape lies here.~
+steel~
+9 ABGF AO
+0 0 0 0 0
+52 10 50000 P
+A
+1 2
+A
+18 6
+A
+18 6
+#19018
+war mask~
+Elerach's War Mask~
+A jeweled angel-faced mask lies here.~
+steel~
+9 ABFGV AE
+5 5 5 5 0
+50 50 50000 P
+A
+2 1
+A
+12 50
+A
+14 -100
+A
+18 2
+A
+19 3
+#19019
+trinidad cigar~
+A Trinidad cigar~
+A cigar from Fidal's personal stash is here.~
+wood~
+1 A AE
+0 0 9999 0 0
+20 10 10000 P
+A
+12 20
+A
+18 2
+#19020
+fountain~
+A magic fountain~
+A magic fountain is here, bubbling forth sweet water.~
+wood~
+25 0 0
+9999 9999 0 0 0
+0 0 0 P
+#19021
+lembas~
+A piece of Lembas~
+A piece of tasty Lembas is here...waiting to be eaten.~
+food~
+26 0 A
+30 16 16 81 0
+30 30 150 P
+#19022
+royal jelly~
+some royal jelly~
+Some royal jelly from the Perellian bees is here!!~
+food~
+26 0 A
+5 36 39 0 0
+30 30 10000 P
+#19023
+flask oerivir~
+a flask of oerivir~
+A flask of oerivir lies here.~
+food~
+10 0 A
+30 15 81 518 0
+30 30 150 P
+
+
+#0
+
+
+#ROOMS
+#19001
+Entrance to Perellia~
+As you enter the forest you are immediately overcome by a deep feeling of calm.  The trees in this forest are HUGE, with the canopy towering
+hundreds of feet above your head.  The air smells fresh and damp with a
+hint of pine needles.  In fact, you realize that the floor of the forest
+is actually a thick carpet of pine needles.  The path continues to the
+north and there is always the refuge of the plains to the south.
+~
+19 0 3
+D0
+Into the forest.
+~
+~
+0 -1 19002
+D4
+~
+doggystyle~
+4 -1 19076
+S
+#19002
+Into Perellia~
+The forest has grown thick and dark.  The canopy now blocks out almost
+all of the sunlight, with only a few scattered patches hitting the
+ground.  Your calm went with the sunlight and you now feel as if someone
+or someTHING is watching your every move.  Exits are north into god
+knows what and south to the entrance.
+~
+19 A 3
+D0
+Towards the Dandane.
+~
+~
+0 -1 19003
+D2
+Back to the entrance.
+~
+~
+0 -1 19001
+S
+#19003
+Crossing of Dandane's stream~
+The forest is abruptly cut in half by a crystal clear stream.  The
+bottom of the stream glitters brilliantly in the patches of light that
+manage to make it through the thick canopy above.  As you reach down to
+grab a handful of the amazing sand, you notice that the water is
+unusually cold.  A closer look at the sand reveals the source of the of
+its beauty-small flecks of gold dust are peppered in with the coarse
+black sand.  The stream is running from the east to the west.
+North lies more of the Perellia forest.
+~
+19 A 6
+D0
+More forest.
+~
+~
+0 -1 19024
+D2
+~
+~
+0 -1 19002
+D3
+Down the stream.
+~
+~
+0 -1 19041
+D1
+Up the stream.
+~
+~
+0 -1 19004
+S
+#19004
+On the Dandane~
+As you plod through the water you are loathe to disturb the natural
+beauty of the stream.  As you walk your feet stir up small flecks of
+gold dust which flash briefly in the sun.  The stream continues to the
+east and to the west.
+~
+19 A 6
+D1
+Upstream.
+~
+~
+0 -1 19005
+D3
+Downstream.
+~
+~
+0 -1 19003
+S
+#19005
+Bend~
+You have come to a bend in the stream.  The water is quite a bit deeper
+here, obviously because of the faster current.  There is something VERY
+nasty in the water!  Better get the hell out of here.
+~
+19 A 7
+D0
+Upstream.
+~
+~
+0 -1 19006
+D3
+Downstream.
+~
+~
+0 -1 19004
+S
+#19006
+Strange landing~
+This section of the stream seems fishy.  There is break in the forest
+wall which allows passage to the north, but the stream abruptly stops.
+You notice that a current is still flowing from the northwest, but
+a look in that direction reveals nothing but more trees.  Perhaps it
+runs underground from this point.
+~
+19 A 6
+D0
+The landing.
+~
+~
+0 -1 19007
+D2
+Downstream.
+~
+~
+0 -1 19005
+S
+#19007
+Suspicious paths.~
+There is a worn path leading down to the stream south of here.  You
+think it must have been caused by animals going to drink, but the
+suspicious nature of these woods makes you wonder.  There is also a
+very narrow path winding east into the forest.  North of here lies a
+small clearing.
+~
+19 A 3
+D0
+Into the clearing
+~
+~
+0 -1 19008
+D1
+A narrow path.
+~
+~
+0 -1 19021
+D2
+The Dandane.
+~
+~
+0 -1 19006
+S
+#19008
+A Flowery Clearing~
+Finally you have come to a break in the forest.  The ground is covered
+with thousands of rare flowers.  These must be the ever coveted
+Perellian Orchids!!  Why not have a look at one?
+A narrow path runs to the east and a slightly larger path runs to
+the north.  To the south is the Dandane.
+~
+19 0 3
+D0
+Into the forest.
+~
+~
+0 -1 19009
+D2
+Towards the Dandane.
+~
+~
+0 -1 19007
+D1
+Down a narrow path.
+~
+~
+0 -1 19027
+E
+flower~
+One of these would fetch a thousand gold in any market.  The
+petals are black and a look inside the cup reveals a red interior.
+Beauty can be deceptive though; it is rumored that the
+Perellian Elves use the Orchid's nectar as poison for their daggers
+and arrows.  That would explain the lack of any bees buzzing around!
+~
+S
+#19009
+The Dark Eerie Place.~
+This section of the woods gives you the creeps.  Dark shivers run up and
+down your spine.  You feel as if you are being watched by a thousand
+eyes.  The trees themselves seem to have eyes in this place.  The path
+continues to the north but there is a branch or something blocking your
+way.  You could go south to the flowery clearing but something tells
+you to have a closer look at that branch.
+~
+19 A 3
+D0
+Passage to the north.
+~
+branch~
+1 -1 19010
+D2
+To the clearing.
+~
+~
+0 -1 19008
+E
+branch~
+A closer look reveals that the blocking branch has a mechanical nature.
+Perhaps it is possible to open a way to the north.
+~
+S
+#19010
+Beneath the Perellian City.~
+You have just found the treetop city of the Perellian Elves!  Tiny but
+sturdy rope ladders lead up into the trees.  Far above you can see the
+bottoms of the elven platforms that make up the city.  Rope bridges
+connect the various dwellings and activity abounds everywhere.  To the
+north lies more forest and there is a narrow path to the east.
+There is a sign written in common tongue that you might want to read.
+~
+19 0 3
+D0
+Northern woods.
+~
+~
+0 -1 19011
+D1
+A narrow path.
+~
+~
+0 -1 19029
+D2
+Too dark to tell.
+~
+~
+0 -1 19009
+D4
+Up a LONG rope ladder.
+~
+~
+0 -1 19044
+E
+sign~
+We the elves of Perellia are a peaceful people but we will not tolerate
+evil creatures.  If you have evil intentions or have committed acts of
+evil in the past, then be on your way and consider yourself lucky to
+have escaped our wrath.  If you are peaceful and wish to come into our city
+then feel free to do so.
+~
+S
+#19011
+Northern Perrelia.~
+The terrain is much more hilly in this section of the forest.  In general it seems
+as if the ground is sloping up to the north.  To the north is the valley of souls.
+To the south is the Perellian tree village.
+~
+19 0 3
+D0
+The valley of souls.
+~
+~
+0 -1 19012
+D2
+The Perellian Village.
+~
+~
+0 -1 19010
+S
+#19012
+The Valley of Souls.~
+You have entered the ancient burial ground of the Perellian elves.
+Here fallen elvish warriors rest in eternal slumber.  Scattered about
+are burial mounds, some with markers, some without.  Many of the
+mounds are freshly heaped, evidence of recent battles.  The walls
+of the valley close in like giant cupped hands and you are ready to
+leave.
+~
+19 0 3
+D0
+To a vexing fork.
+~
+~
+0 -1 19013
+D2
+Into the forest.
+~
+~
+0 -1 19011
+S
+#19013
+A vexing fork.~
+You have come to a fork in the path.  Travelers have been known
+to enter the Perellian forest and never return.  One must always make
+wise decisions when traveling in Perellia.  Perhaps you should survey
+the land from the lookout tower above you.
+~
+19 0 3
+D0
+~
+~
+0 -1 19014
+D2
+To the valley of souls.
+~
+~
+0 -1 19012
+D3
+~
+~
+0 -1 19016
+D4
+Up into the watchtower.
+~
+~
+0 -1 19043
+S
+#19014
+On the road to trouble.~
+This section of the forest is particularly dark.  The trees seem to be
+reaching for you, stretching long crooked arms towards the path.
+The air is thick and smells of death and decay.  Evil vibrations are
+pulsing like a sinister heart beat from the north.  The east seems to
+be a much better course of direction.
+~
+19 0 3
+D0
+Don't go here, you'll die.
+~
+~
+0 -1 19015
+D1
+A much better course!
+~
+~
+0 -1 19039
+D2
+To the Vexing fork.
+~
+~
+0 -1 19013
+S
+#19015
+Bottomless pit.~
+Heedless of all warnings you have fallen into the bottomless pit of
+Perellia.  As you fall you notice that sharp outcroppings of obsidian
+protrude from the walls like jagged teeth.  You were sliced in half
+by one shortly after you reached terminal velocity.  Its all right
+to cry!!  Maybe next time you will read the room descriptions as
+you explore.  Adventuring is dangerous you know.
+~
+19 IL 11
+S
+#19016
+The Northern Forest.~
+The path is becoming rocky and the trees are thinning a bit.
+Enough light is seeping through the canopy to illuminate
+the signs of battle that litter the area.  Broken arrows are
+scattered about along with miscellaneous bones.  The trees
+are scarred from the missed slashes probably intended to
+cleave heads.  The path to the west is upward sloping and
+appears to open up into a clearing.  To the east lies the vexing
+fork.
+~
+19 0 4
+D1
+To the vexing fork.
+~
+~
+0 -1 19013
+D3
+Up a hill.
+~
+~
+0 -1 19017
+S
+#19017
+Dresselhoff's Rock.~
+You have entered a clearing on the top of a hill.  The ground is
+one big mounded stone.  The lore of the land says that the
+ancient elven king named Dresselhoff fought bravely to his death
+on this very spot in the first war with the minions of Ahka Druz.
+There are fresh signs of a ferocious battle.  Cloven helmets litter
+the ground along with various other macabre tidbits.  A narrow path
+runs to the south and a slightly larger one to the north.  Far to the
+east is the fabled vexing fork, where many travelers have met their doom.
+~
+19 0 4
+D0
+Into a valley.
+~
+~
+0 -1 19018
+D1
+Down the hill.
+~
+~
+0 -1 19016
+D2
+Into a valley.
+~
+~
+0 -1 19037
+S
+#19018
+The Last Valley.~
+This is the last valley before the Mohzon mountains.  The battle
+must have been thick here.  Vultures still gather even though
+you can see no evidence of corpses.  To the east is a climb into
+the most foreboding mountains you have ever seen.  Jagged
+peaks line and smoke rises from everywhere.  The mountains
+seem to be composed mainly of black volcanic rock with isolated
+veins of obsidian.  To the south is a climb onto Dresselhoff's Rock.
+~
+19 0 4
+D2
+To Dresselhoff's Rock.
+~
+~
+0 -1 19017
+D1
+Climb into the Mohzon Mountains.
+~
+~
+0 -1 19019
+S
+#19019
+On top of Old Smoky.~
+You have reached the top of Smoky mountain, one of the lower
+peaks in the Mohzon mountain range.  Smoke jets from pores in the
+rock, giving the mountain its name.  From here you can see a
+vast forest to the south and black mountains everywhere else.
+To the north is a deep valley, the bottom of which you can scarcely
+see.
+~
+19 0 5
+D0
+A deep valley.
+~
+~
+0 -1 19020
+D3
+~
+~
+0 -1 19018
+S
+#19020
+Gustresra's Valley.~
+This is the long lost valley of Gustresra.  Legend has it that
+a human explorer named Gustresra journeyed here long ago
+looking for a passage to the north.  He was killed when a boulder
+mysteriously fell from above.  Shear cliffs rise up from three sides
+and the only way out appears to be to the south.
+~
+19 0 5
+D2
+The only way out.
+~
+~
+0 -1 19019
+S
+#19021
+A tight squeeze.~
+Squeezing your way through the undergrowth is not
+as easy as it looked from the main path.  You can hear
+a gentle buzzing noise coming from the east.  To the west
+lies the main path.
+~
+19 0 3
+D1
+~
+~
+0 -1 19022
+D3
+to the main path.
+~
+~
+0 -1 19007
+S
+#19022
+BEES!.~
+There are several VERY large bees buzzing around the area.
+Remember what your mother told you about not bothering
+them.  These ones look like they could kill a cat.  They are
+about six inches long and look like they weigh about a pound.
+You can hear a very loud buzzing noise coming from the east.
+~
+19 0 3
+D1
+The Hive.
+~
+~
+0 -1 19023
+D3
+~
+~
+0 -1 19021
+S
+#19023
+The Hive.~
+Ack!!!  A huge swarm of giant bees!  Their presence can be explained
+by the hive hanging off a huge tree limb overhead.  Refuge is to the north
+and to the west.  Better get the hell out of here!
+~
+19 0 3
+D0
+Refuge.
+~
+~
+0 -1 19031
+D3
+Refuge.
+~
+~
+0 -1 19022
+S
+#19024
+Large animal tracks.~
+On the shore of the Dandane you can see the tracks of a very
+large animal.  It appears to have four legs with cloven hoofs.
+The tracks sink deep into the wet sand, suggesting a massive
+beast of some sort.  To the south is the Dandane and north lies
+more forest.
+~
+19 0 3
+D0
+A fork in the path.
+~
+~
+0 -1 19025
+D2
+The Dandane.
+~
+~
+0 -1 19003
+S
+#19025
+A fork in the path.~
+There are a lot of huge hoof prints here.  You sense danger nearby.
+The trees exhibit huge gashes about 6 feet from their bases.
+~
+19 0 3
+D1
+~
+~
+0 -1 19026
+D2
+Too dark to tell
+~
+~
+0 -1 19024
+D3
+~
+~
+0 -1 19033
+S
+#19026
+The Boar's Nest.~
+Now you have seen it all.  The trees here are in horrible shape, the
+unfortunate victims of the Giant Boar's mating habits.  Deep gashes
+go up and down the trunks.  Watch out for sows with piglets.  They
+can be most unpleasant.
+~
+19 0 3
+D3
+~
+~
+0 -1 19025
+S
+#19027
+On a small and seldom used path.~
+Treading through this part of the wood brings a calm over you.  The
+air is particularly pleasant smelling here.  To the east you can see a
+small hut.  To the west is the main path through Perellia.
+~
+19 0 3
+D1
+Into the cabin.
+~
+~
+0 -1 19028
+D3
+Back to the path.
+~
+~
+0 -1 19008
+S
+#19028
+Hut.~
+As you enter the residence of  Tormand Hessenhorn you notice right
+away what a pleasant place it is.  It is quite small, but judging from the
+size of the chairs and utensils scattered about the hut, Tormand is a
+small fellow.  Several tools and a small bench look much like those you
+would find in any silversmith's shop.  Tormand is out, probably running
+some small errand.
+~
+19 0 0
+D3
+Back to the path.
+~
+~
+0 -1 19027
+S
+#19029
+On a small path.~
+You are on a small pleasant path.  The only out of the ordinary
+characteristic of  the path is that the grass is very short, and there
+are a small hoof prints here and there.  To the east is a small clearing
+and westward lies the elven village.
+~
+19 0 3
+D1
+A small clearing.
+~
+~
+0 -1 19030
+D3
+The village.
+~
+~
+0 -1 19010
+S
+#19030
+A small clearing.~
+You have entered a small clearing.  All around the ground there are
+patches of pushed down grass where some animals have slept.
+Reaching down you feel that the grass is still warm.  HHHMMM.
+Something must have been here recently.
+~
+19 0 3
+D3
+~
+~
+0 -1 19029
+S
+#19031
+Refuge from the bees.~
+Bees suck.  That is why it is good to be safe from them here.
+To the south is the bee hive.  To the east is a small cabin.
+~
+19 0 3
+D1
+Into a small cabin.
+~
+~
+0 -1 19032
+D2
+To the hive.
+~
+~
+0 -1 19023
+S
+#19032
+Beekeeper's Hut.~
+This is the cabin of Furlong Stungalot, the beekeeper of
+Perellia.  It is small and quaint with hexagon windows.  In
+fact the whole hut is a hexagon.  EVERYTHING IS A
+HEXAGON!!!!  YOU MUST BE GOING CRAZY!!!
+AAAAAAHHHHHH!!!!!!!!
+~
+19 0 3
+D3
+Back outside the hut.
+~
+~
+0 -1 19031
+S
+#19033
+Boars abound.~
+You have entered a favorite stomping ground of the Giant Boars
+of Perellia.  The trampled remains of what use to be a traveler are
+strewn about the ground.  These boars look even nastier than
+they smell!
+~
+19 0 3
+D0
+More boars.
+~
+~
+0 -1 19034
+D1
+The fork.
+~
+~
+0 -1 19025
+S
+#19034
+Hog Heaven.~
+If you were a boar, this is where you would want to go when
+you met your maker.  Boars are EVERYWHERE!  There is about
+3000 gallons of hog crap sprayed all over the ground and trees.
+They seem to be enjoying themselves very much in spite of your
+presence.  To the west are hogs, to the south are hogs.  HOGS
+EVERYWHERE!!!
+~
+19 0 2
+D2
+Hogs.
+~
+~
+0 -1 19033
+D3
+More Hogs.
+~
+~
+0 -1 19035
+S
+#19035
+Hoggy Nursery.~
+This is obviously the nursery of the Giant Perellian Boars.  Don't
+even think about bothering one of those piglets you swine!
+Pardon the pun...Hehehe.  This was a banner year for the boars.
+All you can think about is how nice one of these piglets would
+look with an apple in its mouth.  A strong, hair curling stench is
+coming from the north.  To the east are more hogs.
+~
+19 0 3
+D0
+Hog wallow.
+~
+~
+0 -1 19036
+D1
+Hog Heaven.
+~
+~
+0 -1 19034
+S
+#19036
+The Biggest Hog Wallow in the Universe.~
+You have entered is unnatural clearing in the forest cause by
+thousands of years of Giant Boars slopping around in the mud.
+The wallow is directly on top of a seeping freshwater spring.
+No plants will even attempt to grow anywhere close to that
+stinking pit-too much fertilizer!  You will be glad to leave this
+place in favor of fresh air.
+~
+19 0 3
+D2
+~
+~
+0 -1 19035
+S
+#19037
+A steep rocky path.~
+The terrain is rocky and steep on this part of the hill.  You notice
+a large hole in the ground.  Around the top of the hole are bits of
+bone and a few scraps of metal.  It looks dangerous.  I wouldn't
+crawl in there if I were you.
+~
+19 0 3
+D0
+~
+~
+0 -1 19017
+D5
+Into a smelly hole.
+~
+~
+0 -1 19038
+S
+#19038
+Carrion Crawler's lair.~
+Oh well...your mistake.  You are overwhelmed by the pungent
+odor and the close quarters of this filthy hole.  It smells like there
+is about 1000 pounds of rotten meat down here.  YUCK!
+~
+19 0 3
+D4
+Escape to fresh air!
+~
+~
+0 -1 19037
+S
+#19039
+A Long Thick and Bulging Path.~
+This path is long and thick.  Two large boulders flank the path at its
+origin to the west.  The undergrowth is especially dense by these rocks.
+You immediately start to think of things like trains going into mountain
+tunnels, oil drills bobbing up and down, oil rigs spurting oil out the top,
+big fireworks blowing off in the sky and rockets taking off.  You can hear
+moans coming from the east.  It is hard to tell the nature of the moans.
+It sounds as if the creatures making them are in pain yet they oddly sound
+like they are enjoying themselves.  HHMMM....better go check it out!
+~
+19 0 3
+D1
+Randy Way.
+~
+~
+0 -1 19040
+D3
+Back to Danger.
+~
+~
+0 -1 19014
+S
+#19040
+Nymph's Abound.~
+You now understand the true meaning of the word 'nymphomania'.
+These little creatures are sure vivacious!  This section of the forest is
+a big triangle with the point facing towards the west.  At the western
+end of the triangle, the underbrush clears away and the ground becomes
+slightly damp.  It is exciting to think that there might be a natural spring
+there.  The undergrowth becomes progressively thicker towards the
+eastern edge of the triangle.  The only exit is to the west,
+but there are lots of open holes around here.
+~
+19 0 3
+D3
+To metaphor lane.
+~
+~
+0 -1 19039
+S
+#19041
+Down the Dandane.~
+This truly is the most remarkable stream you have ever seen.  The wealth
+of this stream must be immeasurable.  The gold glitters so strongly on the
+bottom that it is enough to give someone gold fever.  The stream is a little
+deeper here, probably because of the change in direction.  Upstream is to
+the east and downstream is to the south.
+~
+19 0 3
+D1
+Upstream.
+~
+~
+0 -1 19003
+D2
+Downstream.
+~
+~
+0 -1 19042
+S
+#19042
+End of the Dandane.~
+The stream abruptly ends here, probably going underground.  You are 
+sad to see it end.  Upstream is to the north.
+~
+19 0 3
+D0
+Upstream.
+~
+~
+0 -1 19041
+S
+#19043
+The Watch Tower.~
+You climb far up into the very tip top of one of the larger trees in Perellia.
+Looking down, you estimate the distance to the ground to be about 400
+feet.  Gasping for breath you reach the platform and stop to notice the 
+awe inspiring beauty of the scenery.  As far as the eye can see, huge
+trees dominate the landscape.  The platform itself is very well made - a
+token of the Perellian elves' great craftsmanship.  You notice a small
+telescope mounted on the northern railing.  Try looking at the telescope.
+~
+19 0 3
+D5
+Down to the path.
+~
+~
+0 -1 19013
+E
+telescope~
+A closer look at the telescope's construction reveals that it is not only
+a highly functional device but a work of art.  The lens appears to have
+been ground from either clear obsidian or diamond.  A quick look through
+the telescope reveals the following intelligence:
+NORTH-  The Mohzon mountains tower far away, a bit closer (2 north) you
+notice a deep pit which can only be a deathtrap of some sort.
+WEST-  Not far to the west you notice a big bald stone hill which can only be
+Dresselhoff's Rock.
+~
+S
+#19044
+Entrance to the Treetop City.~
+Reaching the top of the ladder you push open a small wooden trapdoor and
+climb to the deck.  Looking down you notice that you are about 200 feet off
+the ground.  The platform you are standing on appears to be a porch of some
+sort, used for greeting guests.  A short railing prevents you from toppling to
+the ground.  Roofed huts lie to the east and south.
+~
+19 0 3
+D1
+~
+~
+0 -1 19045
+D2
+~
+~
+0 -1 19047
+D5
+Down into the forest.
+~
+~
+0 -1 19010
+S
+#19045
+A Small Roofed Hut.~
+You have entered a small 20 foot by 20 foot hut.  Looking out one of the
+windows you see that the tree city actually has different levels, some
+higher than others, and platforms connected by rope bridges.  To the
+west lies the entrance to the city and to the south is another hut.
+~
+19 0 0
+D2
+Into an adjoining hut.
+~
+~
+0 -1 19046
+D3
+To the entrance of the city.
+~
+~
+0 -1 19044
+S
+#19046
+Bridge Room.~
+This room is decorated with a large woven floor rug.  Brilliant colors
+swirl to a point in the center of the rug.  There is a door to the east
+and open archways leading to both the west and the north.
+~
+19 0 0
+D0
+~
+~
+0 -1 19045
+D1
+~
+~
+1 -1 19048
+D3
+~
+~
+0 -1 19047
+S
+#19047
+The Smoking Room.~
+The most noticeable feature of this room is its pleasant smell.
+It appears that all of the elves in the city come to this room
+to smoke their pipes and discuss daily events.  There is a
+small humidor built into the west wall.  Why not have a look
+at it?
+~
+19 0 0
+D0
+To the Entrance.
+~
+~
+0 -1 19044
+D1
+~
+~
+0 -1 19046
+D2
+~
+~
+1 -1 19053
+E
+humidor~
+Examining the humidor, you notice that it is a cedar box with a blue
+elven glass door.  Inside there must be treasures of a most smoky
+nature.  The temperature appears to be kept constant at 72 degrees
+F and the humidity is at about 70 percent.  These elves know their
+cigars!!
+~
+S
+#19048
+A Rope Bridge.~
+You walk out onto a rope bridge, which gently sways from side to
+side in the breeze.  You consider hawking a lunger to spit down on
+unsuspecting heads but decide against it.
+~
+19 0 1
+D1
+Into another hut.
+~
+~
+0 -1 19049
+D3
+~
+~
+0 -1 19046
+S
+#19049
+Living Quarters~
+You have entered a small complex of living quarters.  Each little room
+is meagerly equipped but looks adequate for living.
+~
+19 0 0
+D0
+Too dark to tell
+~
+~
+0 -1 19050
+D1
+Too dark to tell
+~
+~
+0 -1 19052
+D3
+To the rope bridge.
+~
+~
+0 -1 19048
+S
+#19050
+Living Quarters~
+You have entered yet another complex of living quarters.  The rooms
+are all plain and about the same.
+~
+19 0 0
+D1
+To the stair room.
+~
+~
+0 -1 19051
+D2
+~
+~
+0 -1 19049
+S
+#19051
+A Staircase.~
+At the center of this room is a wooden spiral staircase leading up.
+Far below you, there is a loud humming.  It sounds an awful lot
+like bees.
+~
+19 0 0
+D2
+More living quarters.
+~
+~
+0 -1 19052
+D3
+Living Quarters.
+~
+~
+0 -1 19050
+D4
+Another level of the city.
+~
+~
+0 -1 19058
+S
+#19052
+More living quarters.~
+You have entered a group of living quarters, designed solely for
+efficiency.
+~
+19 0 0
+D0
+~
+~
+0 -1 19051
+D3
+~
+~
+0 -1 19049
+S
+#19053
+A rope bridge.~
+Standing in the middle of a rope bridge, you notice a small sway.
+The Bridge swings in the breeze with the trees.  You would hate
+to walk on this on a windy day!
+~
+19 0 1
+D0
+~
+~
+0 -1 19047
+D2
+~
+~
+0 -1 19054
+S
+#19054
+The war room.~
+This room is the elves' war room.  In the center of the room is a well
+lit table with a map on it.  You have a strong urge to look at that map.
+The rest of the room is dimly lit to match the nature of its purpose.
+Elves generally do not like to be in this room.
+~
+19 0 0
+D0
+To the bridge.
+~
+~
+0 -1 19053
+D1
+To the armory.
+~
+~
+0 -1 19055
+D2
+The Barracks.
+~
+~
+0 -1 19057
+E
+map~
+<                                                *        *                                              >
+<                                   *          |#|        | |       Castle of Ahka Druz   >
+<                                   | |       | | | | |     | | | | | | | |                                      >
+<                                   # # # # # # # # # # # |                                  >
+<                                   ########X#######                                  >
+<   ^^^ ^^ ^^^ ^^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ ^^ Ring of the^^^^>
+<   ^^ ^   ^                                                        ^ ^ ^ ^ ^Mohzon^^^ >
+<   ^^^ ^ ^                                    Lake of the     ^ ^ ^Mountains^^>
+<   ^ ^                                           Dead                   ^ ^ ^ ^^ ^ ^ ^ ^^ >
+<   ^^                                                                                 ^^^^^ ^^^  >
+<   ^^ ^ ^                                                                            ^^^^^^^^  >
+<   ^^^^^^^^^^^^^^^                                 ^^^^^^^^^^^^^^^^^^^   >
+<   ^^^^^^^^^^^^^^^^^                        ^^^^^^^^^^^^^^^^^^^^^    >
+<   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    >
+<   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    >
+<                                                 *    caves of the Underdark           >
+<                            Perellia                                                                  >
+<                                                                                                           >
+~
+S
+#19055
+Armory.~
+This is the armory of the Perellian elves.  Great bows line one wall.
+On another wall brilliantly shining suits of elvish ring armor are
+hanging.  Finally, in a magical case, the legendary poison daggers
+are locked away safe from all meddling.  There is a pile of beautiful
+jewel encrusted shields on a large table in one corner.  If only you
+could make off with some of this loot!
+~
+19 0 0
+D2
+~
+~
+0 -1 19056
+D3
+The war room.
+~
+~
+0 -1 19054
+S
+#19056
+Barracks.~
+This room looks like any barracks should:  lots of bunks, lots of
+soldiers and lots of dirty socks lying around.
+~
+19 0 0
+D0
+The armory.
+~
+~
+0 -1 19055
+D3
+~
+~
+0 -1 19057
+S
+#19057
+Barracks.~
+This is another of the elvish barracks.  Looking out a window you
+can see the shiny course of the Dandane running below.
+~
+19 0 0
+D0
+The War Room.
+~
+~
+0 -1 19054
+D1
+Barracks.
+~
+~
+0 -1 19056
+S
+#19058
+Staircase Room.~
+This is the room containing the staircase to the first level of the
+treetop city.  You smell the aroma of baking bread coming from the
+east and the room to the south houses the elvish winery.
+~
+19 0 0
+D1
+The Bakery.
+~
+~
+0 -1 19059
+D2
+The Winery.
+~
+~
+0 -1 19061
+D5
+The first level.
+~
+~
+0 -1 19051
+S
+#19059
+The Bakery.~
+Large brick ovens line the walls.  A small bent elf is here, offering
+you some bread.  The elves are famous for their sustaining bread
+named lembas.  It is rumored that the elves only need take a small
+hunk of lembas on a long journey.
+~
+19 0 0
+D2
+The Metalsmith.
+~
+~
+0 -1 19060
+D3
+~
+~
+0 -1 19058
+S
+#19060
+The Metalsmith.~
+This room holds the elves' metal crafting facilities.  Bars of precious
+metal are stacked on a table along with other tools.  There is a hot
+kiln blasting heat into the room.
+~
+19 0 0
+D0
+The bakery.
+~
+~
+0 -1 19059
+D1
+~
+~
+0 -1 19062
+D3
+The winery.
+~
+~
+0 -1 19061
+S
+#19061
+The winery.~
+In this room the famous liquor name of oerivir is made.  In conjunction
+with lembas, oerivir will energize even the most battle weary to a state
+of total refreshment.
+~
+19 0 0
+D0
+~
+~
+0 -1 19058
+D1
+~
+~
+0 -1 19060
+S
+#19062
+A Rope Bridge.~
+You are at the center of a rope bridge connecting two clusters of huts.
+From this vantage point you can see all of the levels of the city.  Far below
+you can see other rope bridges, much the same as this one.
+~
+19 0 1
+D1
+~
+~
+0 -1 19063
+D3
+~
+~
+0 -1 19060
+S
+#19063
+The healing room.~
+This room is where the wounded elves go to heal in times of war.
+Because of the recent wars with the minions of Ahka Druz, there
+are many veterans sleeping in here.
+~
+19 T 0
+D1
+~
+~
+0 -1 19066
+D2
+~
+~
+0 -1 19064
+D3
+The bridge.
+~
+~
+1 -1 19062
+S
+#19064
+The fountain.~
+In the center of this room is a magical fountain where the inhabitants
+of the city get their water.  To the south is another bridge.
+~
+19 0 0
+D0
+Healing room.
+~
+~
+0 -1 19063
+D1
+Mana room.
+~
+~
+0 -1 19065
+D2
+A Bridge.
+~
+~
+0 -1 19067
+S
+#19065
+The Mana Room.~
+This room is where the delvers in spell go to meditate.  It is exceprionally
+quiet in this room, and the lighting is somewhat dim.
+~
+19 U 0
+D0
+~
+~
+0 -1 19066
+D3
+~
+~
+0 -1 19064
+S
+#19066
+Outlook post.~
+The view from this room is breathtaking.  You can see for miles in all
+directions.  Amazingly, almost all of the paths in Perellia are visible.
+Far below you can see the glittering Dandane wind its way through
+the trees.
+~
+19 0 0
+D2
+~
+~
+0 -1 19065
+D3
+~
+~
+0 -1 19063
+S
+#19067
+The last rope bridge.~
+You are standing in the middle of the last accessible rope bridge
+in the treetop city.
+~
+19 0 1
+D0
+~
+~
+0 -1 19064
+D2
+~
+~
+0 -1 19068
+S
+#19068
+The Dining Hall.~
+In the center of the room is a long exotic wood table surrounded
+with chairs.  The floor is covered with a plush red carpet and a
+large candelabra dominates the ceiling.  Paintings of the great
+elven kings line the walls.
+~
+19 0 0
+D0
+The Bridge.
+~
+~
+0 -1 19067
+D2
+~
+~
+0 -1 19071
+D3
+~
+~
+0 -1 19069
+S
+#19069
+The Kitchen.~
+This room is where the royal banquets are prepared.  MMM MMM!
+It smells good in here!
+~
+19 0 0
+D1
+~
+~
+0 -1 19068
+D2
+~
+~
+0 -1 19070
+S
+#19070
+The Fireplace Room.~
+You find it strange that you have yet to see a royal bedchamber.  Perhaps
+there is a secret entrance around here somewhere, like a trapdoor or something.
+A fireplace is on the west wall and two small chairs are situated in front of it.
+~
+19 0 0
+D0
+The kitchen.
+~
+~
+0 -1 19069
+D1
+~
+~
+0 -1 19071
+D4
+trapdoor~
+trapdoor~
+4 -1 19072
+S
+#19071
+A sitting room.~
+Several chairs are situated around a small table.  It looks like elves come
+here to play cards.
+~
+19 0 0
+D0
+~
+~
+0 -1 19068
+D3
+~
+~
+0 -1 19070
+S
+#19072
+Royal Guard Room.~
+You immediately get the feeling that you should not be in this room.
+~
+19 0 0
+D1
+~
+~
+0 -1 19073
+D2
+~
+~
+0 -1 19075
+D5
+trapdoor~
+trapdoor~
+4 -1 19070
+S
+#19073
+Queen Elifreda's Bed Chamber.~
+Extravagance in decorating must be one of the Queen's many
+traits.  This is one of the most beautiful rooms you have ever seen.
+The walls are ornately carved malachite illustrations of the history
+of the Perellian elves.  A beautiful woven rug covers the floor and oddly
+enough there are mirrors on the ceiling.
+~
+19 0 0
+D2
+~
+~
+0 -1 19074
+D1
+~
+~
+0 -1 19072
+S
+#19074
+A very weird room.~
+In the center of the room is a large, rotating heart shaped bed.  Rings
+are suspended by ropes from the ceiling above it.  There is also an
+oddly shaped jungle gym in one corner.  Various binding devices like
+handcuffs and silk handkerchiefs are scattered about the floor.
+In front of the bed is a small sawhorse.
+~
+19 0 0
+D0
+The Queen's Bedchamber.
+~
+~
+0 -1 19073
+D3
+The King's Bedchamber.
+~
+~
+0 -1 19075
+S
+#19075
+King Elohim's Bedchamber.~
+In comparison to the Queen's room, the Kings room looks like
+a tenement.  There is a small twin bed in one corner and that is
+about it.
+~
+19 0 0
+D0
+~
+~
+0 -1 19072
+D1
+To the weird room.
+~
+~
+0 -1 19074
+S
+#19076
+Nero's Demented Laboratory.~
+Hundred's of bottles containing various solutions line the walls and give
+the room a slightly red hue.  HUGE Bunsen burners are connected to
+oxygen/acetylene gas lines.  Looking out the window behind Nero's
+desk you can see the vast expanse of Perellia far below.  On the West
+wall of the lab is a huge supercomputer, dedicated to snooping all of
+the mortal players on the mud.  Various books on torture, bomb making
+and mayhem fill out Nero's book collection.
+~
+19 0 0
+D5
+Entrance to Perellia.
+~
+~
+0 -1 19001
+S
+
+
+#0
+
+
+#RESETS
+*
+*load up the prospector
+M 0 19001 5 19041 1
+M 0 19001 5 19041 1
+M 0 19001 5 19041 1
+M 0 19001 5 19042 1
+M 0 19001 5 19042 1
+*
+*load up the pirhanas
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+M 0 19002 7 19005 1
+*
+*load up giant bees
+M 0 19003 5 19022 1
+M 0 19003 5 19022 1
+M 0 19003 5 19022 1
+M 0 19003 5 19022 1
+M 0 19003 5 19022 1
+*
+*load up the swarm
+M 0 19004 1 19023 1
+*
+*load up the queen bee
+M 0 19005 1 19023 1
+*
+*load up and equip Furlong Stungalot and give him jelly
+M 0 19006 1 19032 1
+E 1 19003 1 16
+G 1 19022 1
+*
+*load up and equip tormand
+M 0 19007 1 19030 1
+E 2 19002 2 1  
+E 2 19002 2 2 
+*
+*load up and equip the stag
+M 0 19008 1 19030 1
+E 1 19004 1 3
+*
+*load up and equip the giant boars
+M 0 19009 20 19026 1
+E 1 19005 4 6
+M 0 19009 15 19026 1
+M 0 19009 20 19033 1
+E 1 19005 4 6
+M 0 19009 15 19033 1
+M 0 19009 20 19034 1
+E 1 19005 4 6
+M 0 19009 15 19034 1
+M 0 19009 20 19026 1
+E 1 19005 4 6
+M 0 19009 15 19036 1
+M 0 19009 15 19036 1
+*
+*load up sow
+M 0 19010 5 19035 1
+M 0 19010 5 19035 1
+M 0 19010 5 19035 1
+M 0 19010 5 19036 1
+M 0 19010 5 19036 1
+*
+*load up piglets
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1 
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+M 0 19011 10 19035 1
+*
+*load up nymphs
+M 0 19012 5 19040 1
+M 0 19012 5 19040 1
+M 0 19012 5 19040 1
+M 0 19012 5 19040 1
+M 0 19012 5 19040 1
+*
+*load up boy
+M 0 19013 1 19040 1
+*
+*load up carrion crawler
+M 0 19014 1 19038 1
+*
+*load up minion
+M 0 19015 2 19020 1
+M 0 19015 2 19020 1
+*
+*load up archers
+M 0 19016 10 19045 1
+E 1 19007 5 16
+*
+M 0 19016 10 19047 1
+E 1 19007 5 16
+*
+M 0 19016 10 19049 1
+E 1 19007 5 16
+*
+M 0 19016 10 19054 1
+E 1 19007 5 16
+*
+M 0 19016 10 19060 1
+E 1 19007 5 16
+*
+M 0 19016 10 19045 1
+M 0 19016 10 19047 1
+M 0 19016 10 19049 1
+M 0 19016 10 19054 1
+M 0 19016 10 19060 1
+*
+*load up footsoldiers
+M 0 19017 10 19044 1
+E 1 19008 5 16
+E 1 19009 5 11
+E 1 19010 5 8
+M 0 19017 10 19055 1
+E 1 19008 5 16
+E 1 19009 5 11
+E 1 19010 5 8
+M 0 19017 10 19052 1
+E 1 19008 5 16
+E 1 19009 5 11
+E 1 19010 5 8
+M 0 19017 10 19058 1
+E 1 19008 5 16
+E 1 19009 5 11
+E 1 19010 5 8
+M 0 19017 10 19065 1
+E 1 19008 5 16
+E 1 19009 5 11
+E 1 19010 5 8
+M 0 19017 10 19044 1
+M 0 19017 10 19055 1
+M 0 19017 10 19052 1
+M 0 19017 10 19058 1
+M 0 19017 10 19043 1
+*
+*load up elite guards
+M 0 19018 2 19072 1
+E 1 19011 1 16
+M 0 19018 2 19072 1
+*
+*load up queen Elifreda
+M 0 19019 1 19073 1
+E 1 19012 1 16
+E 1 19013 1 14
+E 1 19014 1 5
+*
+*load up king Elohim
+M 0 19020 1 19075 1
+E 1 19015 1 17
+*
+*load up baker
+M 0 19021 1 19059 1
+G 1 19021 -1*
+*load up the winer
+M 0 19022 1 19061 1
+G 1 19023 -1*
+*load up the armorer
+M 0 19023 1 19060 1
+E 1 19018 1 9
+*
+*load up mages
+M 0 19024 4 19065 1
+M 0 19024 4 19065 1
+M 0 19024 4 19065 1
+M 0 19024 4 19065 1
+*
+*drop the cigar
+O 0 19019 1 19047
+*
+*load up the fountain
+O 0 19020 1 19064
+*
+*load up koko 
+M 0 19025 1 19076 1
+*
+*secret the door to my room
+D 0 19001 4 1
+*
+*close branch door
+D 0 19009 0 1
+*
+*close doors to bridges
+*
+*secret the trapdoor to the queen
+D 0 19070 4 1
+*
+S
+
+#SHOPS
+19022 0 0 0 0 0 100 25 9 18
+19023 0 0 0 0 0 100 25 9 18
+0
+
+#SPECIALS
+M 19019 spec_cast_mage
+M 19020 spec_cast_mage
+M 19024 spec_cast_mage
+M 19025 spec_cast_mage
+S
+
+#$

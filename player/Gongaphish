@@ -1,0 +1,348 @@
+#PLAYER
+Name GongaPhish~
+Id   19369
+LogO 950651160
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  1
+Gui  0
+Psionic  0
+Cast none
+Levl 5
+Plyd 3158
+ListRemorts ~
+NumRemorts 0
+Note 950455040
+Scro 22
+Room 4208
+HMV  55 55 124 124 124 124
+NewGold 373
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12415
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 8
+Save  -7
+Alig  -888
+Hit   9
+Dam   2
+ACs 57 58 58 76
+Attr 14 12 20 13 16
+AMod 0 2 3 0 1
+Pass GokGx3rvVQR.o~
+Titl  the Missionary~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 55 124 124
+Cond 0 16 0
+Sk 1 'armor'
+Sk 1 'bless'
+Sk 1 'burning hands'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'flamestrike'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'mage guild'
+AffD 'bless'  51  66  -7  24          0          0
+AffD 'bless'  51  66   7  18          0          0
+AffD 'armor'  49  23 -20  17          0          0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3700
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 8717
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 243
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 112
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 178
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 125
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear 12
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#O
+Vnum 24306
+Nest 0
+Wear 17
+Lev  5
+Time 243
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#END

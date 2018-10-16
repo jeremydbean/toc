@@ -1,0 +1,548 @@
+#AREA   { ALL } KasChel Social Club~
+ 
+#MOBILES
+#800
+ranther bouncer~
+Ranther the bouncer~
+Ranther the bouncer is making sure no undesirable people get into the club.
+~
+Ranther is a fierce looking giant and he greets you with a skeptical smile.
+You get the impression that he could kill you in about one hit, so you
+decide it would be wise not to get on his bad side.
+~
+giant~
+ABGT DFHJ 0 S
+70 30 30d30+2000 30d30+30 30d30+30 7
+-200 -200 -200 -200
+CDEFGHIJKLNO ABCDEFGHIJKLMNOPQRST 0 0
+8 8 1 0
+0 0 G 0
+#801
+ren dj~
+Ren the DJ~
+Ren the DJ is here spinning off some tunes for everyone to enjoy.
+~
+You have before you the hippest troll of all the land.  He flashes a bright
+smile at you as he dances behind his booth.
+~
+troll~
+ABGT 0 0 S
+25 30 25d10+250 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 L 0
+#802
+clerk~
+the Clerk~
+The desk clerk sits quietly behind the desk taking the cover charge.
+~
+He is a very quiet man, one that is just trying to keep the peace.  He works
+inquisitively to make sure that whoever walks in will have a great time and
+causes no problems.  
+
+The Clerk tells you, 'Welcome to the Temple Blvd. Social Club!  If you would
+like to join us for an evening of fun and excitement, please go south to 
+enter the elevator and 10 gold pieces will be taken from you automatically.
+Have a great time!'
+
+The Clerk gives you a smile as he takes you money.
+~
+human~
+ABGT 0 0 S
+70 30 30d30+2000 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#803
+bartender alex~
+Alex the bartender~
+Alex the bartender stands before you juggling glasses and looking to pour a
+drink or two.
+~
+This muscular man looks as though he has been around for awhile.  He gives you
+the impression that he knows every drink that has ever been made.  He greets
+you with a cocked smile and says happily "What can I get you today?"
+~
+human~
+ABGT 0 0 S
+70 30 10d10+10 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#804
+dron kalot~
+Dron Kalot~
+Dron Kalot is here drooling over a tall beer with a frothing head.
+~
+This older dwarf sits at the bar and you can over hear him saying to the
+bartender "Can I have another?"  This dwarf carries nothing with him but happy
+spirits and a will to live.
+~
+dwarf~
+ABGT 0 0 S
+30 30 30d30+310 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#805
+revo~
+Revo~
+Revo the master dancer is here sliding by you looking for his date.
+~
+Wow can this guy dance.  He amazes you at his wonderfully slick and stylish
+moves.
+~
+elf~
+ABGT 0 0 S
+30 30 30d30+310 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#806
+cinnamon~
+Cinnamon~
+Cinnamon spins around you, while trying to ditch her date.
+~
+As she spins around you, she makes you very dizzy as she has a very quick step
+and she can really keep a rhythm.  Before you have time to notice she takes
+your hand and begins to spin you around.
+~
+elf~
+ABGT 0 0 S
+30 30 30d30+320 10d10+10 10d10+10 7
+-200 -200 -200 -200
+0 0 0 0
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#800
+dresden ice tea~
+Dresden Ice Tea~
+A nice glass of ice tea is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 50 P
+#801
+multiple orgasm~
+Multiple Orgasm (alcoholic kind)~
+A nice multiple orgasm drink is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 100 P
+#802
+sex beach~
+Sex on the Beach (alcoholic kind)~
+A nice sex on the beach drink is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 75 P
+#803
+fuzzy navel~
+Fuzzy Navel~
+A nice fuzzy navel drink is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 50 P
+#804
+kamikaze~
+Kamikaze~
+A nice kamikaze drink is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 60 P
+#805
+grasshopper~
+Grasshopper~
+A nice grasshopper drink is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 50 P
+#806
+rum balls~
+Kasandra's famous rum balls~
+A batch of Kasandra's famous rum balls is here.~
+food~
+26 0 A
+25 36 28 74 0
+1 2 1500000 P
+
+#0
+
+
+#ROOMS
+#800
+The Entrance to Temple Blvd. Social Club~
+This is the Cloak Check Room.  There is a large counter here where the
+cloak clerk stands.  From here you can feel the rhythm of the bass from the
+music inside.
+~
+8 C 0
+D0
+~
+~
+0 -1 2436
+D2
+~
+~
+0 -1 814
+S
+#801
+The Social Club~
+There is loud music playing. You see people dancing and hear them laughing.
+You hear glasses clinking and you know....THIS IS THE PLACE TO PARTY!
+~
+8 0 0
+D0
+~
+~
+0 -1 816
+D1
+~
+~
+0 -1 805
+D2
+~
+~
+0 -1 804
+D3
+~
+~
+0 -1 802
+S
+#802
+The Social Club~
+The lights are not as bright here, and the music is not quite as loud; but 
+you can still see the dance floor from here.
+~
+8 0 0
+D1
+~
+~
+0 -1 801
+D2
+~
+~
+0 -1 803
+S
+#803
+The Social Club~
+There are some tables here to place your drink on. You can feel the bass 
+pulse through your veins. When you take a look around, you see a narrow 
+staircase leading to a private room. 
+~ 
+8 0 0
+D0
+~
+~
+0 -1 802
+D1
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 808
+D4
+You see a door leading to a room where you and your date can be alone.
+~
+door~
+1 0 812
+S
+#804
+The Dance Floor~
+You step onto the dance floor and see all the people having a great time.
+The lights are flashing; the beat is pounding, and you just can't help
+yourself.  You feel you body move to the beat.
+~
+8 0 0
+D0
+~
+~
+0 -1 801
+D1
+~
+~
+0 -1 806
+D2
+~
+~
+0 -1 807
+D3
+~
+~
+0 -1 803
+D4
+You see the DJ booth.
+~
+~
+0 -1 818
+S
+#805
+The Social Club~
+This is a pretty crowded corner. It seems as though everyone comes to 
+this corner as soon as they walk in. While you stand here, you feel the 
+music take control of your body as you begin to move to the beat.
+~ 
+8 0 0
+D2
+~
+~
+0 -1 806
+D3
+~
+~
+0 -1 801
+S
+#806
+The Social Club~
+You laugh when you look up toward the center of the dance floor because you 
+can se the DJ dancing away behind his booth.  When you look at the wall, 
+you see a dark opening that is lit by very dim spot lights that just 
+barely give off enough light to show the stair way leading to a private 
+room.
+~ 
+8 0 0 
+D0 
+~
+~
+0 -1 805
+D2
+~
+~
+0 -1 809
+D3
+~
+~
+0 -1 804
+D4
+You see a door leading to a room where you and your date can be alone.
+~
+door~
+1 0 810
+S
+#807
+The Bar~
+There is a long counter here that has just been polished.  It kinda makes
+you want to try to glide a bottle of beer down it.  Behind the counter you
+see a mirrored wall with glass shelves attached.  On the shelves you see
+several of you favorite brands of liquor.
+~
+8 0 0
+D0
+~
+~
+0 -1 804
+D1
+~
+~
+0 -1 809
+D3
+~
+~
+0 -1 808
+S
+#808
+The Social Club~
+This is a pretty cool place to sand and watch what is going on.  You can 
+watch everything from here. You can se who comes out of the elevator, 
+watch the nuts on the dance floor, and hear the conversation from the bar. 
+You can also see a staircase leading to a private room. 
+~ 
+8 0 0 
+D0
+~
+~
+0 -1 803
+D1
+~
+~
+0 -1 807
+D4
+You see a door leading to a room where you and your date can be alone.
+~
+door~
+1 0 813
+S
+#809
+The Social Club~
+There is a quiet booth here in the corner.  The seats are made of cloth, 
+and the lights are dim. You think maybe this is a good place to hide from 
+some of the noise and the crowd.  When you look around, you can see a 
+staircase leading to a doorway. 
+~ 
+8 0 0 
+D0 
+~
+~
+0 -1 806
+D3
+~
+~
+0 -1 807
+D4
+You see a door leading to a room where you and your date can be alone.
+~
+door~
+1 0 811
+S
+#810
+A private room designed just for you and your date~
+The lights are dim here and the room is sound proof. On the west wall
+there is a one-way window so you can look out over the crowd.  Along
+the east wall there is a big inviting couch.  As you look around you also
+see a private stereo with a collection of CD's resting beside it.
+~
+8 JK 0
+D5
+You see the dance floor.
+~
+door~
+1 0 806
+S
+#811
+A private room designed just for you and your date~
+The lights are dim here and the room is sound proof. On the west wall
+there is a one-way window so you can look out over the crowd.  Along
+the east wall there is a big inviting couch.  As you look around you also
+see a private stereo with a collection of CD's resting beside it.
+~
+8 JK 0
+D5
+You see the dance floor.
+~
+door~
+1 0 809
+S
+#812
+A private room designed just for you and your date~
+The lights are dim here and the room is sound proof. On the east wall
+there is a one-way window so you can look out over the crowd.  Along
+the west wall there is a big inviting couch.  As you look around you also
+see a private stereo with a collection of CD's resting beside it.
+~
+8 JK 0
+D5
+You see the dance floor.
+~
+door~
+1 0 803
+S
+#813
+A private room designed just for you and your date~
+The lights are dim here and the room is sound proof. On the east wall
+there is a one-way window so you can look out over the crowd.  Along
+the west wall there is a big inviting couch.  As you look around you also
+see a private stereo with a collection of CD's resting beside it.
+~
+8 JK 0
+D5
+You see the dance floor.
+~
+door~
+1 0 808
+S
+#814
+In an open elevator~
+You enter the elevator waiting to ride to the social club.  From up above
+you can hear the festivities coming from the club.
+~
+8 FJ 0
+815 5 1
+D0
+You see the entrance to the social club.
+~
+~
+0 -1 800
+S
+#815
+In an elevator~
+The elevator doors close and you are on your way up to the club.  From up
+above you can hear the sounds from the club and you can hardly wait to
+join in on the fun.
+~
+8 FJ 0
+816 8 1
+S
+#816
+In an open elevator~
+You are in the elevator waiting to ride to the entrance of the social club.
+You can hear the festivities coming from the club.
+~
+8 FJ 0
+817 5 1
+D2
+You see the social club.
+~
+~
+0 -1 809
+S
+#817
+In an elevator~
+The elevator doors close and you are on your way down to the club entrance.
+From up above you can hear the sounds from the club and you can hear the sounds
+from the social club and you can't wait till you can again join in on the fun.
+~
+8 FJ 0
+814 8 1
+S
+#818
+The DJ Booth~
+  A platform of glass stands before you and you are forced to look up. Your 
+eyes meet the cheerful smile of Ren MC, the club's Jammin' DJ. You can see
+all sorts of sound equipment and mixers.  As you notice Ren dancing behind 
+his equipment, you can't help but start to laugh.
+~
+8 0 0
+D5
+You see the dance floor.
+~
+~
+0 -1 804
+S
+#0
+
+#RESETS
+M 0 800 1 800                    * Ranthor the bouncer
+M 0 802 1 800                    * Desk Clerk
+M 0 801 1 818                    * Ren the DJ
+M 0 803 1 807                    * Alex the Bartender
+G 0 806 0                          Kasandra's Famous Rumballs
+G 0 800 0                          Dresden Ice Tea
+G 0 801 0                          Multiple Orgasm
+G 0 802 0                          Sex on the Beach
+G 0 803 0                          Fuzzy Navel
+G 0 804 0                          Kamikaze
+G 0 805 0                          Grasshopper
+M 0 804 1 807                    * Dron Kalot
+M 0 805 1 804                    * Revo
+M 0 806 1 804                    * Cinnamen
+S
+
+#SPECIALS
+* M 800 spec_club_bouncer
+* M 802 spec_club_clerk
+* M 803 spec_club_bartender
+* M 801 spec_club_dj
+S
+
+
+#SHOPS
+803 0 0 0 0 0 150 75 0 23       * Alex the Bartender
+
+0
+#$
+

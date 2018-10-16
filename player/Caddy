@@ -1,0 +1,747 @@
+#PLAYER
+Name Caddy~
+Id   61369
+LogO 950233170
+Vers 3
+Prom ~
+Ignoring ekin~
+Race human~
+Sex  2
+Cla  5
+Gui  5
+Psionic  2
+Cast Fors
+Levl 51
+Plyd 575288
+ListRemorts ~
+NumRemorts 0
+Note 950213638
+Scro 22
+Room 4208
+HMV  844 1157 1062 1409 255 320
+NewGold 352
+NewPlat 939
+NewCopp 3080
+NewSilv 392
+Bank 38637
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 8
+QuestPnts 29
+Exp  97447
+Act  67174600
+AfBy 524800
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 7
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 7
+Color 7 7
+Color 8 5
+Color 9 14
+Color 10 11
+Color 11 12
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Save  5
+Alig  1000
+Hit   59
+Dam   68
+ACs -198 -173 -205 -17
+Wimp  241
+Attr 18 21 18 18 18
+AMod 13 3 1 3 -4
+Pass Ca..EBACFtrGQ~
+Titl  's Shack~
+Pnts 40
+TSex 2
+LLev 141
+HMVP 1045 1219 400
+Cond 0 13 48
+Alias mana c 'mana'~
+Alias ghost c 'ghostly'~
+Alias sa cast sanctuary~
+Alias t cast tentacles~
+Alias cancel c cancel~
+Alias rope c 'rope'~
+Alias sh cast 'shock sphere'~
+Alias fly c fly~
+Alias haven c haven~
+Alias death c 'death'~
+Alias mg cast 'major globe'~
+Alias be cast 'bewitch weapon'~
+Alias re cast 'remove curse'~
+Alias b cast butcher corpse~
+Alias gate c 'earth travel'~
+Alias force c 'force'~
+Alias fs cast 'force sword'~
+Alias cw cast 'create wraith' corpse~
+Alias nf cast 'neutrality field'~
+Alias cv cast 'create vampire' corpse~
+Sk 100 'animate parts'
+Sk 1 'armor'
+Sk 78 'blindness'
+Sk 86 'cancellation'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 1 'create skeleton'
+Sk 80 'create wraith'
+Sk 46 'create vampire'
+Sk 63 'butcher'
+Sk 63 'bewitch weapon'
+Sk 1 'curse'
+Sk 93 'death shroud'
+Sk 88 'earth travel'
+Sk 91 'embalm'
+Sk 1 'energy drain'
+Sk 1 'evil eye'
+Sk 45 'fly'
+Sk 82 'force sword'
+Sk 81 'haven'
+Sk 49 'infravision'
+Sk 79 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 44 'pass door'
+Sk 75 'plague'
+Sk 75 'poison'
+Sk 76 'raise dead'
+Sk 47 'remove curse'
+Sk 53 'rope trick'
+Sk 86 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 95 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 100 'tentacles'
+Sk 1 'trap the soul'
+Sk 1 'vampiric touch'
+Sk 71 'weaken'
+Sk 89 'neutrality field'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 87 'sword'
+Sk 15 'whip'
+Sk 100 'dodge'
+Sk 1 'meditation'
+Sk 100 'scrolls'
+Sk 1 'wands'
+Sk 82 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'fly'   0   9   0   0     524288          0
+AffD 'infravision'   0   3   0   0        512          0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 0
+Cond 100
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear 11
+Lev  26
+Cost 0
+Cond 70
+Repd 0
+Val  8 10 6 4 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 87
+Repd 0
+Val  9 7 8 0 0
+Affect -1 46 -1 1 5 0 0
+Affect -1 46 -1 1 4 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 75
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 97
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 85
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+Affect -1 38 -1 2 20 0 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 29224
+Nest 1
+Wear -1
+Lev  52
+Time 369
+Cost 7000
+Cond 100
+Repd 0
+Affect -1 52 -1 -4 1 0 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 4 24 0 0
+End
+
+#O
+Vnum 13278
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2104640
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 56
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 79
+Repd 0
+End
+
+#O
+Vnum 16049
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 723
+Nest 2
+Wear -1
+Lev  45
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 2
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 2
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 2
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5780
+Nest 2
+ExtF 65
+Wear -1
+Lev  7
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 2
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 25220
+Nest 2
+Wear -1
+Lev  20
+Cost 400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 -1 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 52
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+Val  9 8 6 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+Affect -1 40 -1 7 13 0 0
+End
+
+#O
+Vnum 29217
+Nest 0
+Wear 0
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 51 -1 4 14 0 0
+End
+
+#O
+Vnum 10001
+Enchanted
+Nest 0
+ExtF 2104643
+Wear 16
+Lev  51
+Cost 4000
+Cond 98
+Repd 0
+AffD 'enchant weapon' 51 -1 10 18 0 0
+AffD 'enchant weapon' 51 -1 10 19 0 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 19713
+Wear 5
+Lev  51
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Name {mckay~
+ShD  (Magical) (Evil) the Spellbook of Fistandantilus~
+Desc Your mind is seared by attempting to understand the knowledge of the Archmage!~
+Act_room A pall of darkness falls over the room as $n begins to read $p~
+Act_char You feel a rush of knowledge as you wear $p~
+Wear 17
+Lev  48
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 -9 14 0 0
+End
+
+#END

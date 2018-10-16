@@ -1,0 +1,225 @@
+#PLAYER
+Name Algarus~
+Id   56458
+LogO 948337114
+Vers 3
+Prom <%hhp %mm %Xetl>~
+Ignoring  ~
+Race human~
+Sex  1
+Cla  2
+Gui  11
+Psionic  0
+Cast none
+Levl 4
+Plyd 3363
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3718
+HMV  45 45 103 103 115 118
+NewGold 0
+NewPlat 0
+NewCopp 34
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  8542
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 1
+Trai 1
+Save  -4
+Alig  0
+Hit   5
+Dam   -3
+ACs 85 83 83 99
+Attr 14 13 13 20 13
+AMod 0 0 0 0 0
+Pass Aliyoaqq7QP/2~
+Titl  the Pick-Pocket~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 45 103 118
+Cond 0 0 0
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 1 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'bless'  17   0  -3  24          0          0
+AffD 'bless'  42   0   3  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 151 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -5 19 0 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

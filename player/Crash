@@ -1,0 +1,163 @@
+#PLAYER
+Name Crash~
+Id   21413
+LogO 950636540
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 7
+Plyd 19542
+ListRemorts ~
+NumRemorts 0
+Note 950455040
+Scro 22
+Room 4207
+HMV  81 81 107 107 126 436
+NewGold 1
+NewPlat 24476
+NewCopp 93
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  14492
+Act  65740
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Trai 1
+Save  -4
+Alig  1000
+Hit   7
+ACs 65 69 67 78
+Attr 18 13 13 16 13
+AMod 3 0 0 0 0
+Pass CrRayULLrOiH2~
+Titl  Holly, Superheavyweight. ~
+Pnts 40
+TSex 1
+LLev 3
+HMVP 81 107 136
+Cond 0 13 13
+Alias tit title Holly, Superheavyweight.~
+Alias tit2 title Bandicoot.~
+Alias k trip~
+Sk 7 'axe'
+Sk 81 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 41 'dodge'
+Sk 1 'trip'
+Sk 22 'haggle'
+Sk 15 'hide'
+Sk 1 'pick lock'
+Sk 11 'sneak'
+Sk 1 'search'
+Sk 100 'sleight of hand'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'bless'   0  49  -7  24          0          0
+AffD 'bless'   6  49   7  18          0          0
+AffD 'shield'  44  36 -20  17          0          0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6649
+Nest 0
+Wear 8
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+Affect -1 5 -1 4 23 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 198 0 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

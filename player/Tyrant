@@ -1,0 +1,538 @@
+#PLAYER
+Name Tyrant~
+Id   23103
+LogO 953491738
+Vers 3
+Desc .                         /|                 |\
+.                        / | ___.--^^^--.___ | \
+.   ...--=.._           /  ^^___^\_   _/^___^^  \        _..=--...
+.   ^   .-=_)/==._     _ \ .(^  o^-.\ /.-^o  ^). / _  _.==\(_=-.^^-._
+.  ^  _/.-  /         / \/\_ ^---^_-=V=-_^---^ _/\/ \      \  -.\_      -
+.    /_/  ./          \/\_-_^^v-/^o^) (^o^\-v^^_-_/\/       \.  \_\      ^
+.   //    |          _-=___==/(__         __)\==___=-_       |    \\\
+.  < ))    \          _/ _ \ X___---===---___X / _ \_       /    (( ))\
+.   \ \_   |         /_\/_\ (( \| ` ` ' ' |/ )) /_\/_\      |   _/ /|  \
+.    \  \   \       ^^  / _ /\\ V  /^V^)  V //\ _ \  ^^    /   /  / |   \
+.    \_ \  |           \/ \\ \\^    )/   ^//|// \/        |  / _/   |   \
+.    |  \ \  \               '/\\^  )/   ^// |`           /  / /     |   \
+.    |   \ \_ |             '| (\\^ V   ^//  |`          | _/ /      |
+.    |    \  \\             '/(^^\`-___-'/) /`           //  /       |
+.    \     \_ \\ /|        '|(^^^-\_   _/)  |`          |\ _/        |
+.     \      \_/^^^^-.     '/(^^^---===^^)  |`      .-^^^^^\_       |
+.   ._|     _/   _    \   '|(^^^-----^^^)  /`      /     _   \_ .-. |_._
+.    \    // / /\\^)  \  '|(^^^-----^^^)  |`     /   (^//\ \ \X   \|/   \
+.  ,=-=-=-/ \ \ )=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\_) \\=-=-=-=-=.
+. ||     /\  \_)\\    You find yourself staring in the      ((\_)\        ||
+. ||    /((\_)\ ))\ uttermost amazement as you gaze upon  (((( /\_))      ||
+. ||   (((__\  __)))   this amazing creation.  You can   (((^^  ^/ )))    ||
+. ||   ))) o . o (((    can barely distinguish him from  ))) O`.'0 (((    ||
+. ||   (\    |    /)   the shadows around him.  As you  (((\   |   /)))   ||
+. ||    |\   ^   /|    gaze look into the eyes of this  ))))\  ^  /((((   ||
+. ||    | \_____/ |   killer, you shudder to think you (((((|\___/|)))((  ||
+. ||    |_ -___- _| may be the next to fall to his dagger.  |_-_- |       ||
+.  .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=.
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast Fors
+Levl 34
+Plyd 749459
+ListRemorts ~
+NumRemorts 0
+Note 953432339
+Scro 22
+Room 4206
+HMV  932 966 200 200 92 323
+NewGold 2
+NewPlat 1929
+NewCopp 31
+NewSilv 6
+Bank 35000
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 33
+QuestPnts 243
+Exp  78282
+Act  100729032
+AfBy 512
+AfBy2 64
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  -6
+Alig  1000
+Hit   24
+Dam   56
+ACs -54 -31 -41 68
+Attr 20 16 18 18 19
+AMod 10 0 3 2 0
+Pass TyD7KXfns7Njg~
+Titl . O==}-??? PKILLS!-->~
+Pnts 40
+TSex 1
+LLev 100
+HMVP 951 145 298
+Cond 0 29 46
+Alias / who~
+Alias ] recall~
+Alias f flee~
+Alias k bash~
+Alias 1 stealth~
+Alias 2 emote prays for a way out!~
+Alias 3 emote disappears.~
+Alias p track~
+Alias 4 emote has joined the game.~
+Alias 5 emote has left the game.~
+Alias l get all~
+Alias \ emote points at you and declares you a future victim.~
+Alias rpel reply~
+Alias relp reply~
+Alias re rest~
+Alias m murder~
+Alias rep emote reports all is well.~
+Alias smi smile~
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 45 'sword'
+Sk 20 'whip'
+Sk 1 'aggrostab'
+Sk 1 'archery'
+Sk 92 'backstab'
+Sk 81 'bash'
+Sk 1 'dirt kicking'
+Sk 100 'dodge'
+Sk 100 'dual wield'
+Sk 75 'fatality'
+Sk 100 'parry'
+Sk 1 'trip'
+Sk 100 'second attack'
+Sk 1 'haggle'
+Sk 14 'hide'
+Sk 1 'peek'
+Sk 10 'pick lock'
+Sk 1 'shove'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'sleight of hand'
+Sk 73 'steal'
+Sk 100 'stealth'
+Sk 75 'track'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  10   2   0   0          0         64
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+Val  4 -1 -1 -1 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Enchanted
+Nest 0
+Wear 6
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant armor' 53 -1 -1 17 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  14
+Cost 416
+Cond 100
+Repd 0
+Val  4 4 3 -1 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 68
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 11
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 33 -1 -1 4 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  150 123 0 0 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 187
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 53
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 128
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 153
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

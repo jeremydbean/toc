@@ -1,0 +1,556 @@
+#PLAYER
+Name DemonKnight~
+Id   61048
+LogO 940290954
+Vers 3
+Ignoring ~
+Race elf~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 24
+Plyd 201089
+ListRemorts ~
+NumRemorts 0
+Note 910653228
+Scro 22
+Room 2431
+HMV  204 204 271 271 438 438
+Gold 17720
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  55241
+Act  272629980
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 912390662
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 18
+Trai 2
+Alig  -418
+Hit   5
+Dam   13
+ACs 37 31 28 100
+Wimp  30
+Attr 12 18 13 14 15
+AMod 8 0 0 3 0
+Pass Deo3Ffsx/5B/6~
+Titl  the Crypt Watcher~
+Pnts 40
+TSex 1
+LLev 54
+HMVP 204 271 238
+Cond 0 18 42
+Sk 91 'animate parts'
+Sk 75 'armor'
+Sk 80 'cancellation'
+Sk 75 'cause light'
+Sk 75 'chill touch'
+Sk 78 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 1 'earth travel'
+Sk 1 'embalm'
+Sk 1 'evil eye'
+Sk 75 'fly'
+Sk 1 'major globe'
+Sk 1 'pass door'
+Sk 1 'poison'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 76 'shield'
+Sk 1 'shroud'
+Sk 93 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 1 'tentacles'
+Sk 75 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 95 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 76 'dodge'
+Sk 82 'meditation'
+Sk 78 'sneak'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 53 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 29013
+Nest 0
+Wear -1
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  17
+Cost 1000
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear -1
+Lev  18
+Cost 100
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 2104
+Nest 0
+Wear 11
+Lev  7
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 3 0 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear -1
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 4484
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear -1
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 4710
+Nest 0
+Wear -1
+Lev  15
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3042
+Nest 0
+Wear -1
+Time 95
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3042
+Nest 0
+Wear -1
+Time 36
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3042
+Nest 0
+Wear -1
+Time 199
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 29015
+Enchanted
+Nest 0
+ExtF 67
+Wear -1
+Lev  20
+Cost 100
+Cond 100
+Repd 0
+AffD 'enchant weapon' 48 -1 7 19 0 0
+AffD 'enchant weapon' 48 -1 7 18 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6517
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#END

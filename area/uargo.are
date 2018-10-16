@@ -1,0 +1,2154 @@
+#AREA {30 44} Morgan  the Upper Argo~
+
+#MOBILES
+#1001
+bazil broketail dragon~
+Bazil Broketail~
+Bazil of Quosh, a medium leatherback Battle Dragon, stands here.
+~ 
+In front of you, you see a green, medium-height leatherback Battle Dragon.
+His name is Bazil Broketail of Quosh and he wields `Piocar'. Relkin Orphanboy
+of Quosh is his dragonboy, his humanoid caretaker and friend.
+~
+dragon~
+B CEFHN 850 M
+40 25 75d2+1650 0d0+200 8d4+22 5
+-11 -11 -11 -9
+DEIKLMNO ABM CQ 0
+8 8 1 100
+AMVZ 0 H 0
+{}
+#1002
+chektor dragon~
+Chektor~
+Chektor, a medium brasshide Battle Dragon, defends this position.
+~
+In front of you, you see a medium, fullgrown brasshide Battle Dragon. His name
+is Chektor and Harcho is his dragonboy, his humanoid caretaker.
+~
+dragon~
+B CEFHN 750 M
+38 23 50d2+1400 0d0+200 6d5+20 5
+-11 -10 -10 -8
+DEIKLMNO ABM CQ 0
+8 8 1 75
+AMVZ 0 H 0
+{}
+#1003
+vander dragon~
+Vander~ 
+Vander, a large silverhide Battle Dragon, is ready for the attack.
+~
+In front of you, you see a large, fullgrown silverhide Battle Dragon. Her name
+is Vander and Kastrul is her dragonboy, her humanoid caretaker.
+~
+dragon~
+BR CEFHN 800 M
+42 27 100d2+1900 0d0+200 12d3+25 5
+-11 -11 -11 -10
+DEIKLMNO ABM CQ 0
+8 8 2 125
+AMVZ 0 H 0
+{}
+#1004
+kepabar dragon~
+Kepabar~
+Kepabar, a great brasshide Battle Dragon, stands here entrenched.
+~
+In front of you, you see a great, fullgrown brasshide Battle Dragon. His name
+is Kepabar, the heaviest Dragon in the 109th and Tomas is his dragonboy, his 
+humanoid caretaker.
+~
+dragon~
+B CEFHN 900 M
+44 30 100d2+2350 0d0+200 8d4+27 5
+-13 -13 -13 -11
+DEIKLMNO ABM CQ 0
+8 8 1 150
+AMVZ 0 H 0
+{}
+#1005
+nesessitas dragon~
+Nesessitas~
+Nesessitas, a large brasshide Battle Dragon, stands fast here.
+~
+In front of you, you see a large, fullgrown brasshide Battle Dragon. Her name
+is Nesessitas and Marco Velo is her dragonboy, her humanoid caretaker.
+~
+dragon~
+BQ CEFHN 950 M
+44 33 100d2+2400 0d0+200 8d4+25 5
+-14 -13 -14 -11
+DEIKLMNO ABM CQ 0
+8 8 2 150
+AMVZ 0 H 0
+{}
+#1006
+relkin dragonboy~
+Relkin Orphanboy~
+Relkin Orphanboy of Quosh stands here beside his Battle Dragon.
+~
+In front of you, you see Relkin, Bazil's dragonboy, clad in the uniform that
+marks him as a dragonboy in the 109th Marneri Dragon Squadron. He's wearing a 
+red tunic under a studded leather jerkin. A few sheathed daggers hang from his 
+belt and over his shoulder is slung a short bow.
+~
+human~
+B N 750 M
+33 17 50d2+1050 0d0+100 6d4+16 17
+-7 -7 -7 -4
+EFILN AB Q 0
+8 8 1 75
+AHMV 0 M 0
+{}
+#1007
+harcho dragonboy~
+Harcho~
+Harcho the dragonboy stands here beside his Battle Dragon.
+~
+In front of you, you see Harcho, Chektor's dragonboy, clad in the uniform that
+marks him as a dragonboy in the 109th Marneri Dragon Squadron. He's wearing a 
+red tunic under a studded leather jerkin. A few sheathed daggers hang from his 
+belt and over his shoulder is slung a short bow.
+~
+human~
+B N 750 M
+32 17 50d2+1000 0d0+100 6d4+15 17
+-6 -7 -6 -3
+EFILN AB Q 0
+8 8 1 75
+AHMV 0 M 0
+{}
+#1008
+kastrul dragonboy~
+Kastrul~
+Kastrul the dragonboy stands here beside his Battle Dragon.
+~
+In front of you, you see Kastrul, Vander's dragonboy, clad in the uniform that
+marks him as a dragonboy in the 109th Marneri Dragon Squadron. He's wearing a 
+red tunic under a studded leather jerkin. A few sheathed daggers hang from his 
+belt and over his shoulder is slung a short bow.
+~
+human~
+B N 750 M
+32 17 50d2+1050 0d0+100 6d4+15 17
+-7 -6 -7 -4
+EFILN AB Q 0
+8 8 1 55
+AHMV 0 M 0
+{}
+#1009
+tomas dragonboy~
+Tomas~
+Tomas the dragonboy stands here beside his Battle Dragon.
+~
+In front of you, you see Tomas, Kepabar's dragonboy, clad in the uniform that
+marks him as a dragonboy in the 109th Marneri Dragon Squadron. He's wearing a 
+red tunic under a studded leather jerkin. A few sheathed daggers hang from his 
+belt and over his shoulder is slung a short bow.
+~
+human~
+B N 1000 M
+31 16 50d2+958 0d0+100 6d4+14 17
+-6 -5 -6 -2
+EFILN AB Q 0
+8 8 1 30
+AHMV 0 S 0
+{}
+#1010
+marco dragonboy~
+Marco Veli~
+Marco Veli the dragonboy stands here beside his Battle Dragon.
+~
+In front of you, you see Marco Veli, Nesessitas' dragonboy, clad in the uni-
+form that marks him as a dragonboy in the 109th Marneri Dragon Squadron. He's 
+wearing a red tunic under a studded leather jerkin. A few sheathed daggers 
+hang from his belt and over his shoulder is slung a short bow.
+~
+human~
+B N 750 M
+33 16 50d2+1130 0d0+100 6d4+17 17
+-7 -7 -7 -5
+EFILN AB Q 0
+8 8 1 65
+AHMV 0 M 0
+{}
+#1011
+tetzarch dragoneer~
+Dragoneer Tetzarch~
+Dragoneer First Class Tetzarch stands here in charge of the center.
+~
+In front of you, you see Dragoneer Tetzarch, commander of the 109th Dragon
+Squadron. He's clad in a dark red tunic with dark blue rims under a long 
+chain-mail and sturdy leather boots. In his hand he holds a dangerous looking
+blade.
+~
+human~
+B N 800 M
+36 20 50d2+1375 0d0+100 10d3+19 17
+-10 -9 -10 -6
+DEILN AB Q 0
+8 8 1 200
+AHMV 0 M 0
+{}
+#1012
+heltifer dragoneer~
+Dragoneer Heltifer~
+Dragoneer Second Class Heltifer stands here in charge of the right flank.
+~
+In front of you, you see Dragoneer Heltifer, second in command of the 109th 
+Dragon Squadron. He's clad in a red tunic with a dark blue rim under a long
+chain-mail and sturdy leather boots. In his hand he holds a well balanced 
+war blade.
+~
+human~
+B N 800 M
+34 19 50d2+1180 0d0+100 7d4+18 17
+-9 -8 -8 -5
+DEILN AB Q 0
+8 8 1 75
+AHMV 0 M 0
+{}
+#1013
+rosen dragoneer~
+Dragoneer Rosen Jaib~
+Dragoneer Third Class Rosen Jaib stands here in charge of the left flank.
+~
+In front of you, you see Dragoneer Rosen Jaib of the 109th Dragon Squadron. 
+He's clad in a red tunic under a long chain-mail and sturdy leather boots. 
+In his hands he holds a mighty war blade.
+~
+human~
+B N 900 M
+33 18 50d2+1050 0d0+100 6d4+18 17
+-8 -7 -8 -4
+DEILN AB Q 0
+8 8 1 75
+AHMV 0 M 0
+{}
+#1014
+imp~
+an Orgeem Imp~
+An imp, clad in the black uniform of Tumuz Orgmeen, assails you.
+~
+In front of you, you see an imp of the Dark Masters army. The imp is bred in 
+Tumuz Orgmeen. He's a cross-breed from captured women, impregnated by some 
+vile creatures. This one has devoted its life to the spear, and now is very
+proficient in the techniques concerning this deadly weapon.
+~
+orc~
+CG Z -500 M
+30 15 30d2+880 0d0+100 6d4+13 17
+-6 -6 -6 -2
+EFILNR AB Q JN
+8 8 0 100
+AMV 0 M 0
+{}
+#1015
+black troll~
+a Black Troll~
+A Black Troll of Tumuz Orgmeen stands here, lusting for your blood.
+~
+In the eyes of the Troll you see greed and hatred to all races. It narrows
+its eyes somewhat, then it is not entirely accustomed to day light. His scaly
+body is extremely muscular, and you can't hope to survive a skirmish with
+him.
+~
+troll~
+CG 0 -550 M
+39 22 75d2+1650 0d0+100 5d6+20 17
+-13 -13 -13 -6
+DEIJLNRZ A AB Q JN
+8 8 1 200
+AMV 0 L 0
+{}
+#1016
+whitish troll~
+a Whitish Troll~
+A whitish skinned Troll approaches you, while drawing free its great sword.
+~
+It's one of the whitish Trolls, a new race of Trolls, bred by the Dark Masters
+of Padmasa. The whitish Trolls are able to withstand daylight and are able to
+wield swords.
+~
+troll~
+G Z -800 M
+41 25 100d2+1900 0d0+100 4d8+22 17
+-14 -14 -14 -7
+DEIJLNR AB Q N
+8 8 1 300
+AMV 0 L 0
+{}
+#1017
+imp~
+an Orgeem Imp~
+An imp clad in the black uniform of Tumuz Orgmeen utters some aracne words.
+~
+In front of you, you see an imp of the Dark Masters army. The imp is bred in 
+Tumuz Orgmeen. He's a cross-breed from captured women, impregnated by some 
+vile creatures. This one has devoted its life to serving the unholy gods of
+evil.
+~
+orc~
+CGQ Z -500 M
+31 15 30d2+900 0d0+100 6d4+13 17
+-8 -8 -8 -4
+EFILNR AB Q JN
+8 8 0 100
+AMV 0 M 0
+{}
+#1018
+imp~
+an Orgeem Imp~
+An imp clad in the black uniform of Tumuz Orgmeen attacks you.
+~
+In front of you, you see an imp of the Dark Masters army. The imp is bred in 
+Tumuz Orgmeen. He's a cross-breed from captured women, impregnated by some 
+vile creatures. This one has devoted its life to the flail, and now has be-
+come very proficient with it indeed.
+~
+orc~
+CG Z -600 M
+32 15 30d2+960 0d0+100 6d4+13 17
+-9 -8 -9 -3
+EFILNR AB Q JN
+8 8 0 100
+AMV 0 M 0
+{}
+#1019
+imp~
+an Orgeem Imp~
+An imp clad in the black uniform of Tumuz Orgmeen draws clear his war axe.
+~
+In front of you, you see an imp of the Dark Masters army. The imp is bred in 
+Tumuz Orgmeen. He's a cross-breed from captured women, impregnated by some 
+vile creatures. This one has devoted its life to the axe, and now has become 
+very proficient with it indeed.
+~
+orc~
+CG Z -550 M
+33 15 30d2+1050 0d0+100 6d4+13 17
+-10 -9 -10 -4
+EFILNR AB Q JN
+8 8 0 100
+AMV 0 M 0
+{}
+#1020
+imp~
+an Orgeem Imp~
+An imp clad in the black uniform of Tumuz Orgmee attacks you with his blade.
+~
+In front of you, you see an imp of the Dark Masters army. The imp is bred in 
+Tumuz Orgmeen. He's a cross-breed from captured women, impregnated by some 
+vile creatures. This one has devoted its life to the dagger, and now has 
+become very proficient with it indeed.
+~
+orc~
+CFG Z -550 M
+35 15 30d2+1250 0d0+100 6d4+23 17
+-10 -9 -10 -4
+BEFILNRZ A AB Q JN
+8 8 0 100
+AMV 0 M 0
+
+{}
+#0
+
+#OBJECTS
+#1001
+dragon sword piocar~
+the Dragon Sword `Piocar'~
+A ten feet long sword lies on the ground~
+steel~
+5 GIR AN
+1 10 4 3 DF
+40 50 2000 P
+E
+sword piocar~
+
+In your hand you hold `Piocar', a ten feet long sword made for Battle Dragons
+to wield. It takes both experience and a dragon's strength to wield such a
+sword.
+~
+A
+1 -3
+A
+2 3
+A
+17 -8
+A
+18 7
+A
+19 4
+#1002
+dragon sword mercuri~
+the Dragon Swift Sword `Mercuri'~
+A ten feet long sword lies on the ground~
+steel~
+5 GIR AN
+1 10 4 1 DF
+44 40 1750 P
+E
+sword mercuri~
+
+In your hand you hold `Mercuri', a ten feet long sword made for Battle Dragons
+to wield. Made of lighter metals than normally, `Mercuri' is easier to handle,
+but bound to do a little less damage.
+~
+A
+1 -2
+A
+2 2
+A
+17 -6
+A
+18 8
+A
+19 2
+#1003
+dragon sword~
+a Dragon Sword~
+A ten feet long sword lies on the ground~
+steel~
+5 GIR AN
+1 9 4 3 F
+38 45 1800 P
+E
+sword~
+
+In your hand you hold a ten feet long sword made for Battle Dragons to wield. 
+It takes both experience and a dragon's strength to wield such a sword.
+~
+A
+1 -1
+A
+2 1
+A
+17 -4
+A
+18 6
+A
+19 3
+#1004
+crossbow~
+a little crossbow~
+An elegant Cunfshon crossbow, of steelreed and bracher wire, lies here~
+steelreed~
+5 GI ANP
+9 6 5 6 F
+31 15 1200 P
+A
+18 3
+A
+19 3
+#1005
+heavy sword~
+a heavy sword~
+A really heavily bladed sword lies embedded in the ground~
+steel~
+5 GIR AN
+1 6 6 3 0
+33 24 1100 P
+A
+1 1
+A
+2 1
+A
+18 2
+A
+19 4
+#1006
+dragonlance polearm~
+(Dark) a Dragonlance~
+(Dark) A polearm with a three feet long steel tip on it, is planted here~
+steel~
+5 EGHJR ANR
+8 4 12 9 EF
+39 30 1500 P
+E
+dragonlance~
+
+This weapon has been made in the forges of the Doom's fortress. Specially 
+forged by the Dark Masters of Padmasa to kill dragons, the weapon consists of
+an oaken pole with a three feet long steel tip on it ... designed to be sharp 
+and long enough to be able to penetrate even the thick skin of a dragon.
+~
+A
+1 -1
+A
+18 8
+A
+19 4
+A
+23 -8
+#1007
+troll sword~
+(Dark) a Troll Sword~
+(Dark) A six feet long Troll blade lies on the ground~
+steel~
+5 EGHJR AN
+1 10 4 3 DF
+41 35 1750 P
+E
+sword~
+
+In your hand you hold a six feet long sword made for the foul Trolls to wield. 
+It takes some experience and troll's strength to wield such a sword.
+~
+A
+1 -1
+A
+17 -3
+A
+18 4
+A
+19 4 
+#1008
+tail mace~
+a Dragon's tail mace~
+A three feet long mace lies here~
+steel~
+5 GIR ANO
+4 6 6 8 0
+38 25 1300 P
+E
+tail mace~
+
+In your hand you hold a three feet long mace made for Battle Dragons to wield 
+with his tail. 
+~
+A
+2 1
+A
+17 -5
+A
+18 5
+A
+19 2
+#1009
+dragon shield~
+a round dragon shield~
+A light weight shield has been left on the ground~
+steel~
+9 GIR AJ
+9 9 8 2 0
+31 20 1400 P
+E
+round shield~
+
+You strap a light weight round shield on your arm, the image of a fierce 
+battle dragon is carved in it and it also bears the crest of the 109th Dragon 
+Squadron.
+~
+A
+17 -4
+A
+23 -5
+A
+24 -5
+#1010
+dragon kite~
+a large dragon kite~
+A heavy set, solid dragon shield has been left on the ground~
+steel~
+9 GIR AJ
+10 10 9 4 0
+33 40 1000 P
+A
+17 -6
+A
+23 -7
+A
+24 -7
+#1011
+red tunic~
+a red tunic~
+A piece of red clothing lies in a heap on the ground~
+wool-cotton~
+9 GI AK
+8 8 9 0 0
+31 6 1200 P
+A
+13 10
+A
+17 -4
+A
+24 -3
+#1012
+studded leather jerkin~
+a studded leather jerkin~
+A piece of leather armor lies on the ground~
+leather~
+9 GI AD
+9 8 9 0 0
+31 8 900 P
+A
+2 1
+A
+23 -2
+A
+24 -3
+#1013
+leather belt~
+a studded leather belt~
+A brown leather belt is lying carelessly on the ground~
+leather~
+9 GI AL
+9 7 8 0 0
+31 2 800 P
+A
+3 1
+A
+4 1
+#1014
+leather boots~
+some sturdy leather army boots~
+A pair of nice looking army boots stands in the far corner~
+leather~
+9 GI AG
+9 8 8 0 0
+31 5 400 P
+A
+17 -5
+A
+18 1
+A
+19 2
+A
+14 30
+#1015
+studded leather bracer~
+some studded leather bracers~
+A pair of leather arm guards lies on the ground~
+leather~
+9 GI AI
+9 7 7 0 0
+31 2 200 P
+A
+13 10
+A
+23 -2
+A
+24 -2
+#1016
+dark red tunic rims~
+a dark red tunic with blue rims~
+A piece of red and blue clothing lies in a heap on the ground~
+wool-cotton~
+9 GI AK
+9 8 9 1 0
+33 6 300 P
+A
+13 30
+A
+17 -6
+A
+24 -3
+#1017
+dark red tunic rim~
+a dark red tunic with blue rim~
+A piece of red and blue rimmed clothing lies in a heap on the ground~
+wool-cotton~
+9 GI AK
+10 9 9 1 0
+33 6 600 P
+A
+13 20
+A
+17 -5
+A
+24 -3
+#1018
+chain mail~
+a long chain-mail shirt~
+A piece of chain armor lies in a heap on the ground~
+steel~
+9 GIR AD
+9 9 9 1 0
+33 18 800 P
+A
+17 -6
+A
+24 -5
+#1019
+black tunic tumuz orgmeen~
+(Dark) a black Tumuz Orgmeen tunic~
+(Dark) A piece of black clothing lies in a heap on the ground~
+cotton~
+9 EGJ AK
+8 8 8 2 0
+30 6 500 P
+A
+17 -4
+A
+23 -7
+A
+24 -3
+#1020
+black leather breastplate~
+(Dark) a black Tumuz Orgmeen breastplate~
+(Dark) A piece of leather body armor lies on the ground~
+leather~
+9 EGJ AD
+9 8 8 2 0
+30 12 400 P
+A
+17 -4
+A
+23 -4
+A
+24 -4
+#1021
+black helmet~
+(Dark) a black Tumuz Orgmeen helmet~
+(Dark) A piece of head armor lies on the ground~
+steel~
+9 EGJR AE
+8 8 8 2 0
+30 12 300 P
+A
+13 15
+A
+23 -2
+A
+24 -2
+#1022
+black tunic~
+(Dark) a long black Tumuz Orgmeen tunic~
+(Dark) A piece of black clothing lies in a heap on the ground~
+cotton~
+9 EGJ AD
+10 10 11 4 0
+39 6 700 P
+A
+17 -9
+A
+23 -9
+A
+24 -6
+#1023
+black leather belt~
+(Dark) a black Tumuz Orgmeen belt~
+(Dark) A leather belt is lying carelessly on the ground~
+leather~
+9 EGJ AL
+8 7 7 2 0
+30 2 1000 P
+A 
+3 -1
+A
+5 2
+#1024
+impish spear~
+(Dark) an impish spear~
+(Dark) A five feet long spear is planted in the ground, before your feet~
+steel~
+5 EGJR AN
+3 3 12 11 0
+30 18 500 P
+A
+17 -2
+A
+18 2
+A
+19 4
+#1025
+mace~
+(Dark) an impish mace~
+(Dark) A two feet long mace lies on the ground, before your feet~
+steel~
+5 EGJR AN
+4 3 12 7 0
+31 16 500 P
+A
+17 -5
+A
+18 4
+A
+19 2
+#1026
+flail~
+(Dark) an impish flail~
+(Dark) A medium weight flail lies in front of your feet~
+steel~
+5 EGJR AN
+6 3 13 8 0
+32 18 500 P
+A
+17 -6
+A
+18 6
+A
+19 3
+#1027
+axe~
+(Dark) an impish battle axe~
+(Dark) A medium weight battle axe lies in front of your feet~
+steel~
+5 EGJR ANP
+5 3 13 11 F
+33 16 500 P
+A
+17 -6
+A
+18 5
+A
+19 4
+#1028
+great black helmet~
+(Dark) a great black Tumuz Orgmeen helmet~
+(Dark) A piece of head armor lies on the ground~
+steel~
+9 EGJR AE
+10 9 10 4 0
+39 16 500 P
+A
+13 20
+A
+23 -4
+A
+24 -6
+#1029
+black red robe~
+(Dark) a black robe with a red cross~
+(Dark) A piece of unholy cloth lies on the ground~
+cotton-linen~
+9 EGJ AD
+9 8 9 3 0
+30 12 600 P
+A
+17 -4
+A
+23 -4
+A
+24 -4
+#1030
+bush blue berry blueberry~
+some rare blueberry bushes~
+Some rare blueberry bushes are growing here~
+organic~
+15 G 0
+30 0 0 0 0                                  
+1 30 50 P
+#1031
+blue berries blueberries string~
+a string of blueberries~
+A string of rare blueberries has been dropped on the ground~
+organic~
+26 AGH AO
+15 3 16 0 0
+7 1 4000 P
+E
+blueberries string berries~
+	This delicious piece of fruit has been cultivated in 'het Westland'
+in the Netherlands.
+~
+#1032
+imp dagger~
+(Dark) an imp dagger~
+(Dark) A one foot long Imp blade lies on the ground~
+steel~
+5 EGHJR AN
+2 10 4 3 DF
+41 35 1750 P
+A
+1 -1
+A
+17 -3
+A
+18 4
+A
+19 4 
+
+#0
+
+#ROOMS
+#1000
+A mountain path~
+   A fresh mountain breeze blows in your face. You walk on a small path, 
+which winds its way up the Mount Ulmo. The grassy fields along the dusty 
+trail are filled with wildflowers, daisies and a variety of other flowers.
+~
+0 0 4
+D0
+~
+~
+0 0 1001
+D2
+~
+~
+0 0 45
+S
+#1001
+A mountain path~
+   A steep climb lies ahead and your surroundings are filled with debris,
+a few small boulders and various small stones, that have been chipped off
+the face of the mountain over the years.
+~
+0 0 4
+D2
+~
+~
+0 0 1000
+D4
+~
+~
+0 0 1002
+S
+#1002
+A mountain path~
+  After climbing up the steep path you are now able to see the Mt. Ulmo 
+pass right ahead of you. From afar the pass looks more like a small crack
+in the rock surface, but as you come closer it broadens itself, until it
+is wide enough to let a horse cart through. Exits are north to Mt. Ulmo Pass
+and East to continue your upward trek. There is a SIGN here.
+~
+0 0 4
+D0
+~
+~
+0 0 1003
+D1
+~
+~
+0 0 46
+D5
+~
+~
+0 0 1001
+E
+sign~
+   =========================================
+   | Upper Argo - North - 1 league         |
+   | Mount Ulmo Peak - East - MANY Leagues |
+   =========================================
+~
+S
+#1003
+Mt. Ulmo Pass~
+  You walk through the pass over Mount Ulmo. Steep rock surfaces rise up
+high to either side of you. From here the mountain path will take you down-
+hill into the Upper Argo.
+~
+0 0 4
+D2
+~
+~
+0 0 1002
+D5
+~
+~
+0 0 1004
+S
+#1004
+A sloping path down the hill~
+  With little difficutly you work your way down Mt. Ulmo into the Upper Argo.
+The land certainly looks more friendly than the grey scenery of of Mt. Ulmo.
+Here and there small vegetations begin to show.
+~
+0 0 4
+D0
+~
+~
+0 0 1005
+D4
+~
+~
+0 0 1003
+S
+#1005
+A sloping path down the hill~
+  The path gets less steep as you get nearer to the Upper Argo. You begin
+to see more of the low bushes, scattered over the still rocky underground.
+~
+0 0 4
+D0
+~
+~
+0 0 1006
+D2
+~
+~
+0 0 1004
+S
+#1006
+The Upper Argo~
+  You are in the Argonath Region and you've reached a rather bushy area, 
+called the Upper Argo. Further north lies the Gan and ultimately the city of 
+the evil masters, Tummuz Orgmeen. South of here are the lands of Teetol.
+A gigantic way-sign is fastened on a large pole.
+~
+0 4 4
+D0
+~
+~
+0 0 1007
+D2
+~
+~
+0 0 1005
+E
+shield gigantic pole way sign way-sign
+~
+		  THE UPPER ARGO
+	       --------------
+
+( the 109th Dragon Squadron is ambushed by Orgmeen troops )
+							
+The Upper Argo is meant for players from level 30 till 44.
+Have lots of fun !
+
+(c) June 1104 by Morgan
+modifications Januari 1105 by Morgan
+~
+S
+#1007
+A clearing~
+  You are standing in an relatively open, grassy area. To the west are 
+some low scrubs, to the east you can see the outskirts of a pine forest.
+To the north the grassy field continues.
+~
+0 0 2
+D0
+~
+~
+0 0 1015
+D1
+~
+~
+0 0 1010
+D2
+~
+~
+0 0 1006
+D3
+~
+~
+0 0 1008
+S
+#1008
+A clearing~
+  You are standing in the open. Here and there are a few low scrubs, to 
+the south the rock face of Mt. Ulmo rises up high and in the far west you 
+see the outlines of a forest.
+~
+0 0 2
+D0
+~
+~
+0 0 1016
+D1
+~
+~
+0 0 1007
+D3
+~
+~
+0 0 1009
+S
+#1009
+A bushy clearing~
+  You are standing in a bush filled clearing. Mt. Ulmo blocks your way 
+to the south. An impassable treeline out of pines and undergrowth lies to 
+the west. North of here the bushy clearing continues.
+~
+0 0 2
+D0
+~
+~
+0 0 1017
+D1
+~
+~
+0 0 1008
+S
+#1010
+A bushy clearing~
+  You see a forest to the east. Mt. Ulmo blocks your way south, your
+attempt to scale the rock face, ends in a small rock slide and many cuts
+and bruises. A small group of broadleaf trees blocks your way north. To
+the west there's a grassy clearing, to the east the bushy clearing con-
+tinues.
+~
+0 0 2
+D1
+~
+~
+0 0 1011
+D3
+~
+~
+0 0 1007
+S
+#1011
+A bushy clearing~
+      In the far you can see a pine forest to the east. Mt. Ulmo stands 
+immobile, blocking your way south. The bushy clearing continues to west 
+and east.
+~
+0 0 2
+D0
+~
+~
+0 0 1014
+D1
+~
+~
+0 0 1012
+D3
+~
+~
+0 0 1010
+S
+#1012
+A bushy clearing~
+      Small scrub and bushes grow here and even an occasional pine tree. To 
+the east your way is obscured by a thick pine forest. To the south Mt. Ulmo 
+blocks your way. The bushy clearing continues west and north.
+~
+0 0 2
+D0
+~
+~
+0 0 1013
+D3
+~
+~
+0 0 1011
+S
+#1013
+A bushy clearing~
+       The bushes and undergrowth grow more thick here. To the east you see 
+the treeline of a pinewood forest. The pines grow thick as a wall, there is
+no way you can pass them. The bushy clearing continues north, south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1023
+D2
+~
+~
+0 0 1012
+D3
+~
+~
+0 0 1014
+S
+#1014
+A bushy clearing~
+  The clearing is scrub, undergrowth and bush overgrown. To the west 
+a small group of broadleaf trees blocks your way. The bushy clearing  
+continues north, east and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1022
+D1
+~
+~
+0 0 1013
+D2
+~
+~
+0 0 1011
+S
+#1015
+A clearing~
+      You are standing in the open. To the north and south lie vast grassy
+fields. To the east a small group of broadleaf trees blocks your way. Here 
+and there you see a some footsteps in the sand and some bent grasses. To
+the west you see a bushy clearing.
+~
+0 0 2
+D0
+~
+~
+0 0 1020
+D2
+~
+~
+0 0 1007
+D3
+~
+~
+0 0 1016
+S
+#1016
+A bushy clearing~
+    You are standing between some bushes. You are plagued by little bugs, 
+swarming from out of the thorn bush to your left. The bushy clearing con-
+tinues north, south and west. To the east you see a grassy clearing.
+~
+0 0 2
+D0
+~
+~
+0 0 1019
+D1
+~
+~
+0 0 1015
+D2
+~
+~
+0 0 1008
+D3
+~
+~
+0 0 1017
+S
+#1017
+A bushy clearing~
+  You are surrounded by some thorny bushes. An impassable treeline lies 
+to the west. The bushy clearing continues north, east and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1018
+D1
+~
+~
+0 0 1016
+D2
+~
+~
+0 0 1009
+S
+#1018
+A bushy clearing~
+     You are standing in a scrub and bush overgrown clearing. A thick 
+treeline of pine trees lies to the west. The bushy clearing continues
+to the north, east and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1028
+D1
+~
+~
+0 0 1019
+D2
+~
+~
+0 0 1017
+S
+#1019
+A bushy clearing~
+    Small bushes and undergrowth fill the clearing. You hear noises of lots 
+of little bugs in them. The bushy clearing continues north, south and west.
+To the east lies a grassy field.
+~
+0 0 2
+D0
+~
+~
+0 0 1027
+D1
+~
+~
+0 0 1020
+D2
+~
+~
+0 0 1016
+D3
+~
+~
+0 0 1018
+S
+#1020
+A clearing~
+    You are in a relatively open grassy field. You can see, that some of 
+the grass has been trampled. The field continues north and south, to the
+east and west you see some bushy clearings.
+~
+0 0 2
+D0
+~
+~
+0 0 1026
+D1
+~
+~
+0 0 1021
+D2
+~
+~
+0 0 1015
+D3
+~
+~
+0 0 1019
+S
+#1021
+A bushy clearing~
+       You are standing in the middle of some thron bushes. Some broadleaf 
+trees block your way south. The bushy clearing continues east, to the west 
+you notice a vast grassy field and to the north you notice a scrub grown
+clearing.
+~
+0 0 2
+D0
+~
+~
+0 0 1025
+D1
+~
+~
+0 0 1022
+D3
+~
+~
+0 0 1020
+S
+#1022
+A bushy clearing~
+	You are standing between the scrub and undergrowth. Some isolated 
+pine trees block your way north. The bushy clearing continues east, south
+and west.
+~
+0 0 2
+D1
+~
+~
+0 0 1023
+D2
+~
+~
+0 0 1014
+D3
+~
+~
+0 0 1021
+S
+#1023
+A bushy clearing~
+       You are in a grassy clearing. The bushes and scrub grow higher and 
+more wild here. To the east your way is obscured by a wall of pine trees. 
+The bushy clearing continues north, south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1024
+D2
+~
+~
+0 0 1013
+D3
+~
+~
+0 0 1022
+S
+#1024
+A bushy clearing~
+      Passage is more difficult here, since the clearing is overgrown with
+bushes, scrub and undergrowth. To the east your way is obscured by a thick 
+treeline. Also some lone pine trees block your way west. The bushy clearing
+continues north and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1034
+D2
+~
+~
+0 0 1023
+S
+#1025
+A scrub grown clearing~
+       You have arrived at a scrub overgrown clearing, here and there also
+grows an occasional, small thorn bush. Some isolated pine trees block your 
+way east. To the west a grassy field expands itself, to north and south 
+you notice some bushy clearings.
+~
+0 0 2
+D0
+~
+~
+0 0 1032
+D2
+~
+~
+0 0 1021
+D3
+~
+~
+0 0 1026
+S
+#1026
+A clearing~
+	A vast grassy field expands itself before you. The grassy field 
+continues north and south. To the west you see a bushy clearing, to the
+east, a scrub grown one.
+~
+0 0 2
+D0
+~
+~
+0 0 1031
+D1
+~
+~
+0 0 1025
+D2
+~
+~
+0 0 1020
+D3
+~
+~
+0 0 1027
+S
+#1027
+A bushy clearing~
+    You are standing in the bushes and here and there grows a young, small
+broadleaf tree. The bushy clearing continues north, south and west, to the
+east you notice a vast grassy field.
+~
+0 0 2
+D0
+~
+~
+0 0 1030
+D1
+~
+~
+0 0 1026
+D2
+~
+~
+0 0 1019
+D3
+~
+~
+0 0 1028
+S
+#1028
+A bushy clearing~
+      You are standing in the middle of some nasty thorn bushes. An im-
+passable treeline lies to the west. The bushy clearing continues north, 
+east and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1029
+D1
+~
+~
+0 0 1027
+D2
+~
+~
+0 0 1018
+S
+#1029
+A bushy clearing~
+     The bushes begin to grow more thick and passage becomes increasingly
+difficult. Here and there grow some tall pine trees, and scrub and under-
+growth fill the ground. West of here the pine trees grow into a thick wall
+of wood. The bushy clearing continues north, east and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1039
+D1
+~
+~
+0 0 1030
+D2
+~
+~
+0 0 1028
+S
+#1030
+A bushy clearing~
+    You are standing near some blue-berry bushes. You look for blue-berries,
+but there aren't any ... guess it isn't the season for it. You sniff the air 
+... you smell some foul odour ... no doubt about it ... there are definately
+imps nearby. The bushy clearing continues north, south and west. To the east
+lies a grassy field.
+~
+0 0 2
+D0
+~
+~
+0 0 1038
+D1
+~
+~
+0 0 1031
+D2
+~
+~
+0 0 1027
+D3
+~
+~
+0 0 1029
+S
+#1031
+A clearing~
+     You walk through a large grassy field, there are many footsteps in the
+grass already however. In the far you hear the sinister sound of war drums. 
+The grassy field continues north and south, to the east and west you see
+some bushy clearings.
+~
+0 0 2
+D0
+~
+~
+0 0 1037
+D1
+~
+~
+0 0 1032
+D2
+~
+~
+0 0 1026
+D3
+~
+~
+0 0 1030
+S
+#1032
+A bushy clearing~
+     The clearing is overgrown by low scrub and small bushes. To the west
+you see a green grassy field, to the south you see a scrub grown clearing
+and to the north and east you notice some bushy clearings.
+~
+0 0 2
+D0
+~
+~
+0 0 1036
+D1
+~
+~
+0 0 1033
+D2
+~
+~
+0 0 1025
+D3
+~
+~
+0 0 1031
+S
+#1033
+A bushy clearing~
+	 You are standing between some thorn bushes. Pine trees block your 
+way south and some broadleaf trees prevent you from going north. The bushy 
+clearing continues west and east.
+~
+0 0 2
+D1
+~
+~
+0 0 1034
+D3
+~
+~
+0 0 1032
+S
+#1034
+A bushy clearing~
+       The bushes grow more wildy here, making passage through them 
+increasingly difficult. To the east your way is obscured by a thick 
+treeline. The bushy clearing continues north, south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1035
+D2
+~
+~
+0 0 1024
+D3
+~
+~
+0 0 1033
+S
+#1035
+A bushy clearing~
+    You work your way through the scrub filled clearing. Hither and tither
+grow a few sole maple trees. East of here your way is blocked by the thick 
+forest treeline and to the west a group of pine trees stands in your way.
+The bushy clearing continues north and south.
+~
+0 0 2
+D0
+~
+~
+0 0 1045
+D2
+~
+~
+0 0 1034
+S
+#1036
+A bushy clearing~
+     You are standing between some thorny bushes, you see that many of their
+branches are broken off and a foul stench fills the air, it's definately the
+smell of imps and their kindred. A group of pine trees block your way east,
+to the west you see a vast grass land, north and south of here the bushy 
+clearing continues.
+~
+0 0 2
+D0
+~
+~
+0 0 1043
+D2
+~
+~
+0 0 1032
+D3
+~
+~
+0 0 1037
+S
+#1037
+A clearing~
+   You are standing in the open, the prairie grass reaches to your knees.
+The vast grass lands continue north and south, bushy clearings are to the
+east and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1042
+D1
+~
+~
+0 0 1036
+D2
+~
+~
+0 0 1031
+D3
+~
+~
+0 0 1038
+S
+#1038
+A bushy clearing~
+	 You swear as one of your garments gets stuck in some thorny bushes.
+East of here you see some grassy fields, the bushy clearing continues north,
+south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1041
+D1
+~
+~
+0 0 1037
+D2
+~
+~
+0 0 1030
+D3
+~
+~
+0 0 1039
+S
+#1039
+A bushy clearing~
+	 You are standing between some small dried out bushes. West of here 
+the forest trees grow tall and impassable, to the north, east and south the
+bushy clearing continues.
+~
+0 0 2
+D0
+~
+~
+0 0 1040
+D1
+~
+~
+0 0 1038
+D2
+~
+~
+0 0 1029
+S
+#1040
+A bushy clearing~
+  You are standing in the middle of some thick brown bushes. The tree-
+line of the pine forest lies to the west and north. The bushy clearing
+continues east and south.
+~
+0 0 2
+D1
+~
+~
+0 0 1041
+D2
+~
+~
+0 0 1039
+S
+#1041
+A bushy clearing~
+	You are standing on the grass, between some small bushes. Here and
+there grows a sole pine tree, with some undergrowth and scrub at its base.
+To the east you see a vast grassy field, the bushy clearing continues north, 
+south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1049
+D1
+~
+~
+0 0 1042
+D2
+~
+~
+0 0 1038
+D3
+~
+~
+0 0 1040
+S
+#1042
+A clearing~
+   Before you, you see a vast, grassy field. The grass reaches up to your
+ankles and grows here lushlessly. The field continues north and south, to
+the east and west you see a bushy clearing.
+~
+0 0 2
+D0
+~
+~
+0 0 1048
+D1
+~
+~
+0 0 1043
+D2
+~
+~
+0 0 1037
+D3
+~
+~
+0 0 1041
+S
+#1043
+A bushy clearing~
+	  You are standing between the widespread bushes. A thick wall of 
+broadleaf trees blocks your way north, the bushy clearing continues east, 
+south. West of here you spot a large grassy field.
+~
+0 0 2
+D1
+~
+~
+0 0 1044
+D2
+~
+~
+0 0 1036
+D3
+~
+~
+0 0 1042
+S
+#1044
+A bushy clearing~
+      You are standing in the middle of some blackened bushes. Some pine 
+trees block your way south, the bushy clearing continues north, east and
+west.
+~
+0 0 2
+D0
+~
+~
+0 0 1047
+D1
+~
+~
+0 0 1045
+D3
+~
+~
+0 0 1043
+S
+#1045
+A bushy clearing~
+	The bushes and scrub grow more wildy here. Here and there grows a 
+sole pine tree, and undergrowth fills the ground. To the east your way is 
+obscured by the thick treeline of the pine forest, the bushy clearing 
+continues north, south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 1046
+D2
+~
+~
+0 0 1035
+D3
+~
+~
+0 0 1044
+S
+#1046
+A bushy clearing~
+   You have arrived at a scrub overgrown clearing. To the east the pine
+forest forms an impassible wall, to the north, south and west the bushy
+clearing continues.
+~
+0 0 2
+D0
+~
+~
+0 0 1051
+D2
+~
+~
+0 0 1045
+D3
+~
+~
+0 0 1047
+S
+#1047
+A bushy clearing~
+    A wide variety of bushes grows here, as do some broadleaf trees. The
+thick treeline of a broadleaf forest blocks your way north and west, the 
+bushy clearing continues east and south.
+~
+0 0 2
+D1
+~
+~
+0 0 1046
+D2
+~
+~
+0 0 1044
+S
+#1048
+A clearing~
+	You are standing in an open grassy field. To the east the thick 
+treeline of the pine forest blocks your way, the grassy field continues
+to the south. North and west of here you see a bushy clearing.
+~
+0 0 2
+D0
+~
+~
+0 0 1050
+D2
+~
+~
+0 0 1042
+D3
+~
+~
+0 0 1049
+S
+#1049
+A bushy clearing~
+      You are standing between some thorny bushes. An impassable treeline 
+lies to the west and north. To the east you spot a large grassy field and
+to the south the bushy clearing continues.
+~
+0 0 2
+D1
+~
+~
+0 0 1048
+D2
+~
+~
+0 0 1041
+S
+#1050
+A clearing~
+      You are standing in a small clearing in the pine forest. To the south
+you see a vast grassy field, in all other directions your way is blocked by
+by huge pine trees.
+~
+0 0 2
+D2
+~
+~
+0 0 1048
+S
+#1051
+A small clearing~
+	South of here you see a bushy clearing, in all other directions you
+spot an impassable treeline. To the north and west lies a broadleaf forest,
+to the east a pine forest.
+~
+0 0 2
+D2
+~
+~
+0 0 1046
+S
+#0
+
+#RESETS
+*
+M 0 1001 1 1029        BAZIL BATTLE DRAGON
+E 0 1001 1 16           piocar
+E 0 1008 5 17           tail mace
+*
+M 0 1002 1 1028        CHEKTOR BATTLE DRAGON
+E 0 1003 3 16           dragon sword
+E 0 1008 5 17           tail mace
+*
+M 0 1003 1 1018        VANDER BATTLE DRAGON
+E 0 1003 3 16           dragon sword
+E 0 1008 5 17           tail mace
+*
+M 0 1004 1 1039        KEPABAR BATTLE DRAGON
+E 0 1003 3 16           dragon sword
+E 0 1008 5 17           tail mace
+*
+M 0 1005 1 1040        NESESSITAS BATTLE DRAGON
+E 0 1002 1 16           mercuri
+E 0 1008 5 17           tail mace
+*
+M 0 1006 1 1029        RELKIN DRAGONBOY
+E 0 1004 5 16           crossbow
+E 0 1009 5 11           round shield
+E 0 1011 6 12           red tunic
+E 1 1012 5 5            studded leather
+E 0 1013 8 13           leather belt
+E 1 1014 8 8            leather boots
+E 0 1015 8 10           leather bracers
+*
+M 0 1007 1 1028        HARCHO DRAGONBOY
+E 0 1004 5 16           crossbow
+E 1 1009 5 11           round shield
+E 0 1011 6 12           red tunic
+E 1 1012 5 5            studded leather
+E 0 1013 8 13           leather belt
+E 1 1014 8 8            leather boots
+E 0 1015 8 10           leather bracers
+*
+M 0 1008 1 1018        KASTRUL DRAGONBOY
+E 0 1004 5 16           crossbow
+E 1 1009 5 11           round shield
+E 0 1011 6 12           red tunic
+E 0 1012 5 5            studded leather
+E 1 1013 8 13           leather belt
+E 0 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+*
+M 0 1009 1 1039        TOMAS DRAGONBOY
+E 0 1004 5 16           crossbow
+E 0 1009 5 11           round shield
+E 0 1011 6 12           red tunic
+E 1 1012 5 5            studded leather
+E 1 1013 8 13           leather belt
+E 0 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+*
+M 0 1010 1 1040        MARCO VELI DRAGONBOY
+E 1 1004 5 16           crossbow
+E 0 1009 5 11           round shield
+E 1 1011 6 12           red tunic
+E 1 1012 5 5            studded leather
+E 0 1013 8 13           leather belt
+E 1 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+*
+M 0 1011 1 1030        TETZARCH DRAGONEER 1ST CLASS
+E 0 1005 3 16           heavy sword
+E 0 1010 3 11           dragon kite
+E 1 1013 8 13           leather belt
+E 0 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+E 0 1016 1 12           red tunic with blue rims
+E 1 1018 3 5            chain-mail
+*
+M 0 1012 1 1019        HELTIFER DRAGONEER 2ND CLASS
+E 0 1005 3 16           heavy sword
+E 0 1010 3 11           dragon kite
+E 1 1013 8 13           leather belt
+E 0 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+E 0 1017 1 12           red tunic with blue rim
+E 1 1018 3 5            chain-mail
+*
+M 0 1013 1 1041        ROSEN JAIB DRAGONEER 3RD CLASS
+E 0 1005 3 16           heavy sword
+E 0 1010 3 11           dragon kite
+E 0 1011 6 12           red tunic
+E 1 1013 8 13           leather belt
+E 0 1014 8 8            leather boots
+E 1 1015 8 10           leather bracers
+E 0 1018 3 5            chain-mail
+*
+M 0 1014 5 1043        IMP-SPEAR
+E 0 1024 5 16            impish spear
+E 0 1019 15 12           black tunic
+E 0 1020 13 5            black breastplate
+E 1 1021 13 6            black helmet
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+M 0 1014 5 1008
+E 0 1024 5 16            impish spear
+E 0 1019 15 12           black tunic
+E 0 1020 13 5            black breastplate
+E 1 1021 13 6            black helmet
+E 1 1013 15 13           leather belt
+E 0 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+*
+M 0 1017 3 1042        IMP-MACE
+E 0 1025 3 16            impish mace
+E 0 1019 15 12           black tunic
+E 0 1029 3 5             black and red robe
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+M 0 1017 3 1025
+E 0 1025 3 16            impish mace
+E 0 1019 15 12           black tunic
+E 0 1029 3 5             black and red robe
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 0 1015 15 10           leather bracers
+M 0 1017 3 1007
+E 0 1025 3 16            impish mace
+E 0 1019 15 12           black tunic
+E 0 1029 3 5             black and red robe
+E 0 1013 15 13           leather belt
+E 0 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+*
+M 0 1018 4 1022        IMP-FLAIL
+E 0 1026 4 16            impish flail
+E 0 1019 15 12           black tunic
+E 1 1020 13 5            black breastplate
+E 0 1021 13 6            black helmet
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 0 1015 15 10           leather bracers
+M 0 1018 4 1037
+E 0 1026 4 16            impish flail
+E 0 1019 15 12           black tunic
+E 1 1020 13 5            black breastplate
+E 0 1021 13 6            black helmet
+E 1 1013 15 13           leather belt
+E 0 1014 15 8            leather boots
+E 0 1015 15 10           leather bracers
+M 0 1018 4 1025
+E 0 1026 4 16            impish flail
+E 0 1019 15 12           black tunic
+E 1 1020 13 5            black breastplate
+E 0 1021 13 6            black helmet
+E 1 1013 15 13           leather belt
+E 0 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+*
+M 0 1019 4 1011        IMP-AXE
+E 0 1027 4 16            impish war-axe
+E 0 1019 15 12           black tunic
+E 0 1020 13 5            black breastplate
+E 1 1021 13 6            black helmet
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 1 1015 15 10           leather bracers
+M 0 1019 4 1025
+E 0 1027 4 16            impish war-axe
+E 0 1019 15 12           black tunic
+E 0 1020 13 5            black breastplate
+E 1 1021 13 6            black helmet
+E 0 1013 15 13           leather belt
+E 1 1014 15 8            leather boots
+E 0 1015 15 10           leather bracers
+*
+M 0 1020 3 1044
+E 0 1032 5 16
+M 0 1020 3 1031
+E 0 1032 5 16
+M 0 1020 3 1021
+E 0 1032 5 16
+M 0 1020 3 1011
+E 0 1032 5 16
+*
+M 0 1015 5 1044        BLACK TROLL
+E 0 1006 5 16         dragonlance
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+M 0 1015 5 1033
+E 0 1006 5 16         dragonlance
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+M 0 1015 5 1022
+E 0 1006 5 16         dragonlance
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+M 0 1015 5 1012
+E 0 1006 5 16         dragonlance
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+*
+M 0 1016 3 1051        WHITISH TROLL
+E 0 1007 3 16      troll sword
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+M 0 1016 3 1034
+E 0 1007 3 16      troll sword
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+M 0 1016 3 1022
+E 0 1007 3 16      troll sword
+E 0 1022 8 12            black tunic
+E 0 1028 8 6             great black helmet
+*
+O 0 1030 0 1030    blueberry bush
+P 0 1031 0 1030          blueberry string
+*
+S
+
+#SPECIALS
+*
+M 1003 spec_cast_mage               vander battle dragon
+M 1005 spec_cast_cleric             nesessitas battle dragon
+M 1017 spec_cast_cleric             imp-mace
+*
+S
+
+#$
+
+
+
+
+
+

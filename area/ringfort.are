@@ -1,0 +1,2701 @@
+#AREA	{ CAS } Soul  Ringfort Design~
+
+#HELPS
+15 ringfort~
+Castle info and ideals would go here
+~
+
+0 $~
+
+#MOBILES
+
+#0
+
+#OBJECTS
+
+#0
+
+#ROOMS
+#11100
+A room~
+You are standing in room #11100.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11101
+D2
+~
+~
+0 -1 11109
+S
+#11101
+A room~
+You are standing in room #11101.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11102
+D2
+~
+~
+0 -1 11110
+D3
+~
+~
+0 -1 11100
+S
+#11102
+A room~
+You are standing in room #11102.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11103
+D2
+~
+~
+0 -1 11111
+D3
+~
+~
+0 -1 11101
+S
+#11103
+A room~
+You are standing in room #11103.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11104
+D2
+~
+~
+0 -1 11112
+D3
+~
+~
+0 -1 11102
+S
+#11104
+A room~
+You are standing in room #11104.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11105
+D2
+~
+~
+0 -1 11113
+D3
+~
+~
+0 -1 11103
+S
+#11105
+A room~
+You are standing in room #11105.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11106
+D2
+~
+~
+0 -1 11114
+D3
+~
+~
+0 -1 11104
+S
+#11106
+A room~
+You are standing in room #11106.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11107
+D2
+~
+~
+0 -1 11115
+D3
+~
+~
+0 -1 11105
+S
+#11107
+A room~
+You are standing in room #11107.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11116
+D3
+~
+~
+0 -1 11106
+S
+#11108
+A room~
+You are standing in room #11108.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11109
+D2
+~
+~
+0 -1 11119
+S
+#11109
+A room~
+You are standing in room #11109.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11100
+D1
+~
+~
+0 -1 11110
+D3
+~
+~
+0 -1 11108
+S
+#11110
+A room~
+You are standing in room #11110.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11101
+D1
+~
+~
+0 -1 11111
+D3
+~
+~
+0 -1 11109
+S
+#11111
+A room~
+You are standing in room #11111.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11102
+D1
+~
+~
+0 -1 11112
+D3
+~
+~
+0 -1 11110
+S
+#11112
+A room~
+You are standing in room #11112.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11103
+D1
+~
+~
+0 -1 11113
+D3
+~
+~
+0 -1 11111
+S
+#11113
+A room~
+You are standing in room #11113.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11104
+D1
+~
+~
+0 -1 11114
+D3
+~
+~
+0 -1 11112
+S
+#11114
+A room~
+You are standing in room #11114.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11105
+D1
+~
+~
+0 -1 11115
+D3
+~
+~
+0 -1 11113
+S
+#11115
+A room~
+You are standing in room #11115.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11106
+D1
+~
+~
+0 -1 11116
+D3
+~
+~
+0 -1 11114
+S
+#11116
+A room~
+You are standing in room #11116.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11107
+D1
+~
+~
+0 -1 11117
+D3
+~
+~
+0 -1 11115
+S
+#11117
+A room~
+You are standing in room #11117.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11126
+D3
+~
+~
+0 -1 11116
+S
+#11118
+A room~
+You are standing in room #11118.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11119
+D2
+~
+~
+0 -1 11128
+S
+#11119
+A room~
+You are standing in room #11119.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11108
+D2
+~
+~
+0 -1 11129
+D3
+~
+~
+0 -1 11118
+S
+#11120
+A room~
+You are standing in room #11120.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11121
+S
+#11121
+A room~
+You are standing in room #11121.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11122
+D3
+~
+~
+0 -1 11120
+S
+#11122
+A room~
+You are standing in room #11122.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11123
+D3
+~
+~
+0 -1 11121
+S
+#11123
+A room~
+You are standing in room #11123.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11124
+D3
+~
+~
+0 -1 11122
+S
+#11124
+A room~
+You are standing in room #11124.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11125
+D3
+~
+~
+0 -1 11123
+S
+#11125
+A room~
+You are standing in room #11125.
+~
+0 DN 1
+D3
+~
+~
+0 -1 11124
+S
+#11126
+A room~
+You are standing in room #11126.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11117
+D1
+~
+~
+0 -1 11127
+D2
+~
+~
+0 -1 11138
+S
+#11127
+A room~
+You are standing in room #11127.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11139
+D3
+~
+~
+0 -1 11126
+S
+#11128
+Courtyard Gate~
+You are standing in room #11128.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11118
+D1
+~
+~
+0 -1 11129
+D2
+~
+~
+0 -1 11140
+S
+#11129
+A room~
+You are standing in room #11129.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11119
+D2
+~
+~
+0 -1 11141
+D3
+~
+~
+0 -1 11128
+S
+#11130
+A room~
+You are standing in room #11130.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11142
+S
+#11131
+A room~
+You are standing in room #11131.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11132
+D2
+~
+~
+0 -1 11143
+S
+#11132
+A room~
+You are standing in room #11132.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11133
+D2
+~
+~
+0 -1 11144
+D3
+~
+~
+0 -1 11131
+S
+#11133
+A room~
+You are standing in room #11133.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11134
+D2
+~
+~
+0 -1 11145
+D3
+~
+~
+0 -1 11132
+S
+#11134
+A room~
+You are standing in room #11134.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11135
+D2
+~
+~
+0 -1 11146
+D3
+~
+~
+0 -1 11133
+S
+#11135
+A room~
+You are standing in room #11135.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11136
+D2
+~
+~
+0 -1 11147
+D3
+~
+~
+0 -1 11134
+S
+#11136
+A room~
+You are standing in room #11136.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11148
+D3
+~
+~
+0 -1 11135
+S
+#11137
+A room~
+You are standing in room #11137.
+~
+0 4|DN 1
+D2
+~
+~
+0 -1 11149
+S
+#11138
+A room~
+You are standing in room #11138.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11126
+D1
+~
+~
+0 -1 11139
+D2
+~
+~
+0 -1 11150
+S
+#11139
+A room~
+You are standing in room #11139.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11127
+D2
+~
+~
+0 -1 11151
+D3
+~
+~
+0 -1 11138
+S
+#11140
+A room~
+You are standing in room #11140.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11128
+D1
+~
+~
+0 -1 11141
+D2
+~
+~
+0 -1 11152
+S
+#11141
+A room~
+You are standing in room #11141.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11129
+D2
+~
+~
+0 -1 11153
+D3
+~
+~
+0 -1 11140
+S
+#11142
+A room~
+You are standing in room #11142.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11130
+D2
+~
+~
+0 -1 11154
+S
+#11143
+A room~
+You are standing in room #11143.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11131
+D1
+~
+~
+0 -1 11144
+D2
+~
+~
+0 -1 11155
+S
+#11144
+A room~
+You are standing in room #11144.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11132
+D1
+~
+~
+0 -1 11145
+D2
+~
+~
+0 -1 11156
+D3
+~
+~
+0 -1 11143
+S
+#11145
+A room~
+You are standing in room #11145.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11133
+D1
+~
+~
+0 -1 11146
+D2
+~
+~
+0 -1 11157
+D3
+~
+~
+0 -1 11144
+S
+#11146
+A room~
+You are standing in room #11146.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11134
+D1
+~
+~
+0 -1 11147
+D2
+~
+~
+0 -1 11158
+D3
+~
+~
+0 -1 11145
+S
+#11147
+A room~
+You are standing in room #11147.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11135
+D1
+~
+~
+0 -1 11148
+D2
+~
+~
+0 -1 11159
+D3
+~
+~
+0 -1 11146
+S
+#11148
+A room~
+You are standing in room #11148.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11136
+D2
+~
+~
+0 -1 11160
+D3
+~
+~
+0 -1 11147
+S
+#11149
+A room~
+You are standing in room #11149.
+~
+0 4|DN 1
+D0
+~
+~
+0 -1 11137
+D2
+~
+~
+0 -1 11161
+S
+#11150
+A room~
+You are standing in room #11150.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11138
+D1
+~
+~
+0 -1 11151
+D2
+~
+~
+0 -1 11162
+S
+#11151
+A room~
+You are standing in room #11151.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11139
+D2
+~
+~
+0 -1 11163
+D3
+~
+~
+0 -1 11150
+S
+#11152
+A room~
+You are standing in room #11152.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11140
+D1
+~
+~
+0 -1 11153
+D2
+~
+~
+0 -1 11164
+S
+#11153
+A room~
+You are standing in room #11153.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11141
+D3
+~
+~
+0 -1 11152
+S
+#11154
+A room~
+You are standing in room #11154.
+~
+0 4|DN 1
+D0
+~
+~
+0 -1 11142
+D2
+~
+~
+0 -1 11166
+S
+#11155
+A room~
+You are standing in room #11155.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11143
+D1
+~
+~
+0 -1 11156
+S
+#11156
+A room~
+You are standing in room #11156.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11144
+D1
+~
+~
+0 -1 11157
+D3
+~
+~
+0 -1 11155
+S
+#11157
+Palace Halls~
+You are standing in room #11157.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11145
+D1
+~
+~
+0 -1 11158
+D2
+~
+~
+1 -1 11169
+D3
+~
+~
+0 -1 11156
+S
+#11158
+Palace Halls~
+You are standing in room #11158.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11146
+D1
+~
+~
+0 -1 11159
+D2
+~
+~
+1 -1 11170
+D3
+~
+~
+0 -1 11157
+S
+#11159
+A room~
+You are standing in room #11159.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11147
+D1
+~
+~
+0 -1 11160
+D3
+~
+~
+0 -1 11158
+S
+#11160
+A room~
+You are standing in room #11160.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11148
+D3
+~
+~
+0 -1 11159
+S
+#11161
+A room~
+You are standing in room #11161.
+~
+0 4|DN 1
+D0
+~
+~
+0 -1 11149
+D2
+~
+~
+0 -1 11173
+S
+#11162
+A room~
+You are standing in room #11162.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11150
+D1
+~
+~
+0 -1 11163
+D2
+~
+~
+0 -1 11174
+S
+#11163
+A room~
+You are standing in room #11163.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11151
+D2
+~
+~
+0 -1 11175
+D3
+~
+~
+0 -1 11162
+S
+#11164
+A room~
+You are standing in room #11164.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11152
+D1
+~
+~
+0 -1 11165
+S
+#11165
+A room~
+You are standing in room #11165.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11177
+D3
+~
+~
+0 -1 11164
+S
+#11166
+A room~
+You are standing in room #11166.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11154
+D1
+~
+~
+0 -1 11167
+D2
+~
+~
+0 -1 11178
+S
+#11167
+A room~
+You are standing in room #11167.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11168
+D2
+~
+~
+0 -1 11179
+D3
+~
+~
+0 -1 11166
+S
+#11168
+A room~
+You are standing in room #11168.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11169
+D2
+~
+~
+0 -1 11180
+D3
+~
+~
+0 -1 11167
+S
+#11169
+Palace Entrance~
+You are standing in room #11169.
+~
+0 DN 1
+D0
+~
+~
+1 -1 11157
+D1
+~
+~
+0 -1 11170
+D2
+~
+~
+0 -1 11181
+D3
+~
+~
+0 -1 11168
+S
+#11170
+Palace Entrance~
+You are standing in room #11170.
+~
+0 DN 1
+D0
+~
+~
+1 -1 11158
+D1
+~
+~
+0 -1 11171
+D2
+~
+~
+0 -1 11182
+D3
+~
+~
+0 -1 11169
+S
+#11171
+A room~
+You are standing in room #11171.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11172
+D3
+~
+~
+0 -1 11170
+S
+#11172
+A room~
+You are standing in room #11172.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11173
+D2
+~
+~
+0 -1 11184
+D3
+~
+~
+0 -1 11171
+S
+#11173
+A room~
+You are standing in room #11173.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11161
+D2
+~
+~
+0 -1 11185
+D3
+~
+~
+0 -1 11172
+S
+#11174
+A room~
+You are standing in room #11174.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11162
+D1
+~
+~
+0 -1 11175
+D2
+~
+~
+0 -1 11186
+S
+#11175
+A room~
+You are standing in room #11175.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11163
+D2
+~
+~
+0 -1 11187
+D3
+~
+~
+0 -1 11174
+S
+#11176
+A room~
+You are standing in room #11176.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11177
+D2
+~
+~
+0 -1 11188
+S
+#11177
+A room~
+You are standing in room #11177.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11165
+D2
+~
+~
+0 -1 11189
+D3
+~
+~
+0 -1 11176
+S
+#11178
+A room~
+You are standing in room #11178.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11166
+D1
+~
+~
+0 -1 11179
+D2
+~
+~
+0 -1 11190
+S
+#11179
+A room~
+You are standing in room #11179.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11167
+D1
+~
+~
+0 -1 11180
+D2
+~
+~
+0 -1 11191
+D3
+~
+~
+0 -1 11178
+S
+#11180
+A room~
+You are standing in room #11180.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11168
+D1
+~
+~
+0 -1 11181
+D2
+~
+~
+0 -1 11192
+D3
+~
+~
+0 -1 11179
+S
+#11181
+A room~
+You are standing in room #11181.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11169
+D1
+~
+~
+0 -1 11182
+D2
+~
+~
+0 -1 11193
+D3
+~
+~
+0 -1 11180
+S
+#11182
+A room~
+You are standing in room #11182.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11170
+D1
+~
+~
+0 -1 11183
+D2
+~
+~
+0 -1 11194
+D3
+~
+~
+0 -1 11181
+S
+#11183
+A room~
+You are standing in room #11183.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11184
+D2
+~
+~
+0 -1 11195
+D3
+~
+~
+0 -1 11182
+S
+#11184
+A room~
+You are standing in room #11184.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11172
+D1
+~
+~
+0 -1 11185
+D2
+~
+~
+0 -1 11196
+D3
+~
+~
+0 -1 11183
+S
+#11185
+A room~
+You are standing in room #11185.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11173
+D2
+~
+~
+0 -1 11197
+D3
+~
+~
+0 -1 11184
+S
+#11186
+A room~
+You are standing in room #11186.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11174
+D1
+~
+~
+0 -1 11187
+D2
+~
+~
+0 -1 11198
+S
+#11187
+A room~
+You are standing in room #11187.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11175
+D2
+~
+~
+0 -1 11199
+D3
+~
+~
+0 -1 11186
+S
+#11188
+A room~
+You are standing in room #11188.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11176
+D1
+~
+~
+0 -1 11189
+D2
+~
+~
+0 -1 11200
+S
+#11189
+A room~
+You are standing in room #11189.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11177
+D2
+~
+~
+0 -1 11201
+D3
+~
+~
+0 -1 11188
+S
+#11190
+A room~
+You are standing in room #11190.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11178
+D1
+~
+~
+0 -1 11191
+D2
+~
+~
+0 -1 11202
+S
+#11191
+A room~
+You are standing in room #11191.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11179
+D1
+~
+~
+0 -1 11192
+D2
+~
+~
+0 -1 11203
+D3
+~
+~
+0 -1 11190
+S
+#11192
+A room~
+You are standing in room #11192.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11180
+D1
+~
+~
+0 -1 11193
+D2
+~
+~
+0 -1 11204
+D3
+~
+~
+0 -1 11191
+S
+#11193
+A room~
+You are standing in room #11193.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11181
+D1
+~
+~
+0 -1 11194
+D2
+~
+~
+0 -1 11205
+D3
+~
+~
+0 -1 11192
+S
+#11194
+A room~
+You are standing in room #11194.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11182
+D1
+~
+~
+0 -1 11195
+D2
+~
+~
+0 -1 11206
+D3
+~
+~
+0 -1 11193
+S
+#11195
+A room~
+You are standing in room #11195.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11183
+D1
+~
+~
+0 -1 11196
+D2
+~
+~
+0 -1 11207
+D3
+~
+~
+0 -1 11194
+S
+#11196
+A room~
+You are standing in room #11196.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11184
+D1
+~
+~
+0 -1 11197
+D2
+~
+~
+0 -1 11208
+D3
+~
+~
+0 -1 11195
+S
+#11197
+A room~
+You are standing in room #11197.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11185
+D2
+~
+~
+0 -1 11209
+D3
+~
+~
+0 -1 11196
+S
+#11198
+A room~
+You are standing in room #11198.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11186
+D1
+~
+~
+0 -1 11199
+D2
+~
+~
+0 -1 11210
+S
+#11199
+A room~
+You are standing in room #11199.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11187
+D2
+~
+~
+0 -1 11211
+D3
+~
+~
+0 -1 11198
+S
+#11200
+A room~
+You are standing in room #11200.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11188
+D1
+~
+~
+0 -1 11201
+D2
+~
+~
+0 -1 11212
+S
+#11201
+A room~
+You are standing in room #11201.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11189
+D2
+~
+~
+0 -1 11213
+D3
+~
+~
+0 -1 11200
+S
+#11202
+A room~
+You are standing in room #11202.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11190
+D1
+~
+~
+0 -1 11203
+D2
+~
+~
+0 -1 11214
+S
+#11203
+A room~
+You are standing in room #11203.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11191
+D1
+~
+~
+0 -1 11204
+D2
+~
+~
+0 -1 11215
+D3
+~
+~
+0 -1 11202
+S
+#11204
+A room~
+You are standing in room #11204.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11192
+D1
+~
+~
+0 -1 11205
+D2
+~
+~
+0 -1 11216
+D3
+~
+~
+0 -1 11203
+S
+#11205
+A room~
+You are standing in room #11205.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11193
+D1
+~
+~
+0 -1 11206
+D2
+~
+~
+0 -1 11217
+D3
+~
+~
+0 -1 11204
+S
+#11206
+A room~
+You are standing in room #11206.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11194
+D1
+~
+~
+0 -1 11207
+D2
+~
+~
+0 -1 11218
+D3
+~
+~
+0 -1 11205
+S
+#11207
+A room~
+You are standing in room #11207.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11195
+D1
+~
+~
+0 -1 11208
+D2
+~
+~
+0 -1 11219
+D3
+~
+~
+0 -1 11206
+S
+#11208
+A room~
+You are standing in room #11208.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11196
+D1
+~
+~
+0 -1 11209
+D2
+~
+~
+0 -1 11220
+D3
+~
+~
+0 -1 11207
+S
+#11209
+A room~
+You are standing in room #11209.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11197
+D2
+~
+~
+0 -1 11221
+D3
+~
+~
+0 -1 11208
+S
+#11210
+A room~
+You are standing in room #11210.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11198
+D1
+~
+~
+0 -1 11211
+D2
+~
+~
+0 -1 11222
+S
+#11211
+A room~
+You are standing in room #11211.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11199
+D2
+~
+~
+0 -1 11223
+D3
+~
+~
+0 -1 11210
+S
+#11212
+A room~
+You are standing in room #11212.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11200
+D1
+~
+~
+0 -1 11213
+D2
+~
+~
+0 -1 11224
+S
+#11213
+A room~
+You are standing in room #11213.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11201
+D2
+~
+~
+0 -1 11225
+D3
+~
+~
+0 -1 11212
+S
+#11214
+A room~
+You are standing in room #11214.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11202
+D1
+~
+~
+0 -1 11215
+S
+#11215
+A room~
+You are standing in room #11215.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11203
+D1
+~
+~
+0 -1 11216
+D2
+~
+~
+0 -1 11226
+D3
+~
+~
+0 -1 11214
+S
+#11216
+A room~
+You are standing in room #11216.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11204
+D1
+~
+~
+0 -1 11217
+D2
+~
+~
+0 -1 11227
+D3
+~
+~
+0 -1 11215
+S
+#11217
+A room~
+You are standing in room #11217.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11205
+D1
+~
+~
+0 -1 11218
+D2
+~
+~
+0 -1 11228
+D3
+~
+~
+0 -1 11216
+S
+#11218
+A room~
+You are standing in room #11218.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11206
+D1
+~
+~
+0 -1 11219
+D2
+~
+~
+0 -1 11229
+D3
+~
+~
+0 -1 11217
+S
+#11219
+A room~
+You are standing in room #11219.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11207
+D1
+~
+~
+0 -1 11220
+D2
+~
+~
+0 -1 11230
+D3
+~
+~
+0 -1 11218
+S
+#11220
+A room~
+You are standing in room #11220.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11208
+D1
+~
+~
+0 -1 11221
+D2
+~
+~
+0 -1 11231
+D3
+~
+~
+0 -1 11219
+S
+#11221
+A room~
+You are standing in room #11221.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11209
+D3
+~
+~
+0 -1 11220
+S
+#11222
+A room~
+You are standing in room #11222.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11210
+D1
+~
+~
+0 -1 11223
+D2
+~
+~
+0 -1 11232
+S
+#11223
+A room~
+You are standing in room #11223.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11211
+D2
+~
+~
+0 -1 11233
+D3
+~
+~
+0 -1 11222
+S
+#11224
+A room~
+You are standing in room #11224.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11212
+D1
+~
+~
+0 -1 11225
+S
+#11225
+A room~
+You are standing in room #11225.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11213
+D2
+~
+~
+0 -1 11234
+D3
+~
+~
+0 -1 11224
+S
+#11226
+A room~
+You are standing in room #11226.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11215
+D1
+~
+~
+0 -1 11227
+S
+#11227
+A room~
+You are standing in room #11227.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11216
+D1
+~
+~
+0 -1 11228
+D3
+~
+~
+0 -1 11226
+S
+#11228
+A room~
+You are standing in room #11228.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11217
+D1
+~
+~
+0 -1 11229
+D2
+~
+~
+1 -1 11238
+D3
+~
+~
+0 -1 11227
+S
+#11229
+A room~
+You are standing in room #11229.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11218
+D1
+~
+~
+0 -1 11230
+D3
+~
+~
+0 -1 11228
+S
+#11230
+A room~
+You are standing in room #11230.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11219
+D1
+~
+~
+0 -1 11231
+D3
+~
+~
+0 -1 11229
+S
+#11231
+A room~
+You are standing in room #11231.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11220
+D3
+~
+~
+0 -1 11230
+S
+#11232
+A room~
+You are standing in room #11232.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11222
+D1
+~
+~
+0 -1 11233
+D2
+~
+~
+0 -1 11243
+S
+#11233
+A room~
+You are standing in room #11233.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11223
+D3
+~
+~
+0 -1 11232
+S
+#11234
+A room~
+You are standing in room #11234.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11225
+D1
+~
+~
+0 -1 11235
+S
+#11235
+A room~
+You are standing in room #11235.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11236
+D2
+~
+~
+0 -1 11244
+D3
+~
+~
+0 -1 11234
+S
+#11236
+A room~
+You are standing in room #11236.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11237
+D2
+~
+~
+0 -1 11245
+D3
+~
+~
+0 -1 11235
+S
+#11237
+A room~
+You are standing in room #11237.
+~
+0 DN 1
+D2
+~
+~
+0 -1 11246
+D3
+~
+~
+0 -1 11236
+S
+#11238
+A room~
+You are standing in room #11238.
+~
+0 DN 1
+D0
+~
+~
+1 -1 11228
+D1
+~
+~
+0 -1 11239
+D2
+~
+~
+0 -1 11247
+S
+#11239
+A room~
+You are standing in room #11239.
+~
+0 DN 1
+D1
+~
+~
+2 -1 11240
+D2
+~
+~
+0 -1 11248
+D3
+~
+~
+0 -1 11238
+S
+#11240
+Initiate's Cell~
+You are standing in room #11240.
+~
+0 DN 1
+D3
+~
+~
+2 -1 11239
+S
+#11241
+A room~
+You are standing in room #11241.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11242
+D2
+~
+~
+0 -1 11250
+S
+#11242
+A room~
+You are standing in room #11242.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11243
+D2
+~
+~
+0 -1 11251
+D3
+~
+~
+0 -1 11241
+S
+#11243
+A room~
+You are standing in room #11243.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11232
+D3
+~
+~
+0 -1 11242
+S
+#11244
+A room~
+You are standing in room #11244.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11235
+D1
+~
+~
+0 -1 11245
+S
+#11245
+A room~
+You are standing in room #11245.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11236
+D1
+~
+~
+0 -1 11246
+D3
+~
+~
+0 -1 11244
+S
+#11246
+A room~
+You are standing in room #11246.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11237
+D3
+~
+~
+0 -1 11245
+S
+#11247
+A room~
+You are standing in room #11247.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11238
+D1
+~
+~
+0 -1 11248
+S
+#11248
+Inside Gates~
+You are standing in room #11248.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11239
+D2
+~
+~
+1 -1 11248
+D3
+~
+~
+0 -1 11247
+S
+#11249
+A room~
+You are standing in room #11249.
+~
+0 DN 1
+D1
+~
+~
+0 -1 11250
+S
+#11250
+A room~
+You are standing in room #11250.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11241
+D1
+~
+~
+0 -1 11251
+D3
+~
+~
+0 -1 11249
+S
+#11251
+A room~
+You are standing in room #11251.
+~
+0 DN 1
+D0
+~
+~
+0 -1 11242
+D3
+~
+~
+0 -1 11250
+S
+#0
+
+#RESETS
+*
+* Unique Mobs
+*
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

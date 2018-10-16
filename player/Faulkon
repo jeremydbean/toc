@@ -1,0 +1,98 @@
+#PLAYER
+Name Faulkon~
+Id   16365
+LogO 949626442
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 8
+Plyd 22706
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4216
+HMV  77 77 42 136 142 142
+NewGold 0
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  16057
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 2
+Alig  151
+ACs 100 100 100 100
+Attr 13 18 18 13 17
+AMod 0 0 0 0 0
+Pass Fa7LfcPUVxBcc~
+Titl  the Sage~
+Pnts 40
+TSex 1
+LLev 3
+HMVP 77 136 142
+Cond 0 0 0
+Sk 77 'armor'
+Sk 75 'burning hands'
+Sk 77 'chill touch'
+Sk 61 'detect invis'
+Sk 75 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 82 'magic missile'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 83 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 18 'scrolls'
+Sk 18 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+End
+
+#END

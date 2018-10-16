@@ -1,0 +1,4136 @@
+#AREA {15 25} Karl    The HighLands~
+
+#MOBILES
+#17100
+Frog~
+A gigantic frog~
+The Frog jumps about a bit.
+~
+It's over 6 meters long. You wonder what something so big eats to stay 
+alive.
+~
+unique~
+FGT 0 -250 S
+15 5 15d11+180 7d15+90 2d6+3 16
+-2 -2 -2 0
+FIJU R IL 0
+8 8 0 0
+0 0 S 0
+#17101
+Barbarian~
+A Barbarian~
+The Barbarian stinks and sweats.
+~
+The Barbarian looks like he could eat a horse but he will consider you also.
+~
+human~
+GT 0 -100 S
+14 5 14d10+182 7d14+84 1d12+3 7
+-1 -2 -1 1
+CEKU 0 0 0
+8 8 1 50
+0 0 M 0
+#17102
+Barbarian Warrior~
+A barbarian warrior~
+The warrior looks at you.
+~
+The warrior looks suspiciously around for anyone he thinks he wants to kill.
+~
+human~
+GT 0 -200 S
+16 6 16d12+200 8d16+96 3d4+4 17
+-2 -1 -2 1
+CDKNU 0 P Q
+8 8 1 100
+0 0 M 0
+#17103
+Barbarian Guard~
+A Barbarian Guard~
+The guard is standing still like a marble bust.
+~
+The Guards are under strict instructions to let in only those people who 
+belong here.  They also guard the lord's cleric and mage.
+~
+human~
+BT 0 -350 S
+18 7 18d14+252 9d18+108 2d7+5 8
+-3 -3 -3 0
+CDKNU 0 P Q
+8 8 1 130
+0 0 M 0
+#17104
+Barbarian Elite~
+An Elite barbarian~
+The barbarian is waiting for you to do something.
+~
+The Elite of the army. He will protect his Lord at all cost.  He is entirely
+fearless - even death does not scare him.
+~
+human~
+BT 0 -600 S
+21 9 21d16+294 10d21+126 4d4+6 27
+-5 -4 -5 -1
+CDEFKNU 0 BP Q
+8 8 1 160
+0 0 M 0
+#17105
+Highlander~
+A Highlander~
+The highlander walks by and greets you.
+~
+A man who lives in these harsh lands. He knows his way around here.  He 
+walks around playing his bagpipes.
+~
+human~
+GT CH 750 S
+25 10 15d19+370 7d15+90 2d10+7 6
+-7 -7 -8 -3
+EFNOU K IN QR
+8 8 1 300
+0 0 M 0
+#17106
+Barbarian Lord~
+The Barbarian Lord~
+The Lord has the words to kill you on his lips.
+~
+He rules this district. He is a very harsh ruler and all his subjects
+fear him. He has teeth like a boar.  Man but is he ugly!
+~ 
+human~
+BT H -1000 S
+25 10 15d19+375 7d15+90 3d7+7 21
+-7 -7 -7 -3
+DEIKU L BI P
+8 8 1 1000
+0 0 M 0
+#17107
+Wife~
+The wife of the Lord~
+The Wife is looking at a cracked mirror.
+~
+She is the  ugliest looking example of the feminine sex. You wonder
+how the Lord can stand the sight of her even in absolute darkness.
+Perhaps that is why you don't see any children around.
+~
+human~
+BCT 0 -750 S
+20 8 20d15+287 10d20+120 2d8+5 4
+-3 -4 -3 0
+DEIKU L BI P
+8 8 2 1000
+0 0 M 0
+#17108
+Holy Slayer~
+The Holy Slayer~
+The Slayer isn't aware of your presence.
+~
+It's a ghostlike swirling mass which somewhat resembles a knight.  He murmurs 
+something about making a big mistake and now having to roam the lands without 
+peace.
+~
+human~
+GT BHJ 0 S
+35 15 35d26+450 17d35+210 4d7+10 3
+-12 -12 -11 -6
+AEFHKNU O HI N 
+8 8 1 10 
+0 0 L 0
+#17109 
+sheep~
+A sheep~
+The sheep is eating grass.
+~
+It looks like a sheep, it sounds like a sheep and whatdo ya know - it's
+even a sheep.
+~
+unique~
+GT 0 0 S
+10 2 10d7+120 5d10+60 1d8+2 15
+1 1 1 7
+CFIU 0 IQ K
+8 8 0 0
+0 0 M 0
+#17110
+mage lord mardonna~
+The Lord's Mage Mardonna~
+The mage eyes you conspiciously.
+~
+She is the personal mage for the Lord. She is doing some sort of an 
+experiment here. Beter watch out or it might explode in your face.
+~
+human~
+BR CFH -750 S
+18 7 18d13+234 9d18+108 2d6+4 19
+-4 -4 -4 1
+FNQ 0 C 0
+8 8 2 1000
+0 0 M 0
+#17111
+cleric lord boldar~
+The Lord's Cleric Boldar~
+The cleric doesnt notice you.
+~
+He is the house cleric. He sees to it that the Lord stays healthy
+in body and mind. Presently he is meditating on something, so he
+is deep in thought and hasn't noticed you enter yet.
+~
+human~
+BQ H -350 S
+18 7 18d13+234 9d18+108 2d6+3 18
+-4 -4 -4 1
+FNOQ 0 BN 0
+8 8 1 1000
+0 0 M 0 
+#17112
+Keeper~
+The Keeper of the Tower~
+The keeper greets you.
+~
+His sole duty is that his beacon stays lit. It's the only thing he cares for.
+~
+human~
+BT 0 0 S
+16 6 16d12+200 8d16+96 2d6+4 17
+-2 -3 -1 2
+EFNU 0 0 0
+8 8 1 500
+0 0 M 0
+#17113
+Nessy~
+Nessy~
+Nessy grins.
+~
+Before you, you see a reptilian monster of enormous size.  You better not
+get into a fight with her.
+~
+snake~
+BT DFHJPQ 200 S
+24 12 24d18+408 12d24+144 3d7+7 31
+-7 -6 -6 -3
+ACDEHJMOR AL BJ OS
+8 8 2 2000
+0 0 H 0
+#17114
+Child kid Nessy~
+Nessy's Child.~
+A small Nessy is sleeping here.
+~
+A smaller replica of Nessy lies here sleeping contently. Don't disturb her - 
+even kids of a reptilian need their sleep.
+~
+snake~
+BT DFJPQ 300 S
+20 10 20d15+335 10d20+120 4d4+5 32
+-4 -5 -5 -1
+CDEJMOR AL BJ OS
+4 8 2 500
+0 0 L 0
+#17115
+Guardian~
+A Fire Elemental~
+A fire elemental is here.
+~
+It's an elemental called down here by the mage herself to protect this exit. 
+The guardian will attack anybody that comes here except for its mistress, 
+the mage.
+~
+human~
+BFT DFJT -750 S
+20 10 20d15+260 10d20+120 2d8+5 26
+-4 -4 -4 1
+EFNU 0 H I
+8 8 0 100
+0 0 L 0
+#17116
+Guard~
+A guard~
+A guard is here.
+~
+The guards here are cleaning their equipement or sleeping or whatever. 
+Normally they would be on duty but they are just on-call now.  They are not 
+very tall but look quite tough.
+~
+human~
+BFT 0 -400 S
+17 8 17d13+255 8d17+102 2d7+4 27
+-3 -2 -3 2
+EIKLQ 0 0 0
+8 8 1 130
+0 0 M 0
+#0
+
+
+#OBJECTS
+#17100
+claymore~
+an enormous claymore~
+A claymore made of laen, a rare metal, lies here.
+~
+laen~
+5 AEGJ AN
+1 5 6 25 F 
+25 24 2450 P
+A 
+18 2
+A
+19 2
+#17101
+barbed barbarian sword~
+a barbarian sword~
+A barbed sword lies here.
+~
+iron~
+5 0 AN
+1 3 7 10 0
+14 12 1250 P
+A
+3 -2
+#17102
+kilt~
+a highlanders kilt~
+A plaid skirt lies on the ground.
+~
+cloth~
+9 K AL
+4 4 4 0 0
+25 7 1450 P
+A 
+17 -10
+A
+14 +10
+#17103
+plate suit laen~
+a suit of laen plate~
+A heap of plate lies on the ground.
+~
+laen~
+9 AEGJ AD
+7 8 7 0 0
+25 42 4555 P
+A
+17 -10
+A 
+19 2
+A
+2 -2
+#17104
+boots laen~
+a pair of laen boots~
+A pair of boots lies here.
+~
+laen~
+9 AEGJ AG 
+8 6 7 0 0
+25 16 3345 P
+A
+14 20
+A
+3 -2
+#17105
+helmet laen~
+a laen helmet~
+A helmet made of laen lies here.
+~
+laen~
+9 AEGJ AE
+7 8 7 0 0
+25 27 4211 P
+A
+5 2
+A 
+24 -1
+#17106
+gauntlets laen~
+a pair of laen gauntlets~
+A pair of queer looking gauntlets lie here.
+~
+laen~
+9 AEGJ AH
+7 7 7 0 0
+25 14 3325 P
+A
+1 2
+A
+2 -1
+#17107
+sword~
+a highlander's sword~
+A sword of a highlander lies here.
+~
+iron~
+5 K AN
+1 7 4 3 0
+25 5 2000 P
+A
+18 5
+A
+19 2
+#17108
+rod omniscience~
+the rod of OmniScience~
+a strange rod lies here.
+~
+wood~
+3 C AO
+18 5 5 65 0 
+18 1 4400 P
+A
+3 1
+A
+5 -1
+#17109
+cloak magus~
+the cloak of Magus~
+a cloak with constantly changing colors lies here.
+~
+silk~
+9 A AC
+5 6 6 2 0
+18 3 1200 P
+A
+24 -2
+#17110
+mace~
+the mace of oblivion~
+a dark mace lies here.
+~
+stone~
+5 AEH AN
+4 4 6 8 0
+18 12 3340 P
+A
+12 20
+#17111
+boots necromancy~
+the boots of necromancy~
+a pair of blackish boots lies here.
+~
+leather~
+9 CEJ AG
+5 4 5 0 0
+18 10 3223 P
+A
+12 15
+A
+4 2
+#17112
+holy basher~
+the Holy Basher~
+A weapon of some sort lies here.
+~
+steel~
+5 BIK AN
+4 6 7 20 0
+35 19 3440 P
+A
+1 2
+A
+18 4
+A 
+19 4
+#17113
+armor holy~
+The holy armor~
+A pile of armor lies here.
+~
+iron~
+9 BIK AD
+9 9 9 4 0
+35 45 5600 P
+A
+17 -30
+A 
+24 -4
+A
+18 2
+A
+2 -1
+#17114
+potion lady~
+potion of the lady~
+A potion stands here.
+~
+glass~
+10 H A
+13 17 14 15 0
+20 1 2000 P
+#17115
+dagger~
+a dagger~
+A plain simple dagger lies here.
+~
+iron~
+5 J AN 
+2 4 5 2 0
+20 2 500 P
+#17116
+sword notched~
+a notched sword~
+A worn sword lies here.
+~
+iron~
+5 0 AN
+1 3 7 3 0
+16 10 600 W
+#17117
+dark key~
+a dark key~
+A key lies here on the ground.
+~
+ebony~
+18 0 A
+0 0 0 0 0
+1 0 0 P
+#17118
+tower key~
+the key to the tower ~
+A key lies here on the ground.
+~
+silver~
+18 0 A
+0 0 0 0 0
+1 0 0 P
+#17119
+tower key~
+a key of the tower~
+A key lies here on the ground.
+~
+silver~
+18 0 A
+0 0 0 0 0
+1 0 0 P
+#17120
+tower key~
+a key of the tower~
+A key lies here on the ground.
+~
+silver~
+18 0 A
+0 0 0 0 0
+1 0 0 P
+#17121
+tower key~
+a key of the tower~
+A key lies here on the ground.
+~
+silver~
+18 0 A
+0 0 0 0 0
+1 0 0 P
+#17122
+shield laen~
+a laen shield~
+A dark shield lies here.
+~
+laen~
+9 AEGJ AJ
+7 7 7 0 0
+25 18 2300 P
+A
+17 -10
+#17123
+bag pipes bagpipes~
+a set of bagpipes~
+Bagpipes have been carelessly tosed on the ground here.
+~
+cloth~
+8 K AO
+0 0 0 0 0
+25 10 2300 0
+A
+24 -5
+#17124
+claymore~
+a claymore~
+A claymore lies here.
+~
+steel~
+5 0 AN
+1 5 5 25 F
+21 12 1250 P
+A
+5 1
+A
+18 2
+#0
+
+
+#ROOMS
+#17100
+Entrance to a Valley in the Highlands~
+You see before you a path that just stops, appearing not go to any further,
+but degenerating into a mysterious bog.  If you dare to enter the bog, it is
+at your own risk.  In the distance you see a vague contour of hills. On the 
+top of the hills you see lights.
+~
+171 4 4
+D0
+~
+~
+0 0 17101
+D4
+~
+~
+0 -1 57
+S
+#17101
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17109
+D1
+~
+~
+0 0 17102
+D2
+~
+~
+0 0 17100
+D3
+~
+~
+0 0 17106
+S
+#17102
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17110
+D1
+~
+~
+0 0 17103
+D2
+~
+~
+0 0 17116
+D3
+~
+~
+0 0 17101
+S
+#17103
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17111
+D2
+~
+~
+0 0 17115
+D3
+~
+~
+0 0 17102
+S
+#17104
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17112
+D1
+~
+~
+0 0 17105
+D2
+~
+~
+0 0 17118
+S
+#17105
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17107
+D1
+~
+~
+0 0 17106
+D2
+~
+~
+0 0 17113
+D3
+~
+~
+0 0 17104
+S
+#17106
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17108
+D1
+~
+~
+0 0 17101
+D2
+~
+~
+0 0 17114
+D3
+~
+~
+0 0 17105
+S
+#17107
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17113
+D1
+~
+~
+0 0 17108
+D2
+~
+~
+0 0 17105
+D3
+~
+~
+0 0 17112
+S
+#17108
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17114
+D1
+~
+~
+0 0 17109
+D2
+~
+~
+0 0 17106
+D3
+~
+~
+0 0 17107
+S
+#17109
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17115
+D1
+~
+~
+0 0 17110
+D2
+~
+~
+0 0 17101
+D3
+~
+~
+0 0 17108
+S
+#17110
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D2
+~
+~
+0 0 17102
+D3
+~
+~
+0 0 17109
+S
+#17111
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17117
+D1
+~
+~
+0 0 17112
+D2
+~
+~
+0 0 17103
+D3
+~
+~
+0 0 17110
+S
+#17112
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17118
+D1
+~
+~
+0 0 17107
+D2
+~
+~
+0 0 17104
+D3
+~
+~
+0 0 17111
+S
+#17113
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17105
+D1
+~
+~
+0 0 17114 
+D2
+~
+~
+0 0 17107
+D3
+~
+~
+0 0 17118
+S
+#17114
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17106
+D1
+~
+~
+0 0 17115
+D2
+~
+~
+0 0 17108
+D3
+~
+~
+0 0 17113
+S
+#17115
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17103
+D1
+~
+~
+0 0 17116
+D2
+~
+~
+0 0 17109
+D3
+~
+~
+0 0 17114
+S
+#17116
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17102
+D1
+~
+~
+0 0 17117
+D2
+~
+~
+0 0 17110
+D3
+~
+~
+0 0 17115
+S
+#17117
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17119
+D1
+~
+~
+0 0 17118
+D2
+~
+~
+0 0 17111
+D3
+~
+~
+0 0 17116
+S
+#17118
+The Bog~
+You are trudging through a dark and gloomy bog.  The darkness is so complete
+that you have no sense of direction left.  The mud and mire suck at 
+your feet and each step is a struggle.  Better hope there's no quicksand.
+~
+171 1 3
+D0
+~
+~
+0 0 17104
+D1
+~
+~
+0 0 17113
+D2
+~
+~
+0 0 17112
+D3
+~
+~
+0 0 17117
+S
+#17119
+A path~
+You are relieved to feel yourself on solid ground again.  You find yourself
+descending a hill into a large a valley.  In the distance you hear sheep 
+and the faint sound of bagpipes over their bleating.
+~
+171 1 2
+D0
+~
+~
+0 0 17120
+D2
+~
+~
+0 0 17117
+S
+#17120
+A path into the valley~
+You are walking on a path leading into the valley. You can see the rugged 
+landscape.  You also notice the weather must always be rainy in these 
+regions.
+~
+171 1 4
+D0
+~
+~
+0 0 17121
+D2
+~
+~
+0 0 17119
+S
+#17121
+A path~
+You are approaching a crossroad in the valley. The ground seems more level
+here, so you must be coming to the lowest point of the valley.
+~
+171 1 4
+D0
+~
+~
+0 0 17122
+D2
+~
+~
+0 0 17120
+S
+#17122
+The Crossroads~
+The guards here look nasty.  Better not make any trouble. There is a 
+roadsign planted in the center of the crossing. To the north you see a lake.
+~
+171 1 2
+D0 
+~
+~
+0 0 17137
+D1
+~
+~
+0 0 17123
+D2
+~
+~
+0 0 17121
+D3
+~
+~
+0 0 17131
+E
+sign roadsign~
+North -> Loch
+East  -> Southeastern Beacon Tower
+West  -> Southwestern Beacon Tower
+~
+S
+#17123
+Path to the southeastern Beacon Tower~
+The path is getting steeper and steeper while it continues uphill. Also, 
+the terrain is getting more difficult to handle with many big rocks in you
+way,  making it harder to go on.
+~
+171 1 5
+D1
+~
+~ 
+0 0 17124
+D3
+~
+~
+0 0 17122
+S
+#17124
+A path uphill~
+The path continues to get steeper and rougher while it continues uphill. 
+It's getting slippery  so watch out that you don't fall on your face and 
+hurt yourself.
+~
+171 1 5
+D1
+~
+~
+0 0 17125
+D3
+~
+~
+0 0 17123
+S
+#17125
+A path uphill~
+You didn't think the path could get steeper and rougher, but it does.  As
+you struggle upwards, you notice a tower getting more and more distinct in
+the distance.
+~
+171 1 5
+D1
+~
+~
+0 0 17126
+D3
+~
+~
+0 0 17124
+S
+#17126
+A path uphill~
+The path is almost vertical and largely obstructed by boulders.  But you
+can see the tower now and are relieved that you are almost there.
+~
+171 1 5
+D1
+~
+~
+0 0 17127
+D3
+~
+~
+0 0 17125
+S
+#17127
+A path uphill~
+The path is STILL getting harder to follow.  You pray that you have just a
+little bit more to go.
+~
+171 1 5
+D1
+~
+~
+0 0 17128
+D3
+~
+~
+0 0 17126
+S
+#17128
+A path uphill~
+You slip and slide as you climb the last section of the path.  You stare at 
+the tower, wondering if the climb is worth the struggle.
+~
+171 1 5
+D1
+~
+~
+0 0 17129
+D3
+~
+~
+0 0 17127
+S
+#17129
+A path uphill~
+As you turn the corner you see you still have more to climb.  
+~
+171 1 5
+D2
+~
+~
+0 0 17130
+D3
+~
+~
+0 0 17128
+S
+#17130
+A path uphill~
+At last you are on the last section of the path - or are you?  The tower
+SEEMS nearby... but you thought that hours ago when you were at the bottom
+of the cliff.
+~
+171 1 5
+D0
+~
+~
+0 0 17129
+D2
+~
+door~
+1 17118 17192
+S
+#17131
+The path to the southwestern Beacon Tower~
+The path is getting steeper and steeper while it continues uphill. Tthe
+terrain is also getting more difficult to handle. You notice some scorch 
+marks on the vegetation.
+~
+171 1 5
+D1
+~
+~
+0 0 17122
+D3
+~
+~
+0 0 17132
+S
+#17132
+A path uphill~
+The path continues getting steeper and steeper while it continues uphill. 
+~
+171 1 5
+D1
+~
+~
+0 0 17131
+D3
+~
+~
+0 0 17133
+S
+#17133
+A path uphill~
+The path is getting even steeper while it continues uphill. Watch the 
+rocks  - they're slippery.
+~
+171 1 5
+D1
+~
+~
+0 0 17132
+D3
+~
+~
+0 0 17134
+S
+#17134
+A path uphill.~
+The path is getting steeper and steeper while it continues uphill. You feel
+yourself nearly losing your foot with almost every step.  A light rabbit, 
+sitting on the trail, watches you intently.
+~
+171 1 5
+D1
+~
+~
+0 0 17133
+D3
+~
+~
+0 0 17135
+S
+#17135
+A path uphill~
+You are almost at the end of the path.  You struggle to scramble up the
+cliffside to reach a tower you see nearby.
+~
+171 1 5
+D1
+~
+~
+0 0 17134
+D3
+~
+~
+0 0 17136
+S
+#17136
+A path uphill~
+This last section of the path seems the roughest and steepest yet.  But
+at least you are next to the tower.
+~
+171 1 5
+D0
+~
+door~
+1 17119 17193
+D1
+~
+~
+0 0 17135
+S
+#17137
+A muddy path~
+The path is getting muddier towards the lake. In front of you, you  can see
+a big lake.  You can faintly make out a small island in the middle of the
+lake.
+~
+171 1 2
+D0
+~
+~
+0 0 17138
+D2
+~
+~
+0 0 17122
+S
+#17138
+A muddy path~
+It's getting more and more muddy.  You wonder if you will ever be able to 
+get your boots clean again.  The sound of bagpipes is getting much clearer 
+now.
+~
+171 1 2
+D0
+~
+~
+0 0 17139
+D2
+~
+~
+0 0 17137
+S
+#17139
+Crossroads at the Lake~
+You stand on a crossroads in front of you is a lake. A highlander is here.
+He says 'Ay mi lads the loch is not safe, turn back lads, much safer.' 
+His wife says, 'Mind you don't go to the castle it is not safe.'  All the
+while, the man goes on playing his bagpipes.  A barely readable roadsign 
+is here.
+~
+171 1 2
+D0
+~
+~
+0 0 17173
+D1 
+~
+~
+0 0 17140
+D2
+~
+~
+0 0 17138
+D3
+~
+~
+0 0 17172
+E
+sign roadsign~
+E.st Ro.d a...ng L.ch and Nor..ea.... To...
+West R..d al.... Loch ... No.t.w.st... To.er
+North .och a.d N.ss.'s Is..
+South O.t of ... va..ey
+~
+S
+#17140
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17141
+D3
+~
+~
+0 0 17139
+S
+#17141 
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17142
+D3
+~
+~
+0 0 17140
+S
+#17142
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17143
+D2
+~
+~
+0 0 17141
+S
+#17143
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17144
+D3
+~
+~
+0 0 17142
+S
+#17144
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17145
+D2
+~
+~
+0 0 17143
+S
+#17145
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17146
+D3
+~
+~
+0 0 17144
+S
+#17146
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17147
+D2
+~
+~
+0 0 17145
+S
+#17147
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D3
+~
+~
+0 0 17148
+D2
+~
+~
+0 0 17146
+S
+#17148
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17147
+D3
+~
+~
+0 0 17149
+S
+#17149
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17150
+D1
+~
+~
+0 0 17148
+S
+#17150
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17151
+D2
+~
+~
+0 0 17149
+S
+#17151
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17152
+D2
+~
+~
+0 0 17150
+S
+#17152
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+You see a path branching off to a hill.
+~
+171 1 2
+D1
+~
+~
+0 0 17185
+D2
+~
+~
+0 0 17151
+D3
+~
+~
+0 0 17153
+S
+#17153
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17154
+D1
+~
+~
+0 0 17152
+S
+#17154
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D2
+~
+~
+0 0 17153
+D3
+~
+~
+0 0 17155
+S
+#17155
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17154
+D3
+~
+~
+0 0 17156
+S
+#17156
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.  You notice an evil looking castle
+nearby.
+~
+171 1 2
+D1
+~
+~
+0 0 17155
+D3
+~
+~
+0 0 17157
+E
+castle~
+It is a big black castle. It radiates evil like nothing you have seen 
+before. Surely the man who rules here must be some satanic ego-tripper.
+~
+S
+#17157
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17156
+D3
+~
+~
+0 0 17158
+S
+#17158
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17157
+D2
+~
+~
+0 0 17159
+S
+#17159
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17158
+D3
+~
+~
+0 0 17160
+S
+#17160
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17159
+D2
+~
+~
+0 0 17161
+S
+#17161
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.  You also notice a path branching
+off up a hill.
+~
+171 1 2
+D0
+~
+~
+0 0 17160
+D2
+~
+~
+0 0 17162
+D3
+~
+~
+0 0 17178
+S
+#17162
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17161
+D2
+~
+~
+0 0 17163
+S
+#17163
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17162
+D3
+~
+~
+0 0 17164
+S
+#17164
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17163
+D2
+~
+~
+0 0 17165
+S
+#17165
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17164
+D2
+~
+~
+0 0 17166
+S
+#17166
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17165
+D2
+~
+~
+0 0 17167
+S
+#17167
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17166
+D1
+~
+~
+0 0 17168
+S
+#17168
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D2
+~
+~
+0 0 17169
+D3
+~
+~
+0 0 17167
+S
+#17169
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17168
+D1
+~
+~
+0 0 17170
+S
+#17170
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D2
+~
+~
+0 0 17171
+D3
+~
+~
+0 0 17169
+S
+#17171
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D0
+~
+~
+0 0 17170
+D1
+~
+~
+0 0 17172
+S
+#17172
+Path along lake~
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now - perhaps, say too quiet.  The birds 
+have stopped singing and you get a feeling of dread.  Some great evil must
+inhabit this place and it surrounds you.
+~
+171 1 2
+D1
+~
+~
+0 0 17139
+D3
+~
+~
+0 0 17171
+S
+#17173
+Near the shore~
+You're on the lake. The water is surprisingly calm.  As you look to the 
+shore, the Highlander waves at you like he won't be seeing again in
+this life.
+~
+171 4 7
+D0 
+~
+~
+0 0 17174
+D2
+~
+~
+0 0 17139
+S
+#17174
+On the Lake~
+You are on the lake heading towards the island.
+~
+171 4 7
+D0
+~
+~
+0 0 17175
+D2
+~
+~
+0 0 17173
+S
+#17175
+Near the Isle~
+You are on the lake, nearing the shore of the isle.
+~
+171 4 7
+D0
+~
+~
+0 0 17176
+D2
+~
+~
+0 0 17174
+S
+#17176
+On Nessy's Isle~
+You're on the Isle.  It's just a small Isle.  There seems to be little 
+vegetation - or anything really.  It seems to be a god-forsaken place where 
+nothing worthwhile is probably found. The Isle continues to the north;
+maybe something is there.
+~
+171 4 2 
+D0
+~
+~
+0 0 17177
+D2
+~
+~
+0 0 17175
+S
+#17177
+On Nessy's Isle~
+All you see here is a hole in the ground.
+~
+171 4 2
+D2
+~
+~
+0 0 17176
+D5
+~
+~
+0 0 17196
+S
+#17178
+A path into the hills~
+You are facing a hill upon which the northwestern tower is built.
+~
+171 4 4
+D1
+~
+~
+0 0 17161
+D3
+~
+~
+0 0 17179
+S
+#17179
+A path~
+You enter a forest. It's extremely dark in there so mind your step and don't 
+trip over any tree stumps.
+~
+171 8 3
+D1
+~
+~
+0 0 17178
+D3
+~
+~
+0 0 17180
+S
+#17180
+At a cliff~
+In front of you is a cliff. The cliff goes straight up. On closer 
+examination you find steps carved into the cliffwall.
+~
+171 5 5
+D1
+~
+~
+0 0 17179
+D3
+~
+~
+0 0 17181
+S
+#17181
+On top of the cliff~
+You've climbed the cliff and are quite exhausted. The tower stands clear 
+now.  There is virtually nothing here, a bloody barren place.
+~
+171 4 5
+D1 
+~
+~
+0 0 17180
+D3
+~
+~
+0 0 17182
+S
+#17182
+On a hilltop~
+You're on the top of the hill.  The tower is only a bit further now.
+~
+171 4 2
+D1
+~
+~
+0 0 17181
+D3
+~
+~
+0 0 17183
+S
+#17183
+Near the tower~
+You have almost reached the tower.  You can see the lake from up here.  
+You can see so far that the other towers are also visible.  If this was
+a valley full of trees and birds, it would have been a magnificent 
+sight - but, alas, the reality is different.  It is a dead and barren 
+place.  But enough sightseeing  - concentrate on the problems before you
+as you reluctantly decide to continue your travels.
+~
+171 4 4
+D0
+~
+~
+0 0 17184
+D1
+~
+~
+0 0 17182
+S
+#17184
+In front of the tower~
+The keeper greets you stiffly but warmly and takes another tug from his 
+bottle of scotch.  'A that makes the stomach burn,' the keeper says. You 
+think you could use some of the drought too since the cold weather chills you
+to the bone.
+~
+171 4 2
+D0
+~
+door~
+1 17120 17194
+D2
+~
+~
+0 0 17183
+S
+#17185
+A path along a cliff~
+Watch out here.  There are mountain goats up the cliff and they will
+sometimes kick rocks down.  If one falls on your head you will be history.
+~
+171 0 5
+D1
+~
+~
+0 0 17186
+D3
+~
+~
+0 0 17152
+S
+#17186
+A path along a cliff~
+WATCH IT.  A rock just fell down, missing you by a few centimeters.
+~
+171 0 5
+D1
+~
+~
+0 0 17187
+D3
+~
+~
+0 0 17185
+S
+#17187
+A steep climb~
+A steep hill forces you to exert yourself on the climb.  A feeling of dread 
+comes over you but you have no idea where it comes form.
+~
+171 0 5
+D0
+~
+~
+0 0 17188
+D3
+~
+~
+0 0 17186
+S
+#17188
+On the hill~
+You are on a hill - but notice you are on the wrong one.
+~
+171 0 5
+D0
+~
+~
+0 0 17189
+D2
+~
+~
+0 0 17187
+S
+#17189
+Down hill~
+You are walking down the hill with so much speed you will probably
+fall over a rock and break a bone if you are not careful.
+~
+171 0 5
+D0
+~
+~
+0 0 17190
+D2
+~
+~
+0 0 17188
+S
+ 
+#17190
+On another path up hill~
+Again you must force yourself to great exertion.  The terrain changes
+suddenly from some plants and rocks to a barren place.
+~
+171 0 5
+D0
+~
+~
+0 0 17191
+D2
+~
+~
+0 0 17189
+S
+#17191
+On a hill~
+You are again on a hill. This time it's the correct one.  The tower is to 
+the east.
+~
+171 0 5
+D1
+~
+door~
+1 17121 17195
+D2
+~
+~
+0 0 17190
+S
+#17192
+In the southeastern tower~
+The room is in disorder.  The keeper must be a lousy housekeeper from the way
+things look.  The room is filled with broken chairs, tables and cabinets. 
+There is a crate of bottles in one corner. Upon closer inspection, it seem 
+the bottles are filled with scotch.
+~
+171 8 0
+D0
+~
+door~
+1 17118 17130
+D4
+~
+~
+0 0 17206
+D5
+~
+~
+0 0 17205
+S
+#17193
+In the southwestern tower~
+The room is totally clean.  Not an atom of dust is to be seen.  The keeper 
+must be a terrific housekeeper  - quite the opposite of some of his 
+fellow keepers.
+~
+171 8 0
+D2
+~
+door~
+1 17119 17136
+D4
+~
+~
+0 0 17210
+D5
+~
+~
+0 0 17209
+S
+#17194
+In the northwestern tower~
+The keeper must be a real scrooge.   This room has only minimal furniture -
+one simple chair, one simple table, one plate, one spoon.  Even for a bed 
+there is just a bit of straw in the corner.
+~
+171 8 0 
+D2
+~
+~
+1 17120 17184
+D4
+~
+~
+0 0 17216
+D5
+~
+~
+0 0 17215
+S
+#17195
+In the northeastern tower~
+The Keeper must be a rose lover.  Roses are painted on everything  - the 
+plates, the chairs, the bed  - in short, on everything.
+~
+171 8 0
+D3
+~
+door~
+1 17121 17191
+D4
+~
+~
+0 0 17220
+D5
+~
+~
+0 0 17219
+S
+#17196
+In Nessy's cave~
+This is a dark place where nothing grows.  Nothing lives here.
+~
+171 8 11
+D2
+~
+~
+0 0 17197
+D5
+~
+~
+0 0 17177
+S
+#17197
+In Nessy's cave~
+You hear faint sounds coming from the west. And a light shines towards the 
+south.
+~
+171 8 11
+D2
+~
+~
+0 0 17198
+D3
+~
+~
+0 0 17202
+S
+#17198
+In Nessy's cave~
+The light grows stronger. You also begin to hear queer noices form the south.
+Maybe something does live here ... and maybe it is awake.
+~
+171 8 11
+D0
+~
+~
+0 0 17197
+D2
+~
+~
+0 0 17199
+S
+#17199
+In Nessy's cave~
+The light just went out, strange very strange. Is it possible she heard you?
+You TRIED to be as silent as possible.
+~
+171 8 11
+D0
+~
+~
+0 0 17198
+D2
+~
+~
+0 0 17200
+S
+#17200
+Near Nessy's cave~
+You are just outside the cave.  You can see a big creature rising in
+the shadows.
+~
+171 8 11
+D0
+~
+~
+0 0 17199
+D3
+~
+~
+0 0 17201
+S
+#17201
+In Nessy's nest~
+You see a big hulking form smiling at you. Beware - she might smile in a 
+friendly way but don't let looks deceive you.  She can easily kill you and 
+devour you.
+~
+171 8 11
+D1
+~
+~
+0 0 17200
+S
+#17202
+In Nessy cave~
+The snoring gets louder and louder as you get deeper into the cave.
+~
+171 8 11
+D1
+~
+~
+0 0 17197
+D3
+~
+~
+0 0 17203
+S
+#17203
+In Nessy's cave~
+The snoring gets louder towards the south.  You think you see some small
+DRAGONlike creature there.
+~
+171 8 11
+D1
+~
+~
+0 0 17202
+D2
+~
+~
+0 0 17204
+S
+#17204
+The cave of Nessy's kid~
+In the cave here you see a smaller replica of her mother.  She will awake 
+soon and she will be really hungry, dragonlike hungry.
+~
+171 8 11
+D0
+~
+~
+0 0 17203
+S
+#17205
+In the Cellar~
+You entered a cellar.  There is nothing here but a few supplies, probably 
+belonging to the keeper.
+~
+171 9 11
+D4
+~
+~
+0 0 17192 
+S
+#17206
+On the first floor~
+The sleeping room is here.  It's as much a disorder here as the living room 
+was.
+~
+171 8 0
+D4
+~
+~
+0 0 17207
+D5
+~
+~
+0 0 17192
+S
+#17207
+On the second floor~
+You are not yet on the top.  You see a trapdoor that you think may lead up.
+~
+171 8 0
+D4
+You see a trap-door.
+~
+trap door trapdoor~
+2 0 17208
+D5
+~
+~
+0 0 17206
+S
+#17208
+On the top of the tower~
+There is a bright light here.  This must be the light the keeper keeps.
+You can look in all directions here.
+~
+171 0 1
+D5
+~
+~
+1 0 17207
+E
+north~
+You can see another tower to the north.
+~
+E
+east~
+You see nothing, nothing at all.
+~
+E
+south~
+Nothing there - absolutely nothing.
+~
+E
+west~
+You see the lake.  There appears to be an Isle in the middle of it.
+In the distance you see another tower.
+~
+E
+up~
+The sky.
+~
+S
+#17209
+In the cellar~
+The supplies of the keeper are stacked here neatly.  One shelf sticks out 
+strangely.
+~
+171 8 0
+D0
+You see a shelf with supplies on it but the shelf lies wrong.
+~
+shelf north~
+1 0 17213
+D4
+~
+~
+0 0 17193
+S
+#17210
+On the first floor~
+As you expected, the bedroom is like the living room - totally clean.
+~
+171 8 0
+D4
+~
+~
+0 0 17211
+D5
+~
+~
+0 0 17193
+S
+#17211
+On the second floor~
+You are almost on the top.  Looking around you see that there is nothing 
+here.  You wonder about possible harm from above.
+~
+171 8 0
+D4
+There is a trap-door above you.
+~
+trap trap-door up door~
+2 0 17212
+D5
+~
+~
+0 0 17210
+S
+#17212
+On the top of the tower~
+You see a mage saying some arcane words and making strange jestures.
+You reluctantly come closer to look,  hoping the bright light from the 
+beacon will cover your approach.
+~
+171 0 1
+D5
+There is a trap-door here.
+~
+trap door down trap-door~
+2 0 17211
+E
+north~
+You see another tower on another hill.
+~
+E
+east~
+You see the valley, the lake, the path you walked on and another tower.
+~
+E
+south~
+Nothing there.
+~
+E
+west~
+A somber void is there.
+~
+S
+#17213
+In a secret walkway~
+You find yourself in a moist walkway. it seems to be man-made.
+~
+171 9 0
+D0
+~
+~
+0 0 17226
+D2
+The backside of something is blocking the way.
+~
+door cabinet backside something~
+1 0 17209
+S
+#17214
+A dead end~
+The walkway ends here in front of a large rock.
+~
+171 9 0
+D0
+A rock blocks the way.
+~
+rock north~
+1 0 17215
+D2
+~
+~
+0 0 17240
+S
+#17215
+In the cellar~
+There is nothing here but some supplies in a few racks.
+~
+171 8 0
+D1
+A rack blocks the way.
+~
+rack east~
+1 0 17225
+D2
+A rock stands in your way.
+~
+rock south~
+1 0 17214
+D4
+~
+~
+0 0 17194
+S
+#17216
+On the first floor~
+This room servs as a bedroom. The bed is a mess.  He must avoid making beds 
+and cleaning blankets the way this place stinks and looks.
+~
+171 8 0
+D4
+~
+~
+0 0 17217
+D5
+~
+~
+0 0 17194
+S
+#17217
+On the second floor~
+Nothing here worthwhile.  You already feel the heat of the beaconlight you 
+can glimpse through a trap door.
+~
+171 8 0
+D4
+a trap-door is above you.
+~
+up trap door trapdoor~
+2 0 17218
+D5
+~
+~
+0 0 17216
+S
+#17218
+On the top of the tower~
+The beacon burns brightly. It makes the air surrounding it very warm.
+You feel good here - it's nice to feel some kind of warmness.
+~
+171 0 1
+D5
+A trap-door is here.
+~
+door trap trapdoor down~
+2 0 17217
+S
+#17219
+In the cellar~
+A fine mess the keeper made of this room!  How he can find anything here
+is a complete mystery.  Food, bottles of  scotch  - everything lies in a 
+jumble on top of one another.
+~
+171 8 0
+D0
+A big heap of mess blocks the way.
+~
+mess north~
+1 0 17224
+D3
+A big cabinet blocks the way.
+~
+cabinet west~
+1 0 17223
+D4
+~
+~
+0 0 17195
+S
+#17220
+On the first floor~
+Everything is here rosy too.  You get nuts looking at those roses.
+An easel stands in the middle of the room.  When you look at it
+you see it's a half finished painting of a rose.
+~
+171 8 0
+D4
+~
+~
+0 0 17221
+D5
+~
+~
+0 0 17195
+S
+#17221
+On the second floor~
+The walls are covered with paintings and  - as you already figured -  they 
+are of roses, small roses, big roses, a bunch of roses, a single rose, 
+a rose in a field of petunias, a rose in a vase, a rose on a table, a rose
+in a hand and lots more of them.
+~
+171 8 0
+D4
+A trap-door is above you.
+~
+door trapdoor up~
+2 0 17222
+D5
+~
+~
+0 0 17220
+S
+#17222
+On the top of a tower~
+The light shines brightly here, and whadda ya guess -  roses are on it.
+~
+171 0 1
+D5
+A trapdoor is here.
+~
+door trapdoor down~
+2 0 17221
+E
+north~
+A big forest stretches before you as far as you can see.
+~
+E
+east~
+A void through which you can discern nothing.
+~
+E
+south~
+You look at another tower.
+~
+E
+west~
+You see a large castle.  It's totally black. Also a bit further is another 
+tower.
+~
+S
+#17223
+A dead end~
+The secret gangway stops abruptly in a dead end.
+~
+171 9 0
+D1
+A big rock stands in your way.~
+rock east big~
+1 0 17219
+D3
+~
+~
+0 0 17256
+S
+#17224
+Another gangway.~
+This gangway is finely carved and it's smooth.  Must be a master who made it.
+~
+171 9 0
+D0
+~
+~
+0 0 17257
+D2
+Something is blocking your way.
+~
+something south~
+1 0 17219
+S
+#17225
+In a secret gangway~
+The gangway is carved out of rock. The rocks are slippery and covered with a
+strange vegetation.
+~
+171 9 0
+D1
+~
+~
+0 0 17241
+D3
+The wooden backside of somekind of furniture is here.
+~
+backside furniture west~
+1 0 17215
+S
+#17226
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D2
+~
+~
+0 0 17213
+D3
+~
+~
+0 0 17227
+S
+#17227
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17228
+D1
+~
+~
+0 0 17226
+S
+#17228
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17229
+D2
+~
+~
+0 0 17227
+S
+#17229
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17230
+D2
+~
+~
+0 0 17228
+S
+#17230
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D2
+~
+~
+0 0 17229
+D3
+~
+~
+0 0 17231
+S
+#17231
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17230
+D3
+~
+~
+0 0 17232
+S
+#17232
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17231
+D2
+~
+~
+0 0 17233
+S
+#17233
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17232
+D3
+~
+~
+0 0 17234
+S
+#17234
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17235
+D1
+~
+~
+0 0 17233
+S
+#17235
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17236
+D2
+~
+~
+0 0 17234
+S
+#17236
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17237
+D2
+~
+~
+0 0 17235
+S
+#17237
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17238
+D2
+~
+~
+0 0 17236
+S
+#17238
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17239
+D2
+~
+~
+0 0 17237
+S
+#17239
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17240
+D2
+~
+~
+0 0 17238
+S
+#17240
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17214
+D2
+~
+~
+0 0 17239
+S
+#17241
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17242
+D3
+~
+~
+0 0 17225
+S
+#17242
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17243
+D3
+~
+~
+0 0 17241
+S
+#17243
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17244
+D3
+~
+~
+0 0 17242
+S
+#17244
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17245
+D3
+~
+~
+0 0 17243
+S
+#17245
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17246
+D3
+~
+~
+0 0 17244
+S
+#17246
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17247
+D2
+~
+~
+0 0 17245
+S
+#17247
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17248
+D3
+~
+~
+0 0 17246
+S
+#17248
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17249
+D3
+~
+~
+0 0 17247
+S
+#17249
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17250
+D3
+~
+~
+0 0 17248
+S
+#17250
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17251
+D3
+~
+~
+0 0 17249
+S
+#17251
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17252
+D3
+~
+~
+0 0 17250
+S
+#17252
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17253
+D3
+~
+~
+0 0 17251
+S
+#17253
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17254
+D3
+~
+~
+0 0 17252
+S
+#17254
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17255
+D3
+~
+~
+0 0 17253
+S
+#17255
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D0
+~
+~
+0 0 17256
+D2
+~
+~
+0 0 17254
+S
+#17256
+In a secret gangway~
+The gangway is so dark, you can barely see something in front of you.
+Even with a light it's difficult to look ahead.   You feel disoriented by
+the complete blackness. 
+~
+171 9 0
+D1
+~
+~
+0 0 17223
+D2
+~
+~
+0 0 17255
+S
+#17257
+In a secret gangway~
+You can barely see something in front of you so dark is it.  Even with a 
+light, it's difficult to look ahead.  But it's smooth here so you needn't 
+be afraid of stumbling over something.
+~
+171 9 0
+D0
+~
+~
+0 0 17258
+D2
+~
+~
+0 0 17224
+S
+#17258
+In a secret gangway~
+You can see a light over a porch to the west.
+~
+171 9 0
+D2
+~
+~
+0 0 17257
+D3
+~
+~
+0 0 17259
+S
+#17259
+In a secret gangway~
+The light brightens but doen't help much yet.  Above you, you think you
+hear it raining again.
+~
+171 8 0
+D1
+~
+~
+0 0 17258
+D3
+~
+~
+0 0 17260
+S
+#17260
+In a secret gangway~
+You see better now.  You can even discern a strangely shaped something ahead 
+- but as of yet, you can't make anything of it.
+~
+171 8 0
+D1
+~
+~
+0 0 17259
+D3
+~
+~
+0 0 17261
+S
+#17261
+In a secret gangway~
+You can clearly see what is ahead of you now.  You can also see that
+the porch is guarded by some creatures. You think you have seen them 
+before in a nightmare or something.  They appear not to be moving.  Could 
+it be that they are statues just to scare people off?
+~
+171 8 0
+D1
+~
+~
+0 0 17260
+D3
+~
+~
+0 0 17262
+S
+#17262
+At the porch~
+You see a porch in front of you. It appears locked but some weird dust 
+lies here.  Probably a mage passed here some time back. Maybe this is the 
+way into the castle.
+~
+171 8 0
+D1
+~
+~
+0 0 17261
+D3
+You see a porch.
+~
+porch west door~
+1 17117 17263
+S
+#17263
+In a sleeping room~
+The porch slams shut behind you, so there'll be no going back.  You've
+entered the mage's room.  Everywhere are signs of it - potions, dried 
+leaves, animal parts  and so on. The mage doesn't appear to be home. 
+No wonder since you killed her!
+~
+171 8 0
+D3
+A door.~
+door~
+2 0 17265
+S
+#17265
+In a hallway~
+Just another hallway leading from someplace to someplace.  Nothing peculiar
+about this one.  The mage was kept here for good reason  - the evil
+witch. Compared to her even a satanic demon would be of extremely good
+alignment.
+~
+171 8 0
+D0
+~
+~
+0 0 17266
+D1
+A door.
+~
+door~
+2 0 17263 
+S
+#17266
+In the hallway~
+You notice some noise coming from the north. It appears there is some
+kind of party going on - and you want to be there!
+~
+171 8 0
+D0
+~
+~
+0 0 17267
+D2
+~
+~
+0 0 17265
+S
+#17267
+In the hallway~
+A door is to the north.  From behind comes a lot of noise.  It must be a
+good party. 
+~
+171 8 0
+D0
+A heavy door.
+~
+door~
+2 0 17268
+D2
+~
+~
+0 0 17266
+D3
+~
+~
+0 0 17269
+S
+#17268
+The guard barracks~ 
+OOOOOOOOOOOOOooops, this turned out to be the guard barracks.  The guards fall
+and look at you.  They snarl at you for intruding upon them and attack.
+~
+171 8 0 
+D2
+A heavy door.
+~
+door~
+2 0 17267
+S
+#17269
+In a hallway~
+You are in a hallway.  A bit further on you can see a flight of stairs.
+~
+171 8 0
+D1
+~
+~
+0 0 17267
+D3
+~
+~
+0 0 17270
+S
+#17270
+In a hallway~
+A heavy door is to the north.  From the outside you can't find a clue
+about its occupants.
+~
+171 8 0
+D0
+A heavy door.
+~
+door~
+2 0 17271
+D1
+~
+~
+0 0 17269
+D3
+~
+~
+0 0 17272
+S
+#17271
+A guard barracks~
+A troop of guards is in here busy with the upkeep of their equipment.
+At first they don't notice you,  but then one looks up and screams
+an alarm.  They all look up and attack you on sight. It was not a very 
+smart move coming in here.
+~
+171 8 0
+D2
+A heavy door.
+~
+door~
+2 0 17270
+S
+#17272
+At a flight of stairs~
+You can go up towards the ground floor of the castle.
+~
+171 8 0
+D1
+~
+~
+0 0 17270
+D4
+~
+~
+0 0 17273
+S
+#17273
+At a flight of stairs~
+You are on the ground floor of the castle. You can go to the foyer
+or take the stairs down. 
+~
+171 8 0 
+D2
+~
+~
+0 0 17277
+D5
+~
+~
+0 0 17272
+S
+#17274
+In the northwestern corner of the foyer~
+~
+171 8 0
+D1
+~
+~
+0 0 17277
+D2
+~
+~
+0 0 17275
+S
+#17275
+In the west side of the foyer~
+~
+171 8 0
+D0
+~
+~
+0 0 17274
+D1
+~
+~
+0 0 17278
+D2
+~
+~
+0 0 17276
+S
+#17276
+In the southwestern corner of the foyer~
+~
+171 8 0
+D0
+~
+~
+0 0 17275
+D1
+~
+~
+0 0 17279
+S
+#17277
+In the north of the foyer~
+To the north, you see stairs.
+~
+171 8 0
+D0
+~
+~
+0 0 17273
+D1
+~
+~
+0 0 17281
+D2
+~
+~
+0 0 17278
+D3
+~
+~
+0 0 17274
+S
+#17278
+In the center of the foyer~
+~
+171 8 0
+D0
+~
+~
+0 0 17277
+D1
+~
+~
+0 0 17282
+D2
+~
+~
+0 0 17279
+D3
+~
+~
+0 0 17275
+S
+#17279
+In the south of the foyer~
+To the south, you see some stairs.
+~
+171 8 0 
+D0
+~
+~
+0 0 17278
+D1
+~
+~
+0 0 17283
+D2
+~
+~
+0 0 17280
+D3
+~
+~
+0 0 17276
+S
+#17280
+A flight of stairs~
+You can go up here or north to the foyer.
+~
+171 8 0
+D0
+~
+~
+0 0 17279
+D4
+~
+~
+0 0 17284
+S
+#17281
+In the northeastern corner of the foyer~
+~
+171 8 0
+D2
+~
+~
+0 0 17282
+D3
+~
+~
+0 0 17277
+S
+#17282
+In the east of the foyer~
+~
+171 8 0
+D0
+~
+~
+0 0 17281
+D2
+~
+~
+0 0 17283
+D3
+~
+~
+0 0 17278
+S
+#17283
+In the southeastern corner of the foyer~
+~
+171 8 0
+D0
+~
+~
+0 0 17282
+D3
+~
+~
+0 0 17279
+S
+#17284
+At a flight of stairs~
+You can go down here to the foyer and to the south is a hallway.
+~
+171 8 0
+D2
+~
+~
+0 0 17285
+D5
+~
+~
+0 0 17280
+S
+#17285
+A hallway on the first floor~
+In the hall lies a red carpet. There are tapestries on the walls between
+the doors.  All in all, a pleasant hall one would say.
+~
+171 8 0
+D0
+~
+~
+0 0 17284
+D2
+~
+~
+0 0 17287
+S
+#17286
+In an unused room~
+Nothing here but cobwebs and dust.
+~
+171 8 0 
+D1
+~
+~
+0 0 17287
+S
+#17287
+In a hallway.~
+There are doors here to the left and to the right.  They appear to be
+OPEN.
+~
+171 8 0
+D0
+~
+~
+0 0 17285
+D1
+~
+~
+0 0 17288
+D2
+~
+~
+0 0 17289
+D3
+~
+~
+0 0 17286
+S
+#17288
+In the Lord's bedroom~
+This is just a normal bedroom. The Lord of the castle himself appears to 
+be absent, so feel free to look around and see how the nobility sleep.
+~
+171 8 0
+D3
+~
+~
+0 0 17287
+S
+#17289
+In a hallway~
+A painting picturing a ugly man is on the left and a painting of an even 
+uglier  woman is to the right, God almighty these guys are ugly. The notes
+beneath the paintings have only one numeral on them so the man and the 
+woman must be still alive.  You silently hope never to encounter them.
+~
+171 8 0
+D0
+~
+~
+0 0 17287
+D2
+~
+~
+0 0 17291
+S
+#17290
+A bedroom~
+You've entered the cleric's room, but this time the occupant is home. 
+The cleric turns around to look at you.  Upon recognizing you as an intruder 
+he charges forth.
+~
+171 8 0
+D1
+~
+~
+0 0 17291
+S
+#17291
+In a hallway~
+To the left and to the right are doors.  Both seem open. On the door
+to the east you see a pentagon and on the door to the west you see
+a picture of a woman, just like the one in the painting.
+~
+171 8 0
+D0
+~
+~
+0 0 17289
+D1
+~
+~
+0 0 17292
+D2
+~
+~
+0 0 17293
+D3
+~
+~
+0 0 17290
+S
+#17292
+The Lady's bedroom~
+You entered the bedroom of the Lady of the castle. She has her eyes
+fixed on the mirror before her.  God is she awful to look upon! You 
+accidentally move a quarter of an inch and she notices you.  Without 
+thinking she charges forth.
+~
+171 8 0
+D3
+~
+~
+0 0 17291
+S
+#17293
+In a hallway~
+The tapestries here depict battles in long forgotten years in long
+forgotten lands for long forgotten causes.
+~
+171 8 0
+D0
+~
+~
+0 0 17291
+D2
+~
+~
+0 0 17294
+S
+#17294
+A bend in the hallway~
+The hallway turns eastwards. Nothing further here but paintings of animals
+and plants.  Strangely as you look closer, you notice all the lifeforms are 
+carnivorous.
+~
+171 8 0
+D0
+~
+~
+0 0 17293
+D1
+~
+~
+0 0 17295
+S
+#17295
+In a hallway~
+In front of you is a flight of stairs.
+~
+171 8 0
+D1
+~
+~
+0 0 17296
+D3
+~
+~
+0 0 17294
+S
+#17296
+At a flight of stairs~
+You can go up here or go west to the hallway.
+~
+171 8 0
+D3
+~
+~
+0 0 17295
+D4
+~
+~
+0 0 17297
+S
+#17297
+At a flight of stairs~
+You can go down here or continue on to the ante-room. You see a farmer 
+waiting in the room.
+~
+171 8 0
+D2
+~
+~
+0 0 17298
+D5
+~
+~
+0 0 17296
+S
+#17298
+In the Ante-Room~
+A bench is here that you can sit on.  Presently only a farmer is sitting on  
+it. The farmer doesn't even glance in your direction.
+~
+171 8 0
+D0
+~
+~
+0 0 17297
+D2
+~
+~
+0 0 17299
+S
+#17299
+A room in between the throne and the ante-room~
+Here you are searched for weapons and the likes so that the Lord is safe.
+The guards look at you and decide you cannot possibly have good intentions -
+so they decide to kill you on the spot. 
+~
+171 8 0
+D0
+~
+~
+0 0 17298
+D2
+~
+~
+0 0 17300
+S
+#17300
+The throne room~
+At last you found the Lord of this region. He sits on his throne and looks 
+at you while his elite guards attack you.
+~
+171 8 0
+D0
+~
+~
+0 0 17299
+
+S
+#0
+
+#RESETS
+D 0 17130 2 2
+D 0 17136 0 1
+D 0 17184 0 1
+D 0 17191 1 2
+D 0 17192 0 2
+D 0 17193 2 2
+D 0 17194 2 2
+D 0 17195 3 1
+D 0 17209 0 1
+D 0 17213 2 1
+D 0 17214 0 1
+D 0 17215 1 1
+D 0 17215 2 1
+D 0 17219 0 1
+D 0 17223 1 1
+D 0 17224 2 1
+D 0 17225 3 1
+D 0 17262 3 1
+*
+M 0 17100 5 17147       Frog
+M 0 17100 5 17165       Frog
+M 0 17100 5 17228       Frog
+M 0 17100 5 17236       Frog
+M 0 17100 5 17248       Frog
+M 0 17101 10 17122      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17122      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17130      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17130      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17136      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17136      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17184      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17184      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17191      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17101 10 17191      Barbarian
+E 1 17101 20 16            barbarian sword
+M 0 17102 6 17208       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17102 6 17208       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17102 6 17218       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17102 6 17218       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17102 6 17222       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17102 6 17222       Barbarian Warrior
+E 1 17116 20 16            notched sword
+M 0 17103 7 17212       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17212       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17290       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17290       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17298       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17298       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17103 7 17298       Barbarian Guard
+E 1 17116 20 16            notched sword
+M 0 17104 6 17292       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17104 6 17292       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17104 6 17300       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17104 6 17300       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17104 6 17300       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17104 6 17300       Barbarian Elite
+E 1 17124 20 16            claymore
+M 0 17105 1 17139       Highlander
+E 1 17102 10 13            kilt
+E 1 17107 10 16            highlander's sword
+E 1 17123 10 17            bagpipes
+M 0 17106 1 17300       Barbarian Lord
+E 1 17100 10 16            claymore
+E 1 17103 10 5             laen plate suit
+E 1 17104 10 8             laen boots
+E 1 17105 10 6             laen helmet
+E 1 17106 10 10            laen gauntlets
+E 1 17122 10 11            laen shield
+M 0 17107 1 17292       Wife
+G 1 17114 15               potion of the lady
+G 1 17114 15               potion of the lady
+E 1 17115 10 16            dagger
+M 0 17108 1 17286       Holy Slayer
+E 1 17112 10 16            holy basher
+E 1 17113 10 5             holy armor
+M 0 17109 20 17155      Sheep
+M 0 17109 20 17155      Sheep
+M 0 17109 20 17155      Sheep
+M 0 17109 20 17155      Sheep
+M 0 17109 20 17155      Sheep
+M 0 17109 20 17147      Sheep
+M 0 17109 20 17147      Sheep
+M 0 17109 20 17176      Sheep
+M 0 17109 20 17152      Sheep
+M 0 17109 20 17152      Sheep
+M 0 17109 20 17189      Sheep
+M 0 17109 20 17189      Sheep
+M 0 17109 20 17189      Sheep
+M 0 17109 20 17127      Sheep
+M 0 17109 20 17127      Sheep
+M 0 17109 20 17127      Sheep
+M 0 17109 20 17127      Sheep
+M 0 17109 20 17127      Sheep
+M 0 17109 20 17135      Sheep
+M 0 17109 20 17135      Sheep
+*
+M 0 17110 1 17212       Mage's Mardona
+E 1 17108 1 17            rod of omniscience
+E 1 17109 1 3             cloak of magus
+G 1 17117 1               dark key
+M 0 17111 1 17290       Cleric's Boldar
+E 1 17110 1 16            mace of oblivion
+E 1 17111 1 8             boots of necromancy
+*
+M 0 17112 4 17130       Keeper
+G 1 17118 1               tower key
+M 0 17112 4 17136       Keeper
+G 1 17119 1               tower key
+M 0 17112 4 17184       Keeper
+G 1 17120 1               tower key
+M 0 17112 4 17191       Keeper
+G 1 17121 1               tower key
+*
+M 0 17113 1 17201       Nessy
+*
+M 0 17114 1 17204       Nessy's Child
+*
+M 0 17115 2 17262       Fire Elemental
+M 0 17115 2 17262       Fire Elemental
+*
+M 0 17116 8 17168       Guard
+M 0 17116 8 17168       Guard
+M 0 17116 8 17168       Guard
+M 0 17116 8 17168       Guard
+M 0 17116 8 17171       Guard
+M 0 17116 8 17171       Guard
+M 0 17116 8 17171       Guard
+M 0 17116 8 17171       Guard
+*
+* some room randomization by Hatchet
+* for EnvyMud, 3/7/94
+*
+R 0 17274 4
+R 0 17275 4
+R 0 17276 4
+R 0 17277 4
+R 0 17278 4
+R 0 17279 4
+R 0 17281 4
+R 0 17282 4
+R 0 17283 4
+*
+S
+#SPECIALS
+*
+M 17110 spec_cast_mage           the Lord's mage Mardonna
+M 17111 spec_cast_cleric         the Lord's cleric Boldar
+M 17113 spec_breath_any          Nessy
+M 17114 spec_breath_any          Nessy's child
+*
+S
+#$
+
+

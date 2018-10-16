@@ -1,0 +1,2027 @@
+Sun Mar 19 18:40:14 2000 :: LOADING COMM TABLE
+Sun Mar 19 18:40:14 2000 ::  INIT OK 
+Sun Mar 19 18:40:14 2000 :: Ended LOADING COMM TABLE
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 3715 maxed out.
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 911 maxed out.
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 911 maxed out.
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (5).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sun Mar 19 18:40:14 2000 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Mar 19 18:40:14 2000 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sun Mar 19 18:40:14 2000 :: MAXLOAD: vnum 28114 maxed out.
+Sun Mar 19 18:40:14 2000 :: TOC is ready to rock on port 9000.
+Sun Mar 19 18:40:14 2000 :: Setting up signals.
+Sun Mar 19 18:40:17 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 18:40:17 2000 :: Automated backup complete.
+Sun Mar 19 18:40:20 2000 :: Loading Permanent's playerfile
+Sun Mar 19 18:40:21 2000 :: Permanent@dialup240.serv.net has connected. [Room: 13213]
+Sun Mar 19 18:40:38 2000 :: Sock.sinaddr:  129.37.232.54
+Sun Mar 19 18:40:43 2000 :: Loading Seth's playerfile
+Sun Mar 19 18:41:11 2000 :: Seth@slip129-37-232-54.ok.us.prserv.net new player.
+Sun Mar 19 18:45:10 2000 :: Seth killed by Townguard at 13213
+Sun Mar 19 18:48:39 2000 :: EOF encountered on read.
+Sun Mar 19 18:48:39 2000 :: Closing link to Seth.
+Sun Mar 19 18:53:53 2000 :: Sock.sinaddr:  194.109.183.129
+Sun Mar 19 18:53:59 2000 :: Loading Ungrim's playerfile
+Sun Mar 19 18:54:00 2000 :: Ungrim@s340-isdn897.dial.xs4all.nl has connected. [Room: 4800]
+Sun Mar 19 18:56:25 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 18:56:26 2000 :: Loading Dominique's playerfile
+Sun Mar 19 18:56:27 2000 :: Ungrim has quit. [Room: 4800]
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 18:56:27 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 18:56:27 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 18:56:28 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 18:58:16 2000 :: Seth has quit. [Room: 2]
+Sun Mar 19 18:58:47 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 18:58:51 2000 :: Log Permanent: drop gut
+Sun Mar 19 19:00:28 2000 :: Sock.sinaddr:  63.15.217.72
+Sun Mar 19 19:00:34 2000 :: Loading Gandalf's playerfile
+Sun Mar 19 19:00:37 2000 :: Gandalf@1Cust72.tnt5.atlanta2.ga.da.uu.net has connected. [Room: 4207]
+Sun Mar 19 19:02:32 2000 :: Sock.sinaddr:  204.164.106.14
+Sun Mar 19 19:02:49 2000 :: Sock.sinaddr:  194.109.183.129
+Sun Mar 19 19:02:50 2000 :: Loading Ungrim's playerfile
+Sun Mar 19 19:02:50 2000 :: Loading Tweak's playerfile
+Sun Mar 19 19:02:50 2000 :: Ungrim@s340-isdn897.dial.xs4all.nl has connected. [Room: 4800]
+Sun Mar 19 19:02:51 2000 :: Tweak@samurai.ruin.org has connected. [Room: 7606]
+Sun Mar 19 19:03:13 2000 :: Sock.sinaddr:  208.167.147.163
+Sun Mar 19 19:03:15 2000 :: Sock.sinaddr:  208.167.147.163
+Sun Mar 19 19:03:16 2000 :: Loading Sajo's playerfile
+Sun Mar 19 19:03:16 2000 :: Sajo@dip-33.maxg1-3.dips.clarion.csonline.net has connected. [Room: 4203]
+Sun Mar 19 19:03:41 2000 :: Tweak has quit. [Room: 7606]
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:03:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:03:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:04:08 2000 :: Sajo has quit. [Room: 4203]
+Sun Mar 19 19:04:08 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 19:04:08 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:04:08 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 19:04:08 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:04:08 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 19:04:08 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 19:04:08 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 19:04:08 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 19:04:09 2000 :: Sock.sinaddr:  208.167.147.163
+Sun Mar 19 19:04:16 2000 :: Loading Cazo's playerfile
+Sun Mar 19 19:04:17 2000 :: Cazo@dip-33.maxg1-3.dips.clarion.csonline.net has connected. [Room: 2103]
+Sun Mar 19 19:10:06 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 19:10:07 2000 :: Loading Dominique's playerfile
+Sun Mar 19 19:10:09 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 19:10:14 2000 :: Sock.sinaddr:  208.19.49.123
+Sun Mar 19 19:10:34 2000 :: Loading Valkor's playerfile
+Sun Mar 19 19:10:38 2000 :: Valkor@ppp-208-19-49-123.isdn.jetlink.net has connected. [Room: 4209]
+Sun Mar 19 19:12:03 2000 :: Log Cazo: drop chain
+Sun Mar 19 19:12:03 2000 :: Log Cazo: drop chain
+Sun Mar 19 19:12:11 2000 :: Log Cazo: drop shield
+Sun Mar 19 19:12:16 2000 :: Cazo killed by a drow female at 25265
+Sun Mar 19 19:12:16 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 19:12:16 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:14:46 2000 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Mar 19 19:15:52 2000 :: Cazo killed by The weapons master at 5101
+Sun Mar 19 19:16:50 2000 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Mar 19 19:17:06 2000 :: Sock.sinaddr:  24.218.81.39
+Sun Mar 19 19:17:09 2000 :: Loading PoisonIvy's playerfile
+Sun Mar 19 19:17:09 2000 :: PoisonIvy@poisonivy.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 19:17:10 2000 :: PoisonIvy turned into a PKILLER.
+Sun Mar 19 19:17:15 2000 :: Log PoisonIvy: who
+Sun Mar 19 19:17:22 2000 :: Log PoisonIvy: note list
+Sun Mar 19 19:17:24 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:17:27 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:17:31 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:17:50 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:00 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:02 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:10 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:22 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:25 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:27 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:29 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:31 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:39 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:42 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 19:18:42 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:18:43 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:47 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:50 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:18:52 2000 :: Sock.sinaddr:  209.197.225.195
+Sun Mar 19 19:18:58 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 19:19:00 2000 :: Azleshun@dallas.tx.tnt1.195.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 19:19:06 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:19:08 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:19:31 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:19:33 2000 :: Log PoisonIvy: note
+Sun Mar 19 19:19:37 2000 :: Log PoisonIvy: wor
+Sun Mar 19 19:19:42 2000 :: Log PoisonIvy: who
+Sun Mar 19 19:19:44 2000 :: Log PoisonIvy: stand
+Sun Mar 19 19:19:57 2000 :: Log PoisonIvy: sta
+Sun Mar 19 19:19:58 2000 :: Log PoisonIvy: af
+Sun Mar 19 19:19:58 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:20:02 2000 :: Log PoisonIvy: lo sab
+Sun Mar 19 19:20:13 2000 :: Log PoisonIvy: note lis
+Sun Mar 19 19:20:23 2000 :: Log PoisonIvy: note read 1
+Sun Mar 19 19:20:41 2000 :: Log PoisonIvy: sta
+Sun Mar 19 19:20:43 2000 :: Log PoisonIvy: c haven
+Sun Mar 19 19:20:46 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:20:46 2000 :: Log PoisonIvy: wor
+Sun Mar 19 19:20:47 2000 :: Log PoisonIvy: rest
+Sun Mar 19 19:20:47 2000 :: Log PoisonIvy: who
+Sun Mar 19 19:21:08 2000 :: Log PoisonIvy: gos hello
+Sun Mar 19 19:21:35 2000 :: Log PoisonIvy: grum
+Sun Mar 19 19:21:35 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:21:36 2000 :: Log PoisonIvy: lo in lot
+Sun Mar 19 19:21:45 2000 :: Log PoisonIvy: put all lot
+Sun Mar 19 19:21:45 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:21:45 2000 :: Log PoisonIvy: rest
+Sun Mar 19 19:21:45 2000 :: Log PoisonIvy: save
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 19:21:48 2000 :: Closing link to Gandalf.
+Sun Mar 19 19:22:42 2000 :: Log PoisonIvy: who
+Sun Mar 19 19:22:43 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:22:43 2000 :: Log PoisonIvy: save
+Sun Mar 19 19:22:50 2000 :: Log PoisonIvy: put all lot
+Sun Mar 19 19:22:50 2000 :: Log PoisonIvy: sta
+Sun Mar 19 19:23:05 2000 :: Log PoisonIvy: wor
+Sun Mar 19 19:23:06 2000 :: Log PoisonIvy: i
+Sun Mar 19 19:23:10 2000 :: Log PoisonIvy: put sab lot
+Sun Mar 19 19:23:12 2000 :: Log PoisonIvy: qho
+Sun Mar 19 19:23:12 2000 :: Log PoisonIvy: quit
+Sun Mar 19 19:23:12 2000 :: PoisonIvy has quit. [Room: 26130]
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 29240|Signval: -1|!Gameload|Total: 4
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 29240|Signval: 1|!Gameload|Total: 3
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 19:23:12 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 19:23:12 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 19:23:37 2000 :: Sock.sinaddr:  209.197.225.214
+Sun Mar 19 19:23:41 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 19:23:45 2000 :: Closing link to Azleshun.
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:23:45 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 19:23:45 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:23:45 2000 :: Azleshun@dallas.tx.tnt1.214.fastlane.net reconnected. [Room: 4210]
+Sun Mar 19 19:24:04 2000 :: EOF encountered on read.
+Sun Mar 19 19:24:04 2000 :: Closing link to Azleshun.
+Sun Mar 19 19:24:05 2000 :: Log Valkor: balance
+Sun Mar 19 19:24:23 2000 :: Sock.sinaddr:  209.197.225.214
+Sun Mar 19 19:24:30 2000 :: EOF encountered on read.
+Sun Mar 19 19:24:30 2000 :: Closing link to Cazo.
+Sun Mar 19 19:24:36 2000 :: Sock.sinaddr:  208.167.147.163
+Sun Mar 19 19:24:39 2000 :: Loading Cazo's playerfile
+Sun Mar 19 19:24:40 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 19:24:40 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:24:40 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 19:24:40 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:24:40 2000 :: Cazo@dip-33.maxg1-3.dips.clarion.csonline.net reconnected. [Room: 25264]
+Sun Mar 19 19:24:43 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 19:24:48 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:24:57 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 19:24:57 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:24:57 2000 :: Azleshun@dallas.tx.tnt1.214.fastlane.net reconnected. [Room: 4210]
+Sun Mar 19 19:29:51 2000 :: Log Ungrim: set char valkor clan rogue
+Sun Mar 19 19:29:54 2000 :: Log Ungrim: set char valkor castle rogue
+Sun Mar 19 19:31:17 2000 :: Gandalf has quit. [Room: 2]
+Sun Mar 19 19:33:22 2000 :: Log Cazo: drop war
+Sun Mar 19 19:33:35 2000 :: Sock.sinaddr:  24.5.219.245
+Sun Mar 19 19:33:38 2000 :: Loading Akron's playerfile
+Sun Mar 19 19:33:40 2000 :: Akron@c773633-a.ptbrg1.sfba.home.com has connected. [Room: 4207]
+Sun Mar 19 19:39:20 2000 :: Akron has quit. [Room: 4207]
+Sun Mar 19 19:43:30 2000 :: Azleshun has quit. [Room: 4208]
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:43:30 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 19:43:30 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:43:33 2000 :: Sock.sinaddr:  209.197.225.214
+Sun Mar 19 19:43:38 2000 :: Loading Lilith's playerfile
+Sun Mar 19 19:43:40 2000 :: Lilith@dallas.tx.tnt1.214.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 19:45:44 2000 :: Sock.sinaddr:  206.74.33.238
+Sun Mar 19 19:45:50 2000 :: Loading Marcus's playerfile
+Sun Mar 19 19:46:19 2000 :: Marcus@dial-110.r04.garmhl.InfoAve.Net new player.
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 19:47:17 2000 :: Closing link to Marcus.
+Sun Mar 19 19:47:57 2000 :: Sock.sinaddr:  63.15.217.72
+Sun Mar 19 19:48:05 2000 :: Loading Gandalf's playerfile
+Sun Mar 19 19:48:10 2000 :: Gandalf@1Cust72.tnt5.atlanta2.ga.da.uu.net has connected. [Room: 25264]
+Sun Mar 19 19:49:06 2000 :: Log Gandalf: drop chain
+Sun Mar 19 19:52:35 2000 :: Log Gandalf: drop chain
+Sun Mar 19 19:52:37 2000 :: Log Gandalf: drop chain
+Sun Mar 19 19:54:42 2000 :: Valkor has quit. [Room: 10154]
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 19:54:42 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 19:54:42 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 19:55:19 2000 :: Sock.sinaddr:  209.183.94.116
+Sun Mar 19 19:55:21 2000 :: Loading Sacron's playerfile
+Sun Mar 19 19:55:27 2000 :: Sacron@ip209-183-94-116.ts.indy.net has connected. [Room: 4207]
+Sun Mar 19 19:56:44 2000 :: Marcus has quit. [Room: 2]
+Sun Mar 19 19:56:46 2000 :: Log Cazo: drop armor
+Sun Mar 19 19:59:46 2000 :: Lilith has quit. [Room: 4210]
+Sun Mar 19 19:59:46 2000 :: Sock.sinaddr:  199.3.65.14
+Sun Mar 19 19:59:48 2000 :: Loading Haze's playerfile
+Sun Mar 19 19:59:51 2000 :: Haze@indy3.indy.net has connected. [Room: 9969]
+Sun Mar 19 19:59:58 2000 :: EOF encountered on read.
+Sun Mar 19 19:59:58 2000 :: Closing link to Sacron.
+Sun Mar 19 20:00:22 2000 :: Sock.sinaddr:  209.183.94.116
+Sun Mar 19 20:00:43 2000 :: Loading Rhihorn's playerfile
+Sun Mar 19 20:01:24 2000 :: Rhihorn@ip209-183-94-116.ts.indy.net new player.
+Sun Mar 19 20:01:52 2000 :: EOF encountered on read.
+Sun Mar 19 20:01:52 2000 :: Closing link to Rhihorn.
+Sun Mar 19 20:08:17 2000 :: Sacron has quit. [Room: 2]
+Sun Mar 19 20:08:24 2000 :: Sock.sinaddr:  151.197.212.15
+Sun Mar 19 20:08:27 2000 :: Loading Gravestone's playerfile
+Sun Mar 19 20:08:28 2000 :: Gravestone@adsl-151-197-212-15.bellatlantic.net has connected. [Room: 3]
+Sun Mar 19 20:09:57 2000 :: Sock.sinaddr:  171.208.222.227
+Sun Mar 19 20:09:59 2000 :: Loading Mask's playerfile
+Sun Mar 19 20:10:00 2000 :: Mask@ABD0DEE3.ipt.aol.com has connected. [Room: 7405]
+Sun Mar 19 20:10:14 2000 :: Mask has quit. [Room: 7405]
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:10:14 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 20:10:14 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:10:32 2000 :: Rhihorn has quit. [Room: 2]
+Sun Mar 19 20:12:08 2000 :: Log Gandalf: o afk a bit
+Sun Mar 19 20:14:11 2000 :: Log Cazo: drop long
+Sun Mar 19 20:21:52 2000 :: Gandalf has quit. [Room: 2]
+Read_from_descriptor: Broken pipe
+Sun Mar 19 20:26:09 2000 :: Closing link to Haze.
+Sun Mar 19 20:27:01 2000 :: Gravestone has quit. [Room: 1]
+Sun Mar 19 20:31:09 2000 :: Sock.sinaddr:  209.130.184.190
+Sun Mar 19 20:31:10 2000 :: Loading Beanie's playerfile
+Sun Mar 19 20:31:11 2000 :: Beanie@209-130-184-190.nas2.FOD.gblx.net has connected. [Room: 29243]
+Sun Mar 19 20:31:34 2000 :: Beanie has quit. [Room: 29243]
+Sun Mar 19 20:37:20 2000 :: Ungrim has quit. [Room: 1]
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:37:20 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 20:37:20 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:37:55 2000 :: Sock.sinaddr:  171.208.222.227
+Sun Mar 19 20:37:57 2000 :: Loading Mask's playerfile
+Sun Mar 19 20:37:57 2000 :: Mask@ABD0DEE3.ipt.aol.com has connected. [Room: 7405]
+Sun Mar 19 20:38:04 2000 :: Mask has quit. [Room: 7405]
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 20:38:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 20:38:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:42:56 2000 :: Log Cazo: drop jerkin
+Sun Mar 19 20:46:21 2000 :: Log Cazo: drop plate
+Sun Mar 19 20:46:31 2000 :: Sock.sinaddr:  208.29.104.25
+Sun Mar 19 20:46:33 2000 :: Loading Perrin's playerfile
+Sun Mar 19 20:46:33 2000 :: Perrin@pm5port5.clarion.pcidu.com has connected. [Room: 3]
+Sun Mar 19 20:47:02 2000 :: Log Cazo: drop hammer
+Sun Mar 19 20:47:14 2000 :: EOF encountered on read.
+Sun Mar 19 20:47:14 2000 :: Closing link to Perrin.
+Sun Mar 19 20:48:57 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 20:49:02 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 20:49:04 2000 :: Loading Killrand's playerfile
+Sun Mar 19 20:49:04 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 20:49:11 2000 :: Sock.sinaddr:  63.15.217.72
+Sun Mar 19 20:49:23 2000 :: Loading Gandalf's playerfile
+Sun Mar 19 20:49:27 2000 :: Gandalf@1Cust72.tnt5.atlanta2.ga.da.uu.net has connected. [Room: 4210]
+Sun Mar 19 20:55:18 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 20:56:56 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 20:56:56 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 20:57:47 2000 :: Log Cazo: drop arm
+Sun Mar 19 20:58:02 2000 :: Log Cazo: drop plate
+Sun Mar 19 20:59:59 2000 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sun Mar 19 20:59:59 2000 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sun Mar 19 21:00:10 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:00:10 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:00:21 2000 :: Log Killrand: drop ony
+Sun Mar 19 21:00:21 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:00:21 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:00:22 2000 :: Log Killrand: drop ony
+Sun Mar 19 21:00:22 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:00:22 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:00:23 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 21:00:23 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:00:23 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:00:23 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:00:23 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:00:23 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:00:23 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:00:23 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:00:23 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:00:28 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 21:00:29 2000 :: Loading Permanent's playerfile
+Sun Mar 19 21:00:30 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 21:00:33 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:00:33 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:00:33 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:00:33 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:00:53 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:00:53 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:00:53 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:00:53 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:00:53 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:00:53 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:00:53 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:00:53 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:01:45 2000 :: Sock.sinaddr:  209.130.183.108
+Sun Mar 19 21:01:49 2000 :: Loading Misery's playerfile
+Sun Mar 19 21:01:50 2000 :: Misery@209-130-183-108.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 21:01:56 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:01:56 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 21:01:56 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:02:56 2000 :: MAXLOAD: vnum 1388 maxed out.
+Sun Mar 19 21:07:29 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 21:07:29 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:07:29 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:07:29 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:07:29 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:07:29 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:07:29 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:07:29 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:07:29 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:07:35 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 21:07:36 2000 :: Loading Killrand's playerfile
+Sun Mar 19 21:07:36 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 21:08:23 2000 :: Log Cazo: drop shield
+Sun Mar 19 21:08:57 2000 :: Perrin has quit. [Room: 3]
+Sun Mar 19 21:10:34 2000 :: Log Cazo: drop robe
+Sun Mar 19 21:12:02 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 21:12:47 2000 :: Cazo has quit. [Room: 4207]
+Sun Mar 19 21:12:47 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 21:12:47 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:12:47 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 21:12:47 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:14:05 2000 :: Sock.sinaddr:  161.200.93.9
+Sun Mar 19 21:14:33 2000 :: Loading Phenix's playerfile
+Sun Mar 19 21:14:46 2000 :: Phenix@unchan.cp.eng.chula.ac.th has connected. [Room: 2481]
+Sun Mar 19 21:15:31 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 21:16:21 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:21 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:21 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:22 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:22 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:22 2000 :: Log Killrand: drop key
+Sun Mar 19 21:16:22 2000 :: Log Killrand: drop key
+Sun Mar 19 21:18:33 2000 :: Do_remove: Gandalf : twink
+Sun Mar 19 21:18:39 2000 :: MAXLOAD: vnum 17713 maxed out.
+Sun Mar 19 21:19:47 2000 :: Sock.sinaddr:  209.183.94.170
+Sun Mar 19 21:19:49 2000 :: Loading Rhihorn's playerfile
+Sun Mar 19 21:19:57 2000 :: Log Killrand: drop jade
+Sun Mar 19 21:19:58 2000 :: Log Killrand: drop jade
+Sun Mar 19 21:19:59 2000 :: Killrand has quit. [Room: 4209]
+Sun Mar 19 21:19:59 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:19:59 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:19:59 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:19:59 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:19:59 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:19:59 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:19:59 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:19:59 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:20:04 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 21:20:06 2000 :: Loading Permanent's playerfile
+Sun Mar 19 21:20:06 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 21:20:37 2000 :: Rhihorn@ip209-183-94-170.ts.indy.net new player.
+Sun Mar 19 21:23:41 2000 :: Sock.sinaddr:  216.203.166.75
+Sun Mar 19 21:23:55 2000 :: Loading Fyrechild's playerfile
+Sun Mar 19 21:23:56 2000 :: Fyrechild@216-203-166-75.ticnet.com has connected. [Room: 2]
+Sun Mar 19 21:23:59 2000 :: Sock.sinaddr:  209.197.225.165
+Sun Mar 19 21:24:04 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 21:24:08 2000 :: Azleshun@dallas.tx.tnt1.165.fastlane.net has connected. [Room: 4208]
+Sun Mar 19 21:26:32 2000 :: [*****] BUG: Skill lookup failed for detect stealth.
+Sun Mar 19 21:33:16 2000 :: Sock.sinaddr:  209.130.183.108
+Sun Mar 19 21:33:17 2000 :: Loading Misery's playerfile
+Sun Mar 19 21:33:17 2000 :: Misery@209-130-183-108.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 21:34:38 2000 :: Phenix has quit. [Room: 3759]
+Sun Mar 19 21:34:50 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:34:50 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 21:34:50 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:34:52 2000 :: Log Gandalf: drop pla
+Sun Mar 19 21:34:53 2000 :: Log Gandalf: drop pla
+Sun Mar 19 21:34:55 2000 :: Log Gandalf: drop pla
+Sun Mar 19 21:35:01 2000 :: Log Rhihorn: drop all
+Sun Mar 19 21:36:05 2000 :: Sock.sinaddr:  207.34.68.236
+Sun Mar 19 21:37:39 2000 :: Fyrechild has quit. [Room: 14980]
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:37:39 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 21:37:39 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 21:37:41 2000 :: Sock.sinaddr:  216.203.166.75
+Sun Mar 19 21:37:44 2000 :: Loading Vegita's playerfile
+Sun Mar 19 21:37:46 2000 :: Vegita@216-203-166-75.ticnet.com has connected. [Room: 9504]
+Sun Mar 19 21:39:33 2000 :: Log Vegita: drop all
+Sun Mar 19 21:41:26 2000 :: Sock.sinaddr:  209.245.253.149
+Sun Mar 19 21:42:03 2000 :: Log Rhihorn: drop all
+Sun Mar 19 21:42:06 2000 :: Loading ZipZip's playerfile
+Sun Mar 19 21:42:15 2000 :: Loading Zip's playerfile
+Sun Mar 19 21:42:50 2000 :: MAXLOAD: vnum 3715 maxed out.
+Sun Mar 19 21:43:00 2000 :: Zip@209-245-253-149.ipset41.wt.net new player.
+Sun Mar 19 21:46:35 2000 :: Sock.sinaddr:  130.212.10.236
+Sun Mar 19 21:46:37 2000 :: Loading Poco's playerfile
+Sun Mar 19 21:46:38 2000 :: Poco@orion.sfsu.edu has connected. [Room: 29060]
+Sun Mar 19 21:46:58 2000 :: Poco has quit. [Room: 29060]
+Sun Mar 19 21:46:58 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:46:58 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:46:58 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:46:58 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:52:28 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:52:28 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:52:28 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:52:28 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:52:29 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 21:52:29 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:52:29 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 21:52:29 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:53:33 2000 :: Log Rhihorn: join cleric
+Sun Mar 19 21:56:45 2000 :: Rhihorn has quit. [Room: 4207]
+Sun Mar 19 21:56:50 2000 :: Log Vegita: drop ex
+Sun Mar 19 21:57:09 2000 :: Log Vegita: drop co
+Sun Mar 19 21:58:15 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 21:58:15 2000 :: MAXLOAD: vnum 717 maxed out.
+Sun Mar 19 21:58:39 2000 :: Sock.sinaddr:  209.130.183.108
+Sun Mar 19 21:58:46 2000 :: Loading Misery's playerfile
+Sun Mar 19 21:58:48 2000 :: Misery@209-130-183-108.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 21:59:09 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 21:59:09 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 21:59:09 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:00:06 2000 :: Sock.sinaddr:  216.190.133.194
+Sun Mar 19 22:00:08 2000 :: Loading Darkside's playerfile
+Sun Mar 19 22:00:09 2000 :: DarkSide@stk-eli-9-185.internetuser.net has connected. [Room: 2473]
+Sun Mar 19 22:00:24 2000 :: DarkSide has quit. [Room: 2473]
+Sun Mar 19 22:00:24 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 22:00:24 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:00:24 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 22:00:24 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:03:05 2000 :: Log Gandalf: drop copper
+Sun Mar 19 22:03:09 2000 :: Log Gandalf: drop pike
+Sun Mar 19 22:03:11 2000 :: Log Gandalf: drop ham
+Sun Mar 19 22:06:29 2000 :: Sock.sinaddr:  209.130.183.108
+Sun Mar 19 22:06:34 2000 :: Loading Misery's playerfile
+Sun Mar 19 22:06:34 2000 :: Misery@209-130-183-108.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 22:06:57 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:06:57 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 22:06:57 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:07:09 2000 :: Permanent did a remove all.
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 22:07:46 2000 :: Closing link to Gandalf.
+Sun Mar 19 22:11:25 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:11:25 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:11:25 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:11:25 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:11:25 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:11:25 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:11:25 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:11:25 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:11:31 2000 :: Permanent did a remove all.
+Sun Mar 19 22:16:04 2000 :: Gandalf has quit. [Room: 2]
+Sun Mar 19 22:17:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:17:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:17:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:17:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:17:55 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:17:55 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:17:55 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:17:55 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 22:18:20 2000 :: Closing link to Zip.
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:19:31 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 22:19:31 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:20:13 2000 :: Azleshun did a remove all.
+Sun Mar 19 22:20:51 2000 :: Sock.sinaddr:  209.245.253.149
+Sun Mar 19 22:20:59 2000 :: Loading Zip's playerfile
+Sun Mar 19 22:21:11 2000 :: Zip@209-245-253-149.ipset41.wt.net reconnected. [Room: 3758]
+Sun Mar 19 22:22:52 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 22:22:53 2000 :: Loading Misery's playerfile
+Sun Mar 19 22:22:53 2000 :: Misery@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 22:23:18 2000 :: Sock.sinaddr:  161.200.93.9
+Sun Mar 19 22:23:36 2000 :: Loading Phenix's playerfile
+Sun Mar 19 22:23:40 2000 :: Phenix@unchan.cp.eng.chula.ac.th has connected. [Room: 3759]
+Sun Mar 19 22:23:42 2000 :: Sock.sinaddr:  216.67.19.241
+Sun Mar 19 22:23:44 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:23:44 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 22:23:44 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:23:49 2000 :: Loading Tsunami's playerfile
+Sun Mar 19 22:23:51 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 22:23:53 2000 :: Loading Misery's playerfile
+Sun Mar 19 22:23:53 2000 :: Misery@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 22:24:10 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:24:13 2000 :: Tsunami@nas-19-241.la.navinet.net new player.
+Sun Mar 19 22:24:31 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:24:45 2000 :: Tsunami has quit. [Room: 3700]
+Sun Mar 19 22:24:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:25:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:25:31 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:25:37 2000 :: Sock.sinaddr:  203.56.244.50
+Sun Mar 19 22:25:45 2000 :: Loading Gipsy's playerfile
+Sun Mar 19 22:25:47 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 2]
+Sun Mar 19 22:25:54 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:26:14 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:26:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:26:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:27:15 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:27:34 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:27:53 2000 :: Gipsy has quit. [Room: 2]
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 22:27:53 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 22:27:53 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 22:27:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:28:07 2000 :: Sock.sinaddr:  203.56.244.50
+Sun Mar 19 22:28:09 2000 :: Do_remove: Vegita : dag
+Sun Mar 19 22:28:11 2000 :: Loading Gipsy's playerfile
+Sun Mar 19 22:28:12 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 2]
+Sun Mar 19 22:28:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:28:35 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:28:55 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:29:15 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:29:34 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:29:54 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:30:00 2000 :: Sock.sinaddr:  209.152.123.198
+Sun Mar 19 22:30:02 2000 :: Loading Egrimm's playerfile
+Sun Mar 19 22:30:02 2000 :: Egrimm@209.152.123.198 has connected. [Room: 4208]
+Sun Mar 19 22:30:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:30:31 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:30:52 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:31:12 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:31:42 2000 :: Log Zip: drop cloak
+Sun Mar 19 22:34:35 2000 :: Log Gipsy: drop gold
+Sun Mar 19 22:34:36 2000 :: Log Gipsy: drop gold
+Sun Mar 19 22:34:39 2000 :: Log Gipsy: drop gold
+Sun Mar 19 22:35:00 2000 :: Log Gipsy: drop am
+Sun Mar 19 22:35:33 2000 :: Log Gipsy: drop key
+Sun Mar 19 22:36:29 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:36:29 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:36:30 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:36:31 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:36:32 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:36:32 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:40:21 2000 :: Log Zip: drop bracer
+Sun Mar 19 22:40:21 2000 :: Log Zip: drop boots
+Sun Mar 19 22:41:01 2000 :: Do_remove: Azleshun : silver
+Sun Mar 19 22:44:27 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 22:44:27 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 22:44:27 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 22:44:29 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 22:44:32 2000 :: Loading Astarte's playerfile
+Sun Mar 19 22:44:32 2000 :: Astarte@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 4208]
+Sun Mar 19 22:45:35 2000 :: Log Vegita: o
+Sun Mar 19 22:45:53 2000 :: Sock.sinaddr:  208.19.49.199
+Sun Mar 19 22:45:54 2000 :: Loading Valkor's playerfile
+Sun Mar 19 22:45:56 2000 :: Valkor@ppp-208-19-49-199.isdn.jetlink.net has connected. [Room: 10154]
+Sun Mar 19 22:46:01 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:46:01 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:46:01 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:46:01 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:46:01 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:46:01 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:46:02 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:46:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:46:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:46:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:46:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:46:03 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:46:04 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:46:04 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:46:23 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 22:46:23 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:46:23 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 22:46:23 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:49:06 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:49:06 2000 :: Do_remove: Gipsy : universe
+Sun Mar 19 22:49:07 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:49:08 2000 :: Do_remove: Gipsy : eagle
+Sun Mar 19 22:49:09 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:49:09 2000 :: Do_remove: Gipsy : spiked
+Sun Mar 19 22:50:07 2000 :: Vegita has quit. [Room: 4209]
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:07 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:50:07 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:09 2000 :: Sock.sinaddr:  216.203.166.75
+Sun Mar 19 22:50:09 2000 :: Log Egrimm: o
+Sun Mar 19 22:50:11 2000 :: Azleshun has quit. [Room: 4209]
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:50:11 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:50:11 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:50:11 2000 :: Loading Fyrechild's playerfile
+Sun Mar 19 22:50:12 2000 :: Fyrechild@216-203-166-75.ticnet.com has connected. [Room: 2]
+Sun Mar 19 22:50:19 2000 :: Sock.sinaddr:  209.197.225.165
+Sun Mar 19 22:50:20 2000 :: Log Permanent: drop leg
+Sun Mar 19 22:51:00 2000 :: Log Permanent: drop gaunt
+Sun Mar 19 22:52:04 2000 :: Astarte has quit. [Room: 4208]
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 22:52:04 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 22:52:04 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 22:52:06 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 22:52:06 2000 :: Loading Misery's playerfile
+Sun Mar 19 22:52:07 2000 :: Misery@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 2537]
+Sun Mar 19 22:52:16 2000 :: Log Phenix: drop chai
+Sun Mar 19 22:52:39 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 22:52:41 2000 :: Azleshun@dallas.tx.tnt1.165.fastlane.net has connected. [Room: 4209]
+Sun Mar 19 22:53:04 2000 :: Log Misery: drop all.cake
+Sun Mar 19 22:53:14 2000 :: Log Phenix: drop ring
+Sun Mar 19 22:58:00 2000 :: Sock.sinaddr:  209.109.233.25
+Sun Mar 19 22:58:19 2000 :: Loading Mrsmiley's playerfile
+Sun Mar 19 22:58:22 2000 :: MrSmiley@sji-ca3-25.ix.netcom.com has connected. [Room: 2]
+Sun Mar 19 23:00:19 2000 :: Valkor killed by Bear Olefsky at 10154
+Sun Mar 19 23:00:19 2000 :: [GAMEDRIVER] Valkor has 115972 exp at level 51. Minimum for level is 116025.
+Sun Mar 19 23:00:19 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:00:19 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:00:19 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:00:19 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:00:19 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:00:19 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:00:19 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:00:19 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:01:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:01:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:01:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:01:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:01:41 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:01:41 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:01:41 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:01:41 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:02:04 2000 :: Log MrSmiley: drop cor
+Sun Mar 19 23:02:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:02:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:02:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:02:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:02:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:02:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:02:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:02:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:02:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:02:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:02:07 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:02:07 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:02:25 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:02:25 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:02:25 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:02:25 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:02:41 2000 :: Gipsy has quit. [Room: 29206]
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:02:41 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 23:02:41 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:03:47 2000 :: Log Valkor: murder valk
+Sun Mar 19 23:03:55 2000 :: Permanent has quit. [Room: 4209]
+Sun Mar 19 23:03:55 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 23:03:55 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:03:55 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 23:03:55 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:03:55 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Sun Mar 19 23:03:55 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:03:55 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Sun Mar 19 23:03:55 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:01 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 23:04:02 2000 :: Loading Rune's playerfile
+Sun Mar 19 23:04:03 2000 :: Rune@dialup240.serv.net has connected. [Room: 4210]
+Sun Mar 19 23:04:21 2000 :: Rune has quit. [Room: 4210]
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:21 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:04:21 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:27 2000 :: Sock.sinaddr:  207.207.70.169
+Sun Mar 19 23:04:27 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:04:27 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:04:27 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:04:28 2000 :: Loading Permanent's playerfile
+Sun Mar 19 23:04:29 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Sun Mar 19 23:04:30 2000 :: Sock.sinaddr:  209.197.225.165
+Sun Mar 19 23:06:23 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 23:06:28 2000 :: Azleshun@dallas.tx.tnt1.165.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 23:09:58 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 23:09:58 2000 :: Loading Samus's playerfile
+Sun Mar 19 23:09:59 2000 :: Samus@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 4208]
+Sun Mar 19 23:10:04 2000 :: Fyrechild killed by Egrimm at 10125
+Sun Mar 19 23:10:04 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:10:04 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:10:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:10:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:10:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:10:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:10:04 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:10:04 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:10:29 2000 :: Phenix has quit. [Room: 9403]
+Sun Mar 19 23:10:37 2000 :: Sock.sinaddr:  24.9.195.74
+Sun Mar 19 23:10:38 2000 :: Loading Dominique's playerfile
+Sun Mar 19 23:10:47 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Sun Mar 19 23:11:17 2000 :: Samus has quit. [Room: 4208]
+Sun Mar 19 23:11:18 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 23:11:19 2000 :: Loading Andross's playerfile
+Sun Mar 19 23:11:20 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 29208]
+Sun Mar 19 23:11:30 2000 :: Log Fyrechild: drop saber
+Sun Mar 19 23:11:42 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:11:42 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:11:42 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:11:42 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:11:42 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:11:42 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:11:42 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:11:42 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:13:29 2000 :: Log Fyrechild: drop saber
+Sun Mar 19 23:13:30 2000 :: Log Fyrechild: drop arm
+Sun Mar 19 23:16:06 2000 :: Dominique has quit. [Room: 4208]
+Sun Mar 19 23:16:29 2000 :: Fyrechild has quit. [Room: 1090]
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:16:29 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:16:29 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:17:46 2000 :: EOF encountered on read.
+Sun Mar 19 23:17:46 2000 :: Closing link to Zip.
+Sun Mar 19 23:18:52 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:18:52 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:18:52 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:21:28 2000 :: Egrimm has quit. [Room: 4208]
+Sun Mar 19 23:21:28 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:21:28 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:21:28 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:21:28 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:23:33 2000 :: MrSmiley has quit. [Room: 2563]
+Sun Mar 19 23:23:33 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:23:33 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:23:33 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:23:33 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:23:33 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:23:33 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:23:33 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:23:33 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:24:31 2000 :: Sock.sinaddr:  128.255.56.4
+Sun Mar 19 23:25:42 2000 :: Zip has quit. [Room: 2]
+Sun Mar 19 23:27:12 2000 :: Andross has quit. [Room: 2624]
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:12 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:27:12 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:13 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 23:27:15 2000 :: Loading Umbringen's playerfile
+Sun Mar 19 23:27:16 2000 :: Umbringen@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 25289]
+Sun Mar 19 23:27:35 2000 :: Misery has quit. [Room: 2537]
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:27:35 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 23:27:35 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:27:36 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 23:27:38 2000 :: Loading Iason's playerfile
+Sun Mar 19 23:27:38 2000 :: Iason@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 4208]
+Sun Mar 19 23:27:40 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:27:40 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:27:40 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:27:40 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:27:42 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:27:42 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:27:42 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:27:42 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:27:45 2000 :: Iason has quit. [Room: 4208]
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:27:45 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:27:45 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:27:46 2000 :: Sock.sinaddr:  209.130.183.111
+Sun Mar 19 23:27:49 2000 :: Loading Killuminati's playerfile
+Sun Mar 19 23:27:50 2000 :: Killuminati@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 4208]
+Sun Mar 19 23:27:51 2000 :: Log Umbringen: drop ham
+Sun Mar 19 23:28:00 2000 :: Sock.sinaddr:  209.197.225.12
+Sun Mar 19 23:28:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:28:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:28:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:28:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:28:04 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 23:28:06 2000 :: Azleshun@dallas.tx.tnt1.12.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 23:28:06 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:28:06 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:28:06 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:28:06 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:08 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:08 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:08 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:08 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:08 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:08 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:08 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:08 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:12 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:12 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:12 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:12 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:12 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:12 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:12 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:12 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:20 2000 :: Umbringen has quit. [Room: 4208]
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:20 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:20 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:22 2000 :: Sock.sinaddr:  24.218.148.69
+Sun Mar 19 23:29:23 2000 :: Loading Andross's playerfile
+Sun Mar 19 23:29:23 2000 :: Andross@robinsnestthreeonesix.ne.mediaone.net has connected. [Room: 2624]
+Sun Mar 19 23:29:32 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:32 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:32 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:32 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:38 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:38 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:38 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:38 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:46 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:46 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:46 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:46 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:58 2000 :: Killuminati has quit. [Room: 4208]
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:29:58 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 23:29:58 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:33:03 2000 :: Log Valkor: drop bow
+Sun Mar 19 23:33:08 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:33:08 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:33:08 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:37:42 2000 :: Sock.sinaddr:  203.56.244.50
+Sun Mar 19 23:37:45 2000 :: Loading Gipsy's playerfile
+Sun Mar 19 23:37:47 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 29206]
+Sun Mar 19 23:40:18 2000 :: Gipsy has quit. [Room: 29206]
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:40:18 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Mar 19 23:40:18 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:41:17 2000 :: Sock.sinaddr:  209.197.225.12
+Sun Mar 19 23:41:23 2000 :: Loading Azleshun's playerfile
+Sun Mar 19 23:41:25 2000 :: Azleshun@dallas.tx.tnt1.12.fastlane.net has connected. [Room: 4210]
+Sun Mar 19 23:41:53 2000 :: Azleshun has quit. [Room: 4210]
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:41:53 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:41:53 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:45:52 2000 :: Log Andross: drop shad
+Sun Mar 19 23:45:54 2000 :: Log Andross: drop dark
+Sun Mar 19 23:45:55 2000 :: Log Andross: drop stake
+Sun Mar 19 23:45:57 2000 :: Log Andross: drop neck
+Sun Mar 19 23:46:01 2000 :: Log Andross: drop straight
+Sun Mar 19 23:46:01 2000 :: Log Andross: drop straight
+Sun Mar 19 23:46:06 2000 :: Log Andross: drop rub
+Sun Mar 19 23:46:08 2000 :: Log Andross: drop rib
+Read_from_descriptor: Connection reset by peer
+Sun Mar 19 23:48:52 2000 :: Closing link to Valkor.
+Sun Mar 19 23:48:53 2000 :: Sock.sinaddr:  208.19.49.199
+Sun Mar 19 23:49:00 2000 :: Loading Valkor's playerfile
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:49:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:49:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:49:02 2000 :: Valkor@ppp-208-19-49-199.isdn.jetlink.net reconnected. [Room: 4209]
+Sun Mar 19 23:51:00 2000 :: Andross has quit. [Room: 4210]
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:51:00 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:51:00 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:52:24 2000 :: Sock.sinaddr:  208.19.49.108
+Sun Mar 19 23:52:30 2000 :: Loading Valkor's playerfile
+Sun Mar 19 23:52:33 2000 :: Closing link to Valkor.
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Sun Mar 19 23:52:33 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Mar 19 23:52:33 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sun Mar 19 23:52:33 2000 :: Valkor@ppp-208-19-49-108.isdn.jetlink.net reconnected. [Room: 4209]
+Sun Mar 19 23:54:02 2000 :: Sock.sinaddr:  203.56.244.50
+Sun Mar 19 23:54:16 2000 :: Loading Karas's playerfile
+Sun Mar 19 23:54:18 2000 :: Karas@modem050.drakul.comcen.com.au has connected. [Room: 2418]
+Sun Mar 19 23:59:16 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:59:16 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:59:16 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:59:16 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Mar 19 23:59:38 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Mar 19 23:59:38 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Mar 19 23:59:38 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Mar 19 23:59:38 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:00:58 2000 :: Sock.sinaddr:  24.12.31.202
+Mon Mar 20 00:01:01 2000 :: Loading Diablerie's playerfile
+Mon Mar 20 00:01:02 2000 :: Diablerie@c252670-a.scllg1.pa.home.com has connected. [Room: 9969]
+Mon Mar 20 00:09:39 2000 :: Log Permanent: drop robe
+Mon Mar 20 00:11:45 2000 :: Sock.sinaddr:  24.9.195.74
+Mon Mar 20 00:11:46 2000 :: Loading Dominique's playerfile
+Mon Mar 20 00:11:48 2000 :: Dominique@c264325-a.moline1.il.home.com has connected. [Room: 4208]
+Mon Mar 20 00:13:19 2000 :: Permanent has quit. [Room: 4209]
+Mon Mar 20 00:13:19 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 00:13:19 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:13:19 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 00:13:19 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:13:19 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 00:13:19 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:13:19 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 00:13:19 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:16:43 2000 :: Diablerie has quit. [Room: 9969]
+Mon Mar 20 00:16:44 2000 :: Sock.sinaddr:  24.12.31.202
+Mon Mar 20 00:16:47 2000 :: EOF encountered on read.
+Mon Mar 20 00:19:41 2000 :: Dominique has quit. [Room: 4208]
+Mon Mar 20 00:24:35 2000 :: Valkor has quit. [Room: 2537]
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:24:35 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:24:35 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:25:54 2000 :: Karas has quit. [Room: 29005]
+Mon Mar 20 00:25:54 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Mon Mar 20 00:25:54 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:25:54 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Mon Mar 20 00:25:54 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:26:08 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 00:26:11 2000 :: Loading Gipsy's playerfile
+Mon Mar 20 00:26:13 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 29206]
+Mon Mar 20 00:27:48 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:27:48 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:27:50 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:27:50 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:27:51 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:27:51 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:32:06 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 00:32:08 2000 :: Loading Killrand's playerfile
+Mon Mar 20 00:32:08 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Mon Mar 20 00:32:40 2000 :: Sock.sinaddr:  209.152.123.198
+Mon Mar 20 00:32:40 2000 :: Loading Egrimm's playerfile
+Mon Mar 20 00:32:41 2000 :: Egrimm@209.152.123.198 has connected. [Room: 4208]
+Mon Mar 20 00:32:41 2000 :: Killrand has quit. [Room: 10447]
+Mon Mar 20 00:32:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:32:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:32:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:32:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:32:41 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:32:41 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:32:41 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:32:41 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:32:48 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 00:32:49 2000 :: Loading Rune's playerfile
+Mon Mar 20 00:32:50 2000 :: Rune@dialup240.serv.net has connected. [Room: 4210]
+Mon Mar 20 00:32:54 2000 :: Sock.sinaddr:  207.177.48.153
+Mon Mar 20 00:32:57 2000 :: Loading Canon's playerfile
+Mon Mar 20 00:32:59 2000 :: Canon@blfd-01-24.dialup.netins.net has connected. [Room: 4205]
+Mon Mar 20 00:33:02 2000 :: Rune has quit. [Room: 4210]
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 911|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 911|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:33:02 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:33:02 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:33:05 2000 :: Canon has quit. [Room: 4205]
+Mon Mar 20 00:33:05 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Mon Mar 20 00:33:05 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:33:05 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Mon Mar 20 00:33:05 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:33:11 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 00:33:12 2000 :: Loading Permanent's playerfile
+Mon Mar 20 00:33:12 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Mon Mar 20 00:38:00 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:38:00 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:38:02 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:38:02 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:38:03 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:38:03 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:43:44 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:43:44 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 00:43:46 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:43:46 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 00:43:47 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:43:47 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 00:46:59 2000 :: Egrimm has quit. [Room: 4209]
+Mon Mar 20 00:46:59 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 00:46:59 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:46:59 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 00:46:59 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:53:45 2000 :: Gipsy has quit. [Room: 29206]
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 00:53:45 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 00:53:45 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 01:03:21 2000 :: Permanent has quit. [Room: 4209]
+Mon Mar 20 01:03:21 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:03:21 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:03:21 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:03:21 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:03:21 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:03:21 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:03:21 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:03:21 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:03:23 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 01:03:26 2000 :: Loading Gipsy's playerfile
+Mon Mar 20 01:03:27 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 01:03:28 2000 :: Loading Killrand's playerfile
+Mon Mar 20 01:03:28 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 29206]
+Mon Mar 20 01:03:28 2000 :: Killrand@dialup240.serv.net has connected. [Room: 2]
+Mon Mar 20 01:08:25 2000 :: Log Killrand: drop elix
+Mon Mar 20 01:08:25 2000 :: Log Killrand: drop elix
+Mon Mar 20 01:08:27 2000 :: Killrand has quit. [Room: 4209]
+Mon Mar 20 01:08:27 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:08:27 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:08:27 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:08:27 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:08:27 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:08:27 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:08:27 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:08:27 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:08:33 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 01:08:34 2000 :: Loading Permanent's playerfile
+Mon Mar 20 01:08:34 2000 :: Permanent@dialup240.serv.net has connected. [Room: 4209]
+Mon Mar 20 01:12:32 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:12:33 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:12:34 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:12:34 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:12:35 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 01:12:35 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 01:19:21 2000 :: Sock.sinaddr:  216.190.133.19
+Mon Mar 20 01:19:27 2000 :: Loading Darkside's playerfile
+Mon Mar 20 01:19:29 2000 :: DarkSide@stk-eli-9-010.internetuser.net has connected. [Room: 2473]
+Mon Mar 20 01:19:33 2000 :: DarkSide has quit. [Room: 2473]
+Mon Mar 20 01:19:33 2000 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Mon Mar 20 01:19:33 2000 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:19:33 2000 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Mon Mar 20 01:19:33 2000 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:22:18 2000 :: Gipsy has quit. [Room: 29206]
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 01:22:18 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 01:22:18 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 01:27:42 2000 :: Permanent has quit. [Room: 13201]
+Mon Mar 20 01:27:42 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:27:42 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:27:42 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:27:42 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:27:42 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:27:42 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:27:42 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:27:42 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:27:50 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 01:27:51 2000 :: Loading Killrand's playerfile
+Mon Mar 20 01:27:52 2000 :: Killrand@dialup240.serv.net has connected. [Room: 4209]
+Mon Mar 20 01:29:43 2000 :: Log Killrand: drop helm
+Mon Mar 20 01:29:45 2000 :: Killrand has quit. [Room: 13215]
+Mon Mar 20 01:29:45 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:29:45 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:29:45 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:29:45 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:29:45 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:29:45 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:29:45 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:29:45 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:29:51 2000 :: Sock.sinaddr:  207.207.70.169
+Mon Mar 20 01:29:52 2000 :: Loading Permanent's playerfile
+Mon Mar 20 01:29:52 2000 :: Permanent@dialup240.serv.net has connected. [Room: 13201]
+Mon Mar 20 01:31:16 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 01:31:19 2000 :: Loading Gipsy's playerfile
+Mon Mar 20 01:31:24 2000 :: Gipsy@modem050.drakul.comcen.com.au has connected. [Room: 29206]
+Mon Mar 20 01:35:15 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:35:15 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:35:17 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:35:17 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:35:18 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 01:35:18 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 01:38:26 2000 :: [*****] BUG: Skill lookup failed for detect stealth.
+Mon Mar 20 01:38:52 2000 :: [*****] BUG: Skill lookup failed for detect stealth.
+Mon Mar 20 01:39:10 2000 :: Permanent has quit. [Room: 4209]
+Mon Mar 20 01:39:10 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:39:10 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:39:10 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:39:10 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:39:10 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:39:10 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:39:10 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:39:10 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:44:11 2000 :: Sock.sinaddr:  130.212.10.236
+Mon Mar 20 01:44:12 2000 :: Loading Poco's playerfile
+Mon Mar 20 01:44:14 2000 :: Poco@orion.sfsu.edu has connected. [Room: 29060]
+Mon Mar 20 01:44:22 2000 :: Poco has quit. [Room: 29060]
+Mon Mar 20 01:44:22 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 01:44:22 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:44:22 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 01:44:22 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:50:39 2000 :: Sock.sinaddr:  165.121.122.165
+Mon Mar 20 01:50:54 2000 :: EOF encountered on read.
+Mon Mar 20 01:52:02 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:52:02 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 01:52:03 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:52:04 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 01:52:05 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 01:52:05 2000 :: Do_remove: Gipsy : spiked
+Read_from_descriptor: Connection reset by peer
+Mon Mar 20 01:54:53 2000 :: Closing link to Gipsy.
+Mon Mar 20 01:57:59 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 01:58:01 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 01:58:01 2000 :: EOF encountered on read.
+Mon Mar 20 01:58:02 2000 :: Loading Gipsy's playerfile
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 01:58:04 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 01:58:04 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 01:58:04 2000 :: Gipsy@modem050.drakul.comcen.com.au reconnected. [Room: 29214]
+Mon Mar 20 02:01:25 2000 :: Log Gipsy: exchange
+Mon Mar 20 02:03:28 2000 :: Log Gipsy: deposit 316
+Mon Mar 20 02:07:20 2000 :: Log Gipsy: drop key
+Mon Mar 20 02:24:41 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:24:52 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:24:57 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:24:58 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:24:58 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:25:08 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:25:09 2000 :: Sock.sinaddr:  163.20.152.217
+Mon Mar 20 02:25:44 2000 :: Sock.sinaddr:  203.56.244.50
+Mon Mar 20 02:25:44 2000 :: EOF encountered on read.
+Mon Mar 20 02:25:44 2000 :: EOF encountered on read.
+Mon Mar 20 02:25:44 2000 :: Closing link to Gipsy.
+Mon Mar 20 02:25:47 2000 :: Loading Gipsy's playerfile
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 02:25:49 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 02:25:49 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 02:25:49 2000 :: Gipsy@modem050.drakul.comcen.com.au reconnected. [Room: 14830]
+Mon Mar 20 02:26:59 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 02:26:59 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 02:27:00 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 02:27:01 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 02:27:02 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 02:27:02 2000 :: Do_remove: Gipsy : spiked
+Read_from_descriptor: Connection reset by peer
+Read_from_descriptor: Connection reset by peer
+Read_from_descriptor: Connection reset by peer
+Read_from_descriptor: Connection reset by peer
+Mon Mar 20 02:27:32 2000 :: EOF encountered on read.
+Mon Mar 20 02:27:41 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:27:42 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:27:56 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:28:02 2000 :: Sock.sinaddr:  203.64.38.219
+Read_from_descriptor: Connection reset by peer
+Mon Mar 20 02:28:48 2000 :: Sock.sinaddr:  203.64.38.219
+Mon Mar 20 02:28:49 2000 :: EOF encountered on read.
+Mon Mar 20 02:33:57 2000 :: Log Gipsy: drop gold
+Mon Mar 20 02:33:57 2000 :: Log Gipsy: drop gold
+Mon Mar 20 02:37:19 2000 :: Sock.sinaddr:  163.20.152.217
+Mon Mar 20 02:37:58 2000 :: Sock.sinaddr:  163.20.152.217
+Read_from_descriptor: Broken pipe
+Mon Mar 20 02:38:03 2000 :: EOF encountered on read.
+Mon Mar 20 02:39:56 2000 :: Sock.sinaddr:  203.108.46.200
+Mon Mar 20 02:40:06 2000 :: Sock.sinaddr:  147.72.123.202
+Mon Mar 20 02:40:27 2000 :: Loading Test's playerfile
+Mon Mar 20 02:41:01 2000 :: Sock.sinaddr:  203.108.46.200
+Mon Mar 20 02:41:01 2000 :: Sock.sinaddr:  203.108.46.200
+Mon Mar 20 02:41:01 2000 :: EOF encountered on read.
+Mon Mar 20 02:41:01 2000 :: EOF encountered on read.
+Mon Mar 20 02:41:04 2000 :: Sock.sinaddr:  203.108.46.200
+Mon Mar 20 02:41:07 2000 :: Loading Mnemthenth's playerfile
+Mon Mar 20 02:41:08 2000 :: Test@147.72.123.202 new player.
+Mon Mar 20 02:41:31 2000 :: Test has quit. [Room: 3700]
+Mon Mar 20 02:44:02 2000 :: Mnemthenth@slper16p08.ozemail.com.au new player.
+Mon Mar 20 02:44:26 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 02:44:26 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 02:44:28 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 02:44:28 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 02:44:29 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 02:44:29 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 02:48:35 2000 :: Sock.sinaddr:  163.20.152.217
+Read_from_descriptor: Connection reset by peer
+Mon Mar 20 02:55:02 2000 :: Sock.sinaddr:  140.128.105.236
+Mon Mar 20 02:55:43 2000 :: EOF encountered on read.
+Mon Mar 20 02:56:27 2000 :: Mnemthenth has quit. [Room: 2]
+Mon Mar 20 02:58:31 2000 :: Sock.sinaddr:  207.34.68.236
+Mon Mar 20 02:58:31 2000 :: EOF encountered on read.
+Mon Mar 20 03:10:43 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 03:10:43 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 03:10:44 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 03:10:45 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 03:10:46 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 03:10:46 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 03:38:13 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 03:38:13 2000 :: Do_remove: Gipsy : universe
+Mon Mar 20 03:38:15 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 03:38:15 2000 :: Do_remove: Gipsy : eagle
+Mon Mar 20 03:38:16 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 03:38:16 2000 :: Do_remove: Gipsy : spiked
+Mon Mar 20 03:40:22 2000 :: Gipsy has quit. [Room: 29206]
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 717|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 03:40:22 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 03:40:22 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 03:51:24 2000 :: Sock.sinaddr:  194.109.181.101
+Mon Mar 20 03:51:26 2000 :: Loading Ungrim's playerfile
+Mon Mar 20 03:51:41 2000 :: Ungrim@s340-isdn357.dial.xs4all.nl new player.
+Mon Mar 20 03:51:51 2000 :: Ungrim has quit. [Room: 3757]
+Mon Mar 20 03:52:33 2000 :: Sock.sinaddr:  194.109.181.101
+Mon Mar 20 03:52:37 2000 :: Loading Protaeseus's playerfile
+Mon Mar 20 03:52:38 2000 :: Protaeseus@s340-isdn357.dial.xs4all.nl has connected. [Room: 2407]
+Mon Mar 20 03:53:56 2000 :: Protaeseus has quit. [Room: 2407]
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 10051|Signval: -1|!Gameload|Total: 4
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 3
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Mon Mar 20 03:53:56 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Mon Mar 20 03:53:56 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Mon Mar 20 04:37:55 2000 :: Sock.sinaddr:  130.161.167.94
+Mon Mar 20 04:38:00 2000 :: Loading Mindbug's playerfile
+Mon Mar 20 04:38:03 2000 :: Mindbug@dutlocw.lr.tudelft.nl has connected. [Room: 3757]
+Mon Mar 20 04:38:05 2000 :: Mindbug turned into a PKILLER.
+Mon Mar 20 04:42:33 2000 :: Log Mindbug: drop stick
+Mon Mar 20 04:42:44 2000 :: Log Mindbug: drop dragon
+Mon Mar 20 04:43:22 2000 :: Mindbug has quit. [Room: 4207]
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 17713|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 17713|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 04:43:22 2000 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Mon Mar 20 04:43:22 2000 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 04:59:47 2000 :: Sock.sinaddr:  203.64.214.251
+Mon Mar 20 05:00:09 2000 :: Sock.sinaddr:  203.64.214.251
+Mon Mar 20 05:00:09 2000 :: EOF encountered on read.
+Mon Mar 20 05:00:10 2000 :: EOF encountered on read.
+Mon Mar 20 05:31:35 2000 :: Sock.sinaddr:  129.65.128.48
+Mon Mar 20 05:31:45 2000 :: EOF encountered on read.
+Mon Mar 20 07:17:49 2000 :: Sock.sinaddr:  195.181.98.166
+Mon Mar 20 07:17:58 2000 :: EOF encountered on read.
+Mon Mar 20 07:28:00 2000 :: Sock.sinaddr:  195.181.98.166
+Mon Mar 20 07:28:06 2000 :: EOF encountered on read.
+Mon Mar 20 08:17:29 2000 :: Sock.sinaddr:  209.130.183.111
+Mon Mar 20 08:17:33 2000 :: Loading Misery's playerfile
+Mon Mar 20 08:17:33 2000 :: Misery@209-130-183-111.nas1.FOD.gblx.net has connected. [Room: 2537]
+Mon Mar 20 08:17:38 2000 :: Misery has quit. [Room: 2537]
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 28114|Signval: -1|!Gameload|Total: 1
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 28114|Signval: 1|!Gameload|Total: 0
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Mon Mar 20 08:17:38 2000 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Mon Mar 20 08:17:38 2000 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Mon Mar 20 08:18:24 2000 :: Sock.sinaddr:  196.37.158.203
+Mon Mar 20 08:19:04 2000 :: Loading Camlon's playerfile
+Mon Mar 20 08:20:47 2000 :: Camlon@196.37.158.203 new player.
+Mon Mar 20 08:22:02 2000 :: EOF encountered on read.
+Mon Mar 20 08:22:02 2000 :: Closing link to Camlon.
+Mon Mar 20 08:25:30 2000 :: Sock.sinaddr:  61.139.32.141
+Mon Mar 20 08:25:54 2000 :: EOF encountered on read.
+Mon Mar 20 08:26:48 2000 :: Sock.sinaddr:  216.129.152.9
+Mon Mar 20 08:26:52 2000 :: Loading Soulcrusher's playerfile
+Mon Mar 20 08:26:53 2000 :: Soulcrusher@fw1.naisp.net has connected. [Room: 9955]
+Mon Mar 20 08:26:57 2000 :: Log Soulcrusher: wizc
+Mon Mar 20 08:30:18 2000 :: Camlon has quit. [Room: 2]
+Mon Mar 20 08:33:53 2000 :: Sock.sinaddr:  129.240.145.82
+Mon Mar 20 08:33:55 2000 :: EOF encountered on read.
+Mon Mar 20 08:43:21 2000 :: Sock.sinaddr:  163.13.227.135
+Mon Mar 20 08:45:33 2000 :: Log Soulcrusher: shutdown
+Mon Mar 20 08:45:33 2000 :: Closing link to Soulcrusher.
+Mon Mar 20 08:45:33 2000 :: Normal termination of game.

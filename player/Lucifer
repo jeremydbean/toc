@@ -1,0 +1,370 @@
+#PLAYER
+Name Lucifer~
+Id   31794
+LogO 953164230
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 41
+Plyd 168621
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4202
+HMV  651 651 277 277 365 365
+NewGold 52
+NewPlat 805
+NewCopp 3
+NewSilv 2
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  94870
+Act  204
+AfBy 568
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 6
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 6
+Color 13 12
+Color 14 14
+Color 15 1
+Color 16 14
+Pos  8
+Save  8
+Alig  1000
+Hit   11
+Dam   15
+ACs 62 59 61 100
+Wimp  40
+Attr 17 16 12 12 19
+AMod 3 3 0 1 1
+Pass LupMfj8JpExsU~
+Titl  the Master Warrior~
+Pnts 40
+TSex 1
+LLev 42
+HMVP 591 267 340
+Cond 0 33 34
+Sk 75 'aid'
+Sk 1 'armor'
+Sk 62 'bless'
+Sk 1 'calm'
+Sk 1 'cancellation'
+Sk 1 'cause light'
+Sk 85 'cure critical'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 78 'demonfire'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dispel evil'
+Sk 1 'dispel good'
+Sk 1 'dispel magic'
+Sk 69 'flamestrike'
+Sk 75 'fly'
+Sk 76 'gate'
+Sk 82 'heal'
+Sk 53 'holy word'
+Sk 77 'identify'
+Sk 81 'mana convert'
+Sk 75 'pass door'
+Sk 18 'protection evil'
+Sk 75 'refresh'
+Sk 1 'remove curse'
+Sk 75 'sanctuary'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 75 'summon'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 95 'mace'
+Sk 15 'polearm'
+Sk 85 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 53 'archery'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 86 'dodge'
+Sk 97 'kick'
+Sk 86 'parry'
+Sk 89 'rescue'
+Sk 91 'second attack'
+Sk 46 'scrolls'
+Sk 1 'staves'
+Sk 58 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild attack'
+Gr 'guild benedictions'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'detect hidden'  18   9   0   0         32          0
+AffD 'detect magic'  11   9   0   0         16          0
+AffD 'detect invis'   7   9   0   0          8          0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Enchanted
+Nest 0
+ExtF 323
+Wear 16
+Lev  22
+Cost 350
+Cond 100
+Repd 0
+AffD 'enchant weapon' 32 -1 5 18 0 0
+AffD 'enchant weapon' 32 -1 5 19 0 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13301
+Nest 0
+Wear -1
+Lev  15
+Cost 10
+Cond 100
+Repd 0
+Affect -1 15 -1 4 20 0 0
+Affect -1 15 -1 1 24 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 533
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

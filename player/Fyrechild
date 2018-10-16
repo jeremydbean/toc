@@ -1,0 +1,891 @@
+#PLAYER
+Name Fyrechild~
+Id   34868
+LogO 953525789
+Vers 3
+Desc Before you stands a tall man that at first appears to be frail and rather
+weak but as you look harder you notice a brilliant light shines from him.
+His presence is very uplifting and you know that this is the guy you would
+want with you if you were in a cold place.  As you continue to study this
+mage you realize he is holding flaming gauntlets that seem to be the source
+of all his power.
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 52
+Plyd 1833856
+ListRemorts ~
+NumRemorts 0
+Note 953452295
+Scro 22
+Room 1090
+HMV  770 1161 361 687 345 431
+NewGold 101
+NewPlat 55
+NewCopp 281
+NewSilv 189
+Bank 1630910
+Dcount 1
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 82
+Exp  117616
+Act  196812
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 912302299
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Prac 8
+Trai 2
+Save  -7
+Alig  1000
+Hit   16
+Dam   18
+ACs -29 -31 -41 33
+Wimp  50
+Attr 12 18 13 14 13
+AMod 11 -5 0 -1 -9
+Pass FyJbbPvqls0Fg~
+Ariv completely covered in fire comes $n from $t~
+Dprt completely covered in fire leaves $n to $t~
+Titl  has a fetish for FYRE too~
+Pnts 40
+TSex 2
+LLev 453
+HMVP 656 507 406
+Cond 0 6 48
+Alias grats gos WOOHOO and uhh grats also~
+Alias woohoo and uhh grats also grats~
+Alias gos WOOHOO and uhh grats also grats~
+Alias invis wear silver~
+Alias vis wear universe~
+Alias ac cast acid~
+Alias man cast mana~
+Alias ch cast chain~
+Sk 100 'acid blast'
+Sk 84 'armor'
+Sk 83 'blindness'
+Sk 82 'burning hands'
+Sk 84 'cancellation'
+Sk 88 'chain lightning'
+Sk 1 'chill touch'
+Sk 90 'colour spray'
+Sk 61 'curse'
+Sk 89 'detect invis'
+Sk 99 'dispel magic'
+Sk 80 'energy drain'
+Sk 91 'faerie fire'
+Sk 77 'fireball'
+Sk 61 'fire shield'
+Sk 86 'fly'
+Sk 81 'force sword'
+Sk 85 'frost shield'
+Sk 98 'gate'
+Sk 91 'giant strength'
+Sk 99 'haste'
+Sk 93 'haven'
+Sk 43 'heat metal'
+Sk 98 'identify'
+Sk 75 'infravision'
+Sk 89 'lightning bolt'
+Sk 88 'locate object'
+Sk 78 'magic missile'
+Sk 83 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 83 'pass door'
+Sk 1 'poison'
+Sk 84 'portal'
+Sk 90 'power gloves'
+Sk 83 'protection evil'
+Sk 100 'refresh'
+Sk 79 'rope trick'
+Sk 100 'sanctuary'
+Sk 81 'shield'
+Sk 86 'shocking grasp'
+Sk 100 'slow'
+Sk 79 'stone skin'
+Sk 84 'summon'
+Sk 75 'teleport'
+Sk 75 'weaken'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 97 'mace'
+Sk 3 'polearm'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 75 'concoct'
+Sk 75 'shove'
+Sk 93 'sneak'
+Sk 80 'scrolls'
+Sk 75 'wands'
+Sk 92 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'detect invis'  36  49   0   0          8          0
+AffD 'giant strength'   0  47   4   1          0          0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 3858 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 0
+ExtF 0
+Wear 7
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7658
+Nest 0
+Wear 9
+Lev  35
+Cost 125
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Name heroism gauntlet~
+ShD  (Flaming) Fyrechild's gauntlet of heroism~
+Desc This ring represents the deeds and longevity of Fyrechild.  Forged from the fires of Val Aldur, it is melded of the finest gold and truly a tribute to his character.~
+ExtF 0
+Act_room $n slips his arm into this masterful piece of armor and his entire being lights up in brilliance.~
+Act_char A powerful sense of satisfaction and power envelops you as you don your gauntlet of heroism.~
+Wear 17
+Lev  48
+Cost 0
+Cond 1
+Repd 0
+Val  6 6 8 8 5
+End
+
+#O
+Vnum 13225
+Nest 0
+Wear 16
+Lev  25
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  53 0 0 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 8731
+Nest 1
+Wear -1
+Lev  30
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 62
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 533
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29217
+Nest 1
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 90
+Repd 0
+Affect -1 30 -1 -3 5 0 0
+End
+
+#O
+Vnum 29227
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 -1 5 0 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Time 613
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+Affect -1 52 -1 -10 13 0 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 15 0 0 0
+End
+
+#O
+Vnum 16016
+Nest 1
+Wear -1
+Lev  52
+Cost 2368
+Cond 86
+Repd 0
+Affect -1 52 -1 5 17 0 0
+Affect -1 52 -1 4 22 0 0
+Affect -1 52 -1 3 23 0 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 1
+Wear -1
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 1
+Wear -1
+Lev  46
+Cost 950
+Cond 86
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10012
+Nest 1
+Wear -1
+Lev  50
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 95
+Repd 0
+End
+
+#END

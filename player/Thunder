@@ -1,0 +1,374 @@
+#PLAYER
+Name Thunder~
+Id   47019
+LogO 950383484
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 5
+Plyd 3120
+ListRemorts ~
+NumRemorts 0
+Note 942810625
+Scro 22
+Room 3712
+HMV  62 62 104 104 114 114
+NewGold 573
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  11940
+Act  65788
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Save  -4
+Alig  0
+Hit   5
+Dam   2
+ACs 78 72 74 96
+Attr 17 13 16 13 15
+AMod 0 -5 2 0 0
+Pass ThGV5irEjQZlo~
+Titl  the Soldier~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 62 104 124
+Cond 0 0 0
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 67 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 13 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'bless'  35  33   3  18          0          0
+AffD 'bless'  39  33  -3  24          0          0
+AffD 'armor'   0  22 -20  17          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 151 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3702
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 17 17 0 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -5 3 0 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 1 19 0 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 4 20 0 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

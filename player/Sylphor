@@ -1,0 +1,627 @@
+#PLAYER
+Name Sylphor~
+Id   35100
+LogO 953446733
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  2
+Psionic  0
+Cast none
+Levl 10
+Plyd 22801
+ListRemorts ~
+NumRemorts 0
+Note 953441904
+Scro 22
+Room 4207
+HMV  103 103 109 109 114 354
+NewGold 1
+NewPlat 93
+NewCopp 78
+NewSilv 7
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  24844
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 9
+Color 2 12
+Color 3 12
+Color 4 0
+Color 5 0
+Color 6 12
+Color 7 12
+Color 8 0
+Color 9 0
+Color 10 7
+Color 11 8
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 12
+Color 16 13
+Pos  8
+Prac 2
+Trai 2
+Save  5
+Alig  -215
+Hit   -4
+Dam   4
+ACs 58 56 55 97
+Wimp  50
+Attr 17 12 12 13 13
+AMod 5 2 1 2 0
+Pass SyiPTzyho7Hd2~
+Titl  the Combatant~
+Pnts 40
+TSex 1
+LLev 5
+HMVP 103 109 154
+Cond 0 17 4
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 32 'mace'
+Sk 35 'polearm'
+Sk 36 'shield block'
+Sk 30 'spear'
+Sk 85 'sword'
+Sk 30 'whip'
+Sk 1 'backstab'
+Sk 1 'disarm'
+Sk 40 'kick'
+Sk 7 'parry'
+Sk 1 'rescue'
+Sk 1 'trip'
+Sk 24 'second attack'
+Sk 1 'listen at door'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'thief guild'
+End
+
+#O
+Vnum 3702
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 0
+Cond 95
+Repd 0
+Affect -1 6 -1 4 20 0 0
+End
+
+#O
+Vnum 9517
+Nest 0
+Wear 5
+Lev  7
+Cost 1070
+Cond 100
+Repd 0
+Val  4 5 4 0 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear -1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 0
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear -1
+Lev  7
+Cost 0
+Cond 85
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 15
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2105
+Nest 0
+Wear -1
+Lev  7
+Cost 200
+Cond 100
+Repd 0
+Spell 3 'curse'
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 8919
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8917
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  10
+Cost 0
+Cond 99
+Repd 0
+Val  6 4 6 0 0
+End
+
+#O
+Vnum 3022
+Nest 0
+Wear 16
+Lev  10
+Cost 750
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3074
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+Affect -1 5 -1 -3 3 0 0
+End
+
+#O
+Vnum 3074
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3077
+Nest 0
+Wear 10
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 11 0 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 96
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 2105
+Nest 0
+Wear -1
+Lev  7
+Cost 200
+Cond 100
+Repd 0
+Spell 3 'curse'
+Affect -1 7 -1 5 17 0 0
+End
+
+#O
+Vnum 24304
+Nest 0
+Wear -1
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 5 22 0 0
+End
+
+#O
+Vnum 24304
+Nest 0
+Wear 13
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 -4 18 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+Affect -1 11 -1 -4 1 0 0
+Affect -1 11 -1 1 17 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8009
+Nest 0
+ExtF 64
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 1 0
+Affect -1 52 -1 3 18 0 0
+Affect -1 52 -1 3 19 0 0
+End
+
+#O
+Vnum 2108
+Nest 0
+Wear 17
+Lev  6
+Cost 300
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 2110
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2110
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2104
+Nest 0
+Wear -1
+Lev  7
+Cost 250
+Cond 100
+Repd 0
+Affect -1 7 -1 -4 12 0 0
+End
+
+#O
+Vnum 2103
+Nest 0
+Wear -1
+Lev  8
+Cost 400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2104
+Nest 0
+Wear 11
+Lev  7
+Cost 250
+Cond 100
+Repd 0
+Affect -1 7 -1 1 20 0 0
+End
+
+#END

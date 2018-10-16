@@ -1,0 +1,566 @@
+#PLAYER
+Name Padan~
+Id   52884
+LogO 951852386
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 23
+Plyd 167013
+ListRemorts ~
+NumRemorts 0
+Note 951253659
+Scro 22
+Room 2805
+HMV  223 233 129 216 247 257
+NewGold 242
+NewPlat 35
+NewCopp 1595
+NewSilv 405
+Bank 1264
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  54854
+Act  204
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 12
+Save  8
+Alig  -887
+Hit   12
+Dam   25
+ACs -31 -23 -23 96
+Wimp  45
+Attr 12 19 18 14 18
+AMod 6 1 0 6 0
+Pass Pa9Rb95S5F9m6~
+Titl  member of the drunken necro gang~
+Pnts 40
+TSex 1
+LLev 43
+HMVP 233 219 232
+Cond 0 33 35
+Alias 0 recall~
+Alias 1 c shock~
+Alias 2 c animate~
+Alias 9 c mana~
+Alias 3 c chill~
+Alias 8 c "create skeleton" cor~
+Alias 4 c vamp~
+Alias 5 c skeletal~
+Alias n north~
+Alias s south~
+Alias e east~
+Alias w west~
+Sk 100 'animate parts'
+Sk 78 'armor'
+Sk 77 'cause light'
+Sk 76 'chill touch'
+Sk 77 'create skeleton'
+Sk 1 'create wraith'
+Sk 1 'create vampire'
+Sk 84 'butcher'
+Sk 1 'bewitch weapon'
+Sk 75 'curse'
+Sk 75 'death shroud'
+Sk 1 'earth travel'
+Sk 75 'embalm'
+Sk 1 'energy drain'
+Sk 75 'evil eye'
+Sk 75 'fly'
+Sk 1 'force sword'
+Sk 1 'haven'
+Sk 75 'infravision'
+Sk 83 'mana convert'
+Sk 1 'pass door'
+Sk 75 'poison'
+Sk 1 'raise dead'
+Sk 75 'remove curse'
+Sk 1 'ghostly presence'
+Sk 94 'shock sphere'
+Sk 75 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'trap the soul'
+Sk 75 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 84 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 84 'sword'
+Sk 15 'whip'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 78 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necromancy'
+Gr 'necro transportation'
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 96
+Repd 0
+Affect -1 7 -1 -3 3 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  17
+Cost 1000
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  11
+Cost 1250
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 2012
+Nest 0
+Wear 11
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  5 7 6 0 0
+Affect -1 18 -1 5 20 0 0
+Affect -1 18 -1 -3 12 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 98
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 7 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  19
+Cost 8500
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 19118
+Nest 0
+Wear 5
+Lev  19
+Cost 900
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19119
+Nest 0
+Wear 8
+Lev  19
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29015
+Nest 0
+ExtF 65
+Wear 16
+Lev  17
+Cost 100
+Cond 100
+Repd 0
+Affect -1 53 -1 2 18 0 0
+Affect -1 53 -1 2 19 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+ExtF 64
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+Affect -1 51 -1 -1 21 0 0
+Affect -1 51 -1 1 5 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 95
+Repd 0
+Val  4 4 2 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 99
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  6 5 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 9585
+Nest 1
+Wear -1
+Lev  13
+Cost 80
+Cond 100
+Repd 0
+Val  2 4 5 2 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 91
+Repd 0
+Val  4 3 2 0 0
+Affect -1 1 -1 -19 13 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 78
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3724
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  10 10 0 0 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 1
+Wear -1
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+Affect -1 25 -1 -1 19 0 0
+End
+
+#O
+Vnum 9221
+Nest 1
+Wear -1
+Lev  6
+Cost 792
+Cond 100
+Repd 0
+Spell 3 'cause serious'
+End
+
+#O
+Vnum 9221
+Nest 1
+Wear -1
+Lev  6
+Cost 792
+Cond 100
+Repd 0
+Spell 3 'cause serious'
+End
+
+#O
+Vnum 9218
+Nest 1
+Wear -1
+Lev  1
+Cost 2002
+Cond 100
+Repd 0
+Val  1 2 2 138 0
+Spell 3 'gas breath'
+End
+
+#O
+Vnum 10029
+Nest 1
+Wear -1
+Lev  15
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+Affect -1 15 -1 -5 4 0 0
+Affect -1 15 -1 -3 5 0 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Padan~
+Wear -1
+Time 234
+Cost 0
+Cond 25
+Repd 0
+End
+
+#END

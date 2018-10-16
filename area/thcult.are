@@ -1,0 +1,339 @@
+#AREA {25+}  Thalia   Ygul Tzi'anid~
+
+
+
+#MOBILES
+#18000
+mantis praying~
+a praying mantis~
+A large insect crouches here, devouring her mate.
+~
+You have never really been sure whether a mantis is said to be
+praying or preying.  She appears to be contemplating nothing more than
+the remains of her late husband, but her expression is reverential.
+Perhaps he is food for the spirit as well as the body.
+~
+unique~
+BDGMQV DFH 0 S
+40 4 40d30+600 20d40+240 4d8+13 20
+-12 -12 -12 -10
+FHIK ABCD 0 P
+8 8 2 5000
+0 0 M 0 
+#18001
+black widow spider~
+the black widow spider~
+A huge spider is climbing the walls.
+~
+A large black spider with hourglass markings on her back scurries up and 
+down, back and forth, along the walls.  She looks fearsome, with fangs
+dripping sizzling venom onto the floor.  Yet, somehow,  you feel she is 
+exactly the one who can lead you to your destiny.
+~
+unique~
+BEGKMV DFHNZ AB 0 S
+60 19 60d45+1020 30d60+420 5d8+15 26
+-18 -18 -18 -15
+ACDEFHO ABCD 0 0
+8 8 2 5000
+0 0 M 0
+#18002
+venus fly trap flytrap~
+a venus flytrap~
+A carnivorous plant snaps at you with open jaws.
+~
+A head dominated by a massive open mouth, lined with sharp teeth, tops a 
+thick green vine.  The jaws open and close rhythmically, chomping on what 
+looks like hamburger... until you notice the spit-out remnants of armor 
+lying on the floor.  
+~
+plant~
+BCGMT DFGOVZ B 0 S
+40 9 40d30+680 20d40+240 4d8+13 32
+-10 -10 -10 -10
+CEFJKNU ABLQR EP GK
+8 8 2 100
+0 0 L 0
+#0
+
+#OBJECTS
+#18000
+thorn~
+the thorn of death~
+A sharp thorn has fallen from a plant.
+~
+iron~
+5 AGIUV AN
+2 7 6 11 CD
+40 7 4000 P
+A 
+2 1
+A
+18 2
+A 
+19 3
+A
+23 -3
+#18001
+hood leaves~
+the hood of leaves~
+A stack of green leaves are waiting to be raked up
+~
+organic~
+9 AGIUV AE
+10 10 10 12 0
+40 3 10000 P
+E
+hood~
+The hood has been woven from thousands of leaves.  They are so dense that
+they provide excellent protection from many forms of attack, despite being
+extremely lightweight.
+~
+A
+3 1
+A
+14 20
+A
+20 -3
+#18002
+newspaper~
+today's newspaper~
+A newspaper has been read and abandoned here.
+~
+paper~
+13 M AO
+0 0 0 0 0
+0 1 0 W
+E
+newspaper news paper~
+The TOC Times
+
+All the news that fits we print.
+
+People come, people go, some people level, some people die.
+~
+#18003
+pond ~
+a koi pond~
+A koi pond is in the center of the garden.
+~
+stone~
+25 0 0
+1000 1000 0 0 0
+0 5000 0 P
+E
+pond koi~
+Ornamental fish swim through the murky waters of the pond, scavenging for 
+debris.  You can drink the water too, if you don't mind the taste of fish
+pee.
+~
+#18004 
+trellis rose~
+a rose trellis~
+Roses climb a trellis here.
+~
+wood~
+30 G 0
+1 0 0 0 0
+0 100 1000 P
+#0
+
+#ROOMS
+#18000
+The Fragrant Path~
+
+As you travel along this path, you notice the overwhelming scent of flowers
+and thick swarms of insects in the air.   There must be gardens nearby.  
+~
+180 0 2
+D6
+to the gardens
+~
+~
+0 -1 18001
+S
+#18001
+Outside the Gardens~
+
+You are standing at the trellised entranceway to a vast complex of botanical
+gardens.  The setting seems idyllic, with lush vegetation.  Birds soar
+overhead, bees buzz, brooks babble.  You can't understand why you feel
+such a sense of dread.  Perhaps you should read the sign you see at the side
+of the entrance.  
+~
+180 0 2
+D9
+back to the path
+~
+~
+0 -1 18000
+D3
+into the gardens
+~
+~
+0 -1 18002
+E
+sign~
+These are the Gardens of Ygul Tzi'anid.  They offer peace, comfort and
+inspiration to those who choose to follow the true path, but are filled
+only with pain for the heretic.
+~
+S
+#18002
+The Succulent Garden~
+
+The first garden you enter is an arid desert arrangement.  Saguaro cacti
+dominate the scenery, their prickly arms outstretched to strike the unwary.
+Scorpions and tarantulas dart by.  If you listen carefully, you may hear
+the faint rattling of diamondbacks.  
+
+You notice steps leading to an arched gate.
+~
+180 0 10
+D1
+back to the entrance
+~
+~
+0 -1 18001
+D4
+to a gazebo
+~
+~
+0 -1 18003
+S
+#18003
+Gazebo~
+
+You are now in a white wooden gazebo, the center of the garden complex.
+The gazebo is octagonal and white benches are built in along the walls.
+This is a popular place to sit and chat and enjoy the gardens.  You notice
+several people sitting around, talking or reading and see that somebody has
+left a newspaper on one of the benches.  It might be useful to swat some of
+the flies and mosquitos you hear buzzing around.  Arched openings lead to 
+each of the gardens in the complex.  
+~
+180 DK 0
+D5
+to the succulent garden
+~
+~
+0 -1 18002
+D2
+to the Japanese garden
+~
+~
+0 -1 18004
+D7
+to the garden of poisonous plants
+~
+~
+0 -1 18005
+D1
+to the greenhouse
+~
+~
+0 -1 18006
+D9
+to the rose garden
+~
+~
+0 -1 18007
+S
+#18004
+Japanese Garden~
+
+You are standing in a formal Japanese garden.  The paths are lined with 
+cherry blossoms that have fallen from the trees.  The crickets sing a
+soothing song, promising cures from what ails you.  
+
+You notice an arched entryway to the north.
+~
+180 K 2
+D0
+to the gazebo
+~
+~
+0 -1 18003
+S
+#18005
+The Garden of Poisonous Plants~
+
+As soon as you walk into this garden, you feel drowsy.  It must be the
+opium poppies.   You are surprised how many familiar plants you notice -
+oleander, lily of the valley, morning glory.   If you need to sleep, the
+hemlock tree offers pleasant shade.
+
+You see an arched entryway to the southeast.
+~
+180 KTU 2
+D8
+to the gazebo
+~
+~ 
+0 -1 18003
+S 
+#18006
+The Greenhouse~
+
+Such elaborate gardens must be the work of one who understands nature
+completely so you are not surprised to see a large greenhouse, filled with
+various pots, soil amendments, and tools.  You feel sure that someone here
+can instruct you in the ways of nature.  But you don't seem to see 
+any people... just bugs.  
+
+An arched gateway to the east leads back to the decorative areas of the 
+garden complex.
+~
+180 0 0
+D3
+to the gazebo
+~
+~
+0 -1 18003
+S
+#18007
+The Rose Garden~
+
+Acres of rosebushes have been planted here.  The flowers are in vivid hues 
+of red, yellow, pink, white and purple.  The air is heavily perfumed.
+Lean over and breath deeply - but watch out for thorns!
+
+An arched gateway to the northeast leads back to the gazebo.  But perhaps
+you would like the heady fragrance of roses to transport you elsewhere.
+~
+180 0 0
+D6
+to the gazebo
+~
+~
+0 -1 18003
+S
+#0
+
+#RESETS
+M 0 18002 4 18001          * venus flytrap at entrance to garden
+E 1 18000 4 16            * equip it with thorn
+E 1 18001 4 6             * equip it with hood
+M 0 18002 4 18001          * 2nd venus flytrap at entrance to garden
+E 1 18000 4 16            
+E 1 18001 4 6            
+M 0 18002 4 18001          * 2nd venus flytrap at entrance to garden
+E 1 18000 4 16          
+E 1 18001 4 6          
+M 0 18002 4 18001          * 2nd venus flytrap at entrance to garden
+E 1 18000 4 16        
+E 1 18001 4 6        
+*
+M 0 18000 1 18004            * put mantis in japanese garden
+*
+M 0 18001 1 18006            * put spider in greenhouse
+*
+O 0 18002 1 18003            * put newspaper in gazebo
+*
+O 0 18003 1 18004            * put pond in japanese garden
+*
+O 0 18004 1 18007            * put trellis in rose garden
+S
+
+
+#$

@@ -1,0 +1,1000 @@
+#PLAYER
+Name Kelemvor~
+Id   18079
+LogO 942829816
+Vers 3
+Ignoring ~
+Race human~
+Sex  2
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 32
+Plyd 122447
+ListRemorts ~
+NumRemorts 0
+Note 942810625
+Scro 22
+Room 1020
+HMV  226 484 304 304 317 317
+Gold 1175
+Bank 145270
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  65321
+Act  131148
+AfBy 1572866
+AfBy2 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 14
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 11
+Color 8 5
+Color 9 14
+Color 10 12
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  4
+Prac 17
+Trai 4
+Save  -12
+Alig  1000
+Hit   18
+Dam   31
+ACs -134 -136 -134 -23
+Wimp  80
+Attr 13 18 16 15 16
+AMod 11 0 0 7 0
+Pass KeJe54rC6wSmo~
+Titl  the Lord of the Dead~
+Pnts 40
+TSex 1
+LLev 33
+HMVP 339 319 286
+Cond 0 7 26
+Sk 96 'animate parts'
+Sk 77 'armor'
+Sk 75 'blindness'
+Sk 77 'cancellation'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 81 'butcher'
+Sk 1 'bewitch weapon'
+Sk 75 'curse'
+Sk 79 'death shroud'
+Sk 75 'earth travel'
+Sk 1 'embalm'
+Sk 75 'evil eye'
+Sk 75 'fly'
+Sk 1 'force sword'
+Sk 1 'infravision'
+Sk 75 'major globe'
+Sk 81 'mana convert'
+Sk 1 'maze'
+Sk 75 'pass door'
+Sk 1 'plague'
+Sk 75 'poison'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 94 'shock sphere'
+Sk 76 'skeletal hands'
+Sk 1 'tentacles'
+Sk 75 'vampiric touch'
+Sk 75 'weaken'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 79 'dodge'
+Sk 75 'concoct'
+Sk 83 'meditation'
+Sk 75 'scrolls'
+Sk 76 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'death shroud'  33   2   0   0          0          8
+AffD 'fly'   0  13   0   0     524288          0
+AffD 'bless'   0   9  -3  24          0          0
+AffD 'bless'   0   9   3  18          0          0
+AffD 'major globe'  29   2 -80  17          0          0
+AffD 'pass door'  31   3   0   0    1048576          0
+AffD 'invis'  25  21   0   0          2          0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  12
+Cost 280
+Cond 98
+Repd 0
+Val  6 5 4 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 80
+Repd 0
+Val  5 5 3 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  17
+Cost 1000
+Cond 90
+Repd 0
+Val  6 6 6 0 0
+Affect -1 17 -1 -1 22 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 93
+Cond 86
+Repd 0
+Val  4 4 4 -1 0
+End
+
+#O
+Vnum 9308
+Nest 0
+Wear 6
+Lev  20
+Cost 1750
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 25 -1 -19 14 0 0
+End
+
+#O
+Vnum 13296
+Nest 0
+Wear 11
+Lev  18
+Cost 50
+Cond 94
+Repd 0
+Affect -1 18 -1 -2 24 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 78
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 33 -1 -13 14 0 0
+Affect -1 33 -1 2 24 0 0
+Affect -1 33 -1 -29 14 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 1
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 95
+Repd 1
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 77
+Repd 1
+Affect -1 1 -1 3 2 0 0
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 8718
+Nest 1
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 250
+Cond 77
+Repd 0
+Val  2 1 1 -1 0
+Affect -1 1 -1 1 1 0 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 135 0 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+Affect -1 19 -1 -10 14 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 96
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 645
+Nest 1
+Wear -1
+Lev  33
+Cost 500
+Cond 96
+Repd 0
+Affect -1 33 -1 -3 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 94
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 2108
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+Affect -1 6 -1 3 5 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 98
+Repd 0
+Val  2 2 2 0 0
+End
+
+#O
+Vnum 9304
+Nest 1
+Wear -1
+Lev  16
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 95
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 16
+Lev  23
+Cost 1300
+Cond 99
+Repd 0
+End
+
+#END

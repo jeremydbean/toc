@@ -1,0 +1,2424 @@
+#AREA   { 15+ } Haze    Mid-World~
+
+#MOBILES
+#29401
+lobstrosity~
+a lobstrosity~
+A lobstrosity reaches towards you with it's claws.
+~
+This creature of the sea looks like a cross between a lobster, a crayfish,
+and a scorpion.  It's pinchers look quite poisonous.
+~
+unique~
+FG L -150 S
+12 0 12d9+144 3d12+72 1d10+3 5
+0 0 0 2
+R AR 0 H
+8 8 1 0
+0 0 T 0
+#29402
+bear~
+a bear~
+A bear is looking for food, you would suffice.
+~
+This grizzly bear is taller than you when standing on his hind legs.
+His fur ripples as he flexes in anticipation of a fight.
+~
+bear~
+FG 0 -100 S
+15 0 15d11+180 7d15+90 2d6+3 7
+-2 -2 -2 0
+U 0 0 0
+8 8 1 0
+0 0 L 0
+#29403
+tall tree~
+a tall tree~
+A tall tree grins at you toothlessly.
+~
+This tree is really tall and has a toothless grin.  It looks at you with
+a look of anger; it is not happy with how people on the other side of the
+ocean and how they have ruthlessly run west and slammed into the colossal
+tree of Haon Dor.
+~
+undead~
+G D -150 S
+17 1 17d12+200 8d17+100 3d4+4 8
+-3 -3 -3 -1
+CEIRZ A I 0 H
+8 8 1 0
+0 0 H 0
+#29404
+scout~
+a scout~
+A scout is mapping out the territory here.
+~
+This is one of Korzath's scouts that was sent across the sea under Kazor's
+command to hunt down and find the people and city of Tandelador.
+~
+human~
+CGH D 25 S
+18 1 18d13+216 9d18+100 2d7+4 17
+-3 -3 -3 -1
+DFLR 0 0 0
+8 8 1 0
+0 0 M 0
+#29405
+ka'de'tar~
+the ka'de'tar~
+The ka'de'tar is a tree healer.
+~
+This man looks quite mad as he tells you he is the tree healer.  He throws
+healing spells on any object around him and offers his spells to you but,
+since you are not a tree, it will cost you.
+~
+hobbit~
+DGMV D 150 S
+50 20 50d38+600 25d50+300 5d8+19 19
+-20 -20 -20 -20
+F BCDP 0 0
+8 8 1 0
+0 0 M 0
+#29406
+slow mutant~
+a slow mutant~
+A slow mutant moves towards you oh so slowly.
+~
+Slow, VERY slow.
+~
+unique~
+CFG J -150 S
+20 2 20d15+240 10d20+120 2d8+5 16
+-4 -4 -4 -2
+EFNR 0 0 0
+8 8 1 0
+0 0 L 0
+#29407
+scorpion~
+a scorpion~
+A nasty red scorpion pops out of the sand.
+~
+This little red scorpion enjoys the heat of his desert home.
+~
+unique~
+FG P -150 S
+22 2 22d16+260 11d22+132 4d4+6 26
+-5 -5 -5 -3
+FJR H 0 I
+8 8 2 0
+0 0 T 0
+#29408
+thief stealthy~
+a stealthy thief~
+A stealthy thief is here robbing you.
+~
+Stealthy, VERY stealthy.
+Rude, VERY rude.
+Rich, VERY rich.
+He robbed you, yes, he ROBBED you.
+~
+elf~
+CGHMS DHOTVZ G -100 S
+52 22 52d39+624 25d52+300 6d7+20 2
+-22 -22 -22 -20
+BDEFHIJKN AB 0 0
+8 8 1 0
+0 0 M 0
+#29409
+stallion black~
+a black stallion~
+a strong black riding stallion is tied to the hitching post.
+~
+This strong black stallion must belong to a great and powerful
+adventurer.
+~
+horse~
+BW DJPU 100 S
+20 2 20d15+240 10d20+120 2d8+5 32
+-4 -4 -4 -4
+DFIKL 0 0 0
+8 8 1 0
+0 0 L 0
+#29410
+borg~
+The Borg~
+The Borg are here to assimilate you.
+~
+The Borg have been brought here by Haze to guard this room and assimilate
+all who dare invade it.
+~
+unique~
+BGMV DFHOPTVZ G 0 M
+70 30 70d55+9500 35d70+400 60d10+500 28
+-50 -50 -50 -30
+CEFIJKL AB 0 0
+8 8 1 0
+0 0 L 0
+{
+A 50
+$n say to $N, "Leave or be assimilated!"~
+$n say to you, "Leave or be assimilated!"~
+A -1
+$n say to $N, "Leave or be assimilated!"~
+$n say to you, "Leave or be assimilated!"~
+}
+#0
+
+#OBJECTS
+#29401
+claw small red~
+a small red claw~
+a small red claw of a lobstrosity lies here.~
+stone~
+5 0 AN
+2 4 4 5 0
+10 2 10 P
+A
+2 1
+#29402
+bearskin skin~
+some bearskin~
+some brown bearskin is on the ground.~
+leather~
+9 0 AK
+4 3 4 3 0
+10 2 100 P
+A
+1 1
+#29403
+branch brown~
+a brown branch~
+a brown branch is hidden in the foliage.~
+wood~
+4 0 AO
+30 5 5 72 0
+30 5 100 P
+#29404
+wand purple~
+a purple wand~
+a purple wand lies here.~
+steel~
+3 0 AO
+20 3 3 43 0
+20 3 100 P
+#29405
+tree oak~
+a colossal oak tree.~
+a colossal oak tree stands here.~
+wood~
+31 0 0
+6 29497 0 1 0
+1 1 1 P
+#29406
+bush berry~
+a large green berry bush~
+a large green berry bush is here.~
+wood~
+31 0 0
+8 29488 0 1 0
+1 1 1 P
+#29407
+bush berry~
+a large green berry bush~
+a large green berry bush is here.~
+wood~
+15 0 0
+900 0 0 0 0
+1 1 1 P
+#29408
+tree oak~
+a towering tree~
+a towering tree stands here.~
+wood~
+15 0 0
+900 0 0 0 0
+1 1 1 P
+#29409
+berries red~
+red berries~
+some red berries are here.~
+pill~
+26 0 A
+15 33 0 0 0
+15 1 1 P
+#29410
+leaf green~
+a green leaf~
+a leaf is on the ground.~
+pill~
+26 0 A
+15 17 0 0 0
+15 1 1 P
+#29411
+apples~
+apples~
+tasty looking apples grow here.~
+pill~
+19 0 A
+70 0 0 0 0
+15 1 1 P
+#29412
+strawberries~
+strawberries~
+yummy strawberries are here.~
+pill~
+26 0 A
+15 35 0 0 0
+15 1 1 P
+#29413
+rock stone~
+a stone rock~
+a flat faced rock is here.~
+stone~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+rock stone~
+This stone looks worn away:
+                 _ __  ___                       ____  ___           ___
+          /\ |\   /   /   \         |   /|   /  /   / /   \    /    /   \
+         / |/ /  /   /    |         |  / |  /  /   / /____/   /    /    |
+        /    /  /   /    /   -----  | /  | /  /   / /     \  /    /    /
+       /    / _/__ /___/            |/   |/  /___/ /      / /___ /___/
+~
+#29414
+plaque metal~
+a metal plaque~
+a metal plaque lies here discarded.~
+steel~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+plaque metal~
+It reads:
+    __________________________________________________________________
+   |                                                                  |
+   |                  NORTH CENTRAL POSITRONICS, LTD.                 |
+   |			       Granite City                           |
+   |                        Northeast Corridor                        |
+   |                                                                  |
+   |                                                                  |
+   |			Design 4 GUARDIAN                             |
+   |			Serial # AA 24123 CX 755431297 L 14           |
+   |			Type/Species BEAR                             |
+   |                                                                  |
+   |				SHARDIK                               |
+   |                                                                  |
+   |         **NR**SUBNUCLEAR CELLS MUST NOT BE REPLACED**NR**        |
+   |__________________________________________________________________|
+
+~
+#29415
+sign~
+a sign (Tull)~
+a weather worn sign is here.~
+wood~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+sign~
+You look at the sign:
+
+	 _______________________________________________________
+	|							\
+	|							/
+	|	     _______					\
+	|	   	|      |    |   |       |		/
+	|	   	|      |    |   |       |	        \
+	|	   	|      |    |   |       |	        /
+	|	   	|      |____|   |____   |____	        \
+	|							/
+	|							\
+	|							/
+	 \______________________________________________________\
+~
+#29416
+sign~
+a sign (Beach)~
+a sign lies on it's back in the sand.~
+wood~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+sign~
+You read the sign:
+
+	Mid-World
+        +++++++++
+
+	   Written by Haze for ToC Mud.
+	   Completed March 3, 1996
+	   Last updated: June 6, 1996
+
+	   Credits to Stephen King, area is based off of
+	   his Dark Tower Series.
+
+	   For players level 15+
+~
+#29417
+sign~
+a sign (LUD)~
+a sign has been hammered into the ground here.~
+wood~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+sign~
+It reads:
+
+	##########################################################
+        #							 #
+	#		 The Beautiful City Of Lud		 #
+	#		  					 #
+	#	      "Just over the river and through		 #
+	#			the woods"			 #
+	#							 #
+	#		Home of the twin turbo monos		 #
+	#							 #
+	##########################################################
+
+~
+#29418
+campfire~
+a campfire~
+the remains of a campfire are here.~
+wood~
+15 0 0
+900 0 0 0 0
+1 1 1 P
+#29419
+jawbone white~
+a white jawbone~
+a white jawbone of a human is here.~
+stone~
+3 0 AO
+25 2 2 7 0
+25 1 1 P
+#29420
+tarot card~
+a tarot card~
+a tarot card with a picture of a large Dark Tower is here.~
+wood~
+2 0 AO
+25 0 0 42 0
+25 1 1 P
+#29421
+post hitching~
+a hitching post~
+a hitching post is here for tying horses.~
+wood~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+#29422
+button~
+a button~
+a button is on the wall.~
+adamantite~
+31 0 0
+4 0 0 0 3
+1 1 1 P
+#29423
+rope~
+a rope~
+some rope~
+wood~
+31 0 0
+6 29418 1 1 0
+1 1 1 P
+#29424
+cactus~
+a silly giant cactus~
+a silly giant cactus is here in middle of the desert.~
+wood~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+cactus~
+You look closely at the cactus and can see some sort of carved writing:
+
+
+	Cactus stolen from Eclipse's backyard by Haze and Gravestone!
+
+		Bwhahahahhahahhahahhahahhahahhahahhahahhahah
+~
+#29425
+jagged black chasm~
+a jagged, black chasm~
+a jagged black chasm seperates you from the City of Lud.~
+wood~
+31 0 0
+9 29501 3 1 0
+1 1 1 P
+#0
+
+#ROOMS
+#29401
+By the Shore~
+   The smell of salt water from the sea drifts in with the tide.  You see
+various sea shells buried in the sand here, many which you've never seen
+anywhere else.
+~
+294 0 10
+D0
+~
+~
+0 -1 29381
+D1
+~
+~
+0 -1 29405
+D2
+~
+~
+0 -1 29402
+S
+#29402
+By the Shore~
+     The beach ends to the south.  A large pile of deadwood stands in the way
+making it impossible to travel any farther south.
+~
+294 0 10
+D0
+~
+~
+0 -1 29401
+D1
+~
+~
+0 -1 29403
+S
+#29403
+On the Beach~
+     Soft sand surrounds the area for as far as you can see.  To the east is
+the beginning of a forest with thick brush growing at the edge of the beach.
+~
+294 C 10
+D0
+~
+~
+0 -1 29405
+D1
+~
+~
+0 -1 29404
+D3
+~
+~
+0 -1 29402
+S
+#29404
+Inland~
+     Thick shrubs and bushes are beginning to grow here creating an end
+to the beach and the start of a forest.  You can still hear the sounds
+of waves crashing into the shore.
+~
+294 0 2
+D3
+~
+~
+0 -1 29403
+S
+#29405
+On the Beach~
+     Soft sand surrounds the area for as far as you can see.  To the east is
+the beginning of a forest with thick brush growing at the edge of the beach.
+~
+294 C 10
+D0
+~
+~
+0 -1 29408
+D1
+~
+~
+0 -1 29406
+D2
+~
+~
+0 -1 29403
+D3
+~
+~
+0 -1 29401
+S
+#29406
+Inland~
+     Thick shrubs and bushes are beginning to grow here creating an end
+to the beach and the start of a forest.  You can still hear the sounds
+of waves crashing into the shore.
+~
+294 0 2
+D1
+~
+~
+0 -1 29407
+D3
+~
+~
+0 -1 29405
+D7
+~
+~
+0 -1 29408
+S
+#29407
+Wooded Plains~
+     The bushes here create a rough thicket that scrapes you as you move
+about.  You can hear the whispering rustle of small bugs crawling along
+the ground of their forested home.  You can make your way north or west.
+~
+294 0 2
+D0
+~
+~
+0 -1 29409
+D3
+~
+~
+0 -1 29406
+S
+#29408
+On the Beach~
+     Soft sand surrounds the area for as far as you can see.  To the east is
+the beginning of a forest with thick brush growing at the edge of the beach.
+~
+294 C 10
+D0
+~
+~
+0 -1 29411
+D2
+~
+~
+0 -1 29405
+D3
+~
+~
+0 -1 29381
+D8
+~
+~
+0 -1 29406
+S
+#29409
+In the Thicket~
+     Many more bushes are growing here making it difficult to walk around.
+You can move to the north or to the south.  There is an oddly shaped bush
+here that goes into a deep hole in the ground.
+~
+294 0 2
+D0
+~
+~
+0 -1 29413
+D2
+~
+~
+0 -1 29407
+S
+#29410
+By the Shore~
+     The waves wash over this part of the beach.  It continues to stretch
+to the north, east, and south.
+~
+294 0 10
+D0
+~
+~
+0 -1 29428
+D1
+~
+~
+0 -1 29411
+D2
+~
+~
+0 -1 29381
+S
+#29411
+Sandy plains~
+     The sand tapers away here as it gives way to the lush green forest.
+~
+294 C 2
+D0
+~
+~
+0 -1 29429
+D1
+~
+~
+0 -1 29412
+D2
+~
+~
+0 -1 29408
+D3
+~
+~
+0 -1 29410
+S
+#29412
+Edge of the Forest~
+     A mixture of trees and bushes grow here in the forest.  You notice
+an east-west trail beginning here.
+~
+294 0 2
+D1
+~
+~
+0 -1 29413
+D3
+~
+~
+0 -1 29411
+D6
+~
+~
+0 -1 29430
+S
+#29413
+East-West trail~
+     An east-west trail is here.  There are breaks in the path that lead
+northeast and south.
+~
+294 0 3
+D1
+~
+~
+0 -1 29414
+D2
+~
+~
+0 -1 29409
+D3
+~
+~
+0 -1 29412
+D6
+~
+~
+0 -1 29431
+S
+#29414
+East-West trail~
+     The east-west trail is now clearly visible through the foliage.
+Tall trees grow all along the path.
+~
+294 0 3
+D1
+~
+~
+0 -1 29415
+D3
+~
+~
+0 -1 29413
+S
+#29415
+East-West trail~
+     Another break appears in the trail here.  It opens a path to the south.
+~
+294 0 3
+D1
+~
+~
+0 -1 29416
+D2
+~
+~
+0 -1 29419
+D3
+~
+~
+0 -1 29414
+S
+#29416
+East-West trail~
+     Large thick trees block off all north and south travel here.  The
+trail continues to the east and west.
+~
+294 0 3
+D1
+~
+~
+0 -1 29417
+D3
+~
+~
+0 -1 29415
+S
+#29417
+East-West trail~
+     Trees to the south are seperated far enough apart so that you can
+squeeze through.  The trail continues east-west.
+~
+294 0 3
+D1
+~
+~
+0 -1 29418
+D2
+~
+~
+0 -1 29420
+D3
+~
+~
+0 -1 29416
+S
+#29418
+Edge of the Woods~
+     The east-west trail ends here abruptly.  A large collossal tree
+blocks any further passage to the east.  The tree reminds you of one
+you've seen in Haon Dor.  Maybe you can climb this one.
+~
+294 0 3
+D3
+~
+~
+0 -1 29417
+S
+#29419
+In the Woods~
+     You can make your way north or south through the ovegrown thicket here.
+~
+294 0 3
+D0
+~
+~
+0 -1 29415
+D2
+~
+~
+0 -1 29422
+S
+#29420
+In the Woods~
+     The trail from the north vanishes here under the overgrown foliage.
+You can make your way back northeast or south.
+~
+294 0 3
+D0
+~
+~
+0 -1 29417
+D1
+~
+~
+0 -1 29421
+D2
+~
+~
+0 -1 29424
+S
+#29421
+In the Woods~
+     This is a dead end due to the thick forestry.
+~
+294 0 3
+D3
+~
+~
+0 -1 29420
+S
+#29422
+In the Woods~
+     The forest of trees breaks here and is replaced by mounds of fallen 
+leaves.
+~
+294 0 3
+D0
+~
+~
+0 -1 29419
+D1
+~
+~
+0 -1 29423
+D8
+~
+~
+0 -1 29425
+S
+#29423
+In the Woods~
+     This part of the forest looks like it was cleared out by a powerful
+mage spell.  The absence of trees allows sunlight to fall on this spot.
+~
+294 0 3
+D1
+~
+~
+0 -1 29424
+D3
+~
+~
+0 -1 29422
+S
+#29424
+In the Woods~
+     The forest here is no longer as thick as before.  Many trees have
+fallen and lie dead next to the yellowish-brown bushes that also ceased
+to live.  An old path leads south.
+~
+294 0 3
+D0
+~
+~
+0 -1 29420
+D2
+~
+~
+0 -1 29426
+D3
+~
+~
+0 -1 29423
+S
+#29425
+In the Woods~
+     An old path is visible here in the clearing.  It leads east.
+~
+294 0 3
+D1
+~
+~
+0 -1 29426
+D7
+~
+~
+0 -1 29422
+S
+#29426
+In the Woods~
+     An ancient path can be seen here.  It seems to lead south.
+~
+294 0 3
+D0
+~
+~
+0 -1 29424
+D2
+~
+~
+0 -1 29427
+D3
+~
+~
+0 -1 29425
+S
+#29427
+In the Woods~
+     The small path seems to end here.  The fallen trees block any further
+passage.  What used to be here?
+~
+294 0 3
+D0
+~
+~
+0 -1 29426
+S
+#29428
+Sandy plains~
+     The beach dissipates here.  You see the beginnings of a forest to the
+north.
+~
+294 0 2
+D0
+~
+~
+0 -1 29432
+D1
+~
+~
+0 -1 29429
+D2
+~
+~
+0 -1 29410
+S
+#29429
+Edge of the forest~
+     The beach dissipates here.  You see the beginnings of a forest to the
+north.     
+~
+294 C 2
+D0
+~
+~
+0 -1 29433
+D2
+~
+~
+0 -1 29411
+D3
+~
+~
+0 -1 29428
+S
+#29430
+The thick forest~
+     You leave the smells of the beach and sea behind as they are replaced
+by the smell of trees and leaves.  The forest grows much thicker here.
+~
+294 0 3
+D0
+~
+~
+0 -1 29434
+D1
+~
+~
+0 -1 29431
+D9
+~
+~
+0 -1 29412
+S
+#29431
+The thick forest~
+     More trees grow here meaking the forest quite thicker.
+~
+294 0 3
+D3
+~
+~
+0 -1 29430
+D6
+~
+~
+0 -1 29455
+D9
+~
+~
+0 -1 29413
+S
+#29432
+Edge of the forest~
+     You leave the smells of the beach and sea behind as they are replaced
+by the smell of trees and leaves.  The forest grows much thicker here.
+~
+294 0 3
+D1
+~
+~
+0 -1 29433
+D2
+~
+~
+0 -1 29428
+D6
+~
+~
+0 -1 29435
+S
+#29433
+The thick forest~
+     You can see the thicker part of the forest to the east and north.
+~
+294 C 3
+D0
+~
+~
+0 -1 29435
+D1
+~
+~
+0 -1 29434
+D2
+~
+~
+0 -1 29429
+D3
+~
+~
+0 -1 29432
+S
+#29434
+The thick forest~
+     The smells of the forest become stronger as you travel deeper into
+the forest.
+~
+294 0 3
+D0
+~
+~
+0 -1 29436
+D2
+~
+~
+0 -1 29430
+D3
+~
+~
+0 -1 29433
+D6
+~
+~
+0 -1 29454
+S
+#29435
+The thick forest~
+     This part of the forest is clogged with numerous types of trees, many
+of which tower fifty to seventy feet above you.  A path leads east and north.
+~
+294 C 3
+D0
+~
+~
+0 -1 29453
+D1
+~
+~
+0 -1 29436
+D2
+~
+~
+0 -1 29433
+D9
+~
+~
+0 -1 29432
+S
+#29436
+The Crossroads~
+     You come to a four-way intersecting path here in the forest.  You
+can only wonder where all these paths were once meant to go.
+~
+294 0 3
+D0
+~
+~
+0 -1 29437
+D1
+~
+~
+0 -1 29454
+D2
+~
+~
+0 -1 29434
+D3
+~
+~
+0 -1 29435
+S
+#29437
+The thick forest~
+     The towering trees above you branch out in so many directions that the
+sky is nearly blocked from view.  The path here goes east and south.
+~
+294 0 3
+D1
+~
+~
+0 -1 29438
+D2
+~
+~
+0 -1 29436
+S
+#29438
+The thick forest~
+     The towering trees above you branch out in so many directions that the
+sky is nearly blocked from view.  The path here goes north and northeast.
+~
+294 0 3
+D0
+~
+~
+0 -1 29446
+D3
+~
+~
+0 -1 29437
+D6
+~
+~
+0 -1 29439
+S
+#29439
+The thick forest~
+     The towering trees above you branch out in so many directions that the
+sky is nearly blocked from view.  The path here goes east and southwest.
+~
+294 0 3
+D1
+~
+~
+0 -1 29440
+D9
+~
+~
+0 -1 29438
+S
+#29440
+The thick forest~
+     The sky is completely blocked out by the crisscrossing tree branches
+high above you.  The path continues west and northwest.
+~
+294 A 3
+D3
+~
+~
+0 -1 29439
+D7
+~
+~
+0 -1 29441
+S
+#29441
+The thick forest~
+     The sky is completely blocked out by the crisscrossing tree branches
+high above you.  The path continues north and southeast.
+~
+294 A 3
+D0
+~
+~
+0 -1 29442
+D8
+~
+~
+0 -1 29440
+S
+#29442
+The thick forest~
+     The sky is completely blocked out by the crisscrossing tree branches
+high above you.  The path continues west and south.
+~
+294 A 3
+D2
+~
+~
+0 -1 29441
+D3
+~
+~
+0 -1 29443
+D9
+~
+~
+0 -1 29444
+S
+#29443
+The thick forest~
+     The path becomes more apparent here.  It seems to lead from east to 
+west with a break to the south.
+~
+294 A 3
+D1
+~
+~
+0 -1 29442
+D2
+~
+~
+0 -1 29444
+D3
+~
+~
+0 -1 29447
+S
+#29444
+The thick forest~
+     The path streaks southeast to northeast here with a break to the north.
+~
+294 A 3
+D0
+~
+~
+0 -1 29443
+D6
+~
+~
+0 -1 29442
+D9
+~
+~
+0 -1 29445
+S
+#29445
+The thick forest~
+     The sky is completely blocked out by the crisscrossing tree branches
+high above you.  The path continues northeast and east.
+~
+294 A 3
+D1
+~
+~
+0 -1 29446
+D6
+~
+~
+0 -1 29444
+S
+#29446
+The thick forest~
+     The sky is completely blocked out by the crisscrossing tree branches
+high above you.  The path continues west and south.
+~
+294 A 3
+D2
+~
+~
+0 -1 29438
+D3
+~
+~
+0 -1 29445
+S
+#29447
+The thick forest~
+     The path heads from the east to the northwest.
+~
+294 A 3
+D1
+~
+~
+0 -1 29443
+D7
+~
+~
+0 -1 29495
+S
+#29448
+The thick forest~
+     The path here seems to lead northeast.
+~
+294 A 3
+D2
+~
+~
+0 -1 29449
+D6
+~
+~
+0 -1 29495
+S
+#29449
+The thick forest~
+     The path twists and turns through the trees as it leads north.
+~
+294 A 3
+D0
+~
+~
+0 -1 29448
+D1
+~
+~
+0 -1 29450
+S
+#29450
+The thick forest~
+     The path breaks off into three parts here.  Part of it leads north
+while the other parts lead west and south.
+~
+294 0 3
+D0
+~
+~
+0 -1 29451
+D2
+~
+~
+0 -1 29453
+D3
+~
+~
+0 -1 29449
+S
+#29451
+The thick forest~
+     The path takes a sharp right turn and heads east.  The forest
+continues to darken your way.
+~
+294 A 3
+D1
+~
+~
+0 -1 29452
+D2
+~
+~
+0 -1 29450
+S
+#29452
+The thick forest~
+     The path makes another sharp turn as it leads north.
+~
+294 A 3
+D0
+~
+~
+0 -1 29447
+D3
+~
+~
+0 -1 29451
+S
+#29453
+The thick forest~
+     The towering trees above you branch out in so many directions that the
+sky is nearly blocked from view.  The path here leads north.
+~
+294 0 3
+D0
+~
+~
+0 -1 29450
+D2
+~
+~
+0 -1 29435
+S
+#29454
+The thick forest~
+     You notice a stray trail leading east through the woods.
+~
+294 A 3
+D1
+~
+~
+0 -1 29455
+D3
+~
+~
+0 -1 29436
+D9
+~
+~
+0 -1 29434
+S
+#29455
+Break in the forest~
+     The trail leads southeast.  The forest is less dense here so that it
+is possible to go southwest.
+~
+294 0 3
+D3
+~
+~
+0 -1 29454
+D8
+~
+~
+0 -1 29456
+D9
+~
+~
+0 -1 29431
+S
+#29456
+Trail to the mountains~
+     The forest continues to open up as you move in an eastern direction.
+The path is more clearly seen to the east.
+~
+294 0 3
+D1
+~
+~
+0 -1 29458
+D2
+~
+~
+0 -1 29457
+D7
+~
+~
+0 -1 29455
+S
+#29457
+A small cave~
+     This is a dead end.
+~
+294 0 0
+D0
+~
+~
+0 -1 29456
+S
+#29458
+A trail to the mountains~
+     Few trees or bushes grow in this open clearing.  You can see a mountain
+in the distance.
+~
+294 0 4
+D0
+~
+~
+0 -1 29459
+D3
+~
+~
+0 -1 29456
+S
+#29459
+A clear path~
+     You can clearly see the snow-capped mountain in the distance.  You
+can continue east or back south.
+~
+294 0 4
+D1
+~
+~
+0 -1 29461
+D2
+~
+~
+0 -1 29458
+S
+#29460
+A clear path~
+     The mountain grows larger as you draw closer.  You can see the remains
+of a campsite to the southeast.
+~
+294 0 4
+D1
+~
+~
+0 -1 29462
+D8
+~
+~
+0 -1 29461
+S
+#29461
+A campsite~
+     The remains of an ancient camp site lie here.  Two spots around the
+fire pit look quite worn, as if two people sat there for quite some time.
+You wonder who they were?
+~
+294 0 4
+D3
+~
+~
+0 -1 29459
+D6
+~
+~
+0 -1 29462
+D7
+~
+~
+0 -1 29460
+S
+#29462
+Trail up the mountains~
+     The mountain now dominates the skyline to the east.  You can feel the
+chilly mountain air blowing down into the vale.
+~
+294 0 4
+D1
+~
+~
+0 -1 29463
+D3
+~
+~
+0 -1 29460
+D9
+~
+~
+0 -1 29461
+S
+#29463
+Base of the mountain~
+     You stand at the bottom of the mountain.  If you really felt adventrous
+you might try climbing the foothills to make your way up the mountain.
+~
+294 0 5
+D3
+~
+~
+0 -1 29462
+D4
+~
+~
+0 -1 29464
+S
+#29464
+Climbing the mountain~
+     Trudging through the mossy foothills you wonder if this was such a
+good idea.  You spot a place to the northeast where you could climb onto
+the mountain itself.
+~
+294 0 5
+D5
+~
+~
+0 -1 29463
+D6
+~
+~
+0 -1 29465
+S
+#29465
+Climbing the mountain~
+     You are on a small ledge that travels up and around the mountain.
+The dead, icy wind snips at you as it howls along the mountain wall.
+~
+294 0 5
+D1
+~
+~
+0 -1 29466
+D9
+~
+~
+0 -1 29464
+S
+#29466
+Up the mountain~
+     You climb onto an icy landing of cold mountain rock.  Up above you
+looks like an entrance to a cave leading into and possible through the
+mountain.
+~
+294 C 5
+D3
+~
+~
+0 -1 29465
+D4
+~
+~
+0 -1 29467
+S
+#29467
+Into the mountain~
+     You look into the dark tunnel entrance and see glowing green movement
+of slow mutants inside.  The wind has beaten away at the entrance making
+the rock shiny and smooth.  You can hear the hollow sound of the wind
+tearing down into the tunnel of the mountain.
+~
+294 A 5
+D1
+~
+~
+0 -1 29468
+D5
+~
+~
+0 -1 29466
+S
+#29468
+Passage through the mountain~
+     You stumble through the dark mountain tunnel and almost trip on what
+appear to be metal tracks embedded into the rock floor.  After further
+examination you can see that from the size of the tracks they must have
+been used to transport mining carts of some sort to the other side of the 
+mountain.  An abandoned handcar lies at the end of the mine tracks.
+~
+294 A 5
+D1
+~
+~
+0 -1 29469
+D3
+~
+~
+0 -1 29467
+E
+handcar~
+This old handcar looks like it has seen ages of wear and tear.  You notice
+some old bullet casings lying around it.
+~
+S
+#29469
+Passage through the mountain~
+     You are at the center of the inside of the mountain now.  The mine
+car tracks lead east and west.
+~
+294 A 5
+D1
+~
+~
+0 -1 29470
+D3
+~
+~
+0 -1 29468
+S
+#29470
+Passage through the mountain~
+     You can see light to the east meaning you must be nearing the end of
+the mountain tunnel.  The tracks lead east and west but, you notice some
+rocks that have been placed on the tracks.  Was someone trying to stop a
+car from moving along?
+~
+294 A 5
+D1
+~
+~
+0 -1 29471
+D3
+~
+~
+0 -1 29469
+S
+#29471
+Passage through the mountain~
+     You stand before the exit of the tunnel.  It leads out to a plateau
+on the mountainside.  The tracks lead west.
+~
+294 A 5
+D1
+~
+~
+0 -1 29472
+D3
+~
+~
+0 -1 29470
+S
+#29472
+Out of the mountain~
+     You climb down onto the plateau and take a moment to look below you
+at the foothills and desert.  It will be a much welcomed change of scenery
+when compared to the damp tunnel and slow mutants.
+~
+294 A 5
+D3
+~
+~
+0 -1 29471
+D5
+~
+~
+0 -1 29473
+S
+#29473
+Down the mountain~
+     You travel down the side of the mountain.  The air is less damp as you
+draw closer to the desert below.
+~
+294 C 5
+D4
+~
+~
+0 -1 29472
+D5
+~
+~
+0 -1 29474
+S
+#29474
+Past the mountain~
+     The grass foothills of the mountain give way to the sandy ground of the
+blinding desert to the east.  Hopefully your waterskins are full.
+~
+294 0 5
+D4
+~
+~
+0 -1 29473
+D8
+~
+~
+0 -1 29475
+S
+#29475
+Desert plain~
+     Sweat streams down your face while the rest of your body swelters
+from the raw heat pounding down on you from the ruthless sun above.  The
+sand bleeds heat into the air causing your feet to blister and bleed.
+~
+294 0 10
+D1
+~
+~
+0 -1 29476
+D7
+~
+~
+0 -1 29474
+S
+#29476
+Desert~
+     The desert frys your body as you travel through it.  You pray there
+is a way station or town nearby.
+~
+294 0 10
+D1
+~
+~
+0 -1 29479
+D2
+~
+~
+0 -1 29477
+D3
+~
+~
+0 -1 29475
+D8
+~
+~
+0 -1 29480
+S
+#29477
+Desert~
+     Your eyesight becomes bleary as sweat stings your eyes at the same
+time that the sun drys them out.  It seems that night never reaches this
+desert.
+~
+294 0 10
+D0
+~
+~
+0 -1 29476
+D1
+~
+~
+0 -1 29480
+D2
+~
+~
+0 -1 29478
+D6
+~
+~
+0 -1 29479
+D8
+~
+~
+0 -1 29481
+S
+#29478
+Desert~
+     The desert frys your body as you travel through it.  You pray there
+is a way station or town nearby.
+~
+294 0 10
+D0
+~
+~
+0 -1 29477
+D1
+~
+~
+0 -1 29481
+D6
+~
+~
+0 -1 29480
+S
+#29479
+Desert~
+     This may be an illusion or mirage but, you think you see a way station
+to the east of here.
+~
+294 0 10
+D1
+~
+~
+0 -1 29483
+D2
+~
+~
+0 -1 29480
+D3
+~
+~
+0 -1 29476
+D8
+~
+~
+0 -1 29484
+D9
+~
+~
+0 -1 29477
+S
+#29480
+Desert~
+     This appears to be the center of the desert.  Sand stretches out
+for as far as you can see.  A large cactus stands, the only cactus you've
+seen during your travels in the desert.  You wonder where the heck it
+came from and what kind of freakin cactus can survive this kind of heat?
+~
+294 0 10
+D0
+~
+~
+0 -1 29479
+D1
+~
+~
+0 -1 29484
+D2
+~
+~
+0 -1 29481
+D3
+~
+~
+0 -1 29477
+D6
+~
+~
+0 -1 29483
+D7
+~
+~
+0 -1 29476
+D8
+~
+~
+0 -1 29485
+D9
+~
+~
+0 -1 29478
+S
+#29481
+Desert~
+     Sand sand saaaaaaand everywhere.........
+~
+294 0 10
+D0
+~
+~
+0 -1 29480
+D1
+~
+~
+0 -1 29485
+D3
+~
+~
+0 -1 29478
+D6
+~
+~
+0 -1 29484
+D7
+~
+~
+0 -1 29477
+S
+#29482
+Way Station~
+     An old beat up way station still stands here in the desert.
+A water pump drips bits of water into a trough but the way is blocked
+by a tall war horse tied to a hitching post.  It sees you and drinks up
+the last of the water.
+~
+294 0 0
+D2
+~
+~
+0 -1 29483
+S
+#29483
+Desert~
+     It looks like there is a way station to the north.  You hope it has
+a water pump that could be used to cool you off and to refill your skins.
+~
+294 0 10
+D0
+~
+~
+0 -1 29482
+D2
+~
+~
+0 -1 29484
+D3
+~
+~
+0 -1 29479
+D9
+~
+~
+0 -1 29480
+S
+#29484
+Desert~
+     The hot wind picks up at this part of the desert causing sand to
+fly in whirlwinds all around you.
+~
+294 0 10
+D0
+~
+~
+0 -1 29483
+D2
+~
+~
+0 -1 29485
+D3
+~
+~
+0 -1 29480
+D7
+~
+~
+0 -1 29479
+D9
+~
+~
+0 -1 29481
+S
+#29485
+Desert~
+     The desert frys your body as you travel through it.  You pray there
+is a way station or town nearby.  To the east you think you see a sign.
+~
+294 0 10
+D0
+~
+~
+0 -1 29484
+D1
+~
+~
+0 -1 29486
+D3
+~
+~
+0 -1 29481
+D7
+~
+~
+0 -1 29480
+S
+#29486
+Grassy field~
+     The desert turns into a grassy field here.  An old sign still sits
+in the ground, the letters beaten away years of wind carrying sand into
+it.
+~
+294 0 2
+D1
+~
+~
+0 -1 29487
+D3
+~
+~
+0 -1 29485
+S
+#29487
+Before the town of Tull~
+     You stand before the gates of the ghost town of Tull.  The gates
+are impassable at this time.
+~
+294 0 2
+D3
+~
+~
+0 -1 29486
+S
+#29488
+Subterranean Cavern~
+     You appear to be in a subterranean cavern below the surface of
+Mid-world.  Water drips from stalagmites in the ceiling making small
+puddles on the rocky floor.  The cavern leads west.
+~
+294 A 11
+D3
+~
+~
+0 -1 29489
+S
+#29489
+Subterranean Cavern~
+     The cavern splits off to the northwest and southwest here.  The
+puddles are no longer puddles but, small streams now flow in both
+directions.  It is quite possible that this cavern is taking you directly
+under the Dragon Sea.
+~
+294 A 11
+D1
+~
+~
+0 -1 29488
+D7
+~
+~
+0 -1 29492
+D9
+~
+~
+0 -1 29490
+S
+#29490
+Subterranean Cavern~
+     The water here is surging fast and it swells up to your waist.
+The utter pressure of the air and icy temperature of the water suggest
+it may not be safe to travel any further in this direction.  In fact,
+it would probably be a fatal move to go any farther west.
+~
+294 A 11
+D3
+~
+~
+0 -1 29491
+D6
+~
+~
+0 -1 29489
+S
+#29491
+Watery Grave~
+     You travel farther along the cavern but the water picks up speed
+and power.  It rises above your waist and soon the weigh of the oncoming
+tide sweeps your feet out from under you.
+     You scream violently and curse yourself as the water carries you
+down into the slope of the cavern.  The ceiling is high at this point
+and you think you can reach a stalagmite when suddenly the cavern floor
+dips and you are sent hurling into the slanted rock ceiling as you are
+forced underwater.  You notice blots of red in the water....blood from
+where you smacked your head.  You can feel the freezing water swirl around
+you as it drives you down deeper into a small underground ocean part of
+the cavern.  The water pressure is so great that there is no chance to swim
+upward.  Your head throbs with pain from where you collided with the wall
+but, the pain dims as your lungs gasp for air, lulling you into deeper into
+unconsciousness.  This watery grave will hold your corpse for ages as it
+is preserved by the subzero temperature of the water.
+~
+294 AINX 8
+S
+#29492
+Subterranean Cavern~
+     The cavern slants northwest and then turns west.  The water is up
+to your knees now.
+~
+294 A 11
+D3
+~
+~
+0 -1 29493
+D8
+~
+~
+0 -1 29489
+S
+#29493
+Subterranean Cavern~
+     The water continues to rise as the cavern slants upwards.  You
+tread through waist high water.  It makes walking difficult but, the
+water is rather still making it easier to keep your footing.
+~
+294 A 11
+D1
+~
+~
+0 -1 29492
+D3
+~
+~
+0 -1 29494
+S
+#29494
+Subterranean Cavern~
+     The water is now neck high but, there appears to be an opening up
+ahead to the west.
+~
+294 A 11
+D1
+~
+~
+0 -1 29493
+D3
+~
+~
+0 -1 9798
+S
+#29495
+The thick forest~
+     The tree density isn't as bad here.  You see a trail to the west.
+~
+294 0 3
+D3
+~
+~
+0 -1 29496
+D8
+~
+~
+0 -1 29447
+D9
+~
+~
+0 -1 29448
+S
+#29496
+Above the City of Lud~
+     A large sign is attached to a stake that is planted firmly in the
+ground here.  Down below is a city past a rushing river.  A dilapidated
+bridge looks like it is the only means of crossing the river and entering
+the city.  With a running jump, you may be able to make it across the
+chasm.
+~
+294 0 2
+D1
+~
+~
+0 -1 29495
+S
+#29497
+Treehouse~
+     This is a silly little wooden treehouse that was probably built
+by children who ventured into the woods ages ago to escape the boundries
+of parents and city life.  A glowing circle has been drawn in the ceiling
+and it appears the circle can be opened.  Yu can also climb a rope back
+down.
+~
+294 0 0
+D4
+~
+circle~
+4 -1 29498
+S
+#29498
+Haze's Private Study~
+     This appears to be Haze's private study, his home away from his home
+in Valhalla.  A sturdy desk is in the corner of the room.  The walls are
+covered with various documents and such.  This room would be great to
+hang out in....but not if Haze is around.  If he should enter this room
+and see YOU in here....well....let's just say you wouldn't want to see
+what he would do to you.  Maybe he would send Zoltan after you....or he
+could bring some Borg in and have them assimilate you....or maybe force
+your eyelids to stay open as he makes you watch countless hours of movies
+like Terms Of Endearment or Fried Green Tomatoes....or maybe you should
+just not think about it....
+     You can look at the wall and the desk, maybe you should sneak a peek
+before you leave.
+~
+294 0 0
+D5
+~
+circle~
+4 -1 29497
+E
+wall~
+A number of things are tacked up on the wall: a sheet of paper...and 
+there is a diary on the desk.  The is also a little button on the desk.
+~
+E
+sheet paper~
+You Learn
+---------
+
+I recommend getting your heart trampled on to anyone
+I recommend walking around naked in your living room
+Swallow it down (what a jagged little pill)
+It feels so good (swimming in your stomach)
+Wait until the dust settles
+
+You live you learn
+You love you learn
+You cry you learn
+You lose you learn
+You bleed you learn
+You scream you learn
+
+I recommend biting off more than you can chew to anyone
+I certainly do
+I recommend sticking your foot in your mouth at any time
+Feel free
+Throw it down (the caution blocks you from the wind)
+Hold it up (to the rays)
+You wait and see when the smoke clears
+
+You live you learn
+You love you learn
+You cry you learn
+You lose you learn
+You bleed you learn
+You scream you learn
+
+Wear it out (the way a three-year-old would do)
+Melt it down (you're gonna have to eventually anyway)
+The fire trucks are coming up around the bend
+
+You live you learn
+You love you learn
+You cry you learn
+You lose you learn
+You bleed you learn
+You scream you learn
+You grieve you learn
+You choke you learn
+You laugh you learn
+You choose you learn
+You pray you learn
+You ask you learn
+You live you learn
+
+						-Alanis Morissette
+						Jagged Little Pill
+~
+E
+diary~
+     I am now to be a guardian and overseer of the lands here across the
+Shaito Sea...the sea that the newcomers have labeled the "Dragon Sea"
+I have established this room on a mortal level so that I can better watch
+the changes that take place here.  It has been quite a long time since I 
+have been able to traverse these realms, the Wrath caused them to be 
+cursed to a point where I could not even get near here.
+     Since the Great Wrath I've seen the city of Lud utterly demolished, a 
+fraction of what it once was.  I have also noticed that the country of
+Tandelador is missing.  The massive Tandelador capital must be buried and
+needs to be rediscovered.  The taint of the Wrath's curse has also made
+it impossible to enter Tull.
+     As time passes I believe that these places will be accessible again.
+~
+S
+#29499
+Cloud 9~
+     A big fluffly, billowing white cloud is here.  A cloud to lie down
+and think on, a place just to get away to.
+~
+294 L 9
+S
+#0
+
+#RESETS
+*
+M  0  29401  4  29401		loads lobstrosity
+E  1  29401  2	16		  equips claw  
+M  0  29401  4  29410		loads lobstrosity
+M  0  29401  4  29428		loads lobstrosity
+E  1  29401  2  16		  equips claw
+M  0  29401  4  29432		loads lobstrosity  
+*
+M  0  29402  5  29415		loads bear
+E  1  29402  2  12		  equips bearskin
+M  0  29402  5  29417		loads bear
+M  0  29402  5  29421		loads bear
+M  0  29402  5  29423		loads bear
+E  1  29402  2  12		  equips bearskin
+M  0  29402  5  29426		loads bear  
+*
+M  0  29403  8  29438		loads tree
+E  1  29403  4  17		  equips branch
+M  0  29403  8  29440		loads tree
+M  0  29403  8  29443		loads tree
+E  1  29403  4  17		  equips branch
+M  0  29403  8  29446		loads tree
+M  0  29403  8  29448		loads tree
+E  1  29403  4  17		  equips branch
+M  0  29403  8  29450		loads tree
+M  0  29403  8  29452		loads tree
+E  1  29403  4  17		  equips branch
+M  0  29403  8  29455		loads tree
+*
+M  0  29404  5  29412		loads scout
+E  1  29404  2  17		  equips purple wand
+M  0  29404  5  29422		loads scout  
+M  0  29404  5  29430		loads scout
+E  1  29404  2  17		  equips purple wand
+M  0  29404  5  29448		loads scout
+M  0  29404  5  29456		loads scout
+*
+M  0  29405  1  29436		loads ka'de'tar
+*
+M  0  29406  4  29468		loads slow mutant
+M  0  29406  4  29469		loads slow mutant
+M  0  29406  4  29470		loads slow mutant
+M  0  29406  4  29471		loads slow mutant
+*
+M  0  29407  4  29477		loads scorpion
+M  0  29407  4  29480		loads scorpion
+M  0  29407  4  29482		loads scorpion
+M  0  29407  4  29484		loads scorpion
+*
+M  0  29408  1  29435		loads stealthy thief
+*
+M  0  29409  1  29482		loads horse
+*
+M  0  29410  1  29498		loads borg
+*
+O  0  29405  1  29418		loads manipulative tree
+*
+O  0  29406  1  29409		loads manipulative bush (no pun) :)
+*
+O  0  29407  10  29415		loads bushes
+P  0  29409  4   29407		puts berries in bushes
+O  0  29407  10  29416
+P  0  29412  3   29407		puts strawberries in bushes
+O  0  29407  10  29417
+O  0  29407  10  29419
+P  0  29409  4   29407		puts berries in bushes
+O  0  29407  10  29420
+O  0  29407  10  29422
+P  0  29412  3   29407		puts strawberries in bushes
+O  0  29407  10  29423
+P  0  29409  4   29407		puts berries in bushes
+O  0  29407  10  29424
+O  0  29407  10  29425
+P  0  29412  3   29407		puts strawberries in bushes
+O  0  29407  10  29426
+P  0  29409  4   29407		puts berries in bushes
+*
+O  0  29408  14  29439		loads trees
+O  0  29408  14  29440		
+P  0  29410  4   29408		puts leaves in trees
+O  0  29408  14  29441
+P  0  29411  3   29408		puts apples in trees
+O  0  29408  14  29442
+P  0  29411  3   29408		puts apples in trees
+O  0  29408  14  29443
+P  0  29410  4   29408		puts leaves in trees
+O  0  29408  14  29444
+O  0  29408  14  29445
+P  0  29411  3   29408		puts apples in trees
+O  0  29408  14  29446
+P  0  29410  4   29408		puts leaves in trees
+O  0  29408  14  29447
+O  0  29408  14  29448
+O  0  29408  14  29449
+O  0  29408  14  29450
+O  0  29408  14  29451
+O  0  29408  14  29452
+P  0  29410  4   29408		puts leaves in trees
+*
+O  0  29413  1  29431		loads midworld rock
+*
+O  0  29414  1  29451		loads bear plaque
+*
+O  0  29415  1  29487		loads tull sign
+*
+O  0  29416  1  29401		loads beach sign
+*
+O  0  29417  1  29496		loads city of lud sign
+*
+O  0  29418  1  29461		loads campfire
+P  0  29419  1  29418		put jaw in campfire
+P  0  29420  1  29418		puts tarot card in fire
+*
+O  0  29421  1  29482		loads hitching post
+*
+O  0  29422  1  29498		loads death button
+*
+O  0  29423  1  29497		loads rope
+*
+O  0  29424  1  29480		loads silly cactus
+*
+O  0  29425  1  29496		loads chasm to jump to Lud
+*
+*---Doors---*
+D 0 29497 4 4
+D 0 29498 5 4
+*
+S
+#SPECIALS
+M 29401  spec_poison
+M 29405  spec_cast_adept
+M 29408  spec_thief
+M 29408  spec_poison
+S
+
+
+#$

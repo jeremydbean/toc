@@ -1,0 +1,134 @@
+#PLAYER
+Name Tester~
+Id   44727
+LogO 948869389
+Vers 3
+Prom ~
+Ignoring  ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 3
+Plyd 672
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4204
+HMV  68 68 102 102 80 112
+NewGold 0
+NewPlat 0
+NewCopp 105
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  7637
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 7
+Trai 2
+Save  -1
+Alig  -750
+Hit   1
+Dam   1
+ACs 95 95 95 99
+Wimp  8
+Attr 17 13 12 12 15
+AMod 0 0 0 0 0
+Pass TeOcK7PdJrJNI~
+Titl  the Sentry~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 68 102 112
+Cond 0 36 36
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 188 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

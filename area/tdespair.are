@@ -1,0 +1,173 @@
+#AREA   {25+}   Soul.   Temple Despair~
+
+
+#MOBILES
+
+#0
+
+
+#OBJECTS
+
+#0
+
+
+#ROOMS
+#26000
+Entrance to Temple Despair~
+Before you are the gates to Temple Despair. The gates and structure
+are made entirely of cold, black obsidian. An aura of profound sadness
+and great loss emanates from within.
+~
+260 V 1
+D0
+~
+~
+1 -1 26001
+S
+#26001
+Courtyard of Sorrow~
+As you enter the courtyard of the Temple, you are consumed by a total, 
+numbing feeling of dread and sorrow, and welcome it, for you are home. 
+Exits are to the north, south, east and west.
+~
+260 V 1
+D0
+~
+~
+0 -1 26004
+D1
+~
+~
+0 -1 26006
+D2
+~
+~
+1 -1 26000
+D3
+~
+~
+0 -1 26002
+S
+#26002
+Regeneration Room~
+A somber chamber, with thin, silken, shroud-like cloth scattered upon the
+dark stone floor. Rest here, ye weary body and mind, but sleep lightly,
+you are not safe here!
+
+Exits are east to the courtyard and north to the library.
+~
+260 V 0
+D0
+~
+~
+0 -1 26003
+D1
+~
+~
+0 -1 26001
+S
+#26003
+The Library~
+Shhhh! The acolytes of Moortephyd are studying for their final exume.. er
+exam. Tombs and manuscripts are stacked, stored and jammed into every nook 
+and cranny. You spot a free seat at a table and quickly scoot into it.
+
+Exits are south to the Regeneration Room and east to the Inner Sanctum.
+~
+260 V 0
+D1
+~
+~
+0 -1 26004
+D2
+~
+~
+0 -1 26002
+S
+#26004
+Inner Sanctum~
+You are in a huge, domed room. Totally devoid of any distinguishing features
+or light. In the center, emanating a glow of anti-light, is the tournament
+gong.
+
+Exits are west to the Library, south to the courtyard, and east to the Council
+Chamber.
+~
+260 V 0
+D1
+~
+~
+0 -1 26005
+D2
+~
+~
+0 -1 26001
+D3
+~
+~
+0 -1 26003
+E
+tournament gong~
+This enormous and ancient gong sounds upon the beginning and ending of each
+combat trial.
+~
+S
+#26005
+Council Chamber~
+Before you is the longest table you have ever seen. Constructed of highly
+polished ironwood, its surface eerily reflects the torchlight of the brands
+lining the walls. Several score highbacked chairs surround the table on its
+every edge.  It was here, where cult members discussed the happenings of the
+world around them.
+
+Exits are west to the Inner Sanctum and south to the Halls of Allegiance.
+~
+260 V 0
+D2
+~
+~
+0 -1 26006
+D3
+~
+~
+0 -1 26004
+S
+#26006
+Halls of Allegiance~
+You are in a great hall. Upon the hallowed walls are inscribed the names of
+all who have gone before. In the center of the hall, is a raised dias, with
+a large slab of black stone upon it.
+
+Exits are north to the Council Chamber and West to the Courtyard.
+~
+260 V 0
+D0
+~
+~
+0 -1 26005
+D3
+~
+~
+0 -1 26001
+E
+Slab~
+The next obsidian tile to be added to these halls. The newest members names
+and initiation dates are inscribed here:
+
+- Soul -
+~
+S
+#0
+
+
+#RESETS
+
+S
+
+
+#SPECIALS
+
+S
+
+
+#$

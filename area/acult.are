@@ -1,0 +1,332 @@
+#AREA {25+} Arborio The Shrine of Essence~
+
+#MOBILES
+#19001
+disciple meditating~
+The Meditating Disciple~
+A small man sits here, his eyes gazing into a mystical void.
+~
+Dressed in grey robes his hood covering his head, you can feel the Essence
+of this man surrounding you.  As you reach out to touch his mystical
+presence, you hear him within your mind.  "Follow the flow of the Essence,"
+he tells you, "Lest you be destroyed in the material armageddon."
+~
+human~
+BGQR CDEFJOVZ AB 1000 S
+30 6 200d2+65 2d50+100 5d5+17 7
+-2 -5 -2 -5
+AEFKN ABLNP JKPQ M
+8 8 1 150
+0 0 M 0
+#19002
+disciple~
+The Last Disciple of Trigali~
+The astral form of a meditating priest beckons you towards him.
+~
+The Existential Mist is a powerful psionist, and his beliefs in the Essence
+are similarly as strong.  A blue glow, he promises to teach you the truth
+of the material realm, its selfishness, its greed, and its hate.  It is only
+within the Essence that one can become powerful, honorable, and moral.
+Through the Essence, one learns to control his own mind, traveling to
+mystical realms in the search of truth.  It is only through the Essence that
+that one can truly control one's self.
+~
+human~
+BEGKMV CDEFGHNOTVZ AB 1000 S
+60 30 200d2+4550 100d1+400 7d8+15 17
+-20 -20 -20 -40
+ACDEFHIK ABCNP DIJK M
+8 8 1 500
+0 0 M 0
+#19003
+protector~
+The Protector of the Shrine~
+A tall, bulky warrior probes your mind, searching for the Essence.
+~
+Wearing the precious medallion of the Essence, you can see it radiate
+immense psionic power within this warrior.  You can feel your mind being
+probed, as this Protector searches your psyche for your true motives.  He
+is the first to judge your worth -- This is a place where only the worthy of
+the Essence may enter.
+~
+human~
+CGMT CDEFGHNTV 1000 S
+55 25 2500d2+300 100d1+50 10d6+9 18
+-10 -10 -10 -10
+ACEFJKNU ABENQR FK M
+8 8 1 350
+0 0 M 0
+#0
+
+#OBJECTS
+#19001
+ring existential~
+The Existential Ring~
+A golden band with the sign of infinty is here.~
+gold~
+11 ABFM AB
+2 2 2 2 0
+45 25 5000 P
+E
+existential ring~
+As you handle this golden ring, you can feel the connection between your
+mind and soul.  Two planes of existence meld into one through this ring, and
+you can feel the power of the Essence as you wear it.
+~
+A
+3 2
+A
+2 -1
+A
+18 4
+A
+19 3
+#19002
+robe~
+The Essential Robe~
+A plain black robe rests in a pile on the floor.~
+silk~
+9 AHI AD
+9 9 9 20 0
+45 9 500 P
+E
+robe~
+The symbol of the Essence, each member must wear this dark robe.  It too
+eminates magic, and one can feel the soul of its previous owner still
+contained within the folds of the robe.  It is said that each member of the
+Essence is a culmination of years of fate, with the souls of a hundred
+past members passing into each new member.
+~
+A
+1 2
+A
+12 50
+A
+19 3
+#19003
+beam~
+beam of light~
+A beam of light shines down from darkness, illuminating the golden floor.~
+glass~
+30 MO 0
+5 19002 0 0 0
+1 10000 0 P
+E
+beam~
+Within the beam of light floats the Essence of every disciple of
+Trigali.  They have traversed the material plane and now exist in
+a world very different from this one.  Will you to enter the light,
+become one with the Essence and live forever in this cult of wonderous
+power and knowledge?
+~
+
+#0
+
+#ROOMS
+#19000
+The Gateway to the Soul~
+Before you stands a gleaming portal amidst darkness.  As you you plunge
+your hand into the portal, it disappears to another plane.  You are slowly
+drawn towards the doorway, as if something within you yearns to escape the
+confines of your mortal soul.  Within the doorway is the Essence -- Is it
+your Fate to enter?  Better yet, how does one enter?
+~
+19 0 0
+D0
+~
+essence~
+4 -1 19001
+S
+#19001
+The Direction of Essence.~
+This hexagonal room is painted like a compass, with arrows pointing in six
+directions.  Strangely, east and west are forgotten, as if linear motion
+in this realm was all but unimportant.  You ponder this question, and
+a meditating disciple smiles: "You are learning, my son, the greatest
+lesson of the Essence: Nothing is linear."  Exits lead in six directions,
+and the disciple gives little suggestion as to what lies behind each door.
+~
+19  DX 0
+D0
+An ivory gate
+~
+ivory~
+1 -1 19002
+D6
+the diamond door
+~
+diamond~
+1 -1 19003
+D8
+the jade door
+~
+jade~
+1 -1 19004
+D2
+the ebony door
+~
+ebony~
+1 -1 19000
+D9
+the tourmaline door
+~
+tourmaline~
+1 -1 19005
+D7
+the ruby door
+~
+ruby~
+1 -1 19006
+S
+#19002
+Behind the ivory door~
+This private alcove is reserved for the true Essentials.  This is a
+small altar on the northern wall, with a large golden sculpture of two
+interlocking hoops.  The floor is constructed of cold cement, with small
+pillows and rugs for kneeling and meditating.  Incense wafts through the
+air, hanging within the light from the rose-stained glass window.  While
+this room is silent and solitary, one can hear Trigali speak: "The true
+learned Essentials are the only ones who can learn from New Trigali.
+Become one with the Essence, allow it to flow through you, and you will
+no longer be condemned to a linear life or death.  The Essence is the
+truth and the light.  Stand and open that which condemns us to armageddon.
+Prepare to become one with the Disciples of the Essence!"
+~
+19 CDS 0
+D0
+~
+materialism~
+4 -1 19007
+D2
+the ivory door
+~
+ivory~
+1 -1 19001
+S
+#19003
+Private Meditation Chamber.~
+A private room, this small chamber allows you to control your own
+Essence before attempting to invite the Essence of others within
+you.  A small rug covers a cold stone floor, and the rug itself
+radiates an inner soul.
+~
+19 DKL 0
+D9
+The diamond door
+~
+diamond~
+0 -1 19001
+S
+#19004
+The Chamber of the Essence.~
+Incense fills the air in this room, a comfortable but modest arena
+of meditation.  Couches and altars fill this room, organized in such
+a manner as to provide both a union with other worshippers and a
+sense of loneliness.  A disciple is meditating here, chanting the words:
+"Material armageddon will doom this realm.  The only escape is within
+the Essence."
+~
+19 DKX 0
+D7
+The jade door
+~
+jade~
+2 -1 19001
+S
+#19005
+The Altar of Trigali.~
+A grand altar engulfs this room, with always one disciple tending
+to the needs of the famous Trigali.  New Trigali very rarely
+visits this altar.  He really has no need, as Trigali's Essence
+is within him.  You, however, need to please the master in order
+to survive the materialism of this realm.  Sacrifice an item here
+and please the one which you serve.
+~
+19 D 0
+D6
+the tourmaline door
+~
+tourmaline~
+1 -1 19001
+S
+#19006
+The Wayfarer's Stop~
+The Disciples of Trigali thank you for your work, educating the
+realm about their material ways and the doom that will befall
+them.  In return, they wish to provide you solstice, a chance
+to rest and relax before you undertake the task of doom-sayer
+yet again.  Two couches lie here, plush and luxurious.  It is
+quite clear that any money these disciples procure is spent on
+providing each follower of Trigali with the most comfortable
+hospitality possible.  Sit, relax, and capture the Essence around
+you.
+~
+19 DJTU 0
+D8
+the ruby door
+~
+ruby~
+1 -1 19001
+S
+#19007
+The Path to Knowledge~
+As you continue to plow through darkness, somehow instinctively
+knowing your way through this dark corridor, the voice of
+Trigali once again enters your mind: "Congratulations, my
+fair disciple.  Continue to speak the truth and feel at one with
+your mind and with your Essence.  Sit here and relax, and soon
+enough you will be here with me."
+~
+19 A 0
+S
+#19008
+The Palace of Trigali~
+New Trigali, the last remaining full disciple of the Lord,
+sits here, a beam of light flowing into the room out of darkness
+itself.  He smiles, and beckons you to join him by his throne and
+at his private altar to Trigali.  As you approach him, he carefully
+draws the blade he clutches so dear.  Grasping your hand, he carves
+the two interlocking circles of Trigali onto the back of your hand.
+Blood flows, but you feel no pain.  Instead, you feel the Essence of
+Trigali himself within you, protecting you, and strengthening you.
+"Welcome, new disciple, to Trigali's Essence.  Enter the light
+to return to your realm a new man."
+~
+19 D 0
+S
+#0
+
+
+#RESETS
+M 0 19003 1 19000       * Load Protector at the Gate
+E 1 19002 3 5           * Give/equip a Robe to the Protector
+*
+M 0 19001 2 19003       * Load meditating disciple in the meditation chamber.
+E 1 19001 1 5 1         * Give meditating disciple a ring.
+*
+M 0 19002 1 19008       * Put the disciple in the Chamber
+E 1 19002 3 5           * Give disciple a Robe
+E 1 19001 5 1           * Give disciple a Ring
+*
+M 0 19002 1 19001       * Put disciple in the Main Hall
+*
+O 0 19003 1 19008       * Put Beam of light in Trigali's room
+*
+D 0 19000 0 4           * Close secret entrance door
+D 0 19002 0 4           * Close secret door in 19002
+D 0 19001 0 1
+D 0 19001 6 1
+D 0 19001 7 1
+D 0 19001 8 1
+D 0 19001 9 1
+D 0 19001 2 1
+S
+
+#SPECIALS
+M 19003 spec_guard
+M 19001 spec_cast_cleric
+M 19002 spec_psionic
+M 19002 spec_cast_mage
+S
+
+#$

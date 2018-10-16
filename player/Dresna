@@ -1,0 +1,1021 @@
+#PLAYER
+Name Dresna~
+Id   28095
+LogO 952919990
+Vers 3
+Desc I'm a little egg corn brown lying here apon the ground. Everbody steps on me that is why I'm cracked you see. I'M A NUT *KNOCK KNOCK* I'M A NUT *KNOCK KNOCK* I'M A NUT I'M A NUT I'M A NUT *KNOCK KNOCK*
+~
+Prom ~
+Ignoring inc list darkside~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  0
+Psionic  1
+Cast none
+Levl 51
+Plyd 1098121
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  952 952 368 368 285 285
+NewGold 275
+NewPlat 64
+NewCopp 928
+NewSilv 315
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 27
+Exp  120688
+Act  1048776
+AfBy 520
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 3
+Color 2 9
+Color 3 2
+Color 4 0
+Color 5 3
+Color 6 7
+Color 7 4
+Color 8 2
+Color 9 5
+Color 10 3
+Color 11 6
+Color 12 4
+Color 13 7
+Color 14 5
+Color 15 8
+Color 16 6
+Pos  8
+Prac 4
+Save  1
+Alig  1000
+Hit   38
+Dam   74
+ACs -93 -82 -89 38
+Wimp  60
+Attr 14 16 12 16 17
+AMod 13 0 5 2 0
+Pass Dr2mW.i4myTek~
+Ariv $n came in from the $T~
+Dprt $n left to the $T~
+Titl  Ypermaxos Tis Trelas~
+Pnts 40
+TSex 2
+LLev 216
+HMVP 927 308 400
+Cond 0 13 27
+Sk 86 'armor'
+Sk 59 'burning hands'
+Sk 77 'cancellation'
+Sk 1 'charm person'
+Sk 49 'chill touch'
+Sk 49 'colour spray'
+Sk 72 'detect invis'
+Sk 76 'dispel magic'
+Sk 49 'faerie fire'
+Sk 56 'fireball'
+Sk 77 'fly'
+Sk 90 'gate'
+Sk 76 'giant strength'
+Sk 90 'haste'
+Sk 54 'infravision'
+Sk 80 'invis'
+Sk 86 'lightning bolt'
+Sk 60 'locate object'
+Sk 75 'magic missile'
+Sk 100 'mana convert'
+Sk 58 'pass door'
+Sk 80 'protection evil'
+Sk 54 'refresh'
+Sk 61 'sanctuary'
+Sk 86 'shield'
+Sk 55 'shocking grasp'
+Sk 48 'sleep'
+Sk 81 'slow'
+Sk 58 'stone skin'
+Sk 55 'summon'
+Sk 25 'teleport'
+Sk 27 'clairvoyance'
+Sk 72 'ego whip'
+Sk 29 'mindbar'
+Sk 28 'transfusion'
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 44 'archery'
+Sk 100 'backstab'
+Sk 40 'bash'
+Sk 100 'dodge'
+Sk 99 'second attack'
+Sk 13 'hide'
+Sk 33 'pick lock'
+Sk 20 'sneak'
+Sk 75 'search'
+Sk 17 'steal'
+Sk 49 'scrolls'
+Sk 17 'wands'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'mage guild'
+Gr 'guild beguiling'
+Gr 'guild combat'
+Gr 'guild enhancement'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'detect invis'   7  12   0   0          8          0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 499
+Cond 100
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 283
+Cond 100
+Repd 0
+Val  6 5 6 1 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4498
+Nest 1
+Wear -1
+Lev  10
+Cost 80
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 69
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13275
+Nest 2
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 7818
+Nest 2
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7823
+Nest 2
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'heal'
+End
+
+#O
+Vnum 76
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 141 0 0 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29210
+Nest 1
+ExtF 2097152
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 1
+Wear -1
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13275
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5780
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,1362 @@
+#HELPS
+
+-1 WIZLIST~
+Gods (69)        Deities (68)      Demi-Gods (67)	Arch-Angels (66)
+---------        ------------      --------------	----------------
+Haze          	 Gravestone        Bremen		Diablerie
+		 Thalia            
+
+Angels (65)      Avatars (64)      Immortals (63)	Martyr (62)
+-----------      ------------      --------------	-----------
+                 - None -          Trouble		- None -
+               		           			
+                 
+
+		       *_   _   _   _   _ *
+	       ^       | `-' `-' `-' `-' `|       ^
+	       |       |   Implementors   |       |
+	       |  (*)  |_   _   _   _   _ |  \^/  |
+	       | _<">_ | `-' `-' `-' `-' `| _(#)_ |
+	      o+o \ / \0     Soulcrusher  0/ \ / (=)
+	       0'\ ^ /\/     Eclipse      \/\ ^ /`0
+		 /_^_\ |     Ungrim       | /_^_\
+		 || || |     Gravestone   | || ||
+		 d|_|b_T     Blackbird    T_d|_|b
+                       *------------------*
+~
+
+-1 'NEWBIE INFO'~
+Be welcome oh adventurer.  Since you are new to the game, your best course
+of action is to traverse the mud school before journeying on to other realms.
+It's designed to help you learn the basics of the game.  Make sure you read
+all the signs in the area, as they will add helpful hints on how things work.
+Just north of you, you will find rooms to the east and west. Make sure you
+visit them and follow the helps. To see a list of the Equipment you are
+wearing, type: equipment. To see if you have spells to cast type: spells.
+To see a list of your skills type: skills. For a list of available commands
+type: commands.  To see basic information about yourself type: score.
+
+* For new players:
+     Don't try to kill the blob in mudschool.
+
+To see a lot more useful information, type: help beginners 
+~
+
+1 IGNORE~
+Syntax: ignore
+        ignore <character name>
+        ignore nobody
+
+Typing ignore by itself will show you a list of the people that you are ignoring.
+Putting someone on your ignore list will prevent them from telling to you.  Typing
+ignore nobody will clear your ignore list.
+
+~
+
+
+-1 BEGINNERS~
+
+Welcome to Aaron's Time of Chaos...
+
+This is a guide for new players. Help <name> will have most of the information
+you will need.  Typing 'help' by itself will bring up a command summary.
+Type 'help keyword' to see a list of the available help files.
+
+Here's a list of useful commands to find out more about the game:
+
+command - displays all the available commands in ToC
+
+social  - displays all social commands in ToC. These socials do not
+affect the game in any way except to enhance playing as a more effective
+means to express your character.
+Note: There is no help available for socials. Feel free to try them out.
+
+gossip <...> - This is the usual way of how players speak to one another
+where <...> is what you want said. Gossip is one of many channels
+available to you. It is most useful as it is a public channel, meaning
+every player can 'listen' to gossip. Use it to ask for help or just to
+get to know the mud.  You cannot use the gossip channel (or other public
+channels) until you reach level 2.
+
+tell <name> <...> - Tell is another channel for private conversations
+between 2 people.
+
+Mud School
+==========
+
+New players should go through Mud School to learn the basics of mudding.
+When you first enter ToC, your character is placed at the Entrance to Mud 
+School. Read the descriptions carefully as many instructions are shown in 
+room descriptions.
+
+To move in any direction, simply type the first letter.
+
+Example: To move north, type n or N (Upper/Lower case doesn't matter)
+
+To look at a room, type look.
+
+Your character has 3 vital signs, namely Hit Points (hp), Mana, and 
+Endurance (end).
+
+Hit Points represent the amount of life your character has. Should your hp 
+ever get below -10, you have died. If it reaches 0 or lower, you have 
+been knocked unconscious and require assistance ... quickly.
+
+Mana is the magic force pulsing through your veins. Mana is used to cast
+magic spells and certain specialized skills. Spellcasting classes 
+generally have more mana than non-spellcasting classes.
+
+Endurance is used each time your character moves. Certain spells/skills 
+affect how much end is needed each time your character moves.
+
+
+Dying
+=====
+
+If you have died, all is not lost. Ask higher level players for help in a
+Corpse Retrieval (CR) or if possible, go back to the same place where you 
+died and get back your stuff. Once you have reached your corpse, just get 
+all the equipment from your corpse and you will be exactly the same as 
+before -  give or take a couple of experience points :)
+See help DYING for more information.
+
+To get everything from corpse, type get all corpse.
+
+
+Places of interest
+==================
+
+Here are a couple of low level areas to attract your interest:
+
+Mob Factory - A stinking cesspool of drunks and workers, guarded by thugs
+employed by Foreman Floyd. Occasionally, you may come across horribly 
+deformed guard dogs, affected by the slime pools around the facility.
+Be forewarned: this area is not for the meek.
+
+Dwarven Day Care - This delightful nursery cares for the offspring of
+the nearby dwarven kingdoms and mines. Nannies are scattered around the 
+area, mothering these toddlers. They are quick to anger should one make a 
+false move.
+
+Smurfs - Welcome to the world of those tiny little blue creatures we all
+know and love. The entire gang is here -  Papa Smurf, Smurfette, Brainy..etc.
+
+Some areas have aggressive monsters (monsters which attack without 
+provocation) like Dwarven Day Care.
+
+There's a Newbie Train, up from the Entrance to Mud School, which can 
+take you to these places and more.
+
+
+General MUD Terms
+=================
+
+Some of the basic Mud abbreviations used are:
+
+AFK  - Away from Keyboard. Person is away from the keyboard; therefore
+       character is temporarily unavailable.
+BRB  - Be Right Back. Self-explanatory. Often used in conjunction with AFK.
+CR   - Corpse Retrieval. After a player has died, this is what the process
+       of getting back the corpse is called.
+ROFL - Roll On the Floor Laughing. A common social used to express humor.
+RL   - Real Life. Helps separates realities when speaking to other players.
+DTD  - Some software programs allow the person to 'drop to dos'
+Mob  - Short for mobile, which is what most monsters in the game are referred
+       to as.
+NPC  - Non-Player-Character: all mobiles
+PC   - Player-Character: All Players. Immortals are considered NPC's.
+
+And that's it. Remember, this is only a game and we are all here to have FUN!
+
+Enjoy...
+~
+
+-1 GREETING~
+Welcome to ...
+.                           ==(W{==========-      /===-   _________
+			      ||  (.--.)         /===-_---         ------____
+			      | \_,|**|,__      |===--___               __,-'
+		 -==\\        `\ ' `--'   ),    `//=\\   ----`---.___.--
+	     ______-==|        /`\_. .__/\ \    | |  \\           _--`
+      ___----   ,-/-==\\      (   | .  |----|   | |   `\        ,'
+    _-        /'    |  \\     )__/==0==-\<>/   / /      \      /
+  .'        /       |   \\      /-\___/--\/  /' /        \   /'
+ /  ____  /         |    \`\.__/---   \  |_/'  /          \/'
+/-'-    --------__  |     --/-         ( )   /'       __---`
+		  \_|      /       __) | ;  ),   __---
+		    '----_/      _- /- |/ \   '- \        AARON'S
+IMPs:              {\__--_/}   _/ \\_>-|)<__\     \        TIME
+Eclipse            /'   (_/ __-   | |__>--<__|     |        OF
+Gravestone        |  __/) )-      | |__>--<__|     |      CHAOS!
+Soulcrusher       / /  ,_/       / /__>---<__/     |
+Blackbird	 o-o _//        /--_>---<__--   _ /  May your stay here be...
+Ungrim		 (^(-          /-_>---<__-    /      Interesting...
+	       ( '))          |__>--<__|    /
+	    ' )) (            \__>--<__\    \
+	,/,'//( (              --<__>--<--   \
+      ,( ( ((, ))               --_->--<Tzu_/
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Welcome and Enjoy your Stay! Your Implementors are: Soulcrusher, Blackbird, 
+Eclipse and Ungrim, we can be found at soul@kersur.net, armavirum@wxs.nl,
+belial@starlink.com and protaeseus@eudoramail.com.
+This mud is based on Dragons Legends and Lore (ROM 2.3).
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+DikuMUD (C) 1990-1991 by Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael
+Seifert, and Sebastian Hammer. Merc 2.1 (C) 1992-1993 by Michael Chastain,
+Michael Quan and Mitchell Tse. ROM 2.3 by Hatchet, Furey, Kahn, Russ Taylor,
+and ROM 2.4 by Russ Taylor (Alander). Further modifications done by Eclipse,
+Gravestone, Ricochet, Soulcrusher, Blackbird and Ungrim.
+
+By what name art thou known? ~
+
+-1 MOTD~
+
+Please note that there will be changes made in the game on a continuing
+basis. HELP NEWS for further information. HELP WEB for webpage information.
+
+* For new players type:
+
+HELP RULES        HELP BEGINNERS       HELP SPELLGROUP       HELP GUILDS
+
+Hope you enjoy the game!
+
+- The Imps -
+
+Please type HELP NEWS for information about a magical staff.
+
+Please type HELP RULES, ignorance of the rules is not an excuse.
+
+~
+
+62 IMOTD~
+Welcome Immortal!
+
+NEW COMMANDS:
+
+ - Use the qflag command to set the (Quest) flag on players during imm quests.
+ - Use the rwhere command to find the location of a specific room name.
+
+ * You can get a list of all the notes to immortal by typing the following command
+
+   note list imm
+
+~
+
+62 JOBS~
+Helps for Immortals are listed under a help file for your corresponding
+level, i.e. help immortal, help angel, etc.
+All job descriptions work in a top down fashion, meaning you are also
+responsible for the jobs of the immortal levels below you, if there are
+any.  These jobs are just listed as general purpose and not all encompassing.
+There is also a help file for running 'quests' that all immortals need
+to read. It sets down guide-lines for prizes/difficulty level.  Also
+to be read by all immortals is: help commandments.
+~
+
+62 QUESTS~
+Sorry not in yet.
+~
+0 HEROQUEST~
+When you embark on a hero quest, the following commands can be used
+at the Questmaster:
+
+heroquest: This wil start the quest.
+listclue: This will relist the clue you are on.
+retrieved <item name>: This will make the Questmaster tell you if the clue
+		       is correct or not. If it is, the next clue will be
+		       listed.
+endquest: This will end your quest, but there are stiff penalties for doing
+	  so. Use this as a last resort, when all else has failed. It is
+	  advised that you quit the game for a little while before doing
+	  this though to give yourself  a chance to cool off your frustration.
+	  By ending a Hero Quest, you may not start one again for 7 days
+	  real time. The Quest Master will inform you on how long you 
+	  have left to wait.
+
+Discussion of any hero quest clues or items before or after the hero quest
+is a SERIOUS offense, and will be enforced. If you have another Player Char
+and are caught discussing the clues/items that your Hero PC encountered, or
+are caught using that PC to communicate in any way for your Hero PC, both
+that PC and your Hero will SUFFER SEVERE PENALTIES, NO EXCEPTIONS!!!
+~
+
+51 HEROLEVELS~
+See help on exchange. More help on herolevels will be added later.
+~
+
+62 MARTYR~
+You job is to prove to the Implementors that you are worthy of advancement
+to a higher Immortal level, either by running decent quests <not common
+place ones>, helping out the other immortals by finding bugs or assisting
+in finding bugs, area creation, and generally staying out of trouble.
+You were not given an immortal to boost your ego, so bragging to players
+that you have one will not be looked upon kindly.  At this level, you
+are subject to deletion at the discretion of the implementors, so don't
+screw up.  Some players are granted this status for helping out with
+the game in the past, and the above does not entirely apply to them.
+~
+
+63 IMMORTAL~
+Your job is to help new players out.  This does not mean you
+will give out information about where stuff is, or what something does, or
+how to get somewhere. You could however tell them to go check out the newbie
+train. It means that if someone is clueless, you can say: 'go through the mud
+school and read the signs', or 'Well, when I was a newbie, I found it a good
+idea to train 'such and such' a skill/spell/attribute, but this is just my
+opinion.' You are not to nursemaid the players. Only help out when someone is
+in need of it.  Also, if someone has a bug to report, go listen to them.
+Getting player input is very important, even if their opinions or supposed
+bugs may seem off the wall so to speak.  You can also run minor quests,
+though you must have at least 10 people wishing to participate in them.
+Read the help file 'Quests' for more information.
+~
+
+64 AVATAR~
+Your job is to run quests for the players.  One doesn't have to be run
+every day, but once a week at pre-set times, or even random intervals
+would be good.  Having quests livens up the game and is a very important
+part of making the game interesting.
+~
+
+65 ANGEL~
+Your job is to socialize with the players. Don't bother them if they don't
+want your company. Ask questions pertaining to the game, get their opinions
+on how things are set up, or if they think something is unfair or out of
+balance, or needs changing.  Take their comments with a grain of salt, as
+a lot of people are going to say 'this sucks' or 'this is unfair' or
+'I need a spell that kills everything', etc.  You can also run quests, and
+are obligated to assist other immortals running them.  Read the help on
+quests.
+~
+
+66 ARCHANGEL ARCH-ANGEL~
+Your job is to keep tabs on game balance.  This covers many
+topics.  Keep tabs on object stats and whether they should be lowered or
+increased, or if something about the object isn't the way it should be.
+Discriminately watch how PC's go about playing the game.  In most
+cases do this by asking if you can follow them around.  In some cases you
+can follow without making your presence known, but avoid invading privacy.
+Check stats on mobs to see if they are correct, in your opinion, or if
+something needs changing.
+~
+
+67 DEMIGODS DEMI-GODS~
+Your job is to keep the peace.  This means if someone is being
+obnoxious, kindly ask them to stop the annoying behaviour.  If they
+persist, you can remove their channels until they simmer down.  If they
+are a blatant pain, gossiping foul language and such, nochannel them and
+dump them in jail.  Jailing is usually only for those players that
+log on a level one just to make trouble, not players who spend a lot of time
+on the game, though they too can be jailed if the circumstances are extreme.
+Make sure you leave a note concerning the incident.
+~
+
+68 DEITY~
+Your job is to make sure that all the rules of the game are being followed.
+This includes both mortal and immortal.  You are also responsible for 
+reimbursements, whether this includes loading a few items, or doing a 
+complete restore of the character.  Characters that delete themselves will 
+not be reimbursed 99% of the time; you'll have to make a judgement call for 
+the other 1% of the cases.  Reimbursed items that are loaded will be loaded 
+at the level of an existing item in the game, or the character's level if the 
+object is known to be in that level range.
+~
+
+69 GODS~
+Your job is ... well ... I have no idea what your job is right now.
+To come up with new ideas for the game, or ideas to help speed up game
+performance I guess.
+~
+
+62 COMMANDMENTS LAWS 'GOD RULES'~
+.
+			 **********************
+			 ** The Rules of ToC **
+			 **********************
+
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+
+2)  Do not cheat for ANY mortal in ANY way, especially your own.
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,
+    and softening up or altering mobs.  It also includes giving out
+    object stats or mobs stats.
+
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    Let them explore.
+
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+
+5)  DO NOT use reboot.  Plain and simple.
+
+6)  Do not give out free equipment.  Items for quests are ok, if the item
+    fits the difficulty of the quest listed in 'help quest'.
+
+7)  Do not undermine the authority of a higher level god.  If you
+    see that someone has been frozen or nochannelled do not restore
+    their privileges.  They are being punished for a reason.
+
+8)  Try not to overrule each other.
+
+9)  Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+10) If your mortal character has a disagreement with a player, do not use
+    your immortal to get even, in any way shape or form.  Keep your mortals
+    and your immortal disassociated from one another.
+
+~
+
+-1 HERBIE ANGEL~
+Herbie, the wonder angel, will at odd times come to your aid and cure you of
+all your wounds. He's not something to be relied on though.
+~
+
+-1 RULES~
+
+These are the rules of ToC.  For other matters, USE COMMON SENSE.
+
+Rules for everything that can be done wrong can't possibly be written,
+because some things are just not thought of.  If you get called out
+for doing something wrong by the Immortals don't retort with it isn't
+against the rules.  USE COMMON SENSE.
+
+Note that all punishments also include confiscation of any items obtained
+by breaking a rule.
+
+* Foul and/or abusive language will not be tolerated on ToC, from anyone
+  (including gods). This applies to all public channels and to say and
+  emote used in public areas.  On private channels, please respect other
+  people and discontinue using language they tell you they find offensive.
+
+* Sexual harassment of any form will not be tolerated, punishable by deletion
+  This MUD does not exist for you to belittle others.. It exists solely for
+  the entertainment of all.. Violate someone's civil rights and you're gone,
+  no exceptions!!
+
+* We created this game for your enjoyment.  While we don't like the line
+  "your being here is a privilege not a right", your use of the game can
+  and will be removed if we so deem it necessary for the good of the MUD.
+ 
+* Cheating will not be tolerated.  This includes accepting favors from gods
+  and exploiting bugs. If you find a bug, report it, then do not use it.
+
+* If an immortal speaks to you, listen and do as told. Don't argue, just do
+  it.  Immortals have a tough enough job without dealing with bad attitudes.
+
+* This is a pKill MUD.  If you decide to become pKillable (SEE HELP PKILL),
+  then live (or die) with that decision.  Any complaints in regards to being
+  pKilled will fall upon deaf ears.
+
+* Do not bring aggressive mobs to lower level areas other than the ones they 
+  belong in.  Charming aggressive mobs and bringing them to Dresden is
+  looked on particularly strongly.
+
+* Weakening mobs is not allowed, i.e, hurting a mob so that someone lower
+  level can finish it off.
+
+* Botting is not allowed.
+
+* No multiplaying.  This means do not have more than one character at a time
+  on.  Do not assist your own character i.e. don't drop eq log off, log 
+  on a newbie and get the eq, or vice versa.
+
+* No character sharing, this means only YOU can play your character, and
+  it's illegal to have your friend or brother log him in.
+  No character trading, your character will stay yours forever, it is no
+  longer allowed to give characters away, not even when you're retiring.
+  Both these rules are punishable by deletion.
+
+* If someone is not pkillable do not loot their corpse.
+~
+62 PUNISHED~
+This space is intended to keep a running list of punishments.  
+Regularly updating the list will enable us to determine what is a
+first/second/third offense and handle it accordingly.  
+
+Date           Name(s)            Offense                Punishment
+==============================================================================
+
+~
+
+-1 NEWS~
+(Last updated: yesterday)
+
+- We have a web page.  See help WEB for more info.
+- Some channels are level restricted.
+- You must be level 3 in order to save on this game.
+
+- There exists a staff of great power in the land of Sembia.  It is broken
+  into 7 pieces and the one who can find them all and re-assemble the staff
+  will be holding a great power.  
+
+  NOTE: Multiple staffs can exist, once it is assembled the pieces will be
+        re-scattered :)
+
+- Eq can now get damaged, you need to go to an armorer or weaponsmith to
+  repair the items, using a repair <item> syntax.
+
+- Stats have changed a bit, some races are now able to go beyond the
+  original 25 max, depending on their base stat and possible magical
+  enhancement. 
+~
+
+-1 LYCANTHROPY~
+Lycanthropy is a magical disease out of legend, with the main affect on 
+the afflicted being that on the Full Moon, the diseased person turns into 
+a Were-Creature. The most commonly known form is the Were-Wolf. The 
+disease is transmitted by being bitten by a being that is already 
+afflicted with Lycanthropy. The first Were-Creature was probably created 
+by some kind of Curse long ago, and has mutated into it's current form. 
+Were-Creatures typically carry 1-4 items, depending on there size, and 
+have no worries about death. There is currently know known cure for this 
+disease.
+~
+
+-1 WEB~
+There is now a Aaron's Time of Chaos Web page available on the Web. It's address is:
+
+http://www.ofchaos.com
+
+It will be continually changing and growing as we change and grow. All comments
+and suggestions are gratefully appreciated. Just mail them via the addresses
+on the page.
+~
+-1 STORY~
+The story of ToC is told in the diaries of Judicandus Bramsheer.  See
+the Aaron's Time of Chaos Web page (see help WEB for address) to read them.
+~
+
+-1 TAX TAXES~
+Providing subissue equipment to newbies, training guards to protect the city
+of Dresden against killers and thieves, and furnishing the mayors office
+in high style are all expensive.  In order to keep everything running
+smoothly, ToC taxes the wealthiest citizens.  This tax amounts to 50% of
+all gold above 1 million coins, each and every time you log on.
+~
+
+-1 CHANGES~
+Check help news.
+~
+
+-1 DIKU~
+.                    Original game idea, concept, and design:
+
+	  Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+	  Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+	  Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+	  Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+	  Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+		     Additional contributions from:
+
+Michael Curran  - the player title collection and additional locations.
+Ragnar Loenn    - the bulletin board.
+Bill Wisner     - for being the first to successfully port the game,
+		  uncovering several old bugs, uh, inconsistencies,
+		  in the process.
+
+And: Mads Haar and Stephan Dahl for additional locations.
+
+Developed at: DIKU -- The Department of Computer Science
+		      at the University of Copenhagen.
+
+~
+
+
+-1 MERC~
+[Note: this entry may not be removed or altered.  See our license.txt.]
+
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  Merc 2.1.
+is available as Merc_21c.tar.Z from ferkel.ucsb.edu and ftp.math.okstate.edu.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+Share and enjoy.
+~
+
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Athen, the sequel to the ROM code. It can
+be found on Rehobaom's Legacy, at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+The New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bugs reports
+    and suggestions, saving a lot of headaches
+
+Bug reports --
+    Thanks to Shad Muegge, Jerome Despret, Phoenix, Will Hongach,
+    Erwin S. Andreasen, Adam Debus and especially Gary Turkington
+    (author of the ROM FAQ) for help spotting bugs
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used.  Portions of Rusty's work on
+Moosehead also remain.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle Taylor and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+
+-1 'RACE HELP' 'RACE' 'RACES'~
+ToC has the following races for player characters:
+
+Human    the standard race
+Dwarf    good warriors and priests
+Elf      good thieves and mages
+Hobbit   good thieves
+Saurian  unique race. difficult to play
+
+Different races have different starting statistics, and also different
+stat maximums for magic items and training.
+
+Each race requires different experience to gain a new level depending
+on what class you chose to be. Also, some classes are race restricted,
+those being:
+
+Monk       : Human and Dwarf only
+Necromancer: Human and elf only
+~
+
+-1 DWARF DWARVES~
+Dwarves are a short, stocky demi-human race, known for foul temper and great
+stamina.  Dwarves have high strength and constitution, but poor dexterity.
+They are not as smart as humans, but are usually wiser due to their long
+lifespans.  Dwarves make excellent fighters and priests, but are very poor
+mages or thieves.
+
+Dwarves are resistant to magic, poison and disease, but cannot swim, and
+so are very vulnerable to drowning.  They receive the bash skill for free.
+
+The experience needed per level for dwarves is:
+
+Mage:2200  Cleric:2150  Thief:2150  Warrior:2125  Monk:2400  
+~
+
+-1 ELF ELVES~
+Elves are slightly taller than humans, but have a much lighter build.  They
+lack the strength and stamina of the other races, but are for more agile,
+both in body and mind.  Elves are superb mages and thieves, but have at
+best fair talent as warriors or priests.
+
+Elves resist charm spells most effectively, due to their magical nature.
+However, they are burned by the touch of iron, and so are barred from the
+use of iron or steel in their adventuring careers.  Elves are notoriously
+hard to spot, and so receive the sneak skill automatically. 
+
+The experience needed per level for elves is:
+
+Mage:2100  Cleric:2125  Thief:2150  Warrior:2200  Necro:2300
+~
+
+-1 HUMAN HUMANS MAN~
+Humans are the most common race in the world, and make up the majority of
+adventurers. Although they have no special talents like the other races,
+they are more versatile, being skilled in all four classes. Humans may
+also train their primary stat higher than any other race, and are able to
+gain more benefit from magical devices.
+
+The experience needed per level for humans is:
+
+Mage:2000  Cleric:2000  Thief:2000  Warrior:2000  Monk:2300  Necro:2000
+~
+
+-1 HOBBIT HALFLING~
+Hobbits are a demi-human race, slightly shorter than dwarves. They resist
+poison and disease like dwarves.  They are vulnerable to strong wind,
+due to there small size and weight.  Of all the races, they they have the
+highest dexterity.  Hobbits gain the hide skill automatically and are able 
+to duck under attacks.
+
+The experience needed per level for hobbits is:
+
+Mage:2200  Cleric:2150  Thief:2125  Warrior:2150  
+~
+
+-1 SAURIAN~
+The Saurian race migrated to this world when theirs was on the brink of
+destruction.  When it was discovered that their world would soon perish,
+the mages created a powerful dimensional portal.  So much power was focused
+into it, though, that all that could be discerned was that the terminus world 
+was habitable, and so they arrived here.  Their world's atmosphere was harsher
+than here, giving them a strong immune system.  They are Immune to poison,
+and resist fire, but are vulnerable to cold due to their reptilian nature.  They
+also have a chance of getting a bonus attack with their tail in combat.
+
+The experience needed per level for saurians is:
+
+Mage:2200  Cleric:2150  Thief:2250  Warrior:2200  
+~
+
+-1 SPELLGROUP~
+Classes that can cast spells can gain certain groups of spells, depending on
+whether they are multi-class or full class. The following helps will show a 
+list of what spells/skills are in each group, and how much it will cost to 
+gain that group:
+
+ATTACK          BEGUILING        BENEDICTIONS      COMBAT
+CREATION        CURATIVE         DETECTION         DRACONIAN
+ELEMENTAL       ENCHANTMENT      ENHANCEMENT       HARMFUL
+HEALING         LIFE-UNDEATH     MALADICTIONS      PROTECTIVE
+TRANSPORT       WEATHERSPELLS
+
+Note that occassionally you find a spell included in a spellgroup but
+not available to members of your class at mortal levels.  This is done
+for future flexibility.  The helps on the individual spells tell you 
+what level they are for each class.  If the spell is not available to
+mortals, it is listed as N/A.
+~
+
+-1 ATTACK~
+The attack spell group is primarily for clerics and those in the cleric 
+guild. If you are a full cleric, you gain the following spells at a cost of 
+5 trains:
+
+Demonfire, Dispel Evil, Dispel Good, Earthquake, Heat Metal.
+
+If you are not a full cleric, you will need to gain the 'guild attack'
+group. It has the following spells:
+
+Demonfire, Dispel Evil, Dispel Good
+
+Cost is 4 trains for mages, 5 for thieves and warriors
+
+
+Trainer for C/C is Dominic. Trainer for ?/C, Fredar.
+~
+
+-1 BEGUILING~
+This group is primarily for mages. They gain the following spells:
+
+Charm Person, Sleep, Invisibility, Mass Invisibility
+
+at a cost of 3 trains.
+
+Guild members gain the following spells:
+
+Charm Person, Sleep, Invisibility
+
+at a cost of 3 trains.
+
+Trainer for M/M is Danko. Trainer for ?/M is Creole
+~
+
+-1 BENEDICTIONS~
+This group is primarily for clerics. They gain the following spells:
+
+Bless, Calm, Frenzy, Holy Word, Remove Curse, Aid, Mana Convert,
+Raise Dead
+
+at a cost of 4 trains.
+
+Guild members gain the following:
+
+Bless, Calm, Holy Word, Remove Curse, Aid, Mana Convert
+
+at a cost of 4 trains.
+
+Trainer for C/C is Tempora.  Trainer for ?/C is Grill.
+~
+
+-1 COMBAT~
+This group is primarily for mages. They gain the following spells:
+
+Acid Blast, Chain Lightning, Colour Spray, Fireball, Shocking Grasp,
+Heat Metal
+
+at a cost of 6 trains.
+
+Guild members gain the following:
+
+Colour Spray, Fireball, Shocking Grasp
+
+at a cost of 4 trains.
+
+Trainer for M/M is Flame.  Trainer for ?/M is Kilar.
+~
+
+-1 CREATION~
+The creation spell group contains the following spells:
+
+Continual Light, Create Food, Create Spring, Create Water
+
+Cost is 4 for mage and cleric, 5 for warrior and thief.
+Only full clerics or members of the cleric guild can gain this.
+
+Trainer is Silius.
+~
+
+-1 CURATIVE~
+This group is primarily for clerics. They gain the following spells:
+
+Cure Blindness, Cure Disease, Cure Poison, Cure Nightmare
+
+Cost is 4 for clerics, 5 for mages, and 6 for warriors and thieves.
+
+Trainer is Qualo.
+~
+
+-1 DETECTION~
+This group is open to all spell casters except necromancers, and contains 
+the following spells:
+
+Detect Evil, Detect Good, Detect Hidden, Detect Invis, Detect Magic,
+Detect Poison, Identify, Know Alignment, Locate Object, Detect Traps,
+Detect Stealth.
+
+Cost is 4 for mage, 4 for cleric, 5 for warrior and thief.
+
+Trainers are Silius for ?/C (including C/C) 
+	 and Diemos for ?/M (including M/M)
+~
+
+-1 DRACONIAN~
+This group is restricted to full mages only, at a cost of 7 trains,
+and contains the following spells:
+
+Acid Breath, Fire Breath, Frost Breath, Gas Breath, Lightning Breath.
+
+The lowest level spell in this group is level 34.
+
+Trainer is Drixt.
+~
+
+-1 ELEMENTAL~
+This group is gainable by all spell casters.  Listed by what each class gets:
+
+M/M:  Cone of Cold, Blizzard, Dustdevil, Vortex, Moonbeam, Meteor Swarm,
+      Sunray
+      Cost: 6 trains
+
+C/C:  Icicle, Cone of Cold, Water Burst, Geyser, Dustdevil, Vortex, Sunray
+      Cost: 6 trains
+
+Nec:  Icicle, Cone of Cold, Water Burst, Geyser, Dustdevil, Vortex, Moonbeam
+      Cost: 4 trains
+
+?/M:  Icicle, Sunray, Dustdevil
+?/C:  Icicle, Sunray, Water Burst, Dustdevil
+      Cost: 4 for mage or cleric, 5 for warrior or thief.
+
+Trainers are:  Tempora for C/C
+	       Lunk for ?/C
+	       Drixt for M/M
+	       Kilar for ?/M
+	 and   Marilith for Necro
+~
+
+-1 ENCHANTMENT~
+This group is restricted to full mages only, and contains the following
+spells:
+
+Enchant Armor, Enchant Weapon.
+Cost is 5 trains.
+
+Trainer is Danko.
+~
+
+-1 ENHANCEMENT~
+This group contains the following spells for full mages:
+
+Haste, Infravision, Power Gloves, Slow, Mana Convert,
+Fire Shield, Frost Shield, Force Sword.
+Cost: 5 trains
+
+Guild members gain the following:
+
+Haste, Infravision, Slow, Mana Convert
+Cost: 5 trains
+
+Necromancers gain the following:
+
+Infravision, Mana Convert, Death Shroud, Force Sword
+Cost: 5 trains
+
+Trainers are:  Tranis for M/M
+	       Creole for ?/M
+	 and   Marilith for Necro
+
+~
+
+-1 HARMFUL~
+This is primarily a cleric group. Full clerics gain the following spells:
+
+Cause Critical, Cause Serious, Harm
+
+Guild members gain all of the above except Harm.
+
+Cost: 3 Trains both for full clerics, 2 for guild members 
+
+Trainer for C/C is Eriak.  Trainer for ?/C is Lunk.
+~
+
+-1 HEALING~
+This is primarily a cleric group. Full Clerics gain the following spells:
+
+Cure Critical, Heal, Mass Healing
+
+Guild members gain all but Mass Healing.
+
+Cost: 4 trains both for full clerics and guild members
+
+Trainer for C/C is Dominic.  Trainer for ?/C is Grill.
+~
+
+-1 LIFE-UNDEATH~
+This groups is restricted to necromancers only, and contains the following
+spells:
+
+Create Skeleton, Create Wraith, Create Vampire, Energy Drain,
+Raise Dead, Trap the Soul, Haven, Ghostly Presence
+
+Cost: 7 trains
+
+Trainer is the Soul Trapper.
+~
+
+-1 MALADICTIONS~
+This group is open to all spell casters.  Spells are listed by class:
+
+M/M: Blindness, Curse, Energy Drain, Poison, Weaken, Maze
+     Cost: 5 trains
+
+C/C: Blindness, Curse, Energy Drain, Plague, Poison, Weaken, Maze
+     Cost: 5 trains
+
+?/M
+?/C: Blindness, Curse, Energy Drain, Poison, Weaken
+     Cost: 5 for mage or cleric, 6 for warrior or thief
+
+Necro: Blindness, Weaken, Maze, Plague
+       Cost: 2 trains
+
+Note: Necro's already get Curse and Poison for free.
+
+Trainers are: Eriak for C/C
+	      <TBD> for ?/C  (sorry, we are working on getting this fixed)
+	      Flame for M/M
+	      Kilar for ?/M
+         and  Necro Guild Master for Necro
+~
+
+-1 PROTECTIVE~
+The protective group is available to all. Spells are listed by class:
+
+M/M:  Cancellation, Dispel Magic, Protection Evil, Sanctuary,
+      Shield, Stone Skin, Major Globe, Rope Trick
+
+C/C:  Cancellation, Dispel Magic, Protection Evil, Sanctuary,
+      Shield, Stone Skin, Mass Sanctuary, Major globe, Rope Trick
+
+Nec:  Shield, Shroud, Sanctuary, Major Globe, Rope Trick
+
+?/M
+?/C:  Cancellation, Dispel Magic, Protection Evil, Sanctuary,
+      Shield, Stone Skin
+
+      Cost: 5 trains
+
+Trainers are: Dominic for C/C
+	      Lunk for ?/C
+	      Danko for M/M
+	      Chamis for ?/M
+	 and  Soul Trapper for Necro
+
+~
+
+-1 TRANSPORT~
+This group is available to all spell casters. Spells are listed by class:
+
+M/M:  Gate, Pass Door, Summon, Teleport, Portal, Haven
+      Cost: 5 trains
+
+C/C:  Fly, Gate, Pass Door, Summon, Teleport, Word of Recall, Portal,
+      Haven
+      Cost: 5 trains
+
+Nec:  Fly, Pass Door, Earth travel
+      Cost: 4 trains
+
+?/M
+?/C:  Fly, Gate, Pass Door, Summon, Teleport
+      Cost: 5 trains for mage or cleric, 6 for warrior or thief
+
+Trainers are: Eriak for C/C
+	      Fredar for ?/C
+	      Tranis for M/M
+	      Chamis for ?/M
+	 and  Undead Spirit for Necro
+~
+
+-1 WEATHERSPELLS~
+The weather group is open to all spell casters other than necromancer. 
+Spells are as follows:
+
+Call Lightning, Control Weather,  Faerie Fire, Faerie Fog,
+Lightning Bolt.
+
+Cost: 4 trains for mage or cleric, 6 trains for warrior or thief.
+
+Minimum levels to use spells depend on your primary class and are:
+
+Mage:14  Cleric:6  Thief:8  Warrior:8
+
+Trainers are Silius for ?/C (including C/C) 
+	 and Diemos for ?/M (including M/M)
+~
+
+0 DOORBASH~
+Using this skill will allow you to bash open closed and locked doors.
+The mimimum level to use this skill is 10.
+
+Number of trains needed: 1
+Trainer: Vladamir (W/W)
+
+~
+
+0 DAMAGE~
+When one character attacks another, the severity of the damage is shown in the
+verb used in the damage message.  Here are all the damage verbs listed from
+least damage to most damage:
+
+    miss        wound           MUTILATE        DEMOLISH
+    scratch     maul            DISEMBOWEL      DEVASTATE
+    graze       decimate        DISMEMBER       DESTROY
+    hit         devastate       MASSACRE        OBLITERATE
+    injure      maim            MANGLE          ERADICATE
+						ANNIHILATE
+
+And, at the far reaches of damaging power, you can do UNSPEAKABLE things.
+~
+
+0 DYING~
+When your character dies, you are reincarnated back at the Altar of the Temple
+of Devota.  Your corpse is left behind in the room where you were killed,
+together with all of your equipment.  Your gold stays with you, however.
+The act of retrieving your equipment is referred to as a corpse retrieval and
+is commonly abbreviated as CR.
+
+Any spells which were affecting you are canceled by death.
+
+Following and groups are not affected by death.
+
+You lose experience points for dying.  The amount you lose is half-way back to
+the beginning of your level.  Thus, if you have a bad day and die several
+times, the penalties won't clobber you.
+
+Corpses decay after time. For mobiles, the objects inside corpses decay with
+the corpse.  If a player's corpse decays, his or her equipment will remain
+on the ground where he died.  Player corpses last *roughly* 30 hours of
+game time (i.e. 30 ticks; see help TICK for more info on how this corresponds
+to real time.)
+
+Normally, only the player who died, or someone in the same group, can
+retrieve objects from a player's corpse.  However, the noloot flag may be
+turned off to allow others to retrieve items from your corpse; read help
+NOLOOT for more information.  In addition, the corpses of those who have a
+KILLER, THIEF or TRAITOR flag may be looted by anyone.
+~
+
+0 EXPERIENCE LEVEL XP~
+Your character advances in power by gaining experience.  The number of
+experience points you need to advance a level is determined by your race
+and class.
+
+
+You gain experience by:
+
+    being part of a group that kills a monster
+
+You lose experience by:
+
+    fleeing from combat
+    recalling out of combat
+    being the target of certain spells
+    dying
+
+The experience you get from a kill depends on several things: how many players
+are in your group; your level versus the level of the monster; your alignment
+versus the monster's alignment; how many of this monster have been killed
+lately; your age in hours; and some random variation.
+~
+
+-1 GUILDS~
+The guild system on ToC is designed to allow players to gain knowledge in
+a class other than the one they started with or to become specialized in
+their chosen profession.  This creates something that is close to a
+multi-class character.  In order to pick up another class you will have to
+make some sacrifices in what you can learn.  For example, those whose
+primary class is other than mage cannot learn some of the higher level
+magical spells.  You can only join one guild in a lifetime and you cannot
+'un-guild' once you join.  When you join a guild, you will have access to
+that guild's meeting place, which is protected by a powerful guard whose
+sole job is keeping those who are not members from entering.
+
+To join a guild, look for Melancholy in the oak tree as he has the
+necessary paperwork to register your membership in the guild of your choice.
+Read help JOIN for more information on joining a guild.  NOTE THAT IF
+YOU DO NOT JOIN A GUILD BY LEVEL 6, YOU WILL AUTOMATICALLY BE ENROLLED
+IN THE GUILD THAT CORRESPONDS TO YOUR CLASS AND WILL NOT AUTOMATICALLY
+GAIN THE DEFAULT GUILD SKILLS.  That is, you will have to spend trains to
+gain your guild default.  In addition, monks and necromancers are not 
+permitted to multiclass and are, therefore, automatically enrolled in their 
+corresponding guilds when they begin.
+
+If you multiclass it may raise the amount of experience you need per level,
+depending on your race.  The additional experience needed is:
+
+	 mageguild   clericguild    thiefguild    warriorguild
+
+dwarf     200           150             125            200     
+
+elf       100           125             150            200
+
+human       0             0              0              0
+
+hobbit    200           150             125            150
+
+saurian   200           150             250            200
+
+
+For more help on the individual guilds see helps on:
+
+UNIVERSITY OF MAGIC (mages' guild)
+TEMPLE OF BREAS (clerics' guild)
+CITADEL OF WAR (warriors' guild
+HOUSE OF THIEVES (thieves' guild)
+PALM OF THE CREATOR (monks' guild - not available for multiclass)
+MORGUE OF DRESDEN (necromancers' guild - not available for multiclass)
+
+After you have joined a guild, you can type gainlist to show where you 
+can gain which skill/group. You can then also type teachlist where you
+can learn your new skills/spells.
+
+~
+
+
+0 TICK~
+Many of the game actions are based upon interval timers, including combat,
+most autonomous monster actions, hp/mana/move regeneration, spell duration,
+weather, and area resetting.
+
+Of these timers, the hp/mana/move regeneration timer is popularly called the
+'tick'.  Ticks on this mud average 60 seconds of real time, but the actual
+amount varies randomly from 40 seconds to 80 seconds.
+
+Area resetting happens roughly every 3 minutes if no one is in the area, less
+often (15 minutes) if some one is.  Also note that objects lying on the ground
+will not be regenerated if anyone is in the area when it resets.
+~
+
+-1 KEYWORDS~
+Helps are available for the following keywords.  If you try to see a 
+particular help and are told no help is available, it may be restricted
+to those of a higher level than you.
+
+
+!   ,    -     .     /     ;     = 
+
+acid blast       acid breath          aggrostab          aid          
+alias            aliases              angel              answer          
+archery          areas                armor              arrive           
+astral walk      attack               auction            auto             
+autoassist       autoexit             autogold           autolist
+autoloot         autosac              autosplit          axe          
+backstab         bash                 beginners          beguiling       
+benedictions     berserk              bless              blinding fists 
+blindness        blizzard             bow                brandish 
+brew             brief                bug                burning hands 
+buy              call lightning       calm               cancellation 
+cast             castles              castlechat         cause critical 
+cause light      cause serious        cc                 cgos 
+chain lightning  changes              channels           charm person 
+chill touch      citadel of war       clairvoyance       cleric 
+climb            close                cold spells        color 
+colour spray     combat               combine            commands 
+compact          compare              concoct            cone of cold 
+confuse          consider             continual light    control weather 
+count            crane dance          create food        create skeleton 
+create spring    create vampire       create water       create wraith 
+creation         credits              curative           cure blindness 
+cure critical    cure disease         cure light         cure nightmare 
+cure poison      cure serious         curse              dagger 
+damage           deaf                 dying              deathshroud 
+delete           demonfire            depart             desc 
+description      destruction          detect evil        detect good 
+detect hidden    detect invis         detect magic       detect poison 
+detect traps     detection            diku               dirt 
+dirt kicking     disarm               dismount           dispel evil 
+dispel good      dispel magic         dodge              donate 
+down             draconian            draconian spells   drink 
+drop             dual wield           dust devil         dwarf 
+dwarves          earth travel         earthquake         east 
+eat              ego whip             electric spells    elemental 
+elf              elves                embalm             emote 
+enchant armor    enchant weapon       enchantment        energy drain 
+enhanced damage  enhancement          equipment          evil eye 
+examine          exchange             exits              exotic 
+experience       faerie fire          faerie fog         fast healing 
+fatality         fill                 fire breath        fire spells 
+fireball         fireshield           fists of fury      flail 
+flamestrike      flee                 flip               fly 
+follow           force sword          frenzy             frost breath 
+frostshield      gain                 gas breath         gate 
+get              geyser               giant strength     give 
+gossip           group                groups             gtell 
+guilds           haggle               haggling           halfling 
+hand to hand     harm                 harmful            haste 
+haven            heal                 healing            healspell 
+heat metal       help                 herbal brewing     herbie 
+hero             hide                 hobbit             hold 
+holy word        house of thieves     human              humans 
+icicle           idea                 identify           info 
+infravision      inventory            invis              iron skin 
+join             kick                 kill               know alignment 
+level            levitate             life-undeath       light spells 
+lightning bolt   lightning breath     list               locate object 
+lock             look                 lore               mace 
+mage             magic missile        major globe        maladictions 
+man              mana convert         mass invis         mass sanctuary 
+maze             meditation           merc               meteor swarm 
+mindbar          mindblast            monk               moonbeam 
+morgue           motd                 mount              move 
+murder           music                necromancer        nerve damage 
+newbie info      news                 nightmare          nofollow
+nofol            noloot               north              northeast 
+northwest        nosummon             note               notes 
+open             order                outfit             palm of the creator 
+parry            pass door            password           peek 
+pick             pick lock            pkill              plague 
+poison           polearm              portal             pose 
+power gloves     practice             project            prompt 
+protection evil  protective           psionic armor      psychic shield 
+pull             push                 put                pyrotechnics 
+quaff            question             quiet              quit 
+race             race help            races              raise dead 
+read             recall               recall             recite 
+refresh          remove               remove curse       rent 
+reply            report               rescue             rest 
+restore mana     ride                 riding             rope trick 
+rules            run                  sacrifice          sanctuary 
+saurian          save                 say                scan 
+score            scribe               scroll             scrolls 
+search           second attack        sell               shield 
+shift            shocking grasp       shout              shove 
+shroud           sit                  skeletal hands     skills 
+sleep            sleepspell           sleight of hand    slow 
+sneak            social               socials            south 
+southeast        southwest            spear              spellgroup 
+spells           spiritual hammer     split              stand 
+staves           steal                stealth            steel fist 
+stone skin       story                stunning blow      summary 
+summon           sunray               sword              take               
+tax              taxes                telekinesis        teleport           
+tell             temple of breas      tentacles          thief              
+third attack     tick                 time               title              
+tk               torment              train              transfusion        
+transport        trap the soul        trip               turn               
+typo             university of magic  unlock             up                 
+value            vampiric touch       ventriloquate      visible            
+vortex           wake                 wands              warrior            
+water burst      water spells         weaken             weapon             
+weapons          weaponsmaster        wear               weather            
+weatherspells    west                 where              whip               
+who              whois                wield              wimpy              
+wind spells      wizlist              word of recall     worth     
+xp               yell                 zap 
+animate parts    shield block         track		 
+~
+
+-1 PROMPT~
+Syntax: prompt
+Syntax: prompt all
+Syntax: prompt <%*>
+
+PROMPT with out an argument will turn your prompt on or off.
+
+PROMPT ALL will give you the standard "<hits mana moves>" prompt.
+
+PROMPT <%*> where the %* are the various variables you may set yourself.
+
+        %h :  Display your current hits
+        %H :  Display your maximum hits
+        %m :  Display your current mana
+        %M :  Display your maximum mana
+        %v :  Display your current moves
+        %V :  Display your maximum moves
+        %x :  Display your current experience
+        %X :  Display experience to level
+        %g :  Display your gold held
+        %a :  Display your alignment
+        %R :  Display the vnum you are in (IMMORTAL ONLY)
+        %z :  Display the area name you are in (IMMORTAL ONLY)
+
+Example:  PROMPT <%hhp %mm %vmv>
+        Will set your prompt to "<10hp 100m 100mv>"
+
+~
+
+0$~
+
+#$
+

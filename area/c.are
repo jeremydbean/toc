@@ -1,0 +1,2343 @@
+#AREA  {30 40} Aten    The Chessboard~
+
+#MOBILES
+#24200
+troll tunnel~
+the Tunnel Troll~
+A tunnel troll wanders about here.
+~
+The troll is small, dark, and smelly.  You would be willing
+to bet that he has never seen the light of day.
+~
+troll~
+FS 0 -500 S
+2 19 2d7+21 10d3+5 1d5+1 16
+0 0 0 0
+NF 0 0 0
+8 8 0 10
+0 0 M 0 
+#24201
+pawn wooden black~
+the Black Pawn~
+A Black Pawn shuffles around nervously here.
+~
+The pawn seems to be made of carved wood, and animated by 
+some magical means.
+~
+human~
+S 0 -200 S
+3 9 2d6+35 5d5+10 1d6+1 16
+1 1 1 1
+NC 0 0 0 
+8 8 0 15
+0 0 S 0
+#24202
+pawn wooden white~
+the White Pawn~
+A White Pawn shuffles around nervously here.
+~
+The pawn seems to be made of carved wood, and animated by 
+some magical means.
+~
+human~
+S 0 200 S
+3 9 2d6+35 5d5+10 1d6+1 16
+1 1 1 1
+NC 0 0 0
+8 8 0 15
+0 0 S 0
+#24203
+rook wooden black~
+the Black Rook~
+A black Rook stands here, having linear thoughts.
+~
+The black Rook stares absently into space, he doesn't seem
+to notice you.
+~
+elf~
+T 0 -300 S
+5 6 2d6+60 6d10+8 2d4+1 16
+1 1 1 1
+IK 0 0 0
+8 8 0 15
+0 0 M 0
+#24204
+rook wooden white~
+the White Rook~
+A white Rook stands here, having linear thoughts.
+~
+The white Rook stares absently into space, he doesn't seem
+to notice you.
+~
+elf~
+T 0 300 S
+5 6 2d6+60 6d10+8 2d4+1 16
+1 1 1 1
+IK 0 0 0
+8 8 0 15
+0 0 M 0
+#24205
+knight wooden black~
+the Black Knight~
+A black Knight is here, looking for his horse.
+~
+The black Knight would probably look alot more noble if
+he was astride a horse.
+~
+dwarf~
+T 0 -400 S
+6 5 2d7+71 3d10+40 1d8+2 16
+1 1 1 1
+FKC 0 0 0
+8 8 0 20
+0 0 M 0
+#24206
+knight wooden white~
+the White Knight~
+A white knight is here, looking for his horse.
+~
+The white Knight would probably look alot more noble if
+he was astride a horse.
+~
+dwarf~
+T 0 400 S
+6 5 2d7+71 3d10+40 1d8+2 16
+1 1 1 1
+FKC 0 0 0
+8 8 0 15
+0 0 M 0
+#24207
+bishop wooden black~
+the Black Bishop~
+A black bishop stands here quietly.
+~
+The bishop looks at you, then stares at the ceiling and yawns.
+~
+human~
+Q 0 -400 S
+6 5 2d7+71 3d10+40 1d8+2 16
+1 1 1 1 
+O 0 0 0
+8 8 0 25
+0 0 M 0
+#24208
+bishop wooden white~
+the White Bishop~
+A white bishop stands here quietly.
+~
+The bishop looks at you, then stares at the ceiling and yawns.
+~
+human~
+Q 0 400 S
+6 5 2d7+71 3d10+40 1d8+2 16
+1 1 1 1
+O 0 0 0
+8 8 0 25
+0 0 M 0
+#24209
+queen wooden black~
+the Black Queen~
+The Black Queen stands here, blocking a door.
+~
+The black Queen stares into you eyes and screams, "Mop
+the floor, you nitwit!"
+~
+human~
+R 0 -600 S
+10 5 2d7+121 2d4+120 2d6+1 16
+1 1 1 1
+F 0 0 0
+8 8 0 40
+0 0 M 0
+#24210
+queen wooden white~
+the White Queen~
+The white Queen stands here, blocking a door.
+~
+The white Queen stares into you eyes and screams, "Mop
+the floor, you nitwit!"
+~
+human~
+R 0 600 S
+10 5 2d7+121 2d4+120 2d6+1 16
+1 1 1 1
+F 0 0 0
+8 8 0 40
+0 0 M 0
+#24211
+king black wooden~
+the Black King~
+A black King stands here, looking grumpy.
+~
+The black King looks rather haggard.  He tells you, 
+"Take my wife...pleeeaase."  You decide that the king
+is not much of a comedian.
+~
+human~
+R 0 -700 S
+9 5 2d6+110 5d5+90 2d5+2 16
+1 1 1 1
+EK 0 0 0
+8 8 0 45
+0 0 M 0
+#24212
+king white wooden~
+the White King~
+A white King stands here, looking grumpy.
+~
+The white King looks rather haggard.  He tells you,
+"Take my wife...pleeeaase."  You decide that the king
+is not much of a comedian.
+~
+human~
+R 0 700 S
+9 5 2d6+110 5d5+90 2d5+2 16
+1 1 1 1 
+EK 0 0 0
+8 8 0 45
+0 0 M 0
+#24213
+fish flying~
+the flying Fish~
+A flying fish jumps out of the water at you!
+~
+The fish winks at you?!
+~
+human~
+S T 0 S
+3 5 2d6+35 3d3+25 1d1+6 16
+0 0 0 0
+FK 0 0 0
+8 8 0 10
+0 0 S 0
+#24214
+card playing diamonds~
+a card of the suit diamonds~
+A playing card shuffles around here.
+~
+The playing card grins at you evilly.
+He is of the suit diamonds.
+~
+elf~
+R 0 0 S
+5 3 2d6+60 2d5+50 2d4+0 16
+1 1 1 1 
+F 0 0 0
+8 8 0 25
+0 0 M 0
+#24215
+card playing hearts~
+a card of the suit hearts~
+A playing card shuffles around here.
+~
+The playing card grins at you evilly.
+He is of the suit hearts.
+~
+elf~
+R 0 0 S
+5 3 2d6+60 2d5+50 2d4+0 16
+1 1 1 1
+F 0 0 0
+8 8 0 25
+0 0 M 0
+#24216
+card playing clubs~
+a card of the suit clubs~
+A playing card shuffles around here.
+~
+The playing card grins at you evilly.
+He is of the suit clubs.
+~
+elf~
+R 0 0 S
+5 3 2d6+60 2d5+50 2d4+0 16
+1 1 1 1
+F 0 0 0
+8 8 0 25
+0 0 M 0
+#24217
+card playing spades~
+a card of the suit spades~
+A playing card shuffles around here.
+~
+The playing card grins at you evilly.
+He is of the suit spades.
+~
+elf~
+R 0 0 S
+5 3 2d6+60 2d5+50 2d4+0 16
+F 0 0 0
+8 8 0 25
+0 0 M 0
+#24218
+joker madman nut~
+the Joker~
+The Joker bounces around, happy to see you.
+~
+The Joker cackles happily and ruffles your hair.
+"So nice to see you dearie, would you like some tea?"
+The Joker is NUTS!
+~
+human~
+S 0 -900 S
+13 8 2d10+170 2d10+160 2d7+1 16
+1 1 1 1
+NF 0 0 0
+8 8 0 50
+0 0 M 0
+S
+#0
+
+#OBJECTS
+#24200
+vase painted~
+a painted vase~
+A painted vase lies in the corner.~
+glass~
+15 0 0 AO 
+10 0 0 0 0
+1 10 100 P
+E
+vase painted~
+The vase is small and painted.
+~
+A
+4 1
+#24201
+key silver~
+a silver key~
+A silver key waits in the dust here.~
+silver~
+18 0 0 A
+0 0 0 0 0
+1 1 0 P
+E
+key silver~
+It looks like a boring silver key.
+~
+#24202
+key white queen~
+a queens white key~
+A white key is here.~
+~
+stone~
+18 0 0 A
+0 0 0 0 0
+1 1 0 P 
+E
+key white~
+It looks like a white queens key.
+~
+#24203
+key black queen~
+a queens black key~
+A black key is here.~
+stone~
+18 0 0 A
+0 0 0 0 0
+1 1 0 P
+E
+key black~
+It looks like a black queens key.
+~
+#24204
+loincloth~
+a dirty loincloth~
+A trolls dirty loincloth lies crumpled in the corner.~
+cloth~
+9 0 0 L
+2 0 0 1 0
+3 10 100 P
+E
+loincloth~
+The loincloth smells really, really nasty.
+~
+A
+2 1
+#24205
+potion vial~
+a pawn's potion~
+A tiny vial lies on the ground here.~
+glass
+10 0 0 AO
+10 3 16 0 0
+7 5 100 P
+#24206
+scroll~
+a rook's scroll~
+A yellowed scroll has been left on the ground here.~
+paper
+2 0 0 AO
+10 1 16 0 0
+5 5 100 P
+#24207
+lance~
+a knight's lance~
+A sturdy lance has been left here.~
+stell
+5 H 0 AN
+0 2 5 11 D
+5 100 100 P
+A
+1 1
+#24208
+staff~
+a bishop's staff~
+A polished staff lies on the ground here.~
+wood
+4 0 0 AO
+10 3 3 3 0
+3 10 100 P
+A
+4 1
+#24209
+skin~
+a silvery skin~
+A silvery skin lies on the ground here.~
+silver
+9 0 0 AD
+3 0 1 3 0
+3 50 200 P 
+A
+24 -2
+#24210
+shield~
+a king's shield~
+A large shield is here.~
+steel
+15 0 0 AJ
+1 3 2 0 0 
+10 100 100 P
+#24211
+potion diamond~
+a diamond potion~
+a potion with a diamond scratched in it is here.~
+glass
+10 A 0 AO
+10 66 0 0 0
+1 10 100 P
+#24212
+potion heart~
+a heart potion~
+a potion with a heart scratched in it is here.~
+glass
+10 A 0 AO
+10 56 0 0 0
+1 10 100 P
+#24213
+potion club~
+a club potion~
+a potion with a club scratched in it is here.~
+glass
+10 A 0 AO
+10 1 0 0 0
+1 10 100 P
+#24214
+potion spade~
+a spade potion~
+a potion with a spade scratched in it is here.~
+glass
+10 A 0 AO
+10 67 0 0 0
+1 10 100 P
+#24215
+cap dunce~
+the Joker's cap~
+A Joker's cap is crumpled up on the floor here.~
+cloth
+15 0 0 AE
+100 0 0 0 0
+2 100 100 P
+A
+17 -2
+A
+3 -1
+#24216
+circlet~
+the Joker's circlet~
+A circlet lies on the floor here.~
+cloth
+9 0 0 AC
+1 0 0 2 0
+3 10 100 P
+A
+18 2
+#24217
+cup~
+a teacup~
+A small teacup rests here.~
+glass
+18 0 0 A
+0 0 0 0 0 
+1 5 100 P
+S
+
+#0
+
+#ROOMS
+#24200
+The Stone Door~
+        You find yourself standing in a dry circular room which is
+illuminated by a small brass torch set in the wall.  Flickering
+shadows dance about the room in a manner you find disorienting.          
+Beneath the torch is an elaborate mahogany door, complete with a small 
+silver doorknob.
+~
+242 D 0
+D0
+You see an elaborate mahogany door.
+~
+door mahogany~
+1 -1 24201
+S
+#24201
+The Smooth Tunnel~
+        Looking down at your feet, you are somewhat surprised to find that you 
+are walking on a thick woven rug. The walls of the tunnel that you are in 
+are completely smooth, and polished to a gleam. Before you, the tunnel opens 
+up to what appears to be a small chamber. 
+~
+242 D 0
+D0
+It is difficult to see into the chamber from here.
+~
+~
+1 -1 24202
+D2
+There is a circular room back there.
+~
+~ 
+1 -1 24201
+S
+#24202
+The Furnished Chamber~
+        This chamber is furnished quite nicely, with a thick woven 
+rug beneath your feet, and tapestries along the walls.  There is a
+rectangular hole in the rug, revealing a trapdoor which seems to open
+via a small iron ring, The room's exit looms behind you.
+~
+242 D 0 
+D5
+You see a wooden trapdoor.
+~
+trapdoor trap~
+1 -1 24203
+D2
+There is a smooth tunnel back there.
+~
+~
+1 -1 24201
+S
+#24203
+The Stone Staircase~
+        You find yourself in a rough stone staircase, which winds around
+a smooth core of stone, descending deeper into the bowels of the earth.
+Small torches are set into the stone, guiding your way.
+~
+242 D 0
+D5
+The stairs continue downward..
+~
+~
+0 -1 24204
+D4
+There is a small room up there.
+~
+~
+1 -1 24202
+S
+#24204
+Down..Down..Down..~
+        Your descent picks up speed, and you trip over an unseen obstacle
+in the stairway!  As you tumble, the stairs start to become narrower and
+then begin to slope forward.  You soon find yourself sliding in circles down
+the tunnel, which has now become smooth stone, covered with very fine sand.
+You faintly detect the sound of delighted laughter echoing in some faraway
+place.
+~
+242 D 0
+D5
+You're gonna find out fast- cuz thats the way your sliding!
+~
+~
+0 -1 24205 
+S
+#24205
+The Slide~
+        You come out of the last spin, and are abruptly deposited on a
+slide made of some slick metal.  You descend rapidy, being abruptly slammed
+against the walls as the slide banks through several tight corners.  Ahead
+of you, approaching rapidly is a small point of light.
+~
+242 D 0 
+D5
+You see a point of light..approaching fast!
+~
+~
+0 -1 24206
+S
+#24206
+The Ledge~
+        You pop out of the slide, sail through the air for several long
+moments, crash into the side of a cavern, and land on a ledge in a
+crumpled heap.  You slowly look upwards, and what you see astounds even you-
+a seasoned adventurer.  You are in the north end of a perfectly square 
+cavern with a floor composed of sixty-four alternating black and white 
+marble tiles.  Giant torches line the walls, casting a dazzling glow over 
+the entire room.  Standing guard over half the squares are giant carved 
+wooden beings, looming and silent.  There is a neat wooden ladder beneath 
+you, leading downward, and three quarters up the opposite wall is the 
+small hole you just came flying out of. 
+~
+242 D 0 
+D5
+The ladder looks safe...kinda.
+~
+~
+0 -1 24207
+S
+#24207
+The Ladder~
+        You are on a simple wooden ladder, which has been bolted by means
+of small metal hooks to the cavern wall.  The ledge is above you, and the
+cavern floor is below you.  There is a small sign on the wall.
+~
+242 D 0
+D5
+There is a large black tile down there.
+~
+~
+0 -1 24212
+D4
+The ledge is up there.
+~
+~
+0 -1 24206
+E
+sign~
+
+        *-*-*-*-*-*-*-*-*-*-*-*
+        *  Chessboard Area    *
+        *      Written by     *
+        *  Aten of GenericMUD *
+        *-*-*-*-*-*-*-*-*-*-*-*
+S
+#24208
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction. 
+~
+242 D 0
+D1
+~
+~
+0 -1 24209
+D2
+~
+~
+0 -1 24223
+S
+#24209
+The White Square~
+        You are standing on a highly polished white marble tile, which 
+extends about six feet in either direction.
+~
+242 D 0 
+D1
+~
+~
+0 -1 24210
+D2
+~
+~
+0 -1 24222
+D3
+~
+~
+0 -1 24208
+S
+#24210
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 dD8 0 
+D1
+~
+~
+0 -1 24211
+D2
+~
+~
+0 -1 24221
+D3
+~
+~
+0 -1 24209
+S
+#24211
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D1
+~
+~
+0 -1 24212
+D2
+~
+~
+0 -1 24220
+D3
+~
+~
+0 -1 24210
+S
+#24212
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D1
+~
+~
+0 -1 24213
+D2
+~
+~
+0 -1 24219
+D3
+~
+~
+0 -1 24211
+S
+#24213
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D1
+~
+~
+0 -1 24214
+D2
+~
+~
+0 -1 24218
+D3
+~
+~
+0 -1 24212
+S
+#24214
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D1
+~
+~
+0 -1 24215
+D2
+~
+~
+0 -1 24217
+D3
+~
+~
+0 -1 24213
+S
+#24215
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D2
+~
+~
+0 -1 24216
+D3
+~
+~
+0 -1 24214
+S
+#24216
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24215
+D2
+~
+~
+0 -1 24231
+D3
+~
+~
+0 -1 24217
+S
+#24217
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24214
+D1
+~
+~
+0 -1 24216
+D2
+~
+~
+0 -1 24230
+D3
+~
+~
+0 -1 24218
+S
+#24218
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24213
+D1
+~
+~
+0 -1 24217
+D2
+~
+~
+0 -1 24229
+D3
+~
+~
+0 -1 24219
+S
+#24219
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24212
+D1
+~
+~
+0 -1 24218
+D2 
+~
+~
+0 -1 24228
+D3
+~
+~
+0 -1 24220
+S
+#24220
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24211
+D1
+~
+~
+0 -1 24219
+D2
+~
+~
+0 -1 24227
+D3
+~
+~
+0 -1 24221
+S
+#24221
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24210
+D1
+~
+~
+0 -1 24220
+D2
+~
+~
+0 -1 24226
+D3
+~
+~
+0 -1 24222
+S
+#24222
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24209
+D1
+~
+~
+0 -1 24221
+D2
+~
+~
+0 -1 24225
+D3
+~
+~
+0 -1 24223
+S
+#24223
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24208
+D1
+~
+~
+0 -1 24222
+D2
+~
+~
+0 -1 24224
+S
+#24224
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24223
+D1
+~
+~
+0 -1 24225
+D2
+~
+~
+0 -1 24239
+S
+#24225
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24222
+D1
+~
+~
+0 -1 24226
+D2
+~
+~
+0 -1 24238
+D3
+~
+~
+0 -1 24224
+S
+#24226
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24221
+D1
+~
+~
+0 -1 24227
+D2
+~
+~
+0 -1 24237
+D3
+~
+~
+0 -1 24225
+S
+#24227
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24220
+D1
+~
+~
+0 -1 24228
+D2
+~
+~
+0 -1 24236
+D3
+~
+~
+0 -1 24226
+S
+#24228
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24219
+D1
+~
+~
+0 -1 24229
+D2
+~
+~
+0 -1 24235
+D3
+~
+~
+0 -1 24227
+S
+#24229
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24218
+D1
+~
+~
+0 -1 24230
+D2
+~
+~
+0 -1 24234
+D3
+~
+~
+0 -1 24228
+S
+#24230
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24217
+D1
+~
+~
+0 -1 24231
+D2
+~
+~
+0 -1 24233
+D3
+~
+~
+0 -1 24229
+S
+#24231
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24216
+D2
+~
+~
+0 -1 24231
+D3
+~
+~
+0 -1 24230
+S
+#24232
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24231
+D2
+~
+~
+0 -1 24247
+D3
+~
+~
+0 -1 24233
+S
+#24233
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24230
+D1
+~
+~
+0 -1 24232
+D2
+~
+~
+0 -1 24246
+D3
+~
+~
+0 -1 24234
+S
+#24234
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24229
+D1
+~
+~
+0 -1 24233
+D2
+~
+~
+0 -1 24245
+D3
+~
+~
+0 -1 24235
+S
+#24235
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24228
+D1
+~
+~
+0 -1 24234
+D2
+~
+~
+0 -1 24244
+D3
+~
+~
+0 -1 24236
+S
+#24236
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24227
+D1
+~
+~
+0 -1 24235
+D2
+~
+~
+0 -1 24243
+D3
+~
+~
+0 -1 24237
+S
+#24237
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24226
+D1
+~
+~
+0 -1 24236
+D2
+~
+~
+0 -1 24242
+D3
+~
+~
+0 -1 24238
+S
+#24238
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24225
+D1
+~
+~
+0 -1 24237
+D2
+~
+~
+0 -1 24241
+D3
+~
+~
+0 -1 24239
+S
+#24239
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24224
+D1
+~
+~
+0 -1 24238
+D2
+~
+~
+0 -1 24240
+D3
+There is a white door set in the wall over there.
+~
+door white~
+1 24202 24277
+S
+#24240
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24239
+D1
+~
+~
+0 -1 24241
+D2
+~
+~
+0 -1 24255 
+S
+#24241
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24238
+D1
+~
+~
+0 -1 24242
+D2
+~
+~
+0 -1 24254
+D3
+~
+~
+0 -1 24240
+S
+#24242
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24237
+D1
+~
+~
+0 -1 24243
+D2
+~
+~
+0 -1 24253
+D3
+~
+~
+0 -1 24241
+S
+#24243
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24236
+D1
+~
+~
+0 -1 24244
+D2
+~
+~
+0 -1 24252
+D3
+~
+~
+0 -1 24242
+S
+#24244
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24235
+D1
+~
+~
+0 -1 24245
+D2
+~
+~
+0 -1 24251
+D3
+~
+~
+0 -1 24243
+S
+#24245
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24234
+D1
+~
+~
+0 -1 24246
+D2
+~
+~
+0 -1 24250
+D3
+~
+~
+0 -1 24244
+S
+#24246
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24233
+D1
+~
+~
+0 -1 24247
+D2
+~
+~
+0 -1 24249
+D3
+~
+~
+0 -1 24245
+S
+#24247
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24232
+D1
+There is a black door set in the wall over there.
+~
+door black~
+1 24203 24276
+D2
+~
+~
+0 -1 24248
+D3
+~
+~
+0 -1 24246
+S
+#24248
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24247
+D2
+~
+~
+0 -1 24263
+D3
+~
+~
+0 -1 24249
+S
+#24249
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24246
+D1
+~
+~
+0 -1 24248
+D2
+~
+~
+0 -1 24262
+D3
+~
+~
+0 -1 24250
+S
+#24250
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24245
+D1
+~
+~
+0 -1 24249
+D2
+~
+~
+0 -1 24261
+D3
+~
+~
+0 -1 24251
+S
+#24251
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24244
+D1
+~
+~
+0 -1 24250
+D2
+~
+~
+0 -1 24260
+D3
+~
+~
+0 -1 24252
+S
+#24252
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24243
+D1
+~
+~
+0 -1 24251
+D2
+~
+~
+0 -1 24259
+D3
+~
+~
+0 -1 24253
+S
+#24253
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 -1 0 
+D0
+~
+~
+0 -1 24242
+D1
+~
+~
+0 -1 24252
+D2
+~
+~
+0 -1 24258
+D3
+~
+~
+0 -1 24254
+S
+#24254
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24241
+D1
+~
+~
+0 -1 24253
+D2
+~
+~
+0 -1 24257
+D3
+~
+~
+0 -1 24255
+S
+#24255
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24240
+D1
+~
+~
+0 -1 24254
+D2
+~
+~
+0 -1 24256
+S
+#24256
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24255
+D1
+~
+~
+0 -1 24257
+D2
+~
+~
+0 -1 24271
+S
+#24257
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24254
+D1
+~
+~
+0 -1 24258
+D2
+~
+~
+0 -1 24270
+D3
+~
+~
+0 -1 24256
+S
+#24258
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24253
+D1
+~
+~
+0 -1 24259
+D2
+~
+~
+0 -1 24265
+D3
+~
+~
+0 0 24257
+D5
+You see nothing special.
+~
+trapdoor~
+1 -1 24272
+S
+#24259
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24252
+D1
+~
+~
+0 -1 24260
+D2
+~
+~
+0 -1 24268
+D3
+~
+~
+0 -1 24258
+S
+#24260
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24251
+D1
+~
+~
+0 -1 24261
+D2
+~
+~
+0 -1 24267
+D3
+~
+~
+0 -1 24259
+S
+#24261
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24250
+D1
+~
+~
+0 -1 24262
+D2
+~
+~
+0 -1 24266
+D3
+~
+~
+0 -1 24260
+S
+#24262
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24249
+D1
+~
+~
+0 -1 24263
+D2
+~
+~
+0 -1 24265
+D3
+~
+~
+0 -1 24261
+S
+#24263
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24248
+D2
+~
+~
+0 -1 24264
+D3
+~
+~
+0 -1 24262
+S
+#24264
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24263
+D3
+~
+~
+0 -1 24265
+S
+#24265
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24262
+D1
+~
+~
+0 -1 24264
+D3
+~
+~
+0 -1 24266
+S
+#24266
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24261
+D1
+~
+~
+0 -1 24265
+D3
+~
+~
+0 -1 24267
+S
+#24267
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24260
+D1
+~
+~
+0 -1 24266
+D3
+~
+~
+0 -1 24268
+S
+#24268
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24259
+D1
+~
+~
+0 -1 24267
+D3
+~
+~
+0 -1 24269
+S
+#24269
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24258
+D1
+~
+~
+0 -1 24268
+D3
+~
+~
+0 -1 24270
+S
+#24270
+The Black Square~
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24257
+D1
+~
+~
+0 -1 24269
+D3
+~
+~
+0 -1 24271
+S
+#24271
+The White Square~
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+~
+242 D 0
+D0
+~
+~
+0 -1 24256
+D1
+~
+~
+0 -1 24270
+S
+#24272
+The Lost Chamber~
+        This chamber is small, dark, and cramped.  You begin to
+feel a bit claustrophobic.
+~
+242 DA 0 
+S
+#24273
+The Joker's Teacup~
+        You are sliding around in a highly polished porcelain cup.        
+~
+242 D 0 
+D1
+~
+~
+0 -1 24274
+S
+#24274
+The Joker's Teacup~
+        You are sliding around in a highly polished porcelain cup.
+~
+242 D 0 
+D2
+~
+~
+0 -1 24275
+S
+#24275
+The Joker's Teacup~
+        You are sliding around in a highly polished porcelain cup.
+~
+242 D 0
+D3
+~
+~
+0 -1 24273 
+S
+#24276
+The Black Queen's Chamber~
+        You are in a small chamber, containing only a bed, basin,
+mirror and braided rug.  Despite being very small, it looks comfortable 
+enough to rest in for a bit.  As you seat yourself on the bed, you see a 
+flicker of motion in the mirror..
+~
+242 D 0 
+D5
+You find a trapdoor under the bed!
+~
+trapdoor trap~
+1 -1 24279
+E 
+mirror~
+The mirror is full of smoke!  As you gaze upon it, a face comes
+into focus.  It appears to be a crazily laughing man dressed in
+bright clashing clothes.  He looks into your eyes and points downward.
+"Come visit me, dearie..", he says with a cackle.
+The image abruptly fades...
+~
+S
+#24277 The White Queen's Chamber~
+        You are in a small chamber, containing only a bed, basin,
+mirror and braided rug.  Despite being very small, it looks comfortable
+enough to rest in for a bit.  As you seat yourself on the bed, you see a
+flicker of motion in the mirror..
+~
+242 D 0
+D5
+You find a trapdoor under the bed!
+~
+trapdoor trap~
+1 -1 24278
+E
+mirror~
+The mirror is full of smoke!  As you gaze upon it, a face
+comes into focus.  It appears to be a crazily laughing man 
+dressed in bright clashing clothes.  He looks into your
+eyes and points downward
+"Come visit me, dearie..", he says with a cackle.
+The image abruptly fades...
+~ 
+S
+#24278
+The Landing~
+        You drop down from the trap-door, and land on soft dirt.  You 
+seem to be inside some sort of enclave, and you see an underground river 
+to the east.  There is a small wooden dock extending from your enclave 
+out into the river.    
+~
+242 D 0 
+D1
+There is a dock over there.
+~
+~
+0 -1 24280
+S
+#24279
+The Landing~
+        You drop down from the trap-door, and land on soft dirt.  You
+seem to be inside some sort of enclave, and you see an underground river
+to the west.  There is a small wooden dock extending from your enclave
+out into the river.
+~
+242 D 0 
+D3
+There is a dock over there.
+~
+~
+0 0 24281
+S
+#24280
+The Dock~
+        As you step onto the dock, it sags crazily and settles more 
+firmly into the river.  A sudden bright light shines out from upriver, 
+blinding you momentarily.  The light approaches closer, and you realize  
+that it is some strange form of boat.  It stops at the north side of the
+dock, ready to be boarded.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24282
+D3
+~
+~
+0 -1 24278
+S
+#24281
+The Dock~
+        As you step onto the dock, it sags crazily and settles more
+firmly into the river.  A sudden bright light shines out from upriver,
+blinding you momentarily.  The light approaches closer, and you realize
+that it is some strange form of boat.  It stops at the north side of the
+dock, ready to be boarded.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24282
+D1
+~
+~
+0 -1 24279
+#24282
+The Sulking Swan~
+        The sulking swan is a large wooden craft, carved to the exact 
+likeness of a swan.  Its wooden sides thump hollowly against the tunnel 
+sides, as it bobs gently and begins to carry you downstream.
+~
+242 D 0 
+D0
+~
+~ 
+0 -1 24283
+S
+#24283
+The Underground River~
+        You bob along lazily in the strange craft, spinning in complete 
+circles at points, but always headed downstream.  In the distance you see 
+another dock.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24284
+S
+#24284
+Arrival~
+        The Sulking Swan heads directly to its berth, lining up alongside 
+the wooden platform.  Ropes move of their own accord, rising from the 
+pilings and intertwining themselves with the boat's brass brackets.  It 
+seems safe to step east onto the second dock, or you could just sit here 
+and keep the boat company.
+~
+242 D 0 
+D1
+~
+~
+0 -1 24285
+S
+#24285
+The Second Dock~
+        You decide that this dock is much sturdier than the first, and it 
+feels quite nice to stand on firm ground again.  The boat is tied to the 
+west, and a nice red wooden door waits expectantly at the east end of the 
+dock- it seems to lead directly into the tunnel wall. 
+~
+242 D 0 
+D1
+There is a nice red door there.
+~
+door red~
+1 -1 24286
+D3
+~
+~
+0 -1 24284
+S
+#24286
+The Entrance Hall~
+        You find yourself standing at the beginning of a giant entrance 
+hall.  A fine red carpet leads north, and extravagant silks line the 
+walls.  
+~
+242 D 0 
+D0
+~
+~
+0 -1 24287
+D3
+~
+~
+0 -1 24285
+S
+#24287
+The Entrance Hall~
+        You are standing on a fine red carpet, halfway down the length of 
+the entrance hall.  There is retreat to the south, and a giant throne to 
+the north.
+~
+242 D 0 
+D0
+~
+~
+0 -1 24288
+D2
+~
+~
+0 -1 24286
+S
+#24288
+The Joker's Throne~
+        You stand before a giant throne, made entirely of fool's gold.  
+This seems to be the domain of the Joker- It may be wise to leave him to 
+his games...
+~
+242 D 0 
+D2
+~
+~
+0 -1 24287
+S
+
+
+#0
+
+#RESETS
+
+0 0 24200 10 24200     /*load vase*/
+P 1 24201 20 24200     /*put key in vase*/
+
+M 0 24200 3 24201      /*load a troll*/
+E 1 24204 20 13       /*make him wear loincloth*/
+
+O 0 24217 1 24272      /*teacup*/
+                      
+M 0 24202 8 24209      /*load 8 white pawns and 8 potions*/
+G 1 24205 100         /*give potions to half*/
+M 0 24202 8 24222
+M 0 24202 8 24225
+G 1 24205 100
+M 0 24202 8 24238
+M 0 24202 8 24241
+G 1 24205 100
+M 0 24202 8 24254
+M 0 24202 8 24257
+G 1 24205 100
+M 0 24202 8 24270
+
+M 0 24201 8 24214      /*ditto*/
+G 1 24205 100
+M 0 24201 8 24217
+M 0 24201 8 24230
+G 1 24205 100
+M 0 24201 8 24233
+M 0 24201 8 24246
+G 1 24205 100
+M 0 24205 8 24262
+M 0 24205 8 24265
+G 1 24205 100
+
+M 0 24203 2 24215      /*load black rook*/
+G 1 24206 100         /*give him scroll*/
+M 0 24203 2 24264
+G 1 24206 100
+
+M 0 24204 2 24208      /*same with white*/
+G 1 24206 100    
+M 0 24204 2 24271
+G 1 24206 100
+
+M 0 24205 2 24216      /*load black knight*/
+G 1 24207 100
+M 0 24205 2 24263     
+G 1 24207 100
+
+M 0 24206 2 24223      /*white knight*/
+G 1 24207 100
+M 0 24206 2 24256
+G 1 24207 100
+
+M 0 24207 2 24231      /*black bishop*/
+G 1 24208 100
+M 0 24207 2 24248
+G 1 24208 100
+
+M 0 24208 2 24224      /*white bishop*/
+G 1 24208 100
+M 0 24208 2 24255
+G 1 24208 100
+
+M 0 24209 1 24247      /*black queen*/
+G 1 24209 100
+
+M 0 24210 1 24239      /*white queen*/
+G 1 24209 100
+
+M 0 24211 1 24232      /*black king*/
+G 1 24210 100
+
+M 0 24212 1 24240      /*white king*/
+G 1 24210 100
+
+M 0 24213 2 24282      /*fish*/
+M 0 24213 2 24283
+
+M 0 24214 13 24286     /*diamonds*/
+G 1 24211 100
+
+M 0 24215 13 24286     /*hearts*/
+G 1 24212 100
+
+M 0 24216 13 24287     /*clubs*/
+G 1 24213 100
+
+M 0 24217 13 24287     /*spades*/
+G 1 24214 100
+
+M 0 24218 1 24288      /*joker*/
+G 1 24215 100
+G 1 24216 100
+
+D 0 24200 0 2        /*doors*/
+D 0 24201 2 2
+
+D 0 24239 3 2
+D 0 24277 1 2
+
+D 0 24258 5 1
+D 0 24272 4 1
+ 
+D 0 24247 1 2
+D 0 24276 3 2
+
+D 0 24277 5 1
+D 0 24276 5 1
+
+#$

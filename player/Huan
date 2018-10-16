@@ -1,0 +1,519 @@
+#PLAYER
+Name Huan~
+Id   6679
+LogO 943629294
+Vers 3
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 18
+Plyd 46876
+ListRemorts ~
+NumRemorts 0
+Note 937256080
+Scro 22
+Room 4620
+HMV  244 244 151 151 192 192
+Gold 16613
+Bank 30000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  41005
+Act  65772
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  6
+Prac 10
+Trai 21
+Alig  -1000
+Hit   7
+Dam   4
+ACs 37 38 32 85
+Attr 17 13 12 12 17
+AMod 1 9 11 1 5
+Pass Huio.JyFoANLY~
+Titl  the Dragoon~
+Pnts 40
+TSex 1
+LLev 11
+HMVP 244 151 202
+Cond 0 36 0
+Sk 1 'armor'
+Sk 73 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 77 'shield block'
+Sk 10 'spear'
+Sk 82 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 75 'parry'
+Sk 1 'rescue'
+Sk 81 'second attack'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear 12
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+Val  75 5 0 0 0
+End
+
+#O
+Vnum 24002
+Nest 1
+Wear -1
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9862 0 0
+End
+
+#O
+Vnum 10027
+Nest 1
+Wear -1
+Lev  14
+Cost 210
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 1
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 1
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 1
+Wear -1
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 8713
+Nest 1
+Wear -1
+Lev  5
+Cost 1250
+Cond 100
+Repd 0
+Val  5 4 3 0 0
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 13270
+Nest 1
+Wear -1
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 13270
+Nest 1
+Wear -1
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 13270
+Nest 1
+Wear -1
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 8717
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4101
+Nest 0
+Wear 9
+Lev  8
+Cost 1500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29011
+Enchanted
+Nest 0
+ExtF 66
+Wear 16
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+AffD 'enchant weapon' 24 -1 3 19 0 0
+AffD 'enchant weapon' 24 -1 4 18 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 7 0 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 3605
+Nest 0
+Wear 2
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 0
+Wear 1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 3
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 13270
+Nest 0
+Wear -1
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 13270
+Nest 0
+Wear -1
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 4
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

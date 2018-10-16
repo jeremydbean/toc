@@ -1,0 +1,3007 @@
+#AREA     {30 55} Unknown The Tombs of Tarin~
+
+
+
+#MOBILES
+#5600
+king tarin~
+the King of Tarin~
+The king of Tarin stands here looking at the statues.
+~
+The first thing you notice about this man is the way he stands.
+Nothing, not even a single muscle seems to move on his body. He
+stands like he was frozen in time and space.  Battle scars show
+the great deal of experience this man has.
+~
+unique~
+ABCQ DFH -1000 S
+60 25 10d20+4000 1d1+1000 15d15+25 6
+-18 -18 -18 -18
+ACDEFGV ABEKP CN 0
+8 8 1 2000
+0 0 M 0
+#5601
+statue stone~
+the stone statue~
+A stone statue stands here.
+~
+You see a statue with a strange skin made of stone. It's pearly white
+and looks mad.
+~
+unique~
+AFG DJP -1000 S
+45 10 10d20+1500 1d1+510 12d8+5 7
+-8 -8 -8 -8
+CIKR AFHJPR CGK 0
+8 8 1 500
+0 0 M 0
+#5602
+lord dark~
+A dark lord of Tarin~
+A sneaky looking dark lord of Tarin stands here.
+~
+ You see an awful looking man, dead ages ago. His eyes are pearly white
+as all monsters in this realm.
+~
+unique~
+AF DHJ -1000 S
+50 10 10d20+1600 1d1+510 12d8+5 6
+-8 -8 -8 -8
+DEFHKR AILQ EJ 0
+8 8 1 700
+0 0 M 0
+#5603
+warlord dark~
+the Warlord~
+An enormous looking warlord stands here.
+~
+ You see a golem, undead, hovering above you with an insane look in its
+eyes.
+~
+unique~
+AF DJ -700 S
+44 10 10d20+1600 1d1+510 12d8+5 6
+-8 -8 -8 -8
+DEFHKR AILQ EJ 0
+8 8 1 700
+0 0 M 0
+#5604
+dragon~
+the silver dragon~
+A beautiful silver dragon rests on a throne of gold.
+~
+ You see a beautiful silver dragon, though tired of holding this last
+bastion from the evil forces, still pretty. Once in a while you see
+the silver body fade into an even more beautiful young woman.
+~
+unique~
+AB CDFHJ 1000 S
+57 20 20d15+3200 1d1+510 12d15+35 5
+-16 -16 -16 -16
+ACIKR ABEO FGK 0
+8 8 1 2000
+0 0 G 0
+#5605
+elf elven captain~
+the royal elven captain~
+A royal elf captain stands guard here.
+~
+ You see a young elf guard, looking human though a couple of sticky ears
+shows the difference.
+~
+elf~
+AB CDFHJ 1000 S
+57 20 20d15+3200 1d1+510 12d12+35 1
+-15 -15 -15 -15
+ACEHIKR ABLQ GMP 0
+8 8 1 2000
+0 0 M 0
+#5606
+guard elven~
+the elven guard~
+A young elven guard stands here.
+~
+ You see a rather broad shouldered guard with a firm look in his eyes.
+The many days under siege have surely made him tired, but non the less
+he is still on his post guarding the queen, the silver dragon.
+~
+unique~
+AB DH 1000 S
+50 10 10d20+1600 1d1+510 12d8+5 7
+-8 -8 -8 -8
+CIKR AFHJPR CGK 0
+8 8 1 500
+0 0 M 0
+#5607
+hall guard elf elven~
+the elven hall guard~
+A large elven hall guard stands here watching the curtains.
+~
+ You see a tired looking elf with big blue eyes, the white hair is long
+and though the tired look on his face, he seems ready to fight for his
+life.
+~
+elf~
+AB D 1000 S
+52 10 20d10+1550 1d1+510 12d8+5 7
+-8 -8 -8 -8
+CIKR AB CQ 0
+8 8 1 500
+0 0 M 0
+#5608
+battlemaster elven~
+the elven battlemaster~
+A large elven battlemaster stands here.
+~
+ You see a dark elf with frey hair, his eyes is sparkling blue and shows
+no fear of nothing.
+~
+elf~
+AB CDFH 600 S
+55 10 20d10+2500 1d1+510 12d8+15 3
+-11 -11 -11 -11
+CDIKR ABL CPQ 0
+8 8 1 500
+0 0 M 0
+#5609
+undead lich~
+the undead lich~
+A large undead lich is here growling like a fierce animal.
+~
+ You see an undead wizard assembling wierd powers of evil.
+~
+unique~
+AFG BDFH -1000 S
+49 10 10d10+2400 1d1+510 12d8+15 3
+-11 -11 -11 -11
+FGNR ABILPQ CFJN 0
+8 8 1 2200
+0 0 M 0
+#5610
+devil red~
+the red devil~
+A hoovering red devil is here.
+~
+You see nothing special about it.
+~
+unique~
+AF FJ -700 S
+42 10 10d20+1500 1d1+410 12d8+5 6
+-8 -8 -8 -8
+BCDEFKR ABHLQ CIJKN 0
+8 8 1 700
+0 0 M 0
+#5611
+devil black~
+the black devil~
+A huge black devil is here.
+~
+You see a black devil with a evil look in it's eyes.
+~
+unique~
+AF FJ -700 S
+42 10 10d20+1500 1d1+410 12d8+5 6
+-8 -8 -8 -8
+BCDEFKR ABHLQ CIJKN 0
+8 8 1 700
+0 0 M 0
+#5612
+knight black~
+the black knight~
+A black knight charges you.
+~
+You see a humanoid creature, it's skin is dark and no-one ever seemed to
+be able to rid the world of it's presence.
+~
+unique~
+AFG BDFH -1000 S
+50 10 10d20+2400 1d1+510 12d8+15 3
+-11 -11 -11 -11
+FGNR ABILPQ CFJN 0
+8 8 1 2200
+0 0 M 0
+#5613
+drake~
+the drake~
+A large drake stands here, burning with scorching heat.
+~
+ The huge mouth is covered in blood, and from the color you guess it must be
+human. -* Eirk *-
+~
+unique~
+AF DJ -700 S
+35 10 10d20+1000 1d1+510 12d8+5 6
+-8 -8 -8 -8
+DEFHK AILQ EJ 0
+8 8 1 700
+0 0 M 0
+#5614
+undead blacksmith~
+the undead blacksmith~
+The undead blacksmith stands here, doing it's dirty job.
+~
+You see the looks of a once peaceful blacksmith turned, by the evil forces,
+into this horrible creature.
+~
+unique~
+ABCFQ DFH -1000 S
+55 30 10d50+3400 1d1+1000 10d20+25 6
+-15 -15 -15 -15
+ACDEFGV ABEKP CN 0
+8 8 1 2000
+0 0 M 0
+#5615
+minotaur black~
+the black minotaur~
+A large black minotaur stands here, drooling like a madman.
+~
+You see a large creature, totally enveloped in darkness.
+~
+unique~
+ABF DJ -1000 S
+45 25 10d20+1700 1d1+1000 12d10+25 6
+-12 -12 -12 -12
+CDHNR ABQ D 0
+8 8 1 2000
+0 0 L 0
+#5616
+god minotaur~
+the minotaur god~
+The god of minotaurs rests on the throne looking very angry.
+~
+You see a mass with the form of a minotaur, large claws on both feets and
+hands seems to be able to cut through rocks has been placed in the end of
+it's arms and legs. Eyes burning with hatred meets you as you enter.
+~
+unique~
+ABF DFHJ -1000 S
+65 35 10d20+5500 1d1+1000 10d20+25 20
+-20 -20 -20 -20
+ACDEFGV ABEKP CN 0
+8 8 1 2000
+0 0 M 0
+#5617
+baron black undead~
+the black baron~
+The black baron stands here planning the next attack upon the dragon.
+~
+ The black baron is a nasty looking man converted to the dark side of life,
+his eyes ears have been cut off and the only thing on him that reminds of a
+human being is the fact that he still got his nose and eyes. Both blue!
+~
+unique~
+ABF DJ -1000 S
+46 25 10d20+1800 1d1+1000 12d10+25 6
+-12 -12 -12 -12
+CDHNR ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5618
+elf elven soldier~
+the elven soldier~
+An elven soldier stands guard here.
+~
+You see an elf with green eyes and huge sticky ears. The long blond hair is
+carefully placed beneith a helmet.
+~
+elf~
+AH DJ 1000 S
+45 25 10d20+1600 1d1+1000 12d10+25 6
+-12 -12 -12 -12
+CDHNR ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5619
+wold undead~
+the undead wolf~
+An undead wolf sneaks around here.
+~
+You see a wolf like creature with red flaming eyes.
+~
+elf~
+AFG BDFJ 1000 S
+33 25 10d20+800 1d1+1000 10d8+10 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5620
+tree burned undead~
+the burned tree~
+A burned tree hoovers above you, it seems to have been dead for ages.
+~
+You see an enormous tree lacking every branch and every leaf on it's body,
+what ever the force who did this is, it is indeed powerful.
+~
+unique~
+ACFGH DFJ 1000 S
+35 25 10d20+900 1d1+1000 12d8+10 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5621
+snake undead~
+the undead earth snake~
+A fairly large undead earth snake slitters around here.
+~
+ A slimy slettering snake, with an ugly tongue.
+~
+unique~
+AFG J -500 S
+38 25 10d20+1000 1d1+1000 12d8+15 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5622
+waiter silvery~
+the silvery waiter~
+A young silvery waiter stands here.
+~
+ You see one of the personal waiter of the silver dragon.
+~
+unique~
+ABH B -500 S
+50 25 10d30+1900 1d1+1000 12d10+25 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5623
+tree king~
+the king of trees~
+The king of all trees in the world stands here, thinking about life.
+~
+You see a "thing" with leaf's and branches almost in the shape of a human
+being, a pair of white eyes have been placed on something looking just like
+a human head.
+~
+unique~
+ABC CDEFHJ -500 S
+60 25 10d50+4000 1d1+1000 12d20+35 6
+-18 -18 -18 -18
+CDHNV ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5624
+ancient tree~
+A huge ancient tree~
+A huge ancient tree stands here, guarding the north entrance.
+~
+You see a large tree, that doesn't move a bit when you approach it. It's
+arms and legs are leg giant branches from the biggest tree you have ever
+seen. Battlescars are everywhere on this trees body.
+~
+unique~
+ABG DJ -500 S
+38 25 10d20+1200 1d1+1000 12d8+8 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5625
+griffen black evil~
+the black griffen~
+A black griffen flies around here.
+~
+You see a dark dog like creature with a huge pair of wings on it's back,
+it's red eyes glares evilly at you.
+~
+unique~
+ACFG FJ -500 S
+39 25 10d20+1300 1d1+1000 12d8+8 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5626
+spirit undead~
+the undead spirit~
+A transparent spirit is hoovering above the ground here.
+~
+The spirit is white, and looks just like a cartoon monster.
+~
+unique~
+ACF BDJ -500 S
+40 25 10d20+1200 1d1+1000 12d8+15 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5627
+titan~
+the titan~
+A HUGE titan sits here eating some rotten flesh from a corpse.
+~
+You see a humanoid creature with ENORMOUS arms, it's eyes are firmly
+fixed upon the rotten flesh it's eating.
+~
+unique~
+ABC J -500 S
+50 25 10d20+2500 1d1+1000 12d15+25 6
+-12 -12 -12 -12
+CDHN ABQ D 0
+8 8 1 2000
+0 0 M 0
+#5628
+sphinx~
+the sphinx~
+A strange looking sphinx rests under a huge tree.
+~
+You see a strange looking creature half dog half human, it's eyes looks
+at you as though it was going to ask you a question.
+~
+unique~
+AB DFHJ -500 S
+60 25 10d20+4000 1d1+1000 15d15+35 6
+-12 -12 -12 -12
+CDHNV ABQ D 0
+8 8 1 2000
+0 0 M 0
+#0
+
+
+
+#OBJECTS
+#5600
+sword two~
+a mithril two-handed sword~
+A large two handed sword rests on the floor.~
+adamantite~
+5 AG AN
+1 8 8 3 F
+52 10 5000 P
+A
+19 4
+A
+14 10
+A
+2 -1
+#5601
+platemail elven~
+an elven platemail~
+A large set of elven platemail lies on the ground.~
+adamantite~
+9 AGK AD
+21 16 12 5 0
+52 20 4000 P
+A
+2 2
+A
+12 15
+A
+19 3
+A
+20 -5
+#5602
+bracers elven~
+a pair of elven bracers~
+A pair of elven bracers lies here.~
+adamantite~
+9 GU AI
+20 15 13 5 0
+52 5 3000 P
+A
+12 30
+A
+13 15
+#5603
+leggings~
+a pair of elven leggings~
+A pair of elven leggings lies here.~
+adamantite~
+9 GK AF
+16 15 21 5 0
+52 15 3500 P
+A
+5 2
+A
+12 15
+#5604
+diadem silver~
+the silver diadem~
+A sparkling white silver diadem has been left behind here.~
+silver~
+8 GK AC
+14 23 15 5 0
+52 5 5000 P
+A
+3 2
+A
+4 2
+A
+18 2
+#5605
+dirk battlemasters~
+the battlemasters dirk~
+A deadly looking dirk lies in the soil.~
+steel~
+5 AGU AN
+2 6 12 11 0
+52 15 5500 P
+A
+2 2
+A
+18 3
+A
+19 3
+#5606
+helmet elven~
+an elven helmet~
+An elven helmet lies here.~
+adamantite~
+9 GK AE
+16 21 15 5 0
+52 8 8000 P
+A
+13 25
+A
+12 15
+A
+24 -3
+#5607
+boots elven~
+a pair of elven boots~
+A pair of elven boots lies here.~
+adamantite~
+9 GK AG
+15 14 21 5 0
+52 10 6000 P
+A
+2 1
+A
+14 100
+#5608
+sword elven~
+an elven sword~
+A long slender elven sword lies here.~
+adamantite~
+5 AFKU AN
+1 6 9 3 0
+52 10 8000 P
+A
+5 2
+A
+18 4
+A
+19 3
+#5609
+bracelet elven~
+an elven bracelet~
+An elven bracelet lies here.~
+adamantite~
+9 GKU AM
+17 15 21 5 0
+52 5 1000 P
+A
+1 1
+A
+17 -10
+A
+18 3
+A
+19 3
+#5610
+cloak elven~
+an elven cloak~
+An elvish looking cloak lies here.~
+cloth~
+9 GK AC
+21 13 16 5 0
+52 5 4000 P
+A
+12 15
+A
+17 -10
+A
+19 3
+A
+24 -5
+#5611
+staff elven light~
+an elven staff of light~
+An elvish staff lies here in a cube of light.~
+wood~
+1 AG AO
+0 0 999 0 0
+52 5 2400 P
+A
+19 2
+A
+5 1
+#5612
+gloves elven~
+a pair of elven gloves~
+A pair of elvish gloves lies here.~
+adamantite~
+9 GKU AH
+22 14 16 5 0
+52 6 600 P
+A
+17 -5
+A
+18 3
+A
+19 4
+#5613
+medallion white~
+a white medallion~
+A large white medallion lies here on the floor.~
+silver~
+9 GJ AC
+22 14 14 5 0
+52 10 1000 P
+A
+12 30
+#5614
+magic staff ancient~
+the black staff of ancient magic~
+A large black staff lies here absorbing the light.~
+iron~
+1 ABGU AO
+0 0 999 0 0
+52 8 6000 P
+A
+12 15
+A
+13 20
+A
+18 3
+A
+19 2
+#5615
+cloak dooms~
+a dooms cloak~
+A large cloak resembling the comming doom lies here.~
+cloth~
+9 GHJMU AC
+20 10 10 5 0
+52 10 14000 P
+A
+13 -50
+A
+3 -2
+#5616
+leggings dooms~
+the dooms leggings~
+A pair of leggings resembling the doom.~
+iron~
+9 GHJMU AF
+19 14 18 5 0
+52 11 10000 P
+A
+12 -20
+A
+18 1
+A
+3 -1
+#5617
+horns minotaur black~
+the black horns of the minotaur~
+A horn trembling with power lies here.~
+stone~
+9 GJ AO
+16 10 10 5 0
+52 14 12500 P
+A
+21 -3
+#5618
+book history~
+the history book of tarin~
+A carefully placed book rests on a pedistal.~
+vellum~
+13 I AO
+0 0 0 0 0
+40 1 1000 P
+E
+book~
+You open the dusty book and finds that most of the pages have been burned
+or crumbled in the past of many years.
+The last page in the book seems rather new, 2 years old tops;
+
+The forces of the black minotaur have invaded our peaceful forest, and we
+are doomed to the retreat in the tombs.
+In the day of the moon, Year 50 our good king, Tarin lost his battle against
+the minotaur, and became one of it's minions.
+The queen declares the third day in the month of the Moon, as a day of
+holiness, no work must be done.
+The minotaur have found our retreat in this mountain, and are now invading
+us, the head of their invading force is Tarin our old king! *sob* How cruel
+can this life be?.
+We are drawn back to our last bastion in the marble hall, and will be able
+to keep this for several days we think. Our queen is often lending a helping
+hand against the enemy.
+The power is rising says the queen, new hope is born.
+-referatum.
+~
+A
+4 1
+#5619
+claws god~
+the claws of the minotaur god~
+A pair of extremely large claws lies here.~
+stone~
+5 AGJLQU AN
+6 7 8 3 0
+52 25 12000 P
+A
+13 10
+A
+14 25
+A
+18 6
+A
+19 5
+#5620
+dooms sleeves~
+the dooms sleeves~
+A pair of sleeves resembling the doom lies here.~
+iron~
+9 GHJMU AI
+22 17 18 5 0
+52 14 1900 P
+A
+13 5
+A
+18 -1
+#5621
+girdle magic~
+the magic girdle~
+A large magic girdle lies here.~
+mithril~
+9 GJ AL
+24 19 15 5 0
+52 10 1600 P
+A
+13 20
+A
+20 -5
+#5622
+plate platemail diamond~
+the diamond platemail~
+A large diamond platemail lies here.~
+diamond~
+9 AGIK AD
+24 19 18 5 0
+52 10 25000 P
+A
+17 5
+A
+19 3
+#5623
+treasure~
+the funds of Tarin~
+The funds of tarin lies here.~
+gold~
+20 F A
+2000 0 0 0 0
+30 25 2000 P
+#5624
+key~
+a key~
+A tiny key lies here.~
+iron~
+18 AG AO
+0 0 0 0 0
+30 1 1 P
+#5625
+opal potion~
+an opal potion~
+An opal potion lies here in the dirt.~
+glass~
+10 GKQ AO
+30 518 81 36 0
+30 5 1800 P
+#5626
+chest opal~
+the opal chest~
+A little opal chest rest on the floor.~
+stone~
+15 AGK 0
+500 15 5633 0 0
+40 1000 50 P
+#5627
+visor kings~
+the kings visor~
+A visor lies here, it glows in a strange way.~
+steel~
+9 AGJQ AE
+17 28 19 12 0
+52 10 5000 P
+A
+1 2
+A
+2 1
+A
+3 -1
+A
+13 25
+#5628
+ring knight black~
+a black knight's ring~
+A black knights ring has been left behind here.~
+iron~
+9 GHJU AB
+22 10 9 5 0
+52 4 2800 P
+A
+13 20
+A
+19 3
+#5629
+iron mask~
+the iron mask of sorrow~
+An enormous iron mask lies here, trembling with powers.~
+iron~
+9 GHMU AP
+0 20 0 0 0
+51 15 8500 P
+A
+3 -4
+A
+19 -5
+#5630
+club heavy wooden~
+a heavy wooden club~
+A heavy wooden club lies here in the dirt.~
+wood~
+5 0 AN
+7 6 8 7 0
+40 12 1728 P
+A
+22 -5
+A
+24 -5
+#5631
+chain armor~
+the titans chain mail~
+A titans chain mail lies here.~
+steel~
+9 G AD
+12 10 13 3 0
+51 20 2800 P
+A
+12 -30
+A
+19 4
+#5632
+scroll stained~
+a stained scroll~
+A stained scroll lies here.~
+vellum~
+2 G AO
+30 36 17 82 0
+-1 2 2500 P
+#5633
+key~
+an expensive key~
+A key is here.~
+iron~
+18 0 AO
+0 0 0 0 0
+30 2 1 P
+#5634
+dagger elven~
+an elven dagger~
+A dagger is here.~
+adamantite~
+5 AU AN
+2 4 10 18 0
+52 5 5000 P
+A
+1 1
+A
+13 15
+A
+18 3
+A
+19 4
+#0
+
+
+
+#ROOMS
+#5600
+Inside the mountain~
+   You stand in front of a beautiful golden cave ingraved in the
+mountain. An area of ten feet around the cave has been cleared to pre-
+vent any hostile creatures from entering.  When you look down the
+stairs in the cave, you notice that these stairs in fact have not been
+used too much because of the thick layer of dust that lies upon them.
+Lots of footsteps in the dust lead directly to the cave wall, thus
+showing no obvious hidden exits.
+~
+56 4 5
+D0
+You see the golden gate.
+~
+gate~
+1 5636 5652
+D2
+You see a magically sealed door.. how nice.
+~
+~
+2 0 63
+D5
+You see the marble stairs leading into the ancient tombs of Tarin.
+~
+~
+0 0 5601
+E
+~
+
+~
+S
+#5601
+Entrance to Tombs of Tarin~
+   You walk down the  marble stairs to the tombs of Tarin. Large
+boulders from the roof have destroyed part of the stairs, but it seems
+safe enough to climb down the next few feet. A bronze plate has been
+nailed to the roof above the stairs.
+You can go up and down from here.
+~
+56 13 4
+D4
+You see the stairs leading up from the tombs of Tarin.
+~
+~
+0 0 5600
+D5
+You see the marble stairs leading down.
+~
+~
+0 0 5602
+E
+plate~
+
+   ************************************************************
+   *           Welcome to the Silvery Tombs of Tarin          *
+   *                  The King and The Queen                  *
+   ************************************************************
+
+~
+S
+#5602
+Upper half of the broken stairs~
+   You find yourself  standing at the edge of what  once was the marble
+stairs leading into the tomb. Enormous boulders have wrecked the
+stairs, and if you decide to take the jump down, it seems impossible to
+get up again.
+You can go down and up from here.
+~
+56 13 4
+D4
+You see the marble stairs leading up.
+~
+~
+0 0 5601
+D5
+~
+~
+0 -1 5603
+S
+#5603
+Lower half of the broken stairs~
+   You decide to take the jump down the stairs, well aware that it
+seems impossible to climb back up this way. The only thing that troub-
+les you is the speed you fly with .
+                          Woooo
+                               oooo
+                                   oo
+                                     o
+                                      o
+                                      o
+                                      owwwww. Your heart skips a few
+beats, then relaxes as you find yourself safe on the lower stairs. The
+only way is down from here.
+~
+56 9 0
+D4
+You can see the stairs some feet above, and wonder how you could ever
+get back from here.
+~
+~
+-1 -1 -1
+D5
+~
+~
+0 -1 5605
+S
+#5604
+Vault of heroes~
+   You enter a huge hall  occupied with stone statues of long forgotten
+heroes. The statues seem indestructable, and hanging from each one is
+a small gold plate with some writing on it. Besides the dust and the
+dry air, this room amazes you by it's beauty.
+~
+56 13 1
+D3
+You see the entrance hall.
+~
+~
+0 0 5605
+E
+plate plates~
+You see plates with a strange cryptic writing, unknown to you.
+~
+E
+statue statues~
+You see large stone statues, and each and every one of them has the
+look of some hero from the past.
+~
+S
+#5605
+Entrance hall of Tarin~
+   Below the stairs you find this beautiful hall made out of stone.
+Large banners hang from the roof and on each banner there is an eagle
+painted. In the middle of the hall you find a well springing with
+crystal clear water. Around the well there are small bottles hanging
+with ropes attached to them. To the east you see a pair of large bronze
+doors leading into the vault of heroes.
+~
+56 12 1
+D0
+~
+~
+0 -1 5606
+D1
+You see the vault of heroes
+~
+~
+0 0 5604
+D2
+~
+~
+0 -1 5607
+D3
+You see a lift door.
+~
+door~
+1 0 5686
+D4
+You see the broken stairs.
+~
+~
+-1 -1 -1
+S
+#5606
+Marble hallway~
+   You stand in a marble corridor leading east from here. The light
+gives the walls some fantastic colours and to the east you notice a
+faint light.
+You can go south and east from here.
+~
+56 9 0
+D1
+~
+~
+0 -1 5638
+D2
+~
+~
+0 -1 5605
+S
+#5607
+Guardmens corridors~
+   Standing inside this dim lit corridor with doors on each side, you
+notice the silence and the cleanliness of these parts. Perhaps the gu-
+ards are on duty. To the south the corridor continues and to the west
+and east there's a couple of doors.
+~
+56 9 0
+D0
+~
+~
+0 -1 5605
+D1
+You see a door leading into the private barracks.
+~
+door~
+1 0 5609
+D2
+~
+~
+0 -1 5611
+D3
+You see the door leading into the officers barracks.
+~
+door~
+1 0 5608
+S
+#5608
+Officers barracks~
+   You enter a room perfectly furnished for the high ranked members of
+this community. Sofas, chairs and tables are placed around a fireplace
+in the middle of the room.
+~
+56 12 1
+D0
+You see the door to the sleeping barracks.
+~
+door~
+1 0 5610
+D1
+You see the door leading out on the corridor.
+~
+door~
+1 0 5607
+S
+#5609
+Private barracks~
+   You stand inside the privates section of the guardmens corridor. A
+few guards lie sleeping and it seems to you that the privates have
+neglected the cleaning in here for a long time.
+~
+56 9 0
+D3
+You see a door leading out on the corridor.
+~
+door~
+1 0 5607
+S
+#5610
+Officers sleeping quarters~
+   You enter a dull room occupied with beds. The guards wouldn't like
+it if they found you here, so most people never stay around. The only
+exit is to the south.
+~
+56 13 0
+D2
+You see the barracks.
+~
+door~
+1 0 5608
+S
+#5611
+Bend in corridors~
+   You walk along the corridors until you arrive at this point where
+the corridor turns. To the west you see a door with a sign and to the
+north and east are the corridors.
+~
+56 9 0
+D0
+~
+~
+0 -1 5607
+D1
+~
+~
+0 -1 5613
+D3
+~
+~
+0 -1 5612
+S
+#5612
+Kitchen~
+   You enter the guardmens kitchen and find a few bottles and other
+tools used by cooks to make food. The smell of good food reaches you,
+and you feel hungry.
+~
+56 9 0
+D1
+~
+~
+0 -1 5611
+D2
+You see the fridge.
+~
+fridge~
+1 0 5615
+S
+#5613
+Guardmens corridors~
+   You walk along the doors in these  guardmens corridors. On each side
+of the corridor there is a door. A few torches give this corridor a
+comfortable light.
+~
+56 9 0
+D0
+You see a door.
+~
+door~
+2 0 -1
+D1
+~
+~
+0 -1 5616
+D2
+You see the bathroom.
+~
+~
+0 0 5614
+D3
+~
+~
+0 -1 5611
+S
+#5614
+Privates bathroom~
+   You enter a room that serves as a bathroom, from the roof runs
+crystal clear water down into a  little pool in the middle of the room.
+This looks like the best place to bathe. You can go north from here.
+~
+56 9 0
+D0
+You see the guardmens corridors.
+~
+~
+0 0 5613
+D5
+You see yourself in the polished floor, what a sight!!!
+~
+~
+-1 -1 -1
+S
+#5615
+Fridge~
+   This is a very cold room, everything is Freeeeezzzing. Large chunks
+of meat are placed on hooks above a few barrels.
+~
+56 5 0
+D0
+You look out from the fridge.
+~
+fridge~
+1 0 5612
+S
+#5616
+Guardmens corridors~
+   Walking along the corridors, you arrive at this noisy place. A few
+feet to the north you see a bar that looks rather tempting. To the
+south lies the blacksmith. You can also follow the corridor east and
+west.
+~
+56 9 0
+D0
+~
+~
+0 -1 5617
+D1
+~
+~
+0 -1 5625
+D2
+~
+~
+0 -1 5618
+D3
+~
+~
+0 -1 5613
+S
+#5617
+The Inn for heroes~
+   You enter a large room with chairs and tables everywhere. A large
+bar up against the north wall attracts all attention. Behind the
+counter stand large barrels with beer and ale. Stairs leads up to the
+second floor.
+~
+56 0 0
+D2
+~
+~
+0 -1 5616
+D4
+Stairs lead up to the second floor.
+~
+~
+0 0 5619
+E
+bar~
+The bar is old but very well kept. Quite a few bottles, empty and full,
+rest upon it.
+~
+E
+stairs~
+A red carpet runs up the stairs covering the old wooden stairs below
+it.
+The stairs have been used quite alot and you wonder where they lead.
+~
+E
+barrels barrel~
+You see quite a few empty barrels, a closed lid behind one of the
+barrels lead somewhere unknown.
+~
+E
+lid~
+A closed lid behind the barrels seems unpickable.
+The lid is closed.
+~
+S
+#5618
+Inside the weapon shop~
+   You enter a room used by the blacksmith's in Tarin as a shop to sell
+their wares. A counter in the middle of the room reflects the size of
+the weapons behind it.
+~
+56 12 0
+D0
+~
+~
+0 -1 5616
+E
+weapons~
+You see battleaxes, swords, daggers and all kinds of weapons.
+~
+E
+counter~
+It's rather big and made of oak.
+~
+S
+#5619
+Balcony above the bar~
+   You stand on a balcony above the bar with dozens of doors in front
+of you. These doors lead into small rooms used by the bar guests. The
+walls are painted red and there are a few pot plants. This gives the
+balcony a certain look, like a whore house.
+~
+56 0 0
+D0
+~
+~
+0 -1 5621
+D2
+You look down at the bar. People sit at tables talking, not taking any
+notice of you.
+~
+~
+-1 -1 -1
+D3
+You see a door leading into a room.
+~
+~
+0 0 5620
+D5
+Stairs leads down into the bar.
+~
+~
+0 0 5617
+E
+plant plants~
+They are pretty and well kept.
+~
+S
+#5620
+Dimly lit room~
+   You enter a dimly lit room dominated by a large bed. A few pictures
+of people you don't know are on a small table next to the bed. A large
+wardrobe stands against the northern wall. The wardrobe is closed.
+~
+56 12 0
+D0
+You see the wardrobe door leading into a huge wardrobe.
+~
+door~
+1 0 5623
+D1
+You see the balcony
+~
+~
+0 0 5619
+E
+pictures picture~
+The picture looks like the woman who sleeps in this bed. Beside her
+stands an enormous man with an evil look in his eyes.
+~
+E
+wardrobe~
+You take a few step closer to the wardrobe and discover that it can be
+opened.
+~
+E
+table~
+You see a large wooden table.
+~
+E
+bed~
+It looks very soft and most people would find it very comfortable.
+~
+S
+#5621
+Abandoned room~
+   You enter a room with all the standard equipment for a room, a bed
+and beside that a table. A large wardrobe and carpet on the floor.
+Besides all this, you find this room untouched and there is a thick
+layer of dust on the floor.
+~
+56 12 0
+D2
+~
+~
+0 -1 5619
+E
+wardrobe~
+The wardrobe is huge, and made of oak.
+The wardrobe is open.
+~
+S
+#5622
+A bend in the dark forest~
+   You are standing at a bend in the very dark forest of Haon-door. To the
+north lies an un-investigated part of the forest, and by the looks of it
+you sure understands why.
+~
+56 0 0
+D1
+You can make out the outline of a cave of some sort.
+~
+~
+0 -1 63
+D2
+~
+~
+0 -1 5689
+D3
+~
+~
+0 -1 5688
+S
+#5623
+Inside the wardrobe~
+   You enter the wardrobe and find it rather big compared to the usual
+size of wardrobes. Clothes and other personal stuff hang all around
+you.
+There seem to some sort of a lid on the wardrobe floor.
+~
+56 0 0
+D2
+You see the dim lit room through a little hole in the door.
+~
+door~
+1 0 5620
+D5
+You quickly removes all the clothes and dust on the wardrobe floor and
+find a lid in the floor.
+~
+lid~
+2 5606 5624
+E
+clothes clothe~
+On the wardrobe floor lies a lot of dirty clothes.
+~
+S
+#5624
+Wine cellar~
+   You crawl down the ladder and end up in this huge wine cellar below
+the inn. All around you there are enormous barrels filled with wine and
+other unknown liquids. A few lanterns nailed to the roof light up the
+rooms with a pale yellow light that makes the barrels look like huge
+monsters. The air is damp and most people would start looking for the
+exit at once.
+~
+56 0 0
+D1
+You see a secret door leading into the secret tunnel.
+~
+secret~
+1 0 5626
+D4
+You see a ladder leading up to a lid in the roof.
+~
+lid~
+2 5606 5623
+E
+barrels~
+You take a good look at all the enormous barrels and find that some of
+them seem to be empty, or at least untouched for ages. From others wine
+drips from the taps.
+~
+E
+lantern lanterns~
+The lanterns seem to be out of reach and you wonder how they ever could
+light up this entire room without any kind of magic.
+~
+S
+#5625
+Behind the curtain~
+   You stand at the end of the guardmens corridors. A curtain to the
+north hides the marble halls. This room is meant for guards that should
+be able to enter the marble halls within a few seconds. To the north is
+the curtain and to the west lies the guardmens corridors.
+~
+56 8 0
+D0
+You see a silk red curtain leading north.
+~
+curtain silk red~
+1 0 5627
+D3
+~
+~
+0 -1 5616
+E
+wall~
+The walls end abruptly, and turns north and west.
+~
+S
+#5626
+Secret tunnel~
+   You walk inside a very secret tunnel below the inn for heroes.
+~
+56 0 0
+D1
+You see a lid.
+~
+lid~
+1 0 5617
+D3
+You see a secret door leading out of the secret tunnel.
+~
+secret~
+1 0 5624
+S
+#5627
+Southern marble hall~
+   You stand inside an enormous white marble hall perfectly shaped into
+the mountain. Four large pillars, all reflecting a different light,
+stand in each corner, bearing the roof of the white hall. In the middle
+of the hall stands a huge golden throne.
+~
+56 12 0
+D0
+You see the throne.
+~
+~
+0 0 5635
+D1
+You see the south east pillar.
+~
+~
+0 0 5634
+D2
+You see a silk red curtain leading south.
+~
+curtain silk red~
+1 0 5625
+D3
+~
+~
+0 -1 5628
+E
+pillar pillars~
+The pillars in each corner of the hall send you different beautiful
+colours
+~
+S
+#5628
+Diamond pillar~
+   You stand below an enormous pillar made out of the largest diamond
+you have ever seen in your entire life. You try to hide the tears in
+your eyes as you look at this hall. Nothing could possibly be half as
+beautiful as this *sniff*.
+~
+56 8 0
+D0
+~
+~
+0 -1 5629
+D1
+~
+~
+0 -1 5627
+E
+pillar~
+You see the diamond pillar. It's huge and made of diamonds. A white and
+blue sparkling light comes from it.
+~
+S
+#5629
+Western marble hall~
+   You stand inside an enormous white marble hall perfectly shaped into
+the mountain. Four large pillars, all reflecting a different light,
+stand in each corner bearing the roof of the white hall. In the middle
+of the hall, east from here, stands a large golden throne.
+~
+56 12 0
+D0
+~
+~
+0 -1 5630
+D1
+You see the throne.
+~
+~
+0 0 5635
+D2
+~
+~
+0 -1 5628
+D3
+You see a red silk curtain.
+~
+curtain~
+1 0 5639
+E
+pillar pillars~
+The pillars in each corner of the hall send you different beautiful
+colours.
+~
+S
+#5630
+Ruby pillar~
+   You stand below an amazing pillar made out of one crystal clear
+ruby. Like the rest of the hall, this room reflects nothing but beauty
+and peace.
+~
+56 0 0
+D1
+~
+~
+0 -1 5631
+D2
+~
+~
+0 -1 5629
+E
+pillar~
+A dazzling red and white light comes from this the ruby pillar.
+~
+S
+#5631
+Northern marble hall~
+   You stand just north of the golden throne in the marble hall. To the
+north hangs a curtain covering a corridor behind it. From time to time
+you hear a mumbling and a muffled laugh from the north.
+~
+56 12 0
+D0
+You see a red, silk curtain with dirt stains on it.
+~
+curtain~
+1 0 5641
+D1
+~
+~
+0 -1 5632
+D2
+You see the throne.
+~
+~
+0 0 5635
+D3
+~
+~
+0 -1 5630
+E
+pillar~
+The pillars in each corner of the hall send you different beautiful
+colours.
+~
+S
+#5632
+Sapphire pillar~
+   You stand below an amazing pillar made out of one crystal clear
+sapphire. Like the rest of the hall, this room reflects nothing but
+beauty and peace.
+~
+56 8 0
+D2
+~
+~
+0 -1 5633
+D3
+~
+~
+0 -1 5631
+E
+pillar~
+This pillar reflects a fantastic blue colour that almost blinds you.
+~
+S
+#5633
+Eastern marble hall~
+   You stand inside the ancient marble hall of Tarin. To the west lies
+the golden throne. To the east there is a large bronze door blocking
+something hidden to everyone. Above the door, there are some runes
+carved into the hall wall.
+~
+56 8 0
+D0
+~
+~
+0 -1 5632
+D1
+You see a secret door leading east.
+~
+secret~
+2 5624 5636
+D2
+~
+~
+0 -1 5634
+D3
+~
+~
+0 -1 5635
+E
+runes~
+The runes read : Treasure room of Tarin
+~
+E
+pillar pillars~
+The pillars in each corner of the hall send you different beautiful
+colours.
+~
+S
+#5634
+Emerald pillar~
+   You stand below an amazing pillar made out of large emeralds. Like
+the rest of the hall, this room reflects nothing but beauty and peace.
+~
+56 8 0
+D0
+~
+~
+0 -1 5633
+D3
+The hall.
+~
+~
+0 0 5627
+E
+pillar~
+The pillar seems to sizzle with a dazzling green light.
+~
+S
+#5635
+Below the huge golden throne~
+   You stand below the golden throne of Tarin. As you look up,
+you notice the beautiful craftmanship of this throne. A letter lies on
+the stairs that leads up to the throne. From somewhere above you, you
+hear someone sniffing.
+~
+56 8 0
+D0
+You see a curtain.
+~
+~
+0 0 5631
+D1
+~
+~
+0 -1 5633
+D2
+You see a curtain to the south.
+~
+~
+0 0 5627
+D3
+You see a curtain to the west.
+~
+~
+0 0 5629
+D4
+~
+~
+0 -1 5637
+E
+letter~
+Wife,
+Nothing will ever part us in our quest for justice, nothing will come
+between us in our search for love. We will be together forever, if not
+here then where?
+Tarin.
+~
+E
+pillar pillars~
+From here all the colours of the four pillars meet and the colours
+transform into the most beautiful white silver colour you have ever
+seen. Above these colours a huge golden throne rises.
+~
+S
+#5636
+Treasure room of Tarin~
+   You enter a dark room only lit by the light you carry. Large chests
+and desks rest on the floor together with various valueable carpets.
+~
+56 9 0
+D1
+You see a secret door leading into the private chambers of the queen.
+~
+secret~
+1 0 5644
+D3
+You see a secret door leading west.
+~
+secret~
+2 5624 5633
+S
+#5637
+Golden throne~
+   You climb up the stairs and find yourself upon the throne about ten
+feet above the hall ground. The throne ends in an enormous chair which
+isn't ment for any human being.
+~
+56 8 0
+D5
+~
+~
+0 -1 5635
+S
+#5638
+Marble hallway~
+   You stand in a marble hallway leading into the ancient marble hall.
+The light from the east becomes stronger and you sense magic when you
+look to the east.
+~
+56 9 0
+D1
+~
+~
+0 -1 5639
+D3
+~
+~
+0 -1 5606
+S
+#5639
+Eastern end of the marble hallway~
+   You stand just west of a red silk curtain that leads into the marble
+hall. To the north lies the guard head-quarters and quite a few noises
+seem to come from there.
+~
+56 13 0
+D0
+~
+~
+0 -1 5640
+D1
+You see a red silk curtain leading into the marble hall.
+~
+curtain~
+1 0 5629
+D3
+~
+~
+0 -1 5638
+S
+#5640
+Guards head-quarters~
+   You enter room filled with smoke. Also chairs and tables are spread
+out on the floor together with large piles of paper, lying in random
+order on the largest table.
+~
+56 0 0
+D2
+~
+~
+0 -1 5639
+D4
+There is a secret ladder placed on the roof.
+~
+secret~
+1 0 5687
+S
+#5641
+Dark corridor~
+   Standing inside this dark corridor you notice that there's a
+fresh wind coming from somewhere up north. A thick layer of dust on the
+floor demonstrates the fact that this corridor is deserted and hasn't
+been used for ages.
+~
+56 13 0
+D0
+~
+~
+0 -1 5642
+D2
+You see a dirty curtain leading into the marble hall.
+~
+curtain~
+1 0 5631
+S
+#5642
+Dark corridor~
+   You arrive at a point where the fresh wind comes from above, and
+when you look up you notice the faint light from the sun shining above
+you.
+You can go up and south from here.
+~
+56 13 0
+D2
+~
+~
+0 -1 5641
+D4
+~
+~
+0 -1 5643
+S
+#5643
+Secret exit~
+   You are climbing a ladder that leads into the entrance to the tombs.
+A thick layer of dust covers everything and you must hang on to the
+ladder with all of your strength to avoid falling down. There is a
+little secret exit when you look up from here.
+~
+56 13 0
+D4
+You see the entrance from here.
+~
+~
+0 0 5600
+D5
+~
+~
+0 -1 5642
+S
+#5644
+Silvery rooms of privacy~
+   You enter a colourful room mostly painted in silver. An enormous bed
+rests on the floor. A mirror and a table stand up against the north
+wall. Pictures stand on the shelves and on the table.
+~
+56 13 0
+D3
+You see a secret door leading into the treasury.
+~
+secret~
+1 0 5636
+E
+picture pictures~
+You see  many  pictures of the queen and the king, Tarin. Some of the
+pictures are even taken with the queen in the shape of a silver dragon.
+Others taken in her human body. She is without doubt the most beautiful
+woman that ever existed.
+The smallest picture is that of a girl. She has silvery hair and
+crystal blue eyes.
+As you look at the last picture, you notice small dried tears.
+~
+S
+#5645
+Forgotten realm~
+   You enter an ugly corridor in the mountain. Heat and smoke rises
+from the ground and you sense danger everywhere. Large boulders lie
+scattered all around, and every now and then you seem to notice
+screams.
+~
+56 13 0
+D1
+~
+~
+0 -1 5646
+D3
+You see the entrance below the burned tree.
+~
+~
+0 0 5669
+S
+#5646
+Deeper Realm~
+   You stand inside the deeper realms of terror, and you DO feel
+terrified by the heat and the sudden movements everywhere.
+~
+56 13 0
+D0
+~
+~
+0 -1 5647
+D3
+~
+~
+0 -1 5645
+S
+#5647
+Elemental realm~
+   You walk right into what normal people would condider a death trap,
+but you barely endure the heat and black magic that constantly makes
+you tremble with fear.
+~
+56 13 0
+D1
+~
+~
+0 -1 5648
+D2
+~
+~
+0 -1 5646
+S
+#5648
+Undead realm~
+   You enter a foul smelling part of the corridor and find human bones
+and flesh everywhere. Large boulders have destroyed some of the corri-
+dor but you can continue from here.
+~
+56 13 0
+D2
+~
+~
+0 -1 5649
+D3
+~
+~
+0 -1 5647
+S
+#5649
+Spider realm~
+   You stand in a webbed part of the tunnel. Large chunks of tainted
+meat lies on the floor, and the smell is awful.
+~
+56 13 0
+D0
+~
+~
+0 -1 5648
+D1
+~
+~
+0 -1 5650
+S
+#5650
+Realm of Illusions~
+   You enter the last realm of the illusion. Silence is unknown and
+pain is the only soil existence. From the roof and walls runs a liquid
+equally coloured as blood. Screams and shouts from the east would scare
+most people from entering the lair.
+~
+56 13 0
+D1
+You see the gate of death leading into the lair.
+~
+death gate~
+2 5630 5651
+D3
+~
+~
+0 -1 5649
+S
+#5651
+Lair of the Dead~
+   You stand inside what seems to be a large cocoon. Half decayed
+corpses lie everywhere together with bones of humans, dwarves, elves
+and others.
+The entire room seems to be alive.
+~
+56 13 0
+D3
+You see one of the realms.
+~
+death gate~
+2 30 5650
+S
+#5652
+Trail up on a little mountain~
+   You ascend up the mountain and find yourself standing before a huge
+gate that blocks the road into the mountain. The gate is made of gold
+and on each side of the gate stand enormous stones that make it impos-
+sible to walk around the gate.
+~
+56 1 5
+D0
+~
+~
+0 -1 5653
+D2
+You see the golden gate blocking the entrance to the mountain.
+~
+gate~
+1 5636 5600
+S
+#5653
+Bottom of a mountain~
+   You stand in front of a mountain to the south, the forest ends as
+suddenly  as it started. The mountain to the south has a small path
+leading up it. Large stones on each side of the trail have writing on
+them.
+~
+56 1 4
+D0
+~
+~
+0 -1 5654
+D2
+~
+~
+0 -1 5652
+E
+stones writing stone~
+These mountains are under the protection of the royal court of Tarin.
+~
+S
+#5654
+Old trail through the forest~
+   As you enter this bend in the trail, you instantly notice the sudden
+difference in the forest. Here there trail seems wide and well used
+and the trail is very easy to follow.
+~
+56 1 3
+D2
+~
+~
+0 -1 5653
+D3
+~
+~
+0 -1 5655
+S
+#5655
+Old trail through the forest~
+   Walking along the trees on each side of the trail, you arrive at
+this section of the forest. The trees here seem to be several hundred
+feet high and the forest floor is green with mushrooms and grass. The
+forest can be entered to the south.
+~
+56 1 3
+D1
+~
+~
+0 -1 5654
+D2
+You see the dense forest to the south.
+~
+~
+0 0 5666
+D3
+You see an old trail.
+~
+~
+0 0 5656
+S
+#5656
+Clearing in the forest~
+   Standing in a little clearing in the forest, you notice a little
+pool with clear water just below a solitary rock a few feet to the
+south. The sun shines freely here and you wonder if this is paradise.
+The trail continues west and east, and to the south an old bridge
+crosses a dark river.
+~
+56 0 3
+D1
+You see an old dark trail.
+~
+~
+0 -1 5655
+D3
+You see a trail in the dense forest.
+~
+~
+0 -1 5657
+D5
+You look at yourself in the pool, and suddenly you see something shine
+at the buttom of the pool.
+~
+~
+0 -1 5668
+S
+#5657
+Old trail through the forest~
+   You arrive at another bend in the trail and find that trail continu-
+es to the east and south. The trees hover above you and take no action
+against you. To the east you see a clearing in forest where the sun
+shines freely on the forest floor.
+~
+56 0 3
+D1
+You see an old trail.
+~
+~
+0 0 5656
+D2
+You see a trail in the dense forest.
+~
+~
+0 0 5658
+S
+#5658
+Old trail through the forest~
+   You walk along the trail in the forest and sense the peace and the
+beauty of this forest and wonder why noone ever settled down out here.
+This place is really charming.
+~
+56 0 3
+D0
+You see a trail in the dense forest.
+~
+~
+0 0 5657
+D2
+You see a trail in the forest.
+~
+~
+0 0 5659
+S
+#5659
+Bend on the old trail through the forest~
+   You arrive at a crossing of two forest trails.  The trees stand
+quite close together, but you can continue in all directions.
+~
+56 0 3
+D0
+You see a trail in the forest.
+~
+~
+0 0 5658
+D1
+You could enter the dense forest to the east.
+~
+~
+0 0 5663
+D2
+~
+~
+0 -1 5667
+D3
+You see an old trail in the forest.
+~
+~
+0 0 5660
+S
+#5660
+Trail through the deep forest~
+   You walk through the forest and start wondering why the trees have
+made a perfect wall on each side of the road as if to keep you and
+other adventures out of the rest of forest. The sun gives the crowns of
+the trees far above you a sapphire green colour that is reflected
+everywhere in the forest.
+~
+56 0 3
+D1
+You see an old trail in the forest.
+~
+~
+0 0 5659
+D3
+You see an old trail through the forest.
+~
+~
+0 0 5661
+S
+#5661
+Walking on the narrow trail through the forest~
+   Entering this part of the big scary forest, you notice that this
+trail seems to be struggling against the forest to keep its path. The
+trees still get bigger and bigger and you wonder if there could be an
+entire world somewhere up in the crowns of these trees.
+~
+56 0 3
+D0
+You see a large knot in the tree.
+~
+knot~
+1 0 5670
+D1
+You see an old trail through the forest.
+~
+~
+0 0 5660
+D2
+You see a narrow trail through the forest.
+~
+~
+0 0 5662
+S
+#5662
+Narrow trail though the forest~
+   You stand at the edge of a trail leading into a deep dark forest.
+The sunbeams seem to be unable to hit the ground as gigantic trees
+hover above you as if trying to prove you unworthy of entering this
+forest.
+~
+56 0 3
+D0
+You see an old trail through the forest.
+~
+~
+0 0 5661
+D2
+You see a dark path in the forest
+~
+~
+0 0 5688
+S
+#5663
+Dark dense forest~
+   You walk directly into the dense forest between huge old trees that
+seem able to crush you just by moving an inch. The sun is completely
+shut out here.  To the north you sense a faint light coming from
+something built into the trees.
+
+~
+56 1 3
+D0
+You see a faint light coming from some place up north.
+~
+~
+0 0 5664
+D1
+You could take a chance and go deeper into the forest this way.
+~
+~
+0 0 5665
+D3
+You see a trail in the forest.
+~
+~
+0 0 5659
+S
+#5664
+Inside a burned down tree~
+   You carefully enter this burnt tree. Around the tree there is an
+area of ten feet where everything is dead or dying. A hole beneath you
+leads into the ground and when you examine the hole, you are met by the
+foul smell of death.
+~
+56 1 3
+D2
+You see the dark dense forest.
+~
+~
+0 0 5663
+D5
+~
+~
+0 -1 5669
+S
+#5665
+Deeper dark dense forest~
+   You are walking inside the deepest part of this forest and you are
+beginning to doubt that you will ever get out. The air is warm, wet
+and thick which gives the surroundings a dreamy look. There are move-
+ments and eyes looking at you from everywhere. You can go north and
+south from here.
+~
+56 1 3
+D0
+~
+~
+0 -1 5666
+D2
+You see a deeper dark dense forest.
+~
+~
+0 0 5665
+D3
+You see impassable trees.
+~
+~
+-1 -1 -1
+S
+#5666
+Dark dense forest~
+   You notice that the dense forest is becoming a little lighter here,
+and you start breathing normally again. The sunbeams from above you hit
+the ground randomly, lighting this entire area up in a beautiful
+light-green colour.
+~
+56 1 3
+D0
+You see an old trail.
+~
+~
+0 0 5655
+D1
+You see a deep, dark and scary forest.
+~
+~
+0 0 5666
+D2
+~
+~
+0 -1 5665
+S
+#5667
+Very dense forest~
+   You enter the dark dense forest and find it extremely uncomfortable
+because of the bushes and the trees united in a fence almost unpassable
+by human beings. Sounds are everywhere.
+~
+56 1 3
+D0
+~
+~
+0 -1 5659
+S
+#5668
+Diving in the pool~
+   You dive in the water and find it warm and refreshing to dive in.
+But after a while the warmth becomes cold, so you'd better think about
+hitting the surface before you drown here.
+~
+56 1 3
+D4
+You see surface of the pool.
+~
+~
+0 0 5656
+S
+#5669
+Dense forest~
+   You slowy descend down through the burned tree and after a while
+you reach the ground. When you look around, you see nothing but
+the dark ground and the many burned leaves and lumber lying scattered
+all around. A smell of burned flesh and wood meets you as you look
+east.
+~
+56 13 3
+D1
+You see a dark tunnel under the forest.
+~
+~
+0 0 5645
+D4
+~
+~
+0 -1 5664
+S
+#5670
+Behind the tree~
+   You stand behind the enormous tree, the sun lights up this place in
+a wonderful green colour. Deer, rabbits and other inhabitants of this
+wood live here peacefully. The green grass you stand on feels soft and
+you notice the constant shifting in the colour of the grass, one minute
+it seems light and green and the next minute it becomes darker under
+the shadow of something moving high up in the trees.
+~
+56 0 0
+D2
+You see a large knot in the tree.
+~
+knot~
+1 0 5661
+D4
+You see a rope leading up into the tree.
+~
+~
+0 0 5671
+S
+#5671
+Crown of the trees~
+   You stand on a platform build perfectly into the crown of these
+trees. All around you there are leaves all coloured in the most be-
+autiful green you have ever seen. The rope below you scatters and it
+seems rather impossible to get down this way.
+~
+56 0 2
+D0
+You see the crown of the trees.
+~
+~
+0 0 5680
+D1
+~
+~
+0 -1 5678
+D2
+You see the crown of the trees.
+~
+~
+0 0 5677
+D5
+ARGH - The rope you climbed up is broken, RATS what are we going to do now?.
+~
+~
+0 0 5690
+S
+#5672
+Cabin build into the tree~
+   Standing inside this little cabin, you notice the scary atmosphere
+and you feel a sudden urge to run out of here.
+~
+56 0 2
+D1
+~
+~
+0 -1 5673
+S
+#5673
+Crown of the trees~
+   You arrive at this other spot on the platform in the tree crowns.
+To the west you see a little hole dug into the tree. To the east
+you see more of the platform.
+~
+56 0 2
+D0
+You see the crown of the trees.
+~
+~
+0 0 5682
+D1
+You see the crown of the trees.
+~
+~
+0 0 5677
+D2
+~
+~
+0 -1 5674
+D3
+~
+~
+0 -1 5672
+S
+#5674
+Crown of the trees~
+   You arrive at another location above the forest floor on this
+platform. To the west you see large piles of half-rotten lumber. You
+also notice quite a few corpses of all kind of animals and people.
+~
+56 0 2
+D0
+~
+~
+0 -1 5673
+D1
+~
+~
+0 -1 5676
+D3
+~
+~
+0 -1 5675
+S
+#5675
+Dead chambers up in the crowns of the trees~
+   You walk into the dead chambers in the crowns. All evil and good
+gathered here in a desperate attempt to break the rhythm of the wars.
+Surely it didn't succeed.
+~
+56 0 2
+D1
+~
+~
+0 -1 5674
+S
+#5676
+Crown of the trees~
+   You stand on another platform high up in the crowns. Below you, you
+see lots of animals running around on the forest floor.
+~
+56 0 2
+D0
+~
+~
+0 -1 5677
+D3
+~
+~
+0 -1 5674
+S
+#5677
+Crown of the trees~
+   You arrive on a platform built from the crowns of the trees. A
+large tree to the east has a large door in its west side.
+~
+56 0 2
+D0
+You see the crown of the trees.
+~
+~
+0 0 5671
+D1
+You see a wooden door leading into the tree.
+~
+door wooden~
+1 0 5683
+D2
+~
+~
+0 -1 5676
+D3
+You see the crown of the trees.
+~
+~
+0 0 5673
+S
+#5678
+Crown of the trees~
+   You stand on the platform above the forest floor. Nothing special
+can be seen anywhere.
+~
+56 0 2
+D0
+You see the crown of the trees.
+~
+~
+0 0 5679
+D1
+~
+~
+0 -1 5684
+D3
+~
+~
+0 -1 5671
+S
+#5679
+Crown of the trees~
+   You arrive at this rotten place on the platform. Nothing special can
+be seen anywhere and most people would move on.
+~
+56 0 2
+D2
+You see the crown of the trees.
+~
+~
+0 0 5678
+D3
+~
+~
+0 -1 5680
+S
+#5680
+Crown of the trees~
+   You stand at a junction. The platform leads both west and east, but
+also to the south you can see a narrow path leading in between a couple
+of trees.
+~
+56 0 2
+D1
+~
+~
+0 -1 5679
+D2
+You see the crown of the trees.
+~
+~
+0 0 5671
+D3
+~
+~
+0 -1 5681
+S
+#5681
+Crown of the trees~
+   You stand on a boring path through the platforms. Nothing special
+can be seen anywhere.
+~
+56 0 2
+D1
+~
+~
+0 -1 5680
+D2
+~
+~
+0 -1 5682
+S
+#5682
+Crown of the trees~
+   You stand on a boring path through the platforms. Nothing special
+can be seen anywhere.
+~
+56 0 2
+D0
+~
+~
+0 -1 5681
+D2
+You see the crown of the trees.
+~
+~
+0 0 5673
+S
+#5683
+Inside a large tree~
+   You walk into a large room inside an even larger tree. Tables and
+chairs rest on the floor. The soft smell of pine is everywhere.
+~
+56 0 2
+D3
+You see the door.
+~
+door wooden~
+1 0 5677
+S
+#5684
+Crown of the trees~
+   You arrive at this horrifying place on the platform. Blood and
+skeletons of both humans and animals are scattered all around you.
+A large leather sack has grown into the platform, and it seems
+impossible to take it.
+~
+56 0 2
+D0
+~
+~
+0 -1 5685
+D3
+~
+~
+0 -1 5678
+S
+#5685
+High tree~
+   You walk into a large burned out tree. Horrifying sounds echo all
+around you and most people would flee in terror just listening to the
+sounds from these dead trees.
+~
+56 0 2
+D2
+~
+~
+0 -1 5684
+S
+#5686
+Lift room~
+   You enter a large hall used by the citizens of Tarin as link between
+this place, the tombs of Tarin, and the rest of the country. There is
+a large hole in the western floor leading down and up. A white paper
+has been nailed to the southern wall.
+~
+56 0 0
+D1
+You see a lift door.
+~
+door~
+1 0 5605
+E
+paper white~
+***********************************************************************
+            The lift link to foreign parts is not free!
+     Here is a price list made by the Tarin welfare community.
+***********************************************************************
+
+Journey to Dresden                :5000 coins.
+Journey to entrance of Tarin      : 500 coins.
+Journey to the queen of spiders   :2000 coins.
+Journey to moria                  :6000 coins.
+
+Remember, this is a one way exit, and if YOU decide to take the trip
+then just drop the money, and you will be at your destination place.
+~
+S
+#5687
+The minotaur's hideout~
+  You entered a cave build upon the office, a huge black throne is places
+in the eastern wall. Behind it you see a hole leading eastwards. Skulls
+and the other things resembling death lies scattered on the floor.
+~
+56 8388621 0
+D5
+You see a secret ladder leading down into the office.
+~
+secret~
+1 0 5640
+S
+#5688
+A path in a dark and dense forest~
+   You are walking on a small and narrow track in a huge dark forest
+the trees seems to be less living here than the other parts of the forest.
+To the north you see burned trees and glowing red eyes.
+You can go north and east from here.
+~
+56 0 0
+D0
+You see a dark path in the forest.
+~
+~
+0 0 5662
+D1
+~
+~
+0 -1 5622
+S
+#5689
+In the deeper forest~
+   You are standing just north of a huge ancient tree, from here everything
+seems beautiful but you get a strange feeling about the north forest, not
+that you can see anything, but you have THE feeling. You can go north and
+south from here.
+~
+56 0 0
+D0
+~
+~
+0 -1 5622
+D2
+~
+~
+0 -1 70
+S
+#5690
+Climbing down the rope - the BROKEN rope~
+   Despite the warning about the broken rope, you try to climb back down,
+most people would call that stupid, but you never quite understands why.
+
+You see nothing but stars.
+
+             o                          o                    o      o
+      o                                            o
+                      o                                       o
+      o         o                   o       o
+ o                       o                        o                   o
+           o                      o                       o   o
+  o                o  o                   o            o
+
+You are dead.
+~
+56 13 0
+D4
+Hmmm, not many but gods could reach the broken rope, then again...i think you
+can
+~
+~
+0 0 5671
+S
+#0
+
+
+
+#RESETS
+*
+D 0 5608 0 1 - Officers barracks  CLOSED to the NORTH
+D 0 5610 2 1 - Officers sleeping quarters  CLOSED to the SOUTH
+D 0 5613 0 2 - Guardmens corridors  LOCKED to the NORTH
+D 0 5612 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 5612 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 5612 2 1 - Kitchen  CLOSED to the SOUTH
+D 0 5615 0 1 - Fridge  CLOSED to the NORTH
+D 0 5624 4 2 - Wine cellar  LOCKED to the UP
+D 0 5624 4 2 - Wine cellar  LOCKED to the UP
+D 0 5623 5 2 - Inside the wardrobe  LOCKED to the DOWN
+D 0 5624 1 1 - Wine cellar  CLOSED to the EAST
+D 0 5626 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 5626 1 2 - Secret tunnel  LOCKED to the EAST
+D 0 5625 0 1 - Behind the curtain  CLOSED to the NORTH
+D 0 5627 2 1 - Southern marble hall  CLOSED to the SOUTH
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 5633 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 5633 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 5639 1 1 - Eastern end of the marble hallway  CLOSED to the EAST
+D 0 5629 3 1 - Western marble hall  CLOSED to the WEST
+D 0 5631 0 2 - Northern marble hall  LOCKED to the NORTH
+D 0 5641 2 2 - Dark corridor  LOCKED to the SOUTH
+D 0 5644 3 2 - Silvery rooms of privacy  LOCKED to the WEST
+D 0 5636 1 2 - Treasure room of Tarin  LOCKED to the EAST
+D 0 5650 1 1 - Realm of Illusions  CLOSED to the EAST
+D 0 5650 1 2 - Realm of Illusions  LOCKED to the EAST
+D 0 5651 3 2 - Lair of the Dead  LOCKED to the WEST
+D 0 5652 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 5600 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 5600 2 2 - Inside the mountain LOCKED to the SOUTH
+D 0 5652 2 2 - Trail up on a little mountain  LOCKED to the SOUTH
+D 0 5600 0 2 - Inside the mountain  LOCKED to the NORTH
+D 0 5633 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 5670 2 2 - Behind the tree  LOCKED to the SOUTH
+D 0 5661 0 2 - Walking on the narrow trail through the forest  LOCKED to the N
+M 0 5600 1 5604 - the King of Tarin -> Vault of heroes
+* G 1 203 40 -
+E 1 5627 1 6 -     the kings visor
+E 1 5600 2 16 -     a mithril two-handed sword
+D 0 5686 1 1 - Lift room  CLOSED to the EAST
+D 0 5605 3 1 - Entrance hall of Tarin  CLOSED to the WEST
+D 0 5624 1 1 - Wine cellar  CLOSED to the EAST
+D 0 5624 1 1 - Wine cellar  CLOSED to the EAST
+D 0 5626 3 1 - Secret tunnel  CLOSED to the WEST
+D 0 5626 1 1 - Secret tunnel  CLOSED to the EAST
+D 0 5620 0 1 - Dimly lit room  CLOSED to the NORTH
+D 0 5623 2 1 - Inside the wardrobe  CLOSED to the SOUTH
+D 0 5677 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 5683 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 5677 1 1 - Crown of the trees  CLOSED to the EAST
+D 0 5683 3 1 - Inside a large tree  CLOSED to the WEST
+D 0 5661 0 1 - Walking on the narrow trail through the forest  CLOSED to the N
+D 0 5670 2 1 - Behind the tree  CLOSED to the SOUTH
+M 0 5602 8 5605 - A dark lord of Tarin -> Entrance hall of Tarin
+M 0 5601 8 5607 - the stone statue -> Guardmens corridors
+E 1 5615 2 3 -     a dooms cloak
+M 0 5601 8 5611 - the stone statue -> Bend in corridors
+G 1 5632 5      - scroll of sanct/curse/change sex
+M 0 5601 8 5612 - the stone statue -> Kitchen
+M 0 5601 8 5617 - the stone statue -> The Inn for heroes
+E 1 5616 2 7 -     the dooms leggings
+M 0 5602 8 5620 - A dark lord of Tarin -> Dimly lit room
+E 1 5621 1 13 -     the magic girdle
+M 0 5602 8 5623 - A dark lord of Tarin -> Inside the wardrobe
+M 0 5603 1 5624 - the Warlord -> Wine cellar
+E 1 5622 1 5 -     the diamond platemail
+M 0 5604 1 5637 - the silver dragon -> Golden throne
+E 1 5624 1 17 -     a key
+E 1 5604 1 3 -     the silver diadem
+M 0 5605 1 5637 - the royal elven captain -> Golden throne
+E 1 5610 2 3 -     an elven cloak
+E 1 5607 1 8 -     a pair of elven boots
+E 1 5603 1 7 -     a pair of elven leggings
+E 1 5602 1 10 -    a pair of elven bracers
+E 1 5601 1 5 -     an elven platemail
+E 1 5608 2 16 -     elven sword
+E 1 5634 1 11 -    elven dagger (dual wield)
+G 1 5633 1   -     key to opal treasure chest
+M 0 5606 6 5635 - the elven guard -> Below the huge golden throne
+E 1 5613 1 3 -     a white medallion
+M 0 5606 6 5635 - the elven guard -> Below the huge golden throne
+M 0 5607 6 5627 - the elven hall guard -> Southern marble hall
+E 1 5609 1 14 -     an elven bracelet
+M 0 5607 6 5627 - the elven hall guard -> Southern marble hall
+E 1 5610 2 3 -     an elven cloak
+M 0 5607 6 5629 - the elven hall guard -> Western marble hall
+E 1 5606 1 6 -     an elven helmet
+M 0 5607 6 5629 - the elven hall guard -> Western marble hall
+E 1 5608 2 16 -     an elven sword
+M 0 5607 6 5631 - the elven hall guard -> Northern marble hall
+E 1 5611 2 17 -     an elven staff of light
+M 0 5607 6 5631 - the elven hall guard -> Northern marble hall
+E 1 5612 1 9 -     a pair of elven gloves
+M 0 5608 2 5628 - the elven battlemaster -> Diamond pillar
+E 1 5605 1 16 -     the battlemasters dirk
+M 0 5608 2 5633 - the elven battlemaster -> Eastern marble hall
+M 0 5609 3 5625 - the undead lich -> Behind the curtain
+M 0 5609 3 5606 - the undead lich -> Marble hallway
+M 0 5609 3 5638 - the undead lich -> Marble hallway
+M 0 5611 6 5686 - the black devil -> Lift room
+M 0 5611 6 5606 - the black devil -> Marble hallway
+M 0 5611 6 5640 - the black devil -> Guards head-quarters
+M 0 5611 6 5611 - the black devil -> Bend in corridors
+G 1 5625 10      - opal potion
+M 0 5610 4 5612 - the red devil -> Kitchen
+M 0 5610 4 5607 - the red devil -> Guardmens corridors
+M 0 5610 4 5605 - the red devil -> Entrance hall of Tarin
+M 0 5612 1 5609 - the black knight -> Private barracks
+E 1 5628 1 1 -     a black knight's ring
+M 0 5613 3 5610 - the drake -> Officers sleeping quarters
+M 0 5613 3 5614 - the drake -> Privates bathroom
+M 0 5614 1 5618 - the undead blacksmith -> Inside the weapon shop
+E 1 5614 1 17 -     the black staff of ancient magic
+M 0 5615 1 5639 - the black minotaur -> Eastern end of the marble hallway
+E 1 5617 2 17 -     the black horns of the minotaur
+O 0 5618 1 5635 - the history book of tarin -> Below the huge golden throne
+D 0 5640 4 1 - Guards head-quarters  CLOSED to the UP
+D 0 5687 5 1 - The minotaur's hideout  CLOSED to the DOWN
+M 0 5616 1 5687 - the minotaur god -> The minotaur's hideout
+E 1 5619 1 16 -     the claws of the minotaur god
+G 1 5625 10      - opal potion
+M 0 5617 1 5608 - the black baron -> Officers barracks
+M 0 5618 5 5633 - the elven soldier -> Eastern marble hall
+M 0 5618 5 5632 - the elven soldier -> Sapphire pillar
+M 0 5618 5 5631 - the elven soldier -> Northern marble hall
+M 0 5618 5 5629 - the elven soldier -> Western marble hall
+M 0 5619 4 5652 - the undead wolf -> Trail up on a little mountain
+M 0 5619 4 5656 - the undead wolf -> Clearing in the forest
+M 0 5620 4 5659 - the burned tree -> Bend on the old trail through the forest
+M 0 5620 4 5667 - the burned tree -> Very dense forest
+M 0 5620 4 5663 - the burned tree -> Dark dense forest
+M 0 5620 4 5655 - the burned tree -> Old trail through the forest
+M 0 5621 1 5602 - the undead earth snake -> Upper half of the broken stairs
+M 0 5601 8 5686 - the stone statue -> Lift room
+E 1 5620 1 10 -     the dooms sleeves
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 5633 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+D 0 5633 1 2 - Eastern marble hall  LOCKED to the EAST
+D 0 5636 3 2 - Treasure room of Tarin  LOCKED to the WEST
+M 0 5606 6 5644 - the elven guard -> Silvery rooms of privacy
+O 0 5626 1 5644 - the opal chest -> Silvery rooms of privacy
+P 1 5625 10 5626 - an opal potion  -> the opal chest
+P 1 5623 1  5626 - the funds of Tarin -> Treasure room of Tarin
+M 0 5622 2 5636 - the silvery waiter -> Treasure room of Tarin
+M 0 5622 2 5644 - the silvery waiter -> Silvery rooms of privacy
+M 0 5623 1 5685 - the king of trees -> High tree
+E 1 5629 1 18 -     the iron mask of sorrow
+M 0 5624 1 5684 - A huge ancient tree -> Crown of the trees
+M 0 5625 4 5678 - the black griffen -> Crown of the trees
+M 0 5625 4 5680 - the black griffen -> Crown of the trees
+M 0 5625 4 5674 - the black griffen -> Crown of the trees
+M 0 5626 4 5674 - the undead spirit -> Crown of the trees
+M 0 5626 4 5676 - the undead spirit -> Crown of the trees
+M 0 5626 4 5683 - the undead spirit -> Inside a large tree
+O 0 5630 1 5675 - a heavy wooden club -> Dead chambers up in the crowns of the
+M 0 5627 1 5682 - the titan -> Crown of the trees
+E 1 5631 4 5 -     the titans chain mail
+M 0 5628 1 5670 - the sphinx -> Behind the tree
+*
+S
+
+#SPECIALS
+
+M 5602 spec_cast_cleric
+M 5603 spec_cast_mage
+M 5604 spec_breath_frost
+M 5609 spec_cast_undead
+M 5610 spec_psionic
+M 5611 spec_breath_acid
+M 5613 spec_breath_fire
+M 5614 spec_cast_undead
+M 5616 spec_psionic
+M 5617 spec_cast_undead
+M 5623 spec_cast_cleric
+M 5626 spec_cast_undead
+M 5628 spec_cast_cleric
+
+S
+
+#$

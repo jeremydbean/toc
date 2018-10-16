@@ -1,0 +1,322 @@
+#PLAYER
+Name OnyxWizard~
+Id   62461
+LogO 952769268
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 22
+Plyd 115756
+ListRemorts ~
+NumRemorts 0
+Note 949019232
+Scro 22
+Room 4207
+HMV  234 234 123 123 58 226
+NewGold 7
+NewPlat 6
+NewCopp 30
+NewSilv 3
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 1
+Exp  44152
+Act  196860
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 2
+Trai 2
+Save  5
+Alig  -668
+Hit   9
+Dam   12
+ACs 23 21 22 86
+Attr 16 18 17 13 13
+AMod 2 1 1 0 1
+Pass OnmRxM0iBYGGw~
+Titl  the Poorly Shaped One~
+Pnts 40
+TSex 1
+LLev 24
+HMVP 240 123 226
+Cond 0 1 19
+Alias k kick~
+Alias da disarm~
+Alias dk dirt~
+Alias sh shove~
+Alias sm smite~
+Alias db doorbash~
+Alias oe open east~
+Alias ow open west~
+Alias on open north~
+Alias os open south~
+Alias ou open up~
+Alias od open down~
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 82 'shield block'
+Sk 30 'spear'
+Sk 99 'sword'
+Sk 78 'whip'
+Sk 75 'danger sense'
+Sk 77 'dirt kicking'
+Sk 75 'disarm'
+Sk 93 'enhanced damage'
+Sk 93 'kick'
+Sk 87 'parry'
+Sk 75 'rescue'
+Sk 91 'second attack'
+Sk 78 'fast healing'
+Sk 64 'door bash'
+Sk 77 'shove'
+Sk 83 'recall'
+Sk 100 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 13 0 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Affect -1 1 -1 -11 13 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 97
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 5 23 0 0
+End
+
+#O
+Vnum 3500
+Nest 0
+Wear -1
+Lev  5
+Cost 50
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 0
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear 7
+Lev  15
+Cost 190
+Cond 100
+Repd 0
+Val  5 6 5 0 0
+Affect -1 15 -1 -6 13 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  15
+Cost 210
+Cond 100
+Repd 0
+Val  7 7 6 0 0
+Affect -1 15 -1 -7 17 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 10024
+Nest 0
+Wear -1
+Lev  13
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  12
+Cost 280
+Cond 100
+Repd 0
+Val  5 4 6 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear 16
+Lev  7
+Cost 1000
+Cond 97
+Repd 0
+Val  1 4 3 3 8
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  7
+Cost 100
+Cond 100
+Repd 0
+Val  3 5 3 0 0
+Affect -1 7 -1 -1 2 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 0
+Cond 99
+Repd 0
+Val  6 6 7 0 0
+End
+
+#END

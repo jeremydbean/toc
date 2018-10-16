@@ -1,0 +1,365 @@
+#AREA   { ALL } Graves  The Quest Zone 1~
+
+#MOBILES
+#20301
+Xender~
+Buck~
+Buck the gamemaster points the way north!
+~
+This is buck the game master...he dosent do anything really except point 
+the way to the first riddle.  That and I placed him here for my personal 
+amusement. Buck was created by Silence(TM) also the creators of such 
+things as....the pocket fisherman and the salad shooter!
+~
+unique~
+BEGJKMUV 0 0 S
+60 100 500d1+5000 500d1+500 10d10+1 18
+-50 -50 -50 -50
+0 BDEFGHIJKLMNOPQRST 0 0
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#20301
+red potion~
+A Red Potion~
+A red potion bubbles in a glass jar on the floor.~
+glass~
+10 GUV AO
+51 502 28 522 0
+1 2 100 P
+E
+red potion~
+Hmmmmm...it seems that this potion is one of heal, sanctuary and fire shield.
+~
+#20302
+medallion quest winner~
+A Quest Winners Medallion~
+A gold medallion lies in the dust.~
+gold~
+9 ABUVXZ FGH AC
+10 10 10 10 0
+1 5 1000 P
+E
+medallion~
+This medallion signifies that you have won the quest in Quest Zone 1!
+~
+
+#0
+
+#ROOMS
+#20301
+Entrance to the quest~
+You have found the entrance to Quest Zone 1. From here you can continue 
+to the north and enter the quest itself...but first the rules.
+
+	1. Do not give away the clues or it defeats the purpose of the
+	   area.
+	
+	2. Have fun!
+
+	3. There is no rule 3.
+
+The entire area is no_recall but there is an escape if you feel you can 
+not continue onward. in each room there is an exit to the up...take the 
+up to the recall room and recall...you may continue the quest later if 
+you wish.  Now this is what you have to do..in each room you will be 
+presented with a riddle...if you answer the riddle open the answer and 
+continue onward. EX: the answer is boob...open boob is the name of the 
+secret door leading onward...its simple. have fun!
+~
+203 CD 0
+D0
+to dark to tell
+~
+~
+0 -1 20302
+S
+#20302
+The first question~
+A very simple riddle is scrawled in glowing letters on the north wall...
+
+	Riddle:
+		A box without hinges key or lid...
+		but inside golden treasure is hid...
+
+	Open me and continue adventurer!
+
+~
+203 BDKN 0
+D1
+the next question
+~
+egg~
+4 0 20303
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20303
+The second question~
+Written in glowing letters along the north wall is the second question...
+
+	Riddle:
+		With power of wind and rain...
+		I can never cross my eyes...
+		What am I?
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D5
+the third question
+~
+hurricane~
+4 0 20304
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20304
+The third question~
+The riddle is written with glowing letters along the east wall...
+
+	Riddle:
+		Dentists love me, but most people are afraid...
+		I believe they think...
+		that my stripes make me a criminal...
+		What am I?
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D0
+the fourth question
+~
+tiger~
+4 0 20305
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20305
+The fourth question~
+The riddle in this room is scribbled on the floor...
+
+	Riddle:
+		It cannot be seen, cannot be felt...
+		Cannot be heard, cannot be smelt...
+		it lies behind stars, and under hills...
+		and empty holes it fills...
+		it comes first and follows after...
+		ends life, kills laughter...
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D3
+the fifth question
+~
+dark~
+4 0 20306
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20306
+The fifth question~
+The riddle in this room seems to be written in blood on the west wall...
+
+	Riddle:
+		This thing all things it devours...
+		birds, beasts, trees, flowers...
+		gnaws iron, bites steel...
+		grinds hard stone to meal...
+		slays kings, ruins towns...
+		and beats high mountains down...
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D6
+the sixth question
+~
+time~
+4 0 20307
+D4
+a way out	
+~
+~
+0 -1 20313
+S
+#20307
+The sixth question~
+The words to this riddle seem to hang in mid air...
+
+	Riddle:
+		What walks on four legs in the morning...
+		Two legs in the afternoon...
+		And three legs in the evening...
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D7
+to the seventh question
+~
+man~
+4 0 20308
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20308
+The seventh question~
+The words to this riddle are scratched on the northeast wall...
+
+	Riddle:
+		What weighs nothing, but...
+		when put into a bucket...
+		makes it weigh less?
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D8
+the eighth question
+~
+hole~
+4 0 20309
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20309
+The eighth question~
+The words to this riddle are scrawled on the north wall...
+
+	Riddle:
+		What can run but never walks...
+		has a mouth but never talks...
+		has a bed but never sleeps...
+		has a head but never weeps?
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D0
+the ninth question
+~
+river~
+4 0 20310
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20310
+The ninth question~
+The words to this riddle are written upon the ceiling...
+
+	Riddle:
+		Not born but from a mothers body drawn...
+		I hang until half of me is gone...
+		I sleep in a cave until I grow old...
+		Then valued for my hardened gold.
+
+	Open me and continue on adventurer!
+~
+203 BDKN 0
+D1
+the last question
+~
+cheese~
+4 0 20311
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20311
+The last question~
+The words to this riddle seem to hang in mid air...
+
+	Riddle:
+		The beginning of eternity...
+		The end of time and space...
+		it is the start of every end...
+		and the end of every place...
+
+	Open me to receive your prize worth adventurer!
+~
+203 BDKN 0
+D1
+the prize!
+~
+lettere~
+4 0 20312
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20312
+The Prize!~
+You have reached the end of the riddle maze! lying here on the floor is 
+the prize that you have most decidedly have won...may it help you on the 
+road towards hero! And please remember not to give the clues to your 
+fellow players...that would ruin the fun :)
+~
+203 BDKN 0
+D4
+a way out
+~
+~
+0 -1 20313
+S
+#20313
+A Way Out~
+You have reached a way out of the maze...just recall from here to go back 
+to the temple of devota...thank you for playing!
+~
+203 DJK 0
+S
+
+#0
+		
+#RESETS
+* Door resets for puzzle maze
+D 0 20302 1 4
+D 0 20303 5 4
+D 0 20304 0 4
+D 0 20305 3 4
+D 0 20306 6 4
+D 0 20307 7 4
+D 0 20308 8 4
+D 0 20309 0 4
+D 0 20310 1 4
+D 0 20311 1 4
+* End door resets
+*
+M 0 20301 1 20301 * load the portal mob bud
+*
+* O 0 20301 10 20312 * puts potion at completion
+*
+* O 0 20302 10 20312 * puts medallion at completion
+
+S
+
+#$

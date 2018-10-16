@@ -1,0 +1,2288 @@
+#AREA   {HERO}  Haze    City Of LUD~
+
+#MOBILES
+#29501
+Ageless Stranger~
+Ageless Stranger~
+The Ageless Stranger is busy here.
+~
+You peer at the Ageless Stranger.  He is the definition of evil and
+immortality.  He has walked many worlds and left death and destruction
+behind him like earthshaking footsteps.  He holds something important but
+killing an immortal man is impossible.
+~
+human~
+BGOM HT -1000 M
+30 15 6d12+900 1d1+500 4d6+8 20
+-66 -66 -66 -66
+ACDEFHIJKLN ABCDEFGHIJKLMNOPQRS 0 0
+8 8 1 0
+0 0 M 0
+{
+A -1
+$n says, "It is foolish to even TRY and defeat me!"~
+$n looks you over, titters, and bursts out in laughter!~
+}
+#29502
+pube~
+Pube~
+One of the Pubes huddles here.
+~
+This Pube suffers from a disease called "Mandrus" but known to many as
+"Whore's Blossoms."  The Pubes and Grays have been killing each other for
+many years now in a vain attempt to please what they think are Gods that
+live in the northern part of the city.
+~
+human~
+HSM DFHJMPTV -800 S
+50 20 50d38+650 25d50+300 5d8+19 13
+-20 -20 -20 -18
+CEFHJKLU R LQ P
+8 8 1 500
+0 0 M 0
+#29503
+gray~
+Gray~
+One of the Gray's glares at you for entering it's city.
+~
+This Gray suffers from a disease called "Mandrus" but known to many as
+"Whore's Blossoms."  The Pubes and Grays have been killing each other for
+many years now in a vain attempt to please what they think are Gods that
+live in the northern part of the city.
+~
+human~
+GHSM DFHJMPTV -800 S
+50 20 50d38+650 25d50+300 5d8+19 13
+-20 -20 -20 -18
+CEFHJKLU R LQ P
+8 8 1 500
+0 0 M 0
+#29504
+slow mutant~
+Slow Mutant~
+The Slow Mutant has taken shape from the gas.
+~
+Slow, VERY Slow.
+~
+undead~
+CFGOM IDLOZ A 0 S
+51 21 200d10+5000 1d1+500 5d8+20 26
+-23 -23 -23 -15
+AJKNUZ B BP DFG R
+8 8 1 1000
+0 0 L 0
+#29505
+gasherman~
+Gasherman~
+The Gasherman is pressing a button on the command console.
+~
+The Gasherman is the assistant to the Tick-Tock Man.  He looks like he
+may be dying from the same disease that the Pubes and Grays have.  He grins
+evilly at you and you see he is missing quite a few teeth.  It doesn't
+look like he has much reason to live so you can expect him to fight hard.
+~
+human~
+BRM HTV -1000 M
+56 26 200d2+8000 100d1+1000 6d8+24 19
+-30 -30 -30 -30
+AFKPV BQ C P
+8 8 1 2500
+0 0 L 0
+{
+A -1
+$n says, "Now sit still wittle one so ol Gasher can play with you!"~
+$n looks at you and grins as pus oozes from his sores.~
+}
+#29506
+tick tock man~
+Tick Tock Man~
+The Tick-Tock Man is the strongest man you have ever laid eyes upon.
+~
+This GIANT of a man has muscles rippling from every inch of his body.
+He looks like he can take a beating and keep on ticking.  A small glass box
+hangs around his neck on a silver chain.  There is a small gold clock
+inside with a pendulum swinging in it.  Guess they don't call him the
+Tick-Tock man for nothing.
+~
+giant~
+BTM HTV -1000 S
+57 27 200d2+9500 100d1+1000 5d10+25 8
+-35 -35 -35 -30
+ACDFJKLP B LQ P
+8 8 1 2500
+0 0 G 0
+#29507
+security droid~
+Security Droid~
+The Security Droid roams the halls.
+~
+This droid protects against unwanted visitors.  You fit that description.
+~
+unique~
+CFGM DJVOZ A 0 M
+51 21 200d2+5000 1d1+500 6d8+20 28
+-23 -23 -23 -20
+AEFHKLUZ B BP C O
+8 8 0 0
+0 0 M 0
+{
+A -1
+$n yells, "Intruder alert! Unauthorized access!"~
+$n targets you and attacks.~
+}
+#29508
+roland~
+Roland~
+Roland Of Gilead stares you down as he draws his guns with lightning speed.
+~
+Roland Of Gilead is an extremely dangerous man.  He has killed towns full
+of people with his two nickel plated six shooters.  He has learned well from
+his teacher Cort and has been hardened by travelling over thousands of miles
+in search of The Dark Tower located in End-World.  He has never forgotten
+the face of his father, but he thinks you have.
+~
+human~
+BTM BCDEFGHOTVZ A 1000 S
+67 27 200d2+10000 100d1+1000 9d10+15 6
+-55 -55 -55 -40
+ACDEFHKLV BLPQ CE 0
+8 8 1 5000
+0 0 L 0
+#29509
+eddie dean~
+Eddie Dean~
+Eddie Dean liked his wife better when she was alive.
+~
+Eddie was pulled from his world by Roland through a doorway between the two
+worlds.  He is street smart from once being a criminal in New York.  Now
+he has learned from Roland how to be a Gunslinger.
+~
+human~
+BFTM DGHOV 1000 M
+65 25 200d2+9500 100d1+1000 9d10+14 8
+-52 -52 -52 -39
+ACDFHKL BLPQ DE 0
+8 8 1 5000
+0 0 L 0
+{
+A -1
+$n screams, "YOU KILLED MY WIFE!! DIE!!"~
+$n charges towards you wildy!~
+}
+#29510
+susannah dean~
+Susannah Dean~
+Eddie's wife Susannah waits here.
+~
+Susannah is the wife of Eddie Dean.  She was drawn through a doorway from
+her world to here by Roland.  She lost her legs in an accident in her world
+and floats here ready to defend her life and honor.
+~
+human~
+BFRM DGHOTV 1000 S
+64 24 200d2+9000 100d1+1000 9d10+13 18
+-51 -51 -51 -38
+ADFHKL B CP 0
+8 8 2 5000
+0 0 M 0
+#29511
+jake~
+Jake~
+Jake of New York cringes from the sight of you.
+~
+Jake Chambers was drawn from New York through a doorway connecting his world
+to here.  He is part of Roland's ka-tet which is made up of Roland, Eddie,
+Susannah, Jake, and Oy.
+~
+human~
+BFSM DGHOQV 750 S
+63 23 200d2+7000 1d1+1000 9d10+13 2
+-50 -50 -50 -37
+ABDFHKL BE P 0
+8 8 1 4000
+0 0 M 0
+#29512
+oy~
+Oy~
+Oy the Billy-Bumbler snarls at the sight of you.
+~
+Oy is a small furry billy-bumbler taht looks like a large ferret.  His gold-
+ringed black eyes stare out at you from his matted black-and grey-striped
+fur.  He is Jake's pet and screams at you, "AKE AKE AKE!"
+~
+human~
+BFTM DGHOTV 0 S
+62 28 200d2+6000 1d1+1000 9d10+12 31
+-49 -49 -49 -35
+ADFHL BE LQ 0
+8 8 1 3000
+0 0 S 0
+#29513
+blaine~
+Blaine~
+Blaine IS the control room.  He is going to fry you.
+~
+This is the Supercomputer gone mad.  He has controlled this city for a long
+time and is not about to let you interfere with that.  Dipolar circuit
+boards fizzle and crackle with exposed wires throwing electricity through
+the air.  You can feel the room heating up with static electricity.
+~
+undead~
+BFOM DFGHLOTVZ A 0 S
+69 29 200d2+12000 100d1+1000 10d10+17 15
+-56 -56 -56 -42
+ADEHLV BILOPQ CDEFG H
+8 8 1 10000
+0 0 H 0
+#29514
+ticketmaster~
+Ticketmaster~
+A ticketmaster machine is here to sell tickets for a ride on the mono.
+~
+This machine has become rundown but still manages to function after going
+for over 1,000 years without maintenence.
+~
+unique~
+BIMV DOV 1000 S
+50 20 50d38+600 25d50+300 5d8+20 28
+-50 -50 -50 -50
+FKV ABCDP 0 0
+8 8 0 0
+0 0 M 0
+#0
+
+
+#OBJECTS
+#29501
+coal black key~
+A coal black key~
+An evil coal black key lies here.~
+stone~
+18 C AO
+0 0 0 0 0
+35 1 100 P
+E
+coal black key~
+This key emits the taint of it's original beholder.
+~
+#29502
+heavy stone key~
+A heavy stone key~
+A heavy stone key sits here discarded.~
+stone~
+18 U AO
+0 0 0 0 0
+50 75 100 P
+E
+heavy stone key~
+This key is SOOOO heavy!
+~
+#29503
+tiny silver key~
+A tiny silver key~
+A tiny silver key glitters on the ground.~
+silver~
+18 0 AO
+0 0 0 0 0
+50 1 100 P
+E
+tiny silver key~
+This key must open a door to another cabin.
+~
+#29504
+gold key~
+A gold key on a chain~
+A gold key on a chain lies here.~
+gold~
+18 0 AO
+0 0 0 0 0
+50 1 1000 P
+E
+gold key~
+This key is fused to a broken neck chain.
+~
+#29505
+bent key~
+A bent key~
+A bent key is here looking bent out of shape.~
+adamantite~
+18 0 AO
+0 0 0 0 0
+50 1 100 P
+E
+bent key~
+This key looks pretty bent out of shape. :)
+~
+#29506
+long magical key~
+A long and magical looking key.~
+A long and magical looking key glows here.~
+adamantite~
+18 AG AO
+0 0 0 0 0
+50 1 100 P
+E
+long magical key~
+This key looks like it could never get bent out of shape.
+~
+#29507
+burnt tarot keycard~
+a burnt tarot keycard~
+A burnt tarot keycard is almost in tatters.~
+paper~
+18 C AO
+0 0 0 0 0
+50 1 100 A
+E
+burnt tarot keycard~
+Be careful with this key, it is in awful condition.
+~
+#29508
+monorail ticket~
+a monorail ticket~
+A ticket to ride Patricia the Monorail lies here.~
+paper~
+13 0 AO
+0 0 0 0 0
+50 1 100000 P
+E
+monorail ticket~
+It has a picture of a smiling train on it.
+~
+#29509
+sharp piece glass~
+a sharp piece of glass~
+a REAL sharp piece of glass!~
+glass~
+37 F AN
+3 0 51 0 0
+51 1 500 P
+E
+sharp piece glass~
+It looks REALLY sharp and maybe poisonous since considering who wielded it.
+~
+T
+$n wields the $p and looks incredibly sick now.~
+You feel a deep and writing sickness infecting your bloodstream.~
+#29510
+yellow scarf~
+a yellow scarf~
+a faded yellow scarf has something hidden in it...~
+paper~
+15 E AC
+60 4 0 0 0
+52 1 100 P
+A
+12 25
+A
+13 25
+A
+17 -5
+#29511
+clock chain~
+a clock on a chain~
+a chain with a small clock incased in gold.~
+wood~
+9 B AC
+14 14 14 7 0
+51 2 500 P
+A
+1 2
+A
+12 30
+A
+18 3
+#29512
+broken watch~
+a broken watch~
+a broken watch that reads 00:00.~
+steel~
+9 0 AM
+10 11 12 6 0
+51 1 200 P
+A
+13 25
+A
+14 25
+A
+18 2
+A
+19 2
+#29513
+lightweight shield~
+a lightweight shield~
+a lightweight shield to protect yourself with.~
+steel~
+9 0 AJ
+12 14 14 6 0
+52 8 400 P
+A
+2 2
+A
+18 2
+A
+19 2
+A
+23 -5
+#29514
+dress flower pretty~
+a pretty flower dress~
+a pretty pink flower dress for you to wear!~
+cloth~
+9 0 AD
+14 14 14 7 0
+53 1 500 P
+A
+1 -2
+A
+2 2
+A
+13 -35
+A
+14 35
+A
+18 4
+A
+19 4
+T
+Did you know $n wore dresses? Straaaange....~
+You put on $p and hmm....have you worn one of these before?~
+#29515
+revolver nickel plated~
+two nickel-plated revolvers~
+two gleaming nickel-plated revolvers.~
+iron~
+5 M ANP
+0 16 4 6 F
+54 1 700 P
+A
+3 2
+A
+19 5
+T
+$n takes on the appearance of Gunslinger.~
+You feel just like Roland the Gunslinger.~
+#29516
+neural electrical implant~
+a neural electrical implant~
+a special implant that allows recolection.~
+gold~
+9 B AE
+11 11 11 12 0
+51 1 1000 P
+A
+1 -2
+A
+3 3
+A
+13 4
+A
+24 -5
+T
+$n blurs and hums loudly!~
+You activate the implant and it melds to your mind!~
+#29517
+paper piece~
+a piece of paper~
+an important piece of paper.~
+paper~
+18 0 AO
+0 0 0 0 0
+51 1 100 P
+#29518
+gear eight edged~
+an eight-edged gear~
+an eight-edged gear that is a part of a tiny clock.~
+iron~
+37 0 AN
+2 0 0 0 0
+51 1 100 P
+#29519
+jagged black chasm~
+a jagged black chasm~
+a jagged black chasm seperates you from Mid-World.~
+stone~
+31 0 0
+9 29496 3 1 0
+1 1 1 P
+#29520
+sign~
+a sign~
+a sign is here and it isn't important to even read it!~
+stone~
+13 0 0
+0 0 0 0 0
+1 1 1 P
+E
+sign~
+You look at the sign:
+    _______________________________________________________________________
+   |                                                                       |
+   |   BEWARE:  This area is for HEROES only.  Players on the lower end    |
+   |            of this spectrum should turn back the way they came.       |
+   |                                                                       |
+   |                       Enjoy your stay in LUD!                         |
+   |                And please do not feed the bumblers.                   |
+   |                                                                       |
+   |                                                   Haze                |
+   |_______________________________________________________________________|
+~
+#0
+
+
+#ROOMS
+#29501
+The Steel Bridge~
+  Before you swings a rickety, twisted steel bridge standing over the river
+Send and leading to the remains of the desolate city known as LUD.  The
+once sturdy bridge has been without maintenance for over 1,000 years and
+is thus in disrepair.  The strong cables above and beneath the bridge
+have all snapped but one.  It doesn't look safe to cross so it would be
+best to swim through the river.  Behind you is a large dark chasm.  With
+enough running speed you may be able to jump it.
+~
+295 NQ 3
+D0
+You see the city of Lud.
+~
+~
+0 -1 29502
+S 
+#29502
+In the Water/On the Shore~
+  You swim through the freezing water of the river Send.  This place better
+be worth exploring.  You carefully evade the wooden spears planted in the
+floor of the river meant as a trap for trespassers.  The bank is just ahead.
+  On the shore there is a sign on a stake placed firmly in the ground.  The
+city lies before you.
+~
+295 LNQ 8
+D0
+The City of Lud.
+~
+~
+0 -1 29577
+D2
+~
+~
+0 -1 29501
+E
+sign~
+You look at the sign:
+    _______________________________________________________________________
+   |                                                                       |
+   |   BEWARE:  This area is for HEROES only.  Players on the lower end    |
+   |            of this spectrum should turn back the way they came.       |
+   |                                                                       |
+   |                       Enjoy your stay in LUD!                         |
+   |                And please do not feed the bumblers.                   |
+   |                                                                       |
+   |                                                   Haze                |
+   |_______________________________________________________________________|
+~
+S 
+#29503
+Gray's Side~
+  You have passed the barricade that seperates the Gray's side from the
+Pube's side.  Both groups have lost their minds by living in a city destroyed
+by war.  Living near the rotting Wastelands has turned this city into a
+stinking graveyard of death.  The smell of decomposed corpses overlies the
+other unrecognizable smells of this diseased place.  The Gray's here are
+not excited to see that you have entered their city.
+~
+295 NQ 1
+D3
+The Entrance to the City.
+~
+~
+0 -1 29577
+D0
+The Gray's side of Lud.
+~
+~
+0 -1 29505
+S 
+#29504
+Pube's Side~
+  The streets here are littered with trash and glass.  Automobiles; a remnant
+of the past; sit abandoned and create the feeling of a graveyard.  You notice
+that one of the cars license plates reads, "Gravy"  Some of the Pubes peer
+at you from the alleyways.
+~
+295 NQ 1
+D1
+The Entrance to the City.
+~
+~
+0 -1 29577
+D0
+The Pube's side of Lud.
+~
+~
+0 -1 29507
+S 
+#29505
+Alleyway~
+  This alleyway stretches deep into the heart of the Gray's side of town.
+Some movement deep in the alley beckons your attention.  As you move in
+for a closer look, the figure turns and darts deeper into the realm.  He
+will be easy to follow because of the bright yellow scarf around his neck
+and patched green pants on his legs.
+~
+295 NQ 1
+D0
+The Gray's side of Lud.
+~
+~
+0 -1 29510
+D3
+The Center of Lud.
+~
+~
+0 -1 29506
+D1
+A dark alley.
+~
+~
+0 -1 29545
+D2
+The Gray's side of Lud.
+~
+~
+0 -1 29503
+S 
+#29506
+Center of Lud~
+  You have come upon a large paved city square.  A pedestal with a statue
+of a mighty copper war-horse on its hindlegs dominates the center of the
+square.  The horses rider lies on the ground with a sword in one hand and
+an unrecognizable object in his other hand.  The bottom of this statues
+foot has the word 'Trinidad' engraved on it.
+  The center square is surrounded by forty-foot steel poles with loudspeakers
+attached to the tops.  These speakers begin to blare out a horrid drumming
+sound.
+~
+295 NQ 1
+D0
+Street of the Turtle.
+~
+~
+0 -1 29509
+D1
+The Gray's side of Lud.
+~
+~
+0 -1 29505
+D2
+Entrance to the City.
+~
+~
+0 -1 29577
+D3
+The Pube's side of Lud.
+~
+~
+0 -1 29507
+S 
+#29507
+Alleyway~
+  This alleyway leads deep into the Pubes side of town.  For a brief moment
+some light reflects off of a silver object that darts around the corner
+of a building far down the alley.  You hear the steady beating of drums
+behind you.
+~
+295 NQ 1
+D0
+The Pube's of Lud.
+~
+~
+0 -1 29508
+D1
+The Center of Lud.
+~
+~
+0 -1 29506
+D2
+The Pube's side of Lud.
+~
+~
+0 -1 29504
+D3
+A dark alley.
+~
+~
+0 -1 29551
+S 
+#29508
+Pube's Side~
+  Bodies are strewn about in this corner of the town.  The war between
+the Pubes and Grays has been ongoing for quite some time and they no longer
+bother to remove the carcasses of their dead.  Drums beat incessantly from
+the center of town.  There is one body here worth taking a look at.
+~
+295 NQ 1
+D1
+Street of the Turtle.
+~
+~
+0 -1 29509
+D2
+The Pube's side of Lud.
+~
+~
+0 -1 29507
+E
+body~
+  As you take a closer look at the corpse you see that it has been there for
+quite some time.  Rat droppings and dust are prominent features that tell
+you it has been untouched for many years.  Although it has been there a long
+time it shows no sign of decay.  Many deep cuts in the body tell you it
+must have been slain over and over and over again.  A name patch on the cloak
+wrapped around the body identifies the corpse as 'alander.'  If you remember
+your studies correctly alander was a fallen god who was thrown out of Valhalla
+and walked many worlds spreading false prophecy.  He was destroyed forever
+on the day of The Wrath Of The Great Eclipse.
+~
+S 
+#29509
+The Street Of The Turtle~
+  This is the Street of The Turtle which leads on to the deeper part of the
+city which the Pubes and Grays have decided to abandon due to their
+suspicions that ghosts now inhabit that area.  They also claim that if
+they do not fight each other while the drums blare through the city then
+the spirits will rise up from the bowels of the sewers to take their souls.
+~
+295 NQ 1
+D0
+Path to the Cradle of Lud.
+~
+~
+0 -1 29511
+D1
+The Gray's side of Lud.
+~
+~
+0 -1 29510
+D2
+The Center of Lud.
+~
+~
+0 -1 29506
+D3
+The Pube's side of Lud.
+~
+~
+0 -1 29508
+S 
+#29510
+Grays Side~
+  Over the sound of the drums comes the sound of explosions and screaming
+as the Pubes have infiltrated the Gray's side of the city.  The sounds
+of death always accompanys the God-drums.
+~
+295 NQ 1
+D3
+Street of the Turtle.
+~
+~
+0 -1 29509
+D2
+The Gray's side of Lud.
+~
+~
+0 -1 29505
+S 
+#29511
+The Blockade~
+  A large pink fountain has been hoisted above the archway leading north
+to the Cradle Of Lud.  The fountain is held in place by strong, yet, quite
+frayed steel cables.  It is rigged to fall on anyone who does not open
+a small door that obstructs the passage.  You could slide around the
+makeshift door, but that wouldn't be wise.  A sign on the door reads:
+ 
+                          OPEN THE DOOR BY 
+               <----------   COMBINING   ---------->
+                          THESE TWO ROOMS
+                                                
+                                         -Blaine The Mono 
+~
+295 NQ 1
+D0 
+The way to the Cradle of Lud.
+~
+darktower~
+4 -1 29514
+D1
+Too dark to tell.
+~
+~
+0 -1 29512
+D2
+Street of the Turtle.
+~
+~
+0 -1 29509
+D3
+Too dark to tell.
+~
+~
+0 -1 29513
+S 
+#29512
+Dark~
+  Pitch black ... Nighttime ... Can't see a thing.
+~
+295 ANQ 0
+D3
+The Blockade.
+~
+~
+0 -1 29511
+S 
+#29513
+A Place Of High Sorcery~
+  The walls of this room are covered in tapestries.  One depicts a man
+wearing a gunbelt with cracked leather holsters standing in a field of
+blood red roses, gazing up at a wondrous black tower which stands in
+the center of the field.  Another tapestry displays a gigantic white
+castle with high towers connected by bridges that seem to need no supports.
+A plaque underneath this tapestry reads: "Tar Valon"
+~
+295 NQ 0
+D1
+The Blockade.
+~
+~
+0 -1 29511
+S 
+#29514
+Road to the Cradle~
+  Standing in the middle of the road are two enormous statues worked in
+gold.  The statues are locked together as if in some sort of argument
+or struggle.  Local legend has it that the statues depict two Gods who
+once fought over which deity would have liberty and control over all
+of Mid-world.  The legend continues on to say that their struggle
+ended after a three day long Eclipse cast a shadow over the land.  When
+light once again touched the city, the two arguing Gods were gone and
+these two statues took their place.  Some of the elders speculate that
+the reason the statues craftmanship captures the images of the Gods
+Haze and Gravestone so flawlessly is because they were turned to gold
+on that day of the Wrath Of The Great Eclipse.
+~
+295 NQ 1
+D0
+The way to the Cradle.
+~
+~
+0 -1 29515
+D2
+The way to the Street of the Turtle.
+~
+darktower~
+4 -1 29511
+S 
+#29515
+Stairway~
+  Beautiful white stone steps lead up to a Parthenon type building. A
+wide red strip crosses the pavement before the stairs.  The Pubes and
+Grays dare not cross that line for they fear the God Blaine will destroy
+them for interrupting his slumber in the Cradle Of Lud.  You notice
+an escalator that leads down into a black abyss.
+~
+295 NQ 1
+D4
+The stairs to the Cradle of Lud.
+~
+~
+0 -1 29520
+D5
+An escalator going down.
+~
+~
+0 -1 29516
+D2
+Road of the Cradle.
+~
+~
+0 -1 29514
+S 
+#29516
+Hallway~
+  The escalator drops you off at the beginning of a hallway that stretches
+west.  The walls of this hallway are lined with dipolar computers that you
+imagine control the slo-trans technology that runs the mono-trains. A
+computerized log book lies on top of one of the sub-banks.  You could
+probably take a look in it.  Small security droids roam the hallway.
+~
+295 ANQ 11
+D4
+An escalator leading up.
+~
+~
+0 -1 29515
+D3
+Too dark to tell.
+~
+~
+0 -1 29517
+E
+logbook log~
+Tuesday, 909th day A.W (After Wrath)
+  Things continue to worsen here in Lud.  Blaine and Patricia have begun to
+act strangely since word came out that a Gunslinger was spotted in Tull.
+I can't confirm that it is true though.  My communications lines past the
+desert and wastelands have been down for years.
+  I am beginning to run low on spare dipolar and unipolar circuits.  There
+was never any need to store many and the supply has been depleted to a bare
+few.  I think Blaine and Patricia are blowing out out their own circuits
+on purpose so I have decided to only replace the ones that are necessary
+to keep their primary functions active.  If I still had contact with
+End-world I may have been able to get a shipment of circuits, but ever since
+the world started moving on, the slo-trans technology that the monos use
+has become unstable and has begun to fail.  Gods be thanked that the Dark
+Tower in End-world may still be standing.  That Gunslinger may be our last
+hope in fixing what has gone wrong there.  His only way to get to End-world
+will be to convince Blaine to take him over the wastelands.  It will take
+all his wits and cunning to accomplish such a task.
+~ 
+S
+#29517
+Hallway~
+  The hallway continues east and west.  The humming from the computers
+grows louder with each step you take.  A second logbook display is here.
+Your stomach churns, telling you that continuing west may not be in your 
+best interest.  Maybe you should send a thief in?
+~
+295 ANQ 11
+D3
+Too dark too tell.
+~
+~
+0 -1 29518
+D1
+Too dark to tell.
+~
+~
+0 -1 29516
+E
+logbook log~
+Friday, 1003rd day A.W.
+  The Gunslinger and his group of a man, woman, child, and billy-bumbler
+arrived days ago.  Unfortunately, the Gunslinger's wits must not have been
+about him for Blaine tricked him and his group into entering some of the
+rooms on the monorail where they are now trapped.  Blaine has locked
+them inside and I do not know what he is planning on doing with them.
+  I firmly believe that Blaine has lost his mind.  I had him run a
+diagnostic on himself and he lied to me about the results.  I knew he lied
+because I checked the sub-banks manually and discoverd numerous logic
+faults in Blaine's main logic banks.
+  Both Monos have grown cruel.  They have the Pubes and Grays killing each
+other now.  The Pubes and Grays believe that Blaine and Patricia are Gods 
+and the Gods can only be pleased when sacrifices are made.  Each time the 
+drums are sounded the Pubes and Grays go about killing rach other in a made
+up holy war run by two crazy machines. Thus, this is the entire reason 
+the Pubes and Grays  are at war, to please two machines that are taking 
+bets on which side will win. Blaine has also developed a fascination for 
+riddles.
+  I believe that I have figured out how to fix the problems with the Monos,
+but it will take the rest of the spare dipolar circuits just to fix one
+of them.  Blaine keeps a close eye on me when I make repairs to the sub-banks.
+Gods damn the security cameras.
+~
+S 
+#29518
+End Of The Hall~
+  The hallway ends at a large round steel door.  You notice another terminal
+with the engineer's logbook displayed.  Another of Blaines riddles
+is posted here.  You hold your light source up to the door and read:
+               
+                        WHEN IS A DOOR NOT A DOOR?
+~
+295 ANQ 11
+D3
+A door.
+~
+ajar~
+4 -1 29519
+D1
+Too dark to tell.
+~
+~
+0 -1 29517
+E
+logbook log~
+Sunday, 1021st day A.W.
+  I have done it!  Patricia is returning to normal.  She has even managed
+to establish communications with places in the farthest reaches of Boinga!
+She reported news that another Gunslinger is drawing near Lud.  It is said
+that he is the son of Roland of Gilead who is still trapped inside of Blaine.
+  I will attempt to repair Blaine when his guard is down.  If he finds out
+that I have repaired Patricia and restored her to her former self then I
+fear Blaine will destroy me.
+  In case I cannot repair Blaine here is what must be done: First, the
+sub-polar unit in the sub-logic bank must be neutralized with qysusrirdci....
+ 
+End of Log
+ 
+  Blood is splattered all over the keyboard at this console.  You assume
+that Blain must have discovered this phantasmic maintenence worker and
+relieved him of his position.
+~
+S 
+#29519
+Dark Room~
+  You are now in the presence of the Ageless Stranger.  His face is hidden
+deep in his cloak but his liness palms are spread out before him, motioning
+you to stop where you are.  One step closer and he be sure he will kill you.
+~
+295 ANQ 11
+D1
+The hallway.
+~
+ajar~
+4 -1 29518
+S 
+#29520
+Before The Cradle Of Lud~
+  You peer up at the entrance to the Cradle of Lud where Blaine The Mono
+is housed.  Crossing the red line obviously has not killed you and you
+feel the need to move on.
+  You're awestruck by the beauty of the pillars that support the towering
+ceiling.  The Guardians of the Twelve Portals are carved into the sizable
+pillars.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29521
+D2
+The stairs leading away from the Cradle of Lud.
+~
+~
+0 -1 29515
+S 
+#29521
+The Cradle Of Lud~
+  The inside of the Cradle of Lud is even more spectacular then the outside.
+Another large statue dominates the center of the building.  The golden
+statue stands sixty feet high and is carved to look like one of the
+Gunslingers of old.  Once the world was covered with them.  Now they
+only exist in rumors.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29526
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29522
+D2
+The Cradle of Lud.
+~
+~
+0 -1 29520
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29530
+S 
+#29522
+The Cradle Of Lud~
+  Water flows over the walls of the building keeping them white and free
+of dust.  The water disappears into an opening where the floor and wall
+meet.  There are exits to the north, east, and west of here.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29525
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29523
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29521
+S 
+#29523
+The Cradle Of Lud~
+  From here you can see out through the pillars to the buildings that cover
+the land in the city of Lud.  Only now do you realize how great this city
+must have once been.  It is now just a city that lies in ruined shambles.
+  You notice green plumes of gas emerging from the manholes in the city
+streets.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29524
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29522
+S 
+#29524
+The Cradle Of Lud~
+  From here you can see out through the pillars to the buildings that cover
+the land in the city of Lud.  Only now do you realize how great this city
+must have once been.  It is now just a city that lies in ruined shambles.
+  You notice green plumes of gas emerging from the manholes in the city
+streets.
+~
+295 NQ 1
+D2
+The Cradle of Lud.
+~
+~
+0 -1 29523
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29525
+S 
+#29525
+The Cradle Of Lud~
+  The white stone shines brightly as though it were just washed.  The
+building has not seen maintenance repairs in one thousand years and it
+has certainly never needed it.
+~
+295 NQ 1
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29524
+D2
+The Cradle of Lud.
+~
+~
+0 -1 29522
+S 
+#29526
+Gateway To Platform~
+  A sign hangs over the closed gate:
+ 
+ ____________________________________________________________________________
+/                                                                            \
+\                   NORTH CENTRAL POSITRONICS WELCOMES YOU                   / 
+/                            TO THE CRADLE OF LUD                            \
+\  <===================   SOUTHWEST TRAVEL  (Blaine)                         /
+/                         NORTHWEST TRAVEL  (Patricia) ===================>  \
+\____________________________________________________________________________/
+ 
+  Your attention is drawn to the intercom as a voice speaks:
+ 
+                           WHAT CLOUDS YOUR THOUGHTS
+                           AND CHOKES A ROOM
+                           WHAT BLOCKS YOUR VISION
+                           AND CREATES A GLOOM?
+ 
+  Just what you wanted, another riddle.
+~
+295 NQ 1
+D3
+The loading platform.
+~
+haze~
+3 29517 29531
+D1
+The Ticket Machine.
+~
+~
+0 -1 29574
+D2 
+The Cradle of Lud.
+~
+~
+0 -1 29521
+S 
+#29527
+The Cradle Of Lud~
+  The white stone shines brightly as though it were just washed.  The
+building has not seen maintenance repairs in one thousand years and it
+has certainly never needed it.
+~
+295 NQ 1
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29528
+D2
+The Cradle of Lud.
+~
+~
+0 -1 29530
+S 
+#29528
+The Cradle Of Lud~
+  From here you can see out through the pillars to the buildings that cover
+the land in the city of Lud.  Only now do you realize how great this city
+must have once been.  It is now just a city that lies in ruined shambles.
+  You notice green plumes of gas emerging from the manholes in the city
+streets.
+~
+295 NQ 1
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29527
+D2
+The Cradle of Lud.
+~
+~
+0 -1 29529
+S 
+#29529
+The Cradle Of Lud~
+  From here you can see out through the pillars to the buildings that cover
+the land in the city of Lud.  Only now do you realize how great this city
+must have once been.  It is now just a city that lies in ruined shambles.
+  You notice green plumes of gas emerging from the manholes in the city
+streets.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29528
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29530
+S 
+#29530
+The Cradle Of Lud~
+  Water flows over the walls of the building keeping them white and free
+of dust.  The water disappears into an opening where the floor and wall
+meet.  There are exits to the north, east, and west of here.
+~
+295 NQ 1
+D0
+The Cradle of Lud.
+~
+~
+0 -1 29527
+D1
+The Cradle of Lud.
+~
+~
+0 -1 29521
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29529
+S 
+#29531
+Loading Dock~
+  You are now on the main loading dock for passengers travelling on Blaine
+the Mono.  The dock continues north.
+~
+295 NQ 1
+D0
+The loading dock.
+~
+~
+0 -1 29532
+D1
+The Cradle of Lud.
+~
+haze~
+4 -1 29526
+S 
+#29532
+Loading Dock~
+  This is the center of the loading dock.  To the east you can see the 
+loading dock which leads up to Patricia the Mono.  The dock continues north.
+~
+295 NQ 1
+D0
+The loading platform.
+~
+~
+0 -1 29533
+D2
+The loading dock.
+~
+~
+0 -1 29531
+S 
+#29533
+Loading Platform~
+  A ramp connects the loading platform with Blaine the Mono.  The loading
+hatch on the rear of the pink monorail train is closed and locked.  The
+Mono is shaped like a bullet that is ready to be shot on a course to nowhere.
+~
+295 NQ 1
+D0
+The passenger compartments of Blaine the Mono.
+~
+~
+3 29501 29534
+D2
+The loading dock.
+~
+~
+0 -1 29532
+S 
+#29534
+Inside Blaine The Mono~
+  The Monorail compartment seems larger from the inside then from the 
+outside. The hall leads north towards what you assume is the drivers 
+compartment. There is a locked door to the west of you and an unlocked
+one to the east.
+~
+295 NQ 0
+D0
+A Corridor.
+~
+~
+0 -1 29538
+D1
+An unlocked Private Cabin.
+~
+~
+0 -1 29535
+D2
+The loading platform.
+~
+~
+3 29501 29533
+D3
+A Private Cabin.
+~
+~
+3 29502 29536
+S 
+#29535
+Private Cabin~
+  This private cabin is decorated in dark colors making the room shadow
+filled.  There is no lighting inside the compartment, but the light from
+the hallway reflects off of a key lying on the floor.
+~
+295 NQ 0
+D3
+The corridor.
+~
+~
+0 -1 29534
+S 
+#29536
+Private Cabin~
+  Who would give a small animal a room all to itself?
+~
+295 NQ 0
+D1
+The corridor.
+~
+~
+0 -1 29534
+S 
+#29537
+Private Cabin~
+  This is a cabin specifically designed for a woman to stay in.  Intricate
+murals depicting beutiful scenery and castles of the past cover the walls.
+Frilly curtains cover the window at the far end of the compartment.  The 
+woman staying here decides you are not the guy bringing her room service
+and attacks.
+~
+295 NQ 0
+D3
+The corridor.
+~
+~
+0 -1 29538
+S 
+#29538
+Corridor~
+  The corridor continues north.  There are locked doors to the east and west.
+To the south is the exit leading out of the mono.
+~
+295 NQ 0
+D0
+The end of the corridor.
+~
+~
+0 -1 29541
+D1
+A Private Cabin.
+~
+~
+3 29503 29537
+D2
+The corridor continues south.
+~
+~
+0 -1 29534
+D3
+A Private Cabin.
+~
+~
+3 29504 29539
+S 
+#29539
+Private Cabin~
+  This room is decorated as a childs play room.  Bright cheerful colors adorn
+the walls of this cabin.  Some blocks and other assorted childrens toys lie
+in the corner, unused.  The sole inhabitant of the room looks like he is
+too old for such toys and the weapon in your hand confirms your intuition.
+Strange music is coming from somewhere you can't pinpoint.  You can make
+out the words though:
+
+		"Something has just left my life and I don't
+	know where it went to....	Somebody caused me strife and
+			it's not what I was seeking
+didn't you see me?  didn't you hear me?  didn't you see me standing there?
+		        Why did you turn out the lights
+     			did you know that I was sleeping?
+	   Say a prayer for me, help me to feel the strength I did
+	 my identity, has it been taken? is my heart breaking on me?
+	all my plans fell through my hands they fell through my hands
+			all my dreams, it suddenly seems,
+				   Empty."
+~
+295 NQ 0
+D1
+The corridor.
+~
+~
+0 -1 29538
+S 
+#29540
+Private Cabin~
+  Eddie Dean jumps up, charges towards you and screams as you enter the room.
+~
+295 NQ 0
+D3
+The corridor.
+~
+~
+0 -1 29541
+S 
+#29541
+End Of The Corridor~
+  You have reached the end of the corridor.  Locked doors are to your east
+and west.  The door to the head compartment is locked as well.
+~
+295 NQ 0
+D0
+To dim to tell. :)
+~
+~
+3 29507 29543
+D1
+A Private Cabin.
+~
+~
+3 29505 29540
+D2
+The corridor leading out of the train.
+~
+~
+0 -1 29538
+D3
+A Private Cabin.
+~
+~
+3 29506 29542
+S 
+#29542
+Private Cabin~
+  Roland of Gilead is here. 'Nuff said.
+~
+295 ANQ 0
+D1
+The corridor.
+~
+~
+0 -1 29541
+S 
+#29543
+Computer Room~
+  One last door stands between you and the head compartment.  Computers that
+run Blaine the Mono's telecomunications system stand on either side of you.
+Error messages flash on the diagnostic screens telling you that something
+has gone terribly wrong in the logic banks that make up Blaine the Monos
+mind.  Logic faults are appearing to occur in every sub-logic bank existing.
+The room is filling with heat and you can feel electricity crackling in
+the air you breathe.  One final riddle is set in a bronze plaque mounted on
+the middle of the door leading to the control room.  It reads:
+ 
+              CHEERLEADERS SCREAM THE NAME OF THE GOD OF THIS
+                IT'S WEAPON CAN BLIND YOU IN A PAINFUL KISS
+                PUT THE TWO PARTS TOGETHER AND YOU WILL SEE
+              YOUR DEATH PASS BEFORE YOU TO COME TO FIGHT ME!
+~
+295 NQ 0
+D0
+Go in at your own risk.  :)   -Haze
+~
+sunlight~
+4 29517 29544
+D2
+Go this way if you are scared of what's north.
+~
+~
+0 -1 29541
+S 
+#29544
+Mono Control Room~
+  The control equipment in this room is going haywire.  Blue flames of
+electricity shoot out and flow over the consoles.  The speakers in the
+room bellow with Blaine's deep voice:
+ 
+  "YOU HAVE MADE IT THIS FAR MORTALS AND THIS IS AS FAR AS YOU WILL GO!" 
+   "YOU...MUST...NOT...DRAW...ANY...CLOSER...TO...THE...DARK...TOWER!"
+~
+295 NQ 0
+D2
+The way out.
+~
+sunlight~
+4 -1 29543
+S 
+#29545
+Deep In The Alley~
+  You travel deeper into the alley trying to keep pace with the man you saw.
+The alley is littered with bits of glass and bricks from the dilapidated
+buildings.  Graffiti on the wall contains such well-thoughtout and important
+messages like "Dominion rots!" and "Horde blows!"  As you turn the corner
+you see the blur of the yellow scarf descending into an open manhole.
+~
+295 NQ 1
+D3
+The Gray's side of Lud.
+~
+~
+0 -1 29505
+D5
+Too dark to tell.
+~
+~
+0 -1 29546
+S 
+#29546
+In The Tunnels~
+  You climb down the moss covered rungs and step into the knee high water
+of the sewer tunnels.  It would be easy to get lost down here but many of
+the tunnels openings have collapsed over the years.  The only usable
+tunnel leads east.
+~
+295 ANQ 11
+D4
+The alley.
+~
+~
+0 -1 29545
+D1
+Too dark to tell.
+~
+~
+0 -1 29547
+S 
+#29547
+Bend In The Tunnel~
+  This part of the tunnel bends south.  The water flows around your feet
+and you notice a small piece of yellow cloth being carried in the current.
+~
+295 ANQ 11
+D3
+Too dark to tell.
+~
+~
+0 -1 29546
+D2
+Too dark to tell.
+~
+~
+0 -1 29548
+S 
+#29548
+Through The Bend~
+  You can now smell the stench of the stranger you are following.  The
+passage continues west.
+~
+295 ANQ 11
+D3
+Too dark to tell.
+~
+~
+0 -1 29549
+D0
+Too dark to tell.
+~
+~
+0 -1 29547
+S 
+#29549
+Mouth Of The Tunnel~
+  The smell gets even stronger as you exit the smaller tunnel into this
+larger one.  It continues farther south and gets wider and higher.  You
+see some light coming from the south.
+~
+295 ANQ 11
+D2
+Too dark to tell.
+~
+~
+0 -1 29550
+D1
+Too dark to tell.
+~
+~
+0 -1 29548
+S 
+#29550
+Long Hallway~
+  The tunnel now seems more like a hallway.  Neon lights run along the wall
+in one endless streak down the hallway.  From the west you hear the footsteps
+of the man you are following.
+~
+295 NQ 11
+D3
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29557
+D0
+Too dark to tell.
+~
+~
+0 -1 29549
+S 
+#29551
+Deep In The Alley~
+  You wander down the littered alley looking for a sign of what or who you
+saw.  You notice a fresh corpse lying in the open trunk of an ancient
+automobile.  The head has been twisted off of the body.  It would take a
+creature of incredible strength to do such a thing.  Graffiti on the walls
+of the alley introduces you to such concepts as, "Istsari are weak!" and
+"Consortium sucks!"  Obviously, this city lacks any sort of scholar.  A
+manhole cover lies broken in half next to the manhole it used to cover.
+~
+295 NQ 1
+D1
+The Pube's side of Lud.
+~
+~
+0 -1 29507
+D5
+Too dark to tell.
+~
+~
+0 -1 29552
+S 
+#29552
+Long Hallway~
+  You climb down the moss covered rungs and step into the knee high water
+of the sewer tunnels.  It would be easy to get lost down here but many of
+the tunnels openings have collapsed over the years.  The only usable
+tunnel leads west.
+~
+295 ANQ 11
+D4
+The alley.
+~
+~
+0 -1 29551
+D3
+Too dark to tell.
+~
+~
+0 -1 29553
+S 
+#29553
+Bend In The Tunnel~
+  The tunnel turns south.  The top of the tunnel has been dented upward
+as if someone wanted more headroom while navigating the darkness of the
+sewer tunnels.
+~
+295 ANQ 11
+D1
+Too dark to tell.
+~
+~
+0 -1 29552
+D2
+Too dark to tell.
+~
+~
+0 -1 29554
+S 
+#29554
+Through The Bend~
+  The ceiling here is punched up as well.  The man or beast you saw before
+probably lives down here.  You hope that you are not being led into a trap
+in which you could become this beasts dinner.
+~
+295 ANQ 11
+D1
+Too dark to tell.
+~
+~
+0 -1 29555
+D0
+Too dark to tell.
+~
+~
+0 -1 29553
+S 
+#29555
+Mouth Of The Tunnel~
+  The dents in the ceiling end here as the tunnel opens into a much larger
+tunnel.  The darkness of the sewers is broken by light coming from somewhere
+down the larger part of the tunnel.
+~
+295 ANQ 11
+D2
+Too dark to tell.
+~
+~
+0 -1 29556
+D3
+Too dark to tell.
+~
+~
+0 -1 29554
+S 
+#29556
+Long Hallway~
+  The tunnel now seems more like a hallway.  Neon lights run along the wall
+in one endless streak down the hallway.  From the east you hear the footsteps
+of the beast you are following.
+~
+295 NQ 11
+D1 
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29557
+D0
+Too dark to tell.
+~
+~
+0 -1 29555
+S 
+#29557
+The Long Hallway~
+  Halfway down this long hallway you come upon an odd circular door set into
+the southern wall.  A valve wheel is set into the center of this hatch.
+Above the door is a small camera.  The red operation light is out and the
+camera no longer turns to the left or right.  Over the speaker comes a flat,
+drawling voice that asks for the password.
+~
+295 NQ 11
+D1
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29550
+D3
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29556
+D2
+A sealed door.
+~
+gravy~
+4 -1 29558
+S 
+#29558
+The Airlock~
+  This small room is an airlock.  A door to the east of you opens, revealing
+a larger chamber.
+~
+295 ANQ 11
+D0
+The sewers.
+~
+gravy~
+4 -1 29557
+D1
+A silo.
+~
+~
+0 -1 29559
+S 
+#29559
+Silo~
+  This high, massive circular room is lit by the same neon lights that
+flooded the long hallway with light.  The rainbow colored neons are mounted
+on the curved walls of this converted missile silo.  The grated floor
+clatters under your feet as you further enter the room.  In the center of
+the room is a command console with many dazzling lights blinking rapidly.
+This confirms your suspicions that this city was once VERY advanced.  As
+you move to inspect the console you notice two figures step out in front
+of you.  These are the men you were following and they are not happy to
+see that you found them.
+  "See, I tol you Ticky, your ol pal Gasherman tol you these folk were wery
+wery pert and wery wery nosy so I did," the thin man explains to his giant
+companion.
+  The giant muscled man called "Ticky" takes one look at you and says, "You
+obviously have no knowledge of dipolar circuits, thus, you are of no use to
+me."  He draws his weapon.
+~
+295 NQ 11
+D3
+The airlock.
+~
+~
+0 -1 29560
+S 
+#29560
+The Airlock~
+  This small room is an airlock.  A door to the east of you is closing as
+you leave it behind.  A gray-green gas is slowly seeping out of the
+ventilation shafts.  You hear alarms sounding somewhere in the tunnels.
+~
+295 ANQ 11
+D0
+The sewers.
+~
+gravy~
+4 -1 29561
+D1
+The silo.
+~
+~
+0 -1 29559
+S 
+#29561
+The Long Hallway~
+  The long hallway stretches east or west.  Greenish gas is being expelled
+by ventilator shafts and it begins to form into Slow Mutants.
+~
+295 NQ 11
+D1
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29573
+D3
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29562
+D2
+A sealed door.
+~
+gravy~
+4 -1 29560
+S 
+#29562
+Long Hallway~
+  You continue to search for the way out.  More gas is transforming into
+Slow Mutants.
+~
+295 ANQ 11
+D1
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29561
+D0
+Too dark to tell.
+~
+~
+0 -1 29563
+S
+#29563
+Mouth Of The Tunnel~
+  The green gas is now enveloping the whole tunnel.  It is difficult to see
+where you are going and you begin to cough.  The gases are forming into more
+Slow Mutants.
+~
+295 ANQ 11
+D2
+Too dark to tell.
+~
+~
+0 -1 29562
+D3
+Too dark to tell.
+~
+~
+0 -1 29564
+S 
+#29564
+Through The Bend~
+  You are now running to escape the gas and Slow Mutants.  You feel your way
+along the slime covered walls for the way out.
+~
+295 ANQ 11
+D0
+Too dark to tell.
+~
+~
+0 -1 29565
+D1
+Too dark to tell.
+~
+~
+0 -1 29563
+S 
+#29565
+Bend In The tunnel~
+  Your coughing has now become violent and it is difficult to fight in such
+conditions.  More Slow Mutants have formed but you think you can see through
+the green gas well enough to recognize the rungs to the manhole out in the
+next room.
+~
+295 ANQ 11
+D1
+Too dark to tell.
+~
+~
+0 -1 29566
+D2
+Too dark to tell.
+~
+~
+0 -1 29564
+S 
+#29566
+In The Tunnels~
+  Finally!  The exit!  The greenish gas is billowing out of the open manhole.
+Hopefully, no more Slow Mutants will form.
+~
+295 NQ 11
+D4
+The alley.
+~
+~
+0 -1 29567
+D3
+Too dark to tell.
+~
+~
+0 -1 29565
+S 
+#29567
+Deep In The Alley~
+  Clean air fills your lungs as you waerily climb out of the tunnels.  The
+gas continues to leak from other manholes and sewer drains.  Maybe it is
+time to move on to the northern part of the city.
+~
+295 CNQ 1
+D1
+The Pube's side of Lud.
+~
+~
+0 -1 29507
+D5
+Too dark to tell.
+~
+~
+0 -1 29566
+S 
+#29568
+Deep In The Alley~
+  Clean air fills your lungs as you wearily climb out of the tunnels.  The
+gas continues to leak from other manholes and sewer drains.  Maybe it is
+time to move on to the northern part of the city.
+~
+295 CNQ 1
+D3
+The Gray's side of Lud.
+~
+~
+0 -1 29505
+D5
+Too dark to tell.
+~
+~
+0 -1 29569
+S 
+#29569
+In The Tunnels~
+  Finally!  The exit!  The greenish gas is billowing out of the open manhole.
+Hopefully, no more Slow Mutants will form.
+~
+295 NQ 11
+D4
+The alley.
+~
+~
+0 -1 29568
+D1
+Too dark to tell.
+~
+~
+0 -1 29570
+S 
+#29570
+Bend In The Tunnel~
+  Your coughing has now turned violent and it is difficult to fight in such
+conditions.  More Slow Mutants have formed but you think you can see through
+the green gas well enough to recognize the rungs to the manhole out in the
+next room.
+~
+295 ANQ 11
+D3
+Too dark to tell.
+~
+~
+0 -1 29569
+D2
+Too dark to tell.
+~
+~
+0 -1 29571
+S 
+#29571
+Through The Bend~
+  You are now running to escape the gas and Slow Mutants.  You feel your way
+along the slime covered walls for the way out.
+~
+295 ANQ 11
+D0
+Too dark to tell.
+~
+~
+0 -1 29570
+D3
+Too dark to tell.
+~
+~
+0 -1 29572
+S 
+#29572
+Mouth Of The Tunnel~
+  The green gas is now enveloping the whole tunnel.  It is difficult to see
+where you are going and you begin coughing.  The gases are forming into more
+Slow Mutants.
+~
+295 ANQ 11
+D1
+Too dark to tell.
+~
+~
+0 -1 29571
+D2
+Too dark to tell.
+~
+~
+0 -1 29573
+S 
+#29573
+Long Hallway~
+  You continue to search for the way out.  More gas is transforming into
+Slow Mutants.
+~
+295 ANQ 11
+D0
+Too dark to tell.
+~
+~
+0 -1 29572
+D3
+Too dim to tell, probably more of the same smelly sewer tunnels.
+~
+~
+0 -1 29561
+S 
+#29574
+Ticket Machine~
+  The ticket machine sits in the middle of the loading dock that leads to
+Patricia The Mono.  Patricia travels to numerous destinations all over
+Boinga.
+~
+295 NQ 1
+D3
+The Cradle of Lud.
+~
+~
+0 -1 29526
+D0
+The loading platform.
+~
+~
+0 -1 29575
+S 
+#29575
+Loading Platform~
+  The conductor stands here ready to take your ticket so you ride the bullet
+shaped Mono named Patricia.
+~
+295 NQ 1
+D2
+The Ticket Machine.
+~
+~
+0 -1 29574
+D0
+Patricia The Mono.
+~
+~
+0 -1 29576
+S 
+#29576
+Inside Patricia The Mono~
+  You climb inside and have your choice of seats.  The plush couches look
+comfortable enough to sleep on while you wait for Patricia to reach your
+stop.  Amazing that so much technology has been lost.
+~
+295 NQ 1
+D2
+~
+~
+0 -1 29575
+S
+#29577
+Entrance to The City of Lud~
+   You climb out of the waters and stand at the entrance to the large
+and decimated city of Lud.  The Pube's side of the city lies to the west
+and the Gray's side lies to the east.  The smell of poisoned decay
+envelops the air around you.
+~
+295 NQ 1
+D0
+~
+~
+0 -1 29506
+D1
+~
+~
+0 -1 29503
+D2
+~
+~
+0 -1 29502
+D3
+~
+~
+0 -1 29504
+S
+#0
+
+#RESETS
+*
+M  0  29501  1  29519		Ageless Stranger
+G  1  29501  5			 loads coal key onto Ageless
+*
+M  0  29502  3  29504		Pube
+G  1  29509  4			 equips sharp piece of glass
+*
+M  0  29502  3  29507		Pube
+M  0  29502  3  29508		Pube
+G  1  29509  4			 equips sharp piece of glass
+*
+M  0  29503  3  29503		Gray
+G  1  29509  4			 equips sharp piece of glass
+M  0  29503  3  29505		Gray
+M  0  29503  3  29510		Gray
+G  1  29509  4			 equips sharp piece of glass
+*
+M  0  29504  10  29562		Slow Mutant
+M  0  29504  10  29563		Slow Mutant
+M  0  29504  10  29564		Slow Mutant
+M  0  29504  10  29565		Slow Mutant
+M  0  29504  10  29566		Slow Mutant
+M  0  29504  10  29569		Slow Mutant
+M  0  29504  10  29570		Slow Mutant
+M  0  29504  10  29571		Slow Mutant
+M  0  29504  10  29572		Slow Mutant
+M  0  29504  10  29573		Slow Mutant
+*
+M  0  29505  1  29559		Gasherman
+E  1  29510  1  3              equips yellow scarf
+E  1  29517  1  17		 equips piece of paper
+*
+M  0  29506  1  29559		Tick-Tock Man
+E  1  29511  1  4              equips clock on a chain
+*
+M  0  29507  5  29516		Security Droid
+M  0  29507  5  29517		Security Droid
+M  0  29507  5  29518		Security Droid
+M  0  29507  5  29520		Security Droid
+M  0  29507  5  29521		Security Droid
+*
+M  0  29508  1  29542		Roland
+E  1  29507  1  17		 equips tattered key
+E  1  29515  1  16		 equips revolvers
+*
+M  0  29509  1  29540		Eddie
+E  1  29506  1  17		 equips magical key
+*
+M  0  29510  1  29537		Susannah
+E  1  29504  1  17		 equips gold key
+E  1  29514  1  5              equips flower dress
+*
+M  0  29511  1  29539		Jake
+E  1  29505  1  17		 equips bent key
+E  1  29513  1  11		 equips lightweight shield
+*
+M  0  29512  1  29536		Oy
+E  1  29503  1  17		 equips tiny silver key
+*
+M  0  29513  1  29544		Blaine
+G  1  29516  1			 gives neural electrical implant
+*
+M  0  29514  1  29574		Ticketmaster
+G  1  29508  1			 loads tickets on Ticketmaster
+*
+O  0  29502  3  29535        	loads key on floor of cabin
+*
+P  1  29517  1  29510		loads a piece of paper in a scarf
+P  1  29518  1  29511		loads an eight-edged gear into the clock
+*
+O  0  29519  1  29501		loads chasm to jump to Mid-World
+*
+O  0  29520  1  29502		loads sign
+*
+*---Doors---*
+*
+D  0  29511  0  4            Keyword "darktower"
+D  0  29514  2  4            Keyword "darktower"
+D  0  29518  3  4            Keyword "ajar"
+D  0  29519  1  4            Keyword "ajar"
+D  0  29526  3  3            Keyword "haze"
+D  0  29531  1  4            Keyword "haze"
+D  0  29543  0  4            Keyword "sunlight"
+D  0  29544  2  4            Keyword "sunlight"
+D  0  29557  2  4            Keyword "gravy"
+D  0  29558  0  4            Keyword "gravy"
+D  0  29560  0  4            Keyword "gravy"
+D  0  29561  2  4            Keyword "gravy"  *Note: No locks on inside doors
+D  0  29533  0  3       Lock entrance to mono from outside
+D  0  29534  3  3       Lock west cabin from outside
+D  0  29538  1  3       Lock east cabin from outside
+D  0  29538  3  3       Lock west cabin from outside
+D  0  29541  0  3       Lock door to computer room from outside
+D  0  29541  1  3       Lock east cabin from outside
+D  0  29541  3  3       Lock west cabin from outside
+*
+S
+
+#SHOPS
+29514  0  0  0  0  0  150  100  0   23  :  Ticketmaster
+0
+
+#SPECIALS
+M  29505  spec_cast_mage
+M  29506  spec_psionic
+M  29508  spec_psionic
+S
+
+#$

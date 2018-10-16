@@ -1,0 +1,334 @@
+#AREA   {25+}   Haze    Temple Of Illusion~
+ 
+#MOBILES
+#20001
+Master Illusion~
+The Master of Illusion~
+The Master of Illusion phases here, ready to train.
+~
+You see the Master of Illusion is quite skilled at phasing in and
+out of existence.
+~
+human~
+BJKMUV BDFHOTV 0 S
+55 10 200d2+3000 25d55+300 10d4+25 19
+-25 -25 -25 -25
+CEFHIK ABCDEP 0 0
+8 8 1 0
+0 0 M 0
+#20002
+Invisible Healer~
+The Invisible Healer~
+The Invisible Healer is here providing services for the temple.
+~
+This is the Invisible Healer of the Temple Of Illusion.
+~
+human~
+BDLMV BDFHOTV 1000 S
+35 3 35d27+450 15d35+200 4d7+11 18
+-11 -11 -11 -11
+CFHJK ABCDEP 0 0
+8 8 1 0
+0 0 M 0
+#20003
+Market Man~
+The Market Man~
+The Market Man is here to peddle his goods at low low prices.
+~
+The Market Man sells his goods to anybody who will buy them.  He is
+mainly a provider for Temple Of Illusion cult members only but to
+stay in business he sells to all.
+~
+human~
+BMV HOTV 1000 S
+25 2 25d20+300 12d25+150 2d10+7 6
+-7 -7 -7 -7
+FHJK ABCDEP 0 0
+8 8 1 0
+0 0 M 0
+#20004
+Temple Guard~
+A Temple of Illusion Guard~
+A Temple of Illusion Guard stands guard here.
+~
+This is one of the Temple of Illusion guards who ensures that no violence
+takes place inside the sacred temple.
+~
+human~
+BCMV DFHJOQTV 0 S
+50 10 50d40+700 25d50+300 5d10+20 19
+-25 -25 -25 -35
+CDEFHIKLU ABEGIJP 0 H
+8 8 1 0
+0 0 M 0
+#0
+
+#OBJECTS
+#20001
+fountain~
+The temple fountain~
+A massive fountain is here gushing up colorful water.~
+stone~
+25 A 0
+10000 200 0 0 0
+5 1000 100 P
+E
+fountain~
+This is a fountain that is safe to drink from.
+~
+#20002
+pit~
+donation pit~
+This is a pit where items are donated to.~
+adamantite~
+15 O 0
+10000 0 0 0 0
+1 1 100 P
+E
+pit donation~
+The donation pit, look inside it.
+~
+#20003
+Phased Cuffs~
+Phased Cuffs~
+Some cuffs that have been phased by Illusion cult members lie here.
+~
+brass~
+9 FU AM
+14 14 14 15 0
+50 3 2000 P
+E
+phased cuffs~
+These cuffs have been phased by Temple of Illusion cult members.
+~
+A
+1 2
+A
+4 1
+A
+18 3
+A
+19 3
+#20004
+potion off-white~
+Off-white potion~
+An off-white potion is tossed aside here.
+~
+glass~
+10 G AO
+25 502 0 0 0
+25 2 700 P
+E
+off-white potion~
+An off-white potion.
+~
+#20005
+potion invisibility~
+Invisibility potion~
+A potion of invisibility.
+~
+glass~
+10 G AO
+35 29 0 0 0
+35 2 500 P
+E
+potion~
+A potion that makes you invisible.
+~
+#20006
+stick beef jerky~
+Stick of beef jerky~
+This is edible jerky.
+~
+pill~
+19 0 AO
+60 0 0 0 0
+5 1 150 P
+E
+jerky~
+A brown strip of beef jerky.
+~
+#0
+
+#ROOMS
+#20001
+Path to the Temple~
+    A narrow dirt path burrows its way through the forest of trees
+here.  As you travel along the path you notice everything around you
+blurs for a moment and then when your vision clears you see that the
+forest is now a desert of sand.  Moments later the sand turns into
+bright green blades of grass.  This must be the path to the Temple
+of Illusion.
+~
+20 C 3
+D0
+Path to the temple.
+~
+~
+0 -1 20002
+S
+#20002
+Beam to Temple~
+   A beam begins to pull you high into the sky to the Temple.
+~
+20 CF 3
+20003 8 1
+D2
+The path leading away from the temple.
+~
+~
+0 -1 20001
+S
+#20003
+Center Of The Temple~
+    You stand in the central part of the Temple Of Illusion.
+Glancing down you see you are standing on a billowing white cloud.
+Pillars stand high around you creating the outer walls of the
+temple.  Beyond the pillars you can see clear blue skies.  You
+must be high in the air or it could just be an illusion.
+Something brushes by in front of you.
+~
+20 0 0
+D1
+To the east is the shop.
+~
+~
+0 -1 20004
+D2
+The exit from the temple.
+~
+~
+0 -1 20001
+D3
+To the west is the temple fountain.
+~
+~
+0 -1 20005
+D6
+To the northeast is the temple altar and pit.
+~
+~
+0 -1 20007
+D7
+To the northwest is the Regeneration Room.
+~
+~
+0 -1 20006
+S
+#20004
+Temple Market~
+    In this corner of the temple there is a merchant selling his
+goods at special prices for cult members.  The merchant almost
+looks angelic as he stands in front of the pillars with the clear
+blue sky behind them.  He seems to fade in and out of existence as
+clouds pass by behind him.
+~
+20 0 0
+D0
+To the north is the temple altar and pit.
+~
+~
+0 -1 20007
+D3
+To the west is the center of the temple.
+~
+~
+0 -1 20003
+S
+#20005
+Temple Fountain~
+    The center of this room contains a beautiful glowing fountain.
+As the water is spurted high into the air it goes through multiple
+changes in color.  The base of the fountain has been constructed
+with delicately carved white ivory stones.
+~
+20 0 0
+D0
+To the north is the Regeneration Room.
+~
+~
+0 -1 20006
+D1
+To the east is the center of the temple.
+~
+~
+0 -1 20003
+S
+#20006
+Regeneration Room~
+    The room becomes darker as you move further into the room.
+The clear blue sky behind the pillars slowly changes to a starry
+night.  You are starstruck by the utter beauty of the night sky
+which now surrounds this room.  This would be a perfect place to
+rest and heal your wounds.
+~
+20 AKTU 0
+D2
+To the south is the temple fountain.
+~
+~
+0 -1 20005
+D8
+To the southeast is the center of the temple.
+~
+~
+0 -1 20003
+S
+#20007
+Temple Altar~
+    This room is where the Master of Illusion presides.  He stands
+behind the temple altar ready to teach his disciples in the ways
+of illusion.  The cloak about his body seems to make him phase out
+of existence by making him blend into the stormy background of dark sky 
+that lies beyond the marble pillars.
+~
+20 K 0
+D2
+To the south is the shop.
+~
+~
+0 -1 20004
+D9
+To the southwest is the center of the temple.
+~
+~
+0 -1 20003
+S
+#0
+
+#RESETS
+*
+M  0  20001   1  20007         Master in Temple altar
+*
+M  0  20002   1  20006         Healer in Regeneration room
+*
+M  0  20003   1  20004         Market Man in Temple Market
+G  1  20004  -1              	off-white potion
+G  1  20005  -1              	invisibility potion
+G  1  20006  -1              	beef jerky
+*
+M  0  20004   4  20003           Guard in Center Temple
+E  1  20003   4  14           Equip bracer
+*
+M  0  20004   4  20003           Guard in Center Temple
+E  1  20003   4  14           Equip bracer
+*
+M  0  20004   4  20003           Guard in Center Temple
+E  1  20003   4  15           Equip bracer
+*
+M  0  20004   4  20003           Guard in Center Temple
+E  1  20003   4  15           Equip bracer
+*
+O  0  20002   1  20007         load donation pit
+O  0  20001   1  20005         load fountain
+S
+
+#SHOPS
+20003  29 0  0  0  0  100  10  0  22 :The Market Man
+0
+
+#SPECIALS
+M 20002 spec_cast_adept    /*Invisible Healer*/
+S
+
+#$

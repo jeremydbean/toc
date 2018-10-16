@@ -1,0 +1,2384 @@
+#AREA   {10 23} Trin    The Underdark~
+
+
+
+
+#MOBILES
+#25100
+beast displacer panther~
+the displacer beast~
+A panther with two tentacles coming out of its back is standing here.
+~
+The displacer beast sits here watching you.  The twin tentacles that
+rise up out of its back start to move almost hypnotically as it starts
+to walk toward you.
+~
+cat~
+BFGT G 0 S
+10 5 2d7+121 2d7+121 1d10+10 5
+0 0 0 4
+0 0 0 0
+8 8 0 100
+0 0 M 0
+#25101
+guard drow~
+A drow guard~
+A dark elf in armor is standing here.
+~
+He glares at you with his glowing red eyes out of the darkness.  He's wearing
+chainmail and a dark cloak.  A slender sword rests in a scabbard on his hip.
+~
+elf~
+BCGT DFJPQ -750 S
+5 5 2d8+134 2d8+134 1d5+5 0
+1 1 1 2
+CEFKQ 0 BCL 0
+8 8 1 80
+0 0 M 0
+#25102
+cleric drow~
+A drow cleric~
+A female dark elf wearing weblike robes is standing here.
+~
+She looks at you with a look of utter hate.  Her hand strays down to the mace
+on her belt before she remembers her orders.  Her long white hair flows down
+her back and her eyes grow red.
+~
+elf~
+BCGQ DFJPQ -800 S
+11 5 2d8+134 100d2+30 1d11+11 0
+1 1 1 2
+CEFKQ 0 BCL 0
+8 8 2 100
+0 0 M 0
+#25103
+guard drow~
+A drow guard~
+A dark elf stands here in armor watching your every move.
+~
+His red eyes regard everything you do with extreme scrutiny.  His onyx hand
+stays on the hilt of his sharp looking sword.  You should watch what you do
+around him.
+~
+elf~
+BCGT DFJ -750 S
+10 5 5d10+250 5d10+400 1d10+10 0
+1 1 1 3
+CEFKT 0 BCL 0
+8 8 1 500
+0 0 M 0
+#25104
+guard drow~
+A drow guard~
+A dark elf is hiding here.
+~
+You can't make out his features because of the piwafwi hood he has pulled
+over his head.
+~
+elf~
+BCGT DFJ -850 S
+20 10 3d9+333 3d9+333 2d8+5 0
+-3 -3 -3 1
+CEFKT 0 BCL 0
+8 8 1 100
+0 0 M 0
+#25105
+fisher cave insect~
+The cave fisher~
+A strange looking insect is standing here with a fishing pole coming out of
+it's head.
+~
+This thing is HUGE and UGLY.  It has 6 legs and a fishing pole that comes
+out of it's head.  It's dull grey coloring makes it perfect for camoflauge
+in the dark tunnel.
+~
+centipede~
+A 0 0 S
+15 5 3d9+208 3d9+208 1d15+15 32
+-2 -2 -2 1
+0 0 0 0
+8 8 0 0
+0 0 L 0
+#25106
+dwarf black merchant~
+the dark dwarf merchant~
+You see a black dwarf standing here wearing expensive jewlery and fine robes.
+~
+You can't help but laugh when you see him.  He's comical looking.  His little
+black body inside of bright silk robes and gold jewlery hanging off of his
+body at every point it can.
+~
+dwarf~
+B 0 -500 S
+20 10 3d9+301 3d9+301 1d20+20 0
+-2 -2 -2 1
+0 0 0 0
+8 8 1 1000
+0 0 S 0
+#25107
+chief goblin~
+the goblin chief~
+You see a strange looking goblin here.  By his 'armor' you can tell he is
+  the chief.
+~
+He pushes his way the front of the group of goblins and demands to know what
+you want.
+~
+goblin~
+B 0 -250 S
+15 5 3d9+208 3d9+9 1d15+10 0
+4 4 4 8
+0 0 0 0
+8 8 1 5
+0 0 M 0
+#25108
+goblin~
+the goblin~
+A common looking goblin stand here looking to his chief for guidance.
+~
+You look at him and realize you could probably kill his whole tribe and he
+wouldn't do anything unless his chief demanded it of him.  Maybe not even
+then.
+~
+goblin~
+B 0 -250 S
+10 3 2d7+121 2d7+1 1d10+10 0
+9 9 9 9
+0 0 0 0
+8 8 1 2
+0 0 M 0
+#25109
+mindflayer flay~
+the mindflayer~
+A strange purple humanoid with tentacles wriggling it it's mouth.
+~
+It look's at you and attacks!
+~
+undead~
+BR JT -900 S
+17 3 2d10+170 20d20+100 1d13+13 0
+-1 -1 -1 2
+0 0 0 0
+8 8 1 100
+0 0 M 0
+#25110
+snail giant~
+the giant snail~
+A giant snail is here pulling a wagon.
+~
+It's head is sticking out of a giant shell.  It's slow moving, but looks
+strong.
+~
+giant~
+B 0 0 S
+20 1 3d9+333 1d4+4 1d20+20 8
+5 5 5 9
+O 0 0 0
+8 8 0 0
+0 0 L 0
+#25111
+roth cow~
+a roth~
+A strange looking cow is standing here.
+~
+The roth is the underground version of cattle.  Yumm, good eating.
+~
+horse~
+B 0 0 S
+10 1 2d7+121 2d7+2 1d10+10 10
+1 1 1 9
+0 0 0 0
+8 8 0 0
+0 0 M 0
+#25112
+myconoid shep shepherd~
+the myconoid shepherd~
+A myconoid with a staff is standing here tending the herd.
+~
+He got lost from the rest of his tribe and now lives here in this cavern
+tending the herd of roth.
+~
+unique~
+B 0 0 S
+15 5 3d9+208 3d9+208 1d15+15 1
+-2 -2 -2 1
+0 0 0 0
+8 8 1 100
+0 0 M 0
+#25113
+guard minotaur~
+the minotaur guard~
+A minotaur rushes at you from the darkness and attacks!
+~
+This guard notices you and begins his attack swinging wildly with his axe.
+By all the notches on it you know you should be careful.
+~
+orc~
+BFT G -500 S
+16 5 3d9+233 3d9+233 1d16+16 1
+-1 -1 -1 2
+0 0 0 0
+8 8 1 100
+0 0 M 0
+#25114
+horror hook monster~
+the hook horror~
+A strange hooked monster attacks you!
+~
+It's tall and has a bony exoskeleton.  The next thing you notice are it's
+hooks, but that's only because they're coming for your head!
+~
+unique~
+CGFH 0 0 S
+20 5 3d9+333 1d1+1 1d20+20 21
+-6 -6 -6 0
+0 0 0 0
+8 8 0 0
+0 0 L 0
+#25115
+crawler carrion insect~
+the carrion crawler~
+You see a strange looking insect in the darkness.
+~
+It looks like a big centipede.
+~
+centipede~
+CG 0 0 S
+15 3 3d9+208 1d1+1 1d15+15 0
+-1 -1 -1 1
+0 0 0 0
+8 8 0 0
+0 0 L 0
+#25116
+dwarf red~
+Red dwarf~
+You see a funny looking little red dwarf.
+~
+Standing here doing nothing but laughing.  Every part of his body moves with
+each gulp of air he gulps down into his barrel like chest.  When you see
+his eyes you can see a universe behind them.
+~
+unique~
+BT HTV 950 S
+20 3 3d9+333 3d9+333 1d20+20 0
+-5 -5 -5 -5
+0 0 0 0
+8 8 1 1000
+0 0 M 0
+#25117
+green dwarf cousin~
+Red's cousin, Green~
+A green dwarf that looks a lot like the red one is standing here.
+~
+Remember, if the women don't find you handsome at least let them find you
+handy.
+~
+unique~
+BT HTV 950 S
+20 3 3d9+333 3d9+333 1d20+20 0
+-5 -5 -5 -5
+0 0 0 0
+8 8 1 1000
+0 0 M 0
+#25118
+unicorn~
+Tifarah's Unicorn~
+A unicorn is standing here, waiting for her mistress.
+~
+A horse of purest white.  Her eyes are a deep sky blue and she looks at you
+with all the knowledge of creation.  As you approach her she backs away for
+there is only one being in the entire universe that can approach this 
+beautiful, magnificent creature.
+~
+horse~
+GQRSTW CDEFGHJOTUV 1000 S
+60 30 100d100+10000 100d100+10000 20d20+20 32
+-20 -20 -20 -20
+ACDEFHIKNO ABCDQRS 0 0
+8 8 2 0
+0 0 M 0
+#0
+
+
+#OBJECTS
+#25100
+corpse~
+a rotting corpse~
+~
+leather~
+15 O 0
+100 0 0 0 0
+-1 500 0 P
+#25101
+rusty knife~
+a rusty knife~
+A rusted knife is sitting here on the ground.~
+steel~
+5 0 AN
+2 2 5 11 0
+1 1 100 P
+A
+18 2
+A
+19 2
+#25102
+moss~
+glowing moss~
+Some moss is growing here and giving off light.~
+paper~
+1 A AO
+0 0 999 0 0
+2 1 10 P
+#25103
+corset~
+a frilly corset~
+A lacy, silk corset is sitting here on the ground.  It's awful dirty.~
+cloth~
+9 0 AD
+0 0 0 0 0
+-1 2 100 P
+#25104
+spear~
+a goblin spear~
+A crude looking spear is here gathering dust.~
+wood~
+5 0 AN
+0 0 0 0 0
+-1 2 10 P
+#25105
+sword~
+an adamantite longsword~
+A sharp looking longsword is sitting here against the wall.~
+adamantite~
+5 ABG AN
+1 0 0 3 D
+-1 5 1000 P
+A
+2 1
+A
+18 1
+A
+19 1
+#25106
+piwafwi~
+a commoner's piwafwi~
+A cloak is here.  It looks like part of the ground itself.~
+cloth~
+9 G AK
+0 0 0 0 0
+-1 1 1000 P
+A
+1 1
+A
+2 3
+A
+18 1
+A
+19 1
+#25107
+pool~
+a dark pool~
+A dark pool covers the entire floor.  It's bubbling in the middle.~
+wood~
+30 0 0
+5 25184 0 0 0
+10 10000 0 P
+#25108
+staff~
+a shepherds staff~
+A staff with a hooked end is sitting against the wall.~
+wood~
+1 0 AO
+0 0 999 0 0
+-1 2 10 P
+#25109
+bracer~
+a dark metal bracers~
+A pair of metal bracers are lying here on the ground.~
+steel~
+9 G AI
+0 0 0 0 0
+-1 1 100 P
+A
+1 2
+#25110
+slave bracelet~
+a silver slave bracelet~
+A silver bracelet with a chain hooking it to a ring is sitting here.~
+silver~
+9 G AM
+0 0 0 0 0
+-1 1 100 P
+A
+12 10
+E
+slave bracelet~
+     It's silver and has a tiny chain linking it to a silver spider-shaped
+     ring.
+~
+#25111
+web robes~
+web robes~
+Some web is sitting here on the ground.~
+cloth~
+9 ABG AK
+0 0 0 0 0
+-1 2 100 P
+A
+12 20
+#25112
+mace~
+a web-engraved mace~
+A mace that is engraved with webs is lying here in the dust.~
+steel~
+5 ABG AN
+4 5 3 8 0
+11 10 100 P
+A
+18 2
+A
+19 2
+#25113
+wagon~
+a wagon~
+A wagon being pulled by a giant snail.~
+wood~
+15 0 0
+1000 0 0 0 0
+-1 10000 0 P
+#25114
+corpse~
+a corpse~
+A rotting corpse of a giant lizard is here.  You notice the middle of
+it moving.~
+leather~
+36 0 0
+0 0 0 0 0
+-1 10000 0 P
+#25115
+tooth red~
+a red tooth~
+You notice a little red tooth on a silver chain in the dirt.~
+wood~
+36 0 AC
+0 0 0 0 0
+62 1000 0 P
+#25116
+tooth green~
+a green tooth~
+You notice a green tooth on a silver chain in the dirt.~
+wood~
+36 0 AC
+0 0 0 0 0
+62 1000 0 P
+#25117
+axe battle~
+a battle axe~
+A battle axe, fresh blood on the blade, is leaning up against the wall.~
+steel~
+5 0 AN
+5 0 0 1 0
+-1 10 100 P
+
+#0
+
+
+
+#ROOMS
+#25100
+North of the pier~
+A trail leads north from the pier and up the steep hills around the cove.
+It's small, but well worn with use.
+~
+251 C 4
+D0
+The path continues on into the hills.
+~
+~
+0 -1 25101
+D2
+You can see the pier.
+~
+~
+0 -1 16004
+S
+#25101
+A split in the path.~
+The path splits here.  You can still continue north or you can go west.
+The sounds of the busy pier are more distant here, and looking back toward
+the south you can just barely make the sails from between the leaves of the
+trees.
+~
+251 C 4
+D0
+The path continues on into the hills.
+~
+~
+0 -1 25102
+D2
+You can make out the pier.
+~
+~
+0 -1 25100
+D3
+The path goes toward the west.
+~
+~
+0 -1 25108
+S
+#25102
+Before the bend in the trail.~
+The trail turns here going around a HUGE boulder.  The sunlight spreads
+out over the bend like a blanket.
+~
+251 C 4
+D2
+You can see back the way you came.
+~
+~
+0 -1 25101
+D3
+You can't see very far past the boulder.
+~
+~
+0 -1 25103
+S
+#25103
+Another bend in the trail.~
+The boulder is to your left and the forest to your right.  A patch of
+scorched forest is to your right.  The sunlight comes down here because
+there is no leafy canopy to block it out.  The trail leads to the north.
+~
+251 C 4
+D0
+The path starts getting steeper as it continues up into the hills.
+~
+~
+0 -1 25104
+D1
+You see the first bend in the trail.
+~
+~
+0 -1 25102
+S
+#25104
+The battlesight.~
+You see now why the forest was burned away.  Some massive battle occured
+here.  Rusted armor and weapons are scattered around the area.  Bones of
+dwarves, elves, hobbits, humans, and some races you can't name sit where
+they fell.  A scrap of cloth hangs on one of the burned trees.  You see
+the trail cutting  into the forest to the west.
+~
+251 C 5
+D2
+The trail you took is easily seen in the sunlight.
+~
+~
+0 -1 25103
+D3
+The trail is swallowed by the dark forest.
+~
+~
+0 -1 25105
+E
+cloth~
+It looks like an old banner with the standard of Dresden on it.
+~
+S
+#25105
+Up the side of a ridge.~
+The trail goes up a rocky side of a ridge here.  It looks unstable, but safe.
+~
+251 CF 5
+25188 5 1
+D0
+You can't see anything over the edge of the ridge.
+~
+~
+0 -1 25106
+D1
+The forest looms up to meet your gaze.
+~
+~
+0 -1 25104
+S
+#25106
+On top of the ridge.~
+Just when you thought you were done climbing another ridge rises up for your
+enjoyment.  At least this one isn't as steep as the last one and no small
+rocks and stones are there for you to slide back down.
+~
+251 C 5
+D2
+You can see the rocky side of the ridge.
+~
+~
+0 -1 25105
+D7
+The trees tower over the top of this ridge.  There is one spot that looks
+darker than the rest.
+~
+~
+0 -1 25107
+S
+#25107
+On top of the second ridge and before the cave.~
+This ridge is covered in plantlife.  Shrubs, trees, and ferns cover the
+entire ridge.  Looking back toward the way you came you can see the trail
+that you took crossing the hills to this point.  Ten feet back into the
+undergrowth you can see a cave and the trail that leads to it.  You also
+see a carving on a fallen tree beside the cave.
+~
+251 C 5
+D3
+You can see a cave.
+~
+~
+0 -1 25113
+D8
+You can't see the trail going over the side of the ridge.
+~
+~
+0 -1 25106
+E
+carving~
+BEWARE!
+There are drow and worse beyond this place unexplored.  Enter only with
+extreme caution.
+
+Judicandus Bramsheer
+~
+S
+#25108
+The path.~
+You wonder at the life of these woods.  The plantlife that grows here is as
+lush as any you've seen.  Small animals run across the trail after stopping
+to look at you for a moment.  The path continues to the west.
+~
+251 C 4
+D1
+You see the way from which you came.
+~
+~
+0 -1 25101
+D3
+The path continues to a turn.
+~
+~
+0 -1 25109
+S
+#25109
+The path continues.~
+The path turns south here.  You hope you don't fall because it looks rather
+steep from here on.  The path looks like it evens out though.
+~
+251 C 4
+D1
+You see the way that you came.
+~
+~
+0 -1 25108
+D2
+The path rises a little before it evens out.
+~
+~
+0 -1 25110
+S
+#25110
+The rise.~
+You can see sunbeams ahead cutting through the dense canopy of the forest.
+The path looks like it has been cut into the side of the hill.
+~
+251 C 4
+D0
+You see the turn in the path.
+~
+~
+0 -1 25109
+D2
+~
+~
+0 -1 25111
+S
+#25111
+The scenic view.~
+The whole cove is viewable from this site.  You can see the pirates working
+on the pier and ship below you.  You can also see the captain, though he looks
+like an ant, shouting orders on the deck of the ship.
+~
+251 C 4
+D0
+You see the path start to descend into the forest.
+~
+~
+0 -1 25110
+D2
+You see the trees and path start to decline.
+~
+~
+0 -1 25112
+S
+#25112
+Down the hill.~
+You can see the road that you took earlier down this steep hill.  The path
+is still visible, but barely.  You have to grab onto trees every few steps
+to keep yourself from going too fast.
+~
+251 C 4
+D0
+You can see the sunlight above and the trail seems to level off.
+~
+~
+0 -1 25111
+D2
+You can see a road.
+~
+~
+0 -1 9791
+S
+#25113
+Inside the cave.~
+Several chains and manacles lay scattered on the floor and a huge pit
+is in the center of the chamber.  The sunlight casts shadows on the walls.
+You can go back the way you came or descend into the underdark.
+~
+251 ACD 0
+D1
+You see the ridge through the trees outside the cave.
+~
+~
+0 -1 25107
+D5
+The hole descends into the depths.
+~
+~
+0 -1 25114
+S
+#25114
+A tight fit.~
+This is a little hard.  How can someone with full armor descend down a shaft
+and fit in a room a little larger than a clothes hamper.  Well, you've done
+it.  You can squeeze your way back up to the top or you can take the exit
+south.
+~
+251 ACDL 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25115
+D4
+You see a tiny bit of light at the top of the shaft.
+~
+~
+0 -1 25113
+S
+#25115
+Into the Underdark.~
+Looking around you see nothing except what your dismal light shows.  The walls
+here have been carved away through the years and dust is covering the floor.
+You then notice a pair of red-eyes coming for you out of the darkness.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25114
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25116
+S
+#25116
+Continuing down the passage.~
+Your skin crawls.  You can't tell if anything is watching you or not and your
+light serves to make you more paranoid and afraid than secure.  What kind of
+beings that live in this lightless enviroment couldn't help but notice the
+light.  The walls are sharp, jagged, and cold.  You can make out some tracks
+in the dust at your feet, but you don't recognize them.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25117
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25115
+S
+#25117
+Continuing down the passage.~
+Maybe this wasn't a good idea.  You've already lost track of time and the
+tracks in the dust continue.  All around you is darkest night and your
+light still does little to help dispel the fear of being watched.  You also
+start to get the feeling of having countless tons of rock over your head.
+All in all it's not a good experience.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25118
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25116
+S
+#25118
+The remains.~
+Remains of some corpse is sitting here rotting.  It looks like several
+scavenger out of the tunnels have already had their bellyfull of it.  The
+air is foul with the smell of decay.  Looking ahead you think you might be
+able to tell a turn in the corridor.
+~
+251 AD 11
+D1
+You think you can see a turn in the corridor ahead.
+~
+~
+0 -1 25119
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25117
+E
+remains~
+It's dead.  Flesh hangs off the bones of something you can't identify.
+~
+S
+#25119
+A turn in the corridor.~
+The smell from the corpse is still strong even here.  You can't even see it
+now when you look back.  The sense of pressure is getting worse and worse and
+the tunnel turns here and continues into darkness.
+~
+251 AD 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25120
+D3
+It's too dark to see anything, but it sure does stink.
+~
+~
+0 -1 25118
+S
+#25120
+Past the turn.~
+The smell is better here.  You feel a gust of air blow past your face.  Maybe
+there's an alternate tunnel ahead.  You are starting to feel the need to
+return the surface though.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25119
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25121
+S
+#25121
+The hole downward.~
+You come into a small chamber with exits in two of the walls.  In the floor
+is a large hole that the wind is apparently coming from.  You hear sounds
+coming from the corridor on your left and straight ahead the passage leads
+on into darkness.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25120
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25122
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25123
+D5
+It's too dark to see anything.
+~
+~
+0 -1 25129
+S
+#25122
+The windy passage.~
+The wind coming from the hole is stronger here as it howls down this passage.
+You think you can see some daylight ahead.  You feel relieved to know your
+close to the surface.
+~
+251 AD 11
+D0
+You think you can see some daylight.
+~
+~
+0 -1 25127
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25121
+S
+#25123
+Past the hole in the ground.
+~
+The wind isn't coming this way and the air is suffocating.  Feelings of
+anxiety envelop your body and you keep having feelings of drowning in stone.
+This must be what it's like to be buried.  Fresh looking tracks are in the
+dust here.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25121
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25124
+S
+#25124
+A curve in the passage.~
+The passageway curves here and the prints are even more noticeable in the
+dust.  You can hear whispers and conversations in the darkness in some
+gutteral language.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25123
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25125
+S
+#25125
+Light in the tunnel.~
+You can see flickering torch light on the walls.  The shadows of the beings
+whose conversation's you can hear are walking in front of the light.  There
+is a slight breeze coming from the room carrying with it the smell of roasting
+meat.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25124
+D2
+It's too dark to anything.
+~
+~
+0 -1 25126
+S
+#25126
+At the top of a shaft.~
+Torches line the walls in what is the only light you've seen besides your
+own since you've been in these tunnels.  There is a small fire by the side
+of the pit and some kind of meat roasting over it.  The pit seems to spiral
+down into darkness.  There are several diry mats made of straw scattered
+around the outside of the walls here.  Bits and pieces of trash are all
+over the floor.
+~
+251 D 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25125
+D5
+The bottom of the shaft is filled with darkness.
+~
+~
+0 -1 25140
+S
+#25127
+Closer to the light.~
+You can't smell the smells of the surface yet, but the light here is so
+strong.  Just a few more steps ahead you should see the exit back to the
+surface.
+~
+251 AD 11
+D0
+A lot of light.
+~
+~
+0 -1 25128
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25122
+S
+#25128
+The light.~
+Your heart sinks.  There is no exit to the surface.  Glowing moss coats the
+walls here making it as bright as day.  It seems to be a good place to
+rest though.
+~
+251 DTU 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25127
+S
+#25129
+Beneath the windy hole.~
+The wind is strong here.  It's fed by some unseen source in the darkness to
+the east.  The walls are smoother here and you can feel moisture in the wind.
+Not suprisingly there is no dust on the ground.~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25130
+D4
+You can see the hole that you just descended into.
+~
+~
+0 -1 25121
+S
+#25130
+Into the wind.~
+The wind is starting to smell of sulfur and the air is getting warmer.  You
+can hear a soft roaring in the background every few minutes.  The corridor
+is still getting smoother, but you can still see the carving effect in the
+walls.
+~
+251 AD 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25131
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25129
+S
+#25131
+The corridor.~
+The moisture is now starting to gather on your weapons and armor.  The smell
+of the sulfur is getting stronger, but isn't overpowering yet.  The floor
+is slick and covered in some kind of grime.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25130
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25132
+S
+#25132
+The corridor.~
+The moisture is now running off of you in beads.  The smell of the sulfur
+is stronger still and the ground is covered in a thin coating of water.  The
+roaring is just ahead, and you can also hear dripping water between the noise.
+You need to be careful or you might slip.
+~
+251 AD 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25133
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25131
+S
+#25133
+The edge of the pool.~
+You walk into this chamber on a stone ledge.  Before you lies a deep dark
+pool.  It's been a few minutes since you've heard any roaring.  Suddenly,
+the center of the pool erupts and steaming hot water shoots toward the
+ceiling.  Sweat starts to run from your body and for a few moments you're blind, but then the steam starts to
+fade away.  The draft caused by the geyser and the two other corridors in
+this room pulls the air down the hallway from which you just came.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25132
+D1
+You can't see anything down this corridor from where your standing.
+~
+~
+0 -1 25135
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25134
+E
+pool~
+It's completely dark.  Every few minutes water rushes to the top to erupt
+in water and steam.
+~
+S
+#25134
+The dead end.~
+This room is carved from the rock by the geyser.  The only way out is from
+the way you came.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25133
+S
+#25135
+The corridor past the pool.~
+You start to feel cold as the sweat that rose on your body from the previous
+room starts to cool.  There is some moisture in this room, and the floor is
+covered in a thin coating of mud.  The smell of sulfur is a lot less strong.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25136
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25133
+S
+#25136
+The bend in the corridor.~
+The mud starts to turn to dust again.  The only time you smell sulfur now is
+when the geyser erupts.  The walls look like they were carved by some halfling
+woodworker.
+~
+251 AD 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25137
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25135
+S
+#25137
+The straight run.~
+The corridor tightens here and runs straight for as far as you can see.
+Little comfort considering you can only see as far as your light will allow.
+The dust on the floor is undisturbed.
+~
+251 ACDJ 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25136
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25138
+S
+#25138
+The bend in the corridor.~
+The corridor makes another turn here.  The dust is still undisturbed and
+the air is as still as death.  The smell of the sulfur is gone, but you
+can smell a new scent.  The stench of decay.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25137
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25139
+S
+#25139
+The refuse pit.~
+Half-eaten bodies and bones of things long dead are scattered around the
+room.  You can't see any creature, but then a leg bone falls from a hole
+in the ceiling.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25138
+D4
+Scraps of rotting flesh are hanging in spots around the hole.
+~
+~
+0 -1 5011
+S
+#25140
+Down the shaft.~
+The walls are jagged in this shaft and offer good hand holds.  There is litter
+and refuse caught on some of the rocks.  You grab onto something soft and
+sticky, but you really don't want to know what it is considering the state
+of the room above.
+~
+251 AD 11
+D4
+You can see light from torches.
+~
+~
+0 -1 25126
+D5
+It's too dark to see anything.
+~
+~
+0 -1 25141
+S
+#25141
+The bottom of the shaft.~
+The garbage in this room is knee high.  It all comes from the shaft above.
+Rotted food, paper, and 'items' that belong better in a sewer completely cover
+the floor.  The smell makes you want to throw up.
+~
+251 AD 11
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25142
+D4
+You can barely make out torchlight.
+~
+~
+0 -1 25140
+S
+#25142
+The guard post.~
+A mat lies on the floor and a half-eaten meal on a small table.  The smell
+from the north is almost over-powering.  The ceiling is lost in darkness,
+and out of the corner of your eye you think you see movement.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25141
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25143
+S
+#25143
+The intersection.~
+The floor is covered in tracks in the dust leading from the corridor to the
+west to the passage to the north.  There is a shaft leading upward here.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25142
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25144
+D4
+It's too dark to see anything.
+~
+~
+0 -1 25186
+S
+#25144
+A hole in the wall.~
+The corridor continues straight here or you can go to the northwest.  There
+isn't a lot of dust on the ground, but in the dust that is here you can see
+footprints.  You might want to be careful.~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25143
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25148
+D7
+It's too dark to see anything.
+~
+~
+0 -1 25145
+S
+#25145
+The side path.~
+The hair on the back of your neck starts to rise.  The hole opened up into
+a side corridor and the air is cold.  You can feel eyes watching you, but you
+can't see anything in the darkness.
+~
+251 AD 11
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25146
+D8
+You can see the hole you just climbed through.
+~
+~
+0 -1 25144
+S
+#25146
+The rise in the corridor.~
+The floor rises up in the middle of the corridor in a slope, leaving a space
+of about three feet at the top of it to go over it and deeper into this
+corridor.  You can't see anything over the slope and the feeling of being
+watched still hasn't gone away.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25145
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25147
+S
+#25147
+The hole in the wall.~
+There's a hole in the wall here that leads into the corridor beyond.
+Discarded objects of little value lie scattered here.  There is no
+dust in this room.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25146
+D9
+It's too dark to see anything.
+~
+~
+0 -1 25151
+S
+#25148
+The small corridor.~
+This small corridor continues on in the darkness.  The ceiling is lost in
+darkness except for a few points of stalacites.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25144
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25149
+S
+#25149
+The small corridor.~
+This small corridor continues on in the darkness.  The ceiling is lost in
+darkness except for a few points of stalacites.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25148
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25150
+S
+#25150
+The small corridor.~
+This small corridor continues on in the darkness.  The ceiling is lost in
+the darkness except for a few points of stalacites.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25149
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25151
+S
+#25151
+The hole in the wall.~
+There is a hole in the wall here and the corridor turns to the south.  There
+is also a shaft leading upward.  There is no dust on the floor of the
+corridor.~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25150
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25152
+D4
+You think you can see a pinpoint of light above.
+~
+~
+0 -1 25185
+D6
+It's too dark to see anything.
+~
+~
+0 -1 25147
+S
+#25152
+The passage in between.~
+This corridor is dark, but you can see light to the south.  There is no dust
+on the ground here.  On a rock by the lighted corridor to the south you can
+see a sign.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25151
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25153
+E
+sign~
+     The Trade Route is to the south.  Any racial or territorial conflicts
+     end in this room under order of Matron Mother Gezralliphen, First Matron
+     Mother of Nethril.  Any acts of aggression against any race will be met
+     with the combined forces of the twin drow cities.
+~
+S
+#25153
+The Trade Route.~
+This corridor is HUGE.  It's the largest one you've seen so far since you've
+been in the depths of the world.  It's about one hundred feet wide and
+continues either way for as far as you can see.  The light comes from glowing
+moss that grows on the walls.  You can see wheel tracks on the floor.
+~
+251 D 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25152
+D1
+You see the corridor continue into the distance.
+~
+~
+0 -1 25158
+D3
+You see the corridor continue into the distance.
+~
+~
+0 -1 25154
+S
+#25154
+The Trade Route.~
+The walls are covered in a glowing moss that give more than enough light to
+see by.  The corridor huge continues on in the distance in either direction.
+To the east you can see a doorway to a side corridor that heads to the north.
+Wagon and animal tracks cover the floor.
+~
+251 D 11
+D1
+You see the corridor continue into the distance.
+~
+~
+0 -1 25153
+D3
+You see the corridor continue into the distance.
+~
+~
+0 -1 25155
+S
+#25155
+The Trade Route.~
+The walls are covered in a glowing moss that give more than enough light to
+see by.  The huge corridor continues on in the distance in either direction.
+On the wall to the north you can see a sign.
+~
+251 D 11
+D1
+You see the corridor continue into the distance.
+~
+~
+0 -1 25154
+D3
+You see the corridor continue into the distance.
+~
+~
+0 -1 25156
+E
+sign~
+    You are entering the territory of the Grand City of Nethril.
+    Lolth be praised.
+~
+S
+#25156
+The Trade Route.~
+The walls are covered with a glowing moss giving off more than enough light
+to see by.  The huge corridor continues on into the distance in either
+direction.  Wagon and animal tracks cover the ground.  The air in this part
+of this corridor is still and subdued.
+~
+251 D 11
+D1
+The corridor continues into the distance.
+~
+~
+0 -1 25155
+D3
+The corridor continues on to an opening.
+~
+~
+0 -1 25157
+S
+#25157
+The end of the Trade Route.~
+You've reached the end of this side of the Trade Route.  An opening to the
+west reveals a cavern.  A gigantic cavern.  You can't even see the other side
+standing here.  You see a sign on a rock by the opening.
+~
+251 D 11
+D1
+The corridor continues on into the distance.
+~
+~
+0 -1 25156
+D3
+You see a massive mushroom grove through the opening.
+~
+~
+0 -1 25201
+
+E
+sign~
+   You are entering the Mushroom Groves of Nethril.
+~
+S
+#25158
+The Trade Route.~
+Glowing moss covers the walls of this huge corridor giving off more than
+enough light to see by.  The floor is covered in wagon and animal tracks.
+To the west you can see a smaller corridor branching off of this one to the
+north and to the east you see another small corridor that branches off to the
+south.
+~
+251 D 11
+D1
+You can see the corridor continuing on into the distance.
+~
+~
+0 -1 25159
+D3
+You can see the corridor continuing on into the distance.
+~
+~
+0 -1 25153
+S
+#25159
+The Trade Route.~
+Glowing moss covers the walls of this huge corridor giving off more than
+enough light to see by.  The floor is covered in wagon and animal tracks.
+You can also see some tracks leading into the corridor on the south.  You
+can see some graffiti on the wall to the north.
+~
+251 D 11
+D1
+You can see the corridor continuing on into the distance.
+~
+~
+0 -1 25160
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25165
+D3
+You can see the corridor continuing on into the distance.
+~
+~
+0 -1 25158
+E
+graffiti~
+.
+.
+
+                   \\\///
+                 -(o    o)-
+       -------oOO---(__)---OOo-------
+
+
+        Gravestone was here.
+~
+S
+#25160
+The Trade Route.~
+The glowing moss that covers the walls give off more than enough light to see
+by.  This huge corridor is used for trade between the different underground
+cities and races.  You can tell this because of the wagon and animal tracks
+in the ground.
+~
+251 D 11
+D1
+The corridor continues as far as you can see.
+~
+~
+0 -1 25161
+D3
+You can see a passageway branching off into the southern wall.
+~
+~
+0 -1 25159
+S
+#25161
+The Trade Route.~
+The glowing moss that covers the walls give off more than enough light to see
+by.  This huge corridor is used for trade between the different underground
+cities and races.  Wagon and animal tracks cover the ground.  In the distance
+you can see figures moving with a wagon of goods.
+~
+251 D 11
+D1
+The corridor continues as far as you can see.
+~
+~
+0 -1 25162
+D3
+The corridor continues as far as you can see.
+~
+~
+0 -1 25160
+S
+#25162
+The Trade Route.~
+The corridor seems to expand into infinity in either direction.  The glowing
+moss that grown on the walls give off more than enough light to see by.
+Wagon and animal tracks cover the floor of the passageway.  You see some
+graffiti on the side of the wall.
+~
+251 d 11
+D1
+The corridor continues as far as you can see.
+~
+~
+0 -1 25163
+D3
+The corridor continues as far as you can see.
+~
+~
+0 -1 25161
+E
+graffiti~
+For a good time call Nichole, the Sultan's Favorite at 438-7325.
+~
+S
+#25163
+The Trade Route.~
+The air in this part of the corridor is deathly still.  The walls are still
+covered with the glowing moss, but it seems to dim here.  Wagon and animal
+tracks cover the ground.  There is a small sign on the wall of the north.
+~
+251 D 11
+D1
+The corridor continues to a gate.
+~
+~
+0 -1 25164
+D3
+The corridor continues as far as you can see.
+~
+~
+0 -1 25162
+E
+sign~
+You are entering the territory of the drow city Khazalindel.
+~
+S
+#25164
+Before the gates.~
+These two massive gates are always left open for trade, but there are always
+two drow guards standing watch.  Looking to the west the corridor continues
+as far as you can see.  Glowing moss cover the walls and wagon tracks cover
+the ground.
+~
+251 D 11
+D1
+It's too dark to see.
+~
+~
+0 -1 5114
+D3
+The corridor continues as far as you can see.
+~
+~
+0 -1 25163
+S
+#25165
+The dim passage.~
+Light from the passage north fills this room with soft light.  The walls
+look carved from the rock.  There is little dust on the ground and the air
+is moist.  In the distance you can hear a roaring of a waterfall.
+~
+251 D 11
+D0
+You see a huge lighted corridor.
+~
+~
+0 -1 25159
+D2
+It's too dark to see.
+~
+~
+0 -1 25166
+S
+#25166
+The Intersection.~
+The dark corridor turns west here and also continues to the south.  The roar
+of the waterfall comes from the south and no sounds at all come from the
+west.
+~
+251 AD 11
+D0
+You see some dim light.
+~
+~
+0 -1 25165
+D2
+It's too dark to see.
+~
+~
+0 -1 25172
+D3
+It's too dark to see.
+~
+~
+0 -1 25167
+S
+#25167
+The dark passage.~
+It's dark here.  You feel moisture on your face and you can hear a roaring of
+a waterfall in the distance.  The passage continues to the east and the west.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25166
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25168
+S
+#25168
+The slope upwards.~
+The passageway starts to slope upwards here.  The roaring of the waterfall is
+more distant now and you can no longer feel the moisture on your face that
+you did.  The walls are still naturally carved from the stone of the
+underground.
+~
+251 AD 11
+D1
+It's too dark to see anything.
+~
+~
+0 -1 25167
+D3
+The passage continues to slope upward into the darkness.
+~
+~
+0 -1 25169
+S
+#25169
+The slope steepens.~
+The slope starts to steepen here into a sharper angle. The roaring of the
+waterfall now is so far in the distance that dripping water drowns out the
+sound.  The passage continues on in darkness in either direction.
+~
+251 AD 11
+D1
+The passage continues sloping downwards into darkness.
+~
+~
+0 -1 25168
+D3
+The passage continues sloping upwards into darkness.
+~
+~
+0 -1 25170
+S
+#25170
+The end of the sloping passage.~
+The passage ends here and makes a straight vertical climb upwards into onyx
+darkness.  You can also go to the down the slope to the east.
+~
+251 AD 11
+D1
+The passage slopes downwards into darkness.
+~
+~
+0 -1 25169
+D4
+The passage goes up into darkness.
+~
+~
+0 -1 25171
+S
+#25171
+The climb up.~
+You can hear something above you talking to itself in the darkness.  The smell
+coming from there reminds you of a SEWER.  The rocks in this climb were made
+for it as each one give you an excellent place to put your hand or foot.
+~
+251 AD 11
+D4
+It's too dark to see anything.
+~
+~
+0 -1 7201
+D5
+It's too dark to see anything.
+~
+~
+0 -1 25170
+S
+#25172
+The passageway.~
+The roaring of the waterfall here is almost deafening.  The moisture is making
+your armor and clothes damp.  The walls are dripping wet and there is mud on
+the floor.  You can go north, south, or take a passageway up here.
+~
+251 AD 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25166
+D2
+It's too dark to see anything.
+~
+~
+0 -1 25173
+D4
+It's too dark to see anything.
+~
+~
+0 -1 6546
+S
+#25173
+At the bottom of the waterfall.~
+You walk into a huge cavern with water falling out of a hole in the ceiling.
+Glowing moss is thriving on the moisture so abundant in this cavern.  There
+is a small boat on the edge of the water and a river leads out of the western
+part of the cavern.  There is also a path running up to the side of the
+waterfall.  It looks like you might be able to climb up there.  It is really
+beautiful here and it reminds you of the fairy tales of your youth.
+~
+251 D 11
+D0
+It's too dark to see anything.
+~
+~
+0 -1 25172
+D3
+It's too dark to see anything.
+~
+~
+0 -1 25176
+D4
+A path running up the side of the waterfall.
+~
+~
+0 -1 25174
+S
+#25174
+A path upwards.~
+You climb a path that runs up the side of the waterfall.  Ahead of you is a
+rock wall that has several good rocks that could be used for climbing.  The
+path of climbing rocks and the waterfall come out of the hole in the ceiling.
+~
+251 D 11
+D4
+The waterfall falls into the chamber from this hole.
+~
+~
+0 -1 25175
+D5
+You see the bottom of the chamber.
+~
+~
+0 -1 25173
+S
+#25175
+The hole upwards.~
+The rocks did make good handholds.  You find yourself above the cavern and
+right underneath the hole that the waterfall originates from.  It seems to
+come from the mist above.  Looking down you can see a huge cavern that is
+dotted in spots with glowing moss.  You can also see a river flowing out
+of the western wall.
+~
+251 D 11
+D4
+It's too dark to see anything past the water.
+~
+~
+0 -1 2043
+D5
+You see a path running down beside the waterfall.
+~
+~
+0 -1 25174
+S
+#25176
+On the underground river.~
+The river is flowing slowly here.  It's quiet except for the sound of the
+water gently lapping the walls and the roar of a waterfall.  The ceiling is
+low in some spots and you can see the points of stalacites hanging from the
+darkness that shrouds the ceiling.
+~
+251 ADE 6
+3 5 0
+D1
+You see a glowing chamber and a waterfall.
+~
+~
+0 -1 25173
+D3
+The river continues into darkness.
+~
+~
+0 -1 25177
+S
+#25177
+On the underground river.~
+The waterfall is now nothing more than a distant sound.  Strange things seem
+to be alive in the river and every once in awhile you will catch something
+moving in the water out of the corner of your eye.  The water is gently
+lapping the walls of the passage.
+~
+251 ADE 6
+3 5 0
+D1
+The river continues into darkness.
+~
+~
+0 -1 25176
+D3
+The river continues into darkness.
+~
+~
+0 -1 25178
+S
+#25178
+Rapids on the river.~
+The river flows out of a small passageway to the east and runs through rapids.
+After you pass the rapids you take a chance to look around and notice that the
+ceiling has climbed away into darkness.
+~
+251 ADE 6
+3 5 0
+D1
+The river continues into a small passage.
+~
+~
+0 -1 25177
+D3
+The river continues into darkness.
+~
+~
+0 -1 25179
+S
+#25179
+A bridge over the river.~
+You can make out a bridge about twenty feet above you.  There are torches
+and small figures on either side of it.  On the southern walls you can see
+several carved windows in the solid rock.  The river continues to flow on
+quietly.
+~
+251 ADE 6
+3 5 0
+D1
+The river continues into darkness.
+~
+~
+0 -1 25178
+D3
+The river continues into darkness.
+~
+~
+0 -1 25180
+S
+#25180
+A turn bend in the river.~
+The river turns a bend here as it continues its gentle trip into the darkness
+of the underground.  You can see strange shapes at the edge of your light in
+the river watching you.
+~
+251 ADE 6
+7 5 0
+D1
+The river continues into darkness.
+~
+~
+0 -1 25179
+D7
+The river continues into darkness.
+~
+~
+0 -1 25181
+S
+#25181
+The Underground Area.~
+The quite river is flowing down this passageway.  You can see ledges high up
+on the sides of the walls on either side with dark shapes watching you.  There
+is no way to get up to the ledges from here.
+~
+251 ADE 6
+7 5 0
+D7
+The river continues into darkness.
+~
+~
+0 -1 25182
+D8
+The river continues into darkness.
+~
+~
+0 -1 25180
+S
+#25182
+A bend in the river.~
+You come to another bend in the river.  The water is calm and you think you
+can see light ahead to the east.  The ledges are more defined in the walls
+now, and you can see several slender shapes standing on them.
+~
+251 ADE 6
+3 5 0
+D3
+The river continues on to a lighted area.
+~
+~
+0 -1 25183
+D8
+The river continues into darkness.
+~
+~
+0 -1 25181
+S
+#25183
+The light part of the river.~
+The rivers passageway is very light here.  To the east you can see a huge
+mushroom grove and the river flows into darkness to the west.  The figures
+you saw on the ledges above are dark elves.  They have orders not to attack
+anyone on the river unless attacked first.
+~
+251 ADE 6
+3 5 0
+D1
+The river continues into darkness.
+~
+~
+0 -1 25182
+D3
+The river continues on through the opening and into a grove.
+~
+~
+0 -1 25229
+S
+#25184
+Into the dark water.~
+It's hot!  You can feel your skin burning as your surrounded by boiling 
+water.  You start to swim to the surface when the next sensation you have
+is a rushing feeling followed by being broken on the ceiling above.  You
+don't notice when you hit the boiling water again.
+Bye Bye.
+~
+251 ADF 6
+4208 1 0
+S
+#25185
+The ledge.~
+The shaft leads up to a shaft and you can see light coming from a hole above
+you.  You'd almost be relieved if it wasn't for the shapes coming for you
+from out of the darkness.
+~
+251 A 11
+D4
+You can see light.
+~
+~
+0 -1 2397
+D5
+The shaft goes down into darkness.
+~
+~
+0 -1 25151
+S
+#25186
+The shaft upwards.~
+You keep feeling like your going to slip as you climb up this shaft and you
+would rather not since it is a long fall to the bottom.  The shaft continues
+to climb up into darkness.
+~
+251 AJ 11
+D4
+The shaft climbs into darkness.
+~
+~
+0 -1 2235
+D5
+The shaft descends into darkness.
+~
+~
+0 -1 25143
+S
+#25187
+This is just a room dammit.~
+This is a room for the teeth to reset in.
+~
+251 0 0
+S
+#25188
+The rockslide.~
+Maybe next time you will listen to your common sense when it tells you to
+hurry up.  The last thoughts you have are of being such a fool as tons of 
+rocks crush and maim you.
+~
+251 CF 5
+4208 1 0
+S
+#25189
+Secret Garden~
+  This quiet hidden garden is totally surrounded and protected by an 8 foot
+tall hedge of roses.  The wicked thorns assure that unwanted visitors will
+never visit this enchanted place.  The sweet intoxicating fragrance of red
+roses embrace you.  Well-kept cobblestone paths wind through out the garden,
+allowing you to wander among exotic and brightly colored plants.  Large leaf
+palms and ferns wave gently in a soft breeze, giving the impression of a
+lost tropical paradise.  You notice one arched opening through the hedge but
+you have the eerie feeling that if you walk through that exit, you will never
+return.
+~
+251 JK 1
+D3
+You see a large kitchen.
+~
+~
+0 -1 9970
+S
+#25190
+The Secret Place~
+     You stand in the middle of the plaza of some great, ancient, jungle
+temple.  Elaborate carvings cover every inch of the pillars that still stand
+after centuries.  You can see the deep blue sky far above you through the
+canopy of limbs and leaves that provide this place with it's only shelter.
+Among the limbs you can see many jungle animals including several monkeys,
+brightly colored birds, and even a jaguar.  Several pillows have been piled
+in one corner of the plaza under an overhang that provides the only 
+protection from the elements.  Green vines covered with beautiful flowers
+grow up the sides of the walls that are left standing.  The dense jungle
+surrounding this spot insures that only those invited by you will ever gain
+entrance or knowledge of this secluded spot.  Looking closer at one of the
+tall pillars you think you can make out some writing on it.
+~
+251 JK 1
+E
+monkeys~
+They hop from tree to tree bothering each other and looking for food to eat.
+~
+E
+birds~
+You dazzled by the beauty of these brightly feathered birds, and their light
+hearted chirping lightens up your spirits.
+~
+E
+jaguar~
+It walks over and rubs up against your leg and starts to purr.  Then it goes
+to the one spot that the plaza is accessable by and sits down staring out
+into the jungle.  You realize that this beautiful black jaguar is the
+protector of this place.
+~
+E
+writing~
+Sandy,
+
+     Everyone found out about the secret garden, so I made this spot.
+You have been there for a lot of the parts of my life I will always remember.
+You helped me through some of the roughest parts of my life, and you have 
+been there to laugh with me at some of the funniest.  If I did know the
+exact words to say, then I would write a book.  This place is just for 
+you and I hope you enjoy it for many times to come.     
+
+                                           Spencer  
+~
+S
+#0
+
+
+#RESETS
+M 0 25100 4 25115    *loads a displacer beast
+M 0 25100 4 25118    *loads a second displacer beast
+M 0 25100 4 25139    *loads a third displacer beast
+M 0 25100 4 25168    *loads a fourth displacer beast
+M 0 25101 2 25142    *loads drow guard
+E 1 25105 10 16
+E 1 25106 10 12
+E 2 25109 10 15
+M 0 25102 1 25142    *loads cleric
+E 1 25110 3 15
+E 1 25111 3 12
+E 1 25112 3 16
+M 0 25103 2 25158    *loads drow guard
+E 1 25105 10 16
+E 1 25106 10 12
+E 1 25109 10 15
+M 0 25103 2 25158    *loads drow guard
+E 1 25105 10 16
+E 1 25106 10 12
+E 1 25109 10 15
+M 0 25104 2 25164    *loads drow guard
+E 1 25105 10 16
+E 1 25106 10 12
+E 1 25109 10 15
+M 0 25104 2 25164    *loads drow guard
+E 1 25105 10 16
+E 1 25106 10 12
+E 1 25109 10 15
+M 0 25105 3 25122    *loads cave fisher
+M 0 25105 3 25140    *loads cave fisher
+M 0 25105 3 25175    *loads cave fisher
+M 0 25106 1 25162    *loads merchant
+M 0 25107 1 25126    *loads goblin chief
+E 1 25103 2 5
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 1
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 2
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 3
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 4
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 5
+E 1 25104 11 16
+M 0 25108 10 25126   *loads goblin 6
+M 0 25108 10 25126   *loads goblin 7
+M 0 25108 10 25126   *loads goblin 8
+M 0 25108 10 25126   *loads goblin 9
+M 0 25108 10 25126   *loads goblin 10
+M 0 25109 3 25146    *loads mindflayer 1
+M 0 25109 3 25146    *loads mindflayer 2
+M 0 25109 3 25146    *loads mindflayer 3
+M 0 25110 1 25162    *loads giant snail
+M 0 25111 5 25173    *loads roth 1
+M 0 25111 5 25173    *loads roth 2
+M 0 25111 5 25173    *loads roth 3
+M 0 25111 5 25173    *loads roth 4
+M 0 25111 5 25173    *loads roth 5
+M 0 25112 1 25173    *loads shepherd
+E 1 25108 4 0
+*
+O 0 25100 1 25118    *loads corpse
+P 1 25101 1 25100
+O 0 25102 2 25128    *loads moss
+O 0 25102 2 25173    *loads moss
+O 0 25107 1 25133    *loads pool
+O 0 25113 1 25162    *loads wagon
+*
+M 0 25113 2 25185    *loads minotaur guard
+E 1 25117 1 16
+M 0 25113 2 25185    *loads second minotaur guard
+E 1 25117 1 16
+M 0 25114 3 25121    *loads hook horror
+M 0 25114 3 25148    *loads hook horror
+M 0 25114 3 25170    *loads hook horror
+O 0 25114 1 25122    *loads corpse
+H 0 25114 0 25115    *loads crawler in corpse
+O 0 25115 1 25187    *loads red tooth
+H 0 25115 1 25116    *puts red in tooth
+O 0 25116 0 25187    *loads green tooth
+H 0 25116 0 25117    *loads red's cousin in tooth
+*
+S
+
+
+
+#SPECIALS
+M 25109 spec_psionic
+M 25115 spec_poison
+M 25106 spec_monk
+*
+S
+
+
+#$
+
+
+
+
+
+
+

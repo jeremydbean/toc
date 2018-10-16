@@ -1,0 +1,375 @@
+#PLAYER
+Name ShadowKnight~
+Id   22809
+LogO 953338804
+Vers 3
+Prom ~
+Ignoring  ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 5
+Plyd 1760
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3740
+HMV  56 63 104 104 124 124
+NewGold 0
+NewPlat 0
+NewCopp 87
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12680
+Act  65788
+AfBy 512
+Comm 24592
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 11
+Trai 9
+Save  -4
+Alig  0
+Hit   4
+Dam   1
+ACs 83 87 85 99
+Attr 17 12 12 13 13
+AMod 0 0 1 0 2
+Pass ShF0px2wgzvy.~
+Titl  the Soldier~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 63 104 124
+Cond 0 22 37
+Alias lvl level Gratz!~
+Alias k kick~
+Alias bb buy bread~
+Alias m murder~
+Alias b ber~
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'bless'  47  13  -3  24          0          0
+AffD 'bless'  48  13   3  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 174 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 4 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3722
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 123
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 202
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 118
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6013
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+Val  50 8 0 0 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -4 2 0 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 3 23 0 0
+Affect -1 0 -1 -5 17 0 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3729
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 2 0 0
+End
+
+#O
+Vnum 3730
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#END

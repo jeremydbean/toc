@@ -1,0 +1,239 @@
+#PLAYER
+Name FallenAngel~
+Id   53832
+LogO 949734482
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 6
+Plyd 7023
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 24306
+HMV  76 76 130 130 130 130
+NewGold 2025
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13942
+Act  65788
+AfBy 524800
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -7
+Alig  842
+Hit   9
+Dam   2
+ACs 54 53 56 78
+Attr 19 13 17 12 15
+AMod 0 1 3 0 2
+Pass FaL280KkHmTrI~
+Titl  the Angel that fell~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 76 130 130
+Cond 0 10 34
+Sk 75 'armor'
+Sk 75 'bless'
+Sk 1 'cause light'
+Sk 75 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'locate object'
+Sk 26 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 75 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'bash'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+AffD 'armor'  41  20 -20  17          0          0
+AffD 'fly'  43  36   0   0     524288          0
+AffD 'bless'   0  13  -7  24          0          0
+AffD 'bless'   9  13   7  18          0          0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3722
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 2 0 0
+End
+
+#O
+Vnum 3723
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear 0
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 229 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 12 0 0 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 110 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#END

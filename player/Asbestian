@@ -1,0 +1,125 @@
+#PLAYER
+Name Asbestian~
+Id   39706
+LogO 952419691
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 11
+Plyd 34058
+ListRemorts ~
+NumRemorts 0
+Note 952370476
+Scro 22
+Room 4208
+HMV  121 121 110 110 63 160
+NewGold 66
+NewPlat 14
+NewCopp 1738
+NewSilv 218
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  24724
+Act  65740
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 0
+Color 3 1
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 7
+Color 8 0
+Color 9 0
+Color 10 4
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 2
+Pos  8
+Save  -1
+Alig  1000
+Hit   1
+Dam   1
+ACs 97 96 96 99
+Attr 19 16 16 16 15
+AMod 0 0 0 -5 1
+Pass AsvU4UF9kyGGc~
+Titl  the Hero~
+Pnts 40
+TSex 1
+LLev 8
+HMVP 121 110 160
+Cond 0 0 23
+Sk 30 'axe'
+Sk 75 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 71 'shield block'
+Sk 30 'spear'
+Sk 85 'sword'
+Sk 30 'whip'
+Sk 9 'bash'
+Sk 1 'disarm'
+Sk 89 'kick'
+Sk 75 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 191 0 0
+Affect -1 0 -1 -5 2 0 0
+End
+
+#END

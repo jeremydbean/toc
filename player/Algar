@@ -1,0 +1,1022 @@
+#PLAYER
+Name Algar~
+Id   59172
+LogO 952284674
+Vers 3
+Desc I'm Mr.Givadamn
+~
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  2
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 50
+Plyd 1116238
+ListRemorts ~
+NumRemorts 0
+Note 952282786
+Scro 22
+Room 4208
+HMV  471 488 142 637 321 344
+NewGold 89748
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 5017
+Exp  115022
+Act  254
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 5
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Save  -2
+Alig  1000
+Hit   33
+Dam   70
+ACs -64 -53 -60 53
+Attr 16 13 20 18 13
+AMod 10 0 4 5 0
+Pass Alz9tZBf6dKYM~
+Ariv $n appears in the room..from the $t~
+Dprt $n disappears $t.~
+Titl  is still level 50~
+Pnts 40
+TSex 1
+LLev 246
+HMVP 483 497 394
+Cond 0 48 48
+Alias 1 , says 'I have 1314/1314 hp 697/697 mana 176/279 end 112512 xp.'~
+Alias 2 , utters the words 'quadfajar'~
+Alias 5 cast 'heal'~
+Alias 7 level *-*-*-*-*GRATS*-*-*-*-*~
+Alias 8 , gives you a completly black armour.~
+Alias 9 , gives you black steel vambraces~
+Alias 3, utters the words 'shika dar dar donkey'~
+Alias 6 , gives you a smurf hat.~
+Sk 79 'aid'
+Sk 78 'armor'
+Sk 77 'bless'
+Sk 75 'calm'
+Sk 83 'cancellation'
+Sk 82 'cause light'
+Sk 82 'cure blindness'
+Sk 98 'cure critical'
+Sk 75 'cure disease'
+Sk 86 'cure light'
+Sk 75 'cure nightmare'
+Sk 75 'cure poison'
+Sk 95 'cure serious'
+Sk 75 'detect evil'
+Sk 26 'detect good'
+Sk 85 'dispel magic'
+Sk 81 'flamestrike'
+Sk 77 'fly'
+Sk 79 'frenzy'
+Sk 100 'gate'
+Sk 76 'haven'
+Sk 100 'heal'
+Sk 76 'holy word'
+Sk 91 'locate object'
+Sk 77 'major globe'
+Sk 96 'mana convert'
+Sk 75 'mass healing'
+Sk 76 'mass sanctuary'
+Sk 52 'pass door'
+Sk 77 'portal'
+Sk 75 'protection evil'
+Sk 1 'raise dead'
+Sk 1 'divine intervention'
+Sk 97 'refresh'
+Sk 79 'remove curse'
+Sk 76 'rope trick'
+Sk 90 'sanctuary'
+Sk 86 'shield'
+Sk 75 'spiritual hammer'
+Sk 29 'stone skin'
+Sk 75 'summon'
+Sk 1 'teleport'
+Sk 75 'word of recall'
+Sk 22 'axe'
+Sk 100 'dagger'
+Sk 20 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 95 'sword'
+Sk 5 'whip'
+Sk 97 'second attack'
+Sk 33 'hide'
+Sk 75 'scrolls'
+Sk 37 'staves'
+Sk 95 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'benedictions'
+Gr 'curative'
+Gr 'healing'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 0
+Cond 100
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear -1
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 -1 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 7215 0 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  150 95 0 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 3
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 3 5 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13293
+Nest 0
+Wear 12
+Lev  14
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3163
+Nest 1
+Wear -1
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29217
+Nest 1
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29019
+Enchanted
+Nest 1
+ExtF 323
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 41 -1 6 18 0 0
+AffD 'enchant weapon' 41 -1 6 19 0 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 1
+Wear -1
+Lev  43
+Cost 0
+Cond 90
+Repd 0
+Val  10 9 10 0 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13275
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13277
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  46 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6110
+Nest 1
+Wear -1
+Lev  2
+Time 19
+Cost 300
+Cond 100
+Repd 0
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 29019
+Enchanted
+Nest 1
+ExtF 323
+Wear -1
+Lev  23
+Cost 350
+Cond 100
+Repd 0
+AffD 'enchant weapon' 52 -1 7 18 0 0
+AffD 'enchant weapon' 52 -1 7 19 0 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 4
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 4473
+Enchanted
+Nest 0
+ExtF 99
+Wear -1
+Lev  41
+Cost 1650
+Cond 100
+Repd 0
+AffD 'enchant weapon' 44 -1 5 19 0 0
+AffD 'enchant weapon' 44 -1 6 18 0 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 0
+ExtF 2100544
+Wear 16
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 64
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

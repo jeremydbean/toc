@@ -1,0 +1,1421 @@
+#AREA	{5 25}    Duncan      City Zoo~
+
+#MOBILES
+#5801
+A dolphin~
+a sleek dolphin~
+A sleek Dolphin swims here in circles.
+~
+You see a sleek dolphin swimming about in circles.
+~
+fish~
+T N 0 S
+7 1 1d1+131 1d1+100 1d8+1 24
+0 0 0 0
+FM 0 0 0
+8 8 0 0
+0 0 M 0
+#5802
+blow fish blowfish~
+a puffy blowfish~
+A disgusting blowfish puffs, puffs, and puffs here.
+~
+You see a bizarre puffy fish staring at you, puffing.
+~
+fish~
+T N 0 S
+7 1 1d1+131 1d1+100 1d8+1 10
+0 0 0 0
+FM 0 D FG
+8 8 0 0
+0 0 M 0
+#5803
+barricuda~
+a slim barricuda~
+A slender barricuda searches for prey.
+~
+You see a hungry shiny barricuda swimming close to you.
+~
+fish~
+T N 0 S
+9 2 1d1+169 1d1+100 1d8+2 10
+0 0 0 0
+FMD 0 0 0 
+8 8 2 50
+0 0 M 0
+#5804
+angler fish~
+an angler fish~
+A strange looking fish with tentacles swims here.
+~
+You see the oddest fish you have ever encountered, with what appear to be antennas
+sprouting from all over.
+~
+fish~
+T O 0 S
+9 1 1d1+169 1d1+100 1d8+2 11
+-5 -5 -5 -5
+FM L 0 0 
+8 8 2 0
+0 0 M 0
+#5805
+moray eel~
+a Moray Eel~
+A fierce looking eel bares it's fangs.
+~
+You see a long scary eel with huge fangs.
+~
+fish~
+T 0 0 S
+11 0 1d1+223 1d1+100 1d10+2 10
+0 0 0 0
+FM 0 0 0
+8 8 0 100
+0 0 S 0
+#5806
+octopus~
+an Octopus~
+A small octopus swims near you, tentacles flailing.
+~
+You see a wildly flailing octopus swimming closeby.
+~
+fish~
+T V 0 S
+10 2 1d1+195 1d1+100 1d10+1 12
+0 0 0 0
+FKO 0 0 0
+8 8 0 100
+0 0 M 0
+#5807
+great white shark~
+a Great White Shark~
+A mean looking shark stalks this area.
+~
+You see a large white shark barreling towards you, it obviously smells blood.
+~
+fish~
+GT 0 0 S
+13 1 1d1+223 1d1+100 2d5+3 10
+0 0 0 0
+FM 0 0 0 
+8 8 2 200
+0 0 L 0
+#5808
+goat~
+a Goat~
+A simple ordinary billy goat.
+~
+You see a normal scruffy goat eating everything in sight.
+~
+human~
+CT 0 0 S
+5 0 1d1+79 1d1+100 1d6+1 15
+0 0 0 0
+FB 0 0 0
+8 8 2 1
+0 0 S 0
+#5809
+llama~
+a Llama~
+A simple mountain Llama stands here looking at you.
+~
+You see a brown cuddly looking Llama.
+~
+horse~
+T 0 0 S
+6 1 1d1+100 1d1+100 1d6+2 15
+0 0 0 0
+FB 0 0 0
+8 8 2 1
+0 0 S 0
+#5810
+cow~
+a cow~
+A broadshouldered jersey cow grazes here.
+~
+You see a big black and white cow grazing here.
+~
+horse~
+T 0 0 S
+9 1 1d1+169 1d1+100 2d4+2 10
+0 0 0 0
+CJ 0 0 0
+8 8 1 100
+0 0 M 0
+#5811
+pig~
+a Pig~
+A curly-tailed pig drinks from a water trough here.
+~
+You see a clean pink hog vieing for your attention.
+~
+human~
+T 0 0 S
+8 0 1d1+144 1d1+100 1d7+2 15
+0 0 0 0
+CF 0 0 0
+8 8 2 50
+0 0 M 0
+#5813
+deer~
+a Deer~
+a white-tailed deer prances around here.
+~
+You see a cute deer prancing here.
+~
+horse~
+T 0 0 S
+9 0 1d1+169 1d1+100 2d4+2 2
+0 0 0 0
+F 0 0 0 
+8 8 2 200
+0 0 M 0
+#5814
+cobra~
+a Cobra~
+a snake is lying here coiled up.
+~
+You see a venomous snake coiled up ready to strike.
+~
+snake~
+T 0 0 S
+10 1 1d1+195 1d1+100 2d4+2 10
+0 0 0 0
+F L 0 0 
+8 8 1 50
+0 0 S 0
+#5815
+rattle snake rattlesnake~
+a Rattlesnake~
+a coiled up snake rattling it's tail at your presense.
+~
+The rattlesnake knows you are here and is rattling his tail as a warning.
+~
+snake~
+T 0 0 S
+10 1 1d1+195 1d1+100 2d4+2 26
+0 0 0 0 
+F L 0 0
+8 8 2 50
+0 0 S 0
+#5816
+iguana~
+a Iguana~
+a cat-sized green lizard stalks here in search of prey.
+~
+A green lizard peers back at you through gray tiny eyes.
+~
+saurian~
+T 0 0 S
+12 4 1d1+252 1d1+100 1d10+3 5
+0 0 0 0
+F 0 0 0
+8 8 2 0
+0 0 S 0
+#5817
+loch ness monster~
+the Loch Ness Jr.~
+a small version of the famous Loch Ness monster rolls around on it's back here.
+~
+You see what could only be the son of the Loch Ness Monster here.
+~
+saurian~
+T 0 0 S
+14 4 1d1+315 1d1+100 1d12+3 4
+0 0 0 0
+FKM 0 0 0
+8 8 2 1
+0 0 M 0
+#5818
+teddy bear~
+a Teddy Bear~
+a real life alive teddy bear, just like the one you had when you were a kid sits here.
+~
+You see an animated teddy bear.
+~
+bear~
+T 0 0 S
+8 1 1d1+144 1d1+100 1d7+2 25
+0 0 0 0
+CK 0 0 0 
+8 8 2 0
+0 0 S 0
+#5819
+panda bear~
+a Panda Bear~
+a black and white panda bear eats hay here.
+~
+You see a black-eyed Panda bear rolling in the hay.
+~
+bear~
+T 0 0 S
+10 1 1d1+195 1d1+100 2d4+2 32
+0 0 0 0
+FK 0 0 0
+8 8 2 100
+0 0 M 0
+#5820
+brown bear~
+a Brown Bear~
+A bear with a silky brown coat wanders this area.
+~
+You see a brown bear.
+~
+bear~
+T 0 0 S
+10 3 1d1+195 1d1+100 2d4+2 5
+-2 -2 -2 -2
+FK 0 0 0
+8 8 2 100
+0 0 M 0
+#5821
+black bear~
+a Black Bear~
+A bear with a shiny black coar roars here.
+~
+You see a black bear.
+~
+bear~
+T 0 0 S
+10 5 1d1+195 1d1+100 2d4+2 5
+-5 -5 -5 -5
+FK 0 0 0
+8 8 2 100
+0 0 M 0
+#5822
+lynx~
+a Lynx~
+a small furry eared cat skitters about.
+~
+You see a fluffy eared cat stalking here quietly.
+~
+cat~
+T 0 0 S
+7 1 1d1+131 1d1+100 1d8+1 22
+0 0 0 0
+F 0 0 0
+8 8 2 50
+0 0 S 0
+#5823
+cougar~
+a cougar~
+a medium sized sandy cat struts about here.
+~
+You see a stealthy Cougar here.
+~
+cat~
+T 0 0 S
+9 4 1d1+195 1d1+100 1d8+2 10
+0 0 0 0
+F 0 0 0
+8 8 1 0
+0 0 S 0
+#5824
+lion~
+Lion~
+a proud lion with a great orange mane rests here.
+~
+You see a proud lion, proud even in captivity.
+~
+cat~
+T 0 0 S
+11 4 1d1+195 1d1+100 1d10+2 5
+-2 -2 -2 -2
+F 0 0 0
+8 8 1 0
+0 0 S 0
+#5825
+tiger~
+a tiger~
+a striped bengal tiger prowls here.
+~
+You see a striped large cat here.
+~
+cat~
+T 0 0 S
+12 6 1d1+223 1d1+100 1d10+3 5
+0 0 0 0
+FK 0 0 0 
+8 8 1 0
+0 0 M 0
+#5826
+caged fido~
+a caged fido~
+there is a fido in a cage here.
+~
+You see a standard issue fido in a cage.
+~
+dog~
+T 0 0 S
+7 1 1d1+131 1d1+100 1d8+1 10
+0 0 0 0
+F 0 0 0 
+8 8 1 0
+0 0 S 0
+#5827
+coyote~
+a coyote~
+a coyote howls at the moon.
+~
+You see a dirty coyote howling away.
+~
+dog~
+T 0 0 S
+9 1 1d1+169 1d1+100 1d8+2 10
+0 0 0 0
+F 0 0 0
+8 8 2 0
+0 0 S 0
+#5828
+wolf~
+a wolf~
+a dark wolf rest in the corner.
+~
+You see a dark wolf mulling about here.
+~
+dog~
+T 0 0 S
+10 2 1d1+195 1d1+100 2d4+2 10
+0 0 0 0
+F 0 0 0 
+8 8 1 0
+0 0 S 0
+#5829
+warg~
+a warg~
+an oddly evil looking dog glares at you.
+~
+You see an evil looking wolf.
+~
+dog~
+T 0 -500 S
+10 5 1d1+195 1d1+100 2d4+2 10
+-3 -3 -3 -3
+FK 0 0 0 
+8 8 1 0
+0 0 M 0
+#5830 
+zoo man official~
+a Zoo Official~
+A man wearing an official loooking jacket is here.
+~
+You see a Zoo Official smiling at you.
+~
+human~
+T 0 750 S
+15 3 1d1+349 1d1+250 2d6+3 17
+-2 -2 -2 -2
+FIK 0 0 0 
+8 8 1 400
+0 0 M 0
+#5831
+employee~
+a salesperson~
+An employee of the gift shops stands here ready to assist you.
+~
+You see a Zoo Gift Shop employee.
+~
+human~
+BT D 0 S
+15 0 1d1+1 1d1+1 1d1+1 1
+0 0 0 0
+0 0 0 0
+8 8 1 0
+0 0 S 0
+#5832
+cage cleaner~
+the cage cleaner~
+The cage cleaner nods and you and continues sweeping.
+~
+a man sweeps the floors here with a long broom. the broom is being
+assailed by flies...and what is that smell?
+~
+human~
+CGT H 0 S
+10 1 1d1+195 1d1+100 2d4+2 17
+-1 -1 -1 -1
+CFI 0 0 0
+8 8 1 100
+0 0 M 0
+#5833
+crocodile~
+a crocodile~
+a fierce scaled crocodile takes notice of your presence.
+~
+Through slit yellow eyes the croc' peers back.
+~
+lizard~
+FT 0 0 S
+20 3 1d1+540 1d1+100 2d8+5 10
+-2 -2 -2 -2
+DFJ 0 FG E
+8 8 1 0
+0 0 M 0
+#5834
+grizzly bear~
+a grizzly bear~
+a huge black bear rears up and bellows as you enter the room.
+~
+You see a HUGE black bear and he looks angry.
+~
+bear~
+FT 0 0 S 
+20 6 1d1+540 1d1+100 2d8+5 10
+-3 -3 -3 -3
+DFJ 0 0 0
+8 8 2 9
+0 0 M 0
+#5835
+polar bear~
+a polar bear~
+a massive white bear slowly turns to meet you.
+~
+You see a huge bear with a white coast spotted with dried blood. uh-oh.
+~
+bear~
+FT 0 0 S
+23 5 1d1+673 1d1+100 3d6+6 13
+-3 -3 -3 -3
+DFJ 0 0 I
+8 8 2 0
+0 0 L 0
+#5836
+anaconda~
+an anaconda~
+a 35 foot long snake winds towards you here.
+~
+You see one long strong snake, it starts to coil around your leg.
+~
+human~
+FT 0 -500 S
+25 5 1d1+770 1d1+100 2d10+7 8
+1 1 1 1 
+DM 0 0 G
+8 8 1 0
+0 0 L 0
+#5837
+child~
+a small child~
+a small child is here petting the animals.
+~
+You see a small brat pulling the animals' tails.
+~
+human~
+BT 0 1000 S
+5 0 1d1+100 1d1+100 1d6+1 16
+0 0 0 0
+F 0 0 0
+0 0 0 0
+0 0 S 0
+#5838
+mouse~
+a voracious field mouse~
+a itty bitty mouse with HUGE fangs and a stomach you can hear rumbling.
+~
+You see one hungry mouse, FEED the mouse.
+~
+human~
+FGT 0 -500 S
+25 3 1d1+770 1d1+100 2d10+7 23
+0 0 0 0 
+DF 0 0 0
+8 8 1 0
+0 0 S 0
+#0
+
+#OBJECTS
+#5801
+fish piece blow~
+a piece of blowfish meat~
+a nice chunk of meat from the blowfish. Rumor has it this meat must be specially
+prepared lest the consumer be poisoned.~
+food~
+19 0 A 
+8 0 0 0 0
+7 1 100 P
+#5802
+fish piece blow~
+a piece of blowfish meat~
+a nice chunk of meat from the blowfish. Rumor has it this meat must be specially
+prepared lest the consumer be poisoned.~
+food~
+26 0 A 
+15 33 0 0 0
+7 1 100 P
+#5803
+bearskin belt~
+bearskin belt~
+a belt made from the finest bearskin.~
+leather~
+9 0 AL
+7 7 7 7 0
+11 5 200 P
+A
+5 1
+A 
+19 2
+#5805
+deer bladder~
+a deer's bladder~
+the bladder from a poor dead deer is here, might make a good bottle.~
+leather~
+17 0 A
+50 0 0 0 0
+1 1 10 P
+#5806
+campaign cover~
+Campaign Cover~
+a olive green smokey bear hat.~
+leather~
+9 AK AE
+7 7 7 7 0
+15 4 750 P
+A
+1 1
+A
+18 1
+#5807
+broom~
+a Filthy Broom~
+a filth ridden old broom~
+wood~
+5 0 AN
+8 4 6 13 0
+10 10 500 P
+A
+18 2
+A
+19 1
+#5808
+badge zoo~
+a zoo official's badge~
+the identification of a employee of the zoo~
+steel~
+9 0 AC
+5 5 5 5 0
+15 1 1 P
+A
+17 -5
+#5809
+wax bear~
+A wax bear~
+a small wax scultpure of a bear.~
+paper~
+13 0 A
+0 0 0 0 0
+1 0 0 P
+#5810
+wax lion~
+A wax lion~
+a small wax scultpure of a lion.~
+paper~
+13 0 A
+0 0 0 0 0
+1 0 0 P
+#5811
+wax wolf~
+A wax wolf~
+a small wax scultpure of a wolf.~
+paper~
+13 0 A
+0 0 0 0 0
+1 0 0 P
+#5812
+rattle~
+a Rattle~
+a torn off tail of a venomouse rattlesnake~
+leather~
+3 B AO
+15 5 5 203 0
+10 1 100 P
+#5813
+head lamp headlamp~
+headlamp~
+a small headband with a magic light attached~
+cloth~
+1 A AO
+0 0 9999 0 0
+10 3 100 P
+A
+24 -1 
+#5814
+tourist camera~
+a tourist's camera~
+a camera with an obnoxiously large flash, taken from the belly of the polar bear~
+steel~
+3 AB AO
+25 2 2 61 0
+25 1 100 P
+#0
+
+#ROOMS
+#5801
+Barn~
+This is the barn where all the cuddly petting zoo
+animals sleep at. There is a bale of hay in the 
+corner.
+~
+58 D 0
+D1
+Back into the petting area.
+~
+~
+0 -1 5802
+D2
+Back into the petting area.
+~
+~
+0 -1 5803
+S
+#5802
+Petting area~
+Plenty of visitors are in the field here petting the
+various animals. Some of the gasp when they see such
+a bloody group of adventurer's as yourself.
+~
+58 D 1
+D2
+Petting Zoo gate.
+~
+~
+0 -1 5804
+D3
+Inside the Barn.
+~
+~
+0 -1 5801
+S
+#5803
+Petting area~
+Plenty of visitors are in the field here petting the
+various animals. Some of the gasp when they see such
+a bloody group of adventurer's as yourself.
+~
+58 D 1
+D0
+Inside the Barn.
+~
+~
+0 -1 5801
+D1
+Petting Zoo gate.
+~
+~
+0 -1 5804
+S
+#5804
+Petting Zoo Gate~
+This is the entrance to the petting zoo portion of the 
+city zoo. Beyond the gates you see children frolicking
+with the animals.
+~
+58 CD 1
+D0
+Into the petting area.
+~
+~
+0 -1 5802
+D3
+Into the petting area.
+~
+~
+0 -1 5803
+D8
+To the North Path.
+~
+~
+0 -1 5832
+S
+#5805
+Aquarium~
+A strange magical force allows you to move through the 
+water here effortlessly and without need for oxygen.
+~
+58 D 0
+D1
+Aquarium.
+~
+~
+0 -1 5806
+D2
+Aquarium Edge.
+~
+~
+0 -1 5807
+S
+#5806
+Aquarium~
+A strange magical force allows you to move through the 
+water here effortlessly and without need for oxygen.
+~
+58 D 1
+D2
+Aquarium.
+~
+~
+0 -1 5808
+D3
+Aquarium.
+~
+~
+0 -1 5805
+S
+#5807
+Aquarium Edge~
+You stand on the edge of the aquarium. You can see the
+fish swimming inside, some large, some small...some
+ferocious. A sign stands at the edge.
+~
+58 CD 0
+D0
+Aquarium.
+~
+~
+0 -1 5805
+D1
+Aquarium.
+~
+~
+0 -1 5808
+D9
+To the North Path.
+~
+~
+0 -1 5832
+S
+#5808
+Aquarium~
+A strange magical force allows you to move through the 
+water here effortlessly and without need for oxygen.
+~
+58 D 0
+D0
+Aquarium.
+~
+~
+0 -1 5806
+D3
+Aquarium Edge.
+~
+~
+0 -1 5807
+S
+#5809
+Reptilium~
+This room has the appearance of a lush jungle setting.
+Apparently, the creature who exist here enjoy the gnats,
+mosquitoes and other insects which inhabit it.
+~
+58 D 0
+D1
+Reptilium.
+~
+~
+0 -1 5810
+D2
+Reptilium.
+~
+~
+0 -1 5811
+S
+#5810
+Reptilium~
+This room has the appearance of a lush jungle setting.
+Apparently, the creature who exist here enjoy the gnats,
+mosquitoes and other insects which inhabit it.
+~
+58 D 0
+D2
+Reptile Exhibit.
+~
+~
+0 -1 5812
+D3
+Reptilium.
+~
+~
+0 -1 5809
+S
+#5811
+Reptilium~
+This room has the appearance of a lush jungle setting.
+Apparently, the creature who exist here enjoy the gnats,
+mosquitoes and other insects which inhabit it.
+~
+58 D 0
+D0
+Reptilium.
+~
+~
+0 -1 5809
+D1
+Reptile Exhibit.
+~
+~
+0 -1 5812
+S
+#5812
+Reptile Exhibit~
+You stand before a jungle. Well, it looks like a jungle.
+But you're smart, so you know it's only a model.
+~
+58 CD 0
+D0
+Reptilium.
+~
+~
+0 -1 5810
+D3
+Reptilium.
+~
+~
+0 -1 5811
+D8
+To the West Path.
+~
+~
+0 -1 5833
+S
+#5813
+The Den~
+The Bear's exhibit simulates a rather rocky mountain 
+environment. There is a field of trees and boulders,
+split by a small stream that seems to be teeming with
+fish, this must be the food source for the bears.
+~
+58 D 0
+D1
+Bear Den.
+~
+~
+0 -1 5814
+D2
+The Den.
+~
+~
+0 -1 5815
+S
+#5814
+Bear Den~
+The view from this location is exquisite. You can
+see that this might actually the largest of the
+exhibits, the region simulated here seems to 
+extend thousands of yards.
+~
+58 CD 0
+D2
+The Den.
+~
+~
+0 -1 5816
+D3
+The Den.
+~
+~
+0 -1 5813
+D6
+To the West Path.
+~
+~
+0 -1 5833
+S
+#5815
+The Den~
+The Bear's exhibit simulates a rather rocky mountain 
+environment. There is a field of trees and boulders,
+split by a small stream that seems to be teeming with
+fish, this must be the food source for the bears.
+~
+58 D 0
+D0
+The Den.
+~
+~
+0 -1 5813
+D1
+The Den.
+~
+~
+0 -1 5816
+S
+#5816
+The Den~
+The Bear's exhibit simulates a rather rocky mountain 
+environment. There is a field of trees and boulders,
+split by a small stream that seems to be teeming with
+fish, this must be the food source for the bears.
+~
+58 D 0
+D0 
+Bear Den.
+~
+~
+0 -1 5814
+D3
+The Den.
+~
+~
+0 -1 5815
+S
+#5817
+Savannah~
+This flat savanna posses small promontories upon
+which the wild cats of this are perched on.
+~
+58 D 1
+D1
+Cat Exhibit.
+~
+~
+0 -1 5818 
+D2
+Cat Exhibit.
+~
+~
+0 -1 5819
+S
+#5818
+Cat Exhibit~
+The cat exhibit is quite possibly the simplest
+of the outdoors exhibits. It consist entirely
+of an African plain.
+~
+58 CD 1
+D2
+Savannah.
+~
+~
+0 -1 5820
+D3
+Savannah.
+~
+~
+0 -1 5817
+D6
+To the South Path.
+~
+~
+0 -1 5834
+S
+#5819
+Savannah~
+This flat savanna posses small promontories upon
+which the wild cats of this are perched on.
+~
+58 D 1
+D0
+Savannah.
+~
+~
+0 -1 5817
+D1
+Savannah.
+~
+~
+0 -1 5820
+S
+#5820
+Savannah~
+This flat savanna posses small promontories upon
+which the wild cats of this are perched on.
+~
+58 D 1
+D0
+Cat Exhibit.
+~
+~
+0 -1 5818
+D3
+Savannah.
+~
+~
+0 -1 5819
+S
+#5821
+Dog Ranch~
+This simple ranch has fenced in areas containing
+several different species of dogs. It appears that
+the dogs have dug underneath the fences as the all
+are intermixing.
+~
+58 CD 1
+D1
+Fenced-in Area.
+~
+~
+0 -1 5822
+D2
+Fenced-in Area.
+~
+~
+0 -1 5823
+S
+#5822
+Fenced-in Area~
+This are used to contain wolves and wargs, but the
+fence has been tunneled under, so there are coyotes, 
+wargs, wolves, and fidos in here.
+~
+58 D 1
+D2
+Fenced-in Area.
+~
+~
+0 -1 5824
+D3
+Dog Ranch.
+~
+~
+0 -1 5821
+S
+#5823
+Fenced-in Area~
+This are used to contain only coyotes, but the
+fence has been tunneled under, so there are coyotes, 
+wargs, wolves, and fidos in here.
+~
+58 D 1
+D0
+Dog Ranch.
+~
+~
+0 -1 5821
+D1
+Fenced-in Area.
+~
+~
+0 -1 5824
+S
+#5824
+Fenced-in Area~
+This are used to contain fidos, but the fence has been
+tunneled under, so there are coyotes, wargs, wolves,
+and fidos in here.
+~
+58 D 1
+D0
+Fenced-in Area.
+~
+~
+0 -1 5822
+D3
+Fenced-in Area.
+~
+~
+0 -1 5823
+S
+#5825
+Dangerous Creatures Exhibit~
+Years of neglect have worn this exhibit down. Hungry and
+scared, these animals though aggressive by any definition
+have been driven to insane assaults on anything which 
+might provide it dinner.
+~
+58 D 1
+D1
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5826
+D2
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5827
+D3
+~
+~
+0 -1 5829
+S
+#5826
+Dangerous Creatures Exhibit~
+Years of neglect have worn this exhibit down. Hungry and
+scared, these animals though aggressive by any definition
+have been driven to insane assaults on anything which 
+might provide it dinner.
+~
+58 D 1
+D2
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5828
+D3
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5825
+S
+#5827
+Dangerous Creatures Exhibit~
+Years of neglect have worn this exhibit down. Hungry and
+scared, these animals though aggressive by any definition
+have been driven to insane assaults on anything which 
+might provide it dinner.
+~
+58 D 1
+D0
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5825
+D1
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5828
+S
+#5828
+Dangerous Creatures Exhibit~
+Years of neglect have worn this exhibit down. Hungry and
+scared, these animals though aggressive by any definition
+have been driven to insane assaults on anything which 
+might provide it dinner.
+~
+58 D 1
+D0
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5826
+D3
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5827
+S
+#5829
+DCE Observation Room~
+This room was used by zoo official to observe the Dangerous
+Creatures Exhibit (DCE) while construction was in progress
+on the display. The glass dividing the exhibit and this room
+is broken allowing free access to the animals inside, and 
+free access from them to you!
+~
+58 CD 1
+D3
+Zoo Entrance Area.
+~
+~
+0 -1 5830
+D1
+Dangerous Creatures Exhibit.
+~
+~
+0 -1 5825
+S
+#5830
+Zoo Entrance Area~
+Welcome to the City Zoo. To the North lie the Aquatic Center 
+and Petting Zoo. West you will find the Reptilium and the
+Bear's Den. South are the Dog Ranch and the Cat Exhibit.
+For your souvenir's, you will find the Zoo's gift shop east.
+The entrance to the Dangerous Creature exhibit to the southeast,
+has apparently been boarded up.
+~
+58 D 1
+D0
+To the North Path.
+~
+~
+0 -1 5832
+D8
+Zoo Gift Shop.
+~
+~
+0 -1 5831
+D2
+To the South Path.
+~
+~
+0 -1 5834
+D3
+To the West Path.
+~
+~
+0 -1 5833
+D5
+To XXXXXXX
+~
+~
+0 -1 5833
+D1
+DCE Observation Room.
+~
+board~
+4 -1 5829
+S
+#5831
+Zoo Gift Shop~
+The Zoo gift shop is sparsely decorated in a Safari
+fashion. The Shopkeeper is courteous and wait patiently
+for you to make your selection.
+~
+58 D 0
+D7
+Zoo Entrance Area.
+~
+~
+0 -1 5830
+S
+#5832
+The North Path~
+As you walk north from the Zoo Entrance you start to hear 
+splashing and the grunting of a pig. A sign directs you 
+to the Northwest for the Petting Zoo and the Northeast
+for the Aquatic Center.
+~
+58 D 1
+D2
+Zoo Entrance Area.
+~
+~
+0 -1 5830
+D6
+To the Aquarium Edge.
+~
+~
+0 -1 5807
+D7
+To the Petting Zoo Gate.
+~
+~
+0 -1 5804
+S
+#5833
+The West Path~
+As you stroll west from the Zoo entrance you hear some
+roars and bear calls. A sign directs you to the Northwest
+for the Reptilium and to the Southwest for the Bear Den.
+~
+58 D 1
+D1
+Zoo Entrance Area.
+~
+~
+0 -1 5830
+D7
+Reptile Exhibit.
+~
+~
+0 -1 5812
+D9
+Bear Den.
+~
+~
+0 -1 5814
+S
+#5834
+The South Path~
+As you wander south from he Zoo entrance you start to 
+hear barking and load purring. A sign directs you to
+the Southwest for the Cat Exhibit and Southeast for 
+the Dog Ranch.
+~
+58 D 1
+D0
+Zoo Entrance Area.
+~
+~
+0 -1 5830
+D8
+To the Dog Ranch.
+~
+~
+0 -1 5821
+D9
+To the Cat Exhibit.
+~
+~
+0 -1 5818
+S
+
+#0
+
+#RESETS
+D 0 5830 1 1
+M 0 5801 2 5805		* Dolphins
+M 0 5802 2 5806		* Blowfish
+G 1 5801 20
+G 1 5802 20
+M 0 5803 2 5808		* Barracuda
+M 0 5804 2 5805		* Angler Fish
+M 0 5805 2 5806		* Eel
+M 0 5806 2 5808		* Octopus
+M 0 5807 2 5806		* Shark
+M 0 5808 2 5802		* Goat
+M 0 5809 2 5801		* Llama
+M 0 5810 2 5802		* Cow
+M 0 5811 2 5803		* Pig
+M 0 5813 2 5801		* Deer
+G 1 5805 20
+M 0 5814 2 5810		* Cobra
+M 0 5815 2 5811		* Rattlesnake
+G 1 5812 20
+M 0 5816 2 5809		* Iguana
+M 0 5817 1 5809		* Loch Ness
+M 0 5818 2 5814		* Teddy Bear
+M 0 5819 2 5816		* Panda Bear
+M 0 5820 2 5814		* Brown Bear
+M 0 5821 2 5815		* Black Bear
+E 1 5803 2 13
+M 0 5822 2 5817
+		* Lynx
+M 0 5823 2 5820		* Cougar
+M 0 5824 2 5817		* Lion
+M 0 5825 2 5819		* Tiger
+M 0 5826 2 5822		* Fido
+M 0 5827 2 5823		* Coyote
+M 0 5828 2 5824		* Wolf
+M 0 5829 2 5824		* Warg
+M 0 5830 2 5830		* Zoo Official
+E 1 5806 20 6
+E 1 5808 20 16
+M 0 5831 1 5831		* Salesperson
+G 1 5809 -1
+G 1 5810 -1
+G 1 5811 -1
+M 0 5832 12 5806	* Cage Cleaner
+E 1 5807 1 4
+E 1 5813 1 3
+M 0 5832 1 5801
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5832 1 5809
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5832 1 5813
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5832 1 5819
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5832 1 5823
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5832 1 5826
+E 1 5813 1 3
+E 1 5807 1 4
+M 0 5833 2 5826		* Crocs
+M 0 5834 2 5826		* Grizzly
+M 0 5835 2 5828		* Polar
+G 1 5814 20
+M 0 5836 2 5827		* Anaconda
+M 0 5838 2 5828		* Mouse
+M 0 5837 4 5803		* Child
+M 0 5837 4 5801
+M 0 5837 4 5802
+S
+
+#SHOPS
+5831 9 19 5 0 0 125 100 8 22
+0
+
+#SPECIALS
+M 5831 spec_janitor
+M 5814 spec_poison
+M 5815 spec_poison
+S
+
+#$
+ 

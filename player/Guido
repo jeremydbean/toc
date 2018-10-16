@@ -1,0 +1,813 @@
+#PLAYER
+Name Guido~
+Id   31939
+LogO 952402833
+Vers 3
+Desc Here you see a hunk of burning love...Guido, the Italian with the tight
+leather pants. Yow! *sizzle* Don't you think it's sexy how his hairy
+chest puffs out from between his unbuttoned silk shirt? He looks at you
+and smiles, his gold teeth flashing in the light of the sun. This man
+just oozes with one descriptive word....PIMP!!!!
+
+(this description was, in no way meant to stereotype the Italians).
+
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  1
+Cast none
+Levl 54
+Plyd 1372270
+ListRemorts ~
+NumRemorts 0
+Note 952389700
+Scro 38
+Room 2537
+HMV  893 1193 295 295 143 203
+NewGold 43
+NewPlat 393
+NewCopp 312
+NewSilv 73
+Bank 185000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 309
+Exp  177332
+Act  67174616
+AfBy 524800
+AfBy2 64
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 1
+Color 3 1
+Color 4 1
+Color 5 1
+Color 6 1
+Color 7 1
+Color 8 0
+Color 9 10
+Color 10 4
+Color 11 0
+Color 12 11
+Color 13 1
+Color 14 0
+Color 15 1
+Color 16 5
+Pos  8
+Save  -3
+Alig  1000
+Hit   58
+Dam   87
+ACs -75 -68 -80 19
+Wimp  250
+Attr 14 13 13 16 17
+AMod 13 2 2 3 2
+Pass GuVa5km.RVbQM~
+Ariv A Black Dragon swoops in from $T, depositing $n here.~
+Dprt $n eastwenorthwestsoustwesteastea$tnorwestnorthsouthnor~
+Titl  the Warrior Princess~
+Pnts 40
+TSex 1
+LLev 355
+HMVP 1148 185 418
+Cond 0 26 48
+Alias pa put all pack~
+Alias on open north~
+Alias ow open west~
+Alias os open south~
+Alias oe open east~
+Alias cr get all corpse~
+Alias ga get all~
+Alias nr note read~
+Alias nl note list~
+Alias od open down~
+Alias ou open up~
+Alias wa wear all~
+Alias ba bash~
+Alias st stealth~
+Alias wd wear dagger~
+Alias ws wear sword~
+Alias gs get sword~
+Alias te track lobstrosity~
+Alias wm wear mace~
+Sk 82 'clairvoyance'
+Sk 88 'mindblast'
+Sk 36 'nightmare'
+Sk 15 'psionic armor'
+Sk 94 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'archery'
+Sk 100 'backstab'
+Sk 100 'bash'
+Sk 100 'dodge'
+Sk 100 'dual wield'
+Sk 74 'fatality'
+Sk 100 'parry'
+Sk 92 'trip'
+Sk 100 'second attack'
+Sk 100 'hide'
+Sk 100 'peek'
+Sk 83 'pick lock'
+Sk 100 'shove'
+Sk 100 'sneak'
+Sk 75 'search'
+Sk 100 'sleight of hand'
+Sk 93 'steal'
+Sk 100 'stealth'
+Sk 75 'track'
+Sk 88 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'   0   2   0   0          0         64
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 17020
+Nest 1
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29282
+Nest 1
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 29282
+Nest 1
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 9924
+Nest 1
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9101
+Nest 1
+Wear -1
+Lev  22
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6509
+Nest 1
+Wear -1
+Lev  18
+Cost 2500
+Cond 100
+Repd 0
+Val  5 4 6 21 32
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9925
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6600
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3025
+Nest 1
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 1
+Wear -1
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9923
+Nest 1
+ExtF 1048579
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Time 792
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+Name scars~
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9101
+Nest 0
+Wear 8
+Lev  22
+Time 467
+Cost 2000
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 9924
+Nest 0
+Wear 11
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 0
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  8 8 13 8 0
+End
+
+#O
+Vnum 28130
+Nest 0
+Wear 16
+Lev  45
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#END

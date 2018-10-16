@@ -1,0 +1,236 @@
+#PLAYER
+Name Virus~
+Id   20528
+LogO 953425171
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 34
+Plyd 141765
+ListRemorts ~
+NumRemorts 0
+Note 952389700
+Scro 22
+Room 4207
+HMV  375 375 210 408 298 298
+NewGold 151
+NewPlat 18
+NewCopp 113
+NewSilv 84
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  68343
+Act  204
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 6
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 6
+Color 13 12
+Color 14 14
+Color 15 1
+Color 16 14
+Pos  8
+Prac 7
+Trai 4
+Alig  1000
+ACs 100 100 100 100
+Wimp  30
+Attr 13 19 13 13 18
+AMod 0 0 0 0 0
+Pass ViU8i86iDmx6w~
+Ariv You start to cough up blood as a $n comes in from $T.~
+Dprt You feel better as the $n floats off $t.~
+Titl  the Greater Dragon Charmer~
+Pnts 40
+TSex 1
+LLev 36
+HMVP 375 408 298
+Cond 0 0 0
+Sk 78 'acid blast'
+Sk 75 'armor'
+Sk 83 'burning hands'
+Sk 75 'cancellation'
+Sk 1 'chain lightning'
+Sk 1 'chill touch'
+Sk 86 'colour spray'
+Sk 76 'detect invis'
+Sk 75 'dispel magic'
+Sk 75 'faerie fire'
+Sk 76 'fireball'
+Sk 77 'fire shield'
+Sk 76 'fly'
+Sk 76 'force sword'
+Sk 75 'frost shield'
+Sk 79 'gate'
+Sk 76 'giant strength'
+Sk 78 'haste'
+Sk 1 'haven'
+Sk 75 'heat metal'
+Sk 78 'identify'
+Sk 75 'infravision'
+Sk 80 'lightning bolt'
+Sk 1 'magic missile'
+Sk 75 'major globe'
+Sk 94 'mana convert'
+Sk 76 'pass door'
+Sk 75 'portal'
+Sk 78 'power gloves'
+Sk 75 'protection evil'
+Sk 78 'refresh'
+Sk 75 'rope trick'
+Sk 75 'sanctuary'
+Sk 75 'shield'
+Sk 75 'shocking grasp'
+Sk 86 'slow'
+Sk 75 'stone skin'
+Sk 75 'summon'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 92 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 87 'sword'
+Sk 20 'whip'
+Sk 79 'dodge'
+Sk 75 'scrolls'
+Sk 75 'wands'
+Sk 76 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'infravision'  39  14   0   0        512          0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 12 0 0 0
+End
+
+#O
+Vnum 80
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear -1
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  10 0 1 0 0
+End
+
+#END

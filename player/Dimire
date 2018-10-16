@@ -1,0 +1,1327 @@
+#PLAYER
+Name Dimire~
+Id   65528
+LogO 953254953
+Vers 3
+Desc Your crane dance does UNSPEAKABLE things to The Watcher!
+~
+Prom ~
+Ignoring goku~
+Race dwarf~
+Sex  1
+Cla  4
+Gui  4
+Psionic  2
+Cast none
+Levl 47
+Plyd 395732
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4209
+HMV  903 1036 514 514 303 351
+NewGold 15
+NewPlat 2315
+NewCopp 278
+NewSilv 46
+Bank 1000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 133
+Exp  108767
+Act  204
+AfBy 512
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 0
+Color 6 9
+Color 7 4
+Color 8 7
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 2
+Save  -4
+Alig  1000
+Hit   28
+Dam   33
+ACs -56 -51 -45 51
+Attr 14 13 14 12 21
+AMod 10 6 0 6 4
+Pass DizrkVY8sWWhg~
+Titl  the Master Monk~
+Pnts 40
+TSex 1
+LLev 104
+HMVP 991 379 376
+Cond 0 35 37
+Sk 8 'axe'
+Sk 91 'dagger'
+Sk 6 'flail'
+Sk 93 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 91 'sword'
+Sk 15 'whip'
+Sk 50 'bash'
+Sk 96 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'hand to hand'
+Sk 91 'kick'
+Sk 100 'parry'
+Sk 14 'trip'
+Sk 95 'second attack'
+Sk 55 'crane dance'
+Sk 76 'fists of fury'
+Sk 66 'herbal brewing'
+Sk 50 'iron skin'
+Sk 49 'nerve damage'
+Sk 35 'steel fist'
+Sk 42 'fast healing'
+Sk 25 'meditation'
+Sk 69 'shove'
+Sk 61 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  13
+Cost 1250
+Cond 61
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 78
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  150 104 0 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 25000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear -1
+Lev  30
+Cost 0
+Cond 73
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 90
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 29
+Repd 0
+End
+
+#O
+Vnum 19118
+Nest 0
+Wear -1
+Lev  19
+Cost 900
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear -1
+Lev  35
+Cost 750
+Cond 99
+Repd 0
+Val  0 0 7499 0 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 0
+Cond 95
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 15022
+Nest 0
+ExtF 3
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  1 4 6 11 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 10049
+Enchanted
+Nest 0
+ExtF 2100547
+Wear -1
+Lev  34
+Cost 2300
+Cond 100
+Repd 0
+AffD 'enchant weapon' 36 -1 6 18 0 0
+AffD 'enchant weapon' 36 -1 10 19 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear 11
+Lev  26
+Cost 0
+Cond 86
+Repd 0
+End
+
+#O
+Vnum 17112
+Nest 0
+Wear -1
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Affect -1 45 -1 3 5 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+Affect -1 40 -1 2 5 0 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 74
+Nest 1
+Name blue tea~
+ShD  a blue container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  37 35 103 -1 0
+Spell 1 'cure light'
+Spell 2 'refresh'
+End
+
+#O
+Vnum 74
+Nest 1
+Name lavender tea~
+ShD  a lavender colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  38 38 34 -1 0
+Spell 1 'cure serious'
+Spell 2 'cure disease'
+End
+
+#O
+Vnum 74
+Nest 1
+Name golden tea~
+ShD  a golden container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  38 35 100 -1 0
+Spell 1 'cure light'
+Spell 2 'protection evil'
+End
+
+#O
+Vnum 74
+Nest 1
+Name redish-black tea~
+ShD  a redish-black container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  39 115 97 6 0
+Spell 1 'sleep'
+Spell 2 'poison'
+Spell 3 'blindness'
+End
+
+#O
+Vnum 74
+Nest 1
+Name hazel tea~
+ShD  a hazel colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  39 35 11 -1 0
+Spell 1 'cure light'
+Spell 2 'calm'
+End
+
+#O
+Vnum 74
+Nest 1
+Name pale green tea~
+ShD  a pale green container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  39 35 -1 -1 0
+Spell 1 'cure light'
+End
+
+#O
+Vnum 74
+Nest 1
+Name sapphire tea~
+ShD  a sapphire container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  39 33 36 -1 0
+Spell 1 'cure critical'
+Spell 2 'cure nightmare'
+End
+
+#O
+Vnum 74
+Nest 1
+Name bloodstone tea~
+ShD  a bloodstone container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  39 35 81 -1 0
+Spell 1 'cure light'
+Spell 2 'infravision'
+End
+
+#O
+Vnum 74
+Nest 1
+Name diamond tea~
+ShD  a diamond container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 38 34 36 0
+Spell 1 'cure serious'
+Spell 2 'cure disease'
+Spell 3 'cure nightmare'
+End
+
+#O
+Vnum 74
+Nest 1
+Name sea green tea~
+ShD  a sea green container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 37 -1 -1 0
+Spell 1 'cure poison'
+End
+
+#O
+Vnum 74
+Nest 1
+Name onyx tea~
+ShD  a onyx container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 33 33 0
+Spell 1 'cure light'
+Spell 2 'cure critical'
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 74
+Nest 1
+Name purple tea~
+ShD  a purple colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 71 -1 0
+Spell 1 'cure light'
+Spell 2 'giant strength'
+End
+
+#O
+Vnum 74
+Nest 1
+Name plain tea~
+ShD  a plain container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 -1 -1 0
+Spell 1 'cure light'
+End
+
+#O
+Vnum 74
+Nest 1
+Name silver tea~
+ShD  a silver container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 38 -1 0
+Spell 1 'cure light'
+Spell 2 'cure serious'
+End
+
+#O
+Vnum 74
+Nest 1
+Name white tea~
+ShD  a white container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 35 32 -1 0
+Spell 1 'cure light'
+Spell 2 'cure blindness'
+End
+
+#O
+Vnum 74
+Nest 1
+Name green tea~
+ShD  a green container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  40 38 -1 -1 0
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 74
+Nest 1
+Name off-white tea~
+ShD  an off-white container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  46 35 47 -1 0
+Spell 1 'cure light'
+Spell 2 'detect poison'
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 91
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 1
+Wear -1
+Lev  20
+Cost 1000
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 45 -1 -5 5 0 0
+End
+
+#O
+Vnum 2401
+Nest 0
+Wear -1
+Lev  35
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear 8
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 97
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 2 24 0 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 13275
+Nest 0
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear -1
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

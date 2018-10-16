@@ -1,0 +1,467 @@
+#PLAYER
+Name Valkyrie~
+Id   61121
+LogO 950387932
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  0
+Cast none
+Levl 8
+Plyd 8199
+ListRemorts ~
+NumRemorts 0
+Note 937693306
+Scro 22
+Room 4208
+HMV  130 130 110 110 342 342
+NewGold 42829
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  19468
+Act  65740
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 13
+Color 3 8
+Color 4 0
+Color 5 0
+Color 6 10
+Color 7 12
+Color 8 13
+Color 9 0
+Color 10 12
+Color 11 10
+Color 12 9
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 7
+Pos  8
+Prac 11
+Trai 6
+Alig  -689
+Hit   6
+Dam   7
+ACs 30 21 23 75
+Attr 17 13 12 12 15
+AMod 7 3 4 1 4
+Pass Va5dQFf0keS8Y~
+Titl ...~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 130 110 142
+Cond 0 21 5
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 76 'shield block'
+Sk 10 'spear'
+Sk 71 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 75 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 67 'second attack'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 70 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+AffD 'armor'  56   6 -20  17          0          0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear 12
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5776
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 225
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear 16
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 4
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 3
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13270
+Nest 0
+Wear -1
+Lev  4
+Cost 50
+Cond 100
+Repd 0
+Spell 1 'refresh'
+Spell 2 'cure light'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 4101
+Nest 0
+Wear 9
+Lev  8
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 8712
+Nest 0
+Wear 5
+Lev  7
+Cost 1000
+Cond 100
+Repd 0
+Val  4 5 4 0 0
+End
+
+#O
+Vnum 8717
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#END

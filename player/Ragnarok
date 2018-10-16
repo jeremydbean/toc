@@ -1,0 +1,988 @@
+#PLAYER
+Name Ragnarok~
+Id   23585
+LogO 941150184
+Vers 3
+Desc Ragnarok is a tall, slender mage wearing a vivid red robe and some sort of runed
+tunic.  He has a friendly disposition and gazes about the room with a shy smile.
+As he catches your glance he asks, 'Can I help you?'
+~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 51
+Plyd 1500284
+ListRemorts ~
+NumRemorts 0
+Note 940965593
+Scro 22
+Room 4204
+HMV  171 620 672 706 400 400
+Gold 63591
+Bank 824889
+Dcount 1
+Corpses	0
+PkRec 1
+PkGiv 0
+QuestPnts 325
+Exp  111386
+Act  216
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 3
+Color 3 3
+Color 4 3
+Color 5 8
+Color 6 11
+Color 7 3
+Color 8 3
+Color 9 14
+Color 10 12
+Color 11 7
+Color 12 13
+Color 13 2
+Color 14 5
+Color 15 2
+Color 16 9
+Pos  8
+Prac 5
+Trai 1
+Save  5
+Alig  1000
+Hit   29
+Dam   33
+ACs 8 6 1 65
+Wimp  40
+Attr 12 21 18 14 18
+AMod 7 3 1 -1 -4
+Pass RaXiqdLbyGZBM~
+Ariv Trumpets sound and bells ring as $n enters from $T.~
+Dprt Mourners line up to watch $n depart $t.~
+Titl  Ask About Our Free Spell-Ups!~
+Pnts 40
+TSex 1
+LLev 369
+HMVP 550 566 400
+Cond 0 30 18
+Alias fire cast 'faerie fire'~
+Alias flame cast 'fire shield'~
+Alias dv cast 'detect invis'~
+Alias ds cast 'dispel magic'~
+Alias q aquest request~
+Alias qp aquest points~
+Alias co aquest complete~
+Alias time aquest time~
+Alias a aquest abort~
+Alias qt sa *=={==QUEST=TIME==-~
+Alias good sa Wow!  I got~
+Alias okay sa Not bad, I got~
+Alias bad sa Bah!  I got~
+Alias inv c invis~
+Alias ooc .~
+Sk 100 'acid blast'
+Sk 90 'armor'
+Sk 77 'blizzard'
+Sk 93 'burning hands'
+Sk 75 'water burst'
+Sk 80 'cancellation'
+Sk 79 'chain lightning'
+Sk 86 'charm person'
+Sk 75 'chill touch'
+Sk 75 'colour spray'
+Sk 76 'cone of cold'
+Sk 90 'detect invis'
+Sk 88 'dispel magic'
+Sk 76 'dust devil'
+Sk 100 'faerie fire'
+Sk 100 'fireball'
+Sk 82 'fire shield'
+Sk 92 'fly'
+Sk 82 'force sword'
+Sk 76 'frost shield'
+Sk 100 'gate'
+Sk 96 'giant strength'
+Sk 75 'geyser'
+Sk 100 'haste'
+Sk 87 'haven'
+Sk 75 'heat metal'
+Sk 75 'icicle'
+Sk 100 'identify'
+Sk 75 'infravision'
+Sk 95 'invis'
+Sk 94 'lightning bolt'
+Sk 100 'locate object'
+Sk 82 'magic missile'
+Sk 84 'major globe'
+Sk 100 'mana convert'
+Sk 77 'mass invis'
+Sk 75 'meteor swarm'
+Sk 90 'pass door'
+Sk 84 'portal'
+Sk 84 'power gloves'
+Sk 85 'protection evil'
+Sk 84 'refresh'
+Sk 86 'rope trick'
+Sk 100 'sanctuary'
+Sk 92 'shield'
+Sk 75 'shocking grasp'
+Sk 75 'sleep'
+Sk 96 'slow'
+Sk 75 'stone skin'
+Sk 83 'summon'
+Sk 75 'sunray'
+Sk 76 'teleport'
+Sk 75 'vortex'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 21 'archery'
+Sk 100 'dodge'
+Sk 76 'concoct'
+Sk 76 'scribe'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 75 'wands'
+Sk 97 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'giant strength'  12  46   4   1          0          0
+AffD 'detect invis'  43  44   0   0          8          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2334
+Nest 1
+Wear -1
+Lev  26
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 1
+Wear -1
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Name M&M~
+ShD  (Melting) a bag of M&M's~
+Desc A bag of M&M's is lieing on the ground here melting away.~
+Act_room $n picks up the bag of M&M's and they melt all over the place.~
+Act_char Yummmy, melts in your mouth, not in your hand.~
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 908
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 1
+ExtF 0
+Wear -1
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8731
+Nest 1
+Wear -1
+Lev  32
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 1
+Wear -1
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 1361
+Nest 1
+Wear -1
+Lev  20
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 74
+Nest 2
+Name rainbow tea~
+ShD  a rainbow colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 35 103 106 0
+Spell 1 'cure light'
+Spell 2 'refresh'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 74
+Nest 2
+Name rainbow tea~
+ShD  a rainbow colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  20 35 103 106 0
+Spell 1 'cure light'
+Spell 2 'refresh'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 74
+Nest 2
+Name sapphire tea~
+ShD  a sapphire container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  25 33 36 -1 0
+Spell 1 'cure critical'
+Spell 2 'cure nightmare'
+End
+
+#O
+Vnum 74
+Nest 2
+Name golden tea~
+ShD  a golden container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  25 35 100 -1 0
+Spell 1 'cure light'
+Spell 2 'protection evil'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 904
+Nest 0
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Enchanted
+Nest 0
+ExtF 3146819
+Wear 16
+Lev  49
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 7 19 0 0
+AffD 'enchant weapon' 50 -1 7 18 0 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29217
+Nest 0
+Wear 0
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 1387
+Nest 0
+Wear -1
+Lev  17
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,3583 @@
+#AREA   {30 40} Soul.   Great Northern Sea~
+
+#MOBILES
+#6700
+goat mountain~
+a mountain goat~
+A mountain goat nibbles at a piece of grass here.
+~
+This goat is acclimated to the rugged terrain of the mountains.  It looks
+at you and shies away a little.
+~
+mammal~
+GHT 0 0 S
+30 15 6d12+853 2d30+130 4d6+8 15
+-6 -9 -7 0
+0 ACI E H
+8 8 1 0
+0 0 M 0
+#6701
+demon decay~
+a Demon of Decay~
+A cloaked and clawed demon of decay comes at you viciously!
+~
+This demon has pure malevolence for anything living. Oops!  You're living!
+I guess that means YOU!
+~
+undead~
+BFT D -750 S
+40 20 15d10+1850 2d40+240 4d8+13 29
+-12 -13 -12 -20
+DEFHK ABH E N
+8 8 0 100
+0 0 M 0
+#6702
+book monster guardian~
+the Book Monster~
+A mound of books rise up into a human shape and tries to hit you!
+~
+Ironically enough, the book-monster's head is War and Peace.  Hmmm.
+~
+unique~
+BFT D 0 S
+35 18 10d10+1300 2d35+235 4d7+11 27
+-10 -11 -10 -9
+C AB EI H
+8 8 0 100
+0 0 M 0
+#6703
+bad feeling~
+a Bad Feeling~
+A bad feeling chokes your throat.
+~
+It resembles a lot of other bad feelings you've had, but a lot more
+tangible....magic?
+~
+unique~
+BFT D 0 S
+31 16 6d12+928 2d31+231 4d6+9 26
+-10 -11 -9 -10
+EH AB CP O
+8 8 0 100
+0 0 M 0
+#6704
+nightmare~
+Your Worst Nightmare~
+Your worst nightmare coalesces in front of you and attacks!
+~
+It looks like you deepest, darkest fears personified. Wait a minute!
+It IS your deepest, darkest fears personified!
+~
+unique~
+BFT D 0 S
+33 17 10d10+1100 2d33+233 6d4+10 20
+-10 -11 -10 -10
+EH AB CP O
+8 8 0 100
+0 0 M 0
+#6705
+guardian~
+the Guardian~
+A guardian guards the door.  It looks at you and attacks!
+~
+The guardian guards the door. That's all its brain can handle: guarding.
+~
+giant~
+BFT D 0 S
+35 18 10d10+1300 2d35+235 4d7+11 0
+-11 -11 -11 -10
+CEIKN AB LQ C
+8 8 0 100
+0 0 L 0
+#6706
+demon god~
+a demon god~
+The very angry, smaller demon god spits curses and attacks!
+~
+Trapped by Rand, this smallish demon god seems quite annoyed, and very
+insane.... and quite deadly.
+~
+undead~
+BFRT BDFGHJOQTV -1000 S
+45 23 24d10+3000 2d45+445 8d4+21 18
+-15 -16 -15 -25
+CEFIJKMNOV ABH LQR N
+8 8 0 250
+0 0 L 0
+#6707
+sea dragon~
+a sea dragon~
+A Lung Wang notices you and attacks!
+~
+The enormous dragon-turtle is large enough to lift the sturdiest of ships.
+He has just noticed your approach and is preparing to ram you!
+~
+dragon~
+BCFG L 0 S
+35 17 10d10+1300 3d35+335 4d7+11 31
+-11 -11 -11 -3
+AEMO BKLR DEIP 0
+8 8 1 250
+0 0 G 0
+#6708
+dragon fish~
+a dragonfish~
+A dragonfish circles about apparently sizing you up.
+~
+This two foot long, mottled brown fish vaguely resembles a small dragon.
+It has a fringe of horny spines that look particularly nasty. Though small,
+it looks to be a formidable opponent.
+~
+fish~
+G 0 0 S
+30 15 6d12+853 3d30+330 4d6+8 10
+-9 -9 -9 0
+FH ABR I 0
+8 8 1 25
+0 0 S 0
+#6709
+kelpie~
+a kelpie~
+A large clump of seaweed drifts towards you.
+~
+Upon closer look, this "seaweed" resembles the legendary Kelpie, a form of
+intelligent aquatic plant life. You blink, and now, before you, is a very
+beautiful human female... though she has a slightly greenish tinge to her
+skin.
+~
+plant~
+CG L 0 S
+30 15 6d12+853 3d30+330 4d6+8 12
+-9 -9 -9 -2
+EFGN ABIR E G
+8 8 2 75
+0 0 M 0
+#6710
+hippocampus~
+a hippocampus~
+A hippocampus gallantly romps through the ocean.
+~
+This creature, while resembling a giant sea horse, has a long rear body
+similar to that of a great fish, and its forelegs end in powerful fins.
+This creature would make a marvelous ocean steed.
+~
+fish~
+G 0 0 S
+30 15 6d12+853 3d30+330 4d6+8 13
+-9 -9 -9 -2
+CEKO 0 0 0
+8 8 1 125
+0 0 L 0
+#6711
+sealion lion~
+a sea lion~
+A sea lion is on the hunt for food here.
+~
+With the head of an enormous lion and the body of a large sea serpent, this
+creature is not something to mess with.
+~
+fish~
+FG 0 0 S
+30 15 6d12+853 3d30+330 4d6+8 10
+-9 -9 -9 -2
+FM 0 0 0
+8 8 1 125
+0 0 L 0
+#6712
+locathah~
+the locathah~
+A locathat is busy hunting here.
+~
+This creature looks like a large man-shaped being with the head of a shark.
+The locathat does not approve of you raiding his hunting grounds. He gives a
+quick nod to his companions and attacks!
+~
+human~
+CFG LO 0 S
+35 17 10d10+1300 3d35+335 4d7+11 32
+-11 -11 -11 -1
+CEO BR EI H
+8 8 1 250
+0 0 L 0
+#6713
+aarakocra~
+an aarakocra~
+An aarakocra swoops down from the trees towards you.
+~
+This avian humanoid looks very intelligent... and very lethal. It appears
+that he has decided that he likes your equipment and is going to take it
+from you... or die trying.
+~
+human~
+CFG DFJQT 0 S
+30 15 6d12+853 3d30+330 4d6+8 5
+-9 -9 -9 -2
+BEF B E J
+8 8 1 100
+0 0 L 0
+#6714
+quaggoth~
+a quaggoth~
+A quaggoth is crouched here in a posture of attack.
+~
+These greenish colored, shaggy apes are rumored to have once been a proud
+race of jungle warriors. They had waged a war against the evil Slaad and
+lost. This was their punishment for their insolence.
+~
+human~
+CFG J 0 S
+32 16 10d10+1000 2d32+332 6d4+9 7
+-10 -10 -10 0
+CDEIKN BE P C
+8 8 1 100
+0 0 L 0
+#6715
+quaggoth chief~
+the quaggoth chief~
+The quaggoth chief chitters and grunts orders to his warriors here.
+~
+Larger than his warriors, this battle scarred leader looks as though he has
+won his position at a cost. His eyes burn with a deep hatred of those who
+still retain his former human form.
+~
+human~
+CFG J 0 S
+35 18 10d10+1300 2d35+235 4d7+11 7
+-10 -11 -10 0
+CDEIKN BE P 0
+8 8 1 200
+0 0 L 0
+#6716
+qullan~
+a qullan~
+The savage qullan stands here with an evil grin.
+~
+These insane head hunting warriors are held in thrall by the Slaad. Ordered
+to clear the jungles of all living beings not in service to the Slaad, they
+prepare for battle.
+~
+human~
+CFG J -800 S
+35 18 10d10+1300 2d35+235 4d7+11 7
+-10 -10 -10 0
+CDEIKN E BP 0
+8 8 1 150
+0 0 M 0
+#6717
+blue slaad~
+the blue slaad~
+The blue slaad croaks a word of warning and attacks!
+~
+This large humanoid frogman is the messenger class of the Slaad race. While
+larger, they are weaker than the others classes. They have two scimitar-like
+blades protruding from each of their webbed hands.
+~
+human~
+CFG J -650 S
+32 16 10d10+1000 2d32+332 6d4+9 5
+-10 -10 -10 0
+CDEIKN BE CP 0
+8 8 1 100
+0 0 L 0
+#6718
+red slaad~
+the red slaad~
+A red slaad is here, searching the jungle for new slaves for its master.
+~
+This large, red hued frogman is busily on the hunt for additional slaves for
+it's master! I wouldn't let him see you.. oops, too late!
+~
+human~
+CFG J -700 S
+34 17 10d10+1200 3d34+334 4d7+10 8
+-11 -11 -11 -3
+CDEIKN BE CP 0
+8 8 0 150
+0 0 L 0
+#6719
+green slaad~
+the green slaad~
+The green slaad is foraging for arcane components for its spells here.
+~
+You are amazed that such a stupid and hideous looking creature could be
+intelligent enough to master the black arts so well. It wears long, flowing
+robes made of some sort of jungle moss, that give off an eerie lumimescent
+light.
+~
+human~
+CFG J -750 S
+36 18 10d10+1400 3d36+336 3d10+11 19
+-12 -12 -12 -5
+CDEIKN BE CP 0
+8 8 0 150
+0 0 L 0
+#6720
+death slaadi~
+the death slaadi~
+The death slaadi looks up from his work, gives an evil hiss, and ATTACKS!.
+~
+The death slaadi is the overseer of all the lesser slaad. They are ferocious
+fighters and extremely adept spellcasters. Nearly half a man's height taller
+than the lesser species, this creature towers above you.
+~
+human~
+BCFG DFJ -800 S
+40 20 15d10+1850 4d40+440 4d8+13 19
+-13 -13 -13 -5
+CDEIKN BE CP 0
+8 8 0 150
+0 0 L 0
+#6721
+grey slaadi~
+the grey slaadi~
+The grey slaadi silently wipes the blood from his excutioner's axe and looks
+up.
+~
+The grey slaadi make up the assassins and executioners of the race. They are
+quick, agile, and intelligent.  They enjoy blood flow emensely and as such,
+choose the occupations which allow them to exerience it often.
+~
+human~
+CFG DFJ -800 S
+40 20 15d10+1850 4d40+440 4d8+13 27
+-13 -13 -13 -5
+CDEIKN BE CP 0
+8 8 0 150
+0 0 L 0
+#6722
+ygorl lord death slaadi~
+Ygorl~
+Ygorl, the Lord of Death, looks up and gives you a grin full of malice and
+evil fangs.
+~
+Ygorl is the brother of Ssendam, the other Slaad Lord. He is called the Lord
+of Death by his minions. The brothers are evenly matched and fight constantly
+to gain supreme power from the other. If they could end the quarrel and team
+up, they may actually be able to conquer lands beyond this jungle island.
+~
+human~
+BF DFHJT -1000 S
+45 23 25d10+3000 4d45+445 8d4+16 18
+-15 -15 -15 -9
+CDEIKN BE CP 0
+8 8 1 150
+0 0 L 0
+#6723
+ssendam lord insane slaadi~
+Ssendam~
+Ssendam, Lord of the Insane, stands here constantly changing from one form
+to another.
+~
+Ssendam is brother to Ygorl, and is called the Lord of the Insane by all. His
+constantly shifting shape will drive all insane if forced to watch him for too
+long.
+~
+human~
+BF DFHJT -1000 S
+45 23 25d10+3000 4d45+445 8d4+16 18
+-15 -15 -15 -9
+CDEIKN BE CP 0
+8 8 1 150
+0 0 L 0
+#6724
+boa snake constrictor~
+a boa constrictor~
+A 20 foot boa constrictor is here.
+~
+This has got to be the largest snake you have ever seen. Its head is the size
+of a large watermellon. It could surely swallow you whole.
+~
+snake~
+CFG DFJ 0 S
+35 18 10d10+1300 2d35+235 4d7+11 8
+-10 -10 -10 0
+0 0 0 0
+8 8 1 150
+0 0 L 0
+#6725
+ape monkey gorilla~
+a great ape~
+An enormous ape swings down from the trees and attacks!
+~
+The gorilla stands nearly 8 feet tall. Its fur has a slight greenish hue to
+it.  Elongated fangs protrude below it's bottom lip.  Clearly this ape is not
+a product of natural evolution.
+~
+human~
+CFG J 0 S
+37 19 10d10+1500 3d37+337 3d10+12 7
+-12 -12 -12 -1
+CDEIJKNO BQS E P
+8 8 1 50
+0 0 L 0
+#6726
+creeper vine plant~
+a creeper vine~
+A creeper vine slowly entangles your legs!
+~
+An enormous vine-like plant, with sharp thorns extending in all directions.
+A shiney substance drips from the tips of each thorn. I wouldn't get too close
+if I were you.
+~
+plant~
+FG PQ -200 S
+36 18 10d10+1400 3d36+336 3d10+11 26
+-12 -12 -12 0
+GN BL C H
+8 8 0 0
+0 0 H 0
+#6727
+bird seagull~
+a strange seabird~
+The strange seabird swoops down for a closer look.
+~
+A cross between a seagull and a heron, this bird seems harmless enough.
+~
+song bird~
+CG T 100 S
+30 15 6d12+853 3d30+330 4d6+8 23
+-9 -9 -9 0
+EFH B E J
+8 8 1 75
+0 0 M 0
+#6728
+seaskull bird~
+a seaskull~
+a seaskull makes a dive at you.
+~
+This creature looks like an overly large gull type of bird, except that
+instead of having feathers upon its head, it has only the gleaming bone of
+its skull.  I guess that's where its name came from.
+~
+song bird~
+CF JT 0 S
+35 18 10d10+1300 3d35+335 4d7+11 23
+-11 -11 -11 -1
+EFH B E J
+8 8 1 100
+0 0 M 0
+#0
+
+#OBJECTS
+#6700
+dagger glowing~
+a glowing dagger~
+A glowing dagger glows here.~
+steel~
+5 AG AN
+2 4 9 11 0
+31 2 1000 P
+A
+2 3
+A
+18 3
+A
+19 3
+#6701
+glowing platemail plate mail~
+the glowing platemail~
+Some glowing platemail lies in a heap here.~
+steel~
+9 AG AD
+10 10 10 10 0
+35 20 1500 P
+A
+1 2
+A
+13 50
+A
+14 25
+#6702
+agate gem~
+an agate~
+A small gem lies here.~
+stone~
+8 0 A
+0 0 0 0 0
+1 5 1000 P
+#6703
+jade jewel~
+a piece of jade~
+A small jewel gleams here.~
+stone~
+8 0 A
+0 0 0 0 0
+1 5 1250 P
+#6704
+sculpture~
+a piece of sculpture~
+A nice piece of sculpture is here.~
+stone~
+8 0 A
+0 0 0 0 0
+1 5 1300 P
+E
+sculpture~
+It's of a beautiful woman, straining beneath a heavy weight.  She looks
+tired, with chiseled tears staining her cheeks.  It makes you sad.
+~
+#6705
+vial virgins blood~
+a vial of virgin's blood~
+A small vial filled with a red fluid lies in the dust here.~
+glass~
+10 0 AO
+45 39 39 39 0
+30 1 1500 P
+#6706
+amulet~
+an amulet~
+An odd looking amulet has been discarded here.~
+stone~
+9 AG AC
+10 10 10 10 0
+35 2 1000 P
+A
+2 2
+A
+18 2
+A
+19 2
+#6707
+tent pole~
+a tent pole~
+A tent pole has been tossed away here.~
+wood~
+3 AG AO
+35 5 5 38 0
+30 5 1750 P
+#6708
+bag powder wealth~
+a bag of powder of wealth~
+A small bag filled with powder of wealth lies here.~
+cloth~
+20 AG AO
+1000 0 0 0 0
+1 10 1000 P
+#6709
+desk~
+a desk~
+There is an ebony desk here.~
+wood~
+15 0 0
+1000 1 0 0 0
+1 1000 0 P
+#6710
+chaos book~
+the Book of Chaos~
+A book with a title written in moving letters rests here.~
+paper~
+3 ABGH AO
+40 1 1 26 0
+30 5 1250 P
+#6711
+elder book~
+the Book of the Elder~
+A grey-bound book lies here.~
+paper~
+3 ABG AO
+30 5 5 508 0
+30 5 1250 P
+#6712
+occluded lens~
+the Occluded Lens~
+A smoky lens about a foot around has been scuffled in the dirt here.~
+glass~
+1 AGH AO
+0 0 99 0 0
+30 5 2000 P
+A
+12 20
+A
+4 1
+#6713
+mevais herb leaf~
+a leaf of mevais~
+A small black leaf of a mevais plant lies here, well preserved.~
+pill~
+26 0 A
+30 27 33 4 0
+30 1 1250 P
+E
+mevais herb leaf~
+Swallowing this down might provide interesting effects.
+~
+#6714
+bottle peska~
+a bottle of peska~
+There is a bottle of a milky fluid here.~
+glass~
+10 0 AO
+30 28 3 1 0
+30 1 1500 P
+E
+bottle peska~
+It's a milky concoction, with strange motes floating in it.
+~
+#6715
+rand staff~
+Rand's staff~
+There is a metal-shod staff here.~
+wood~
+5 AG ANP
+0 6 7 0 F
+35 5 1100 P
+A
+12 30
+A
+17 5
+#6716
+chest wooden~
+a wooden chest~
+There is a wooden chest here.~
+wood~
+15 0 0
+5000 5 0 0 0
+1 5000 0 P
+#6717
+chest wooden~
+a wooden chest~
+There is a wooden chest here.~
+wood~
+15 0 0
+5000 5 0 0 0
+1 5000 0 P
+#6718
+chest wooden~
+a wooden chest~
+There is a wooden chest here.~
+wood~
+15 0 0
+5000 5 0 0 0
+1 5000 0 P
+#6719
+basin water~
+a water basin~
+A basin filled with crisp, clean water is here.~
+steel~
+17 AO 0
+100 100 0 0 0
+1 100 0 P
+#6720
+food~
+some food~
+There's some food lying here.~
+food~
+19 0 A
+8 0 0 0 0
+3 1 20 P
+E
+food~
+It's just random and assorted food. Don't ask questions.  It's just a game.
+~
+#6721
+volcanic helm~
+a volcanic helm~
+A sinister helm shimmers and fades in and out of this dimension.~
+adamantite~
+9 BEJLU AE
+12 12 12 12 0
+45 10 1500 P
+A
+3 3
+A
+4 3
+#6722
+volcanic plate~
+some volcanic plate~
+a pile of shimmering obsidian fades in and out of view.~
+adamantite~
+9 BEJLU AD
+12 12 12 12 0
+45 30 2500 P
+A
+1 3
+A
+13 50
+#6723
+volcanic leggings~
+some volcanic leggins~
+some shimmering leggings fades in and out of view.~
+adamantite~
+9 BEJLU AF
+12 12 12 12 0
+45 10 1500 P
+A
+14 50
+#6724
+volcanic girth~
+a volcanic girth~
+a shimmering belt fades in and out of view.~
+adamantite~
+9 BEJLU AL
+12 12 12 12 0
+45 10 1500 P
+A
+5 3
+A
+12 25
+#6725
+volcanic sleeves~
+a set of volcanic sleeves~
+some shimmering sleeves fade in and out of view.~
+adamantite~
+9 BEJLU AI
+12 12 12 12 0
+45 10 1000 P
+A
+1 3
+A
+18 3
+A
+19 3
+#6726
+volcanic gauntlets~
+some volcanic gauntlets~
+some shimmering gauntlets fade in and out of view.~
+adamantite~
+9 BEJLU AH
+12 12 12 12 0
+45 10 1500 P
+A
+1 2
+A
+2 3
+#6727
+volcanic boots~
+a pair of volcanic boots~
+some shimmering boots fade in and out of view.~
+adamantite~
+9 BEJLU AG
+12 12 12 12 0
+45 10 1500 P
+A
+14 50
+#6728
+volcanic shield~
+a volcanic shield~
+a shimmering disc fades in and out of view.~
+adamantite~
+9 BEJLU AJ
+12 12 12 12 0
+45 10 1500 P
+A
+23 25
+A
+24 25
+#6729
+volcanic blade demon's sword~
+a volcanic demon's blade~
+a demonic blade of volcanic obsidian thrums with hidden power.~
+adamantite~
+5 BEJHLMU AN
+0 6 8 29 A
+45 10 1500 P
+A
+18 3
+A
+19 3
+#6730
+simple sword~
+a simple sword~
+A simple sword rests here.~
+steel~
+5 0 AN
+1 5 7 1 0
+32 5 100 P
+#6731
+rock mace~
+a rock mace~
+A crude mace, made from a blackish rock lies here.~
+stone~
+5 0 AN
+4 5 7 8 0
+32 5 50 P
+A
+1 2
+A
+2 2
+A
+19 2
+A
+18 2
+#6732
+loin cloth~
+a loin cloth~
+A furry pile of something lies here.~
+leather~
+9 0 AL
+0 0 0 0 0
+32 1 10 W
+A
+13 20
+#6733
+serpent light torch~
+a serpent torch~
+A torch in the shape of a serpent lies here.~
+gold~
+1 A AO
+0 0 9999 0 0
+32 5 100 P
+A
+3 2
+A
+4 2
+#6734
+headress~
+a warrior's headress~
+A helmet made of bone and feathers lies here.~
+stone~
+9 0 AE
+0 0 0 0 0
+35 5 200 W
+A
+5 1
+A
+24 -1
+A
+23 -1
+#6735
+machete~
+a headsman machete~
+A nasty looking blade is lying here.~
+steel~
+5 0 AN
+1 4 10 25 0
+35 5 125 W
+A
+1 1
+A
+18 2
+A
+19 3
+#6736
+grand axe~
+a headsman's grand axe~
+A large, wicked looking axe lies here.~
+steel~
+5 0 AN
+5 4 10 25 0
+35 5 125 W
+A
+1 3
+A
+18 3
+A
+19 3
+#6737
+hunter spear~
+a hunter's spear~
+A long, and extremely sharp spear impales the ground here.~
+steel~
+5 0 ANP
+8 4 10 11 F
+35 5 75 P
+A
+1 3
+A
+18 5
+A
+19 5
+#6738
+bone breast plate~
+a warrior's breast plate~
+A pile of woven bone, beads and feathers lie here.~
+stone~
+9 0 AD
+0 0 0 0 0
+35 10 150 W
+A
+12 25
+A
+17 5
+A
+23 5
+A
+24 5
+#6739
+washiki leggings~
+a pair of washiki leggings~
+A pair of red, feathery leggings lie here.~
+stone~
+9 0 AF
+0 0 0 0 0
+35 10 100 W
+A
+14 50
+#6740
+crown headress~
+a chieftain's headress~
+An extremely large and fancy looking headress lies here.~
+cloth~
+9 AB AE
+0 0 0 0 0
+35 10 500 P
+A
+4 3
+A
+3 3
+A
+12 25
+A
+13 25
+#6741
+sceptre~
+a chieftain's sceptre~
+A large sceptre, topped by a grinning skull lies here.~
+stone~
+1 A AO
+0 0 9999 0 0
+35 5 450 P
+A
+1 3
+A
+19 7
+A
+18 5
+#6742
+washiki flail~
+a quaggoth chieftain's flail~
+An extremely vicious looking flail lies here.~
+iron~
+5 B AN
+6 4 10 13 0
+35 10 200 W
+A
+18 5
+A
+19 5
+A
+13 25
+#6743
+breadfruit fruit~
+a breadfruit~
+A breadfruit lies here.~
+food~
+19 0 A
+24 0 0 0 0
+1 1 10 P
+#6744
+ygorl dagger~
+Ygorl's dagger~
+A most foul and hideous dagger sucks life from the ground here.~
+silver~
+5 EJL AN
+2 5 10 11 C
+45 2 500 P
+A
+18 7
+A
+19 7
+A
+12 30
+A
+2 -3
+#6745
+hellish potion~
+a hellish potion~
+A potion eminating pure evil lies here.~
+glass~
+10 AEJL AO
+45 25 82 28 0
+45 1 1200 P
+#6746
+ssendam dagger~
+Ssendam's Dagger~
+A cruel looking dagger glows evily here.~
+gold~
+5 AEJL AN
+2 5 10 11 C
+45 5 500 P
+
+#0
+
+#ROOMS
+#6700
+Mountain Trail~
+This trail leads up, up, up into the mountains.  You hope you don't fall
+down, because that would hurt, hurt, hurt!  The trail continues to the east,
+and you can go back to the main trail to the west.
+~
+67 0 5
+D1
+~
+~
+0 -1 6701
+D3
+~
+~
+0 -1 6823
+S
+#6701
+Mountain Trail~
+   You're really high up now.  You can keep going even farther up into the
+mountains to the east, or go back down to the west.
+~
+67 0 5
+D1
+~
+~
+0 -1 6702
+D3
+~
+~
+0 -1 6700
+S
+#6702
+Mountain Trail~
+   Wispy clouds are beginning to surround you now, and your ears pop due to
+the altitude.  To the east, you see the summit of the mountain, and from the
+way the nearby mountains are arranged behind it, you believe you're on your
+way to a big valley.  You can also go down to the west.
+~
+67 0 5
+D1
+~
+~
+0 -1 6703
+D3
+~
+~
+0 -1 6701
+S
+#6703
+Near the Mountain's Peak~
+   The peak of this mountain is another couple hundred feet above you, but
+here is where the trail leads down into the valley...  What an odd valley!
+The valley seems to have been filled up by a hundreds of feet of lava many
+years ago.  It gives the valley an odd, 'flat' look and darkish ground. The
+path leads down east into the valley, and west back to civilization.
+~
+67 0 5
+D1
+~
+~
+0 -1 6704
+D3
+~
+~
+0 -1 6702
+S
+#6704
+Trail to the Valley~
+   The trail leads down into the valley, where, by judging by the height of
+the trees, the lava had cooled tens of decades ago.  Down below you see the
+path lead into the small forest in the valley, and disappear out of sight.
+East leads into the valley, West back to civilization.
+~
+67 0 2
+D1
+~
+~
+0 -1 6705
+D3
+~
+~
+0 -1 6703
+S
+#6705
+In the Valley~
+   The ground has taken on the texture of dirt on the top, but this valley
+is far too flat and too rocky to disguise the catastrophe that happened here
+so long ago.  Looking up to the mountains ringing this area, you notice
+several mountains look as if they had 'exploded', which is strange,
+considering that they are not volcanos.
+   
+   The path leads into the woods to the east, and back up the mountain to
+the west.
+~
+67 0 3
+D1
+~
+~
+0 -1 6706
+D3
+~
+~
+0 -1 6704
+S
+#6706
+In a Clearing~
+   You come to a small clearing now, after walking for several minutes
+through the silent woods.  An odd block sticks up here and there in the
+ground...  wait a minute.  These stones seem a little too regular, and
+from the circle formation and size you could almost swear that they were...
+crenellations?  Could some sort of building been buried by the lava here?
+A rusty ring sticks out of the earth in the center...a trapdoor?
+This is almost too good to be true!
+~
+67 0 2
+D3
+~
+~
+0 -1 6705
+D5
+An ancient trapdoor, grimed with earth and age.
+~
+trapdoor trap~
+1 -1 6707
+S
+#6707
+A Stairwell~
+   This small room is the top of a stairwell leading down deep into the tower.
+A small trapdoor overhead leaks the light of day around its edges.  To the
+south is a  wooden door, preserved through the ages by means unknown.  To the
+west is a short hall.
+~
+67 AD 0
+D2
+~
+door~
+1 -1 6708
+D3
+~
+~
+0 -1 6709
+D4
+An ancient trapdoor, grimed with earth and age.
+~
+trapdoor trap~
+1 -1 6706
+D5
+~
+~
+0 -1 6713
+S
+#6708
+A Linen Closet~
+   This small room holds many types of linen on shelves along the walls.
+They are undoubtedly preserved by magic against the toil of the ages, since
+they seem freshly washed and folded.  You wonder what sort of mage could
+wield so much power to waste on such little things.
+~
+67 AD 0
+D0
+~
+door~
+1 -1 6707
+E
+linen shelf shelves~
+White sheets, pillow-cases, etc.  Not really anything that you need,
+but interesting.
+~
+S
+#6709
+Corridor~
+   This is only a clean corridor, that leads back to the stairwell to the
+east, and has doors leading to other rooms to the north and south.
+~
+67 AD 0
+D0
+~
+door north~
+1 -1 6711
+D1
+~
+~
+0 -1 6707
+D2
+~
+door south~
+1 -1 6710
+S
+#6710
+Bathroom~
+   This is some sort of bathroom, like you've never seen before...  Water
+appliances leading from nowhere deliver hot and cold running water to basins
+that drain to... where?  How strange!
+~
+67 AD 0
+D0
+~
+door~
+1 -1 6709
+S
+#6711
+Master Bedroom~
+   This is an opulent room, decorated in silks and gold. There is an ebony
+desk against one wall, cooled lava rock spilling over its surface from the
+window it once looked out at.  A nice, spacious closet is filled with clothes
+just cleaned and pressed.
+~
+67 AD 0
+D2
+~
+door~
+1 -1 6709
+E
+desk~
+The desk is basically uninteresting, as are the papers on top of it...
+~
+E
+closet~
+Nice clothes, but not your size at all.
+~
+S
+#6712
+The Library~
+   A great mages' library is contained on this floor of the tower.  You feel
+you could learn anything you wanted to if you only looked and read long
+enough.  A door opens up back on the stairwell to the east.
+~
+67 AD 0
+D1
+~
+door~
+1 -1 6713
+D3
+A big bookcase, that looks rather odd.
+~
+bookcase~
+1 -1 6714
+E
+book books~
+There's lots of books about everything here!
+~
+S
+#6713
+Stairwell~
+   This stairwell continues up and down, and there is a door to the west.
+~
+67 AD 0
+D3
+~
+door~
+1 -1 6712
+D4
+~
+~
+0 -1 6707
+D5
+~
+~
+0 -1 6715
+S
+#6714
+A Hidden Hall~
+   This is a small hidden hall with a secret entrance to the library on the
+east end of the hall, and a trapdoor leading down, on the southern end.
+~
+67 AD 0
+D1
+The backside of a movable bookcase.
+~
+book bookcase~
+1 -1 6712
+D5
+~
+trapdoor trap~
+1 -1 6716
+S
+#6715
+A Stairwell~
+   This stairwell continues up and down, and there is a door to the west
+opening up onto this level.
+~
+67 AD 0
+D3
+~
+door~
+1 -1 6717
+D4
+~
+~
+0 -1 6713
+D5
+~
+~
+0 -1 6722
+S
+#6716
+Hidden Treasure Room~
+   Jackpot!  A small room filled with treasure chests!  Go get it!
+~
+67 AD 0
+D4
+~
+trapdoor trap~
+1 -1 6714
+S
+#6717
+Hallway~
+   This hall runs through the tower.  There's more hall to the west, and
+doors to your north and south.  A door to the east leads back to the
+stairwell.
+~
+67 AD 0
+D0
+~
+door north~
+1 -1 6719
+D1
+~
+east door~
+1 -1 6715
+D2
+~
+door south~
+1 -1 6718
+D3
+~
+~
+0 -1 6720
+S
+#6718
+Servant's Room~
+   This seems to be a small servant's bedroom, sparsely decorated and
+outfitted with a bed, nightstand, chair and table, etc.  Nothing real
+important here.
+~
+67 AD 0
+D0
+~
+door~
+1 -1 6717
+S
+#6719
+Servant's Room~
+   This seems to be a small servant's bedroom, sparsely decorated and
+outfitted with a bed, nightstand, chair and table, etc.  Nothing real
+important here.
+~
+67 AD 0
+D2
+~
+door~
+1 -1 6717
+S
+#6720
+Hallway~
+   This hallway continues to the east, and has a door to the north.  You
+could swear that the way this level is arranged...nah, couldn't be.
+~
+67 AD 0
+D0
+~
+door~
+1 -1 6721
+D1
+~
+~
+0 -1 6717
+S
+#6721
+Servant's Room~
+   This seems to be a small servant's bedroom, sparsely decorated and
+outfitted with a bed, nightstand, chair and a table, etc.  Nothing real
+important here.
+~
+67 AD 0
+D2
+~
+door~
+1 -1 6720
+S
+#6722
+Stairwell~
+   This stairwell leads up and down, and there is a big open room to your
+west.
+~
+67 AD 0
+D3
+~
+~
+0 -1 6723
+D4
+~
+~
+0 -1 6715
+D5
+~
+~
+0 -1 6725
+S
+#6723
+Dining Hall~
+   This is a large dining hall, with a long table that runs down the length
+of it.  Chairs are set up along the sides to accomodate approximately 10
+people.  There are paintings and tapestries on the walls, adding color to
+the stonework, the cooled lava that had poured in the windows makes the place
+seem eerie somehow .  There is a door to the north, and the stairwell is to
+the east.
+~
+67 AD 0
+D0
+~
+door~
+1 -1 6724
+D1
+~
+~
+0 -1 6722
+E
+tapestry tapestries painting paintings~
+   Many of these show scenes of high magic and heroism.  Just like almost
+every tapestry and painting you've seen.
+~
+S
+#6724
+Kitchen Area~
+   This is a well-stocked kitchen, the larders still fresh and full as if by
+magic.  Perhaps this would be a good place to take a break.
+~
+67 AD 0
+D2
+~
+door~
+1 -1 6723
+S
+#6725
+Stairwell~
+   The stairwell leads up and down here, and there is a hall you can enter
+to the west.
+~
+67 AD 0
+D3
+~
+~
+0 -1 6726
+D4
+~
+~
+0 -1 6722
+D5
+~
+~
+0 -1 6729
+S
+#6726
+Hall~
+ This area of the tower seems dank and oppressive. The hall runs north-south,
+and there is an empty cell to your west.  The stairwell is to your east.
+~
+67 AD 0
+D0
+~
+~
+0 -1 6727
+D1
+~
+~
+0 -1 6725
+D2
+~
+~
+0 -1 6728
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#6727
+Hall~
+   This is the northern end of the hall.  There are cells to your right and
+left, empty and awaiting occupants.
+~
+67 AD 0
+D2
+~
+~
+0 -1 6726
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#6728
+Hall~
+   This is the southern end of the hall.  There are cells to your right and
+left, empty and awaiting occupants.
+~
+67 AD 0
+D0
+~
+~
+0 -1 6726
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#6729
+Stairwell~
+   The stairwell continues up and down here.  A large room opens up to the
+west.
+~
+67 AD 0
+D3
+~
+~
+0 -1 6730
+D4
+~
+~
+0 -1 6725
+D5
+~
+~
+0 -1 6731
+S
+#6730
+Mage's Office~
+   A small desk here is cluttered with magically preserved papers and
+documents.  None seem of value, except perhaps to a historian.  This place
+seems vaguely uninteresting...
+~
+67 AD 0
+D1
+~
+~
+0 -1 6729
+E
+paper papers documents document~
+   Well, one of the papers relate a story about how the mage of this tower,
+Rand, angered many kings, and relates how they set his armies on him.  You
+wonder if the lava outside was a failed attempt to destroy the armies...
+~
+E
+desk~
+It's cluttered with all sorts of papers. Some look half interesting, actually.
+~
+S
+#6731
+Stairwell~
+   The stairs go up and down here, and there is a room to the west...
+~
+67 AD 0
+D3
+~
+~
+0 -1 6732
+D4
+~
+~
+0 -1 6729
+D5
+~
+~
+0 -1 6733
+S
+#6732
+Sitting Room~
+   This is a simply furnished room, with chairs all about. A fireplace is
+inset into an inner wall, the chimney undoubtedly directed by magic... This
+would be a nice place to rest awhile...
+~
+67 AD 0
+D1
+~
+~
+0 -1 6731
+S
+#6733
+Stairwell~
+    This is where the stairwell finally ends.  There is a hall to your west.
+~
+67 AD 0
+D3
+~
+~
+0 -1 6734
+D4
+~
+~
+0 -1 6731
+S
+#6734
+Hallway~
+   This small hallway on the former 'ground floor' ran north-south.  To the
+east is the stairwell that leads up into the shadowy recesses of the tower.
+To the west is the entrance way to the tower. The north is completely blocked
+off by lava, and the way south is still clear.
+~
+67 AD 0
+D1
+~
+~
+0 -1 6733
+D2
+~
+~
+0 -1 6737
+D3
+~
+~
+0 -1 6735
+S
+#6735
+Entranceway~
+   This is a grand chamber with giant double-doors to the west. To the east
+is the main floor of the tower. This room is arranged highly attractively
+and very impressively, with sculptures and tapistries everywhere. The doors
+seem impenetrable...you don't think you'd be able to get through them if you
+really had to...
+~
+67 AD 0
+D1
+~
+~
+0 -1 6734
+D3
+   These doors seem incredible.  Unfortunately, they're locked.
+~
+door double~
+2 0 6736
+E
+sculpture tapestry sculptures tapestries~
+   They look nice, but aren't very valuble.
+~
+S
+#6736
+Doorway~
+  This was the entrance to the tower.  Now lava has blocked it up completely.
+However, it seems that when the lava came down, a man was outside the doors.
+He was blasted into the doors, and died instantly, but his skeleton still
+clutches a staff in perfect condition...
+~
+67 AD 0
+D1
+These double doors have the outline of a man blasted into them...
+~
+double doors~
+2 0 6735
+S
+#6737
+Hallway~
+  This is the southern part of the hallway.  There is a door to the west,
+barred with gleaming bands of lights. To the north is more hallway.
+~
+67 AD 0
+D0
+~
+~
+0 -1 6734
+D3
+~
+door~
+2 -1 6738
+S
+#6738
+Stairs~
+  Stairs lead down here into the tower's basement, or you can head east into
+the main floor of the tower.
+~
+67 AD 0
+D1
+~
+door~
+2 -1 6737
+D5
+~
+~
+0 -1 6739
+S
+#6739
+Stairs~
+  Stairs lead up here to the main level, or you can go east to the basement
+of the tower.
+~
+67 AD 0
+D1
+~
+~
+0 -1 6740
+D4
+~
+~
+0 -1 6738
+S
+#6740
+Alcove~
+   This alcove leads into a huge room to your north, and to stairs leading
+down to the east, and stairs going up to your west.
+~
+67 AD 0
+D0
+~
+~
+0 -1 6741
+D1
+~
+~
+0 -1 6742
+D3
+~
+~
+0 -1 6739
+S
+#6741
+Laboratory~
+  This laboratory has lots of stuff in it.  Beakers, flasks, burners, tongs,
+mortars and pestles, jars filled with normal things, jars filled with abnormal
+things, jars filled with things you'd rather not think about...
+A search could reveal many things...
+~
+67 AD 0
+D2
+~
+~
+0 -1 6740
+E
+beaker flask burner tong mortar pestle jar~
+   Looks like normal, fragile lab equipment to you.
+~
+S
+#6742
+Stairs~
+   Stairs lead down here to the second level of the basement, or back west to
+the alcove.
+~
+67 AD 0
+D3
+~
+~
+0 -1 6740
+D5
+~
+~
+0 -1 6743
+S
+#6743
+Stairs~
+   Stairs lead up here to the first level of the basement, or you can go
+east to another big room.
+~
+67 AD 0
+D1
+~
+~
+0 -1 6744
+D4
+~
+~
+0 -1 6742
+S
+#6744
+Summoning Room~
+   This room is darkly lit by a giant glowing pentagram in the center of the
+room.  Bands of force encircle some sort of being trapped inside.  You think
+that going inside would be an EXTREMELY BAD idea...
+~
+67 AD 0
+D0
+~
+~
+0 -1 6745
+D3
+~
+~
+0 -1 6743
+E
+pentagram~
+It's centuries old. You don't think standing close by would be a good idea.
+~
+E
+being~
+You can't see it clearly through the energy field of the pentagram, but you
+sense that whatever it is, it is very, very, very, very angry.
+~
+S
+#6745
+Inside a Pentagram~
+The small god entrapped by the wizard looks at you with an insane expression.
+Four hundred years of imprisonment doesn't do much for ones...
+
+OOPS! Now you've done it, he's seen you!
+~
+67 B 0
+D2
+~
+~
+0 -1 6744
+S
+#6746
+Calm Sea~
+You are adrift upon the calm seas of the Great Eastern Sea. The breeze is
+slight and the sun is bright. To the east and south you see only water.
+~
+67 0 7
+D1
+water
+~
+~
+0 -1 6750
+D2
+~
+~
+0 -1 6747
+S
+#6747
+Calm Sea~
+You are drifting upon the calm seas. To the west you can make out the small port from where you began your journey.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6746
+D1
+You can see the eastern coast slowly fading from view
+~
+~
+0 -1 6751
+D2
+water
+~
+~
+0 -1 6748
+D3
+~
+~
+0 -1 0
+S
+#6748
+Calm Sea~
+You are gently floating upon the calm sea. Far to the west you can make out the distant shoreline of Eastern Sembia.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6747
+D1
+water
+~
+~
+0 -1 6749
+S
+#6749
+Calm Sea~
+Strange sea birds flock about, swooping and diving in hopes of some found scraps of food. When none is found, they resort to more vulgar means of persuasion.. which land with a wet spla
+~
+67 0 7
+D1
+water
+~
+~
+0 -1 6754
+D2
+water
+~
+~
+0 -1 6750
+S
+#6750
+Calm Sea~
+Bizarre fish of every kind, large and small, jump and dive along with you. Water lies in every direction.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6749
+D1
+water
+~
+~
+0 -1 6755
+D2
+~
+~
+0 -1 6751
+D3
+~
+~
+0 -1 6746
+S
+#6751
+High Seas~
+You are complete surrounded by water. Aquatic and aviary species abound. These waters could feed a large city indefinitely. You make a mental note to report your findings when you return home.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6750
+D1
+you see the faint shoreline of the eastern coast in the distance
+~
+~
+0 -1 6756
+D2
+water
+~
+~
+0 -1 6752
+D3
+water
+~
+~
+0 -1 6747
+S
+#6752
+Quiet Seas~
+Lazily drifting along the calm sea, you gaze upon the unending view of water. The sea life seems a bit sparcer now.
+~
+67 0 7
+D0
+~
+~
+0 -1 6751
+D1
+water
+~
+~
+0 -1 6757
+D2
+water
+~
+~
+0 -1 6753
+D3
+water
+~
+~
+0 -1 6748
+S
+#6753
+Deep Seas~
+Water, water, water....AND... more water.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6752
+D1
+water
+~
+~
+0 -1 6758
+S
+#6754
+Lost at Sea~
+You are now entirely lost at sea. But don't panic... there has to be a way
+out of this mess. The waters here seem a bit rougher than before.
+~
+67 0 7
+D1
+water
+~
+~
+0 -1 6759
+D2
+water
+~
+~
+0 -1 6755
+D3
+water
+~
+~
+0 -1 6749
+S
+#6755
+Swelling Seas~
+Okay.. now you can panic.. You are hopelessly, entirely lost now, and the seas become higher, and darker here.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6754
+D1
+water
+~
+~
+0 -1 6760
+D2
+water
+~
+~
+0 -1 6756
+D3
+water
+~
+~
+0 -1 6750
+S
+#6756
+Sun Stroked~
+Twinkle, twinkle, little boat, how I wish this were a moat.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6755
+D1
+water
+~
+~
+0 -1 6761
+D2
+water
+~
+~
+0 -1 6757
+D3
+water
+~
+~
+0 -1 6751
+S
+#6757
+Reality~
+The occasional sounds of sea birds help snap you back to sanity.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6756
+D1
+water
+~
+~
+0 -1 6762
+D2
+water
+~
+~
+0 -1 6758
+D3
+water
+~
+~
+0 -1 6752
+S
+#6758
+This Is Your Brain on the Sea... Any Questions?~
+Sailing along.. on a moonlight bay.. ahhh.. how nice.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6757
+D1
+water
+~
+~
+0 -1 6763
+S
+#6759
+Blue Seas~
+Ever notice how blue the ocean is? Well I'm sure you have by now.
+~
+67 0 7
+D2
+water
+~
+~
+0 -1 6760
+D3
+water
+~
+~
+0 -1 6754
+S
+#6760
+Miniscule Insights~
+SLAP.. SLAP.. SLAP goYou begin contemplating the crud beneath your fingernails.. are there entire
+cities of mites busily going about their daily chores under them?
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6759
+D1
+water
+~
+~
+0 -1 6764
+D2
+water
+~
+~
+0 -1 6761
+D3
+water
+~
+~
+0 -1 6755
+S
+#6761
+Oh My!~
+Oh my.. look at the pretty flowers.. what a lovely garden you are sitting in. Boy is the sun hot, you should have brought your pretty pink sun hat with you.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6760
+D1
+water
+~
+~
+0 -1 6765
+D2
+water
+~
+~
+0 -1 6762
+D3
+water
+~
+~
+0 -1 6756
+S
+#6762
+Dragons Ho!~
+You cringe in terror as the dragons swoop down upon you, tearing the living
+flesh from your bones.. oh.. wait.. they're not dragons, they're butterflies,
+and they're not eating you, they're kissing you.. oh.. wait.. they're dragons,
+.. no.. butterflies.. dragons.. butterflies.......
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6761
+D1
+water
+~
+~
+0 -1 6766
+D2
+water
+~
+~
+0 -1 6763
+D3
+water
+~
+~
+0 -1 6757
+S
+#6763
+Not Quite Dead~
+Okay.. this is getting really old now.. with grim determination, you steel
+your mind to the task at hand and you push on.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6762
+D3
+water
+~
+~
+0 -1 6758
+S
+#6764
+Roaring Seas~
+You can hear a faint rushing sound.. unfortunately you can't tell from which
+direction.
+~
+67 0 7
+D2
+water
+~
+~
+0 -1 6765
+D3
+water
+~
+~
+0 -1 6760
+S
+#6765
+Hark, Do You Hear What I Hear?~
+The faint rushing sound seems to be coming from the east... but you're not
+quite sure.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6764
+D1
+water
+~
+~
+0 -1 6767
+D2
+water
+~
+~
+0 -1 6766
+D3
+water
+~
+~
+0 -1 6761
+S
+#6766
+Roiling Seas~
+You can hear a faint rushing sound.. unfortunately you can't tell from which
+direction.
+~
+67 0 7
+D0
+water
+~
+~
+0 -1 6765
+D3
+water
+~
+~
+0 -1 6762
+S
+#6767
+Strange Sounds~
+You hear a strange rumbling sound coming from the east. You wonder what could
+be making such a racket this far out at sea. Looking east you see that a large
+fog bank has moved in. Should you investigate?
+~
+67 0 7
+D1
+You see billowing white fog banks roiling upon the water
+~
+~
+0 -1 6768
+D3
+water
+~
+~
+0 -1 6765
+S
+#6768
+Fog Bank~
+As you enter the fog bank, there is a sudden ROAR! From out of nowhere, a
+huge funnel opens beneath you! WHIRLPOOL!! You begin to black out as you are
+dragged down into the depths of the sea!
+~
+67 A 7
+D3
+water
+~
+~
+0 -1 6767
+D5
+swirling black death awaits
+~
+~
+0 -1 6769
+S
+#6769
+Odd Lagoon~
+You have no idea how much time has passed, but you awakenupon a sandy
+lagoon. Enormous, volcanic cliffs line the beach to the north and south. To
+the west you can see the monstrous whirlpool loudly swirling away. The beach
+continues to the west.
+~
+67 0 10
+D1
+beachy sand
+~
+~
+0 -1 6770
+D4
+~
+~
+0 -1 6768
+S
+#6770
+Edge of the Jungle~
+You are standing at the edge of a very thick, dark, jungle. You can hear the 
+calls of some very odd sounding creatures. They sound vaguely familiar, yet
+disturbing as well. The strange volcanic cliffs tower above you to the north
+and south, while the beach lies behind you to the west.  To the east, the
+jungle lies like a beast in waiting.
+~
+67 0 10
+D1
+~
+~
+0 -1 6772
+D3
+~
+~
+0 -1 6769
+S
+#6771
+Jungle~
+You find yourself surrounded by lush, green vegetation. All around you hear
+the sounds of jungle life.
+~
+67 0 3
+D1
+~
+~
+0 -1 6775
+D2
+~
+~
+0 -1 6772
+S
+#6772
+Thick Jungle~
+The jungle becomes so thick that you are almost not able to get through the
+dense foliage.
+~
+67 0 3
+D0
+~
+~
+0 -1 6771
+D1
+~
+~
+0 -1 6776
+D2
+~
+~
+0 -1 6773
+D3
+~
+~
+0 -1 6770
+S
+#6773
+Jungle~
+Trees, vines and exotic plant-life surround you. High in the trees you hear
+the chatter of a million different creatures, both large and small.
+~
+67 0 3
+D0
+~
+~
+0 -1 6772
+D1
+~
+~
+0 -1 6777
+S
+#6774
+Jungle~
+The jungle becomes slightly easier to traverse here. You hear a rustling in
+the foliage and are confronted by a group of strange man-shaped beast.. and
+they attack!
+~
+67 N 3
+D1
+~
+~
+0 -1 6780
+D2
+~
+~
+0 -1 6775
+S
+#6775
+Jungle~
+Leaves, vines, branches and briars... more of the same... wait! What is that
+swinging down from the trees? Headhunters!!
+~
+67 0 3
+D0
+~
+~
+0 -1 6774
+D1
+~
+~
+0 -1 6781
+D2
+~
+~
+0 -1 6776
+D3
+~
+~
+0 -1 6771
+S
+#6776
+Jungle~
+You begin to feel very claustrophobic as the jungle closes in around you.
+~
+67 0 3
+D0
+~
+~
+0 -1 6775
+D1
+~
+~
+0 -1 6782
+D2
+~
+~
+0 -1 6777
+D3
+~
+~
+0 -1 6772
+S
+#6777
+Jungle~
+Trees, Leaves, Vines... Vines, Leaves, Trees.
+~
+67 0 3
+D0
+~
+~
+0 -1 6776
+D1
+~
+~
+0 -1 6783
+D2
+~
+~
+0 -1 6778
+D3
+~
+~
+0 -1 6773
+S
+#6778
+Jungle's Edge~
+Huge Trees block your passage to the south and west. The only exits are to
+your north and east.
+~
+67 0 3
+D0
+~
+~
+0 -1 6777
+D1
+~
+~
+0 -1 6784
+S
+#6779
+Northwestern Corner~
+You catch a glimpse of the sky and decide that you have traveled roughly
+northwest through the jungle.  You begin to wonder just how large this jungle
+island is.
+~
+67 0 3
+D1
+~
+~
+0 -1 6787
+D2
+~
+~
+0 -1 6780
+S
+#6780
+Sounds Abound~
+You hear the sounds of strange, alien sounding life teeming all around, yet
+you can see none of it besides the plant life, of course.  You begin to feel
+anxious and can't wait to get out of this terrible place.
+~
+67 0 3
+D0
+~
+~
+0 -1 6779
+D1
+~
+~
+0 -1 6788
+D2
+~
+~
+0 -1 6781
+D3
+~
+~
+0 -1 6774
+S
+#6781
+Jungle~
+You hear muffled sounds coming from the east. It sounds as though there is a
+village nearby.
+~
+67 0 3
+D0
+~
+~
+0 -1 6780
+D1
+~
+~
+0 -1 6789
+D2
+~
+~
+0 -1 6782
+D3
+~
+~
+0 -1 6775
+S
+#6782
+Jungle~
+You can hear the sounds of a village of some sort coming from the east.
+~
+67 0 3
+D0
+~
+~
+0 -1 6781
+D1
+~
+~
+0 -1 6790
+D2
+~
+~
+0 -1 6783
+D3
+~
+~
+0 -1 6776
+S
+#6783
+Jungle~
+The jungle mists become thick and cloudy here. It is becoming very difficult
+to breath between the heat and the choking mists.
+~
+67 0 3
+D0
+~
+~
+0 -1 6782
+D1
+~
+~
+0 -1 6791
+D2
+~
+~
+0 -1 6784
+D3
+~
+~
+0 -1 6777
+S
+#6784
+Jungle~
+The moisture on the leaves overhead begins to drip downward, creating the
+illusion of a steady rainfall.
+~
+67 0 3
+D0
+~
+~
+0 -1 6783
+D1
+~
+~
+0 -1 6792
+D2
+~
+~
+0 -1 6785
+D3
+~
+~
+0 -1 6778
+S
+#6785
+Southwestern Corner~
+You gain a glimpse of the sky overhead and determine that you are somewhere
+in the southwestern edge of the forest.
+~
+67 0 3
+D0
+~
+~
+0 -1 6784
+D1
+~
+~
+0 -1 6793
+S
+#6786
+Jungle~
+You smell the smoke from a camp fire nearby. Better proceed with caution.
+~
+67 0 3
+D1
+~
+~
+0 -1 6796
+D2
+~
+~
+0 -1 6787
+S
+#6787
+Jungle~
+You have the distinct feeling you are being watched by something intelligent..
+You instinctively put hand to weapon.
+~
+67 0 3
+D0
+~
+~
+0 -1 6786
+D1
+~
+~
+0 -1 6797
+D2
+~
+~
+0 -1 6788
+D3
+~
+~
+0 -1 6779
+S
+#6788
+Jungle~
+You hear the sounds of a skirmish coming from the south. You contemplate
+whether to investigate or avoid the battle.
+~
+67 0 3
+D0
+~
+~
+0 -1 6787
+D1
+~
+~
+0 -1 6798
+D2
+~
+~
+0 -1 6789
+D3
+~
+~
+0 -1 6780
+S
+#6789
+Tribal Skirmish~
+You emerge into a clearing within the jungle. Bodies lie about and there is a
+heated battle going on before you.  Warriors from both sides turn their
+attention towards you and attack.
+~
+67 0 3
+D0
+~
+~
+0 -1 6788
+D1
+~
+~
+0 -1 6799
+D2
+~
+~
+0 -1 6790
+D3
+~
+~
+0 -1 6781
+S
+#6790
+Tribal Skirmish~
+The skirmish continues here. It doesn't concern you, and yet the foes still
+attack you.
+~
+67 0 3
+D0
+~
+~
+0 -1 6789
+D1
+~
+~
+0 -1 6800
+D2
+~
+~
+0 -1 6791
+D3
+~
+~
+0 -1 6782
+S
+#6791
+Jungle~
+You can hear the sounds of battle coming from the north. You contemplate
+investigating or avoiding this battle.
+~
+67 0 3
+D0
+~
+~
+0 -1 6790
+D1
+~
+~
+0 -1 6801
+D2
+~
+~
+0 -1 6792
+D3
+~
+~
+0 -1 6783
+S
+#6792
+Little Grove~
+You are standing in a small grove of fruit trees. They are short, squatty
+things, with large broad leaves. Upon their branches and on the ground at
+their trunks lie a round fruit, slightly resembling loaves of bread.
+~
+67 0 3
+D0
+~
+~
+0 -1 6791
+D1
+~
+~
+0 -1 6802
+D2
+~
+~
+0 -1 6793
+D3
+~
+~
+0 -1 6784
+S
+#6793
+Jungle~
+You detect a slight smell of smoke in the air. It could be from a campfire,
+so best to proceed with care.
+~
+67 0 3
+D0
+~
+~
+0 -1 6792
+D1
+~
+~
+0 -1 6803
+D2
+~
+~
+0 -1 6794
+D3
+~
+~
+0 -1 6785
+S
+#6794
+Jungle~
+There is a strong smell of smoke here, and a distinct haze in the air.
+It seems to be coming from the east, but you can't quite be sure.
+~
+67 0 3
+D0
+~
+~
+0 -1 6793
+D1
+~
+~
+0 -1 6804
+S
+#6795
+Ygorl's Cave~
+You find yourself standing in a medium sized cave. Strange devices, tomes and
+scrolls litter the place.  Bones of both past meals and past victims are
+strewn about. You can feel the presence of very strong magic here.
+~
+67 ADN 0
+D2
+~
+~
+0 -1 6796
+S
+#6796
+Dark Clearing~
+You find yourself in a dark clearing with a firepit and a small hut at it's
+center. There are strange devices fashioned from jungle wood that resemble
+the torture devices of castle dungeons you have "visited" in the past.
+~
+67 A 3
+D0
+~
+~
+0 -1 6795
+D1
+~
+~
+0 -1 6806
+D2
+~
+~
+0 -1 6797
+D3
+~
+~
+0 -1 6786
+S
+#6797
+Jungle~
+You are standing in room #6797.
+~
+67 0 3
+D0
+~
+~
+0 -1 6796
+D1
+~
+~
+0 -1 6807
+D2
+~
+~
+0 -1 6798
+D3
+~
+~
+0 -1 6787
+S
+#6798
+Jungle~
+You are standing in room #6798.
+~
+67 0 3
+D0
+~
+~
+0 -1 6797
+D1
+~
+~
+0 -1 6808
+D2
+~
+~
+0 -1 6799
+D3
+~
+~
+0 -1 6788
+S
+#6799
+Jungle~
+You are standing in room #6799.
+~
+67 0 3
+D0
+~
+~
+0 -1 6798
+D1
+~
+~
+0 -1 6809
+D2
+~
+~
+0 -1 6800
+D3
+~
+~
+0 -1 6789
+S
+#6800
+Jungle~
+You are standing in room #6800.
+~
+68 0 3
+D0
+~
+~
+0 -1 6799
+D1
+~
+~
+0 -1 6810
+D2
+~
+~
+0 -1 6801
+D3
+~
+~
+0 -1 6790
+S
+#6801
+Jungle~
+You are standing in room #6801.
+~
+68 0 3
+D0
+~
+~
+0 -1 6800
+D1
+~
+~
+0 -1 6811
+D2
+~
+~
+0 -1 6802
+D3
+~
+~
+0 -1 6791
+S
+#6802
+Jungle~
+You are standing in room #6802.
+~
+68 0 3
+D0
+~
+~
+0 -1 6801
+D1
+~
+~
+0 -1 6812
+D2
+~
+~
+0 -1 6803
+D3
+~
+~
+0 -1 6792
+S
+#6803
+Jungle~
+You are standing in room #6803.
+~
+68 0 3
+D0
+~
+~
+0 -1 6802
+D1
+~
+~
+0 -1 6813
+D2
+~
+~
+0 -1 6804
+D3
+~
+~
+0 -1 6793
+S
+#6804
+Magical Grotto~
+You stumble into a small grotto that has the definite tingle of the black
+arts in the air. There is a small, black hut and a fire pit here. Hanging
+over the firepit is a large black cauldron bubbling a noxious brew over its
+thick sides.
+~
+68 0 3
+D0
+~
+~
+0 -1 6803
+D1
+~
+~
+0 -1 6814
+D2
+~
+~
+0 -1 6805
+D3
+~
+~
+0 -1 6794
+S
+#6805
+Ssendam's Cave~
+You are standing in room #6805.
+~
+68 0 3
+D0
+~
+~
+0 -1 6804
+S
+#6806
+Jungle~
+You are standing in room #6806.
+~
+0 0 3
+D2
+~
+~
+0 -1 6807
+D3
+~
+~
+0 -1 6796
+S
+#6807
+Jungle~
+You are standing in room #6807.
+~
+68 0 3
+D0
+~
+~
+0 -1 6806
+D1
+~
+~
+0 -1 6815
+D2
+~
+~
+0 -1 6808
+D3
+~
+~
+0 -1 6797
+S
+#6808
+Jungle~
+You are standing in room #6808.
+~
+68 0 3
+D0
+~
+~
+0 -1 6807
+D1
+~
+~
+0 -1 6816
+D2
+~
+~
+0 -1 6809
+D3
+~
+~
+0 -1 6798
+S
+#6809
+Jungle~
+You are standing in room #6809.
+~
+68 0 3
+D0
+~
+~
+0 -1 6808
+D1
+~
+~
+0 -1 6817
+D2
+~
+~
+0 -1 6810
+D3
+~
+~
+0 -1 6799
+S
+#6810
+Jungle~
+You are standing in room #6810.
+~
+68 0 3
+D0
+~
+~
+0 -1 6809
+D1
+~
+~
+0 -1 6818
+D2
+~
+~
+0 -1 6811
+D3
+~
+~
+0 -1 6800
+S
+#6811
+Jungle~
+You are standing in room #6811.
+~
+68 0 3
+D0
+~
+~
+0 -1 6810
+D1
+~
+~
+0 -1 6819
+D2
+~
+~
+0 -1 6812
+D3
+~
+~
+0 -1 6801
+S
+#6812
+Jungle~
+You are standing in room #6812.
+~
+68 0 3
+D0
+~
+~
+0 -1 6811
+D1
+~
+~
+0 -1 6820
+D2
+~
+~
+0 -1 6813
+D3
+~
+~
+0 -1 6802
+S
+#6813
+Jungle~
+You are standing in room #6813.
+~
+68 0 3
+D0
+~
+~
+0 -1 6812
+D1
+~
+~
+0 -1 6821
+D2
+~
+~
+0 -1 6814
+D3
+~
+~
+0 -1 6803
+S
+#6814
+Jungle~
+You are standing in room #6814.
+~
+68 0 3
+D0
+~
+~
+0 -1 6813
+D3
+~
+~
+0 -1 6804
+S
+#6815
+Northeastern Corner~
+You are standing in room #6815.
+~
+68 0 3
+D2
+~
+~
+0 -1 6816
+D3
+~
+~
+0 -1 6807
+S
+#6816
+Jungle~
+You are standing in room #6816.
+~
+68 0 3
+D0
+~
+~
+0 -1 6815
+D2
+~
+~
+0 -1 6817
+D3
+~
+~
+0 -1 6808
+S
+#6817
+Jungle~
+You are standing in room #6817.
+~
+68 0 3
+D0
+~
+~
+0 -1 6816
+D2
+~
+~
+0 -1 6818
+D3
+~
+~
+0 -1 6809
+S
+#6818
+Lava Flow~
+You are standing in a clearing made by a small river of lava, long since
+cooled and hardened. You can make out the petrified remains of small birds,
+animals and trees. The lava flow continues to the east and the jungle lies
+to the north, south and west.
+~
+68 0 3
+D0
+~
+~
+0 -1 6817
+D1
+~
+~
+0 -1 6822
+D2
+~
+~
+0 -1 6819
+D3
+~
+~
+0 -1 6810
+S
+#6819
+Jungle~
+You are standing in room #6819.
+~
+68 0 3
+D0
+~
+~
+0 -1 6818
+D2
+~
+~
+0 -1 6820
+D3
+~
+~
+0 -1 6811
+S
+#6820
+Jungle~
+You are standing in room #6820.
+~
+68 0 3
+D0
+~
+~
+0 -1 6819
+D2
+~
+~
+0 -1 6821
+D3
+~
+~
+0 -1 6812
+S
+#6821
+Southeastern Corner~
+You are standing in room #6821.
+~
+68 0 3
+D0
+~
+~
+0 -1 6820
+D3
+~
+~
+0 -1 6813
+S
+#6822
+Lava Flow~
+You are standing in room #6822.
+~
+68 0 3
+D1
+~
+~
+0 -1 6823
+D3
+~
+~
+0 -1 6818
+S
+#6823
+Before the Blackened Mountain~
+As you exit the lava flow, you find yourself staring up at its creator. A long
+dead volcanic mountain.  A whitish scar catches your eye, and you realize it
+is a path which winds its way up towards the wicked spire of a peak.
+~
+68 0 3
+D1
+~
+~
+0 -1 3200
+D3
+~
+~
+0 -1 6822
+S
+
+#0
+
+#RESETS
+M 0 6700 3 6700         goat
+M 0 6700 3 6702         goat
+M 0 6700 3 6704         goat
+M 0 6701 2 6707         demon
+M 0 6701 2 6707         demon
+M 0 6702 1 6712         book monster
+G 1 6710 20             chaos book
+G 1 6711 20             elder book
+O 0 6709 1 6711         desk
+M 0 6703 1 6711         bad feeling
+P 1 6702 50 6709        agate
+P 1 6703 50 6709        jade
+P 1 6700 50 6709        glowing dagger
+M 0 6705 1 6737         door guardian
+O 0 6704 5 6711         sculpture
+O 0 6713 100 6741       mevais
+O 0 6714 100 6741       peska
+O 0 6715 20 6736        rand's staff
+O 0 6716 1 6716         chest
+O 0 6717 1 6716         chest
+O 0 6718 1 6716         chest
+O 0 6719 1 6710         water basin
+M 0 6704 1 6716         worst nightmare
+P 1 6701 50 6716        glowing platemail
+P 1 6705 100 6717       dragon's blood
+P 1 6707 50 6717        tent pole
+P 1 6706 100 6718       amulet
+P 1 6708 1 6718         powder of wealth
+P 1 6712 10 6718        occluded lens
+O 1 6720 10 6724        food
+O 1 6720 10 6724        food
+M 1 6706 1 6745         demon god
+E 1 6721 10 6            volcanic helm
+E 1 6722 10 5            volcanic plate
+E 1 6723 10 7            volcanic leggings
+E 1 6724 10 13           volcanic girth
+E 1 6725 10 10           volcanic sleeves
+E 1 6726 10 9            volcanic gauntlets
+E 1 6727 10 8            volcanic boots
+E 1 6728 10 11           volcanic shield
+E 1 6729 10 16           volcanic demon's blade
+*
+M 1 6727 3 6749          a strange seabird to Calm Sea
+*
+M 1 6708 2 6750          a dragon fish to Calm Sea
+*
+M 1 6708 1 6752          a dragon fish to Quiet Seas
+*
+M 1 6711 1 6753          a sea lion to Deep Seas
+*
+M 1 6707 1 6754          a sea dragon to Lost at Sea
+*
+M 1 6709 2 6755          a kelpie to Swelling Seas
+*
+M 1 6727 2 6757          a strange seabird to Reality
+*
+M 1 6710 4 6761          a hippocampus to Oh My!
+*
+M 1 6712 3 6766          the locathah to Roiling Seas
+*
+M 1 6712 2 6767          the locathah to Strange Sounds
+*
+M 1 6713 2 6771          an aarakocra to Jungle
+*
+M 1 6713 2 6773          an aarakocra to Jungle
+*
+M 1 6707 5 6751          a sea dragon to High Seas
+*
+M 1 6728 3 6751          a seaskull to High Seas
+*
+M 1 6728 2 6752          a seaskull to Quiet Seas
+*
+M 1 6728 2 6757          a seaskull to Reality
+*
+M 1 6727 3 6749          a strange seabird to Calm Sea
+*
+M 1 6714 4 6774          a quaggoth to Jungle
+E 1 6732 100 13
+E 1 6731 100 16
+E 1 6733 100 0
+*
+M 1 6716 2 6775          a qullan to Jungle
+E 1 6734 100 6
+E 1 6738 100 5
+E 1 6739 100 7
+E 1 6735 100 16
+E 1 6733 100 0
+*
+M 1 6716 2 6776         a qullan to Jungle
+E 1 6733 100 0
+E 1 6738 100 5
+E 1 6734 100 6
+E 1 6736 100 16
+*
+M 1 6716 2 6777         a qullan to Jungle
+E 1 6738 100 5
+E 1 6734 100 6
+E 1 6737 100 16
+*
+M 1 6714 4 6778         a quaggoth to Jungle's Edge
+E 1 6733 100 0
+E 1 6732 100 13
+E 1 6731 100 16
+*
+M 1 6714 4 6789         a quaggoth to Jungle
+E 1 6733 100 0
+E 1 6732 100 13
+E 1 6731 100 16
+*
+M 1 6716 4 6789         a qullan to Jungle
+E 1 6733 100 0
+E 1 6738 100 5
+E 1 6734 100 6
+E 1 6735 100 16
+E 1 6739 100 7
+*
+M 1 6714 4 6790         a quaggoth to Tribal Skirmish
+E 1 6733 100 0
+E 1 6732 100 13
+E 1 6731 100 16
+*
+M 1 6716 1 6790         a qullan to Tribal Skirmish
+E 1 6733 100 0
+E 1 6738 100 5
+E 1 6734 100 6
+E 1 6739 100 7
+E 1 6736 100 16
+O 1 6743 100 6792       a breadfruit to Little Grove
+O 1 6743 100 6792       a breadfruit to Little Grove
+O 1 6743 100 6792       a breadfruit to Little Grove
+O 1 6743 100 6792       a breadfruit to Little Grove
+*
+M 1 6722 1 6795         Ygorl to Ygorl's Cave
+E 1 6744 100 16
+G 1 6745 100
+G 1 6745 100
+*
+* Ramdomized Rooms *
+*
+R 1 6746 4              Randomize Calm Sea
+R 1 6748 4              Randomize Calm Sea
+R 1 6749 4              Randomize Calm Sea
+R 1 6750 4              Randomize Calm Sea
+R 1 6751 4              Randomize Calm Sea
+R 1 6752 4              Randomize Calm Sea
+R 1 6753 4              Randomize Calm Sea
+R 1 6754 4              Randomize Lost at Sea
+R 1 6755 4              Randomize Calm Sea
+R 1 6756 4              Randomize Calm Sea
+R 1 6757 4              Randomize Calm Sea
+R 1 6758 4              Randomize Calm Sea
+R 1 6759 4              Randomize Calm Sea
+R 1 6760 4              Randomize Calm Sea
+R 1 6761 4              Randomize Calm Sea
+R 1 6762 4              Randomize Calm Sea
+R 1 6763 4              Randomize Calm Sea
+R 1 6764 4              Randomize Calm Sea
+R 1 6765 4              Randomize Calm Sea
+R 1 6766 4              Randomize Calm Sea
+*
+* Door Resets *
+*
+D 0 6706 5 1
+D 0 6707 4 1
+D 0 6707 2 1
+D 0 6708 0 1
+D 0 6709 0 1
+D 0 6709 2 1
+D 0 6710 0 1
+D 0 6711 2 1
+D 0 6712 1 1
+D 0 6712 3 1
+D 0 6713 3 1
+D 0 6714 1 1
+D 0 6714 5 1
+D 0 6715 3 1
+D 0 6716 4 1
+D 0 6717 0 1
+D 0 6717 1 1
+D 0 6717 2 1
+D 0 6718 0 1
+D 0 6719 2 1
+D 0 6720 0 1
+D 0 6721 2 1
+D 0 6723 0 1
+D 0 6724 2 1
+D 0 6735 3 2
+D 0 6736 1 2
+D 0 6737 3 1
+D 0 6738 1 1
+S
+
+
+#SPECIALS
+M 6703 spec_cast_mage           bad feelings
+M 6704 spec_cast_mage           worst nightmare
+M 6706 spec_cast_undead         demon god
+M 6706 spec_breath_fire         demon god
+M 6707 spec_breath_acid         a sea dragon
+M 6708 spec_poison              a dragon fish
+M 6719 spec_cast_mage           the green slaad
+M 6720 spec_cast_undead         the death slaadi
+M 6722 spec_breath_acid         Ygorl
+M 6723 spec_breath_gas          Ssendam
+M 6726 spec_poison              a creeper vine
+S
+
+#$

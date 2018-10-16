@@ -1,0 +1,4080 @@
+#AREA {51 70} Elrond  Valhalla~
+
+#MOBILES
+#9900
+Heimdall~
+Heimdall~
+Heimdall, guardian of Bifrost, stands guard over the Rainbow Bridge.
+~
+Standing over 7 feet tall and muscled as only a god can be, Heimdall keeps
+his unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn never
+leaves his side, and shall remain unwinded until the dread ship Naglfar sails
+towards Valhalla on the dawn of Ragnarok 
+~
+human~
+BOTV CDFJ 1000 S
+68 30 1d1+19999 1d1+499  5d4+50  8
+-20 -20 -20 -10
+ACDEFHIKLNOT ABP CD 0
+8 8 1 0
+0 0 L 0
+#9901
+nazgul man darkness~
+The Witch King~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+This is an undead sortof. This man has succumbded to THE ring of power
+created by Sauron. But since the downfall of Sauron he has been in
+service here.
+~
+nazgul~
+BFRT DEFHNaa -1000 M
+65 12 19D100+6500 1D1+499 10d10+200 29
+-15 -15 -15 -15
+ACDFIKMGV ABEIJ C K
+8 8 1 2000
+0 0 H 0
+{}
+#9902
+shopkeeper~
+A shopkeeper~
+This man usually sells things.
+~
+This man is unemployed now because he has nothing to sell anymore
+since gods can conjure up everything they need. But the Gods let him
+stay on here just for the time he has spend here and they have grown
+quite attached to him.
+~
+human~
+BHO CDE 0 M
+55 8 10D10+6000 10D10+200 4D4+50 3
+-13 -13 -13 -10
+ABCDEF AB CD O
+8 8 1 0
+H D S A
+{}
+#9903
+armorer shopkeeper man~
+The armorer~
+This man holds the weaponry of the Gods.
+~
+The Gods have their own stuff and don't deposit here anymore so
+i don't have a thing here.
+~
+human~
+BHO CDE 0 M
+55 8 12D10+6000 0D0+100 5D8+50 4
+-13 -13 -13 -10
+ABVDEF AB CD O
+8 8 1 0
+H D L A
+{}
+#9904
+guard prison~
+the prisonguard~
+An enormous black skinned man armed with a halberd is on guard here.
+~
+This man sees to it that all prisoners here are kept here.
+He was a guardian when he was a mortal and asked to remain
+so in death rather then face hell. Now he has to stay here
+till, till, till.......
+~
+human~
+BF CDEH -1000 M
+55 15 10D100+4000 0D0+0 4D15+40 27
+-11 -11 -11 0
+ABCDEFIJKMNQ ABC HIJK L
+8 8 1 0
+I ABCDEF G D
+{}
+#9905
+nazgul khamul~
+Khamul~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+The second nazgul now in service to the gods of TOC.  A most evil man.
+He was the second to fall to the powers of THE ring in lust for power
+and glory.
+~
+nazgul~
+BRTdd DEFHNaa -1000 M
+60 12 19D100+5500 1D1+499 10d8+120 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 1 2000
+Z P G C
+{}
+#9906
+nazgul dwar~
+Dwar~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+This man wanted to escape the life he was meant for that of a 
+fisherman. So he became a mercenary and is now lord of his own.
+~
+nazgul~
+HRTdd DEFHNaa -1000 M
+57 12 19D100+5000 1D1+499 10d8+110 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 1 2000
+Z P G C
+{}
+#9907
+nazgul indur dawndeath~
+Indur Dawndeath~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+As a Kirannian evil mage he took power and ruled. After death he still
+rules now over the dead.
+~
+nazgul~
+BRTdd DEFHNaa -1000 M
+57 12 19D100+5000 1D1+499 10d8+115 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 1 2000
+Z P G C
+{}
+#9908
+nazgul akhorahil~
+Akhorahil~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+How could anyone be so cruel as this man. He lived just for the pleasure
+of killing. His major pasttime was on research on "How to hurt and
+hurt more".
+~
+nazgul~
+BRTdd DEFHNaa -1000 M
+57 12 19D100+5000 1D1+499 10d8+105 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 1 2000
+Z P G C
+{}
+#9909
+nazgul hoarmurath~
+Hoarmurath~
+Standing before you is a man shaped being of utter darkness and evil.
+~
+If there was a ever a maniac it's him. He was the trainer and builder of the
+host of Mordor. Now has anyone seen a more terrrifying army since.
+~
+nazgul~
+FRTdd DEFHNaa -1000 M
+57 12 19D100+5000 1D1+499 10d8+100 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 1 2000
+Z P G C
+{}
+#9910
+nazgul andunaphel~
+Andunaphel~
+Standing before you is a female shaped being of utter darkness and evil.
+~
+This the sole female nazgul and there are no words to describe her. Not
+now, not ever.
+~
+nazgul~
+BRTdd DEFHNaa -1000 M
+57 12 19D100+5000 1D1+499 10d8+125 29
+-13 -13 -13 -5
+ACDFIKMG ABEIJ C K
+8 8 2 2000
+Z P G C
+{}
+#9911
+annie~
+Annie~
+A cute doggie stands here and drools all over you.
+~
+This is tif's doggie, what its doing in gravestone's room we have no idea.
+Now this dog has an amazing ability, it waits till you are asleep and 
+then wakes you up and steals the warm spot you left on the bed. So watch out
+and don't let down your guard.
+~
+dog~
+BCGMTV CDEFGHJOTV 1000 S
+70 150 200d2+10500 100d1+500 10d10+15 5
+-20 -20 -20 -20
+ACHN ABKL HIJ 0
+8 8 2 5000
+0 0 L 0
+#9913
+castellan~
+the Castellan~
+The Castellan greets you with a warm smile, and a firm handshake.
+~
+He is wearing a white shirt, black pants, and a pair of leather boots. His
+blue eyes pierce you as he shakes your hand, and a smile appears at the 
+corner of his mouth. 'Welcome friends! Please make yourself at home. The
+master and mistress will be with you shortly.' After saying this he walks
+over to the fireplace and stokes up the fire.
+~
+human~
+BTV DFHNc 1000 S
+60 50 6d6+7400 4d2+1320 8d6+70 13
+-125 -125 -125 -125
+CDFHJLN ABP CD 0
+8 8 1 0
+0 0 M 0
+#9914
+sundancer wolf~
+Sundancer~
+A large, well-muscled white wolf rests its furry head on the floor here.
+~
+This wolf has a blazing white coat of fur and sharp raking claws.
+As you look at him, he licks his blood-stained claws.  He knows who
+is master is and it isn't you.  Only Taliesin, the keeper of this shrine, 
+hasbeen able to control him.  As he looks at you with his large, yellow
+eyes, it is almost as if he is challenging you to a fight - one which
+you are certain to lose.  You have been warned!
+~
+wolf~
+ABGTV HJNP 1000 S
+67 70 4d12+8300 3d6+850 11d6+34 5
+-145 -140 -130 -120
+DEFHIJLNU ABMNPR CDKL HJKY
+8 8 1 0
+DGHVc ACDEFHJKQUV L 0
+#9915
+guardian moon~
+guardian of the moon~
+.~
+The guardian is a tall knight, encased in full plate armor, and wielding
+a black bastard sword in one hand, and a short sword in the other.  He
+looks VERY formidable.
+~
+unique~
+BGTU DFNTV 1000 S
+65 10 10d100+11000 1d1+1000 11d15+300 3
+-13 -13 -13 -13
+DEFIKNRV ABE JP 0
+8 8 1 0
+0 0 L 0
+#9916
+succubus~
+the succubus~
+A succubus walks towards you, slowly devouring you with her stare.
+~
+The succubus is truely a ravishingly beautiful creature.  Small fangs
+can be seen protruding through her sensuous lips.  Long black fingernails,
+razor sharp, gleam slightly in the dim light entering from the small bar'd
+window in the room.
+~
+unique~
+BFGR DFHT -1000 S
+70 5 20d100+17000 1d1+1000 15d10+300 17
+-12 -12 -12 -12
+DEFIKNR ABEF JP 0
+8 8 2 0
+0 0 L 0
+#9917
+gimp~
+The Gimp~
+A man dressed in a leather suit stands here, holding a whip and
+grinning evilly.
+~
+This man, silent but strong, is dressed in a studded leather suit and
+wears a mask.  He is chained to the eastern wall, and watches your every
+move.  In his presence, you are afraid to move.  He is clearly a minion of
+the god, Rimmon, and to harm the Gimp is to suffer the wrath of Rimmon
+himself.
+~
+human~
+BGMT CDEFHTU -500 S
+45 20 300d2+50 2d50+100 7d5+20 4
+-5 -5 -5 -5
+BDFIKN ABEPR EG FN
+8 8 1 0
+0 0 M 0
+#9918
+sonofabitchbadassdude~
+The Guardian of Souls~
+The Guardian of Souls gives an evil hiss and attacks!
+~
+The Guardian of Souls is the favorite "pet" of his unholiness, Soulcrusher.
+Its purpose is to not only guard the vast number of souls in the collection,
+but to add to that collection, every chance it gets..  It is now VERY happy
+because you just gave it one of those chances!
+~
+undead~
+BFGR DFHT -1000 S
+70 5 20d100+21500 2d70+1500 10d10+250 20
+-50 -55 -50 -55
+DEFIKNR ABEF JP 0
+8 8 0 100000
+0 0 G 0
+#9919
+zoltan~
+Zoltan~
+The black raven Zoltan sits above you on his perch.
+~
+    The raven Zoltan is Haze's pet.  Haze has taught him such
+colorful phrases as, "Screw you and the horse you rode in on," and
+the song, "Beans! Beans! the musical fruit, the more you eat the
+more you toot!"
+    Zoltan looks down at you from his perch.  His huge black wings
+look as if they could span the room when fully extended.  You wonder
+where Haze could have come across such a beast.  Zoltan suddenly
+looks over at the dartboard and caws, "Slay the ego! Slay the ego!
+Bawwwwk!"
+~
+songbird~
+BIMU DFGHLOTVZ D 0 S
+69 60 200d2+12000 100d55+400 10d10+20 10
+-70 -70 -70 -70
+ABCDEFGHIJKLV ACDEFGHIJKLMNOPQRS 0 0
+8 8 1 0
+0 0 M 0
+#9920
+cupid~
+Cupid~
+Cupid is standing here making the wrong people fall in love.
+~
+     You NEVER pictured cupid like this.  He's smoking on a cigarette and 
+needs a shave desperately, and the diaper might look better on him if it 
+wasn't for his 'lack of excercise'.  He catches you looking at him and 
+grumbling he shoots you with an arrow.  Looking around he spots a mule and
+then he shoots it and begins to laugh as he skips away, but you're not 
+worried about that right now.  That mule is FAR too attractive.
+~
+human~
+HMR HOPTUV -1000 S
+60 20 2D200+10000 2d200+700 6d4+70 19
+10 10 10 10
+CDEFHIK ABP O 0
+8 8 1 10000
+0 0 M 0
+#9921
+leprechaun~
+a leprechaun~
+A tiny man in green is standing here.
+~
+     His hair is red and his eyes an emerald green.  He looks at you and
+flashes a smile before he sees your shoes.  His whole expression changes.
+"Those were once nice shoes," he says,",and now they are ruined by your
+overgrown feet!"  He growls and huffs.
+~
+elf~
+CHM OTV 1000 S
+10 1 10d10+100 10D10+100 2d5+5 17
+1 1 1 1 
+DFKN A 0 0
+8 8 1 1000
+0 0 S 0
+#9922
+leprechaun~
+a leprechaun~
+A big mean leprechaun is standing here taunting you.
+~
+He looks kinda funny.  A red mop of hair and emerald green eyes are his
+most outstanding features.  Well that and the red nose he has from
+drinking so much.  He looks at your and puts his dukes up.
+~
+elf~
+CGHM GOT -750 S
+25 5 15d20+100 15D20+100 3d6+20 17
+-1 -1 -1 -1
+EFKN A 0 0
+8 8 1 5000
+0 0 S 0
+#9923
+shad magic carpet~
+Shadizar's magic carpet~
+Shadizar's magic carpet lies under your feet.
+~
+The carpet is simply beautiful, made from intricately woven silken material.
+It seems to rise up at the touch of your feet.  Wait, it is rising, a few 
+feet above the ground!  In fact, it seems to be ALIVE!
+~
+unique~
+ARSTVW DEFHJTU 0 S
+55 30 10d10+5000 2d55+1000 2d50+25 4
+-20 -20 -20 -20
+ABCDEFGHIJKLMNOVZ B ABCDEFGHIJKLMNOPQRS 0 0
+6 6 0 0
+0 0 L 0
+#9924
+succubus~
+the succubus~
+A succubus walks towards you, slowly devouring you with her stare.
+~
+The succubus is truely a ravishingly beautiful creature.  Small fangs
+can be seen protruding through her sensuous lips.  Long black fingernails,
+razor sharp, gleam slightly in the dim light entering from the small bar'd
+window in the room.
+~
+unique~
+BFGR DFHT -1000 S
+70 5 20d100+17000 1d1+1000 15d10+300 17
+-12 -12 -12 -12
+DEFIKNR ABEF JP 0
+8 8 2 0
+0 0 L 0
+
+#0
+
+#OBJECTS
+#9900
+key~
+A normal non-descript key.~
+A simple unobtrusive key is laying in some dark corner.
+~
+silver~
+18 ABM A
+0 0 0 0 0
+51 10 0 P
+#9901
+statue soulcrusher~
+A statue~
+A statue of Soulcrusher is here.
+~
+silver~
+12 0 A
+0 0 0 0 0
+51 1000 0 P
+E
+statue~
+One look at this horrific sight instantly paralyzes you in fear. You
+can only stand slackjawed and dumbfounded as your mind tries to
+comprehend what your eyes are showing it.
+~
+#9902
+statue modib~
+A statue~
+A statue of Modib is here.
+~
+silver~
+12 0 A
+0 0 0 0 0
+51 1000 0 P
+E
+statue~
+He looks very powerful.
+~
+#9903
+statue modib~
+A statue~
+A statue of Modib is here.
+~
+silver~
+12 0 A
+0 0 0 0 0
+51 1000 0 P
+E
+statue~
+Before you stands the largest dwarf you have ever seen.  He must be
+at least 8 feet tall and looks as strong as a giant.  His neatly 
+braided silver beard is tucked into his belt.  He is carrying a large 
+two-handed battle axe that looks big enough to cleave an ox in two.
+~
+#9904
+statue Elrond~
+A statue of Elrond~
+A statue of Elrond is standing here.
+~
+silver~
+12 0 A
+0 0 0 0 0
+51 1000 0 P
+E
+statue~
+A small statue of the architect of this place, the halfelven Elrond.
+But his non-elven part isn't human but Maia his ancester being Melian.
+He belonged to an ancient race of elves and he is probably the
+one of the last that exist of the entire race of those ages.
+The statue has in one hand a staff made of gold with a silvery design on
+it. In his  other hand he has an ancient blade of which is little
+known these days but is said to be of the mightiest swords ever created.
+As clothes he uses a non-descript white robe.
+It was said that in the old days when the Noldo where the mightiest of
+all elves, that Elrond was one of the leaders. He was even family of
+Feanor but much lore has since been lost in the battles against evil.
+~
+#9905
+forge~
+The forge of enchantment~
+A black forge is standing in the corner.
+~
+mithril~
+3 A AO
+50 2 2 70 0
+51 15 30000 P
+#9906
+staff wand~
+The staff of dreams~
+A wooden staff with a glittering gem in it.
+~
+wooden~
+3 B AO
+50 3 3 28 0
+51 5 45000 P
+#9907
+sword blade~
+Calris~
+A black flaming sword is laying here.
+~
+eog~
+5 AJR AN
+1 8 8 3 0
+52 12 5000 P
+A
+1 2
+A
+18 7
+A
+19 8
+#9908
+armor plate~
+Tristar~
+A blueish mail is tossed carelessly in the corner
+~
+steel~
+9 FL AD
+11 11 11 11 0
+51 20 5000 P
+A
+2 3
+A
+14 30
+A
+17 -30
+#9909
+drakk key~
+a large gold key~
+A large gold key with Drakk written on the side.
+~
+gold~
+18 ABM A
+0 0 0 0 0
+51 2000 0 P
+A
+18 50
+A
+19 50
+#9910
+key stardancer~
+a bright star~
+A very bright star about the size of your hand floats in the air here.
+~
+gold~
+18 ABM A
+0 0 0 0 0
+51 2000 0 P
+A
+18 50
+A
+19 50
+#9911
+diary travel~
+a small travel diary~
+You see a small weathered book laying on the ground.
+~
+paper~
+13 ITV AO
+0 0 0 0 0
+1 1 25 W
+A
+14 100
+E 
+diary book travel~
+.
+The small leather bound book looks like it is quite old.  On 
+the cover is the name Judicandus Bramsheer.  When you open the book
+you read the following.
+
+Entries:
+1.0 - Day of Freedom, 18th the Month of the Ancient Darkness
+2.0 - Day of the Sun, 13th the Month of the Heat
+2.1 
+2.2 
+
+~
+E
+1 18th ancient darkness "day of freedom"~
+.
+Day of Freedom, 18th the Month of the Ancient Darkness
+How long I stayed lost in these dark woods I can't truthfully say.
+On the word of the bartender at The Bloody Axe I ventured into the
+dark woods of Miden'nir to find the lost city of Midgaard
+Having grown up after the flight of dragons leveled the city
+Midgaard was often spoken about by my grandfather while we sat around
+the evening fire.  Many nights my dreams took me there to live in its
+splendor.  Now here I am wishing I never started on this absurd quest
+to find the city of my childhood dreams.
+
+Having had several encounters with the dark horsemen, goblins, and
+dragon kin wyvern that infest the area like scum I was tired and
+coming close to the end of my endurance. It was late morning and the
+sun high above was filtering through the leaves making the shadows dance
+on the forest floor.  I had spent the night before cold and hungry.  With
+no fire or food.  The monsters would have seen the fire and would have
+surely smelled anything I could hunt down and kill for my dinner.
+Hungry and tired I stumbled over the hill and into a clearing and
+before me spread out in the valley below was Midgaard, City of Dreams.
+
+The northern city gates that once stood open for trade and closed for
+protection now lay in a twisted heap.  The walls crumbling away to
+forest and decay.  Sounds echoed throughout those empty streets and
+I could feel eyes watching my every move.  Several places were burned
+and littered with bones from the battles fought to keep the city.
+All of those battles were fought in vain!  The once proud temple that
+once stood as a bastion of freedom and liberty was in ruins.  Holes
+riddled the roof.  The altar inside was covered with blood stains.
+Everywhere I looked I saw nothing but decay and death.
+
+Now I sit here.  In the same clearing I walked into this morning.
+Fire burning bright because even the scum of these woods wont venture 
+here.  The shadows of the towers stretching into the night sky and
+the cries of the doomed echoing from the ruins.  I can only pray that
+we, the citizens of Dresden, do not find our fate in the same lines
+as the dead in the city before me.
+
+Judicandus Bramsheer
+~
+E 
+2.0 13th sun "day of the sun"~
+.
+Day of the Sun, 13th the Month of the Heat
+
+Why I took the job I dont know.  Well, money had a large
+part of it.  Spend three quarters of my time getting funds
+to go ahead and do whatever I am doing at the time.  When
+I heard the wizard was hiring people to collect components for him
+I figured why not.  How hard could it be to get an herb?  That coupled
+with the fact that I was flat broke prompted me to go and try to get
+a job.  Well, I got it.  Go to the Frozen Lands and get blood from an Ice Worm.
+Dresden was sweltering in the summer heat and I looked forward
+to traveling to the frozen lands to get the blood.  Summer.  
+How cold could it be?
+
+I should have bought warm clothing before I ever started out.  I
+realized that while I was on the edge of the wood staring out over
+a flat, snow covered land.  Maybe I had made a mistake, but I had
+also made a promise and so I started out from the comfort of the
+woods.
+
+Three hours later the woods were far behind me and I could see
+a city on a mountain in the distance with a keep sitting higher
+on the mountain behind the city.  Although still clouded with haze the
+scene evoked within me a sense of awe.  After stumbling through these
+frozen lands for hours and weeks away from the nearest other town of
+any considerable size I looked forward to having a day or two to relax
+before continuing my search.  I had seen natives.  Yeti's and barbarians
+who fled at my passing, but no worm as of yet.  There was a small chance
+that somewhere in the city I could find the blood of the worm that the
+wizard needed.  Besides that I looked forward to the warmth of fire in
+any inn I could find.
+
+Nightfall.  The sky opened up and the stars were shining down like all
+of the gods angels watching over the world.  I was less than a mile
+from the city gates and stopped and looked into the night sky.  These
+are the reasons I decided to live like I do.  The freedom.  The sights
+that would take even the oldest of souls and fill them with a childlike
+wonder at all around them.
+
+~
+E
+2.1~
+.
+The gates of the city were open when I finally got there.  It seemed
+strange to me that there were no guards, but who would attack such a
+distant place from everywhere.  I walked into the city and down two
+or three blocks before I saw the first inhabitants.
+MINOTAURS!!  The city was inhabited by minotaurs!  By the names
+of Soulcrusher!!  Creatures of legends.  Creatures of dreams and 
+nightmares.  This explained why there were no guards.  This
+explained why the city was built so large.  And as I sat there
+looking at them I realized they were looking at me.  When they drew
+their weapons is when I found movement again.
+
+Running down the streets I turned around corners and ran through alleys.
+Everytime I would turn a corner a new member would join the pursuit.  I
+am not sure when they stopped chasing me, but they did.  When I
+I first noticed this I stopped and looked back over my shoulder.
+When I turned back around the keep towered over me like a behemoth
+in the clear sky.  A minotaur was running toward me from the keep
+with a huge battle axe ready to swing.  So I did the only thing 
+that at the time made sense.  I unsheathed my sword and attacked.  If I
+was going to die I was going to make sure that they all knew that I
+put up a fight.
+
+Actually I won by sheer luck.  I slipped on an ice patch and brought
+my sword up while I was on my back.  The minotaur ran right into it
+and looked into my eyes even as the life fled from them.
+
+The gates were starting to open wide so I ran over to a cart on the
+side of the road and hid.  From the inside of the keep four guards
+ran into the night and toward the city with axes and polearms ready.
+I leaned against the gigantic wheel of the cart and breathed a sigh of
+relief.  Standing up on the balls of my feet and looking into the cart
+
+(this section of text torn and smeared with blood)
+
+~
+E
+2.2~
+I thanked every god in the pantheon.  Before me was part of
+an ice worm still warm and with blood in it.  I took the vial the
+wizard gave me and filled it as quickly as I could.  It wasn't 
+quickly enough though and the guards that had ran down to the city
+only moments before came running back toward the keep.  I put the top
+back on the vial and started running along the side of the keep.  
+Slipping in some waste along the walls I uttered a curse.  I had
+no time to spare with the guards gaining on me rapidly.  I quickly
+uttered the prayer of recall.  Closing my eyes to fight the dizziness
+and sickness that always accompanied the spell I could feel my
+surroundings change.  From the rough feel of the rock to the cool
+smoothness of the stone floor of the temple.  I heard laughter and
+as I opened my eyes Tifarah, Imbrium, and Sarmini were all laughing.
+Not for my safe return, but because of the brown goo the I was
+covered with from head to toe.  I was just thankful to be back.
+
+The next day after a restful night at the Inn of the Bloody Axe
+I was given wide bearth in the city streets.  The smell wasn't
+completely gone.  The wizard took the vial and gave me my gold quickly
+shutting the door to his tower in my face.  I was glad it was all
+over with.  Whistling a childhood tune that my mother taught me when
+I was a young.
+
+If ever I complain of the Dresden summer heat again I will cut my own
+tongue out.
+
+Judicandus Bramsheer
+~
+#9912
+diary travel~
+a small travel diary~
+You see a small weathered book laying on the ground.
+~
+paper~
+13 ITV AO
+0 0 0 0 0
+1 1 25 W
+A
+14 100
+E 
+diary book travel~
+.
+The small leather bound book looks like it is quite old.  On 
+the cover is written Diary of a Killer.  When you open the book
+you read the following.
+
+Today, I feel the urge again . . .
+
+I see the fat bastards walking around, cheating the poors of their gold,
+I can see their cackles and laughter. . .
+
+crooked teeth showing meat and wine,
+so I picked up my blade,
+kissed the edge of it, and prayed that today I can get rid of more...
+so I stalked the first victim...not too hard... 
+found him in broad daylight walking around,
+
+didn't suspect that I would slay him, before the others....
+second one I found a guard next to... not good, must get away...
+down alleyways...found myself in a gutter...
+heh heh tomorrow...:)
+
+Borstal the Citizen Slasher.
+~
+
+
+#9913
+diary travel~
+a small travel diary~
+You see a small weathered book laying on the ground.
+~
+paper~
+13 ITV AO
+0 0 0 0 0
+1 1 25 W
+A
+14 100
+E 
+diary book travel~
+.
+The small leather bound book looks like it is quite old.  On 
+the cover is written Diary of a Witch.  When you open the book
+you read the following.
+
+The Beginning - Tragedy of a Witch
+Long ago and faraway in a kingdom off memorial next to Houston and I-10, 
+there lived a girl named Featherlight.  Featherlight was a witch, who began 
+life walking a little on the crooked side.  People mocked her, but she did 
+not seem to take notice.  Feather did not seem to live up to the expectations 
+of the populace as a whole.  This bothered some who came in contact with the 
+witch but not Feather.  To make a life long story of defiance and mockery 
+short...she was dubbed the Wayward.
+
+It was fear.  Fear that drove them to accuse the small child of witchcraft 
+(at this time witchcraft was viewed as the equivalent of satanism.)
+The child stood in full view of the biast court.  Her eyes round with fear 
+from the pointing fingers and glances of loathing.
+
+Ignorance often spawns fear, hate, and rejection.  Her own society 
+rejected the girl.
+
+The stake mocked the girl as she was pushed towards it.  The fire danced in 
+her eyes, reflected from the torches around her.  She was scared.  So she 
+prayed, but not to the god she was taught to.  She prayed to her secret 
+heroine, Medea.  A voice, like the soft sound of rustling leaves, spoke into 
+the girls mind.  
+
+"Use the Power."
+
+The girl saw the lines of power she had ignored before.  She prayed to be 
+transportated to anywhere else, and seized the lines.
+
+A girl stood, confused, before the altar of some unknown deity.  She was 
+now Featherlight the Witch, and this was her story.
+
+Featherlight the Wayward Witch
+
+	      Day of the Sun, 34th.
+
+I pull my cloak a little closer around me and finger the bead necklace 
+that hangs comfortingly around my neck.  I am invisible, but I feel as 
+if everyone is looking at me.  I slide into the room were my newly killed 
+corpse lays.  I have seen it one hundred times before, but I cannot get 
+used to looking at my own self laying dead.  My own eyes are laying open, 
+blank and lifeless.  I stare nervously at the monster who killed me, he 
+is looking right through me.
+
+
+I shiver, despite the warmth of my cloak.  The wand in my hand seems to 
+be a burden all of sudden.  I am so alone.  The gods except my sacrifice 
+and reward me.
+
+		   Day of the Bull
+
+I've died again.  
+Dying is hard on a witch like me...almost has hard as living.
+
+Featherlight the Wayward Witch
+~
+#9914
+journal travel~
+a small travel journal~
+You see a small weathered book laying on the ground.
+~
+paper~
+13 ITV AO
+0 0 0 0 0
+1 1 25 W
+A
+14 100
+E 
+journal book travel~
+.
+The small leather bound book looks like it is quite old.  On 
+the cover is written The Journal of Talaren.  When you open the 
+journal you read the following.
+
+Day of the Bull, 1st the Month of the Spring--
+It has been several months now since I departed the familiar lands of 
+Abrevor in search of the unknown. I am still unsure of exactly what it is
+that I must find in there strange, foreign lands, but Jhessail was quite clear
+in that something of great importance lies here. Despite the thus far futility
+of my search, I have found a number of things that greatly disturb me. Not the
+least of which being that the Cult of Hargast seems to have allies, possibly
+even full members, here. I had believed the Cult destroyed completely in the
+years following the Second Darkwar, but mayhap I was wrong. The time may yet
+come when I will have to send for other members of the Ten to assist me in 
+finally crushing the followers of the Mad One.
+
+Day of the Gods, 26th month of the Battle--
+Though I grow weary, my quest continues. Everywhere I wander, I find traces 
+of evil gathering. I have been in combat against trolls, and hellspawn imps 
+for the past several days. I cannot help but wonder if the ties that bind 
+Hargast are as strong as I had first thought, if evil still touches the 
+world so strongly.  These findings have worried me to the point that I have 
+sent word back to Abrevor for others of the Ten to assist me. I have since 
+heard rumors that both Brant and Cyrus are moving about in this part of the 
+world. If nothing else, their company will make my time here more bearable, 
+as I long to return to the Crystal Tower of my homeland, and all of my 
+companions.
+
+~
+#9915
+thanksgiving turkey~
+a thanksgiving turkey~
+A large cooked thanksgiving turkey sits here on a large platter.
+~
+food~
+26 A AO
+28 36 38 0 0
+40 5 300 P
+#9916
+shirt white~
+a white shirt~
+Made of white silk, this shirt looks quite expensive.~
+~
+9 G AD
+17 17 17 8 0
+60 8 9500 P
+E
+shirt white~
+On the front, there is the ensignia of a crossed-sword and dagger on a purple
+background in the upper-left corner of the shirt. The neck tag reads:
+		Property of the Castellan.
+~
+A
+23 -10
+A
+2 2
+#9917
+black pants~
+some black pants~
+A pair of black velvet pants lie on the floor here.~
+~
+9 EI AF
+15 15 15 5 0
+52 13 3000 P
+A
+14 50
+A
+19 4
+A
+24 -5
+#9918
+boots leather~
+a pair of leather boots~
+Some boots made from the finest leather, stand upright waiting to be used.~
+~
+9 AC AG
+15 14 15 2 0
+52 12 4300 P
+E
+boots leather~
+An ensignia of a crossed-sword and dagger on a purple blackground is attached
+to both sides of each boot.
+~
+A
+12 25
+A
+18 4
+A
+21 -5
+#9920
+iron key~
+an iron key~
+A key created from cold iron ore.~
+~
+18 CF AO
+0 0 0 0 0
+51 1250 0 P
+E
+iron key~
+This key opens the door north of the dining hall.
+Caution: Wrongful use of this key could result in death.
+~
+#9921
+flamberge polearm~
+the Flamberge~
+A pole with an axe head, and spear head point is propped against the wall.~
+~
+5 BGIK AN
+8 8 9 1 ACDEF
+52 30 0 P
+E
+flamberge polearm~
+Engraved onto the steel pole is the crossed-sword and dagger emblem which 
+burns with an inner light, and below it you notice the word: 'Nightspear'.
+~
+A
+1 3
+A
+18 5
+A
+19 7
+A
+23 -5
+#9922
+moon key~
+the moon key~
+A strange pock marked circular disk is here.~
+~
+18 A A
+0 0 0 0 0
+51 10 0 P
+#9923
+sword moonray~
+the moonray sword~
+There is a single ray of light connected to a sword hilt here.~
+steel~
+5 ABMU AN
+1 16 4 3 D
+52 10 1000 P
+A
+5 2
+A
+18 7
+A
+19 6
+#9924
+dagger celestial~
+the celestial dagger~
+A weapon from the heavens lies here.~
+silver~
+5 AFU AN
+2 5 15 2 D
+52 10 1000 P
+A
+1 1
+A
+2 2
+A
+12 35
+A
+18 4
+A
+19 3
+#9925
+apocalypse~
+the Apocalypse~
+The weapon that shall destroy the world is here.~
+steel~
+5 ABMUV AN
+4 21 3 18 21
+51 30 5000 P
+A
+2 2
+A
+3 2
+A
+4 2
+A
+12 -25
+A
+13 -50
+A
+18 6
+A
+19 6
+#9926
+sarcophagus~
+a sarcophagus~
+An enormous sarcophagus is here.~
+gold~
+36 BOV 0
+0 0 0 0 0
+0 100 0 P
+E
+sarcophagus~
+  If it wasn't so hideous, and wreaking of the stench of Hell, it might
+actually  be  quite  beautiful.  You  are  tempted  to look within, but
+a sudden panic threatens to close off  your throat  entirely,  and  you
+decide living is better than satisfying curiousity.
+~
+#9927
+soul~
+a fresh soul~
+a free soul tries to make its escape!~
+leather~
+18 AP AO
+0 0 0 0 0
+52 1 0 P
+#9928
+soul slicer~
+a soulslicer~
+a hideous sword pulsates here.~
+adamantite~
+5 ABJMNPUV AN
+0 15 10 3 ACE
+52 30 0 P
+#9929
+CR Sack~
+Soul's CR Sack~
+A blackened bag, wreaking of death lies here.~
+adamantite~
+15 COUV AL
+9999 1 0 0 0
+64 1 0 P
+#9930
+A Tarot Card~
+Tarot Card~
+A tarot card with a picture of a massive black tower on it lies here.~
+adamantite~
+18 BCPUV AO
+0 0 0 0 0
+62 1 10000 P
+#9931
+A Huge Chest~
+A Huge Chest~
+A huge chest full of treasures sits here.~
+adamantite~
+15 FO A
+100000 13 9930 0 0
+62 10000 10000 P
+#9932
+A table~
+table~
+A table with a mirror top sits in the center of the room.~
+adamantite~
+12 0 0
+0 0 0 0 0
+1 1 1 P
+E
+table~
+    You peer into the mirrored table and see a strange reflection
+staring back at you.  The face in the mirror is that of a man in
+his thirties.  He has brown hair with a tuft of white in the front.
+He is wearing a white turtleneck type shirt with the name "Dr.
+Sam Beckett" stiched into it.
+~
+#9933
+Fortune Gold~
+Fortune in Gold~
+A Fortune in Gold is here.~
+gold~
+8 V A
+500 0 0 0 0
+1 1 500 P
+#9934
+Handlink~
+A Multi-colored Handlink~
+A multi-colored communication handlink lies here blinking.~
+adamantite~
+18 AUV AO
+0 0 0 0 0
+55 1 1000 P
+E
+handlink~
+    The handlink is used to communicate to people, places, and
+things outside of the sealed chamber.  The door to this chamber
+was sealed when there was a catastrophic collapse of the radium
+accelerator ring surrounding the chamber.  Once the door is sealed
+it must remain sealed for 1600 years which is how long it will take
+for the radiation half life of the radium ring to expire.  Using
+the handlink is the only way to override the door seal.
+~
+#9935
+Generic Valhalla Weapon~
+A Generic Valhalla Weapon~
+A generic weapon from Valhalla hums here.~
+adamantite~
+5 BFMV AN
+0 10 10 28 ACDE
+63 1 1000 P
+E
+generic valhalla weapon~
+Quite powerful for a generic weapon.
+~
+#9936
+Oven~
+Tifarah's Oven~
+Tifarah's Oven is merrily baking away here.~
+steel~
+15 AO 0
+10000 1 0 0 0
+51 10 0 P
+#9937
+Brownies~
+(Delicious) Freshly baked brownies~
+Some freshly baked brownies lie here.. umm umm good!~
+food~
+26 UV AE
+30 3 0 0 0
+1 1 1 P
+#9938
+box~
+a white box~
+A pretty, white box with a red bow on it is sitting here.~
+paper~
+15 AGI A
+10000 1 0 0 0
+1 1 0 P
+#9939
+rose~
+a rose~
+A beautiful red rose is growing out of the ground.~
+wood~
+8 AGI A
+0 0 0 0 0
+1 1 1 P
+#9940
+altar~
+an altar~
+In the cella of the shrine, an altar of purest ivory has been built.~
+ivory~
+15 ABIOV 0
+200 0 0 0 0
+1 1000 0 P
+E
+altar~
+An ivory altar has been built at the back of this holy shrine in order to 
+display the Holy Cup from which Christos drank on the day known as the 
+Last Supper.  It rests on top of the altar to remind visitors of the 
+healing power of the One Most High.  A plaque is engraved unto the 
+altar's side to explain the role of the druid, Taliesin.
+~
+#9941
+chalice~
+(Blessed) the Golden Chalice~
+a beautifully sculpted chalice of gold lies here, radiating brightly.~
+gold~
+4 ABKLUV AO
+54 10 10 5 0
+60 1 0 P
+#9942
+stamps green~
+a set of green stamps~
+A book of green stamps is sitting here.~
+stone~
+13 GO A
+0 0 0 0 0
+1 1 0 P
+#9943
+clover lucky~
+lucky clover~
+A tiny four-leafed clover is growing here.~
+leather~
+1 AGU AO
+0 0 999 0 0
+5 1 0 P
+A
+12 20
+A
+18 2
+A
+19 2
+#9944
+clover lucky~
+lucky clover~
+A four-leafed clover is growing here.~
+leather~
+1 AGU AO
+0 0 999 0 0
+20 1 0 P
+A
+12 40
+A 
+18 3
+A
+19 3
+#9945
+hat~
+a leprechaun's hat~
+A tiny hat, shaped like a bowl, is here.~
+leather~
+9 0 AE
+3 3 3 4 0
+5 0 0 P
+A 
+3 2
+A
+4 2
+#9946
+stick walking cane~
+a leprechaun's walking cane~
+A walking cane is standing up on its own.~
+wood~
+9 BGU AO
+0 0 0 0 0
+5 1 0 P
+A
+14 50
+#9947
+beer mug green~
+a mug of green beer~
+A mug with some green liquid in it~
+stone~
+17 0 A
+4 4 1 0 0
+5 1 0 P
+#9948
+lead boots~
+a pair of lead boots~
+A pair of grey metal boots lie here.~
+steel~
+9 HM AG
+0 0 0 0 0
+-1 100 0 P
+A
+14 -500
+#9949
+oasis~
+The refreshing oasis~
+A refreshing oasis offers cool drink and shade here.~
+wood~
+25 OV 0
+500 500 0 0 0
+1 1000 0 P
+#9950
+Sigil shad~
+Sigil of Shadizar~
+You see a saddle emblazoned with the sigil of Shadizar lying here.~
+leather~
+33 NV AD
+0 0 0 0 0
+62 1 0 P
+#9951
+edge~
+the edge~
+The edge of the world is here.~
+stone~
+31 OV 0
+9 9994 4 1 0
+0 1 0 P
+#9952
+rope~
+the magic rope~
+A magic rope slowly rises from a woven basket.~
+cloth~
+31 OV 0
+6 9941 4 1 0
+0 1 0 P
+#9953
+ring emerald ruby~
+a ring with a emerald and ruby setting.~ 
+a small gold ring sits on the ground.~
+gold~ 
+9 A AB
+20 20 20 20 0
+51 1 0 P
+E
+ring~
+This is a small golden ring that has a heart shaped setting with one side 
+made of emerald and the other composed of a ruby jem.  This is the ring 
+that I am giving to Azlyn on our wedding day.  The ruby represents my 
+birth, and also the color of my heart, which will always belong to you.
+The emerald represents eternity, compassion, and is shared mutually 
+between Azlyn and myself as our Star Sign stone as is Sapphire.
+~
+E
+inscription~
+To Azlyn on our wedding day,
+    May the light of your eyes never dim,
+    May the fire of your soul never burn low,
+    May the edge of your wisdom never dull,
+    And may our love last until eternity and beyond.
+
+For I truely love you with all my heart and soul, you are the light of my 
+day and the quiet comforting darkness of my night.  You are the passion 
+that stirs my soul to quickly take flight and rejoice in the harmony of 
+the spheres.  I love you, for now and ever more...To my wife Azlyn.
+~
+T
+$n wears $p and is surrounded by a glowing blanket of light.~
+You feel a warm glow of love and happiness surround you.
+~
+#9954
+ring wedding band graves gravestone~
+Gravestone's wedding band~
+A wedding band glimmers radiantly in the sunlight.~
+gold~
+9 AHIMO AB
+30 30 30 30 0
+70 1 50000 P
+E
+ring band gravestone~
+Expertly crafted, this wedding band is an elegantly simple
+circle of shining gold.  With no beginning nor end, it symbolizes
+the purity and completeness of Azlyn's love for you. Delicately
+etched into the metal is an unbroken circle of tiny stars and crescent 
+moons which emit a soft, pulsing light akin to a heartbeat.
+
+There is a small inscription found along the inner side of the band.
+~
+E
+insciption~
+All through the night I'll be standing over you,
+All through the night I'll be watching over you,
+And through bad dreams I'll be right there, baby
+Holding your hand, telling you everything is all right.
+And when you cry I'll be right there
+Telling you you were never anything less than beautiful.
+So don't you worry,
+I'm your angel standing by.
+
+...... Keep my heart safe,
+..........-A
+~
+T
+As $n slides $p onto his finger, he is overcome by a tremendous feeling of 
+peace and completeness.~
+Wearing this symbol of love, you must be the happiness man alive.~
+#9955
+cake wedding~
+a piece of wedding cake~
+A small piece of cake sets your mouth to watering~
+cake~
+38 0 A
+0 0 0 0 0
+1 1 0 P
+E
+cake~
+Created by the greatest chef's in Sembia, this mouth watering delicacy
+is topped with a rich creamy icing.  Small delicate flowers of violet and
+blue decorate the corners and add a lovely aroma to the air around you.
+~
+#9956
+cord silk~
+a thin silken cord~
+a cord the color of the sky lies coiled upon the ground~
+silk~
+9 0 AO
+1 1 1 1 0
+1 0 1 P
+E
+cord~
+This is the binding cord, used in a handfasting ceremony.  It represents 
+the shared warmth and love between two people, and the bond between their
+hearts.
+~
+T
+$n is surrounded by a warm light as $p wraps lightly around their wrist.~
+A sudden jolt fills your heart with warmth.~
+#9957
+candle red~
+a red candle~
+A small red candle flickers and dances with light~
+wax~
+9 U 0
+1 1 1 1 0
+70 0 1 P
+E 
+candle~
+This small red candle represents the gods of Sembia, and their blessings on
+this wedding ceremony of a most special couple, Azlyn and Gravestone.
+~
+#9958
+candle white~
+a white candle~
+A small white candle flickers and dances with warmth and beauty~
+wax~
+9 U 0
+1 1 1 1 0
+70 0 1 P
+E
+candle~
+This small white candle represents the goddesses of Sembia, and their 
+blessings on this wedding ceremony of a most special couple, Azlyn and 
+Gravestone. 
+~
+#9959 
+shimmer wedding gown~
+Shimmering White Silk Wedding Gown~
+As you gaze at this magnificent display of raiment, your eyes become lost 
+in its splendor~
+silk~
+9 GIOUV AK
+20 20 20 20 0
+51 0 1000 P
+E
+gown~
+The bodice of Azlyn's wedding gown is white satin and strapless,
+exposing her pale shoulders and the curve of her breasts.  It fits
+like a second skin, hugging her slender torso before narrowing
+to a point just beneath her waist. The skirt flares out beneath this
+in clouds of shimmering, paper thin white silk which float all
+the way to the floor. The layers swirl in the breeze, revealing
+peeks of the silver lamee petticoats beneath.
+~
+T
+Looking at $n in her $p, you are overcome by a feeling of intense beauty.~
+Taking a quick look in the mirror, you realize your day can be nothing but 
+perfect.
+~
+#9960
+slippers shoes satin~
+White Satin Slippers~
+The whiteness of these slippers make them appear to be a gift of the very 
+gods, themselves~
+satin~
+9 GIOUV AG
+20 20 20 20 0
+51 0 1000 P
+E
+slippers~
+Simple white satin, Azlyn's slippers peek out from under the
+edge of her full skirt. They make no sound on the ground.
+~
+#9961
+circlet~
+Circlet of White Roses~
+These flowers are intertwined in the shape of a perfect garland.~
+flower~
+9 GIOUV AE
+20 20 20 20 0
+51 0 1000 P
+E
+garland~
+A fragile circlet rests on Azlyn's head. Made of tiny white
+rose buds twined into a garland with baby's breath, it
+crosses her brow and holds her veil.
+~
+#9962
+veil~
+Misty White Veil~
+A gosselin veil awaits its bride~
+silk~
+9 GIOUV AD
+20 20 20 20 0
+51 0 1000 P
+E
+veil~
+Azlyn's veil is so thin it seems more like white mist
+then fabric. Attatched to the circlet of roses nestled in her
+curls, several translucent layers cascade down to swirl
+at waist level. The lower edges are delicately lined in
+silver.
+~
+T
+Her face hidden beneath the $p, $n looks like a very goddess today.~
+You feel a light breeze flow through your $p as you cover your face.~
+#9963
+rose~
+A Single White Rose~
+A beautiful white rose is beginning to bloom in a red vase~
+flower~
+9 AGHIOUV AO
+20 20 20 20 0
+51 0 1000 P
+E
+rose~
+Droplets of moisture still cling to the petals of this
+freshly picked rose. Only just beginning to open, the flower
+is such a pure white it is almost translucent.
+~
+#9964
+bracelet silver~
+Slender Bracelet of Woven Silver~
+A small silver bracelet has the inscription A+G in it.~
+silver~
+9 GIOUV AM
+20 20 20 20 0
+51 0 1000 P
+E
+bracelet~
+This slender, bangle bracelet has been intricately woven
+from several strands of pure silver. It fits Azlyn's wrist
+perfectly, and gleams in the light.
+~
+#9965
+necklace silver~
+A Necklace of Woven Silver~
+A silver necklace hangs precariously from an ashen branch~
+silver~
+9 GIOUV AC
+20 20 20 20 0
+51 0 1000 P
+E
+necklace~
+The match for Azlyn's bracelets, this necklace is also made
+of interwoven strands of silver. It glitters softly, circling
+the arch of her throat.
+~
+#9966
+globe light~
+Shimmering Globe of White Light~
+A hovering globe provides light for this room~
+glass~
+1 AGIOUV AO
+0 0 9999 0 0
+51 0 1000 P
+E
+ball globe~
+A small globe hovers near Azlyn's shoulders. It emits a soft
+glowing white light.
+~
+#9997
+balloons roses heart rose ball~
+Some balloons and roses~
+A dozen red roses and a heart shaped balloon that reads,'I Love you' sits 
+here waiting for Azlyn to logon :)~
+metal~
+8 0 AO
+0 0 0 0 0
+60 0 1 P
+E
+balloon ball~
+A large heart shaped balloon hovers gently above a dozen beautiful red 
+roses,  as you look more closely you see a small note tied to the string,
+the note reads....
+
+    I know this might be silly,
+    but I wanted you to log on to a suprise,
+    something nice that even though you can't
+    really see it, or touch it, it shows you my 
+    feelings for you.  I thought about you all day,
+    You were never far from my mind, and people could
+    tell from the bright smile on my face.  I hope
+    you had a very very good day, and that you got
+    your paper done on time.  I love you ever so much
+    and can't wait until I get to be with you again.
+
+    Forever yours...
+    Jon
+~
+E
+roses rose~
+    A dozen beautiful red roses sit here,  but they are not even half as
+beautiful as the person they are ment for.
+~
+
+#0
+
+#ROOMS
+#9900
+The Gateway to the Undying Lands~
+Halt Stranger, thou seeks entrance to the realm of the immortals.
+You step on the lands of the Gods after a hard and long journey
+through dangerous empires and kingdoms. In the distance you
+see the keep where the Gods dwell, Valhalla. The keep is build
+on a hill in a otherwise empty countryside, a very empty surrounding
+as a matter of fact. The keep itself is magnificent with spires,
+towers and battlements, a tremendous sense of grandness emenates from
+it.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9901
+D5
+Clouds.
+~
+~
+0 -1 69
+E
+keep castle~
+The keep is in the distance but you can still see the contours of
+it very clearly. Stangely so because there is no sun but an everlasting
+sky of stars, though they seem much closer then usual.
+You hear the wail of a creature coming from the general direction  of
+the keep, does this mean you've been spotted.
+~
+E
+land around surroundings up down north south east west~
+You look over the lands and find it's rather a desolate place.
+Aside from the keep and the road to it there is nothing, nothing at
+all. You get a feeling of foreboding being here on the road to the Keep.
+~           
+S
+#9901
+On the road~
+You are walking on what appears to be a paved road to the keep.
+Looking back, you see the portal through which you came has vanished
+and has left you stranded here in this desolate place.
+In the distance you see a bridge coming up. You guess this must be the
+bifrost bridge over the styx.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9902
+D2
+~
+~
+0 -1 9900
+S
+#9902
+At the lower side of the Bifrost bridge.~
+This bridge is made of a substance you neither have seen nor heard
+of before. The bridge is quite big, you cannot even see the other
+side of it. The roaring of animals is louder now, they seem to be very
+close now.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9903
+D2
+~
+~
+0 -1 9901
+S
+#9903
+Midway on the bridge.~
+You are at the highest point now. You now have a better view of the
+lands then when you first came here. You can now see the river passing
+under you. Even the river is extremely dark like the rest of this
+forbidden place. Though you can hear the sounds of a strange kind of
+creature. You still don't see them.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9904
+D2
+~
+~
+0 -1 9902
+S
+#9904
+The end of the Bifrost bridge.~
+You step off the bridge onto the road again. You can follow the road
+towards the keep all the way. The keep seems to be rather far away still.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9905
+D2
+~
+~
+0 -1 9903
+S
+#9905
+On the road.~
+There is nothing, absolutly nothing at all in front of you aside from the
+keep.  You don't appear to have come any closer to the keep and you are
+worried that perhaps some strange kind of magic is at work here.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9906
+D2
+~
+~
+0 -1 9904
+S
+#9906
+At the Gates.~
+After a very long walk, you finally come to the gates of the keep.
+When you look at the gates you have to stand back quite a bit to
+look at it in it's entirety due to there enormous size. Now you
+notice the creatures you heard all the time as they prepare to
+attack all those not worthy to enter the sacred domains of the
+Gods, the Valhalla.
+~
+99 ANQ 10
+D0
+The gates to the Valhalla.
+~
+gates~
+2 9900 9907
+D2
+~
+~
+0 -1 9905
+S
+#9907
+The Tunnel.~
+You entered a tunnel. It's seems to go forever because you see no end
+nearing.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9908
+D2
+~
+~
+2 9900 9906
+S
+#9908
+The courtyard.~
+The tunnel stops suddenly and you find yourself in a courtyard.
+Looking around you see the a few statues and fountains. There is
+also an enormous oak tree here, which looks fun to climb.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9911
+D1
+~
+~
+0 -1 9909
+D2
+~
+~
+0 -1 9907
+D3
+~
+~
+0 -1 9913
+D4
+High above, you make out a little birds nest.
+~
+~
+0 -1 9992
+E
+tree~
+This is the largest and oldest tree you have ever seen. Whatever lives up 
+there must either have wings or be one heck of a skillful climber.
+~
+S
+#9909
+The courtyard.~
+This is the southwestern corner of the yard. You see a statue of Modib,
+one of the highest Gods. The courtyard itself is made of cobblestones
+and along the sides are huge trees which seem ancient.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9910
+D3
+~
+~
+0 -1 9908
+S
+#9910
+The courtyard.~
+This is the northwestern corner of the yard. In the walls is carved
+a picture of the keep viewed from the bridge. On the ground is a mosaic
+made from stones depicting the four elements earth, air, fire and water.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9917
+D2
+~
+~
+0 -1 9909
+D3
+~
+~
+0 -1 9911
+S
+#9911
+The courtyard.~
+You stand now at the main door towards the inner parts of the keep.
+On the statue stands now the name of SOULCRUSHER the foremost
+and highest God in the known and unknown realms.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9919
+D1
+~
+~
+0 -1 9910
+D2
+~
+~
+0 -1 9908
+D3
+~
+~
+0 -1 9912
+S
+#9912
+The courtyard.~
+The carving in this wall is of the heavens above you. Looking down
+you notice that here also is a mosaic but this time it's made
+gemstone and there are only two symbols, the ones of magic and time.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9911
+D2
+~
+~
+0 -1 9913
+D3
+~
+~
+0 -1 9916
+S
+#9913
+The courtyard.~
+In this corner is also a statue. Here stands a statue of Drakk one of
+the highest Gods in the realms. There are bushes here along the walls,
+having thorns as tick as thumbs and that are sharper then the
+sharpest swords.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9912
+D1
+~
+~
+0 -1 9908
+D3
+~
+~
+0 -1 9914
+S
+#9914
+A side garden.~
+This is a part set aside from the main courtyard. Here the Gods have
+put down a statue of the architect of the place, Elrond.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9913
+D3
+~
+~
+0 -1 9915
+S
+#9915
+A shop.~
+Even Gods are in need of such mundane things as a shop but fortunately
+there's no need to pay for anything.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9914
+S
+#9916
+The Armory.~
+The weapons of the Gods are stocked here and at times of peril the
+Gods come here and retrieve them.
+~
+99 ANQ 10
+D2
+~
+~
+0 -1 9912
+S
+#9917
+The stables.~
+Here are the mounts of the Gods. Now don't go around killing
+them because they are from fine mearasian stock and the Gods are
+very fond of their steeds (aside from that they are terribly expensive).
+~
+99 ANQ 10
+D3
+~
+~
+0 -1 9910
+D4
+~
+~
+0 -1 9918
+S
+#9918
+The Hayloft.~
+Nothing here, aside from the food for the horses. Though the hay
+looks comfortable and warm, it's something you haven't been since
+arriving here.
+~
+99 ANQ 10
+D5
+~
+~
+0 -1 9917
+S
+#9919
+The Inner Sanctum.~
+This is the main part of the keep. It's warm inside, quite the
+opposite from outside. A smell comes from the east and a coldness
+emenates from the west. In front of you is the staircase going up.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9931
+D1
+~
+~
+0 -1 9920
+D2
+~
+~
+0 -1 9911
+D3
+~
+~
+0 -1 9923
+S
+#9920
+The Dining Room.~
+A beautifull room is this, the walls are covered with tapestries of Heroes
+of long gone times and ages. There is a large square dining table here, with
+the four corners cut off to accomodate a place to sit.  The north corner is
+where Soulcrusher the High-One sits, followed in a clockwise direction the
+seats of Eclipse, and Gravestone.  The Gods eat here when they are at home.
+Seated between the four Greater Gods are the chairs of Lesser Gods. At the
+far end of the room is the door to the kitchen.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9921
+D3
+~
+~
+0 -1 9919
+S
+#9921
+The Kitchen.~
+Here come the best cooks after they have died. They are granted
+some sort of longevity. This way the Gods are sure to have only
+the finest of dishes when they eat.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9922
+D3
+~
+~
+0 -1 9920
+S
+#9922
+The Storeroom.~
+Oops, the wrong door. This is the storeroom.
+~
+99 ANQ 10
+D3
+~
+~
+0 -1 9921
+S
+#9923
+Darkness.~
+Total darkness. Feeling around you discover that there is a way down here.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9919
+D5
+~
+~
+0 -1 9924
+S
+#9924
+A dark hallway.~
+This way goes down to the dungeons and other horrors.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9925
+D4
+~
+~
+0 -1 9923
+S
+#9925
+A light source.~
+This is apparently the only light source here, being total darkness 
+everywhere else. This is the place where the dungeonmaster usually
+is. He sees to it all the prisoners remain where they are put.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9926
+D2
+~
+~
+0 -1 9924
+S
+#9926
+A intersection.~
+To the east is holding cell and to the west are a few cells and
+the tortureroom.
+~
+99 ANQ 10
+D1
+~
+~
+0 -1 9927
+D2
+~
+~
+0 -1 9925
+D3
+A door~
+door~
+4 -1 9930
+S
+#9927
+Another intersection.~
+To the north is a torturechamber and further to the west is
+another holding cell.
+~
+99 ANQ 10
+D0
+~
+~
+0 -1 9928
+D1
+~
+~
+0 -1 9929
+D3
+~
+~
+0 -1 9926
+S
+#9928
+The Tortureroom.~
+Here the Gods extract information from those stupid enough to withhold
+it from the Gods and just for the plain and simple pleasure of seeing
+a retch squirm and beg for forgiveness. The room is filled with all
+kinds of machinery for that sole purpose.It would be sickening to
+try to describe the machines.
+~
+99 ANQ 10
+D2
+~
+~
+0 -1 9927
+S
+#9929
+A cell.~
+Hello ye'ol sorry miscreant. Now you have the time to think about your
+sins and other misdeeds or considered misdeeds. But think not that we
+want to keep you here it's just we want to protect the rest from you
+and have to use these dire methods of detaining you for the good of
+the MUD. And though there is a lock on the door the key to it has been
+gone for centuries.
+
+~
+99 ANQ 10
+D3
+~
+~
+4 -1 9927
+S
+#9930
+A cell.~
+Hello ye'ol sorry miscreant. Now you have the time to think about your
+sins and other misdeeds or considered misdeeds. But think not that we
+want to keep you here it's just we want to protect the rest from you
+and have to use these dire methods of detaining you for the good of
+the MUD. The lock on this door has no key whatsoever.
+~
+99 ANQ 10
+D1
+~
+~
+4 9920 9926
+S
+#9931
+A staircase.~
+This is a staircase as you already noticed.
+~
+99 DNQ 10
+D1
+~
+~
+0 0 9956
+D2
+~
+~
+0 -1 9919
+D4
+~
+~
+0 -1 9932
+S
+#9932
+A Hallway on the second floor.~
+There is a door here to the north. The door leads to the rooms of a
+few lesser gods.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9933
+D4
+~
+~
+0 -1 9937
+D5
+~
+~
+0 -1 9931
+S
+#9933
+Green Marble Hallway.~
+You are in a beautiful green marble hallway.  There are solid marble pillars
+reaching to the tall ceiling ever ten feet.  Tapestries depicting the lands 
+are on the walls.  This is the hallway leading to the lower level Gods private
+chambers.  Watch your step if you were not invited.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9935
+D1
+~
+~
+0 -1 9934
+D2
+~
+~
+0 -1 9932
+D3
+~
+~
+0 -1 9936
+D4
+~
+~
+0 -1 9943
+D5
+~
+tt~
+4 0 9972
+S
+#9934
+Elrond's Workroom.~
+The room is filled with stacks and stacks of books. This man must
+be some reader. There is a wide soft couch here on it is laying a
+remote for the TV and stereo. The TV is currently off but the stereo
+is on.....you look and the CD is playing A Kind of Magic by Queen.
+The computer is on and on the screen currently is nothing to be seen.
+~
+99 ANP 10
+D3
+~
+~
+0 -1 9933
+E
+books~
+You see some books and looking on the titles it's mostly fantasy, SF
+or warstories.....Then a part is set aside, this part is filled with
+studybooks and other papers.
+~
+E
+couch~
+A soft white couch, one you could sit in and not come out for at least a
+few hours so good it is.....it is set so that Elrond's favorite books are
+within grasp and he can view TV without trouble.....the remote is laying
+here too.
+~
+E
+computer~
+You try a bit but you find out that this is no regular DOS machine but
+a Linux-machine.....you can see that quite a few mud-sources are here.
+And that there are also different types of muds on it.....beside the
+computer is a checklist of what to do and a few printed docs are laying
+here too....
+~
+E
+fantasy~
+You glimps at the titles:
+Lord of the Rings, wow what a book over a 1000 pages thick....a lot of books
+are here about Middleearth.......Silmarrilion, Lays of Beleriand, Book of
+Lost Tales, The Lost Road.......There are also a number of books about
+Middleearth Role-Playing and Rolemaster......
+A bit further is, Dragonlance.....sjees are there so many books about DL there
+are over 20 here......and also here quite a few books on AD&D Roleplaying....
+Death Gate Cycle, Rose of the Prophet, Darksword, Star of the Guardian.....
+quite a number of books of Weis and Hickman.....Elrond sure must like them...
+You see then a number of books of David Eddings The Belgarath, The Mallorean,
+The Elenium and The Tamuli......so on and on......you notice writers as
+Marion Zimmer Bradley, Melanie Rawn, Mickey Zucker Reichert, R.A. Salvatore's
+Drow books,......
+~
+E
+SF~
+A line of Startrek NG books are here going from #1 ghostship to #31 Foreign
+Foes.....then some Battletech books and a whole serie of books by Frank
+Herbert the write of Dune....All dune books are here in 4 different languages
+and a first-edition of part 1 Dune.......Then the line continues with some
+other writers and some books........
+~
+E
+War Warstories~
+First of all Tom Clancy's books are here.....only english(it comes to you that
+most books here are english, less then 5% is dutch)......then the books of
+W.E.B. Griffin and Leon Uris and the James Bond stories come.........
+~
+E
+study~
+All his study books are here......financial accounting, marketing management,
+operation research, statistics, Turbo Pascal 7, Organisationscience, Law,
+Informationtech, informationsyst. Engineering, Object Orientated Programming
+and a score more......
+~
+E
+remote~
+It is a normal remote.....a note is on it......use is restricted to Elrond
+only.....
+~
+E
+CD~
+It's obvious what Elrond likes.....rock and more rock....
+~
+S
+#9935
+End of the Green Marble Hallway.~
+You are in a beautiful green marble hallway.  There are solid marble pillars
+reaching to the tall ceiling ever ten feet.  Tapestries depicting the lands 
+are on the walls.  The hallway ends here.
+~
+99 ANQ 10
+D0
+~
+~
+0 0 9967
+D2
+~
+~
+0 -1 9933
+D3
+You see a painting of the heavens, with millions of stars and planets.
+~
+galaxy~
+4 9910 9961
+D4
+~
+~
+0 0 9969
+S
+#9936
+morgans room.~
+morgans room
+~
+99 DNQ 10
+D1
+~
+~
+0 -1 9933
+S
+#9937
+The third floor.~
+Here dwell the higher Gods. Try and ask if they are at home.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9938
+D4
+~
+~
+0 -1 9947
+D5
+~
+~
+0 -1 9932
+S
+#9938
+A Hallway.~
+There are doors to the left and right of you. These are doors to rooms
+of a few Gods. I suggest you don't just open the door and walk in but be
+polite and knock first will you.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9939
+D1
+~
+~
+1 -1 9944
+D2
+~
+~
+0 -1 9937
+D3
+~
+~
+0 -1 9970
+S
+#9939
+A Hallway.~
+Again a door to the left and to the right. Also these are rooms of gods
+so be nice and polite. On the walls in the entire corridor hang tapestries
+of long forgotten heroes. There is one which strikes your attention.
+This one depicts a heroic battle of a noble paladin with some kind
+of fierce animal.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9940
+D1
+~
+~
+0 -1 9942
+D2
+~
+~
+0 -1 9938
+D3
+~
+~
+1 -1 9941
+S
+#9940
+Trinidad's Grove~
+.
+A beautiful grove stands before you.  To the south is a door that is open
+  and you can see a hallway on the other side of it.  The door stands
+  alone on the edge of a wild wood.  To the north is a beautiful white
+  gazebo covered with beautiful flowers and vines.  To the east sits an
+  old wooden desk.  The west has a small garden of herbs flourishing in
+  the soft sunbeams that fall from the sky.  Sounds from the forest
+  surrounding the grove calm and relax you.  From the gentle song of
+  a bird to the chirps of squirrels.  The ground is covered in all kinds
+  of flowers except for the middle where a pond is fed by a stream that
+  runs all the way through the grove.  A small stone bridge crosses over
+  the tiny pond to the gazebo beyond.
+~
+99 KP 3
+D0
+A small stone bridge crosses the pond.
+~
+~
+0 -1 9973
+D1
+~
+~
+0 -1 9966
+D2
+~
+~
+1 -1 9939
+D5
+~
+~
+0 0 3700
+E
+pond~
+  Gold fish swim in it's clear water.
+~
+E
+gazebo~
+  Around the flowers on the gazebo small fairies fly pollinating and
+     shining the flowers.
+~
+E
+desk~
+  Papers, pens, and pencils are scattered randomly all over the desk.
+     Pieces of paper have random bits of stories and poems written on
+     them.
+~
+S
+#9941
+Inside Shadizar's Lamp~
+You have entered what appears to be a giant Genie Lamp. About the room hang
+ancient tapestries illustrating the birth of the Djinn race. As you look 
+at the many tapestries you notice that four of them are actual portals to 
+the four elemental planes of existence where the Djinn reside. A fifth 
+portal leads to the prime material plane. The floor of the lamp itself is 
+strewn with many Arabian rugs and carpets. One particular carpet catches 
+your eye and looks extremely comfortable. It is a royal blue carpet with 
+red frills all around, the carpet itself is intricately designed with 
+portraits of various Djinn. The center of the carpet bears the sigil of 
+Shadizar in a golden inlaid.
+~
+99 DQ 0
+D1 
+~
+~
+1 -1 9939
+S
+#9942
+The Chamber of Darkness~
+Your light is extinguished by the darkness that pervades this room. You lose
+your bearings, and, hopelessly lost, you stumble around in pitch-blackness.
+Your face smashes into a sheet of iron set into the wall. Feeling around a
+bit, you locate a pull-ring.
+~
+0 ADNQ 0
+D0
+You see an iron door.
+~
+door iron~
+1 -1 9971
+D3
+~
+~
+0 -1 9939
+S
+#9943 
+Ricochet's Room of Relaxation~
+As you enter the room the first thing you notice is the fake wood
+wallpaper which seems to engulf the room.  It is quite obviously
+an attempt at making the room seem more like a ski lodge.  You
+marvel at the feel of the luxurious thick brown carpet underneath
+your feet.  On one wall you see, mounted on a plaque, the head of
+one of the biggest bears that you have ever seen.  On the other
+side of the room you see a bar where one can mix their own drinks
+and right in the middle of the room there is a pool table with the
+most beautiful red felt covering that you have ever laid eyes upon.
+Off in a corner you see a roaring fireplace and lying on a couch is
+a beautiful goddess waiting to cater to your every need and desire.
+The only thought that comes to your mind is "I never want to leave
+this place"!
+~
+99 DNQ 10
+D2
+~
+~
+0 0 9968
+D5
+~
+~
+0 -1 9933
+S
+#9944
+Rimmon's Torture Chamber~
+This dome shaped room is a strange combination of a torture chamber and
+a Disco Lounge -- or maybe it is simply a torture chamber.  A crystal Disco
+Ball hangs from the ceiling and the Beegee's "Stayin' Alive" is piped in
+through the room's sound system.  The room is also outfitted with a strange
+combination of whips, chains, and racks.  On the southern wall, is
+Rimmon's pride and joy: a collection of every disco CD in existence.
+He is truly the god of insanity, as no sane immortal would possess such
+an obscure collection of painful atrocities.
+~
+99 DKN 0
+D3
+The portal to the realm of sanity.
+~
+~
+1 -1 9938
+D5
+~
+geze~
+4 -1 4208
+S
+#9945
+This room is full of water. There must be some kind of force field
+here keeping it from leaking out the entrances.~
+~
+99 DNQ 8
+D1
+~
+~
+0 -1 9947
+S
+#9946
+Thalia's Parlor~
+
+This room is the epitome of grace and feminine arts.  The walls are papered
+in a delicate pattern of vines, and fine paintings and needlework are hung 
+on them.  One wall is dominated by a rosewood bookcase; another wall features
+a large picture window.  A comfortable sofa and two matching armchairs are 
+arranged around a low coffee table that bears a bone china tea service.  A 
+harp in one corner of the room is strummed by unseen fingers.
+~
+99 DJN 0 
+D2
+~
+sesame~
+4 0 28022
+D3
+to the hallway~
+~
+1 -1 9947
+E
+window~
+Thalia uses her magic to adjust the view to suit her mood.  Today she is
+looking at La Isola di Capri.  Her magic must be very powerful because you
+can swear you smell lemon trees.
+~
+E
+bookcase~
+The bookcase is made of solid rosewood.  Most of the shelves are filled
+with volumes on folklore, mythology and the arts.
+~
+E
+wall~
+There are several paintings, needlepoints and embroideries, all worked by
+Thalia's own hands.  Most depict scenes from classical mythology.  You are
+particularly drawn to an elaborate needlepoint showing the story of Ali Baba
+and the 40 Thieves.
+~
+S
+#9947
+The fourth floor.~
+On this level are the gods nearest to the three creators of the
+known universe. They hold a lot of power so don't cross them.
+~
+99 DNQ 10
+D1
+~
+~
+1 -1 9946
+D2
+~
+~
+0 -1 9949
+D3
+~
+~
+0 -1 9945
+D4
+~
+~
+0 -1 9951
+D5
+~
+~
+0 -1 9937
+S
+#9948
+Council chamber~
+This is the Biggest room you have ever seen, it looks like the walls and 
+ceiling go on forever. On the wall you notice several posters that strike
+your fancy, one being a star trek seven poster, and the other a Large poster
+of a gray wolf. This is the place where Gravestone brings his most
+trusted friends to chat about current topics, and also other mortals who
+have questions. Enjoy your stay in this pleasent chamber.
+~
+99 KP 0
+D1
+to the Antechamber.
+~
+door~
+1 0 9949
+S
+#9949
+The Antechamber.~
+This is the waiting room for the Higher Gods.
+I suggest you be carefull not to anger the Gods here because their wrath
+could be something you don't want to encounter. This room is filled with
+a few chairs and some paintings on the wall. The paintings seem very
+non-descript looking.
+~
+99 DNQ 10
+D0
+~
+~
+0 -1 9947
+D1
+~
+~
+0 -1 9950
+D2
+~
+~
+0 -1 9966
+D3
+~
+door~
+1 -1 9948
+S
+#9950
+Carly's Room~
+You step into this room and are filled with a sense of well-being.
+There is a warm glow of light coming from an unseen source, casting
+soft shadows on the walls, revealing lots of bare wood.  One wall
+consists entirely of large, built-in, oak bookshelves filled with
+books Carly has read many times and still refers to when a particular
+passage comes to mind.  In the middle of the room are two large, 
+overstuffed chairs inviting you to stay and visit awhile.  Her favorite
+of the pair is one large enough to fit two people snugly.  Of course 
+she has pictures of those close to her scattered around the room.  In
+the background is the ever present sound of music, low enough to be
+unobtrusive, but loud enough to speak to The Soul.
+~
+99 DNP 10
+D3
+The Antechamber
+~
+~
+0 -1 9949
+E
+books~
+Carly has a wide variety of books, from the classics to fantasy.  One 
+shelf is dedicated to The Riftwar Saga series by Raymond Feist and 
+the Wheel of Time series by Robert Jordan.
+~
+E
+pictures~
+There are pictures arranged all through the room, with the predominant
+ones being of her love.  A mysterious man, dark,  piercing eyes, 
+raven hair, and just a hint of a smile upon his rugged angular face.
+~
+S
+#9951
+The last stairway.~
+You are nearing the top of the citadel. Your guess is that since you
+have come across most of the other Gods' rooms these will be the rooms
+of the Greater Gods Soulcrusher, Eclipse, and Gravestone.
+~
+99 DN 10
+D4
+~
+~
+0 -1 9953
+D5
+~
+~
+0 -1 9947
+S
+#9952
+Drakk's Chat Chamber.~
+   You are in Drakk's personal chat chamber.  There are a number of very
+comfortable sofas about the room and a large oak desk at one end.  There
+are some very nice paintings and tapestries adorning the walls.  There
+is a very large window on the south wall. The only exits are two oaken
+doors to the north and south and the open hole in the floor.
+~
+99 DNP 10
+D0
+Drakk's Break Room.
+~
+oak~
+3 9909 9962
+D1
+~
+shazam~
+4 0 9953
+D2
+Drakks Study.~
+teak~
+3 9909 9963
+D3
+~
+creator~
+4 0 9964
+D4
+You can barely make out what looks like a trapdoor in the shadow.
+~
+trapdoor~
+3 9909 9965
+D5
+A large hole in the floor.
+~
+~
+0 -1 4208
+E hole floor~
+   As you look into the hole in the floor you feel very lightheaded and
+dizzy when you notice the town of Dresden far below.  You notice a chain 
+hanging from the hole down into the clouds.
+~
+E chain~
+The chain looks sturdy enough to support your weoight easily.
+~
+E painting~
+The paintings on the wall are mostly nature scenes depicting wild animals in
+thier natural habitats.
+~
+E tapestry~
+The tapestries depict warriors of many different races in battle.  One shows
+the town of Midgaard under attack by a flight of red dragons.
+~
+E desk~
+The large oaken desk has numerous papers stacked upon it. Glancing at a
+couple of them they seem to be notes on how to code a mud.  What is a mud?  
+~
+S
+#9953
+The Top of the Citadel.~
+There is only one window here. On the doors are plaques reading
+Drakk to the west, Eclipse to the North, Modib to the south.
+Looking outside you can watch over the entire keep. You see
+far below the courtyard with it's fountains and statues.
+Outside there is hardly anything except the barren lands you also
+saw outside. You can even see the Nazghul patrolling outside.
+There is a stariway leading up to what must be Soulcrusher's crypt.
+~
+99 DNQ 10
+D0
+You see a portal to another land.~
+~
+0 -1 9980
+D1
+~
+~
+0 -1 9954
+D2
+~
+~
+0 -1 9955
+D3
+~
+shazam~
+4 0 9952
+D4
+You get the feeling that nothing but death and decay are up there to greet
+you.
+~
+~
+1 -1 9989
+D5
+~
+~
+0 -1 9951
+S
+#9954
+Entry room~
+A small well furnished entry room greets your eye's as you step in. A small
+wooden desk with map making utensils is in the northern corner, and a plush
+kerofkian carpet crunches under your feet. To the north you can see a small
+exit leading into what looks like a den. But the most amazing thing that 
+greets you upon entering this room is a HUGE cat, black as midnight with
+startling green eyes....he purr's at you as you walk into the room.
+~
+99 NX 0
+D3
+~
+~
+0 -1 9953
+D0
+~
+~
+0 -1 9990
+S
+#9955
+Soulcrusher's Abyss~
+  Suspended by unseen forces, you hang totally defenseless in what
+can only be described as an abyss. You wait in terror for the time
+of judgement to come.... as the shrieks of those come before still
+echo within this evil place.
+~
+99 ADNOX 10
+S
+#9956
+The Break Room~
+This is a room where the immortals come to relax.  There is a small
+kitchenette in the corner where coffee is always brewing.  Freshly
+made doughnuts align the counter for all to enjoy.  Invisible servants
+tend to your every need to make this the prefered room to hang out in
+by the new members of Valhalla.
+~
+99 KNQ 0
+D1
+That door leads to the Rest Room.
+~
+door~
+1 0 9957
+D3
+~
+~
+0 0 9931
+S
+#9957
+The Rest Room~
+Nope.  Not a bathroom like you thought.  This is a rest room where tired 
+immortals can get some sleep.  Feather filled beds beckon you to take
+a load off.
+~
+99 KNQ 0
+D0
+That door leads to the Waiting Room.
+~
+door~
+1 0 9958
+D1
+That door leads to the Control Room.
+~
+door~
+1 0 9959
+D2
+~
+gossip~
+4 0 9960
+D3
+That door leads to the Break Room.
+~
+door~
+1 0 9956
+S
+#9958
+The Waiting Room~
+Here is a place where Immortals can work on their various projects in
+peace while they await promotions.  Classical music fills the room
+to set the comfortable working tone needed for a God to concentrate.
+~
+99 KNQ 0
+D2
+That door leads to the Rest Room
+~
+door~
+1 0 9957
+S
+#9959
+The Control Room~
+This is the place where the Gods control different functions of the mud
+such as weather and bug control.  A mortal could get into a lot of trouble
+if a God should suddenly arrive.
+~
+99 CJKNQ 0
+D3
+That door leads to the Rest Room.
+~
+door~
+1 0 9957
+S
+#9960
+Immortal Private Chat Room~
+This small room contains sound very well.  You think even most Gods would 
+have trouble eavsdropping on anyone inside here.  There is a couple of 
+chairs and a table in this room.  On the south end of the room is a full
+refreshment bar including plates of fresh fruits.
+~
+99 CJKNP 0
+D0
+~
+gossip~
+4 0 9957
+S
+#9961
+The Milky Way Bar.~
+The lights of a thousand stars twinkle and fill this room with glitter
+as they gather around the bar to talk about galaxies they created and
+novas they've mourned.  Comfortable stools line the oak bar, and the
+bartender creates drinks never heard of before in this area of the 
+universe.  Off in one candlelit, secluded corner is a large futon mat
+covered in soft silk pillows and light satin throw blankets.  Romantic
+music and the scent of lilys-of-the-valley fill the air.
+~
+99 CJKP 0
+D3
+As far as you can see there are stars doting the inkly blackness.
+~
+galaxy~
+4 9910 9935
+D5
+As you look down you realize you are not standing at all but floating in space.
+~
+space~
+4 9910 4208
+S
+#9962
+Break Room~
+This room looks very relaxing.  It has a large window to the north overlooking
+the realm.  There is a futon bed in one corner and some comfy looking chairs
+to the other.  You see on the west wall a refreshment stand overflowing with
+cool drinks and luscious fruits.
+~
+99 CKJNQ 0
+D2
+Drakk's Chat Room is south.
+~
+oak~
+3 9909 9952
+S
+#9963
+Drakk's Study.~
+This room is filled with books to capacity.  There is a single couch in the
+middle of the room and a table with 4 chairs.  On the table are many stacks of
+papers and open books.  This room looks like a well stocked library.
+~
+99 CKJP 0
+D0
+Drakk's Chat Room.
+~
+teak~
+3 9909 9952
+S
+#9964
+In the Stars~
+You find yourself floating among the stars. What a strange feeling it is
+to be surrounded by tiny little lights and nothing else.
+~
+99 BD 9
+S
+#9965
+Mirror Room~
+You have entered a room full of mirrors.  There is a large mirror mounted
+ever wall, and there are numerous other mirrors about the room.  When you
+look closely at the mirrors on the walls you see scenes of the countryside.
+Each of the four mirrors have a different collor trim on them, red, black,
+blue, and gold.
+~
+99 CKNP 0
+D5
+Drakk's Chat Room
+~
+trapdoor~
+3 9909 9952
+E 
+red~
+As you look closer into the red trimmed mirror you see a large castle built
+into the side of a mountain of black stone.  Before the castle gates you see
+four stout dwarven guards bearing the crest of Perilous.
+~
+E 
+black~
+The black trimmed mirror looks hazy as you first look into its depths, but
+as you concentrate the form of a very dark castle is apparent.  It 
+is shrouded in a black haze which give you a very erie feeling about it.
+Dim lights can be seen from its many windows, and suprisingly no guards
+can be seen at its gates.  This must be the fabled Castle Shaded.
+~
+E
+silver~
+Looking through the silver trimmed mirror you see a number of tall birch
+trees that have a silver hue.  Beyond the trees you see some open fields
+which come right up to the gates of a brilliant castle.  Its stones reflect
+the sunlight giving it a sparkling appearance.  This must be Castle Silverglen.
+~
+E 
+blue white~
+When you look through the blue and white trimmed mirror you see a very
+stoutly built castle.  This castle looks like it was built to defent 
+against any size army.  In front of the large gatehouse stand four
+dwarven guards with blue and white tunics.  Emblazoned on thier tunics is
+a Crimson Lion.  This must be be Berronar Keep home of the Avengers.
+~
+S
+#9966
+Taliesin's Shrine~
+You see before you the tremendous shrine built by the King of Summer,
+Taliesin.  You immediately become bathed in a bright ray of light which never
+seems to end.  The Corinthian columns are ornate and rise to the magnificent
+height of 15 meters.  In the back of the shrine, you see an altar with
+the Golden Chalice on its top, the very cup from which Christos drank.
+People come here to receive healing prayers and learn from Taliesin's
+music which would make even the most stoic person cry.  On the floor, you
+notice Taliesin's pet wolf, Sundancer, who guards the shrine from
+vandalism and defamers, but currently sleeps on his carpet, with a bone in 
+his mouth, with seemingly no worry in the world.
+~
+99 DKNQ 10
+D0
+~
+~
+0 -1 9949
+D3
+You can see a magnificent grove.
+~
+~
+0 -1 9940
+D5
+~
+nexus~
+4 -1 4207
+E
+plaque~
+One of the greatest bards to live, Taliesin was one of the priviledged
+to enjoy the taste of the Kernels of Knowledge, the glorious hazelnut
+seeds, which provided him with the wisdom to see the Westerlands and plan
+for the coming of Arthur.  It is through this shrine raised in supreme
+reverence to the One Most High that the Kingdom of Summer will come to
+pass and Taliesin is the prophet who will ensure the success of this event.
+~
+S
+#9967
+Kyllaric's Realm~
+	Upon entering the room, you are transported to a cave deep
+underground to the plutonian realms ruled by Kyllaric.  As you enter, you
+notice a bust of Plutarch on a rocky shelf.  His eyes seem to follow your
+movements warily.  Oddly, beneath him in the shadows is a ceramic statue of
+the Disney character Pluto.  As you look, the tail wags.   A small stream
+gurgles down the wall of the cave nearby and collects in a small pool
+before flowing out through a crack in the floor.  A large table surrounded
+by a few chairs is set near the pool and stairs lead down to the back of
+the cave.
+	A smokeless fire blazes in a pit in the center of the cave sending
+flickering  shadows along the walls of the cave and warming the cave
+comfortably.   Niches at the back of the cave contain small pottery jars
+with names on them.  As you read them, you notice your own name on one. 
+>From the roof dangles a balance that almost shimmers with power.  You worry
+lest your soul be found wanting in the balance.
+~
+99 DP 10
+D2
+~
+~
+0 -1 9935
+S
+#9968
+Empty Room~
+Nobody seems to be using this room at the moment.
+~
+99 DP 0
+S
+#9969
+Haze's Haven~
+    The colors and furnishings in this room twist and shift before
+your eyes.  Colors blend and change between blinks of your eyes.
+One minute the room is full of furniture, and the next minute it is
+empty with walls of pure white.
+    As you step deeper into the room it changes again.  A table with
+a mirror top appears in the middle of the room.  The door morphs
+itself into the shape of a rectangle and a diamond shaped button
+appears next to it.  A low, foggy haze rolls in covering the floor.
+The haze rises and thickens, creating a shimmering effect when you
+look at anything in the room.  The final change is a bulletin board
+that protrudes itself from the wall.
+~
+99 DKNTU 0
+D4
+A door to the Waiting Room.
+~
+control~
+4 -1 9958
+D5
+A hallway into Valhalla.
+~
+chamber~
+3 9905 9935
+D6
+You see the Center Market Square of New Thalos.
+~
+thalos~
+4 -1 9506
+D7
+You see the Temple Of Dresden.
+~
+temple~
+4 -1 4207
+D9
+You see the collossal tree in Haon Dor.
+~
+tree~
+4 -1 6103
+E
+bulletin board~
+    The bulletin is somehow a part of the glowing wall here.  There
+are several papers tacked up on the board such as a news article,
+a dartboard, and a plaque is that is hidden off to the side.
+~
+E
+dartboard~
+    The dartboard has a picture of the ego attached to it.  Many
+accuratly placed darts are still embedded on various body parts
+of the ego, particulary the head.
+~
+E
+plaque~
+You rub away the dust covering this plague and read:
+ 
+			The Imaging Chamber
+			Project: Quantum Leap
+		   Constructed In: New Mexico, 1999
+ 
+    This chamber is surrounded by a radium accelerator ring for use
+in the holographic imaging system that this chamber is built for.
+The imaging system becomes active once an observer has locked on
+to the mazons and neurons of the person travelling in time.  This
+chamber is only to be used in accordance with the project.
+ 
+						-Dr. Samuel Beckett
+~
+E
+news article~
+			    Cactus Corruption
+ 
+    (AP)-Arizona    A local man awoke early yesterday morning
+		  to the sound of cackling in his backyard.
+		    Police report that the man, who wishes to
+		  be known as Eclipse, was robbed of a large
+		  cactus growing in his backyard.
+		    "I was quite stunned by the whole event,"
+		  Eclipse said, "I feel so...violated."
+		    Police spotted the two perpetrators driving
+		  a VW bug with the stolen cactus strapped to the
+		  roof. The two men appear to be in their twenties
+		  and police have yet to determine a motive.
+		    The criminals evaded the police in a high
+		  speed chase after the cactus toppled off of
+		  of the car causing the state troopers vehicles
+		  to halt.  Their whereabouts are unknown.
+~
+S
+#9970
+Tif's Kitchen~
+      You've entered a large and cheerful kitchen. A small but well stocked
+herb garden grows on the sunny windowsill. One wall is covered by a huge
+brick fireplace with a heavy metal door inset in the bricks. The metal door
+opens to reveal a large brick oven. Mouth watering smells waft from the
+closed oven door. A hearty soup bubbles in an old black pot hanging over
+the open fire and a crusty loaf of bread is warming on the hearth. A long
+wooden table and benches sit in the middle of the room. The overall
+atmosphere is warm and inviting.
+~
+99 CD 0
+D5
+You see the pit.
+~
+~
+0 -1 4208
+E
+oven~
+Sweet smelling steam wafts through the oven's vents, I wonder what she's
+baking that could smell so good?
+~
+S
+#9971
+Home Sweet Home~
+    The warm, muted glow of two hooded lamps illuminates this cozy room. Furs
+cover the floor, and old, massive, smoothly carved wooden furniture lines the
+walls. The furniture consists of a large eating-table, three large reclinging
+chairs with footstools, and a high stool and a desk. Two shelf units are also
+along the walls, home to bright displayed weapons and a few thick books. On
+the far wall is a fireplace, a merry blaze crackling within it. It is
+surrounded by an ornately-carved stone mantel depicting armored human knights
+riding dragons and competing with elven knights on pegasi. Overhead, the 
+dragon and pegasi riders motif is repeated on the carved panels of the 
+ceiling. Brass cloak-hooks project from a human-sized arch of richly polished
+wooden panelling just inside the door. The arch-topped panel contains a fold-
+down wooden bench, and is carved with a large, complex scene of birds singing
+over a pool where a unicorn bends its head to drink.
+~
+0 CDJKP 0
+D2
+You see an iron door.
+~
+door iron~
+1 -1 9942
+E
+motif~
+  Three Rings for the Elven-kings under the sky,
+  Seven for the Dwarf-lords in their halls of stone,
+Nine for Mortal Men doomed to die,
+  One for the Dark Lord on his Dark Throne
+In the Land of Mordor where Shadows lie.
+  One ring to rule them all, One ring to find them,
+  One ring to bring them all and in the darkness bind them
+In the Land of Mordor where the Shadows lie.
+~
+E
+mountain~
+	As high as the sky,
+ It rises up to touch the heavens
+     And cast a gloomy shadow
+   Across its earthen subjects.
+
+	The sun, King of the Universe
+    Glares down upon the solitary figure,
+	Light cascading down upon it
+	 Making it appear god-like.
+
+	Night chases Day away
+   As the moon crests the horizon
+  Cutting off the Sun's golden glow
+       With its pale moonlight.
+
+	The moon watches from high above,
+      Scrutinizing the barren landscape that
+	Surrounds the lonely column of rock
+	    Ascending skyward to pity.
+~
+E
+seasons~
+The Sun
+The splendid eye
+Of all our heavens
+Dives from the day,
+
+And leaves
+The dozing sky,
+Spangled with fireflies,
+Deepening in gray.
+
+Now Sleep,
+Our oldest friend,
+Lulls in the trees
+And calls
+Us in.
+
+The Leaves
+Give off cold fire,
+They blaze into ash
+At the end of the year.
+
+And birds
+Coast on the winds,
+And wheel to the North
+When Autumn ends.
+
+The day grows dark,
+The seasons bare,
+But we
+Await the sun's
+Green fire upon
+The trees.
+
+The wind
+Dives through the days.
+By season, by moon
+Great Kingdoms arise.
+
+The breath
+Of firefly, of bird,
+Of trees, of mankind
+Fades in a word.
+
+Now Sleep,
+Our oldest friend,
+Lulls in the trees
+And calls
+Us in.
+~
+S
+#9972
+TallTree's Workroom~
+This is Talltree's rest/work room.  HE earned it.
+~
+99 P 0
+D4
+~
+tt~
+4 0 9933
+S
+#9973
+On the tiny stone bridge.~
+This bridge is made up of grey stones and crosses a tiny pond.  Stone ledges
+come out from the sides about three feet giving you somewhere to relax and
+lay down for a nap.  Lush green vines with beautiful red and yellow flowers
+growing on them cover the sides. You can see several exotic fish swimming 
+around the water underneath you.  You also feel the need to strip off all 
+of your clothes and jump into the cool waters below.
+~
+99 J 2
+D0
+You can see the inside of the gazebo.
+~
+~
+0 -1 9975
+D2
+You see the open grove with a door standing in the southern part.
+~
+~
+0 -1 9940
+D5
+The cool waters beckon you to enter.
+~
+~
+0 -1 9974
+ S
+#9974
+The cool waters below the bridge.~
+You did it and dove in.  Well, might as well enjoy a nice long swim while
+you're here.  What's this?  A tiny crab starts to sing a song about being
+under the sea, and all the other fish join in.
+~
+99 J 8
+D3
+You can see a cave.
+~
+~
+0 -1 9993
+D4
+You see the stone bridge above you.
+~
+~
+0 -1 9973
+E
+crab~
+It looks like Sebastion.  It sounds like Sebastion.  It must be Sebastion.
+~
+S
+#9975
+The gazebo~
+You're inside the gazebo now.  It's painted white and vines creep up the
+side.  There are tiny benches on either side of the door.  The cover of
+vines makes a nice shaded place to rest.  Looking outside the door you can
+see the rest of the grove and in the distance the sun setting over the trees
+and the moon rising.  Faeries laugh and dance around the beautiful blooms 
+growing on the vines.  The fragrance brings a smile to your lips and makes 
+you feel relaxed.  This is a place for gentle lovers to be with each other.
+~
+99 JK 8
+D2
+You see the tiny stone bridge leading back into the main part of the grove.
+~
+~
+0 -1 9973
+E
+benches~
+They look VERY comfortable.  Why don't you have a seat?
+~
+E
+sun~
+You're not sure, but you think you can make the words 'Property of Tifarah'
+out on its soft glowing surface.
+~
+E
+faeries~
+You blush as you see that they are wearing transparent silk dresses.  Then
+you chuckle because they go on and continue working, and they are only about
+three inches tall.
+~
+E
+blooms flowers~
+These are BEAUTIFUL!  Several species of flowers compromising every color
+of the rainbow.  When you try to reach to pick one of the beautiful flowers
+one of the faeries comes and pokes you in the finger with a needle.
+~
+E
+moon~
+Tifarah hung this here.  Don't mess with it.
+~
+S
+#9980
+Road to the Castle of Eclipse~
+\,/                          *
+		       *    / \    *
+		      O_O  :x_x:  O_O
+		      | |   | |   | |              \,/
+      /'\             | |   | |   | |
+		     O_O_O_O_O_O_O_O_O
+		     \_______________/
+		      I     ___     I                      /'\
+		      I    / | \    I
+	   _--_       I   I: | :I   I
+	 _=    =_     I___I:_|_:I___I    _=_        _-_
+_      _=        =___/   (      (    \_=-   =_-'-_-=   --=\-_         _-==_
+ =_ _==                   \      \                           -_  _--_-     -_
+   -                       )      )                            --            -
+			   |      |
+			   (      (
+			    \      \
+~
+99 NQ 0
+D0
+~
+~
+0 -1 9981
+D2
+~
+~
+0 -1 9953
+S
+#9981
+Before the Castle of Eclipse~
+\,/                               |>>>
+				  |
+		    |>>>      _  _|_  _         |>>>
+		    |        |;| |;| |;|        |
+		_  _|_  _    \\.    .  /    _  _|_  _
+	       |;|_|;|_|;|    \\:. ,  /    |;|_|;|_|;|
+	       \\..      /    ||;   . |    \\.    .  /
+		\\.  ,  /     ||:  .  |     \\:  .  /
+		 ||:   |_   _ ||_ . _ | _   _||:   |
+		 ||:  .|||_|;|_|;|_|;|_|;|_|;||:.  |
+		 ||:   ||.    .     .      . ||:  .|
+		 ||: . || .     . .   .  ,   ||:   |       \,/
+		 ||:   ||:  ,  _______   .   ||: , |            /`\
+		 ||:   || .   /+++++++\    . ||:   |
+		 ||:   ||.    |+++++++| .    ||: . |
+	      __ ||: . ||: ,  |+++++++|.  . _||_   |
+ _  _ ____--`     '--  __|.   |+++++__|----      `---,_             ___
+- --                     ---__|,-- '                   -----_____--'   `----
+~
+99 NQ 0
+D0
+~
+~
+0 -1 9982
+D2
+~
+~
+0 -1 9980
+S
+#9982
+Moonlit Courtyard~
+.
+      _   _   _   _+       |
+     /_`-'_`-'_`-'_|  \+/  |
+     \_`D'_`L'_`L'_| _<=>_ |
+       '-' `-' `-' 0/ \ / o=o
+		   \/\ ^ /`0
+		   | /_^_\
+		   | || ||
+		 __|_d|_|b__
+
+  Before you stands the Guardian of the Moon.  To explore the castle further
+you must first defeat this fearsome foe in battle.
+~
+99 DNQ 0
+D0
+~
+~
+0 -1 9988
+D1
+~
+~
+3 9922 9984
+D2
+~
+~
+0 -1 9981
+D3
+~
+~
+3 9922 9983
+D4
+~
+~
+3 9922 9985
+D5
+~
+~
+3 9922 9986
+S
+#9983
+Tower of Night~
+  You walk through a small doorway, then climb up several flights of
+stairs. At the top, you stand upon a high balcony overlooking the
+entirety of all the combined realms. A cressant moon rides high in
+the skies, and no matter how long you watch, it never moves.  The
+lands from this vantage point are always covered in darkness.
+~
+99 DNQ 0
+D1
+~
+~
+3 9922 9982
+S
+#9984
+Tower of the Sea's~
+  You walk through a small doorway, then climb up several flights of
+stairs. At the top, you look out and see the moon as it revolves
+in orbit over the lands. As you watch, all the Sea's that mar it's
+surface rotate by.
+~
+99 DNQ 0
+D3
+~
+~
+3 9922 9982
+S
+#9985
+Tower of High Sorcery~
+  You walk through a small doorway, then climb up several flights of
+stairs. As you walk up each step, a strange glow emminating from above
+gets brighter and brighter.  Taking the last few steps with trepedition
+in your heart, you see an enormous beast from the netherworld trapped
+inside the confines of a magic circle.  The glow suddenly starts to fade
+away, and as you look down, you notice that you have scuffed part of the
+chalk that made up the circle with your foot.  Oops.  You turn to run,
+but find there is no exit from this room.  You turn back to face the beast,
+knowing your fate is sealed.
+~
+99 DNQX 0
+D0
+~
+incubus~
+4 -1 9982
+S
+#9986
+A non-descript storage room~
+  It seems that eclipse hasn't found a use for this room yet.  It's very
+cluttered with broken weapons, half burned scrolls, shatter glass tube,
+and other assorted trash.
+~
+99 DNQ 0
+D4
+~
+~
+3 9922 9982
+S
+#9987
+The Sea Cave~
+   Descending a long flight of stairs, you finnally emerge at a cave
+situated on the shore of some forgoten sea.  Several lounge chairs made
+entirely of some luminescent moss rests in just the right spot so
+the sunset can be viewed through the cave opening.  The floor of the cave
+is covered in fine sand, that just begs to have toes wiggled in it.  A
+salty breaze blows through the cave, cooling as it caresses your skin.
+Waves roll in softly on the small shore, creating a comforting melody that
+sooth's your soul.  Eclipse can often be found here, as he enjoys the sights
+and sounds that fill the cave.
+~
+99 DO 0
+D4
+~
+~
+0 -1 9988
+S
+#9988
+Eclipse's Seat of Power.~
+  Before you is the largest skull you've ever seen.  It appears to be
+made of some form of black rock, obsidian perhaps.  The teeth appear to
+form a stairway up to the nose socket, where a throne has been carved
+into it.  Seated on the throne is a shadowy figure, outlined in an
+aura of darkness.
+
+			  ..:::::::::..
+		     ..:::aad8888888baa:::..
+		  .::::d:?88888888888?::8b::::.
+		.:::d8888:?88888888??a888888b:::.
+	      .:::d8888888a8888888aa8888888888b:::.
+	     ::::dP::::::::88888888888::::::::Yb::::
+	    ::::dP:::::::::Y888888888P:::::::::Yb::::
+	   ::::d8:::::::::::Y8888888P:::::::::::8b::::
+	  .::::88::::::::::::Y88888P::::::::::::88::::.
+	  :::::Y8baaaaaaaaaa88P:T:Y88aaaaaaaaaad8P:::::
+	  :::::::Y88888888888P::|::Y88888888888P:::::::
+	  ::::::::::::::::888:::|:::888::::::::::::::::
+	  `:::::::::::::::8888888888888b::::::::::::::'
+	   :::::::::::::::88888888888888::::::::::::::
+	    :::::::::::::d88888888888888:::::::::::::
+	     ::::::::::::88::88::88:::88::::::::::::
+	      `::::::::::88::88::88:::88::::::::::'
+		`::::::::88::88::P::::88::::::::'
+		  `::::::88::88:::::::88::::::'
+		     ``:::::::::::::::::::''
+			  ``:::::::::''
+
+~
+99 DO 0
+D2
+~
+~
+0 -1 9982
+D5
+~
+~
+0 -1 9987
+S
+#9989
+Soulcrusher's Crypt~
+  Shelves line every wall. Upon the shelves are small earthen jars, sealed
+with  tanned human  and  demi-human flesh.  In the center of the room is a
+raised  dias,  supporting  a  black  gold sarcophagus, in the image of the
+destroyer of souls himself,  Soulcrusher.  The black slate floor is mostly
+covered by  a  huge  tapestry,  depicting the image of a sinister skeletal
+hand crushing a smaller mortal hand.
+~
+99 ACDN 0
+D5
+A huge trapdoor hewn from a solid slab of ebony, trimmed in black gold.
+~
+~
+3 9927 9953
+E
+jar jars~
+  Each jar is entirely covered in evil, hideous looking runes. The only
+intelligible words you can make out, are the names of the victims whose
+souls are imprisoned therein.
+~
+E
+tapestry carpet rug~
+The blazon of the destroyer of souls, Soulcrusher. A truly fitting crest
+for one such as he.  It is rumored that the mighty  Gravestone fashioned
+this crest for his compadre during one of his often sleepless nights.
+~
+S
+#9990
+A place of clouds and stars~
+Soft clouds fill the horizon as far as the eye can see, each swirled like a
+childs cotton candy.  You can just catch quick reflections of silver off the
+clouds silver linings.  Overhead the sky is filled with a millon stars, more
+than you can possibly count, shine down with a warm blue light.  A soft bed
+of cloud rests near what you think is the center of the room, it looks 
+amazingly comfortable but seems to repel your attempts at lying down on 
+it, for it was made for only two special people.  Also hanging silently 
+in the night sky is a picture of some kind, you can just make out some kind
+of writing on its frame. There is also a strange slot in the cloud bed to 
+one side....
+~
+99 DKTUX 0
+E
+picture~
+This is a picture of Azlyn, she is very beautiful and Gravestone loves 
+her very much.
+~
+E 
+slot~
+The slot says...
+    Insert a quarter for the wonderful sensation of _Magic Fingers!_
+~
+S
+#9991
+Grotto~
+You enter a very large cave that streches as far as the eye can see.
+Above your head flutter the wings of un-seen bats.  The high pitched 
+sound of their sonar is like music echoing off the rocks.  A clear still 
+pool sits silently in the center of the chamber, its surface smooth as 
+untouched by wind or time.  Far overhead hang columns of white crystal 
+beauty, seemingly in defiance of gravity.  They glimmer softly in the 
+blue glow that eminates from the cavern walls.  This is the resting place 
+of the Implementor Gravestone, and it was created for a very special 
+person in his life right now, who just happens to like caves and bats.
+~ 
+99 DJKO 0
+D1
+~
+cosmos~
+4 -1 9990
+E
+picture~
+This is a picture of Azlyn...She is very beautiful and Gravestone loves
+her very much.
+~
+S
+#9992
+Blackbird's Bird Nest~
+You are in a medium sized nest. It consists of little twigs,
+feathers and leaf. The twigs has been rounded very nice to
+a beautiful rand, which allows you to look over. Looking 
+down, you see a beautiful waterfall. A rainbow with the most
+marvelous colors hangs above it. Far to the west you notice 
+a high tower. Looking to the southwest, you notice a purple
+beach. You notice there is a little table in the nest with
+a few chairs around the table. A little bed is placed in the   
+northeastern part of the nest. The blankets are folded over
+the bed. In the eastern part is a little cupboard. It contains
+a lot of feathers. Probably Blackbird's outfit.
+~
+99 DNP 2
+D5
+~
+~
+0 -1 9908
+S
+#9993
+The Cave.~
+     The walls are wide apart and the ceiling high giving this cave a lot
+of room.  Looking back towards the small pond from where you came from 
+you see a solid wall of water.  A great magical force is holding the water
+back from spilling into the cave.  A bright fire burns in the center and
+the smoke is vented through a hole in the ceiling far above.  This is a 
+great place to come to when you just want to be alone.
+~
+99 CJPX 0
+D1
+You can see a pond.
+~
+~
+0 -1 9974
+S
+#9994
+Shadizar's Hide-Away~
+You have entered into a room filled with exotic perfumes and incense. A
+warm feeling fills your body and your aches and sores begin to fade away. You
+see several beautiful Janni inviting you over to take a seat on a marvelously
+woven carpet. You sit back and a Djinni appears and wafts a cool scented
+breeze around the room while an Efreeti arrives warming the room to a suitably
+comfortable temperature. Just when you think you will pass out from a total
+sensory overload there is more. A very handsome Dao arrives with an extremely
+beautiful Marid, to add to your pleasure the Dao begins to create very minute
+vibrations in the earth itself acting as a total body massage for your weary 
+muscles. To add the final touch, the beautiful Marid begins firing jets
+of water at the Efreeti which steam up and make the room a very pleasurful<?>
+sauna. Now you know why Shadizar is so happy and calm all the time.
+~
+99 KQTU 1
+S
+#9995
+The Zone.~
+    The holding area.
+~
+99 CJPX 0
+S
+#9996
+The Chapel of Heaven~
+The night sky reaches forever, and millions upon millions of stars paint 
+bright white lights on the velvet backdrop.  Here standing solitary and 
+silent are a small altar, glowing in a soft blue light.  There is also a 
+rainbow, streching over the altar, colors swirl in unrecognized patterns 
+and it fills this special place with a sense of calm and peace and love.
+Shooting stars leave glittering trails of white overhead, and a small 
+dwarf star makes a brief apperance then departs.  White colums reach up 
+into the sky holding only the darkness at bay.  There is a small glowing 
+plaque hovering in the night sky close to you...
+~
+99 TUXKD 0
+D0
+a quiet garden
+~
+~
+0 -1 9997
+E
+plaque~
+.
+                        OOOOO          OOOOO
+                       OO   OOO      OOO   OO
+                       OO     OOO  OOO     OO
+                        OOO     OOOO     OOO
+      OOOOOO          OO  OOOOOO    OOOOOO  OO          OOOOOO
+   OOOO    OOOOO   OOOO                      OOOO   OOOOO    OOOO
+               OOOOO     VVVVVV      VVVVVV     OOOOO
+                       VVVVVVVVVV  VVVVVVVVVV
+                     VVVVVVVVVVVVVVVVVVVVVVVVVV
+                     VVVVVVVVVVVVVVVVVVVVVVVVVV
+        XXXXXX       VVVVVVVVV Azlyn  VVVVVVVVV      XXXXXXX
+     XXXXXXXXXXX      VVVVVVVVV And VVVVVVVVVV      XXXXXXXXXXX
+    XXXXXXXXXXXXX      VVVV  Gravestone VVVVV      XXXXXXXXXXXXX
+   XXXXXXXXXXXXXXXX     VVVVVVVVVVVVVVVVVVVV     XXXXXXXXXXXXXXXX
+   XXXXXXXXXXXXXXXX      VVVVVVVVVVVVVVVVVV      XXXXXXXXXXXXXXXX
+   XXXXXXXXXXXXXXXX     XXVVVVVVVVVVVVVVVVXX     XXXXXXXXXXXXXXXX
+    XXXXXXXXXXXXXXXX    XXXVVVVVVVVVVVVVVXXX    XXXXXXXXXXXXXXXX
+       XXXXXXXXXXX     XXXX VVVVVVVVVVVV XXXX     XXXXXXXXXXX
+           XXXXXXX    XXXX   VVVVVVVVVV   XXXX    XXXXXXX
+    XXXXXX  XXXXXXXXXXXXXX    VVVVVVVV    XXXXXXXXXXXXXX  XXXXXX
+  XXXXXXXXXXXXXXXXXXXXXX       VVVVVV       XXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX           VVVV           XXXXXXXXXXXXXXXXXXXX
+XX XXXXX XXXXXXXXXXXX            VV            XXXXXXXXXXXX XXXXX XX
+X  X XX  XXXXXXXXXXXX                          XXXXXXXXXXXX  XX X  X
+     X  XXXXXXXXXXXX                            XXXXXXXXXXXX  X
+       XXXXXXXXXXXXX                            XXXXXXXXXXXXX
+       XXXXXXXXXXXXXX                          XXXXXXXXXXXXXX
+       XXXXXXXXXXXXXXX                        XXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXX                      XXXXXXXXXXXXXXX
+       XXXXXXX  XXXXXXXX                    XXXXXXXX  XXXXXXX
+      XXXXXXX     XXXXXXX                  XXXXXXX     XXXXXXX
+ XXXXXXXXXXX        XXXXXX                XXXXXX        XXXXXXXXXXX
+ XXXXXXXXX           XXXXX                XXXXX           XXXXXXXXX
+ XXXX                 XXXXX              XXXXX                 XXXX
+  XXX                  XXXXX            XXXXX                  XXX
+                        XXXX            XXXX
+                                                  
+~
+
+
+S
+
+#9997
+The Chapel Garden~
+ Sheltered on one side by the rear of the chapel and the others by a ring
+of stately pines, the garden is secluded and tranquil.  A flagstone path,
+lined with candles in ceramic pots, stretches through the lush grass from
+the chapel to the far side of the small garden.  On both sides of the path
+are rows of delicately carved marble benches, arranged in a semicircle to
+face the center of the garden and the raised gazebo there.  The gazebo is at
+the center of a circular marble pool, and small spouts send water trickling
+softly from the base of the gazebo into the basin.  Tiny white lights have
+been inset in the marble, making the water shimmer with each breath of air. 
+Vividly colored fish dance just beneath the surface of the water.  A gently
+arching bridge links the flagstone path with the gazebo, the candles at each
+edge reflecting in the water below.  The gazebo is also made of white marble
+-- it gleams in the moonlight and in the glow of fairy lights overhead. 
+Grape vines climb up the four marble columns to overgrow the lattice roof,
+creating a living canopy.  The lights are threaded into the grape vines,
+twinkling softly in the night breeze.  Above the garden, the sky is deepest
+blue velvet with only a sliver of the moon glowing amid the millions of
+stars.  
+~
+0 CDKX 0
+D2
+into the chapel
+~
+~
+0 -1 9996
+S
+#9998
+Azlyn's Room~
+Azlyn's large, airy room is circular, bathed in a steady, soothing light, 
+though there are no visible light sources.  The soft glow, and the scent
+of jasmine and sandalwood which pervades the air, immediatly put you at
+peace.  The walls arch in majestic grace, drawing your eyes to the skylights
+in the ceiling above you.  Large windows are set into the curving walls,
+offering panoramic views of the realms.  On a raised dais in the center
+of the room sit Azlyn's matching desk and chair.  They are intricately
+carved from white marble and inlaid with silver.  Various items rest on the
+desk, including a large, bound book and a silver goblet.  To one side of 
+the desk rests a simple stand of white marble.  On top of this, a hand with
+long, talon-like fingernails holds a glowing ball of faceted crystal.  To
+the other side of the desk, a long, sinuous dragon of carved onyx twines its
+his way up a slender column of white marble.  On his head rests a basin of
+silver, hammered paper thin.  The liquid it holds is dark as night and 
+perfectly still.  The floor is covered with beautiful, thick rugs, and the
+room is strewn with large, inviting pillows.
+~
+0 KTU 0
+S
+
+#0
+
+#RESETS
+M 0 9900 1 9903           heimdall keeper of the bridge.
+E 1 9948 5 8		    lead boots
+* A Nazghul
+M 0 9908 1 9906
+G 1 9900 1 *the key to the keep
+
+* The shopkeeper
+M 0 9902 1 9915
+G 1 9905 1  *The Forge
+G 1 9906 1  *The Staff
+
+* The armorer
+M 0 9903 1 9916
+G 1 9907 1 *Calris
+G 1 9908 1 *Tristar
+
+* The guard
+M 0 9904 1 9924
+
+* The rest of the nazgul
+M 0 9906 1 9908
+M 0 9909 1 9919
+M 0 9907 1 9930
+M 0 9905 1 9939
+M 0 9901 1 9951
+M 0 9910 1 9917
+
+* The statues in the courtyard
+O 0 9901 1 9911 *Soulcrusher
+O 0 9902 1 9909 *Modib
+O 0 9903 1 9913 *Drakk
+O 0 9904 1 9914 *Elrond
+O 0 9997 1 9998
+
+* The Doors, only one
+D 0 9906 0 2
+D 0 9907 2 2
+*
+* Generic Quest Item Resets
+*
+*O 0 29 -1 9960   *Generic Quest Item to Immortal Chat Room
+*O 0 1111 -1 9960 *Bag to explode Generic Quest Items
+*
+* DRAKK'S DOOR RESETS *
+D 0 9952 0 2   from the chat room to the break room
+D 0 9962 2 2   from the break room to the chat room
+D 0 9952 1 1   drakks front door
+D 0 9953 3 1   drakks front door
+D 0 9952 2 2   from the chat room to the study
+D 0 9963 0 2   from the study to the chat room
+D 0 9952 3 1   from the chat room to the work room
+D 0 9952 4 2   from the chat room to the mirror room
+D 0 9965 5 2   from the mirror room to the chat room
+*
+* stardancers door resets
+*
+D 0 9961 3 1   ;close secret entrance
+D 0 9935 3 1  
+D 0 9961 5 1   ;close secret to temple (one way)
+*
+* Haze's resets
+*
+M  0  9919  1  9969         load Zoltan
+E  1  9930 -1  17           Equip card
+*
+O  0  9931  1  9969         load chest/unlocked by tarot card
+P  1  9933 -1  9931            put fortune in chest
+P  1  9934 -1  9931            put handlink in chest
+P  1  9935 -1  9931            put weapon in chest
+*
+O  0  9932  1  9969         load table
+*
+D  0  9969  4  4
+D  0  9969  5  3            unlocked by handlink
+D  0  9969  6  4
+D  0  9969  7  4
+*D  0  9969  8  4
+D  0  9969  9  4
+*
+* gravestone
+*
+D 0 9948 1 1  ;front door
+D 0 9949 3 1
+D 0 9933 5 1     talltrees secret
+D 0 9972 4 1     talltrees secret
+
+*
+*  Galvins resets.
+*
+M 0 9913 1 9942                 Castellan
+E 1 9916 1 5                     Wear white shirt
+E 1 9917 1 7                     Wear black pants
+E 1 9918 1 8                     Wear black boots
+E 1 9921 1 16                    Wield flamberge
+*G 0 9920 0                       Give key
+M 0 9914 1 9966                 Sundancer
+**
+*O 0 9919 1 9971                 Place Munix
+*O 0 9922 1 9971                 Place Couch
+**
+D 0 9942 0 1                    Close door to Home Sweet Home
+D 0 9971 2 1                    Close door to Chamber of Darkness
+*
+* Eclipses Resets
+M 0 9915 1 9982                 Gaurdian of the Moon
+E 1 9923 2 16                   Moonray Sword
+E 1 9924 2 11                   Dagger of Celestial Light
+G 1 9922 1
+*
+M 0 9916 1 9985                 Succubus
+E 1 9925 1 16                   the Apocolypse
+*
+D 0 9982 1 3                    Courtyard doors
+D 0 9982 3 3                    *
+D 0 9982 4 3                    *
+D 0 9982 5 3                    *
+D 0 9983 1 3                    Tower
+D 0 9984 3 3                    Tower
+D 0 9985 0 4                    Secret out of Death Trap <hehe>
+D 0 9986 4 3                    Storage Room
+*D 0 9900 2 4                    connect to Tarin
+* Soulcrusher's Resets
+O 0 9926 1 9989                 Sarcophagus
+H 0 9926 1 9918                  Guardian of Souls
+*E 0 9928 1 17                    Soulslicer
+G 0 9927 1                       Key to exit
+*
+D 0 9989 5 3                    Soulcrusher's Room WIZLOCKED
+D 0 9953 4 1                     connect to hallway
+* Thalia's Resets
+D 0 9947 1 1
+D 0 9946 2 4                    Thalia's Room
+D 0 9946 3 1
+* Rimmon's Resets
+D 0 9938 1 1
+D 0 9944 3 1                    Rimmon's Room
+D 0 9944 5 4                     connect to temple pit
+* Gravestone's Resets
+M 0 9911 1 9954                 Load Coal the Big old cat <grin>
+* Tifarah's Resets
+O 0 9936 1  9970                Load Tifarah's Oven
+P 5 9937 15 9936                 put brownies in oven
+* Taliesin's Resets
+D 0 9966 5 4			connect to recall
+O 0 9940 1 9966	    		Altar
+P 1 9941 1 9940	      		 Chalice
+* Shadizar's Resets
+M 0 9923 1 9941			Shadizar's magic Carpet
+E 1 9950 1 5			  Sigil Saddle
+O 1 9949 1 9941			Oasis 
+O 1 9951 1 9941			The Edge
+O 1 9952 1 9994			The Magic Rope
+D 0 9939 3 1			Door Closed to Shadizar's Lamp
+D 0 9941 1 1			Door Closed from Shadizar's Lamp
+S
+
+#SHOPS
+9901 3 4 5 9 0 150 50 0 23
+9902 3 4 5 9 0 150 50 0 23
+0
+
+#SPECIALS
+M 9900 spec_castle_guard        heimdall bridge guard     
+M 9901 spec_castle_guard        1st nazgul, gate guard
+M 9904 spec_castle_guard        prison guard
+M 9905 spec_castle_guard_agg    khamul 2nd
+M 9906 spec_castle_guard_agg    dwar   3rd
+M 9907 spec_castle_guard_agg    indur dawndeath 4th
+M 9908 spec_castle_guard_agg    akhorahil 5th
+M 9909 spec_castle_guard_agg    hoarmurath 6th
+M 9910 spec_castle_guard_agg    andunaphel 7th (woman)
+* galvins specials.
+M 9913  spec_cast_adept        Castellan
+*M 9914 spec_frost_breath      Sundancer
+M 9915  spec_cast_mage          Guardian of the moon
+M 9916  spec_psionic            Succubus
+*
+* Soulcrusher's specials
+*
+M 9918 spec_cast_undead        Guardian of Souls
+*
+* Herbie's Special
+*
+M 99   spec_paramedic          Angel (Herbie)
+
+S
+
+
+#$
+

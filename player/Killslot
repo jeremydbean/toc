@@ -1,0 +1,420 @@
+#PLAYER
+Name Killslot~
+Id   21058
+LogO 947376661
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 6
+Plyd 14211
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3505
+HMV  35 88 110 110 130 130
+Gold 449
+Bank 29
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13588
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -7
+Alig  -490
+Hit   7
+ACs 51 51 52 77
+Attr 21 13 13 16 13
+AMod 0 1 1 0 0
+Pass Ki3jcTwR8CN5o~
+Titl  the Warrior~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 88 105 130
+Cond 0 18 13
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 75 'mace'
+Sk 35 'polearm'
+Sk 38 'shield block'
+Sk 30 'spear'
+Sk 81 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'armor'  12  21 -20  17          0          0
+AffD 'bless'   0  24  -7  24          0          0
+AffD 'bless'  42  24   7  18          0          0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear 16
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear 0
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 157 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 8 0 0 0
+End
+
+#O
+Vnum 102
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 102
+Nest 0
+Wear 6
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 100
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Spell 3 'change sex'
+End
+
+#O
+Vnum 103
+Nest 0
+Wear -1
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3045
+Nest 0
+Wear 5
+Lev  5
+Cost 750
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3025
+Nest 0
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+Affect -1 5 -1 1 5 0 0
+End
+
+#O
+Vnum 3117
+Nest 0
+Wear 11
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 183 0 0
+End
+
+#O
+Vnum 82
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3727
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3729
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 3730
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 6600
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6646
+Nest 0
+Wear -1
+Time 244
+Cost 150
+Cond 90
+Repd 0
+Spell 1 'cure light'
+Spell 2 'armor'
+End
+
+#O
+Vnum 6644
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6621
+Nest 0
+Wear 12
+Lev  3
+Cost 2000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6600
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6600
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3500
+Nest 0
+Wear -1
+Lev  5
+Cost 50
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Wear 8
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#END

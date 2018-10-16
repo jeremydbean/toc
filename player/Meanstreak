@@ -1,0 +1,89 @@
+#PLAYER
+Name Meanstreak~
+Id   64427
+LogO 951606109
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 5
+Plyd 7018
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4216
+HMV  13 58 104 104 124 124
+NewGold 0
+NewPlat 0
+NewCopp 88
+NewSilv 40
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  11245
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 9
+Alig  -212
+ACs 100 100 100 100
+Attr 19 12 12 13 18
+AMod 0 0 0 0 0
+Pass MeEr9ufXKHstw~
+Titl  the Soldier~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 58 104 124
+Cond 0 0 42
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#END

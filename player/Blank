@@ -1,0 +1,986 @@
+#PLAYER
+Name Blank~
+Id   45890
+LogO 952125136
+Vers 3
+Desc BOO YAH!!!
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  1
+Cast none
+Levl 53
+Plyd 1830561
+ListRemorts ~
+NumRemorts 0
+Note 952065612
+Scro 22
+Room 14882
+HMV  1017 1017 971 971 472 472
+NewGold 2
+NewPlat 1900
+NewCopp 24
+NewSilv 4
+Bank 107000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 29
+Exp  134427
+Act  65740
+AfBy 524984
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 4
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 1
+Color 7 1
+Color 8 13
+Color 9 0
+Color 10 12
+Color 11 1
+Color 12 12
+Color 13 1
+Color 14 0
+Color 15 11
+Color 16 9
+Pos  8
+Prac 5
+Save  -9
+Alig  1000
+Hit   69
+Dam   91
+ACs -186 -189 -232 -51
+Wimp  150
+Attr 18 21 18 18 18
+AMod 12 0 -1 -12 -4
+Pass BlJp7BGBxtGOo~
+Ariv $n strolls in from $T smoking his joint.~
+Dprt $n drops his joint at the sight of the MAN and jets $t.~
+Titl ...~
+Pnts 40
+TSex 1
+LLev 493
+HMVP 1042 881 412
+Cond 0 35 48
+Alias f flee~
+Alias an cast animate~
+Alias sh cast shock~
+Alias va cast 'vampiric touch'~
+Alias ch cast chill ~
+Alias cu cast curse~
+Alias de cast death ~
+Alias fo cast force~
+Alias et cast 'earth travel'~
+Alias gh cast 'ghostly presence'~
+Alias te cast tentacle~
+Alias cd cast 'neutrality field'~
+Alias cv cast 'create vampire'~
+Alias i invent~
+Alias stat 23 20 22 20 23~
+Alias un cast 'remove curse'~
+Alias dir 2e w u s n e~
+Alias unc c 'remove curse'~
+Alias sword get sword met~
+Sk 100 'animate parts'
+Sk 88 'armor'
+Sk 81 'blindness'
+Sk 94 'cancellation'
+Sk 1 'cause light'
+Sk 76 'chill touch'
+Sk 78 'cone of cold'
+Sk 1 'create skeleton'
+Sk 75 'create wraith'
+Sk 75 'create vampire'
+Sk 88 'butcher'
+Sk 80 'bewitch weapon'
+Sk 82 'curse'
+Sk 100 'death shroud'
+Sk 100 'dust devil'
+Sk 100 'earth travel'
+Sk 76 'embalm'
+Sk 1 'energy drain'
+Sk 81 'evil eye'
+Sk 89 'fly'
+Sk 100 'force sword'
+Sk 100 'haven'
+Sk 100 'icicle'
+Sk 93 'infravision'
+Sk 96 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 100 'moonbeam'
+Sk 96 'pass door'
+Sk 76 'plague'
+Sk 76 'poison'
+Sk 1 'raise dead'
+Sk 89 'remove curse'
+Sk 86 'rope trick'
+Sk 100 'sanctuary'
+Sk 82 'shield'
+Sk 77 'shroud'
+Sk 96 'ghostly presence'
+Sk 99 'shock sphere'
+Sk 100 'skeletal hands'
+Sk 100 'tentacles'
+Sk 79 'trap the soul'
+Sk 100 'vampiric touch'
+Sk 86 'vortex'
+Sk 81 'weaken'
+Sk 98 'neutrality field'
+Sk 100 'confuse'
+Sk 1 'project'
+Sk 23 'psychic shield'
+Sk 18 'pyrotechnics'
+Sk 93 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 100 'mace'
+Sk 94 'polearm'
+Sk 90 'spear'
+Sk 100 'sword'
+Sk 15 'whip'
+Sk 1 'archery'
+Sk 100 'dodge'
+Sk 42 'meditation'
+Sk 100 'scrolls'
+Sk 76 'wands'
+Sk 99 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro elemental'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'armor'   0  22 -20  17          0          0
+AffD 'psychic shield'  43  24   0   0          0          0
+AffD 'sanctuary'   0   3   0   0        128          0
+AffD 'detect hidden'  15   1   0   0         32          0
+AffD 'detect magic'  12   1   0   0         16          0
+AffD 'detect invis'  16   1   0   0          8          0
+AffD 'fly'   8  23   0   0     524288          0
+AffD 'infravision'   0  76   0   0        512          0
+End
+
+#O
+Vnum 29235
+Nest 0
+Wear 9
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Enchanted
+Nest 0
+ExtF 65
+Wear 13
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -5 17 0 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Enchanted
+Nest 0
+ExtF 2097473
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -2 17 0 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  9 13 12 4 0
+End
+
+#O
+Vnum 10012
+Nest 0
+ExtF 2228548
+Wear 11
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  11 11 11 0 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  16 14 20 4 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 1333
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 17019
+Nest 0
+ExtF 20
+Wear 5
+Lev  52
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Enchanted
+Nest 1
+Wear -1
+Lev  32
+Cost 1250
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -5 17 0 0
+End
+
+#O
+Vnum 2321
+Enchanted
+Nest 1
+Wear -1
+Lev  33
+Cost 3000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -5 17 0 0
+End
+
+#O
+Vnum 29209
+Nest 1
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7656
+Nest 1
+Wear -1
+Lev  35
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 1
+Wear -1
+Lev  47
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20146
+Nest 1
+Wear -1
+Lev  45
+Cost 800
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 1
+Wear -1
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 6 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 9212
+Enchanted
+Nest 1
+ExtF 65
+Wear -1
+Lev  25
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -6 17 0 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 11 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 -1 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 18008
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Enchanted
+Nest 1
+ExtF 2100547
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 9 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Enchanted
+Nest 1
+ExtF 2100547
+Wear -1
+Lev  51
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 10 19 0 0
+AffD 'enchant weapon' 51 -1 10 18 0 0
+End
+
+#O
+Vnum 17023
+Nest 1
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 10 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 16014
+Nest 1
+Wear -1
+Lev  36
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5619
+Nest 1
+ExtF 1048641
+Wear -1
+Lev  52
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 17020
+Nest 1
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 1
+ExtF 1048899
+Wear -1
+Lev  46
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 6 18 0 0
+AffD 'enchant weapon' 51 -1 9 19 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 18010
+Nest 0
+Wear 16
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 199
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 407
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#END
