@@ -50,7 +50,7 @@ TESTING THE MUD:
 
 
 WAYS TO MAKE MUD OPEN EASILY:
-- sudo nano /home/.bashrc
+- sudo nano ~/.bashrc
 - Add the following lines to the bottom
 	cd /home/pi/ToC/area
 	./startup &
