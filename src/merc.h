@@ -960,7 +960,6 @@ struct  kill_data
 #define AFF2_GHOST		 (K)
 #define AFF2_MADNESS		 (L)
 #define AFF2_DIVINE_PROT         (M)
-#define AFF2_DETECT_STEALTH      (N)
 
 /*
  * Sex.
@@ -989,7 +988,10 @@ struct  kill_data
 #define SIZE_HUGE                       4
 #define SIZE_GIANT                      5
 
-
+#define TYPE_COPPER	0
+#define TYPE_SILVER	1
+#define TYPE_GOLD	2
+#define TYPE_PLATINUM	3
 
 /*
  * Well known object virtual numbers.
@@ -1388,8 +1390,8 @@ struct  kill_data
 #define PLR_LOG                 (W)
 #define PLR_DENY                (X)
 #define PLR_FREEZE              (Y)
-#define PLR_THIEF               (Z)
-#define PLR_KILLER              (aa)
+
+#define PLR_WANTED              (aa)
 #define PLR_TRAITOR             (bb)
 #define PLR_WARNED		(cc)
 #define PLR_JAILED		(dd)
@@ -1407,17 +1409,14 @@ struct  kill_data
 #define COMM_NOHERO		(I)
 #define COMM_NOINFO		(J)
 #define COMM_NOWIZINFO		(K)
-/* display flags */
 #define COMM_COMPACT            (L)
 #define COMM_BRIEF              (M)
 #define COMM_PROMPT             (N)
 #define COMM_COMBINE            (O)
 #define COMM_TELNET_GA          (P)
-
 #define COMM_NOCGOS             (Q)
 #define COMM_NOGOD              (R)
 #define COMM_TELLOFF 		(S)
-/* penalties */
 #define COMM_NOEMOTE            (T)
 #define COMM_NOSHOUT            (U)
 #define COMM_NOTELL             (V)
@@ -1426,8 +1425,7 @@ struct  kill_data
 #define COMM_NONOTE             (Y)
 #define COMM_NORMUD		(Z)
 #define COMM_NOTITLE		(aa)
-
-/* for player quests */
+#define COMM_NOBEEP		(bb)
 
 #define IS_QUESTOR(ch)		(IS_SET((ch)->act, PLR_QUESTOR ) )
 
@@ -1495,7 +1493,11 @@ struct  mob_index_data
     sh_int              default_pos;
     sh_int              sex;
     sh_int              race;
-    long                gold;
+//    long                gold;
+    long                new_platinum;
+    long                new_gold;
+    long                new_silver;
+    long                new_copper;
     long                form;
     long                parts;
     sh_int              size;
@@ -1576,8 +1578,11 @@ struct  char_data
     sh_int              move;
     sh_int              max_move;
     sh_int		battleticks;
-    long                gold;
-    long		bank;	    /* Used for Banking amounts */
+//    long                gold;
+    long                new_platinum;
+    long                new_gold;
+    long                new_silver;
+    long                new_copper;
     long                exp;
     long                act;
     long                act2;         /* second group of flags */
@@ -1689,7 +1694,7 @@ struct  pc_data
     sh_int		lmb_timer;	      /* Timer for Sanity Check */
     sh_int              col_table[32];        /* for those with color */
     bool                color;                /* set state of color */
-    long		bank;
+    int			bank;
     long		dcount;		     /* Prevents multi-killing */
     int			corpses;
     char *              ignore;
@@ -2415,8 +2420,15 @@ RID	*get_random_room	args ( ( CHAR_DATA *ch ) );
 bool can_loot           args( (CHAR_DATA *ch, OBJ_DATA *obj) );
 void    get_obj         args( ( CHAR_DATA *ch, OBJ_DATA *obj,
 			    OBJ_DATA *container ) );
-/* -- added by Drakk for Eclipse -- */
-void do_bounce		args( (OBJ_DATA *obj) );
+void    do_bounce	args( (OBJ_DATA *obj) );
+void    add_money       args( (CHAR_DATA *ch, long amount) );
+long    query_gold      args( (CHAR_DATA *ch) );
+int     query_carry_weight args( ( CHAR_DATA *ch) );
+int     query_carry_coins  args( ( CHAR_DATA *ch, long amount) ); 
+void    add_gold        args( (CHAR_DATA *ch, long amount) );
+void    add_copper      args( (CHAR_DATA *ch, long amount) );
+void    add_silver      args( (CHAR_DATA *ch, long amount) );
+void    add_platinumi   args( (CHAR_DATA *ch, long amount) );
 
 /* act_wiz.c */
 
@@ -2567,7 +2579,7 @@ OD *    get_obj_carry   args( ( CHAR_DATA *ch, char *argument ) );
 OD *    get_obj_wear    args( ( CHAR_DATA *ch, char *argument ) );
 OD *    get_obj_here    args( ( CHAR_DATA *ch, char *argument ) );
 OD *    get_obj_world   args( ( CHAR_DATA *ch, char *argument ) );
-OD *    create_money    args( ( int amount ) );
+OD *    create_money    args( ( int amount, int type ) );
 int     get_obj_number  args( ( OBJ_DATA *obj ) );
 int     get_obj_weight  args( ( OBJ_DATA *obj ) );
 bool    room_is_dark    args( ( ROOM_INDEX_DATA *pRoomIndex ) );
