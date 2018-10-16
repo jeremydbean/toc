@@ -88,7 +88,7 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
     if ( IS_OBJ_STAT(obj, ITEM_GLOW)      )   strcat( buf, "(Glowing) "   );
     if ( IS_OBJ_STAT(obj, ITEM_HUM)       )   strcat( buf, "(Humming) "   );
 /*    if ( IS_OBJ_STAT(obj, ITEM_EMBALMED   )   strcat( buf, "(Embalmed) "  ); */
- /*  
+ /*
       if ( IS_AFFECTED(ch, AFF_DETECT_GOOD)
 	    && IS_OBJ_STAT(obj, ITEM_GOOD)   )   strcat( buf, "(Silver) ");
 
@@ -241,7 +241,7 @@ if(!scan)
     if ( IS_AFFECTED(victim, AFF_INVISIBLE)   ) strcat( buf, "(Invis) ");
     if ( IS_AFFECTED(victim, AFF_FLYING)      ) strcat( buf, "(Flying) ");
 
-    if ( IS_AFFECTED(victim, AFF_SWIM) 
+    if ( IS_AFFECTED(victim, AFF_SWIM)
          && (victim->in_room->sector_type == SECT_WATER_NOSWIM
          || victim->in_room->sector_type == SECT_WATER_SWIM) ) strcat( buf, "(Swimming) ");
 
@@ -261,7 +261,7 @@ if(!scan)
     if ( IS_AFFECTED2(victim, AFF2_FLAMING_COLD) ) strcat( buf, "(Frosty) ");
     if ( IS_AFFECTED2(victim, AFF2_FORCE_SWORD) ) strcat( buf, "(Guarded) ");
     if ( IS_AFFECTED2(victim, AFF2_GHOST)       ) strcat( buf, "(Ghostly) ");
-    if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_TRAITOR ) ) 
+    if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_TRAITOR ) )
     strcat( buf, "(TRAITOR) " );
 
   }
@@ -482,7 +482,7 @@ void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )
     }
 
     return;
-} 
+}
 
 
 
@@ -493,9 +493,9 @@ bool check_blind( CHAR_DATA *ch )
 	return TRUE;
 
     if ( IS_AFFECTED(ch, AFF_BLIND) )
-    { 
-	send_to_char( "You can't see a thing!\n\r", ch ); 
-	return FALSE; 
+    {
+	send_to_char( "You can't see a thing!\n\r", ch );
+	return FALSE;
     }
 
     return TRUE;
@@ -509,7 +509,7 @@ void do_scroll(CHAR_DATA *ch, char *argument)
     int lines;
 
     one_argument(argument,arg);
-    
+
     if (arg[0] == '\0')
     {
 	if (ch->lines == 0)
@@ -586,7 +586,7 @@ void do_motd(CHAR_DATA *ch, char *argument)
 }
 
 void do_imotd(CHAR_DATA *ch, char *argument)
-{  
+{
     do_help(ch,"imotd");
 }
 
@@ -621,12 +621,12 @@ void do_autolist(CHAR_DATA *ch, char *argument)
 
     send_to_char("   action     status\n\r",ch);
     send_to_char("---------------------\n\r",ch);
- 
+
     send_to_char("autoassist     ",ch);
     if (IS_SET(ch->act,PLR_AUTOASSIST))
         send_to_char("ON\n\r",ch);
     else
-        send_to_char("OFF\n\r",ch); 
+        send_to_char("OFF\n\r",ch);
 
     send_to_char("autoexit       ",ch);
     if (IS_SET(ch->act,PLR_AUTOEXIT))
@@ -672,14 +672,14 @@ void do_autolist(CHAR_DATA *ch, char *argument)
 */
     if (!IS_SET(ch->act,PLR_CANLOOT))
 	send_to_char("Your corpse is safe from thieves.\n\r",ch);
-    else 
+    else
         send_to_char("Your corpse may be looted.\n\r",ch);
 
     if (IS_SET(ch->act,PLR_NOSUMMON))
 	send_to_char("You cannot be summoned.\n\r",ch);
     else
 	send_to_char("You can be summoned.\n\r",ch);
-   
+
     if (IS_SET(ch->act,PLR_NOFOLLOW))
 	send_to_char("You do not welcome followers.\n\r",ch);
     else
@@ -690,7 +690,7 @@ void do_autoassist(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
-    
+
     if (IS_SET(ch->act,PLR_AUTOASSIST))
     {
       send_to_char("Autoassist removed.\n\r",ch);
@@ -707,7 +707,7 @@ void do_autoexit(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_AUTOEXIT))
     {
       send_to_char("Exits will no longer be displayed.\n\r",ch);
@@ -724,7 +724,7 @@ void do_autogold(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_AUTOGOLD))
     {
       send_to_char("Autogold removed.\n\r",ch);
@@ -741,7 +741,7 @@ void do_autoloot(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_AUTOLOOT))
     {
       send_to_char("Autolooting removed.\n\r",ch);
@@ -758,7 +758,7 @@ void do_autosac(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_AUTOSAC))
     {
       send_to_char("Autosacrificing removed.\n\r",ch);
@@ -775,7 +775,7 @@ void do_autosplit(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_AUTOSPLIT))
     {
       send_to_char("Autosplitting removed.\n\r",ch);
@@ -886,7 +886,7 @@ void do_noloot(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_CANLOOT))
     {
       send_to_char("Your corpse is now safe from thieves.\n\r",ch);
@@ -903,7 +903,7 @@ void do_nofollow(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
- 
+
     if (IS_SET(ch->act,PLR_NOFOLLOW))
     {
       send_to_char("You now accept followers.\n\r",ch);
@@ -1033,8 +1033,8 @@ void do_exits( CHAR_DATA *ch, char *argument )
                 if (ch->level < LEVEL_IMMORTAL)
 	    	    sprintf( buf + strlen(buf), "%-5s - %s\n\r",
 		        capitalize( dir_name[door] ),
-			IS_SET(pexit->exit_info, EX_CLOSED) 
-                            ? "Closed door" 
+			IS_SET(pexit->exit_info, EX_CLOSED)
+                            ? "Closed door"
                             : (room_is_dark( pexit->u1.to_room )
                             && (!IS_AFFECTED(ch,AFF_INFRARED)))
 		                ?  "Too dark to tell"
@@ -1044,8 +1044,8 @@ void do_exits( CHAR_DATA *ch, char *argument )
 	    	    sprintf( buf + strlen(buf), "%-5s - [%d] %s\n\r",
 		        capitalize( dir_name[door] ),
                         pexit->u1.to_room->vnum,
-			IS_SET(pexit->exit_info, EX_CLOSED) 
-                            ? "Closed door" 
+			IS_SET(pexit->exit_info, EX_CLOSED)
+                            ? "Closed door"
 			    : pexit->u1.to_room->name
 		        );
 	    }
@@ -1108,7 +1108,7 @@ void do_score( CHAR_DATA *ch, char *argument )
       "| %-6s %7d years | %-6s %7s | %-8s %9s |\n\r",
       "Age:", get_age(ch),
       "Race:", capitalize(race_table[ch->race].name),
-      "Castle:", 
+      "Castle:",
       IS_NPC(ch) ? "None" : capitalize(get_castlename(ch->pcdata->castle)));
 
     send_to_char(buf, ch);
@@ -1151,7 +1151,7 @@ void do_score( CHAR_DATA *ch, char *argument )
             " " , " ", " ",
             "Copper:",  ch->new_copper);
     send_to_char(buf, ch);
-   
+
     sprintf(buf, "| %-4s %2d (%2d) | %-5s %-5s  %-5s  | %-9s %11d |\n\r",
             "Con:"  , ch->perm_stat[STAT_CON], get_curr_stat(ch,STAT_CON),
             " " , " ", " ",
@@ -1186,7 +1186,7 @@ void do_score( CHAR_DATA *ch, char *argument )
              "To Damage Bonus:", GET_DAMROLL(ch), " ");
     send_to_char(buf, ch);
 
-    
+
     sprintf( buf, "| %-11s  %8d | %-16s %5s %11s|\n\r",
              "Slashing AC:", GET_AC(ch,AC_SLASH),
              " ", " ", " ");
@@ -1199,8 +1199,8 @@ void do_score( CHAR_DATA *ch, char *argument )
     send_to_char(kader, ch);
 
     if ( !IS_NPC(ch) )
-    { 
-      if (ch->level != get_trust(ch)) 
+    {
+      if (ch->level != get_trust(ch))
       {  sprintf(buf, "| You have been trusted by the gods at level %2d.%13s|\n\r",
                  get_trust(ch)," ");
          send_to_char(buf, ch);
@@ -1210,36 +1210,36 @@ void do_score( CHAR_DATA *ch, char *argument )
           (ch->pcdata->condition[COND_THIRST] == 0) &&
           (ch->pcdata->condition[COND_FULL] == 0))
          sprintf(buf, "| You are drunk, thirsty and hungry. %23s|\n\r", " ");
-      else 
+      else
       if ((ch->pcdata->condition[COND_DRUNK] > 10) &&
           (ch->pcdata->condition[COND_THIRST] == 0))
          sprintf(buf,"| You are drunk and thirsty.          %23s|\n\r", " ");
-         
-      else 
+
+      else
       if ((ch->pcdata->condition[COND_DRUNK] > 10) &&
           (ch->pcdata->condition[COND_FULL] == 0))
          sprintf(buf,"| You are drunk and hungry.           %23s|\n\r", " ");
-      else 
+      else
       if ((ch->pcdata->condition[COND_THIRST] == 0) &&
           (ch->pcdata->condition[COND_FULL] == 0))
          sprintf(buf,"| You are thirsty and hungry.         %23s|\n\r", " ");
-        
-      else 
+
+      else
       if (ch->pcdata->condition[COND_DRUNK] > 10 )
          sprintf(buf,"| You are drunk.                      %23s|\n\r", " " );
-      else 
+      else
       if (ch->pcdata->condition[COND_THIRST] == 0 )
          sprintf(buf,"| You are thirsty.                    %23s|\n\r", " " );
-      else 
+      else
       if (ch->pcdata->condition[COND_FULL] == 0 )
          sprintf(buf,"| You are hungry.                     %23s|\n\r", " " );
-      
+
       if ((ch->pcdata->condition[COND_DRUNK] > 10) ||
           (ch->pcdata->condition[COND_THIRST] == 0) ||
           (ch->pcdata->condition[COND_FULL] == 0))
         send_to_char(buf, ch);
 
-      if (ch->pcdata->mounted) 
+      if (ch->pcdata->mounted)
       {  sprintf(buf,"| You are mounted on a steed.         %23s|\n\r", " " );
          send_to_char(buf, ch);
       }
@@ -1309,7 +1309,7 @@ void do_score( CHAR_DATA *ch, char *argument )
               (IS_SET(ch->comm,COMM_WHINE) ? "WHINER" : " "));
       sprintf(buf + strlen(buf), "%13s |\n\r"," ");
       send_to_char(buf, ch);
-      
+
 
       if (IS_SET( ch->act, PLR_JAILED ))
       {
@@ -1414,7 +1414,7 @@ void do_affect( CHAR_DATA *ch, char *argument)
 			send_to_char( buf, ch );
 		}
 	send_to_char( ".\n\r",ch );
-               
+
 	}
 	return;
     }
@@ -1589,7 +1589,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
     bool found = FALSE;
 
     one_argument(argument,arg);
-  
+
     if (arg[0] == '\0')
     {
 	send_to_char("You must provide a name.\n\r",ch);
@@ -1605,7 +1605,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 
  	if (d->connected != CON_PLAYING || !can_see(ch,d->character))
 	    continue;
-	
+
 	wch = ( d->original != NULL ) ? d->original : d->character;
 
 	if(d->original != NULL && ch->trust < 67)
@@ -1647,9 +1647,9 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	    if (wch->level < MAX_LEVEL - 19
 	    && (wch->class != CLASS_MONK && wch->class != CLASS_NECRO))
 		switch(wch->pcdata->guild)
-		{
+		 {
 		    default            :
-		    if(wch->class != CLASS_MONK
+		 if (wch->class != CLASS_MONK
 		    && wch->class != CLASS_NECRO)
 					 guild = "    ";	break;
 		    case GUILD_MAGE    : guild = "/M  ";	break;
@@ -1689,12 +1689,12 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	    wch->in_room->vnum, ( wch->played + (int) ( current_time - wch->logon) ) / 3600, wch->timer );
 	send_to_char(buf,ch);
 	send_to_char("Pkill ",ch);
-	if( wch->pcdata->pk_state == 1 ) 
+	if( wch->pcdata->pk_state == 1 )
 	send_to_char("[Yes]\n\r",ch);
 	else
 	send_to_char("[No]\n\r",ch);
-    } 
-	    
+    }
+
 	}
     }
 
@@ -1790,10 +1790,10 @@ void do_who( CHAR_DATA *ch, char *argument )
 		    if (iClass == -1)
 		    {
 			iRace = race_lookup(arg);
-    
+
 		        if (iRace == 0 || iRace >= MAX_PC_RACE)
 			{
-			    send_to_char( 
+			    send_to_char(
 			        "That's not a valid race or class.\n\r",ch);
 			    return;
 			}
@@ -2043,7 +2043,7 @@ void do_compare( CHAR_DATA *ch, char *argument )
 	    send_to_char("You aren't wearing anything comparable.\n\r",ch);
 	    return;
 	}
-    } 
+    }
 
     else if ( (obj2 = get_obj_carry(ch,arg2) ) == NULL )
     {
@@ -2207,7 +2207,7 @@ void do_gwhere( CHAR_DATA *ch, char *argument )
 	    found = FALSE;
 	    for( victim = char_list; victim != NULL; victim = victim->next )
 	    {
-		if( victim->in_room != NULL 
+		if( victim->in_room != NULL
 		&&  can_see( ch, victim )
 		&&  victim != ch
 		&&  is_name( arg, victim->name ) )
@@ -2489,7 +2489,7 @@ void do_arrive( CHAR_DATA *ch, char *argument )
     || ( (strstr(argument,"$t") == NULL)
       && (strstr(argument,"$T") == NULL) ) )
     {
-	send_to_char( 
+	send_to_char(
 "Arrive messages must contain a $n where you want your name placed\n\r\
 and either a $t or a $T where you want the direction placed.\n\r", ch );
 	return;
@@ -2556,7 +2556,7 @@ void do_depart( CHAR_DATA *ch, char *argument )
     || ( (strstr(argument,"$t") == NULL)
       && (strstr(argument,"$T") == NULL) ) )
     {
-	send_to_char( 
+	send_to_char(
 "Depart messages must contain a $n where you want your name placed\n\r\
 and either a $t or a $T where you want the direction placed.\n\r", ch );
 	return;
@@ -2658,9 +2658,9 @@ void do_teachlist(CHAR_DATA *ch, char *argument)
                 break;
 
             gn = skill_lookup(gmdata.can_teach[i]);
-             
+
             if (gn < 0) continue;
-            
+
             if (59 < skill_table[gn].skill_level[ch->class])
                continue;
             if (ch->pcdata->learned[gn] < 1)
@@ -2679,7 +2679,7 @@ void do_teachlist(CHAR_DATA *ch, char *argument)
         col = 0;
    }
 }
-  
+
 
 void do_gainlist(CHAR_DATA *ch, char *argument)
 {
@@ -2709,10 +2709,10 @@ void do_gainlist(CHAR_DATA *ch, char *argument)
        if ((gmdata.guild != GUILD_ANY)
             && (ch->pcdata->guild != gmdata.guild))
          continue;
-        
+
          col = 0;
         pMobIndex = get_mob_index(gmdata.vnum);
-        if (pMobIndex == NULL) 
+        if (pMobIndex == NULL)
            continue;
         if (gmdata.can_gain[0] == NULL)
            continue;
@@ -2732,7 +2732,7 @@ void do_gainlist(CHAR_DATA *ch, char *argument)
             {   gn = skill_lookup(gmdata.can_gain[i]);
                 isgroup = FALSE;
             }
-            if (gn < 0) 
+            if (gn < 0)
                continue;
 
             if (isgroup)
@@ -2755,7 +2755,7 @@ void do_gainlist(CHAR_DATA *ch, char *argument)
 }
 
 
-void do_practice(CHAR_DATA *ch, char *argument) 
+void do_practice(CHAR_DATA *ch, char *argument)
 {
     int i, counter,  sn;
     char buf[MAX_INPUT_LENGTH];
@@ -2881,10 +2881,10 @@ void do_practice(CHAR_DATA *ch, char *argument)
             if ( ++col % 3 == 0 )
                 send_to_char( "\n\r", ch );
         }
-       
+
         if ( col % 3 != 0 )
             send_to_char( "\n\r", ch );
-            
+
 	   sprintf( buf, "You have %d practice sessions left.\n\r",
             ch->practice );
         send_to_char( buf, ch );
@@ -2947,7 +2947,7 @@ void do_practice(CHAR_DATA *ch, char *argument)
                     ch, NULL, skill_table[sn].name, TO_CHAR );
 			 act( "$n practices $T.",
                     ch, NULL, skill_table[sn].name, TO_ROOM );
-            }       
+            }
             else
             {
                 ch->pcdata->learned[sn] = adept;
@@ -3137,7 +3137,7 @@ void do_join( CHAR_DATA *ch, char *arg )
 	    return;
 	}
 
-        if ( victim->pcdata->pk_state != 1) 
+        if ( victim->pcdata->pk_state != 1)
         {
             send_to_char("You can only have pkillers in your castle.\n\r", ch);
             return;
@@ -3382,8 +3382,8 @@ void do_scan( CHAR_DATA *ch, char *argument )
 
 
 /*
- * Show numbered list of key_type & key_word items in the pit to a character 
- * Can coalesce duplicated items. 
+ * Show numbered list of key_type & key_word items in the pit to a character
+ * Can coalesce duplicated items.
  *
  * modified from show_list_to_char();
  */
@@ -3549,7 +3549,7 @@ bool we_want_this_obj ( OBJ_DATA *obj, char *key_type, char *key_word)
             {
                 if (key_word[0]=='\0')
                     return TRUE;
-                else 
+                else
                     return is_name(key_word,obj->name);
             }
             break;
@@ -3559,7 +3559,7 @@ bool we_want_this_obj ( OBJ_DATA *obj, char *key_type, char *key_word)
             {
                 if (key_word[0]=='\0')
 		    return TRUE;
-                else 
+                else
                     return is_name(key_word,obj->name);
             }
             break;
@@ -3572,7 +3572,7 @@ bool we_want_this_obj ( OBJ_DATA *obj, char *key_type, char *key_word)
             {
                 if (key_word[0]=='\0')
                     return TRUE;
-                else 
+                else
 		    return is_name(key_word,obj->name);
 	    }
             break;
@@ -3582,7 +3582,7 @@ bool we_want_this_obj ( OBJ_DATA *obj, char *key_type, char *key_word)
             {
                 if (key_word[0]=='\0')
                     return TRUE;
-                else 
+                else
                     return is_name(key_word,obj->name);
             }
     }
@@ -4094,7 +4094,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
      return;
    }
 
-   if ((requested_class == CLASS_NECRO) && 
+   if ((requested_class == CLASS_NECRO) &&
        (requested_race != race_lookup("elf")) &&
        (requested_race != race_lookup("human")))
    { send_to_char("A Necromancer can only have as race Elf or Human.\n\r",ch);
@@ -4104,7 +4104,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
    if ((requested_class == CLASS_MONK) &&
        (requested_race != race_lookup("dwarf")) &&
        (requested_race != race_lookup("human")))
-   { 
+   {
      send_to_char("A Monk can only have as race Dwarf or Human.\n\r",ch);
      return;
    }
@@ -4174,7 +4174,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
      obj_next = obj->next_content;
      obj_from_char(obj);
      extract_obj(obj);
-   } 
+   }
    ch->level    = 3;
    ch->pcdata->points = 2500;
    ch->exp      = 3 * exp_per_level(ch,ch->pcdata->points);
@@ -4209,7 +4209,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
      if (ch->class == CLASS_NECRO)
        ch->pcdata->guild = GUILD_NECRO;
      else
-       if (requested_guild >= 0) 
+       if (requested_guild >= 0)
            ch->pcdata->guild = requested_guild;
        else
            ch->pcdata->guild = GUILD_NONE;
@@ -4293,6 +4293,3 @@ void do_remort( CHAR_DATA *ch, char *arg)
 
    save_char_obj(ch);
 }
-
-
-
