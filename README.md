@@ -34,13 +34,15 @@ COPYING OVER TOC FROM GITHUB:
 
 
 STARTING THE MUD:
-- sudo chown -hR pi ToCsudo 
+- sudo chown -R pi:pi ToC
+- sudo chmod -R 755 ToC
 - cd ToC
 - cd src
 - rm *.o
 - make
 - cp merc ../area
 - cd ../area
+- chmod +x startup
 - ./startup &
 	- NOTE: If errors, you can try typing './merc 9000 &' from areas folder.
 	
@@ -57,4 +59,6 @@ WAYS TO MAKE MUD OPEN EASILY:
 - Ctrl + X, Y, ENTER
 - Every time you open a terminal window, you will be in the areas directory, and the MUD will attempt to start if not already running.
 
-
+OTHER COMMANDS:
+- ps ux : views all running processes.  First number listed after pi is the 'Process ID'  last line is the description.  The MUD is both ./startup and ./merc 9000
+- If you need to force kill the MUD, use 'ps ux' to find the process ID, then do 'kill <number>'
