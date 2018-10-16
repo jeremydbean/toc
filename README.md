@@ -12,6 +12,6 @@ CURRENT REPORTED BUGS:
 
 Raspberry Pi:
 
-sudo git config credential.helper store
-sudo git pull
-sudo git push
+- sudo git config credential.helper store
+- sudo git pull
+- sudo git push
