@@ -1,0 +1,779 @@
+act_comm.c:    if (!IS_NPC(ch) && (ch->pcdata->castle != CASTLE_NONE))
+act_comm.c:	    if (castle_lookup(to_one) == ch->pcdata->castle)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:   if (ch->pcdata->confirm_delete)
+act_comm.c:	    ch->pcdata->confirm_delete = FALSE;
+act_comm.c:    ch->pcdata->confirm_delete = TRUE;
+act_comm.c:    if ( strcmp( crypt( arg1, ch->pcdata->pwd ), ch->pcdata->pwd ) )
+act_comm.c:    if (!strcmp( crypt(arg1, ch->pcdata->pwd),ch->pcdata->pwd) )
+act_comm.c:    if ( !IS_NPC(ch) && ch->pcdata->castle != 0)
+act_comm.c:    if ( !IS_NPC(ch) && ch->pcdata->castle != 0)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if (ch->pcdata->castle == 0)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:	     ch->pcdata->castle == victim->pcdata->castle)
+act_comm.c:    if (ch->pcdata->castle == 0)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:	     victim->pcdata->castle != 0)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if (ch->pcdata->ignore == NULL)
+act_comm.c:    ch->pcdata->ignore = str_dup(" ");
+act_comm.c:        sprintf(buf,"You're ignoring %s.",ch->pcdata->ignore);
+act_comm.c:        ch->pcdata->ignore = str_dup(" ");
+act_comm.c:    sprintf(buf2_new,"%s",ch->pcdata->ignore);
+act_comm.c:    sprintf(buf2,"%s ",ch->pcdata->ignore);
+act_comm.c:    ch->pcdata->ignore = str_dup(buf2);
+act_comm.c:      sprintf(buf2,"%s",victim->pcdata->ignore);
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      sprintf(buf2,"%s",victim->pcdata->ignore);
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:      if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:    if(ch->pcdata->mounted)
+act_comm.c:      ch->pcdata->mounted = FALSE;
+act_comm.c:    id = ch->pcdata->id;
+act_comm.c:      if( tch && tch->pcdata->id == id && ch != tch)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:    if ( ch->master != NULL && (!IS_NPC(ch) && !ch->pcdata->mounted) )
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_comm.c:	    ptr = ch->pcdata->alias[i].first;
+act_comm.c:		sprintf(buf, "    %7s = %s\n\r", ch->pcdata->alias[i].first,
+act_comm.c:				ch->pcdata->alias[i].second);
+act_comm.c:	    ptr = ch->pcdata->alias[i].first;
+act_comm.c:		sprintf(buf, "    %7s = %s\n\r", ch->pcdata->alias[i].first,
+act_comm.c:				ch->pcdata->alias[i].second);
+act_comm.c:	    ptr = ch->pcdata->alias[i].first;
+act_comm.c:		free_string(ch->pcdata->alias[i].first);
+act_comm.c:		free_string(ch->pcdata->alias[i].second);
+act_comm.c:		ch->pcdata->alias[i].first  = NULL;
+act_comm.c:		ch->pcdata->alias[i].second = NULL;
+act_comm.c:	ptr = ch->pcdata->alias[i].first;
+act_comm.c:	    free_string(ch->pcdata->alias[i].second);
+act_comm.c:	    ch->pcdata->alias[i].second = str_dup(argument);
+act_comm.c:		ch->pcdata->alias[i].first,
+act_comm.c:		ch->pcdata->alias[i].second);
+act_comm.c:	ptr = ch->pcdata->alias[i].first;
+act_comm.c:	    ch->pcdata->alias[i].first  = str_dup(arg);
+act_comm.c:	    ch->pcdata->alias[i].second = str_dup(argument);
+act_comm.c:		ch->pcdata->alias[i].first,
+act_comm.c:		ch->pcdata->alias[i].second);
+act_comm.c:    sprintf (buf,"Color:  %s\n\r",ch->pcdata->color ? "ON":"OFF");
+act_comm.c:	ch->pcdata->col_table[col_table[t].num],  col_table[t].num,
+act_comm.c:	col_disp_table[ch->pcdata->col_table[col_table[t].num]].type);
+act_comm.c:    ch->pcdata->color = TRUE;
+act_comm.c:    ch->pcdata->color = FALSE;
+act_comm.c:      ch->pcdata->col_table[col_table[t].num] =
+act_comm.c:	  ch->pcdata->col_table[col_table[t].num],  col_table[t].num,
+act_comm.c:	  col_disp_table[ch->pcdata->col_table[col_table[t].num]].type);
+act_comm.c:	ch->pcdata->col_table[idx] = col;
+act_info.c:    if( victim->pcdata->mounted )
+act_info.c:       strcat( buf, victim->pcdata->title );
+act_info.c:  if(!IS_NPC(victim) && victim->pet != NULL && victim->pcdata->mounted )
+act_info.c:    &&   number_percent( ) < ch->pcdata->learned[gsn_peek] )
+act_info.c:	51 * exp_per_level(ch,ch->pcdata->points) - ch->exp);
+act_info.c:	(ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp);
+act_info.c:	IS_NPC(ch) ? "" : ch->pcdata->title,
+act_info.c: 	IS_NPC(ch) ? "none" : get_guildname(ch->pcdata->guild),
+act_info.c: 	IS_NPC(ch) ? "none" : get_castlename(ch->pcdata->castle));
+act_info.c:	  hero_xp + (51 * exp_per_level(ch,ch->pcdata->points) ) - ch->exp);
+act_info.c:	 ((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp));
+act_info.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]   > 10 )
+act_info.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] ==  0 )
+act_info.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL]   ==  0 )
+act_info.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_info.c:    if( !IS_NPC(ch) && ch->pcdata->pk_state == 1 )
+act_info.c:        { if (ch->pcdata->pk_state > 0) 
+act_info.c:                     ch->pcdata->pkills_given,
+act_info.c:                     ch->pcdata->pkills_received);
+act_info.c:        sprintf( buf, "You are jailed until %s\n\r",(char *)ctime(&ch->pcdata->jw_timer));
+act_info.c:		switch(wch->pcdata->guild)
+act_info.c:		wch->pcdata->castle == 0 ? "" : "[",
+act_info.c:		wch->pcdata->castle == 0 ? ""
+act_info.c:				 : get_castlename(wch->pcdata->castle),
+act_info.c:		wch->pcdata->castle == 0 ? "" : "] ",
+act_info.c:		wch->name, IS_NPC(wch) ? "" : wch->pcdata->title);
+act_info.c:	if( wch->pcdata->pk_state == 1 ) 
+act_info.c:	|| ( fCastleRestrict && (wch->pcdata->castle != iCastle)) )
+act_info.c:	    switch(wch->pcdata->guild)
+act_info.c:	    wch->pcdata->castle == 0 ? "" : "[",
+act_info.c:	    (wch->pcdata->castle && IS_SET(wch->act,PLR_CASTLEHEAD)) ? "*" : "",
+act_info.c:	    wch->pcdata->castle == 0 ? "" : get_castlename(wch->pcdata->castle),
+act_info.c:	    wch->pcdata->castle == 0 ? "" : "] ",
+act_info.c:	    IS_NPC(wch) ? "" : wch->pcdata->title );
+act_info.c:    if( !IS_NPC(victim) && victim->pcdata->pk_state == 1)
+act_info.c:    free_string( ch->pcdata->title );
+act_info.c:    ch->pcdata->title = str_dup( buf );
+act_info.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_info.c:	if(!IS_NPC(ch) && ch->pcdata->on_quest)
+act_info.c:    if(ch->pcdata->on_quest)
+act_info.c:        if (ch->pcdata->arrive[0] != '\0')
+act_info.c:            act(ch->pcdata->arrive, ch, "south", "the south", TO_CHAR);
+act_info.c:    free_string( ch->pcdata->arrive );
+act_info.c:    ch->pcdata->arrive = str_dup( argument );
+act_info.c:    if (ch->pcdata->arrive[0] != '\0')
+act_info.c:        act(ch->pcdata->arrive, ch, "south", "the south", TO_CHAR);
+act_info.c:    if(ch->pcdata->on_quest)
+act_info.c:        if (ch->pcdata->depart[0] != '\0')
+act_info.c:            act(ch->pcdata->depart, ch, "south", "the south", TO_CHAR);
+act_info.c:    free_string( ch->pcdata->depart );
+act_info.c:    ch->pcdata->depart = str_dup( argument );
+act_info.c:    if (ch->pcdata->depart != NULL)
+act_info.c:        act(ch->pcdata->depart, ch, "south", "the south", TO_CHAR);
+act_info.c:		    || ch->pcdata->learned[sn] < 1 /* skill is not known */)
+act_info.c:		skill_table[sn].name, ch->pcdata->learned[sn] );
+act_info.c:    && (ch->pcdata->guild != gmdata.guild))
+act_info.c:              || ch->pcdata->learned[sn] < 1 /* skill is not known */)
+act_info.c:                skill_table[sn].name, ch->pcdata->learned[sn] );
+act_info.c:        ||    ch->pcdata->learned[sn] < 1 /* skill is not known */
+act_info.c:        if ( ch->pcdata->learned[sn] >= adept )
+act_info.c:            ch->pcdata->learned[sn] +=
+act_info.c:            if ( ch->pcdata->learned[sn] < adept )
+act_info.c:                ch->pcdata->learned[sn] = adept;
+act_info.c:    if ( strcmp( crypt( arg1, ch->pcdata->pwd ), ch->pcdata->pwd ) )
+act_info.c:    free_string( ch->pcdata->pwd );
+act_info.c:    ch->pcdata->pwd = str_dup( pwdnew );
+act_info.c:	if ( victim->pcdata->castle != 0 )
+act_info.c:        if ( victim->pcdata->pk_state != 1) 
+act_info.c:	victim->pcdata->castle = ch->pcdata->castle;
+act_info.c:   if( (chance = ch->pcdata->learned[gsn_danger_sense]) < 1)
+act_info.c:   if( (chance = ch->pcdata->learned[gsn_listen_at_door] ) < 1)
+act_info.c:    if(ch->pcdata->confirm_pkill)
+act_info.c:	    ch->pcdata->confirm_pkill = FALSE;
+act_info.c:	    ch->pcdata->pk_state = 1;
+act_info.c:    if(ch->pcdata->pk_state == 1)
+act_info.c:    ch->pcdata->confirm_pkill = TRUE;
+act_info.c:    if(ch->pcdata->pk_state == 1)
+act_info.c:    if ( strcmp( crypt( arg1, ch->pcdata->pwd ), ch->pcdata->pwd ) )
+act_info.c:    if (!strcmp( crypt(arg1, ch->pcdata->pwd),ch->pcdata->pwd) )
+act_info.c:            ch->pcdata->pk_state = 1;
+act_info.c:   if ( strcmp( crypt( arg1, ch->pcdata->pwd ), ch->pcdata->pwd ) ) {
+act_info.c:   if (ch->level != LEVEL_HERO3 + ch->pcdata->num_remorts) {
+act_info.c:             LEVEL_HERO3 + ch->pcdata->num_remorts);
+act_info.c:   if (ch->pcdata->num_remorts >= 3) {
+act_info.c:     had_classes[ind_class] = ch->pcdata->guild;
+act_info.c:     sprintf(saveclass+strlen(saveclass)," %d ",ch->pcdata->guild);
+act_info.c:   if (ch->pcdata->num_remorts > 0) {
+act_info.c:     sprintf(saveclass,"%s %s",str_dup(ch->pcdata->list_remorts),str_dup(saveclass));
+act_info.c:     to_strip = str_dup(ch->pcdata->list_remorts);
+act_info.c:   ch->exp      = 3 * exp_per_level(ch,ch->pcdata->points);
+act_info.c:   ch->pcdata->num_remorts += 1;
+act_info.c:   free_string(ch->pcdata->list_remorts);
+act_info.c:   ch->pcdata->list_remorts = str_dup(saveclass);
+act_info.c:   ch->pcdata->perm_hit  = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
+act_info.c:   ch->pcdata->perm_mana = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
+act_info.c:   ch->pcdata->perm_move = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
+act_info.c:   if (ch->pcdata->num_remorts == 3)
+act_info.c:     ch->pcdata->psionic = 1;
+act_info.c:     ch->pcdata->psionic = 0;
+act_info.c:   if (ch->pcdata->num_remorts >= 2) {
+act_info.c:     ch->pcdata->condition[COND_THIRST] = -1;
+act_info.c:     ch->pcdata->condition[COND_FULL] = -1;
+act_info.c:   ch->max_hit  = ch->pcdata->perm_hit;
+act_info.c:   ch->max_mana = ch->pcdata->perm_mana;
+act_info.c:   ch->max_move = ch->pcdata->perm_move;
+act_info.c:   ch->practice = 5 + ch->pcdata->num_remorts;
+act_info.c:   ch->train    = 5 + ch->pcdata->num_remorts;
+act_info.c:   { ch->pcdata->guild = GUILD_MONK;
+act_info.c:     { ch->pcdata->guild = GUILD_NECRO;
+act_info.c:        if (requested_guild >= 0) ch->pcdata->guild = requested_guild;
+act_info.c:           ch->pcdata->guild = GUILD_NONE;
+act_info.c:   if ( ch->pcdata->mounted) ch->pcdata->mounted = FALSE;
+act_info.c:   for (i=0;i<MAX_SKILL;i++) ch->pcdata->learned[i] = 0;
+act_info.c:   for (i=0;i<MAX_GROUP;i++) ch->pcdata->group_known[i] = 0;
+act_info.c:         ch->pcdata->learned[gsn_sword] =
+act_info.c:         ch->pcdata->learned[gsn_dagger] =
+act_info.c:         ch->pcdata->learned[gsn_spear] =
+act_info.c:         ch->pcdata->learned[gsn_mace] =
+act_info.c:         ch->pcdata->learned[gsn_axe] =
+act_info.c:         ch->pcdata->learned[gsn_flail] =
+act_info.c:         ch->pcdata->learned[gsn_whip] =
+act_info.c:         ch->pcdata->learned[gsn_polearm] =
+act_info.c:   ch->pcdata->bank = 0;
+act_info.c:   ch->pcdata->last_level = 1;
+act_move.c:      if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:      else if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:	ch->pcdata->mounted = FALSE;
+act_move.c:	  else	if (ch->pcdata->depart[0] != '\0')
+act_move.c:	      act( ch->pcdata->depart, ch, dir_name[door],
+act_move.c:	 else if (ch->pcdata->arrive[0] != '\0')
+act_move.c:	    act( ch->pcdata->arrive, ch, dir_name[rev_dir[door]],
+act_move.c:    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_doorbash] )
+act_move.c:    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_pick_lock] )
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 25)
+act_move.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 25)
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 25 )
+act_move.c:	chance = ch->pcdata->learned[gsn_sneak];
+act_move.c:    if ( IS_NPC(ch) || number_percent( ) < (ch->pcdata->learned[gsn_sneak]/3) )
+act_move.c:    if ( IS_NPC(ch) || number_percent( ) < (ch->pcdata->learned[gsn_stealth]/3) )
+act_move.c:    if ( IS_NPC(ch) || number_percent( ) < ch->pcdata->learned[gsn_hide] )
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:      skill = ch->pcdata->learned[gsn_recall];
+act_move.c:     ch->pcdata->mounted = FALSE;
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:      skill = ch->pcdata->learned[gsn_recall];
+act_move.c:        ch->pcdata->perm_hit += 10;
+act_move.c:        ch->pcdata->perm_mana += 10;
+act_move.c:	  if(ch->pcdata->learned[gsn_shove] < 2)
+act_move.c:     || (!IS_NPC(victim) && victim->pcdata->mounted)
+act_move.c:	 chance += ch->pcdata->learned[gsn_shove]/2;
+act_move.c:	 ch->pcdata->condition[0] += 12;
+act_move.c:    chance = ch->pcdata->learned[gsn_search];
+act_move.c:    if(!IS_NPC(ch) && ch->pcdata->mounted)
+act_move.c:    ch->pcdata->mounted = TRUE;
+act_move.c:   if(!ch->pcdata->mounted)
+act_move.c:     ch->pcdata->mounted = FALSE;
+act_move.c:   ch->pcdata->mounted = FALSE;
+act_move.c:	chance = ch->pcdata->learned[gsn_stealth];
+act_obj.c:    if (owner->pcdata->pk_state == 1)
+act_obj.c:	ch->pcdata->bank += amount;
+act_obj.c:	sprintf( buf,"Your new balance is %ld.\n\r", ch->pcdata->bank );
+act_obj.c:	if ( ch->pcdata->bank < amount )
+act_obj.c:	ch->pcdata->bank -= amount;
+act_obj.c:	sprintf( buf,"Your new balance is %ld.\n\r", ch->pcdata->bank );
+act_obj.c:    balance = ch->pcdata->bank;
+act_obj.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+act_obj.c:	    ch->pcdata->condition[COND_THIRST] = 48;
+act_obj.c:	if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 10 )
+act_obj.c:        if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 25 )
+act_obj.c:        if (ch->pcdata->condition[COND_DRUNK] > 30)
+act_obj.c:        ch->pcdata->condition[COND_DRUNK] = 30;
+act_obj.c:	if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] > 40 )
+act_obj.c:	if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL] > 40 )
+act_obj.c:	    condition = ch->pcdata->condition[COND_FULL];
+act_obj.c:	    if ( condition == 0 && ch->pcdata->condition[COND_FULL] > 0 )
+act_obj.c:	    else if ( ch->pcdata->condition[COND_FULL] > 40 )
+act_obj.c:      chance = ch->pcdata->learned[gsn_steal];
+act_obj.c:	if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
+act_obj.c:    if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
+act_wiz.c:/*	ch->pcdata->jw_timer = 0;*/
+act_wiz.c:/*	victim->pcdata->jw_timer = current_time;*/
+act_wiz.c:        ch->pcdata->jw_timer = 0;
+act_wiz.c:        victim->pcdata->jw_timer = current_time + (atoi(arg2)*24*60*60);
+act_wiz.c:	    sprintf(buf,"Your poofin is %s\n\r",ch->pcdata->bamfin);
+act_wiz.c:	free_string( ch->pcdata->bamfin );
+act_wiz.c:	ch->pcdata->bamfin = str_dup( argument );
+act_wiz.c:	sprintf(buf,"Your poofin is now %s\n\r",ch->pcdata->bamfin);
+act_wiz.c:	    sprintf(buf,"Your poofout is %s\n\r",ch->pcdata->bamfout);
+act_wiz.c:	free_string( ch->pcdata->bamfout );
+act_wiz.c:	ch->pcdata->bamfout = str_dup( argument );
+act_wiz.c:	sprintf(buf,"Your poofout is now %s\n\r",ch->pcdata->bamfout);
+act_wiz.c:	    sprintf(buf,"Your trans is %s\n\r",ch->pcdata->trans);
+act_wiz.c:	free_string( ch->pcdata->trans );
+act_wiz.c:	ch->pcdata->trans = str_dup( argument );
+act_wiz.c:	sprintf(buf,"Your trans is now %s\n\r",ch->pcdata->trans);
+act_wiz.c:    if (victim->pet != NULL && (!IS_NPC(victim) && victim->pcdata->mounted) )
+act_wiz.c:      victim->master->pcdata->mounted = FALSE;
+act_wiz.c:    if(!IS_SWITCHED(ch) && ch->pcdata->trans[0] != '\0')
+act_wiz.c:      act( ch->pcdata->trans, victim, NULL, NULL, TO_ROOM );
+act_wiz.c:	    if (ch->pcdata != NULL && ch->pcdata->bamfout[0] != '\0')
+act_wiz.c:		act("$t",ch,ch->pcdata->bamfout,rch,TO_VICT);
+act_wiz.c:    if (ch->pet != NULL && (!IS_NPC(ch) && ch->pcdata->mounted) )
+act_wiz.c:	    if (ch->pcdata != NULL && ch->pcdata->bamfin[0] != '\0')
+act_wiz.c:		act("$t",ch,ch->pcdata->bamfin,rch,TO_VICT);
+act_wiz.c:        sprintf( buf," Pkill: %s\n\r",victim->pcdata->pk_state == 1 ?
+act_wiz.c:	IS_NPC(victim) ? "none" : get_guildname(victim->pcdata->guild),
+act_wiz.c:	IS_NPC(victim) ? "none" : get_castlename(victim->pcdata->castle),
+act_wiz.c:	    victim->pcdata->condition[COND_THIRST],
+act_wiz.c:	    victim->pcdata->condition[COND_FULL],
+act_wiz.c:	    victim->pcdata->condition[COND_DRUNK],
+act_wiz.c:	    victim->pcdata->psionic );
+act_wiz.c:	    victim->pcdata->last_level, victim->questpoints);
+act_wiz.c:	    if(!IS_NPC(victim) && victim->pcdata->mounted)
+act_wiz.c:	      victim->pcdata->mounted = FALSE;
+act_wiz.c:	victim->exp      = exp_per_level(victim,victim->pcdata->points);
+act_wiz.c:	  victim->pcdata->perm_hit	= 20;
+act_wiz.c:	  victim->pcdata->perm_mana	= 100;
+act_wiz.c:	  victim->pcdata->perm_move	= 100;
+act_wiz.c:     victim->exp = exp_per_level(victim,victim->pcdata->points) * 51 +
+act_wiz.c:    victim->exp   = exp_per_level(victim,victim->pcdata->points)
+act_wiz.c:  if(victim->level >= chance && ch->pcdata->psionic < 1)
+act_wiz.c:	     victim->pcdata->learned[sn]     = value;
+act_wiz.c:	victim->pcdata->learned[sn] = value;
+act_wiz.c:	    victim->pcdata->true_sex = value;
+act_wiz.c:	victim->pcdata->guild = guild;
+act_wiz.c:	  sprintf(buf,"%s Guild now set to %s.\n\r",victim->name,get_guildname(victim->pcdata->guild));
+act_wiz.c:	  sprintf(buf,"Your Guild is now %s.\n\r",get_guildname(victim->pcdata->guild));
+act_wiz.c:	victim->pcdata->castle = castle;
+act_wiz.c:	  sprintf(buf,"%s Castle now set to %s.\n\r",victim->name,get_castlename(victim->pcdata->castle));
+act_wiz.c:	  sprintf(buf,"Your Castle is now %s.\n\r",get_castlename(victim->pcdata->castle));
+act_wiz.c:	if ( victim->pcdata->castle == 0 )
+act_wiz.c:		get_castlename(victim->pcdata->castle), victim, TO_CHAR);
+act_wiz.c:		get_castlename(victim->pcdata->castle), victim, TO_CHAR);
+act_wiz.c:	    victim->pcdata->perm_hit = value;
+act_wiz.c:	    victim->pcdata->perm_mana = value;
+act_wiz.c:	    victim->pcdata->perm_move = value;
+act_wiz.c:	victim->pcdata->condition[COND_THIRST] = value;
+act_wiz.c:	victim->pcdata->condition[COND_DRUNK] = value;
+act_wiz.c:	victim->pcdata->condition[COND_FULL] = value;
+act_wiz.c:	   victim->pcdata->psionic);
+act_wiz.c:    if( victim->pcdata->corpses == 0 )
+act_wiz.c:    if (victim->pet != NULL && (!IS_NPC(victim) && victim->pcdata->mounted) )
+act_wiz.c:      victim->master->pcdata->mounted = FALSE;
+comm.c:	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ))
+comm.c:	if ( ch->pcdata->pwd[0] == '\0')
+comm.c:	free_string( ch->pcdata->pwd );
+comm.c:	ch->pcdata->pwd = str_dup( pwdnew );
+comm.c:	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ) )
+comm.c:	ch->pcdata->points = pc_race_table[race].points;
+comm.c:			    ch->pcdata->true_sex = SEX_MALE;
+comm.c:			    ch->pcdata->true_sex = SEX_FEMALE;
+comm.c:	   ch->pcdata->guild = GUILD_MONK;
+comm.c:	   ch->pcdata->guild = GUILD_NECRO;
+comm.c:	ch->pcdata->learned[gsn_recall] = 50;
+comm.c:	    ch->exp     = exp_per_level(ch,ch->pcdata->points);
+comm.c:	    ch->pcdata->psionic = 0;
+comm.c:     ch->pcdata->learned[sn] = class_table[ch->class].weapon_prof[weapon - 1];
+comm.c:	  psi = ch->pcdata->psionic;
+comm.c:	  if(ch->pcdata->psionic == 0)
+comm.c:	    psi = ch->pcdata->psionic;
+comm.c:	if (ch->pcdata->bank > 100000 && number_percent () > 45 )
+comm.c:	    ch->pcdata->bank -= ch->level*10;
+comm.c:	if (ch->pcdata->bank > 2000000 )
+comm.c:		(ch->pcdata->bank - 1000000) / 2);
+comm.c:	    ch->pcdata->bank -= (ch->pcdata->bank - 1000000) / 2;
+comm.c:/*	if( (ch->pcdata->jw_timer < current_time - 5*24*60*60 ) &&
+comm.c:	    ch->pcdata->jw_timer = 0;
+comm.c:        if( (ch->pcdata->jw_timer < current_time) &&
+comm.c:	    ch->pcdata->jw_timer = 0;
+comm.c:	if( ch->pcdata->dcount > 0 )
+comm.c:	    ch->pcdata->dcount = 0;
+comm.c:	ch->pcdata->mounted = FALSE;
+comm.c:    ch->pcdata->psionic = 1;
+comm.c:    ch->pcdata->psionic = 2;
+comm.c:  if(ch->pcdata->psionic == 1)
+comm.c:		free_string( d->character->pcdata->pwd );
+comm.c:		d->character->pcdata->pwd = str_dup( ch->pcdata->pwd );
+comm.c:		    ch->pcdata->mounted = TRUE;
+comm.c:		  ch->pcdata->mounted = FALSE;
+comm.c:      do_color = pcdata->color;
+comm.c:	    col = pcdata->col_table[col];
+comm.c:	strcpy (ptr,col_disp_table[pcdata->col_table[COL_REGULAR]].ansi_str);
+comm.c:	ptr += strlen (col_disp_table[pcdata->col_table[COL_REGULAR]].ansi_str);
+comm.c:	ch->sex = IS_NPC(ch) ? 0 : ch->pcdata->true_sex;
+comm.c:	ch->pcdata->jw_timer = current_time;
+comm.c:    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+db.c:        free_string( ch->pcdata->pwd            );
+db.c:        free_string( ch->pcdata->bamfin         );
+db.c:        free_string( ch->pcdata->bamfout        );
+db.c:	free_string( ch->pcdata->trans          );
+db.c:	free_string( ch->pcdata->arrive         );
+db.c:	free_string( ch->pcdata->depart         );
+db.c:	free_string( ch->pcdata->title          );
+db.c:      /*  free_string( ch->pcdata->ignore         );*/
+db.c:	ch->pcdata->next = pcdata_free;
+db.c:	IS_NPC(victim) ? "none" : get_guildname(victim->pcdata->guild),
+db.c:            victim->pcdata->condition[COND_THIRST],
+db.c:            victim->pcdata->condition[COND_FULL],
+db.c:            victim->pcdata->condition[COND_DRUNK] );
+db.c:            victim->pcdata->last_level,
+fight.c:    if(ch->pcdata->learned[gsn_aggrostab] < 1)
+fight.c:    chance = ch->pcdata->learned[gsn_aggrostab] / 2;
+fight.c:  if(ch->class == 2 || ch->pcdata->guild == GUILD_THIEF)
+fight.c:	  if(ch->pcdata->learned[gsn_backstab] > 1)
+fight.c:		 if( ch->pcdata->guild == GUILD_THIEF
+fight.c:      if( ( (chance = 1 + ch->pcdata->learned[gsn_destruction]/10
+fight.c:	 if ( victim->pcdata->mounted)
+fight.c:	   victim->pcdata->mounted = FALSE;
+fight.c:	    victim->pcdata->dcount += 1;
+fight.c:                 ch->pcdata->pkills_given += 1;
+fight.c:                 victim->pcdata->pkills_received += 1;
+fight.c:               xp = hero_xp + 51 * exp_per_level(victim,victim->pcdata->points);
+fight.c:	    else if ( victim->exp > exp_per_level(victim,victim->pcdata->points)
+fight.c:		gain_exp( victim, (exp_per_level(victim,victim->pcdata->points)
+fight.c:	&&( ch->pcdata->pk_state == 0 ) )
+fight.c:	&&( victim->pcdata->pk_state == 0 ) )
+fight.c:	&& (ch->pcdata->pk_state == 0) )
+fight.c:	&& (victim->pcdata->pk_state == 0) )
+fight.c:	chance  = victim->pcdata->learned[gsn_parry] / 2;
+fight.c:	chance  = victim->pcdata->learned[gsn_dodge] / 2;
+fight.c:	chance  = victim->pcdata->learned[gsn_shield_block] / 2;
+fight.c:	 victim->master->pcdata->mounted = FALSE;
+fight.c:    if ( victim->pcdata->mounted)
+fight.c:      victim->pcdata->mounted = FALSE;
+fight.c:    if(victim->ridden || (!IS_NPC(victim) && victim->pcdata->mounted) )
+fight.c:    if( !IS_NPC(victim) && victim->pcdata->dcount >= 6 )
+fight.c:    if( !IS_NPC(victim) && victim->pcdata->dcount >= 6 )
+fight.c:    if(victim->ridden || (!IS_NPC(victim) && victim->pcdata->mounted) )
+fight.c:    if(victim->ridden || (!IS_NPC(victim) && victim->pcdata->mounted) )
+fight.c:    {   if ((ch->pcdata->pk_state != 1) ||
+fight.c:            ((ch->pcdata->pk_state == 1) && (victim->pcdata->pk_state != 1)))
+fight.c:        if(ch->pcdata->pk_state != 1 || victim->pcdata->pk_state != 1) {
+fight.c:    if( !IS_NPC(victim) && victim->pcdata->on_quest == 1 )
+fight.c:    if ( !IS_NPC(ch) && ch->pcdata->on_quest == 1 )
+fight.c:    if( !IS_NPC(victim) && victim->pcdata->dcount >= 6 )
+fight.c:    if ( !IS_NPC(victim) && victim->pcdata->dcount >= 6 )
+fight.c:    chance=ch->pcdata->learned[gsn_fatality]/20;
+fight.c:    if(ch->pcdata->learned[gsn_fatality] < 2)
+fight.c:/*    if( ( (chance = ch->pcdata->learned[gsn_fatality]/10 - victim->level/7) > 0)
+fight.c:    ||   number_percent( ) < ch->pcdata->learned[gsn_backstab] )
+fight.c:    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_rescue] )
+fight.c:    if ( IS_NPC(ch) || number_percent( ) < ch->pcdata->learned[gsn_kick] )
+fight.c:	if (hate->ch == vict->pcdata->id)
+fight.c:    hate->ch   = ch->pcdata->id;
+fight.c:	if (hate->ch == vict->pcdata->id)
+fight.c:            ch->pcdata->pkills_given += 1;
+fight.c:            victim->pcdata->pkills_received += 1;
+fight.c:              xp = hero_xp + 51 * exp_per_level(victim,victim->pcdata->points);
+fight.c:	    else if ( victim->exp > exp_per_level(victim,victim->pcdata->points)
+fight.c:		gain_exp( victim, (exp_per_level(victim,victim->pcdata->points)
+fight.c:    if( !IS_NPC(ch) && (chance = ch->pcdata->learned[gsn_archery]) < 2)
+handler.c:	    skill = ch->pcdata->learned[sn];
+handler.c:	    skill = ch->pcdata->learned[sn];
+handler.c:    if (ch->pcdata->perm_hit == 0
+handler.c:    ||  ch->pcdata->perm_mana == 0
+handler.c:    ||  ch->pcdata->perm_move == 0
+handler.c:    ||  ch->pcdata->last_level == 0)
+handler.c:						ch->pcdata->true_sex;
+handler.c:	ch->pcdata->perm_hit    = ch->max_hit;
+handler.c:	ch->pcdata->perm_mana   = ch->max_mana;
+handler.c:	ch->pcdata->perm_move   = ch->max_move;
+handler.c:	ch->pcdata->last_level  = ch->played/3600;
+handler.c:	if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
+handler.c:		    ch->pcdata->true_sex        = ch->sex;
+handler.c:		    ch->pcdata->true_sex        = 0;
+handler.c:    if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
+handler.c:	ch->pcdata->true_sex = 0; 
+handler.c:    ch->sex             = ch->pcdata->true_sex;
+handler.c:    ch->max_hit         = ch->pcdata->perm_hit;
+handler.c:    ch->max_mana        = ch->pcdata->perm_mana;
+handler.c:    ch->max_move        = ch->pcdata->perm_move;
+handler.c:	ch->sex = ch->pcdata->true_sex;
+hunt.c:   if( (chance = ch->pcdata->learned[gsn_danger_sense]) < 1)
+hunt.c:    if( !IS_NPC(ch) && ch->pcdata->learned[gsn_tracking] < 1)
+hunt.c:		     ch->pcdata->learned[gsn_tracking]))
+interp.c:	    ptr = ch->pcdata->alias[counter].first;
+interp.c:		    sprintf(buf, "%s %s", ch->pcdata->alias[counter].second,
+magic.c:    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[sn] )
+magic.c:	&& ( ch->pcdata->castle == 0 )
+magic.c:	&& ( victim->pcdata->castle == 0)
+magic.c:    if (result >= (100 - ch->pcdata->learned[sn]/5*3))  /* success! */
+magic.c:    if (result >= (100 - ch->pcdata->learned[sn]/5*3))  /* success! */
+magic.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+magic.c:    && ( !IS_NPC(ch) && ch->pcdata->guild != GUILD_CLERIC) )
+magic.c:    if (ch->class == CLASS_CLERIC && ch->pcdata->guild == GUILD_MAGE)
+magic.c:	&& ( ch->pcdata->castle == 0 )
+magic.c:	&& ( victim->pcdata->castle == 0)
+magic.c:	&& ( ch->pcdata->castle == 0 )
+magic.c:	&& ( victim->pcdata->castle == 0) 
+magic.c:    if(!IS_NPC(ch) && ch->pcdata->on_quest)
+magic2.c:    if( (chance = ch->pcdata->learned[gsn_lore]) < 1)
+magic2.c:      if(ch->pcdata->on_quest)
+magic2.c:    ||   (!IS_NPC(ch) && ch->pcdata->mounted)
+magic2.c:      ch->pcdata->perm_hit -= 25;
+magic2.c:      ch->pcdata->perm_mana -= 25;
+magic2.c:      ch->pcdata->perm_move -= 25;
+pkill.c:       (ch->pcdata -> pkills_given - ch->pcdata->pkills_received))
+pkill.c:    pNew -> pkills_given = ch->pcdata->pkills_given;
+pkill.c:    pNew -> pkills_received = ch->pcdata->pkills_received;
+pkill.c:    pNew -> pkills_given = ch->pcdata->pkills_given;
+pkill.c:    pNew -> pkills_received = ch->pcdata->pkills_received;
+save.c:    if (ch->pcdata->ignore == NULL)
+save.c:    ch->pcdata->ignore = str_dup(" ");
+save.c:	    ch->level, get_trust(ch), ch->name, ch->pcdata->title);
+save.c:            ch->level, get_trust(ch), ch->name, ch->pcdata->title);
+save.c:    fprintf( fp, "Id   %d\n",	ch->pcdata->id		);
+save.c:/*    if (ch->pcdata->ignore[0] != '\0')*/
+save.c:        fprintf( fp, "Ignoring %s~\n",  ch->pcdata->ignore);
+save.c:    fprintf( fp, "Gui  %d\n",	ch->pcdata->guild	);
+save.c:    fprintf( fp, "Psionic  %d\n", ch->pcdata->psionic );
+save.c:    fprintf( fp, "Cast %s\n",	get_castlename( ch->pcdata->castle) );
+save.c:    fprintf( fp, "ListRemorts %s~\n", ch->pcdata->list_remorts );
+save.c:    fprintf( fp, "NumRemorts %d\n", ch->pcdata->num_remorts );
+save.c:    if (ch->pcdata->bank > 0)
+save.c:      fprintf( fp, "Bank %ld\n",	ch->pcdata->bank		);
+save.c:    if (ch->pcdata->dcount > 0)
+save.c:	fprintf( fp, "Dcount %ld\n",	ch->pcdata->dcount	);
+save.c:    fprintf( fp, "Corpses	%d\n",	ch->pcdata->corpses	);
+save.c:    fprintf( fp, "PkRec %ld\n",ch->pcdata->pkills_received );
+save.c:    fprintf( fp, "PkGiv %ld\n",ch->pcdata->pkills_given );
+save.c:      fprintf( fp,"Mounted %d\n",         ch->pcdata->mounted);
+save.c:      fprintf( fp,"On_Quest %d\n",       ch->pcdata->on_quest);
+save.c:      if(ch->pcdata->quest_pause > 0 )
+save.c:         fprintf( fp,"Quest_Pause %ld\n",   ch->pcdata->quest_pause);
+save.c:      if(ch->pcdata->pk_state > 0 )
+save.c:	fprintf(fp,"Pk_State %d\n",	   	ch->pcdata->pk_state);
+save.c:      if(ch->pcdata->jw_timer > 0 )
+save.c:	 fprintf( fp,"Jw_Timer %ld\n",	ch->pcdata->jw_timer);
+save.c:      if(ch->pcdata->on_quest)
+save.c:		 ch->pcdata->questor[0],
+save.c:		 ch->pcdata->questor[1],
+save.c:		 ch->pcdata->questor[2],
+save.c:		 ch->pcdata->questor[3],
+save.c:		 ch->pcdata->questor[4],
+save.c:		 ch->pcdata->questor[5],
+save.c:		 ch->pcdata->questor[6],
+save.c:		 ch->pcdata->questor[7],
+save.c:		 ch->pcdata->questor[8],
+save.c:		 ch->pcdata->questor[9]  );
+save.c:	fprintf(fp,"ColFlag %d\n", ch->pcdata->color);
+save.c:	    fprintf (fp, "Color %d %d\n",t, ch->pcdata->col_table[t]);
+save.c:	fprintf( fp, "Pass %s~\n",	ch->pcdata->pwd		);
+save.c:	if (ch->pcdata->bamfin[0] != '\0')
+save.c:	    fprintf( fp, "Bin  %s~\n",	ch->pcdata->bamfin);
+save.c:	if (ch->pcdata->bamfout[0] != '\0')
+save.c:		fprintf( fp, "Bout %s~\n",	ch->pcdata->bamfout);
+save.c:	if( ch->pcdata->trans[0] != '\0')
+save.c:	   fprintf(fp,"Trans %s~\n", ch->pcdata->trans);
+save.c:	if (ch->pcdata->arrive[0] != '\0')
+save.c:	    fprintf( fp, "Ariv %s~\n",	ch->pcdata->arrive);
+save.c:	if (ch->pcdata->depart[0] != '\0')
+save.c:		fprintf( fp, "Dprt %s~\n", ch->pcdata->depart);
+save.c:	fprintf( fp, "Titl %s~\n",	ch->pcdata->title	);
+save.c:	fprintf( fp, "Pnts %d\n",   	ch->pcdata->points      );
+save.c:	fprintf( fp, "TSex %d\n",	ch->pcdata->true_sex	);
+save.c:	fprintf( fp, "LLev %d\n",	ch->pcdata->last_level	);
+save.c:	fprintf( fp, "HMVP %d %d %d\n", ch->pcdata->perm_hit,
+save.c:						   ch->pcdata->perm_mana,
+save.c:						   ch->pcdata->perm_move);
+save.c:	    ch->pcdata->condition[0],
+save.c:	    ch->pcdata->condition[1],
+save.c:	    ch->pcdata->condition[2] );
+save.c:	    ptr1 = ch->pcdata->alias[i].first;
+save.c:	    ptr2 = ch->pcdata->alias[i].second;
+save.c:		fprintf( fp, "Alias %s %s~\n", ch->pcdata->alias[i].first,
+save.c:			ch->pcdata->alias[i].second);
+save.c:	    if ( skill_table[sn].name != NULL && ch->pcdata->learned[sn] > 0 )
+save.c:		    ch->pcdata->learned[sn], skill_table[sn].name );
+save.c:	    if ( group_table[gn].name != NULL && ch->pcdata->group_known[gn])
+save.c:    ch->pcdata->id			= number_range( 0, 65535 );
+save.c:    ch->pcdata->points			= 0;
+save.c:    ch->pcdata->confirm_delete		= FALSE;
+save.c:    ch->pcdata->confirm_pkill		= FALSE;
+save.c:    ch->pcdata->guild			= GUILD_NONE;
+save.c:    ch->pcdata->psionic                 = 0;
+save.c:    ch->pcdata->castle			= 0;
+save.c:    ch->pcdata->bank			= 0;
+save.c:    ch->pcdata->dcount			= 0;
+save.c:    ch->pcdata->pkills_received         = 0;
+save.c:    ch->pcdata->pkills_given            = 0;
+save.c:    ch->pcdata->corpses			= 0;
+save.c:    ch->pcdata->pwd			= str_dup( "" );
+save.c:    ch->pcdata->bamfin			= str_dup( "" );
+save.c:    ch->pcdata->bamfout			= str_dup( "" );
+save.c:    ch->pcdata->trans                   = str_dup( "" );
+save.c:    ch->pcdata->arrive			= str_dup( "" );
+save.c:    ch->pcdata->depart			= str_dup( "" );
+save.c:    ch->pcdata->title			= str_dup( "" );
+save.c:    ch->pcdata->list_remorts            = str_dup( "" );
+save.c:    ch->pcdata->num_remorts             = 0;
+save.c:    ch->pcdata->perm_hit		= 0;
+save.c:    ch->pcdata->perm_mana		= 0;
+save.c:    ch->pcdata->perm_move		= 0;
+save.c:    ch->pcdata->true_sex		= 0;
+save.c:    ch->pcdata->last_level		= 0;
+save.c:    ch->pcdata->condition[COND_THIRST]	= 48;
+save.c:    ch->pcdata->condition[COND_FULL]	= 48;
+save.c:	ch->pcdata->alias[i].first = NULL;
+save.c:	ch->pcdata->alias[i].second = NULL;
+save.c:	ch->pcdata->learned[gsn_recall] = 50;
+save.c:	    KEY( "Arrive",	ch->pcdata->arrive,	fread_string( fp ) );
+save.c:	    KEY( "Ariv",	ch->pcdata->arrive,	fread_string( fp ) );
+save.c:		ch->pcdata->alias[cur_alias].first = str_dup( fread_word(fp) );
+save.c:		ch->pcdata->alias[cur_alias].second = fread_string( fp );
+save.c:	    KEY( "Bamfin",	ch->pcdata->bamfin,	fread_string( fp ) );
+save.c:	    KEY( "Bamfout",	ch->pcdata->bamfout,	fread_string( fp ) );
+save.c:	    KEY( "Bank",	ch->pcdata->bank,	fread_number( fp ) );
+save.c:	    KEY( "Bin",		ch->pcdata->bamfin,	fread_string( fp ) );
+save.c:	    KEY( "Bout",	ch->pcdata->bamfout,	fread_string( fp ) );
+save.c:	    KEY( "Cast",	ch->pcdata->castle,
+save.c:	  KEY( "ColFlag",	ch->pcdata->color,	fread_number( fp ) );
+save.c:		ch->pcdata->condition[0] = fread_number( fp );
+save.c:		ch->pcdata->condition[1] = fread_number( fp );
+save.c:		ch->pcdata->condition[2] = fread_number( fp );
+save.c:	      ch->pcdata->col_table[idx] = col;
+save.c:	    KEY("Corpses",	ch->pcdata->corpses,	fread_number( fp ) );
+save.c:	    KEY( "Depart",	ch->pcdata->depart,	fread_string( fp ) );
+save.c:	    KEY( "Dprt",	ch->pcdata->depart,	fread_string( fp ) );
+save.c:	    KEY( "Dcount",	ch->pcdata->dcount,	fread_number( fp ) );
+save.c:	    KEY( "Gui",		ch->pcdata->guild,	fread_number( fp ) );
+save.c:		ch->pcdata->perm_hit	= fread_number( fp );
+save.c:		ch->pcdata->perm_mana   = fread_number( fp );
+save.c:		ch->pcdata->perm_move   = fread_number( fp );
+save.c:            KEY( "Ignoring",    ch->pcdata->ignore,     fread_string(fp));
+save.c:	    KEY( "Id",		ch->pcdata->id,		fread_number( fp ) );
+save.c:	    KEY( "Jw_Timer",	ch->pcdata->jw_timer,	fread_number( fp ) );
+save.c:	    KEY( "LastLevel",	ch->pcdata->last_level, fread_number( fp ) );
+save.c:	    KEY( "LLev",	ch->pcdata->last_level, fread_number( fp ) );
+save.c:            KEY( "ListRemorts", ch->pcdata->list_remorts, fread_string( fp ) );
+save.c:	    KEY( "Mounted",     ch->pcdata->mounted,    fread_number( fp ) );
+save.c:            KEY( "NumRemorts",  ch->pcdata->num_remorts, fread_number( fp ) );
+save.c:	      KEY( "On_Quest",    ch->pcdata->on_quest,   fread_number( fp ) );
+save.c:	    KEY( "Password",	ch->pcdata->pwd,	fread_string( fp ) );
+save.c:	    KEY( "Pass",	ch->pcdata->pwd,	fread_string( fp ) );
+save.c:            KEY( "PkRec",       ch->pcdata->pkills_received,fread_long( fp ) );
+save.c:            KEY( "PkGiv",       ch->pcdata->pkills_given,fread_long( fp ) );
+save.c:	    KEY( "Points",	ch->pcdata->points,	fread_number( fp ) );
+save.c:	    KEY( "Pnts",	ch->pcdata->points,	fread_number( fp ) );
+save.c:	    KEY( "Pk_State",	ch->pcdata->pk_state,	fread_number( fp ) );
+save.c:	    KEY( "Psionic",     ch->pcdata->psionic,    fread_number( fp ) );
+save.c:	    KEY( "Quest_Pause", ch->pcdata->quest_pause, fread_number(fp) );
+save.c:		 ch->pcdata->questor[0] = fread_number( fp );
+save.c:		 ch->pcdata->questor[1] = fread_number( fp );
+save.c:		 ch->pcdata->questor[2] = fread_number( fp );
+save.c:		 ch->pcdata->questor[3] = fread_number( fp );
+save.c:		 ch->pcdata->questor[4] = fread_number( fp );
+save.c:		 ch->pcdata->questor[5] = fread_number( fp );
+save.c:		 ch->pcdata->questor[6] = fread_number( fp );
+save.c:		 ch->pcdata->questor[7] = fread_number( fp );
+save.c:		 ch->pcdata->questor[8] = fread_number( fp );
+save.c:		 ch->pcdata->questor[9] = fread_number( fp );
+save.c:		    ch->pcdata->learned[sn] = value;
+save.c:	    KEY( "Trans",	ch->pcdata->trans,	fread_string( fp ) );
+save.c:	    KEY( "TrueSex",     ch->pcdata->true_sex,  	fread_number( fp ) );
+save.c:	    KEY( "TSex",	ch->pcdata->true_sex,   fread_number( fp ) );
+save.c:		ch->pcdata->title = fread_string( fp );
+save.c:		if (ch->pcdata->title[0] != '.' && ch->pcdata->title[0] != ','
+save.c:		&&  ch->pcdata->title[0] != '!' && ch->pcdata->title[0] != '?')
+save.c:		    sprintf( buf, " %s", ch->pcdata->title );
+save.c:		    free_string( ch->pcdata->title );
+save.c:		    ch->pcdata->title = str_dup( buf );
+save.c:    if( ch->pcdata->corpses == 0 )
+save.c:    if( ch->pcdata->corpses >= 5 )
+save.c:    	ch->pcdata->corpses = 1;
+save.c:	++ch->pcdata->corpses;
+skills.c:    && (ch->pcdata->guild != gmdata.guild))
+skills.c:	    if (isgroup && !ch->pcdata->group_known[gn]
+skills.c:            if (!ch->pcdata->learned[sn]
+skills.c:	if (ch->pcdata->points <= 40)
+skills.c:	ch->pcdata->points -= 1;
+skills.c:	ch->exp = exp_per_level(ch,ch->pcdata->points) * ch->level;
+skills.c:	if (ch->pcdata->group_known[gn])
+skills.c:        if (ch->pcdata->learned[sn])
+skills.c:	ch->pcdata->learned[sn] = 1;
+skills.c:	  ch->pcdata->learned[sn] > 0)
+skills.c:	  ch->pcdata->learned[sn] > 0)
+skills.c:					 ch->pcdata->learned[sn]);
+skills.c:	&&  !ch->pcdata->group_known[gn]
+skills.c:	&&  ch->pcdata->learned[sn] == 0
+skills.c:    sprintf(buf,"Creation points: %d\n\r",ch->pcdata->points);
+skills.c:    if(ch->pcdata->guild != GUILD_NONE)
+skills.c:      inc = pc_race_table[ch->race].class_mult2[ch->pcdata->guild];
+skills.c:	    ||  ch->pcdata->group_known[gn])
+skills.c:	    ch->pcdata->points += group_table[gn].rating[ch->class];
+skills.c:	    ||  ch->pcdata->learned[sn] > 0)
+skills.c:	    ch->pcdata->learned[sn] = 1;
+skills.c:	    ch->pcdata->points += skill_table[sn].rating[ch->class];
+skills.c:	    ch->pcdata->points -= group_table[gn].rating[ch->class];
+skills.c:	    ch->pcdata->learned[sn] = 0;
+skills.c:	    ch->pcdata->points -= skill_table[sn].rating[ch->class];
+skills.c:	    if (ch->pcdata->group_known[gn])
+skills.c:        sprintf(buf,"Creation points: %d\n\r",ch->pcdata->points);
+skills.c:    ||  ch->pcdata->learned[sn] == 0
+skills.c:    ||  ch->pcdata->learned[sn] == 100)
+skills.c:	chance = URANGE(5,100 - ch->pcdata->learned[sn], 95);
+skills.c:	    ch->pcdata->learned[sn]++;
+skills.c:	chance = URANGE(5,ch->pcdata->learned[sn]/2,30);
+skills.c:	    ch->pcdata->learned[sn] += number_range(1,3);
+skills.c:	    ch->pcdata->learned[sn] = UMIN(ch->pcdata->learned[sn],100);
+skills.c:    ch->pcdata->group_known[gn] = TRUE;
+skills.c:    ch->pcdata->group_known[gn] = FALSE;
+skills.c:	if (ch->pcdata->learned[sn] == 0) /* i.e. not known */
+skills.c:	    ch->pcdata->learned[sn] = 1;
+skills.c:	   	ch->pcdata->points += skill_table[sn].rating[ch->class]; 
+skills.c:	if (ch->pcdata->group_known[gn] == FALSE)  
+skills.c:	    ch->pcdata->group_known[gn] = TRUE;
+skills.c:		ch->pcdata->points += group_table[gn].rating[ch->class];
+skills.c:	ch->pcdata->learned[sn] = 0;
+skills.c:    if (gn != -1 && ch->pcdata->group_known[gn] == TRUE)
+skills.c:	ch->pcdata->group_known[gn] = FALSE;
+special.c:    ((gg_table[i].guild==GUILD_ANY) || (gg_table[i].guild==ch->pcdata->guild)))
+special.c:    if (ch->pcdata->guild != GUILD_NONE)
+special.c:    ch->pcdata->guild = guild;
+special.c:	if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
+special.c:	if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
+special.c:    if ( (cg_table[i].cmd==cmd) && (cg_table[i].castle==ch->pcdata->castle))
+special.c:	     cg_table[i].castle == victim->pcdata->castle)
+special.c:	if ( !IS_NPC(victim) && victim->pcdata->castle != my_castle
+special.c:	&& victim->pcdata->castle != CASTLE_NONE && !IS_IMMORTAL(victim) )
+special.c:	     cg_table[i].castle == member->pcdata->castle)
+special.c:   xp = hero_xp + 51 * exp_per_level(ch,ch->pcdata->points);
+special.c:	  (cmd != do_listclue) && (ch->pcdata->on_quest) )
+special.c:     if(ch->pcdata->on_quest)
+special.c:      if(!(ch->pcdata->quest_pause < current_time - 7*24*60*60))
+special.c:	long quest_timer = ch->pcdata->quest_pause - (current_time - 7*24*60*60);
+special.c:	ch->pcdata->quest_pause = 0;
+special.c:     free_string(ch->pcdata->title);
+special.c:     ch->pcdata->title = str_dup(" is (HERO QUESTING) <Nochanneled>");
+special.c:     ch->pcdata->on_quest = TRUE;
+special.c:	 if( ch->pcdata->questor[holder_2] == quest_table[assign].quest_item)
+special.c:	 ch->pcdata->questor[holder_1] = quest_table[assign].quest_item;
+special.c:	  if(ch->pcdata->questor[holder_1] > 0)
+special.c:	  if(ch->pcdata->questor[holder_1] == quest_table[holder_2].quest_item)
+special.c:     if(!ch->pcdata->on_quest)
+special.c:       seeker = ch->pcdata->questor[holder_1];
+special.c:	ch->pcdata->questor[holder_1] = 0;
+special.c:	    ch->pcdata->questor[holder_1] = 0;
+special.c:	  ch->pcdata->on_quest = FALSE;
+special.c:	  if(ch->pcdata->questor[holder_1 + 1] == quest_table[holder_2].quest_item)
+special.c:     if(!ch->pcdata->on_quest)
+special.c:	  if(ch->pcdata->questor[holder_1] > 0)
+special.c:     if(ch->pcdata->questor[holder_1] <= 0 )
+special.c:	  if(ch->pcdata->questor[holder_1] == quest_table[holder_2].quest_item)
+special.c:     if(!ch->pcdata->on_quest)
+special.c:	   ch->pcdata->perm_hit -= 20;
+special.c:     ch->pcdata->on_quest = FALSE;
+special.c:     ch->pcdata->quest_pause = current_time;
+special.c:	ch->pcdata->questor[holder_1] = 0;
+special.c:     free_string(ch->pcdata->title);
+special.c:     ch->pcdata->title = str_dup(" has not lived up to the challenge!");
+update.c:    ch->pcdata->last_level =
+update.c:    guild = ch->pcdata->guild;
+update.c:    if (ch->level == LEVEL_HERO3 + ch->pcdata->num_remorts)
+update.c:    if(ch->level == 6 && ch->pcdata->guild == GUILD_NONE)
+update.c:      ch->pcdata->guild = ch->class;
+update.c:    add_hp      = UMAX(  1, add_hp   ) + ch->pcdata->num_remorts;
+update.c:    add_mana    = UMAX(  1, add_mana ) + ch->pcdata->num_remorts;
+update.c:    add_move    = UMAX(  6, add_move ) + ch->pcdata->num_remorts;
+update.c:    ch->pcdata->perm_hit	+= add_hp;
+update.c:    ch->pcdata->perm_mana	+= add_mana;
+update.c:    ch->pcdata->perm_move	+= add_move;
+update.c:    if (ch -> level == LEVEL_HERO3 + ch->pcdata->num_remorts)
+update.c:     ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
+update.c:       if(ch->exp >= exp_per_level(ch,ch->pcdata->points) * 51 + hero_xp)
+update.c:	  exp_per_level(ch,ch->pcdata->points) * (ch->level+1) )
+update.c:	  if(ch->level == chance && ch->pcdata->psionic < 1)
+update.c:	if (number < ch->pcdata->learned[gsn_fast_healing])
+update.c:	if ( ch->pcdata->condition[COND_FULL]   == 0 )
+update.c:	if( ch->pcdata->condition[COND_THIRST] == 0 )
+update.c:	if (number < ch->pcdata->learned[gsn_meditation])
+update.c:	   class_table[ch->pcdata->guild].fMana) ||
+update.c:	   !class_table[ch->pcdata->guild].fMana)))
+update.c:	if(!class_table[ch->pcdata->guild].fMana &&
+update.c:	if ( ch->pcdata->condition[COND_FULL]   == 0 )
+update.c:	if ( ch->pcdata->condition[COND_THIRST] == 0 )
+update.c:	if ( ch->pcdata->condition[COND_FULL]   == 0 )
+update.c:	if ( ch->pcdata->condition[COND_THIRST] == 0 )
+update.c:	if(iCond == 0 && ch->pcdata->condition[iCond] > 0)
+update.c:	  --ch->pcdata->condition[iCond];
+update.c:    condition				= ch->pcdata->condition[iCond];
+update.c:    ch->pcdata->condition[iCond]	= URANGE( 0, condition + value, 48 );
+update.c:    if ( ch->pcdata->condition[iCond] == 0 )
+update.c:		    ch->pcdata->lmb_timer = 30;
+update.c:               if (ch->pcdata->condition[COND_DRUNK] == 25)
+webserver.c:	    switch(wch->pcdata->guild)
+webserver.c:	    wch->pcdata->castle == 0 ? "" : "[",
+webserver.c:	    (wch->pcdata->castle && IS_SET(wch->act,PLR_CASTLEHEAD)) ? "*" : "",
+webserver.c:	    wch->pcdata->castle == 0 ? "" :
+webserver.c:	    get_castlename(wch->pcdata->castle),
+webserver.c:	    wch->pcdata->castle == 0 ? "" : "] ",
+webserver.c:	    IS_NPC(wch) ? "" : wch->pcdata->title );

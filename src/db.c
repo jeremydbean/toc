@@ -461,12 +461,18 @@ void boot_db( void )
         fill_social_table_index();
         log_string("Ended LOADING COMM TABLE");
         fix_exits( );
+	log_string("Ended Fixing Exits");
         fBootDb = FALSE;
         area_update( );
+	log_string("Ended Area Update");
         load_notes( );
+	log_string("Ended Loading Notes");
 	load_ban( );
-	load_wizlist( );
+	log_string("Ended Loading Ban");
+/*	load_wizlist( );
+	log_string("Ended Loading Wizlist");*/
         load_pkills( );
+	log_string("Ended Loading Pkills");
 //	load_relics();  REMOVERELIC
     }
 

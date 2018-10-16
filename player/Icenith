@@ -1,7 +1,7 @@
 #PLAYER
 Name Icenith~
 Id   7280
-LogO 949889852
+LogO 1539636550
 Vers 3
 Desc Standing before you is a man with white hair and fair skin with a bluish tinge to it, he appears to be frost bitten.
 Then he turns to you and says, "Well, as you can see I'm a victem of the Ice dragons wrath."
@@ -18,17 +18,17 @@ Gui  3
 Psionic  1
 Cast none
 Levl 51
-Plyd 667380
+Plyd 668170
 ListRemorts ~
 NumRemorts 0
 Note 949776418
 Scro 22
-Room 4210
-HMV  869 869 234 312 284 325
-NewGold 43
-NewPlat 3110
-NewCopp 184
-NewSilv 76
+Room 29061
+HMV  869 869 276 312 325 325
+NewGold 64
+NewPlat 3115
+NewCopp 236
+NewSilv 112
 Bank 99700
 Dcount 0
 Corpses	0
@@ -37,11 +37,12 @@ PkGiv 0
 QuestPnts 226
 Exp  107681
 Act  200
+AfBy 32768
 Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 0
+Pk_State 1
 Jw_Timer 0
 ColFlag 1
 Color 0 0
@@ -116,7 +117,8 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'warrior guild'
-AffD 'giant strength'  11  22   4   1          0          0
+AffD 'giant strength'   9  10   4   1          0          0
+AffD 'sneak'  33  50   0   0      32768          0
 End
 
 #O
@@ -137,7 +139,7 @@ Lev  35
 Cost 750
 Cond 94
 Repd 0
-Val  0 0 1604 0 0
+Val  0 0 1592 0 0
 End
 
 #O
@@ -317,8 +319,8 @@ Lev  51
 Cost 2000
 Cond 100
 Repd 0
-Affect -1 51 -1 1 14 0 0
 Affect -1 51 -1 -1 14 0 0
+Affect -1 51 -1 1 14 0 0
 End
 
 #O

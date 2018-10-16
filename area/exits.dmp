@@ -1,4 +1,4 @@
-{None } Diku    Limbo     #4     -> { ALL } Drakk   City of Dresden #2484 
+{None } Diku    Limbo     #4     -> { ALL } Soul.   All Hallow's Eve Village #2484 
 { ALL } Graves  Continental Drift #10    -> { 1 20} Copper  Plains of the North #326  
 { ALL } Graves  Continental Drift #14    -> { 5 35} Chris   The Keep of Mahn-Tor #2300 
 { ALL } Graves  Continental Drift #16    -> {10 30} Anon    High Tower of Sorcery #1300 
@@ -42,14 +42,14 @@
 { ALL } Graves  Continental Drift #51    -> { 5 45} Strahd  Crystalmir Lake #13001
 { ALL } Graves  Continental Drift #52    -> { All } Alfa    Ofcol     #5550 
 { ALL } Graves  Continental Drift #52    -> { 1 20} Copper  Plains of the North #313  
-{ ALL } Graves  Continental Drift #53    -> { ALL } Drakk   City of Dresden #2450 
+{ ALL } Graves  Continental Drift #53    -> { ALL } Soul.   All Hallow's Eve Village #2450 
 { ALL } Graves  Continental Drift #53    -> { 2 10} Hatchet The Rats Lair #3801 
 { ALL } Graves  Continental Drift #54    -> {15 25} Anon    Sands of Sorrow #5062 
 { ALL } Graves  Continental Drift #54    -> { 5 35} Andi    The Great Pyramid #28000
 { ALL } Graves  Continental Drift #55    -> { 5 15} Copper  Miden'nir #3526 
 { ALL } Graves  Continental Drift #55    -> { 5 15} Vougon  Gnome Village #1501 
 { ALL } Graves  Continental Drift #56    -> { 5 20} Alfa    Holy Grove #8950 
-{ ALL } Graves  Continental Drift #56    -> { ALL } Drakk   City of Dresden #3906 
+{ ALL } Graves  Continental Drift #56    -> { ALL } Soul.   All Hallow's Eve Village #3906 
 { ALL } Graves  Continental Drift #57    -> {10 35} Anon    New Thalos #9773 
 { ALL } Graves  Continental Drift #57    -> {15 25} Karl    The HighLands #17100
 { ALL } Graves  Continental Drift #58    -> { 5 10} Diku    Haon Dor  #6121 
@@ -70,7 +70,7 @@
 { ALL } Graves  Continental Drift #69    -> {51 70} Elrond  Valhalla  #9900 
 { ALL } Graves  Continental Drift #70    -> {30 55} Unknown The Tombs of Tarin #5689 
 { ALL } Graves  Continental Drift #70    -> { 10+ } Dazed   The Dark Forest #3601 
-{ 1 20} Copper  Plains of the North #300   -> { ALL } Drakk   City of Dresden #3904 
+{ 1 20} Copper  Plains of the North #300   -> { ALL } Soul.   All Hallow's Eve Village #3904 
 { 1 20} Copper  Plains of the North #314   -> { ALL } Graves  Continental Drift #52   
 { 1 20} Copper  Plains of the North #315   -> { ALL } Graves  Continental Drift #61   
 { 1 20} Copper  Plains of the North #323   -> { ALL } Graves  Continental Drift #24   
@@ -79,74 +79,70 @@
 { 1 20} Copper  Plains of the North #335   -> { ALL } Graves  Continental Drift #59   
 { All } Alfa    Ofcol     #695   -> {20 30} Diku    Redferne's Residence #7914 
 {25 52} Lok     Camelot   #701   -> { ALL } Graves  Continental Drift #43   
-{ ALL } KasChel Social Club #800   -> { ALL } Drakk   City of Dresden #2436 
+{ ALL } KasChel Social Club #800   -> { ALL } Soul.   All Hallow's Eve Village #2436 
 { 5 50} Generic Olympus   #901   -> { ALL } Graves  Continental Drift #31   
 {30 44} Morgan  the Upper Argo #1000  -> { ALL } Graves  Continental Drift #45   
 {30 44} Morgan  the Upper Argo #1002  -> { ALL } Graves  Continental Drift #46   
 { 5 35} Poohb   The Shire #1100  -> { ALL } Graves  Continental Drift #38   
 { 5 35} Poohb   The Shire #1127  -> { 5 20} Hatchet Valley of the Elves #7800 
-{ 5 35} Poohb   The Shire #1150  -> { ALL } Drakk   City of Dresden #4207 
+{ 5 35} Poohb   The Shire #1150  -> { ALL } Soul.   All Hallow's Eve Village #4207 
 {10 30} Anon    High Tower of Sorcery #1300  -> { ALL } Graves  Continental Drift #16   
 {10 30} Anon    High Tower of Sorcery #1304  -> { 5 30} Wench   Dragon Tower #2201 
 {10 30} Anon    High Tower of Sorcery #1306  -> {20 30} Doctor  Galaxy    #9301 
+{10 30} Anon    High Tower of Sorcery #1392  -> { 5 30} Diku    Sewer     #7428 
 {10 30} Anon    High Tower of Sorcery #1392  -> {15 25} Drkside Drow City #5113 
 {10 30} Anon    High Tower of Sorcery #1392  -> {15 25} DAWS    Dylan's Area #9141 
-{10 30} Anon    High Tower of Sorcery #1392  -> { 5 30} Diku    Sewer     #7428 
 {10 30} Anon    High Tower of Sorcery #1392  -> { 5 50} Generic Olympus   #938  
-{10 30} Anon    High Tower of Sorcery #1483  -> { ALL } Drakk   City of Dresden #4207 
+{10 30} Anon    High Tower of Sorcery #1483  -> { ALL } Soul.   All Hallow's Eve Village #4207 
 { 5 15} Vougon  Gnome Village #1501  -> { ALL } Graves  Continental Drift #55   
 { 5 15} Vougon  Gnome Village #1522  -> {10 15} Lok     Faerie Ring #24001
 {10 30} Tyrst   Wyvern's Tower #1701  -> {10 25} Drkside Thalos    #5267 
 {10 20} Raff    Dwarven Catacombs #2001  -> {10 25} Anon    Dwarven Kingdom #6524 
 {10 20} Raff    Dwarven Catacombs #2043  -> {10 23} Trin    The Underdark #25175
 {10 20} Raff    Dwarven Catacombs #2065  -> {10 25} Anon    Dwarven Kingdom #6527 
-{ 5 15} Raff    Gangland  #2101  -> { ALL } Drakk   City of Dresden #2445 
+{ 5 15} Raff    Gangland  #2101  -> { ALL } Soul.   All Hallow's Eve Village #2445 
 { 5 30} Wench   Dragon Tower #2201  -> {10 30} Anon    High Tower of Sorcery #1304 
 { 5 35} Chris   The Keep of Mahn-Tor #2300  -> { ALL } Graves  Continental Drift #14   
 { 5 35} Chris   The Keep of Mahn-Tor #2397  -> {10 23} Trin    The Underdark #25185
-{ ALL } Drakk   City of Dresden #2426  -> {None } Diku    Limbo     #2571 
-{ ALL } Drakk   City of Dresden #2430  -> {None } Diku    Limbo     #2562 
-{ ALL } Drakk   City of Dresden #2430  -> {None } Diku    Limbo     #2550 
-{ ALL } Drakk   City of Dresden #2431  -> {None } Diku    Limbo     #2584 
-{ ALL } Drakk   City of Dresden #2432  -> { 5 15} Copper  Miden'nir #3505 
-{ ALL } Drakk   City of Dresden #2436  -> { ALL } KasChel Social Club #800  
-{ ALL } Drakk   City of Dresden #2438  -> {None } Diku    Limbo     #2564 
-{ ALL } Drakk   City of Dresden #2439  -> { 5 10} Diku    Haon Dor  #6000 
-{ ALL } Drakk   City of Dresden #2440  -> { 5 15} Copper  Miden'nir #3503 
-{ ALL } Drakk   City of Dresden #2445  -> { 5 15} Raff    Gangland  #2101 
-{ ALL } Drakk   City of Dresden #2447  -> {None } Diku    Limbo     #2578 
-{ ALL } Drakk   City of Dresden #2450  -> { ALL } Graves  Continental Drift #53   
-{ ALL } Drakk   City of Dresden #2484  -> {None } Diku    Limbo     #4    
-{ ALL } Drakk   City of Dresden #2505  -> { 5 15} PinkF   Mob Factory #9400 
-{ ALL } Drakk   City of Dresden #2506  -> { 5 30} Diku    Sewer     #7030 
-{ ALL } Drakk   City of Dresden #2513  -> { 1 51} Klute   Arena of ole Midgaard  #2628 
-{ ALL } Drakk   City of Dresden #2515  -> {15 25} Anon    Sands of Sorrow #5000 
-{ ALL } Drakk   City of Dresden #2531  -> {10 35} Anon    New Thalos #9772 
-{None } Diku    Limbo     #2550  -> { ALL } Drakk   City of Dresden #2430 
-{None } Diku    Limbo     #2562  -> { ALL } Drakk   City of Dresden #2430 
-{None } Diku    Limbo     #2564  -> { ALL } Drakk   City of Dresden #2438 
-{None } Diku    Limbo     #2571  -> { ALL } Drakk   City of Dresden #2426 
-{None } Diku    Limbo     #2578  -> { ALL } Drakk   City of Dresden #2447 
-{None } Diku    Limbo     #2583  -> { ALL } Drakk   City of Dresden #4700 
-{None } Diku    Limbo     #2584  -> { ALL } Drakk   City of Dresden #2431 
-{ 1 51} Klute   Arena of ole Midgaard  #2628  -> { ALL } Drakk   City of Dresden #2513 
+{ ALL } Soul.   All Hallow's Eve Village #2426  -> {None } Diku    Limbo     #2571 
+{ ALL } Soul.   All Hallow's Eve Village #2430  -> {None } Diku    Limbo     #2562 
+{ ALL } Soul.   All Hallow's Eve Village #2430  -> {None } Diku    Limbo     #2550 
+{ ALL } Soul.   All Hallow's Eve Village #2431  -> {None } Diku    Limbo     #2584 
+{ ALL } Soul.   All Hallow's Eve Village #2432  -> { 5 15} Copper  Miden'nir #3505 
+{ ALL } Soul.   All Hallow's Eve Village #2438  -> {None } Diku    Limbo     #2564 
+{ ALL } Soul.   All Hallow's Eve Village #2439  -> { 5 10} Diku    Haon Dor  #6000 
+{ ALL } Soul.   All Hallow's Eve Village #2440  -> { 5 15} Copper  Miden'nir #3503 
+{ ALL } Soul.   All Hallow's Eve Village #2445  -> { 5 15} Raff    Gangland  #2101 
+{ ALL } Soul.   All Hallow's Eve Village #2447  -> {None } Diku    Limbo     #2578 
+{ ALL } Soul.   All Hallow's Eve Village #2450  -> { ALL } Graves  Continental Drift #53   
+{ ALL } Soul.   All Hallow's Eve Village #2484  -> {None } Diku    Limbo     #4    
+{ ALL } Soul.   All Hallow's Eve Village #2505  -> { 5 15} PinkF   Mob Factory #9400 
+{ ALL } Soul.   All Hallow's Eve Village #2506  -> { 5 30} Diku    Sewer     #7030 
+{ ALL } Soul.   All Hallow's Eve Village #2513  -> { 1 51} Klute   Arena of ole Midgaard  #2628 
+{ ALL } Soul.   All Hallow's Eve Village #2515  -> {15 25} Anon    Sands of Sorrow #5000 
+{ ALL } Soul.   All Hallow's Eve Village #2531  -> {10 35} Anon    New Thalos #9772 
+{None } Diku    Limbo     #2550  -> { ALL } Soul.   All Hallow's Eve Village #2430 
+{None } Diku    Limbo     #2562  -> { ALL } Soul.   All Hallow's Eve Village #2430 
+{None } Diku    Limbo     #2564  -> { ALL } Soul.   All Hallow's Eve Village #2438 
+{None } Diku    Limbo     #2571  -> { ALL } Soul.   All Hallow's Eve Village #2426 
+{None } Diku    Limbo     #2578  -> { ALL } Soul.   All Hallow's Eve Village #2447 
+{None } Diku    Limbo     #2583  -> { ALL } Soul.   All Hallow's Eve Village #4700 
+{None } Diku    Limbo     #2584  -> { ALL } Soul.   All Hallow's Eve Village #2431 
+{ 1 51} Klute   Arena of ole Midgaard  #2628  -> { ALL } Soul.   All Hallow's Eve Village #2513 
 {10 15} Merc    Troll Den #2801  -> { ALL } Graves  Continental Drift #19   
 { 1  5} Hatchet Mud School #3242  -> {51 70} Elrond  Valhalla  #9970 
 { 5 15} Copper  Miden'nir #3502  -> {10 25} Drkside Thalos    #5261 
-{ 5 15} Copper  Miden'nir #3503  -> { 5 50} Flar    The Prison #20100
-{ 5 15} Copper  Miden'nir #3503  -> { ALL } Drakk   City of Dresden #2440 
-{ 5 15} Copper  Miden'nir #3505  -> { ALL } Drakk   City of Dresden #2432 
-{ 5 15} Copper  Miden'nir #3511  -> {10-50} FeaR    The Emerald Forest #20501
+{ 5 15} Copper  Miden'nir #3503  -> { ALL } Soul.   All Hallow's Eve Village #2440 
+{ 5 15} Copper  Miden'nir #3505  -> { ALL } Soul.   All Hallow's Eve Village #2432 
 { 5 15} Copper  Miden'nir #3516  -> { ALL } Graves  Continental Drift #19   
-{ 5 15} Copper  Miden'nir #3522  -> { 15+ } Crane   Azeroth   #28161
 { 5 15} Copper  Miden'nir #3526  -> { ALL } Graves  Continental Drift #38   
 { 5 15} Copper  Miden'nir #3526  -> { ALL } Graves  Continental Drift #55   
 { 5 15} Copper  Miden'nir #3532  -> { ALL } Graves  Continental Drift #42   
 { 5 15} Copper  Miden'nir #3550  -> { ALL } Graves  Continental Drift #18   
 { 10+ } Dazed   The Dark Forest #3601  -> { ALL } Graves  Continental Drift #70   
 { 1  5} Hatchet Mud School #3700  -> { ALL } Graves  Continental Drift #17   
-{ 1  5} Hatchet Mud School #3700  -> { ALL } Drakk   City of Dresden #4207 
-{ 1  5} Hatchet Mud School #3760  -> { ALL } Drakk   City of Dresden #4207 
+{ 1  5} Hatchet Mud School #3700  -> { ALL } Soul.   All Hallow's Eve Village #4207 
+{ 1  5} Hatchet Mud School #3760  -> { ALL } Soul.   All Hallow's Eve Village #4207 
 { 1  5} Hatchet Mud School #3774  -> { 5 15} PinkF   Mob Factory #9400 
 { 1  5} Hatchet Mud School #3775  -> { 5 15} Raff    Gangland  #2101 
 { 1  5} Hatchet Mud School #3776  -> { 5 35} Poohb   The Shire #1103 
@@ -160,16 +156,17 @@
 { 1  5} Hatchet Mud School #3793  -> { 5 35} Strahd  Town Of Solace #13201
 { 1  5} Hatchet Mud School #3795  -> {2 15}  Aten    The Chessboard #24300
 { 2 10} Hatchet The Rats Lair #3801  -> { ALL } Graves  Continental Drift #53   
-{ ALL } Drakk   City of Dresden #3904  -> { 1 20} Copper  Plains of the North #300  
-{ ALL } Drakk   City of Dresden #3906  -> { ALL } Graves  Continental Drift #56   
+{ ALL } Soul.   All Hallow's Eve Village #3904  -> { 1 20} Copper  Plains of the North #300  
+{ ALL } Soul.   All Hallow's Eve Village #3906  -> { ALL } Graves  Continental Drift #56   
 { 5 15} Alfa    Moria     #4000  -> { ALL } Graves  Continental Drift #18   
-{ ALL } Drakk   City of Dresden #4207  -> { 1  5} Hatchet Mud School #3700 
-{ ALL } Drakk   City of Dresden #4700  -> {None } Diku    Limbo     #2583 
-{15 25} Anon    Sands of Sorrow #5000  -> { ALL } Drakk   City of Dresden #2515 
+{ ALL } Soul.   All Hallow's Eve Village #4207  -> { 1  5} Hatchet Mud School #3700 
+{ ALL } Soul.   All Hallow's Eve Village #4700  -> {None } Diku    Limbo     #2583 
+{15 25} Anon    Sands of Sorrow #5000  -> { ALL } Soul.   All Hallow's Eve Village #2515 
 {15 25} Anon    Sands of Sorrow #5011  -> {10 23} Trin    The Underdark #25139
 {15 25} Anon    Sands of Sorrow #5062  -> { ALL } Graves  Continental Drift #54   
 {15 25} Drkside Drow City #5100  -> {10 25} Drkside Thalos    #5270 
 {15 25} Drkside Drow City #5114  -> {10 23} Trin    The Underdark #25164
+{15 25} Drkside Drow City #5143  -> { CAS } Kyrus   Forsaken Clanhall #15475
 {10 25} Drkside Thalos    #5246  -> { ALL } Graves  Continental Drift #26   
 {10 25} Drkside Thalos    #5261  -> { 5 15} Copper  Miden'nir #3502 
 {10 25} Drkside Thalos    #5267  -> { ALL } Graves  Continental Drift #62   
@@ -188,7 +185,7 @@
 { 15+ } Drakk   Ruins of Midgaard #5926  -> { 5 10} Diku    Haon Dor  #6137 
 { 15+ } Drakk   Ruins of Midgaard #5974  -> {10 35} Anon    New Thalos #9772 
 { 15+ } Drakk   Ruins of Midgaard #5979  -> {10 35} Anon    New Thalos #9775 
-{ 5 10} Diku    Haon Dor  #6000  -> { ALL } Drakk   City of Dresden #2439 
+{ 5 10} Diku    Haon Dor  #6000  -> { ALL } Soul.   All Hallow's Eve Village #2439 
 { 5 10} Diku    Haon Dor  #6001  -> { ALL } Graves  Continental Drift #40   
 { 5 10} Diku    Haon Dor  #6003  -> {25 35} Lok     Coven     #24101
 { 5 10} Diku    Haon Dor  #6018  -> { ALL } Graves  Continental Drift #51   
@@ -209,7 +206,7 @@
 {10 25} Anon    Dwarven Kingdom #6524  -> {10 20} Raff    Dwarven Catacombs #2001 
 {10 25} Anon    Dwarven Kingdom #6527  -> {10 20} Raff    Dwarven Catacombs #2065 
 { 1  5} Sandman Dwarven Day Care #6601  -> { ALL } Graves  Continental Drift #44   
-{ 5 30} Diku    Sewer     #7030  -> { ALL } Drakk   City of Dresden #2506 
+{ 5 30} Diku    Sewer     #7030  -> { ALL } Soul.   All Hallow's Eve Village #2506 
 { 5 30} Diku    Sewer     #7101  -> {10 23} Trin    The Underdark #25160
 { 5 30} Diku    Sewer     #7201  -> {10 23} Trin    The Underdark #25171
 {15 35} Andi    The Astral Plane #7500  -> { ALL } Graves  Continental Drift #61   
@@ -224,17 +221,17 @@
 { 5 20} Alfa    Holy Grove #8903  -> { 1 30} Kahn    Old Thalos #5378 
 { 5 20} Alfa    Holy Grove #8950  -> { ALL } Graves  Continental Drift #56   
 {15 25} DAWS    Dylan's Area #9101  -> {20 30} Diku    Redferne's Residence #7900 
-{15 25} DAWS    Dylan's Area #9141  -> { ALL } Drakk   City of Dresden #4207 
+{15 25} DAWS    Dylan's Area #9141  -> { ALL } Soul.   All Hallow's Eve Village #4207 
 { 5 30} Raff    Elemental Canyon #9201  -> { ALL } Graves  Continental Drift #25   
 { 5 30} Raff    Elemental Canyon #9252  -> { ALL } Graves  Continental Drift #28   
 {20 30} Doctor  Galaxy    #9301  -> {10 30} Anon    High Tower of Sorcery #1306 
 {20 30} Doctor  Galaxy    #9330  -> {10 25} Drkside Thalos    #5250 
-{ 5 15} PinkF   Mob Factory #9400  -> { ALL } Drakk   City of Dresden #2505 
+{ 5 15} PinkF   Mob Factory #9400  -> { ALL } Soul.   All Hallow's Eve Village #2505 
 {10 35} Anon    New Thalos #9511  -> { ALL } Graves  Continental Drift #20   
 {10 35} Anon    New Thalos #9594  -> { 5 10} Diku    Haon Dor  #6100 
 {10 35} Anon    New Thalos #9669  -> { ALL } Graves  Continental Drift #42   
 {10 35} Anon    New Thalos #9736  -> {35-50} Eclipse Sea of Serenity #6401 
-{10 35} Anon    New Thalos #9772  -> { ALL } Drakk   City of Dresden #2531 
+{10 35} Anon    New Thalos #9772  -> { ALL } Soul.   All Hallow's Eve Village #2531 
 {10 35} Anon    New Thalos #9773  -> { ALL } Graves  Continental Drift #57   
 {10 35} Anon    New Thalos #9774  -> { 5 10} Diku    Haon Dor  #6123 
 {10 35} Anon    New Thalos #9774  -> {15 25} Generic Old Marsh #8301 
@@ -243,12 +240,12 @@
 {10 35} Anon    New Thalos #9794  -> { ALL } Graves  Continental Drift #41   
 {51 70} Elrond  Valhalla  #9900  -> { ALL } Graves  Continental Drift #69   
 {51 70} Elrond  Valhalla  #9940  -> { 1  5} Hatchet Mud School #3700 
-{51 70} Elrond  Valhalla  #9944  -> { ALL } Drakk   City of Dresden #4208 
+{51 70} Elrond  Valhalla  #9944  -> { ALL } Soul.   All Hallow's Eve Village #4208 
 {51 70} Elrond  Valhalla  #9946  -> { 5 35} Andi    The Great Pyramid #28022
-{51 70} Elrond  Valhalla  #9952  -> { ALL } Drakk   City of Dresden #4208 
-{51 70} Elrond  Valhalla  #9961  -> { ALL } Drakk   City of Dresden #4208 
-{51 70} Elrond  Valhalla  #9966  -> { ALL } Drakk   City of Dresden #4207 
-{51 70} Elrond  Valhalla  #9970  -> { ALL } Drakk   City of Dresden #4208 
+{51 70} Elrond  Valhalla  #9952  -> { ALL } Soul.   All Hallow's Eve Village #4208 
+{51 70} Elrond  Valhalla  #9961  -> { ALL } Soul.   All Hallow's Eve Village #4208 
+{51 70} Elrond  Valhalla  #9966  -> { ALL } Soul.   All Hallow's Eve Village #4207 
+{51 70} Elrond  Valhalla  #9970  -> { ALL } Soul.   All Hallow's Eve Village #4208 
 {25 50}  BB     Tritia    #10200 -> {HERO}  Haze    City Of LUD #29501
 {25 50}  BB     Tritia    #10200 -> { 15+ } Drakk   Ruins of Midgaard #5800 
 {10 25} CAW     Ancalador #11057 -> { ALL } Graves  Continental Drift #58   
@@ -302,7 +299,7 @@
 { 5 50} Haze    Korzath's Fortress #29001 -> { ALL } Graves  Continental Drift #64   
 { 5 50} Haze    Korzath's Fortress #29004 -> {HERO}  Haze    Battleground #29201
 {HERO}  Haze    Battleground #29201 -> { 5 50} Haze    Korzath's Fortress #29004
-{HERO}  Haze    Battleground #29321 -> { ALL } Drakk   City of Dresden #4207 
+{HERO}  Haze    Battleground #29321 -> { ALL } Soul.   All Hallow's Eve Village #4207 
 {10 25} Haze    Voyage Across Sea #29350 -> { ALL } Graves  Continental Drift #41   
 {10 25} Haze    Voyage Across Sea #29381 -> { 15+ } Haze    Mid-World #29410
 {10 25} Haze    Voyage Across Sea #29381 -> { 15+ } Haze    Mid-World #29408

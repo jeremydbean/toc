@@ -1,7 +1,7 @@
 #PLAYER
 Name Tweak~
 Id   9630
-LogO 953510621
+LogO 1539649294
 Vers 3
 Desc 217hp 75m 58end>   
 You feel weaker.
@@ -23,7 +23,7 @@ Gui  0
 Psionic  2
 Cast none
 Levl 51
-Plyd 837035
+Plyd 837054
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -75,7 +75,7 @@ Dam   65
 ACs -126 -121 -125 -20
 Attr 17 15 15 15 19
 AMod 15 0 4 7 -2
-Pass TwQTwocQXspa.~
+Pass Kyz2D/BNiZB8Q~
 Ariv $n $t~
 Dprt $n $t~
 Titl  the freaky little tweaker.~
@@ -155,12 +155,12 @@ Gr 'mage guild'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'detect invis'  44  31   0   0          8          0
-AffD 'giant strength'   9  38   4   1          0          0
-AffD 'fly'   8  44   0   0     524288          0
-AffD 'haste'  10  15   4   2    2097152          0
-AffD 'armor'  67  14 -20  17          0          0
 AffD 'stone skin'  51  41 -40  17          0          0
+AffD 'armor'  67  14 -20  17          0          0
+AffD 'haste'  10  15   4   2    2097152          0
+AffD 'fly'   8  44   0   0     524288          0
+AffD 'giant strength'   9  38   4   1          0          0
+AffD 'detect invis'  44  31   0   0          8          0
 End
 
 #O
@@ -516,8 +516,8 @@ Lev  45
 Cost 834
 Cond 100
 Repd 0
-AffD 'enchant weapon' 36 -1 1 19 0 0
 AffD 'enchant weapon' 36 -1 1 18 0 0
+AffD 'enchant weapon' 36 -1 1 19 0 0
 End
 
 #O

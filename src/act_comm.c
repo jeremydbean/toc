@@ -1301,7 +1301,7 @@ void do_gossip( CHAR_DATA *ch, char *argument )
 	  return;
 
 	}
-    if(ch->level < 2 )
+    if(ch->level < 1 )
     {
       send_to_char("You must be level 2 to use this channel.\n\r",ch);
       return;
@@ -2577,7 +2577,7 @@ void do_save( CHAR_DATA *ch, char *argument )
     if ( IS_NPC(ch) )
 	return;
     
-    if (ch -> level < 3)
+    if (ch -> level < 1)
     {
       send_to_char("You cannot save until you are level 3.\n\r",ch);
       return;

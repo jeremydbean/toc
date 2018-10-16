@@ -1,7 +1,7 @@
 #PLAYER
 Name Digit~
 Id   52200
-LogO 952178420
+LogO 1539639693
 Vers 3
 Desc Digit is dumb, but
 Digit is in excellent condition.
@@ -15,13 +15,13 @@ Gui  3
 Psionic  2
 Cast none
 Levl 54
-Plyd 4376762
+Plyd 4377157
 ListRemorts ~
 NumRemorts 0
 Note 952065612
 Scro 22
-Room 4208
-HMV  1164 1164 406 406 92 92
+Room 2401
+HMV  1158 1164 406 406 92 92
 NewGold 17683
 NewPlat 1
 NewCopp 22
@@ -64,7 +64,7 @@ Save  -6
 Alig  883
 Hit   63
 Dam   76
-ACs -59 -58 -64 8
+ACs -39 -38 -44 28
 Attr 21 18 18 13 18
 AMod 5 6 2 3 1
 Pass Di3rqY62OPk7g~
@@ -121,20 +121,9 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'shield'  26  38 -20  17          0          0
-AffD 'armor'  25   1 -20  17          0          0
-AffD 'bless'  45  35  -6  24          0          0
-AffD 'bless'  47  35   6  18          0          0
-End
-
-#O
-Vnum 3738
-Nest 0
-Wear -1
-Lev  3
-Cost 0
-Cond 100
-Repd 0
+AffD 'bless'  45  28   6  18          0          0
+AffD 'bless'  44  28  -6  24          0          0
+AffD 'shield'  24  31 -20  17          0          0
 End
 
 #O
@@ -146,9 +135,9 @@ Cost 0
 Cond 100
 Repd 0
 Val  0 0 -1 0 0
-Affect -1 25 -1 -10 13 0 0
-Affect -1 25 -1 -1 14 0 0
 Affect -1 25 -1 -1 12 0 0
+Affect -1 25 -1 -1 14 0 0
+Affect -1 25 -1 -10 13 0 0
 End
 
 #O

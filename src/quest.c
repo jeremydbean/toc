@@ -87,6 +87,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
 	    {
 		sprintf(buf, "Your quest is ALMOST complete!\n\rGet back to %s before your time runs out!\n\r",ch->questgiver->short_descr);
 		send_to_char(buf, ch);
+                return;
 	    }
 	    else if (ch->questobj > 0)
 	    {
@@ -95,9 +96,8 @@ void do_quest(CHAR_DATA *ch, char *argument)
 		{
 		    sprintf(buf, "You are on a quest to recover the %s!\n\r",questinfoobj->name);
 		    send_to_char(buf, ch);
+                    return;
 		}
-		else send_to_char("You aren't currently on a quest.\n\r",ch);
-		return;
 	    }
 	    else if (ch->questmob > 0)
 	    {
@@ -106,14 +106,24 @@ void do_quest(CHAR_DATA *ch, char *argument)
 		{
 	            sprintf(buf, "You are on a quest to slay the dreaded %s!\n\r",questinfo->short_descr);
 		    send_to_char(buf, ch);
+                    return;
 		}
-		else send_to_char("You aren't currently on a quest.\n\r",ch);
-		return;
 	    }
 	}
-	else
-	    send_to_char("You aren't currently on a quest.\n\r",ch);
-	return;
+        if (ch->nextquest > 1)
+        {
+           sprintf(buf, "There are %d minutes remaining until you can go on another quest.\n\r",ch->nextquest);
+           send_to_char(buf, ch);
+           return;
+        }
+        else if (ch->nextquest == 1)
+        {
+           sprintf(buf, "There is less than a minute remaining until you can go on another quest.\n\r");
+           send_to_char(buf, ch);
+           return;
+        }
+        send_to_char("You aren't currently on a quest.\n\r",ch);
+        return;
     }
     if (!strcmp(arg1, "points"))
     {
@@ -142,6 +152,16 @@ void do_quest(CHAR_DATA *ch, char *argument)
 	    sprintf(buf, "Time left for current quest: %d\n\r",ch->countdown);
 	    send_to_char(buf, ch);
 	}
+        else 
+        {   if (ch->nextquest > 0)
+            { sprintf(buf, "Time left before you can start a next quest: %d\n\r",ch->nextquest);
+              send_to_char(buf,ch);
+            }
+            else
+            { sprintf(buf,"You can start a new quest if you want.\n\r");
+              send_to_char(buf,ch);
+            }
+        }
 	return;
     }
 
@@ -174,18 +194,35 @@ void do_quest(CHAR_DATA *ch, char *argument)
    very nice items, and no one has one yet, because it takes awhile to
    build up quest points :> Make the item worth their while. */
 
-    if (!strcmp(arg1, "list"))
+/*  commented this section out below, and replaced with quest.c data from 1999 - Forrest */
+/*    if (!strcmp(arg1, "list"))
     {
         act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM); 
 	act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
-	send_to_char("Current Quest Items available for Purchase:\n\r"
-    "Potion of Sanctuary		150qp\n\r"
-	"1-3 Practices:			500qp\n\r"
-	"Potion of Extra Heal		450qp\n\r"
-	"Jug O' Moonshine		450qp\n\r"
-	"level 51 hero!		       7000qp\n\r"
-    "To buy an item, type 'AQUEST BUY <item>'.\n\r", ch);
+	sprintf(buf, "Current Quest Items available for Purchase:\n\r\
+	Potion of Sanctuary		150qp\n\r
+	1-3 Practices:			500qp\n\r
+	Potion of Extra Heal		450qp\n\r
+	Jug O' Moonshine		450qp\n\r
+	level 51 hero! (non remort)     500qp\n\r
+        level 51 hero! (remort)         1000qp\n\r
+To buy an item, type 'AQUEST BUY <item>'.\n\r");
+	send_to_char(buf, ch);
 	return;
+    }*/
+
+    if (!strcmp(arg1, "list"))
+    {
+        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM);
+        act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
+        send_to_char("Current Quest Items available for Purchase:\n\r"
+    "Potion of Sanctuary                150qp\n\r"
+        "1-3 Practices:                 500qp\n\r"
+        "Potion of Extra Heal           450qp\n\r"
+        "Jug O' Moonshine               450qp\n\r"
+        "level 51 hero!                7000qp\n\r"
+    "To buy an item, type 'AQUEST BUY <item>'.\n\r", ch);
+        return;
     }
 
     else if (!strcmp(arg1, "buy"))
@@ -195,16 +232,23 @@ void do_quest(CHAR_DATA *ch, char *argument)
 	    send_to_char("To buy an item, type 'AQUEST BUY <item>'.\n\r",ch);
 	    return;
 	}
+        if (IS_NPC(ch)) 
+           return;
 	if (is_name(arg2, "hero"))
 	{
-	    if( ch->level < 50 ) {
+	    if( ch->level != 50 ) {
 		sprintf(buf,"Sorry %s you need to be level 50 to buy that.",ch->name);
 		do_say( questman,buf );
 	    }
-	    if( ch->level == 50 && ch->questpoints >= 7000)
+	    if (( ch->level == 50 && ch->questpoints >= 500) ||
+                ( (ch->level == 50) && (ch->questpoints >= 1000) && (ch->pcdata->num_remorts >= 1)))
 	    {
-		ch->questpoints -= 7000;
+                if (ch->pcdata->num_remorts >= 1)
+                  ch->questpoints -= 1000;
+		else
+                  ch->questpoints -= 500;
 		ch->level += 1;
+                ch->exp = exp_per_level(ch,ch->pcdata->points) * ch->level;
 	        send_to_char("You raise a level!  ", ch );
 		advance_level(ch,FALSE);
 	    }

@@ -1,7 +1,7 @@
 #PLAYER
 Name RedKnight~
 Id   17487
-LogO 944166053
+LogO 1539637167
 Vers 3
 Desc .                     'X)
 .                      )|
@@ -56,6 +56,7 @@ Desc .                     'X)
 .    (-'  `
 .     `
 ~
+Prom ~
 Ignoring ~
 Race dwarf~
 Sex  2
@@ -64,14 +65,17 @@ Gui  3
 Psionic  2
 Cast none
 Levl 52
-Plyd 1013730
+Plyd 1013736
 ListRemorts ~
 NumRemorts 0
 Note 944155896
 Scro 22
 Room 4208
 HMV  1147 1147 174 174 413 413
-Gold 8137
+NewGold 8137
+NewPlat 0
+NewCopp 0
+NewSilv 0
 Bank 30000
 Dcount 0
 Corpses	0

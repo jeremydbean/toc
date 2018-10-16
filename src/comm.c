@@ -310,6 +310,7 @@ bool                wizlock;            /* Game is wizlocked            */
 bool                newlock;            /* Game is newlocked            */
 char                str_boot_time[MAX_INPUT_LENGTH];
 time_t              current_time;       /* time of this pulse */        
+
 /*int		    mudport; */
 /*
  * OS-dependent local functions.
@@ -431,9 +432,11 @@ int main( int argc, char **argv )
    /* mudport = port; */
     control = init_socket( port );
     boot_db();
+    /*init_web(port+2);*/
     sprintf( log_buf, "TOC is ready to rock on port %d.", port );
     log_string( log_buf );
     game_loop_unix( control );
+   /* shutdown_web();*/
     close (control);
 #endif
 
@@ -610,7 +613,7 @@ void game_loop_mac_msdos( void )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-
+	/*handle_web();*/
 
 
 	/*
@@ -815,7 +818,7 @@ void game_loop_unix( int control )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-
+	/*handle_web();*/
 
 	/*
 	 * Output.
@@ -1342,7 +1345,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
 	/* battle prompt */
 
-	if ( (victim = ch->fighting) != NULL)
+	if ((ch != NULL) && ((victim = ch->fighting) != NULL))
 	{
 	    int percent;
 	    char wound[100];
@@ -1702,7 +1705,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
-        if ( !check_password(argument, ch->pcdata->pwd) )
+	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ))
 	{
 	    if (d->connected == CON_RETRY_PASSWORD)
 	    {
@@ -1718,13 +1721,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	if ( ch->pcdata->pwd[0] == '\0')
-	{
-	    write_to_buffer( d, "Warning! Null password!\n\r",0 );
-	    write_to_buffer( d, "Please report old password with bug.\n\r",0);
-	    write_to_buffer( d,
-		"Type 'password null <new password>' to fix.\n\r",0);
-	}
+	/*if ( ch->pcdata->pwd[0] == '\0')
+	/*{
+	/*    write_to_buffer( d, "Warning! Null password!\n\r",0 );
+	/*    write_to_buffer( d, "Please report old password with bug.\n\r",0);
+	/*    write_to_buffer( d,
+	/*	"Type 'password null <new password>' to fix.\n\r",0);
+	/*}
 
 	write_to_buffer( d, echo_on_str, 0 );
 
@@ -1901,7 +1904,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
-        if ( !check_password(argument, ch->pcdata->pwd) )
+	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ) )
 	{
 	    write_to_buffer( d, "Passwords don't match.\n\rRetype password: ",
 		0 );
@@ -2550,7 +2553,7 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
 	if ( dold != d
 	&&   dold->character != NULL
 	&&   dold->connected != CON_GET_NAME
-	&&   dold->connected != CON_GET_OLD_PASSWORD
+	//&&   dold->connected != CON_GET_OLD_PASSWORD
 	&&   !str_cmp( name, dold->original
 		 ? dold->original->name : dold->character->name ) )
 	{
@@ -3243,14 +3246,218 @@ int gettimeofday( struct timeval *tp, void *tzp )
 }
 #endif
 
-// password check that handles pwd = "" and similar cases correctly
-bool check_password( const char *argument, const char *pwd )
+bool str_prefix_c( const char *astr, const char *bstr )
 {
-    if ( !pwd || !strcmp(pwd, "") )
+    if ( astr == NULL ) {
+        bug( "Strn_cmp: null astr.", 0 );
         return TRUE;
-    if ( !argument )
+    }
+
+    if ( bstr == NULL ) {
+        bug( "Strn_cmp: null bstr.", 0 );
+        return TRUE;
+    }
+
+    for ( ; *astr; astr++, bstr++ ) {
+        if ( *astr != *bstr )
+            return TRUE;
+    }
+
+    return FALSE;
+}
+
+
+bool str_infix_c( const char *astr, const char *bstr )
+{
+    int sstr1;
+    int sstr2;
+    int ichar;
+    char c0;
+
+    if ( ( c0 = astr[0] ) == '\0' )
         return FALSE;
-    const char *encrypted = crypt(argument, pwd);
-    return encrypted && (strcmp(encrypted, pwd) == 0);
+
+    sstr1 = strlen(astr);
+    sstr2 = strlen(bstr);
+
+    for ( ichar = 0; ichar <= sstr2 - sstr1; ichar++ ) {
+        if ( c0 == bstr[ichar] && !str_prefix_c( astr, bstr + ichar ) )
+            return FALSE;
+    }
+
+    return TRUE;
+}
+
+char *str_replace_c( char *astr, char *bstr, char *cstr )
+{
+    char newstr[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+    bool found = FALSE;
+    int sstr1, sstr2;
+    int ichar, jchar;
+    char c0, c1, c2;
+
+    if ( ( ( c0 = astr[0] ) == '\0' )
+        || ( ( c1 = bstr[0] ) == '\0' )
+        || ( ( c2 = cstr[0] ) == '\0' ) )
+        return astr;
+
+    if (str_infix_c(bstr, astr) )
+        return astr;
+
+/* make sure we don't start an infinite loop */
+    if (!str_infix_c(bstr, cstr) )
+        return astr;
+
+    sstr1 = strlen(astr);
+    sstr2 = strlen(bstr);
+    jchar = 0;
+
+    if (sstr1 < sstr2)
+        return astr;
+
+    for ( ichar = 0; ichar <= sstr1 - sstr2; ichar++ ) {
+        if ( c1 == astr[ichar] && !str_prefix_c( bstr, astr + ichar ) ) {
+            found = TRUE;
+            jchar = ichar;
+            ichar = sstr1;
+        }
+    } if (found) {
+        buf[0] = '\0';
+        for ( ichar = 0; ichar < jchar; ichar++ ) {
+            sprintf(newstr, "%c", astr[ichar]);
+            strcat(buf, newstr);
+        }
+        strcat(buf, cstr);
+        for ( ichar = jchar + sstr2; ichar < sstr1; ichar++ ) {
+            sprintf(newstr, "%c", astr[ichar]);
+            strcat(buf, newstr);
+        }
+        sprintf(astr, "%s", str_replace_c(buf, bstr, cstr) );
+        return astr;
+    }
+    return astr;
+}
+
+
+void config_prompt( CHAR_DATA *ch )
+{
+    DESCRIPTOR_DATA *d;
+    char buf[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH];
+    int incl = 0;
+
+    buf[0] = '\0';
+    buf2[0] = '\0';
+
+
+    for(d=descriptor_list;d;d=d->next)
+      if(d->character == ch)
+        break;
+
+    if(!d) {
+      log_string("Canna find descriptor in comm.c,config_prompt");
+      return;
+    }
+
+    sprintf(buf2, "%s", ch->prompt);
+    if (buf2 == NULL || buf2[0] == '\0') {
+        if( IS_IMMORTAL( ch ) && ch->in_room ) {
+            incl++;
+            sprintf( buf, "<Room:%d", ch->in_room->vnum );
+        }
+
+        if (ch->hit < ch->max_hit) {
+            incl++;
+            if (incl == 1)
+                sprintf(buf,"<%dhp", ch->hit);
+            else
+                sprintf(buf,"%s %dhp", buf, ch->hit);
+        }
+
+        if (ch->mana < ch->max_mana) {
+            incl++;
+            if (incl == 1)
+                sprintf(buf,"<%dm", ch->mana);
+            else
+                sprintf(buf,"%s %dm", buf, ch->mana);
+        }
+
+        if (ch->move < ch->max_move) {
+            incl++;
+            if (incl == 1)
+                sprintf(buf,"<%dmv", ch->move);
+            else
+                sprintf(buf,"%s %dmv", buf, ch->move);
+        }
+
+        if (IS_IMMORTAL(ch) && IS_SET(ch->act, PLR_WIZINVIS)) {
+            incl++;
+            if (incl == 1)
+                sprintf(buf,"<(WIZI:%d)", ch->invis_level);
+            else
+                sprintf(buf,"%s (WIZI:%d)", buf, ch->invis_level);
+        }
+
+        sprintf(buf2,"%s> ",buf);
+    } else {
+        sprintf(buf,"%d",ch->hit);
+        str_replace_c(buf2, "%h", buf);
+
+        sprintf(buf,"%d",ch->max_hit);
+        str_replace_c(buf2, "%H", buf);
+
+        sprintf(buf,"%d",ch->mana);
+        str_replace_c(buf2, "%m", buf);
+
+        sprintf(buf,"%d",ch->max_mana);
+        str_replace_c(buf2, "%M", buf);
+
+        sprintf(buf,"%d",ch->move);
+        str_replace_c(buf2, "%v", buf);
+
+        sprintf(buf,"%d",ch->max_move);
+        str_replace_c(buf2, "%V", buf);
+
+        sprintf(buf,"%ld",ch->exp);
+        str_replace_c(buf2, "%x", buf);
+
+        if (!IS_NPC(ch) && (ch->level < 54) )
+            sprintf(buf,"%ld", next_xp_level(ch)-ch->exp);
+        else
+            sprintf(buf,"none");
+        str_replace_c(buf2, "%X", buf);
+
+        sprintf(buf,"%ld",query_gold(ch));
+        str_replace_c(buf2, "%g", buf);
+
+        sprintf(buf,"%d",ch->alignment);
+        str_replace_c(buf2, "%a", buf);
+
+        if( IS_IMMORTAL( ch ) && ch->in_room )
+            sprintf( buf, "%d", ch->in_room->vnum );
+        else
+            sprintf( buf, " " );
+        str_replace_c(buf2, "%R", buf);
+
+        if( IS_IMMORTAL( ch ) && ch->in_room )
+            sprintf( buf, "%s", ch->in_room->area->name );
+        else
+            sprintf( buf, " " );
+        str_replace_c(buf2, "%z", buf);
+
+        if( IS_IMMORTAL( ch ) && IS_SET(ch->act, PLR_WIZINVIS) )
+            sprintf( buf, " (WIZI:%d)", ch->invis_level);
+        else
+            sprintf( buf, " ");
+        str_replace_c(buf2, "%W", buf);
+    }
+
+   if(IS_SET(ch->act,PLR_AFK))
+        send_to_char("You're AFK! ",ch);
+   else
+        send_to_char( buf2, ch );
+
+   return;
 }
 
