@@ -24,6 +24,8 @@ RASPBERRY PI PREREQUIREMENTS:
 
 
 COPYING OVER TOC FROM GITHUB:
+- Open terminal
+- cd ~/
 - sudo git clone http://www.github.com/jeremydbean/ToC.git
 - sudo git config credential.helper store
 - sudo git pull
