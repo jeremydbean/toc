@@ -52,8 +52,8 @@ TESTING THE MUD:
 WAYS TO MAKE MUD OPEN EASILY:
 - sudo nano ~/.bashrc
 - Add the following lines to the bottom
-	cd /home/pi/ToC/area
-	./startup &
+	- cd /home/pi/ToC/area
+	- ./startup &
 - Ctrl + X, Y, ENTER
 - Every time you open a terminal window, you will be in the areas directory, and the MUD will attempt to start if not already running.
 
