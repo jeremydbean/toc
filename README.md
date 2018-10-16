@@ -12,7 +12,12 @@ CURRENT REPORTED BUGS:
 
 Raspberry Pi:
 
+- sudo apt update
+- sudo apt upgrade
+- sudo apt install csh
+- sudo apt-get install build-essential
+
 - sudo git clone http://www.github.com/jeremydbean/ToC.git
 - sudo git config credential.helper store
-- sudo git pull
-- sudo git push
+	- sudo git pull
+	- sudo git push
