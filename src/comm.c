@@ -309,7 +309,7 @@ bool                merc_down;          /* Shutdown                     */
 bool                wizlock;            /* Game is wizlocked            */
 bool                newlock;            /* Game is newlocked            */
 char                str_boot_time[MAX_INPUT_LENGTH];
-time_t              current_time;       /* time of this pulse */        
+time_t              current_time;       /* time of this pulse */
 
 /*int		    mudport; */
 /*
@@ -344,7 +344,7 @@ void    nanny                   args( ( DESCRIPTOR_DATA *d, char *argument ) );
 bool    process_output          args( ( DESCRIPTOR_DATA *d, bool fPrompt ) );
 void    read_from_buffer        args( ( DESCRIPTOR_DATA *d ) );
 void    stop_idling             args( ( CHAR_DATA *ch ) );
-void    config_prompt           args( ( CHAR_DATA *ch ) ); 
+void    config_prompt           args( ( CHAR_DATA *ch ) );
 
 int port;
 #if defined(unix)
@@ -1267,7 +1267,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 
 	if ( d->inbuf[i] == '\b' && k > 0 )
 	    --k;
-	else if ( isascii(d->inbuf[i]) && isprint(d->inbuf[i]) 
+	else if ( isascii(d->inbuf[i]) && isprint(d->inbuf[i])
 		&& (d->inbuf[i] != '\\' || d->inbuf[i+1] != ';') )
 	    d->incomm[k++] = d->inbuf[i];
     }
@@ -1314,7 +1314,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     /*
      * Shift the input buffer.
      */
-    while ( d->inbuf[i] == '\n' || d->inbuf[i] == '\r' || 
+    while ( d->inbuf[i] == '\n' || d->inbuf[i] == '\r' ||
 	    ( d->inbuf[i] == ';' && d->inbuf[i>0?i-1:0] != '\\') )
 	i++;
     for ( j = 0; ( d->inbuf[j] = d->inbuf[i+j] ) != '\0'; j++ )
@@ -1575,7 +1575,7 @@ bool write_to_descriptor( int desc, char *txt, int length )
 	nBlock = UMIN( length - iStart, 4096 );
 	if ( ( nWrite = write( desc, txt + iStart, nBlock ) ) < 0 )
 	    { perror( "Write_to_descriptor" ); return FALSE; }
-    } 
+    }
 
     return TRUE;
 }
@@ -1683,7 +1683,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		close_socket( d );
 		return;
 	    }
-	    if ( (!str_suffix("goodnet.com",d->host))) 
+	    if ( (!str_suffix("goodnet.com",d->host)))
 	    {
 		write_to_buffer(d,
 "Your site can no longer create new characters on this mud.\n\r", 0);
@@ -1691,7 +1691,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		return;
 	    }
 
-	
+
 	    sprintf( buf, "Did I get that right, %s (Y/N)? ", argument );
 	    write_to_buffer( d, buf, 0 );
 	    d->connected = CON_CONFIRM_NEW_NAME;
@@ -1721,13 +1721,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	/*if ( ch->pcdata->pwd[0] == '\0')
-	/*{
-	/*    write_to_buffer( d, "Warning! Null password!\n\r",0 );
-	/*    write_to_buffer( d, "Please report old password with bug.\n\r",0);
-	/*    write_to_buffer( d,
-	/*	"Type 'password null <new password>' to fix.\n\r",0);
-	/*}
+	if ( ch->pcdata->pwd[0] == '\0')
+	{
+	    write_to_buffer( d, "Warning! Null password!\n\r",0 );
+	    write_to_buffer( d, "Please report old password with bug.\n\r",0);
+	    write_to_buffer( d,
+		"Type 'password null <new password>' to fix.\n\r",0);
+	}
 
 	write_to_buffer( d, echo_on_str, 0 );
 
@@ -2256,7 +2256,7 @@ case CON_GET_ALIGNMENT:
         if (IS_SET(ch->act,PLR_SWEDISH) && !IS_IMMORTAL(ch)) {
            REMOVE_BIT(ch->act,PLR_SWEDISH);
         }
-        
+
         if (IS_SET(ch->act,PLR_QFLAG)) {
            REMOVE_BIT(ch->act,PLR_QFLAG);
         }
@@ -2267,7 +2267,7 @@ case CON_GET_ALIGNMENT:
 	    log_string(log_buf);
 	    ch->pcdata->pk_state = 1;
 	}
-	  
+
 	break;
     }
 
@@ -2574,7 +2574,7 @@ void stop_idling( CHAR_DATA *ch )
     if ( ch == NULL
     ||   ch->desc == NULL
     ||   ch->desc->connected != CON_PLAYING
-    ||   ch->was_in_room == NULL 
+    ||   ch->was_in_room == NULL
     ||   ch->in_room != get_room_index(ROOM_VNUM_LIMBO))
 	return;
 
@@ -2668,7 +2668,7 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
 {
     if ( txt == NULL || ch->desc == NULL)
 	return;
-	
+
 #if defined(macintosh) || defined(MSDOS)
 	send_to_char(txt,ch);
 #else
@@ -2733,7 +2733,7 @@ void show_string(struct descriptor_data *d, char *input)
     }
     return;
 }
-	
+
 
 /* quick sex fixer */
 void fix_sex(CHAR_DATA *ch)
@@ -2804,7 +2804,7 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
 	    continue;
 	if ( type == TO_NOTVICT && (to == ch || to == vch) )
 	    continue;
- 
+
 	point   = buf;
 	str     = format;
 	while ( *str != '\0' )
@@ -2838,7 +2838,7 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
 		case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
 		case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
 		case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
- 
+
 		case 'p':
 		    i = can_see_obj( to, obj1 )
 			    ? obj1->short_descr
@@ -2850,7 +2850,7 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
 			    ? obj2->short_descr
 			    : "something";
 		    break;
- 
+
 		case 'd':
 		    if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
 		    {
@@ -2968,7 +2968,7 @@ void act_public( const char *format, CHAR_DATA *ch, const void *arg1,
 	    continue;
 	if ( type == TO_NOTVICT && (to == ch || to == vch) )
 	    continue;
- 
+
 	point   = buf;
 	str     = format;
 	while ( *str != '\0' )
@@ -3002,7 +3002,7 @@ void act_public( const char *format, CHAR_DATA *ch, const void *arg1,
 		case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
 		case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
 		case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
- 
+
 		case 'p':
 		    i = can_see_obj( to, obj1 )
 			    ? obj1->short_descr
@@ -3014,7 +3014,7 @@ void act_public( const char *format, CHAR_DATA *ch, const void *arg1,
 			    ? obj2->short_descr
 			    : "something";
 		    break;
- 
+
 		case 'd':
 		    if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
 		    {
@@ -3093,7 +3093,7 @@ char *drunk_speak( const char *str )
 	  *cp2 = UPPER(*cp2);
 	else
 	  *cp2 = LOWER(*cp2);
-    }      
+    }
 
     return buf;
 }
@@ -3460,4 +3460,3 @@ void config_prompt( CHAR_DATA *ch )
 
    return;
 }
-
