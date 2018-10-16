@@ -1651,7 +1651,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		    default            :
 		 if (wch->class != CLASS_MONK
 		    && wch->class != CLASS_NECRO)
-					 guild = "    ";	break;
+				guild = "    ";	break;
 		    case GUILD_MAGE    : guild = "/M  ";	break;
 		    case GUILD_CLERIC  : guild = "/C  ";	break;
 		    case GUILD_THIEF   : guild = "/T  ";	break;
@@ -1981,16 +1981,14 @@ void do_equipment( CHAR_DATA *ch, char *argument )
 	 send_to_char("<secondary weapon>  ",ch);
        }
        else
-	send_to_char( where_name[iWear], ch );
+	      send_to_char( where_name[iWear], ch );
 
 	if ( can_see_obj( ch, obj ) )
 	{
-	    send_to_char( format_obj_to_char( obj, ch, TRUE ), ch );
-	    send_to_char( "\n\r", ch );
-	}
-	else
-	{
-	    send_to_char( "something.\n\r", ch );
+    send_to_char( format_obj_to_char( obj, ch, TRUE ), ch );
+    send_to_char( "\n\r", ch );
+    else
+        send_to_char( "something.\n\r", ch );
 	}
 	found = TRUE;
     }
@@ -2648,10 +2646,11 @@ void do_teachlist(CHAR_DATA *ch, char *argument)
            continue;
         if (gmdata.can_teach[0] == NULL)
            continue;
+        {
         sprintf(buf, "At guildmaster %s:\n\r",
-                     pMobIndex->short_descr);
+        pMobIndex->short_descr);
         send_to_char(buf,ch);
-
+        }
         for (i = 0; i < MAX_TEACH; i++)
         {
             if (gmdata.can_teach[i] == NULL)
