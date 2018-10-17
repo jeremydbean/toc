@@ -1,4 +1,4 @@
-Please see the WIKI for building documents.
+Please see the WIKI for building documents and Raspberry Pi install info.
 
 CURRENT REPORTED BUGS:
 	
@@ -9,58 +9,3 @@ CURRENT REPORTED BUGS:
 
 
 
-
-
-
-RASPBERRY PI PREREQUIREMENTS:
-
-
-- sudo apt install csh
-- sudo apt-get install build-essential
-- sudo apt-get install telnet
-- sudo apt update
-- sudo apt upgrade
-
-
-
-COPYING OVER TOC FROM GITHUB:
-- Open terminal
-- cd ~/
-- sudo git clone http://www.github.com/jeremydbean/ToC.git
-- sudo git config credential.helper store
-- sudo git pull
-	[Login is your GitHub account: username is email.)
-	
-- Should only be prompted once for login and password due to credential.helper
-
-
-
-
-STARTING THE MUD:
-- sudo chown -R pi:pi ToC
-- sudo chmod -R 755 ToC
-- cd ToC
-- cd src
-- rm *.o
-- make
-- cp merc ../area
-- cd ../area
-- ./merc 9000 &
-
-	
-	
-TESTING THE MUD:
-- telnet localhost 9000
-
-
-WAYS TO MAKE MUD OPEN EASILY:
-- sudo nano ~/.bashrc
-- Add the following line to the bottom
-	- cd /home/pi/ToC/area
-- Ctrl + X, Y, ENTER
-- Every time you open a terminal window, you will be in the areas directory.
-- Simply type ./merc 9000 &  (or, hit the "Up" key and it's usually the last command used), and hit ENTER.
-
-OTHER COMMANDS:
-- ps ux : views all running processes.  First number listed after pi is the 'Process ID'  last line is the description.  The MUD is: 	- './merc 9000'
-- If you need to force kill the MUD, use 'ps ux' to find the process ID for './merc 9000', then do 'kill <number>'
