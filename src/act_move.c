@@ -379,35 +379,35 @@ void do_look( CHAR_DATA *ch, char *argument )
                 if (obj->item_type == ITEM_MONEY) {
                   switch(obj->value[1]) {
                     case TYPE_PLATINUM:
-                      if (obj->value[0] == 1) 
+                      if (obj->value[0] == 1)
                         sprintf(buf,"A platinum coin.\n\r");
                       else if (obj->value[0] < 10)
                         sprintf(buf,"A pile of %d platinum coins.\n\r",obj->value[0]);
-                      else      
+                      else
                         sprintf(buf,"A heap of %d platinum coins.\n\r",obj->value[0]);
                       break;
                     case TYPE_GOLD:
-                      if (obj->value[0] == 1) 
+                      if (obj->value[0] == 1)
                         sprintf(buf,"A gold coin.\n\r");
                       else if (obj->value[0] < 10)
                         sprintf(buf,"A pile of %d gold coins.\n\r",obj->value[0]);
-                      else      
+                      else
                         sprintf(buf,"A heap of %d gold coins.\n\r",obj->value[0]);
                       break;
                     case TYPE_SILVER:
-                      if (obj->value[0] == 1) 
+                      if (obj->value[0] == 1)
                         sprintf(buf,"A silver coin.\n\r");
                       else if (obj->value[0] < 10)
                         sprintf(buf,"A pile of %d silver coins.\n\r",obj->value[0]);
-                      else      
+                      else
                         sprintf(buf,"A heap of %d silver coins.\n\r",obj->value[0]);
                       break;
                     case TYPE_COPPER:
-                      if (obj->value[0] == 1) 
+                      if (obj->value[0] == 1)
                         sprintf(buf,"A copper coin.\n\r");
                       else if (obj->value[0] < 10)
                         sprintf(buf,"A pile of %d copper coins.\n\r",obj->value[0]);
-                      else      
+                      else
                         sprintf(buf,"A heap of %d copper coins.\n\r",obj->value[0]);
                       break;
                     default:
@@ -537,12 +537,12 @@ void move_char( CHAR_DATA *ch, int door, bool skip_special_check )
     if (ch->in_room == NULL) {
       if (IS_NPC(ch)) {
         char buf[1000];
-        sprintf(buf,"Mob %s has no in_room",ch->name);        
+        sprintf(buf,"Mob %s has no in_room",ch->name);
         log_string(buf);
         log_string("MOB going to limbo");
         char_to_room(ch, get_room_index( 9992 ) );
         return;
-        
+
       }
       else {
         send_to_char("Sorry, bug occured that shouldn't happen. Transporting you.\n\r",ch);
@@ -615,8 +615,8 @@ void move_char( CHAR_DATA *ch, int door, bool skip_special_check )
     }
 
     if ( IS_SET(pexit->exit_info, EX_CLOSED)
-    &&   !IS_AFFECTED(ch, AFF_PASS_DOOR) 
-    &&   !IS_AFFECTED2(ch, AFF2_GHOST) ) 
+    &&   !IS_AFFECTED(ch, AFF_PASS_DOOR)
+    &&   !IS_AFFECTED2(ch, AFF2_GHOST) )
     {
 	if ( runner == 1 )
 	  {
@@ -816,13 +816,13 @@ void move_char( CHAR_DATA *ch, int door, bool skip_special_check )
 
 	if(runner == 1)    /* check for agro when run, Eclipse */
 	  {
-	    if( !IS_NPC(ch) && IS_NPC(fch) && 
-                !IS_AFFECTED2(ch, AFF2_GHOST) && 
+	    if( !IS_NPC(ch) && IS_NPC(fch) &&
+                !IS_AFFECTED2(ch, AFF2_GHOST) &&
                 IS_SET(fch->act,ACT_AGGRESSIVE) )
 		 {
 		   if ( ch->level < LEVEL_IMMORTAL
 		   &&   fch->level >= ch->level - 7
-		   &&   can_see( fch, ch ) 
+		   &&   can_see( fch, ch )
 		   &&   fch->fighting == NULL)
 			 if(number_percent () >= 25)
 			   {
@@ -1024,7 +1024,7 @@ void do_run( CHAR_DATA *ch, char *argument )
           {
             runner = 0;
             break;
-          }  
+          }
 
 	switch( door )
 	{
@@ -1092,7 +1092,7 @@ int find_door( CHAR_DATA *ch, char *arg )
 	int number;
 
 	number = number_argument(arg, arg2);
-	if (number == 0) 
+	if (number == 0)
 	    number = 1;
 
 	for ( door = 0; door <= 9; door++ )
@@ -1965,7 +1965,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
        affect_strip(ch, gsn_stealth);
 
     if( ( chance = get_skill(ch,gsn_phase) ) > 1 && number_percent() < chance)
-    {  
+    {
    	SET_BIT(ch->affected_by2, AFF2_STEALTH);
 	check_improve( ch, gsn_phase,TRUE,1);
     }
@@ -2050,7 +2050,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
     {
 	check_improve(ch,gsn_sneak,TRUE,3);
 	af.type      = gsn_sneak;
-	af.level     = ch->level; 
+	af.level     = ch->level;
 	af.duration  = ch->level;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
@@ -2284,7 +2284,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
         send_to_char( "Not while you're in battletick mode.\n\r", ch );
         return;
     }
- 
+
 /* Crash bug fix - Rico 7/19/98 */
     if(!IS_NPC(ch) && ch->pcdata->mounted)
       do_dismount(ch,"");
@@ -2503,15 +2503,15 @@ void do_train( CHAR_DATA *ch, char *argument )
     else
     {
 	strcpy( buf, "You can train:" );
-	if ( ch->perm_stat[STAT_STR] < get_max_train(ch,STAT_STR)) 
+	if ( ch->perm_stat[STAT_STR] < get_max_train(ch,STAT_STR))
 	    strcat( buf, " str" );
-	if ( ch->perm_stat[STAT_INT] < get_max_train(ch,STAT_INT))  
+	if ( ch->perm_stat[STAT_INT] < get_max_train(ch,STAT_INT))
 	    strcat( buf, " int" );
-	if ( ch->perm_stat[STAT_WIS] < get_max_train(ch,STAT_WIS)) 
+	if ( ch->perm_stat[STAT_WIS] < get_max_train(ch,STAT_WIS))
 	    strcat( buf, " wis" );
-	if ( ch->perm_stat[STAT_DEX] < get_max_train(ch,STAT_DEX))  
+	if ( ch->perm_stat[STAT_DEX] < get_max_train(ch,STAT_DEX))
 	    strcat( buf, " dex" );
-	if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))  
+	if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))
 	    strcat( buf, " con" );
 	strcat( buf, " hp mana");
 
@@ -2543,7 +2543,7 @@ void do_train( CHAR_DATA *ch, char *argument )
        	    send_to_char( "You don't have enough training sessions.\n\r", ch );
 	    return;
         }
- 
+
 	ch->train -= cost;
         ch->pcdata->perm_hit += 10;
         ch->max_hit += 10;
@@ -2552,7 +2552,7 @@ void do_train( CHAR_DATA *ch, char *argument )
         act( "$n's durability increases!",ch,NULL,NULL,TO_ROOM);
         return;
     }
- 
+
     if (!str_cmp("mana",argument))
     {
         if ( cost > ch->train )
@@ -2591,7 +2591,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 }
 
 /* added by Eclipse */
-void 
+void
 
 do_shove( CHAR_DATA *ch, char *argument )
 {
@@ -3782,7 +3782,7 @@ void do_stealth( CHAR_DATA *ch, char *argument )
 	check_improve(ch,gsn_stealth,TRUE,4);
 	af.type      = gsn_stealth;
 	af.level     = ch->level;
-	af.duration  = 3;
+	af.duration  = 12;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
 	af.bitvector = 0;
@@ -3833,7 +3833,3 @@ void do_levitate( CHAR_DATA *ch, char *argument )
     act( "$n's feet rise up off the ground.", ch, NULL, NULL, TO_ROOM );
     return;
 }
-
-
-
-
