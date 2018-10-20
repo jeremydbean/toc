@@ -81,13 +81,17 @@ channels) until you reach level 2.
 tell <name> <...> - Tell is another channel for private conversations
 between 2 people.
 
+color - You can enable color by typing color on, and color default.
+see help color for more information.
+
 Mud School
 ==========
 
 New players should go through Mud School to learn the basics of mudding.
 When you first enter ToC, your character is placed at the Entrance to Mud
 School. Read the descriptions carefully as many instructions are shown in
-room descriptions.
+room descriptions.  Be sure to continue to the end to receive your MUD
+school diploma!  Wearing it will give you a boost to your leveling stats!
 
 To move in any direction, simply type the first letter.
 
@@ -191,7 +195,7 @@ Gravestone        |  __/) )-      | |__>--<__|     |      CHAOS!
 Soulcrusher       / /  ,_/       / /__>---<__/     |
 Blackbird	 o-o _//        /--_>---<__--   _ /  May your stay here be...
 Ungrim		 (^(-          /-_>---<__-    /      Interesting...
-Killuminati	 ( '))          |__>--<__|    /
+Killuminati( '))          |__>--<__|    /
 	    ' )) (            \__>--<__\    \
 	,/,'//( (              --<__>--<--   \
       ,( ( ((, ))               --_->--<Tzu_/
@@ -200,10 +204,10 @@ Killuminati	 ( '))          |__>--<__|    /
 Welcome and Enjoy your Stay! Your Implementors are: Soulcrusher, Blackbird,
 Eclipse and Ungrim, we can be found at soul@kersur.net, armavirum@wxs.nl,
 belial@starlink.com and protaeseus@eudoramail.com.
-Times of Chaos (ToC) 2018 is being re-hosted at ToC.jeremybean.com:9000 by
-Killuminati, whom you can reach at j@jeremybean.com.
-This mud is based on Dragons Legends and Lore (ROM 2.3).
+Times of Chaos (2018) is being maintained & hosted at ToC.jeremybean.com:9000
+by Killuminati, whom you can reach at j@jeremybean.com.
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This mud is based on Dragons Legends and Lore (ROM 2.3).
 DikuMUD (C) 1990-1991 by Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael
 Seifert, and Sebastian Hammer. Merc 2.1 (C) 1992-1993 by Michael Chastain,
 Michael Quan and Mitchell Tse. ROM 2.3 by Hatchet, Furey, Kahn, Russ Taylor,
@@ -214,10 +218,12 @@ By what name art thou known? ~
 
 -1 MOTD~
 
-
-**************************************************************************
+--------------------------------------------------------------------------
 With the help of Ricochet and the persistence of Soulcrusher, ToC is back!
-**************************************************************************
+
+                                                -Killuminati (Oct 2018)
+--------------------------------------------------------------------------
+
 HELP NEWS for further information.
 
 * For new players type:
