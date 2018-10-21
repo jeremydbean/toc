@@ -551,7 +551,12 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 	bug( "Obj_cast_spell: bad target for sn %d.", sn );
 	return;
 
-
+  case TAR_IGNORE:
+	if(sn == skill_lookup("vengence") )
+	    vo = (void *) victim;
+	else
+	  vo = NULL;
+	break;
 
     case TAR_CHAR_OFFENSIVE:
 	if ( victim == NULL )
