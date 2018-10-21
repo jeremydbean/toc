@@ -2164,11 +2164,6 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
-		if( ch->pcdata->pkills_received == 813)
-			{
-		 do_check_psi(ch, "");
-			}
-
 	}
 	else if ( IS_IMMORTAL(ch) )
 	{
@@ -2316,7 +2311,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   int chance;
   int add;
 
-  if(ch->pcdata->pkills_received == 813)
+  if(ch->level >= 52 )
     chance = 100;
   else
     chance = number_percent( );
