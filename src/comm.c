@@ -2164,7 +2164,7 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
-		if( ch->pcdata->pkills_received == 813)
+		if( ch->played == 813)
 			{
 		 do_check_psi(ch, "");
 			}
@@ -2316,7 +2316,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   int chance;
   int add;
 
-  if(ch->pcdata->pkills_received == 813)
+  if(ch->played == 813)
     chance = 100;
   else
     chance = number_percent( );
