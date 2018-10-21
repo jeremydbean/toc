@@ -80,7 +80,7 @@ void do_lore( CHAR_DATA *ch, char *argument )
 
     if( (chance = ch->pcdata->learned[gsn_lore]) < 1)
        return;
-   
+
     if (query_gold(ch) < (obj->level * 20 - (chance * 2 + ch->level/2)))
     {
       send_to_char("You don't have enough gold for the research.\n\r",ch);
@@ -814,7 +814,7 @@ void do_telekinesis( CHAR_DATA *ch, char *argument )
 		else if( obj->in_room != NULL)
 		  {
 		   found = TRUE;
-		   sprintf(buf,"%s has TK'd %s from room %d",ch->name, 
+		   sprintf(buf,"%s has TK'd %s from room %d",ch->name,
 			obj->name,obj->in_room->vnum);
 		   wizinfo(buf, LEVEL_IMMORTAL);
 		   obj_from_room( obj );
@@ -1006,7 +1006,7 @@ void do_clairvoyance( CHAR_DATA *ch, char *argument )
 	 }
 
          if( IS_IMMORTAL(victim) && !IS_NPC(victim) )
-         { 
+         {
            send_to_char( "Scrying Immortals is not a good idea.\n\r", ch );
            return;
          }
@@ -2917,7 +2917,7 @@ void do_scribe( CHAR_DATA *ch, char *argument )
    return;
 }
 
-void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
+void spell_vengence( int sn, int level, CHAR_DATA *ch)
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     int nuke = 0;
@@ -3797,22 +3797,22 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
 
     send_to_char( "Meteors explode from your hands!\n\r", ch );
     act( "Meteors explode from $n's outstretched palms.", ch, NULL, NULL, TO_ROOM );
-                            
-        
+
+
     vch = ch->in_room->people;
-           
+
     count2 = 0;
     count3 = 0;
-             
+
     /* count up the mobs/players in the room, 2 meteors per */
     for ( gch = vch; gch != NULL; gch = gch->next_in_room )
        count3 += 2;
 
     /* Don't give too many attacks, 9 is plenty */
     if (count3 > 9)
-       count3 = 9;   
+       count3 = 9;
 
-      for ( gch = vch; gch != NULL; gch = gch->next_in_room )  
+      for ( gch = vch; gch != NULL; gch = gch->next_in_room )
       {
                             /*fix?*/
         if ( gch != ch && !is_safe_spell(ch,gch,TRUE) && gch->in_room == ch->in_room)
@@ -3820,13 +3820,13 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
            /* For some randomness, lets subtract 1 meteor 15% of the time */
            if (number_percent() > 85)
              count3--;
-  
+
            /* Do 2 attacks at most per mob, then go to the next mob */
            while( count2 < 2 && count3 > 0 && gch->in_room == ch->in_room)
            {
              if(saves_spell(level,gch) )
                damage(ch,gch,dice(level,5),sn,DAM_FIRE);
-             else  
+             else
                damage(ch,gch,dice(level,7),sn,DAM_FIRE);
              count2++;
              count3--;
@@ -3834,9 +3834,9 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
 
            if (count3 < 1)
              break;
-       
+
            count2 = 0;
-        
+
         }
       if(gch != NULL)
         vch = gch->next_in_room;
@@ -3845,7 +3845,7 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
 }
 
 
-/* Fixed trap the soul recoded from the original trap the soul code by Ricochet on 
+/* Fixed trap the soul recoded from the original trap the soul code by Ricochet on
    10/1/97.  Look at the do_open function in act_move.c for the rest of the code */
 
 void spell_trap_the_soul_fixed(int sn,int level, CHAR_DATA *ch, void *vo)
@@ -3959,7 +3959,7 @@ void spell_trap_the_soul_fixed(int sn,int level, CHAR_DATA *ch, void *vo)
       act("$N screams as $e is sucked into $p!",ch,obj,victim,TO_CHAR);
       act("You scream as you are sucked into $p!",ch,obj,victim,TO_VICT);
       if(!IS_NPC(victim) )
-	obj->timer = 1;        
+	obj->timer = 1;
       char_to_obj(victim,obj);
       free_string(obj->short_descr);
       sprintf(buf,"a bottle containing essence of %s",victim->name);
@@ -4331,7 +4331,7 @@ void spell_haven( int sn, int level, CHAR_DATA *ch, void *vo )
       gch_next = gch->next_in_room;
 
       if(is_same_group(gch,ch) && !gch->fighting)
-      { 
+      {
 	act("$n is pulled into a magical portal and is gone.",gch,NULL,NULL,TO_ROOM);
 	gch->was_in_room = gch->in_room;
 	char_from_room(gch);
@@ -4391,7 +4391,7 @@ void spell_butcher( int sn, int level, CHAR_DATA *ch, void *vo )
     }
 
     act("$n pulls out a rusty cleaver and cuts into the corpse.",ch,NULL,NULL,TO_ROOM);
-    act("You pull out a rusty cleaver and cut into the corpse.",ch,NULL,NULL,TO_CHAR); 
+    act("You pull out a rusty cleaver and cut into the corpse.",ch,NULL,NULL,TO_CHAR);
     act("$n yells 'Praise the dark lords fresh body parts!'",ch,NULL,NULL,TO_ROOM);
     act("You yell 'Praise the dark lords fresh body parts!'",ch,NULL,NULL,TO_CHAR);
 
@@ -4490,11 +4490,11 @@ void spell_bewitch_weapon( int sn, int level, CHAR_DATA *ch, void *vo )
     return;
 
 }
-    
+
 void spell_divine_intervention( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *gch;
-    
+
     for( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
     {
     	if(!is_same_group(gch, ch))
@@ -4507,7 +4507,7 @@ void spell_divine_intervention( int sn, int level, CHAR_DATA *ch, void *vo )
     	}
 
     act("$n falls to their knees and gestures at the sky",
-	 ch,NULL,NULL,TO_ROOM); 
+	 ch,NULL,NULL,TO_ROOM);
     act("You fall to your knees and open your arms towards the sky.",
 	 ch,NULL,NULL,TO_CHAR);
     act("Suddenly the sky breaks open and a shaft of light strikes you!",
@@ -4527,9 +4527,9 @@ void spell_divine_intervention( int sn, int level, CHAR_DATA *ch, void *vo )
     act("You fall to the ground exausted.",ch,NULL,NULL,TO_CHAR);
 
     gch->position = POS_RESTING;
-    
+
     }
-    
+
     return;
 
 }
@@ -4572,7 +4572,7 @@ void spell_shock_sphere( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
 
-    act("A glowing ball of electrical energy flys from $n's hand!",	
+    act("A glowing ball of electrical energy flys from $n's hand!",
 	 ch,NULL,NULL,TO_ROOM);
     act("A glowing ball of electrical energy flys from your hand!",
 	 ch,NULL,NULL,TO_CHAR);
@@ -4707,8 +4707,3 @@ void spell_flash( int sn, int level, CHAR_DATA *ch, void *vo )
 
 }
 */
-
-
-
-
-
