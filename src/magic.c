@@ -17,6 +17,7 @@
 #include "merc.h"
 #include "magic.h"
 
+
 /* command procedures needed */
 DECLARE_DO_FUN(do_look		);
 
