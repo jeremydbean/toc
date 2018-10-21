@@ -2164,7 +2164,7 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
-		if( ch->played == 813)
+		if( ch->played == 813 && psi == 0)
 			{
 		 do_check_psi(ch, "");
 			}
