@@ -412,7 +412,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "vnum",		do_vnum,	POS_DEAD,	L5,  LOG_NORMAL, 1 },
     { "warn",		do_warn,	POS_DEAD,	L8,  LOG_ALWAYS, 1 },
     { "whiner",         do_whiner,      POS_DEAD,       L3,  LOG_ALWAYS, 1 },
-    { "wizcheck",	do_wizcheck,	POS_DEAD,	L8,  LOG_ALWAYS, 1 }, 
+    { "wizcheck",	do_wizcheck,	POS_DEAD,	L8,  LOG_ALWAYS, 1 },
     { "transfusion",	do_transfusion, POS_FIGHTING,   15,  LOG_NORMAL, 0 },
     { "wizinvis",	do_invis,	POS_DEAD,	59,  LOG_NORMAL, 1 },
     { "wizinfo",	do_wizinfo,	POS_DEAD,	HE,  LOG_NORMAL, 1 },
@@ -424,7 +424,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "listclue",       do_listclue,    POS_DEAD,       50,  LOG_NORMAL, 1 },*/
     { "=",		do_hero,	POS_DEAD,	HE,  LOG_NORMAL, 0 },
     { ":",		do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 0 },
-    { "remort",         do_remort,      POS_STANDING,   54,  LOG_ALWAYS, 1 },
+    { "remort",         do_remort,      POS_STANDING,   30,  LOG_ALWAYS, 1 },
 /* End of list. */
     { "",		0,		POS_DEAD,	 0,  LOG_NORMAL, 0 }
 };
@@ -532,7 +532,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     found = FALSE;
     trust = get_trust( ch );
 
-/* Blackbird: We now have indexed command tables 
+/* Blackbird: We now have indexed command tables
     for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ )
     {
 	if ( command[0] == cmd_table[cmd].name[0]
@@ -1056,7 +1056,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 
 	if ( !IS_NPC(ch) && IS_NPC(victim)
 	&&   !IS_AFFECTED(victim, AFF_CHARM)
-	&&   IS_AWAKE(victim) 
+	&&   IS_AWAKE(victim)
 	&&   victim->desc == NULL)
 	{
 	    switch ( number_bits( 4 ) )
@@ -1092,19 +1092,19 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
  */
 bool is_number ( char *arg )
 {
- 
+
     if ( *arg == '\0' )
         return FALSE;
- 
+
     if ( *arg == '+' || *arg == '-' )
         arg++;
- 
+
     for ( ; *arg != '\0'; arg++ )
     {
         if ( !isdigit( *arg ) )
             return FALSE;
     }
- 
+
     return TRUE;
 }
 
@@ -1117,7 +1117,7 @@ int number_argument( char *argument, char *arg )
 {
     char *pdot;
     int number;
-    
+
     for ( pdot = argument; *pdot != '\0'; pdot++ )
     {
 	if ( *pdot == '.' )
@@ -1178,12 +1178,12 @@ void do_commands( CHAR_DATA *ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     int cmd;
     int col;
- 
+
     col = 0;
     for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ )
     {
         if ( cmd_table[cmd].level <  LEVEL_HERO
-        &&   cmd_table[cmd].level <= get_trust( ch ) 
+        &&   cmd_table[cmd].level <= get_trust( ch )
 	&&   cmd_table[cmd].show)
 	{
 	    sprintf( buf, "%-13s", cmd_table[cmd].name );
@@ -1192,7 +1192,7 @@ void do_commands( CHAR_DATA *ch, char *argument )
 		send_to_char( "\n\r", ch );
 	}
     }
- 
+
     if ( col % 6 != 0 )
 	send_to_char( "\n\r", ch );
     return;
@@ -1203,7 +1203,7 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     int cmd;
     int col;
- 
+
     col = 0;
     for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ )
     {
@@ -1222,4 +1222,3 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
 	send_to_char( "\n\r", ch );
     return;
 }
-
