@@ -4110,13 +4110,13 @@ void do_remort( CHAR_DATA *ch, char *arg)
    }
 
 
-   if (ch->level != LEVEL_HERO3 + ch->pcdata->num_remorts) {
-     send_to_char("You are not yet ready to remort.\n\r",ch);
-     sprintf(buf,"You cannot remort until reaching level %d.\n\r",
-             LEVEL_HERO3 + ch->pcdata->num_remorts);
-     send_to_char(buf,ch);
-     return;
-   }
+   //if (ch->level != LEVEL_HERO3 + ch->pcdata->num_remorts) {
+    // send_to_char("You are not yet ready to remort.\n\r",ch);
+     //sprintf(buf,"You cannot remort until reaching level %d.\n\r",
+    //         LEVEL_HERO3 + ch->pcdata->num_remorts);
+     //send_to_char(buf,ch);
+     //return;
+   //}
    if (ch->pcdata->num_remorts >= 5) {
      send_to_char("You are not allowed to remort anymore.\n\r",ch);
      return;
