@@ -1,10 +1,10 @@
 #PLAYER
 Name Kycleric~
 Id   24160
-LogO 1539653945
+LogO 1540067334
 Vers 3
 Prom ~
-Ignoring  ~
+Ignoring ~
 Race dwarf~
 Sex  1
 Cla  3
@@ -12,13 +12,13 @@ Gui  1
 Psionic  0
 Cast none
 Levl 6
-Plyd 472
+Plyd 484
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 3700
-HMV  63 101 129 136 145 147
+Room 4207
+HMV  63 101 129 136 72 147
 NewGold 0
 NewPlat 0
 NewCopp 130
@@ -105,20 +105,20 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'cleric guild'
-AffD 'giant strength'   0  63   4   1          0          0
-AffD 'frenzy'   0  16 110  17          0          0
-AffD 'frenzy'   0  16  11  19          0          0
-AffD 'frenzy'   0  16  11  18          0          0
-AffD 'shield'   0  71 -20  17          0          0
-AffD 'armor'   0  17 -20  17          0          0
-AffD 'fly'   0  66   0   0     524288          0
-AffD 'aid'   0  17  14  13          0          0
-AffD 'aid'   0  17   7  18          0          0
-AffD 'divine protection'   0   3   0   0          0       4096
-AffD 'bless'   0  69  -8  24          0          0
-AffD 'bless'   0  69   8  18          0          0
-AffD 'haste'   0  10   4   2    2097152          0
 AffD 'sanctuary'   0   4   0   0        128          0
+AffD 'haste'   0  10   4   2    2097152          0
+AffD 'bless'   0  69   8  18          0          0
+AffD 'bless'   0  69  -8  24          0          0
+AffD 'divine protection'   0   3   0   0          0       4096
+AffD 'aid'   0  17   7  18          0          0
+AffD 'aid'   0  17  14  13          0          0
+AffD 'fly'   0  66   0   0     524288          0
+AffD 'armor'   0  17 -20  17          0          0
+AffD 'shield'   0  71 -20  17          0          0
+AffD 'frenzy'   0  16  11  18          0          0
+AffD 'frenzy'   0  16  11  19          0          0
+AffD 'frenzy'   0  16 110  17          0          0
+AffD 'giant strength'   0  63   4   1          0          0
 End
 
 #O
@@ -215,8 +215,8 @@ Cost 10
 Cond 100
 Repd 0
 Val  4 4 4 0 0
-Affect -1 1 -1 -1 12 0 0
 Affect -1 1 -1 8 14 0 0
+Affect -1 1 -1 -1 12 0 0
 End
 
 #O

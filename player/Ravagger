@@ -1,8 +1,9 @@
 #PLAYER
 Name Ravagger~
 Id   56640
-LogO 1539641774
+LogO 1540157744
 Vers 3
+Prom ~
 Ignoring ~
 Race human~
 Sex  1
@@ -11,19 +12,25 @@ Gui  4
 Psionic  0
 Cast none
 Levl 3
-Plyd 3647
+Plyd 4546
+ListRemorts ~
+NumRemorts 0
 Note 0
 Scro 22
-Room 2497
+Room 3241
 HMV  65 65 108 108 112 112
-Gold 947
+NewGold 944
+NewPlat 0
+NewCopp 0
+NewSilv 0
 Bank 0
 Dcount 0
 Corpses	0
+PkRec 0
+PkGiv 0
 Exp  7242
 Act  65788
-AfBy 2621568
-AfBy2 4096
+AfBy 524288
 Comm 24608
 Mounted 0
 On_Quest 0
@@ -53,16 +60,17 @@ Prac 5
 Save  -9
 Alig  15
 Hit   17
+Dam   2
 ACs 55 55 55 59
 Attr 13 13 13 18 16
-AMod 4 0 0 4 0
+AMod 4 0 0 0 0
 Pass Ra3XtuPcLkBmc~
 Titl  the Seeker of Mystery~
 Pnts 40
 TSex 1
-LLev 0
+LLev 1
 HMVP 44 108 112
-Cond 0 13 40
+Cond 0 0 36
 Sk 8 'axe'
 Sk 32 'dagger'
 Sk 6 'flail'
@@ -81,17 +89,14 @@ Sk 75 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'aid'  70  18  21  13          0          0
-AffD 'aid'  68  18   7  18          0          0
-AffD 'divine protection'  69   4   0   0          0       4096
-AffD 'haste'  69  11   4   2    2097152          0
-AffD 'sanctuary'  69   4   0   0        128          0
-AffD 'armor'  58  17 -20  17          0          0
-AffD 'bless'  57  34   8  18          0          0
-AffD 'bless'  58  34  -8  24          0          0
-AffD 'fly'  63  31   0   0     524288          0
-AffD 'shield'  56  36 -20  17          0          0
-AffD 'giant strength'  67  28   4   1          0          0
+AffD 'aid'  69   3  21  13          0          0
+AffD 'aid'  66   3   7  18          0          0
+AffD 'armor'  57   2 -20  17          0          0
+AffD 'bless'  55  19   8  18          0          0
+AffD 'bless'  53  19  -8  24          0          0
+AffD 'fly'  57  16   0   0     524288          0
+AffD 'shield'  55  21 -20  17          0          0
+AffD 'giant strength'  63  13   4   1          0          0
 End
 
 #O
@@ -99,7 +104,9 @@ Vnum 3716
 Nest 0
 Wear 0
 Cost 0
-Val  0 0 143 0 0
+Cond 100
+Repd 0
+Val  0 0 128 0 0
 End
 
 #O
@@ -107,6 +114,8 @@ Vnum 3703
 Nest 0
 Wear 5
 Cost 0
+Cond 100
+Repd 0
 End
 
 #O
@@ -114,6 +123,8 @@ Vnum 3704
 Nest 0
 Wear 11
 Cost 0
+Cond 100
+Repd 0
 End
 
 #O
@@ -121,6 +132,8 @@ Vnum 3701
 Nest 0
 Wear 16
 Cost 0
+Cond 100
+Repd 0
 End
 
 #O
@@ -128,6 +141,8 @@ Vnum 3162
 Nest 0
 Wear -1
 Cost 500
+Cond 100
+Repd 0
 End
 
 #O
@@ -136,6 +151,8 @@ Nest 0
 Wear -1
 Lev  10
 Cost 80
+Cond 100
+Repd 0
 End
 
 #O
@@ -143,6 +160,38 @@ Vnum 3009
 Nest 0
 Wear -1
 Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
 End
 
 #END

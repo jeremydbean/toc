@@ -1,7 +1,7 @@
 #PLAYER
 Name Monitor~
 Id   57754
-LogO 1539668176
+LogO 1540165476
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,15 +12,16 @@ Gui  2
 Psionic  1
 Cast none
 Levl 70
-Plyd 366026
+Tru  70
+Plyd 398242
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 29498
+Room 1
 HMV  9950 9950 9975 9975 10000 10000
-NewGold 3000
-NewPlat 0
+NewGold 1
+NewPlat 180
 NewCopp 0
 NewSilv 0
 Bank 0
@@ -477,6 +478,45 @@ Spell 3 'fire shield'
 End
 
 #O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
 Vnum 20301
 Nest 0
 Wear -1
@@ -517,6 +557,28 @@ Lev  51
 Cost 5000
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  10
+Cost 1075
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  10
+Cost 1044
+Cond 100
+Repd 0
+Val  4 5 5 0 0
 End
 
 #END

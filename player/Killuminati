@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1539697422
+LogO 1540168477
 Vers 3
 ShD  Chubby Nutz ~
 LnD  Pooptastic
@@ -18,15 +18,15 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 552056
+Plyd 693038
 ListRemorts ~
 NumRemorts 0
 Note 995701290
 Scro 22
-Room 4208
-HMV  10583 10583 5295 10495 504 504
-NewGold 20582
-NewPlat 0
+Room 2484
+HMV  10583 10583 2255 10495 504 504
+NewGold 12826
+NewPlat 10000
 NewCopp 0
 NewSilv 0
 Bank 0
@@ -47,7 +47,7 @@ Jw_Timer 0
 ColFlag 1
 Color 0 0
 Color 1 8
-Color 2 5
+Color 2 13
 Color 3 14
 Color 4 11
 Color 5 3
@@ -718,107 +718,58 @@ Repd 0
 End
 
 #O
-Vnum 20301
+Vnum 8713
 Nest 0
 Wear -1
-Lev  1
-Cost 100
+Lev  10
+Cost 1144
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Val  5 5 5 0 0
 End
 
 #O
-Vnum 20301
+Vnum 8713
 Nest 0
 Wear -1
-Lev  1
-Cost 100
+Lev  10
+Cost 1250
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Val  5 6 6 0 0
 End
 
 #O
-Vnum 20301
+Vnum 8713
 Nest 0
 Wear -1
-Lev  1
-Cost 100
+Lev  10
+Cost 1250
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Val  5 6 5 0 0
 End
 
 #O
-Vnum 20301
+Vnum 8713
 Nest 0
 Wear -1
-Lev  1
-Cost 100
+Lev  10
+Cost 1219
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Val  5 5 5 0 0
 End
 
 #O
-Vnum 20301
+Vnum 8713
 Nest 0
 Wear -1
-Lev  1
-Cost 100
+Lev  10
+Cost 1250
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 0
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 0
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 0
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Val  5 6 4 0 0
 End
 
 #END

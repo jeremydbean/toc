@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyleric~
 Id   35944
-LogO 1539697236
+LogO 1540093571
 Vers 3
 Prom ~
 Ignoring ~
@@ -9,34 +9,34 @@ Race dwarf~
 Sex  1
 Cla  3
 Gui  1
-Psionic  0
+Psionic  2
 Cast none
-Levl 16
-Plyd 10373
+Levl 29
+Plyd 69679
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 13282
-HMV  201 242 216 223 184 190
-NewGold 15
-NewPlat 4
-NewCopp 252
-NewSilv 31
-Bank 0
+Room 4207
+HMV  289 381 92 352 188 318
+NewGold 533
+NewPlat 1715
+NewCopp 1780
+NewSilv 1312
+Bank 1119
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  36462
-Act  65740
-AfBy 2622080
+Exp  67271
+Act  1078001868
+AfBy 524800
 Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 0
-Jw_Timer 0
+Pk_State 1
+Jw_Timer 1539993387
 ColFlag 1
 Color 0 0
 Color 1 8
@@ -56,111 +56,82 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 8
-Trai 14
-Save  -1
+Prac 17
+Trai 15
+Save  -4
 Alig  -1000
-Hit   23
-Dam   10
-ACs 18 14 8 55
+Hit   13
+Dam   16
+ACs 1 -7 -6 65
 Attr 17 13 12 12 15
-AMod 4 10 10 4 11
+AMod 6 6 10 1 11
 Pass KywXdZywU5G42~
-Titl  the Lieutenant~
+Titl  the Underlord~
 Pnts 40
 TSex 1
-LLev 2
-HMVP 211 213 190
-Cond 0 0 0
+LLev 17
+HMVP 381 352 268
+Cond 0 13 23
 Alias k kick~
-Alias cc cast 'cure serious'~
+Alias cc cast 'cure critical'~
 Alias bl cast bless~
+Alias 0 gos Gratz!~
+Alias mc cast 'mana convert'~
+Alias goto cast gate~
+Alias chat gossip~
+Alias pa cast pass~
+Sk 73 'aid'
 Sk 25 'armor'
-Sk 21 'bless'
+Sk 69 'bless'
+Sk 1 'calm'
 Sk 1 'cause light'
-Sk 1 'cure critical'
+Sk 85 'cure critical'
 Sk 21 'cure light'
 Sk 22 'cure serious'
-Sk 1 'detect evil'
-Sk 1 'detect good'
+Sk 25 'detect evil'
+Sk 25 'detect good'
 Sk 1 'flamestrike'
+Sk 73 'fly'
+Sk 74 'gate'
 Sk 1 'heal'
+Sk 1 'holy word'
 Sk 1 'identify'
+Sk 73 'mana convert'
+Sk 73 'pass door'
 Sk 25 'refresh'
+Sk 1 'remove curse'
 Sk 1 'spiritual hammer'
-Sk 30 'axe'
-Sk 30 'dagger'
+Sk 73 'summon'
+Sk 1 'teleport'
+Sk 44 'axe'
+Sk 62 'dagger'
 Sk 25 'flail'
-Sk 25 'mace'
+Sk 94 'mace'
 Sk 35 'polearm'
-Sk 25 'shield block'
+Sk 41 'shield block'
 Sk 30 'spear'
-Sk 89 'sword'
+Sk 100 'sword'
 Sk 30 'whip'
 Sk 1 'bash'
 Sk 1 'disarm'
-Sk 49 'dodge'
-Sk 27 'kick'
-Sk 34 'parry'
+Sk 83 'dodge'
+Sk 48 'kick'
+Sk 80 'parry'
 Sk 13 'rescue'
-Sk 22 'second attack'
+Sk 51 'second attack'
 Sk 1 'scrolls'
-Sk 1 'staves'
-Sk 80 'recall'
+Sk 17 'staves'
+Sk 83 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'cleric guild'
+Gr 'guild benedictions'
 Gr 'guild healing'
-AffD 'armor'   0  22 -20  17          0          0
-AffD 'aid'   0  22  28  13          0          0
-AffD 'aid'   0  22   7  18          0          0
-AffD 'sanctuary'  17   2   0   0        128          0
-AffD 'bless'   0  31  -8  24          0          0
-AffD 'bless'   0  31   8  18          0          0
-AffD 'giant strength'   0  16   4   1          0          0
-AffD 'shield'   0  24 -20  17          0          0
-AffD 'fly'   0  19   0   0     524288          0
-AffD 'haste'   0   6   4   2    2097152          0
-End
-
-#O
-Vnum 3716
-Nest 0
-Wear 0
-Cost 1
-Cond 95
-Repd 0
-Val  0 0 49 0 0
-Affect -1 0 -1 -7 13 0 0
-End
-
-#O
-Vnum 3716
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-Val  0 0 188 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-Wear 5
-Cost 0
-Cond 96
-Repd 0
-End
-
-#O
-Vnum 3162
-Nest 0
-Wear -1
-Cost 500
-Cond 100
-Repd 0
+Gr 'guild transportation'
+AffD 'shield'   0  28 -20  17          0          0
+AffD 'giant strength'   0  11   4   1          0          0
+AffD 'fly'   9  14   0   0     524288          0
 End
 
 #O
@@ -169,47 +140,9 @@ Nest 0
 Wear 11
 Lev  1
 Cost 10
-Cond 97
+Cond 81
 Repd 0
 Val  3 3 3 0 0
-End
-
-#O
-Vnum 3738
-Nest 0
-Wear 16
-Lev  3
-Cost 10
-Cond 99
-Repd 0
-End
-
-#O
-Vnum 3706
-Nest 0
-Wear 6
-Cost 0
-Cond 91
-Repd 0
-Affect -1 0 -1 3 23 0 0
-End
-
-#O
-Vnum 3711
-Nest 0
-Wear -1
-Cost 0
-Cond 94
-Repd 0
-End
-
-#O
-Vnum 3708
-Nest 0
-Wear 8
-Cost 0
-Cond 97
-Repd 0
 End
 
 #O
@@ -217,72 +150,7 @@ Vnum 3715
 Nest 0
 Wear 17
 Cost 0
-Cond 96
-Repd 0
-End
-
-#O
-Vnum 3504
-Nest 0
-Wear 15
-Lev  7
-Cost 400
-Cond 89
-Repd 0
-End
-
-#O
-Vnum 3504
-Nest 0
-Wear 14
-Lev  7
-Cost 400
-Cond 90
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
-Cond 100
+Cond 77
 Repd 0
 End
 
@@ -292,17 +160,7 @@ Nest 0
 Wear 2
 Lev  7
 Cost 441
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
+Cond 84
 Repd 0
 End
 
@@ -312,8 +170,50 @@ Nest 0
 Wear 1
 Lev  7
 Cost 441
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 3023
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
 Cond 100
 Repd 0
+Affect -1 22 -1 -4 3 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  13
+Cost 1250
+Cond 97
+Repd 0
+Val  17 17 17 0 0
 End
 
 #O
@@ -323,414 +223,146 @@ Name newbie pack~
 ShD  A *NEWBIE* pack!~
 Desc A *NEWBIE* pack lies here.~
 Wt   1
-Wear 12
+Wear -1
 Lev  1
 Cost 500
-Cond 98
+Cond 85
 Repd 0
 End
 
 #O
-Vnum 20301
+Vnum 3715
 Nest 1
 Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 20301
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
-End
-
-#O
-Vnum 5780
-Nest 1
-Wear -1
-Lev  1
-Cost 1500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3081
-Nest 1
-Wear -1
-Lev  1
-Cost 10000
-Cond 100
-Repd 0
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3081
-Nest 1
-Wear -1
-Lev  1
-Cost 10000
-Cond 100
-Repd 0
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 4639
-Nest 1
-Wear -1
-Lev  1
-Cost 20000
-Cond 100
-Repd 0
-Spell 1 'heal'
-Spell 2 'heal'
-Spell 3 'heal'
-End
-
-#O
-Vnum 4639
-Nest 1
-Wear -1
-Lev  1
-Cost 20000
-Cond 100
-Repd 0
-Spell 1 'heal'
-Spell 2 'heal'
-Spell 3 'heal'
-End
-
-#O
-Vnum 3605
-Nest 1
-Wear -1
-Lev  1
-Cost 1000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3605
-Nest 1
-Wear -1
-Lev  1
-Cost 1000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9224
-Nest 1
-Wear -1
-Lev  1
-Cost 729
-Cond 100
-Repd 0
-Val  150 138 0 0 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 12
-Nest 1
-ShD  the head of Kyrus~
-Desc The severed head of Kyrus is lying here.~
-ExtF 16777216
-Wear -1
-Lev  1
 Cost 0
-Cond 25
-Repd 0
-End
-
-#O
-Vnum 15011
-Nest 1
-Wear -1
-Lev  1
-Cost 200
 Cond 100
 Repd 0
-Val  3 4 2 0 0
 End
 
 #O
-Vnum 29009
+Vnum 1395
 Nest 1
 Wear -1
-Lev  1
-Cost 100
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  8 6 7 0 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  7 8 8 0 0
+Affect -1 22 -1 2 24 0 0
+End
+
+#O
+Vnum 9321
+Nest 1
+Wear -1
+Lev  25
+Cost 1750
 Cond 100
 Repd 0
 Val  0 0 -1 0 0
+Affect -1 25 -1 2 20 0 0
 End
 
 #O
-Vnum 5003
-Nest 1
-Wear -1
-Lev  1
-Cost 250
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 29085
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 104
-Nest 1
-Wear -1
-Lev  1
-Cost 25
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5776
-Nest 1
-Wear -1
-Lev  1
-Cost 4000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 29085
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5003
-Nest 1
-Wear -1
-Lev  1
-Cost 250
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 104
-Nest 1
-Wear -1
-Lev  1
-Cost 25
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 29008
-Nest 1
-Wear -1
-Lev  1
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10022
+Vnum 7623
 Nest 0
-Wear 4
-Lev  10
-Cost 280
+Wear 8
+Lev  25
+Cost 150
 Cond 100
 Repd 0
-Val  5 4 5 0 0
 End
 
 #O
-Vnum 10022
+Vnum 3020
 Nest 0
-Wear 3
-Lev  10
-Cost 280
-Cond 100
-Repd 0
-Val  4 5 5 0 0
-Affect -1 10 -1 -2 1 0 0
-End
-
-#O
-Vnum 29006
-Nest 0
-Wear 10
-Lev  3
+Wear -1
+Lev  5
 Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 15
+Lev  7
+Cost 400
+Cond 83
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 81
+Repd 0
+End
+
+#O
+Vnum 10030
+Nest 0
+Wear 5
+Lev  23
+Cost 210
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Affect -1 0 -1 -11 12 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 96 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear -1
+Lev  30
+Cost 500
 Cond 100
 Repd 0
 End
 
 #O
-Vnum 29007
+Vnum 10042
 Nest 0
-Wear 7
-Lev  3
-Cost 100
+Wear 16
+Lev  23
+Cost 1300
 Cond 100
 Repd 0
-Affect -1 3 -1 5 24 0 0
 End
 
 #END

@@ -1,7 +1,7 @@
 #PLAYER
 Name Junky~
 Id   1281
-LogO 1539636722
+LogO 1540065011
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  4
 Psionic  2
 Cast none
 Levl 34
-Plyd 272303
+Plyd 272445
 ListRemorts ~
 NumRemorts 0
 Note 949776418
 Scro 22
 Room 4209
-HMV  52 560 313 313 238 348
+HMV  86 560 313 313 306 348
 NewGold 2
 NewPlat 3096
 NewCopp 1
@@ -73,7 +73,7 @@ Pnts 40
 TSex 2
 LLev 64
 HMVP 555 268 298
-Cond 0 5 27
+Cond 0 3 25
 Alias cong level Congratulations~
 Alias lev levitate~
 Sk 8 'axe'
@@ -254,7 +254,7 @@ Vnum 7190
 Nest 0
 Wear 1
 Lev  3
-Time 922
+Time 920
 Cost 2000
 Cond 100
 Repd 0

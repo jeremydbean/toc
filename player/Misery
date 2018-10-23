@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1539670922
+LogO 1540165331
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -46,7 +46,8 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1635537
+Tru  70
+Plyd 1638471
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -65,8 +66,9 @@ PkGiv 24
 QuestPnts 111
 Exp  177312
 Act  34013384
-AfBy 524800
-Comm 28672
+AfBy 512
+AfBy2 64
+Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -164,7 +166,7 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'fly'   0  10   0   0     524288          0
+AffD 'stealth'  49   0   0   0          0         64
 End
 
 #O
@@ -177,6 +179,45 @@ Cost 0
 Cond 97
 Repd 0
 Val  12 11 12 -1 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
 End
 
 #O
