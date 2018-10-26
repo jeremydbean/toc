@@ -1,7 +1,7 @@
 #PLAYER
 Name Spank~
 Id   5568
-LogO 1540582746
+LogO 1540583254
 Vers 3
 Desc Hi I'm spank my friends can "SPANK" me if you like. but beware
 ~
@@ -14,13 +14,13 @@ Gui  1
 Psionic  1
 Cast none
 Levl 34
-Plyd 564519
+Plyd 564854
 ListRemorts ~
 NumRemorts 0
 Note 948481229
 Scro 22
-Room 4210
-HMV  428 428 314 394 323 323
+Room 4208
+HMV  138 452 209 394 74 323
 NewGold 32303
 NewPlat 0
 NewCopp 0
@@ -31,7 +31,7 @@ Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 363
-Exp  78367
+Exp  78342
 Act  196808
 Comm 24576
 Mounted 0
@@ -62,7 +62,7 @@ Prac 9
 Trai 2
 Save  -6
 Alig  807
-Hit   24
+Hit   27
 Dam   39
 ACs -38 -31 -37 72
 Wimp  93
@@ -76,12 +76,11 @@ Pnts 40
 TSex 1
 LLev 109
 HMVP 368 324 298
-Cond 0 0 14
+Cond 0 0 8
 Alias heals c 'heal'~
 Alias frenzy c 'frenzy'~
 Alias portal cast 'portal'~
 Alias food c 'create food'~
-Alias c concoct~
 Alias uncurse c 'remove curse'~
 Alias pass c 'pass door'~
 Alias bless c 'bless'~
@@ -163,7 +162,8 @@ Gr 'benedictions'
 Gr 'creation'
 Gr 'healing'
 Gr 'cleric transportation'
-AffD 'psychic shield'   0   2   0   0          0          0
+AffD 'aid'  31  13  24  13          0          0
+AffD 'aid'   0  13   3  18          0          0
 End
 
 #O
