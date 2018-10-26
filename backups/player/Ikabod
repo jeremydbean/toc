@@ -1,0 +1,97 @@
+#PLAYER
+Name Ikabod~
+Id   16711
+LogO 953490652
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  3
+Gui  2
+Psionic  2
+Cast none
+Levl 18
+Plyd 60822
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4209
+HMV  211 211 124 124 200 202
+NewGold 3
+NewPlat 20
+NewCopp 310
+NewSilv 5
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 14
+Exp  41079
+Act  220
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Trai 3
+Alig  -352
+ACs 100 100 100 100
+Attr 13 13 18 16 17
+AMod 0 0 0 0 0
+Pass IkEGCgyR8eo4U~
+Dprt $n tips his hat non-challantly and leaves $t ~
+Titl  Crane~
+Pnts 40
+TSex 1
+LLev 13
+HMVP 211 124 202
+Cond 0 7 45
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 80 'shield block'
+Sk 77 'spear'
+Sk 91 'sword'
+Sk 30 'whip'
+Sk 48 'archery'
+Sk 52 'disarm'
+Sk 92 'kick'
+Sk 78 'parry'
+Sk 1 'rescue'
+Sk 1 'trip'
+Sk 75 'second attack'
+Sk 1 'hide'
+Sk 61 'steal'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'thief guild'
+End
+
+#END

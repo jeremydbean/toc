@@ -1,0 +1,599 @@
+#PLAYER
+Name Loiosh~
+Id   59246
+LogO 952183480
+Vers 3
+Prom ~
+Ignoring dariot dimire~
+Race elf~
+Sex  2
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 41
+Plyd 730818
+ListRemorts ~
+NumRemorts 0
+Note 952065612
+Scro 22
+Room 4210
+HMV  526 526 215 215 390 390
+NewGold 3
+NewPlat 246
+NewCopp 719
+NewSilv 11
+Bank 76557
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 75
+Exp  99685
+Act  252
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Prac 4
+Save  -7
+Alig  1000
+Hit   31
+Dam   40
+ACs -72 -64 -72 62
+Wimp  60
+Attr 19 19 18 18 18
+AMod 6 -4 0 2 0
+Pass LohQCRNCVNU1c~
+Titl  the Master Warrior~
+Pnts 40
+TSex 1
+LLev 193
+HMVP 526 155 340
+Cond 0 6 46
+Sk 30 'axe'
+Sk 75 'dagger'
+Sk 25 'flail'
+Sk 75 'mace'
+Sk 62 'polearm'
+Sk 97 'shield block'
+Sk 75 'spear'
+Sk 100 'sword'
+Sk 80 'whip'
+Sk 76 'archery'
+Sk 79 'disarm'
+Sk 90 'dodge'
+Sk 100 'enhanced damage'
+Sk 89 'kick'
+Sk 100 'parry'
+Sk 76 'rescue'
+Sk 100 'second attack'
+Sk 84 'third attack'
+Sk 87 'fast healing'
+Sk 83 'door bash'
+Sk 73 'sneak'
+Sk 85 'recall'
+Sk 100 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25216
+Nest 0
+Wear 12
+Lev  20
+Cost 250
+Cond 77
+Repd 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 22000
+Cond 97
+Repd 0
+Spell 3 'shocking grasp'
+Affect -1 39 -1 -3 3 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 96
+Repd 1
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 85
+Repd 1
+Val  0 0 -1 0 0
+Affect -1 25 -1 -1 3 0 0
+Affect -1 25 -1 2 21 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 97
+Repd 1
+Affect -1 32 -1 -1 19 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  15
+Cost 0
+Cond 86
+Repd 1
+Val  7 5 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 8500
+Cond 95
+Repd 1
+Val  6 5 5 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 8500
+Cond 91
+Repd 1
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 99
+Repd 1
+End
+
+#O
+Vnum 4619
+Nest 0
+ExtF 67
+Wear 6
+Lev  27
+Cost 0
+Cond 95
+Repd 1
+Val  4 3 4 -4 0
+Affect -1 51 -1 -3 17 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 95
+Repd 1
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 0
+Cond 86
+Repd 1
+Val  5 7 6 -1 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 3752
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2330
+Nest 1
+Wear -1
+Lev  27
+Cost 2500
+Cond 97
+Repd 0
+Affect -1 27 -1 3 22 0 0
+End
+
+#O
+Vnum 24217
+Nest 0
+Wear -1
+Lev  42
+Cost 8000
+Cond 100
+Repd 0
+Affect -1 42 -1 -13 14 0 0
+Affect -1 42 -1 1 17 0 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+Affect -1 20 -1 1 24 0 0
+End
+
+#O
+Vnum 16007
+Nest 0
+Wear 1
+Lev  39
+Cost 2600
+Cond 100
+Repd 0
+Affect -1 39 -1 1 1 0 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+Affect -1 20 -1 -4 2 0 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25215
+Nest 0
+Wear -1
+Lev  20
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10025
+Nest 0
+Wear -1
+Lev  9
+Cost 200
+Cond 100
+Repd 0
+Val  0 3 6 6 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 533
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10025
+Nest 0
+Wear -1
+Lev  11
+Cost 200
+Cond 100
+Repd 0
+Val  0 4 4 6 0
+Affect -1 11 -1 5 22 0 0
+End
+
+#O
+Vnum 80
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7221
+Nest 0
+Wear 11
+Lev  27
+Cost 7290
+Cond 100
+Repd 0
+Affect -1 27 -1 1 18 0 0
+End
+
+#O
+Vnum 10025
+Nest 0
+Wear 16
+Lev  9
+Cost 200
+Cond 100
+Repd 0
+Val  0 3 6 6 0
+End
+
+#END

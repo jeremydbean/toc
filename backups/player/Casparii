@@ -1,0 +1,250 @@
+#PLAYER
+Name CasparII~
+Id   36004
+LogO 952806964
+Vers 3
+Prom ~
+Ignoring dork dork dorki dorkis dorkis~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 22
+Plyd 89228
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 25265
+HMV  220 220 88 250 210 251
+NewGold 20
+NewPlat 8213
+NewCopp 642
+NewSilv 141
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  44748
+Act  65756
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Alig  -1000
+Hit   7
+Dam   10
+ACs 55 54 50 88
+Wimp  15
+Attr 13 19 18 13 18
+AMod 1 -3 -1 1 0
+Pass CaRrTBzvdJXcg~
+Dprt $n spots bones to break and runs off to the $t~
+Titl  the Creator of Corpses~
+Pnts 40
+TSex 1
+LLev 19
+HMVP 220 250 226
+Cond 0 0 0
+Sk 80 'animate parts'
+Sk 73 'armor'
+Sk 71 'blindness'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 77 'create skeleton'
+Sk 1 'create wraith'
+Sk 1 'create vampire'
+Sk 73 'butcher'
+Sk 1 'bewitch weapon'
+Sk 30 'curse'
+Sk 75 'embalm'
+Sk 1 'energy drain'
+Sk 1 'evil eye'
+Sk 1 'haven'
+Sk 1 'maze'
+Sk 75 'plague'
+Sk 1 'poison'
+Sk 1 'raise dead'
+Sk 1 'remove curse'
+Sk 1 'ghostly presence'
+Sk 76 'shock sphere'
+Sk 76 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'trap the soul'
+Sk 75 'vampiric touch'
+Sk 1 'weaken'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 91 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 81 'sword'
+Sk 15 'whip'
+Sk 79 'meditation'
+Sk 73 'scrolls'
+Sk 75 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+AffD 'shield'  13  39 -20  17          0          0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 0
+Cond 80
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 97
+Repd 0
+Val  6 5 4 0 0
+Affect -1 11 -1 -3 3 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+Affect -1 11 -1 -3 4 0 0
+End
+
+#O
+Vnum 4101
+Nest 0
+Wear 9
+Lev  8
+Cost 0
+Cond 58
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 13 17 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9579
+Nest 0
+Wear -1
+Lev  20
+Cost 150
+Cond 100
+Repd 0
+Val  20 4 1 10 0
+Spell 3 'call lightning'
+End
+
+#O
+Vnum 5100
+Nest 0
+Wear 16
+Lev  9
+Cost 0
+Cond 99
+Repd 0
+Val  1 3 6 3 1
+End
+
+#END

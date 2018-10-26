@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1540260935
+LogO 1540438176
 Vers 3
 Desc .~
 Prom ~
@@ -12,28 +12,26 @@ Cla  4
 Gui  4
 Psionic  1
 Cast Fors
-Levl 35
-Plyd 17777
+Levl 36
+Plyd 33758
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 4208
-HMV  716 946 311 577 155 424
-NewGold 45
-NewPlat 189
-NewCopp 338
-NewSilv 90
-Bank 985
+Room 4209
+HMV  955 955 585 585 431 431
+NewGold 5
+NewPlat 2
+NewCopp 17
+NewSilv 12
+Bank 1221
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  76120
+Exp  78478
 Act  4587724
-AfBy 2621624
-AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -58,25 +56,25 @@ Color 13 7
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  8
-Prac 14
-Trai 3
-Save  -18
+Pos  4
+Prac 8
+Trai 1
+Save  -9
 Alig  1000
-Hit   35
-Dam   53
-ACs 28 48 40 120
+Hit   9
+Dam   31
+ACs -19 1 -7 73
 Attr 13 13 13 13 13
-AMod 7 10 11 4 12
+AMod 4 10 11 0 12
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
-Titl  the Grand Monk~
+Titl  the Grand Master of Flowers~
 Pnts 2540
 TSex 1
-LLev 4
-HMVP 884 587 374
-Cond 0 38 38
+LLev 5
+HMVP 935 595 381
+Cond 0 0 0
 Alias \ who~
 Alias k kick~
 Alias ` bash~
@@ -96,7 +94,7 @@ Sk 75 'confuse'
 Sk 1 'ego whip'
 Sk 1 'project'
 Sk 1 'psychic shield'
-Sk 44 'telekinesis'
+Sk 49 'telekinesis'
 Sk 8 'axe'
 Sk 36 'dagger'
 Sk 6 'flail'
@@ -105,41 +103,22 @@ Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 15 'whip'
-Sk 83 'dodge'
-Sk 82 'enhanced damage'
+Sk 85 'dodge'
+Sk 84 'enhanced damage'
 Sk 100 'hand to hand'
-Sk 61 'kick'
+Sk 64 'kick'
 Sk 76 'parry'
 Sk 1 'trip'
 Sk 80 'second attack'
 Sk 75 'iron skin'
-Sk 77 'nerve damage'
+Sk 78 'nerve damage'
 Sk 70 'steel fist'
 Sk 69 'fast healing'
-Sk 71 'meditation'
+Sk 72 'meditation'
 Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'iron skin'   0   1 -22  17          0          0
-AffD 'steel fist'  32   5  11  19          0          0
-AffD 'bless'   0  11  -8  24          0          0
-AffD 'bless'   1  11   8  18          0          0
-AffD 'shield'   0  43 -20  17          0          0
-AffD 'giant strength'  31  39   4   1          0          0
-AffD 'aid'  20   3   7  18          0          0
-AffD 'aid'  30   3  42  13          0          0
-AffD 'armor'  24   3 -20  17          0          0
-AffD 'haste'  33   1   4   2    2097152          0
-AffD 'sanctuary'  32   4   0   0        128          0
-AffD 'divine protection'  29   3   0   0          0       4096
-AffD 'fly'   9  66   0   0     524288          0
-AffD 'frenzy'  42  16  11  18          0          0
-AffD 'frenzy'  32  16  11  19          0          0
-AffD 'frenzy'  28  16 110  17          0          0
-AffD 'detect invis'  28   4   0   0          8          0
-AffD 'detect magic'  22   4   0   0         16          0
-AffD 'detect hidden'  23   4   0   0         32          0
 End
 
 #O
@@ -147,7 +126,7 @@ Vnum 3715
 Nest 0
 Wear 17
 Cost 0
-Cond 84
+Cond 66
 Repd 0
 End
 
@@ -168,7 +147,7 @@ Nest 0
 Wear 12
 Lev  3
 Cost 10
-Cond 73
+Cond 58
 Repd 0
 End
 
@@ -188,7 +167,7 @@ Nest 0
 Wear 2
 Lev  7
 Cost 441
-Cond 97
+Cond 94
 Repd 0
 End
 
@@ -198,7 +177,7 @@ Nest 0
 Wear 7
 Lev  14
 Cost 190
-Cond 97
+Cond 87
 Repd 0
 Val  5 4 5 0 0
 End
@@ -220,7 +199,7 @@ Nest 0
 Wear 10
 Lev  22
 Cost 5566
-Cond 100
+Cond 98
 Repd 0
 End
 
@@ -304,7 +283,7 @@ Nest 0
 Wear 8
 Lev  25
 Cost 150
-Cond 100
+Cond 99
 Repd 0
 Affect -1 25 -1 -1 20 0 0
 End
@@ -325,7 +304,7 @@ Nest 0
 Wear 9
 Lev  23
 Cost 10000
-Cond 100
+Cond 97
 Repd 0
 End
 
@@ -346,7 +325,7 @@ Nest 0
 Wear 4
 Lev  22
 Cost 5000
-Cond 100
+Cond 94
 Repd 0
 Val  8 8 6 0 0
 Affect -1 22 -1 -2 21 0 0
@@ -358,20 +337,9 @@ Nest 0
 Wear 3
 Lev  23
 Cost 5000
-Cond 100
+Cond 98
 Repd 0
 Val  8 6 7 0 0
-End
-
-#O
-Vnum 3716
-Nest 0
-Wear 0
-Cost 1
-Cond 75
-Repd 0
-Val  0 0 22 0 0
-Affect -1 0 -1 -1 1 0 0
 End
 
 #O
@@ -382,7 +350,6 @@ Lev  1
 Cost 729
 Cond 100
 Repd 0
-Val  150 135 0 0 0
 End
 
 #O
@@ -398,37 +365,13 @@ Affect -1 28 -1 3 17 0 0
 End
 
 #O
-Vnum 5022
-Nest 0
-Wear -1
-Lev  28
-Time 96
-Cost 300
-Cond 100
-Repd 0
-Spell 1 'cure blindness'
-Spell 2 'remove curse'
-Spell 3 'cure poison'
-End
-
-#O
 Vnum 5025
 Nest 0
 ExtF 64
 Wear 15
 Lev  28
 Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
+Cond 97
 Repd 0
 End
 
@@ -438,49 +381,9 @@ Nest 0
 Wear 5
 Lev  32
 Cost 2200
-Cond 100
+Cond 99
 Repd 0
 Affect -1 32 -1 -10 12 0 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
 End
 
 #O

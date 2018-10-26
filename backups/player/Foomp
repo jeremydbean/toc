@@ -1,0 +1,581 @@
+#PLAYER
+Name Foomp~
+Id   11603
+LogO 952972999
+Vers 3
+Desc _
+You wield a sharp piece of glass.
+You feel really bad!
+You feel a deep and writing sickness infecting your bloodstream.
+
+117m> aff
+You are affected by:
+Spell: 'poison' modifies none by 0 for 153 hours.
+
+You shiver and suffer.
+Luckily, you are immune to that.
+Your body neutralizes the poison.
+*-----------------------------------------*
+Kyrus brandishes The Staff of the Gods.
+You feel surrounded by divine protection.
+
+Spell: 'divine protection' modifies none by 0 for 9 hours.
+*-----------------------------------------*
+An Immortal say to you, "Leave or be assimilated!"
+~
+Prom <%hhp-%Hhp %mm %vmv>~
+Ignoring fag tidie~
+Race saurian~
+Sex  2
+Cla  2
+Gui  0
+Psionic  1
+Cast none
+Levl 51
+Plyd 1058218
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  749 861 193 466 269 390
+NewGold 108
+NewPlat 5110
+NewCopp 1270
+NewSilv 189
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 10
+PkGiv 0
+QuestPnts 1
+Exp  123677
+Act  196856
+AfBy 2622088
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 13
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 12
+Color 8 11
+Color 9 14
+Color 10 12
+Color 11 13
+Color 12 9
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 6
+Save  -12
+Alig  1000
+Hit   34
+Dam   62
+ACs -58 -47 -54 47
+Attr 14 17 17 16 16
+AMod 14 -6 -2 8 -5
+Pass Kyz2D/BNiZB8Q~
+Ariv $n comes from $T and touches you where no-one should.~
+Dprt $n leaves $t grinning and sniffing his fingers.~
+Titl ! Poof! Bang! Zap! Kapow! Thud! ~
+Pnts 40
+TSex 1
+LLev 206
+HMVP 776 366 400
+Cond 0 45 48
+Alias b backstab~
+Alias re recall~
+Alias m murder~
+Alias pass cast 'pass door'~
+Alias me tit ! Poof! Bang! Zap! Kapow! Thud!~
+Alias di cast 'detect invis'~
+Alias man cast 'mana convert'~
+Alias gs cast 'giant strength'~
+Alias sh say 'doh! wrong command.'~
+Alias find cast 'locate object'~
+Alias fly cast 'fly'~
+Alias co confuse~
+Alias gate cast 'gate'~
+Alias cp cast 'protection evil'~
+Alias dis cast 'dispel magic'~
+Alias haste cast 'haste'~
+Alias slow cast 'slow'~
+Alias sanc cast 'sanctuary'~
+Alias lb cast 'lightning bolt'~
+Sk 77 'armor'
+Sk 1 'burning hands'
+Sk 42 'cancellation'
+Sk 1 'chill touch'
+Sk 39 'detect invis'
+Sk 79 'dispel magic'
+Sk 85 'faerie fire'
+Sk 77 'fly'
+Sk 97 'gate'
+Sk 79 'giant strength'
+Sk 84 'haste'
+Sk 23 'infravision'
+Sk 67 'lightning bolt'
+Sk 84 'locate object'
+Sk 65 'magic missile'
+Sk 100 'mana convert'
+Sk 78 'pass door'
+Sk 75 'protection evil'
+Sk 33 'refresh'
+Sk 91 'sanctuary'
+Sk 68 'shield'
+Sk 85 'slow'
+Sk 66 'stone skin'
+Sk 19 'summon'
+Sk 1 'teleport'
+Sk 88 'confuse'
+Sk 76 'mindbar'
+Sk 68 'mindblast'
+Sk 73 'shift'
+Sk 79 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 98 'mace'
+Sk 10 'polearm'
+Sk 77 'spear'
+Sk 100 'sword'
+Sk 43 'whip'
+Sk 100 'backstab'
+Sk 100 'dodge'
+Sk 100 'second attack'
+Sk 100 'hide'
+Sk 12 'pick lock'
+Sk 100 'shove'
+Sk 100 'sneak'
+Sk 1 'search'
+Sk 25 'steal'
+Sk 97 'scrolls'
+Sk 1 'wands'
+Sk 94 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'mage guild'
+Gr 'guild enhancement'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'sanctuary'   0   4   0   0        128          0
+AffD 'giant strength'  31  25   4   1          0          0
+AffD 'detect invis'   8  25   0   0          8          0
+AffD 'fly'   0  40   0   0     524288          0
+AffD 'haste'   0  12   4   2    2097152          0
+AffD 'bless'   4  16   2  18          0          0
+AffD 'bless'   0  16  -2  24          0          0
+End
+
+#O
+Vnum 29217
+Nest 0
+Wear 0
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 5 -1 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 5 -1 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 -1 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  9 4 5 0 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 0
+Cond 100
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 26
+Repd 0
+Val  10 10 11 4 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 10052
+Enchanted
+Nest 0
+ExtF 66
+Wear 16
+Lev  51
+Cost 5500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 5 19 0 0
+AffD 'enchant weapon' 51 -1 5 18 0 0
+End
+
+#O
+Vnum 3040
+Nest 0
+Wear -1
+Lev  5
+Time 310
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear 17
+Time 243
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 29042
+Nest 1
+ExtF 0
+Wear -1
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7656
+Nest 1
+Wear -1
+Lev  35
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 701
+Nest 1
+Wear -1
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20502
+Nest 1
+ExtF 65
+Wear -1
+Lev  38
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7629
+Nest 1
+Wear -1
+Lev  33
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5787
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8715
+Nest 1
+Wear -1
+Lev  45
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6410
+Nest 1
+Wear -1
+Lev  41
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4488
+Nest 1
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 20 -1 -2 19 0 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2008
+Nest 0
+Wear -1
+Lev  15
+Time 88
+Cost 1000
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'sanctuary'
+End
+
+#END

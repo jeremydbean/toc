@@ -1,0 +1,374 @@
+#PLAYER
+Name Undertaker~
+Id   39877
+LogO 953424722
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  5
+Gui  5
+Psionic  0
+Cast none
+Levl 6
+Plyd 4972
+ListRemorts ~
+NumRemorts 0
+Note 953381704
+Scro 22
+Room 4207
+HMV  62 62 184 184 120 120
+NewGold 11321
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13853
+Act  65756
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 6
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 7
+Color 13 12
+Color 14 14
+Color 15 1
+Color 16 14
+Pos  8
+Prac 17
+Trai 3
+Save  -7
+Alig  0
+Hit   8
+Dam   1
+ACs 58 60 57 94
+Attr 12 21 13 14 13
+AMod 1 6 7 0 4
+Pass Un5I5Y8tSovrg~
+Titl  the Doomsayer~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 62 144 130
+Cond 0 0 0
+Sk 1 'animate parts'
+Sk 1 'armor'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 1 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 1 'embalm'
+Sk 1 'evil eye'
+Sk 1 'poison'
+Sk 1 'remove curse'
+Sk 1 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 76 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'sneak'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necromancy'
+AffD 'bless'  45  60  -7  24          0          0
+AffD 'bless'  40  60   7  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 160 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear -1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 2 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear -1
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#END

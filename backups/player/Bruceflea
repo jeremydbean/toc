@@ -1,0 +1,220 @@
+#PLAYER
+Name Bruceflea~
+Id   47250
+LogO 950253304
+Vers 3
+Prom %hhp %mm %vmv|G%g|E%X~
+Ignoring  ~
+Race dwarf~
+Sex  1
+Cla  4
+Gui  4
+Psionic  0
+Cast none
+Levl 4
+Plyd 2285
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  67 67 118 118 118 118
+NewGold 0
+NewPlat 0
+NewCopp 33
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  9220
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Trai 3
+Save  -4
+Alig  750
+Hit   5
+Dam   2
+ACs 61 55 59 77
+Attr 14 13 12 12 20
+AMod 0 1 3 0 3
+Pass Br8oXys6dVlXk~
+Ariv $n scans your body for fleas from the $t~
+Dprt $n masters the "Raging Flea" Technique to the $T~
+Titl  the Initiate of Form~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 67 118 118
+Cond 0 12 12
+Alias \ att~
+Sk 8 'axe'
+Sk 75 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'bash'
+Sk 1 'dodge'
+Sk 1 'hand to hand'
+Sk 1 'kick'
+Sk 1 'trip'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'armor'  33  20 -20  17          0          0
+AffD 'bless'  47  13  -3  24          0          0
+AffD 'bless'   0  13   3  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 164 0 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 2 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

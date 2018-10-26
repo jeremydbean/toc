@@ -1,0 +1,365 @@
+#PLAYER
+Name Pesme~
+Id   14348
+LogO 953261741
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  0
+Psionic  0
+Cast none
+Levl 6
+Plyd 6967
+ListRemorts ~
+NumRemorts 0
+Note 949462463
+Scro 22
+Room 4208
+HMV  95 95 142 142 145 145
+NewGold 0
+NewPlat 90
+NewCopp 171
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12123
+Act  252
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 9
+Trai 3
+Save  -7
+Alig  0
+Hit   9
+Dam   1
+ACs 27 29 22 63
+Wimp  12
+Attr 14 13 14 16 13
+AMod 4 5 5 1 4
+Pass PeNVqGBczYtqo~
+Titl  the Pincher~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 95 122 130
+Cond 0 10 9
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 1 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'mage guild'
+AffD 'giant strength'  49  11   3   1          0          0
+AffD 'shield'   0  30 -20  17          0          0
+AffD 'armor'   0   6 -20  17          0          0
+AffD 'bless'   0  63   7  18          0          0
+AffD 'bless'  12  63  -7  24          0          0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+Affect -1 1 -1 9 17 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 923
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Affect -1 3 -1 1 1 0 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 99
+Repd 0
+Affect -1 1 -1 -10 14 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 6 0 0 0
+End
+
+#O
+Vnum 3751
+Nest 0
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 1 2 0 0
+End
+
+#END

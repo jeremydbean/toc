@@ -1,0 +1,643 @@
+#PLAYER
+Name Armitage~
+Id   2958
+LogO 953329908
+Vers 3
+Prom <%h/%H %m/%M %v/%V %X>~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  1
+Psionic  1
+Cast none
+Levl 23
+Plyd 40562
+ListRemorts ~
+NumRemorts 0
+Note 953324212
+Scro 22
+Room 4208
+HMV  298 298 177 248 397 432
+NewGold 579
+NewPlat 9
+NewCopp 5067
+NewSilv 1065
+Bank 490
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  52350
+Act  252
+AfBy 8708
+AfBy2 2
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 13
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 11
+Color 7 11
+Color 8 5
+Color 9 14
+Color 10 12
+Color 11 14
+Color 12 4
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 20
+Trai 4
+Save  6
+Alig  -1000
+Hit   21
+Dam   20
+ACs -16 -13 -11 70
+Wimp  30
+Attr 17 16 18 16 19
+AMod 4 0 0 5 2
+Pass Arhiv4xO.p/JM~
+Ariv $n's cape catches the wind as she arrives from $T.~
+Dprt $n's cape flaps silently in the wind as she leaves $t.~
+Titl  the Paladin~
+Pnts 40
+TSex 2
+LLev 11
+HMVP 298 253 232
+Cond 0 8 1
+Alias a scan~
+Alias os open south~
+Alias lvl gos gratz!~
+Alias on open north~
+Alias ccl c 'cause light'~
+Alias repl reply -Armitage-~
+Alias ccs c 'cure serious'~
+Alias lib l in bag~
+Alias oe open east~
+Alias oh open hole~
+Alias osec open secret~
+Sk 78 'armor'
+Sk 77 'bless'
+Sk 1 'cancellation'
+Sk 83 'cause light'
+Sk 76 'cure light'
+Sk 79 'cure serious'
+Sk 76 'detect evil'
+Sk 75 'detect good'
+Sk 1 'dispel magic'
+Sk 1 'flamestrike'
+Sk 75 'identify'
+Sk 75 'protection evil'
+Sk 73 'refresh'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 75 'ego whip'
+Sk 1 'psionic armor'
+Sk 1 'shift'
+Sk 1 'transfusion'
+Sk 30 'axe'
+Sk 75 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 80 'shield block'
+Sk 30 'spear'
+Sk 98 'sword'
+Sk 30 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 94 'kick'
+Sk 89 'parry'
+Sk 1 'rescue'
+Sk 84 'second attack'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild protective'
+AffD 'detect good'  15  22   0   0          0          2
+AffD 'protection evil'  15  23   0   0       8192          0
+AffD 'armor'  38  19 -20  17          0          0
+AffD 'detect evil'  35  13   0   0          4          0
+AffD 'bless'  40   8  -2  24          0          0
+AffD 'bless'   8   8   2  18          0          0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+Val  5 4 3 0 0
+Affect -1 8 -1 1 23 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 29013
+Nest 0
+Wear 9
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 15
+Lev  7
+Cost 0
+Cond 78
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9578 0 0
+Affect -1 14 -1 -5 12 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 97
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 10020
+Nest 0
+Wear 5
+Lev  11
+Cost 300
+Cond 100
+Repd 0
+Val  6 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear 16
+Lev  14
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  6 6 4 0 0
+Affect -1 11 -1 4 22 0 0
+End
+
+#O
+Vnum 1392
+Nest 0
+Wear 14
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 99
+Repd 0
+Affect -1 12 -1 -3 3 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 3 20 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 1
+Wear -1
+Cost 6
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13237
+Nest 2
+Wear -1
+Lev  16
+Cost 100
+Cond 100
+Repd 0
+Affect -1 51 -1 1 19 0 0
+Affect -1 51 -1 1 18 0 0
+End
+
+#O
+Vnum 13237
+Nest 2
+ExtF 65
+Wear -1
+Lev  17
+Cost 100
+Cond 100
+Repd 0
+Affect -1 51 -1 3 19 0 0
+Affect -1 51 -1 3 18 0 0
+End
+
+#O
+Vnum 9571
+Nest 2
+Wear -1
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 3092
+Nest 2
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3162
+Nest 2
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 2
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 1 -1 -13 13 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25109
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 96
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 5114
+Nest 1
+ExtF 64
+Wear -1
+Lev  24
+Cost 600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 97
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3702
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

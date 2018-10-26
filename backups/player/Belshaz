@@ -1,0 +1,513 @@
+#PLAYER
+Name Belshaz~
+Id   60937
+LogO 949266295
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  5
+Gui  5
+Psionic  0
+Cast none
+Levl 12
+Plyd 24097
+ListRemorts ~
+NumRemorts 0
+Note 936976735
+Scro 22
+Room 4721
+HMV  116 116 236 237 171 366
+NewGold 37978
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  27637
+Act  72
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 14
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 14
+Color 7 14
+Color 8 7
+Color 9 14
+Color 10 12
+Color 11 9
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 11
+Trai 5
+Alig  -1000
+Hit   1
+Dam   1
+ACs 56 63 48 94
+Wimp  21
+Attr 12 18 15 14 12
+AMod 4 6 5 1 4
+Pass BeYgTjEEmzrR6~
+Titl  the Maker of Maggots~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 116 197 166
+Cond 0 0 16
+Alias animate c animate~
+Alias butcher c butcher~
+Alias embalm c 'embalm'~
+Sk 84 'animate parts'
+Sk 1 'armor'
+Sk 1 'cancellation'
+Sk 1 'cause light'
+Sk 75 'chill touch'
+Sk 76 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 1 'death shroud'
+Sk 77 'embalm'
+Sk 1 'evil eye'
+Sk 1 'force sword'
+Sk 42 'infravision'
+Sk 1 'major globe'
+Sk 1 'mana convert'
+Sk 1 'poison'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 1 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 83 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 71 'sneak'
+Sk 75 'scrolls'
+Sk 75 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'necromancy'
+Gr 'necro protective'
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear -1
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3725
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 10 0 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8717
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 24316
+Nest 0
+Wear -1
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 62
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  the leg of Digit~
+Desc The sliced-off leg of Digit is lying here.~
+ExtF 16777216
+Wear -1
+Time 1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 0
+ShD  A surgically removed head~
+Desc A surgically removed head grins at Belshaz~
+Wear -1
+Time 242
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Belshaz~
+Wear -1
+Time 242
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Belshaz~
+Wear -1
+Time 242
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Belshaz~
+Wear -1
+Time 242
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Belshaz~
+Wear -1
+Time 242
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 0
+ShD  A surgically removed head~
+Desc A surgically removed head grins at Belshaz~
+Wear -1
+Time 241
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Belshaz~
+Wear -1
+Time 241
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Belshaz~
+Wear -1
+Time 241
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Belshaz~
+Wear -1
+Time 241
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Belshaz~
+Wear -1
+Time 241
+Cost 0
+Cond 25
+Repd 0
+End
+
+#END

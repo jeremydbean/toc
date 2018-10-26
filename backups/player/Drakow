@@ -1,0 +1,290 @@
+#PLAYER
+Name Drakow~
+Id   4917
+LogO 946012124
+Vers 3
+Ignoring ~
+Race elf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 6
+Plyd 37147
+ListRemorts ~
+NumRemorts 0
+Note 945998921
+Scro 22
+Room 4207
+HMV  18 73 105 105 64 130
+Gold 76070
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  14981
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Save  -8
+Alig  -18
+Hit   7
+ACs 66 49 49 78
+Attr 14 15 15 19 13
+AMod 0 1 0 0 0
+Pass Dr52okkny7tjA~
+Titl  the Pincher~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 73 105 130
+Cond 0 41 43
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 76 'backstab'
+Sk 1 'dodge'
+Sk 46 'trip'
+Sk 31 'hide'
+Sk 1 'pick lock'
+Sk 11 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'bless'  51  49  -7  24          0          0
+AffD 'bless'  50  49   7  18          0          0
+AffD 'armor'  27   4 -20  17          0          0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear 0
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 187 0 0
+End
+
+#O
+Vnum 3043
+Nest 0
+Wear 1
+Lev  5
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear -1
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 172 0 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear -1
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 236 0 0
+End
+
+#O
+Vnum 3053
+Nest 0
+Wear 13
+Lev  5
+Cost 50
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 15
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3066
+Nest 0
+Wear 5
+Lev  5
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3065
+Nest 0
+Wear 10
+Lev  5
+Cost 55
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3064
+Nest 0
+Wear 9
+Lev  5
+Cost 55
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3063
+Nest 0
+Wear 8
+Lev  5
+Cost 75
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3062
+Nest 0
+Wear 7
+Lev  5
+Cost 50
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3061
+Nest 0
+Wear 6
+Lev  5
+Cost 25
+Cond 62
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 4 0 0 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2101
+Nest 0
+Wear -1
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+End
+
+#END

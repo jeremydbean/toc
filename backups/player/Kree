@@ -1,0 +1,382 @@
+#PLAYER
+Name Kree~
+Id   17871
+LogO 940557355
+Vers 3
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 11
+Plyd 31004
+ListRemorts ~
+NumRemorts 0
+Note 940433483
+Scro 22
+Room 4208
+HMV  128 128 81 190 242 351
+Gold 9345
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  23510
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 3
+Color 3 13
+Color 4 3
+Color 5 14
+Color 6 3
+Color 7 13
+Color 8 8
+Color 9 10
+Color 10 4
+Color 11 8
+Color 12 12
+Color 13 11
+Color 14 3
+Color 15 3
+Color 16 7
+Pos  8
+Trai 1
+Save  -2
+Alig  1000
+Hit   4
+Dam   4
+ACs 27 34 31 76
+Wimp  22
+Attr 16 16 13 17 14
+AMod 6 7 5 1 3
+Pass Kra9hFH4mSXdw~
+Titl  the Hedgewizard~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 103 148 160
+Cond 0 0 22
+Sk 75 'armor'
+Sk 1 'burning hands'
+Sk 1 'cancellation'
+Sk 80 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'dispel magic'
+Sk 1 'faerie fire'
+Sk 74 'fly'
+Sk 71 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 84 'magic missile'
+Sk 1 'major globe'
+Sk 71 'protection evil'
+Sk 75 'refresh'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'stone skin'
+Sk 10 'axe'
+Sk 84 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 35 'scrolls'
+Sk 35 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage protective'
+AffD 'shield'   0  34 -20  17          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 109 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+ExtF 64
+Wear 16
+Lev  5
+Cost 10
+Cond 98
+Repd 0
+Affect -1 52 -1 2 18 0 0
+Affect -1 52 -1 2 19 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Val  2 2 2 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  3
+Cost 1000
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 97
+Repd 0
+Val  3 2 4 0 0
+Affect -1 1 -1 1 22 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+Affect -1 1 -1 -4 2 0 0
+Affect -1 1 -1 14 13 0 0
+End
+
+#O
+Vnum 2101
+Nest 0
+ExtF 64
+Wear 5
+Lev  3
+Cost 0
+Cond 98
+Repd 0
+Affect -1 2 -1 11 13 0 0
+Affect -1 53 -1 1 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+ExtF 65
+Wear 0
+Lev  7
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 53 -1 2 12 0 0
+Affect -1 53 -1 -9 14 0 0
+Affect -1 53 -1 1 4 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+ExtF 320
+Wear 13
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+Affect -1 53 -1 -3 20 0 0
+End
+
+#O
+Vnum 29013
+Nest 0
+Wear 9
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

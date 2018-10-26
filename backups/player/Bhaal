@@ -1,0 +1,527 @@
+#PLAYER
+Name Bhaal~
+Id   5988
+LogO 941856057
+Vers 3
+Desc This man seems to radiate an aura of evil.  Though he is one of the
+lesser minions of the Evil Empire, he has the cunning to one day lead
+this Army of Darkness.
+~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 27
+Plyd 63359
+ListRemorts ~
+NumRemorts 0
+Note 919034699
+Scro 22
+Room 4210
+HMV  387 387 186 186 256 256
+Gold 92531
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  62101
+Act  65736
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 2
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 2
+Color 10 12
+Color 11 11
+Color 12 7
+Color 13 2
+Color 14 2
+Color 15 2
+Color 16 13
+Pos  8
+Alig  509
+Hit   6
+Dam   9
+ACs 29 19 25 94
+Attr 14 13 12 18 19
+AMod 6 8 9 1 4
+Pass BhttScvJCOsPs~
+Titl .~
+Pnts 40
+TSex 1
+LLev 17
+HMVP 387 146 256
+Cond 0 0 0
+Sk 7 'axe'
+Sk 86 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 83 'backstab'
+Sk 75 'bash'
+Sk 75 'dodge'
+Sk 78 'dual wield'
+Sk 28 'fatality'
+Sk 76 'parry'
+Sk 1 'trip'
+Sk 82 'second attack'
+Sk 1 'hide'
+Sk 75 'peek'
+Sk 75 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 100 'sleight of hand'
+Sk 80 'steal'
+Sk 81 'stealth'
+Sk 51 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  12
+Cost 280
+Cond 100
+Repd 0
+Val  5 4 6 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  14
+Cost 210
+Cond 100
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear -1
+Lev  9
+Cost 1000
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  6 7 7 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear -1
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9582 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  7
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 4
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 3
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear -1
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 29015
+Nest 0
+Wear 16
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,124 @@
+#PLAYER
+Name Anathema~
+Id   11870
+LogO 950227322
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 11
+Plyd 16441
+ListRemorts ~
+NumRemorts 0
+Note 938937158
+Scro 22
+Room 4207
+HMV  103 129 60 163 38 160
+NewGold 34492
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  25880
+Act  65736
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 14
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 14
+Color 7 14
+Color 8 7
+Color 9 14
+Color 10 12
+Color 11 1
+Color 12 9
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 25
+Trai 1
+Alig  -621
+ACs 100 100 100 100
+Wimp  25
+Attr 14 13 17 12 16
+AMod 0 0 0 0 0
+Pass AnmSi32B8Co3Q~
+Titl .~
+Pnts 40
+TSex 1
+LLev 3
+HMVP 129 163 160
+Cond 0 3 35
+Alias bless c 'bless'~
+Alias serious c 'cure serious'~
+Alias 1 bash~
+Sk 1 'aid'
+Sk 1 'armor'
+Sk 75 'bless'
+Sk 1 'calm'
+Sk 1 'cancellation'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 79 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dispel magic'
+Sk 1 'flamestrike'
+Sk 1 'frenzy'
+Sk 1 'holy word'
+Sk 1 'identify'
+Sk 1 'locate object'
+Sk 1 'major globe'
+Sk 1 'mana convert'
+Sk 1 'mass sanctuary'
+Sk 75 'protection evil'
+Sk 1 'raise dead'
+Sk 1 'refresh'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 75 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 59 'bash'
+Sk 75 'scrolls'
+Sk 75 'staves'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'benedictions'
+Gr 'cleric protective'
+End
+
+#END

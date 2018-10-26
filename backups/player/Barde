@@ -1,0 +1,218 @@
+#PLAYER
+Name Barde~
+Id   40235
+LogO 953424579
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 7
+Plyd 8981
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 2418
+HMV  67 80 117 124 40 161
+NewGold 57
+NewPlat 2
+NewCopp 58
+NewSilv 35
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  14636
+Act  65788
+AfBy 4096
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Save  4
+Alig  -1000
+Hit   2
+Dam   2
+ACs 73 75 73 82
+Attr 13 15 20 13 18
+AMod 0 0 4 1 0
+Pass Bai7FnFg6SFzM~
+Titl  the Deacon~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 80 124 136
+Cond 0 0 10
+Sk 75 'armor'
+Sk 75 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 75 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'locate object'
+Sk 75 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+AffD 'armor'  26  18 -20  17          0          0
+AffD 'poison'  12   1   0   0       4096          0
+End
+
+#O
+Vnum 29007
+Nest 0
+ExtF 65
+Wear 7
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Affect -1 51 -1 3 24 0 0
+Affect -1 51 -1 2 23 0 0
+Affect -1 51 -1 4 17 0 0
+End
+
+#O
+Vnum 24304
+Nest 0
+Wear 13
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Affect -1 0 -1 3 20 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 54 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 750
+Cond 85
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Affect -1 3 -1 4 17 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

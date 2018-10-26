@@ -1,0 +1,265 @@
+#PLAYER
+Name Akron~
+Id   46910
+LogO 953512760
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 19
+Plyd 141881
+ListRemorts ~
+NumRemorts 0
+Note 953441904
+Scro 22
+Room 4207
+HMV  351 351 138 138 81 208
+NewGold 104
+NewPlat 92
+NewCopp 475
+NewSilv 57
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 79
+Exp  43149
+Act  131324
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  3
+Alig  -1000
+Hit   10
+Dam   7
+ACs 49 42 41 94
+Wimp  38
+Attr 22 13 12 16 17
+AMod 1 2 3 -1 1
+Pass AkGQpdp.oohPY~
+Titl  the Cavalier~
+Pnts 40
+TSex 1
+LLev 37
+HMVP 342 118 208
+Cond 0 24 48
+Sk 31 'axe'
+Sk 43 'dagger'
+Sk 25 'flail'
+Sk 27 'mace'
+Sk 35 'polearm'
+Sk 78 'shield block'
+Sk 30 'spear'
+Sk 94 'sword'
+Sk 30 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 92 'kick'
+Sk 78 'parry'
+Sk 19 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear 4
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Affect -1 1 -1 3 20 0 0
+Affect -1 1 -1 9 13 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  12
+Cost 280
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 10057
+Nest 0
+Wear 5
+Lev  11
+Cost 1600
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear 16
+Lev  13
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear 7
+Lev  13
+Cost 190
+Cond 100
+Repd 0
+Val  4 5 6 0 0
+Affect -1 13 -1 -1 2 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 750
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 68
+Repd 0
+End
+
+#END

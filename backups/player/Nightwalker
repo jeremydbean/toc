@@ -1,0 +1,912 @@
+#PLAYER
+Name NightWalker~
+Id   20909
+LogO 952788885
+Vers 3
+Prom ~
+Ignoring tidie~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  1
+Cast none
+Levl 35
+Plyd 183924
+ListRemorts ~
+NumRemorts 0
+Note 923291081
+Scro 22
+Room 4209
+HMV  951 951 120 210 34 329
+NewGold 66337
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 460
+QuestNext 34
+Exp  80477
+Act  67240136
+AfBy 524800
+AfBy2 64
+Comm 28704
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 6
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 7
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 4
+Color 11 1
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -8
+Alig  1000
+Hit   24
+Dam   51
+ACs -76 -61 -61 28
+Wimp  186
+Attr 14 14 15 15 19
+AMod 11 0 0 2 0
+Pass NiAwz9HiqdkEc~
+Titl  the Godmother~
+Pnts 40
+TSex 1
+LLev 40
+HMVP 776 195 304
+Cond 0 45 25
+Alias o ope east~
+Alias k bs~
+Alias 9 bash vizzini~
+Alias 3 sk nightwalker~
+Alias 0 stealth~
+Alias 8 mindbar~
+Alias 7 murder tech~
+Alias 4 get all.green met~
+Alias 5 quaff green~
+Alias 6 murder techno~
+Alias 2 eat cake~
+Sk 55 'astral walk'
+Sk 59 'ego whip'
+Sk 10 'mindbar'
+Sk 56 'telekinesis'
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 82 'sword'
+Sk 20 'whip'
+Sk 94 'backstab'
+Sk 67 'bash'
+Sk 1 'dirt kicking'
+Sk 77 'dodge'
+Sk 55 'dual wield'
+Sk 95 'parry'
+Sk 1 'trip'
+Sk 66 'second attack'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'sleight of hand'
+Sk 1 'steal'
+Sk 100 'stealth'
+Sk 60 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  32   3   0   0          0         64
+AffD 'mindbar'   1   6   0   0          0          0
+AffD 'fly'  41   1   0   0     524288          0
+AffD 'shield'  39   6 -20  17          0          0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Enchanted
+Nest 0
+ExtF 65
+Wear 13
+Lev  12
+Cost 1250
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+AffD 'enchant armor' 51 -1 -3 17 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 9417 0 0
+End
+
+#O
+Vnum 2321
+Enchanted
+Nest 0
+Wear 4
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+Val  6 8 7 -1 0
+AffD 'enchant armor' 51 -1 -4 17 0 0
+End
+
+#O
+Vnum 2321
+Enchanted
+Nest 0
+Wear 3
+Lev  32
+Cost 3000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -4 17 0 0
+End
+
+#O
+Vnum 5025
+Enchanted
+Nest 0
+ExtF 65
+Wear 15
+Lev  31
+Cost 500
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -4 17 0 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 11
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Enchanted
+Nest 0
+ExtF 65
+Wear 8
+Lev  31
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -2 17 0 0
+End
+
+#O
+Vnum 10049
+Enchanted
+Nest 0
+ExtF 2100547
+Wear 16
+Lev  34
+Cost 2300
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 10 19 0 0
+AffD 'enchant weapon' 51 -1 6 18 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 125 0 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 736
+Nest 1
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'detect evil'
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 736
+Nest 1
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'detect evil'
+End
+
+#O
+Vnum 736
+Nest 1
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'detect evil'
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 736
+Nest 1
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'detect evil'
+End
+
+#O
+Vnum 9212
+Enchanted
+Nest 1
+ExtF 64
+Wear -1
+Lev  24
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -4 17 0 0
+End
+
+#O
+Vnum 9212
+Enchanted
+Nest 1
+ExtF 64
+Wear -1
+Lev  24
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -4 17 0 0
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 1368
+Nest 1
+Wear -1
+Lev  22
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'teleport'
+Spell 3 'cure blindness'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 4639
+Nest 1
+Name steroid~
+ShD  Papa Smurf's steroids~
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Name steroid~
+ShD  Papa Smurf's steroids~
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Name steroid~
+ShD  Papa Smurf's steroids~
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Enchanted
+Nest 1
+Wear -1
+Lev  35
+Cost 2600
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -1 17 0 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Name steroid~
+ShD  Papa Smurf's steroids~
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Enchanted
+Nest 0
+ExtF 65
+Wear 14
+Lev  32
+Cost 500
+Cond 100
+Repd 0
+AffD 'enchant armor' 51 -1 -5 17 0 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

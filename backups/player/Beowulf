@@ -1,0 +1,346 @@
+#PLAYER
+Name Beowulf~
+Id   28492
+LogO 952392503
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 32
+Plyd 244500
+ListRemorts ~
+NumRemorts 0
+Note 952389700
+Scro 22
+Room 4208
+HMV  508 508 145 235 93 311
+NewGold 1
+NewPlat 487
+NewCopp 2
+NewSilv 0
+Bank 11000
+Dcount 0
+Corpses	0
+PkRec 16
+PkGiv 0
+Exp  72801
+Act  196812
+AfBy 514
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 5
+Color 8 5
+Color 9 14
+Color 10 12
+Color 11 5
+Color 12 4
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 8
+Trai 3
+Alig  1000
+Hit   4
+Dam   3
+ACs 31 36 36 89
+Wimp  70
+Attr 17 16 18 16 19
+AMod 0 0 0 0 1
+Pass BeOV9yiJ.wR..~
+Titl  the Baron of Storms~
+Pnts 40
+TSex 1
+LLev 63
+HMVP 424 215 286
+Cond 0 0 29
+Alias 1 exam cor~
+Alias 2 get all cor~
+Alias 3 sac cor~
+Alias bb bash~
+Alias kk kick~
+Alias ep enter portal~
+Alias vv hold sword~
+Alias cl c 'cure light'~
+Alias gg get all~
+Alias cs c 'cure serious'~
+Alias dd c 'dispel magic'~
+Alias rr recall~
+Alias cc c 'cure critical'~
+Alias eb exam pack~
+Alias 7 c ref~
+Alias 8 c man~
+Alias re rest~
+Alias res rescue~
+Alias q quaff~
+Sk 78 'aid'
+Sk 28 'armor'
+Sk 78 'bless'
+Sk 42 'calm'
+Sk 73 'cancellation'
+Sk 1 'cause light'
+Sk 76 'cure critical'
+Sk 64 'cure light'
+Sk 31 'cure serious'
+Sk 25 'detect evil'
+Sk 26 'detect good'
+Sk 73 'dispel magic'
+Sk 1 'flamestrike'
+Sk 25 'fly'
+Sk 26 'gate'
+Sk 43 'heal'
+Sk 1 'holy word'
+Sk 26 'identify'
+Sk 31 'mana convert'
+Sk 25 'pass door'
+Sk 73 'protection evil'
+Sk 30 'refresh'
+Sk 25 'remove curse'
+Sk 1 'sanctuary'
+Sk 30 'shield'
+Sk 25 'spiritual hammer'
+Sk 49 'stone skin'
+Sk 25 'summon'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 11 'dagger'
+Sk 5 'flail'
+Sk 7 'mace'
+Sk 16 'polearm'
+Sk 60 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 82 'bash'
+Sk 13 'disarm'
+Sk 81 'kick'
+Sk 46 'parry'
+Sk 13 'rescue'
+Sk 72 'second attack'
+Sk 27 'scrolls'
+Sk 1 'staves'
+Sk 60 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'invis'   9  13   0   0          2          0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 223
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 133
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 233
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 164
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 87
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 87
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 243
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 211
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 194
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 195
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9323
+Nest 0
+Wear 16
+Lev  28
+Cost 0
+Cond 99
+Repd 0
+Affect -1 28 -1 -1 13 0 0
+End
+
+#O
+Vnum 10020
+Nest 0
+Wear 5
+Lev  13
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 4 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear 11
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Val  5 3 3 0 0
+Affect -1 9 -1 -3 17 0 0
+End
+
+#END

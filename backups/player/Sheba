@@ -1,0 +1,416 @@
+#PLAYER
+Name Sheba~
+Id   37183
+LogO 949541570
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 27
+Plyd 515483
+ListRemorts ~
+NumRemorts 0
+Note 949511661
+Scro 22
+Room 4208
+HMV  269 269 353 353 256 256
+NewGold 32692
+NewPlat 0
+NewCopp 8
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 203
+Exp  59880
+Act  1048780
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Trai 2
+Alig  21
+Hit   14
+Dam   32
+ACs -20 -16 -23 90
+Wimp  100
+Attr 14 18 13 14 11
+AMod 5 0 0 4 0
+Pass ShJGe1vpHoOUY~
+Titl  the Maker of Potions~
+Pnts 40
+TSex 2
+LLev 118
+HMVP 259 353 256
+Cond 0 0 0
+Sk 1 'acid blast'
+Sk 83 'armor'
+Sk 91 'burning hands'
+Sk 1 'chain lightning'
+Sk 89 'chill touch'
+Sk 85 'colour spray'
+Sk 75 'detect invis'
+Sk 97 'faerie fire'
+Sk 88 'fireball'
+Sk 73 'fire shield'
+Sk 79 'fly'
+Sk 1 'force sword'
+Sk 27 'frost shield'
+Sk 86 'gate'
+Sk 86 'giant strength'
+Sk 80 'haste'
+Sk 1 'haven'
+Sk 68 'heat metal'
+Sk 81 'identify'
+Sk 75 'infravision'
+Sk 95 'lightning bolt'
+Sk 76 'locate object'
+Sk 76 'magic missile'
+Sk 96 'mana convert'
+Sk 79 'pass door'
+Sk 1 'portal'
+Sk 53 'power gloves'
+Sk 75 'refresh'
+Sk 78 'shield'
+Sk 83 'shocking grasp'
+Sk 83 'slow'
+Sk 52 'summon'
+Sk 75 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 9 'flail'
+Sk 26 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 79 'sword'
+Sk 20 'whip'
+Sk 100 'sneak'
+Sk 25 'scrolls'
+Sk 1 'wands'
+Sk 58 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage transportation'
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 13296
+Nest 0
+Wear 11
+Lev  18
+Cost 1
+Cond 100
+Repd 0
+Val  1 2 3 2 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  17
+Cost 1000
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  19
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  9
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  7 5 6 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  7 5 6 -1 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  13
+Cost 210
+Cond 100
+Repd 0
+Val  6 4 5 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Time 742
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 91 0 0 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Wear 8
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 16
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

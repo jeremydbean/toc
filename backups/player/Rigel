@@ -1,0 +1,91 @@
+#PLAYER
+Name Rigel~
+Id   5085
+LogO 941522536
+Vers 3
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 7
+Plyd 16808
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4208
+HMV  74 74 107 107 136 136
+Gold 1581
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  16239
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -7
+Alig  -8
+Hit   7
+ACs 100 100 100 100
+Wimp  15
+Attr 16 14 15 21 13
+AMod 0 0 0 0 0
+Pass RijjvhXimng3o~
+Titl  the Cut-Purse~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 74 107 136
+Cond 0 42 24
+Sk 7 'axe'
+Sk 82 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 77 'backstab'
+Sk 33 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 69 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'bless'   2  65  -7  24          0          0
+AffD 'bless'  28  65   7  18          0          0
+End
+
+#END

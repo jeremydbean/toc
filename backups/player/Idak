@@ -1,0 +1,374 @@
+#PLAYER
+Name IDAK~
+Id   3780
+LogO 950843442
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  0
+Cast none
+Levl 7
+Plyd 34774
+ListRemorts ~
+NumRemorts 0
+Note 921459202
+Scro 22
+Room 1102
+HMV  89 89 108 108 136 136
+NewGold 113
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 300
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  16279
+Act  65788
+AfBy 512
+Comm 28688
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Alig  -54
+ACs 56 61 55 99
+Wimp  12
+Attr 17 14 16 15 16
+AMod 2 1 2 0 1
+Pass IDcx1Z4c9L8ng~
+Titl  the Veteran~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 81 108 136
+Cond 0 0 23
+Alias ii look idak~
+Alias kk kick~
+Sk 1 'armor'
+Sk 1 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 21 'mace'
+Sk 15 'polearm'
+Sk 76 'shield block'
+Sk 10 'spear'
+Sk 73 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 71 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 63 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3722
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+End
+
+#O
+Vnum 3723
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3726
+Nest 0
+Wear 13
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1103
+Nest 1
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1103
+Nest 1
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1103
+Nest 1
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1103
+Nest 1
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3816
+Nest 0
+Wear 10
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear 16
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear 0
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 38 0 0
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3097
+Nest 0
+Wear 11
+Lev  5
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 616
+Nest 0
+Wear 5
+Lev  7
+Cost 50
+Cond 100
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 2
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 616
+Nest 0
+Wear -1
+Lev  7
+Cost 50
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,566 @@
+#PLAYER
+Name Astarti~
+Id   23127
+LogO 1539675347
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  0
+Cast none
+Levl 5
+Tru  70
+Plyd 2615
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4710
+HMV  74 74 163 163 89 89
+NewGold 0
+NewPlat 0
+NewCopp 71
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  10902
+Act  205052
+AfBy 524288
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 21
+Trai 38
+Save  -9
+Alig  0
+Hit   11
+Dam   3
+ACs 50 50 54 65
+Attr 13 16 13 13 13
+AMod 5 11 16 0 14
+Pass MiJx5Di.yq8i6~
+Titl  the Assistant to the Dead~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 64 153 124
+Cond 0 5 5
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias 0 tell killum spellup~
+Sk 1 'animate parts'
+Sk 1 'armor'
+Sk 1 'cancellation'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 1 'create skeleton'
+Sk 1 'create wraith'
+Sk 1 'create vampire'
+Sk 1 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 1 'earth travel'
+Sk 1 'embalm'
+Sk 1 'energy drain'
+Sk 1 'evil eye'
+Sk 1 'fly'
+Sk 1 'haven'
+Sk 1 'major globe'
+Sk 1 'pass door'
+Sk 1 'poison'
+Sk 1 'raise dead'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 1 'ghostly presence'
+Sk 1 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'trap the soul'
+Sk 1 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 80 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'life & undeath'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'bless'  45  38   8  18          0          0
+AffD 'bless'  44  38  -8  24          0          0
+AffD 'fly'   0  35   0   0     524288          0
+AffD 'shield'   0  40 -20  17          0          0
+AffD 'giant strength'   0  32   4   1          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 157 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Name newbie pack~
+ShD  A *NEWBIE* pack!~
+Desc A *NEWBIE* pack lies here.~
+Wt   1
+Wear 12
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  1
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  1
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5776
+Nest 0
+Wear -1
+Lev  1
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  1
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 3
+Lev  1
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 200
+Cond 100
+Repd 0
+Val  3 4 2 0 0
+End
+
+#O
+Vnum 12
+Nest 0
+ShD  the head of Kyrus~
+Desc The severed head of Kyrus is lying here.~
+ExtF 16777216
+Wear -1
+Lev  1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  1
+Cost 729
+Cond 100
+Repd 0
+Val  150 138 0 0 0
+End
+
+#O
+Vnum 3605
+Nest 0
+Wear 2
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 0
+Wear 1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 0
+Wear -1
+Lev  1
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 0
+Wear -1
+Lev  1
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 3081
+Nest 0
+Wear -1
+Lev  1
+Cost 10000
+Cond 100
+Repd 0
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+Wear -1
+Lev  1
+Cost 10000
+Cond 100
+Repd 0
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 0
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5780
+Nest 0
+Wear -1
+Lev  1
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

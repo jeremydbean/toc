@@ -1,0 +1,644 @@
+#PLAYER
+Name Lorini~
+Id   4428
+LogO 949882273
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  2
+Cast none
+Levl 43
+Plyd 232643
+ListRemorts ~
+NumRemorts 0
+Note 949776418
+Scro 22
+Room 4208
+HMV  658 732 272 289 352 352
+NewGold 1
+NewPlat 2473
+NewCopp 92
+NewSilv 4
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 11
+Exp  101306
+Act  204
+AfBy 524808
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 900302960
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 0
+Color 6 2
+Color 7 2
+Color 8 3
+Color 9 3
+Color 10 3
+Color 11 7
+Color 12 7
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 7
+Pos  8
+Prac 14
+Trai 11
+Save  -6
+Alig  1000
+Hit   14
+Dam   24
+ACs -110 -106 -105 8
+Wimp  50
+Attr 17 13 12 12 17
+AMod 6 9 8 5 2
+Pass LoaHrHdPhkr1w~
+Titl  the Master Warrior~
+Pnts 40
+TSex 1
+LLev 61
+HMVP 707 269 352
+Cond 0 2 38
+Alias [ where~
+Alias mc c 'mana convert'~
+Alias 1 get knife~
+Alias 2 wear knife~
+Alias dm c 'dispel magic'~
+Sk 57 'armor'
+Sk 1 'burning hands'
+Sk 1 'water burst'
+Sk 49 'cancellation'
+Sk 1 'chill touch'
+Sk 51 'detect invis'
+Sk 52 'dispel magic'
+Sk 1 'dust devil'
+Sk 51 'faerie fire'
+Sk 58 'fly'
+Sk 52 'gate'
+Sk 45 'giant strength'
+Sk 74 'haste'
+Sk 49 'icicle'
+Sk 38 'infravision'
+Sk 1 'lightning bolt'
+Sk 49 'locate object'
+Sk 1 'magic missile'
+Sk 82 'mana convert'
+Sk 49 'pass door'
+Sk 53 'protection evil'
+Sk 29 'refresh'
+Sk 77 'sanctuary'
+Sk 52 'shield'
+Sk 77 'slow'
+Sk 49 'stone skin'
+Sk 49 'summon'
+Sk 1 'sunray'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 94 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 85 'shield block'
+Sk 10 'spear'
+Sk 66 'sword'
+Sk 10 'whip'
+Sk 32 'bash'
+Sk 1 'disarm'
+Sk 90 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 62 'rescue'
+Sk 94 'second attack'
+Sk 75 'scrolls'
+Sk 17 'wands'
+Sk 65 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+Gr 'guild elemental'
+Gr 'guild enhancement'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'fly'  43   2   0   0     524288          0
+AffD 'shield'  39  11 -20  17          0          0
+AffD 'stone skin'   6  16 -40  17          0          0
+AffD 'detect invis'  22  39   0   0          8          0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  8
+Cost 1250
+Cond 95
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear 8
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17707
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  7
+Cost 1000
+Cond 97
+Repd 0
+Val  5 4 3 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28024
+Nest 0
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  2 2 2 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear -1
+Lev  25
+Cost 150
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  3
+Cost 10
+Cond 95
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 4
+Lev  18
+Cost 750
+Cond 96
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear 3
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3167
+Nest 0
+Wear -1
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 3023
+Nest 0
+Wear 16
+Lev  5
+Cost 150
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3750
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3750
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17112
+Nest 0
+Wear -1
+Lev  35
+Cost 3440
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3750
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3750
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3750
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

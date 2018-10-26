@@ -1,0 +1,369 @@
+#PLAYER
+Name Oblivion~
+Id   59047
+LogO 953280926
+Vers 3
+Desc The Watcher says to you 'You aren't worth the trouble to kill!'
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 53
+Plyd 2245617
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  1046 1046 343 343 287 287
+NewGold 57
+NewPlat 5089
+NewCopp 269
+NewSilv 100
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 134
+Exp  127069
+Act  220
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 8
+Save  5
+Alig  1000
+Hit   32
+Dam   47
+ACs -25 -20 -20 58
+Attr 17 13 18 11 17
+AMod 6 6 -1 2 -2
+Pass ObeJZB85vu4ag~
+Ariv $n utters the words, 'sa$ta panofo'.~
+Dprt $n's backstab <<< ERADICATES >>> you. You're DEAD!$t~
+Titl  ist NAKT!!!~
+Pnts 40
+TSex 1
+LLev 284
+HMVP 1011 272 387
+Cond 0 32 48
+Sk 93 'aid'
+Sk 95 'armor'
+Sk 97 'bless'
+Sk 77 'calm'
+Sk 98 'cancellation'
+Sk 1 'cause light'
+Sk 100 'cure critical'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 94 'dispel magic'
+Sk 1 'flamestrike'
+Sk 84 'fly'
+Sk 100 'gate'
+Sk 90 'heal'
+Sk 50 'holy word'
+Sk 91 'identify'
+Sk 100 'mana convert'
+Sk 87 'pass door'
+Sk 89 'protection evil'
+Sk 100 'refresh'
+Sk 74 'remove curse'
+Sk 96 'sanctuary'
+Sk 91 'shield'
+Sk 1 'spiritual hammer'
+Sk 90 'stone skin'
+Sk 82 'summon'
+Sk 1 'teleport'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 97 'archery'
+Sk 100 'bash'
+Sk 96 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 99 'rescue'
+Sk 100 'second attack'
+Sk 100 'meditation'
+Sk 92 'shove'
+Sk 98 'scrolls'
+Sk 1 'staves'
+Sk 92 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Nest 0
+Wear 1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29239
+Nest 0
+ExtF 3146048
+Wear -1
+Lev  54
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 3 24 0 0
+Affect -1 53 -1 2 20 0 0
+Affect -1 53 -1 -4 4 0 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17023
+Nest 0
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+Affect -1 53 -1 9 17 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24216
+Nest 0
+ExtF 64
+Wear -1
+Lev  30
+Cost 1200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear -1
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9976 0 0
+End
+
+#O
+Vnum 24006
+Nest 0
+ExtF 256
+Wear 12
+Lev  14
+Cost 175
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 0
+ExtF 19
+Wear 16
+Lev  53
+Cost 2000
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Affect -1 50 -1 -4 5 0 0
+Affect -1 50 -1 -4 12 0 0
+End
+
+#END

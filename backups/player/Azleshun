@@ -1,0 +1,509 @@
+#PLAYER
+Name Azleshun~
+Id   63962
+LogO 953527313
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 41
+Plyd 327779
+ListRemorts ~
+NumRemorts 0
+Note 953476820
+Scro 22
+Room 4210
+HMV  746 746 283 283 214 365
+NewGold 1
+NewPlat 1863
+NewCopp 78
+NewSilv 9
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 0
+Exp  92279
+Act  204
+AfBy 568
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Trai 1
+Save  -8
+Alig  1000
+Hit   20
+Dam   42
+ACs -46 -24 -32 79
+Wimp  25
+Attr 22 15 15 14 17
+AMod 5 -5 2 -1 0
+Pass Az2DMURtqhpFM~
+Ariv the hair of $n flows in the wind , she arrives from $T~
+Dprt the hair of $n dances in the wind, she departs to $T~
+Titl . has a fetish for FYRE~
+Pnts 40
+TSex 1
+LLev 90
+HMVP 717 213 340
+Cond 0 0 37
+Alias smite smite guard~
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 80 'mace'
+Sk 15 'polearm'
+Sk 84 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 12 'bash'
+Sk 1 'disarm'
+Sk 73 'dodge'
+Sk 100 'enhanced damage'
+Sk 36 'kick'
+Sk 82 'parry'
+Sk 9 'rescue'
+Sk 90 'second attack'
+Sk 83 'third attack'
+Sk 67 'fast healing'
+Sk 66 'recall'
+Sk 100 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'detect hidden'  30   3   0   0         32          0
+AffD 'detect magic'  34   3   0   0         16          0
+AffD 'detect invis'   0   3   0   0          8          0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 85
+Repd 0
+Affect -1 23 -1 -3 4 0 0
+Affect -1 23 -1 -5 3 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 73
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 74
+Repd 0
+Affect -1 30 -1 1 4 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 4447
+Nest 1
+Wear -1
+Lev  25
+Cost 1200
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 14 0 0 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 1
+Wear -1
+Lev  22
+Cost 5060
+Cond 89
+Repd 0
+Affect -1 22 -1 -4 2 0 0
+Affect -1 22 -1 -1 3 0 0
+End
+
+#O
+Vnum 9321
+Nest 1
+Wear -1
+Lev  25
+Cost 1750
+Cond 90
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Time 842
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5780
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 333
+Cond 100
+Repd 0
+Val  4 4 3 4 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 98
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 75
+Repd 0
+Affect -1 1 -1 4 21 0 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 98
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  8
+Cost 1250
+Cond 83
+Repd 0
+Val  5 5 3 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13407
+Nest 0
+Wear 16
+Lev  30
+Cost 973
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+Affect -1 28 -1 -1 13 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 9951 0 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 22000
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

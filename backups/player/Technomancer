@@ -1,0 +1,862 @@
+#PLAYER
+Name Technomancer~
+Id   12388
+LogO 953488799
+Vers 3
+Desc Bremen errupts in a fury of flying fists!
+Lightning quick, Bremen's fists slam into you!
+Bremen's fists of fury DISEMBOWELS you!
+Lightning quick, Bremen's fists slam into you!
+Bremen's fists of fury DISEMBOWELS you!
+Lightning quick, Bremen's fists slam into you!
+Bremen's fists of fury DISEMBOWELS you!
+Lightning quick, Bremen's fists slam into you!
+Bremen's fists of fury DISEMBOWELS you!
+
+[ Bremen: excellent <*> You: wounded ]
+269hp 420m 260end> A glowing ball of electrical energy flys from your hand!
+It strikes Bremen and they jiggle and shake.
+Your shock sphere ^^^ DESTROYS ^^^ Bremen!
+Bremen's punch *** DEVASTATES *** you!
+Bremen's punch MANGLES you!
+Bremen parries your attack.
+
+[ Bremen: excellent <*> You: pretty hurt ]
+143hp 390m 260end> 
+Bremen's punch ^^^ DESTROYS ^^^ you!
+You sure are BLEEDING!
+Bremen's punch MANGLES you!
+You are incapacitated and will slowly die, if not aided.
+
+-3hp 390m 260end> c shock bremen
+You are hurt far too bad for that.
+
+-3hp 390m 260end> 
+You have been KILLED!!
+
+!<POOF>!
+Lightning quick, Bremen's fists slam into you!
+Bremen's fists of fury MUTILATES you!
+You have been KILLED!!
+
+!<POOF>!
+Bremen's fists of fury DISEMBOWELS you!
+You have been KILLED!!
+
+!<POOF>!
+Bremen's fists of fury maims you!
+You have been KILLED!!
+
+!<POOF>!
+
+1hp 390m 260end> 
+_________________________________________________________________________________________
+
+Bremen utters the words, 'oculoahp grul'.
+A sickly ray of green light flys from Bremen's hand and strikes GoldenEagle!
+GoldenEagle screams and dies!
+You hear GoldenEagle's death cry.
+_________________________________________________________________________________________
+
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 45
+Plyd 200961
+ListRemorts ~
+NumRemorts 0
+Note 940171280
+Scro 22
+Room 2401
+HMV  794 883 449 669 339 339
+NewGold 10475
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  90922
+Act  196808
+AfBy 524928
+AfBy2 1544
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 3
+Trai 1
+Save  -8
+Alig  1000
+Hit   16
+Dam   27
+ACs -118 -123 -121 -4
+Attr 13 19 13 13 18
+AMod 11 2 0 1 0
+Pass Ter0txRxnvGbA~
+Ariv $n arrives from $T, the earth crumbling as he walks.~
+Dprt $n's form fades into the shadows as he journeys $t.~
+Titl  the Voodoo Master~
+Pnts 40
+TSex 1
+LLev 52
+HMVP 653 619 364
+Cond 0 34 45
+Sk 95 'animate parts'
+Sk 73 'armor'
+Sk 77 'blindness'
+Sk 79 'cancellation'
+Sk 76 'cause light'
+Sk 75 'chill touch'
+Sk 76 'create skeleton'
+Sk 75 'create wraith'
+Sk 75 'create vampire'
+Sk 80 'butcher'
+Sk 75 'bewitch weapon'
+Sk 75 'curse'
+Sk 82 'death shroud'
+Sk 80 'earth travel'
+Sk 75 'embalm'
+Sk 75 'energy drain'
+Sk 1 'evil eye'
+Sk 77 'fly'
+Sk 75 'force sword'
+Sk 1 'haven'
+Sk 76 'infravision'
+Sk 75 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 75 'pass door'
+Sk 75 'plague'
+Sk 75 'poison'
+Sk 76 'raise dead'
+Sk 75 'remove curse'
+Sk 75 'rope trick'
+Sk 82 'sanctuary'
+Sk 77 'shield'
+Sk 75 'shroud'
+Sk 84 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 78 'tentacles'
+Sk 1 'trap the soul'
+Sk 1 'vampiric touch'
+Sk 75 'weaken'
+Sk 75 'neutrality field'
+Sk 8 'axe'
+Sk 97 'dagger'
+Sk 6 'flail'
+Sk 83 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 86 'dodge'
+Sk 71 'scrolls'
+Sk 75 'wands'
+Sk 69 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'ghostly presence'   0   4   0   0          0       1024
+AffD 'major globe'   0  23 -80  17          0          0
+AffD 'fly'   0  47   0   0     524288          0
+AffD 'force sword'   4   1   0   0          0        512
+AffD 'death shroud'  33   0   0   0          0          8
+AffD 'sanctuary'  20   3   0   0        128          0
+AffD 'infravision'  33  40   0   0        512          0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  13
+Cost 0
+Cond 100
+Repd 0
+Val  3 5 5 -1 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 2338 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 -1 0
+End
+
+#O
+Vnum 17112
+Nest 0
+ExtF 5378
+Wear 16
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 1
+ExtF 98
+Wear -1
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5780
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 2 2 -1 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 2 4 0 0
+End
+
+#O
+Vnum 1388
+Nest 1
+Wear -1
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 5 -1 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 8 0 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+Val  6 8 7 0 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  6 7 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 4618
+Nest 1
+Wear -1
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 1
+Wear -1
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 13 0 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear 8
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#END

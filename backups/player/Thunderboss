@@ -1,0 +1,426 @@
+#PLAYER
+Name Thunderboss~
+Id   53721
+LogO 953244981
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 24
+Plyd 52362961
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  505 505 167 167 171 238
+NewGold 4511
+NewPlat 17
+NewCopp 74
+NewSilv 84
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 34
+Exp  57901
+Act  252
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 4
+Color 7 0
+Color 8 5
+Color 9 0
+Color 10 9
+Color 11 3
+Color 12 11
+Color 13 0
+Color 14 0
+Color 15 1
+Color 16 10
+Pos  8
+Prac 2
+Trai 1
+Save  -1
+Alig  -1000
+Hit   13
+Dam   12
+ACs -27 -27 -21 92
+Wimp  87
+Attr 17 14 15 14 13
+AMod 4 1 0 6 0
+Pass Th0WvkSDxfJU2~
+Titl  the Psycho Killer Dragon~
+Pnts 40
+TSex 1
+LLev 14544
+HMVP 435 158 238
+Cond 8 22 38
+Sk 52 'axe'
+Sk 75 'dagger'
+Sk 5 'flail'
+Sk 75 'mace'
+Sk 15 'polearm'
+Sk 81 'shield block'
+Sk 10 'spear'
+Sk 97 'sword'
+Sk 10 'whip'
+Sk 54 'disarm'
+Sk 96 'kick'
+Sk 83 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 76 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 99
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Val  6 7 6 0 0
+End
+
+#O
+Vnum 13296
+Nest 0
+Wear 11
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 3 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  4 6 5 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3113
+Nest 0
+Wear 8
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19118
+Nest 0
+Wear 5
+Lev  19
+Cost 900
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6512
+Nest 0
+Wear 9
+Lev  19
+Cost 3200
+Cond 100
+Repd 0
+Val  6 7 6 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 8000
+Nest 0
+Wear -1
+Lev  16
+Cost 401
+Cond 100
+Repd 0
+Spell 3 'high explosive'
+End
+
+#O
+Vnum 4154
+Nest 0
+Wear -1
+Cost 2000
+Cond 50
+Repd 0
+End
+
+#O
+Vnum 5223
+Nest 0
+Wear 3
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 620
+Nest 0
+Wear 2
+Lev  17
+Cost 0
+Cond 94
+Repd 0
+Val  6 6 6 0 0
+Affect -1 17 -1 -1 12 0 0
+End
+
+#O
+Vnum 616
+Nest 0
+Wear -1
+Lev  7
+Cost 50
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 3043
+Nest 0
+Wear -1
+Lev  5
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24313
+Nest 0
+Wear -1
+Lev  1
+Time 64
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+End
+
+#O
+Vnum 1711
+Nest 0
+Wear 6
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9585
+Nest 0
+Wear -1
+Lev  13
+Cost 80
+Cond 100
+Repd 0
+Val  2 4 5 2 0
+Affect -1 13 -1 4 17 0 0
+End
+
+#O
+Vnum 5105
+Nest 0
+Wear 16
+Lev  21
+Cost 900
+Cond 100
+Repd 0
+Val  1 5 7 3 0
+End
+
+#O
+Vnum 20126
+Nest 0
+ExtF 64
+Wear 17
+Lev  21
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'faerie fire'
+Affect -1 52 -1 -1 2 0 0
+End
+
+#O
+Vnum 29024
+Nest 0
+Wear 1
+Lev  23
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 0
+Cond 90
+Repd 0
+Val  20 6 0 0 0
+End
+
+#O
+Vnum 4485
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4486
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  10 4 1 0 0
+End
+
+#END

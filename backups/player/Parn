@@ -1,0 +1,1009 @@
+#PLAYER
+Name Parn~
+Id   37151
+LogO 945405952
+Vers 3
+Desc Parn is dying.
+~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 53
+Plyd 807744
+ListRemorts ~
+NumRemorts 0
+Note 933377447
+Scro 22
+Room 4208
+HMV  1119 1119 282 282 372 372
+Gold 86180
+Bank 952709
+Dcount 0
+Corpses	3
+PkRec 0
+PkGiv 0
+QuestPnts 132
+Exp  142488
+Act  204
+AfBy 10
+Comm 290880
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 13
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 9
+Color 8 13
+Color 9 14
+Color 10 12
+Color 11 8
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 6
+Save  -9
+Alig  874
+Hit   49
+Dam   71
+ACs -113 -110 -112 30
+Attr 16 16 17 16 18
+AMod 12 2 0 4 0
+Pass PaHHNcRDQ1Hg6~
+Titl  the use-and-abuse warrior~
+Pnts 40
+TSex 1
+LLev 190
+HMVP 1094 227 412
+Cond 0 25 48
+Alias shout shout A stinky imm forced me to shout~
+Sk 33 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 75 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 32 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 100 'archery'
+Sk 87 'berserk'
+Sk 92 'disarm'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 98 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 94 'rescue'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 94 'fast healing'
+Sk 79 'door bash'
+Sk 83 'shove'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16005
+Nest 0
+Wear 6
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20302
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 723
+Nest 1
+Wear -1
+Lev  45
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29241
+Nest 1
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name iou~
+ShD  iou 1 restring for winning my quest - Calli~
+Desc an iou~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 28114
+Nest 1
+ExtF 19713
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 1
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Name M&M~
+ShD  (Melting) a bag of M&M's~
+Desc A bag of M&M's is lieing on the ground here melting away.~
+Act_room $n picks up the bag of M&M's and they melt all over the place.~
+Act_char Yummmy, melts in your mouth, not in your hand.~
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19120
+Nest 1
+Wear -1
+Lev  43
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16030
+Nest 1
+Wear -1
+Lev  52
+Cost 2560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16030
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 71
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 95
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 52 -1 8 19 0 0
+AffD 'enchant weapon' 52 -1 8 18 0 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 1
+Wear -1
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 29243
+Nest 1
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Nest 1
+Act_room .~
+Act_char .~
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10012
+Nest 0
+Wear 11
+Lev  50
+Cost 833
+Cond 100
+Repd 0
+Val  13 13 13 2 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9924
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20533
+Enchanted
+Nest 0
+Wear -1
+Lev  44
+Cost 10000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 43 -1 4 19 0 0
+AffD 'enchant weapon' 43 -1 4 18 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 0
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 640
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25028
+Nest 0
+Wear -1
+Lev  50
+Cost 2500
+Cond 100
+Repd 0
+Val  50 6 5 66 0
+Spell 3 'fly'
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 0
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Val  51 10 9 6 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 0
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 0
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18013
+Nest 0
+Wear -1
+Lev  48
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 9923
+Nest 0
+ExtF 1048579
+Wear 16
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1523
+Nest 0
+Wear -1
+Lev  10
+Time 101
+Cost 1089
+Cond 100
+Repd 0
+Spell 1 'cure poison'
+Spell 2 'bless'
+End
+
+#O
+Vnum 2334
+Nest 0
+Wear -1
+Lev  26
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#END

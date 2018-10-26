@@ -1,0 +1,296 @@
+#PLAYER
+Name Shawna~
+Id   30833
+LogO 947929449
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 8
+Plyd 20474
+ListRemorts ~
+NumRemorts 0
+Note 947914333
+Scro 22
+Room 2430
+HMV  68 68 27 137 181 341
+NewGold 2
+NewPlat 18
+NewCopp 86
+NewSilv 0
+Bank 40400
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  17739
+Act  252
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 12
+Trai 7
+Save  -8
+Alig  -1000
+Hit   7
+ACs 41 43 39 76
+Attr 12 18 15 14 14
+AMod 4 3 2 1 2
+Pass ShufAN/EADTGE~
+Titl  or Jenna whom ever is in control now. ~
+Pnts 40
+TSex 2
+LLev 5
+HMVP 68 137 142
+Cond 0 42 12
+Alias 5 title or Jenna whom ever is in control now.~
+Sk 75 'armor'
+Sk 1 'burning hands'
+Sk 79 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 86 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 1 'sneak'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+AffD 'bless'   6  20   7  18          0          0
+AffD 'bless'   9  20  -7  24          0          0
+AffD 'armor'   2  17 -20  17          0          0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 0
+Cond 77
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 98
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 92
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Affect -1 2 -1 -1 14 0 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 20104
+Nest 0
+ExtF 65
+Wear -1
+Lev  5
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3043
+Nest 0
+Wear 1
+Lev  5
+Cost 500
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear -1
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 107 0 0
+End
+
+#O
+Vnum 2802
+Nest 0
+Wear -1
+Lev  10
+Cost 1331
+Cond 100
+Repd 0
+Affect -1 10 -1 -17 14 0 0
+End
+
+#END

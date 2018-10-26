@@ -1,0 +1,787 @@
+#PLAYER
+Name Shaft~
+Id   12731
+LogO 947729512
+Vers 3
+Desc Who's the black private DIC tha's a sex machine with all the chicks?
+SHAFT
+Damn Right.
+Who is the man that would risk his neck for his brother man?
+SHAFT
+Can you dig it?
+Who's the cat tha' won't cop out when there's danger all about?
+SHAFT
+Right on.
+They say this cat is a bad muthaf-
+Shut yo' mouth!
+Just talkin' 'bout Shaft.
+Then we can dig it.
+He's a complicated man, no-one understands him but his woman -
+John Shaft
+THE D  \/ D
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 35
+Plyd 225905
+ListRemorts ~
+NumRemorts 0
+Note 932702146
+Scro 22
+Room 4210
+HMV  612 612 192 192 344 344
+NewGold 50080
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 37
+Exp  80493
+Act  200
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 10
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 7
+Color 7 14
+Color 8 14
+Color 9 14
+Color 10 11
+Color 11 8
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 3
+Trai 3
+Save  -2
+Alig  1000
+Hit   12
+Dam   19
+ACs 41 53 46 91
+Wimp  122
+Attr 18 13 15 15 18
+AMod 5 4 6 3 2
+Pass Shqk1qzZuiDcc~
+Ariv $n walks in from $T and does the Super Pimp stroll.~
+Dprt $n leaves $t, doing the Super Pimp stroll.~
+Titl  The 3r337 haX0r~
+Pnts 40
+TSex 1
+LLev 62
+HMVP 562 152 304
+Cond 0 22 0
+Alias cong go -*&!*&!-*&!-*&!-CONGRATZ*&!-*&!-*&!-*&!-alias cong go -*&!*&!-*&!-*&!-CONGRATZ*&!-*&!-*&!-*&!- ~
+Alias 1 bash~
+Alias gold steal gold~
+Alias 2 stealth~
+Alias wep wield dag~
+Alias pots put all.pot met~
+Alias dis get dag~
+Alias a back ada~
+Alias sec open hidden~
+Alias time aquest time~
+Alias grab get crown~
+Sk 7 'axe'
+Sk 93 'dagger'
+Sk 5 'flail'
+Sk 62 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 98 'sword'
+Sk 20 'whip'
+Sk 86 'backstab'
+Sk 75 'bash'
+Sk 84 'dodge'
+Sk 86 'dual wield'
+Sk 81 'parry'
+Sk 29 'trip'
+Sk 82 'second attack'
+Sk 1 'hide'
+Sk 74 'peek'
+Sk 75 'pick lock'
+Sk 15 'sneak'
+Sk 75 'search'
+Sk 91 'sleight of hand'
+Sk 75 'steal'
+Sk 79 'stealth'
+Sk 75 'track'
+Sk 62 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear -1
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  18
+Cost 1000
+Cond 98
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+Wear -1
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear -1
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 11
+Lev  23
+Cost 1300
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear -1
+Lev  19
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 24309
+Nest 0
+Wear 5
+Lev  3
+Cost 200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 85
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19108
+Nest 1
+Wear -1
+Lev  17
+Cost 50
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 100
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'change sex'
+End
+
+#O
+Vnum 100
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'change sex'
+End
+
+#O
+Vnum 20134
+Nest 1
+Wear -1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15015
+Nest 1
+Wear -1
+Lev  23
+Cost 150
+Cond 100
+Repd 0
+Val  0 4 7 7 0
+End
+
+#O
+Vnum 10047
+Nest 1
+Wear -1
+Lev  31
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  10 5 1 0 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 6 0 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3029
+Nest 1
+Wear -1
+Lev  10
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 1
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3050
+Nest 1
+Wear -1
+Cost 1000
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 9523
+Nest 1
+Wear -1
+Lev  13
+Cost 225
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 3021
+Nest 1
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5021
+Nest 1
+Wear -1
+Lev  19
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5020
+Nest 1
+Wear -1
+Lev  19
+Cost 450
+Cond 100
+Repd 0
+Spell 3 'magic missile'
+End
+
+#O
+Vnum 10048
+Nest 1
+Wear -1
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  7 8 6 0 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3753
+Nest 0
+Wear -1
+Lev  5
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3753
+Nest 0
+Wear -1
+Lev  5
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3753
+Nest 0
+Wear -1
+Lev  5
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3753
+Nest 0
+Wear -1
+Lev  5
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 63 0 0 0
+End
+
+#O
+Vnum 82
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 56
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#END

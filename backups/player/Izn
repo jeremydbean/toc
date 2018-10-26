@@ -1,0 +1,598 @@
+#PLAYER
+Name Izn~
+Id   63566
+LogO 948302328
+Vers 3
+Desc Izn is working to become a Wizard of Rock.  He is ambitious, and strives to be as theiving as possible.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 10
+Plyd 50905
+ListRemorts ~
+NumRemorts 0
+Note 942286558
+Scro 22
+Room 4207
+HMV  107 107 114 114 62 201
+NewGold 2213
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 16194
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  19991
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 8
+Color 3 9
+Color 4 0
+Color 5 0
+Color 6 11
+Color 7 0
+Color 8 0
+Color 9 7
+Color 10 12
+Color 11 1
+Color 12 5
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 11
+Pos  8
+Save  4
+Alig  54
+Hit   4
+ACs 13 1 1 41
+Wimp  20
+Attr 18 15 15 17 17
+AMod 1 0 1 0 0
+Pass IzLNl6ZhNuaQc~
+Titl  the Rogue~
+Pnts 40
+TSex 1
+LLev 13
+HMVP 107 109 154
+Cond 0 1 45
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 31 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 73 'backstab'
+Sk 46 'dodge'
+Sk 1 'hide'
+Sk 10 'pick lock'
+Sk 35 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'shield'  45  12 -20  17          0          0
+AffD 'stone skin'   4   4 -40  17          0          0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 15
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Wear 8
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3077
+Nest 0
+Wear 10
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3074
+Nest 0
+Wear 7
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3073
+Nest 0
+Wear 6
+Lev  5
+Cost 75
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3066
+Nest 0
+Wear 5
+Lev  5
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2109
+Nest 0
+Wear 9
+Lev  8
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2104
+Nest 0
+Wear 11
+Lev  7
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24307
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24308
+Nest 0
+Wear 17
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Spell 3 'bless'
+Affect -1 3 -1 5 12 0 0
+End
+
+#O
+Vnum 24316
+Nest 0
+Wear 3
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+Affect -1 5 -1 47 14 0 0
+Affect -1 5 -1 3 22 0 0
+Affect -1 5 -1 1 22 0 0
+End
+
+#O
+Vnum 24306
+Nest 0
+Wear -1
+Lev  5
+Time 307
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 24306
+Nest 0
+Wear -1
+Lev  5
+Time 162
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 3033
+Nest 0
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 57
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3505
+Nest 1
+Wear -1
+Lev  6
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6106
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 57
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3033
+Nest 0
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24305
+Nest 1
+Wear -1
+Lev  3
+Time 48
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'cure light'
+End
+
+#O
+Vnum 3752
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 309
+Nest 0
+Wear -1
+Lev  1
+Cost 40
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Wear -1
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24316
+Nest 0
+Wear 4
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 5 17 0 0
+End
+
+#O
+Vnum 4057
+Nest 0
+Wear -1
+Lev  6
+Cost 180
+Cond 90
+Repd 0
+Affect -1 6 -1 35 14 0 0
+End
+
+#END

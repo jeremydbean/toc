@@ -1,0 +1,611 @@
+#PLAYER
+Name Tarl~
+Id   26152
+LogO 953258360
+Vers 3
+Desc toy train
+~
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 20
+Plyd 263288
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4203
+HMV  257 257 165 165 255 255
+NewGold 16
+NewPlat 43
+NewCopp 449
+NewSilv 30
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  48619
+Act  65772
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Save  5
+Alig  -1000
+Hit   9
+Dam   11
+ACs 14 17 12 90
+Wimp  17
+Attr 19 17 16 15 18
+AMod 0 0 2 1 4
+Pass TafqKW1Z7tFN2~
+Titl  the Knight~
+Pnts 40
+TSex 1
+LLev 62
+HMVP 259 166 214
+Cond 0 15 38
+Sk 50 'axe'
+Sk 83 'dagger'
+Sk 25 'flail'
+Sk 80 'mace'
+Sk 35 'polearm'
+Sk 82 'shield block'
+Sk 69 'spear'
+Sk 92 'sword'
+Sk 30 'whip'
+Sk 69 'disarm'
+Sk 75 'kick'
+Sk 76 'parry'
+Sk 1 'rescue'
+Sk 79 'second attack'
+Sk 82 'recall'
+Sk 82 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 1711
+Nest 0
+Wear 6
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Affect -1 15 -1 -5 17 0 0
+Affect -1 15 -1 -2 13 0 0
+End
+
+#O
+Vnum 3814
+Nest 0
+ExtF 64
+Wear 15
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Affect -1 29 -1 -1 12 0 0
+End
+
+#O
+Vnum 3051
+Nest 0
+Wear -1
+Cost 1500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  7
+Cost 1000
+Cond 99
+Repd 0
+Val  1 4 5 3 8
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 8328 0 0
+Affect -1 14 -1 -1 18 0 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear 7
+Lev  13
+Cost 63
+Cond 100
+Repd 0
+Val  4 4 5 -1 0
+Affect -1 13 -1 -9 14 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  17
+Cost 1000
+Cond 100
+Repd 0
+Val  1 4 6 3 8
+Affect -1 17 -1 20 14 0 0
+Affect -1 17 -1 -5 14 0 0
+Affect -1 17 -1 -5 12 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Val  1 5 5 3 8
+Affect -1 19 -1 -1 12 0 0
+Affect -1 19 -1 -25 12 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  7
+Cost 1000
+Cond 100
+Repd 0
+Val  1 4 5 3 8
+Affect -1 7 -1 4 23 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear 16
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Val  1 4 6 3 8
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  14
+Cost 0
+Cond 78
+Repd 0
+Val  6 5 5 0 0
+Affect -1 14 -1 5 20 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3720
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+Affect -1 1 -1 -1 5 0 0
+End
+
+#O
+Vnum 1108
+Nest 1
+Wear -1
+Lev  14
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 4 0 0 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 12 0 0 0
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 7801
+Nest 0
+Wear 8
+Lev  3
+Cost 80
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  10
+Cost 280
+Cond 99
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  10
+Cost 0
+Cond 99
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 0
+Cond 96
+Repd 0
+Affect -1 7 -1 3 5 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 24313
+Nest 0
+Wear -1
+Lev  1
+Time 58
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+End
+
+#O
+Vnum 24311
+Nest 0
+Wear -1
+Lev  1
+Time 144
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 24311
+Nest 0
+Wear -1
+Lev  1
+Time 37
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 24314
+Nest 0
+Wear -1
+Lev  1
+Time 19
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'shield'
+End
+
+#O
+Vnum 24311
+Nest 0
+Wear -1
+Lev  1
+Time 127
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 24312
+Nest 0
+Wear -1
+Lev  1
+Time 208
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 24312
+Nest 0
+Wear -1
+Lev  1
+Time 134
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 24311
+Nest 0
+Wear -1
+Lev  1
+Time 52
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3077
+Nest 0
+Wear 10
+Lev  5
+Cost 150
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  6
+Cost 0
+Cond 95
+Repd 0
+End
+
+#END

@@ -1,0 +1,123 @@
+#PLAYER
+Name Kcir~
+Id   3621
+LogO 952232131
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  1
+Cast none
+Levl 22
+Plyd 216610
+ListRemorts ~
+NumRemorts 0
+Note 904959459
+Scro 22
+Room 4208
+HMV  298 298 123 123 118 226
+NewGold 11529
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 628
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 69
+Exp  49760
+Act  65756
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 2
+Color 5 5
+Color 6 5
+Color 7 3
+Color 8 6
+Color 9 3
+Color 10 4
+Color 11 6
+Color 12 3
+Color 13 7
+Color 14 7
+Color 15 1
+Color 16 14
+Pos  6
+Prac 2
+Trai 3
+Alig  -288
+Hit   1
+Dam   1
+ACs 97 97 96 100
+Wimp  25
+Attr 22 14 18 15 19
+AMod 2 0 -1 0 0
+Pass KcXNaM.XNzXqE~
+Titl  the Master Knight~
+Pnts 40
+TSex 1
+LLev 58
+HMVP 298 123 226
+Cond 0 0 0
+Sk 19 'ego whip'
+Sk 7 'project'
+Sk 1 'psionic armor'
+Sk 1 'transfusion'
+Sk 11 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 37 'mace'
+Sk 15 'polearm'
+Sk 85 'shield block'
+Sk 10 'spear'
+Sk 94 'sword'
+Sk 10 'whip'
+Sk 75 'bash'
+Sk 75 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 61 'second attack'
+Sk 65 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9953 0 0
+End
+
+#END

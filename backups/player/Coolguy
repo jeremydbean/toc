@@ -1,0 +1,1112 @@
+#PLAYER
+Name Coolguy~
+Id   18128
+LogO 952789107
+Vers 3
+Desc ..
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  0
+Psionic  2
+Cast none
+Levl 52
+Plyd 1603241
+ListRemorts ~
+NumRemorts 0
+Note 947429668
+Scro 22
+Room 4208
+HMV  1285 1285 157 527 340 474
+NewGold 1
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 124178
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 0
+QuestPnts 436
+Exp  116407
+Act  204
+AfBy 524344
+Comm 28784
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 7
+Color 3 5
+Color 4 11
+Color 5 3
+Color 6 7
+Color 7 10
+Color 8 3
+Color 9 14
+Color 10 12
+Color 11 7
+Color 12 13
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 11
+Pos  8
+Prac 1
+Save  4
+Alig  1000
+Hit   33
+Dam   39
+ACs -86 -88 -89 12
+Wimp  100
+Attr 18 18 18 15 18
+AMod 15 -5 0 6 -11
+Pass ConESSEL6HkPM~
+Ariv Coolguy south Coolguy east $n $t Coolguy west Coolguy e~
+Dprt $n $t Coolguy north Coolguy west Coolguy east~
+Titl ....~
+Pnts 40
+TSex 1
+LLev 306
+HMVP 1085 342 524
+Cond 0 30 48
+Alias cm cast 'mana convert'~
+Alias ch cast 'haste'~
+Alias ca cast 'armor'~
+Alias cr cast 'stone skin'~
+Alias css cast 'slow'~
+Alias cg cast 'giant strength'~
+Alias cp cast 'protection evil'~
+Alias cd cast 'dispel magic'~
+Alias ci cast 'icicle'~
+Alias cf cast fly~
+Alias cs cast 'shield'~
+Alias cdi cast 'detect invis'~
+Alias san cast 'sanctuary'~
+Alias sun cast 'sun'~
+Alias a aquest~
+Alias 2 rescue merick~
+Alias 1 go *>*>*>*>*>*>*> Hey There!! Slow Down!!<*<*<*<*<*<*<~
+Alias 3 train hp~
+Sk 93 'armor'
+Sk 88 'burning hands'
+Sk 72 'water burst'
+Sk 88 'cancellation'
+Sk 36 'charm person'
+Sk 76 'chill touch'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 36 'detect hidden'
+Sk 86 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 95 'dispel magic'
+Sk 1 'dust devil'
+Sk 80 'faerie fire'
+Sk 87 'fly'
+Sk 99 'gate'
+Sk 89 'giant strength'
+Sk 97 'haste'
+Sk 100 'icicle'
+Sk 36 'identify'
+Sk 81 'infravision'
+Sk 36 'invis'
+Sk 1 'know alignment'
+Sk 100 'lightning bolt'
+Sk 80 'locate object'
+Sk 80 'magic missile'
+Sk 100 'mana convert'
+Sk 87 'pass door'
+Sk 82 'protection evil'
+Sk 73 'refresh'
+Sk 97 'sanctuary'
+Sk 91 'shield'
+Sk 36 'sleep'
+Sk 100 'slow'
+Sk 85 'stone skin'
+Sk 78 'summon'
+Sk 96 'sunray'
+Sk 71 'teleport'
+Sk 84 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 46 'spear'
+Sk 100 'sword'
+Sk 49 'whip'
+Sk 81 'archery'
+Sk 98 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 86 'rescue'
+Sk 100 'second attack'
+Sk 12 'meditation'
+Sk 91 'shove'
+Sk 80 'scrolls'
+Sk 73 'wands'
+Sk 95 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+Gr 'guild beguiling'
+Gr 'detection'
+Gr 'guild elemental'
+Gr 'guild enhancement'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'giant strength'   0  44   4   1          0          0
+AffD 'fly'  18  52   0   0     524288          0
+AffD 'detect invis'  15   7   0   0          8          0
+AffD 'detect magic'  11   7   0   0         16          0
+AffD 'detect hidden'  44   7   0   0         32          0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29207
+Enchanted
+Nest 0
+ExtF 67
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+AffD 'enchant weapon' 51 -1 7 19 0 0
+End
+
+#O
+Vnum 1361
+Nest 0
+Wear -1
+Lev  20
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29275
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  46 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  46 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 0
+Wear 11
+Lev  47
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 0
+Wear 16
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 0
+ExtF 1048899
+Wear -1
+Lev  46
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 6 18 0 0
+AffD 'enchant weapon' 51 -1 9 19 0 0
+End
+
+#O
+Vnum 4717
+Nest 0
+Wear -1
+Lev  10
+Time 196
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 8703
+Nest 0
+Wear 12
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 16005
+Nest 1
+Wear -1
+Lev  52
+Cost 2868
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 1
+Wear -1
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 10006
+Enchanted
+Nest 1
+ExtF 2100547
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 9 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10012
+Nest 1
+Wear -1
+Lev  50
+Cost 277
+Cond 100
+Repd 0
+Val  12 12 12 1 0
+End
+
+#O
+Vnum 16016
+Nest 1
+Wear -1
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9923
+Nest 1
+ExtF 1048579
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 1
+ExtF 0
+Wear -1
+Lev  37
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 8 2 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#END

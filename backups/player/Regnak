@@ -1,0 +1,183 @@
+#PLAYER
+Name Regnak~
+Id   47400
+LogO 950062227
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  0
+Psionic  0
+Cast none
+Levl 7
+Plyd 5133
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4208
+HMV  101 101 110 110 136 136
+NewGold 0
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  14166
+Act  65756
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 13
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 10
+Color 7 0
+Color 8 13
+Color 9 0
+Color 10 12
+Color 11 10
+Color 12 12
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 7
+Pos  8
+Prac 7
+Trai 3
+Save  -7
+Alig  10
+Hit   8
+ACs 72 68 72 80
+Attr 16 13 13 13 16
+AMod 0 4 1 0 1
+Pass ReJ5ALQ.0PZBw~
+Titl  the Veteran~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 101 110 136
+Cond 0 17 24
+Sk 1 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 73 'shield block'
+Sk 10 'spear'
+Sk 68 'sword'
+Sk 10 'whip'
+Sk 1 'disarm'
+Sk 68 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 75 'second attack'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+AffD 'armor'  56  14 -20  17          0          0
+AffD 'bless'   0  56   7  18          0          0
+AffD 'bless'  48  56  -7  24          0          0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 2 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear 16
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#END

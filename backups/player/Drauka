@@ -1,0 +1,452 @@
+#PLAYER
+Name Drauka~
+Id   32167
+LogO 952156342
+Vers 3
+Prom <%h/%Hhp %vmv %X>~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 8
+Plyd 9233
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  96 96 119 119 142 142
+NewGold 2
+NewPlat 0
+NewCopp 253
+NewSilv 6
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  16079
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -1
+Alig  -1000
+ACs 41 39 40 77
+Attr 18 15 15 15 16
+AMod 2 2 3 0 -2
+Pass Drl3v1KcbhIus~
+Titl  the Swordsman~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 88 120 142
+Cond 0 11 0
+Sk 30 'axe'
+Sk 75 'dagger'
+Sk 25 'flail'
+Sk 37 'mace'
+Sk 35 'polearm'
+Sk 75 'shield block'
+Sk 30 'spear'
+Sk 81 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 79 'kick'
+Sk 37 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'armor'  42   8 -20  17          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 136 0 0
+End
+
+#O
+Vnum 3702
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3727
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 88 0 0
+Affect -1 0 -1 -1 12 0 0
+End
+
+#O
+Vnum 3726
+Nest 0
+Wear 13
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 1
+Lev  3
+Cost 1200
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 2
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6600
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 86
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2901
+Nest 0
+Wear -1
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 97
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 2907
+Nest 0
+Wear -1
+Lev  1
+Cost 9
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24308
+Nest 0
+Wear 17
+Lev  3
+Cost 100
+Cond 98
+Repd 0
+Val  10 3 1 5 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 24307
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 99
+Repd 0
+Val  4 3 2 0 0
+Affect -1 1 -1 -4 5 0 0
+End
+
+#O
+Vnum 3723
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3722
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+Affect -1 1 -1 3 22 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 72 0 0
+End
+
+#O
+Vnum 1502
+Nest 0
+Wear -1
+Lev  1
+Cost 15
+Cond 90
+Repd 0
+Val  0 3 3 7 0
+End
+
+#O
+Vnum 1503
+Nest 0
+Wear -1
+Lev  4
+Cost 250
+Cond 100
+Repd 0
+Val  0 3 3 7 0
+End
+
+#O
+Vnum 2904
+Nest 0
+Wear 16
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3072
+Nest 0
+Wear 5
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24308
+Nest 0
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'bless'
+End
+
+#END

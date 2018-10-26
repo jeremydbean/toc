@@ -1,0 +1,905 @@
+#PLAYER
+Name Truant~
+Id   23477
+LogO 953017898
+Vers 3
+Desc Truant is gonna kick yer ass!
+~
+Prom ~
+Ignoring koko~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast Fors
+Levl 54
+Plyd 2466168
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  1369 1400 226 226 35 293
+NewGold 8
+NewPlat 15682
+NewCopp 14
+NewSilv 10
+Bank 40000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 33
+Exp  177312
+Act  67174600
+AfBy 2622136
+AfBy2 64
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 922593764
+ColFlag 0
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  -10
+Alig  915
+Hit   74
+Dam   93
+ACs -76 -73 -82 18
+Attr 14 13 15 15 16
+AMod 12 4 2 9 2
+Pass TrgHDhA35DOAE~
+Ariv $n arrives in a cloud of dust from the $t~
+Dprt $n dashes off $tward~
+Titl , T-Bone Steak~
+Pnts 40
+TSex 1
+LLev 576
+HMVP 1150 176 418
+Cond 0 17 48
+Sk 86 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 89 'polearm'
+Sk 47 'spear'
+Sk 100 'sword'
+Sk 46 'whip'
+Sk 92 'archery'
+Sk 100 'backstab'
+Sk 100 'bash'
+Sk 100 'dodge'
+Sk 100 'dual wield'
+Sk 100 'parry'
+Sk 88 'trip'
+Sk 100 'second attack'
+Sk 100 'hide'
+Sk 78 'pick lock'
+Sk 100 'sneak'
+Sk 78 'search'
+Sk 77 'steal'
+Sk 100 'stealth'
+Sk 75 'track'
+Sk 95 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'   2   3   0   0          0         64
+AffD 'detect invis'  43   3   0   0          8          0
+AffD 'detect magic'  50   3   0   0         16          0
+AffD 'detect hidden'  46   3   0   0         32          0
+AffD 'sanctuary'  27   0   0   0        128          0
+AffD 'haste'  15   9   4   2    2097152          0
+AffD 'fly'  31  10   0   0     524288          0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 1666
+Cond 100
+Repd 0
+Val  13 12 13 -1 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 316
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+Name vambrace star eire~
+ShD  (Tattooed) The Star of Eire~
+Desc The star uses one circular band forming four points in the centre.  The loops make a cross with curved expanding arms.~
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 4 4 0
+End
+
+#O
+Vnum 29236
+Enchanted
+Nest 0
+ExtF 2097473
+Wear 8
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  9 13 12 4 0
+AffD 'enchant armor' 51 -1 -2 17 0 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 -1 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 1000
+Cond 100
+Repd 0
+Val  13 12 13 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 500
+Cond 100
+Repd 0
+Val  9 9 14 9 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 500
+Cond 100
+Repd 0
+Val  9 9 14 9 0
+End
+
+#O
+Vnum 717
+Nest 0
+Name bands~
+ShD  The Tynan Bands~
+Desc These bands provide their wear with the power and protection of the four seasons.~
+Wear 15
+Lev  40
+Cost 150
+Cond 100
+Repd 0
+Val  9 8 6 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Name bands~
+ShD  The Tynan Bands~
+Desc These bands provide their wear with the power and protection of the four seasons.~
+Wear 14
+Lev  40
+Cost 150
+Cond 100
+Repd 0
+Val  9 8 6 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt~
+ShD  A receipt for a corpse retrieval~
+Desc A receipt for a corpse retrieval~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt~
+ShD  A receipt for a corpse retrieval~
+Desc A receipt for a corpse retrieval~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29232
+Nest 1
+Wear -1
+Lev  53
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9943
+Nest 1
+Name christmas star~
+ShD  the christmas star~
+Desc The christmas star shines brightly here.~
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 11 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 17020
+Nest 1
+ExtF 19
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Wear -1
+Lev  54
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17007
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1111
+Nest 1
+Name christmas present~
+ShD  a christmas present~
+Desc A christmas present is here attached with a card that says 'From Santa'.~
+ExtF 2097152
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 84
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 2
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Enchanted
+Nest 0
+ExtF 3150147
+Wear 16
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 65 -1 8 19 0 0
+AffD 'enchant weapon' 65 -1 8 18 0 0
+End
+
+#O
+Vnum 29241
+Nest 0
+Wear 13
+Lev  54
+Cost 7000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 11
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9924
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28105
+Nest 0
+ExtF 2113542
+Wear -1
+Lev  53
+Cost 35000
+Cond 100
+Repd 0
+End
+
+#END

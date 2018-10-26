@@ -1,0 +1,654 @@
+#PLAYER
+Name Colossus~
+Id   43256
+LogO 953441216
+Vers 3
+Desc A strange form looms before you.  It seems to be a machine, though it still retains
+some human flesh.  It's muscles move the machine towards you.  It is covered
+with tough iron plates and it has jaws that look like they could crush bones easily.
+It has blades attached to it's arms that look very wicked and sharp.
+It breathes in a raspy voice, "All life forms are to be removed."
+You feel a flash of pain and quickly know no more.
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 38
+Plyd 123261
+ListRemorts ~
+NumRemorts 0
+Note 953436482
+Scro 22
+Room 4208
+HMV  752 752 170 170 236 347
+NewGold 50451
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  87488
+Act  196808
+AfBy 512
+Comm 24640
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 6
+Save  -6
+Alig  1000
+Hit   18
+Dam   49
+ACs -61 -48 -57 65
+Attr 14 13 14 15 19
+AMod 8 0 4 1 0
+Pass CoQ2BHuxhb1X2~
+Ariv $n has arrived from $T.~
+Dprt $n leaves $t.~
+Titl  the Mechanical Terror~
+Pnts 40
+TSex 1
+LLev 33
+HMVP 742 160 322
+Cond 0 11 21
+Sk 7 'axe'
+Sk 98 'dagger'
+Sk 5 'flail'
+Sk 84 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 94 'backstab'
+Sk 86 'bash'
+Sk 91 'dodge'
+Sk 86 'dual wield'
+Sk 99 'parry'
+Sk 1 'trip'
+Sk 86 'second attack'
+Sk 1 'hide'
+Sk 78 'peek'
+Sk 73 'pick lock'
+Sk 75 'sneak'
+Sk 1 'search'
+Sk 100 'sleight of hand'
+Sk 75 'steal'
+Sk 79 'stealth'
+Sk 75 'track'
+Sk 53 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 1
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5776
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29039
+Nest 1
+ExtF 256
+Wear -1
+Lev  39
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10031
+Nest 1
+Wear -1
+Lev  39
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 29045
+Nest 1
+ExtF 256
+Wear -1
+Lev  40
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17112
+Nest 1
+Wear -1
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 1
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 85 0 0 0
+End
+
+#O
+Vnum 10042
+Nest 1
+Wear -1
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5112
+Nest 1
+Wear -1
+Lev  25
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5112
+Nest 1
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  7
+Cost 1250
+Cond 100
+Repd 0
+Val  5 3 4 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  6 7 5 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 7 -1 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+Val  8 7 7 0 0
+End
+
+#END

@@ -1,0 +1,293 @@
+#PLAYER
+Name Zerocool~
+Id   21367
+LogO 952998113
+Vers 3
+Desc X:-x\',
+.                                                  X:/%:::\:X
+.                                                  X:l%  : :'\:X
+.                                                 X:l%   :  : '\:X
+.                                                 X:l%   :   :  '\:X
+.                              b,      b,        X:/l%   :    :   \:X
+.                             JPQ,    JPQ,       X:l%    :     :   '\:X
+.                           .dP'd|._,=dPQq\     X:l%'    :      :    '\:X
+.                          xdP  #P"'_    _,:   .X:l%     :       :    '\:X
+.                       .d/"p   '  'O \  'O::  X:l%'     :       :      \:X
+.                     ,pP' q.          \:  `#  X:ld       :       :      ':X
+.                   ,d"   ,pq  .,-qx_,  "\  `Q:  l%       :       :       k:X
+.                 ./'     Jp       .      `  ` 3  %       :        :      k:X
+.                dP       p            p    `  `q         :        :      k:X
+.               d/       : J,/":xpx"\: '*q    ` `\,       :         :     l:X.
+.              dP      :'    dP      "\:_,`.q. /d b\      :         :      k:X
+.            .d'      :    dP            .\_j '- u-'      :         :      k:X
+. X         ./'     :'    /"            .'                :         :      k:X
+. \X       .d'     :    ,"             :      X:l%        :        :       k:X
+. :\X      d'     :   ./'             :       X:/%        :        :       k:X
+. ::lX    JP     :    J              :      .X:/ %        :       :        k:X
+. k:lX    #'    :    j'             :    .X:/ %           :       :       d:lX
+. k:lX   |P    :     |             :  .X:/ %              :       :       k:lX
+. k:lX   ||    :    |'            : X:/ %                 :       :      d::X'
+. k:lX   d|   :     :l           :X:/ %'                 :        :      k:lX
+. k:iX   #|   :     ||          X:/ %                    :        :      k:lX
+.  k:\X  ||  :       ||       X:/ %                     :        :       k:lX
+.   k:\pQJb  :        \N.PQ XX/ %                      :         :       k:lX
+.    kJP.Ql\:          XQ. J Q J                      :         :        k:lX
+.    6Q : Q%           \Q  Q   J              :''''':.::''::.  :         k:lX
+.   6QQ  : Ql           lQ'   J              :        :     ': ::''':.   k::X.
+.  6QQQ )  Ql           i6    Q             :                 .:     ':.  k:\X
+.   6QQ   J l           \  6  Q            :                            ':.k:X
+.  9QQ   J  i            l 6   6          :                                 k:
+
+
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 50
+Plyd 1173943
+ListRemorts ~
+NumRemorts 0
+Note 943144791
+Scro 22
+Room 4208
+HMV  -7494 -7494 -7499 -7499 -8031 -8031
+NewGold 2973
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 5
+PkGiv 1
+QuestPnts 72
+Exp  110038
+Act  67109064
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Alig  1000
+ACs 100 100 100 100
+Attr -40 -26 -29 -38 -56
+AMod 0 0 0 0 0
+Pass ZeIwOJkDPx2uo~
+Titl .~
+Pnts 40
+TSex 1
+LLev 208
+HMVP -7494 -7499 -8031
+Cond 0 0 0
+Alias a cast 'acid blast' ~
+Alias p cast 'dispel magic'~
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias l get all~
+Alias 1 sneak~
+Alias k cast 'meteor swarm'~
+Alias fire cast 'fire breath'~
+Alias acid cast 'acid breath'~
+Alias gas cast 'gas breath'~
+Alias ha cast haste~
+Alias sa cast 'sanctuary'~
+Alias 4 cast 'power gloves'~
+Alias fog cast 'faerie fog'~
+Alias 2 cast 'force sword'~
+Alias 3 cast 'major globe'~
+Alias fs cast 'fire shield'~
+Alias mc cast 'mana convert'~
+Alias di cast 'detect invis'~
+Sk 100 'acid blast'
+Sk 84 'armor'
+Sk 76 'blindness'
+Sk 1 'blizzard'
+Sk 88 'burning hands'
+Sk 1 'water burst'
+Sk 80 'call lightning'
+Sk 92 'cancellation'
+Sk 78 'chain lightning'
+Sk 76 'charm person'
+Sk 1 'chill touch'
+Sk 100 'colour spray'
+Sk 1 'cone of cold'
+Sk 88 'control weather'
+Sk 76 'curse'
+Sk 99 'detect invis'
+Sk 93 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'energy drain'
+Sk 86 'faerie fire'
+Sk 100 'faerie fog'
+Sk 1 'fireball'
+Sk 89 'fire shield'
+Sk 86 'fly'
+Sk 84 'force sword'
+Sk 1 'frost shield'
+Sk 100 'gate'
+Sk 88 'giant strength'
+Sk 1 'geyser'
+Sk 100 'haste'
+Sk 82 'haven'
+Sk 76 'heat metal'
+Sk 1 'icicle'
+Sk 97 'identify'
+Sk 86 'infravision'
+Sk 90 'invis'
+Sk 87 'lightning bolt'
+Sk 96 'locate object'
+Sk 85 'magic missile'
+Sk 91 'major globe'
+Sk 100 'mana convert'
+Sk 77 'mass invis'
+Sk 75 'maze'
+Sk 53 'meteor swarm'
+Sk 85 'pass door'
+Sk 75 'poison'
+Sk 87 'portal'
+Sk 89 'power gloves'
+Sk 86 'protection evil'
+Sk 94 'refresh'
+Sk 77 'rope trick'
+Sk 94 'sanctuary'
+Sk 85 'shield'
+Sk 88 'shocking grasp'
+Sk 83 'sleep'
+Sk 95 'slow'
+Sk 79 'stone skin'
+Sk 78 'summon'
+Sk 1 'sunray'
+Sk 77 'teleport'
+Sk 1 'vortex'
+Sk 76 'weaken'
+Sk 81 'acid breath'
+Sk 89 'fire breath'
+Sk 1 'frost breath'
+Sk 93 'gas breath'
+Sk 76 'lightning breath'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 88 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 97 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 80 'sneak'
+Sk 93 'scrolls'
+Sk 76 'wands'
+Sk 96 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+Gr 'weather'
+End
+
+#O
+Vnum 90
+Nest 0
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 395
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 0
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 436
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 0
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 468
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 0
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 475
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 0
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 441
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#END

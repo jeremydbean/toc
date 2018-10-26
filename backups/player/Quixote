@@ -1,0 +1,776 @@
+#PLAYER
+Name Quixote~
+Id   2106
+LogO 953507487
+Vers 3
+Desc Don Quixote is a man in his 50's.  He has grey hair and a mustach and small beard.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 24
+Plyd 148103
+ListRemorts ~
+NumRemorts 0
+Note 953433338
+Scro 22
+Room 3758
+HMV  307 307 146 146 216 237
+NewGold 347
+NewPlat 19
+NewCopp 69
+NewSilv 1
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  48385
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 6
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 14
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 4
+Save  3
+Alig  -1000
+Hit   14
+Dam   16
+ACs 19 17 16 84
+Wimp  40
+Attr 20 13 18 14 16
+AMod 0 -2 2 -2 0
+Pass QuehMtxMmFLEU~
+Ariv $n cantors in from $T atop his snow white steed.~
+Dprt $n rides $t atop his steed.~
+Titl  de La Mancha~
+Pnts 40
+TSex 1
+LLev 38
+HMVP 307 146 238
+Cond 0 18 5
+Sk 30 'axe'
+Sk 80 'dagger'
+Sk 25 'flail'
+Sk 33 'mace'
+Sk 35 'polearm'
+Sk 81 'shield block'
+Sk 30 'spear'
+Sk 100 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 84 'enhanced damage'
+Sk 98 'kick'
+Sk 12 'parry'
+Sk 1 'rescue'
+Sk 86 'second attack'
+Sk 77 'third attack'
+Sk 78 'fast healing'
+Sk 60 'shove'
+Sk 85 'recall'
+Sk 79 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 92
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 97
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 54
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 0
+Cond 69
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 0
+Cond 90
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 42 0 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 194 0 0
+Affect -1 0 -1 1 23 0 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 178 0 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Affect -1 4 -1 5 20 0 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Affect -1 4 -1 -19 12 0 0
+Affect -1 4 -1 3 17 0 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 197 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 24307
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2107
+Nest 0
+Wear 8
+Lev  7
+Cost 350
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2109
+Nest 0
+Wear 9
+Lev  8
+Cost 250
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 14 0 0 0
+End
+
+#O
+Vnum 20102
+Nest 0
+Wear 17
+Lev  5
+Cost 100
+Cond 87
+Repd 0
+Affect -1 5 -1 4 17 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  12
+Cost 280
+Cond 99
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 84
+Repd 0
+Affect -1 1 -1 -3 1 0 0
+End
+
+#O
+Vnum 9585
+Nest 0
+Wear -1
+Lev  13
+Cost 80
+Cond 100
+Repd 0
+Val  2 4 5 2 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 5105
+Nest 0
+Wear -1
+Lev  21
+Cost 900
+Cond 100
+Repd 0
+Val  1 5 7 3 0
+Affect -1 21 -1 -13 14 0 0
+End
+
+#O
+Vnum 13301
+Nest 0
+Wear -1
+Lev  15
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  5
+Cost 1250
+Cond 81
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 79
+Repd 0
+Affect -1 22 -1 -1 14 0 0
+Affect -1 22 -1 1 24 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 97
+Repd 0
+Affect -1 7 -1 5 23 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear -1
+Lev  14
+Cost 210
+Cond 98
+Repd 0
+Val  6 4 5 0 0
+End
+
+#O
+Vnum 24313
+Nest 0
+Wear -1
+Lev  1
+Time 149
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'armor'
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear 16
+Lev  13
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10030
+Nest 0
+Wear 5
+Lev  16
+Cost 210
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+Affect -1 16 -1 -4 3 0 0
+End
+
+#O
+Vnum 3116
+Nest 0
+Wear 11
+Lev  10
+Cost 575
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,863 @@
+#PLAYER
+Name Kotetsu~
+Id   498
+LogO 941150483
+Vers 3
+Desc I see what you see not
+Vision milky, then eyes rot
+When you turn they will be gone
+Whispering their hidden song
+Then you see what cannot be
+Darkness moves where light should be
+Out of darkness, out of mind
+Cast down into the Halls of the Blind
+~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 50
+Plyd 711528
+ListRemorts ~
+NumRemorts 0
+Note 940404211
+Scro 22
+Room 4207
+HMV  657 1026 250 250 18 319
+Gold 273566
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 3638
+QuestNext 2
+Exp  115004
+Act  200
+AfBy 512
+AfBy2 64
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 3
+Color 3 3
+Color 4 3
+Color 5 2
+Color 6 11
+Color 7 3
+Color 8 3
+Color 9 14
+Color 10 12
+Color 11 7
+Color 12 13
+Color 13 2
+Color 14 7
+Color 15 2
+Color 16 9
+Pos  8
+Prac 6
+Save  -7
+Alig  971
+Hit   35
+Dam   73
+ACs -70 -63 -70 52
+Wimp  80
+Attr 12 19 13 17 18
+AMod 11 0 5 2 -2
+Pass KoFyG2Z7DxDiI~
+Ariv You hear an inhuman howl as $n bounds in from $T.~
+Dprt Bearing his teeth, $n snarls and flees $t.~
+Titl  (                   ....                   )~
+Pnts 40
+TSex 1
+LLev 156
+HMVP 951 210 394
+Cond 0 42 0
+Alias bs backstab~
+Alias lu gossip @@@ CONGRATULATIONS! @@@~
+Alias lun gossip @@@ CONGRATULATIONS~
+Alias st stealth~
+Alias qp aquest points~
+Alias t aquest time~
+Alias a aquest abort~
+Alias q aquest request~
+Alias gs get sw~
+Alias ws wear sw~
+Alias inv quaff el~
+Alias co aquest complete~
+Alias wr wear ring~
+Alias as autoassist~
+Alias x remove~
+Alias z wear~
+Alias ad af~
+Alias i in~
+Alias v , says 'I have ????/???? hp 300/300 mana 419/419 end 115004 xp.'~
+Alias k murder~
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 90 'sword'
+Sk 20 'whip'
+Sk 100 'backstab'
+Sk 98 'dirt kicking'
+Sk 98 'dodge'
+Sk 94 'dual wield'
+Sk 100 'parry'
+Sk 100 'trip'
+Sk 100 'second attack'
+Sk 1 'hide'
+Sk 62 'peek'
+Sk 85 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 76 'steal'
+Sk 84 'stealth'
+Sk 75 'track'
+Sk 88 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  47   5   0   0          0         64
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 1958 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 13 -1 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 11
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8731
+Nest 0
+Wear -1
+Lev  31
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  33 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 3033
+Nest 1
+Wear -1
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 130 0 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9592
+Nest 0
+Wear -1
+Lev  19
+Cost 300
+Cond 100
+Repd 0
+Val  0 4 5 32 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9937
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 1
+Wear -1
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15055
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 2
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 2
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 7 5 0 0
+End
+
+#O
+Vnum 3737
+Nest 2
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3752
+Nest 2
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 2
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  13 12 13 0 0
+End
+
+#O
+Vnum 69
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 37
+Nest 0
+Wear -1
+Time 18
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

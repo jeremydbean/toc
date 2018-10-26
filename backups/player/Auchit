@@ -1,0 +1,1070 @@
+#PLAYER
+Name Auchit~
+Id   27144
+LogO 953337070
+Vers 3
+Desc An unemployed Dwarf, who, by the odor that wafts over you, evidently hasn't had a drink in hours, if not 
+minutes, wanders by you, muttering and cursing.  All you can pick out is something about "Flame'n Fairy 
+Elves ... refuse'n to serve a Dwarf beer" and some other numerous, lewd and passionate comments about 
+ancestry, tree limbs and orifices.    Before he gets out of earshot, you pick out something else "Not enough 
+wars these days to keep a Dwarf busy"."Sometimes a Dwarf needs to create the demand for his 
+profession".    Crazy or sober, you wouldn't lay a copper piece against a brewery that the Dwarf and his 
+shining grave digger isn't soon covered with dirt and clay, if not something a little runny a little more 
+brilliant, and probably warm to.
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  2
+Cast none
+Levl 54
+Plyd 1041310
+ListRemorts ~
+NumRemorts 0
+Note 953335589
+Scro 22
+Room 2498
+HMV  1368 1368 523 535 354 354
+NewGold 373
+NewPlat 3608
+NewCopp 1453
+NewSilv 849
+Bank 1119999
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 20
+QuestPnts 2392
+QuestNext 4
+Exp  178588
+Act  100860154
+AfBy 1581704
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 1
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Alig  359
+Hit   84
+Dam   92
+ACs -268 -239 -297 -100
+Wimp  222
+Attr 17 13 12 12 18
+AMod 12 3 2 5 0
+Pass Au4P5xdjQ1scM~
+Ariv "$n" growls a Troll from $t, "He got away!"~
+Dprt The Troll lumbers $t, "$n, Boss is going to be mad!"~
+Titl !~
+Pnts 40
+TSex 1
+LLev 173
+HMVP 1188 310 418
+Cond 0 25 48
+Alias ap aquest points~
+Alias fa cast 'faerie fire'~
+Alias di cast 'detect invis'~
+Alias gi cast giant~
+Alias dm cast 'dispel magic'~
+Alias shit get all corpse~
+Alias pe cast 'protection evil'~
+Alias k murder~
+Alias arm cast armor~
+Alias st cast stone~
+Alias ar aquest request~
+Alias ac aquest complete~
+Alias at aquest time~
+Alias b bash mrs~
+Alias a recite rhy~
+Alias r rescue merick~
+Alias v bash lokki~
+Alias gh get flame pac~
+Sk 81 'armor'
+Sk 1 'burning hands'
+Sk 69 'cancellation'
+Sk 1 'chill touch'
+Sk 67 'detect invis'
+Sk 99 'dispel magic'
+Sk 86 'faerie fire'
+Sk 72 'fly'
+Sk 95 'gate'
+Sk 52 'giant strength'
+Sk 86 'haste'
+Sk 1 'infravision'
+Sk 1 'lightning bolt'
+Sk 75 'locate object'
+Sk 1 'magic missile'
+Sk 100 'mana convert'
+Sk 80 'pass door'
+Sk 89 'protection evil'
+Sk 56 'refresh'
+Sk 97 'sanctuary'
+Sk 65 'shield'
+Sk 100 'slow'
+Sk 65 'stone skin'
+Sk 69 'summon'
+Sk 65 'teleport'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 100 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 100 'spear'
+Sk 100 'sword'
+Sk 50 'whip'
+Sk 100 'archery'
+Sk 100 'bash'
+Sk 61 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 77 'rescue'
+Sk 100 'second attack'
+Sk 80 'shove'
+Sk 53 'scrolls'
+Sk 1 'wands'
+Sk 96 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+Gr 'guild enhancement'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'protection evil'  46  22   0   0       8192          0
+AffD 'armor'  28  22 -20  17          0          0
+AffD 'sanctuary'   5   0   0   0        128          0
+AffD 'detect invis'  26  33   0   0          8          0
+AffD 'stone skin'  43  33 -40  17          0          0
+AffD 'fly'  12  31   0   0     524288          0
+AffD 'shield'   3  48 -20  17          0          0
+AffD 'pass door'   3   3   0   0    1048576          0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 71
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  8 12 11 3 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  11 10 11 1 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  11 10 11 1 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 16641
+Wear 5
+Lev  51
+Cost 0
+Cond 100
+Repd 1
+Val  39 31 42 16 0
+End
+
+#O
+Vnum 29241
+Nest 0
+Wear 13
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+Affect -1 54 -1 -1 3 0 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  16 14 20 4 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  16 14 20 4 0
+Affect -1 52 -1 11 14 0 0
+End
+
+#O
+Vnum 10006
+Nest 0
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  8 8 13 8 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 0
+Cond 100
+Repd 1
+Val  8 8 13 8 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 1 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 0 2 -2 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 7300
+Nest 1
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 1
+Wear -1
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 5677 0 0
+End
+
+#O
+Vnum 29215
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29280
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 1
+Wear -1
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2334
+Nest 1
+Wear -1
+Lev  26
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13275
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 35
+Repd 0
+End
+
+#O
+Vnum 6405
+Nest 1
+ExtF 84
+Wear -1
+Lev  48
+Cost 6000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+Affect -1 8 -1 1 20 0 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Enchanted
+Nest 0
+Name Auchit gravedigger spade~
+ShD  <Shining> Auchit's Grave Digger~
+Desc You see a well worn spade half buried in the soil at your feet.~
+ExtF 3150147
+Act_room $n grabs $p in $s off hand. Something funny about fighting a guy that digs your grave before $e fights you.~
+Act_char You grab $p in your off hand. Time to put some corpses in their place.~
+Wear 16
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 70 -1 10 19 0 0
+AffD 'enchant weapon' 70 -1 10 18 0 0
+End
+
+#END

@@ -1,0 +1,503 @@
+#PLAYER
+Name Junky~
+Id   1281
+LogO 1539636722
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  4
+Gui  4
+Psionic  2
+Cast none
+Levl 34
+Plyd 272303
+ListRemorts ~
+NumRemorts 0
+Note 949776418
+Scro 22
+Room 4209
+HMV  52 560 313 313 238 348
+NewGold 2
+NewPlat 3096
+NewCopp 1
+NewSilv 3
+Bank 20000
+Dcount 0
+Corpses	0
+PkRec 3
+PkGiv 1
+QuestPnts 67
+Exp  73101
+Act  67174636
+AfBy 10
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 14
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 7
+Color 7 14
+Color 8 14
+Color 9 14
+Color 10 11
+Color 11 12
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 4
+Trai 2
+Save  -5
+Alig  1000
+Hit   19
+Dam   42
+ACs -61 -40 -46 66
+Wimp  114
+Attr 18 13 18 13 21
+AMod 10 0 2 5 1
+Pass Juy8zhopQfWyg~
+Titl  says 'Welcome to Shotz Brewery!'.~
+Pnts 40
+TSex 2
+LLev 64
+HMVP 555 268 298
+Cond 0 5 27
+Alias cong level Congratulations~
+Alias lev levitate~
+Sk 8 'axe'
+Sk 78 'dagger'
+Sk 6 'flail'
+Sk 17 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 28 'whip'
+Sk 95 'dodge'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 37 'trip'
+Sk 80 'blinding fists'
+Sk 73 'herbal brewing'
+Sk 77 'iron skin'
+Sk 71 'levitate'
+Sk 79 'nerve damage'
+Sk 76 'steel fist'
+Sk 78 'stunning blow'
+Sk 86 'meditation'
+Sk 100 'shove'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 0
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  11
+Cost 1250
+Cond 92
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 922
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 84 0 0 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear -1
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear -1
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 96
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29358
+Nest 0
+ExtF 64
+Wear -1
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  3 5 5 2 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 3 2 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  18
+Cost 1000
+Cond 100
+Repd 0
+Val  6 7 5 0 0
+Affect -1 18 -1 1 21 0 0
+End
+
+#END

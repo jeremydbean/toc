@@ -1,0 +1,1090 @@
+#PLAYER
+Name Lin~
+Id   42373
+LogO 941152470
+Vers 3
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 53
+Plyd 1438767
+ListRemorts ~
+NumRemorts 0
+Note 932702146
+Scro 22
+Room 4208
+HMV  1013 1013 314 314 253 387
+Gold 51899
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 299
+Exp  145835
+Act  32972
+AfBy 568
+Comm 24608
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 9
+Save  5
+Alig  1000
+Hit   45
+Dam   71
+ACs -113 -108 -115 35
+Wimp  100
+Attr 22 16 18 16 19
+AMod 14 0 1 1 2
+Pass Lin0TGatewDP2~
+Dprt $n smile at u and say **Peace** $t~
+Titl  -~
+Pnts 40
+TSex 1
+LLev 352
+HMVP 953 204 412
+Cond 0 10 48
+Alias z kick~
+Alias x bash~
+Alias t aquest time~
+Alias o scan~
+Alias = rescue hammer~
+Alias aa wear doo~
+Alias rb remove broa~
+Alias ww where~
+Alias h who~
+Alias q aquest request~
+Alias c aquest complete~
+Alias . gossip~
+Alias bb berserk~
+Alias @ aquest info~
+Alias # aquest points~
+Alias p enter portal~
+Alias zz bash~
+Alias a get doo~
+Alias f flee~
+Sk 24 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 26 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 91 'bash'
+Sk 79 'berserk'
+Sk 2 'dirt kicking'
+Sk 1 'disarm'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 92 'rescue'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 97 'fast healing'
+Sk 37 'shove'
+Sk 95 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'detect hidden'  17   9   0   0         32          0
+AffD 'detect magic'  38   9   0   0         16          0
+AffD 'detect invis'  37   9   0   0          8          0
+AffD 'giant strength'  10  38   4   1          0          0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 283
+Cond 100
+Repd 0
+Val  6 5 6 1 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 0
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 0
+Wear 9
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8715
+Nest 1
+Wear -1
+Lev  45
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 1
+ExtF 19
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18010
+Nest 1
+ExtF 3145730
+Wear -1
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  13 12 13 0 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29240
+Nest 1
+Wear -1
+Lev  54
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29238
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10012
+Nest 1
+Wear -1
+Lev  50
+Cost 833
+Cond 100
+Repd 0
+Val  13 13 13 2 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29242
+Nest 1
+ExtF 2097408
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Enchanted
+Nest 1
+Name Sender~
+ShD  SENDER~
+Desc Gifted by the Gods, Aires forged this weapon at your feet for his quest.~
+ExtF 3150147
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 70 -1 10 18 0 0
+AffD 'enchant weapon' 70 -1 10 19 0 0
+End
+
+#O
+Vnum 7665
+Nest 1
+Name Serpent~
+ShD  [Twisted] Stone Serpent~
+Desc A petrified Serpent lies twisted on the ground.~
+Wear -1
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29241
+Nest 1
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Name soul of santos~
+ShD  Soul of Santos~
+Wear -1
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  8 8 13 8 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29240
+Nest 1
+Wear -1
+Lev  54
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 1
+Name tyson gloves~
+ShD  (BLOODY) Mike Tyson's Boxing Gloves~
+Desc You're looking at Mike Tyson's Boxing Gloves. His extremely bloody gloves!~
+Act_room Blood drips of the gloves of Mike Tyson as $n puts them on!~
+Act_char Blood drips of your gloves as you put them on!~
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Val  8 10 9 0 0
+End
+
+#O
+Vnum 9917
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 1
+Name officion guardian boots toc~
+ShD  (RETIRED) officion guardian boots of toc~
+Desc These boots are embroidered with the seal of Toc. Made especially for a guardian.~
+Act_room The Officion boots of $n glow if he puts them on.~
+Act_char Your boots start glowing as you put them on.~
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Enchanted
+Nest 1
+ExtF 3146819
+Wear -1
+Lev  49
+Cost 2500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 63 -1 7 19 0 0
+AffD 'enchant weapon' 63 -1 7 18 0 0
+End
+
+#O
+Vnum 29238
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7818
+Nest 1
+ShD  a Blank Scroll~
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7818
+Nest 1
+ShD  a Blank Scroll~
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 1
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 29242
+Nest 1
+ExtF 2097408
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear -1
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8703
+Nest 0
+Wear -1
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#END

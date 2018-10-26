@@ -1,0 +1,1555 @@
+#PLAYER
+Name Vorm~
+Id   63356
+LogO 951630249
+Vers 3
+Desc -
+Vorm: The equal oppertunity destroyer.
+Check your corpses at the door.
+~
+Prom ~
+Ignoring fag~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  1
+Cast Legi
+Levl 54
+Plyd 1519017
+ListRemorts ~
+NumRemorts 0
+Note 950726097
+Scro 22
+Room 16431
+HMV  1570 1570 593 900 293 293
+NewGold 5
+NewPlat 4899
+NewCopp 75
+NewSilv 4
+Bank 448246
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 10
+QuestPnts 1116
+Exp  162008
+Act  67436744
+AfBy 524936
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 6
+Save  -5
+Alig  802
+Hit   64
+Dam   62
+ACs -207 -178 -223 -37
+Wimp  200
+Attr 13 16 13 13 16
+AMod 11 8 5 12 0
+Pass Vo0xa3hdMl5WY~
+Ariv Sir $n of the Abyss arrives from $T.~
+Dprt Sir $n of the Abyss departs $tward.~
+Titl  the Death Knight of the Realms~
+Pnts 40
+TSex 1
+LLev 285
+HMVP 1400 575 418
+Cond 0 39 38
+Sk 100 'animate parts'
+Sk 75 'armor'
+Sk 78 'blindness'
+Sk 88 'cancellation'
+Sk 43 'cause light'
+Sk 43 'chill touch'
+Sk 77 'create skeleton'
+Sk 77 'create wraith'
+Sk 80 'create vampire'
+Sk 84 'butcher'
+Sk 86 'bewitch weapon'
+Sk 75 'curse'
+Sk 100 'death shroud'
+Sk 92 'earth travel'
+Sk 75 'embalm'
+Sk 75 'energy drain'
+Sk 75 'evil eye'
+Sk 88 'fly'
+Sk 95 'force sword'
+Sk 94 'haven'
+Sk 80 'infravision'
+Sk 78 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 84 'pass door'
+Sk 75 'plague'
+Sk 75 'poison'
+Sk 75 'raise dead'
+Sk 79 'remove curse'
+Sk 75 'rope trick'
+Sk 95 'sanctuary'
+Sk 75 'shield'
+Sk 75 'shroud'
+Sk 96 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 75 'skeletal hands'
+Sk 100 'tentacles'
+Sk 79 'trap the soul'
+Sk 100 'vampiric touch'
+Sk 75 'weaken'
+Sk 81 'neutrality field'
+Sk 74 'astral walk'
+Sk 95 'ego whip'
+Sk 37 'psionic armor'
+Sk 97 'telekinesis'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 100 'sword'
+Sk 15 'whip'
+Sk 100 'dodge'
+Sk 84 'scrolls'
+Sk 76 'wands'
+Sk 95 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'sanctuary'  14   5   0   0        128          0
+AffD 'infravision'  40  93   0   0        512          0
+AffD 'fly'   5  11   0   0     524288          0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 0
+Cond 97
+Repd 0
+Val  12 11 12 2 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 88
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29241
+Nest 0
+Wear 13
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9917
+Nest 0
+Wear 7
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  14 14 14 4 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Enchanted
+Nest 0
+ExtF 1345
+Wear 9
+Lev  50
+Cost 950
+Cond 84
+Repd 0
+AffD 'enchant armor' 53 -1 -5 17 0 0
+End
+
+#O
+Vnum 29230
+Enchanted
+Nest 0
+ExtF 3146049
+Wear 2
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+AffD 'enchant armor' 53 -1 2 17 0 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 3000
+Cond 100
+Repd 0
+Val  14 14 14 9 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29361
+Nest 0
+Wear -1
+Lev  52
+Cost 75
+Cond 100
+Repd 0
+Val  1 8 7 1 0
+End
+
+#O
+Vnum 29236
+Enchanted
+Nest 0
+ExtF 2097473
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+AffD 'enchant armor' 53 -1 -6 17 0 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 19713
+Wear 5
+Lev  51
+Cost 500
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 -3 2 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name white potion~
+ShD  a white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 108 77 -1 0
+Spell 1 'sanctuary'
+Spell 2 'heal'
+End
+
+#O
+Vnum 926
+Nest 1
+Wear -1
+Lev  20
+Cost 24500
+Cond 100
+Repd 0
+Spell 1 'sanctuary'
+Spell 2 'giant strength'
+Spell 3 'armor'
+End
+
+#O
+Vnum 17015
+Nest 1
+Wear -1
+Lev  50
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29275
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 16030
+Nest 1
+Wear -1
+Lev  52
+Cost 2560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16030
+Nest 1
+Wear -1
+Lev  52
+Cost 2560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29227
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29282
+Nest 1
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 29207
+Nest 1
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29282
+Nest 1
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 29515
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  54
+Cost 700
+Cond 100
+Repd 0
+AffD 'enchant weapon' 53 -1 6 18 0 0
+AffD 'enchant weapon' 54 -1 11 19 0 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29285
+Nest 1
+Wear -1
+Lev  55
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29284
+Nest 1
+Wear -1
+Lev  55
+Cost 9000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29246
+Nest 1
+ExtF 3145987
+Wear -1
+Lev  55
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 18010
+Nest 1
+ExtF 3145730
+Wear -1
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4632
+Nest 1
+Wear -1
+Cost 25
+Cond 100
+Repd 0
+Val  5 16 4 0 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29232
+Nest 1
+Wear -1
+Lev  53
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20123
+Nest 1
+Name vorm~
+ShD  A silver coin worth 1 restring~
+Desc A silver coin with vorm's name on it has been dropped here.~
+Wear -1
+Lev  10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of god mortal manifestation~
+Desc A bottle containing essence of god mortal manifestation is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 3815 0
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of god mortal manifestation~
+Desc A bottle containing essence of god mortal manifestation is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 3815 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt restring~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 29247
+Nest 1
+ExtF 3146080
+Wear -1
+Lev  55
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 7204
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'cure critical'
+Spell 2 'invis'
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 29514
+Nest 1
+Wear -1
+Lev  53
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24225
+Nest 1
+ExtF 3145792
+Wear -1
+Lev  54
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 29243
+Nest 1
+ExtF 3145986
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13276
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 1
+Name present christmas~
+ShD  a christmas present with a big yellow bow~
+Desc A christmas present is lying here, the tag has your name on it!~
+ExtF 2097152
+WeaF 1
+Wear -1
+Cost 6
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt enchant~
+ShD  a receipt for 1 enchant~
+Desc a receipt for 1 enchant~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt enchant~
+ShD  a receipt for 1 enchant~
+Desc a receipt for 1 enchant~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt restring~
+ShD  a receipt for 1 restring.~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt restring~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 2
+Name receipt restring~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28105
+Nest 1
+ExtF 2113542
+Wear -1
+Lev  53
+Cost 35000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 9944
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 340
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 29250
+Nest 1
+Wear -1
+Lev  55
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Enchanted
+Nest 1
+ExtF 3146049
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+AffD 'enchant armor' 70 -1 2 17 0 0
+End
+
+#O
+Vnum 17020
+Nest 0
+ExtF 4115
+Wear 16
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 361
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

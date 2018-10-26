@@ -1,0 +1,138 @@
+#PLAYER
+Name Zoltus~
+Id   35941
+LogO 943621721
+Vers 3
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 8
+Plyd 22020
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4208
+HMV  88 88 107 107 142 142
+Gold 142
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  18241
+Act  65784
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Save  -7
+Alig  -750
+Hit   7
+ACs 76 76 76 80
+Wimp  10
+Attr 14 13 16 19 17
+AMod 0 0 0 0 0
+Pass ZonfyuYmPxLQo~
+Titl  the Snatcher~
+Pnts 40
+TSex 1
+LLev 5
+HMVP 88 107 142
+Cond 0 0 0
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 49 'dodge'
+Sk 25 'hide'
+Sk 1 'pick lock'
+Sk 17 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'armor'  44  22 -20  17          0          0
+AffD 'bless'  20  46   7  18          0          0
+AffD 'bless'   0  46  -7  24          0          0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#END

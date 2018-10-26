@@ -1,0 +1,732 @@
+#PLAYER
+Name DarkBishop~
+Id   33780
+LogO 952850618
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 51
+Plyd 760146
+ListRemorts ~
+NumRemorts 0
+Note 942286558
+Scro 22
+Room 4208
+HMV  725 725 699 699 450 450
+NewGold 232040
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 65
+Exp  112249
+Act  206
+AfBy 2097672
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 886032557
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 6
+Save  -9
+Alig  1000
+Hit   43
+Dam   72
+ACs -194 -177 -188 -44
+Wimp  350
+Attr 12 19 17 14 14
+AMod 17 0 4 6 -2
+Pass DathYBggljCdY~
+Ariv $n is Guldan, he comes from the $t,looking for Kadghar.~
+Dprt $n is Guldan, he leaves $t to hunt Kadghar!~
+Titl  is back!~
+Pnts 40
+TSex 1
+LLev 191
+HMVP 720 569 400
+Cond 0 38 12
+Sk 100 'acid blast'
+Sk 79 'armor'
+Sk 100 'burning hands'
+Sk 79 'cancellation'
+Sk 77 'chain lightning'
+Sk 75 'chill touch'
+Sk 75 'colour spray'
+Sk 91 'detect invis'
+Sk 95 'dispel magic'
+Sk 77 'enchant armor'
+Sk 76 'enchant weapon'
+Sk 80 'faerie fire'
+Sk 95 'fireball'
+Sk 82 'fire shield'
+Sk 84 'fly'
+Sk 85 'force sword'
+Sk 75 'frost shield'
+Sk 98 'gate'
+Sk 86 'giant strength'
+Sk 93 'haste'
+Sk 84 'haven'
+Sk 75 'heat metal'
+Sk 89 'identify'
+Sk 76 'infravision'
+Sk 92 'lightning bolt'
+Sk 90 'locate object'
+Sk 94 'magic missile'
+Sk 76 'major globe'
+Sk 100 'mana convert'
+Sk 84 'pass door'
+Sk 80 'portal'
+Sk 87 'power gloves'
+Sk 79 'protection evil'
+Sk 84 'refresh'
+Sk 80 'rope trick'
+Sk 90 'sanctuary'
+Sk 79 'shield'
+Sk 75 'shocking grasp'
+Sk 97 'slow'
+Sk 76 'stone skin'
+Sk 78 'summon'
+Sk 75 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 96 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 94 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 75 'scribe'
+Sk 73 'sneak'
+Sk 75 'scrolls'
+Sk 78 'wands'
+Sk 88 'recall'
+Sk 1 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'major globe'   0   8 -80  17          0          0
+AffD 'detect invis'   0  34   0   0          8          0
+AffD 'haste'  49   6   4   2    2097152          0
+AffD 'giant strength'   0   3   4   1          0          0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16019
+Nest 0
+Wear 11
+Lev  47
+Cost 2004
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 8 8 5
+End
+
+#O
+Vnum 8007
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 908
+Nest 0
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 727
+Nest 0
+ExtF 199
+Wear -1
+Lev  48
+Cost 100
+Cond 50
+Repd 0
+Spell 3 'acid blast'
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear -1
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 2242 0 0
+End
+
+#O
+Vnum 10049
+Enchanted
+Nest 0
+ExtF 2100547
+Wear 16
+Lev  34
+Cost 2300
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 6 18 0 0
+AffD 'enchant weapon' 50 -1 10 19 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  7 5 7 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear -1
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7656
+Nest 0
+Wear -1
+Lev  35
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20120
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 92 0 0 0
+End
+
+#O
+Vnum 17112
+Enchanted
+Nest 0
+ExtF 1347
+Wear -1
+Lev  37
+Cost 3440
+Cond 100
+Repd 0
+AffD 'enchant weapon' 42 -1 7 19 0 0
+AffD 'enchant weapon' 42 -1 7 18 0 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 0
+Wear -1
+Lev  47
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2315
+Nest 0
+Wear -1
+Lev  28
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8729
+Nest 0
+Wear -1
+Lev  39
+Cost 0
+Cond 100
+Repd 0
+Val  10 9 10 0 0
+End
+
+#O
+Vnum 28108
+Nest 0
+Wear -1
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 0
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 721
+Nest 0
+Wear -1
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 23 14 0 0
+End
+
+#END

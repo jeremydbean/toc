@@ -1,0 +1,902 @@
+#PLAYER
+Name Ravi~
+Id   10563
+LogO 953337072
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  1
+Cast none
+Levl 28
+Plyd 217141
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  268 268 46 377 312 312
+NewGold 30
+NewPlat 6
+NewCopp 942
+NewSilv 36
+Bank 453
+Dcount 2
+Corpses	0
+PkRec 9
+PkGiv 3
+QuestPnts 72
+Exp  61560
+Act  220
+Comm 28736
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  8
+Alig  -15
+Hit   17
+Dam   32
+ACs 13 7 2 97
+Wimp  53
+Attr 12 18 15 14 15
+AMod 6 1 -1 1 2
+Pass RadNNiwNTNe/g~
+Ariv $n lets an arrow fly to the $t.~
+Dprt $n lets an arrow fly to the $t.~
+Titl .~
+Pnts 40
+TSex 1
+LLev 53
+HMVP 253 357 262
+Cond 0 0 0
+Alias mm c 'magic missile'~
+Alias os open south~
+Alias on open north~
+Alias oe open east~
+Alias ow open west~
+Alias ou open up~
+Alias od open down~
+Alias ab c 'acid blast'~
+Alias bh c 'burning hands'~
+Alias dvis c 'detect invis'~
+Alias nt nightmare~
+Alias gi c 'giant strength'~
+Alias ff c 'faerie fire'~
+Alias lb c 'lightning bolt'~
+Alias fshi c 'fire shield'~
+Alias id c identify~
+Alias ct c 'chill touch'~
+Alias pg c 'power gloves'~
+Alias sl c slow~
+Alias mc c 'mana convert'~
+Sk 78 'acid blast'
+Sk 78 'armor'
+Sk 100 'burning hands'
+Sk 1 'chain lightning'
+Sk 78 'charm person'
+Sk 75 'chill touch'
+Sk 1 'colour spray'
+Sk 66 'detect invis'
+Sk 80 'faerie fire'
+Sk 1 'fireball'
+Sk 75 'fire shield'
+Sk 81 'fly'
+Sk 1 'force sword'
+Sk 76 'frost shield'
+Sk 82 'gate'
+Sk 82 'giant strength'
+Sk 81 'haste'
+Sk 1 'haven'
+Sk 1 'heat metal'
+Sk 85 'identify'
+Sk 77 'infravision'
+Sk 82 'invis'
+Sk 82 'lightning bolt'
+Sk 78 'locate object'
+Sk 93 'magic missile'
+Sk 86 'mana convert'
+Sk 1 'mass invis'
+Sk 76 'pass door'
+Sk 1 'portal'
+Sk 78 'power gloves'
+Sk 78 'refresh'
+Sk 78 'shield'
+Sk 1 'shocking grasp'
+Sk 75 'sleep'
+Sk 90 'slow'
+Sk 75 'summon'
+Sk 76 'teleport'
+Sk 1 'ego whip'
+Sk 67 'nightmare'
+Sk 1 'psionic armor'
+Sk 1 'shift'
+Sk 10 'axe'
+Sk 97 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 39 'sword'
+Sk 20 'whip'
+Sk 86 'meditation'
+Sk 11 'sneak'
+Sk 1 'scrolls'
+Sk 77 'wands'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage transportation'
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 92
+Repd 0
+Val  4 6 6 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 0
+Cond 91
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 94
+Repd 0
+Val  0 0 8528 0 0
+Affect -1 14 -1 1 19 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  13
+Cost 210
+Cond 89
+Repd 0
+Val  5 5 6 0 0
+Affect -1 13 -1 4 22 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 95
+Repd 0
+Affect -1 22 -1 -5 20 0 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 150
+Cond 97
+Repd 0
+Affect -1 25 -1 3 23 0 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 7 0 0 0
+End
+
+#O
+Vnum 7300
+Nest 0
+Wear 12
+Lev  11
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+Affect -1 6 -1 -7 17 0 0
+End
+
+#O
+Vnum 28027
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 28026
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  14
+Cost 1250
+Cond 89
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 8333
+Cond 98
+Repd 0
+Val  7 6 7 -1 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  17
+Cost 8500
+Cond 96
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 8500
+Cond 97
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+ExtF 2097217
+Wear 16
+Lev  25
+Cost 0
+Cond 96
+Repd 0
+Affect -1 52 -1 2 19 0 0
+Affect -1 52 -1 2 18 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4615
+Nest 1
+Wear -1
+Lev  23
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 79
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 20
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 25109
+Nest 1
+Wear -1
+Lev  8
+Cost 100
+Cond 98
+Repd 0
+Val  3 5 4 0 0
+End
+
+#O
+Vnum 1111
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 2
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 13296
+Nest 0
+Wear 11
+Lev  18
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 620
+Nest 0
+Wear 2
+Lev  17
+Cost 100
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+Affect -1 17 -1 3 20 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 5780
+Nest 0
+ExtF 65
+Wear 17
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+Affect -1 1 -1 4 23 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear -1
+Lev  18
+Cost 500
+Cond 88
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 5020
+Nest 1
+Wear -1
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Val  30 10 2 86 0
+Spell 3 'magic missile'
+Affect -1 19 -1 3 23 0 0
+End
+
+#O
+Vnum 9218
+Nest 1
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+Val  12 4 3 138 0
+Spell 3 'gas breath'
+Affect -1 12 -1 -3 2 0 0
+End
+
+#O
+Vnum 28024
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  1 2 2 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 28024
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  2 3 3 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 2108
+Nest 1
+Wear -1
+Lev  6
+Cost 300
+Cond 100
+Repd 0
+Val  20 10 6 6 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 28024
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  1 2 2 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 24312
+Nest 1
+Wear -1
+Lev  1
+Time 47
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 24312
+Nest 1
+Wear -1
+Lev  1
+Time 125
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 1380
+Nest 0
+Wear -1
+Lev  20
+Cost 2000
+Cond 100
+Repd 0
+Spell 3 'cause critical'
+End
+
+#END

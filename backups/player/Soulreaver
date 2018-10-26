@@ -1,0 +1,478 @@
+#PLAYER
+Name SoulReaver~
+Id   23699
+LogO 952889022
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 30
+Plyd 124283
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 4208
+HMV  537 544 183 183 296 296
+NewGold 10
+NewPlat 4
+NewCopp 46
+NewSilv 5
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  67545
+Act  204
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 7
+Color 4 7
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 7
+Color 13 4
+Color 14 14
+Color 15 1
+Color 16 14
+Pos  8
+Prac 8
+Trai 3
+Save  13
+Alig  1000
+Hit   10
+Dam   42
+ACs -31 -12 -21 71
+Attr 18 13 16 12 19
+AMod 12 0 0 4 -3
+Pass SoRUOoVOFM6oo~
+Ariv $n comes twitching in from the $t.~
+Dprt $n goes convulsing to the $t.~
+Titl  suffers from Mad Cow Disease!~
+Pnts 40
+TSex 1
+LLev 33
+HMVP 534 233 274
+Cond 0 42 42
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 79 'shield block'
+Sk 30 'spear'
+Sk 98 'sword'
+Sk 30 'whip'
+Sk 67 'archery'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 94 'enhanced damage'
+Sk 75 'kick'
+Sk 77 'parry'
+Sk 67 'rescue'
+Sk 81 'second attack'
+Sk 75 'third attack'
+Sk 75 'door bash'
+Sk 1 'shove'
+Sk 82 'recall'
+Sk 87 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 1000
+Cond 90
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 80
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 18017
+Nest 0
+Wear 5
+Lev  16
+Cost 5000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 14 0 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+Affect -1 22 -1 -4 5 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 89
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 88
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 91
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 9304
+Nest 1
+Wear -1
+Lev  16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 96
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 99
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+Affect -1 25 -1 7 14 0 0
+Affect -1 25 -1 -25 12 0 0
+Affect -1 25 -1 -5 14 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 72
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 78
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 25 -1 3 24 0 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 30 -1 5 13 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  7 7 8 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 6 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+Wear 15
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 0
+Cond 96
+Repd 0
+Val  4 -1 -1 -1 0
+End
+
+#O
+Vnum 13215
+Nest 0
+Wear -1
+Lev  27
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 -7 13 0 0
+Affect -1 19 -1 -4 3 0 0
+Affect -1 19 -1 -15 13 0 0
+End
+
+#O
+Vnum 13301
+Nest 0
+Wear -1
+Lev  15
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 1 21 0 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 -1 13 0 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear -1
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear 16
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 2 22 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 96
+Repd 0
+Val  4 2 3 0 0
+End
+
+#END

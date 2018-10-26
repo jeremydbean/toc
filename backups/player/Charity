@@ -1,0 +1,530 @@
+#PLAYER
+Name Charity~
+Id   10668
+LogO 953492887
+Vers 3
+Desc Before you is a man cackling insanley...he must be CRAZY!
+~
+Prom %hhp %mmana %vmv %X-tnl~
+Ignoring ~
+Race human~
+Sex  2
+Cla  0
+Gui  0
+Psionic  2
+Cast Legi
+Levl 51
+Plyd 1192835
+ListRemorts ~
+NumRemorts 0
+Note 953485148
+Scro 22
+Room 8197
+HMV  804 804 607 741 483 483
+NewGold 215
+NewPlat 35
+NewCopp 1092
+NewSilv 379
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 2
+QuestPnts 50
+Exp  102622
+Act  67109080
+AfBy 532490
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 8
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 18
+Save  1
+Alig  1000
+Hit   23
+Dam   32
+ACs -66 -62 -59 54
+Attr 13 17 18 13 16
+AMod 13 2 2 3 4
+Pass ChnrfTvFyip6g~
+Titl  The MAD Mage!~
+Pnts 40
+TSex 2
+LLev 151
+HMVP 704 661 400
+Cond 0 37 48
+Alias oe open east~
+Alias ow open west~
+Alias on open north~
+Alias os open south~
+Alias ou open up~
+Alias od open down~
+Alias m murder~
+Alias locate c locate~
+Alias sanc c sanc~
+Alias haste c haste~
+Alias invis c 'detect invis'~
+Alias slow c slow~
+Alias acid c acid~
+Alias ds c 'dispel magic'~
+Alias haven c haven~
+Alias mana c mana~
+Alias sun c sunray~
+Sk 100 'acid blast'
+Sk 78 'armor'
+Sk 75 'blizzard'
+Sk 90 'burning hands'
+Sk 1 'water burst'
+Sk 81 'cancellation'
+Sk 84 'chain lightning'
+Sk 80 'charm person'
+Sk 76 'chill touch'
+Sk 81 'colour spray'
+Sk 79 'cone of cold'
+Sk 84 'detect invis'
+Sk 88 'dispel magic'
+Sk 1 'dust devil'
+Sk 83 'faerie fire'
+Sk 86 'fireball'
+Sk 80 'fire shield'
+Sk 85 'fly'
+Sk 83 'force sword'
+Sk 77 'frost shield'
+Sk 100 'gate'
+Sk 84 'giant strength'
+Sk 1 'geyser'
+Sk 98 'haste'
+Sk 92 'haven'
+Sk 75 'heat metal'
+Sk 79 'icicle'
+Sk 90 'identify'
+Sk 80 'infravision'
+Sk 92 'invis'
+Sk 87 'lightning bolt'
+Sk 97 'locate object'
+Sk 81 'magic missile'
+Sk 75 'major globe'
+Sk 100 'mana convert'
+Sk 75 'mass invis'
+Sk 94 'meteor swarm'
+Sk 86 'pass door'
+Sk 83 'portal'
+Sk 81 'power gloves'
+Sk 83 'protection evil'
+Sk 78 'refresh'
+Sk 78 'rope trick'
+Sk 99 'sanctuary'
+Sk 78 'shield'
+Sk 80 'shocking grasp'
+Sk 77 'sleep'
+Sk 100 'slow'
+Sk 75 'stone skin'
+Sk 77 'summon'
+Sk 98 'sunray'
+Sk 88 'teleport'
+Sk 43 'vortex'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 93 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 77 'scrolls'
+Sk 1 'wands'
+Sk 92 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'mass invis'  50  23   0   0          2          0
+AffD 'protection evil'   7   7   0   0       8192          0
+AffD 'fly'  28  37   0   0     524288          0
+AffD 'giant strength'  48  25   4   1          0          0
+AffD 'detect invis'   0  19   0   0          8          0
+End
+
+#O
+Vnum 3721
+Nest 0
+Wear 5
+Lev  1
+Cost 15
+Cond 93
+Repd 0
+Val  3 4 3 0 0
+Affect -1 1 -1 4 20 0 0
+End
+
+#O
+Vnum 2402
+Nest 0
+Wear -1
+Lev  35
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  2
+Cost 0
+Cond 95
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 86
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 4619
+Enchanted
+Nest 0
+Wear 6
+Lev  26
+Cost 25000
+Cond 90
+Repd 0
+AffD 'enchant armor' 38 -1 -1 17 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 0
+Cond 96
+Repd 0
+Val  0 0 4656 0 0
+End
+
+#O
+Vnum 721
+Nest 0
+Wear -1
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 0
+Cond 86
+Repd 0
+Val  4 4 2 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 2 4 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear -1
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  5 7 6 0 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 62
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9517
+Nest 0
+Wear -1
+Lev  7
+Cost 1070
+Cond 100
+Repd 0
+Val  3 5 4 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear -1
+Lev  8
+Cost 350
+Cond 82
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 1 20 0 0
+Affect -1 50 -1 1 24 0 0
+End
+
+#O
+Vnum 29274
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 22 0 0
+End
+
+#O
+Vnum 29208
+Nest 0
+Wear 3
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 22 0 0
+Affect -1 51 -1 -17 14 0 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 17 14 0 0
+End
+
+#O
+Vnum 29212
+Nest 0
+Wear 12
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 20 0 0
+End
+
+#END

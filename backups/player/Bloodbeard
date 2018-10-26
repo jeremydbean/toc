@@ -1,0 +1,978 @@
+#PLAYER
+Name Bloodbeard~
+Id   52
+LogO 953246779
+Vers 3
+Prom ~
+Ignoring klit~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast Fors
+Levl 52
+Plyd 1236155
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 2
+HMV  1492 1492 816 1183 -6 -6
+NewGold 135963
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 1
+QuestPnts 36
+Exp  114621
+Act  67109064
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  7
+Alig  1000
+Hit   32
+Dam   38
+ACs -156 -132 -165 6
+Attr 12 15 11 10 11
+AMod 11 4 0 2 -3
+Pass Kyz2D/BNiZB8Q~
+Ariv You have been jailed for breaking the rules with $n $t.~
+Dprt [INFO] $n has been jailed in $T.~
+Titl  the porn*~
+Pnts 40
+TSex 1
+LLev 282
+HMVP 1357 1062 69
+Cond 0 25 48
+Alias mm cast 'magic missile'~
+Alias bh cast 'burning hands'~
+Alias in cast 'mass invis'~
+Alias lb cast lightning~
+Alias mc cast 'mana convert'~
+Alias a cast 'acid blast'~
+Alias fs cast 'fire shield'~
+Alias di cast 'detect invis'~
+Alias sl cast slow~
+Alias hm cast 'heat metal'~
+Alias fb cast 'fire breath'~
+Alias ab cast 'acid blast'~
+Alias pg cast power~
+Alias ha cast haste~
+Alias dm cast 'dispel magic'~
+Alias sa cast sanc~
+Alias goto cast gate~
+Alias ff cast fae~
+Alias pe cast 'protection evil'~
+Sk 100 'acid blast'
+Sk 80 'armor'
+Sk 1 'blizzard'
+Sk 97 'burning hands'
+Sk 1 'water burst'
+Sk 86 'cancellation'
+Sk 79 'chain lightning'
+Sk 100 'charm person'
+Sk 1 'chill touch'
+Sk 1 'colour spray'
+Sk 1 'cone of cold'
+Sk 79 'detect invis'
+Sk 89 'dispel magic'
+Sk 1 'dust devil'
+Sk 97 'faerie fire'
+Sk 100 'fireball'
+Sk 93 'fire shield'
+Sk 89 'fly'
+Sk 93 'force sword'
+Sk 1 'frost shield'
+Sk 95 'gate'
+Sk 83 'giant strength'
+Sk 1 'geyser'
+Sk 99 'haste'
+Sk 94 'haven'
+Sk 75 'heat metal'
+Sk 1 'icicle'
+Sk 88 'identify'
+Sk 1 'infravision'
+Sk 1 'invis'
+Sk 98 'lightning bolt'
+Sk 89 'locate object'
+Sk 89 'magic missile'
+Sk 82 'major globe'
+Sk 100 'mana convert'
+Sk 75 'mass invis'
+Sk 47 'meteor swarm'
+Sk 85 'pass door'
+Sk 91 'portal'
+Sk 89 'power gloves'
+Sk 86 'protection evil'
+Sk 1 'refresh'
+Sk 79 'rope trick'
+Sk 97 'sanctuary'
+Sk 78 'shield'
+Sk 1 'shocking grasp'
+Sk 1 'sleep'
+Sk 100 'slow'
+Sk 81 'stone skin'
+Sk 81 'summon'
+Sk 1 'sunray'
+Sk 1 'teleport'
+Sk 1 'vortex'
+Sk 1 'acid breath'
+Sk 77 'fire breath'
+Sk 1 'frost breath'
+Sk 1 'gas breath'
+Sk 1 'lightning breath'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 98 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 75 'scribe'
+Sk 100 'sneak'
+Sk 100 'scrolls'
+Sk 1 'wands'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear 11
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+Val  8 10 6 4 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear -1
+Lev  41
+Cost 0
+Cond 98
+Repd 0
+Val  9 11 10 -1 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 86
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+Affect -1 46 -1 -1 24 0 0
+End
+
+#O
+Vnum 29217
+Nest 0
+Wear 0
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 5 22 0 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 19713
+Wear 5
+Lev  51
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 92
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16
+Nest 1
+ShD  the guts of the healer~
+Desc A steaming pile of the healer's entrails is lying here.~
+ExtF 16777216
+Wear -1
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 1345
+Nest 1
+Wear -1
+Lev  47
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 2
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 2
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 75
+Nest 2
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 2
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 2
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 2
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 2
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 2
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 2
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 90
+Nest 2
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 2
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 69
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 2
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 241
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 2
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 245
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 2
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 232
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 90
+Nest 2
+Name deadly black scroll~
+ShD  a deadly black scroll~
+Wear -1
+Time 429
+Cost 500
+Cond 100
+Repd 0
+Val  51 126 -1 -1 0
+Spell 1 'vengence'
+End
+
+#O
+Vnum 29279
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 90
+Nest 0
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear 17
+Time 404
+Cost 500
+Cond 100
+Repd 0
+Val  52 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+Affect -1 22 -1 3 20 0 0
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 52 -1 5 17 0 0
+End
+
+#O
+Vnum 29219
+Nest 0
+Wear 16
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 52 -1 -19 12 0 0
+End
+
+#END

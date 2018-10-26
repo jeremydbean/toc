@@ -1,0 +1,166 @@
+#PLAYER
+Name Malbian~
+Id   10374
+LogO 949872462
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  3
+Gui  0
+Psionic  0
+Cast none
+Levl 11
+Plyd 30442
+ListRemorts ~
+NumRemorts 0
+Note 949776418
+Scro 22
+Room 3241
+HMV  115 115 46 140 160 160
+NewGold 1
+NewPlat 42
+NewCopp 66
+NewSilv 4
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  26478
+Act  252
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 2
+Trai 1
+Alig  -1000
+ACs 100 100 100 100
+Wimp  10
+Attr 17 18 18 14 14
+AMod 0 0 0 0 0
+Pass MaYIwwm.npUPY~
+Titl  the Hero~
+Pnts 40
+TSex 1
+LLev 8
+HMVP 115 140 160
+Cond 0 0 19
+Sk 75 'armor'
+Sk 55 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 76 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 30 'axe'
+Sk 41 'dagger'
+Sk 25 'flail'
+Sk 53 'mace'
+Sk 35 'polearm'
+Sk 75 'shield block'
+Sk 30 'spear'
+Sk 86 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 76 'parry'
+Sk 1 'rescue'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#END

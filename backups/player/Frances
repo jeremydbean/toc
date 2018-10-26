@@ -1,0 +1,935 @@
+#PLAYER
+Name Frances~
+Id   9818
+LogO 953174275
+Vers 3
+Desc .
+~
+Prom ~
+Ignoring vizzini~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 54
+Plyd 2393116
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 12709
+HMV  1090 1090 65 715 293 293
+NewGold 39
+NewPlat 23
+NewCopp 564
+NewSilv 67
+Bank 9000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 32
+QuestNext 3
+Exp  172208
+Act  65784
+AfBy 557576
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 892396134
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 1
+Alig  999
+Hit   63
+Dam   82
+ACs -76 -70 -80 5
+Wimp  1
+Attr 12 18 15 14 15
+AMod 20 2 2 11 2
+Pass Fr47Y9eAL/tEU~
+Ariv $n leaves to $T.~
+Dprt $n enters from the $T.~
+Titl , [Kill A Crane]~
+Pnts 40
+TSex 2
+LLev 622
+HMVP 780 605 418
+Cond 0 39 48
+Alias fa c 'frost breath'~
+Alias 4 c 'fire shield'~
+Alias dis c 'dispel magic'~
+Alias req aquest request~
+Alias 1 aquest complete~
+Alias 2 aquest abort~
+Alias 3 aquest time~
+Alias ab c 'acid breath'~
+Alias gb c 'gas breath'~
+Alias fb c 'fire breath'~
+Alias see c 'detect invis'~
+Alias od open down~
+Alias ou open up~
+Alias fire c 'faerie fire'~
+Alias on open north~
+Alias oe open east~
+Alias ow open west~
+Alias os open south~
+Sk 100 'acid blast'
+Sk 80 'armor'
+Sk 1 'blizzard'
+Sk 80 'burning hands'
+Sk 1 'water burst'
+Sk 93 'cancellation'
+Sk 98 'chain lightning'
+Sk 86 'charm person'
+Sk 1 'chill touch'
+Sk 87 'colour spray'
+Sk 1 'cone of cold'
+Sk 93 'detect invis'
+Sk 93 'dispel magic'
+Sk 1 'dust devil'
+Sk 97 'faerie fire'
+Sk 75 'fireball'
+Sk 99 'fire shield'
+Sk 96 'fly'
+Sk 98 'force sword'
+Sk 80 'frost shield'
+Sk 100 'gate'
+Sk 95 'giant strength'
+Sk 1 'geyser'
+Sk 100 'haste'
+Sk 100 'haven'
+Sk 75 'heat metal'
+Sk 76 'icicle'
+Sk 94 'identify'
+Sk 80 'infravision'
+Sk 83 'invis'
+Sk 75 'lightning bolt'
+Sk 100 'locate object'
+Sk 79 'magic missile'
+Sk 88 'major globe'
+Sk 100 'mana convert'
+Sk 86 'mass invis'
+Sk 92 'meteor swarm'
+Sk 82 'pass door'
+Sk 86 'portal'
+Sk 99 'power gloves'
+Sk 92 'protection evil'
+Sk 86 'refresh'
+Sk 82 'rope trick'
+Sk 100 'sanctuary'
+Sk 89 'shield'
+Sk 89 'shocking grasp'
+Sk 80 'sleep'
+Sk 100 'slow'
+Sk 75 'stone skin'
+Sk 78 'summon'
+Sk 100 'sunray'
+Sk 98 'teleport'
+Sk 1 'vortex'
+Sk 77 'acid breath'
+Sk 86 'fire breath'
+Sk 76 'frost breath'
+Sk 88 'gas breath'
+Sk 1 'lightning breath'
+Sk 75 'axe'
+Sk 100 'dagger'
+Sk 81 'flail'
+Sk 100 'mace'
+Sk 21 'polearm'
+Sk 42 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 65 'sneak'
+Sk 62 'scrolls'
+Sk 1 'wands'
+Sk 92 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'fly'   2   9   0   0     524288          0
+AffD 'sneak'  19   3   0   0      32768          0
+AffD 'giant strength'  12   3   4   1          0          0
+AffD 'detect invis'  12   0   0   0          8          0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Name tome of magic~
+ShD  an ancient Tome of Magic~
+Desc Here lies a tome crackling with eldritch power.~
+Act_room The room crackles with eldritch power as Frances opens her Tome of Magic.~
+Act_char As you wield your tome, eldritch energy surrounds you, lighting up the room.~
+Wear 0
+Lev  20
+Cost 0
+Cond 96
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 0
+Wear 4
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+Name mark eyghon~
+ShD  (tattooed) the Mark of Eyghon~
+Desc You see a faint silhouette of a dark and ancient demon.~
+ExtF 21
+Act_room Frances is engulfed in a dark aura as she reveals her tattoo.~
+Act_char You're engulfed in your own dark aura, as you reveal your tattoo.~
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16032
+Nest 0
+Wear 8
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 0
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 0
+Wear 3
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Enchanted
+Nest 0
+Name blade crane~
+ShD  a Dead and Bloody Crane~
+Desc A Dead and Bloody Crane lies here.~
+ExtF 4163
+Act_room As she wields her bird of death, she screams,"Every tool is a weapon if you hold it right!"~
+Act_char As you wield your bird of death, you scream.~
+Wear 16
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 7 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 1
+ExtF 0
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17015
+Nest 1
+Wear -1
+Lev  50
+Cost 250
+Cond 100
+Repd 0
+Val  14 14 14 4 0
+End
+
+#O
+Vnum 9924
+Nest 1
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18010
+Nest 1
+ExtF 3145730
+Wear -1
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1111
+Nest 1
+Name christmas present~
+ShD  a christmas present~
+Desc A christmas present is here attached with a card that says 'From Santa'.~
+ExtF 2097152
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 2
+Name present christmas~
+ShD  a christmas present with a big yellow bow~
+Desc A christmas present is lying here, the tag has your name on it!~
+ExtF 2097152
+WeaF 1
+Wear -1
+Cost 6
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 3
+Name receipt~
+ShD  a receipt for Frances restring exchange (USED)~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6425
+Nest 3
+ShD  a piece of paper with a drawing of a hairy ape~
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  50 1 0 5 0
+End
+
+#O
+Vnum 13267
+Nest 3
+Name token~
+ShD  token for 25 qps~
+Desc token for 25 qps (Blackbird given, trivia quest)~
+Wear -1
+Lev  1
+Cost 9
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 91
+Nest 3
+ShD  a bottle containing essence of watcher grinch~
+Desc A bottle containing essence of watcher grinch is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 4202 0
+End
+
+#O
+Vnum 29
+Nest 3
+ShD  An "I feel dumb sticker"~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 3
+Name strat fender~
+ShD  (Blazing) Jimi Hendrix' Fender Stratocaster~
+Desc (Blazing) Jimi Hendrix's Fender Stratocaster~
+Act_room Off in the distance you hear Rooster playing her Jimi Hendrix's Fender Stratocaster...you'd swear it was Jimi himself.~
+Act_char You suddenly find yourself on stage, lights burning bright upon your brow, as you strap on the God of Guitar's favorite weapon, and prepare to do poetic battle witht he masses formed below you!~
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 24225
+Nest 1
+ExtF 3145792
+Wear -1
+Lev  54
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  50
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 36 -1 6 19 0 0
+AffD 'enchant weapon' 36 -1 6 18 0 0
+End
+
+#O
+Vnum 29243
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 8 19 0 0
+AffD 'enchant weapon' 51 -1 8 18 0 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29285
+Nest 1
+Name cloak~
+ShD  (Shadow) a Dominion cloak~
+Desc a Dominion cloak~
+Wear -1
+Lev  51
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 10 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 29228
+Nest 1
+Name kitten cute purr~
+ShD  (Purring) a cute little kitten~
+Desc A poor little kitten is lying on the ground here, looking lost.~
+Act_room As Frances picks up her kitten, it purrs and cuddles into her arms.~
+Act_char Your kitten snuggles up to you and purrs contently.~
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 6405
+Nest 1
+ExtF 84
+Wear -1
+Lev  48
+Cost 6000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29241
+Nest 0
+Wear 13
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

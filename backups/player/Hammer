@@ -1,0 +1,858 @@
+#PLAYER
+Name Hammer~
+Id   55619
+LogO 952383128
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 53
+Plyd 1068287
+ListRemorts ~
+NumRemorts 0
+Note 947634870
+Scro 22
+Room 2
+HMV  1102 1102 902 902 437 437
+NewGold 299645
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 1113
+Exp  144857
+Act  196828
+AfBy 524808
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 7
+Save  4
+Alig  1000
+Hit   43
+Dam   43
+ACs -170 -159 -168 -33
+Attr 12 18 14 14 13
+AMod 17 -5 1 1 -7
+Pass Haek1a9af6/aw~
+Titl .~
+Pnts 40
+TSex 1
+LLev 214
+HMVP 807 597 412
+Cond 0 30 25
+Alias ww where~
+Alias o scan~
+Alias a flee~
+Alias m murder~
+Alias p c portal smurf~
+Alias ss c slow~
+Alias z cast acid~
+Alias fi c 'fire shield'~
+Alias h c haven~
+Alias hh wear hammer~
+Alias me c 'meteor swarm'~
+Alias b c blind~
+Alias x c 'faerie fire'~
+Alias cf c force~
+Alias cc c 'chain lightning'~
+Alias zz c 'acid breath'~
+Alias gg wear exc~
+Alias g get exc~
+Alias com aquest complete~
+Alias dd c 'dispel magic'~
+Sk 100 'acid blast'
+Sk 83 'armor'
+Sk 82 'blindness'
+Sk 44 'blizzard'
+Sk 1 'burning hands'
+Sk 1 'water burst'
+Sk 77 'cancellation'
+Sk 83 'chain lightning'
+Sk 1 'chill touch'
+Sk 1 'colour spray'
+Sk 75 'cone of cold'
+Sk 77 'curse'
+Sk 94 'detect invis'
+Sk 80 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'energy drain'
+Sk 100 'faerie fire'
+Sk 75 'fireball'
+Sk 61 'fire shield'
+Sk 94 'fly'
+Sk 85 'force sword'
+Sk 51 'frost shield'
+Sk 97 'gate'
+Sk 88 'giant strength'
+Sk 43 'geyser'
+Sk 99 'haste'
+Sk 89 'haven'
+Sk 1 'heat metal'
+Sk 91 'icicle'
+Sk 92 'identify'
+Sk 77 'infravision'
+Sk 1 'lightning bolt'
+Sk 84 'locate object'
+Sk 100 'magic missile'
+Sk 68 'major globe'
+Sk 100 'mana convert'
+Sk 43 'maze'
+Sk 100 'meteor swarm'
+Sk 90 'pass door'
+Sk 77 'poison'
+Sk 84 'portal'
+Sk 67 'power gloves'
+Sk 89 'protection evil'
+Sk 82 'refresh'
+Sk 77 'rope trick'
+Sk 95 'sanctuary'
+Sk 87 'shield'
+Sk 1 'shocking grasp'
+Sk 100 'slow'
+Sk 80 'stone skin'
+Sk 76 'summon'
+Sk 77 'sunray'
+Sk 1 'teleport'
+Sk 43 'vortex'
+Sk 89 'weaken'
+Sk 86 'acid breath'
+Sk 75 'fire breath'
+Sk 75 'frost breath'
+Sk 75 'gas breath'
+Sk 75 'lightning breath'
+Sk 20 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 1 'sneak'
+Sk 43 'scrolls'
+Sk 45 'wands'
+Sk 88 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'fly'  33   1   0   0     524288          0
+AffD 'detect invis'  22   1   0   0          8          0
+AffD 'giant strength'  28   5   4   1          0          0
+AffD 'major globe'   8   4 -80  17          0          0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  35 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 1
+ExtF 19
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Name soul of santos~
+ShD  Soul of Santos~
+Wear -1
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 1
+Wear -1
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 17020
+Nest 1
+ExtF 19
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29237
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 9924
+Nest 1
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name colorless potion~
+ShD  a colorless potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  50 12 77 106 0
+Spell 1 'cancellation'
+Spell 2 'heal'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29215
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Val  11 12 13 5 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 0
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29275
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 0
+Wear 11
+Lev  47
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29237
+Nest 0
+Wear 5
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28122
+Nest 0
+Wear -1
+Lev  51
+Cost 400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

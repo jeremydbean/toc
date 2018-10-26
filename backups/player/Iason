@@ -1,0 +1,1027 @@
+#PLAYER
+Name Iason~
+Id   26420
+LogO 953526465
+Vers 3
+Desc .
+.   ****           *   *                 
+.  *  *************  **                  
+. *     *********    **                  
+. *     *  *         **                  
+.  **  *  **         **                  
+.     *  ***         **  ***      ***    
+.    **   **         ** * ***    * ***   
+.    **   **         ***   ***  *   ***  
+.    **   **         **     ** **    *** 
+.    **   **         **     ** ********  
+.     **  **         **     ** *******   
+.      ** *      *   **     ** **        
+.       ***     *    **     ** ****    * 
+.        *******     **     **  *******  
+.          ***        **    **   *****   
+.                           *            
+.                          *             
+.                         *              
+.                        *               
+.                                        
+.                                                              
+.       * ***                                                  
+.     *  ****  *                                               
+.    *  *  ****                                          *     
+.   *  **   **                                          **     
+.  *  ***                                               **     
+. **   **          ***  ****       ***       ****     ******** 
+. **   **   ***     **** **** *   * ***     * ***  * ********  
+. **   **  ****  *   **   ****   *   ***   *   ****     **     
+. **   ** *  ****    **         **    *** **    **      **     
+. **   ***    **     **         ********  **    **      **     
+.  **  **     *      **         *******   **    **      **     
+.   ** *      *      **         **        **    **      **     
+.    ***     *       **         ****    * **    **      **     
+.     *******        ***         *******   ***** **     **     
+.       ***           ***         *****     ***   **     **    
+.                                                              
+.                                                              
+.                                                              
+.                                                              
+.                                                              
+.                                       
+.       * ***                           
+.     *  ****                           
+.    *  *  ***                          
+.   *  **   ***                         
+.  *  ***    ***                        
+. **   **     ** ***  ****       ***    
+. **   **     **  **** **** *   * ***   
+. **   **     **   **   ****   *   ***  
+. **   **     **   **    **   **    *** 
+. **   **     **   **    **   ********  
+.  **  **     **   **    **   *******   
+.   ** *      *    **    **   **        
+.    ***     *     **    **   ****    * 
+.     *******      ***   ***   *******  
+.       ***         ***   ***   *****   
+
+
+You see something very special about him.                 
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 53
+Plyd 2640433
+ListRemorts ~
+NumRemorts 0
+Note 953454190
+Scro 22
+Room 4208
+HMV  1575 1575 1650 1804 274 276
+NewGold 232
+NewPlat 204
+NewCopp 1326
+NewSilv 307
+Bank 22500
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 99
+Exp  136793
+Act  196808
+AfBy 524328
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  1
+Alig  495
+Hit   69
+Dam   82
+ACs -318 -289 -351 -137
+Attr 18 18 21 18 18
+AMod 4 6 0 -12 -4
+Pass Iaj52jHd0cBUo~
+Ariv $n enters from $T.~
+Dprt $n departs to $T.~
+Titl  Frost... C/T extraordinaire.~
+Pnts 40
+TSex 1
+LLev 537
+HMVP 1500 1697 412
+Cond 0 2 48
+Alias l get all~
+Alias ] recall~
+Alias f flee~
+Alias pe cast 'protection evil'~
+Alias 2 cast heal~
+Alias 3 cast 'major globe'~
+Alias 1 cast 'cure critical'~
+Alias p cast 'dispel magic'~
+Alias / who~
+Alias mc cast 'mana convert'~
+Alias re rest~
+Alias smi smile~
+Alias di cast 'detect invis'~
+Alias dh cast 'detect hidden'~
+Alias ff cast 'faerie fire'~
+Sk 100 'aid'
+Sk 100 'armor'
+Sk 100 'bless'
+Sk 1 'blindness'
+Sk 1 'call lightning'
+Sk 95 'calm'
+Sk 100 'cancellation'
+Sk 1 'cause critical'
+Sk 1 'cause light'
+Sk 1 'cause serious'
+Sk 100 'cone of cold'
+Sk 1 'continual light'
+Sk 1 'control weather'
+Sk 100 'create food'
+Sk 80 'create spring'
+Sk 71 'create water'
+Sk 100 'cure blindness'
+Sk 100 'cure critical'
+Sk 86 'cure disease'
+Sk 87 'cure light'
+Sk 78 'cure nightmare'
+Sk 86 'cure poison'
+Sk 1 'cure serious'
+Sk 1 'curse'
+Sk 1 'demonfire'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 76 'detect hidden'
+Sk 83 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 1 'dispel evil'
+Sk 1 'dispel good'
+Sk 100 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'earthquake'
+Sk 1 'energy drain'
+Sk 79 'faerie fire'
+Sk 74 'faerie fog'
+Sk 1 'flamestrike'
+Sk 95 'fly'
+Sk 100 'frenzy'
+Sk 100 'gate'
+Sk 1 'harm'
+Sk 94 'haven'
+Sk 1 'heat metal'
+Sk 100 'heal'
+Sk 47 'holy word'
+Sk 100 'icicle'
+Sk 96 'identify'
+Sk 1 'know alignment'
+Sk 1 'lightning bolt'
+Sk 94 'locate object'
+Sk 89 'major globe'
+Sk 100 'mana convert'
+Sk 97 'mass healing'
+Sk 87 'mass sanctuary'
+Sk 1 'maze'
+Sk 95 'pass door'
+Sk 1 'plague'
+Sk 1 'poison'
+Sk 97 'portal'
+Sk 95 'protection evil'
+Sk 71 'raise dead'
+Sk 73 'divine intervention'
+Sk 100 'refresh'
+Sk 89 'remove curse'
+Sk 97 'rope trick'
+Sk 100 'sanctuary'
+Sk 93 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 95 'summon'
+Sk 100 'sunray'
+Sk 1 'teleport'
+Sk 89 'vortex'
+Sk 1 'weaken'
+Sk 100 'word of recall'
+Sk 10 'axe'
+Sk 91 'dagger'
+Sk 70 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 100 'sword'
+Sk 5 'whip'
+Sk 71 'archery'
+Sk 100 'dodge'
+Sk 100 'second attack'
+Sk 1 'concoct'
+Sk 100 'meditation'
+Sk 100 'shove'
+Sk 100 'scrolls'
+Sk 95 'staves'
+Sk 1 'wands'
+Sk 72 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'attack'
+Gr 'benedictions'
+Gr 'creation'
+Gr 'curative'
+Gr 'detection'
+Gr 'cleric elemental'
+Gr 'harmful'
+Gr 'healing'
+Gr 'cleric maladictions'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+Gr 'weather'
+AffD 'fly'  10  14   0   0     524288          0
+AffD 'major globe'   0   1 -80  17          0          0
+AffD 'detect hidden'  38  44   0   0         32          0
+AffD 'detect invis'  33  44   0   0          8          0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 50
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 1000
+Cond 68
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 85
+Repd 0
+Affect -1 30 -1 3 23 0 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 92
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 4 23 0 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 -1 14 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 50 -1 -7 14 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2097473
+Wear 4
+Lev  50
+Cost 3000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+Affect -1 53 -1 3 20 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 97
+Repd 0
+Affect -1 53 -1 1 1 0 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 98
+Repd 0
+Affect -1 53 -1 -3 12 0 0
+Affect -1 53 -1 -4 2 0 0
+Affect -1 53 -1 -5 14 0 0
+Affect -1 53 -1 -11 14 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 74
+Nest 1
+Name ruby tea~
+ShD  a ruby container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  26 35 74 -1 0
+Spell 1 'cure light'
+Spell 2 'haste'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 806
+Nest 1
+Wear -1
+Lev  1
+Cost 1500000
+Cond 100
+Repd 0
+Spell 3 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Wear -1
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 54 -1 -5 3 0 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+Affect -1 42 -1 -1 20 0 0
+End
+
+#O
+Vnum 10012
+Nest 0
+ExtF 2228548
+Wear 11
+Lev  50
+Cost 833
+Cond 100
+Repd 0
+Val  13 13 13 2 0
+Affect -1 50 -1 -5 14 0 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 16641
+Wear 5
+Lev  51
+Cost 500
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3145794
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -4 5 0 0
+End
+
+#O
+Vnum 2334
+Nest 0
+Wear -1
+Lev  26
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 26 -1 -3 3 0 0
+End
+
+#O
+Vnum 17020
+Nest 0
+ExtF 19
+Wear 16
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 53 -1 -17 14 0 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9925
+Nest 0
+ExtF 3145731
+Wear -1
+Lev  51
+Cost 0
+Cond 92
+Repd 0
+Affect -1 51 -1 -33 13 0 0
+End
+
+#END

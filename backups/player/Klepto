@@ -1,0 +1,265 @@
+#PLAYER
+Name KlEpTo~
+Id   9000
+LogO 953425151
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 24
+Plyd 74652
+ListRemorts ~
+NumRemorts 0
+Note 937148680
+Scro 22
+Room 4207
+HMV  383 383 131 131 24 238
+NewGold 48
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  55613
+Act  200
+AfBy 512
+AfBy2 64
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 6
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 6
+Color 13 12
+Color 14 14
+Color 15 1
+Color 16 14
+Pos  8
+Alig  68
+Hit   2
+Dam   6
+ACs 79 79 75 100
+Attr 14 13 12 17 19
+AMod 0 1 1 1 0
+Pass KlxHlQkMxC1fA~
+Titl  the Assassin~
+Pnts 40
+TSex 1
+LLev 18
+HMVP 383 131 238
+Cond 0 0 0
+Sk 7 'axe'
+Sk 93 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 79 'backstab'
+Sk 1 'bash'
+Sk 80 'dodge'
+Sk 78 'dual wield'
+Sk 43 'parry'
+Sk 1 'trip'
+Sk 79 'second attack'
+Sk 1 'hide'
+Sk 75 'pick lock'
+Sk 75 'sneak'
+Sk 75 'search'
+Sk 1 'steal'
+Sk 56 'stealth'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'   0   1   0   0          0         64
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear 0
+Cost 30
+Cond 100
+Repd 0
+Val  0 0 224 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 3 2 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

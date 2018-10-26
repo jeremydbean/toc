@@ -1,0 +1,254 @@
+#PLAYER
+Name Kilik~
+Id   53247
+LogO 950987271
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 6
+Plyd 2998
+ListRemorts ~
+NumRemorts 0
+Note 950745145
+Scro 22
+Room 3700
+HMV  49 84 105 105 44 130
+NewGold 0
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13148
+Act  65740
+AfBy 2622080
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -8
+Alig  853
+Hit   8
+Dam   1
+ACs 56 59 57 70
+Attr 14 13 16 15 19
+AMod 4 1 2 4 2
+Pass KiFl2/HsTO7Fw~
+Titl  the Pincher~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 84 105 130
+Cond 0 21 1
+Alias on open north~
+Alias os open south~
+Alias oe open east~
+Alias ow open west~
+Alias k backstab~
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 1 'bash'
+Sk 73 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'bless'  41  60  -7  24          0          0
+AffD 'bless'  30  60   7  18          0          0
+AffD 'armor'  51  18 -20  17          0          0
+AffD 'shield'  50  55 -20  17          0          0
+AffD 'fly'   0  50   0   0     524288          0
+AffD 'giant strength'   0  47   4   1          0          0
+AffD 'sanctuary'   3   2   0   0        128          0
+AffD 'haste'  43   7   4   2    2097152          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 155 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 0
+Wear 6
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+Affect -1 2 -1 13 17 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 0
+Cond 65
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 0
+Cond 60
+Repd 0
+Affect -1 7 -1 -1 14 0 0
+End
+
+#END

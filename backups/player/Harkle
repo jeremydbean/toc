@@ -1,0 +1,271 @@
+#PLAYER
+Name Harkle~
+Id   27490
+LogO 953331076
+Vers 3
+Desc Harkle is retired.
+
+Due to lack of interest and a hole in his time and wallet named Jenn, he has become a dust collector at the pit. 
+
+But if you want a spellup or something, ask.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 51
+Plyd 1520060
+ListRemorts ~
+NumRemorts 0
+Note 953324212
+Scro 22
+Room 4208
+HMV  113 518 214 477 375 375
+NewGold 2
+NewPlat 39
+NewCopp 2
+NewSilv 5
+Bank 70000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 191
+Exp  72678
+Act  200
+AfBy 8712
+AfBy2 24
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 0
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 0
+Color 10 4
+Color 11 3
+Color 12 0
+Color 13 2
+Color 14 0
+Color 15 0
+Color 16 2
+Pos  8
+Prac 1
+Trai 4
+Save  1
+Alig  1000
+Hit   5
+Dam   12
+ACs 48 48 47 58
+Attr 13 21 18 15 18
+AMod 5 0 0 0 0
+Pass HafoOlVHgbHf2~
+Ariv $n is the meanest pirate $t of the Mississippi.~
+Dprt $n flies $t for the winter.~
+Titl  Alegre, as "The Chief"~
+Pnts 40
+TSex 1
+LLev 209
+HMVP 508 467 400
+Cond 0 15 48
+Alias w west~
+Alias s south~
+Alias n north~
+Alias e east~
+Alias d down~
+Alias o open secret~
+Alias oger emote utters the words 'fattus ogeri'.~
+Alias haste emote utters the words, 'paghz'.                                            You feel yourself moving more quickly.~
+Alias fuckoff emote utters the words, 'kiss my ass'.~
+Sk 100 'acid blast'
+Sk 100 'armor'
+Sk 100 'burning hands'
+Sk 84 'cancellation'
+Sk 93 'chain lightning'
+Sk 86 'charm person'
+Sk 95 'chill touch'
+Sk 93 'colour spray'
+Sk 94 'detect invis'
+Sk 93 'dispel magic'
+Sk 91 'enchant armor'
+Sk 93 'enchant weapon'
+Sk 97 'faerie fire'
+Sk 90 'fireball'
+Sk 84 'fire shield'
+Sk 100 'fly'
+Sk 85 'force sword'
+Sk 82 'frost shield'
+Sk 100 'gate'
+Sk 96 'giant strength'
+Sk 100 'haste'
+Sk 96 'haven'
+Sk 80 'heat metal'
+Sk 100 'identify'
+Sk 100 'infravision'
+Sk 100 'invis'
+Sk 100 'lightning bolt'
+Sk 100 'locate object'
+Sk 97 'magic missile'
+Sk 78 'major globe'
+Sk 100 'mana convert'
+Sk 80 'mass invis'
+Sk 95 'pass door'
+Sk 93 'portal'
+Sk 94 'power gloves'
+Sk 79 'protection evil'
+Sk 97 'refresh'
+Sk 100 'rope trick'
+Sk 100 'sanctuary'
+Sk 97 'shield'
+Sk 82 'shocking grasp'
+Sk 89 'sleep'
+Sk 100 'slow'
+Sk 80 'stone skin'
+Sk 86 'summon'
+Sk 100 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 94 'mace'
+Sk 3 'polearm'
+Sk 11 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 78 'concoct'
+Sk 100 'meditation'
+Sk 76 'scribe'
+Sk 75 'scrolls'
+Sk 76 'wands'
+Sk 98 'recall'
+Sk 80 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'frost shield'  30   2   0   0          0         16
+AffD 'fire shield'   0   2   0   0          0          8
+AffD 'power gloves'   0   0   7  19          0          0
+AffD 'stone skin'  49  41 -40  17          0          0
+AffD 'protection evil'  46   3   0   0       8192          0
+AffD 'detect invis'  36  22   0   0          8          0
+AffD 'giant strength'  46   7   4   1          0          0
+AffD 'infravision'  23   7   0   0        512          0
+End
+
+#O
+Vnum 16028
+Nest 0
+Wear 17
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'chill touch'
+End
+
+#O
+Vnum 8713
+Nest 0
+ExtF 64
+Wear 13
+Lev  10
+Cost 1250
+Cond 94
+Repd 0
+Val  4 4 3 0 0
+Affect -1 51 -1 2 21 0 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Name restring~
+ShD  a token good for 1 restring~
+Desc a token good for 1 restring is here~
+Act_room $n holds a shiney restring token into the air, illuminating the room.~
+Act_char The restring token illuminates the room around you.~
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29017
+Nest 0
+Wear 6
+Lev  16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

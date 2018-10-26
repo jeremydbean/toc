@@ -1,0 +1,511 @@
+#PLAYER
+Name Epp~
+Id   14050
+LogO 953491600
+Vers 3
+Desc SOBE POWER!! The Drink Of All Chamelions
+~
+Prom ~
+Ignoring goku cameel list noboby umbringen~
+Race elf~
+Sex  1
+Cla  3
+Gui  2
+Psionic  2
+Cast none
+Levl 51
+Plyd 856456
+ListRemorts ~
+NumRemorts 0
+Note 953331256
+Scro 22
+Room 2486
+HMV  684 868 211 251 254 400
+NewGold 8
+NewPlat 5
+NewCopp 37
+NewSilv 40
+Bank 80
+Dcount 3
+Corpses	0
+PkRec 3
+PkGiv 0
+QuestPnts 3506
+Exp  119750
+Act  200
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 2
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 2
+Color 10 4
+Color 11 1
+Color 12 3
+Color 13 2
+Color 14 2
+Color 15 2
+Color 16 2
+Pos  4
+Prac 8
+Trai 1
+Save  -2
+Alig  1000
+Hit   11
+Dam   19
+ACs -16 -16 -17 100
+Attr 19 19 18 18 18
+AMod 0 0 0 1 3
+Pass EptpUIvUKiYws~
+Titl  the Heroine of the Fifth Order~
+Pnts 40
+TSex 1
+LLev 237
+HMVP 818 191 400
+Cond 0 0 46
+Alias ow open west~
+Alias oe open east~
+Alias on open north~
+Alias os open south~
+Alias ou open up~
+Alias od open down~
+Alias ue unlock east~
+Alias uw unlock west~
+Alias us unlock south~
+Alias un unlock north~
+Sk 75 'axe'
+Sk 100 'dagger'
+Sk 38 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 96 'shield block'
+Sk 75 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 77 'archery'
+Sk 88 'backstab'
+Sk 75 'disarm'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 79 'rescue'
+Sk 79 'trip'
+Sk 100 'second attack'
+Sk 80 'shove'
+Sk 83 'sneak'
+Sk 75 'steal'
+Sk 97 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'thief guild'
+End
+
+#O
+Vnum 9311
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16011
+Nest 0
+ExtF 66
+Wear 6
+Lev  42
+Cost 1842
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29029
+Nest 0
+Wear 0
+Lev  27
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2104
+Nest 0
+Wear 11
+Lev  7
+Cost 250
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 4 0 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 0
+ExtF 0
+Wear -1
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 0
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear 13
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 8 -1 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1342
+Nest 0
+Wear 12
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 11 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9316
+Nest 0
+Wear -1
+Lev  18
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5112
+Nest 0
+Wear 2
+Lev  25
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5112
+Nest 0
+Wear 1
+Lev  25
+Cost 2600
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 58 0 0 0
+End
+
+#O
+Vnum 24
+Nest 0
+ExtF 2097153
+Wear -1
+Lev  1
+Time 278
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'sanctuary'
+Spell 2 'heal'
+Spell 3 'pass door'
+End
+
+#END

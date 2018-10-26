@@ -1,0 +1,571 @@
+#PLAYER
+Name RedKnight~
+Id   17487
+LogO 1539637167
+Vers 3
+Desc .                     'X)
+.                      )|
+.                      )|
+.                     _)|
+.                     )||                                  /X`
+.                    _)||                                 //(
+.                   _) ||                                // (
+.                  _)  ||                               // (
+.                 _)   ||                              //  (
+.               __)    ||                             //   (
+.             __)      ||                            //    /
+.             )        ||                           //    (
+.           'X\        ||                          //     (
+.            )\\       ||                         //      (
+.            ) \\      ||                        //       /
+.             ) \\     ||                       //       (
+.             )  \\    ||                      //        (
+.              \  \\   ||                     //         (_
+.               )  \\  ||                    //           (_
+.                )  \\ ||                   //             (_
+.                \   \\||                  //                \
+.                 )   >. )               _/(__________________X`
+.                 \  //||               (  .------------------.>
+.                 _)// ||                )/\\             __.-'
+.                _)//  ||               //  \\          _(
+.                )//.. ||              //    \\       _(
+.                X/'  \||             //      \\     (
+.   __   _____,_,,_,,,,||            //        \\   (
+. .-` \_/.-._______)   )|           //.--------.\\ (
+. `  `-- )        /  \'||   .--.__.//'-.________`\X'
+.       '        (   ,)||  <\--<_(//-/> \       `.
+.                 \ /(\||  /   ^.'/_/(\  \        `.
+.                 (   \|`./  ^.' /<   .-  \/\___    \
+.                  \ |/) | ^ /  /  \ /    /( \  `-.  \
+.                  ( `/  ^  ^   (  \/>   /(   \    \  \
+.                   >--) ^  L/     \(   /(     )    )  )
+.                .(\  / ^/)/ \   ( / \ ((     /    /  /
+.              .'  )\/ ^/(/  (    \)  `-\\   /\   /  /
+.             /    > ^   /,   |  //      `\   /  ( .'
+.            /    (=  =)).'  /  //,        ) (    \`.
+.          /  ,  <, ,_>/    > '/',       /   >    \ )
+.           ) '  _/ /\>'    / - )'    ___/ _>'     (/
+.          /  .-(^-^)/}-.  / / /     (---. `--.
+.         /  (  (-^-(/   ) \' /       `   \ \--)
+.        /  /    )   )   ._/ /             `-)'
+.        ) /    (   (   (-^. \-._           '
+.       /  >             `  \)`--)
+.      (   `--.             '   '
+.      / />----)
+.     / /\)   '
+.    (-'  `
+.     `
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 52
+Plyd 1013736
+ListRemorts ~
+NumRemorts 0
+Note 944155896
+Scro 22
+Room 4208
+HMV  1147 1147 174 174 413 413
+NewGold 8137
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 30000
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 108
+Exp  103928
+Act  4194508
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 3
+Save  -2
+Alig  1000
+Hit   24
+Dam   41
+ACs -117 -122 -123 46
+Wimp  50
+Attr 17 13 12 12 15
+AMod 8 2 3 3 -4
+Pass Re.8WQib2kow2~
+Ariv $n walks in from the $T and you burst out laughing at h~
+Dprt $n leaves to the $T and you quit laughing so hard~
+Titl  really needs to speak with a imm~
+Pnts 40
+TSex 1
+LLev 232
+HMVP 992 162 406
+Cond 0 9 48
+Alias p shove~
+Alias 1 bash~
+Alias 2 rem cloak~
+Alias db doorbash ~
+Alias cong level congrats~
+Alias 3 rem starj~
+Alias 4 rem whit~
+Alias 5 wear ele~
+Alias 6 wear girth~
+Alias 7 wear rib~
+Alias 8 wear jean~
+Alias 9 wear peg~
+Alias 10 wear cloak~
+Alias 11 wear starj~
+Alias 12 rem broa~
+Alias 13 rem ele~
+Alias 14 wear whit~
+Alias h rescue prime~
+Alias g get ex~
+Alias f wear ex~
+Sk 76 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 49 'whip'
+Sk 91 'archery'
+Sk 90 'bash'
+Sk 55 'danger sense'
+Sk 95 'disarm'
+Sk 100 'enhanced damage'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 77 'rescue'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 96 'fast healing'
+Sk 92 'door bash'
+Sk 90 'shove'
+Sk 92 'recall'
+Sk 92 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'giant strength'  30   3   4   1          0          0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 0
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 904
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+Affect -1 35 -1 -1 3 0 0
+End
+
+#O
+Vnum 908
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+Affect -1 35 -1 -1 1 0 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16007
+Nest 1
+Wear -1
+Lev  39
+Cost 2600
+Cond 100
+Repd 0
+Affect -1 39 -1 4 23 0 0
+End
+
+#O
+Vnum 16006
+Nest 1
+Wear -1
+Lev  43
+Cost 2260
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29050
+Nest 1
+Wear -1
+Lev  40
+Time 134
+Cost 500
+Cond 100
+Repd 0
+Spell 1 'bless'
+Spell 2 'bless'
+Spell 3 'pass door'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 29358
+Nest 1
+ExtF 64
+Wear -1
+Lev  17
+Cost 0
+Cond 49
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 721
+Nest 1
+Wear -1
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+Affect -1 48 -1 -1 19 0 0
+End
+
+#O
+Vnum 3030
+Nest 1
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+Val  0 0 48 0 0
+End
+
+#O
+Vnum 28108
+Nest 1
+Wear -1
+Lev  40
+Cost 500
+Cond 100
+Repd 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 13301
+Nest 1
+Wear -1
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 -25 14 0 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 2 24 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 98
+Repd 0
+Affect -1 40 -1 -3 18 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 0
+Wear 11
+Lev  47
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+Affect -1 41 -1 1 4 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+Affect -1 34 -1 2 3 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 719
+Nest 0
+Wear 12
+Lev  34
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29210
+Nest 0
+ExtF 2097152
+Wear 5
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 24 0 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+Affect -1 52 -1 -3 14 0 0
+End
+
+#O
+Vnum 16005
+Nest 0
+Wear 6
+Lev  52
+Cost 2868
+Cond 100
+Repd 0
+Affect -1 52 -1 1 23 0 0
+End
+
+#O
+Vnum 29217
+Nest 0
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 -2 5 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 99
+Repd 0
+Affect -1 30 -1 1 20 0 0
+End
+
+#O
+Vnum 3816
+Nest 0
+Wear 10
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 98
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 45 -1 -13 12 0 0
+End
+
+#END

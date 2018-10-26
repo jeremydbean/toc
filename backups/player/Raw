@@ -1,0 +1,90 @@
+#PLAYER
+Name Raw~
+Id   1432
+LogO 949710468
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 6
+Plyd 7165
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4216
+HMV  22 64 109 109 130 130
+NewGold 0
+NewPlat 0
+NewCopp 62
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12655
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Alig  -516
+ACs 100 100 100 100
+Attr 16 18 13 16 13
+AMod 0 0 0 0 0
+Pass Ra/42x.fztIBo~
+Titl  the Pincher~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 64 109 130
+Cond 0 1 0
+Sk 7 'axe'
+Sk 81 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 75 'backstab'
+Sk 15 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 67 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+End
+
+#END

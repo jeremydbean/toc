@@ -1,0 +1,784 @@
+#PLAYER
+Name Felicia~
+Id   64327
+LogO 943931579
+Vers 3
+Desc Before you stands a female warrior of exquisite grace and form. Her silken hair drapes over her shoulders. She wears nothing but a bright silver sword. She smiles innocently at you, then with a quick stroke, she knocks your head. "Sorry."
+~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 52
+Plyd 816714
+ListRemorts ~
+NumRemorts 0
+Note 941115423
+Scro 22
+Room 9209
+HMV  1005 1005 126 331 381 381
+Gold 923020
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 31
+Exp  128462
+Act  67305674
+AfBy 524800
+Comm 28704
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 879209724
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 18
+Trai 2
+Save  -1
+Alig  999
+Hit   47
+Dam   72
+ACs -148 -138 -161 -3
+Attr 17 13 12 12 18
+AMod 11 0 0 3 0
+Pass FexnHlJ6FzOIE~
+Titl  frolicks naked in an Icy Glen.~
+Pnts 40
+TSex 2
+LLev 193
+HMVP 970 231 406
+Cond 0 6 48
+Alias lc look in corpse~
+Alias sc sac corpse~
+Alias on open north~
+Alias oe open east~
+Alias ow open west~
+Alias os open south~
+Alias cc cast 'cure critical'~
+Alias dis cast 'dispel magic'~
+Alias b bash~
+Alias ck kick~
+Alias sun cast sunray~
+Alias can cast cancellation~
+Alias j shoot watcher~
+Alias m get ex~
+Alias div quaf divination~
+Alias has recite rhyme~
+Alias i wear ex~
+Sk 85 'aid'
+Sk 84 'armor'
+Sk 84 'bless'
+Sk 1 'water burst'
+Sk 73 'calm'
+Sk 74 'cancellation'
+Sk 1 'cause light'
+Sk 90 'cure critical'
+Sk 1 'cure light'
+Sk 82 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 85 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'flamestrike'
+Sk 78 'fly'
+Sk 86 'gate'
+Sk 76 'heal'
+Sk 74 'holy word'
+Sk 99 'icicle'
+Sk 92 'identify'
+Sk 85 'mana convert'
+Sk 84 'pass door'
+Sk 82 'protection evil'
+Sk 80 'refresh'
+Sk 76 'remove curse'
+Sk 79 'sanctuary'
+Sk 84 'shield'
+Sk 74 'spiritual hammer'
+Sk 86 'stone skin'
+Sk 74 'summon'
+Sk 81 'sunray'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 95 'mace'
+Sk 15 'polearm'
+Sk 99 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 82 'archery'
+Sk 100 'bash'
+Sk 1 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 80 'rescue'
+Sk 100 'second attack'
+Sk 73 'scrolls'
+Sk 79 'staves'
+Sk 82 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild elemental'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'bless'  23   5   6  18          0          0
+AffD 'bless'  24   5  -6  24          0          0
+AffD 'shield'  45   7 -20  17          0          0
+AffD 'fly'  17  17   0   0     524288          0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 15
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  16 14 20 4 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear 14
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  15 13 19 3 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt restring ricochet~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 16049
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 2
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 2
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 2
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 2
+Wear -1
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 5111
+Nest 2
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5234
+Nest 2
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17706
+Nest 2
+Wear -1
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 1
+Wear -1
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 1
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Val  6 5 7 9 0
+End
+
+#O
+Vnum 4618
+Nest 1
+Wear -1
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  1 3 2 -2 0
+End
+
+#O
+Vnum 17020
+Nest 1
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 1
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10052
+Nest 1
+ExtF 3149120
+Wear -1
+Lev  50
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 1
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  11 11 12 5 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 283
+Cond 100
+Repd 0
+Val  6 5 6 1 0
+End
+
+#O
+Vnum 29042
+Nest 0
+ExtF 0
+Wear 7
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 -1 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 -1 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16005
+Nest 0
+Wear 6
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 12 -1 0
+End
+
+#O
+Vnum 10006
+Nest 0
+Wear 16
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9302
+Nest 0
+Wear -1
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 19 -1 19 13 0 0
+End
+
+#O
+Vnum 9304
+Nest 0
+Wear -1
+Lev  16
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9311
+Nest 0
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 20 -1 -1 2 0 0
+End
+
+#O
+Vnum 713
+Nest 0
+Wear -1
+Lev  22
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 713
+Nest 0
+Wear -1
+Lev  22
+Cost 100
+Cond 100
+Repd 0
+Affect -1 22 -1 -1 14 0 0
+End
+
+#O
+Vnum 702
+Nest 0
+Wear -1
+Lev  22
+Cost 1500
+Cond 100
+Repd 0
+Val  1 4 7 3 0
+End
+
+#O
+Vnum 713
+Nest 0
+Wear -1
+Lev  22
+Cost 100
+Cond 100
+Repd 0
+Affect -1 22 -1 -13 14 0 0
+End
+
+#O
+Vnum 702
+Nest 0
+Wear -1
+Lev  23
+Cost 1500
+Cond 100
+Repd 0
+Val  1 4 7 3 0
+Affect -1 23 -1 -1 14 0 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear -1
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear -1
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+Affect -1 22 -1 -7 17 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 20 -1 -4 1 0 0
+End
+
+#END

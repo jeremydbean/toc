@@ -1,7 +1,7 @@
 #PLAYER
 Name BrownBear~
 Id   26509
-LogO 1540314175
+LogO 1540320938
 Vers 3
 Desc You recite a deadly black scroll.
 A strange mist begins to rise from the ground, swirling at your feet.
@@ -30,16 +30,16 @@ Gui  4
 Psionic  2
 Cast none
 Levl 52
-Plyd 1728797
+Plyd 1729036
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 951253659
 Scro 22
-Room 2401
-HMV  1179 1179 526 526 230 392
-NewGold 126
-NewPlat 2103
-NewCopp 92
+Room 4208
+HMV  469 1179 325 526 149 392
+NewGold 130
+NewPlat 2104
+NewCopp 94
 NewSilv 5
 Bank 62932
 Dcount 0
@@ -47,9 +47,9 @@ Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 83
-Exp  129712
+Exp  129702
 Act  200
-AfBy 512
+AfBy 4608
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -79,11 +79,11 @@ Prac 2
 Save  7
 Alig  1000
 Hit   36
-Dam   69
+Dam   82
 ACs -111 -97 -106 37
 Wimp  200
 Attr 16 13 17 15 21
-AMod 12 0 1 5 -4
+AMod 10 0 1 5 -4
 Pass Bras9OL.sby4s~
 Ariv Stand Back!! Here comes $n from $T~
 Dprt $n Slides off $t~
@@ -122,6 +122,8 @@ Sk 85 'fast healing'
 Sk 93 'meditation'
 Sk 96 'shove'
 Sk 100 'recall'
+AffD 'poison'  29  56  -2   1       4096          0
+AffD 'steel fist'  50   2  13  19          0          0
 End
 
 #O
@@ -154,8 +156,8 @@ Lev  30
 Cost 500
 Cond 39
 Repd 0
-Affect -1 30 -1 -1 12 0 0
 Affect -1 30 -1 -16 14 0 0
+Affect -1 30 -1 -1 12 0 0
 End
 
 #O
@@ -361,8 +363,8 @@ Lev  51
 Cost 2500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 53 -1 8 19 0 0
 AffD 'enchant weapon' 53 -1 8 18 0 0
+AffD 'enchant weapon' 53 -1 8 19 0 0
 End
 
 #O
@@ -784,8 +786,8 @@ Lev  40
 Cost 450
 Cond 81
 Repd 0
-Affect -1 40 -1 47 14 0 0
 Affect -1 40 -1 1 24 0 0
+Affect -1 40 -1 47 14 0 0
 End
 
 #O
@@ -861,8 +863,8 @@ Lev  50
 Cost 3000
 Cond 100
 Repd 0
-Affect -1 50 -1 -1 14 0 0
 Affect -1 50 -1 -7 17 0 0
+Affect -1 50 -1 -1 14 0 0
 End
 
 #O
@@ -889,8 +891,8 @@ Lev  34
 Cost 2600
 Cond 28
 Repd 0
-Affect -1 34 -1 -2 5 0 0
 Affect -1 34 -1 5 23 0 0
+Affect -1 34 -1 -2 5 0 0
 End
 
 #O
@@ -997,8 +999,8 @@ Lev  52
 Cost 2409
 Cond 100
 Repd 0
-Affect -1 52 -1 -7 14 0 0
 Affect -1 52 -1 -21 14 0 0
+Affect -1 52 -1 -7 14 0 0
 End
 
 #O
@@ -1031,9 +1033,9 @@ Lev  51
 Cost 5000
 Cond 100
 Repd 0
-Affect -1 51 -1 -1 12 0 0
-Affect -1 51 -1 -2 2 0 0
 Affect -1 51 -1 1 17 0 0
+Affect -1 51 -1 -2 2 0 0
+Affect -1 51 -1 -1 12 0 0
 End
 
 #O

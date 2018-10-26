@@ -1,0 +1,867 @@
+#PLAYER
+Name Pegonga~
+Id   22695
+LogO 942873487
+Vers 3
+Desc @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@                                                                    @
+@       ***                                                          @
+@         *       PEGONGA THE GREAT NORTHERN KNIGHT                  @
+@         *W                                                         @
+@         *A                                                         @
+@   #######R*------------------------------------------>             @
+@   #######R*                                           >            @
+@   #######I*------------------------------------------>             @
+@         *O                                                         @
+@         *R       DWARF POWER                                       @
+@         *                                                          @
+@       ***                                                          @
+@                                                                    @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 50
+Plyd 1115621
+ListRemorts ~
+NumRemorts 0
+Note 942810625
+Scro 22
+Room 4208
+HMV  879 879 264 264 379 379
+Gold 134370
+Bank 133000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 52
+Exp  112502
+Act  204
+AfBy 568
+Comm 24672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 4
+Save  -3
+Alig  824
+Hit   35
+Dam   59
+ACs -94 -86 -97 74
+Wimp  50
+Attr 22 16 18 16 19
+AMod 7 0 5 3 -2
+Pass Pe2kha/3yCMEg~
+Ariv $n arrives from $t waving his sword wildly~
+Dprt $n waves sword above his head and leaves $t~
+Titl  NORTHERN KNIGHT~
+Pnts 40
+TSex 1
+LLev 300
+HMVP 804 169 394
+Cond 0 18 15
+Alias g get all corpse~
+Alias ww wield holy~
+Alias r recall~
+Alias ga get all~
+Alias p gossip MUHAHAHA keep killen GRATZ !!!!~
+Alias rb rescue beska~
+Alias gh get holy~
+Alias ws wield silver~
+Alias gs get silver~
+Alias ge get excalibur~
+Alias we wield excalibur~
+Sk 10 'axe'
+Sk 95 'dagger'
+Sk 5 'flail'
+Sk 99 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 81 'bash'
+Sk 78 'berserk'
+Sk 75 'danger sense'
+Sk 1 'disarm'
+Sk 96 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 80 'rescue'
+Sk 100 'second attack'
+Sk 96 'third attack'
+Sk 94 'fast healing'
+Sk 37 'door bash'
+Sk 88 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'psionic armor'  10  24   0   0          0          0
+AffD 'detect invis'  49   2   0   0          8          0
+AffD 'detect magic'  33   2   0   0         16          0
+AffD 'detect hidden'  50   2   0   0         32          0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+Val  950 5 0 0 0
+End
+
+#O
+Vnum 16024
+Enchanted
+Nest 1
+ExtF 66
+Wear -1
+Lev  45
+Cost 1641
+Cond 100
+Repd 0
+Val  1 6 8 3 0
+AffD 'enchant weapon' 42 -1 4 18 0 0
+AffD 'enchant weapon' 42 -1 7 19 0 0
+End
+
+#O
+Vnum 17112
+Enchanted
+Nest 1
+ExtF 1346
+Wear -1
+Lev  36
+Cost 3440
+Cond 100
+Repd 0
+AffD 'enchant weapon' 42 -1 5 19 0 0
+AffD 'enchant weapon' 42 -1 5 18 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 723
+Nest 1
+Wear -1
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25030
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18021
+Enchanted
+Nest 1
+ExtF 2097219
+Wear -1
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 7 19 0 0
+AffD 'enchant weapon' 50 -1 8 18 0 0
+End
+
+#O
+Vnum 905
+Nest 1
+Wear -1
+Lev  49
+Cost 21168
+Cond 100
+Repd 0
+Val  30 3 2 108 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Enchanted
+Nest 0
+ExtF 1121
+Wear 1
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant armor' 40 -1 -2 17 0 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29058
+Nest 0
+Wear 5
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29039
+Enchanted
+Nest 0
+ExtF 320
+Wear 10
+Lev  41
+Cost 700
+Cond 100
+Repd 0
+AffD 'enchant armor' 37 -1 -2 17 0 0
+End
+
+#O
+Vnum 721
+Nest 0
+Wear 13
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 143 0 0 0
+End
+
+#O
+Vnum 60
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9571
+Nest 0
+Wear -1
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 9571
+Nest 0
+Wear -1
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 9571
+Nest 0
+Wear -1
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 16047
+Nest 0
+Wear -1
+Lev  9
+Cost 20
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'cause critical'
+Spell 3 'shield'
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8718
+Nest 0
+Wear -1
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Enchanted
+Nest 0
+ExtF 323
+Wear -1
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 7 19 0 0
+AffD 'enchant weapon' 50 -1 7 18 0 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28023
+Nest 0
+Wear -1
+Lev  36
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29044
+Nest 0
+Wear -1
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

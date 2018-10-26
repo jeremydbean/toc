@@ -1,0 +1,854 @@
+#PLAYER
+Name Hiracos~
+Id   9608
+LogO 947530829
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 41
+Plyd 618954
+ListRemorts ~
+NumRemorts 0
+Note 947514811
+Scro 22
+Room 4208
+HMV  446 446 547 547 390 390
+NewGold 35346
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 76014
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 190
+Exp  82389
+Act  236
+AfBy 8320
+AfBy2 2
+Comm 28680
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 15
+Trai 3
+Save  -11
+Alig  1000
+Hit   35
+Dam   54
+ACs -74 -60 -76 68
+Wimp  60
+Attr 14 18 21 18 18
+AMod 11 0 4 4 0
+Pass Hir/9AdBwA7y.~
+Ariv $n arrives in a mist of flowers from $T~
+Titl  gives any Worthy Char a Sanc~
+Pnts 40
+TSex 1
+LLev 170
+HMVP 446 487 340
+Cond 0 6 47
+Alias hammer cast 'spiritual hammer'~
+Alias ceq cast earthquake~
+Alias chm cast 'heat metal'~
+Alias cb cast blindness~
+Alias cw cast weaken~
+Alias de cast 'dispel evil'~
+Alias dg cast 'dispel good'~
+Alias cpe cast 'protection evil'~
+Alias cdm cast 'dispel magic'~
+Alias cde cast 'detect evil'~
+Alias ser cast 'cure serious'~
+Alias globe cast 'major globe'~
+Alias df cast demonfire~
+Alias drain cast 'energy drain'~
+Alias crt cast 'rope trick'~
+Alias sancgr cast 'mass sanctuary'~
+Alias 1 cast 'cure critical'~
+Alias healgr cast 'mass healing'~
+Alias cm cast maze~
+Alias cdg cast 'detect good'~
+Sk 90 'armor'
+Sk 98 'bless'
+Sk 100 'blindness'
+Sk 84 'cancellation'
+Sk 100 'cause light'
+Sk 97 'cure critical'
+Sk 77 'cure light'
+Sk 100 'cure serious'
+Sk 75 'curse'
+Sk 75 'demonfire'
+Sk 76 'detect evil'
+Sk 75 'detect good'
+Sk 90 'dispel evil'
+Sk 75 'dispel good'
+Sk 84 'dispel magic'
+Sk 81 'earthquake'
+Sk 75 'energy drain'
+Sk 85 'flamestrike'
+Sk 78 'fly'
+Sk 84 'gate'
+Sk 1 'haven'
+Sk 75 'heat metal'
+Sk 91 'heal'
+Sk 79 'locate object'
+Sk 78 'major globe'
+Sk 75 'mass healing'
+Sk 75 'mass sanctuary'
+Sk 75 'maze'
+Sk 79 'pass door'
+Sk 75 'plague'
+Sk 75 'poison'
+Sk 76 'portal'
+Sk 82 'protection evil'
+Sk 1 'divine intervention'
+Sk 65 'refresh'
+Sk 75 'rope trick'
+Sk 95 'sanctuary'
+Sk 78 'shield'
+Sk 77 'spiritual hammer'
+Sk 78 'stone skin'
+Sk 80 'summon'
+Sk 75 'teleport'
+Sk 82 'weaken'
+Sk 75 'word of recall'
+Sk 10 'axe'
+Sk 95 'dagger'
+Sk 20 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 92 'sword'
+Sk 5 'whip'
+Sk 75 'scrolls'
+Sk 75 'staves'
+Sk 86 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'attack'
+Gr 'healing'
+Gr 'cleric maladictions'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+AffD 'protection evil'  25  22   0   0       8192          0
+AffD 'sanctuary'  22   3   0   0        128          0
+AffD 'detect good'  37  36   0   0          0          2
+AffD 'bless'  34  21  -5  24          0          0
+AffD 'bless'  36  21   5  18          0          0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4447
+Nest 0
+Wear 11
+Lev  25
+Cost 1200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1615
+Nest 0
+Wear 10
+Lev  16
+Cost 0
+Cond 100
+Repd 0
+Val  3 4 5 1 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  2 2 2 -1 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24007
+Nest 0
+Wear -1
+Lev  15
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1007
+Nest 0
+Wear -1
+Lev  41
+Cost 1750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1006
+Nest 0
+Wear -1
+Lev  39
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1006
+Nest 0
+Wear -1
+Lev  39
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1006
+Nest 0
+Wear -1
+Lev  39
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1022
+Nest 0
+Wear -1
+Lev  39
+Cost 700
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1028
+Nest 0
+Wear -1
+Lev  39
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3167
+Nest 0
+Wear -1
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 4 0 0
+End
+
+#O
+Vnum 3165
+Nest 0
+Wear -1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  5 6 7 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 5 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+Val  950 5 0 0 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 250
+Cond 100
+Repd 0
+Val  6 6 4 -1 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9211
+Nest 1
+Wear -1
+Lev  19
+Cost 3420
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 11 0 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 333
+Cond 100
+Repd 0
+Val  3 3 4 -1 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear -1
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+Val  6 7 7 0 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+Val  1 3 6 3 8
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  9
+Cost 1000
+Cond 100
+Repd 0
+Val  1 3 6 3 8
+End
+
+#O
+Vnum 2330
+Nest 0
+Wear -1
+Lev  27
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2333
+Nest 0
+Wear -1
+Lev  26
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear -1
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear -1
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10044
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'acid breath'
+Spell 3 'acid breath'
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear -1
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 5327
+Nest 0
+Wear -1
+Lev  15
+Cost 825
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 5328
+Nest 0
+Wear -1
+Lev  15
+Cost 600
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 5329
+Nest 0
+Wear -1
+Lev  14
+Cost 610
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 56
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1013
+Nest 0
+Wear -1
+Lev  31
+Cost 800
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear -1
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+Val  8 8 6 0 0
+End
+
+#O
+Vnum 620
+Nest 0
+Wear -1
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 16038
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  10
+Cost 280
+Cond 100
+Repd 0
+Val  6 4 6 0 0
+End
+
+#O
+Vnum 13285
+Nest 0
+Wear -1
+Lev  17
+Cost 50
+Cond 100
+Repd 0
+Val  18 3 1 105 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17112
+Enchanted
+Nest 0
+ExtF 1347
+Wear 16
+Lev  37
+Cost 3440
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 7 19 0 0
+AffD 'enchant weapon' 50 -1 7 18 0 0
+End
+
+#END

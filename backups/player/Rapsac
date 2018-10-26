@@ -1,0 +1,374 @@
+#PLAYER
+Name Rapsac~
+Id   29733
+LogO 952752908
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 16
+Plyd 72347
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  178 178 160 160 169 189
+NewGold 22
+NewPlat 264
+NewCopp 31
+NewSilv 3
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  36627
+Act  252
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 12
+Trai 7
+Save  -1
+Alig  -1000
+ACs 74 76 74 98
+Wimp  10
+Attr 10 18 14 19 12
+AMod 0 1 2 1 3
+Pass RaX9nzXB3FkMw~
+Titl  the Knifer~
+Pnts 40
+TSex 1
+LLev 15
+HMVP 175 160 190
+Cond 0 0 0
+Sk 7 'axe'
+Sk 89 'dagger'
+Sk 5 'flail'
+Sk 12 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 17 'sword'
+Sk 20 'whip'
+Sk 80 'backstab'
+Sk 22 'dodge'
+Sk 52 'second attack'
+Sk 14 'hide'
+Sk 1 'listen at door'
+Sk 51 'peek'
+Sk 33 'pick lock'
+Sk 59 'sneak'
+Sk 1 'search'
+Sk 50 'sleight of hand'
+Sk 75 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 97
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13238
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13307
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13307
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13307
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13307
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13307
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear 5
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Affect -1 15 -1 -1 14 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 96
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Caddy~
+Wear -1
+Time 163
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Caddy~
+Wear -1
+Time 163
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Caddy~
+Wear -1
+Time 163
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 15
+Nest 0
+ShD  A surgically removed leg~
+Desc A surgically removed leg waits to serve Caddy~
+Wear -1
+Time 163
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear -1
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+Affect -1 5 -1 -3 13 0 0
+Affect -1 5 -1 -2 18 0 0
+End
+
+#END

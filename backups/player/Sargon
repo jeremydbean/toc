@@ -1,0 +1,162 @@
+#PLAYER
+Name Sargon~
+Id   39198
+LogO 953325718
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast Fors
+Levl 51
+Plyd 438474
+ListRemorts ~
+NumRemorts 0
+Note 952731371
+Scro 22
+Room 4208
+HMV  576 1249 25 1057 281 375
+NewGold 6
+NewPlat 0
+NewCopp 251
+NewSilv 12
+Bank 43792
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 3
+QuestPnts 5
+Exp  102085
+Act  67174476
+AfBy 524296
+Comm 28736
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 6
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Alig  1000
+ACs 100 100 100 100
+Attr 13 15 14 13 16
+AMod 4 0 0 0 0
+Pass SaeP6z9nQ6yts~
+Titl , BattleMage of Clan Forsaken~
+Pnts 40
+TSex 1
+LLev 105
+HMVP 1249 1057 375
+Cond 0 2 6
+Alias ar c armor~
+Alias di c 'detect invis'~
+Alias sh c shield~
+Alias fs c 'fire shield'~
+Alias dm c 'dispel magic'~
+Alias pe c 'protection evil'~
+Alias m murder ~
+Alias mc c 'mana convert'~
+Alias ha c haste~
+Alias pg c 'power gloves'~
+Alias ss c 'stone skin'~
+Alias goto c gate~
+Alias hav c haven~
+Alias a c 'acid blast'~
+Alias sa c sanctuary~
+Alias climb climb rope~
+Alias \ who~
+Alias he c 'heat metal'~
+Alias fb c 'fire breath'~
+Alias ab c 'acid breath'~
+Sk 100 'acid blast'
+Sk 66 'armor'
+Sk 82 'burning hands'
+Sk 79 'cancellation'
+Sk 78 'chain lightning'
+Sk 75 'chill touch'
+Sk 83 'colour spray'
+Sk 78 'detect invis'
+Sk 85 'dispel magic'
+Sk 79 'faerie fire'
+Sk 1 'fireball'
+Sk 81 'fire shield'
+Sk 84 'fly'
+Sk 89 'force sword'
+Sk 1 'frost shield'
+Sk 94 'gate'
+Sk 89 'giant strength'
+Sk 93 'haste'
+Sk 89 'haven'
+Sk 63 'heat metal'
+Sk 1 'identify'
+Sk 1 'infravision'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 78 'major globe'
+Sk 100 'mana convert'
+Sk 84 'pass door'
+Sk 78 'portal'
+Sk 50 'power gloves'
+Sk 87 'protection evil'
+Sk 1 'refresh'
+Sk 1 'rope trick'
+Sk 90 'sanctuary'
+Sk 83 'shield'
+Sk 1 'shocking grasp'
+Sk 97 'slow'
+Sk 78 'stone skin'
+Sk 76 'summon'
+Sk 1 'teleport'
+Sk 78 'acid breath'
+Sk 75 'fire breath'
+Sk 1 'frost breath'
+Sk 1 'gas breath'
+Sk 61 'lightning breath'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 84 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 96 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 100 'scrolls'
+Sk 1 'wands'
+Sk 86 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'draconian'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'detect invis'  29  34   0   0          8          0
+AffD 'fly'  39  38   0   0     524288          0
+AffD 'giant strength'   0  35   4   1          0          0
+End
+
+#END

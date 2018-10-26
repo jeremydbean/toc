@@ -1,0 +1,448 @@
+#PLAYER
+Name Digit~
+Id   52200
+LogO 1539736929
+Vers 3
+Desc Digit is dumb, but
+Digit is in excellent condition.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  2
+Cast none
+Levl 54
+Plyd 4377764
+ListRemorts ~
+NumRemorts 0
+Note 952065612
+Scro 22
+Room 4208
+HMV  1164 1164 406 406 79 92
+NewGold 17683
+NewPlat 1
+NewCopp 22
+NewSilv 3
+Bank 470
+Dcount 0
+Corpses	1
+PkRec 2
+PkGiv 0
+QuestPnts 477
+Exp  162007
+Act  65756
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 3
+Save  -6
+Alig  883
+Hit   63
+Dam   76
+ACs -39 -38 -44 28
+Attr 21 18 18 13 18
+AMod 5 6 2 3 1
+Pass Di3rqY62OPk7g~
+Ariv $n     $t~
+Dprt $n     $t~
+Titl  the Binary Barbarian~
+Pnts 40
+TSex 1
+LLev 969
+HMVP 1079 212 418
+Cond 0 40 25
+Alias oe open east~
+Alias ow open west~
+Alias ki kick~
+Alias ya level <<<<*G*R*A*T*Z*>>>>~
+Alias gd get all corpse~
+Alias b berserk~
+Alias ga get all~
+Alias f tel caecias~
+Alias rf rescue fulcrum~
+Alias rm rescue mario~
+Alias rg rescue gloom~
+Alias rk rescue kyrus~
+Alias rd rescue daneel~
+Alias rp rescue protae~
+Alias rc rescue charity~
+Alias rb rescue blank~
+Alias rv rescue vorm~
+Alias i inventory~
+Alias on open north~
+Alias os open south~
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 70 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 84 'berserk'
+Sk 100 'disarm'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 97 'rescue'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 100 'fast healing'
+Sk 90 'shove'
+Sk 94 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'shield'  23  21 -20  17          0          0
+AffD 'bless'  41  18  -6  24          0          0
+AffD 'bless'  44  18   6  18          0          0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 25 -1 -10 13 0 0
+Affect -1 25 -1 -1 14 0 0
+Affect -1 25 -1 -1 12 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 63
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 0
+Wear 17
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+Val  9 8 6 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 30 -1 -1 5 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+Affect -1 46 -1 7 17 0 0
+End
+
+#O
+Vnum 17020
+Nest 0
+ExtF 19
+Wear 16
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Name helmet~
+ShD  A 'Skins Helmet~
+Desc A helmet lies here covered in scratches and dents, whoever was wearing it must have taken an awful beating!~
+Act_room As $n puts on $p he almost looks like a real Redskin!~
+Act_char As you wear $p you feel your muscles surge with Redskin power!~
+Wear 6
+Lev  54
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,843 @@
+#PLAYER
+Name Mario~
+Id   32756
+LogO 953006793
+Vers 3
+Desc .
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  1
+Cast none
+Levl 53
+Plyd 870830
+ListRemorts ~
+NumRemorts 0
+Note 934413397
+Scro 22
+Room 4208
+HMV  823 823 350 350 387 387
+NewGold 0
+NewPlat 384
+NewCopp 0
+NewSilv 0
+Bank 2000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 16
+Exp  151065
+Act  204
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 0
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 2
+Color 10 4
+Color 11 3
+Color 12 2
+Color 13 2
+Color 14 2
+Color 15 0
+Color 16 2
+Pos  8
+Save  -15
+Alig  970
+Hit   53
+Dam   78
+ACs -102 -109 -111 22
+Wimp  100
+Attr 15 16 16 18 18
+AMod 6 2 1 -2 2
+Pass MacB1oA3cflO6~
+Ariv $n $t~
+Dprt $n $t~
+Titl .~
+Pnts 40
+TSex 1
+LLev 231
+HMVP 818 315 412
+Cond 0 19 48
+Sk 72 'aid'
+Sk 72 'armor'
+Sk 80 'bless'
+Sk 1 'calm'
+Sk 82 'cancellation'
+Sk 1 'cause light'
+Sk 100 'cure critical'
+Sk 31 'cure light'
+Sk 75 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 81 'dispel magic'
+Sk 1 'flamestrike'
+Sk 79 'fly'
+Sk 84 'gate'
+Sk 80 'heal'
+Sk 71 'holy word'
+Sk 1 'identify'
+Sk 87 'mana convert'
+Sk 71 'pass door'
+Sk 82 'protection evil'
+Sk 81 'refresh'
+Sk 1 'remove curse'
+Sk 88 'sanctuary'
+Sk 1 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 71 'summon'
+Sk 75 'teleport'
+Sk 95 'confuse'
+Sk 70 'mindbar'
+Sk 61 'shift'
+Sk 83 'torment'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 86 'flail'
+Sk 100 'mace'
+Sk 88 'polearm'
+Sk 100 'shield block'
+Sk 45 'spear'
+Sk 100 'sword'
+Sk 81 'whip'
+Sk 9 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 78 'rescue'
+Sk 100 'second attack'
+Sk 91 'shove'
+Sk 100 'sneak'
+Sk 9 'scrolls'
+Sk 12 'staves'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'giant strength'  45  18   4   1          0          0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29235
+Nest 0
+Wear 9
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 0
+Wear 17
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29238
+Nest 0
+Wear 13
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16005
+Nest 0
+Wear 6
+Lev  52
+Cost 2868
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  17 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 4618
+Nest 1
+Wear -1
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10005
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  49
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 29508
+Nest 1
+Wear -1
+Lev  50
+Cost 100000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8703
+Nest 1
+Wear -1
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 11 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 1
+Wear -1
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 1
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 4473
+Nest 1
+ExtF 98
+Wear -1
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17706
+Nest 1
+Wear -1
+Lev  22
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 1
+Wear -1
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 1
+ExtF 0
+Wear -1
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 1
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Name tiara~
+ShD  (Neon)  Princess Poison's Tiara~
+Wear -1
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29244
+Nest 1
+Name vengence~
+ShD  0====[***VENGEANCE***>~
+Desc The material form of Wilmar's Vengeance~
+ExtF 3145985
+Wear -1
+Lev  54
+Cost 7000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+Name wedding ring ivy~
+ShD  (Glittering) PoisonIvy's diamond wedding ring~
+Desc You see a brightly shining gold wedding band.  At the top of this wonderfully crafted ring, you see a bright beautiful diamond being held in place by four golden arms.~
+ExtF 4
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#END

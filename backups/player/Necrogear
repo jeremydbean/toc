@@ -1,0 +1,577 @@
+#PLAYER
+Name NecRoGeAr~
+Id   33187
+LogO 949149521
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  0
+Cast none
+Levl 7
+Plyd 20682
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4209
+HMV  74 74 157 157 48 126
+NewGold 1035
+NewPlat 0
+NewCopp 54
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestNext 30
+Exp  14774
+Act  274792700
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 2
+Alig  854
+Hit   1
+ACs 67 62 63 96
+Attr 13 16 13 13 17
+AMod 1 3 6 1 6
+Pass NexNGXhXFcjBc~
+Titl  the Believer of Sacrifice~
+Pnts 40
+TSex 1
+LLev 4
+HMVP 74 137 136
+Cond 0 15 36
+Sk 75 'animate parts'
+Sk 76 'armor'
+Sk 1 'cancellation'
+Sk 75 'cause light'
+Sk 1 'chill touch'
+Sk 1 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 75 'embalm'
+Sk 1 'evil eye'
+Sk 1 'major globe'
+Sk 1 'poison'
+Sk 1 'remove curse'
+Sk 1 'rope trick'
+Sk 1 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 1 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 1 'tentacles'
+Sk 1 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 8 'axe'
+Sk 82 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necromancy'
+Gr 'necro protective'
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 99
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 2 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 4
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 3
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3020
+Nest 0
+Wear 16
+Lev  5
+Cost 100
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 12 0 0
+End
+
+#O
+Vnum 3751
+Nest 1
+Wear -1
+Lev  3
+Cost 1
+Cond 100
+Repd 0
+Val  3 0 0 0 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 13
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 105 0 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear 14
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 99
+Repd 0
+Val  0 0 94 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 807
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 133 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 130 0 0
+End
+
+#O
+Vnum 3811
+Nest 0
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 57
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3755
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 43
+Nest 0
+Wear -1
+Time 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 46
+Nest 0
+Wear -1
+Time 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 52
+Nest 0
+Wear -1
+Time 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END
