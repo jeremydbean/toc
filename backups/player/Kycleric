@@ -1,0 +1,234 @@
+#PLAYER
+Name Kycleric~
+Id   24160
+LogO 1539653945
+Vers 3
+Prom ~
+Ignoring  ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  0
+Cast none
+Levl 6
+Plyd 472
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3700
+HMV  63 101 129 136 145 147
+NewGold 0
+NewPlat 0
+NewCopp 130
+NewSilv 40
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13899
+Act  65740
+AfBy 2622080
+AfBy2 4096
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 26
+Trai 8
+Save  -9
+Alig  825
+Hit   26
+Dam   11
+ACs 146 143 145 169
+Attr 17 13 12 12 15
+AMod 3 0 0 4 0
+Pass KywXdZywU5G42~
+Titl  the Warrior~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 87 137 130
+Cond 0 40 40
+Sk 1 'armor'
+Sk 1 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'refresh'
+Sk 1 'spiritual hammer'
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 81 'sword'
+Sk 30 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+AffD 'giant strength'   0  63   4   1          0          0
+AffD 'frenzy'   0  16 110  17          0          0
+AffD 'frenzy'   0  16  11  19          0          0
+AffD 'frenzy'   0  16  11  18          0          0
+AffD 'shield'   0  71 -20  17          0          0
+AffD 'armor'   0  17 -20  17          0          0
+AffD 'fly'   0  66   0   0     524288          0
+AffD 'aid'   0  17  14  13          0          0
+AffD 'aid'   0  17   7  18          0          0
+AffD 'divine protection'   0   3   0   0          0       4096
+AffD 'bless'   0  69  -8  24          0          0
+AffD 'bless'   0  69   8  18          0          0
+AffD 'haste'   0  10   4   2    2097152          0
+AffD 'sanctuary'   0   4   0   0        128          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 192 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3726
+Nest 0
+Wear 13
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+Affect -1 1 -1 -1 1 0 0
+End
+
+#O
+Vnum 3727
+Nest 0
+Wear 7
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+Affect -1 1 -1 -1 12 0 0
+Affect -1 1 -1 8 14 0 0
+End
+
+#O
+Vnum 3728
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+Affect -1 1 -1 9 14 0 0
+End
+
+#END

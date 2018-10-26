@@ -1,0 +1,157 @@
+#PLAYER
+Name Millenium~
+Id   38566
+LogO 945543611
+Vers 3
+Ignoring  ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 6
+Plyd 8302
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3772
+HMV  53 53 118 118 130 130
+Gold 135
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  12288
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Save  -1
+Alig  1000
+Hit   2
+Dam   2
+ACs 95 95 95 99
+Wimp  5
+Attr 13 16 18 13 16
+AMod 0 0 0 0 0
+Pass MiHBGH8BszEig~
+Titl  says, "Ya'll can suck my kiss, futhermuckers.~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 53 118 130
+Cond 0 38 0
+Alias lap look at plaque~
+Alias las look sign~
+Alias gac get all corpse~
+Alias wa wear all~
+Alias cmmg cast 'magic missile' gremlin~
+Alias cmmc cast 'magic missile' citizen~
+Alias cmmf cast 'magic missile' fido~
+Alias cmmk cast 'magic missile' kobold~
+Alias cmml cast 'magic missile' lizard man~
+Alias cmmm cast 'magic missile' man~
+Alias cmmlm cast 'magic missile' lizard man~
+Alias hff help 'faerie fire'~
+Alias hs help 'scrolls'~
+Alias cr cast 'refresh'~
+Sk 75 'armor'
+Sk 1 'burning hands'
+Sk 75 'chill touch'
+Sk 1 'detect invis'
+Sk 75 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 76 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 80 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 52 'scrolls'
+Sk 1 'wands'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 170 0 0
+End
+
+#END

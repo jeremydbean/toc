@@ -1,0 +1,423 @@
+#PLAYER
+Name Starwars~
+Id   65345
+LogO 941315698
+Vers 3
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  0
+Psionic  0
+Cast none
+Levl 10
+Plyd 47905
+ListRemorts ~
+NumRemorts 0
+Note 913754564
+Scro 22
+Room 4207
+HMV  193 193 169 169 144 144
+Gold 7143
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  24852
+Act  204
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Alig  279
+Hit   1
+ACs 47 56 54 94
+Wimp  38
+Attr 17 14 13 12 15
+AMod 2 6 7 1 5
+Pass StehwcIAR9g16~
+Titl  the Combatant~
+Pnts 40
+TSex 1
+LLev 9
+HMVP 193 129 154
+Cond 0 0 31
+Sk 75 'armor'
+Sk 1 'burning hands'
+Sk 1 'chill touch'
+Sk 1 'detect invis'
+Sk 38 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 1 'magic missile'
+Sk 23 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 58 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 79 'shield block'
+Sk 10 'spear'
+Sk 76 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 36 'kick'
+Sk 45 'parry'
+Sk 9 'rescue'
+Sk 54 'second attack'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 72 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'mage guild'
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 3
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 4
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear 7
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3814
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3814
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3815
+Nest 0
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3816
+Nest 0
+Wear 10
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9517
+Nest 0
+Wear -1
+Lev  8
+Cost 1070
+Cond 100
+Repd 0
+Val  4 5 4 0 0
+End
+
+#O
+Vnum 9517
+Nest 0
+Wear 5
+Lev  9
+Cost 1070
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear -1
+Lev  8
+Cost 350
+Cond 100
+Repd 0
+Val  5 4 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 199 0 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear 16
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#END

@@ -1,0 +1,644 @@
+#PLAYER
+Name Kraven~
+Id   6618
+LogO 953150864
+Vers 3
+Desc PAY NO ATTENTION TO THE MAN BEHIND THE CURTAIN!!!!!
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 51
+Plyd 481575
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 14881
+HMV  837 881 371 875 350 350
+NewGold 337
+NewPlat 181
+NewCopp 1647
+NewSilv 404
+Bank 31533
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 33
+Exp  113420
+Act  65736
+AfBy 524808
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 13
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 14
+Color 8 7
+Color 9 14
+Color 10 12
+Color 11 9
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 3
+Save  3
+Alig  1000
+Hit   16
+Dam   21
+ACs -52 -61 -56 27
+Wimp  175
+Attr 12 18 15 14 15
+AMod 8 -3 1 1 -4
+Pass KrRxXybqB4OG6~
+Ariv you catch a glimpse of $n $t~
+Titl  Der Hero der 5. Ordnung~
+Pnts 40
+TSex 1
+LLev 131
+HMVP 572 732 400
+Cond 0 11 44
+Alias haste c haste~
+Alias acid c 'acid blast'~
+Alias sun c sun~
+Alias fire c fae~
+Alias detect c 'detect invis'~
+Alias tele c tele~
+Alias frost c 'frost breath'~
+Alias rope c rope~
+Alias giant c giant~
+Alias haven c haven~
+Alias mana c 'mana convert'~
+Alias sanc c sanc~
+Alias cone c cone~
+Alias dispel c 'dispel magic'~
+Alias gate c gate~
+Alias shield c 'fire shield'~
+Alias cancel c 'cancellation'~
+Alias slow c slow~
+Sk 100 'acid blast'
+Sk 80 'armor'
+Sk 81 'blindness'
+Sk 75 'blizzard'
+Sk 90 'burning hands'
+Sk 1 'water burst'
+Sk 78 'cancellation'
+Sk 83 'chain lightning'
+Sk 77 'charm person'
+Sk 80 'chill touch'
+Sk 82 'colour spray'
+Sk 75 'cone of cold'
+Sk 75 'curse'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 75 'detect hidden'
+Sk 89 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 83 'dispel magic'
+Sk 1 'dust devil'
+Sk 77 'enchant armor'
+Sk 83 'enchant weapon'
+Sk 75 'energy drain'
+Sk 93 'faerie fire'
+Sk 76 'fireball'
+Sk 84 'fire shield'
+Sk 93 'fly'
+Sk 78 'force sword'
+Sk 75 'frost shield'
+Sk 87 'gate'
+Sk 92 'giant strength'
+Sk 1 'geyser'
+Sk 95 'haste'
+Sk 83 'haven'
+Sk 81 'heat metal'
+Sk 75 'icicle'
+Sk 93 'identify'
+Sk 78 'infravision'
+Sk 94 'invis'
+Sk 1 'know alignment'
+Sk 84 'lightning bolt'
+Sk 84 'locate object'
+Sk 79 'magic missile'
+Sk 76 'major globe'
+Sk 100 'mana convert'
+Sk 78 'mass invis'
+Sk 75 'maze'
+Sk 76 'meteor swarm'
+Sk 76 'pass door'
+Sk 75 'poison'
+Sk 78 'portal'
+Sk 76 'power gloves'
+Sk 78 'protection evil'
+Sk 80 'refresh'
+Sk 79 'rope trick'
+Sk 87 'sanctuary'
+Sk 78 'shield'
+Sk 87 'shocking grasp'
+Sk 79 'sleep'
+Sk 100 'slow'
+Sk 75 'stone skin'
+Sk 75 'summon'
+Sk 87 'sunray'
+Sk 76 'teleport'
+Sk 75 'vortex'
+Sk 76 'weaken'
+Sk 75 'acid breath'
+Sk 76 'fire breath'
+Sk 77 'frost breath'
+Sk 75 'gas breath'
+Sk 76 'lightning breath'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 91 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 79 'sword'
+Sk 20 'whip'
+Sk 89 'dodge'
+Sk 89 'meditation'
+Sk 82 'sneak'
+Sk 75 'scrolls'
+Sk 78 'wands'
+Sk 69 'recall'
+Sk 80 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'detection'
+Gr 'draconian'
+Gr 'mage elemental'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'detect invis'  48  28   0   0          8          0
+AffD 'fly'  49  43   0   0     524288          0
+AffD 'maze'  48   4   0   0          0          0
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear 8
+Lev  23
+Cost 1000
+Cond 82
+Repd 0
+Affect -1 39 -1 1 18 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 92
+Repd 0
+Val  0 0 7068 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+ExtF 64
+Wear 11
+Lev  2
+Cost 10
+Cond 55
+Repd 0
+Val  2 3 2 0 0
+Affect -1 39 -1 -11 17 0 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 3000
+Cond 96
+Repd 0
+Affect -1 29 -1 5 24 0 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 22000
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 20 -1 -1 13 0 0
+End
+
+#O
+Vnum 4467
+Nest 0
+Wear 9
+Lev  41
+Cost 0
+Cond 96
+Repd 0
+Affect -1 41 -1 4 24 0 0
+End
+
+#O
+Vnum 16014
+Nest 0
+Wear 7
+Lev  36
+Cost 1188
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 13293
+Enchanted
+Nest 0
+Wear 12
+Lev  15
+Cost 50
+Cond 91
+Repd 0
+AffD 'enchant armor' 28 -1 -1 17 0 0
+End
+
+#O
+Vnum 700
+Nest 0
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -5 17 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 1
+Wear -1
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 1
+Wear -1
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8743
+Nest 1
+Wear -1
+Lev  5
+Cost 1000
+Cond 92
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 94
+Repd 0
+Val  5 7 6 0 0
+Affect -1 19 -1 -1 13 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+ExtF 64
+Wear -1
+Lev  19
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+Affect -1 39 -1 4 20 0 0
+End
+
+#O
+Vnum 3719
+Nest 1
+Wear -1
+Lev  4
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 3752
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 89
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+ExtF 64
+Wear -1
+Lev  2
+Cost 100
+Cond 97
+Repd 0
+Affect -1 39 -1 -2 20 0 0
+End
+
+#O
+Vnum 9311
+Nest 1
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 1
+Wear -1
+Lev  34
+Cost 2300
+Cond 100
+Repd 0
+Affect -1 40 -1 2 19 0 0
+Affect -1 40 -1 2 18 0 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 88
+Repd 0
+End
+
+#O
+Vnum 9937
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  31
+Cost 1250
+Cond 100
+Repd 0
+Affect -1 39 -1 2 22 0 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 -1 22 0 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 -7 12 0 0
+End
+
+#O
+Vnum 7649
+Nest 0
+ExtF 20
+Wear 6
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29282
+Nest 0
+Wear -1
+Lev  51
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#END

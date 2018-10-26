@@ -1,0 +1,99 @@
+#PLAYER
+Name TYBALT~
+Id   20943
+LogO 953337357
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 34
+Plyd 397007
+ListRemorts ~
+NumRemorts 0
+Note 947438454
+Scro 22
+Room 4216
+HMV  455 455 166 166 265 298
+NewGold 6792
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  77976
+Act  67109080
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 14
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 14
+Color 7 14
+Color 8 14
+Color 9 14
+Color 10 3
+Color 11 7
+Color 12 12
+Color 13 14
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 5
+Alig  1000
+ACs 100 100 100 100
+Wimp  60
+Attr 17 15 18 20 18
+AMod 0 0 0 0 0
+Pass TYciRse9ZsUp2~
+Titl  The Avenger~
+Pnts 40
+TSex 1
+LLev 97
+HMVP 455 166 298
+Cond 0 0 0
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 55 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 78 'sword'
+Sk 20 'whip'
+Sk 95 'backstab'
+Sk 86 'dodge'
+Sk 85 'dual wield'
+Sk 75 'fatality'
+Sk 89 'trip'
+Sk 78 'second attack'
+Sk 90 'hide'
+Sk 75 'pick lock'
+Sk 100 'sneak'
+Sk 75 'search'
+Sk 75 'steal'
+Sk 82 'stealth'
+Sk 75 'track'
+Sk 87 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+End
+
+#END

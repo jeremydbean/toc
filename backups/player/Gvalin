@@ -1,0 +1,1078 @@
+#PLAYER
+Name Gvalin~
+Id   35963
+LogO 947185327
+Vers 3
+Desc BLAH BLAH BLAH
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 46
+Plyd 367162
+ListRemorts ~
+NumRemorts 0
+Note 921446334
+Scro 22
+Room 17039
+HMV  758 758 158 601 390 395
+Gold 59493
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 351
+Exp  92404
+Act  220
+AfBy 128
+AfBy2 1024
+Comm 28768
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 5
+Save  -6
+Alig  1000
+Hit   38
+Dam   46
+ACs -14 -2 -9 113
+Wimp  160
+Attr 13 16 16 13 18
+AMod 6 0 4 1 2
+Pass Gvrx5chUT4RZk~
+Ariv $n arrives from $T~
+Dprt $n $T~
+Titl .~
+Pnts 40
+TSex 1
+LLev 98
+HMVP 698 511 370
+Cond 0 0 35
+Alias an c 'animate parts'~
+Alias bu c butcher~
+Alias mc c mana~
+Alias rope c 'rope trick'~
+Alias ss c shock~
+Alias em c embalm ~
+Alias t c tentacles~
+Alias fl c fly ~
+Alias goto c 'earth travel' ~
+Alias bw c bewitch ~
+Alias pd c 'pass door'~
+Alias rc c 'remove curse' ~
+Alias fire c 'death shroud'~
+Alias mg c 'major globe'~
+Alias fs c force~
+Alias co c 'cone of cold'~
+Alias nf c 'neutrality field' ~
+Alias cv c 'create vampire' cor~
+Alias ghost c 'ghostly presence'~
+Alias sa c sanc~
+Sk 94 'animate parts'
+Sk 82 'armor'
+Sk 78 'cancellation'
+Sk 60 'cause light'
+Sk 61 'chill touch'
+Sk 82 'cone of cold'
+Sk 1 'create skeleton'
+Sk 75 'create wraith'
+Sk 75 'create vampire'
+Sk 74 'butcher'
+Sk 76 'bewitch weapon'
+Sk 1 'curse'
+Sk 83 'death shroud'
+Sk 19 'dust devil'
+Sk 83 'earth travel'
+Sk 79 'embalm'
+Sk 1 'energy drain'
+Sk 36 'evil eye'
+Sk 61 'fly'
+Sk 81 'force sword'
+Sk 1 'haven'
+Sk 76 'icicle'
+Sk 1 'infravision'
+Sk 76 'major globe'
+Sk 100 'mana convert'
+Sk 87 'moonbeam'
+Sk 47 'pass door'
+Sk 1 'poison'
+Sk 1 'raise dead'
+Sk 75 'remove curse'
+Sk 77 'rope trick'
+Sk 80 'sanctuary'
+Sk 80 'shield'
+Sk 78 'shroud'
+Sk 75 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 76 'skeletal hands'
+Sk 89 'tentacles'
+Sk 1 'trap the soul'
+Sk 1 'vampiric touch'
+Sk 1 'vortex'
+Sk 75 'neutrality field'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 71 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 54 'sword'
+Sk 15 'whip'
+Sk 92 'dodge'
+Sk 92 'scrolls'
+Sk 1 'wands'
+Sk 63 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro elemental'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'ghostly presence'  51   1   0   0          0       1024
+AffD 'sanctuary'  51   3   0   0        128          0
+AffD 'aid'   0   7   5  18          0          0
+AffD 'aid'  47   7  40  13          0          0
+AffD 'bless'  42  46   6  18          0          0
+AffD 'bless'  41  46  -6  24          0          0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  4 3 5 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 279
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 172
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 271
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 197
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24001
+Nest 1
+Wear -1
+Lev  10
+Time 335
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5218
+Nest 1
+Wear -1
+Lev  8
+Cost 560
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 4 0 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 22
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 14
+Nest 1
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Gvalin~
+Wear -1
+Time 159
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 1
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Gvalin~
+Wear -1
+Time 159
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 1
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve Gvalin~
+Wear -1
+Time 159
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 12
+Nest 1
+ShD  A surgically removed head~
+Desc A surgically removed head grins at Gvalin~
+Wear -1
+Time 159
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 73
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 75
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 145
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 85
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 38
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 2015
+Nest 1
+Wear -1
+Lev  18
+Time 8
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'pass door'
+End
+
+#O
+Vnum 9937
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Lev  5
+Cost 1350
+Cond 100
+Repd 0
+Spell 1 'identify'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 9302
+Nest 0
+Wear 10
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 4
+Lev  43
+Cost 0
+Cond 90
+Repd 0
+Val  11 10 11 1 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 3
+Lev  43
+Cost 0
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear -1
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16014
+Nest 0
+Wear -1
+Lev  36
+Cost 1188
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear -1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17112
+Nest 0
+Wear 16
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+Val  150 102 0 0 0
+End
+
+#END

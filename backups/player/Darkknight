@@ -1,0 +1,497 @@
+#PLAYER
+Name DarkKnight~
+Id   42153
+LogO 953257424
+Vers 3
+Desc .
+~
+Prom ~
+Ignoring ravi hatabax canon~
+Race saurian~
+Sex  1
+Cla  3
+Gui  3
+Psionic  1
+Cast none
+Levl 21
+Plyd 85558
+ListRemorts ~
+NumRemorts 0
+Note 952538191
+Scro 22
+Room 4207
+HMV  199 243 123 123 0 219
+NewGold 34
+NewPlat 6
+NewCopp 82
+NewSilv 1
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 70
+Exp  50725
+Act  252
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  4
+Save  10
+Alig  -1000
+Hit   15
+Dam   20
+ACs 2 5 3 96
+Wimp  45
+Attr 17 12 15 13 13
+AMod 3 0 1 3 1
+Pass DajsHolvV2Wwo~
+Ariv $n lurks in from the $T~
+Dprt $n sneaks off $T~
+Titl  the Demonic Warrior.~
+Pnts 40
+TSex 1
+LLev 21
+HMVP 238 123 220
+Cond 0 9 0
+Alias k kick~
+Alias lvl level Gratz!~
+Alias starveing emote glares hungrily at you.......~
+Alias p psy~
+Alias evil emote 's eyes glow firey red!~
+Alias bb buy bread~
+Alias dk dirt kick~
+Alias sm smite~
+Alias r resc cid~
+Alias t rescue poco~
+Alias o pro~
+Alias b berserk~
+Sk 1 'confuse'
+Sk 9 'project'
+Sk 16 'psychic shield'
+Sk 1 'torment'
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 17 'shield block'
+Sk 30 'spear'
+Sk 92 'sword'
+Sk 30 'whip'
+Sk 11 'berserk'
+Sk 22 'dirt kicking'
+Sk 1 'disarm'
+Sk 56 'enhanced damage'
+Sk 67 'kick'
+Sk 3 'parry'
+Sk 15 'rescue'
+Sk 80 'second attack'
+Sk 60 'third attack'
+Sk 74 'fast healing'
+Sk 57 'door bash'
+Sk 1 'shove'
+Sk 80 'recall'
+Sk 34 'smite'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 74
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 96
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  10
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 3075
+Nest 0
+Wear 8
+Lev  5
+Cost 150
+Cond 91
+Repd 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear 7
+Lev  15
+Cost 190
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+Affect -1 15 -1 3 24 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  14
+Cost 210
+Cond 100
+Repd 0
+Val  6 5 5 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 100
+Repd 0
+Val  5 3 4 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 0
+Cond 73
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 21
+Nest 0
+Wear 0
+Cost 0
+Cond 91
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  19
+Cost 8500
+Cond 100
+Repd 0
+Val  6 5 7 0 0
+Affect -1 19 -1 1 17 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19107
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13261
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13260
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13260
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13260
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2902
+Nest 1
+Wear -1
+Lev  2
+Cost 2
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13262
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13262
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 1
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 0 0 0 0
+End
+
+#O
+Vnum 4717
+Nest 1
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 75
+Nest 1
+Name yellowish potion~
+ShD  a yellowish potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 77 -1 0
+Spell 1 'heal'
+Spell 2 'heal'
+End
+
+#O
+Vnum 20535
+Nest 1
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Affect -1 20 -1 -9 13 0 0
+Affect -1 20 -1 2 21 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+ExtF 321
+Wear 16
+Lev  21
+Cost 350
+Cond 100
+Repd 0
+Affect -1 52 -1 2 19 0 0
+Affect -1 52 -1 2 18 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  18
+Cost 100
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 622
+Nest 0
+Wear 6
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Val  6 7 6 0 0
+Affect -1 15 -1 -1 14 0 0
+End
+
+#END

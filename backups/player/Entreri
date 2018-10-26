@@ -1,0 +1,723 @@
+#PLAYER
+Name Entreri~
+Id   14030
+LogO 953007087
+Vers 3
+Desc Born to fight
+Trained to kill
+Ready to die
+But never will
+
+"War does not determine who is right, war determines who is left."
+
+~
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 51
+Plyd 505820
+ListRemorts ~
+NumRemorts 0
+Note 912575038
+Scro 22
+Room 4208
+HMV  1629 1629 253 253 138 335
+NewGold 2
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 163407
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 14
+Exp  117356
+Act  200
+AfBy 512
+AfBy2 64
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 2
+Color 3 2
+Color 4 2
+Color 5 0
+Color 6 2
+Color 7 2
+Color 8 2
+Color 9 2
+Color 10 12
+Color 11 11
+Color 12 7
+Color 13 2
+Color 14 2
+Color 15 2
+Color 16 2
+Pos  8
+Prac 5
+Trai 1
+Save  -15
+Alig  1000
+Hit   22
+Dam   18
+ACs -36 -47 -40 58
+Attr 14 13 12 15 19
+AMod 7 0 1 1 -4
+Pass EnIhsFhsC9XCw~
+Ariv $n $t~
+Dprt $n $t~
+Titl  the Assassin {ASKKR}~
+Pnts 40
+TSex 1
+LLev 130
+HMVP 1149 178 400
+Cond 0 15 17
+Alias ow open west~
+Alias oe open east~
+Alias os open south~
+Alias on open north~
+Alias ou open up~
+Alias od open down~
+Sk 76 'axe'
+Sk 100 'dagger'
+Sk 75 'flail'
+Sk 93 'mace'
+Sk 3 'polearm'
+Sk 16 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 94 'backstab'
+Sk 92 'bash'
+Sk 100 'dodge'
+Sk 97 'dual wield'
+Sk 100 'parry'
+Sk 1 'trip'
+Sk 100 'second attack'
+Sk 100 'hide'
+Sk 88 'pick lock'
+Sk 100 'sneak'
+Sk 1 'search'
+Sk 100 'sleight of hand'
+Sk 86 'steal'
+Sk 100 'stealth'
+Sk 75 'track'
+Sk 73 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  52   1   0   0          0         64
+AffD 'giant strength'  25   4   3   1          0          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28007
+Nest 1
+Wear -1
+Lev  17
+Cost 500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 18010
+Nest 1
+ExtF 3145730
+Wear -1
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 28136
+Nest 1
+Wear -1
+Lev  25
+Cost 3000
+Cond 100
+Repd 0
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 28135
+Nest 1
+Wear -1
+Lev  35
+Cost 4000
+Cond 100
+Repd 0
+Spell 1 'cause critical'
+Spell 2 'haste'
+Spell 3 'cause critical'
+End
+
+#O
+Vnum 28135
+Nest 1
+Wear -1
+Lev  35
+Cost 4000
+Cond 100
+Repd 0
+Spell 1 'cause critical'
+Spell 2 'haste'
+Spell 3 'cause critical'
+End
+
+#O
+Vnum 28135
+Nest 1
+Wear -1
+Lev  35
+Cost 4000
+Cond 100
+Repd 0
+Spell 1 'cause critical'
+Spell 2 'haste'
+Spell 3 'cause critical'
+End
+
+#O
+Vnum 28135
+Nest 1
+Wear -1
+Lev  35
+Cost 4000
+Cond 100
+Repd 0
+Spell 1 'cause critical'
+Spell 2 'haste'
+Spell 3 'cause critical'
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10001
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3027
+Nest 1
+Wear -1
+Lev  5
+Cost 150
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 1
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 16013
+Nest 1
+Wear -1
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 6 0
+End
+
+#O
+Vnum 724
+Nest 1
+Wear -1
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 1
+ExtF 98
+Wear -1
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 1
+Wear -1
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 11
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 14
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  6 7 6 -1 0
+End
+
+#O
+Vnum 9212
+Nest 0
+Wear 15
+Lev  20
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 3
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 0
+Wear 4
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18013
+Nest 0
+Wear 6
+Lev  48
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2311
+Nest 0
+Wear 5
+Lev  27
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7655
+Nest 0
+Wear 10
+Lev  35
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 0
+ExtF 0
+Wear 7
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7656
+Nest 0
+Wear 13
+Lev  35
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 908
+Nest 0
+Wear 9
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+End
+
+#END

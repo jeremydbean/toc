@@ -1,0 +1,688 @@
+#PLAYER
+Name Tristian~
+Id   60534
+LogO 952309814
+Vers 3
+Desc .              //:::::::::::::::::::::::::::::::::::::::::::::\\
+.            //:::_______:::::::::________::::::::::_____:::::::\\
+.          //:::_/   _-"":::_--"""        """--_::::\_  ):::::::::\\
+.         //:::/    /:::::_"                    "-_:::\/:::::|^\:::\\
+.        //:::/   /::::::I__                      \:::::::::|  \:::\\
+.        \\:::\   (::::::::::""""---___________     "--------"  /::://
+.         \\:::\  |::::::::::::::::::::::::::::""""==____      /::://
+.          \\:::"\/::::::::::::::::::::::::::::::::::::::\   /::://
+.            \\:::::::::::::::::::::::::::::::::::::::::::)/::://
+.              \\::::\""""""------_____::::::::::::::::::::::://
+.                \\:::"\               """""-----_____:::::://
+.                  \\:::"\    __----__                )::://
+.                    \\:::"\/::::::::-\_         __/:://
+.                      \\::::::::::::::::""----""":::://
+.                        \\::::::::::::::::::::::::://
+.                          \\:::\^""--._.--""^/::://
+.                            \\::"\         /":://
+.                              \\::"\     /":://
+.                                \\::"\_/":://
+.                                  \\::::://
+.                                    \\_//
+.                                      "
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  4
+Gui  4
+Psionic  1
+Cast none
+Levl 53
+Plyd 1528752
+ListRemorts ~
+NumRemorts 0
+Note 952065612
+Scro 22
+Room 4208
+HMV  1105 1105 208 394 233 388
+NewGold 23
+NewPlat 1451
+NewCopp 476
+NewSilv 45
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 0
+QuestPnts 456
+Exp  141405
+Act  204
+AfBy 524472
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 2
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 11
+Color 7 9
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 7
+Save  5
+Alig  1000
+Hit   45
+Dam   93
+ACs -104 -105 -114 -15
+Attr 13 17 13 13 21
+AMod 8 2 0 0 -2
+Pass TrrwXt/gvvMSk~
+Titl  the Mental Monk!!~
+Pnts 40
+TSex 1
+LLev 334
+HMVP 1070 399 413
+Cond 0 17 48
+Sk 67 'clairvoyance'
+Sk 93 'confuse'
+Sk 62 'mindbar'
+Sk 100 'torment'
+Sk 8 'axe'
+Sk 98 'dagger'
+Sk 6 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 100 'sword'
+Sk 15 'whip'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 1 'trip'
+Sk 100 'second attack'
+Sk 95 'fists of fury'
+Sk 74 'herbal brewing'
+Sk 93 'iron skin'
+Sk 87 'nerve damage'
+Sk 85 'steel fist'
+Sk 100 'fast healing'
+Sk 100 'meditation'
+Sk 80 'shove'
+Sk 91 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'detect hidden'  48  10   0   0         32          0
+AffD 'detect magic'   0  10   0   0         16          0
+AffD 'detect invis'  52  10   0   0          8          0
+AffD 'steel fist'  13   3  13  19          0          0
+AffD 'sanctuary'  15   4   0   0        128          0
+AffD 'fly'  30  42   0   0     524288          0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10005
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  49
+Cost 6500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 1
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 18013
+Nest 1
+Wear -1
+Lev  48
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8728
+Nest 1
+Wear -1
+Lev  47
+Cost 2000
+Cond 100
+Repd 0
+Val  1 8 6 6 8
+End
+
+#O
+Vnum 5211
+Nest 1
+Wear -1
+Lev  8
+Cost 900
+Cond 100
+Repd 0
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 2401
+Nest 1
+Wear -1
+Lev  35
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Wear -1
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name flaming red potion~
+ShD  a flaming red potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 64 -1 -1 0
+Spell 1 'fire shield'
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  51 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 20155
+Nest 1
+Wear -1
+Lev  5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7665
+Nest 1
+Wear -1
+Lev  54
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7666
+Nest 1
+Wear -1
+Lev  54
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7664
+Nest 1
+Wear -1
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8703
+Nest 1
+Wear -1
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 1
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 1
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16032
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Enchanted
+Nest 1
+ExtF 67
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 53 -1 7 18 0 0
+AffD 'enchant weapon' 53 -1 7 19 0 0
+End
+
+#O
+Vnum 74
+Nest 1
+Name golden tea~
+ShD  a golden container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 35 100 -1 0
+Spell 1 'cure light'
+Spell 2 'protection evil'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17009
+Nest 0
+Wear 11
+Lev  53
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16030
+Nest 0
+Wear 4
+Lev  52
+Cost 0
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 16030
+Nest 0
+Wear 3
+Lev  52
+Cost 2560
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END

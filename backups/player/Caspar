@@ -1,0 +1,176 @@
+#PLAYER
+Name Caspar~
+Id   64153
+LogO 953417056
+Vers 3
+Desc command Thie is the sexiest necromancer u have ever seen!!
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast none
+Levl 20
+Plyd 308375
+ListRemorts ~
+NumRemorts 0
+Note 933798602
+Scro 22
+Room 3757
+HMV  76 252 183 325 85 239
+NewGold 0
+NewPlat 5470
+NewCopp 119
+NewSilv 8
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  46127
+Act  220
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 9
+Trai 3
+Save  -1
+Alig  -1000
+Hit   4
+Dam   1
+ACs 69 64 62 98
+Wimp  25
+Attr 12 21 18 14 11
+AMod 0 0 -1 0 0
+Pass CaRrTBzvdJXcg~
+Ariv You step back in terror as $n arrives from the $t~
+Dprt $n spots bones to break and stampedes off to the $t~
+Titl  the Necromatic Mage~
+Pnts 40
+TSex 1
+LLev 78
+HMVP 244 333 214
+Cond 0 0 45
+Sk 96 'animate parts'
+Sk 79 'armor'
+Sk 87 'cause light'
+Sk 53 'chill touch'
+Sk 54 'butcher'
+Sk 1 'bewitch weapon'
+Sk 1 'curse'
+Sk 54 'embalm'
+Sk 1 'evil eye'
+Sk 1 'poison'
+Sk 1 'remove curse'
+Sk 93 'shock sphere'
+Sk 75 'skeletal hands'
+Sk 1 'tentacles'
+Sk 75 'vampiric touch'
+Sk 1 'neutrality field'
+Sk 38 'axe'
+Sk 93 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 77 'sword'
+Sk 15 'whip'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 25 'wands'
+Sk 62 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necromancy'
+End
+
+#O
+Vnum 3030
+Nest 0
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+Val  0 0 18 0 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 87
+Repd 0
+Affect -1 7 -1 -8 12 0 0
+End
+
+#O
+Vnum 4484
+Nest 0
+Wear 5
+Lev  20
+Cost 1000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 9552 0 0
+End
+
+#O
+Vnum 13238
+Nest 0
+Wear 16
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#END

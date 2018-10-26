@@ -1,0 +1,635 @@
+#PLAYER
+Name Elsa~
+Id   41295
+LogO 952650360
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  2
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 34
+Plyd 150104
+ListRemorts ~
+NumRemorts 0
+Note 952582861
+Scro 22
+Room 4208
+HMV  439 439 484 484 261 348
+NewGold 3
+NewPlat 316
+NewCopp 0
+NewSilv 0
+Bank 534030
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 49
+Exp  69127
+Act  196808
+AfBy 524298
+Comm 28736
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 3
+Save  -10
+Alig  1000
+Hit   23
+Dam   48
+ACs -93 -79 -83 23
+Wimp  150
+Attr 13 17 18 13 18
+AMod 15 0 2 10 0
+Pass El2uf8bYsfsFs~
+Titl  the Avatar of an Implementor~
+Pnts 40
+TSex 2
+LLev 39
+HMVP 434 439 298
+Cond 0 12 27
+Alias pe cast 'protection evil'~
+Alias cs cast 'cure serious'~
+Alias bl cast 'bless'~
+Alias arm cast 'armor'~
+Alias ref cast 'refresh'~
+Alias aid cast 'aid'~
+Alias mc cast 'mana convert'~
+Alias ds cast 'detect stealth'~
+Alias id cast 'identify'~
+Alias ic cast 'icicle'~
+Alias dm cast 'dispel magic'~
+Alias can cast 'cancellation'~
+Alias sanc cast 'sanctuary'~
+Alias cc cast 'cure critical'~
+Alias he cast 'heal'~
+Alias sh cast 'shield'~
+Alias fly cast 'fly'~
+Alias ss cast 'stone skin'~
+Alias rt cast 'rope trick'~
+Alias su cast 'sunray'~
+Sk 73 'aid'
+Sk 71 'armor'
+Sk 72 'bless'
+Sk 71 'calm'
+Sk 71 'cancellation'
+Sk 1 'cause light'
+Sk 1 'cone of cold'
+Sk 80 'cure critical'
+Sk 1 'cure light'
+Sk 86 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'detect hidden'
+Sk 71 'detect invis'
+Sk 1 'detect magic'
+Sk 1 'detect poison'
+Sk 1 'detect traps'
+Sk 74 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'flamestrike'
+Sk 72 'fly'
+Sk 71 'frenzy'
+Sk 71 'gate'
+Sk 1 'haven'
+Sk 78 'heal'
+Sk 71 'holy word'
+Sk 95 'icicle'
+Sk 71 'identify'
+Sk 1 'know alignment'
+Sk 73 'locate object'
+Sk 37 'major globe'
+Sk 85 'mana convert'
+Sk 1 'mass healing'
+Sk 1 'mass sanctuary'
+Sk 71 'pass door'
+Sk 71 'portal'
+Sk 73 'protection evil'
+Sk 71 'raise dead'
+Sk 1 'divine intervention'
+Sk 74 'refresh'
+Sk 72 'remove curse'
+Sk 71 'rope trick'
+Sk 79 'sanctuary'
+Sk 72 'shield'
+Sk 1 'spiritual hammer'
+Sk 72 'stone skin'
+Sk 71 'summon'
+Sk 72 'sunray'
+Sk 71 'teleport'
+Sk 1 'vortex'
+Sk 71 'word of recall'
+Sk 10 'axe'
+Sk 96 'dagger'
+Sk 20 'flail'
+Sk 66 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 53 'dodge'
+Sk 30 'second attack'
+Sk 72 'scrolls'
+Sk 75 'staves'
+Sk 56 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'benedictions'
+Gr 'detection'
+Gr 'cleric elemental'
+Gr 'healing'
+Gr 'cleric protective'
+Gr 'cleric transportation'
+AffD 'armor'  36   9 -20  17          0          0
+AffD 'shield'  47  47 -20  17          0          0
+AffD 'giant strength'   0  38   4   1          0          0
+AffD 'fly'   9  20   0   0     524288          0
+AffD 'bless'   6  14  -4  24          0          0
+AffD 'bless'  43  14   4  18          0          0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  3
+Cost 1000
+Cond 95
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  14
+Cost 1250
+Cond 100
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9308
+Nest 0
+ExtF 1089
+Wear 6
+Lev  20
+Cost 1750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4447
+Nest 0
+Wear 11
+Lev  25
+Cost 1200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13204
+Nest 0
+Wear 9
+Lev  29
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 4 4 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 844
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+Affect -1 32 -1 3 2 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7204
+Nest 0
+Wear -1
+Lev  1
+Time 58
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'cure critical'
+Spell 2 'invis'
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 17706
+Nest 0
+Wear -1
+Lev  22
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 2332
+Nest 0
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+Affect -1 28 -1 1 2 0 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 145 0 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Name M&M~
+ShD  (Melting) a bag of M&M's~
+Desc A bag of M&M's is lieing on the ground here melting away.~
+Act_room $n picks up the bag of M&M's and they melt all over the place.~
+Act_char Yummmy, melts in your mouth, not in your hand.~
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5786
+Nest 1
+Wear -1
+Lev  15
+Cost 5500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20512
+Nest 1
+Wear -1
+Lev  20
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 1
+Wear -1
+Lev  23
+Cost 5000
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 10042
+Nest 1
+Wear -1
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10047
+Nest 1
+Wear -1
+Lev  31
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,317 @@
+#PLAYER
+Name Evan~
+Id   45884
+LogO 952638391
+Vers 3
+Prom ~
+Ignoring  ~
+Race elf~
+Sex  2
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 6
+Plyd 7357
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  58 58 105 105 130 155
+NewGold 0
+NewPlat 0
+NewCopp 193
+NewSilv 40
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestNext 3
+Exp  14166
+Act  252
+AfBy 10
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  4
+Prac 3
+Trai 6
+Alig  -1000
+Hit   9
+Dam   1
+ACs 60 62 58 96
+Wimp  11
+Attr 12 15 16 17 11
+AMod 1 2 4 0 2
+Pass EvLMMn//2Fclw~
+Titl  the Pincheress~
+Pnts 40
+TSex 2
+LLev 1
+HMVP 63 105 130
+Cond 0 0 0
+Alias bb buy bread~
+Alias r remove ring~
+Alias t wear silv~
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 76 'backstab'
+Sk 1 'dodge'
+Sk 55 'trip'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'bless'  17  45  -7  24          0          0
+AffD 'bless'  45  45   7  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 130 0 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 4 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 3722
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 3723
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3729
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 3730
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 2 4 0 0
+Affect -1 1 -1 -5 17 0 0
+Affect -1 1 -1 -1 23 0 0
+Affect -1 1 -1 -1 12 0 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3500
+Nest 0
+Wear -1
+Lev  5
+Cost 50
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 938
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 3 -1 -4 13 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 -1 13 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 5 24 0 0
+Affect -1 3 -1 2 20 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#END

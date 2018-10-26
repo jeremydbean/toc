@@ -1,0 +1,348 @@
+#PLAYER
+Name Daglorus~
+Id   37078
+LogO 952841707
+Vers 3
+Desc You see a tall Elf
+His face is battle worn with a slight tint of blue.
+you notice a small crack in his armor,that has a red stain around it
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 16
+Plyd 137257
+ListRemorts ~
+NumRemorts 0
+Note 950146800
+Scro 22
+Room 4209
+HMV  180 180 303 303 181 181
+NewGold 564
+NewPlat 21
+NewCopp 773
+NewSilv 72
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  36053
+Act  252
+AfBy 524800
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Trai 1
+Save  7
+Alig  307
+Hit   12
+Dam   13
+ACs 4 5 -1 75
+Wimp  45
+Attr 17 21 14 14 12
+AMod 1 1 -1 1 0
+Pass DaaK.mhPOjbUg~
+Titl  the Savant~
+Pnts 40
+TSex 1
+LLev 36
+HMVP 185 294 190
+Cond 0 2 33
+Sk 76 'armor'
+Sk 97 'burning hands'
+Sk 89 'chill touch'
+Sk 1 'detect invis'
+Sk 1 'faerie fire'
+Sk 78 'fly'
+Sk 83 'giant strength'
+Sk 75 'identify'
+Sk 1 'lightning bolt'
+Sk 77 'locate object'
+Sk 99 'magic missile'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 66 'axe'
+Sk 93 'dagger'
+Sk 7 'flail'
+Sk 20 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 21 'whip'
+Sk 21 'sneak'
+Sk 61 'scrolls'
+Sk 1 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+AffD 'fly'   0   9   0   0     524288          0
+AffD 'giant strength'  23   3   1   1          0          0
+AffD 'armor'  29   2 -20  17          0          0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 11 0 0 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear -1
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  15
+Cost 210
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+Affect -1 15 -1 3 24 0 0
+End
+
+#O
+Vnum 10028
+Nest 0
+Wear 7
+Lev  13
+Cost 190
+Cond 100
+Repd 0
+Val  5 6 6 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  12
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+Affect -1 11 -1 -1 12 0 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9634 0 0
+End
+
+#O
+Vnum 24004
+Nest 0
+Wear 14
+Lev  13
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 -9 14 0 0
+End
+
+#O
+Vnum 5111
+Nest 0
+Wear 6
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  15
+Cost 1250
+Cond 100
+Repd 0
+Val  7 7 6 0 0
+End
+
+#O
+Vnum 3113
+Nest 0
+Wear 8
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24006
+Nest 0
+ExtF 256
+Wear 12
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5252
+Nest 0
+Wear 16
+Lev  7
+Cost 420
+Cond 90
+Repd 0
+Val  2 4 3 11 0
+Affect -1 7 -1 -2 3 0 0
+Affect -1 7 -1 1 21 0 0
+Affect -1 7 -1 3 23 0 0
+End
+
+#O
+Vnum 2105
+Nest 0
+Wear 17
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'curse'
+End
+
+#O
+Vnum 6509
+Nest 0
+Wear -1
+Lev  10
+Cost 2500
+Cond 100
+Repd 0
+Val  5 4 4 21 32
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 0
+Cond 68
+Repd 0
+End
+
+#O
+Vnum 2913
+Nest 0
+Wear -1
+Lev  10
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#END

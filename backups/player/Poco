@@ -1,0 +1,665 @@
+#PLAYER
+Name Poco~
+Id   3001
+LogO 953534662
+Vers 3
+Desc .                \=/,         _-===-_-====-_-===-_-==========-_-====-_
+.                |  @___oo   (                                         )_
+.      /\  /\   / (___,,,}_--=                                          )
+.     ) /^\) ^\/ _)        =__        I-\   /--\   /--\   /--\  I      )
+.     )   /^\/   _)          (_       I  I I    I I      I    I I      )
+.     )   _ /  / _)            (      I-/  I    I I      I    I I     )
+. /\  )/\/ ||  | )_)            (_    I     \--/   \--/   \--/  .      )
+.<  >      |(,,) )__)             (                                     )
+. ||      /    \)___)\             (_                                 __)
+. | \____(      )___) )___           -==-_____-=====-_____-=====-___==
+.  \______(_______
+~
+Prom %h/%H %m/%M %v/%V %X~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  2
+Gui  3
+Psionic  2
+Cast none
+Levl 36
+Plyd 287691
+ListRemorts ~
+NumRemorts 0
+Note 953485148
+Scro 23
+Room 29060
+HMV  466 466 277 277 360 360
+NewGold 34
+NewPlat 10
+NewCopp 924
+NewSilv 58
+Bank 2915
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  85873
+Act  252
+AfBy 557568
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 13
+Color 3 14
+Color 4 2
+Color 5 3
+Color 6 9
+Color 7 11
+Color 8 11
+Color 9 7
+Color 10 12
+Color 11 14
+Color 12 4
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 16
+Trai 1
+Save  -18
+Alig  1000
+Hit   21
+Dam   35
+ACs -100 -94 -89 20
+Wimp  93
+Attr 14 19 18 20 18
+AMod 3 -5 2 4 0
+Pass Podidta2IkBag~
+Ariv $n's cape flaps silently as she comes in from $T.~
+Dprt $n's cape flutters silently behind her as she leaves $t~
+Titl  does not care if she dies anymore~
+Pnts 40
+TSex 2
+LLev 74
+HMVP 466 277 310
+Cond 0 39 42
+Alias a scan~
+Alias lim l in metallic~
+Alias lvl gos Gratz!~
+Alias c emote utters the words, 'whatever'.~
+Alias ow open west~
+Alias on open north~
+Alias os open south~
+Alias oe open east~
+Alias ot open trap~
+Alias oh open hole~
+Alias og open gate~
+Alias lic look in corpse~
+Alias osec open secret~
+Alias p emote screams 'PPpppOoOooWwweEEeRRrr!'~
+Alias repl reply -Poco-~
+Alias ue unlock east~
+Alias lib l in backpack~
+Sk 75 'axe'
+Sk 100 'dagger'
+Sk 75 'flail'
+Sk 75 'mace'
+Sk 75 'polearm'
+Sk 75 'spear'
+Sk 100 'sword'
+Sk 75 'whip'
+Sk 99 'backstab'
+Sk 80 'dirt kicking'
+Sk 97 'dodge'
+Sk 100 'enhanced damage'
+Sk 96 'parry'
+Sk 100 'second attack'
+Sk 82 'fast healing'
+Sk 100 'hide'
+Sk 76 'pick lock'
+Sk 84 'shove'
+Sk 98 'sneak'
+Sk 75 'search'
+Sk 75 'steal'
+Sk 84 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'warrior guild'
+AffD 'sneak'   5   6   0   0      32768          0
+AffD 'armor'  47  12 -20  17          0          0
+AffD 'giant strength'  40   0   1   1          0          0
+AffD 'fly'  30   3   0   0     524288          0
+End
+
+#O
+Vnum 29035
+Nest 0
+Wear 9
+Lev  32
+Cost 250
+Cond 96
+Repd 0
+Affect -1 32 -1 -1 1 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 750
+Cond 31
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 82
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  17
+Cost 0
+Cond 94
+Repd 0
+Val  5 6 5 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  10
+Cost 280
+Cond 83
+Repd 0
+Val  5 4 4 0 0
+Affect -1 10 -1 -3 22 0 0
+End
+
+#O
+Vnum 3814
+Nest 0
+Wear 14
+Lev  5
+Cost 100
+Cond 42
+Repd 0
+Affect -1 5 -1 -2 3 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear -1
+Lev  9
+Cost 0
+Cond 89
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 83
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 98
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 2373
+Nest 0
+Wear 6
+Lev  26
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 26 -1 -23 17 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 66
+Repd 0
+End
+
+#O
+Vnum 1009
+Nest 0
+Wear 11
+Lev  31
+Cost 1400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 41
+Repd 0
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+Affect -1 32 -1 1 20 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear -1
+Lev  3
+Time 17
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  19
+Cost 1000
+Cond 93
+Repd 0
+Val  7 6 5 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 0
+Cond 87
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 82
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 95
+Repd 0
+Affect -1 1 -1 1 21 0 0
+End
+
+#O
+Vnum 29021
+Nest 1
+Wear -1
+Lev  20
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 25
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 1
+Wear -1
+Lev  2
+Cost 25
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 95
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 95
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 4 -1 -1 24 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 95
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 4101
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 87
+Repd 0
+Val  0 2 2 0 1
+End
+
+#O
+Vnum 3720
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 95
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 98
+Repd 0
+Val  4 3 2 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 93
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 9304
+Nest 1
+Wear -1
+Lev  16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 1
+Wear -1
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+Affect -1 23 -1 -4 2 0 0
+End
+
+#O
+Vnum 7300
+Nest 1
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 2
+Wear -1
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+Affect -1 19 -1 5 19 0 0
+End
+
+#O
+Vnum 3740
+Nest 2
+Wear -1
+Lev  3
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 29073
+Nest 2
+Wear -1
+Lev  29
+Cost 0
+Cond 100
+Repd 0
+Affect -1 29 -1 -9 12 0 0
+End
+
+#O
+Vnum 10033
+Nest 1
+ExtF 80
+Wear -1
+Lev  25
+Cost 1000
+Cond 99
+Repd 0
+Val  2 4 7 2 0
+Affect -1 23 -1 -13 13 0 0
+Affect -1 52 -1 2 19 0 0
+Affect -1 52 -1 2 18 0 0
+End
+
+#O
+Vnum 10030
+Nest 1
+Wear -1
+Lev  22
+Cost 210
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+End
+
+#O
+Vnum 2390
+Nest 1
+Wear -1
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+Affect -1 23 -1 -5 1 0 0
+Affect -1 23 -1 3 22 0 0
+End
+
+#O
+Vnum 3718
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  51 0 0 0 0
+End
+
+#O
+Vnum 9323
+Nest 0
+Wear -1
+Lev  31
+Cost 1300
+Cond 100
+Repd 0
+Affect -1 51 -1 3 19 0 0
+Affect -1 51 -1 3 18 0 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+Affect -1 32 -1 -1 17 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 99
+Repd 0
+Affect -1 22 -1 -3 3 0 0
+End
+
+#END

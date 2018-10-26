@@ -1,0 +1,107 @@
+#PLAYER
+Name Valinon~
+Id   54160
+LogO 952904882
+Vers 3
+Prom %hhp %mm %vmv~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 3
+Plyd 6156
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  59 59 102 102 112 112
+NewGold 284
+NewPlat 0
+NewCopp 22
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  6843
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 7
+Trai 2
+Save  -3
+Alig  0
+Hit   3
+ACs 80 80 80 80
+Attr 13 13 14 17 12
+AMod 0 0 0 0 0
+Pass Va0TUctls9tVA~
+Titl  the Sentry~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 59 102 112
+Cond 0 0 0
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 81 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'hide'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'armor'   0   2 -20  17          0          0
+AffD 'bless'  40  15   3  18          0          0
+AffD 'bless'  43  15  -3  24          0          0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+Affect -1 5 -1 -17 14 0 0
+End
+
+#END

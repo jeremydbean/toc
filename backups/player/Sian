@@ -1,0 +1,180 @@
+#PLAYER
+Name Sian~
+Id   9041
+LogO 953408387
+Vers 3
+Prom ~
+Ignoring  ~
+Race dwarf~
+Sex  2
+Cla  2
+Gui  11
+Psionic  0
+Cast none
+Levl 2
+Plyd 509
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3714
+HMV  20 31 100 101 99 106
+NewGold 0
+NewPlat 0
+NewCopp 4
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  4450
+Act  65788
+AfBy 512
+Comm 24584
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 6
+Trai 1
+Save  -1
+Alig  -750
+Hit   2
+Dam   2
+ACs 70 70 70 79
+Attr 17 13 12 15 15
+AMod 0 0 0 0 0
+Pass SiIjoiOrUcTXs~
+Titl  the Footpad~
+Pnts 40
+TSex 2
+LLev 0
+HMVP 31 101 106
+Cond 0 39 39
+Sk 7 'axe'
+Sk 80 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 1 'backstab'
+Sk 1 'bash'
+Sk 1 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+AffD 'armor'  30  22 -20  17          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 191 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

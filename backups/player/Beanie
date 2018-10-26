@@ -1,0 +1,150 @@
+#PLAYER
+Name Beanie~
+Id   6877
+LogO 953515894
+Vers 3
+Desc **** DON'T LOOK AT ME!! ****
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 23
+Plyd 163378
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 29243
+HMV  308 308 125 125 3 232
+NewGold 1108
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 20000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  47631
+Act  131272
+AfBy 2097152
+AfBy2 64
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  -1
+Alig  -1000
+Hit   1
+Dam   1
+ACs 85 87 87 99
+Wimp  15
+Attr 13 13 13 17 13
+AMod 1 0 0 7 0
+Pass BeZGrUPSQC7Jw~
+Titl .~
+Pnts 40
+TSex 1
+LLev 35
+HMVP 308 125 232
+Cond 0 0 0
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias k trip~
+Alias 1 stealth~
+Alias 2 sneak~
+Alias tit1 tit A.K.A Tyrant  [*006*]~
+Alias 0 level *-*-* CoNgRaTz!! *-*-*~
+Alias 3 hide~
+Alias tit2 tit der unsichtbarer dieb.  [*006*]~
+Alias p shove~
+Sk 7 'axe'
+Sk 85 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 39 'sword'
+Sk 20 'whip'
+Sk 74 'backstab'
+Sk 16 'dodge'
+Sk 25 'dual wield'
+Sk 15 'parry'
+Sk 17 'trip'
+Sk 21 'second attack'
+Sk 26 'hide'
+Sk 1 'pick lock'
+Sk 83 'shove'
+Sk 22 'sneak'
+Sk 1 'search'
+Sk 43 'steal'
+Sk 76 'stealth'
+Sk 1 'track'
+Sk 51 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'stealth'  51   3   0   0          0         64
+AffD 'haste'  51   9   4   2    2097152          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 10 0 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  18
+Cost 1000
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#END

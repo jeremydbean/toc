@@ -1,0 +1,144 @@
+#PLAYER
+Name Tripoc~
+Id   19924
+LogO 951538648
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  4
+Gui  4
+Psionic  0
+Cast none
+Levl 9
+Plyd 13972
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  111 111 143 143 140 148
+NewGold 8368
+NewPlat 3
+NewCopp 354
+NewSilv 6
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  20802
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Trai 3
+Save  -7
+Alig  -151
+Hit   7
+ACs 97 91 91 100
+Attr 14 16 12 12 21
+AMod 0 0 0 0 0
+Pass TrPVv/cWYL4l.~
+Titl  the Student of Movement~
+Pnts 40
+TSex 1
+LLev 3
+HMVP 111 143 148
+Cond 0 0 0
+Sk 8 'axe'
+Sk 79 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'bash'
+Sk 1 'dodge'
+Sk 1 'hand to hand'
+Sk 68 'kick'
+Sk 1 'trip'
+Sk 45 'second attack'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'bless'   8   0  -7  24          0          0
+AffD 'bless'   0   0   7  18          0          0
+End
+
+#O
+Vnum 3066
+Nest 0
+Wear 5
+Lev  5
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  58 0 0 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

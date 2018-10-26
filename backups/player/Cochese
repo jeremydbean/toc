@@ -1,0 +1,748 @@
+#PLAYER
+Name Cochese~
+Id   38480
+LogO 947885343
+Vers 3
+Desc .
+~
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 53
+Plyd 1139982
+ListRemorts ~
+NumRemorts 0
+Note 947873567
+Scro 22
+Room 4208
+HMV  757 962 129 633 187 187
+NewGold 3852
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 99540
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 143
+Exp  154532
+Act  65736
+AfBy 2621960
+AfBy2 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 13
+Color 5 3
+Color 6 10
+Color 7 6
+Color 8 9
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 11
+Color 14 11
+Color 15 7
+Color 16 3
+Pos  8
+Prac 8
+Alig  1000
+Hit   59
+Dam   80
+ACs -139 -137 -147 -64
+Attr 14 15 15 13 18
+AMod 6 4 0 3 -5
+Pass Coi38.JzprwY2~
+Ariv $n charges in from $t moshing to some OldSchool Pantera~
+Dprt $n moshes on a path of destruction $t.~
+Titl .~
+Pnts 40
+TSex 1
+LLev 241
+HMVP 842 578 412
+Cond 0 13 48
+Alias mc c 'mana convert'~
+Alias pe c 'protection evil'~
+Alias dm c 'dispel magic'~
+Alias gs c 'giant strength' ~
+Alias fire c 'fire shield'~
+Alias 1 aquest request~
+Alias pg c 'power gloves'~
+Alias a c 'acid blast'~
+Alias ha c haste~
+Alias sa c sanctuary~
+Alias mg c 'major globe'~
+Alias 2 aquest complete~
+Alias goto c 'gate' ~
+Alias qq aquest points~
+Alias question east west up south north east~
+Alias di cast 'detect invis'~
+Alias hav c haven~
+Alias q aquest time~
+Alias climb climb rope~
+Sk 100 'acid blast'
+Sk 77 'armor'
+Sk 87 'burning hands'
+Sk 84 'cancellation'
+Sk 79 'chain lightning'
+Sk 91 'chill touch'
+Sk 100 'colour spray'
+Sk 83 'detect invis'
+Sk 91 'dispel magic'
+Sk 84 'faerie fire'
+Sk 96 'fireball'
+Sk 89 'fire shield'
+Sk 80 'fly'
+Sk 76 'force sword'
+Sk 1 'frost shield'
+Sk 97 'gate'
+Sk 81 'giant strength'
+Sk 100 'haste'
+Sk 93 'haven'
+Sk 75 'heat metal'
+Sk 92 'identify'
+Sk 1 'infravision'
+Sk 1 'lightning bolt'
+Sk 92 'locate object'
+Sk 83 'magic missile'
+Sk 84 'major globe'
+Sk 100 'mana convert'
+Sk 82 'pass door'
+Sk 88 'portal'
+Sk 86 'power gloves'
+Sk 77 'protection evil'
+Sk 1 'refresh'
+Sk 91 'rope trick'
+Sk 98 'sanctuary'
+Sk 80 'shield'
+Sk 91 'shocking grasp'
+Sk 100 'slow'
+Sk 75 'stone skin'
+Sk 81 'summon'
+Sk 1 'teleport'
+Sk 49 'axe'
+Sk 100 'dagger'
+Sk 48 'flail'
+Sk 92 'mace'
+Sk 40 'polearm'
+Sk 79 'spear'
+Sk 100 'sword'
+Sk 35 'whip'
+Sk 100 'dodge'
+Sk 76 'concoct'
+Sk 76 'scribe'
+Sk 100 'scrolls'
+Sk 1 'wands'
+Sk 91 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'combat'
+Gr 'enhancement'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'force sword'  49   0   0   0          0        512
+AffD 'detect invis'  44  12   0   0          8          0
+AffD 'giant strength'  48  30   4   1          0          0
+AffD 'haste'  49   4   4   2    2097152          0
+AffD 'fly'  49  35   0   0     524288          0
+AffD 'major globe'  52   8 -80  17          0          0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29221
+Nest 0
+Wear 7
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear -1
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17020
+Nest 0
+ExtF 19
+Wear 16
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10012
+Nest 1
+Wear -1
+Lev  50
+Cost 833
+Cond 100
+Repd 0
+Val  13 13 13 2 0
+End
+
+#O
+Vnum 8703
+Nest 1
+Wear -1
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16032
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25007
+Nest 1
+Wear -1
+Lev  50
+Cost 7500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 1
+Wear -1
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 1
+Wear -1
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29230
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29214
+Nest 1
+Wear -1
+Lev  51
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7649
+Nest 1
+ExtF 20
+Wear -1
+Lev  45
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name receipt restring~
+ShD  a receipt for 1 restring~
+Desc a receipt for 1 restring.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 70
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 0
+Wear -1
+Lev  52
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#END

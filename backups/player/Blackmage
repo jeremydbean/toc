@@ -1,0 +1,457 @@
+#PLAYER
+Name BlackMage~
+Id   31783
+LogO 952725485
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 8
+Plyd 24270
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 9416
+HMV  63 70 16 171 74 147
+NewGold 6
+NewPlat 1
+NewCopp 56
+NewSilv 16
+Bank 5
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  17677
+Act  65788
+AfBy 520
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Trai 2
+Save  -7
+Alig  -21
+Hit   9
+Dam   -2
+ACs 35 41 42 74
+Wimp  10
+Attr 12 18 15 14 11
+AMod 1 1 2 0 5
+Pass Bl/FCgAMtJOqE~
+Titl .~
+Pnts 40
+TSex 1
+LLev 4
+HMVP 70 171 142
+Cond 0 0 9
+Alias mm c "magic missile"~
+Alias ff c "faerie fire"~
+Alias a c "armor"~
+Alias ch c "chill touch"~
+Alias lvl level Gratz!~
+Alias re c "refresh"~
+Alias p pose~
+Alias bh c "burning hands"~
+Alias inv c "invis"~
+Alias bb buy bread~
+Alias di c "detect invis"~
+Alias m c "mana convert"~
+Sk 75 'armor'
+Sk 75 'burning hands'
+Sk 1 'charm person'
+Sk 78 'chill touch'
+Sk 79 'detect invis'
+Sk 1 'enchant armor'
+Sk 1 'enchant weapon'
+Sk 75 'faerie fire'
+Sk 1 'fly'
+Sk 1 'giant strength'
+Sk 1 'identify'
+Sk 1 'invis'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 82 'magic missile'
+Sk 1 'mass invis'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 1 'sleep'
+Sk 10 'axe'
+Sk 81 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 21 'wands'
+Sk 80 'recall'
+Sk 1 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'enchantment'
+AffD 'bless'  48  57   7  18          0          0
+AffD 'bless'  36  57  -7  24          0          0
+AffD 'armor'  44  16 -20  17          0          0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+Affect -1 3 -1 1 5 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Affect -1 1 -1 -5 19 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 -3 4 0 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5252
+Nest 0
+Wear 16
+Lev  6
+Cost 420
+Cond 90
+Repd 0
+Val  2 4 3 11 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 0
+Wear 6
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+Affect -1 2 -1 -13 14 0 0
+Affect -1 2 -1 -7 14 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 2
+Lev  3
+Time 184
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2906
+Nest 0
+Wear 5
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,988 @@
+#PLAYER
+Name Kaleb~
+Id   15777
+LogO 948166007
+Vers 3
+Desc Kaleb is the happy healing thief.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  2
+Gui  1
+Psionic  2
+Cast none
+Levl 53
+Plyd 1629378
+ListRemorts ~
+NumRemorts 0
+Note 948078658
+Scro 22
+Room 9991
+HMV  788 788 597 597 488 488
+NewGold 115074
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 15000
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 279
+Exp  131806
+Act  216
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 10
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  5
+Prac 5
+Save  -18
+Alig  935
+Hit   31
+Dam   48
+ACs -180 -182 -184 10
+Wimp  120
+Attr 18 18 18 21 18
+AMod 5 0 5 1 2
+Pass Ka5G0IkAxt1ac~
+Ariv $n slides in from $T.~
+Dprt $n backflips to $T.~
+Titl  has left the mud...~
+Pnts 40
+TSex 1
+LLev 414
+HMVP 728 407 413
+Cond 0 40 23
+Sk 96 'aid'
+Sk 98 'armor'
+Sk 93 'bless'
+Sk 1 'water burst'
+Sk 1 'calm'
+Sk 1 'cancellation'
+Sk 1 'cause light'
+Sk 91 'cure critical'
+Sk 1 'cure light'
+Sk 97 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 86 'dispel magic'
+Sk 95 'dust devil'
+Sk 71 'flamestrike'
+Sk 97 'fly'
+Sk 100 'gate'
+Sk 100 'heal'
+Sk 71 'holy word'
+Sk 92 'icicle'
+Sk 80 'identify'
+Sk 87 'mana convert'
+Sk 85 'pass door'
+Sk 92 'protection evil'
+Sk 93 'refresh'
+Sk 74 'remove curse'
+Sk 96 'sanctuary'
+Sk 88 'shield'
+Sk 1 'spiritual hammer'
+Sk 83 'stone skin'
+Sk 74 'summon'
+Sk 88 'sunray'
+Sk 1 'teleport'
+Sk 7 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'backstab'
+Sk 100 'dodge'
+Sk 100 'second attack'
+Sk 93 'hide'
+Sk 75 'pick lock'
+Sk 97 'sneak'
+Sk 71 'search'
+Sk 52 'steal'
+Sk 72 'scrolls'
+Sk 1 'staves'
+Sk 92 'wands'
+Sk 93 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild elemental'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'stone skin'  40  10 -40  17          0          0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear -1
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 283
+Cond 100
+Repd 0
+Val  6 5 6 1 0
+End
+
+#O
+Vnum 16005
+Nest 0
+Wear 6
+Lev  52
+Cost 2868
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2323
+Nest 0
+Wear -1
+Lev  27
+Cost 3500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10003
+Nest 0
+ExtF 2100545
+Wear 5
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Time 181
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Time 39
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Time 167
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2915
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'weaken'
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name softly glowing potion~
+ShD  a softly glowing potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  54 89 91 99 0
+Spell 1 'mass healing'
+Spell 2 'mass sanctuary'
+Spell 3 'power gloves'
+End
+
+#O
+Vnum 9582
+Nest 1
+Wear -1
+Lev  14
+Cost 350
+Cond 100
+Repd 0
+Val  13 3 3 61 0
+Spell 3 'faerie fire'
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 13281
+Nest 1
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 2
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3742
+Nest 2
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 2
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 4 2 0 0
+End
+
+#O
+Vnum 2332
+Nest 2
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 2
+Wear -1
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9582
+Nest 1
+Wear -1
+Lev  12
+Cost 350
+Cond 100
+Repd 0
+Val  12 4 4 61 0
+Spell 3 'faerie fire'
+End
+
+#O
+Vnum 9582
+Nest 1
+Wear -1
+Lev  12
+Cost 350
+Cond 100
+Repd 0
+Val  12 3 3 61 0
+Spell 3 'faerie fire'
+End
+
+#O
+Vnum 5210
+Nest 1
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 10044
+Nest 1
+Wear -1
+Lev  5
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'acid breath'
+Spell 3 'acid breath'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blinding white scroll~
+ShD  a blinding white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 99 108 77 0
+Spell 1 'power gloves'
+Spell 2 'sanctuary'
+Spell 3 'heal'
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 7 0 0
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 4639
+Nest 1
+Wear -1
+Lev  25
+Cost 20000
+Cond 100
+Repd 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 9579
+Nest 1
+Wear -1
+Lev  17
+Cost 150
+Cond 100
+Repd 0
+Val  18 2 2 10 0
+Spell 3 'call lightning'
+End
+
+#O
+Vnum 9217
+Nest 1
+Wear -1
+Lev  13
+Cost 1100
+Cond 100
+Repd 0
+Val  13 4 4 54 0
+Spell 3 'earthquake'
+End
+
+#O
+Vnum 9579
+Nest 1
+Wear -1
+Lev  17
+Cost 150
+Cond 100
+Repd 0
+Val  17 3 1 10 0
+Spell 3 'call lightning'
+End
+
+#O
+Vnum 28024
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  1 2 2 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 28024
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  1 4 4 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 9582
+Nest 1
+Wear -1
+Lev  12
+Cost 350
+Cond 100
+Repd 0
+Val  13 3 3 61 0
+Spell 3 'faerie fire'
+End
+
+#O
+Vnum 1361
+Nest 1
+Wear -1
+Lev  20
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4717
+Nest 2
+Wear -1
+Lev  10
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'shroud'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 4618
+Nest 1
+Wear -1
+Lev  39
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10041
+Nest 1
+Wear -1
+Lev  47
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  16 14 20 4 0
+End
+
+#O
+Vnum 5609
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  13 11 17 1 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 16010
+Nest 0
+Wear 12
+Lev  47
+Cost 2620
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8716
+Nest 0
+Wear 3
+Lev  45
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 9 9 5
+End
+
+#O
+Vnum 908
+Nest 0
+Wear 9
+Lev  35
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

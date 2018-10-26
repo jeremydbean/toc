@@ -1,0 +1,317 @@
+#PLAYER
+Name Thalas~
+Id   53049
+LogO 949039980
+Vers 3
+Prom Hp:%h/%H Mv:%v/%V Exp:%X >?)~
+Ignoring ~
+Race saurian~
+Sex  2
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 5
+Plyd 2706
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4207
+HMV  32 62 104 104 87 124
+NewGold 0
+NewPlat 0
+NewCopp 184
+NewSilv 68
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  11766
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 1
+Trai 2
+Save  1
+Alig  0
+Hit   5
+Dam   2
+ACs 83 83 83 99
+Wimp  10
+Attr 19 12 12 13 18
+AMod 0 0 2 0 1
+Pass ThrPrtslVMH4g~
+Titl  the Soldier~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 62 104 124
+Cond 0 4 4
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 60 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 22 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+AffD 'bless'   0   3   3  18          0          0
+AffD 'bless'  45   3  -3  24          0          0
+AffD 'change sex'  46   1   1   6          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 156 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3702
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -1 20 0 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 5 24 0 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 103
+Nest 0
+Wear -1
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 102
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+Affect -1 2 -1 -4 14 0 0
+End
+
+#O
+Vnum 103
+Nest 0
+Wear -1
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+Affect -1 2 -1 -1 4 0 0
+End
+
+#O
+Vnum 102
+Nest 0
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 0
+Wear 6
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 12009
+Nest 0
+Wear -1
+Lev  3
+Cost 5
+Cond 100
+Repd 0
+Spell 3 'waterfall'
+End
+
+#END

@@ -1,0 +1,639 @@
+#PLAYER
+Name Milenko~
+Id   56969
+LogO 952998363
+Vers 3
+Desc .                ...
+.             ::::::
+.             :::::: ::
+.           ::::::'   ::
+.          :::::::     :.
+.         ,:::::'       :           OOO\
+.         :::::::       :          OOOOO\
+.         :::::::      ::         OOOOOOOO
+.        ,::::::::     :'         / OOOOOOO
+.      ::::::::::`. ,,,:.        /  / DOOOOOO
+.    .':::::::::::::::::::,     /  /     DOOOO
+.   ,::::::::::::::::::::::,   /  /        DOOO
+.  :`::::::`':::::::::::::: ,#/  /          DOOO
+.  :`:::::::`:::::::::::: :::#  /            DOOO
+.  ::`:::::::`::::::::: :::::# /              DOO
+.  `:`:::::::`::::::: :::::::#/               DOO
+.   :::`:::::::`:: ::::::::::##                OO
+.   ::::`:::::::`:::::::::::::#                OO
+.   `:::::`:::::::::::::'`::::#                O
+.    `:::::`:::::::::' /  / `:#
+.     ::::::`::::::'  /  /   `#
+
+I introduce to you an occult sorcerer of the ancient craft of
+Necromancy. A caster of mind-bending illusions, from the
+nethervoid of the shadow walkers, excel from Shangra La... The
+Great Milenko!
+
+Ladies and Gentlemen, witness the keeper of arcane, wicked
+voodoo magic. A beguiler of spells, hexes, and curses, with the
+help of potions, talismans, and ancient relics from  the
+forbidden realms of the dark carnival. Ladies and Gentlemen:
+The Great... Milenko! 
+
+
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  5
+Gui  5
+Psionic  2
+Cast Fors
+Levl 52
+Plyd 927637
+ListRemorts ~
+NumRemorts 0
+Note 951253659
+Scro 22
+Room 4208
+HMV  1539 1539 1414 1431 381 381
+NewGold 0
+NewPlat 16
+NewCopp 0
+NewSilv 0
+Bank 72000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 1
+QuestPnts 67
+Exp  116153
+Act  67174600
+AfBy2 8
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  9
+Alig  1000
+Hit   36
+Dam   44
+ACs -152 -150 -159 -69
+Attr 18 21 18 18 18
+AMod 9 -2 1 1 -7
+Pass MioK4yngaLTUE~
+Titl ... the Excellence of Execution.~
+Pnts 40
+TSex 1
+LLev 186
+HMVP 1379 1076 406
+Cond 0 40 48
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias l get all~
+Alias p cast 'neutrality field' ~
+Alias a cast 'shock sphere' ~
+Alias mc cast 'mana convert'~
+Alias fs cast 'death shroud'~
+Alias goto cast 'earth travel' ~
+Alias 1 cast 'ghostly presence'~
+Alias 2 cast 'force sword'~
+Alias 3 cast 'major globe'~
+Alias sa cast sanctuary~
+Alias o cast 'vampiric touch'~
+Alias k cast tentacles~
+Alias em cast 'embalm' ~
+Alias cv cast 'create vampire' ~
+Alias q cast 'animate parts'~
+Alias tit1 title ... The Ayatollah of Rock n' Roll-a.~
+Alias re rest~
+Sk 91 'animate parts'
+Sk 1 'armor'
+Sk 1 'blindness'
+Sk 78 'cancellation'
+Sk 1 'cause light'
+Sk 1 'chill touch'
+Sk 1 'cone of cold'
+Sk 1 'create skeleton'
+Sk 19 'create wraith'
+Sk 75 'create vampire'
+Sk 80 'butcher'
+Sk 79 'bewitch weapon'
+Sk 1 'curse'
+Sk 87 'death shroud'
+Sk 1 'dust devil'
+Sk 93 'earth travel'
+Sk 77 'embalm'
+Sk 1 'energy drain'
+Sk 1 'evil eye'
+Sk 72 'fly'
+Sk 87 'force sword'
+Sk 82 'haven'
+Sk 1 'icicle'
+Sk 48 'infravision'
+Sk 84 'major globe'
+Sk 100 'mana convert'
+Sk 1 'maze'
+Sk 1 'moonbeam'
+Sk 55 'pass door'
+Sk 1 'plague'
+Sk 1 'poison'
+Sk 76 'raise dead'
+Sk 52 'remove curse'
+Sk 78 'rope trick'
+Sk 93 'sanctuary'
+Sk 1 'shield'
+Sk 1 'shroud'
+Sk 94 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 1 'skeletal hands'
+Sk 100 'tentacles'
+Sk 78 'trap the soul'
+Sk 79 'vampiric touch'
+Sk 1 'vortex'
+Sk 1 'weaken'
+Sk 94 'neutrality field'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 100 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 100 'sword'
+Sk 15 'whip'
+Sk 1 'archery'
+Sk 100 'dodge'
+Sk 1 'concoct'
+Sk 1 'meditation'
+Sk 1 'ride'
+Sk 1 'shove'
+Sk 100 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 87 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro elemental'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'major globe'  41  14 -80  17          0          0
+AffD 'death shroud'   0   0   0   0          0          8
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 93
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4618
+Nest 0
+Wear 8
+Lev  39
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 2
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6434
+Nest 0
+Wear 1
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear 11
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 74
+Nest 1
+Name rainbow tea~
+ShD  a rainbow colored container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  32 35 103 106 0
+Spell 1 'cure light'
+Spell 2 'refresh'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 20533
+Enchanted
+Nest 1
+ExtF 354
+Wear -1
+Lev  46
+Cost 10000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 6 19 0 0
+AffD 'enchant weapon' 50 -1 6 18 0 0
+End
+
+#O
+Vnum 724
+Nest 1
+Wear -1
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 1
+Wear -1
+Lev  2
+Cost 1000
+Cond 100
+Repd 0
+Val  2 2 3 0 0
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 1
+ExtF 1048899
+Wear -1
+Lev  46
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 53 -1 6 18 0 0
+AffD 'enchant weapon' 53 -1 9 19 0 0
+End
+
+#O
+Vnum 7204
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'cure critical'
+Spell 2 'invis'
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of watcher grinch~
+Desc A bottle containing essence of watcher grinch is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 4202 0
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of watcher grinch~
+Desc A bottle containing essence of watcher grinch is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 4202 0
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of watcher grinch~
+Desc A bottle containing essence of watcher grinch is here.~
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+Val  0 0 0 4202 0
+End
+
+#O
+Vnum 91
+Nest 1
+ShD  a bottle containing essence of watcher grinch~
+Desc A bottle containing essence of watcher grinch is here.~
+Wear -1
+Lev  50
+Cost 25000
+Cond 100
+Repd 0
+Val  0 0 0 4202 0
+End
+
+#O
+Vnum 91
+Nest 1
+Wear -1
+Lev  49
+Cost 20000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24225
+Nest 1
+ExtF 3145792
+Wear -1
+Lev  54
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 11
+Nest 1
+Name Beowulf corpse~
+ShD  corpse of Beowulf~
+Desc The corpse of Beowulf is lying here.~
+Wear -1
+Lev  32
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear 15
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+Affect -1 35 -1 -1 4 0 0
+End
+
+#O
+Vnum 20130
+Nest 0
+Wear 14
+Lev  35
+Cost 500
+Cond 100
+Repd 0
+Affect -1 35 -1 4 20 0 0
+End
+
+#O
+Vnum 9925
+Nest 0
+Wear 16
+Lev  51
+Cost 0
+Cond 100
+Repd 0
+Affect -1 51 -1 -4 3 0 0
+End
+
+#END

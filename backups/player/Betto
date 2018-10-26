@@ -1,0 +1,91 @@
+#PLAYER
+Name Betto~
+Id   41448
+LogO 951161051
+Vers 3
+Prom ~
+Ignoring  ~
+Race elf~
+Sex  1
+Cla  2
+Gui  11
+Psionic  0
+Cast none
+Levl 4
+Plyd 3885
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4216
+HMV  47 47 103 103 118 118
+NewGold 0
+NewPlat 0
+NewCopp 52
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  9473
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  5
+Prac 3
+Alig  0
+ACs 100 100 100 100
+Attr 15 15 14 17 14
+AMod 0 0 0 0 0
+Pass BeI5jaXDAJ7hY~
+Titl  the Pick-Pocket~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 47 103 118
+Cond 0 0 0
+Sk 7 'axe'
+Sk 82 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 46 'backstab'
+Sk 1 'dodge'
+Sk 1 'hide'
+Sk 1 'pick lock'
+Sk 21 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+End
+
+#END

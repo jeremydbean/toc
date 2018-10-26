@@ -1,0 +1,604 @@
+#PLAYER
+Name Mystiva~
+Id   8732
+LogO 948437274
+Vers 3
+Prom %h/%H HP   %m/%M Mana   %v/%V Move         %X EXP~
+Ignoring ~
+Race elf~
+Sex  2
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 15
+Plyd 108564
+ListRemorts ~
+NumRemorts 0
+Note 948435078
+Scro 22
+Room 4210
+HMV  141 141 105 250 384 384
+NewGold 3
+NewPlat 85
+NewCopp 131
+NewSilv 14
+Bank 6700
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  33853
+Act  65772
+AfBy 512
+Comm 24616
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 8
+Save  3
+Alig  -698
+Hit   4
+Dam   1
+ACs 30 29 24 90
+Wimp  70
+Attr 13 21 18 14 18
+AMod 4 4 4 0 2
+Pass Mywsxzu/q71Ao~
+Titl  the Creator~
+Pnts 40
+TSex 2
+LLev 23
+HMVP 147 210 184
+Cond 0 8 21
+Sk 82 'armor'
+Sk 75 'burning hands'
+Sk 75 'chill touch'
+Sk 75 'detect invis'
+Sk 83 'faerie fire'
+Sk 75 'fly'
+Sk 76 'giant strength'
+Sk 82 'identify'
+Sk 1 'lightning bolt'
+Sk 76 'locate object'
+Sk 100 'magic missile'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 10 'axe'
+Sk 90 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 75 'whip'
+Sk 76 'meditation'
+Sk 75 'sneak'
+Sk 75 'scrolls'
+Sk 75 'wands'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 93
+Repd 1
+Affect -1 1 -1 1 21 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 1 23 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 2
+Lev  1
+Cost 0
+Cond 100
+Repd 1
+Val  3 4 4 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 100
+Repd 1
+Val  3 2 2 0 0
+Affect -1 1 -1 9 13 0 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 95
+Repd 1
+End
+
+#O
+Vnum 3113
+Nest 0
+Wear 8
+Lev  10
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 750
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 3114
+Nest 0
+Wear 9
+Lev  10
+Cost 300
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 97
+Repd 0
+Affect -1 3 -1 1 17 0 0
+End
+
+#O
+Vnum 3116
+Nest 0
+Wear 11
+Lev  10
+Cost 191
+Cond 100
+Repd 0
+Val  4 4 4 1 4
+End
+
+#O
+Vnum 7203
+Nest 0
+Wear 3
+Lev  12
+Cost 1404
+Cond 100
+Repd 0
+Affect -1 12 -1 -15 13 0 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 0
+Cond 90
+Repd 0
+Val  20 8 0 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear 1
+Lev  1
+Cost 750
+Cond 95
+Repd 0
+Val  2 4 3 0 0
+Affect -1 1 -1 3 23 0 0
+Affect -1 1 -1 1 17 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  14
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 13301
+Nest 0
+Wear -1
+Lev  15
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 12006
+Nest 0
+Wear 6
+Lev  8
+Cost 150
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 0
+Name pinkish potion~
+ShD  a pinkish potion ~
+Wear -1
+Time 38
+Cost 400
+Cond 100
+Repd 0
+Val  52 106 106 106 0
+Spell 1 'restore mana'
+Spell 2 'restore mana'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 90
+Nest 0
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Time 387
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear -1
+Lev  14
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 12007
+Nest 0
+Wear 0
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+Affect -1 3 -1 -1 1 0 0
+End
+
+#O
+Vnum 13283
+Nest 0
+Wear 16
+Lev  9
+Cost 50
+Cond 100
+Repd 0
+Val  2 3 6 11 0
+End
+
+#O
+Vnum 3033
+Nest 0
+Wear -1
+Cost 10
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 302
+Nest 1
+Wear -1
+Lev  1
+Cost 5
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 66
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2901
+Nest 1
+Wear -1
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name clear potion~
+ShD  a clear potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 95 -1 0
+Spell 1 'heal'
+Spell 2 'pass door'
+End
+
+#O
+Vnum 75
+Nest 1
+Name bright white potion~
+ShD  a bright white potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 77 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'heal'
+End
+
+#O
+Vnum 75
+Nest 1
+Name blue potion~
+ShD  a blue potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 33 77 108 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  52 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1523
+Nest 0
+Wear -1
+Lev  10
+Time 71
+Cost 1089
+Cond 100
+Repd 0
+Spell 1 'cure poison'
+Spell 2 'bless'
+End
+
+#END

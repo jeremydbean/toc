@@ -1,0 +1,634 @@
+#PLAYER
+Name Cazo~
+Id   22149
+LogO 953518367
+Vers 3
+Desc Cazo is a short stubby little CREATURE that goes around giving spell ups... 
+~
+Prom <%hhp %mm/%Mm %vmv %Xtnl>~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  0
+Gui  0
+Psionic  0
+Cast none
+Levl 16
+Plyd 61202
+ListRemorts ~
+NumRemorts 0
+Note 953485148
+Scro 22
+Room 4207
+HMV  157 157 202 211 68 189
+NewGold 0
+NewPlat 52
+NewCopp 68
+NewSilv 8
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  38705
+Act  65788
+AfBy 524296
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 11
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 12
+Color 7 5
+Color 8 5
+Color 9 7
+Color 10 12
+Color 11 2
+Color 12 0
+Color 13 0
+Color 14 12
+Color 15 0
+Color 16 6
+Pos  8
+Trai 1
+Save  4
+Alig  -1000
+Hit   8
+Dam   15
+ACs 0 -2 -7 82
+Wimp  15
+Attr 14 17 18 14 16
+AMod 5 0 -5 4 1
+Pass Ca5ydfna5vYl2~
+Ariv $n swoops in from a cloud of dust from $T.~
+Dprt A cloud of dust apears and $n heads off to $T.~
+Titl  the Savant~
+Pnts 40
+TSex 1
+LLev 16
+HMVP 164 211 190
+Cond 0 9 45
+Sk 1 'acid blast'
+Sk 83 'armor'
+Sk 87 'burning hands'
+Sk 1 'chain lightning'
+Sk 76 'chill touch'
+Sk 1 'colour spray'
+Sk 75 'detect invis'
+Sk 75 'faerie fire'
+Sk 1 'fireball'
+Sk 78 'fly'
+Sk 80 'giant strength'
+Sk 1 'heat metal'
+Sk 1 'identify'
+Sk 1 'lightning bolt'
+Sk 78 'magic missile'
+Sk 75 'refresh'
+Sk 1 'shield'
+Sk 79 'shocking grasp'
+Sk 10 'axe'
+Sk 92 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 24 'sword'
+Sk 20 'whip'
+Sk 75 'scrolls'
+Sk 56 'wands'
+Sk 83 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'combat'
+AffD 'fly'   2  18   0   0     524288          0
+AffD 'giant strength'   6  14   1   1          0          0
+AffD 'armor'   2  22 -20  17          0          0
+AffD 'detect invis'  15   0   0   0          8          0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+Affect -1 5 -1 -5 4 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 0
+Wear 17
+Lev  1
+Cost 10
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+Affect -1 11 -1 5 22 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear 11
+Lev  9
+Cost 0
+Cond 97
+Repd 0
+Val  5 4 5 0 0
+Affect -1 9 -1 -1 14 0 0
+End
+
+#O
+Vnum 2109
+Nest 0
+Wear 9
+Lev  8
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  11
+Cost 280
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 18021
+Nest 0
+Wear 16
+Lev  11
+Cost 11000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  12
+Cost 1250
+Cond 94
+Repd 0
+Val  4 5 6 0 0
+End
+
+#O
+Vnum 10021
+Nest 0
+Wear 7
+Lev  12
+Cost 100
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2107
+Nest 0
+Wear 8
+Lev  7
+Cost 350
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9903 0 0
+End
+
+#O
+Vnum 24004
+Nest 0
+Wear 15
+Lev  13
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 281
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 24004
+Nest 0
+Wear 14
+Lev  13
+Cost 15
+Cond 100
+Repd 0
+Affect -1 13 -1 2 17 0 0
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear 5
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+Affect -1 8 -1 -3 18 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  9
+Cost 100
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 89
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 98
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 1
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 92
+Repd 0
+End
+
+#END

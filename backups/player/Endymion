@@ -1,0 +1,1451 @@
+#PLAYER
+Name Endymion~
+Id   18524
+LogO 941509441
+Vers 3
+Desc Endymion is dying.
+~
+Ignoring ~
+Race human~
+Sex  2
+Cla  1
+Gui  0
+Psionic  2
+Cast none
+Levl 51
+Plyd 802421
+ListRemorts ~
+NumRemorts 0
+Note 941163841
+Scro 22
+Room 4208
+HMV  471 805 670 865 293 385
+Gold 62781
+Bank 1198980
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 277
+QuestNext 3
+Exp  109055
+Act  196808
+AfBy 2630154
+Comm 28736
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Save  -15
+Alig  843
+Hit   60
+Dam   70
+ACs -310 -272 -311 -112
+Attr 13 16 20 13 18
+AMod 19 0 4 12 -2
+Pass EnWNItGxl2.JU~
+Ariv $n has arrived from $T.~
+Dprt $n dashes off $tward to slay more Negaverse mobs.~
+Titl .~
+Pnts 40
+TSex 1
+LLev 110
+HMVP 810 640 400
+Cond 0 20 42
+Alias ref cast 'refresh'~
+Alias bl cast 'bless'~
+Alias ff cast 'faerie fire'~
+Alias fly cast 'fly'~
+Alias arm cast 'armor'~
+Alias pe cast 'protection evil'~
+Alias su cast 'sunray'~
+Alias gs cast 'giant strength'~
+Alias cs cast 'cure serious'~
+Alias in cast 'invis'~
+Alias can cast 'cancellation'~
+Alias ic cast 'icicle'~
+Alias mc cast 'mana convert'~
+Alias inf cast 'infravision'~
+Alias sanc cast 'sanctuary'~
+Alias dm cast 'dispel magic'~
+Alias ha cast 'haste'~
+Alias sh cast 'shield'~
+Alias sl cast 'slow'~
+Alias ss cast 'stone skin'~
+Sk 97 'armor'
+Sk 90 'bless'
+Sk 79 'blindness'
+Sk 1 'burning hands'
+Sk 1 'water burst'
+Sk 74 'cancellation'
+Sk 1 'cause light'
+Sk 85 'charm person'
+Sk 1 'chill touch'
+Sk 1 'cure light'
+Sk 100 'cure serious'
+Sk 77 'curse'
+Sk 71 'detect evil'
+Sk 72 'detect good'
+Sk 85 'detect invis'
+Sk 98 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'energy drain'
+Sk 91 'faerie fire'
+Sk 1 'flamestrike'
+Sk 90 'fly'
+Sk 97 'gate'
+Sk 83 'giant strength'
+Sk 94 'haste'
+Sk 100 'icicle'
+Sk 79 'infravision'
+Sk 84 'invis'
+Sk 1 'lightning bolt'
+Sk 96 'locate object'
+Sk 1 'magic missile'
+Sk 100 'mana convert'
+Sk 93 'pass door'
+Sk 1 'poison'
+Sk 87 'protection evil'
+Sk 89 'refresh'
+Sk 96 'sanctuary'
+Sk 85 'shield'
+Sk 83 'sleep'
+Sk 96 'slow'
+Sk 1 'spiritual hammer'
+Sk 83 'stone skin'
+Sk 75 'summon'
+Sk 100 'sunray'
+Sk 1 'teleport'
+Sk 1 'weaken'
+Sk 50 'axe'
+Sk 100 'dagger'
+Sk 21 'flail'
+Sk 100 'mace'
+Sk 12 'polearm'
+Sk 47 'spear'
+Sk 100 'sword'
+Sk 32 'whip'
+Sk 100 'archery'
+Sk 100 'dodge'
+Sk 100 'second attack'
+Sk 74 'scrolls'
+Sk 91 'staves'
+Sk 1 'wands'
+Sk 90 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'mage guild'
+Gr 'guild beguiling'
+Gr 'guild elemental'
+Gr 'guild enhancement'
+Gr 'guild maladictions'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'invis'  24  19   0   0          2          0
+AffD 'stone skin'   3  45 -40  17          0          0
+AffD 'giant strength'   0  45   4   1          0          0
+AffD 'infravision'  13  95   0   0        512          0
+AffD 'shroud'  50  17 -35  17          0          0
+AffD 'haste'  23  11   4   2    2097152          0
+AffD 'fly'  46  39   0   0     524288          0
+AffD 'shield'  52  44 -20  17          0          0
+AffD 'protection evil'  22   9   0   0       8192          0
+AffD 'armor'  22   9 -20  17          0          0
+AffD 'bless'  36  17   6  18          0          0
+AffD 'bless'   0  17  -6  24          0          0
+AffD 'detect invis'   7  22   0   0          8          0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10012
+Nest 0
+Wear 11
+Lev  50
+Cost 277
+Cond 100
+Repd 0
+Val  12 12 12 1 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 1
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28114
+Nest 0
+ExtF 19713
+Wear 5
+Lev  51
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear 3
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear -1
+Lev  29
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29232
+Nest 1
+Wear -1
+Lev  53
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8703
+Nest 1
+Wear -1
+Lev  50
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 10 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 1
+Name christmas cookie~
+ShD  a christmas cookie~
+Desc A delicious christmas cookie has been left here.~
+ExtF 2097152
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 1806
+Nest 1
+Name candy cane candycane~
+ShD  A Candy Cane~
+Desc A Candy Cane, wrapped in a pretty red bow lies here~
+ExtF 2097152
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Val  50 66 95 82 0
+Spell 1 'fly'
+Spell 2 'pass door'
+Spell 3 'invis'
+End
+
+#O
+Vnum 20301
+Nest 1
+Name eggnog glass~
+ShD  a big glass of eggnog~
+Desc A tall glass of delicious eggnog is here.~
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 20301
+Nest 1
+Name eggnog glass~
+ShD  a big glass of eggnog~
+Desc A tall glass of delicious eggnog is here.~
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 20503
+Nest 1
+Wear -1
+Lev  38
+Cost 12000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24525
+Enchanted
+Nest 1
+ExtF 2114
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 50 -1 6 19 0 0
+AffD 'enchant weapon' 50 -1 6 18 0 0
+End
+
+#O
+Vnum 10050
+Nest 1
+Wear -1
+Lev  50
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 1
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 1
+Name present christmas~
+ShD  a christmas present with a big yellow bow~
+Desc A christmas present is lying here, the tag has your name on it!~
+ExtF 2097152
+WeaF 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4636
+Nest 1
+Name present christmas~
+ShD  a christmas present with a big yellow bow~
+Desc A christmas present is lying here, the tag has your name on it!~
+ExtF 2097152
+WeaF 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  51 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  52 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  50 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 4513
+Nest 1
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  65 12 11 52 0
+Spell 3 'divine protection'
+End
+
+#O
+Vnum 29
+Nest 1
+Name reciept restring~
+ShD  A reciept for a free restring~
+Desc A reciept for a free restring lies here.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 1
+ExtF 2100545
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 12 -1 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  3
+Cost 1000
+Cond 94
+Repd 1
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 10006
+Nest 0
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19120
+Nest 0
+Wear -1
+Lev  43
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Enchanted
+Nest 0
+ExtF 3146051
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 6 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+End
+
+#O
+Vnum 20533
+Enchanted
+Nest 0
+ExtF 355
+Wear -1
+Lev  46
+Cost 10000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 43 -1 7 18 0 0
+AffD 'enchant weapon' 43 -1 7 19 0 0
+End
+
+#O
+Vnum 1361
+Nest 0
+Wear -1
+Lev  20
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28130
+Enchanted
+Nest 0
+ExtF 66
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+AffD 'enchant weapon' 36 -1 6 19 0 0
+AffD 'enchant weapon' 36 -1 6 18 0 0
+End
+
+#O
+Vnum 7204
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Spell 1 'cure critical'
+Spell 2 'invis'
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 10001
+Nest 0
+ExtF 2100544
+Wear 16
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+Wear -1
+Lev  48
+Cost 2500
+Cond 93
+Repd 0
+End
+
+#END

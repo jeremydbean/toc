@@ -1,0 +1,772 @@
+#PLAYER
+Name Malkieri~
+Id   4178
+LogO 943661254
+Vers 3
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 52
+Plyd 1078773
+ListRemorts ~
+NumRemorts 0
+Note 940705729
+Scro 22
+Room 2401
+HMV  813 829 437 437 481 481
+Gold 20947
+Bank 1828464
+Dcount 0
+Corpses	2
+PkRec 0
+PkGiv 0
+QuestPnts 249
+Exp  126323
+Act  204
+AfBy 1581228
+AfBy2 8194
+Comm 24608
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 855021475
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 10
+Trai 2
+Save  -9
+Alig  1000
+Hit   58
+Dam   61
+ACs -225 -223 -229 -51
+Wimp  160
+Attr 21 18 18 18 18
+AMod 12 0 1 2 -3
+Pass MaZtL8YFIXBNI~
+Titl  the Shadow Fighter and Recon Merc~
+Pnts 40
+TSex 1
+LLev 236
+HMVP 655 342 406
+Cond 0 21 48
+Alias rp rescue prot~
+Alias lb cast 'lightning bolt'~
+Alias ca cast armor~
+Alias cs cast 'cure serious'~
+Alias cb cast bless~
+Alias dm cast 'dispel magic'~
+Alias ga get all~
+Alias wa wield all~
+Alias cc cast 'cure critical'~
+Alias rc cast 'remove curse'~
+Alias mc cast 'mana convert'~
+Alias ff cast 'faerie fire'~
+Alias sh cast shield~
+Alias ss cast 'stone skin'~
+Alias calm cast calm~
+Alias pe cast 'protection evil'~
+Alias hh cast heal~
+Alias de cast 'detect evil'~
+Alias dg cast 'detect good'~
+Alias ds cast 'detect stealth'~
+Sk 92 'aid'
+Sk 88 'armor'
+Sk 82 'bless'
+Sk 71 'call lightning'
+Sk 71 'calm'
+Sk 75 'cancellation'
+Sk 1 'cause light'
+Sk 71 'control weather'
+Sk 98 'cure critical'
+Sk 68 'cure light'
+Sk 91 'cure serious'
+Sk 78 'detect evil'
+Sk 80 'detect good'
+Sk 76 'detect hidden'
+Sk 82 'detect invis'
+Sk 71 'detect magic'
+Sk 71 'detect poison'
+Sk 1 'detect traps'
+Sk 86 'dispel magic'
+Sk 72 'faerie fire'
+Sk 71 'faerie fog'
+Sk 76 'flamestrike'
+Sk 82 'fly'
+Sk 80 'gate'
+Sk 93 'heal'
+Sk 74 'holy word'
+Sk 91 'identify'
+Sk 71 'know alignment'
+Sk 71 'lightning bolt'
+Sk 72 'locate object'
+Sk 94 'mana convert'
+Sk 94 'pass door'
+Sk 86 'protection evil'
+Sk 66 'refresh'
+Sk 77 'remove curse'
+Sk 92 'sanctuary'
+Sk 75 'shield'
+Sk 1 'spiritual hammer'
+Sk 80 'stone skin'
+Sk 71 'summon'
+Sk 71 'teleport'
+Sk 10 'axe'
+Sk 89 'dagger'
+Sk 5 'flail'
+Sk 97 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 81 'archery'
+Sk 62 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 65 'rescue'
+Sk 100 'second attack'
+Sk 76 'shove'
+Sk 73 'scrolls'
+Sk 73 'staves'
+Sk 88 'recall'
+Sk 76 'detect stealth'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'detection'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+Gr 'weather'
+AffD 'bless'   0   2   6  18          0          0
+AffD 'bless'  25   2  -6  24          0          0
+AffD 'shield'  26   6 -20  17          0          0
+AffD 'stone skin'   0  24 -40  17          0          0
+AffD 'detect evil'   0  29   0   0          4          0
+AffD 'detect good'  27  29   0   0          0          2
+AffD 'detect hidden'   0  29   0   0         32          0
+AffD 'detect invis'   0  29   0   0          8          0
+AffD 'armor'   4  11 -20  17          0          0
+AffD 'protection evil'  26  11   0   0       8192          0
+AffD 'aid'  24  12   5  18          0          0
+AffD 'aid'   0  12  44  13          0          0
+AffD 'detect stealth'  23   4   0   0          0       8192
+AffD 'fly'   0  48   0   0     524288          0
+AffD 'sanctuary'   0   5   0   0        128          0
+AffD 'pass door'   0  11   0   0    1048576          0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear -1
+Lev  39
+Cost 22000
+Cond 100
+Repd 0
+Val  40 18 18 80 0
+Spell 3 'identify'
+End
+
+#O
+Vnum 29207
+Nest 0
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear 16
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16019
+Nest 0
+Wear -1
+Lev  47
+Cost 2004
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16019
+Nest 0
+Wear -1
+Lev  47
+Cost 2004
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24109
+Nest 0
+Wear -1
+Lev  28
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20535
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29221
+Nest 0
+Wear 7
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 0
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29235
+Nest 0
+Wear -1
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3031
+Nest 0
+Wear -1
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 8382 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10056
+Nest 0
+ExtF 3149120
+Wear -1
+Lev  43
+Cost 4500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 10060
+Nest 0
+Wear -1
+Lev  43
+Cost 2000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 7529
+Nest 1
+Wear -1
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 2
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 2
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 2
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 2
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 2
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3009
+Nest 2
+Wear -1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16040
+Nest 2
+Wear -1
+Lev  1
+Cost 11
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3166
+Nest 2
+Wear -1
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 2
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3167
+Nest 2
+Wear -1
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3168
+Nest 2
+Wear -1
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3165
+Nest 2
+Wear -1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3163
+Nest 2
+Wear -1
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 1
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9231
+Nest 2
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 2
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 2
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 2
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 29217
+Nest 1
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29058
+Nest 0
+Wear 5
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear -1
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29209
+Nest 0
+Wear 10
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29280
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 29218
+Nest 0
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29207
+Nest 0
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Nest 0
+Wear 11
+Lev  47
+Cost 2000
+Cond 100
+Repd 1
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16019
+Nest 0
+Wear -1
+Lev  47
+Cost 2004
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#END

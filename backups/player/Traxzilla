@@ -1,0 +1,925 @@
+#PLAYER
+Name Traxzilla~
+Id   31443
+LogO 953326333
+Vers 3
+Desc You see an odd looking fellow.... can't put your finger on it.... maybe you should leave him alone...
+~
+Prom <<%hhp %mm %vmv - %X>>~
+Ignoring ~
+Race human~
+Sex  2
+Cla  5
+Gui  5
+Psionic  1
+Cast none
+Levl 51
+Plyd 700497
+ListRemorts ~
+NumRemorts 0
+Note 953324127
+Scro 22
+Room 27396
+HMV  485 549 505 675 402 402
+NewGold 2
+NewPlat 32
+NewCopp 8
+NewSilv 7
+Bank 9113
+Dcount 2
+Corpses	0
+PkRec 2
+PkGiv 0
+QuestPnts 128
+Exp  102842
+Act  65736
+AfBy 186
+AfBy2 528
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 1
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  4
+Prac 1
+Save  2
+Alig  1000
+Hit   29
+Dam   52
+ACs -123 -109 -115 -33
+Attr 16 20 18 13 16
+AMod 15 -4 0 5 -1
+Pass TryMcRuo6756E~
+Ariv $n? $T?~
+Dprt $n? $T?~
+Titl , the half a bee~
+Pnts 40
+TSex 1
+LLev 167
+HMVP 494 545 400
+Cond 0 4 48
+Sk 100 'animate parts'
+Sk 92 'armor'
+Sk 77 'blindness'
+Sk 75 'cancellation'
+Sk 78 'cause light'
+Sk 78 'chill touch'
+Sk 77 'create skeleton'
+Sk 75 'create wraith'
+Sk 77 'create vampire'
+Sk 85 'butcher'
+Sk 75 'bewitch weapon'
+Sk 78 'curse'
+Sk 96 'death shroud'
+Sk 88 'earth travel'
+Sk 77 'embalm'
+Sk 76 'energy drain'
+Sk 77 'evil eye'
+Sk 85 'fly'
+Sk 91 'force sword'
+Sk 76 'haven'
+Sk 80 'infravision'
+Sk 85 'major globe'
+Sk 100 'mana convert'
+Sk 75 'maze'
+Sk 77 'pass door'
+Sk 76 'plague'
+Sk 75 'poison'
+Sk 75 'raise dead'
+Sk 78 'remove curse'
+Sk 79 'rope trick'
+Sk 89 'sanctuary'
+Sk 83 'shield'
+Sk 78 'shroud'
+Sk 85 'ghostly presence'
+Sk 100 'shock sphere'
+Sk 76 'skeletal hands'
+Sk 85 'tentacles'
+Sk 75 'trap the soul'
+Sk 78 'vampiric touch'
+Sk 77 'weaken'
+Sk 82 'neutrality field'
+Sk 75 'nightmare'
+Sk 75 'project'
+Sk 75 'psychic shield'
+Sk 1 'pyrotechnics'
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 6 'flail'
+Sk 92 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 92 'sword'
+Sk 15 'whip'
+Sk 91 'dodge'
+Sk 75 'concoct'
+Sk 99 'meditation'
+Sk 75 'shove'
+Sk 75 'scrolls'
+Sk 76 'wands'
+Sk 96 'recall'
+Gr 'rom basics'
+Gr 'necro basics'
+Gr 'necro default'
+Gr 'necro enhancement'
+Gr 'life & undeath'
+Gr 'necro maladictions'
+Gr 'necromancy'
+Gr 'necro protective'
+Gr 'necro transportation'
+AffD 'death shroud'  30   3   0   0          0         16
+AffD 'force sword'  25   4   0   0          0        512
+AffD 'major globe'  32  23 -80  17          0          0
+AffD 'sanctuary'  49   6   0   0        128          0
+AffD 'detect hidden'  27   4   0   0         32          0
+AffD 'detect magic'   6   4   0   0         16          0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  9 4 5 0 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 50 -1 9 17 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 0
+Cond 80
+Repd 0
+Val  12 11 12 2 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 80
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+Affect -1 40 -1 -1 14 0 0
+End
+
+#O
+Vnum 25029
+Nest 0
+Wear 5
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 -2 5 0 0
+Affect -1 51 -1 -22 14 0 0
+Affect -1 51 -1 4 24 0 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 756
+Nest 0
+Wear 0
+Lev  35
+Cost 750
+Cond 100
+Repd 0
+Val  0 0 9190 0 0
+Affect -1 35 -1 -4 3 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 645
+Nest 0
+Wear 11
+Lev  33
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 -1 5 0 0
+End
+
+#O
+Vnum 25028
+Nest 0
+Wear -1
+Lev  50
+Cost 2500
+Cond 100
+Repd 0
+Spell 3 'fly'
+Affect -1 50 -1 3 20 0 0
+End
+
+#O
+Vnum 10006
+Nest 0
+ExtF 2104640
+Wear 16
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 648
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 218
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 5022
+Nest 0
+Wear -1
+Lev  28
+Time 396
+Cost 300
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'remove curse'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 80
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2402
+Nest 0
+Wear -1
+Lev  35
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3013
+Nest 0
+Wear -1
+Cost 20
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3013
+Nest 0
+Wear -1
+Cost 20
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 82
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13407
+Nest 0
+Wear -1
+Lev  30
+Cost 973
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear 17
+Time 212
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 1
+Wear -1
+Lev  32
+Cost 2200
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 17112
+Nest 1
+Wear -1
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 1
+Wear -1
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 98
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 1
+Wear -1
+Lev  18
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 3742
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Lev  28
+Cost 4500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 1
+ExtF 21
+Wear -1
+Lev  30
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 1
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3163
+Nest 1
+Wear -1
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 19113
+Nest 1
+Wear -1
+Lev  19
+Cost 750
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+Affect -1 19 -1 -17 12 0 0
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 9321
+Nest 1
+Wear -1
+Lev  25
+Cost 1750
+Cond 99
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  12 11 13 -1 0
+End
+
+#O
+Vnum 5780
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 2321
+Nest 1
+Wear -1
+Lev  29
+Cost 3000
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 1
+Wear -1
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  7 6 7 -1 0
+End
+
+#O
+Vnum 911
+Nest 1
+Wear -1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5022
+Nest 1
+Wear -1
+Lev  28
+Time 10
+Cost 300
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'remove curse'
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 4619
+Nest 1
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 1
+Wear -1
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 1
+Wear -1
+Lev  32
+Cost 2300
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 29043
+Nest 1
+Wear -1
+Lev  38
+Cost 1000
+Cond 100
+Repd 0
+Val  200 178 0 0 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -4 4 0 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear -1
+Lev  48
+Cost 0
+Cond 74
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear -1
+Lev  29
+Cost 1250
+Cond 78
+Repd 0
+Affect -1 29 -1 -3 5 0 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear -1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#END

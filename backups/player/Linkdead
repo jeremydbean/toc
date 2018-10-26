@@ -1,0 +1,353 @@
+#PLAYER
+Name Linkdead~
+Id   33603
+LogO 953498472
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  2
+Gui  0
+Psionic  0
+Cast none
+Levl 15
+Plyd 40366
+ListRemorts ~
+NumRemorts 0
+Note 953335589
+Scro 22
+Room 4209
+HMV  164 164 196 196 82 371
+NewGold 133
+NewPlat 99
+NewCopp 139
+NewSilv 2
+Bank 200
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  35739
+Act  248
+AfBy 524800
+Comm 24592
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 7
+Trai 3
+Alig  -1000
+Hit   8
+Dam   7
+ACs 72 73 71 100
+Attr 14 16 18 15 19
+AMod 3 0 2 -8 2
+Pass LikfIrR0WcI6M~
+Titl  the Thief~
+Pnts 40
+TSex 1
+LLev 10
+HMVP 179 196 184
+Cond 0 31 26
+Sk 75 'armor'
+Sk 82 'burning hands'
+Sk 80 'chill touch'
+Sk 1 'detect invis'
+Sk 74 'faerie fire'
+Sk 49 'fly'
+Sk 75 'giant strength'
+Sk 1 'lightning bolt'
+Sk 1 'locate object'
+Sk 81 'magic missile'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 7 'axe'
+Sk 84 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 15 'sword'
+Sk 20 'whip'
+Sk 77 'backstab'
+Sk 1 'bash'
+Sk 81 'dodge'
+Sk 34 'second attack'
+Sk 49 'hide'
+Sk 1 'pick lock'
+Sk 65 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'mage guild'
+AffD 'fly'  25  14   0   0     524288          0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 97
+Repd 0
+Val  2 2 2 0 0
+End
+
+#O
+Vnum 3741
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 0
+Wear 6
+Lev  2
+Cost 250
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29010
+Nest 0
+Wear 8
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+Affect -1 6 -1 -13 14 0 0
+End
+
+#O
+Vnum 28027
+Nest 0
+Wear 7
+Lev  1
+Cost 500
+Cond 99
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 3066
+Nest 0
+Wear -1
+Lev  5
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 -5 2 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+Affect -1 7 -1 -4 2 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Affect -1 3 -1 -2 18 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28024
+Nest 0
+Wear -1
+Lev  1
+Cost 1000
+Cond 100
+Repd 0
+Val  1 4 4 84 0
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2907
+Nest 0
+Wear -1
+Lev  1
+Cost 9
+Cond 100
+Repd 0
+Affect -1 1 -1 -4 13 0 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 2112
+Nest 0
+Wear 9
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 97
+Repd 0
+Val  0 0 7629 0 0
+End
+
+#O
+Vnum 10021
+Nest 0
+Wear -1
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+Val  6 5 6 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Affect -1 15 -1 3 20 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#END

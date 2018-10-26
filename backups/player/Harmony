@@ -1,0 +1,582 @@
+#PLAYER
+Name Harmony~
+Id   5613
+LogO 953490919
+Vers 3
+Desc [1 Dwarf W ] Harmony the Warrior
+
+Your slice <<< ERADICATES >>> Umbringen!
+Your slice <<< ERADICATES >>> Umbringen!
+Your slice <<< ERADICATES >>> Umbringen!
+Umbringen's crush >>> ANNIHILATES <<< you!
+Umbringen's crush >>> ANNIHILATES <<< you!
+Umbringen's crush >>> ANNIHILATES <<< you!
+You are DEAD!!
+~
+Prom < %h/%H hit %m/%M mana  %v/%V moves       %X tnl>~
+Ignoring herrol menkien~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 52
+Plyd 267173
+ListRemorts ~
+NumRemorts 0
+Note 950326858
+Scro 22
+Room 4209
+HMV  1032 1032 194 336 205 526
+NewGold 10
+NewPlat 201
+NewCopp 31
+NewSilv 17
+Bank 289
+Dcount 0
+Corpses	0
+PkRec 1
+PkGiv 1
+QuestPnts 74
+Exp  130522
+Act  200
+AfBy 524984
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 7
+Color 3 14
+Color 4 11
+Color 5 7
+Color 6 7
+Color 7 14
+Color 8 14
+Color 9 14
+Color 10 14
+Color 11 14
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 5
+Save  -8
+Alig  1000
+Hit   41
+Dam   51
+ACs -21 -17 -23 82
+Attr 17 14 13 12 18
+AMod 9 0 0 4 3
+Pass HaLiFEQ/RanhA~
+Ariv $n's backstab does UNSPEAKABLE things to you.$t~
+Dprt $n's backstab does UNSPEAKABLE things to you.$t~
+Titl  Soulfire.~
+Pnts 40
+TSex 1
+LLev 55
+HMVP 988 326 406
+Cond 0 12 48
+Sk 76 'aid'
+Sk 74 'armor'
+Sk 77 'bless'
+Sk 1 'water burst'
+Sk 73 'calm'
+Sk 79 'cancellation'
+Sk 1 'cause light'
+Sk 100 'cure critical'
+Sk 1 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 76 'dispel magic'
+Sk 1 'dust devil'
+Sk 1 'flamestrike'
+Sk 77 'fly'
+Sk 77 'gate'
+Sk 73 'heal'
+Sk 1 'holy word'
+Sk 76 'icicle'
+Sk 75 'identify'
+Sk 95 'mana convert'
+Sk 74 'pass door'
+Sk 77 'protection evil'
+Sk 92 'refresh'
+Sk 73 'remove curse'
+Sk 82 'sanctuary'
+Sk 77 'shield'
+Sk 1 'spiritual hammer'
+Sk 77 'stone skin'
+Sk 1 'summon'
+Sk 74 'sunray'
+Sk 1 'teleport'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 100 'mace'
+Sk 15 'polearm'
+Sk 100 'shield block'
+Sk 10 'spear'
+Sk 100 'sword'
+Sk 10 'whip'
+Sk 70 'archery'
+Sk 89 'bash'
+Sk 83 'disarm'
+Sk 100 'dodge'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 79 'rescue'
+Sk 100 'second attack'
+Sk 79 'shove'
+Sk 66 'scrolls'
+Sk 1 'staves'
+Sk 67 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+Gr 'guild elemental'
+Gr 'guild healing'
+Gr 'guild protective'
+Gr 'guild transportation'
+AffD 'bless'  13  54  -6  24          0          0
+AffD 'bless'  14  54   6  18          0          0
+AffD 'aid'   1  16  29  13          0          0
+AffD 'aid'   0  16   5  18          0          0
+AffD 'fly'  12   5   0   0     524288          0
+AffD 'detect invis'  36   0   0   0          8          0
+AffD 'detect magic'   0   0   0   0         16          0
+AffD 'detect hidden'  49   0   0   0         32          0
+AffD 'sanctuary'  60   0   0   0        128          0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 93
+Repd 0
+Val  8 6 7 -1 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  9 9 10 3 0
+Affect -1 50 -1 3 22 0 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9917
+Nest 0
+Wear 7
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  13 13 13 3 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  12 12 13 -1 0
+Affect -1 52 -1 -5 14 0 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  11 11 12 -2 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 87
+Repd 0
+Val  5 6 5 5 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 0
+Cond 81
+Repd 0
+Val  3 2 2 0 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 78
+Repd 0
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 9231
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 29274
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29279
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 29280
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 64
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 1
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 29276
+Nest 1
+Wear -1
+Lev  51
+Time 101
+Cost 1000
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'cure nightmare'
+Spell 3 'sleep'
+End
+
+#O
+Vnum 29276
+Nest 1
+Wear -1
+Lev  51
+Time 108
+Cost 1000
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'cure nightmare'
+Spell 3 'sleep'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29277
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29207
+Nest 1
+ExtF 3
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 3 23 0 0
+End
+
+#O
+Vnum 10001
+Nest 0
+ExtF 2100544
+Wear 16
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29218
+Nest 0
+Wear -1
+Lev  51
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+Val  11 11 12 -2 0
+End
+
+#END

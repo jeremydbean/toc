@@ -1,0 +1,426 @@
+#PLAYER
+Name Druss~
+Id   35892
+LogO 943629338
+Vers 3
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 22
+Plyd 79415
+ListRemorts ~
+NumRemorts 0
+Note 910448321
+Scro 22
+Room 25
+HMV  322 322 178 185 73 226
+Gold 397
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  44016
+Act  204
+Comm 24592
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 12
+Color 8 5
+Color 9 6
+Color 10 4
+Color 11 2
+Color 12 2
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 32
+Save  -1
+Alig  -17
+Hit   1
+Dam   1
+ACs 79 76 76 100
+Wimp  51
+Attr 18 14 16 17 18
+AMod 0 1 0 1 0
+Pass DrhEUr4m87SN.~
+Titl  the Master Knight~
+Pnts 40
+TSex 1
+LLev 18
+HMVP 314 185 226
+Cond 0 21 17
+Sk 1 'aid'
+Sk 75 'armor'
+Sk 76 'bless'
+Sk 1 'calm'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 80 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'holy word'
+Sk 72 'identify'
+Sk 75 'mana convert'
+Sk 1 'refresh'
+Sk 1 'remove curse'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 76 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 81 'shield block'
+Sk 10 'spear'
+Sk 95 'sword'
+Sk 10 'whip'
+Sk 1 'disarm'
+Sk 80 'dodge'
+Sk 1 'kick'
+Sk 2 'parry'
+Sk 1 'rescue'
+Sk 78 'second attack'
+Sk 75 'shove'
+Sk 73 'scrolls'
+Sk 1 'staves'
+Sk 76 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+Gr 'guild benedictions'
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear 12
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+Val  75 5 0 0 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7190
+Nest 1
+Wear -1
+Lev  3
+Time 314
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25109
+Nest 1
+Wear -1
+Lev  8
+Cost 100
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 24311
+Nest 1
+Wear -1
+Lev  1
+Time 104
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+End
+
+#O
+Vnum 1111
+Nest 1
+Wear -1
+Lev  1
+Cost 50
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 2
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29008
+Nest 2
+Wear -1
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 2
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 104
+Nest 2
+Wear -1
+Lev  2
+Cost 25
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 2
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 2
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 2
+Wear -1
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3752
+Nest 2
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 2
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 2
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 2 0 0
+End
+
+#O
+Vnum 28027
+Nest 2
+Wear -1
+Lev  1
+Cost 500
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 28026
+Nest 2
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 2
+Wear -1
+Lev  6
+Cost 1250
+Cond 100
+Repd 0
+Val  5 4 4 0 0
+End
+
+#O
+Vnum 28025
+Nest 2
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 3504
+Nest 1
+Wear -1
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 1
+Wear -1
+Lev  6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20
+Nest 1
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+Val  75 0 0 0 0
+End
+
+#O
+Vnum 3737
+Nest 1
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 4484
+Nest 0
+Wear 5
+Lev  20
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear 16
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Val  1 5 5 3 8
+End
+
+#END

@@ -1,0 +1,251 @@
+#PLAYER
+Name LightWizard~
+Id   48186
+LogO 952725587
+Vers 3
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  1
+Gui  3
+Psionic  0
+Cast none
+Levl 8
+Plyd 15037
+ListRemorts ~
+NumRemorts 0
+Note 945826897
+Scro 22
+Room 2404
+HMV  79 79 99 132 49 142
+NewGold 168
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  18784
+Act  65790
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 6
+Alig  783
+Hit   2
+Dam   2
+ACs 84 85 85 100
+Attr 12 19 20 16 15
+AMod 0 0 0 0 0
+Pass LibtagIsl5o2w~
+Titl  the Warlock~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 79 132 142
+Cond 0 0 0
+Sk 76 'armor'
+Sk 75 'bless'
+Sk 76 'cause light'
+Sk 75 'cure light'
+Sk 75 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'locate object'
+Sk 75 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 83 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'second attack'
+Sk 1 'sneak'
+Sk 75 'scrolls'
+Sk 1 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'warrior guild'
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3014
+Nest 1
+Wear -1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3014
+Nest 1
+Wear -1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3014
+Nest 1
+Wear -1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3014
+Nest 1
+Wear -1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3014
+Nest 1
+Wear -1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 7 0 0 0
+End
+
+#O
+Vnum 9548
+Nest 0
+Wear 12
+Lev  7
+Cost 100
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#END

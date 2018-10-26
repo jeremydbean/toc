@@ -1,0 +1,159 @@
+#PLAYER
+Name Diablo~
+Id   16758
+LogO 952767895
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 18
+Plyd 30137
+ListRemorts ~
+NumRemorts 0
+Note 937148680
+Scro 22
+Room 4208
+HMV  201 201 222 222 202 202
+NewGold 4135
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  36336
+Act  65772
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 2
+Color 2 1
+Color 3 6
+Color 4 6
+Color 5 1
+Color 6 5
+Color 7 3
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 6
+Color 12 6
+Color 13 8
+Color 14 14
+Color 15 8
+Color 16 14
+Pos  8
+Prac 17
+Trai 6
+Alig  -1000
+ACs 90 91 91 100
+Attr 13 19 13 14 18
+AMod 0 2 2 0 2
+Pass Di68zRwovOWfw~
+Titl  Death Be Thy Nameth..~
+Pnts 40
+TSex 1
+LLev 7
+HMVP 201 222 202
+Cond 0 0 0
+Sk 1 'armor'
+Sk 75 'blindness'
+Sk 82 'burning hands'
+Sk 80 'chill touch'
+Sk 1 'curse'
+Sk 75 'detect invis'
+Sk 1 'energy drain'
+Sk 1 'faerie fire'
+Sk 76 'fly'
+Sk 75 'giant strength'
+Sk 75 'identify'
+Sk 1 'lightning bolt'
+Sk 1 'magic missile'
+Sk 1 'maze'
+Sk 1 'poison'
+Sk 1 'refresh'
+Sk 1 'shield'
+Sk 75 'weaken'
+Sk 10 'axe'
+Sk 83 'dagger'
+Sk 7 'flail'
+Sk 75 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 79 'sword'
+Sk 20 'whip'
+Sk 41 'scrolls'
+Sk 75 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage maladictions'
+AffD 'detect invis'  16  12   0   0          8          0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 3 0 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

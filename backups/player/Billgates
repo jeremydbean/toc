@@ -1,0 +1,176 @@
+#PLAYER
+Name BillGates~
+Id   30668
+LogO 948292479
+Vers 3
+Prom %h-%H %v-%V~
+Ignoring  ~
+Race human~
+Sex  1
+Cla  3
+Gui  11
+Psionic  0
+Cast none
+Levl 2
+Plyd 523
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3713
+HMV  18 39 100 101 98 106
+NewGold 0
+NewPlat 0
+NewCopp 4
+NewSilv 50
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  4122
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 3
+Trai 2
+Save  -1
+Alig  0
+Hit   2
+Dam   2
+ACs 91 91 91 99
+Attr 18 13 13 13 13
+AMod 0 0 0 -4 0
+Pass Bi7F4uytHVGGg~
+Titl  the Recruit~
+Pnts 40
+TSex 1
+LLev 0
+HMVP 39 101 106
+Cond 0 39 39
+Sk 30 'axe'
+Sk 66 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 1 'shield block'
+Sk 30 'spear'
+Sk 80 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 191 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3702
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 -4 2 0 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,283 @@
+#PLAYER
+Name BlackMagic~
+Id   53571
+LogO 953095210
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 8
+Plyd 8969
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 2407
+HMV  13 85 6 144 16 167
+NewGold 0
+NewPlat 0
+NewCopp 48
+NewSilv 20
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  18398
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  4
+Prac 13
+Trai 1
+Save  -1
+Alig  -1000
+Hit   8
+Dam   2
+ACs 30 36 35 74
+Attr 14 13 15 12 15
+AMod 1 2 7 -1 4
+Pass Bl/FCgAMtJOqE~
+Titl  the Vicar~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 85 144 142
+Cond 0 0 0
+Alias cl c "cure light"~
+Alias ca c "cause light"~
+Alias re c "refresh"~
+Alias p pose~
+Alias a c "armor"~
+Sk 1 'aid'
+Sk 75 'armor'
+Sk 75 'bless'
+Sk 1 'calm'
+Sk 76 'cause light'
+Sk 1 'cone of cold'
+Sk 75 'cure light'
+Sk 1 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'dust devil'
+Sk 1 'flamestrike'
+Sk 1 'frenzy'
+Sk 1 'holy word'
+Sk 1 'icicle'
+Sk 1 'identify'
+Sk 1 'locate object'
+Sk 1 'mana convert'
+Sk 1 'raise dead'
+Sk 75 'refresh'
+Sk 1 'remove curse'
+Sk 1 'spiritual hammer'
+Sk 1 'sunray'
+Sk 1 'vortex'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 81 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 1 'bash'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'benedictions'
+Gr 'cleric elemental'
+AffD 'armor'  23  13 -20  17          0          0
+AffD 'bless'  48  49  -6  24          0          0
+AffD 'bless'  17  49   6  18          0          0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 2 0 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Affect -1 3 -1 5 24 0 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 2 0 0
+Affect -1 1 -1 -1 2 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 3 3 0 0
+Affect -1 1 -1 -1 4 0 0
+Affect -1 1 -1 3 4 0 0
+End
+
+#O
+Vnum 3731
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  4 4 4 0 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3032
+Nest 0
+Wear -1
+Cost 15
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29008
+Nest 0
+Wear 13
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#END

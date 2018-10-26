@@ -1,0 +1,518 @@
+#PLAYER
+Name Cronos~
+Id   62586
+LogO 941882591
+Vers 3
+Ignoring ~
+Race saurian~
+Sex  2
+Cla  2
+Gui  2
+Psionic  2
+Cast none
+Levl 26
+Plyd 348863
+ListRemorts ~
+NumRemorts 0
+Note 885847192
+Scro 22
+Room 4210
+HMV  295 295 137 137 216 300
+Gold 26214
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  65572
+Act  131304
+AfBy 512
+Comm 24608
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Save  -3
+Alig  -116
+Hit   21
+Dam   47
+ACs -21 -22 -23 91
+Wimp  59
+Attr 14 18 17 16 18
+AMod 9 0 0 4 0
+Pass CrNW6Z09VUQC6~
+Titl  the Master of Vision~
+Pnts 40
+TSex 1
+LLev 47
+HMVP 295 137 250
+Cond 0 0 0
+Alias x kill~
+Alias q flee~
+Alias rcl recall~
+Alias lic look in corps~
+Alias gal get all corpse~
+Alias b backstab~
+Alias lip look in pit~
+Alias h hide~
+Alias t trip~
+Alias m back com~
+Alias st stealth~
+Alias ue unlock east~
+Alias uw unlock west~
+Alias us unlock south~
+Alias un unlock north~
+Alias up unlock up~
+Alias ud unlock down~
+Alias sg steal gold~
+Sk 61 'axe'
+Sk 100 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 75 'sword'
+Sk 20 'whip'
+Sk 93 'backstab'
+Sk 84 'dodge'
+Sk 88 'dual wield'
+Sk 91 'trip'
+Sk 90 'second attack'
+Sk 75 'hide'
+Sk 77 'pick lock'
+Sk 1 'sneak'
+Sk 1 'search'
+Sk 79 'steal'
+Sk 77 'stealth'
+Sk 52 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'change sex'  30  43   1   6          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 198 0 0
+End
+
+#O
+Vnum 10021
+Nest 0
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 4 0 0
+End
+
+#O
+Vnum 17111
+Nest 0
+Wear -1
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4000
+Nest 0
+Wear -1
+Cost 0
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 4000
+Nest 0
+Wear -1
+Cost 0
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 101
+Nest 0
+Wear -1
+Lev  2
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  14
+Cost 1250
+Cond 100
+Repd 0
+Val  5 6 4 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  18
+Cost 0
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  18
+Cost 0
+Cond 95
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear -1
+Lev  6
+Cost 1250
+Cond 100
+Repd 0
+Val  4 5 5 0 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10033
+Enchanted
+Nest 0
+ExtF 82
+Wear 16
+Lev  24
+Cost 1000
+Cond 100
+Repd 0
+Val  2 4 7 2 0
+AffD 'enchant weapon' 32 -1 6 19 0 0
+AffD 'enchant weapon' 32 -1 4 18 0 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear 8
+Lev  25
+Cost 150
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 10030
+Nest 0
+Wear 5
+Lev  22
+Cost 210
+Cond 100
+Repd 0
+Val  7 7 7 0 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  7 7 8 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25105
+Nest 0
+Wear -1
+Lev  19
+Cost 1000
+Cond 100
+Repd 0
+Val  1 5 5 3 8
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  18
+Cost 1000
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear -1
+Lev  18
+Cost 100
+Cond 100
+Repd 0
+Val  7 5 6 0 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  7 6 7 0 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 11
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29028
+Nest 0
+Wear -1
+Lev  27
+Cost 300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29029
+Nest 0
+Wear -1
+Lev  27
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 5210
+Nest 0
+Wear -1
+Lev  9
+Cost 1500
+Cond 100
+Repd 0
+Spell 1 'blindness'
+Spell 2 'sanctuary'
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 10042
+Enchanted
+Nest 0
+ExtF 2097219
+Wear -1
+Lev  25
+Cost 1300
+Cond 100
+Repd 0
+AffD 'enchant weapon' 32 -1 5 18 0 0
+AffD 'enchant weapon' 32 -1 5 19 0 0
+End
+
+#END

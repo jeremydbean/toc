@@ -1,0 +1,549 @@
+#PLAYER
+Name LoPhat~
+Id   47668
+LogO 948944614
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  2
+Cla  4
+Gui  4
+Psionic  2
+Cast none
+Levl 50
+Plyd 604580
+ListRemorts ~
+NumRemorts 0
+Note 948782136
+Scro 22
+Room 4208
+HMV  1252 1252 394 651 270 369
+NewGold 15
+NewPlat 148
+NewCopp 29
+NewSilv 29
+Bank 25624
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+QuestPnts 90
+Exp  115007
+Act  4194508
+AfBy 512
+Comm 28672
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 4
+Trai 33
+Save  3
+Alig  1000
+Hit   29
+Dam   76
+ACs -69 -57 -66 59
+Attr 20 16 18 16 21
+AMod 8 -5 4 4 0
+Pass LoJZUzekLd5nk~
+Ariv $n arrives from $T.~
+Dprt $n departs $t.~
+Titl  the Master Monk~
+Pnts 40
+TSex 1
+LLev 167
+HMVP 1265 512 394
+Cond 0 42 24
+Alias \ who~
+Alias ] recall~
+Alias k kick~
+Alias 0 level Way to go!~
+Alias ` bash~
+Alias dance emote preforms the "Herbie" call.~
+Alias / who~
+Sk 8 'axe'
+Sk 100 'dagger'
+Sk 15 'flail'
+Sk 69 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 6 'sword'
+Sk 15 'whip'
+Sk 78 'bash'
+Sk 73 'dirt kicking'
+Sk 1 'disarm'
+Sk 98 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 1 'trip'
+Sk 100 'second attack'
+Sk 1 'blinding fists'
+Sk 74 'crane dance'
+Sk 96 'fists of fury'
+Sk 75 'herbal brewing'
+Sk 79 'iron skin'
+Sk 75 'levitate'
+Sk 98 'nerve damage'
+Sk 80 'steel fist'
+Sk 86 'stunning blow'
+Sk 83 'fast healing'
+Sk 95 'meditation'
+Sk 76 'shove'
+Sk 71 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'steel fist'   0   0  12  19          0          0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 92
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 0
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 74
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4619
+Nest 0
+Wear 6
+Lev  25
+Cost 25000
+Cond 84
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+Affect -1 34 -1 -13 13 0 0
+End
+
+#O
+Vnum 721
+Nest 0
+Wear 13
+Lev  48
+Cost 950
+Cond 100
+Repd 0
+Affect -1 48 -1 -1 20 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  17
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 19113
+Nest 0
+Wear -1
+Lev  18
+Cost 750
+Cond 100
+Repd 0
+Val  6 6 6 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 88
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 0
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 4 2 0 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 60
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 112 0 0 0
+End
+
+#O
+Vnum 9231
+Nest 0
+Wear -1
+Time 38
+Cost 10
+Cond 100
+Repd 0
+Spell 1 'invis'
+End
+
+#O
+Vnum 24223
+Nest 0
+ExtF 0
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 165
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Time 132
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 97
+Repd 0
+Affect -1 34 -1 -1 12 0 0
+Affect -1 34 -1 3 23 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 3608
+Nest 0
+Wear 17
+Lev  48
+Cost 0
+Cond 97
+Repd 0
+Affect -1 48 -1 -5 3 0 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 74
+Nest 0
+Name sky blue tea~
+ShD  a sky blue container of tea~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  49 33 77 -1 0
+Spell 1 'cure critical'
+Spell 2 'heal'
+End
+
+#O
+Vnum 17112
+Nest 0
+Wear -1
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -6 14 0 0
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 2324
+Nest 0
+Wear -1
+Lev  28
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 28 -1 -2 4 0 0
+End
+
+#END

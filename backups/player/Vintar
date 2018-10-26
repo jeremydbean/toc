@@ -1,0 +1,253 @@
+#PLAYER
+Name Vintar~
+Id   15477
+LogO 950324750
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  3
+Gui  1
+Psionic  2
+Cast none
+Levl 21
+Plyd 64754
+ListRemorts ~
+NumRemorts 0
+Note 911882709
+Scro 22
+Room 6604
+HMV  299 299 152 152 219 220
+NewGold 5487
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 28000
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  48568
+Act  220
+AfBy 514
+Comm 24592
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 2
+Color 12 8
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 7
+Pos  8
+Prac 38
+Trai 13
+Save  8
+Alig  -1000
+Hit   13
+Dam   15
+ACs -17 -16 -10 35
+Attr 17 13 14 12 17
+AMod 2 0 -1 1 0
+Pass Vis4ZjLfdhvsE~
+Titl  the Grand Knight~
+Pnts 40
+TSex 1
+LLev 15
+HMVP 299 152 220
+Cond 0 16 37
+Sk 73 'armor'
+Sk 73 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 74 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 76 'identify'
+Sk 76 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 10 'dagger'
+Sk 5 'flail'
+Sk 5 'mace'
+Sk 15 'polearm'
+Sk 76 'shield block'
+Sk 10 'spear'
+Sk 93 'sword'
+Sk 10 'whip'
+Sk 1 'bash'
+Sk 1 'disarm'
+Sk 77 'dodge'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 80 'second attack'
+Sk 78 'shove'
+Sk 75 'scrolls'
+Sk 1 'staves'
+Sk 68 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'cleric guild'
+AffD 'invis'  13  11   0   0          2          0
+AffD 'stone skin'  22   2 -40  17          0          0
+AffD 'shield'  19  10 -20  17          0          0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24002
+Nest 0
+Wear 0
+Lev  14
+Cost 10
+Cond 100
+Repd 0
+Val  0 0 9510 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 3
+Lev  10
+Cost 280
+Cond 100
+Repd 0
+Val  4 6 4 0 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 15
+Lev  17
+Cost 0
+Cond 100
+Repd 0
+Val  7 7 5 0 0
+End
+
+#O
+Vnum 29013
+Nest 0
+Wear 9
+Lev  10
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Nest 0
+Wear 16
+Lev  19
+Cost 350
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1388
+Nest 0
+Wear 14
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  7 6 6 0 0
+End
+
+#O
+Vnum 10027
+Nest 0
+Wear 5
+Lev  13
+Cost 210
+Cond 100
+Repd 0
+Val  5 5 4 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear 4
+Lev  10
+Cost 280
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 100
+Repd 0
+Val  5 4 5 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 968
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9543
+Nest 0
+Wear -1
+Lev  1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9543
+Nest 0
+Wear -1
+Lev  1
+Cost 15
+Cond 100
+Repd 0
+End
+
+#END

@@ -1,0 +1,373 @@
+#PLAYER
+Name Arkaine~
+Id   9195
+LogO 952779153
+Vers 3
+Desc There is nothing special about him.
+~
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  1
+Gui  1
+Psionic  2
+Cast none
+Levl 25
+Plyd 85832
+ListRemorts ~
+NumRemorts 0
+Note 952282786
+Scro 22
+Room 4208
+HMV  320 320 298 298 74 244
+NewGold 1
+NewPlat 235
+NewCopp 1
+NewSilv 7
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  50725
+Act  252
+AfBy 8
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 11
+Color 2 13
+Color 3 14
+Color 4 14
+Color 5 3
+Color 6 10
+Color 7 12
+Color 8 13
+Color 9 14
+Color 10 12
+Color 11 10
+Color 12 9
+Color 13 7
+Color 14 11
+Color 15 7
+Color 16 7
+Pos  8
+Trai 1
+Save  8
+Alig  1000
+Hit   10
+Dam   9
+ACs 97 97 98 100
+Wimp  53
+Attr 13 16 16 13 18
+AMod 0 0 0 0 0
+Pass ArhuCoWfLIIu2~
+Titl ...~
+Pnts 40
+TSex 1
+LLev 20
+HMVP 320 298 244
+Cond 0 47 47
+Sk 72 'aid'
+Sk 75 'armor'
+Sk 62 'bless'
+Sk 71 'calm'
+Sk 71 'cancellation'
+Sk 1 'cause light'
+Sk 78 'cure critical'
+Sk 1 'cure light'
+Sk 80 'cure serious'
+Sk 71 'detect evil'
+Sk 1 'detect good'
+Sk 71 'dispel magic'
+Sk 1 'flamestrike'
+Sk 1 'frenzy'
+Sk 71 'heal'
+Sk 1 'holy word'
+Sk 74 'identify'
+Sk 71 'locate object'
+Sk 1 'major globe'
+Sk 75 'mana convert'
+Sk 1 'mass healing'
+Sk 1 'mass sanctuary'
+Sk 71 'protection evil'
+Sk 1 'raise dead'
+Sk 1 'divine intervention'
+Sk 75 'refresh'
+Sk 71 'remove curse'
+Sk 1 'rope trick'
+Sk 78 'sanctuary'
+Sk 71 'shield'
+Sk 1 'spiritual hammer'
+Sk 1 'stone skin'
+Sk 10 'axe'
+Sk 84 'dagger'
+Sk 20 'flail'
+Sk 88 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 45 'sword'
+Sk 5 'whip'
+Sk 29 'dodge'
+Sk 74 'second attack'
+Sk 71 'meditation'
+Sk 75 'scrolls'
+Sk 1 'staves'
+Sk 75 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+Gr 'benedictions'
+Gr 'healing'
+Gr 'cleric protective'
+End
+
+#O
+Vnum 9536
+Nest 0
+Wear 12
+Lev  1
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 1
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5776
+Nest 1
+ExtF 65
+Wear -1
+Lev  7
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3605
+Nest 1
+Wear -1
+Lev  8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 15011
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 5111
+Nest 1
+Wear -1
+Lev  12
+Cost 2400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 28025
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 120 0 0 0
+End
+
+#O
+Vnum 7190
+Nest 0
+Wear 1
+Lev  3
+Time 337
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 102
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 16046
+Nest 0
+Wear -1
+Lev  9
+Cost 11
+Cond 100
+Repd 0
+Spell 3 'refresh'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 24001
+Nest 0
+Wear -1
+Lev  10
+Time 252
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'earthquake'
+Spell 2 'haste'
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29019
+Enchanted
+Nest 0
+ExtF 323
+Wear 16
+Lev  23
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant weapon' 52 -1 7 19 0 0
+AffD 'enchant weapon' 52 -1 7 18 0 0
+End
+
+#O
+Vnum 10022
+Nest 0
+Wear -1
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+Val  5 5 5 0 0
+Affect -1 11 -1 1 23 0 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear -1
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#END

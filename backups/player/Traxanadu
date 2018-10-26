@@ -1,0 +1,387 @@
+#PLAYER
+Name Traxanadu~
+Id   23055
+LogO 951538589
+Vers 3
+Prom ~
+Ignoring ~
+Race dwarf~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 7
+Plyd 8796
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 3724
+HMV  71 71 134 134 135 135
+NewGold 71
+NewPlat 0
+NewCopp 24
+NewSilv 7
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  17381
+Act  65790
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 2
+Trai 1
+Save  -7
+Alig  -777
+Hit   16
+Dam   13
+ACs 79 80 77 94
+Attr 14 16 17 12 19
+AMod 1 1 3 0 2
+Pass TrPVv/cWYL4l.~
+Titl  The Lowly Peon of the Drunken Necro Clan!!~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 72 134 136
+Cond 0 0 13
+Sk 63 'armor'
+Sk 1 'bless'
+Sk 1 'cause light'
+Sk 1 'cure light'
+Sk 75 'cure serious'
+Sk 1 'detect evil'
+Sk 1 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'identify'
+Sk 1 'locate object'
+Sk 1 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 76 'bash'
+Sk 73 'scrolls'
+Sk 75 'staves'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'cleric guild'
+AffD 'bless'  26  22   7  18          0          0
+AffD 'bless'  30  22  -7  24          0          0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 99
+Repd 0
+Affect -1 3 -1 2 23 0 0
+Affect -1 3 -1 -1 14 0 0
+Affect -1 3 -1 -4 5 0 0
+End
+
+#O
+Vnum 104
+Nest 0
+Wear 4
+Lev  2
+Cost 25
+Cond 96
+Repd 0
+Affect -1 2 -1 -1 13 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 100
+Cond 98
+Repd 0
+Affect -1 3 -1 -1 14 0 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 94
+Repd 0
+Val  4 2 3 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 161 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear -1
+Lev  6
+Cost 250
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 24312
+Nest 0
+Wear -1
+Lev  1
+Time 11
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 130 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 83 0 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 80
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 96
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3739
+Enchanted
+Nest 0
+ExtF 67
+Wear 16
+Lev  7
+Cost 10
+Cond 100
+Repd 0
+AffD 'enchant weapon' 52 -1 7 19 0 0
+AffD 'enchant weapon' 52 -1 7 18 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear -1
+Cost 0
+Cond 98
+Repd 0
+Val  0 0 90 0 0
+End
+
+#O
+Vnum 5003
+Nest 0
+Wear 3
+Lev  6
+Cost 250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 28025
+Nest 0
+Wear -1
+Lev  1
+Cost 750
+Cond 100
+Repd 0
+Val  3 3 3 0 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3724
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  10 3 1 0 0
+End
+
+#END

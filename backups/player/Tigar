@@ -1,0 +1,459 @@
+#PLAYER
+Name Tigar~
+Id   9525
+LogO 949970936
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  2
+Cla  2
+Gui  2
+Psionic  0
+Cast none
+Levl 15
+Plyd 169341
+ListRemorts ~
+NumRemorts 0
+Note 940906677
+Scro 22
+Room 4207
+HMV  125 163 121 121 100 209
+NewGold 45505
+NewPlat 0
+NewCopp 0
+NewSilv 0
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  35368
+Act  65740
+AfBy 32768
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Prac 6
+Save  -1
+Alig  -1000
+Hit   3
+Dam   4
+ACs 31 28 19 96
+Wimp  20
+Attr 16 16 18 21 16
+AMod 4 0 7 3 0
+Pass Tiy8ciykb8Ddw~
+Titl  is here~
+Pnts 40
+TSex 2
+LLev 36
+HMVP 146 121 184
+Cond 0 45 29
+Alias x flee~
+Alias bs backstab~
+Alias tri trip~
+Alias r recall~
+Sk 7 'axe'
+Sk 95 'dagger'
+Sk 5 'flail'
+Sk 10 'mace'
+Sk 3 'polearm'
+Sk 5 'spear'
+Sk 33 'sword'
+Sk 20 'whip'
+Sk 93 'backstab'
+Sk 79 'dodge'
+Sk 86 'trip'
+Sk 75 'hide'
+Sk 73 'pick lock'
+Sk 75 'sneak'
+Sk 1 'search'
+Sk 1 'steal'
+Sk 52 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+Gr 'thief guild'
+AffD 'sneak'  13   2   0   0      32768          0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 15
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29085
+Nest 0
+Wear 14
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3076
+Nest 0
+Wear 9
+Lev  5
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29009
+Nest 0
+Wear 0
+Lev  4
+Cost 100
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 14011
+Nest 0
+Wear 3
+Lev  10
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 5 0 0
+End
+
+#O
+Vnum 3502
+Nest 0
+Wear 6
+Lev  5
+Cost 100
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  8
+Cost 1000
+Cond 100
+Repd 0
+Val  4 3 4 0 0
+End
+
+#O
+Vnum 25109
+Nest 0
+Wear 10
+Lev  8
+Cost 100
+Cond 100
+Repd 0
+Val  4 3 5 0 0
+End
+
+#O
+Vnum 28026
+Nest 0
+Wear 17
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9585
+Nest 0
+Wear -1
+Lev  13
+Cost 80
+Cond 100
+Repd 0
+Val  2 4 5 2 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear -1
+Lev  8
+Cost 350
+Cond 100
+Repd 0
+Val  4 4 3 0 0
+End
+
+#O
+Vnum 3500
+Nest 0
+Wear -1
+Lev  5
+Cost 50
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3749
+Nest 0
+Wear -1
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1108
+Nest 0
+Wear 13
+Lev  14
+Cost 1000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3022
+Nest 0
+Wear -1
+Lev  10
+Cost 750
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 9585
+Nest 0
+Wear -1
+Lev  12
+Cost 80
+Cond 100
+Repd 0
+Val  2 4 5 2 0
+End
+
+#O
+Vnum 9571
+Nest 0
+Wear -1
+Lev  9
+Time 18
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 9571
+Nest 0
+Wear -1
+Lev  9
+Time 96
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 7507
+Nest 0
+Wear 16
+Lev  15
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9553
+Nest 0
+Wear 8
+Lev  14
+Cost 25
+Cond 100
+Repd 0
+Val  4 6 5 0 0
+End
+
+#O
+Vnum 9551
+Nest 0
+Wear -1
+Lev  13
+Cost 25
+Cond 100
+Repd 0
+Val  5 5 6 0 0
+End
+
+#O
+Vnum 29012
+Nest 0
+Wear 11
+Lev  9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3091
+Nest 0
+Wear -1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 13236
+Nest 0
+Wear 5
+Lev  15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5217
+Nest 0
+Wear -1
+Lev  7
+Cost 378
+Cond 100
+Repd 0
+Spell 3 'charm person'
+End
+
+#O
+Vnum 5252
+Nest 0
+Wear -1
+Lev  7
+Cost 420
+Cond 90
+Repd 0
+Val  2 4 5 11 0
+End
+
+#END

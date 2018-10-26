@@ -1,0 +1,294 @@
+#PLAYER
+Name Ravagger~
+Id   56640
+LogO 1539743038
+Vers 3
+Prom ~
+Ignoring ~
+Race human~
+Sex  1
+Cla  4
+Gui  4
+Psionic  0
+Cast none
+Levl 7
+Plyd 11178
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4806
+HMV  97 97 158 158 161 161
+NewGold 713
+NewPlat 5
+NewCopp 169
+NewSilv 28
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  16771
+Act  65788
+AfBy 524288
+Comm 24608
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  8
+Prac 18
+Save  7
+Alig  -86
+Hit   2
+Dam   4
+ACs 45 41 31 82
+Attr 13 13 18 18 16
+AMod 4 10 10 0 10
+Pass Ra3XtuPcLkBmc~
+Titl  the Student of Shape~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 97 158 136
+Cond 0 0 10
+Sk 8 'axe'
+Sk 32 'dagger'
+Sk 6 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 48 'dodge'
+Sk 75 'hand to hand'
+Sk 56 'kick'
+Sk 1 'trip'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 75 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'armor'   5  13 -20  17          0          0
+AffD 'giant strength'   3  51   4   1          0          0
+AffD 'fly'  41  54   0   0     524288          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 15 0 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+Affect -1 0 -1 4 22 0 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3728
+Nest 0
+Wear 8
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 3 4 0 0
+End
+
+#O
+Vnum 3729
+Nest 0
+Wear 5
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  3 2 3 0 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+Affect -1 7 -1 7 17 0 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear 4
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 15
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+Affect -1 7 -1 -1 21 0 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear 3
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+Affect -1 3 -1 5 24 0 0
+End
+
+#O
+Vnum 3013
+Nest 0
+Wear -1
+Cost 20
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3011
+Nest 0
+Wear -1
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3138
+Nest 0
+Wear -1
+Cost 30
+Cond 90
+Repd 0
+Val  20 13 0 0 0
+End
+
+#END

@@ -1,0 +1,1046 @@
+#PLAYER
+Name Dominique~
+Id   52016
+LogO 953529581
+Vers 3
+Desc By the time you've stopped to examine this outstanding
+basketball player, he's already streaked past you
+for a thunderous tomahawk dunk.
+~
+Prom ~
+Ignoring ~
+Race elf~
+Sex  1
+Cla  0
+Gui  0
+Psionic  2
+Cast none
+Levl 53
+Plyd 2340570
+ListRemorts ~
+NumRemorts 0
+Note 953510173
+Scro 22
+Room 4208
+HMV  1190 1194 559 660 337 337
+NewGold 10
+NewPlat 79
+NewCopp 47
+NewSilv 16
+Bank 261834
+Dcount 0
+Corpses	0
+PkRec 2
+PkGiv 1
+QuestPnts 328
+Exp  123660
+Act  65736
+AfBy 2630280
+AfBy2 512
+Comm 28736
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 14
+Color 2 2
+Color 3 2
+Color 4 3
+Color 5 14
+Color 6 6
+Color 7 6
+Color 8 3
+Color 9 3
+Color 10 5
+Color 11 3
+Color 12 7
+Color 13 6
+Color 14 14
+Color 15 14
+Color 16 2
+Pos  8
+Prac 8
+Save  -29
+Alig  1000
+Hit   22
+Dam   19
+ACs -231 -237 -235 -90
+Wimp  90
+Attr 12 18 13 14 14
+AMod 11 0 0 7 0
+Pass DoKDXByQyH5IM~
+Ariv Gliding in from $T for a thunderous dunk is $n Wilkins.~
+Dprt $n Wilkins does a double pump tomahawk dunk off to $T.~
+Titl  Wilkins, the Elven Highlight Reel.~
+Pnts 40
+TSex 1
+LLev 233
+HMVP 779 575 412
+Cond 0 4 48
+Alias [ where~
+Alias mc c 'mana convert'~
+Alias 1 tell velvet stop~
+Alias 2 tell oph stop~
+Alias fire c 'fire shield'~
+Alias frost c 'frost shield'~
+Alias dm c 'dispel magic'~
+Alias qr aquest request~
+Alias qc aquest complete~
+Alias qt aquest time~
+Alias qp aquest points~
+Alias 9 get bash~
+Alias 0 get green pack~
+Alias 8 c gate smurfe~
+Alias 7 c gate smurfe~
+Alias 3 tell joce stop~
+Alias 5 tell oph !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!~
+Alias 6 tell pyros !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!~
+Sk 100 'acid blast'
+Sk 100 'armor'
+Sk 95 'blindness'
+Sk 97 'burning hands'
+Sk 97 'cancellation'
+Sk 100 'chain lightning'
+Sk 78 'charm person'
+Sk 88 'chill touch'
+Sk 1 'colour spray'
+Sk 88 'curse'
+Sk 100 'detect invis'
+Sk 100 'dispel magic'
+Sk 100 'enchant armor'
+Sk 100 'enchant weapon'
+Sk 1 'energy drain'
+Sk 99 'faerie fire'
+Sk 1 'fireball'
+Sk 100 'fire shield'
+Sk 100 'fly'
+Sk 100 'force sword'
+Sk 100 'frost shield'
+Sk 100 'gate'
+Sk 100 'giant strength'
+Sk 100 'haste'
+Sk 100 'haven'
+Sk 43 'heat metal'
+Sk 100 'identify'
+Sk 86 'infravision'
+Sk 90 'invis'
+Sk 93 'lightning bolt'
+Sk 99 'locate object'
+Sk 75 'magic missile'
+Sk 1 'major globe'
+Sk 100 'mana convert'
+Sk 78 'mass invis'
+Sk 1 'maze'
+Sk 100 'pass door'
+Sk 81 'poison'
+Sk 97 'portal'
+Sk 100 'power gloves'
+Sk 100 'protection evil'
+Sk 100 'refresh'
+Sk 92 'rope trick'
+Sk 100 'sanctuary'
+Sk 100 'shield'
+Sk 1 'shocking grasp'
+Sk 80 'sleep'
+Sk 100 'slow'
+Sk 97 'stone skin'
+Sk 92 'summon'
+Sk 79 'teleport'
+Sk 87 'weaken'
+Sk 10 'axe'
+Sk 100 'dagger'
+Sk 7 'flail'
+Sk 95 'mace'
+Sk 3 'polearm'
+Sk 8 'spear'
+Sk 100 'sword'
+Sk 20 'whip'
+Sk 100 'dodge'
+Sk 77 'concoct'
+Sk 100 'meditation'
+Sk 76 'scribe'
+Sk 75 'sneak'
+Sk 100 'scrolls'
+Sk 76 'wands'
+Sk 93 'recall'
+Sk 89 'enchant item'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'mage default'
+Gr 'mage guild'
+Gr 'beguiling'
+Gr 'combat'
+Gr 'enchantment'
+Gr 'enhancement'
+Gr 'mage maladictions'
+Gr 'mage protective'
+Gr 'mage transportation'
+AffD 'force sword'   1   0   0   0          0        512
+AffD 'haste'  13  21   4   2    2097152          0
+AffD 'giant strength'  15  48   4   1          0          0
+AffD 'stone skin'  12  48 -40  17          0          0
+AffD 'sanctuary'  15   4   0   0        128          0
+AffD 'protection evil'   5  17   0   0       8192          0
+AffD 'armor'  23  17 -20  17          0          0
+AffD 'fly'   0  49   0   0     524288          0
+AffD 'detect invis'   0   9   0   0          8          0
+AffD 'shield'   0  29 -20  17          0          0
+End
+
+#O
+Vnum 10003
+Nest 0
+ExtF 2100545
+Wear 5
+Lev  50
+Cost 9000
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 9212
+Enchanted
+Nest 0
+ExtF 65
+Wear 15
+Lev  24
+Cost 4000
+Cond 89
+Repd 0
+AffD 'enchant armor' 52 -1 -5 17 0 0
+End
+
+#O
+Vnum 29209
+Enchanted
+Nest 0
+ExtF 2097217
+Wear 10
+Lev  51
+Cost 2000
+Cond 97
+Repd 0
+AffD 'enchant armor' 52 -1 -7 17 0 0
+End
+
+#O
+Vnum 9212
+Enchanted
+Nest 0
+ExtF 65
+Wear 14
+Lev  24
+Cost 0
+Cond 100
+Repd 0
+Val  6 7 6 -1 0
+AffD 'enchant armor' 52 -1 -5 17 0 0
+End
+
+#O
+Vnum 725
+Enchanted
+Nest 0
+ExtF 1345
+Wear 9
+Lev  47
+Cost 0
+Cond 100
+Repd 0
+Val  9 7 8 0 0
+AffD 'enchant armor' 53 -1 -2 17 0 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 0
+Cond 81
+Repd 0
+Val  13 12 13 -1 0
+End
+
+#O
+Vnum 4618
+Enchanted
+Nest 0
+ExtF 65
+Wear 8
+Lev  42
+Cost 20000
+Cond 100
+Repd 0
+AffD 'enchant armor' 52 -1 -4 17 0 0
+End
+
+#O
+Vnum 18013
+Nest 0
+Wear 6
+Lev  48
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 703
+Enchanted
+Nest 0
+ExtF 1091
+Wear 11
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+AffD 'enchant armor' 53 -1 -10 17 0 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 2
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9322
+Nest 0
+Wear 1
+Lev  29
+Cost 1250
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4473
+Nest 0
+ExtF 98
+Wear 16
+Lev  40
+Cost 1650
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 0
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name card basketball~
+ShD  a Larry Bird basketball card~
+Desc A Larry Bird basketball card.~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 0
+Cond 100
+Repd 0
+Spell 3 'blindness'
+End
+
+#O
+Vnum 29219
+Nest 1
+ExtF 1048576
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29
+Nest 1
+Name roflmao~
+ShD  A roflmao social~
+Desc Made for Molay by Taliesin cause he asked for it~
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 18216
+Nest 1
+Wear -1
+Lev  3
+Cost 1020
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 8703
+Nest 1
+Wear -1
+Lev  50
+Cost 0
+Cond 100
+Repd 0
+Val  11 11 11 5 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17112
+Enchanted
+Nest 1
+ExtF 1346
+Wear -1
+Lev  36
+Cost 3440
+Cond 100
+Repd 0
+AffD 'enchant weapon' 53 -1 5 19 0 0
+AffD 'enchant weapon' 53 -1 5 18 0 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29042
+Nest 1
+ExtF 0
+Wear -1
+Lev  37
+Cost 190
+Cond 100
+Repd 0
+Affect -1 37 -1 5 17 0 0
+Affect -1 37 -1 2 19 0 0
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 5312
+Nest 1
+Wear -1
+Lev  20
+Cost 750
+Cond 100
+Repd 0
+Spell 1 'gas breath'
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 24223
+Nest 1
+ExtF 0
+Wear -1
+Lev  26
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 87
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name blank scroll~
+ShD  a blank scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 104 -1 -1 0
+Spell 1 'remove align'
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 65
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 54
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 90
+Nest 1
+Name redish-white scroll~
+ShD  a redish-white scroll~
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+Val  53 64 108 106 0
+Spell 1 'fire shield'
+Spell 2 'sanctuary'
+Spell 3 'restore mana'
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 79
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 19122
+Nest 1
+Wear -1
+Lev  42
+Cost 3100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 75
+Nest 1
+Name pale potion~
+ShD  a pale potion~
+Wear -1
+Cost 400
+Cond 100
+Repd 0
+Val  53 77 77 108 0
+Spell 1 'heal'
+Spell 2 'heal'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 70
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 72
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 68
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 69
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 78
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 62
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 67
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 73
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 81
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 61
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 63
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 56
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5614
+Nest 0
+Wear 0
+Lev  52
+Cost 6000
+Cond 91
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 2321
+Enchanted
+Nest 0
+Wear 4
+Lev  33
+Cost 3000
+Cond 100
+Repd 0
+AffD 'enchant armor' 52 -1 -5 17 0 0
+End
+
+#O
+Vnum 2321
+Enchanted
+Nest 0
+Wear 3
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+Val  6 8 7 -1 0
+AffD 'enchant armor' 53 -1 -6 17 0 0
+End
+
+#END

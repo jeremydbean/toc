@@ -1,0 +1,263 @@
+#PLAYER
+Name SirData~
+Id   15593
+LogO 953234425
+Vers 3
+Prom ~
+Ignoring ~
+Race saurian~
+Sex  1
+Cla  1
+Gui  1
+Psionic  0
+Cast none
+Levl 13
+Plyd 91437
+ListRemorts ~
+NumRemorts 0
+Note 952874508
+Scro 22
+Room 2404
+HMV  143 143 159 159 196 196
+NewGold 18
+NewPlat 8
+NewCopp 63
+NewSilv 18
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  30106
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 9
+Color 3 9
+Color 4 0
+Color 5 0
+Color 6 9
+Color 7 9
+Color 8 13
+Color 9 0
+Color 10 10
+Color 11 7
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 9
+Color 16 0
+Pos  8
+Prac 3
+Trai 3
+Alig  -55
+Hit   5
+Dam   4
+ACs 62 61 51 94
+Wimp  26
+Attr 15 13 18 15 17
+AMod 2 0 0 0 0
+Pass SiHfEpw6VzqfY~
+Titl  Of The Flames~
+Pnts 40
+TSex 1
+LLev 23
+HMVP 139 159 172
+Cond 0 10 35
+Sk 75 'armor'
+Sk 75 'bless'
+Sk 52 'cause light'
+Sk 80 'cure light'
+Sk 77 'cure serious'
+Sk 26 'detect evil'
+Sk 51 'detect good'
+Sk 1 'flamestrike'
+Sk 1 'locate object'
+Sk 57 'refresh'
+Sk 1 'spiritual hammer'
+Sk 10 'axe'
+Sk 3 'dagger'
+Sk 20 'flail'
+Sk 89 'mace'
+Sk 3 'polearm'
+Sk 15 'spear'
+Sk 3 'sword'
+Sk 5 'whip'
+Sk 29 'scrolls'
+Sk 75 'staves'
+Sk 76 'wands'
+Sk 81 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+End
+
+#O
+Vnum 10057
+Nest 0
+Wear 5
+Lev  11
+Cost 0
+Cond 100
+Repd 0
+Val  4 4 6 0 0
+End
+
+#O
+Vnum 29006
+Nest 0
+Wear 10
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 2
+Lev  3
+Cost 0
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 0
+Cond 76
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 0
+Cond 79
+Repd 0
+End
+
+#O
+Vnum 29007
+Nest 0
+Wear 7
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+Affect -1 3 -1 -1 14 0 0
+End
+
+#O
+Vnum 9521
+Nest 0
+Wear 11
+Lev  7
+Cost 0
+Cond 100
+Repd 0
+Val  5 4 4 0 0
+End
+
+#O
+Vnum 1503
+Nest 0
+Wear -1
+Lev  4
+Cost 0
+Cond 100
+Repd 0
+Val  0 3 4 7 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear 16
+Lev  3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9218
+Nest 0
+Wear -1
+Lev  12
+Cost 0
+Cond 100
+Repd 0
+Val  11 2 2 138 0
+Spell 3 'gas breath'
+Affect -1 12 -1 -16 12 0 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3718
+Nest 0
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3021
+Nest 0
+Wear -1
+Lev  5
+Cost 200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3066
+Nest 0
+Wear -1
+Lev  5
+Cost 500
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3052
+Nest 0
+Wear -1
+Lev  5
+Cost 25
+Cond 100
+Repd 0
+Affect -1 5 -1 3 22 0 0
+Affect -1 5 -1 -4 18 0 0
+Affect -1 5 -1 -2 1 0 0
+End
+
+#END

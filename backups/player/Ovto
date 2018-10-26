@@ -1,0 +1,400 @@
+#PLAYER
+Name Ovto~
+Id   20671
+LogO 950291503
+Vers 3
+Prom ~
+Ignoring  ~
+Race dwarf~
+Sex  1
+Cla  4
+Gui  4
+Psionic  0
+Cast none
+Levl 6
+Plyd 8472
+ListRemorts ~
+NumRemorts 0
+Note 950238461
+Scro 22
+Room 4208
+HMV  73 73 110 110 130 130
+NewGold 0
+NewPlat 0
+NewCopp 78
+NewSilv 30
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  13873
+Act  65788
+AfBy 512
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 0
+Color 0 0
+Color 1 0
+Color 2 0
+Color 3 0
+Color 4 0
+Color 5 0
+Color 6 0
+Color 7 0
+Color 8 0
+Color 9 0
+Color 10 0
+Color 11 0
+Color 12 0
+Color 13 0
+Color 14 0
+Color 15 0
+Color 16 0
+Pos  4
+Prac 3
+Trai 1
+Save  -8
+Alig  0
+Hit   9
+Dam   2
+ACs 63 61 61 79
+Attr 14 13 18 12 19
+AMod 2 0 1 0 1
+Pass Ovuv24QCVnz1U~
+Titl  the Student of Form~
+Pnts 40
+TSex 1
+LLev 2
+HMVP 65 110 130
+Cond 0 3 27
+Sk 8 'axe'
+Sk 76 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'bash'
+Sk 9 'dodge'
+Sk 25 'hand to hand'
+Sk 60 'kick'
+Sk 1 'trip'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'armor'   5  21 -20  17          0          0
+AffD 'bless'  28  16  -7  24          0          0
+AffD 'bless'   0  16   7  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 70 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3712
+Nest 0
+Wear 13
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 14
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 4
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear 3
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3706
+Nest 0
+Wear 6
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3711
+Nest 0
+Wear 12
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear 15
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3705
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3713
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 1
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 6601
+Nest 0
+Wear 2
+Lev  3
+Cost 1200
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2902
+Nest 0
+Wear -1
+Lev  2
+Cost 2
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2902
+Nest 0
+Wear -1
+Lev  2
+Cost 2
+Cond 100
+Repd 0
+Val  20 0 10 0 0
+End
+
+#O
+Vnum 2904
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2904
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2904
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2904
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2905
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2905
+Nest 0
+Wear -1
+Lev  3
+Cost 30
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2903
+Nest 0
+Wear -1
+Lev  2
+Cost 30
+Cond 100
+Repd 0
+End
+
+#END

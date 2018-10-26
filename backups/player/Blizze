@@ -1,0 +1,87 @@
+#PLAYER
+Name Blizze~
+Id   38166
+LogO 944666618
+Vers 3
+Ignoring ~
+Race human~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 10
+Plyd 31146
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 4216
+HMV  153 153 109 109 154 154
+Gold 5171
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  20307
+Act  65788
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 0
+Color 2 2
+Color 3 4
+Color 4 7
+Color 5 7
+Color 6 14
+Color 7 7
+Color 8 2
+Color 9 4
+Color 10 4
+Color 11 7
+Color 12 4
+Color 13 4
+Color 14 2
+Color 15 1
+Color 16 7
+Pos  5
+Trai 1
+Alig  1000
+ACs 100 100 100 100
+Attr 20 13 13 13 17
+AMod 0 0 0 0 0
+Pass Blm3qkeO0KIks~
+Titl  the Combatant~
+Pnts 40
+TSex 1
+LLev 6
+HMVP 153 109 154
+Cond 0 0 33
+Sk 30 'axe'
+Sk 54 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 69 'shield block'
+Sk 30 'spear'
+Sk 85 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 70 'kick'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'second attack'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+End
+
+#END
