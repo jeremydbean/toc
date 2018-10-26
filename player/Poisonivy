@@ -1,7 +1,7 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1540592667
+LogO 1540594130
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
@@ -13,26 +13,27 @@ Cla  5
 Gui  5
 Psionic  0
 Cast none
-Levl 16
-Plyd 3356211
+Levl 17
+Plyd 3357674
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
 Room 4209
-HMV  308 308 51 335 137 240
-NewGold 103
+HMV  39 352 9 349 121 247
+NewGold 133
 NewPlat 0
-NewCopp 59
-NewSilv 26
+NewCopp 570
+NewSilv 87
 Bank 271
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  32060
+Exp  34978
 Act  4194520
+AfBy 524288
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -58,24 +59,24 @@ Color 14 9
 Color 15 6
 Color 16 6
 Pos  4
-Prac 8
-Trai 2
-Save  4
+Prac 12
+Trai 3
+Save  -4
 Alig  -1000
-Hit   12
+Hit   27
 Dam   13
-ACs -8 -6 -11 66
+ACs -28 -26 -31 46
 Attr 14 15 15 14 15
-AMod 1 12 12 -3 10
+AMod 5 12 12 -3 10
 Pass PozhU/901BCHg~
 Ariv You start to itch uncontrollably as $n arrives from $T.~
 Dprt Your hives vanish as $n leaves $t.~
-Titl  the Harbinger of Life~
+Titl  a Real Human Being (and a Real Hero)~
 Pnts 2540
 TSex 2
 LLev 932
-HMVP 308 330 241
-Cond 0 44 47
+HMVP 319 344 248
+Cond 0 20 39
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -91,7 +92,7 @@ Sk 1 'cancellation'
 Sk 78 'cause light'
 Sk 78 'chill touch'
 Sk 1 'cone of cold'
-Sk 75 'create skeleton'
+Sk 76 'create skeleton'
 Sk 1 'create wraith'
 Sk 1 'create vampire'
 Sk 79 'butcher'
@@ -124,7 +125,7 @@ Sk 1 'vortex'
 Sk 1 'weaken'
 Sk 1 'neutrality field'
 Sk 8 'axe'
-Sk 88 'dagger'
+Sk 90 'dagger'
 Sk 6 'flail'
 Sk 5 'mace'
 Sk 3 'polearm'
@@ -142,7 +143,14 @@ Gr 'life & undeath'
 Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
-AffD 'armor'   0   7 -20  17          0          0
+AffD 'armor'  23  15 -20  17          0          0
+AffD 'giant strength'   0  46   4   1          0          0
+AffD 'shield'   0  54 -20  17          0          0
+AffD 'fly'   0  49   0   0     524288          0
+AffD 'aid'   0   0  33  13          0          0
+AffD 'aid'   0   0   7  18          0          0
+AffD 'bless'   0  52  -8  24          0          0
+AffD 'bless'  24  52   8  18          0          0
 End
 
 #O
@@ -638,6 +646,30 @@ Wear -1
 Lev  15
 Cost 1000
 Cond 100
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve PoisonIvy~
+Wear -1
+Time 210
+Cost 0
+Cond 25
+Repd 0
+End
+
+#O
+Vnum 14
+Nest 0
+ShD  A surgically removed arm~
+Desc A surgically removed arm waits to serve PoisonIvy~
+Wear -1
+Time 210
+Cost 0
+Cond 25
 Repd 0
 End
 
