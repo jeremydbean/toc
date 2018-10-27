@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1540438176
+LogO 1540597835
 Vers 3
 Desc .~
 Prom ~
@@ -13,25 +13,27 @@ Gui  4
 Psionic  1
 Cast Fors
 Levl 36
-Plyd 33758
+Plyd 34321
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
 Room 4209
-HMV  955 955 585 585 431 431
-NewGold 5
-NewPlat 2
-NewCopp 17
-NewSilv 12
+HMV  940 991 254 585 321 431
+NewGold 3
+NewPlat 1
+NewCopp 157
+NewSilv 13
 Bank 1221
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  78478
+Exp  78749
 Act  4587724
+AfBy 2621568
+AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -59,13 +61,13 @@ Color 16 6
 Pos  4
 Prac 8
 Trai 1
-Save  -9
-Alig  1000
-Hit   9
-Dam   31
-ACs -19 1 -7 73
+Save  -18
+Alig  880
+Hit   35
+Dam   55
+ACs 50 70 62 142
 Attr 13 13 13 13 13
-AMod 4 10 11 0 12
+AMod 8 10 11 5 12
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
@@ -74,7 +76,7 @@ Pnts 2540
 TSex 1
 LLev 5
 HMVP 935 595 381
-Cond 0 0 0
+Cond 0 39 40
 Alias \ who~
 Alias k kick~
 Alias ` bash~
@@ -104,7 +106,7 @@ Sk 7 'spear'
 Sk 3 'sword'
 Sk 15 'whip'
 Sk 85 'dodge'
-Sk 84 'enhanced damage'
+Sk 86 'enhanced damage'
 Sk 100 'hand to hand'
 Sk 64 'kick'
 Sk 76 'parry'
@@ -119,6 +121,21 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
+AffD 'giant strength'   0  63   4   1          0          0
+AffD 'frenzy'   0  16 110  17          0          0
+AffD 'frenzy'   0  16  11  19          0          0
+AffD 'frenzy'   0  16  11  18          0          0
+AffD 'shield'   0  71 -20  17          0          0
+AffD 'armor'   0  17 -20  17          0          0
+AffD 'steel fist'   0   0  13  19          0          0
+AffD 'fly'   0  66   0   0     524288          0
+AffD 'aid'   0  17  36  13          0          0
+AffD 'aid'   0  17   7  18          0          0
+AffD 'divine protection'   0   3   0   0          0       4096
+AffD 'bless'  12  69  -8  24          0          0
+AffD 'bless'   9  69   8  18          0          0
+AffD 'haste'   0  10   4   2    2097152          0
+AffD 'sanctuary'   6   5   0   0        128          0
 End
 
 #O
@@ -431,6 +448,17 @@ Cost 2300
 Cond 100
 Repd 0
 Affect -1 32 -1 2 21 0 0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 1
+Cond 100
+Repd 0
+Val  0 0 192 0 0
+Affect -1 0 -1 1 2 0 0
 End
 
 #END

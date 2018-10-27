@@ -1,0 +1,91 @@
+Sat Oct 27 04:14:50 2018 :: LOADING COMM TABLE
+Sat Oct 27 04:14:50 2018 ::  INIT OK 
+Sat Oct 27 04:14:50 2018 :: Ended LOADING COMM TABLE
+Sat Oct 27 04:14:50 2018 :: Ended Fixing Exits
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 3715 maxed out.
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 717 maxed out.
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 717 maxed out.
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 911 maxed out.
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 911 maxed out.
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 1388 maxed out.
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 17713 maxed out.
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Affect_modify: unknown location 25.
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Affect_modify: unknown location 25.
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sat Oct 27 04:14:50 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Oct 27 04:14:50 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sat Oct 27 04:14:50 2018 :: MAXLOAD: vnum 28114 maxed out.
+Sat Oct 27 04:14:50 2018 :: Ended Area Update
+Sat Oct 27 04:14:50 2018 :: Ended Loading Notes
+Sat Oct 27 04:14:50 2018 :: Ended Loading Ban
+Sat Oct 27 04:14:50 2018 :: Ended Loading Pkills
+Sat Oct 27 04:14:50 2018 :: TOC is ready to rock on port 9000.
+Sat Oct 27 04:14:50 2018 :: Setting up signals.
+Sat Oct 27 04:14:53 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sat Oct 27 04:15:23 2018 :: Sock.sinaddr:  192.168.1.1
+Sat Oct 27 04:15:24 2018 :: Loading Killuminati's playerfile
+Sat Oct 27 04:15:24 2018 :: Killuminati@192.168.1.1 has connected. [Room: 2484]
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 05:04:01 2018 :: Sock.sinaddr:  127.0.0.1
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 05:30:00 2018 :: Log Killuminati: backup now
+Sat Oct 27 05:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sat Oct 27 05:34:06 2018 :: EOF encountered on read.
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 05:34:06 2018 :: Closing link to Killuminati.
+Sat Oct 27 05:51:28 2018 :: Sock.sinaddr:  192.168.1.1
+Sat Oct 27 05:51:29 2018 :: Loading Killuminati's playerfile
+Sat Oct 27 05:51:29 2018 :: Killuminati@192.168.1.1 reconnected. [Room: 2484]
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 06:30:00 2018 :: Log Killuminati: backup now
+Sat Oct 27 06:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 07:30:00 2018 :: Log Killuminati: backup now
+Sat Oct 27 07:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sat Oct 27 08:30:00 2018 :: Log Killuminati: backup now
+Sat Oct 27 08:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sat Oct 27 08:39:59 2018 :: EOF encountered on read.
