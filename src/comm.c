@@ -2164,11 +2164,6 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
-		if( ch->played == 813 && psi == 0)
-			{
-		 do_check_psi(ch, "");
-			}
-
 	}
 	else if ( IS_IMMORTAL(ch) )
 	{
@@ -2316,7 +2311,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   int chance;
   int add;
 
-  if(ch->played == 813)
+  if(ch->level >= 52 )
     chance = 100;
   else
     chance = number_percent( );
@@ -2329,17 +2324,14 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   if(ch->pcdata->psionic == 1)
   {
 send_to_char("\n\r",ch);
-send_to_char("\n\r",ch);
-send_to_char("\n\r",ch);
-send_to_char("*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*",ch);
-send_to_char("\n\r*----------------------------------------------------------------------*",ch);
+send_to_char("*----------------------------------------------------------------------*",ch);
 send_to_char("\n\r     An overwhelming sensation of new power hits you in a wave of\n\r",ch);
+send_to_char("veritigo.  You fall to you your knees and scream out as it engulfs your mind.\n\r",ch);
 send_to_char("As the dizzyness passes, you discover that you possess knowledge of\n\r",ch);
 send_to_char("some unique new skills.  Further contemplation leads to a premonition of\n\r",ch);
 send_to_char("....you, drifting in the astral plane, and before you is......\n\r",ch);
 send_to_char("\n\rThe Monk of the Way.\n\r",ch);
-send_to_char("*----------------------------------------------------------------------*",ch);
-send_to_char("\n\r*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\n\r\n\r",ch);
+send_to_char("*----------------------------------------------------------------------*\n\r\n\r",ch);
 ch->position = POS_RESTING;
 
     add = number_percent();
