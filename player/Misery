@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1540578802
+LogO 1541198045
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -47,13 +47,13 @@ Psionic  1
 Cast Fors
 Levl 54
 Tru  70
-Plyd 1638550
+Plyd 1639298
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 2404
-HMV  1828 1828 938 938 171 343
+HMV  1828 1828 938 938 343 343
 NewGold 1
 NewPlat 5078
 NewCopp 50
@@ -166,7 +166,7 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  49  12   0   0          0         64
+AffD 'stealth'  45   0   0   0          0         64
 End
 
 #O
