@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1540169517
+LogO 1541160516
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,12 +12,12 @@ Gui  11
 Psionic  1
 Cast none
 Levl 30
-Plyd 1081
+Plyd 1917
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 4207
+Room 4216
 HMV  110 110 155 155 178 178
 NewGold 0
 NewPlat 0
@@ -34,7 +34,7 @@ Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 0
+Pk_State 1
 Jw_Timer 0
 ColFlag 0
 Color 0 0
@@ -54,14 +54,11 @@ Color 13 0
 Color 14 0
 Color 15 0
 Color 16 0
-Pos  8
+Pos  5
 Prac 18
 Trai 16
-Save  -1
 Alig  0
-Hit   2
-Dam   2
-ACs 95 95 95 99
+ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass AsQheSp/NGAuY~
@@ -70,7 +67,7 @@ Pnts 40
 TSex 1
 LLev 0
 HMVP 110 155 178
-Cond 0 42 42
+Cond 0 28 28
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
@@ -106,52 +103,6 @@ Sk 80 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-End
-
-#O
-Vnum 3716
-Nest 0
-Wear 0
-Cost 0
-Cond 100
-Repd 0
-Val  0 0 194 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-Wear 5
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3704
-Nest 0
-Wear 11
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3701
-Nest 0
-Wear 16
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3162
-Nest 0
-Wear -1
-Cost 500
-Cond 100
-Repd 0
 End
 
 #END
