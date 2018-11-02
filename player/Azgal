@@ -1,7 +1,7 @@
 #PLAYER
 Name Azgal~
 Id   20919
-LogO 1540320694
+LogO 1540833797
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  5
 Psionic  0
 Cast none
 Levl 4
-Plyd 2103
+Plyd 2129
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 3210
-HMV  17 39 52 132 116 118
+HMV  39 39 71 132 118 118
 NewGold 0
 NewPlat 0
 NewCopp 36
@@ -55,7 +55,7 @@ Color 13 0
 Color 14 0
 Color 15 0
 Color 16 0
-Pos  4
+Pos  8
 Prac 6
 Save  -4
 Alig  0
@@ -104,8 +104,8 @@ Gr 'rom basics'
 Gr 'necro basics'
 Gr 'necro default'
 Gr 'necromancy'
-AffD 'bless'  25   9   3  18          0          0
 AffD 'bless'  43   9  -3  24          0          0
+AffD 'bless'  25   9   3  18          0          0
 End
 
 #O

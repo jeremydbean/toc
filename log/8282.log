@@ -1,0 +1,3121 @@
+Sun Oct 28 01:15:12 2018 :: LOADING COMM TABLE
+Sun Oct 28 01:15:12 2018 ::  INIT OK 
+Sun Oct 28 01:15:12 2018 :: Ended LOADING COMM TABLE
+Sun Oct 28 01:15:12 2018 :: Ended Fixing Exits
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 3715 maxed out.
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 717 maxed out.
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 717 maxed out.
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 911 maxed out.
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 911 maxed out.
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 1388 maxed out.
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 17713 maxed out.
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Affect_modify: unknown location 25.
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Affect_modify: unknown location 25.
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sun Oct 28 01:15:12 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Oct 28 01:15:12 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sun Oct 28 01:15:12 2018 :: MAXLOAD: vnum 28114 maxed out.
+Sun Oct 28 01:15:12 2018 :: Ended Area Update
+Sun Oct 28 01:15:12 2018 :: Ended Loading Notes
+Sun Oct 28 01:15:12 2018 :: Ended Loading Ban
+Sun Oct 28 01:15:12 2018 :: Ended Loading Pkills
+Sun Oct 28 01:15:12 2018 :: TOC is ready to rock on port 9000.
+Sun Oct 28 01:15:12 2018 :: Setting up signals.
+Sun Oct 28 01:15:13 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sun Oct 28 01:15:20 2018 :: Sock.sinaddr:  192.168.1.1
+Sun Oct 28 01:15:20 2018 :: Loading Killuminati's playerfile
+Sun Oct 28 01:15:21 2018 :: Killuminati@192.168.1.1 has connected. [Room: 2484]
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 01:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 01:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 02:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 02:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 03:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 03:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 04:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 04:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 05:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 05:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 06:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 06:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 07:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 07:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 07:52:39 2018 :: Sock.sinaddr:  185.92.73.112
+Sun Oct 28 07:52:39 2018 :: Sock.sinaddr:  185.92.73.112
+Sun Oct 28 07:52:39 2018 :: EOF encountered on read.
+Sun Oct 28 07:52:39 2018 :: Sock.sinaddr:  185.92.73.112
+Sun Oct 28 07:52:39 2018 :: EOF encountered on read.
+Sun Oct 28 07:52:40 2018 :: EOF encountered on read.
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 08:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 08:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 09:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 09:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 10:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 10:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 11:03:30 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Oct 28 11:03:33 2018 :: Loading Kyrus's playerfile
+Sun Oct 28 11:03:34 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4209]
+Sun Oct 28 11:03:36 2018 :: Log Kyrus: who
+Sun Oct 28 11:03:38 2018 :: Log Kyrus: score
+Sun Oct 28 11:03:40 2018 :: Log Kyrus: af
+Sun Oct 28 11:03:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:43 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:03:43 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:44 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:46 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:03:48 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:03:49 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:03:50 2018 :: Log Kyrus: time
+Sun Oct 28 11:03:55 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:03:55 2018 :: Log Kyrus: open east
+Sun Oct 28 11:03:56 2018 :: Log Kyrus: r e 25
+Sun Oct 28 11:03:56 2018 :: Log Kyrus: open east
+Sun Oct 28 11:03:56 2018 :: Log Kyrus: r e 6
+Sun Oct 28 11:03:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:03:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:04:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:04:26 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:04:26 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:04:26 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:04:39 2018 :: Log Kyrus: l
+Sun Oct 28 11:04:40 2018 :: Log Kyrus: 
+Sun Oct 28 11:04:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:04:43 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:04:46 2018 :: Log Kyrus: ner
+Sun Oct 28 11:04:49 2018 :: Log Kyrus: ner
+Sun Oct 28 11:04:52 2018 :: Log Kyrus: ner
+Sun Oct 28 11:04:56 2018 :: Log Kyrus: ner
+Sun Oct 28 11:04:59 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:02 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:06 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:05:22 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:26 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:36 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:05:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:05:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:05:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:05:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:05:55 2018 :: Log Kyrus: wo
+Sun Oct 28 11:05:58 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:05:58 2018 :: Log Kyrus: l
+Sun Oct 28 11:06:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:06:01 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:06:04 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:08 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:11 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:34 2018 :: Log Kyrus: who
+Sun Oct 28 11:06:35 2018 :: Log Kyrus: 
+Sun Oct 28 11:06:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:06:44 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:06:44 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:06:44 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:06:48 2018 :: Log Kyrus: l
+Sun Oct 28 11:06:49 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:06:51 2018 :: Log Kyrus: scan
+Sun Oct 28 11:06:52 2018 :: Log Kyrus: 
+Sun Oct 28 11:06:52 2018 :: Log Kyrus: scan
+Sun Oct 28 11:06:53 2018 :: Log Kyrus: 
+Sun Oct 28 11:06:54 2018 :: Log Kyrus: scan
+Sun Oct 28 11:06:57 2018 :: Log Kyrus: steel
+Sun Oct 28 11:07:00 2018 :: Log Kyrus: iron
+Sun Oct 28 11:07:06 2018 :: Log Kyrus: 
+Sun Oct 28 11:07:07 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:07:10 2018 :: Log Kyrus: drink jug
+Sun Oct 28 11:07:19 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:22 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:26 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:40 2018 :: Log Kyrus: who
+Sun Oct 28 11:07:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:07:48 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:07:48 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:07:48 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:07:51 2018 :: Log Kyrus: l i cor
+Sun Oct 28 11:07:52 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:07:53 2018 :: Log Kyrus: l
+Sun Oct 28 11:08:05 2018 :: Log Kyrus: scan
+Sun Oct 28 11:08:06 2018 :: Log Kyrus: drink jug
+Sun Oct 28 11:08:08 2018 :: Log Kyrus: get jug met
+Sun Oct 28 11:08:09 2018 :: Log Kyrus: drink jug
+Sun Oct 28 11:08:10 2018 :: Log Kyrus: l
+Sun Oct 28 11:08:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:08:13 2018 :: Log Kyrus: kill dr
+Sun Oct 28 11:08:15 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:08:18 2018 :: Log Kyrus: look pi
+Sun Oct 28 11:08:19 2018 :: Log Kyrus: conf
+Sun Oct 28 11:08:30 2018 :: Log Kyrus: eq
+Sun Oct 28 11:08:31 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:34 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:40 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:08:43 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:08:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:43 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:08:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:08:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:08:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:08:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:08:54 2018 :: Log Kyrus: l
+Sun Oct 28 11:08:56 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:08:57 2018 :: Log Kyrus: wo
+Sun Oct 28 11:08:58 2018 :: Log Kyrus: eq
+Sun Oct 28 11:08:59 2018 :: Log Kyrus: sc
+Sun Oct 28 11:09:02 2018 :: Log Kyrus: i
+Sun Oct 28 11:09:13 2018 :: Log Kyrus: i
+Sun Oct 28 11:09:14 2018 :: Log Kyrus: l i met
+Sun Oct 28 11:09:19 2018 :: Log Kyrus: eq
+Sun Oct 28 11:09:21 2018 :: Log Kyrus: rem might
+Sun Oct 28 11:09:22 2018 :: Log Kyrus: sc
+Sun Oct 28 11:09:24 2018 :: Log Kyrus: wear might
+Sun Oct 28 11:09:25 2018 :: Log Kyrus: i
+Sun Oct 28 11:09:36 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 11:09:37 2018 :: Log Kyrus: l i met
+Sun Oct 28 11:09:47 2018 :: Log Kyrus: recal
+Sun Oct 28 11:09:49 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:09:50 2018 :: Log Kyrus: 
+Sun Oct 28 11:09:50 2018 :: Log Kyrus: 
+Sun Oct 28 11:09:54 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:09:54 2018 :: Log Kyrus: open east
+Sun Oct 28 11:09:54 2018 :: Log Kyrus: r e 19
+Sun Oct 28 11:09:55 2018 :: Log Kyrus: r n 6
+Sun Oct 28 11:09:55 2018 :: Log Kyrus: open north
+Sun Oct 28 11:09:56 2018 :: Log Kyrus: r n 8
+Sun Oct 28 11:10:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:15 2018 :: Log Kyrus: kill gu
+Sun Oct 28 11:10:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:19 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:19 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:19 2018 :: Log Kyrus: get key cor
+Sun Oct 28 11:10:19 2018 :: Log Kyrus: unl west
+Sun Oct 28 11:10:20 2018 :: Log Kyrus: open west
+Sun Oct 28 11:10:20 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:23 2018 :: Log Kyrus: look so
+Sun Oct 28 11:10:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:28 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:10:32 2018 :: Log Kyrus: look orc
+Sun Oct 28 11:10:34 2018 :: Log Kyrus: kill orc
+Sun Oct 28 11:10:37 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:37 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:37 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:10:38 2018 :: Log Kyrus: get all cor
+Sun Oct 28 11:10:44 2018 :: Log Kyrus: wear cuve
+Sun Oct 28 11:10:47 2018 :: Log Kyrus: wear cube
+Sun Oct 28 11:10:47 2018 :: Log Kyrus: sc
+Sun Oct 28 11:10:52 2018 :: Log Kyrus: wear cord
+Sun Oct 28 11:10:54 2018 :: Log Kyrus: sc
+Sun Oct 28 11:10:57 2018 :: Log Kyrus: rem cube
+Sun Oct 28 11:10:58 2018 :: Log Kyrus: sc
+Sun Oct 28 11:11:02 2018 :: Log Kyrus: i
+Sun Oct 28 11:11:03 2018 :: Log Kyrus: wear sc
+Sun Oct 28 11:11:05 2018 :: Log Kyrus: drop cub
+Sun Oct 28 11:11:07 2018 :: Log Kyrus: sac cub
+Sun Oct 28 11:11:08 2018 :: Log Kyrus: sc
+Sun Oct 28 11:11:09 2018 :: Log Kyrus: recal
+Sun Oct 28 11:11:11 2018 :: Log Kyrus: 
+Sun Oct 28 11:11:12 2018 :: Log Kyrus: 
+Sun Oct 28 11:11:13 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:13 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:15 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:16 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:16 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:16 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:17 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:17 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:17 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:17 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:18 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:18 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:18 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:18 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:19 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:19 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:19 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:19 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:20 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:11:20 2018 :: Log Kyrus: sleep
+Sun Oct 28 11:12:27 2018 :: Log Kyrus: wake
+Sun Oct 28 11:12:29 2018 :: Log Kyrus: prac
+Sun Oct 28 11:12:38 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:39 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:40 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:12:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:44 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:12:46 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:12:46 2018 :: Log Kyrus: open east
+Sun Oct 28 11:12:46 2018 :: Log Kyrus: r e 25
+Sun Oct 28 11:12:46 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:12:47 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:12:47 2018 :: Log Kyrus: open east
+Sun Oct 28 11:12:47 2018 :: Log Kyrus: r e 6
+Sun Oct 28 11:12:48 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:48 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:50 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:51 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:51 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:52 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:52 2018 :: Log Kyrus: 
+Sun Oct 28 11:12:54 2018 :: Log Kyrus: ner
+Sun Oct 28 11:12:57 2018 :: Log Kyrus: ner
+Sun Oct 28 11:13:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:13:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:13:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:13:27 2018 :: Log Kyrus: l
+Sun Oct 28 11:13:28 2018 :: Log Kyrus: l i cor
+Sun Oct 28 11:13:30 2018 :: Log Kyrus: 
+Sun Oct 28 11:13:32 2018 :: Log Kyrus: look bu
+Sun Oct 28 11:13:34 2018 :: Log Kyrus: eq
+Sun Oct 28 11:13:38 2018 :: Log Kyrus: steel
+Sun Oct 28 11:13:42 2018 :: Log Kyrus: iron
+Sun Oct 28 11:13:42 2018 :: Log Kyrus: iron
+Sun Oct 28 11:13:49 2018 :: Log Kyrus: kill bu
+Sun Oct 28 11:13:52 2018 :: Log Kyrus: ner
+Sun Oct 28 11:13:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:13:59 2018 :: Log Kyrus: ner
+Sun Oct 28 11:14:35 2018 :: Log Kyrus: conf
+Sun Oct 28 11:14:42 2018 :: Log Kyrus: k
+Sun Oct 28 11:14:45 2018 :: Log Kyrus: prac
+Sun Oct 28 11:14:45 2018 :: Log Kyrus: k
+Sun Oct 28 11:14:48 2018 :: Log Kyrus: k
+Sun Oct 28 11:14:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:14:55 2018 :: Log Kyrus: k
+Sun Oct 28 11:14:58 2018 :: Log Kyrus: k
+Sun Oct 28 11:15:01 2018 :: Log Kyrus: k
+Sun Oct 28 11:15:12 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:15:12 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:15:13 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:15:19 2018 :: Log Kyrus: get all cor
+Sun Oct 28 11:15:21 2018 :: Log Kyrus: sc
+Sun Oct 28 11:15:22 2018 :: Log Kyrus: drop st
+Sun Oct 28 11:15:25 2018 :: Log Kyrus: wear br
+Sun Oct 28 11:15:28 2018 :: Log Kyrus: gr
+Sun Oct 28 11:15:31 2018 :: Log Kyrus: l
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 11:15:34 2018 :: Log Kyrus: 
+Sun Oct 28 11:15:34 2018 :: Log Kyrus: 
+Sun Oct 28 11:15:35 2018 :: Log Kyrus: 
+Sun Oct 28 11:15:36 2018 :: Log Kyrus: 
+Sun Oct 28 11:15:37 2018 :: Log Kyrus: scan
+Sun Oct 28 11:15:39 2018 :: Log Kyrus: 
+Sun Oct 28 11:15:40 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:15:43 2018 :: Log Kyrus: look pi
+Sun Oct 28 11:15:45 2018 :: Log Kyrus: k
+Sun Oct 28 11:15:49 2018 :: Log Kyrus: ner
+Sun Oct 28 11:15:52 2018 :: Log Kyrus: ner
+Sun Oct 28 11:15:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:15:58 2018 :: Log Kyrus: ner
+Sun Oct 28 11:16:02 2018 :: Log Kyrus: ner
+Sun Oct 28 11:16:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:16:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:16:46 2018 :: Log Kyrus: get gold cor
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 11:16:55 2018 :: Log Kyrus: l i cor
+Sun Oct 28 11:16:57 2018 :: Log Kyrus: drop da
+Sun Oct 28 11:17:00 2018 :: Log Kyrus: sac da
+Sun Oct 28 11:17:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:17:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:17:02 2018 :: Log Kyrus: look pi
+Sun Oct 28 11:17:04 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:17:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:17:10 2018 :: Log Kyrus: ner
+Sun Oct 28 11:17:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:17:18 2018 :: Log Kyrus: conf
+Sun Oct 28 11:17:52 2018 :: Log Kyrus: conf
+Sun Oct 28 11:17:53 2018 :: Log Kyrus: conf
+Sun Oct 28 11:17:57 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:00 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:03 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:06 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:10 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:13 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:16 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:16 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:17 2018 :: Log Kyrus: k
+Sun Oct 28 11:18:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:18:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:18:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:18:18 2018 :: Log Kyrus: l i cor
+Sun Oct 28 11:18:21 2018 :: Log Kyrus: get ring cor
+Sun Oct 28 11:18:25 2018 :: Log Kyrus: sc
+Sun Oct 28 11:18:26 2018 :: Log Kyrus: wear ring
+Sun Oct 28 11:18:28 2018 :: Log Kyrus: sc
+Sun Oct 28 11:18:32 2018 :: Log Kyrus: l
+Sun Oct 28 11:18:33 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:18:38 2018 :: Log Kyrus: eq
+Sun Oct 28 11:19:01 2018 :: Log Kyrus: wo
+Sun Oct 28 11:19:02 2018 :: Log Kyrus: l
+Sun Oct 28 11:19:04 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:07 2018 :: Log Kyrus: steel
+Sun Oct 28 11:19:08 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:09 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:10 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:12 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:15 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:15 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:16 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:17 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:18 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:19 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:22 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:25 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:31 2018 :: Log Kyrus: who
+Sun Oct 28 11:19:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:39 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:45 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:19:48 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:19:48 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:19:49 2018 :: Log Kyrus: ner
+Sun Oct 28 11:19:52 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:19:52 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:19:52 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:19:53 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:53 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:54 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:55 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:55 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:19:57 2018 :: Log Kyrus: scan
+Sun Oct 28 11:19:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:20:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:20:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:20:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:20:03 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:20:06 2018 :: Log Kyrus: wo
+Sun Oct 28 11:20:06 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:10 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:10 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:16 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:20:17 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:20:25 2018 :: Log Kyrus: who
+Sun Oct 28 11:20:26 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:39 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:54 2018 :: Log Kyrus: ner
+Sun Oct 28 11:20:57 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:01 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:04 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:08 2018 :: Log Kyrus: steel
+Sun Oct 28 11:21:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:21:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:21:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:21:12 2018 :: Log Kyrus: wo
+Sun Oct 28 11:21:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:21:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:21:14 2018 :: Log Kyrus: 
+Sun Oct 28 11:21:15 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:21:19 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:20 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:21:23 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:26 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:38 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:21:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:41 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:21:41 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:21:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:53 2018 :: Log Kyrus: ner
+Sun Oct 28 11:21:56 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:22:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:22:07 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:22:07 2018 :: Log Kyrus: wo
+Sun Oct 28 11:22:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:10 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:17 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:20 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:23 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:27 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:51 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:54 2018 :: Log Kyrus: ner
+Sun Oct 28 11:22:57 2018 :: Log Kyrus: ner
+Sun Oct 28 11:23:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:23:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:23:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:23:01 2018 :: Log Kyrus: wo
+Sun Oct 28 11:23:02 2018 :: Log Kyrus: i
+Sun Oct 28 11:23:05 2018 :: Log Kyrus: drop br
+Sun Oct 28 11:23:08 2018 :: Log Kyrus: sac br
+Sun Oct 28 11:23:09 2018 :: Log Kyrus: l
+Sun Oct 28 11:23:10 2018 :: Log Kyrus: scan
+Sun Oct 28 11:23:11 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:23:11 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:23:11 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:23:12 2018 :: Log Kyrus: look bu
+Sun Oct 28 11:23:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:14 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:15 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:15 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:18 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:18 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:19 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:21 2018 :: Log Kyrus: scan
+Sun Oct 28 11:23:21 2018 :: Log Kyrus: 
+Sun Oct 28 11:23:22 2018 :: Log Kyrus: scan
+Sun Oct 28 11:23:28 2018 :: Log Kyrus: conf
+Sun Oct 28 11:23:32 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:35 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:38 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:41 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:45 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:48 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:51 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:51 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:23:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:23:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:23:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:24:10 2018 :: Log Kyrus: l
+Sun Oct 28 11:24:10 2018 :: Log Kyrus: scan
+Sun Oct 28 11:24:11 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:24:14 2018 :: Log Kyrus: 
+Sun Oct 28 11:24:14 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:24:18 2018 :: Log Kyrus: conf
+Sun Oct 28 11:24:19 2018 :: Log Kyrus: conf
+Sun Oct 28 11:24:22 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:25 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:41 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:44 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:47 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:51 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:54 2018 :: Log Kyrus: k
+Sun Oct 28 11:24:57 2018 :: Log Kyrus: conf
+Sun Oct 28 11:25:01 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:04 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:07 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:10 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:14 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:17 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:20 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:23 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:27 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:30 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:33 2018 :: Log Kyrus: k
+Sun Oct 28 11:25:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:38 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:25:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:25:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:25:39 2018 :: Log Kyrus: wo
+Sun Oct 28 11:25:39 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:25:42 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:25:44 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:25:45 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:25:46 2018 :: Log Kyrus: scan
+Sun Oct 28 11:25:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:25:49 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:25:53 2018 :: Log Kyrus: ner
+Sun Oct 28 11:25:56 2018 :: Log Kyrus: score
+Sun Oct 28 11:25:56 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:06 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:09 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:16 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:19 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:22 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:26 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:29 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:32 2018 :: Log Kyrus: who
+Sun Oct 28 11:26:32 2018 :: Log Kyrus: ner
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 11:26:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:26:36 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:26:36 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:26:37 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:27:04 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:27:04 2018 :: Log Kyrus: l
+Sun Oct 28 11:27:06 2018 :: Log Kyrus: scan
+Sun Oct 28 11:27:10 2018 :: Log Kyrus: 
+Sun Oct 28 11:27:10 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:27:15 2018 :: Log Kyrus: conf
+Sun Oct 28 11:27:18 2018 :: Log Kyrus: k
+Sun Oct 28 11:27:21 2018 :: Log Kyrus: k
+Sun Oct 28 11:27:24 2018 :: Log Kyrus: k
+Sun Oct 28 11:27:28 2018 :: Log Kyrus: k
+Sun Oct 28 11:27:31 2018 :: Log Kyrus: k
+Sun Oct 28 11:28:01 2018 :: Log Kyrus: k
+Sun Oct 28 11:28:04 2018 :: Log Kyrus: k
+Sun Oct 28 11:28:08 2018 :: Log Kyrus: ner
+Sun Oct 28 11:28:11 2018 :: Log Kyrus: conf
+Sun Oct 28 11:28:33 2018 :: Log Kyrus: conf
+Sun Oct 28 11:28:34 2018 :: Log Kyrus: conf
+Sun Oct 28 11:28:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:28:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:28:43 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:43 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:43 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:45 2018 :: Log Kyrus: 
+Sun Oct 28 11:28:46 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:28:49 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:50 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:50 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:28:50 2018 :: Log Kyrus: recal
+Sun Oct 28 11:28:50 2018 :: Log Kyrus: recal
+Sun Oct 28 11:28:51 2018 :: Log Kyrus: 
+Sun Oct 28 11:28:52 2018 :: Log Kyrus: 
+Sun Oct 28 11:28:53 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:53 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:55 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:55 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:56 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:56 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:58 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:59 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:28:59 2018 :: Log Kyrus: sleep
+Sun Oct 28 11:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 11:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sun Oct 28 11:30:20 2018 :: Log Kyrus: who
+Sun Oct 28 11:30:22 2018 :: Log Kyrus: gr
+Sun Oct 28 11:30:23 2018 :: Log Kyrus: wake
+Sun Oct 28 11:30:27 2018 :: Log Kyrus: l
+Sun Oct 28 11:30:35 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:30:36 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:37 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:37 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:30:38 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:38 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:30:38 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:38 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:30:41 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:30:42 2018 :: Log Kyrus: open east
+Sun Oct 28 11:30:42 2018 :: Log Kyrus: r e 25
+Sun Oct 28 11:30:42 2018 :: Log Kyrus: open east
+Sun Oct 28 11:30:43 2018 :: Log Kyrus: r e 6
+Sun Oct 28 11:30:43 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:44 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:44 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:48 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:48 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:30:52 2018 :: Log Kyrus: ner
+Sun Oct 28 11:30:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:30:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:30:59 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:02 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:31:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:31:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:31:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:31:23 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:27 2018 :: Log Kyrus: scan
+Sun Oct 28 11:31:28 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:29 2018 :: Log Kyrus: scan
+Sun Oct 28 11:31:31 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:31 2018 :: Log Kyrus: scan
+Sun Oct 28 11:31:32 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:33 2018 :: Log Kyrus: scan
+Sun Oct 28 11:31:34 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:35 2018 :: Log Kyrus: scan
+Sun Oct 28 11:31:37 2018 :: Log Kyrus: 
+Sun Oct 28 11:31:38 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:31:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:46 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:53 2018 :: Log Kyrus: ner
+Sun Oct 28 11:31:56 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:06 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:10 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:32:13 2018 :: Log Kyrus: who
+Sun Oct 28 11:32:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:16 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:20 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:32:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:32:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:32:21 2018 :: Log Kyrus: scan
+Sun Oct 28 11:32:22 2018 :: Log Kyrus: wo
+Sun Oct 28 11:32:23 2018 :: Log Kyrus: sc
+Sun Oct 28 11:32:24 2018 :: Log Kyrus: l
+Sun Oct 28 11:32:26 2018 :: Log Kyrus: scan
+Sun Oct 28 11:32:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:32:28 2018 :: Log Kyrus: scan
+Sun Oct 28 11:32:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:32:30 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:32:34 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:53 2018 :: Log Kyrus: ner
+Sun Oct 28 11:32:56 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:06 2018 :: Log Kyrus: conf
+Sun Oct 28 11:33:09 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:16 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:16 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:16 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:33:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:33:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:33:18 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:33:20 2018 :: Log Kyrus: l
+Sun Oct 28 11:33:21 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:33:21 2018 :: Log Kyrus: 
+Sun Oct 28 11:33:21 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:33:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:33:23 2018 :: Log Kyrus: 
+Sun Oct 28 11:33:23 2018 :: Log Kyrus: 
+Sun Oct 28 11:33:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:33:26 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:33:31 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:34 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:33:44 2018 :: Log Kyrus: who
+Sun Oct 28 11:34:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:03 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:10 2018 :: Log Kyrus: who
+Sun Oct 28 11:34:10 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:13 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:17 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:20 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:34:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:34:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:34:21 2018 :: Log Kyrus: wo
+Sun Oct 28 11:34:22 2018 :: Log Kyrus: l
+Sun Oct 28 11:34:23 2018 :: Log Kyrus: sac cor
+Sun Oct 28 11:34:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:28 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:30 2018 :: Log Kyrus: scan
+Sun Oct 28 11:34:30 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:31 2018 :: Log Kyrus: scan
+Sun Oct 28 11:34:32 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:33 2018 :: Log Kyrus: scan
+Sun Oct 28 11:34:36 2018 :: Log Kyrus: 
+Sun Oct 28 11:34:37 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:34:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:48 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:51 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:54 2018 :: Log Kyrus: who
+Sun Oct 28 11:34:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:34:58 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:01 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:05 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:08 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:10 2018 :: Log Kyrus: 
+Sun Oct 28 11:35:11 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:35:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:18 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:21 2018 :: Log Kyrus: 
+Sun Oct 28 11:35:22 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:35:25 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:35:25 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:35:25 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:35:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:35:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:35:27 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:35:30 2018 :: Log Kyrus: conf
+Sun Oct 28 11:35:34 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:38 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:51 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:54 2018 :: Log Kyrus: ner
+Sun Oct 28 11:35:57 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:35:57 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:00 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:36:00 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:36:01 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:04 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:11 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:18 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:36:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:36:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:36:22 2018 :: Log Kyrus: wo
+Sun Oct 28 11:36:23 2018 :: Log Kyrus: scan
+Sun Oct 28 11:36:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:36:25 2018 :: Log Kyrus: scan
+Sun Oct 28 11:36:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:36:26 2018 :: Log Kyrus: scan
+Sun Oct 28 11:36:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:36:28 2018 :: Log Kyrus: scan
+Sun Oct 28 11:36:31 2018 :: Log Kyrus: 
+Sun Oct 28 11:36:32 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:36:35 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:38 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:45 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:48 2018 :: Log Kyrus: conf
+Sun Oct 28 11:36:54 2018 :: Log Kyrus: ner
+Sun Oct 28 11:36:58 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:01 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:04 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:11 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:18 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:21 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:25 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:28 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:31 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:31 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:32 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:32 2018 :: Log Kyrus: who
+Sun Oct 28 11:37:32 2018 :: Log Kyrus: ner
+Sun Oct 28 11:37:32 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:33 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:33 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:37:33 2018 :: Log Kyrus: wo
+Sun Oct 28 11:37:35 2018 :: Log Kyrus: recla
+Sun Oct 28 11:37:36 2018 :: Log Kyrus: recal
+Sun Oct 28 11:37:37 2018 :: Log Kyrus: 
+Sun Oct 28 11:37:38 2018 :: Log Kyrus: 
+Sun Oct 28 11:37:39 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:39 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:40 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:41 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:42 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:43 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:43 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:45 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:45 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:46 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:46 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:47 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:47 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:47 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:47 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:48 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:48 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:48 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:37:48 2018 :: Log Kyrus: sleep
+Sun Oct 28 11:41:44 2018 :: Log Kyrus: who
+Sun Oct 28 11:41:46 2018 :: Log Kyrus: wake
+Sun Oct 28 11:41:46 2018 :: Log Kyrus: score
+Sun Oct 28 11:41:51 2018 :: Log Kyrus: wake
+Sun Oct 28 11:41:52 2018 :: Log Kyrus: i
+Sun Oct 28 11:41:53 2018 :: Log Kyrus: wo
+Sun Oct 28 11:41:53 2018 :: Log Kyrus: l
+Sun Oct 28 11:41:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:41:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:41:59 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:41:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:03 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:42:05 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:42:05 2018 :: Log Kyrus: open east
+Sun Oct 28 11:42:05 2018 :: Log Kyrus: r e 25
+Sun Oct 28 11:42:05 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:42:06 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:42:06 2018 :: Log Kyrus: open east
+Sun Oct 28 11:42:06 2018 :: Log Kyrus: r e 6
+Sun Oct 28 11:42:07 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:07 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:08 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:11 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:11 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:12 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:12 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:14 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:15 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:16 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:17 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:17 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:18 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:19 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:20 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:20 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:23 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:25 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:26 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:27 2018 :: Log Kyrus: scan
+Sun Oct 28 11:42:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:42:30 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:42:33 2018 :: Log Kyrus: conf
+Sun Oct 28 11:42:34 2018 :: Log Kyrus: conf
+Sun Oct 28 11:42:35 2018 :: Log Kyrus: conf
+Sun Oct 28 11:43:10 2018 :: Log Kyrus: who
+Sun Oct 28 11:43:15 2018 :: Log Kyrus: ner
+Sun Oct 28 11:43:18 2018 :: Log Kyrus: ner
+Sun Oct 28 11:43:21 2018 :: Log Kyrus: ner
+Sun Oct 28 11:43:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:43:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:43:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:43:28 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:29 2018 :: Log Kyrus: scan
+Sun Oct 28 11:43:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:30 2018 :: Log Kyrus: scan
+Sun Oct 28 11:43:31 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:31 2018 :: Log Kyrus: scan
+Sun Oct 28 11:43:33 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:34 2018 :: Log Kyrus: scan
+Sun Oct 28 11:43:35 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:35 2018 :: Log Kyrus: scan
+Sun Oct 28 11:43:36 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:37 2018 :: Log Kyrus: 
+Sun Oct 28 11:43:39 2018 :: Log Kyrus: steel
+Sun Oct 28 11:43:42 2018 :: Log Kyrus: iron
+Sun Oct 28 11:43:49 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:43:52 2018 :: Log Kyrus: conf
+Sun Oct 28 11:43:55 2018 :: Log Kyrus: k
+Sun Oct 28 11:43:58 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:02 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:05 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:05 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:05 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:06 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:06 2018 :: Log Kyrus: k
+Sun Oct 28 11:44:33 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:34 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:44:37 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:44:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:44:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:44:38 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:39 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:40 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:41 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:43 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:43 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:45 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:45 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:46 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:47 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:48 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:48 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:49 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:50 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:51 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:53 2018 :: Log Kyrus: 
+Sun Oct 28 11:44:54 2018 :: Log Kyrus: scan
+Sun Oct 28 11:44:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:44:58 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:02 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:05 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:08 2018 :: Log Kyrus: who
+Sun Oct 28 11:45:08 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:12 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:15 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:19 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:45:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:45:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:45:21 2018 :: Log Kyrus: l
+Sun Oct 28 11:45:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:45:22 2018 :: Log Kyrus: scan
+Sun Oct 28 11:45:23 2018 :: Log Kyrus: 
+Sun Oct 28 11:45:24 2018 :: Log Kyrus: scan
+Sun Oct 28 11:45:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:45:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:45:27 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:46 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:46 2018 :: Log Kyrus: ner
+Sun Oct 28 11:45:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:45:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:45:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:46:11 2018 :: Log Kyrus: l
+Sun Oct 28 11:46:13 2018 :: Log Kyrus: scan
+Sun Oct 28 11:46:16 2018 :: Log Kyrus: 
+Sun Oct 28 11:46:16 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:46:20 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:23 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:23 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:27 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:30 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:34 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:46:37 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:46:37 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:46:40 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:46:40 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:46:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:46:55 2018 :: Log Kyrus: 
+Sun Oct 28 11:46:56 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:47:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:02 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:03 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:47:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:47:06 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:47:07 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:47:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:23 2018 :: Log Kyrus: l
+Sun Oct 28 11:47:24 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:24 2018 :: Log Kyrus: scan
+Sun Oct 28 11:47:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:26 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:27 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:28 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:29 2018 :: Log Kyrus: 
+Sun Oct 28 11:47:32 2018 :: Log Kyrus: wo
+Sun Oct 28 11:47:33 2018 :: Log Kyrus: sc
+Sun Oct 28 11:47:34 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:47:37 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:40 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:43 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:47 2018 :: Log Kyrus: who
+Sun Oct 28 11:47:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:53 2018 :: Log Kyrus: ner
+Sun Oct 28 11:47:57 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:00 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:06 2018 :: Log Kyrus: who
+Sun Oct 28 11:48:07 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:10 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:11 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:12 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:13 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:14 2018 :: Log Kyrus: kill sw
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 11:48:17 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:21 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:24 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:27 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:27 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:31 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:48:42 2018 :: Log Kyrus: who
+Sun Oct 28 11:48:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:50 2018 :: Log Kyrus: ner
+Sun Oct 28 11:48:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:54 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:54 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:48:54 2018 :: Log Kyrus: l
+Sun Oct 28 11:48:55 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:55 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:56 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:48:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:01 2018 :: Log Kyrus: look look
+Sun Oct 28 11:49:03 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:03 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:04 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:04 2018 :: Log Kyrus: scan
+Sun Oct 28 11:49:06 2018 :: Log Kyrus: recal
+Sun Oct 28 11:49:06 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:07 2018 :: Log Kyrus: 
+Sun Oct 28 11:49:08 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:09 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:09 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:09 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:10 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:11 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:11 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:11 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:12 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:13 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:13 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:13 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:15 2018 :: Log Kyrus: tk gold
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 11:49:16 2018 :: Log Kyrus: tk gold
+Sun Oct 28 11:49:16 2018 :: Log Kyrus: sleep
+Sun Oct 28 11:49:36 2018 :: Log Kyrus: sl
+Sun Oct 28 11:49:37 2018 :: Log Kyrus: sc
+Sun Oct 28 11:49:38 2018 :: Log Kyrus: who
+Sun Oct 28 11:51:31 2018 :: Log Kyrus: wake
+Sun Oct 28 11:51:31 2018 :: Log Kyrus: l
+Sun Oct 28 11:51:32 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:33 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:33 2018 :: Log Kyrus: r e 3
+Sun Oct 28 11:51:34 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:34 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:36 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 11:51:39 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 11:51:39 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 11:51:47 2018 :: Log Kyrus: r e 8
+Sun Oct 28 11:51:47 2018 :: Log Kyrus: open east
+Sun Oct 28 11:51:48 2018 :: Log Kyrus: r e 25
+Sun Oct 28 11:51:48 2018 :: Log Kyrus: open east
+Sun Oct 28 11:51:48 2018 :: Log Kyrus: r e 6
+Sun Oct 28 11:51:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:50 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:51:59 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:04 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:04 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:05 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:06 2018 :: Log Kyrus: scan
+Sun Oct 28 11:52:10 2018 :: Log Kyrus: steel
+Sun Oct 28 11:52:12 2018 :: Log Kyrus: steel
+Sun Oct 28 11:52:15 2018 :: Log Kyrus: 
+Sun Oct 28 11:52:16 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:52:19 2018 :: Log Kyrus: score
+Sun Oct 28 11:52:21 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:25 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:28 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:31 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:34 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:38 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:41 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:44 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:47 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:51 2018 :: Log Kyrus: who
+Sun Oct 28 11:52:51 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:52:58 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:01 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:04 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:08 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:11 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:14 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:15 2018 :: Log Kyrus: who
+Sun Oct 28 11:53:15 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:53:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:53:16 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:53:16 2018 :: Log Kyrus: wo
+Sun Oct 28 11:53:18 2018 :: Log Kyrus: scan
+Sun Oct 28 11:53:19 2018 :: Log Kyrus: 
+Sun Oct 28 11:53:20 2018 :: Log Kyrus: 
+Sun Oct 28 11:53:21 2018 :: Log Kyrus: scan
+Sun Oct 28 11:53:22 2018 :: Log Kyrus: 
+Sun Oct 28 11:53:23 2018 :: Log Kyrus: scan
+Sun Oct 28 11:53:25 2018 :: Log Kyrus: 
+Sun Oct 28 11:53:26 2018 :: Log Kyrus: kill pi
+Sun Oct 28 11:53:29 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:33 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:36 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:39 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:42 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:46 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:49 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:52 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:55 2018 :: Log Kyrus: ner
+Sun Oct 28 11:53:59 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:02 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:05 2018 :: Log Kyrus: who
+Sun Oct 28 11:54:05 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:09 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:12 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:15 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:18 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:22 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:25 2018 :: Log Kyrus: who
+Sun Oct 28 11:54:25 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:28 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:29 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:32 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:35 2018 :: Log Kyrus: nerve
+Sun Oct 28 11:54:38 2018 :: Log Kyrus: gr
+Sun Oct 28 11:54:39 2018 :: Log Kyrus: ner
+Sun Oct 28 11:54:42 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:54:42 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:54:42 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:54:47 2018 :: Log Kyrus: scan
+Sun Oct 28 11:54:48 2018 :: Log Kyrus: l
+Sun Oct 28 11:54:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:49 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:51 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:52 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:53 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:54 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:54 2018 :: Log Kyrus: scan
+Sun Oct 28 11:54:55 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:56 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:57 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:54:58 2018 :: Log Kyrus: 
+Sun Oct 28 11:55:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:55:00 2018 :: Log Kyrus: 
+Sun Oct 28 11:55:01 2018 :: Log Kyrus: 
+Sun Oct 28 11:55:02 2018 :: Log Kyrus: 
+Sun Oct 28 11:55:02 2018 :: Log Kyrus: wo
+Sun Oct 28 11:55:04 2018 :: Log Kyrus: kill sw
+Sun Oct 28 11:55:09 2018 :: Log Kyrus: conf
+Sun Oct 28 11:55:13 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:16 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:19 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:22 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:26 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:29 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:32 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:35 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:39 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:42 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:45 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:48 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:52 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:55 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:55 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:55 2018 :: Log Kyrus: k
+Sun Oct 28 11:55:56 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:55:56 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:55:56 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 11:56:39 2018 :: Log Kyrus: wo
+Sun Oct 28 11:56:40 2018 :: Log Kyrus: recal
+Sun Oct 28 11:56:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:56:41 2018 :: Log Kyrus: 
+Sun Oct 28 11:56:42 2018 :: Log Kyrus: sleep
+Sun Oct 28 12:01:12 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 12:01:12 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 12:01:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:14 2018 :: Log Kyrus: drink
+Sun Oct 28 12:01:14 2018 :: Log Kyrus: drink
+Sun Oct 28 12:01:15 2018 :: Log Kyrus: fill jug
+Sun Oct 28 12:01:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:18 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:19 2018 :: Log Kyrus: wo
+Sun Oct 28 12:01:20 2018 :: Log Kyrus: kill gh
+Sun Oct 28 12:01:24 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:24 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:24 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:25 2018 :: Log Kyrus: open pump
+Sun Oct 28 12:01:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:01:32 2018 :: Log Kyrus: wo
+Sun Oct 28 12:01:33 2018 :: Log Kyrus: score
+Sun Oct 28 12:01:36 2018 :: Log Kyrus: wo
+Sun Oct 28 12:01:38 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:01:40 2018 :: Log Kyrus: r e 8
+Sun Oct 28 12:01:41 2018 :: Log Kyrus: open east
+Sun Oct 28 12:01:41 2018 :: Log Kyrus: r e 25
+Sun Oct 28 12:01:41 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:01:41 2018 :: Log Kyrus: open east
+Sun Oct 28 12:01:41 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:01:42 2018 :: Log Kyrus: r e 6
+Sun Oct 28 12:01:42 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:50 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:50 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:51 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:51 2018 :: Log Kyrus: 
+Sun Oct 28 12:01:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:01:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:01:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:02:07 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:07 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:07 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:02:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:02:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:02:36 2018 :: Log Kyrus: ner
+Sun Oct 28 12:02:37 2018 :: Log Kyrus: nerve
+Sun Oct 28 12:02:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:02:47 2018 :: Log Kyrus: wo
+Sun Oct 28 12:02:48 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:49 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:50 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:51 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:52 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:52 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:53 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:54 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:54 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:55 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:56 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:56 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:57 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:58 2018 :: Log Kyrus: scan
+Sun Oct 28 12:02:59 2018 :: Log Kyrus: 
+Sun Oct 28 12:02:59 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:00 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:00 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:01 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:02 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:02 2018 :: Log Kyrus: 
+Sun Oct 28 12:03:04 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:03:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:11 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:14 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:44 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:47 2018 :: Log Kyrus: ner
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 12:03:50 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:50 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:51 2018 :: Log Kyrus: ner
+Sun Oct 28 12:03:51 2018 :: Log Kyrus: nerve
+Sun Oct 28 12:03:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:03:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:03:52 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:04:04 2018 :: Log Kyrus: l
+Sun Oct 28 12:04:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:06 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:07 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:08 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:09 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:10 2018 :: Log Kyrus: score
+Sun Oct 28 12:04:12 2018 :: Log Kyrus: l
+Sun Oct 28 12:04:14 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:15 2018 :: Log Kyrus: l
+Sun Oct 28 12:04:18 2018 :: Log Kyrus: recal
+Sun Oct 28 12:04:21 2018 :: Log Kyrus: r e 3
+Sun Oct 28 12:04:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:26 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:26 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:27 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:28 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:29 2018 :: Log Kyrus: list
+Sun Oct 28 12:04:32 2018 :: Log Kyrus: buy true
+Sun Oct 28 12:04:32 2018 :: Log Kyrus: buy true
+Sun Oct 28 12:04:32 2018 :: Log Kyrus: buy true
+Sun Oct 28 12:04:33 2018 :: Log Kyrus: buy true
+Sun Oct 28 12:04:33 2018 :: Log Kyrus: buy true
+Sun Oct 28 12:04:33 2018 :: Log Kyrus: recal
+Sun Oct 28 12:04:35 2018 :: Log Kyrus: r e 3
+Sun Oct 28 12:04:35 2018 :: Log Kyrus: 
+Sun Oct 28 12:04:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:09 2018 :: Log Kyrus: r w 7
+Sun Oct 28 12:05:10 2018 :: Log Kyrus: open west
+Sun Oct 28 12:05:10 2018 :: Log Kyrus: r w 10
+Sun Oct 28 12:05:10 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:11 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:11 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:12 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:12 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:14 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:14 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:18 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:18 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:23 2018 :: Log Kyrus: r w 3
+Sun Oct 28 12:05:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:39 2018 :: Log Kyrus: climb
+Sun Oct 28 12:05:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:42 2018 :: Log Kyrus: open north
+Sun Oct 28 12:05:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:44 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:45 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:45 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:05:48 2018 :: Log Kyrus: af
+Sun Oct 28 12:05:50 2018 :: Log Kyrus: quaff tru
+Sun Oct 28 12:05:51 2018 :: Log Kyrus: l
+Sun Oct 28 12:05:53 2018 :: Log Kyrus: look ra
+Sun Oct 28 12:05:55 2018 :: Log Kyrus: kill ra
+Sun Oct 28 12:06:01 2018 :: Log Kyrus: flee
+Sun Oct 28 12:06:02 2018 :: Log Kyrus: flee
+Sun Oct 28 12:06:02 2018 :: Log Kyrus: flee
+Sun Oct 28 12:06:06 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:06 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:08 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:06:11 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:06:11 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:06:12 2018 :: Log Kyrus: l
+Sun Oct 28 12:06:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:14 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:16 2018 :: Log Kyrus: look gu
+Sun Oct 28 12:06:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:06:24 2018 :: Log Kyrus: open east
+Sun Oct 28 12:06:24 2018 :: Log Kyrus: ex
+Sun Oct 28 12:06:29 2018 :: Log Kyrus: conf
+Sun Oct 28 12:07:14 2018 :: Log Kyrus: ner
+Sun Oct 28 12:07:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:07:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:07:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:07:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:07:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:07:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:07:23 2018 :: Log Kyrus: l i cor
+Sun Oct 28 12:07:24 2018 :: Log Kyrus: l
+Sun Oct 28 12:07:25 2018 :: Log Kyrus: scan
+Sun Oct 28 12:07:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:07:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:07:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:07:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:07:35 2018 :: Log Kyrus: ex
+Sun Oct 28 12:07:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:07:40 2018 :: Log Kyrus: kill gu
+Sun Oct 28 12:07:43 2018 :: Log Kyrus: conf
+Sun Oct 28 12:07:46 2018 :: Log Kyrus: k
+Sun Oct 28 12:07:50 2018 :: Log Kyrus: k
+Sun Oct 28 12:07:53 2018 :: Log Kyrus: k
+Sun Oct 28 12:08:31 2018 :: Log Kyrus: flee
+Sun Oct 28 12:08:32 2018 :: Log Kyrus: flee
+Sun Oct 28 12:08:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:35 2018 :: Log Kyrus: ex
+Sun Oct 28 12:08:38 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:38 2018 :: Log Kyrus: ex
+Sun Oct 28 12:08:40 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:40 2018 :: Log Kyrus: ex
+Sun Oct 28 12:08:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:42 2018 :: Log Kyrus: scan
+Sun Oct 28 12:08:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:44 2018 :: Log Kyrus: open south
+Sun Oct 28 12:08:45 2018 :: Log Kyrus: open south
+Sun Oct 28 12:08:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:51 2018 :: Log Kyrus: open southwest
+Sun Oct 28 12:08:51 2018 :: Log Kyrus: 
+Sun Oct 28 12:08:55 2018 :: Log Kyrus: look king
+Sun Oct 28 12:08:57 2018 :: Log Kyrus: look th
+Sun Oct 28 12:09:01 2018 :: Log Kyrus: recal
+Sun Oct 28 12:09:02 2018 :: Log Kyrus: 
+Sun Oct 28 12:09:03 2018 :: Log Kyrus: 
+Sun Oct 28 12:09:04 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:05 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:05 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:06 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:06 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:06 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:06 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:08 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:08 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:08 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:08 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:09 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:09 2018 :: Log Kyrus: tk gold
+Sun Oct 28 12:09:10 2018 :: Log Kyrus: sleep
+Sun Oct 28 12:12:16 2018 :: Log Kyrus: who
+Sun Oct 28 12:12:17 2018 :: Log Kyrus: wake
+Sun Oct 28 12:12:18 2018 :: Log Kyrus: score
+Sun Oct 28 12:12:18 2018 :: Log Kyrus: l
+Sun Oct 28 12:12:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:22 2018 :: Log Kyrus: r e 3
+Sun Oct 28 12:12:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:24 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:12:27 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:12:27 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:12:30 2018 :: Log Kyrus: r e 8
+Sun Oct 28 12:12:31 2018 :: Log Kyrus: open east
+Sun Oct 28 12:12:31 2018 :: Log Kyrus: r e 25
+Sun Oct 28 12:12:32 2018 :: Log Kyrus: open east
+Sun Oct 28 12:12:32 2018 :: Log Kyrus: r e 6
+Sun Oct 28 12:12:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:37 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:37 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:38 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:39 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:40 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:40 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:41 2018 :: Log Kyrus: scan
+Sun Oct 28 12:12:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:42 2018 :: Log Kyrus: scan
+Sun Oct 28 12:12:42 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:44 2018 :: Log Kyrus: scan
+Sun Oct 28 12:12:44 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:45 2018 :: Log Kyrus: scan
+Sun Oct 28 12:12:45 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:47 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:48 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:49 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:49 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:50 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:51 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:52 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:52 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:53 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:54 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:55 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:56 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:56 2018 :: Log Kyrus: 
+Sun Oct 28 12:12:57 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:06 2018 :: Log Kyrus: where swa
+Sun Oct 28 12:13:08 2018 :: Log Kyrus: l
+Sun Oct 28 12:13:09 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:09 2018 :: Log Kyrus: scan
+Sun Oct 28 12:13:10 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:11 2018 :: Log Kyrus: scan
+Sun Oct 28 12:13:12 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:13 2018 :: Log Kyrus: scan
+Sun Oct 28 12:13:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:13:19 2018 :: Log Kyrus: steel
+Sun Oct 28 12:13:20 2018 :: Log Kyrus: steel
+Sun Oct 28 12:13:23 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:13:26 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:29 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:36 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:43 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:46 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:49 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:13:59 2018 :: Log Kyrus: nerve
+Sun Oct 28 12:14:02 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:14:02 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:14:03 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:16:25 2018 :: Log Kyrus: l
+Sun Oct 28 12:16:26 2018 :: Log Kyrus: wo
+Sun Oct 28 12:16:27 2018 :: Log Kyrus: sc
+Sun Oct 28 12:16:29 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:16:50 2018 :: Log Kyrus: ner
+Sun Oct 28 12:16:53 2018 :: Log Kyrus: ner
+Sun Oct 28 12:16:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:16:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:03 2018 :: Log Kyrus: ner
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 12:17:06 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:09 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:25 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:17:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:28 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:17:28 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:17:31 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:37 2018 :: Log Kyrus: score
+Sun Oct 28 12:17:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:17:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:17:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:17:47 2018 :: Log Kyrus: l
+Sun Oct 28 12:17:49 2018 :: Log Kyrus: scan
+Sun Oct 28 12:17:51 2018 :: Log Kyrus: 
+Sun Oct 28 12:17:52 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:17:55 2018 :: Log Kyrus: ner
+Sun Oct 28 12:17:58 2018 :: Log Kyrus: ner
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 12:18:02 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:05 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:28 2018 :: Log Kyrus: 
+Sun Oct 28 12:18:29 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:18:33 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:18:33 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:18:34 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:18:35 2018 :: Log Kyrus: 
+Sun Oct 28 12:18:35 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:18:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:42 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:45 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:48 2018 :: Log Kyrus: ner
+Sun Oct 28 12:18:49 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:18:49 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:18:49 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:19:14 2018 :: Log Kyrus: wo
+Sun Oct 28 12:19:15 2018 :: Log Kyrus: sc
+Sun Oct 28 12:19:16 2018 :: Log Kyrus: who
+Sun Oct 28 12:19:17 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:19:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:19:43 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:19:46 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:19:46 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:20:12 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:13 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:13 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:14 2018 :: Log Kyrus: l
+Sun Oct 28 12:20:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:20:17 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:20:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:42 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:45 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:45 2018 :: Log Kyrus: 
+Sun Oct 28 12:20:46 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:20:49 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:20:52 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:20:53 2018 :: Log Kyrus: wo
+Sun Oct 28 12:20:53 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:21:10 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:13 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:42 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:21:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:21:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:21:46 2018 :: Log Kyrus: l
+Sun Oct 28 12:21:48 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:21:48 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:21:48 2018 :: Log Kyrus: 
+Sun Oct 28 12:21:50 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:21:53 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:21:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:03 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:06 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:09 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:16 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:24 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:22:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:27 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:22:27 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:22:29 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:34 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:22:34 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:22:34 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:22:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:35 2018 :: Log Kyrus: l
+Sun Oct 28 12:22:36 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:22:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:43 2018 :: Log Kyrus: wo
+Sun Oct 28 12:22:44 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:48 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:51 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:54 2018 :: Log Kyrus: ner
+Sun Oct 28 12:22:57 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:01 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:04 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:11 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:14 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:23:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:23:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:23:18 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:23:18 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:23:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:23:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:23:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:23:24 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:23:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:33 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:23:36 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:23:36 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:23:38 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:41 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:45 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:48 2018 :: Log Kyrus: look
+Sun Oct 28 12:23:48 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:51 2018 :: Log Kyrus: ner
+Sun Oct 28 12:23:58 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:01 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:04 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:04 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:24:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:24:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:24:14 2018 :: Log Kyrus: l
+Sun Oct 28 12:24:16 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:24:19 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:22 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:29 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:32 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:35 2018 :: Log Kyrus: who
+Sun Oct 28 12:24:35 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:42 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:48 2018 :: Log Kyrus: ner
+Sun Oct 28 12:24:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:04 2018 :: Log Kyrus: who
+Sun Oct 28 12:25:05 2018 :: Log Kyrus: l
+Sun Oct 28 12:25:07 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:25:08 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:25:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:15 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:18 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:36 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:40 2018 :: Log Kyrus: who
+Sun Oct 28 12:25:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:43 2018 :: Log Kyrus: ner
+Sun Oct 28 12:25:55 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:25:58 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:25:58 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:25:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:02 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:05 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:08 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:15 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:18 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:28 2018 :: Log Kyrus: who
+Sun Oct 28 12:26:28 2018 :: Log Kyrus: l
+Sun Oct 28 12:26:28 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:32 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:35 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:26:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:26:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:26:39 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:26:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:42 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:26:42 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:26:42 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:46 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:49 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:26:56 2018 :: Log Kyrus: who
+Sun Oct 28 12:26:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:03 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:07 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:10 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:13 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:19 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:23 2018 :: Log Kyrus: wo
+Sun Oct 28 12:27:24 2018 :: Log Kyrus: l
+Sun Oct 28 12:27:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:26 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:38 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:39 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:42 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:42 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:27:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:27:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:47 2018 :: Log Kyrus: 
+Sun Oct 28 12:27:47 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:27:51 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:54 2018 :: Log Kyrus: ner
+Sun Oct 28 12:27:57 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:28:00 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:28:00 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:28:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:28:31 2018 :: Log Kyrus: ner
+Sun Oct 28 12:28:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:28:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:28:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:28:41 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:28:41 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:28:58 2018 :: Log Kyrus: 
+Sun Oct 28 12:29:00 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:29:03 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:06 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:09 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:13 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:29:42 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:29:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:29:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:29:46 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:29:46 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:29:50 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:53 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:29:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 12:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sun Oct 28 12:30:03 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:01 2018 :: Log Kyrus: 
+Sun Oct 28 12:31:02 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:31:05 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:06 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:06 2018 :: Log Kyrus: 
+Sun Oct 28 12:31:07 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:31:10 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:31:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:31:11 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:31:11 2018 :: Log Kyrus: wo
+Sun Oct 28 12:31:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:31:16 2018 :: Log Kyrus: scan
+Sun Oct 28 12:31:17 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:31:20 2018 :: Log Kyrus: who
+Sun Oct 28 12:31:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:28 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:31 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:57 2018 :: Log Kyrus: ner
+Sun Oct 28 12:31:57 2018 :: Log Kyrus: 
+Sun Oct 28 12:31:58 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:32:01 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:32:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:32:05 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:32:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:32:06 2018 :: Log Kyrus: scan
+Sun Oct 28 12:32:09 2018 :: Log Kyrus: where sw
+Sun Oct 28 12:32:10 2018 :: Log Kyrus: 
+Sun Oct 28 12:32:11 2018 :: Log Kyrus: scan
+Sun Oct 28 12:32:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:32:14 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:32:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:32:40 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:32:41 2018 :: Log Kyrus: nerve
+Sun Oct 28 12:32:43 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:32:43 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:32:56 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:32:56 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:32:57 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:34:05 2018 :: Log Kyrus: who
+Sun Oct 28 12:34:06 2018 :: Log Kyrus: l
+Sun Oct 28 12:34:07 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:08 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:34:09 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:10 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:11 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:12 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:13 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:14 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:16 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:18 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:19 2018 :: Log Kyrus: where sw
+Sun Oct 28 12:34:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:21 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:22 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:24 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:26 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:26 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:27 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:28 2018 :: Log Kyrus: scan
+Sun Oct 28 12:34:29 2018 :: Log Kyrus: 
+Sun Oct 28 12:34:30 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:34:33 2018 :: Log Kyrus: wo
+Sun Oct 28 12:34:35 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:38 2018 :: Log Kyrus: score
+Sun Oct 28 12:34:41 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:44 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:48 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:51 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:54 2018 :: Log Kyrus: ner
+Sun Oct 28 12:34:57 2018 :: Log Kyrus: ner
+Sun Oct 28 12:35:01 2018 :: Log Kyrus: ner
+Sun Oct 28 12:35:04 2018 :: Log Kyrus: ner
+Sun Oct 28 12:35:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:35:10 2018 :: Log Kyrus: ner
+Sun Oct 28 12:35:14 2018 :: Log Kyrus: ner
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 12:35:44 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:35:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:35:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:39:55 2018 :: Log Kyrus: l
+Sun Oct 28 12:39:57 2018 :: Log Kyrus: l i met
+Sun Oct 28 12:40:00 2018 :: Log Kyrus: get br met
+Sun Oct 28 12:40:01 2018 :: Log Kyrus: get br met
+Sun Oct 28 12:40:01 2018 :: Log Kyrus: get br met
+Sun Oct 28 12:40:01 2018 :: Log Kyrus: get br met
+Sun Oct 28 12:40:03 2018 :: Log Kyrus: put br met
+Sun Oct 28 12:40:04 2018 :: Log Kyrus: put br met
+Sun Oct 28 12:40:04 2018 :: Log Kyrus: recal
+Sun Oct 28 12:40:06 2018 :: Log Kyrus: recal
+Sun Oct 28 12:40:09 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:40:10 2018 :: Log Kyrus: r e 3
+Sun Oct 28 12:40:11 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:11 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:11 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:40:12 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:40:13 2018 :: Log Kyrus: r w 7
+Sun Oct 28 12:40:14 2018 :: Log Kyrus: open west
+Sun Oct 28 12:40:14 2018 :: Log Kyrus: r w 10
+Sun Oct 28 12:40:14 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:15 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:16 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:18 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:18 2018 :: Log Kyrus: r s 7
+Sun Oct 28 12:40:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:22 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:23 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:24 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:25 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:26 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:26 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:27 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:27 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:32 2018 :: Log Kyrus: open east
+Sun Oct 28 12:40:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:38 2018 :: Log Kyrus: look la
+Sun Oct 28 12:40:41 2018 :: Log Kyrus: steel
+Sun Oct 28 12:40:42 2018 :: Log Kyrus: iron
+Sun Oct 28 12:40:48 2018 :: Log Kyrus: steel
+Sun Oct 28 12:40:52 2018 :: Log Kyrus: 
+Sun Oct 28 12:40:52 2018 :: Log Kyrus: kill lan
+Sun Oct 28 12:40:55 2018 :: Log Kyrus: ner
+Sun Oct 28 12:40:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:41:02 2018 :: Log Kyrus: ner
+Sun Oct 28 12:41:05 2018 :: Log Kyrus: ner
+Sun Oct 28 12:41:08 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:08 2018 :: Log Kyrus: conf
+Sun Oct 28 12:43:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:15 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:18 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:21 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:25 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:43:27 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:43:28 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:43:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:36 2018 :: Log Kyrus: conf
+Sun Oct 28 12:43:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:43 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:46 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:49 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:52 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:56 2018 :: Log Kyrus: ner
+Sun Oct 28 12:43:59 2018 :: Log Kyrus: ner
+Sun Oct 28 12:44:02 2018 :: Log Kyrus: ner
+Sun Oct 28 12:44:05 2018 :: Log Kyrus: ner
+Sun Oct 28 12:44:09 2018 :: Log Kyrus: ner
+Sun Oct 28 12:44:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:12 2018 :: Log Kyrus: conf
+Sun Oct 28 12:45:16 2018 :: Log Kyrus: who
+Sun Oct 28 12:45:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:23 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:26 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:33 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:36 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:39 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:45:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:45:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:45:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:45:41 2018 :: Log Kyrus: l i cor
+Sun Oct 28 12:45:42 2018 :: Log Kyrus: get br cor
+Sun Oct 28 12:45:43 2018 :: Log Kyrus: sc
+Sun Oct 28 12:45:44 2018 :: Log Kyrus: wear br
+Sun Oct 28 12:45:46 2018 :: Log Kyrus: sc
+Sun Oct 28 12:45:52 2018 :: Log Kyrus: put og met
+Sun Oct 28 12:45:58 2018 :: Log Kyrus: l
+Sun Oct 28 12:45:59 2018 :: Log Kyrus: eq
+Sun Oct 28 12:46:02 2018 :: Log Kyrus: recal
+Sun Oct 28 12:46:04 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:07 2018 :: Log Kyrus: tk corpse
+Sun Oct 28 12:46:08 2018 :: Log Kyrus: tk corpse
+Sun Oct 28 12:46:09 2018 :: Log Kyrus: tk corpse
+Sun Oct 28 12:46:11 2018 :: Log Kyrus: drop corpse
+Sun Oct 28 12:46:12 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:46:13 2018 :: Log Kyrus: l
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 12:46:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:20 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:20 2018 :: Log Kyrus: r e 3
+Sun Oct 28 12:46:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:21 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:27 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:46:30 2018 :: Log Kyrus: r e 8
+Sun Oct 28 12:46:30 2018 :: Log Kyrus: open east
+Sun Oct 28 12:46:30 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:46:30 2018 :: Log Kyrus: r e 25
+Sun Oct 28 12:46:30 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:46:31 2018 :: Log Kyrus: open east
+Sun Oct 28 12:46:31 2018 :: Log Kyrus: r e 6
+Sun Oct 28 12:46:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:37 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:37 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:38 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:40 2018 :: Log Kyrus: scan
+Sun Oct 28 12:46:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:43 2018 :: Log Kyrus: 
+Sun Oct 28 12:46:46 2018 :: Log Kyrus: steel
+Sun Oct 28 12:46:48 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:46:52 2018 :: Log Kyrus: worth
+Sun Oct 28 12:46:59 2018 :: Log Kyrus: who
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 12:47:01 2018 :: Log Kyrus: ner
+Sun Oct 28 12:47:04 2018 :: Log Kyrus: ner
+Sun Oct 28 12:47:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:47:19 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:47:19 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:47:20 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:47:26 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:27 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:28 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:29 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:29 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:30 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:31 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:32 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:34 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:36 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:36 2018 :: Log Kyrus: scan
+Sun Oct 28 12:47:38 2018 :: Log Kyrus: 
+Sun Oct 28 12:47:39 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:48:12 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:15 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:18 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:22 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:28 2018 :: Log Kyrus: who
+Sun Oct 28 12:48:29 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:32 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:35 2018 :: Log Kyrus: ner
+Sun Oct 28 12:48:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:48:41 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:48:41 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:48:45 2018 :: Log Kyrus: l
+Sun Oct 28 12:48:47 2018 :: Log Kyrus: scan
+Sun Oct 28 12:48:50 2018 :: Log Kyrus: kill pi
+Sun Oct 28 12:48:53 2018 :: Log Kyrus: conf
+Sun Oct 28 12:48:54 2018 :: Log Kyrus: conf
+Sun Oct 28 12:48:58 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 12:48:58 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 12:48:59 2018 :: Log Kyrus: drink jug
+Sun Oct 28 12:49:00 2018 :: Log Kyrus: ner
+Sun Oct 28 12:49:03 2018 :: Log Kyrus: ner
+Sun Oct 28 12:49:07 2018 :: Log Kyrus: ner
+Sun Oct 28 12:49:25 2018 :: Log Kyrus: ner
+Sun Oct 28 12:49:28 2018 :: Log Kyrus: ner
+Sun Oct 28 12:49:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:49:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:49:29 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:49:29 2018 :: Log Kyrus: wo
+Sun Oct 28 12:49:30 2018 :: Log Kyrus: l
+Sun Oct 28 12:49:32 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:49:32 2018 :: Log Kyrus: sac cor
+Sun Oct 28 12:49:33 2018 :: Log Kyrus: scan
+Sun Oct 28 12:49:34 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:35 2018 :: Log Kyrus: scan
+Sun Oct 28 12:49:35 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:36 2018 :: Log Kyrus: scan
+Sun Oct 28 12:49:38 2018 :: Log Kyrus: where sw
+Sun Oct 28 12:49:39 2018 :: Log Kyrus: l
+Sun Oct 28 12:49:40 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:41 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:42 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:44 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:44 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:46 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:47 2018 :: Log Kyrus: 
+Sun Oct 28 12:49:50 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:49:53 2018 :: Log Kyrus: conf
+Sun Oct 28 12:49:54 2018 :: Log Kyrus: conf
+Sun Oct 28 12:49:55 2018 :: Log Kyrus: conf
+Sun Oct 28 12:49:58 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:50:01 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:50:01 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:50:33 2018 :: Log Kyrus: who
+Sun Oct 28 12:50:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:50:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:50:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:50:43 2018 :: Log Kyrus: ner
+Sun Oct 28 12:50:47 2018 :: Log Kyrus: ner
+Sun Oct 28 12:50:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:50:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:50:53 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:51:27 2018 :: Log Kyrus: wo
+Sun Oct 28 12:51:28 2018 :: Log Kyrus: l
+Sun Oct 28 12:51:30 2018 :: Log Kyrus: scan
+Sun Oct 28 12:51:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:51:32 2018 :: Log Kyrus: 
+Sun Oct 28 12:51:33 2018 :: Log Kyrus: 
+Sun Oct 28 12:51:37 2018 :: Log Kyrus: steel
+Sun Oct 28 12:51:40 2018 :: Log Kyrus: iron
+Sun Oct 28 12:51:46 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:52:16 2018 :: Log Kyrus: who
+Sun Oct 28 12:52:17 2018 :: Log Kyrus: ner
+Sun Oct 28 12:52:20 2018 :: Log Kyrus: ner
+Sun Oct 28 12:52:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:53:14 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:53:14 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:53:14 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:56:13 2018 :: Log Kyrus: wo
+Sun Oct 28 12:56:14 2018 :: Log Kyrus: who
+Sun Oct 28 12:56:15 2018 :: Log Kyrus: wake
+Sun Oct 28 12:56:15 2018 :: Log Kyrus: l
+Sun Oct 28 12:56:16 2018 :: Log Kyrus: wo
+Sun Oct 28 12:56:17 2018 :: Log Kyrus: 
+Sun Oct 28 12:56:18 2018 :: Log Kyrus: scan
+Sun Oct 28 12:56:18 2018 :: Log Kyrus: 
+Sun Oct 28 12:56:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:56:19 2018 :: Log Kyrus: 
+Sun Oct 28 12:56:22 2018 :: Log Kyrus: steel
+Sun Oct 28 12:56:23 2018 :: Log Kyrus: af
+Sun Oct 28 12:56:24 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:56:32 2018 :: Log Kyrus: ner
+Sun Oct 28 12:56:35 2018 :: Log Kyrus: ner
+Sun Oct 28 12:56:38 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:21 2018 :: Log Kyrus: conf
+Sun Oct 28 12:57:24 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:27 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:30 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:34 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 12:57:34 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:36 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 12:57:37 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 12:57:37 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:40 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:44 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:47 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:47 2018 :: Log Kyrus: ner
+Sun Oct 28 12:57:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:57:48 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:57:48 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:57:54 2018 :: Log Kyrus: l
+Sun Oct 28 12:57:55 2018 :: Log Kyrus: scan
+Sun Oct 28 12:57:56 2018 :: Log Kyrus: l
+Sun Oct 28 12:57:56 2018 :: Log Kyrus: af
+Sun Oct 28 12:57:58 2018 :: Log Kyrus: l
+Sun Oct 28 12:57:59 2018 :: Log Kyrus: eq
+Sun Oct 28 12:58:02 2018 :: Log Kyrus: l
+Sun Oct 28 12:58:03 2018 :: Log Kyrus: 
+Sun Oct 28 12:58:05 2018 :: Log Kyrus: 
+Sun Oct 28 12:58:06 2018 :: Log Kyrus: scan
+Sun Oct 28 12:58:08 2018 :: Log Kyrus: 
+Sun Oct 28 12:58:09 2018 :: Log Kyrus: wo
+Sun Oct 28 12:58:11 2018 :: Log Kyrus: who
+Sun Oct 28 12:58:12 2018 :: Log Kyrus: kill sw
+Sun Oct 28 12:58:16 2018 :: Log Kyrus: ner
+Sun Oct 28 12:58:19 2018 :: Log Kyrus: ner
+Sun Oct 28 12:58:22 2018 :: Log Kyrus: ner
+Sun Oct 28 12:59:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:59:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 12:59:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:05:45 2018 :: Log Kyrus: who
+Sun Oct 28 13:05:46 2018 :: Log Kyrus: wake
+Sun Oct 28 13:05:47 2018 :: Log Kyrus: l
+Sun Oct 28 13:05:50 2018 :: Log Kyrus: steel
+Sun Oct 28 13:05:53 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:05:56 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:05:59 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:05:59 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:06:09 2018 :: Log Kyrus: =ner
+Sun Oct 28 13:06:09 2018 :: Log Kyrus: =ner
+Sun Oct 28 13:06:11 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:14 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:17 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:20 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:24 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:27 2018 :: Log Kyrus: ner
+Sun Oct 28 13:06:31 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:06:31 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:06:31 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:07:21 2018 :: Log Kyrus: l
+Sun Oct 28 13:07:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:07:22 2018 :: Log Kyrus: scan
+Sun Oct 28 13:07:24 2018 :: Log Kyrus: 
+Sun Oct 28 13:07:25 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:07:28 2018 :: Log Kyrus: ner
+Sun Oct 28 13:07:31 2018 :: Log Kyrus: ner
+Sun Oct 28 13:07:35 2018 :: Log Kyrus: ner
+Sun Oct 28 13:07:38 2018 :: Log Kyrus: ner
+Sun Oct 28 13:07:41 2018 :: Log Kyrus: ner
+Sun Oct 28 13:07:45 2018 :: Log Kyrus: ner
+Sun Oct 28 13:08:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:08:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:08:02 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:11:21 2018 :: Log Kyrus: wo
+Sun Oct 28 13:11:22 2018 :: Log Kyrus: l
+Sun Oct 28 13:11:23 2018 :: Log Kyrus: scan
+Sun Oct 28 13:11:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:11:26 2018 :: Log Kyrus: steel
+Sun Oct 28 13:11:30 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:11:33 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:11:36 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:11:36 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:11:46 2018 :: Log Kyrus: wo
+Sun Oct 28 13:11:47 2018 :: Log Kyrus: ner
+Sun Oct 28 13:11:50 2018 :: Log Kyrus: ner
+Sun Oct 28 13:11:53 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:03 2018 :: Log Kyrus: who
+Sun Oct 28 13:12:04 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:07 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:10 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:13 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:17 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:17 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:17 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:17 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:18 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:12:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:12:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:12:19 2018 :: Log Kyrus: wo
+Sun Oct 28 13:12:19 2018 :: Log Kyrus: l
+Sun Oct 28 13:12:20 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:21 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:22 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:24 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:24 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:26 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:12:30 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:30 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:31 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:31 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:33 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:34 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:34 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:35 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:36 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:36 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:37 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:37 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:38 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:39 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:40 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:40 2018 :: Log Kyrus: scan
+Sun Oct 28 13:12:41 2018 :: Log Kyrus: 
+Sun Oct 28 13:12:42 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:12:47 2018 :: Log Kyrus: wo
+Sun Oct 28 13:12:48 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:52 2018 :: Log Kyrus: score
+Sun Oct 28 13:12:52 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:55 2018 :: Log Kyrus: ner
+Sun Oct 28 13:12:58 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:02 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:18 2018 :: Log Kyrus: who
+Sun Oct 28 13:13:18 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:22 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:25 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:13:28 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:13:29 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:13:30 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:13:32 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:34 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:36 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:37 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:38 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:38 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:39 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:39 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:40 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:41 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:41 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:42 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:43 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:43 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:44 2018 :: Log Kyrus: scan
+Sun Oct 28 13:13:45 2018 :: Log Kyrus: 
+Sun Oct 28 13:13:46 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:13:56 2018 :: Log Kyrus: ner
+Sun Oct 28 13:13:59 2018 :: Log Kyrus: ner
+Sun Oct 28 13:14:02 2018 :: Log Kyrus: score
+Sun Oct 28 13:14:02 2018 :: Log Kyrus: ner
+Sun Oct 28 13:14:06 2018 :: Log Kyrus: ner
+Sun Oct 28 13:14:09 2018 :: Log Kyrus: ner
+Sun Oct 28 13:14:12 2018 :: Log Kyrus: ner
+Sun Oct 28 13:14:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:14:16 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:14:16 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:14:16 2018 :: Log Kyrus: recal
+Sun Oct 28 13:14:16 2018 :: Log Kyrus: recal
+Sun Oct 28 13:14:17 2018 :: Log Kyrus: r e 3
+Sun Oct 28 13:14:18 2018 :: Log Kyrus: 
+Sun Oct 28 13:14:18 2018 :: Log Kyrus: 
+Sun Oct 28 13:14:20 2018 :: Log Kyrus: r w 6
+Sun Oct 28 13:14:21 2018 :: Log Kyrus: r s 4
+Sun Oct 28 13:14:30 2018 :: Log Kyrus: 
+Sun Oct 28 13:14:30 2018 :: Log Kyrus: gain
+Sun Oct 28 13:14:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:14:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:14:34 2018 :: Log Kyrus: gain
+Sun Oct 28 13:14:40 2018 :: Log Kyrus: help crane
+Sun Oct 28 13:14:54 2018 :: Log Kyrus: gain fist
+Sun Oct 28 13:14:56 2018 :: Log Kyrus: prac
+chgrp: changing group of '../gods/Killuminati': Operation not permitted
+chgrp: changing group of '../player/Killuminati': Operation not permitted
+Sun Oct 28 13:14:59 2018 :: Log Kyrus: prac fist
+Sun Oct 28 13:14:59 2018 :: Log Kyrus: prac fist
+Sun Oct 28 13:15:00 2018 :: Log Kyrus: prac
+Sun Oct 28 13:15:02 2018 :: Log Kyrus: prac fist
+Sun Oct 28 13:15:02 2018 :: Log Kyrus: prac fist
+Sun Oct 28 13:15:02 2018 :: Log Kyrus: prac fist
+Sun Oct 28 13:15:03 2018 :: Log Kyrus: prac
+Sun Oct 28 13:15:06 2018 :: Log Kyrus: fi
+Sun Oct 28 13:15:10 2018 :: Log Kyrus: alias fi fist
+Sun Oct 28 13:15:12 2018 :: Log Kyrus: fi
+Sun Oct 28 13:15:14 2018 :: Log Kyrus: recal
+Sun Oct 28 13:15:18 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:15:20 2018 :: Log Kyrus: r e 3
+Sun Oct 28 13:15:20 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:21 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:21 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:15:21 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:15:24 2018 :: Log Kyrus: r e 8
+Sun Oct 28 13:15:24 2018 :: Log Kyrus: open east
+Sun Oct 28 13:15:24 2018 :: Log Kyrus: r e 25
+Sun Oct 28 13:15:25 2018 :: Log Kyrus: open east
+Sun Oct 28 13:15:25 2018 :: Log Kyrus: r e 6
+Sun Oct 28 13:15:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:29 2018 :: Log Kyrus: kill sa
+Sun Oct 28 13:15:32 2018 :: Log Kyrus: fi
+Sun Oct 28 13:15:38 2018 :: Log Kyrus: fi
+Sun Oct 28 13:15:43 2018 :: Log Kyrus: 
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 13:15:44 2018 :: Log Kyrus: kill sa
+Sun Oct 28 13:15:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:15:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:15:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:15:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:49 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:49 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:50 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:53 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:15:53 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:54 2018 :: Log Kyrus: scan
+Sun Oct 28 13:15:55 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:55 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:56 2018 :: Log Kyrus: scan
+Sun Oct 28 13:15:57 2018 :: Log Kyrus: 
+Sun Oct 28 13:15:58 2018 :: Log Kyrus: kill sw
+Sun Oct 28 13:16:02 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:08 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:14 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:16:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:16:21 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:16:21 2018 :: Log Kyrus: look
+Sun Oct 28 13:16:23 2018 :: Log Kyrus: kil pi
+Sun Oct 28 13:16:26 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:33 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:39 2018 :: Log Kyrus: fi
+Sun Oct 28 13:16:45 2018 :: Log Kyrus: l
+Sun Oct 28 13:16:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:16:49 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:16:55 2018 :: Log Kyrus: 
+Sun Oct 28 13:16:56 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:17:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:02 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:17:08 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:08 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:08 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:09 2018 :: Log Kyrus: wo
+Sun Oct 28 13:17:11 2018 :: Log Kyrus: l
+Sun Oct 28 13:17:12 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:13 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:14 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:14 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:15 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:16 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:16 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:17 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:17 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:19 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:20 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:17:26 2018 :: Log Kyrus: fi
+Sun Oct 28 13:17:32 2018 :: Log Kyrus: fi
+Sun Oct 28 13:17:38 2018 :: Log Kyrus: fi
+Sun Oct 28 13:17:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:17:45 2018 :: Log Kyrus: scan
+Sun Oct 28 13:17:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:17:49 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:17:55 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:01 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:08 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:14 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:20 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:26 2018 :: Log Kyrus: who
+Sun Oct 28 13:18:27 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:18:33 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:18:40 2018 :: Log Kyrus: fi
+Sun Oct 28 13:18:46 2018 :: Log Kyrus: wo
+Sun Oct 28 13:18:47 2018 :: Log Kyrus: fi
+Sun Oct 28 13:18:53 2018 :: Log Kyrus: fi
+Sun Oct 28 13:18:59 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:00 2018 :: Log Kyrus: kill pi
+Sun Oct 28 13:19:03 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:19:09 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:19:09 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:19:10 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:19:10 2018 :: Log Kyrus: wo
+Sun Oct 28 13:19:12 2018 :: Log Kyrus: scan
+Sun Oct 28 13:19:13 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:13 2018 :: Log Kyrus: scan
+Sun Oct 28 13:19:14 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:15 2018 :: Log Kyrus: scan
+Sun Oct 28 13:19:16 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:18 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:19:24 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:19:30 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:19:30 2018 :: Log Kyrus: fi
+Sun Oct 28 13:19:33 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:19:33 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:19:37 2018 :: Log Kyrus: fi
+Sun Oct 28 13:19:43 2018 :: Log Kyrus: fi
+Sun Oct 28 13:19:49 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:50 2018 :: Log Kyrus: kill pi
+Sun Oct 28 13:19:53 2018 :: Log Kyrus: 
+Sun Oct 28 13:19:54 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:20:00 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:00 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:00 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:01 2018 :: Log Kyrus: worth
+Sun Oct 28 13:20:02 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:03 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:03 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:05 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:07 2018 :: Log Kyrus: fi mi
+Sun Oct 28 13:20:13 2018 :: Log Kyrus: fi
+Sun Oct 28 13:20:19 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:20 2018 :: Log Kyrus: kill mi
+Sun Oct 28 13:20:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:20:24 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:24 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:25 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:27 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:29 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:31 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:20:33 2018 :: Log Kyrus: scan
+Sun Oct 28 13:20:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:20:36 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:20:42 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:20:48 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:20:55 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:01 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:07 2018 :: Log Kyrus: who
+Sun Oct 28 13:21:07 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:14 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:20 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:26 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:32 2018 :: Log Kyrus: who
+Sun Oct 28 13:21:33 2018 :: Log Kyrus: fi pi
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 13:21:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:40 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:40 2018 :: Log Kyrus: 
+Sun Oct 28 13:21:40 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:21:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:47 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:21:47 2018 :: Log Kyrus: group
+Sun Oct 28 13:21:49 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:21:51 2018 :: Log Kyrus: l
+Sun Oct 28 13:21:52 2018 :: Log Kyrus: 
+Sun Oct 28 13:21:54 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:02 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:08 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:15 2018 :: Log Kyrus: who
+Sun Oct 28 13:22:16 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:23 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:29 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:22:35 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:22:35 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:22:36 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:22:36 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:22:37 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:22:39 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:40 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:22:40 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:40 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:22:41 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:42 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:42 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:43 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:44 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:45 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:45 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:47 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:49 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:49 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:50 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:51 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:51 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:52 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:53 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:53 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:54 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:54 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:55 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:55 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:56 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:56 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:57 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:57 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:58 2018 :: Log Kyrus: scan
+Sun Oct 28 13:22:58 2018 :: Log Kyrus: 
+Sun Oct 28 13:22:59 2018 :: Log Kyrus: scan
+Sun Oct 28 13:23:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:00 2018 :: Log Kyrus: scan
+Sun Oct 28 13:23:02 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:02 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:09 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:15 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:25 2018 :: Log Kyrus: who
+Sun Oct 28 13:23:26 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:32 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:23:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:23:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:23:39 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:23:40 2018 :: Log Kyrus: scan
+Sun Oct 28 13:23:41 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:42 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:43 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:44 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:45 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:45 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:23:47 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:23:57 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:08 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:16 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:22 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:24:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:24:23 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:24:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:24:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:24:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:24:27 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:33 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:47 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:24:53 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:25:11 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:25:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:25:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:25:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:25:18 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:25:18 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:25:20 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:25:21 2018 :: Log Kyrus: look
+Sun Oct 28 13:25:21 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:25:21 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:25:28 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:25:32 2018 :: Log Kyrus: recal
+Sun Oct 28 13:25:36 2018 :: Log Kyrus: who
+Sun Oct 28 13:25:38 2018 :: Log Kyrus: score
+Sun Oct 28 13:25:39 2018 :: Log Kyrus: wo
+Sun Oct 28 13:26:04 2018 :: Log Kyrus: score
+Sun Oct 28 13:26:40 2018 :: Log Kyrus: who
+Sun Oct 28 13:26:41 2018 :: Log Kyrus: l
+Sun Oct 28 13:26:45 2018 :: Log Kyrus: r e 3
+Sun Oct 28 13:26:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:26:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:26:50 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:26:53 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:26:53 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:26:53 2018 :: Log Kyrus: r e 8
+Sun Oct 28 13:26:54 2018 :: Log Kyrus: open east
+Sun Oct 28 13:26:54 2018 :: Log Kyrus: r e 25
+Sun Oct 28 13:26:54 2018 :: Log Kyrus: open east
+Sun Oct 28 13:26:55 2018 :: Log Kyrus: r e 6
+Sun Oct 28 13:26:55 2018 :: Log Kyrus: 
+Sun Oct 28 13:26:56 2018 :: Log Kyrus: 
+Sun Oct 28 13:26:56 2018 :: Log Kyrus: 
+Sun Oct 28 13:26:57 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:26:59 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:01 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:02 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:03 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:12 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:19 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:26 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:32 2018 :: Log Kyrus: prac
+Sun Oct 28 13:27:32 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:27:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:27:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:27:41 2018 :: Log Kyrus: steel
+Sun Oct 28 13:27:42 2018 :: Log Kyrus: steel
+Sun Oct 28 13:27:45 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:27:46 2018 :: Log Kyrus: scan
+Sun Oct 28 13:27:47 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:48 2018 :: Log Kyrus: scan
+Sun Oct 28 13:27:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:49 2018 :: Log Kyrus: scan
+Sun Oct 28 13:27:50 2018 :: Log Kyrus: 
+Sun Oct 28 13:27:51 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:27:58 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:04 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:10 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:17 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:17 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:28:19 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:19 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:20 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:21 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:21 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:22 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:23 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:24 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:24 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:26 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:32 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:38 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:45 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:45 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:28:46 2018 :: Log Kyrus: scan
+Sun Oct 28 13:28:48 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:28:49 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:50 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:51 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:52 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:52 2018 :: Log Kyrus: 
+Sun Oct 28 13:28:53 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:28:59 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:05 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:12 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:29:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:29:18 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:29:19 2018 :: Log Kyrus: look
+Sun Oct 28 13:29:19 2018 :: Log Kyrus: sac cor
+Sun Oct 28 13:29:19 2018 :: Log Kyrus: sac cor
+Sun Oct 28 13:29:21 2018 :: Log Kyrus: 
+Sun Oct 28 13:29:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:29:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:29:24 2018 :: Log Kyrus: fi
+Sun Oct 28 13:29:27 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:36 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:42 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:48 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:29:55 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:30:00 2018 :: Log Killuminati: backup now
+Sun Oct 28 13:30:00 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sun Oct 28 13:30:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:01 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:02 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:02 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:03 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:04 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:07 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:07 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:08 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:09 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:30:14 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:14 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:15 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:17 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:17 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:18 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:18 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:20 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:20 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:30:29 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:30:36 2018 :: Log Kyrus: fi sw
+Sun Oct 28 13:30:42 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:43 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:43 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:30:43 2018 :: Log Kyrus: worth
+Sun Oct 28 13:30:46 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:48 2018 :: Log Kyrus: 
+Sun Oct 28 13:30:48 2018 :: Log Kyrus: scan
+Sun Oct 28 13:30:52 2018 :: Log Kyrus: kill pi
+Sun Oct 28 13:30:55 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:02 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:08 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:15 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:31:18 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:31:18 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:31:19 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:26 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:32 2018 :: Log Kyrus: 
+Sun Oct 28 13:31:33 2018 :: Log Kyrus: fi pi
+Sun Oct 28 13:31:41 2018 :: Log Kyrus: drink jug
+Sun Oct 28 13:31:41 2018 :: Log Kyrus: 
+Sun Oct 28 13:31:43 2018 :: Log Kyrus: kill pi
+Sun Oct 28 13:31:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:31:47 2018 :: Log Kyrus: kill pi
+Sun Oct 28 13:31:50 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:50 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:51 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:31:51 2018 :: Log Kyrus: help remort
+Sun Oct 28 13:32:10 2018 :: Log Kyrus: wake
+Sun Oct 28 13:32:11 2018 :: Log Kyrus: l
+Sun Oct 28 13:32:12 2018 :: Log Kyrus: wo
+Sun Oct 28 13:32:14 2018 :: Log Kyrus: where sw
+Sun Oct 28 13:32:15 2018 :: Log Kyrus: recal
+Sun Oct 28 13:32:17 2018 :: Log Kyrus: wo
+Sun Oct 28 13:32:22 2018 :: Log Kyrus: r e 3
+Sun Oct 28 13:32:22 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:23 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:25 2018 :: Log Kyrus: r w 7
+Sun Oct 28 13:32:25 2018 :: Log Kyrus: open west
+Sun Oct 28 13:32:25 2018 :: Log Kyrus: r w 10
+Sun Oct 28 13:32:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:26 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:28 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:28 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:29 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:29 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:30 2018 :: Log Kyrus: r s 7
+Sun Oct 28 13:32:30 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:31 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:31 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:32 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:32 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:33 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:34 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:34 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:35 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:36 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:36 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:37 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:37 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:38 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:38 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:39 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:39 2018 :: Log Kyrus: steel
+Sun Oct 28 13:32:41 2018 :: Log Kyrus: steel
+Sun Oct 28 13:32:42 2018 :: Log Kyrus: open east
+Sun Oct 28 13:32:43 2018 :: Log Kyrus: open east
+Sun Oct 28 13:32:43 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:44 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:45 2018 :: Log Kyrus: scan
+Sun Oct 28 13:32:46 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:46 2018 :: Log Kyrus: scan
+Sun Oct 28 13:32:47 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:47 2018 :: Log Kyrus: scan
+Sun Oct 28 13:32:50 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:50 2018 :: Log Kyrus: scan
+Sun Oct 28 13:32:56 2018 :: Log Kyrus: 
+Sun Oct 28 13:32:58 2018 :: Log Kyrus: look jes
+Sun Oct 28 13:33:00 2018 :: Log Kyrus: look ar
+Sun Oct 28 13:33:03 2018 :: Log Kyrus: steel
+Sun Oct 28 13:33:04 2018 :: Log Kyrus: iron
+Sun Oct 28 13:33:06 2018 :: Log Kyrus: fi ar
+Sun Oct 28 13:33:12 2018 :: Log Kyrus: fi ar
+Sun Oct 28 13:33:18 2018 :: Log Kyrus: fi ar
+Sun Oct 28 13:33:24 2018 :: Log Kyrus: fi ar
+Sun Oct 28 13:33:34 2018 :: Log Kyrus: fi ar
+Sun Oct 28 13:33:41 2018 :: Log Kyrus: who
+Sun Oct 28 13:33:42 2018 :: Log Kyrus: fi
+Sun Oct 28 13:33:48 2018 :: Log Kyrus: fi
+Sun Oct 28 13:33:55 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:01 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:07 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:13 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:20 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:26 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:32 2018 :: Log Kyrus: who
+Sun Oct 28 13:34:32 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:39 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:34:39 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:41 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:34:42 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:34:45 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:51 2018 :: Log Kyrus: fi
+Sun Oct 28 13:34:58 2018 :: Log Kyrus: fi
+Sun Oct 28 13:35:04 2018 :: Log Kyrus: fi
+Sun Oct 28 13:35:10 2018 :: Log Kyrus: fi
+Sun Oct 28 13:35:17 2018 :: Log Kyrus: fi
+Sun Oct 28 13:35:26 2018 :: Log Kyrus: fi
+Sun Oct 28 13:35:32 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:35:32 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:35:32 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:35:33 2018 :: Log Kyrus: get all cor
+Sun Oct 28 13:35:33 2018 :: Log Kyrus: prac
+Sun Oct 28 13:35:37 2018 :: Log Kyrus: i
+Sun Oct 28 13:35:40 2018 :: Log Kyrus: wear sc
+Sun Oct 28 13:35:42 2018 :: Log Kyrus: l
+Sun Oct 28 13:35:45 2018 :: Log Kyrus: 
+Sun Oct 28 13:35:46 2018 :: Log Kyrus: scan
+Sun Oct 28 13:35:48 2018 :: Log Kyrus: look ka
+Sun Oct 28 13:35:50 2018 :: Log Kyrus: look la
+Sun Oct 28 13:35:53 2018 :: Log Kyrus: scan
+Sun Oct 28 13:35:56 2018 :: Log Kyrus: l
+Sun Oct 28 13:35:57 2018 :: Log Kyrus: 
+Sun Oct 28 13:35:58 2018 :: Log Kyrus: scan
+Sun Oct 28 13:36:02 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:03 2018 :: Log Kyrus: look ga
+Sun Oct 28 13:36:05 2018 :: Log Kyrus: l
+Sun Oct 28 13:36:07 2018 :: Log Kyrus: scan
+Sun Oct 28 13:36:08 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:09 2018 :: Log Kyrus: look ka
+Sun Oct 28 13:36:10 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:10 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:11 2018 :: Log Kyrus: list
+Sun Oct 28 13:36:12 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:13 2018 :: Log Kyrus: scan
+Sun Oct 28 13:36:13 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:14 2018 :: Log Kyrus: scan
+Sun Oct 28 13:36:16 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:18 2018 :: Log Kyrus: look la
+Sun Oct 28 13:36:20 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:21 2018 :: Log Kyrus: scan
+Sun Oct 28 13:36:25 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:27 2018 :: Log Kyrus: 
+Sun Oct 28 13:36:34 2018 :: Log Kyrus: fi la
+Sun Oct 28 13:36:40 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:00 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:07 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:13 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:19 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:27 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:33 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:37:33 2018 :: Log Kyrus: fi
+Sun Oct 28 13:37:36 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:37:36 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:37:39 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:21 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:27 2018 :: Log Kyrus: eat sushi
+Sun Oct 28 13:38:28 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:34 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:40 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:53 2018 :: Log Kyrus: fi
+Sun Oct 28 13:38:59 2018 :: Log Kyrus: fi
+Sun Oct 28 13:39:05 2018 :: Log Kyrus: fi
+Sun Oct 28 13:39:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:39:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:39:15 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:39:33 2018 :: Log Kyrus: l i cor
+Sun Oct 28 13:39:35 2018 :: Log Kyrus: i
+Sun Oct 28 13:39:41 2018 :: Log Kyrus: l i cor
+Sun Oct 28 13:39:42 2018 :: Log Kyrus: wake
+Sun Oct 28 13:39:43 2018 :: Log Kyrus: l
+Sun Oct 28 13:39:44 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:45 2018 :: Log Kyrus: sac cor
+Sun Oct 28 13:39:49 2018 :: Log Kyrus: l
+Sun Oct 28 13:39:50 2018 :: Log Kyrus: 
+Sun Oct 28 13:39:51 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:51 2018 :: Log Kyrus: 
+Sun Oct 28 13:39:52 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:53 2018 :: Log Kyrus: 
+Sun Oct 28 13:39:54 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:54 2018 :: Log Kyrus: 
+Sun Oct 28 13:39:55 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:56 2018 :: Log Kyrus: 
+Sun Oct 28 13:39:56 2018 :: Log Kyrus: scan
+Sun Oct 28 13:39:58 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:00 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:02 2018 :: Log Kyrus: look ga
+Sun Oct 28 13:40:04 2018 :: Log Kyrus: l
+Sun Oct 28 13:40:04 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:05 2018 :: Log Kyrus: scan
+Sun Oct 28 13:40:06 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:07 2018 :: Log Kyrus: scan
+Sun Oct 28 13:40:09 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:11 2018 :: Log Kyrus: look d
+Sun Oct 28 13:40:16 2018 :: Log Kyrus: l
+Sun Oct 28 13:40:18 2018 :: Log Kyrus: open north
+Sun Oct 28 13:40:19 2018 :: Log Kyrus: 
+Sun Oct 28 13:40:21 2018 :: Log Kyrus: look la
+Sun Oct 28 13:40:25 2018 :: Log Kyrus: fi la
+Sun Oct 28 13:40:32 2018 :: Log Kyrus: fi la
+Sun Oct 28 13:40:38 2018 :: Log Kyrus: fi la
+Sun Oct 28 13:40:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:40:38 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:40:39 2018 :: Log Kyrus: get gold cor
+Sun Oct 28 13:40:50 2018 :: Log Kyrus: get sp cor
+Sun Oct 28 13:40:55 2018 :: Log Kyrus: put sp met
+Sun Oct 28 13:40:55 2018 :: Log Kyrus: l
+Sun Oct 28 13:40:57 2018 :: Log Kyrus: l i cor
+Sun Oct 28 13:40:58 2018 :: Log Kyrus: 
+Sun Oct 28 13:41:00 2018 :: Log Kyrus: look mer
+Sun Oct 28 13:41:10 2018 :: Log Kyrus: fi mer
+Sun Oct 28 13:41:16 2018 :: Log Kyrus: fi mer
+Sun Oct 28 13:41:22 2018 :: Log Kyrus: fi mer
+Sun Oct 28 13:41:28 2018 :: Log Kyrus: fi mer
+Sun Oct 28 13:41:35 2018 :: Log Kyrus: fi mer
+Sun Oct 28 13:41:41 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:41:41 2018 :: Log Kyrus: fi
+Sun Oct 28 13:41:44 2018 :: Log Killuminati: restore Kyrus
+Sun Oct 28 13:41:44 2018 :: Log Killuminati: pecho Kyrus Thank you, come again.
+Sun Oct 28 13:41:47 2018 :: Log Kyrus: fi
+Sun Oct 28 13:41:56 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:03 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:09 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:15 2018 :: Log Kyrus: prac
+Sun Oct 28 13:42:15 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:22 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:28 2018 :: Log Kyrus: fi
+Sun Oct 28 13:42:30 2018 :: EOF encountered on read.
+chgrp: changing group of '../player/Kyrus': Operation not permitted
+Sun Oct 28 13:42:30 2018 :: Closing link to Kyrus.
+Sun Oct 28 13:42:30 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Oct 28 13:42:31 2018 :: Loading Kyrus's playerfile
+Sun Oct 28 13:42:32 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Oct 28 13:42:32 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Oct 28 13:42:32 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Oct 28 13:42:32 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sun Oct 28 13:42:32 2018 :: Kyrus@173-22-228-146.client.mchsi.com reconnected. [Room: 775]
+Sun Oct 28 13:42:34 2018 :: Log Kyrus: hello
+Sun Oct 28 13:42:34 2018 :: Log Kyrus: tell killuminati spellup
+Sun Oct 28 13:42:36 2018 :: Kyrus killed by Merlin at 775
+Sun Oct 28 13:42:36 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Oct 28 13:42:36 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sun Oct 28 13:42:36 2018 :: [*****] BUG: Char_to_room: NULL.

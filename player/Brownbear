@@ -1,7 +1,7 @@
 #PLAYER
 Name BrownBear~
 Id   26509
-LogO 1540320938
+LogO 1540833886
 Vers 3
 Desc You recite a deadly black scroll.
 A strange mist begins to rise from the ground, swirling at your feet.
@@ -30,13 +30,13 @@ Gui  4
 Psionic  2
 Cast none
 Levl 52
-Plyd 1729036
+Plyd 1729120
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 951253659
 Scro 22
 Room 4208
-HMV  469 1179 325 526 149 392
+HMV  470 1179 330 526 162 392
 NewGold 130
 NewPlat 2104
 NewCopp 94
@@ -122,8 +122,8 @@ Sk 85 'fast healing'
 Sk 93 'meditation'
 Sk 96 'shove'
 Sk 100 'recall'
-AffD 'poison'  29  56  -2   1       4096          0
-AffD 'steel fist'  50   2  13  19          0          0
+AffD 'steel fist'  50   1  13  19          0          0
+AffD 'poison'  29  55  -2   1       4096          0
 End
 
 #O
@@ -156,8 +156,8 @@ Lev  30
 Cost 500
 Cond 39
 Repd 0
-Affect -1 30 -1 -16 14 0 0
 Affect -1 30 -1 -1 12 0 0
+Affect -1 30 -1 -16 14 0 0
 End
 
 #O
@@ -363,8 +363,8 @@ Lev  51
 Cost 2500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 53 -1 8 18 0 0
 AffD 'enchant weapon' 53 -1 8 19 0 0
+AffD 'enchant weapon' 53 -1 8 18 0 0
 End
 
 #O
@@ -786,8 +786,8 @@ Lev  40
 Cost 450
 Cond 81
 Repd 0
-Affect -1 40 -1 1 24 0 0
 Affect -1 40 -1 47 14 0 0
+Affect -1 40 -1 1 24 0 0
 End
 
 #O
@@ -863,8 +863,8 @@ Lev  50
 Cost 3000
 Cond 100
 Repd 0
-Affect -1 50 -1 -7 17 0 0
 Affect -1 50 -1 -1 14 0 0
+Affect -1 50 -1 -7 17 0 0
 End
 
 #O
@@ -891,8 +891,8 @@ Lev  34
 Cost 2600
 Cond 28
 Repd 0
-Affect -1 34 -1 5 23 0 0
 Affect -1 34 -1 -2 5 0 0
+Affect -1 34 -1 5 23 0 0
 End
 
 #O
@@ -999,8 +999,8 @@ Lev  52
 Cost 2409
 Cond 100
 Repd 0
-Affect -1 52 -1 -21 14 0 0
 Affect -1 52 -1 -7 14 0 0
+Affect -1 52 -1 -21 14 0 0
 End
 
 #O
@@ -1033,9 +1033,9 @@ Lev  51
 Cost 5000
 Cond 100
 Repd 0
-Affect -1 51 -1 1 17 0 0
-Affect -1 51 -1 -2 2 0 0
 Affect -1 51 -1 -1 12 0 0
+Affect -1 51 -1 -2 2 0 0
+Affect -1 51 -1 1 17 0 0
 End
 
 #O

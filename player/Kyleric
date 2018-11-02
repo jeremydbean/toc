@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyleric~
 Id   35944
-LogO 1540093571
+LogO 1540756954
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,25 +12,26 @@ Gui  1
 Psionic  2
 Cast none
 Levl 29
-Plyd 69679
+Plyd 70284
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4207
-HMV  289 381 92 352 188 318
-NewGold 533
-NewPlat 1715
-NewCopp 1780
-NewSilv 1312
+HMV  358 435 217 352 20 318
+NewGold 566
+NewPlat 0
+NewCopp 203
+NewSilv 585
 Bank 1119
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  67271
+Exp  67385
 Act  1078001868
-AfBy 524800
+AfBy 11010688
+AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -58,20 +59,20 @@ Color 16 6
 Pos  8
 Prac 17
 Trai 15
-Save  -4
+Save  -12
 Alig  -1000
-Hit   13
+Hit   28
 Dam   16
-ACs 1 -7 -6 65
+ACs -19 -27 -26 45
 Attr 17 13 12 12 15
-AMod 6 6 10 1 11
+AMod 1 6 10 5 11
 Pass KywXdZywU5G42~
 Titl  the Underlord~
 Pnts 40
 TSex 1
 LLev 17
 HMVP 381 352 268
-Cond 0 13 23
+Cond 0 4 46
 Alias k kick~
 Alias cc cast 'cure critical'~
 Alias bl cast bless~
@@ -104,19 +105,19 @@ Sk 1 'spiritual hammer'
 Sk 73 'summon'
 Sk 1 'teleport'
 Sk 44 'axe'
-Sk 62 'dagger'
+Sk 64 'dagger'
 Sk 25 'flail'
 Sk 94 'mace'
 Sk 35 'polearm'
-Sk 41 'shield block'
+Sk 42 'shield block'
 Sk 30 'spear'
 Sk 100 'sword'
 Sk 30 'whip'
 Sk 1 'bash'
 Sk 1 'disarm'
 Sk 83 'dodge'
-Sk 48 'kick'
-Sk 80 'parry'
+Sk 49 'kick'
+Sk 81 'parry'
 Sk 13 'rescue'
 Sk 51 'second attack'
 Sk 1 'scrolls'
@@ -129,9 +130,18 @@ Gr 'cleric guild'
 Gr 'guild benedictions'
 Gr 'guild healing'
 Gr 'guild transportation'
-AffD 'shield'   0  28 -20  17          0          0
-AffD 'giant strength'   0  11   4   1          0          0
-AffD 'fly'   9  14   0   0     524288          0
+AffD 'shield'   0  19 -20  17          0          0
+AffD 'giant strength'   0   2   4   1          0          0
+AffD 'fly'   8   5   0   0     524288          0
+AffD 'sanctuary'  11   1   0   0        128          0
+AffD 'haste'  33   8   4   2    2097152          0
+AffD 'divine protection'  29   1   0   0          0       4096
+AffD 'aid'   0  15   7  18          0          0
+AffD 'aid'  13  15  54  13          0          0
+AffD 'armor'  10  15 -20  17          0          0
+AffD 'bless'  19  73   8  18          0          0
+AffD 'bless'  -1  73  -8  24          0          0
+AffD 'plague'  19  23  -5   1    8388608          0
 End
 
 #O
@@ -140,7 +150,7 @@ Nest 0
 Wear 11
 Lev  1
 Cost 10
-Cond 81
+Cond 80
 Repd 0
 Val  3 3 3 0 0
 End
@@ -263,18 +273,6 @@ Affect -1 22 -1 2 24 0 0
 End
 
 #O
-Vnum 9321
-Nest 1
-Wear -1
-Lev  25
-Cost 1750
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-Affect -1 25 -1 2 20 0 0
-End
-
-#O
 Vnum 7623
 Nest 0
 Wear 8
@@ -342,7 +340,7 @@ Wear 0
 Cost 1
 Cond 100
 Repd 0
-Val  0 0 96 0 0
+Val  0 0 87 0 0
 End
 
 #O

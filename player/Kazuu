@@ -1,7 +1,7 @@
 #PLAYER
 Name Kazuu~
 Id   10600
-LogO 1539821135
+LogO 1540956275
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,27 +12,27 @@ Gui  2
 Psionic  1
 Cast none
 Levl 70
-Plyd 10513
+Tru  70
+Plyd 16051
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 69
-HMV  667 667 169 169 514 514
-NewGold 0
-NewPlat 0
-NewCopp 0
-NewSilv 0
+Room 10167
+HMV  667 667 149 169 512 514
+NewGold 78
+NewPlat 24
+NewCopp 3004
+NewSilv 458
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 Exp  1927300
-Act  82172
+Act  65788
 AfBy 512
 Comm 24576
-Invi 70
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -568,26 +568,6 @@ Spell 3 'heal'
 End
 
 #O
-Vnum 3605
-Nest 1
-Wear -1
-Lev  1
-Cost 1000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3605
-Nest 1
-Wear -1
-Lev  1
-Cost 1000
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 9224
 Nest 1
 Wear -1
@@ -718,15 +698,6 @@ Nest 1
 Wear -1
 Lev  1
 Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear -1
-Cost 0
 Cond 100
 Repd 0
 End

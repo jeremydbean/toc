@@ -1,7 +1,7 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1540599216
+LogO 1541111453
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
@@ -11,29 +11,29 @@ Race human~
 Sex  2
 Cla  5
 Gui  5
-Psionic  0
+Psionic  2
 Cast none
-Levl 19
-Plyd 3360648
+Levl 36
+Plyd 3396539
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 4208
-HMV  383 383 371 371 261 261
-NewGold 35
-NewPlat 0
-NewCopp 234
-NewSilv 70
-Bank 303
+Room 9794
+HMV  641 641 613 613 406 406
+NewGold 50
+NewPlat 14
+NewCopp 1602
+NewSilv 97
+Bank 866
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  38007
-Act  4194520
-AfBy 2621568
+Exp  73586
+Act  4194504
+AfBy 2622080
 AfBy2 4096
 Comm 24576
 Mounted 0
@@ -59,25 +59,25 @@ Color 13 7
 Color 14 9
 Color 15 6
 Color 16 6
-Pos  8
-Prac 11
-Trai 2
-Save  -4
-Alig  -1000
-Hit   27
-Dam   13
-ACs -28 -26 -31 46
+Pos  5
+Prac 24
+Trai 6
+Save  -13
+Alig  1000
+Hit   48
+Dam   42
+ACs 13 11 11 115
 Attr 14 15 15 14 15
-AMod 5 12 12 1 10
+AMod 10 10 10 5 11
 Pass PozhU/901BCHg~
 Ariv You start to itch uncontrollably as $n arrives from $T.~
 Dprt Your hives vanish as $n leaves $t.~
 Titl  the Dead Inside~
 Pnts 2540
 TSex 2
-LLev 933
-HMVP 340 366 262
-Cond 0 43 48
+LLev 943
+HMVP 544 603 381
+Cond 0 34 34
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -86,38 +86,46 @@ Alias on open north~
 Alias ou open up~
 Alias od open down~
 Alias skele c 'create skeleton'~
-Sk 94 'animate parts'
+Alias spellup tell killuminati spellup~
+Sk 96 'animate parts'
 Sk 76 'armor'
 Sk 75 'blindness'
-Sk 1 'cancellation'
+Sk 75 'cancellation'
 Sk 78 'cause light'
 Sk 78 'chill touch'
-Sk 1 'cone of cold'
-Sk 79 'create skeleton'
-Sk 1 'create wraith'
+Sk 75 'cone of cold'
+Sk 83 'create skeleton'
+Sk 75 'create wraith'
 Sk 1 'create vampire'
-Sk 79 'butcher'
-Sk 1 'bewitch weapon'
-Sk 1 'curse'
+Sk 84 'butcher'
+Sk 75 'bewitch weapon'
+Sk 75 'curse'
+Sk 83 'death shroud'
 Sk 75 'dust devil'
+Sk 75 'earth travel'
 Sk 75 'embalm'
-Sk 1 'energy drain'
+Sk 75 'energy drain'
 Sk 75 'evil eye'
+Sk 75 'fly'
+Sk 76 'force sword'
 Sk 1 'haven'
-Sk 1 'icicle'
-Sk 1 'major globe'
+Sk 75 'icicle'
+Sk 76 'infravision'
+Sk 75 'major globe'
+Sk 75 'mana convert'
 Sk 1 'maze'
-Sk 1 'moonbeam'
-Sk 1 'plague'
-Sk 1 'poison'
-Sk 1 'raise dead'
-Sk 1 'remove curse'
-Sk 1 'rope trick'
+Sk 75 'moonbeam'
+Sk 77 'pass door'
+Sk 75 'plague'
+Sk 75 'poison'
+Sk 75 'raise dead'
+Sk 75 'remove curse'
+Sk 75 'rope trick'
 Sk 1 'sanctuary'
-Sk 1 'shield'
-Sk 1 'shroud'
-Sk 1 'ghostly presence'
-Sk 77 'shock sphere'
+Sk 75 'shield'
+Sk 76 'shroud'
+Sk 75 'ghostly presence'
+Sk 100 'shock sphere'
 Sk 76 'skeletal hands'
 Sk 1 'tentacles'
 Sk 1 'trap the soul'
@@ -126,14 +134,15 @@ Sk 1 'vortex'
 Sk 75 'weaken'
 Sk 1 'neutrality field'
 Sk 8 'axe'
-Sk 91 'dagger'
+Sk 100 'dagger'
 Sk 6 'flail'
 Sk 5 'mace'
 Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 75 'whip'
-Sk 75 'meditation'
+Sk 78 'dodge'
+Sk 79 'meditation'
 Sk 75 'scrolls'
 Sk 75 'wands'
 Sk 100 'recall'
@@ -141,21 +150,29 @@ Gr 'rom basics'
 Gr 'necro basics'
 Gr 'necro default'
 Gr 'necro elemental'
+Gr 'necro enhancement'
 Gr 'life & undeath'
 Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
-AffD 'giant strength'  28  70   4   1          0          0
-AffD 'divine protection'  27  10   0   0          0       4096
-AffD 'haste'  29  17   4   2    2097152          0
-AffD 'sanctuary'   0  10   0   0        128          0
-AffD 'armor'  14  17 -20  17          0          0
-AffD 'aid'   1   3  43  13          0          0
-AffD 'aid'  24   3   7  18          0          0
-AffD 'bless'  12   4   8  18          0          0
-AffD 'bless'   0   4  -8  24          0          0
-AffD 'fly'   0   1   0   0     524288          0
-AffD 'shield'   0   6 -20  17          0          0
+Gr 'necro transportation'
+AffD 'divine protection'  25   4   0   0          0       4096
+AffD 'haste'  30  10   4   2    2097152          0
+AffD 'sanctuary'   0   1   0   0        128          0
+AffD 'aid'   3  11  46  13          0          0
+AffD 'aid'   0  11   7  18          0          0
+AffD 'bless'  17  63  -8  24          0          0
+AffD 'bless'   7  63   8  18          0          0
+AffD 'fly'  15   1   0   0     524288          0
+AffD 'infravision'  19  10   0   0        512          0
+AffD 'giant strength'  14  31   4   1          0          0
+AffD 'shroud'   9   9 -35  17          0          0
+AffD 'armor'   0   2 -20  17          0          0
+AffD 'frenzy'   0   1  11  18          0          0
+AffD 'frenzy'  18   1  11  19          0          0
+AffD 'frenzy'  22   1 110  17          0          0
+AffD 'change sex'  27  43  -1   6          0          0
+AffD 'shield'  24  59 -20  17          0          0
 End
 
 #O
@@ -163,30 +180,8 @@ Vnum 3715
 Nest 0
 Wear 17
 Cost 0
-Cond 83
+Cond 46
 Repd 0
-End
-
-#O
-Vnum 29009
-Nest 0
-Wear 0
-Lev  4
-Cost 100
-Cond 99
-Repd 0
-Val  0 0 -1 0 0
-End
-
-#O
-Vnum 3719
-Nest 0
-Wear 6
-Lev  1
-Cost 10
-Cond 96
-Repd 0
-Val  4 2 3 0 0
 End
 
 #O
@@ -195,7 +190,7 @@ Nest 0
 Wear 2
 Lev  7
 Cost 441
-Cond 100
+Cond 69
 Repd 0
 Affect -1 7 -1 -1 1 0 0
 End
@@ -206,7 +201,7 @@ Nest 0
 Wear 1
 Lev  7
 Cost 441
-Cond 100
+Cond 95
 Repd 0
 End
 
@@ -216,7 +211,7 @@ Nest 0
 Wear 15
 Lev  7
 Cost 400
-Cond 90
+Cond 69
 Repd 0
 End
 
@@ -226,73 +221,8 @@ Nest 0
 Wear 14
 Lev  7
 Cost 400
-Cond 89
+Cond 63
 Repd 0
-End
-
-#O
-Vnum 6621
-Nest 0
-Wear 12
-Lev  3
-Cost 2000
-Cond 88
-Repd 0
-End
-
-#O
-Vnum 29006
-Nest 0
-Wear 10
-Lev  3
-Cost 100
-Cond 95
-Repd 0
-End
-
-#O
-Vnum 29010
-Nest 0
-Wear 8
-Lev  6
-Cost 100
-Cond 99
-Repd 0
-End
-
-#O
-Vnum 10022
-Nest 0
-Wear 4
-Lev  12
-Cost 280
-Cond 100
-Repd 0
-Val  5 5 5 0 0
-Affect -1 12 -1 3 20 0 0
-Affect -1 12 -1 1 21 0 0
-End
-
-#O
-Vnum 10022
-Nest 0
-Wear 3
-Lev  12
-Cost 280
-Cond 100
-Repd 0
-Val  5 5 6 0 0
-End
-
-#O
-Vnum 29015
-Nest 0
-Wear 16
-Lev  15
-Cost 100
-Cond 100
-Repd 0
-Affect -1 15 -1 -4 2 0 0
 End
 
 #O
@@ -301,52 +231,9 @@ Nest 0
 Wear 13
 Lev  10
 Cost 1250
-Cond 100
+Cond 79
 Repd 0
 Val  5 4 6 0 0
-End
-
-#O
-Vnum 10021
-Nest 0
-Wear 7
-Lev  11
-Cost 100
-Cond 100
-Repd 0
-Val  5 6 4 0 0
-Affect -1 11 -1 -1 14 0 0
-End
-
-#O
-Vnum 10020
-Nest 0
-Wear 5
-Lev  12
-Cost 300
-Cond 100
-Repd 0
-Val  6 5 6 0 0
-End
-
-#O
-Vnum 2104
-Nest 0
-Wear 11
-Lev  7
-Cost 250
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 2109
-Nest 0
-Wear 9
-Lev  8
-Cost 250
-Cond 100
-Repd 0
 End
 
 #O
@@ -354,7 +241,7 @@ Vnum 29032
 Nest 0
 Name lotion~
 ShD  (Empty) A Bottle of Calamine Lotion~
-Wear -1
+Wear 12
 Lev  29
 Cost 500
 Cond 100
@@ -645,13 +532,209 @@ Repd 0
 End
 
 #O
-Vnum 40
+Vnum 58
 Nest 1
 Wear -1
-Time 34
 Cost 0
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 86
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 58
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 59
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 83
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 71
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 85
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 55
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 60
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10030
+Nest 0
+Wear 5
+Lev  23
+Cost 210
+Cond 98
+Repd 0
+Val  7 7 6 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  23
+Cost 5000
+Cond 98
+Repd 0
+Val  8 6 7 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 5000
+Cond 94
+Repd 0
+Val  8 8 6 0 0
+Affect -1 22 -1 -2 21 0 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 4447
+Nest 0
+Wear 11
+Lev  25
+Cost 1200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10042
+Nest 0
+Wear 16
+Lev  23
+Cost 1300
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16012
+Nest 0
+Wear 6
+Lev  33
+Cost 1120
+Cond 100
+Repd 0
+Affect -1 33 -1 41 13 0 0
 End
 
 #END
