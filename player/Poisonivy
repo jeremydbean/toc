@@ -1,39 +1,40 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1541198136
+LogO 1541198686
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
 Prom ~
 Ignoring ~
 Race human~
-Sex  3
+Sex  2
 Cla  5
 Gui  5
 Psionic  2
 Cast none
 Levl 37
-Plyd 3399574
+Plyd 3399818
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 5070
-HMV  621 621 622 622 413 413
-NewGold 45
-NewPlat 24
-NewCopp 3178
-NewSilv 73
-Bank 915
+Room 4209
+HMV  626 631 533 622 97 413
+NewGold 0
+NewPlat 0
+NewCopp 1
+NewSilv 5
+Bank 1303
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  75720
+Exp  75758
 Act  4194504
-AfBy 524800
+AfBy 3670656
+AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -63,11 +64,11 @@ Prac 21
 Trai 2
 Save  -9
 Alig  1000
-Hit   44
-Dam   49
-ACs 20 29 25 119
+Hit   43
+Dam   51
+ACs 72 88 84 176
 Attr 14 15 15 14 15
-AMod 10 10 6 -2 10
+AMod 10 10 6 2 10
 Pass PozhU/901BCHg~
 Ariv You start to itch uncontrollably as $n arrives from $T.~
 Dprt Your hives vanish as $n leaves $t.~
@@ -76,7 +77,7 @@ Pnts 2540
 TSex 2
 LLev 943
 HMVP 555 612 388
-Cond 0 27 9
+Cond 0 23 48
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -140,7 +141,7 @@ Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 75 'whip'
-Sk 80 'dodge'
+Sk 81 'dodge'
 Sk 75 'concoct'
 Sk 80 'meditation'
 Sk 75 'scrolls'
@@ -156,19 +157,21 @@ Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
 Gr 'necro transportation'
-AffD 'giant strength'  15  58   4   1          0          0
-AffD 'aid'  11  12  46  13          0          0
-AffD 'aid'   0  12   7  18          0          0
-AffD 'armor'  21   2 -20  17          0          0
-AffD 'frenzy'   0   0 110  17          0          0
-AffD 'frenzy'  12   0  11  19          0          0
-AffD 'frenzy'   0   0  11  18          0          0
-AffD 'shroud'  26   2 -35  17          0          0
-AffD 'infravision'  26  34   0   0        512          0
-AffD 'fly'  30  26   0   0     524288          0
-AffD 'shield'  13   8 -20  17          0          0
-AffD 'bless'   0  12   8  18          0          0
-AffD 'bless'   9  12  -8  24          0          0
+AffD 'frenzy'   0  20 110  17          0          0
+AffD 'frenzy'  12  20  11  19          0          0
+AffD 'frenzy'   0  20  11  18          0          0
+AffD 'divine protection'   0   6   0   0          0       4096
+AffD 'haste'   0  13   4   2    2097152          0
+AffD 'sanctuary'   0   7   0   0        128          0
+AffD 'pass door'   0   5   0   0    1048576          0
+AffD 'bless'   9   8  -8  24          0          0
+AffD 'bless'   0   8   8  18          0          0
+AffD 'shield'  12   4 -20  17          0          0
+AffD 'fly'  29  22   0   0     524288          0
+AffD 'infravision'  26  30   0   0        512          0
+AffD 'aid'   0   8   7  18          0          0
+AffD 'aid'  10   8  46  13          0          0
+AffD 'giant strength'  13  54   4   1          0          0
 End
 
 #O
@@ -214,7 +217,7 @@ End
 #O
 Vnum 3504
 Nest 0
-Wear 15
+Wear -1
 Lev  7
 Cost 400
 Cond 63
@@ -621,7 +624,7 @@ End
 Vnum 49
 Nest 1
 Wear -1
-Time 17
+Time 13
 Cost 0
 Cond 100
 Repd 0
@@ -723,17 +726,6 @@ Repd 0
 End
 
 #O
-Vnum 16012
-Nest 0
-Wear -1
-Lev  33
-Cost 1120
-Cond 100
-Repd 0
-Affect -1 33 -1 41 13 0 0
-End
-
-#O
 Vnum 10042
 Nest 0
 Wear -1
@@ -795,73 +787,15 @@ Repd 0
 End
 
 #O
-Vnum 5032
+Vnum 5025
 Nest 0
-Wear -1
+Wear 15
 Lev  28
-Cost 3400
+Cost 500
 Cond 100
 Repd 0
-End
-
-#O
-Vnum 5031
-Nest 0
-Wear -1
-Lev  28
-Cost 5000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5030
-Nest 0
-Wear -1
-Lev  27
-Cost 5000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5029
-Nest 0
-Wear -1
-Lev  27
-Cost 4000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5028
-Nest 0
-Wear -1
-Lev  27
-Cost 1500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5027
-Nest 0
-Wear -1
-Lev  28
-Cost 2500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5026
-Nest 0
-Wear -1
-Lev  28
-Cost 1000
-Cond 100
-Repd 0
+Affect -1 28 -1 -4 4 0 0
+Affect -1 28 -1 -3 2 0 0
 End
 
 #O
@@ -872,8 +806,6 @@ Lev  28
 Cost 500
 Cond 100
 Repd 0
-Affect -1 28 -1 -3 2 0 0
-Affect -1 28 -1 -4 4 0 0
 End
 
 #END
