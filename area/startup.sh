@@ -19,8 +19,7 @@ while ( 1 )
 	@ index++
     end
 
-    # Run rom.
-    ../areas/merc $port >&! $logfile
+
 
 
     # Restart, giving old connections a chance to die.
@@ -32,3 +31,17 @@ while ( 1 )
 end
 
 
+
+
+    # Run rom.
+    # Check if already running
+    set matches = `ps ux | grep ".merc 9000" | grep -c grep`
+    if ( $matches >= 1 ) then
+        # Already running
+        echo MUD Already running.
+        exit 0
+    endif
+	
+	# Run rom.
+	cd /mnt/e/toc/area/
+    immortal ./merc $port >&! $logfile

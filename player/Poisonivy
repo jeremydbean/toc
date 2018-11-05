@@ -1,7 +1,7 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1541198686
+LogO 1541284463
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
@@ -13,28 +13,28 @@ Cla  5
 Gui  5
 Psionic  2
 Cast none
-Levl 37
-Plyd 3399818
+Levl 42
+Plyd 3408474
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 4209
-HMV  626 631 533 622 97 413
+Room 2403
+HMV  675 675 570 680 447 448
 NewGold 0
 NewPlat 0
-NewCopp 1
-NewSilv 5
-Bank 1303
+NewCopp 8
+NewSilv 9
+Bank 1516
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  75758
+Exp  84079
 Act  4194504
-AfBy 3670656
-AfBy2 4096
+AfBy 2622080
+AfBy2 4616
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -59,25 +59,25 @@ Color 13 7
 Color 14 9
 Color 15 6
 Color 16 6
-Pos  5
-Prac 21
-Trai 2
-Save  -9
+Pos  8
+Prac 36
+Trai 8
+Save  -13
 Alig  1000
-Hit   43
-Dam   51
-ACs 72 88 84 176
+Hit   45
+Dam   62
+ACs -19 -3 -7 119
 Attr 14 15 15 14 15
-AMod 10 10 6 2 10
+AMod 9 -4 0 1 0
 Pass PozhU/901BCHg~
 Ariv You start to itch uncontrollably as $n arrives from $T.~
 Dprt Your hives vanish as $n leaves $t.~
 Titl  the Dead Inside~
 Pnts 2540
 TSex 2
-LLev 943
-HMVP 555 612 388
-Cond 0 23 48
+LLev 946
+HMVP 613 670 423
+Cond 0 46 46
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -113,17 +113,17 @@ Sk 75 'icicle'
 Sk 76 'infravision'
 Sk 75 'major globe'
 Sk 75 'mana convert'
-Sk 1 'maze'
-Sk 75 'moonbeam'
+Sk 75 'maze'
+Sk 81 'moonbeam'
 Sk 77 'pass door'
 Sk 75 'plague'
 Sk 75 'poison'
 Sk 75 'raise dead'
 Sk 75 'remove curse'
-Sk 75 'rope trick'
+Sk 78 'rope trick'
 Sk 75 'sanctuary'
 Sk 75 'shield'
-Sk 76 'shroud'
+Sk 77 'shroud'
 Sk 75 'ghostly presence'
 Sk 100 'shock sphere'
 Sk 76 'skeletal hands'
@@ -132,7 +132,7 @@ Sk 1 'trap the soul'
 Sk 75 'vampiric touch'
 Sk 1 'vortex'
 Sk 75 'weaken'
-Sk 1 'neutrality field'
+Sk 75 'neutrality field'
 Sk 8 'axe'
 Sk 100 'dagger'
 Sk 6 'flail'
@@ -141,9 +141,9 @@ Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 75 'whip'
-Sk 81 'dodge'
+Sk 85 'dodge'
 Sk 75 'concoct'
-Sk 80 'meditation'
+Sk 82 'meditation'
 Sk 75 'scrolls'
 Sk 75 'wands'
 Sk 100 'recall'
@@ -157,50 +157,32 @@ Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
 Gr 'necro transportation'
-AffD 'frenzy'   0  20 110  17          0          0
-AffD 'frenzy'  12  20  11  19          0          0
-AffD 'frenzy'   0  20  11  18          0          0
-AffD 'divine protection'   0   6   0   0          0       4096
-AffD 'haste'   0  13   4   2    2097152          0
-AffD 'sanctuary'   0   7   0   0        128          0
-AffD 'pass door'   0   5   0   0    1048576          0
-AffD 'bless'   9   8  -8  24          0          0
-AffD 'bless'   0   8   8  18          0          0
-AffD 'shield'  12   4 -20  17          0          0
-AffD 'fly'  29  22   0   0     524288          0
-AffD 'infravision'  26  30   0   0        512          0
-AffD 'aid'   0   8   7  18          0          0
-AffD 'aid'  10   8  46  13          0          0
-AffD 'giant strength'  13  54   4   1          0          0
+AffD 'force sword'  41   4   0   0          0        512
+AffD 'death shroud'  39   3   0   0          0          8
+AffD 'aid'  32  24  32  13          0          0
+AffD 'aid'  41  24   7  18          0          0
+AffD 'divine protection'  34  10   0   0          0       4096
+AffD 'haste'  39  17   4   2    2097152          0
+AffD 'sanctuary'  49  12   0   0        128          0
+AffD 'giant strength'  27   9   4   1          0          0
+AffD 'shield'  19  19 -20  17          0          0
+AffD 'bless'  25  22   8  18          0          0
+AffD 'bless'  18  22  -8  24          0          0
+AffD 'fly'  23  26   0   0     524288          0
+AffD 'infravision'  29  46   0   0        512          0
+AffD 'frenzy'  42  10  11  18          0          0
+AffD 'frenzy'  18  10  11  19          0          0
+AffD 'frenzy'  30  10 110  17          0          0
+AffD 'shroud'  15  28 -35  17          0          0
+AffD 'armor'  23  15 -20  17          0          0
 End
 
 #O
 Vnum 3715
 Nest 0
-Wear 17
+Wear -1
 Cost 0
 Cond 46
-Repd 0
-End
-
-#O
-Vnum 2803
-Nest 0
-Wear 2
-Lev  7
-Cost 441
-Cond 67
-Repd 0
-Affect -1 7 -1 -1 1 0 0
-End
-
-#O
-Vnum 2803
-Nest 0
-Wear 1
-Lev  7
-Cost 441
-Cond 92
 Repd 0
 End
 
@@ -230,7 +212,7 @@ Nest 0
 Wear 13
 Lev  10
 Cost 1250
-Cond 79
+Cond 72
 Repd 0
 Val  5 4 6 0 0
 End
@@ -621,11 +603,42 @@ Repd 0
 End
 
 #O
-Vnum 49
+Vnum 2382
 Nest 1
 Wear -1
-Time 13
-Cost 0
+Lev  27
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 1
+Wear -1
+Lev  7
+Cost 441
+Cond 67
+Repd 0
+Affect -1 7 -1 -1 1 0 0
+End
+
+#O
+Vnum 16013
+Nest 1
+Wear -1
+Lev  41
+Cost 1498
 Cond 100
 Repd 0
 End
@@ -633,7 +646,7 @@ End
 #O
 Vnum 9214
 Nest 0
-Wear 7
+Wear -1
 Lev  22
 Cost 5060
 Cond 100
@@ -685,7 +698,7 @@ End
 #O
 Vnum 1395
 Nest 0
-Wear -1
+Wear 3
 Lev  22
 Cost 5000
 Cond 94
@@ -726,43 +739,12 @@ Repd 0
 End
 
 #O
-Vnum 10042
-Nest 0
-Wear -1
-Lev  23
-Cost 1300
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10049
-Nest 0
-Wear 16
-Lev  32
-Cost 2300
-Cond 100
-Repd 0
-Affect -1 32 -1 2 21 0 0
-End
-
-#O
 Vnum 4619
 Nest 0
 Wear 6
 Lev  25
 Cost 25000
 Cond 82
-Repd 0
-End
-
-#O
-Vnum 2382
-Nest 0
-Wear 3
-Lev  27
-Cost 5000
-Cond 100
 Repd 0
 End
 
@@ -794,8 +776,8 @@ Lev  28
 Cost 500
 Cond 100
 Repd 0
-Affect -1 28 -1 -4 4 0 0
 Affect -1 28 -1 -3 2 0 0
+Affect -1 28 -1 -4 4 0 0
 End
 
 #O
@@ -806,6 +788,61 @@ Lev  28
 Cost 500
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 10031
+Nest 0
+Wear 17
+Lev  39
+Cost 22000
+Cond 100
+Repd 0
+Spell 3 'shocking grasp'
+Affect -1 39 -1 1 2 0 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 2
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 911
+Nest 0
+Wear 1
+Lev  34
+Cost 2600
+Cond 100
+Repd 0
+Affect -1 34 -1 -2 20 0 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+Affect -1 41 -1 -4 3 0 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear 16
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+Affect -1 32 -1 2 21 0 0
 End
 
 #END
