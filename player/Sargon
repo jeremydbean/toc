@@ -1,7 +1,7 @@
 #PLAYER
 Name Sargon~
 Id   39198
-LogO 953325718
+LogO 1541472868
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  0
 Psionic  2
 Cast Fors
 Levl 51
-Plyd 438474
+Plyd 438600
 ListRemorts ~
 NumRemorts 0
 Note 952731371
 Scro 22
 Room 4208
-HMV  576 1249 25 1057 281 375
+HMV  610 1249 65 1057 375 375
 NewGold 6
 NewPlat 0
 NewCopp 251
@@ -154,9 +154,9 @@ Gr 'draconian'
 Gr 'enhancement'
 Gr 'mage protective'
 Gr 'mage transportation'
-AffD 'detect invis'  29  34   0   0          8          0
-AffD 'fly'  39  38   0   0     524288          0
-AffD 'giant strength'   0  35   4   1          0          0
+AffD 'giant strength'   0  33   4   1          0          0
+AffD 'fly'  38  36   0   0     524288          0
+AffD 'detect invis'  29  32   0   0          8          0
 End
 
 #END

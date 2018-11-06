@@ -1,0 +1,378 @@
+#PLAYER
+Name Wentworth~
+Id   30708
+LogO 1541475436
+Vers 3
+Prom ~
+Ignoring ~
+Race hobbit~
+Sex  1
+Cla  3
+Gui  3
+Psionic  0
+Cast none
+Levl 10
+Plyd 5547
+ListRemorts ~
+NumRemorts 0
+Note 0
+Scro 22
+Room 13205
+HMV  164 174 162 162 154 154
+NewGold 45
+NewPlat 13
+NewCopp 139
+NewSilv 53
+Bank 0
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 0
+Exp  23000
+Act  65740
+AfBy 2621568
+AfBy2 4096
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 0
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 2
+Color 7 4
+Color 8 5
+Color 9 14
+Color 10 4
+Color 11 0
+Color 12 12
+Color 13 7
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 38
+Trai 5
+Save  -7
+Alig  -1000
+Hit   29
+Dam   16
+ACs 146 142 141 183
+Attr 13 13 16 16 12
+AMod 4 14 12 4 12
+Pass We2cg.QoJGvjg~
+Titl  the Combatant~
+Pnts 40
+TSex 1
+LLev 1
+HMVP 140 154 154
+Cond 0 9 25
+Alias k kick~
+Sk 30 'axe'
+Sk 30 'dagger'
+Sk 25 'flail'
+Sk 25 'mace'
+Sk 35 'polearm'
+Sk 31 'shield block'
+Sk 30 'spear'
+Sk 86 'sword'
+Sk 30 'whip'
+Sk 1 'disarm'
+Sk 1 'dodge'
+Sk 1 'enhanced damage'
+Sk 22 'kick'
+Sk 21 'parry'
+Sk 1 'rescue'
+Sk 31 'second attack'
+Sk 1 'hide'
+Sk 80 'recall'
+Gr 'rom basics'
+Gr 'warrior basics'
+Gr 'warrior default'
+Gr 'warrior guild'
+AffD 'giant strength'  48  64   4   1          0          0
+AffD 'fly'  32  67   0   0     524288          0
+AffD 'divine protection'  47   4   0   0          0       4096
+AffD 'bless'  48  70  -8  24          0          0
+AffD 'bless'  50  70   8  18          0          0
+AffD 'haste'  36  11   4   2    2097152          0
+AffD 'sanctuary'  39   4   0   0        128          0
+AffD 'frenzy'  49   1 110  17          0          0
+AffD 'frenzy'  48   1  11  19          0          0
+AffD 'frenzy'  44   1  11  18          0          0
+AffD 'armor'  47   2 -20  17          0          0
+AffD 'aid'  49   2  34  13          0          0
+AffD 'aid'  46   2   7  18          0          0
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 109 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3708
+Nest 0
+Wear 8
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3707
+Nest 0
+Wear 7
+Cost 0
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear 9
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3710
+Nest 0
+Wear 10
+Cost 0
+Cond 99
+Repd 0
+End
+
+#O
+Vnum 3719
+Nest 0
+Wear 6
+Lev  2
+Cost 10
+Cond 100
+Repd 0
+Val  3 4 3 0 0
+Affect -1 2 -1 8 12 0 0
+Affect -1 2 -1 3 3 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear 5
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+Affect -1 3 -1 2 21 0 0
+End
+
+#O
+Vnum 3739
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3742
+Nest 0
+Wear 12
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 100
+Repd 0
+Val  2 4 3 0 0
+End
+
+#O
+Vnum 3738
+Nest 0
+Wear 16
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3740
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 2
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2803
+Nest 0
+Wear 1
+Lev  7
+Cost 441
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear 4
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear 3
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 15
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3504
+Nest 0
+Wear 14
+Lev  7
+Cost 400
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3746
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 77
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#END
