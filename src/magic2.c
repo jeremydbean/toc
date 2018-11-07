@@ -2873,7 +2873,7 @@ void do_scribe( CHAR_DATA *ch, char *argument )
       && pObj_three->pIndexData->vnum == 88)
       {
         scroll = create_object(get_obj_index(90), ch->level);
-        spell_one = skill_lookup("vengence");
+        spell_one = skill_lookup("csst");
         free_string( scroll->short_descr );
         sprintf(buf,"a deadly black scroll");
         scroll->short_descr = str_dup( buf );
@@ -2886,7 +2886,7 @@ void do_scribe( CHAR_DATA *ch, char *argument )
         wizinfo(buf,LEVEL_IMMORTAL);
       }
 
-      
+
    if(found)
    {
      send_to_char("You pull out your equipment and start work on the ink.\n\r",ch);

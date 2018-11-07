@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1541475303
+LogO 1541552361
 Vers 3
 ShD  Chubby Nutz ~
 LnD  Pooptastic
@@ -18,13 +18,13 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 1563004
+Plyd 1639933
 ListRemorts ~
 NumRemorts 0
 Note 995701290
 Scro 22
-Room 4206
-HMV  10583 10583 15000 15000 504 504
+Room 4208
+HMV  10583 10583 15000 15000 514 514
 NewGold 12826
 NewPlat 10000
 NewCopp 0
@@ -37,8 +37,7 @@ PkGiv 0
 QuestPnts 24
 Exp  1214750
 Act  336124
-AfBy 512
-Comm 24576
+Comm 155648
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -66,9 +65,9 @@ Pos  8
 Prac 210
 Trai 71
 Alig  492
-ACs 74 74 74 100
+ACs 100 100 100 100
 Attr 17 21 18 18 18
-AMod 0 0 2 0 0
+AMod 0 0 0 0 0
 Pass Kilrpis9ggekI~
 Bin  Killuminati appears before you.~
 Bout Killuminati raises into the sky, and is gone.~
@@ -82,6 +81,7 @@ Alias / who~
 Alias f flee~
 Alias ] recall~
 Alias l get all~
+Alias pit goto 4208~
 Sk 100 'reserved'
 Sk 100 'aid'
 Sk 100 'acid blast'
@@ -313,7 +313,7 @@ End
 #O
 Vnum 15011
 Nest 0
-Wear 7
+Wear -1
 Lev  52
 Cost 200
 Cond 100
@@ -859,6 +859,276 @@ Wear -1
 Lev  1
 Cost 0
 Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 76
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 88
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 84
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2103
+Nest 0
+Wear -1
+Lev  8
+Cost 400
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3709
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2101
+Nest 0
+Wear -1
+Lev  2
+Cost 250
+Cond 100
+Repd 0
+Affect -1 2 -1 2 22 0 0
+Affect -1 2 -1 -19 14 0 0
+End
+
+#O
+Vnum 3720
+Nest 0
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+Val  4 2 2 0 0
+Affect -1 3 -1 2 21 0 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear -1
+Lev  3
+Cost 20
+Cond 75
+Repd 0
+End
+
+#O
+Vnum 3503
+Nest 0
+Wear -1
+Lev  3
+Cost 20
+Cond 75
 Repd 0
 End
 

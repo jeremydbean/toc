@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1541475362
+LogO 1541552613
 Vers 3
 Desc .~
 Prom ~
@@ -13,27 +13,26 @@ Gui  4
 Psionic  1
 Cast Fors
 Levl 53
-Plyd 150902
+Plyd 159604
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 2401
-HMV  1365 1365 936 936 585 585
-NewGold 557
-NewPlat 250
-NewCopp 4163
-NewSilv 1201
-Bank 8062
+Room 29003
+HMV  1352 1386 920 936 334 585
+NewGold 773
+NewPlat 321
+NewCopp 3018
+NewSilv 1505
+Bank 8582
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  134651
+Exp  140767
 Act  393420
-AfBy 2621568
-AfBy2 4104
+AfBy 524288
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -63,11 +62,11 @@ Prac 7
 Trai 1
 Save  -20
 Alig  1000
-Hit   73
-Dam   77
-ACs -82 -77 -99 116
+Hit   71
+Dam   75
+ACs -76 -69 -92 116
 Attr 13 13 13 13 13
-AMod 18 2 -1 2 0
+AMod 18 2 -1 -2 0
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
@@ -94,7 +93,7 @@ Alias sm smite~
 Alias chat gossip~
 Alias fi fist~
 Alias co confuse~
-Sk 79 'confuse'
+Sk 81 'confuse'
 Sk 1 'ego whip'
 Sk 1 'project'
 Sk 1 'psychic shield'
@@ -117,38 +116,24 @@ Sk 100 'second attack'
 Sk 100 'fists of fury'
 Sk 76 'iron skin'
 Sk 98 'nerve damage'
-Sk 80 'steel fist'
-Sk 80 'fast healing'
+Sk 81 'steel fist'
+Sk 82 'fast healing'
 Sk 86 'meditation'
 Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'fire shield'  42   1   0   0          0          8
-AffD 'divine protection'  49   3   0   0          0       4096
-AffD 'haste'  50  10   4   2    2097152          0
-AffD 'sanctuary'  50   5   0   0        128          0
-AffD 'giant strength'  48  48   4   1          0          0
-AffD 'frenzy'  44   1 110  17          0          0
-AffD 'frenzy'  37   1  11  19          0          0
-AffD 'frenzy'  47   1  11  18          0          0
-AffD 'shield'  49  56 -20  17          0          0
-AffD 'armor'  45   2 -20  17          0          0
-AffD 'aid'  47   2  33  13          0          0
-AffD 'aid'  46   2   7  18          0          0
-AffD 'fly'  37  26   0   0     524288          0
-AffD 'bless'  42  23  -8  24          0          0
-AffD 'bless'  41  23   8  18          0          0
-End
-
-#O
-Vnum 9213
-Nest 0
-Wear 10
-Lev  22
-Cost 5566
-Cond 13
-Repd 0
+AffD 'shield'  51  75 -20  17          0          0
+AffD 'aid'  38  21  54  13          0          0
+AffD 'aid'  14  21   7  18          0          0
+AffD 'armor'  39  19 -20  17          0          0
+AffD 'frenzy'  50  10 110  17          0          0
+AffD 'frenzy'  31  10  11  19          0          0
+AffD 'frenzy'  47  10  11  18          0          0
+AffD 'giant strength'  47  47   4   1          0          0
+AffD 'bless'  28  46  -8  24          0          0
+AffD 'bless'  37  46   8  18          0          0
+AffD 'fly'   6  27   0   0     524288          0
 End
 
 #O
@@ -221,7 +206,7 @@ ExtF 2100289
 Wear 17
 Lev  50
 Cost 6000
-Cond 100
+Cond 99
 Repd 0
 Affect -1 50 -1 4 20 0 0
 End
@@ -377,6 +362,15 @@ Val  0 0 -1 0 0
 End
 
 #O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
 Vnum 9944
 Nest 0
 Wear 0
@@ -464,6 +458,30 @@ Repd 0
 Spell 1 'haste'
 Spell 2 'heal'
 Spell 3 'fire shield'
+End
+
+#O
+Vnum 29208
+Nest 0
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 3 22 0 0
+Affect -1 51 -1 -5 17 0 0
+Affect -1 51 -1 3 21 0 0
+End
+
+#O
+Vnum 29208
+Nest 0
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 7 17 0 0
 End
 
 #END

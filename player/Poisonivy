@@ -1,7 +1,7 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1541284463
+LogO 1541545856
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
@@ -13,25 +13,25 @@ Cla  5
 Gui  5
 Psionic  2
 Cast none
-Levl 42
-Plyd 3408474
+Levl 43
+Plyd 3410231
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 2403
-HMV  675 675 570 680 447 448
-NewGold 0
+Room 2401
+HMV  697 697 623 691 439 455
+NewGold 1
 NewPlat 0
-NewCopp 8
+NewCopp 7
 NewSilv 9
-Bank 1516
+Bank 1600
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  84079
+Exp  86293
 Act  4194504
 AfBy 2622080
 AfBy2 4616
@@ -60,8 +60,8 @@ Color 14 9
 Color 15 6
 Color 16 6
 Pos  8
-Prac 36
-Trai 8
+Prac 38
+Trai 9
 Save  -13
 Alig  1000
 Hit   45
@@ -75,9 +75,9 @@ Dprt Your hives vanish as $n leaves $t.~
 Titl  the Dead Inside~
 Pnts 2540
 TSex 2
-LLev 946
-HMVP 613 670 423
-Cond 0 46 46
+LLev 947
+HMVP 626 681 430
+Cond 0 41 43
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -114,7 +114,7 @@ Sk 76 'infravision'
 Sk 75 'major globe'
 Sk 75 'mana convert'
 Sk 75 'maze'
-Sk 81 'moonbeam'
+Sk 82 'moonbeam'
 Sk 77 'pass door'
 Sk 75 'plague'
 Sk 75 'poison'
@@ -127,7 +127,7 @@ Sk 77 'shroud'
 Sk 75 'ghostly presence'
 Sk 100 'shock sphere'
 Sk 76 'skeletal hands'
-Sk 1 'tentacles'
+Sk 75 'tentacles'
 Sk 1 'trap the soul'
 Sk 75 'vampiric touch'
 Sk 1 'vortex'
@@ -141,7 +141,7 @@ Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 75 'whip'
-Sk 85 'dodge'
+Sk 86 'dodge'
 Sk 75 'concoct'
 Sk 82 'meditation'
 Sk 75 'scrolls'
@@ -157,24 +157,25 @@ Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
 Gr 'necro transportation'
-AffD 'force sword'  41   4   0   0          0        512
-AffD 'death shroud'  39   3   0   0          0          8
-AffD 'aid'  32  24  32  13          0          0
-AffD 'aid'  41  24   7  18          0          0
-AffD 'divine protection'  34  10   0   0          0       4096
-AffD 'haste'  39  17   4   2    2097152          0
-AffD 'sanctuary'  49  12   0   0        128          0
-AffD 'giant strength'  27   9   4   1          0          0
-AffD 'shield'  19  19 -20  17          0          0
-AffD 'bless'  25  22   8  18          0          0
-AffD 'bless'  18  22  -8  24          0          0
-AffD 'fly'  23  26   0   0     524288          0
-AffD 'infravision'  29  46   0   0        512          0
-AffD 'frenzy'  42  10  11  18          0          0
-AffD 'frenzy'  18  10  11  19          0          0
-AffD 'frenzy'  30  10 110  17          0          0
-AffD 'shroud'  15  28 -35  17          0          0
-AffD 'armor'  23  15 -20  17          0          0
+AffD 'shroud'  11  43 -35  17          0          0
+AffD 'force sword'  36   4   0   0          0        512
+AffD 'fire shield'  31   3   0   0          0          8
+AffD 'death shroud'  26   2   0   0          0          8
+AffD 'fly'  47  72   0   0     524288          0
+AffD 'aid'  21  23  41  13          0          0
+AffD 'aid'  32  23   7  18          0          0
+AffD 'sanctuary'  27  10   0   0        128          0
+AffD 'bless'  13  70  -8  24          0          0
+AffD 'bless'  18  70   8  18          0          0
+AffD 'divine protection'  33   3   0   0          0       4096
+AffD 'shield'  17  69 -20  17          0          0
+AffD 'haste'  36   6   4   2    2097152          0
+AffD 'armor'  24  11 -20  17          0          0
+AffD 'frenzy'  25   5 110  17          0          0
+AffD 'frenzy'  13   5  11  19          0          0
+AffD 'frenzy'  36   5  11  18          0          0
+AffD 'giant strength'  22  51   4   1          0          0
+AffD 'infravision'  21  17   0   0        512          0
 End
 
 #O
@@ -202,7 +203,7 @@ Nest 0
 Wear -1
 Lev  7
 Cost 400
-Cond 63
+Cond 59
 Repd 0
 End
 
@@ -212,7 +213,7 @@ Nest 0
 Wear 13
 Lev  10
 Cost 1250
-Cond 72
+Cond 69
 Repd 0
 Val  5 4 6 0 0
 End
@@ -634,11 +635,10 @@ Affect -1 7 -1 -1 1 0 0
 End
 
 #O
-Vnum 16013
+Vnum 88
 Nest 1
 Wear -1
-Lev  41
-Cost 1498
+Cost 0
 Cond 100
 Repd 0
 End
@@ -776,8 +776,8 @@ Lev  28
 Cost 500
 Cond 100
 Repd 0
-Affect -1 28 -1 -3 2 0 0
 Affect -1 28 -1 -4 4 0 0
+Affect -1 28 -1 -3 2 0 0
 End
 
 #O
