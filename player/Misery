@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1541540550
+LogO 1541553932
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -47,7 +47,7 @@ Psionic  1
 Cast Fors
 Levl 54
 Tru  70
-Plyd 1640777
+Plyd 1641462
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -76,7 +76,7 @@ Jw_Timer 0
 ColFlag 1
 Color 0 0
 Color 1 8
-Color 2 5
+Color 2 13
 Color 3 14
 Color 4 11
 Color 5 3
@@ -370,8 +370,8 @@ Lev  51
 Cost 500
 Cond 100
 Repd 0
-Affect -1 51 -1 4 24 0 0
 Affect -1 51 -1 -8 17 0 0
+Affect -1 51 -1 4 24 0 0
 End
 
 #O
@@ -1257,7 +1257,7 @@ End
 Vnum 3092
 Nest 0
 Wear 17
-Time 104
+Time 94
 Cost 150
 Cond 100
 Repd 0
@@ -1270,11 +1270,11 @@ End
 Vnum 11
 Nest 0
 Name Misery corpse~
-ShD  corpse of Misery~
-Desc The corpse of Misery is lying here.~
+ShD  a rotting corpse~
+Desc Flies are buzzing around a rotting corpse.~
 Wear -1
 Lev  54
-Time 23
+Time 13
 Cost 0
 Cond 25
 Repd 0
