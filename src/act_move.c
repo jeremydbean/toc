@@ -3782,7 +3782,7 @@ void do_stealth( CHAR_DATA *ch, char *argument )
 	check_improve(ch,gsn_stealth,TRUE,4);
 	af.type      = gsn_stealth;
 	af.level     = ch->level;
-	af.duration  = 3;
+	af.duration  = 12;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
 	af.bitvector = 0;
