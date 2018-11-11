@@ -1,7 +1,7 @@
 #PLAYER
 Name Nero~
 Id   52481
-LogO 1541548384
+LogO 1541738956
 Vers 3
 Desc .                                      ---            
 .                                    --...--          
@@ -45,13 +45,13 @@ Gui  2
 Psionic  2
 Cast Legi
 Levl 54
-Plyd 1496269
+Plyd 1496284
 ListRemorts ~
 NumRemorts 0
 Note 953324212
 Scro 22
 Room 4208
-HMV  1244 1266 290 290 168 293
+HMV  1263 1266 290 290 222 293
 NewGold 2
 NewPlat 6697
 NewCopp 5
@@ -144,11 +144,11 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  21   1   0   0          0         64
-AffD 'fly'  42  17   0   0     524288          0
-AffD 'shield'  44  18 -20  17          0          0
-AffD 'giant strength'  42  10   4   1          0          0
-AffD 'armor'  18  21 -20  17          0          0
+AffD 'armor'  17  20 -20  17          0          0
+AffD 'giant strength'  42   9   4   1          0          0
+AffD 'shield'  44  17 -20  17          0          0
+AffD 'fly'  42  16   0   0     524288          0
+AffD 'stealth'  21   0   0   0          0         64
 End
 
 #O
@@ -338,8 +338,8 @@ Lev  49
 Cost 2500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 7 19 0 0
 AffD 'enchant weapon' 51 -1 7 18 0 0
+AffD 'enchant weapon' 51 -1 7 19 0 0
 End
 
 #O
@@ -766,7 +766,7 @@ Nest 1
 Name flaming red potion~
 ShD  a flaming red potion~
 Wear -1
-Time 100
+Time 99
 Cost 400
 Cond 100
 Repd 0

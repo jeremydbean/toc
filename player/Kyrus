@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1541552613
+LogO 1541899526
 Vers 3
 Desc .~
 Prom ~
@@ -12,27 +12,26 @@ Cla  4
 Gui  4
 Psionic  1
 Cast Fors
-Levl 53
-Plyd 159604
+Levl 54
+Plyd 203873
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 29003
-HMV  1352 1386 920 936 334 585
-NewGold 773
-NewPlat 321
-NewCopp 3018
-NewSilv 1505
-Bank 8582
+Room 4205
+HMV  1451 1451 1054 1054 507 507
+NewGold 0
+NewPlat 0
+NewCopp 147
+NewSilv 9
+Bank 12333
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  140767
+Exp  144000
 Act  393420
-AfBy 524288
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -58,23 +57,22 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 7
-Trai 1
-Save  -20
+Prac 1
+Save  6
 Alig  1000
-Hit   71
-Dam   75
-ACs -76 -69 -92 116
+Hit   66
+Dam   88
+ACs -159 -161 -194 -17
 Attr 13 13 13 13 13
-AMod 18 2 -1 -2 0
+AMod 7 5 -2 -7 -4
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
-Titl  the Hero of the Second Order~
+Titl  Frost.~
 Pnts 2540
 TSex 1
-LLev 41
-HMVP 1372 856 500
+LLev 48
+HMVP 1416 864 507
 Cond 0 2 48
 Alias \ who~
 Alias k kick~
@@ -93,11 +91,11 @@ Alias sm smite~
 Alias chat gossip~
 Alias fi fist~
 Alias co confuse~
-Sk 81 'confuse'
+Sk 82 'confuse'
 Sk 1 'ego whip'
 Sk 1 'project'
 Sk 1 'psychic shield'
-Sk 54 'telekinesis'
+Sk 56 'telekinesis'
 Sk 8 'axe'
 Sk 36 'dagger'
 Sk 6 'flail'
@@ -116,106 +114,20 @@ Sk 100 'second attack'
 Sk 100 'fists of fury'
 Sk 76 'iron skin'
 Sk 98 'nerve damage'
-Sk 81 'steel fist'
-Sk 82 'fast healing'
-Sk 86 'meditation'
+Sk 82 'steel fist'
+Sk 85 'fast healing'
+Sk 87 'meditation'
 Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'shield'  51  75 -20  17          0          0
-AffD 'aid'  38  21  54  13          0          0
-AffD 'aid'  14  21   7  18          0          0
-AffD 'armor'  39  19 -20  17          0          0
-AffD 'frenzy'  50  10 110  17          0          0
-AffD 'frenzy'  31  10  11  19          0          0
-AffD 'frenzy'  47  10  11  18          0          0
-AffD 'giant strength'  47  47   4   1          0          0
-AffD 'bless'  28  46  -8  24          0          0
-AffD 'bless'  37  46   8  18          0          0
-AffD 'fly'   6  27   0   0     524288          0
-End
-
-#O
-Vnum 725
-Nest 0
-Wear 9
-Lev  46
-Cost 950
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 25106
-Nest 0
-Wear 12
-Lev  18
-Cost 1000
-Cond 71
-Repd 0
-Val  7 6 6 0 0
-End
-
-#O
-Vnum 29215
-Nest 0
-Wear 6
-Lev  51
-Cost 5000
-Cond 85
-Repd 0
-End
-
-#O
-Vnum 16033
-Nest 0
-Wear 2
-Lev  52
-Cost 2409
-Cond 96
-Repd 0
-Affect -1 52 -1 -3 1 0 0
-End
-
-#O
-Vnum 16033
-Nest 0
-Wear 1
-Lev  52
-Cost 2409
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 16016
-Nest 0
-Wear 8
-Lev  52
-Cost 2368
-Cond 77
-Repd 0
-Affect -1 52 -1 -4 5 0 0
-End
-
-#O
-Vnum 10000
-Nest 0
-ExtF 2100289
-Wear 17
-Lev  50
-Cost 6000
-Cond 99
-Repd 0
-Affect -1 50 -1 4 20 0 0
 End
 
 #O
 Vnum 10004
 Nest 0
 ExtF 2100545
-Wear 3
+Wear 4
 Lev  50
 Cost 3000
 Cond 96
@@ -227,22 +139,12 @@ End
 Vnum 10004
 Nest 0
 ExtF 2100545
-Wear 4
+Wear 3
 Lev  50
 Cost 3000
 Cond 100
 Repd 0
 Affect -1 32 -1 1 17 0 0
-End
-
-#O
-Vnum 10012
-Nest 0
-Wear 11
-Lev  50
-Cost 2500
-Cond 100
-Repd 0
 End
 
 #O
@@ -254,17 +156,6 @@ Cost 2000
 Cond 100
 Repd 0
 Affect -1 50 -1 1 4 0 0
-End
-
-#O
-Vnum 29277
-Nest 0
-Wear -1
-Lev  51
-Cost 1000
-Cond 100
-Repd 0
-Spell 3 'shroud'
 End
 
 #O
@@ -330,6 +221,48 @@ Repd 0
 End
 
 #O
+Vnum 29008
+Nest 1
+Wear -1
+Lev  4
+Cost 100
+Cond 73
+Repd 0
+Affect -1 4 -1 -1 2 0 0
+End
+
+#O
+Vnum 9955
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9955
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29280
+Nest 1
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'heal'
+End
+
+#O
 Vnum 3605
 Nest 1
 Wear -1
@@ -340,14 +273,22 @@ Repd 0
 End
 
 #O
-Vnum 29008
+Vnum 3605
 Nest 1
 Wear -1
-Lev  4
-Cost 100
-Cond 73
+Lev  1
+Cost 1000
+Cond 100
 Repd 0
-Affect -1 4 -1 -1 2 0 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
 End
 
 #O
@@ -362,10 +303,47 @@ Val  0 0 -1 0 0
 End
 
 #O
-Vnum 3715
+Vnum 10000
+Nest 1
+ExtF 2100289
+Wear -1
+Lev  50
+Cost 6000
+Cond 99
+Repd 0
+Affect -1 50 -1 4 20 0 0
+End
+
+#O
+Vnum 9917
 Nest 1
 Wear -1
-Cost 0
+Lev  52
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 52 -1 -1 4 0 0
+End
+
+#O
+Vnum 7651
+Nest 1
+ExtF 20
+Wear -1
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+Affect -1 43 -1 1 17 0 0
+Affect -1 43 -1 1 1 0 0
+End
+
+#O
+Vnum 10012
+Nest 1
+Wear -1
+Lev  50
+Cost 2500
 Cond 100
 Repd 0
 End
@@ -376,7 +354,7 @@ Nest 0
 Wear 0
 Lev  20
 Cost 0
-Cond 78
+Cond 58
 Repd 0
 Val  0 0 -1 0 0
 End
@@ -384,23 +362,13 @@ End
 #O
 Vnum 17019
 Nest 0
+ExtF 20
 Wear 5
 Lev  52
 Cost 1500
-Cond 88
+Cond 87
 Repd 0
 Affect -1 52 -1 -2 23 0 0
-End
-
-#O
-Vnum 29280
-Nest 0
-Wear -1
-Lev  51
-Cost 1000
-Cond 100
-Repd 0
-Spell 3 'heal'
 End
 
 #O
@@ -409,30 +377,8 @@ Nest 0
 Wear 15
 Lev  40
 Cost 450
-Cond 98
+Cond 92
 Repd 0
-End
-
-#O
-Vnum 717
-Nest 0
-Wear 14
-Lev  40
-Cost 450
-Cond 100
-Repd 0
-Affect -1 40 -1 -5 13 0 0
-End
-
-#O
-Vnum 29275
-Nest 0
-Wear -1
-Lev  51
-Cost 1000
-Cond 100
-Repd 0
-Spell 3 'cure serious'
 End
 
 #O
@@ -443,45 +389,118 @@ Lev  53
 Cost 5000
 Cond 100
 Repd 0
-Affect -1 53 -1 1 3 0 0
 Affect -1 53 -1 -4 4 0 0
+Affect -1 53 -1 1 3 0 0
 End
 
 #O
-Vnum 20301
+Vnum 5609
 Nest 0
-Wear -1
-Lev  1
-Cost 100
+Wear 14
+Lev  52
+Cost 1000
 Cond 100
 Repd 0
-Spell 1 'haste'
-Spell 2 'heal'
-Spell 3 'fire shield'
+Affect -1 52 -1 4 21 0 0
 End
 
 #O
-Vnum 29208
+Vnum 7665
 Nest 0
-Wear -1
-Lev  51
-Cost 3000
+Wear 17
+Lev  54
+Cost 1500
 Cond 100
 Repd 0
-Affect -1 51 -1 3 22 0 0
-Affect -1 51 -1 -5 17 0 0
-Affect -1 51 -1 3 21 0 0
+Affect -1 54 -1 5 23 0 0
 End
 
 #O
-Vnum 29208
+Vnum 17025
 Nest 0
-Wear -1
-Lev  51
-Cost 3000
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
 Cond 100
 Repd 0
-Affect -1 51 -1 7 17 0 0
+Affect -1 53 -1 1 3 0 0
+End
+
+#O
+Vnum 7664
+Nest 0
+Wear 6
+Lev  54
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 54 -1 -1 22 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+Affect -1 53 -1 1 3 0 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 4000
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 29236
+Nest 0
+Wear 8
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29232
+Nest 0
+Wear 12
+Lev  53
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 53 -1 1 4 0 0
+End
+
+#O
+Vnum 29235
+Nest 0
+Wear 9
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 3 19 0 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 9000
+Cond 100
+Repd 0
 End
 
 #END

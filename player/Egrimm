@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1541373773
+LogO 1541738888
 Vers 3
 Desc .
 .         _          _          _          _          _          _
@@ -39,17 +39,17 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1772512
+Plyd 1774153
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
-Room 4210
-HMV  1372 1579 484 525 188 346
-NewGold 51
-NewPlat 398
-NewCopp 1099
-NewSilv 55
+Room 25264
+HMV  1527 1579 75 525 167 346
+NewGold 139
+NewPlat 423
+NewCopp 1420
+NewSilv 250
 Bank 1554756
 Dcount 0
 Corpses	0
@@ -58,7 +58,7 @@ PkGiv 2
 QuestPnts 262
 Exp  133484
 Act  65740
-AfBy 2630152
+AfBy 2630280
 Comm 28736
 Mounted 0
 On_Quest 0
@@ -85,7 +85,7 @@ Color 15 6
 Color 16 6
 Pos  8
 Prac 8
-Alig  696
+Alig  701
 Hit   61
 Dam   98
 ACs -197 -189 -219 -88
@@ -188,14 +188,15 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'shield'  38  56 -20  17          0          0
-AffD 'armor'  46  19 -20  17          0          0
-AffD 'protection evil'  48  19   0   0       8192          0
-AffD 'giant strength'   0  45   4   1          0          0
-AffD 'detect invis'   0  41   0   0          8          0
-AffD 'fly'  10  29   0   0     524288          0
-AffD 'haste'   0   1   4   2    2097152          0
-AffD 'stone skin'  39  29 -40  17          0          0
+AffD 'sanctuary'  50   7   0   0        128          0
+AffD 'haste'  49   2   4   2    2097152          0
+AffD 'shield'  31  27 -20  17          0          0
+AffD 'giant strength'   0  16   4   1          0          0
+AffD 'detect invis'   0  12   0   0          8          0
+AffD 'fly'   0   0   0   0     524288          0
+AffD 'stone skin'  33   0 -40  17          0          0
+AffD 'armor'  39  15 -20  17          0          0
+AffD 'protection evil'  43  15   0   0       8192          0
 End
 
 #O
@@ -558,7 +559,7 @@ Vnum 29276
 Nest 1
 Wear -1
 Lev  51
-Time 32
+Time 3
 Cost 1000
 Cond 100
 Repd 0
@@ -572,7 +573,7 @@ Vnum 29276
 Nest 1
 Wear -1
 Lev  51
-Time 79
+Time 50
 Cost 1000
 Cond 100
 Repd 0
@@ -779,7 +780,7 @@ Vnum 29234
 Nest 2
 Wear -1
 Lev  51
-Time 42
+Time 13
 Cost 1000
 Cond 100
 Repd 0
@@ -797,20 +798,6 @@ Cost 10
 Cond 100
 Repd 0
 Spell 1 'protection evil'
-End
-
-#O
-Vnum 29234
-Nest 2
-Wear -1
-Lev  51
-Time 26
-Cost 1000
-Cond 100
-Repd 0
-Spell 1 'bless'
-Spell 2 'sanctuary'
-Spell 3 'fly'
 End
 
 #O
@@ -889,17 +876,6 @@ Repd 0
 End
 
 #O
-Vnum 5614
-Nest 1
-Wear -1
-Lev  52
-Cost 6000
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-End
-
-#O
 Vnum 9923
 Enchanted
 Nest 1
@@ -930,6 +906,22 @@ AffD 'enchant weapon' 67 -1 13 19 0 0
 AffD 'enchant weapon' 67 -1 13 18 0 0
 ExDe this~ weapon slays all your opponents.
 ~
+End
+
+#O
+Vnum 17020
+Nest 1
+Name finger~
+ShD  The Finger~
+Desc Suddenly you feel put back in your place by The Finger!~
+ExtF 19
+Act_room $n puts you back in your place with $p!~
+Act_char You suddenly decide to flip everyone $p!~
+Wear -1
+Lev  53
+Cost 2000
+Cond 100
+Repd 0
 End
 
 #O
@@ -1007,19 +999,14 @@ Repd 0
 End
 
 #O
-Vnum 17020
+Vnum 5614
 Nest 1
-Name finger~
-ShD  The Finger~
-Desc Suddenly you feel put back in your place by The Finger!~
-ExtF 19
-Act_room $n puts you back in your place with $p!~
-Act_char You suddenly decide to flip everyone $p!~
 Wear -1
-Lev  53
-Cost 2000
+Lev  52
+Cost 6000
 Cond 100
 Repd 0
+Val  0 0 -1 0 0
 End
 
 #O
@@ -1115,50 +1102,6 @@ Affect -1 53 -1 -4 18 0 0
 End
 
 #O
-Vnum 4486
-Nest 0
-Wear -1
-Lev  20
-Cost 1000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 86
-Nest 0
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10
-Nest 0
-ShD  corpse of a cityguard~
-Desc The corpse of a cityguard is lying here.~
-Wear -1
-Lev  20
-Time 6
-Cost 0
-Cond 25
-Repd 0
-End
-
-#O
-Vnum 16
-Nest 0
-ShD  the guts of a cityguard~
-Desc A steaming pile of a cityguard's entrails is lying here.~
-Wear -1
-Time 4
-Cost 0
-Cond 25
-Repd 0
-End
-
-#O
 Vnum 18010
 Enchanted
 Nest 0
@@ -1173,6 +1116,15 @@ Cond 100
 Repd 0
 AffD 'enchant weapon' 51 -1 10 18 0 0
 AffD 'enchant weapon' 51 -1 10 19 0 0
+End
+
+#O
+Vnum 86
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
 End
 
 #END
