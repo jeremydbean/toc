@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1541899526
+LogO 1542056681
 Vers 3
 Desc .~
 Prom ~
@@ -13,25 +13,26 @@ Gui  4
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 203873
+Plyd 218164
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 4205
-HMV  1451 1451 1054 1054 507 507
-NewGold 0
-NewPlat 0
-NewCopp 147
+Room 29003
+HMV  1495 1495 726 1054 507 507
+NewGold 93
+NewPlat 128
+NewCopp 46
 NewSilv 9
-Bank 12333
+Bank 12878
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  144000
+Exp  148762
 Act  393420
+AfBy 524288
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -58,13 +59,13 @@ Color 15 6
 Color 16 6
 Pos  8
 Prac 1
-Save  6
+Save  -2
 Alig  1000
-Hit   66
-Dam   88
-ACs -159 -161 -194 -17
+Hit   92
+Dam   99
+ACs -89 -91 -124 53
 Attr 13 13 13 13 13
-AMod 7 5 -2 -7 -4
+AMod 11 5 -2 -7 -4
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
@@ -113,14 +114,25 @@ Sk 1 'trip'
 Sk 100 'second attack'
 Sk 100 'fists of fury'
 Sk 76 'iron skin'
-Sk 98 'nerve damage'
+Sk 99 'nerve damage'
 Sk 82 'steel fist'
-Sk 85 'fast healing'
-Sk 87 'meditation'
+Sk 87 'fast healing'
+Sk 88 'meditation'
 Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
+AffD 'shield'  35  62 -20  17          0          0
+AffD 'aid'  35   2   7  18          0          0
+AffD 'aid'  38   2  44  13          0          0
+AffD 'fly'  41  51   0   0     524288          0
+AffD 'armor'  40   2 -20  17          0          0
+AffD 'frenzy'  34   1  11  18          0          0
+AffD 'frenzy'  34   1  11  19          0          0
+AffD 'frenzy'  41   1 110  17          0          0
+AffD 'giant strength'  47  48   4   1          0          0
+AffD 'bless'  44  56   8  18          0          0
+AffD 'bless'  27  56  -8  24          0          0
 End
 
 #O
@@ -334,8 +346,8 @@ Lev  43
 Cost 950
 Cond 100
 Repd 0
-Affect -1 43 -1 1 17 0 0
 Affect -1 43 -1 1 1 0 0
+Affect -1 43 -1 1 17 0 0
 End
 
 #O
@@ -389,8 +401,8 @@ Lev  53
 Cost 5000
 Cond 100
 Repd 0
-Affect -1 53 -1 -4 4 0 0
 Affect -1 53 -1 1 3 0 0
+Affect -1 53 -1 -4 4 0 0
 End
 
 #O

@@ -250,7 +250,7 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
 	obj_to_char( obj, ch );
 	equip_char( ch, obj, WEAR_LIGHT );
     }
- 
+
     if ( ( obj = get_eq_char( ch, WEAR_BODY ) ) == NULL )
     {
 	obj = create_object( get_obj_index(OBJ_VNUM_SCHOOL_VEST), -1 * ch->level );
@@ -274,11 +274,19 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
 	equip_char( ch, obj, WEAR_WIELD );
     }
 
+    if ( ( obj = get_eq_char( ch, WEAR_HOLD ) ) == NULL )
+    {
+  obj = create_object( get_obj_index(OBJ_VNUM_DIPLOMA), -1 * ch->level );
+  obj->cost = 0;
+  obj_to_char( obj, ch );
+  equip_char( ch, obj, WEAR_HOLD );
+    }
+
     send_to_char("You have been equipped by the Gods.\n\r",ch);
     return;
 }
 
-     
+
 /* RT nochannels command, for those spammers */
 void do_nochannels( CHAR_DATA *ch, char *argument )
 {
@@ -1287,7 +1295,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    /* Crash bug fix - Rico 8/6/98 */   
+    /* Crash bug fix - Rico 8/6/98 */
     if (atoi(argument) < 1 && is_number(argument))
     {
         send_to_char("Invalid room number.\n\r",ch);
@@ -1640,17 +1648,17 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 					: "someone",
 	obj->wear_loc );
     send_to_char( buf, ch );
-    
+
     sprintf( buf, "Values: %d %d %d %d %d\n\r",
 	obj->value[0], obj->value[1], obj->value[2], obj->value[3],
 	obj->value[4] );
     send_to_char( buf, ch );
-    
+
     /* now give out vital statistics as per identify */
-    
+
     switch ( obj->item_type )
     {
-	case ITEM_SCROLL: 
+	case ITEM_SCROLL:
 	case ITEM_POTION:
 	case ITEM_PILL:
 	    sprintf( buf, "Level %d spells of:", obj->value[0] );
@@ -1680,12 +1688,12 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 		send_to_char( ".\n\r", ch );
 	break;
 
-	case ITEM_WAND: 
+	case ITEM_WAND:
 	case ITEM_STAFF:
 	    sprintf( buf, "Has %d(%d) charges of level %d",
 		obj->value[1], obj->value[2], obj->value[0] );
 	    send_to_char( buf, ch );
-      
+
 	    if ( obj->value[3] >= 0 && obj->value[3] < MAX_SKILL )
 	    {
 		send_to_char( " '", ch );
@@ -1721,7 +1729,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 		    obj->value[1], obj->value[2],
 		    ( obj->value[1] + obj->value[2] ) / 2 );
 	    send_to_char( buf, ch );
-	    
+
 	    if (obj->value[4])  /* weapon flags */
 	    {
 		sprintf(buf,"Weapons flags: %s\n\r",weapon_bit_name(obj->value[4]));
@@ -1730,8 +1738,8 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	break;
 
 	case ITEM_ARMOR:
-	    sprintf( buf, 
-		"Armor class is %d pierce, %d bash, %d slash, and %d vs. magic\n\r", 
+	    sprintf( buf,
+		"Armor class is %d pierce, %d bash, %d slash, and %d vs. magic\n\r",
 		obj->value[0], obj->value[1], obj->value[2], obj->value[3] );
 	    send_to_char( buf, ch );
 	break;
@@ -1787,7 +1795,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	    affect_loc_name( paf->location ), paf->modifier,paf->level );
 	send_to_char( buf, ch );
     }
-    
+
     if (loaded_object) {
       extract_obj(obj);
     }
@@ -2081,7 +2089,7 @@ void do_vnum(CHAR_DATA *ch, char *argument)
     char *string;
 
     string = one_argument(argument,arg);
- 
+
     if (arg[0] == '\0')
     {
 	send_to_char("Syntax:\n\r",ch);
@@ -2098,7 +2106,7 @@ void do_vnum(CHAR_DATA *ch, char *argument)
     }
 
     if (!str_cmp(arg,"mob") || !str_cmp(arg,"char"))
-    { 
+    {
 	do_mfind(ch,string);
 	return;
     }
@@ -2229,7 +2237,7 @@ void do_ofind( CHAR_DATA *ch, char *argument )
     return;
 }
 
-/* Rwhere coded by Ricochet to be able to locate specific rooms on the mud 
+/* Rwhere coded by Ricochet to be able to locate specific rooms on the mud
    if you know the room's name or part of the room's name 6/20/98 */
 
 void do_rwhere( CHAR_DATA *ch, char *argument )
@@ -2251,10 +2259,10 @@ void do_rwhere( CHAR_DATA *ch, char *argument )
 
     found = FALSE;
     buffer[0] = '\0';
-   
+
     count = 0;
 
-    for ( i = 1; i < 32768; i++ )    
+    for ( i = 1; i < 32768; i++ )
     {
 
         location = get_room_index(i);
@@ -2279,7 +2287,7 @@ void do_rwhere( CHAR_DATA *ch, char *argument )
             page_to_char(buffer,ch);
         else
             send_to_char(buffer,ch);
-    
+
       arg[0] = '\0';
 
     return;
@@ -2310,7 +2318,7 @@ void do_mwhere( CHAR_DATA *ch, char *argument )
     buffer[0] = '\0';
     for ( victim = char_list; victim != NULL; victim = victim->next )
     {
-    
+
         if (count > 100)
         break;
 
@@ -2363,12 +2371,12 @@ void do_owhere( CHAR_DATA *ch, char *argument )
 	    bvnum = TRUE;
 	    vnum = atoi(arg);
 	}
-	
+
         buffer[0] = '\0';
         for ( obj = object_list; obj != NULL; obj = obj->next ) {
             if (count > 100)
-                break;      
-     
+                break;
+
 	    if(bvnum) {
 		if(!can_see_obj(ch,obj) || obj->pIndexData->vnum != vnum) {
 		    continue;
@@ -2390,14 +2398,14 @@ void do_owhere( CHAR_DATA *ch, char *argument )
 		if( in_obj->carried_by->in_room != NULL )
 		  sprintf( buf, "[%3d] %35s [%5d] carried by %s. Room [%5d]\n\r",
 			obj_counter,
-			obj->short_descr, 
+			obj->short_descr,
                         obj->pIndexData->vnum,
                         PERS( in_obj->carried_by, ch ),
 			in_obj->carried_by->in_room->vnum );
 		else
 		  sprintf( buf, "[%3d] %35s [%5d] carried by %s.\n\r",
 			obj_counter,
-			obj->short_descr, 
+			obj->short_descr,
                         obj->pIndexData->vnum,
                         PERS( in_obj->carried_by, ch ) );
 	    }
@@ -2408,7 +2416,7 @@ void do_owhere( CHAR_DATA *ch, char *argument )
 			obj->short_descr,
                         obj->pIndexData->vnum,
 			in_obj->name,
-                        in_obj->pIndexData->vnum, 
+                        in_obj->pIndexData->vnum,
 			in_obj->in_room->vnum);
 		else
 		  sprintf( buf, "[%3d] %35s [%5d] in %s.\n\r", obj_counter,
@@ -2646,7 +2654,7 @@ void do_switch( CHAR_DATA *ch, char *argument )
        send_to_char(buf,ch);
        char_from_room(ch);
        char_to_room(ch,get_room_index(9) );
-       victim->were_shape = ch->were_shape;	
+       victim->were_shape = ch->were_shape;
      }
     ch->desc->character = victim;
     ch->desc->original  = ch;
@@ -2691,7 +2699,7 @@ void do_return( CHAR_DATA *ch, char *argument )
       ch->desc                  = NULL;
       extract_char(ch,TRUE);
       return;
-    } 
+    }
     ch->desc                  = NULL;
 
     return;
@@ -4150,7 +4158,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char(buf,ch);
 	return;
     }
- 
+
     if ( !str_prefix( arg2, "copper" ) )
     {
         victim->new_copper = value;
@@ -4161,7 +4169,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
         send_to_char(buf,ch);
         return;
     }
- 
+
     if ( !str_prefix( arg2, "silver" ) )
     {
         victim->new_silver = value;
@@ -5053,7 +5061,7 @@ void do_undeny(CHAR_DATA *ch, char *argument)
 
     if (char_exists)
     {
-  
+
        d.character->desc     = NULL;
        d.character->next     = char_list;
        char_list             = d.character;
@@ -5063,7 +5071,7 @@ void do_undeny(CHAR_DATA *ch, char *argument)
        if (!IS_SET(d.character->act, PLR_DENY))
        {
            send_to_char("That player isn't denied!\n\r",ch);
-           extract_char( d.character, TRUE );     
+           extract_char( d.character, TRUE );
      /*      close_socket(d.character);*/
            return;
        }
@@ -5148,7 +5156,7 @@ void do_sockets( CHAR_DATA *ch, char *argument )
                    }
                 }
         }
-  
+
          if (counts == 0)
   {
     for ( d = descriptor_list; d != NULL; d = d->next )
@@ -5509,7 +5517,7 @@ void do_restorechar( CHAR_DATA *ch, char *argument )
 	already_there = 0;
     }
     fclose(tempfile);*/
-  
+
     already_there = 0;
 
     if (!already_there)
@@ -5523,7 +5531,7 @@ void do_restorechar( CHAR_DATA *ch, char *argument )
     else
     {
 	send_to_char("Restoring from file...", ch);
-    	sprintf(buf, "cd %s; gunzip -c %s | tar xvf - %s", 
+    	sprintf(buf, "cd %s; gunzip -c %s | tar xvf - %s",
 		PLAYER_DIR, filename, name);
     }
     system(buf);
@@ -5531,7 +5539,7 @@ void do_restorechar( CHAR_DATA *ch, char *argument )
     /* ok, check to see if we got it or not */
     if ( ( tempfile = fopen( playerfile, "r" ) ) == NULL )
     {
-	sprintf(buf, "Character file for %s not found in %s backup!\n\r", 
+	sprintf(buf, "Character file for %s not found in %s backup!\n\r",
 		name, date);
 	send_to_char( buf, ch);
 	if (already_there)
@@ -5665,7 +5673,7 @@ void do_pstat( CHAR_DATA *ch, char *argument )
 	&& can_see(ch,victim) )
 	{
 	  sprintf( buf, "%-12s  [%2d]  %4d(%4d)/%4d(%4d)/%4d(%4d)  %2d/%2d    %5d   %1d    %1d\n\r",
-	  victim->name,  victim->level,  victim->hit,  victim->max_hit,  
+	  victim->name,  victim->level,  victim->hit,  victim->max_hit,
           victim->mana, victim->max_mana,  victim->move, victim->max_move,
           GET_HITROLL(victim), GET_DAMROLL(victim), victim->alignment,
 	   victim->were_shape.were_type ? victim->were_shape.were_type : 0,
@@ -5825,12 +5833,12 @@ void do_newcorpse( CHAR_DATA *ch, char *argument )
 	send_to_char( buf,ch );
 	send_to_char( "Corpse #  Contents   Flag\n\r",ch);
 	send_to_char( "--------------------------\n\r",ch);
-	
+
 	for( i = 0; i < 5 ; i++ )
 	{
 	    if( corpse_cont[i][0] == 99 )
 		break;
-	    
+
 	    sprintf( buf, "  %d		%3d   ", i+1, corpse_cont[i][0] );
 	    send_to_char( buf,ch );
 	    checksum1 = 0;
@@ -5840,7 +5848,7 @@ void do_newcorpse( CHAR_DATA *ch, char *argument )
 		checksum1 += corpse_cont[i][c];
 		checksum2 += item_level[i][c];
 	    }
-	
+
 	    if ( checksum1 == corpse_cont[i][c]
 		 && checksum2 == item_level[i][c] )
 		send_to_char( "Valid\n\r",ch );
@@ -5894,8 +5902,8 @@ void do_newcorpse( CHAR_DATA *ch, char *argument )
     }
     return;
 }
-    
-    
+
+
 void do_swedish( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
@@ -5982,7 +5990,7 @@ void do_bowl( CHAR_DATA *ch, char *argument )
 	            sprintf(buf,"An Immortal yells,'DOH! Seven-Ten SPLIT!'");
 	            do_echo(ch,buf);
 	            break;
-	
+
 	        case 2:
 	            sprintf(buf,"You hear a wet thud far off in the distance.");
 	            do_echo(ch,buf);
@@ -6059,8 +6067,8 @@ void do_bowl( CHAR_DATA *ch, char *argument )
 	    do_echo(ch,buf);
 	    break;
     }
-	    
-	    
+
+
     return;
 
 }

@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1541738938
+LogO 1541991898
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,27 +11,27 @@ Cla  3
 Gui  3
 Psionic  1
 Cast none
-Levl 20
-Plyd 25820
+Levl 22
+Plyd 28926
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 25265
-HMV  356 367 70 240 9 218
-NewGold 159
-NewPlat 19
-NewCopp 3834
-NewSilv 1387
+Room 4210
+HMV  330 464 197 252 11 230
+NewGold 623
+NewPlat 35
+NewCopp 4426
+NewSilv 1762
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  46543
+Exp  50989
 Act  65740
 AfBy 2621568
-AfBy2 4104
+AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -56,45 +56,44 @@ Color 13 7
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  8
-Prac 14
-Trai 3
-Save  -8
-Alig  -1000
-Hit   29
-Dam   22
-ACs -21 -23 -22 75
+Pos  4
+Prac 2
+Save  -9
+Alig  -788
+Hit   28
+Dam   27
+ACs -29 -33 -29 73
 Attr 13 13 16 16 12
 AMod 9 5 1 6 1
 Pass We2cg.QoJGvjg~
-Titl  the Knight~
+Titl  the Master Knight~
 Pnts 40
 TSex 1
-LLev 6
-HMVP 365 219 214
-Cond 0 33 37
+LLev 7
+HMVP 462 231 226
+Cond 0 30 33
 Alias k kick~
 Sk 1 'confuse'
 Sk 1 'mindblast'
 Sk 1 'project'
 Sk 1 'psionic armor'
 Sk 30 'axe'
-Sk 65 'dagger'
+Sk 66 'dagger'
 Sk 25 'flail'
 Sk 25 'mace'
 Sk 35 'polearm'
-Sk 36 'shield block'
+Sk 38 'shield block'
 Sk 30 'spear'
 Sk 94 'sword'
 Sk 30 'whip'
 Sk 17 'berserk'
 Sk 1 'disarm'
 Sk 21 'dodge'
-Sk 41 'enhanced damage'
-Sk 40 'kick'
-Sk 31 'parry'
+Sk 45 'enhanced damage'
+Sk 43 'kick'
+Sk 34 'parry'
 Sk 1 'rescue'
-Sk 38 'second attack'
+Sk 40 'second attack'
 Sk 16 'third attack'
 Sk 1 'hide'
 Sk 80 'recall'
@@ -103,15 +102,14 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'bless'   0  14   8  18          0          0
-AffD 'bless'   0  14  -8  24          0          0
-AffD 'fly'   0  11   0   0     524288          0
-AffD 'shield'   0  16 -20  17          0          0
-AffD 'giant strength'   0   8   4   1          0          0
-AffD 'sanctuary'  52   9   0   0        128          0
-AffD 'haste'  52  15   4   2    2097152          0
-AffD 'divine protection'  50   8   0   0          0       4096
-AffD 'fire shield'  51   2   0   0          0          8
+AffD 'shield'  46  48 -20  17          0          0
+AffD 'bless'   0  40   8  18          0          0
+AffD 'bless'   0  40  -8  24          0          0
+AffD 'fly'   0  37   0   0     524288          0
+AffD 'giant strength'  44  34   4   1          0          0
+AffD 'sanctuary'  50   3   0   0        128          0
+AffD 'haste'  48  10   4   2    2097152          0
+AffD 'divine protection'  50   3   0   0          0       4096
 End
 
 #O
@@ -129,7 +127,7 @@ Nest 0
 Wear 6
 Lev  2
 Cost 10
-Cond 95
+Cond 93
 Repd 0
 Val  3 4 3 0 0
 Affect -1 2 -1 3 3 0 0
@@ -147,44 +145,14 @@ Repd 0
 End
 
 #O
-Vnum 3742
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 99
-Repd 0
-End
-
-#O
 Vnum 3737
 Nest 0
 Wear 11
 Lev  1
 Cost 10
-Cond 98
+Cond 96
 Repd 0
 Val  2 4 3 0 0
-End
-
-#O
-Vnum 3738
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3740
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
 End
 
 #O
@@ -203,27 +171,7 @@ Nest 0
 Wear 1
 Lev  7
 Cost 441
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3504
-Nest 0
-Wear -1
-Lev  7
-Cost 400
-Cond 90
-Repd 0
-End
-
-#O
-Vnum 3504
-Nest 0
-Wear -1
-Lev  7
-Cost 400
-Cond 90
+Cond 98
 Repd 0
 End
 
@@ -294,17 +242,6 @@ End
 #O
 Vnum 10022
 Nest 0
-Wear 3
-Lev  11
-Cost 280
-Cond 100
-Repd 0
-Val  5 5 5 0 0
-End
-
-#O
-Vnum 10022
-Nest 0
 Wear 4
 Lev  12
 Cost 280
@@ -334,32 +271,11 @@ Repd 0
 End
 
 #O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 10027
 Nest 0
 Wear 5
 Lev  14
 Cost 210
-Cond 100
-Repd 0
-Val  6 5 5 0 0
-End
-
-#O
-Vnum 10028
-Nest 0
-Wear 7
-Lev  15
-Cost 190
 Cond 100
 Repd 0
 Val  6 5 5 0 0
@@ -397,17 +313,6 @@ Repd 0
 End
 
 #O
-Vnum 10029
-Nest 0
-Wear 16
-Lev  14
-Cost 200
-Cond 100
-Repd 0
-Val  1 4 5 3 0
-End
-
-#O
 Vnum 17713
 Nest 0
 Wear 17
@@ -415,17 +320,6 @@ Lev  18
 Cost 500
 Cond 100
 Repd 0
-End
-
-#O
-Vnum 25105
-Nest 0
-Wear -1
-Lev  8
-Cost 1000
-Cond 100
-Repd 0
-Val  1 3 5 3 8
 End
 
 #O
@@ -440,17 +334,6 @@ Val  4 5 5 0 0
 End
 
 #O
-Vnum 25109
-Nest 0
-Wear 10
-Lev  8
-Cost 100
-Cond 100
-Repd 0
-Val  3 5 5 0 0
-End
-
-#O
 Vnum 9224
 Nest 0
 Wear -1
@@ -458,6 +341,7 @@ Lev  8
 Cost 729
 Cond 100
 Repd 0
+Val  150 141 0 0 0
 End
 
 #O
@@ -476,7 +360,7 @@ End
 #O
 Vnum 1395
 Nest 0
-Wear -1
+Wear 3
 Lev  22
 Cost 5000
 Cond 100
@@ -495,6 +379,49 @@ Cond 100
 Repd 0
 Val  6 5 6 0 0
 Affect -1 18 -1 -1 2 0 0
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear 16
+Lev  14
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear -1
+Lev  24
+Cost 5000
+Cond 100
+Repd 0
+Val  7 7 8 0 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 -1 2 0 0
+End
+
+#O
+Vnum 9214
+Nest 0
+Wear 7
+Lev  22
+Cost 5060
+Cond 100
+Repd 0
 End
 
 #END
