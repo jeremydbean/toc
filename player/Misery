@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542058271
+LogO 1542058978
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -47,7 +47,7 @@ Psionic  1
 Cast Fors
 Levl 54
 Tru  70
-Plyd 1642367
+Plyd 1642373
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -370,8 +370,8 @@ Lev  51
 Cost 500
 Cond 100
 Repd 0
-Affect -1 51 -1 4 24 0 0
 Affect -1 51 -1 -8 17 0 0
+Affect -1 51 -1 4 24 0 0
 End
 
 #O
