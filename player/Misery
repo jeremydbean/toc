@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1541667031
+LogO 1542058271
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -47,7 +47,7 @@ Psionic  1
 Cast Fors
 Levl 54
 Tru  70
-Plyd 1641479
+Plyd 1642367
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -370,8 +370,8 @@ Lev  51
 Cost 500
 Cond 100
 Repd 0
-Affect -1 51 -1 -8 17 0 0
 Affect -1 51 -1 4 24 0 0
+Affect -1 51 -1 -8 17 0 0
 End
 
 #O
@@ -1257,37 +1257,13 @@ End
 Vnum 3092
 Nest 0
 Wear 17
-Time 94
+Time 80
 Cost 150
 Cond 100
 Repd 0
 Spell 1 'detect invis'
 Spell 2 'detect magic'
 Spell 3 'detect hidden'
-End
-
-#O
-Vnum 11
-Nest 0
-Name Misery corpse~
-ShD  a rotting corpse~
-Desc Flies are buzzing around a rotting corpse.~
-Wear -1
-Lev  54
-Time 13
-Cost 0
-Cond 25
-Repd 0
-End
-
-#O
-Vnum 9924
-Nest 1
-Wear -1
-Lev  52
-Cost 1000
-Cond 100
-Repd 0
 End
 
 #END

@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1541914002
+LogO 1542057318
 Vers 3
 ShD  Chubby Nutz ~
 LnD  Pooptastic
@@ -18,7 +18,7 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 1978392
+Plyd 2121708
 ListRemorts ~
 NumRemorts 0
 Note 995701290
@@ -8148,6 +8148,19 @@ Lev  29
 Cost 500
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
 End
 
 #END
