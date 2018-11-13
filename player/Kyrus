@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1542056681
+LogO 1542078120
 Vers 3
 Desc .~
 Prom ~
@@ -13,26 +13,27 @@ Gui  4
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 218164
+Plyd 220130
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 29003
-HMV  1495 1495 726 1054 507 507
-NewGold 93
-NewPlat 128
-NewCopp 46
-NewSilv 9
+Room 4207
+HMV  997 1451 316 1054 217 507
+NewGold 420
+NewPlat 280
+NewCopp 1851
+NewSilv 737
 Bank 12878
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  148762
+Exp  150094
 Act  393420
-AfBy 524288
+AfBy 2621568
+AfBy2 4104
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -61,11 +62,11 @@ Pos  8
 Prac 1
 Save  -2
 Alig  1000
-Hit   92
+Hit   85
 Dam   99
-ACs -89 -91 -124 53
+ACs -69 -71 -104 73
 Attr 13 13 13 13 13
-AMod 11 5 -2 -7 -4
+AMod 11 5 -2 -3 -4
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
@@ -92,7 +93,7 @@ Alias sm smite~
 Alias chat gossip~
 Alias fi fist~
 Alias co confuse~
-Sk 82 'confuse'
+Sk 83 'confuse'
 Sk 1 'ego whip'
 Sk 1 'project'
 Sk 1 'psychic shield'
@@ -116,23 +117,24 @@ Sk 100 'fists of fury'
 Sk 76 'iron skin'
 Sk 99 'nerve damage'
 Sk 82 'steel fist'
-Sk 87 'fast healing'
+Sk 88 'fast healing'
 Sk 88 'meditation'
 Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'shield'  35  62 -20  17          0          0
-AffD 'aid'  35   2   7  18          0          0
-AffD 'aid'  38   2  44  13          0          0
-AffD 'fly'  41  51   0   0     524288          0
-AffD 'armor'  40   2 -20  17          0          0
-AffD 'frenzy'  34   1  11  18          0          0
-AffD 'frenzy'  34   1  11  19          0          0
-AffD 'frenzy'  41   1 110  17          0          0
-AffD 'giant strength'  47  48   4   1          0          0
-AffD 'bless'  44  56   8  18          0          0
-AffD 'bless'  27  56  -8  24          0          0
+AffD 'fire shield'  51   0   0   0          0          8
+AffD 'frenzy'  50  14 110  17          0          0
+AffD 'frenzy'  46  14  11  19          0          0
+AffD 'frenzy'   0  14  11  18          0          0
+AffD 'divine protection'   0   1   0   0          0       4096
+AffD 'haste'   0   8   4   2    2097152          0
+AffD 'sanctuary'  21   1   0   0        128          0
+AffD 'shield'  29  27 -20  17          0          0
+AffD 'fly'  29  16   0   0     524288          0
+AffD 'giant strength'  41  13   4   1          0          0
+AffD 'bless'  41  21   8  18          0          0
+AffD 'bless'  18  21  -8  24          0          0
 End
 
 #O

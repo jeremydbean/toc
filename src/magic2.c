@@ -829,9 +829,9 @@ void do_telekinesis( CHAR_DATA *ch, char *argument )
 		 NULL, arg, TO_CHAR);
     else
 	 {
-	 act("You concentrate and $T fly's to your hand.",ch, NULL,
+	 act("You concentrate and $T flies to your hand.",ch, NULL,
 		obj->short_descr, TO_CHAR);
-	 act("$n bows $s head and $T fly's to $s hand.",ch, NULL,
+	 act("$n bows $s head and $T flies to $s hand.",ch, NULL,
 		obj->short_descr, TO_ROOM);
 	 }
     check_improve(ch,gsn_telekinesis,TRUE,4);

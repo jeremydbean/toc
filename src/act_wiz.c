@@ -274,14 +274,6 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
 	equip_char( ch, obj, WEAR_WIELD );
     }
 
-    if ( ( obj = get_eq_char( ch, WEAR_HOLD ) ) == NULL )
-    {
-  obj = create_object( get_obj_index(OBJ_VNUM_DIPLOMA), -1 * ch->level );
-  obj->cost = 0;
-  obj_to_char( obj, ch );
-  equip_char( ch, obj, WEAR_HOLD );
-    }
-
     send_to_char("You have been equipped by the Gods.\n\r",ch);
     return;
 }

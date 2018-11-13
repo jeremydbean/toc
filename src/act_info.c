@@ -1651,7 +1651,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		    default            :
 		    if(wch->class != CLASS_MONK
 		    && wch->class != CLASS_NECRO)
-					 guild = "    ";	break;
+					guild = "    ";	break;
 		    case GUILD_MAGE    : guild = "/M  ";	break;
 		    case GUILD_CLERIC  : guild = "/C  ";	break;
 		    case GUILD_THIEF   : guild = "/T  ";	break;

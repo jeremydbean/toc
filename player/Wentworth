@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1541991898
+LogO 1542119893
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,26 +11,26 @@ Cla  3
 Gui  3
 Psionic  1
 Cast none
-Levl 22
-Plyd 28926
+Levl 24
+Plyd 31329
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4210
-HMV  330 464 197 252 11 230
-NewGold 623
-NewPlat 35
-NewCopp 4426
-NewSilv 1762
+HMV  253 549 255 257 114 242
+NewGold 708
+NewPlat 48
+NewCopp 8449
+NewSilv 2848
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  50989
+Exp  55382
 Act  65740
-AfBy 2621568
+AfBy 2097280
 AfBy2 4096
 Comm 24576
 Mounted 0
@@ -57,22 +57,23 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  4
-Prac 2
-Save  -9
-Alig  -788
-Hit   28
-Dam   27
-ACs -29 -33 -29 73
+Prac 9
+Save  -3
+Alig  -1000
+Hit   20
+Dam   31
+ACs -49 -49 -49 52
 Attr 13 13 16 16 12
-AMod 9 5 1 6 1
+AMod 9 1 0 6 1
 Pass We2cg.QoJGvjg~
-Titl  the Master Knight~
+Titl  the Grand Paladin~
 Pnts 40
 TSex 1
-LLev 7
-HMVP 462 231 226
-Cond 0 30 33
+LLev 8
+HMVP 511 244 238
+Cond 0 38 41
 Alias k kick~
+Alias re rescue~
 Sk 1 'confuse'
 Sk 1 'mindblast'
 Sk 1 'project'
@@ -89,11 +90,11 @@ Sk 30 'whip'
 Sk 17 'berserk'
 Sk 1 'disarm'
 Sk 21 'dodge'
-Sk 45 'enhanced damage'
-Sk 43 'kick'
+Sk 47 'enhanced damage'
+Sk 48 'kick'
 Sk 34 'parry'
-Sk 1 'rescue'
-Sk 40 'second attack'
+Sk 11 'rescue'
+Sk 41 'second attack'
 Sk 16 'third attack'
 Sk 1 'hide'
 Sk 80 'recall'
@@ -102,14 +103,13 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'shield'  46  48 -20  17          0          0
-AffD 'bless'   0  40   8  18          0          0
-AffD 'bless'   0  40  -8  24          0          0
-AffD 'fly'   0  37   0   0     524288          0
-AffD 'giant strength'  44  34   4   1          0          0
-AffD 'sanctuary'  50   3   0   0        128          0
-AffD 'haste'  48  10   4   2    2097152          0
-AffD 'divine protection'  50   3   0   0          0       4096
+AffD 'divine protection'   0   1   0   0          0       4096
+AffD 'haste'  44   8   4   2    2097152          0
+AffD 'sanctuary'  47   2   0   0        128          0
+AffD 'armor'  25  12 -20  17          0          0
+AffD 'aid'  26  12  38  13          0          0
+AffD 'aid'  51  12   7  18          0          0
+AffD 'shield'  38   7 -20  17          0          0
 End
 
 #O
@@ -119,19 +119,6 @@ Wear -1
 Cost 0
 Cond 98
 Repd 0
-End
-
-#O
-Vnum 3719
-Nest 0
-Wear 6
-Lev  2
-Cost 10
-Cond 93
-Repd 0
-Val  3 4 3 0 0
-Affect -1 2 -1 3 3 0 0
-Affect -1 2 -1 8 12 0 0
 End
 
 #O
@@ -150,7 +137,7 @@ Nest 0
 Wear 11
 Lev  1
 Cost 10
-Cond 96
+Cond 91
 Repd 0
 Val  2 4 3 0 0
 End
@@ -226,38 +213,6 @@ Cost 500
 Cond 100
 Repd 0
 Affect -1 12 -1 -3 19 0 0
-End
-
-#O
-Vnum 2112
-Nest 0
-Wear 9
-Lev  12
-Cost 500
-Cond 100
-Repd 0
-Affect -1 12 -1 17 13 0 0
-End
-
-#O
-Vnum 10022
-Nest 0
-Wear 4
-Lev  12
-Cost 280
-Cond 100
-Repd 0
-Val  5 5 5 0 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
 End
 
 #O
@@ -341,7 +296,7 @@ Lev  8
 Cost 729
 Cond 100
 Repd 0
-Val  150 141 0 0 0
+Val  150 136 0 0 0
 End
 
 #O
@@ -360,7 +315,7 @@ End
 #O
 Vnum 1395
 Nest 0
-Wear 3
+Wear 4
 Lev  22
 Cost 5000
 Cond 100
@@ -420,6 +375,77 @@ Nest 0
 Wear 7
 Lev  22
 Cost 5060
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 7 0 0
+End
+
+#O
+Vnum 86
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29011
+Nest 0
+Wear -1
+Lev  6
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29015
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+Affect -1 15 -1 -4 4 0 0
+End
+
+#O
+Vnum 29015
+Nest 0
+Wear -1
+Lev  15
+Cost 100
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29022
+Nest 0
+Wear 6
+Lev  24
+Cost 400
 Cond 100
 Repd 0
 End

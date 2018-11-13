@@ -1,48 +1,317 @@
-make
-gcc -c -g -O -Wall -DROM   act_comm.c
-gcc -c -g -O -Wall -DROM   act_info.c
+toc@PLEX:/mnt/e/toc/src$ make
+gcc -c -g -O -Wall -DROM  -lcrypt act_comm.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_info.c
 act_info.c: In function ‘do_whois’:
 act_info.c:1652:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
        if(wch->class != CLASS_MONK
        ^~
-act_info.c:1654:23: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+act_info.c:1654:23: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
        guild = "    "; break;
                        ^~~~~
 act_info.c: In function ‘do_equipment’:
 act_info.c:1983:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
         else
         ^~~~
-act_info.c:1986:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+act_info.c:1986:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
   if ( can_see_obj( ch, obj ) )
   ^~
 act_info.c: In function ‘do_teachlist’:
 act_info.c:2641:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
         if ((gmdata.guild != GUILD_ANY)
         ^~
-act_info.c:2645:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+act_info.c:2645:10: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
           col = 0;
           ^~~
 act_info.c: In function ‘do_gainlist’:
 act_info.c:2709:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
         if ((gmdata.guild != GUILD_ANY)
         ^~
-act_info.c:2713:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+act_info.c:2713:10: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
           col = 0;
           ^~~
-gcc -c -g -O -Wall -DROM   act_move.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_move.c
 act_move.c: In function ‘move_char’:
 act_move.c:512:8: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
         for( pick_door = 0; pick_door < 10; pick_door++)
         ^~~
-act_move.c:519:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘for’
+act_move.c:519:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
    pick_door = number_range(0,count);
    ^~~~~~~~~
-gcc -c -g -O -Wall -DROM   act_obj.c
-gcc -c -g -O -Wall -DROM   act_wiz.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_obj.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_wiz.c
 act_wiz.c: In function ‘do_finger’:
-act_wiz.c:219:1: warning: implicit declaration of function ‘ctime’ [-Wimplicit-function-declaration]
+act_wiz.c:219:1: warning: implicit declaration of function ‘ctime’; did you mean ‘utimes’? [-Wimplicit-function-declaration]
  ctime(&logon ) );
  ^~~~~
+ utimes
+act_wiz.c:218:69: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+      sprintf(arg,"%s was last on at %s\n\r", capitalize( argument ),(char *)
+                                                                     ^
+act_wiz.c: In function ‘do_switch’:
+act_wiz.c:2639:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->were_shape.name != NULL && victim->name != "ghost")
+                                                         ^~
+act_wiz.c: In function ‘do_return’:
+act_wiz.c:2675:22: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->name != "ghost")
+                      ^~
+act_wiz.c: In function ‘do_advance’:
+act_wiz.c:3066:9: warning: variable ‘updown’ set but not used [-Wunused-but-set-variable]
+     int updown = 1;
+         ^~~~~~
+act_wiz.c: In function ‘do_outfit’:
+act_wiz.c:6213:1: error: expected declaration or statement at end of input
+ }
+ ^
+act_wiz.c: In function ‘do_finger’:
+act_wiz.c:213:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:214:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:215:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:216:6: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-resul
+]
+      fscanf(fp,"%s",arg);
+      ^~~~~~~~~~~~~~~~~~~
+At top level:
+act_wiz.c:6111:6: warning: ‘do_itrans’ defined but not used [-Wunused-function]
+ void do_itrans( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:6064:6: warning: ‘do_ksock’ defined but not used [-Wunused-function]
+ void do_ksock( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5939:6: warning: ‘do_bowl’ defined but not used [-Wunused-function]
+ void do_bowl( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:5895:6: warning: ‘do_swedish’ defined but not used [-Wunused-function]
+ void do_swedish( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:5738:6: warning: ‘do_newcorpse’ defined but not used [-Wunused-function]
+ void do_newcorpse( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~~
+act_wiz.c:5678:6: warning: ‘do_gkick’ defined but not used [-Wunused-function]
+ void do_gkick( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5646:6: warning: ‘do_pstat’ defined but not used [-Wunused-function]
+ void do_pstat( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5602:6: warning: ‘do_hpardon’ defined but not used [-Wunused-function]
+ void do_hpardon( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:5550:6: warning: ‘do_showhunt’ defined but not used [-Wunused-function]
+ void do_showhunt( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~
+act_wiz.c:5461:6: warning: ‘do_restorechar’ defined but not used [-Wunused-function]
+ void do_restorechar( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~~~~
+act_wiz.c:5440:6: warning: ‘do_holylight’ defined but not used [-Wunused-function]
+ void do_holylight( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~~
+act_wiz.c:5390:6: warning: ‘do_cloak’ defined but not used [-Wunused-function]
+ void do_cloak( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5333:6: warning: ‘do_invis’ defined but not used [-Wunused-function]
+ void do_invis( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5194:6: warning: ‘do_force’ defined but not used [-Wunused-function]
+ void do_force( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:5087:6: warning: ‘do_sockets’ defined but not used [-Wunused-function]
+ void do_sockets( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:5020:6: warning: ‘do_undeny’ defined but not used [-Wunused-function]
+ void do_undeny(CHAR_DATA *ch, char *argument)
+      ^~~~~~~~~
+act_wiz.c:4971:6: warning: ‘do_tset’ defined but not used [-Wunused-function]
+ void do_tset( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:4906:6: warning: ‘do_rset’ defined but not used [-Wunused-function]
+ void do_rset( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:4738:6: warning: ‘do_oset’ defined but not used [-Wunused-function]
+ void do_oset( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:4521:6: warning: ‘do_string’ defined but not used [-Wunused-function]
+ void do_string( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:3828:6: warning: ‘do_mset’ defined but not used [-Wunused-function]
+ void do_mset( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:3743:6: warning: ‘do_sset’ defined but not used [-Wunused-function]
+ void do_sset( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:3699:6: warning: ‘do_set’ defined but not used [-Wunused-function]
+ void do_set( CHAR_DATA *ch, char *argument )
+      ^~~~~~
+act_wiz.c:3657:6: warning: ‘do_slookup’ defined but not used [-Wunused-function]
+ void do_slookup( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3643:6: warning: ‘do_newlock’ defined but not used [-Wunused-function]
+ void do_newlock( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3628:6: warning: ‘do_wizlock’ defined but not used [-Wunused-function]
+ void do_wizlock( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3587:6: warning: ‘do_allow’ defined but not used [-Wunused-function]
+ void do_allow( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:3536:6: warning: ‘do_ban’ defined but not used [-Wunused-function]
+ void do_ban( CHAR_DATA *ch, char *argument )
+      ^~~~~~
+act_wiz.c:3507:6: warning: ‘do_peace’ defined but not used [-Wunused-function]
+ void do_peace( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:3456:6: warning: ‘do_noshout’ defined but not used [-Wunused-function]
+ void do_noshout( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3411:6: warning: ‘do_noemote’ defined but not used [-Wunused-function]
+ void do_noemote( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3350:6: warning: ‘do_log’ defined but not used [-Wunused-function]
+ void do_log( CHAR_DATA *ch, char *argument )
+      ^~~~~~
+act_wiz.c:3298:6: warning: ‘do_freeze’ defined but not used [-Wunused-function]
+ void do_freeze( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:3213:6: warning: ‘do_restore’ defined but not used [-Wunused-function]
+ void do_restore( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:3170:6: warning: ‘do_trust’ defined but not used [-Wunused-function]
+ void do_trust( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:3057:6: warning: ‘do_advance’ defined but not used [-Wunused-function]
+ void do_advance( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:2971:6: warning: ‘do_purge’ defined but not used [-Wunused-function]
+ void do_purge( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2906:6: warning: ‘do_oload’ defined but not used [-Wunused-function]
+ void do_oload( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2870:6: warning: ‘do_mload’ defined but not used [-Wunused-function]
+ void do_mload( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2840:6: warning: ‘do_load’ defined but not used [-Wunused-function]
+ void do_load(CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:2727:6: warning: ‘do_clone’ defined but not used [-Wunused-function]
+ void do_clone(CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2657:6: warning: ‘do_return’ defined but not used [-Wunused-function]
+ void do_return( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2587:6: warning: ‘do_switch’ defined but not used [-Wunused-function]
+ void do_switch( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2517:6: warning: ‘do_snoop’ defined but not used [-Wunused-function]
+ void do_snoop( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2494:6: warning: ‘do_forcesave’ defined but not used [-Wunused-function]
+ void do_forcesave(CHAR_DATA *ch, char *argument)
+      ^~~~~~~~~~~~
+act_wiz.c:2464:6: warning: ‘do_shutdown’ defined but not used [-Wunused-function]
+ void do_shutdown( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~
+act_wiz.c:2439:6: warning: ‘do_reboot’ defined but not used [-Wunused-function]
+ void do_reboot( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2339:6: warning: ‘do_owhere’ defined but not used [-Wunused-function]
+ void do_owhere( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2289:6: warning: ‘do_mwhere’ defined but not used [-Wunused-function]
+ void do_mwhere( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2231:6: warning: ‘do_rwhere’ defined but not used [-Wunused-function]
+ void do_rwhere( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:2171:6: warning: ‘do_ofind’ defined but not used [-Wunused-function]
+ void do_ofind( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2113:6: warning: ‘do_mfind’ defined but not used [-Wunused-function]
+ void do_mfind( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:2074:6: warning: ‘do_vnum’ defined but not used [-Wunused-function]
+ void do_vnum(CHAR_DATA *ch, char *argument)
+      ^~~~~~~
+act_wiz.c:1796:6: warning: ‘do_mstat’ defined but not used [-Wunused-function]
+ void do_mstat( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:1551:6: warning: ‘do_ostat’ defined but not used [-Wunused-function]
+ void do_ostat( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:1429:6: warning: ‘do_rstat’ defined but not used [-Wunused-function]
+ void do_rstat( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:1365:6: warning: ‘do_stat’ defined but not used [-Wunused-function]
+ void do_stat ( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:1274:6: warning: ‘do_goto’ defined but not used [-Wunused-function]
+ void do_goto( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:1139:6: warning: ‘do_gather’ defined but not used [-Wunused-function]
+ void do_gather( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:1090:6: warning: ‘do_at’ defined but not used [-Wunused-function]
+ void do_at( CHAR_DATA *ch, char *argument )
+      ^~~~~
+act_wiz.c:900:6: warning: ‘do_pecho’ defined but not used [-Wunused-function]
+ void do_pecho( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:874:6: warning: ‘do_recho’ defined but not used [-Wunused-function]
+ void do_recho( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~
+act_wiz.c:793:6: warning: ‘do_pardon’ defined but not used [-Wunused-function]
+ void do_pardon( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:745:6: warning: ‘set_questflag’ defined but not used [-Wunused-function]
+ void set_questflag(CHAR_DATA *ch, char *argument)
+      ^~~~~~~~~~~~~
+act_wiz.c:700:6: warning: ‘do_disconnect’ defined but not used [-Wunused-function]
+ void do_disconnect( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~~~
+act_wiz.c:659:6: warning: ‘do_deny’ defined but not used [-Wunused-function]
+ void do_deny( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:627:6: warning: ‘do_bamfout’ defined but not used [-Wunused-function]
+ void do_bamfout( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:595:6: warning: ‘do_bamfin’ defined but not used [-Wunused-function]
+ void do_bamfin( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:548:6: warning: ‘do_nonote’ defined but not used [-Wunused-function]
+ void do_nonote( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:463:6: warning: ‘do_jail’ defined but not used [-Wunused-function]
+ void do_jail( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:412:6: warning: ‘do_warn’ defined but not used [-Wunused-function]
+ void do_warn( CHAR_DATA *ch, char *argument )
+      ^~~~~~~
+act_wiz.c:365:6: warning: ‘do_whiner’ defined but not used [-Wunused-function]
+ void do_whiner( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~
+act_wiz.c:325:6: warning: ‘do_notitle’ defined but not used [-Wunused-function]
+ void do_notitle( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~
+act_wiz.c:279:6: warning: ‘do_nochannels’ defined but not used [-Wunused-function]
+ void do_nochannels( CHAR_DATA *ch, char *argument )
+      ^~~~~~~~~~~~~
+makefile:28: recipe for target 'act_wiz.o' failed
+make: *** [act_wiz.o] Error 1
+toc@PLEX:/mnt/e/toc/src$ make
+gcc -c -g -O -Wall -DROM  -lcrypt act_wiz.c
+act_wiz.c: In function ‘do_finger’:
+act_wiz.c:219:1: warning: implicit declaration of function ‘ctime’; did you mean ‘utimes’? [-Wimplicit-function-declaration]
+ ctime(&logon ) );
+ ^~~~~
+ utimes
+act_wiz.c:218:69: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+      sprintf(arg,"%s was last on at %s\n\r", capitalize( argument ),(char *)
+                                                                     ^
 act_wiz.c: In function ‘do_switch’:
 act_wiz.c:2643:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
      else if(ch->were_shape.name != NULL && victim->name != "ghost")
@@ -55,7 +324,25 @@ act_wiz.c: In function ‘do_advance’:
 act_wiz.c:3070:9: warning: variable ‘updown’ set but not used [-Wunused-but-set-variable]
      int updown = 1;
          ^~~~~~
-gcc -c -g -O -Wall -DROM   comm.c
+act_wiz.c: In function ‘do_finger’:
+act_wiz.c:213:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:214:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:215:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+      fgets(arg,80,fp);
+      ^~~~~~~~~~~~~~~~
+act_wiz.c:216:6: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-resul
+]
+      fscanf(fp,"%s",arg);
+      ^~~~~~~~~~~~~~~~~~~
+act_wiz.c: In function ‘do_restorechar’:
+act_wiz.c:5529:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+     system(buf);
+     ^~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt comm.c
 comm.c: In function ‘new_descriptor’:
 comm.c:922:54: warning: pointer targets in passing argument 3 of ‘getsockname’ differ in signedness [-Wpointer-sign]
      getsockname( control, (struct sockaddr *) &sock, &size );
@@ -63,7 +350,7 @@ comm.c:922:54: warning: pointer targets in passing argument 3 of ‘getsockname�
 In file included from /usr/include/netinet/in.h:23:0,
                  from /usr/include/netdb.h:27,
                  from comm.c:102:
-/usr/include/arm-linux-gnueabihf/sys/socket.h:127:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+/usr/include/x86_64-linux-gnu/sys/socket.h:116:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
  extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
             ^~~~~~~~~~~
 comm.c:923:63: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
@@ -72,7 +359,7 @@ comm.c:923:63: warning: pointer targets in passing argument 3 of ‘accept’ di
 In file included from /usr/include/netinet/in.h:23:0,
                  from /usr/include/netdb.h:27,
                  from comm.c:102:
-/usr/include/arm-linux-gnueabihf/sys/socket.h:243:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+/usr/include/x86_64-linux-gnu/sys/socket.h:232:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
  extern int accept (int __fd, __SOCKADDR_ARG __addr,
             ^~~~~~
 comm.c:955:56: warning: pointer targets in passing argument 3 of ‘getpeername’ differ in signedness [-Wpointer-sign]
@@ -81,7 +368,7 @@ comm.c:955:56: warning: pointer targets in passing argument 3 of ‘getpeername�
 In file included from /usr/include/netinet/in.h:23:0,
                  from /usr/include/netdb.h:27,
                  from comm.c:102:
-/usr/include/arm-linux-gnueabihf/sys/socket.h:141:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+/usr/include/x86_64-linux-gnu/sys/socket.h:130:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
  extern int getpeername (int __fd, __SOCKADDR_ARG __addr,
             ^~~~~~~~~~~
 comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
@@ -91,61 +378,38 @@ comm.c: In function ‘close_socket’:
 comm.c:1102:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
     if(!IS_SET(ch->act, PLR_WIZINVIS) )
     ^~
-comm.c:1104:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+comm.c:1104:6: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
       sprintf(buf, "%s has lost %s link. [Room: %d]", ch->name,
       ^~~~~~~
-comm.c: In function ‘nanny’:
-comm.c:1725:2: warning: "/*" within comment [-Wcomment]
-  /*{
-
-comm.c:1726:2: warning: "/*" within comment [-Wcomment]
-  /*    write_to_buffer( d, "Warning! Null password!\n\r",0 );
-
-comm.c:1727:2: warning: "/*" within comment [-Wcomment]
-  /*    write_to_buffer( d, "Please report old password with bug.\n\r",0);
-
-comm.c:1728:2: warning: "/*" within comment [-Wcomment]
-  /*    write_to_buffer( d,
-
-comm.c:1729:2: warning: "/*" within comment [-Wcomment]
-  /* "Type 'password null <new password>' to fix.\n\r",0);
-
-comm.c:1730:2: warning: "/*" within comment [-Wcomment]
-  /*}
-
-comm.c:1749:9: warning: "/*" within comment [-Wcomment]
-         /* bugfix by blackbird */
-
 comm.c: In function ‘check_reconnect’:
 comm.c:2490:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
        if(!IS_SET(ch->act, PLR_WIZINVIS) )
        ^~
-comm.c:2492:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+comm.c:2492:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
    sprintf( log_buf, "%s@%s reconnected. [Room: %d]", ch->name,
    ^~~~~~~
 comm.c: In function ‘show_string’:
 comm.c:2719:6: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
       for (chk = d->showstr_point; isspace(*chk); chk++);
       ^~~
-comm.c:2720:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘for’
+comm.c:2720:6: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
       {
       ^
-gcc -c -g -O -Wall -DROM   const.c
-gcc -c -g -O -Wall -DROM   db.c
-db.c: In function ‘fread_string’:
-db.c:3305:9: warning: case label value is less than minimum value for type
-         case EOF:
-         ^~~~
-db.c: In function ‘fread_string_eol’:
-db.c:3413:9: warning: case label value is less than minimum value for type
-         case EOF:
-         ^~~~
-gcc -c -g -O -Wall -DROM   edit.c
+gcc -c -g -O -Wall -DROM  -lcrypt const.c
+gcc -c -g -O -Wall -DROM  -lcrypt db.c
+db.c: In function ‘do_dump’:
+db.c:4284:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      fprintf(fp, buf);
+      ^~~~~~~
+db.c:4340:17: warning: format not a string literal and no format arguments [-Wformat-security]
+                 fprintf(fp, buf);
+                 ^~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt edit.c
 edit.c: In function ‘edit_exit’:
 edit.c:183:9: warning: variable ‘vnum’ set but not used [-Wunused-but-set-variable]
      int vnum;
          ^~~~
-gcc -c -g -O -Wall -DROM   fight.c
+gcc -c -g -O -Wall -DROM  -lcrypt fight.c
 fight.c: In function ‘violence_update’:
 fight.c:81:16: warning: variable ‘ch_next’ set but not used [-Wunused-but-set-variable]
      CHAR_DATA *ch_next;
@@ -154,21 +418,21 @@ fight.c: In function ‘check_killer’:
 fight.c:1686:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if ( IS_NPC(ch) ||   ch == victim )
      ^~
-fight.c:1689:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+fight.c:1689:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
   if ( !IS_SET(victim->act, PLR_WANTED)
   ^~
 fight.c: In function ‘check_parry’:
 fight.c:1718:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
        if(victim->class != CLASS_MONK)
        ^~
-fight.c:1721:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+fight.c:1721:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
   chance  = victim->pcdata->learned[gsn_parry] / 2;
   ^~~~~~
 fight.c: In function ‘group_gain’:
 fight.c:2294:16: warning: variable ‘lch’ set but not used [-Wunused-but-set-variable]
      CHAR_DATA *lch;
                 ^~~
-gcc -c -g -O -Wall -DROM   handler.c
+gcc -c -g -O -Wall -DROM  -lcrypt handler.c
 handler.c: In function ‘affect_remove’:
 handler.c:987:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
          exit(1);
@@ -182,114 +446,298 @@ handler.c:1129:17: warning: operation on ‘paf->level’ may be undefined [-Wse
 handler.c:1122:10: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
      bool found;
           ^~~~~
-gcc -c -g -O -Wall -DROM   misc.c
-gcc -c -g -O -Wall -DROM   interp.c
-gcc -c -g -O -Wall -DROM   magic.c
+gcc -c -g -O -Wall -DROM  -lcrypt misc.c
+gcc -c -g -O -Wall -DROM  -lcrypt interp.c
+gcc -c -g -O -Wall -DROM  -lcrypt magic.c
 magic.c: In function ‘spell_dispel_magic’:
 magic.c:1937:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if (check_dispel(level,victim,skill_lookup("detect invis")))
      ^~
-magic.c:1940:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+magic.c:1940:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
   found = TRUE;
   ^~~~~
 magic.c: In function ‘spell_heat_metal’:
 magic.c:2890:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
       if ( number_bits( 2 ) != 0 )
       ^~
-magic.c:2893:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+magic.c:2893:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
     switch ( obj_lose->item_type )
     ^~~~~~
-gcc -c -g -O -Wall -DROM   pkill.c
-gcc -c -g -O -Wall -DROM   save.c
+gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
+gcc -c -g -O -Wall -DROM  -lcrypt save.c
 save.c: In function ‘fread_char’:
+save.c:1265:41: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+      bug( "Fread_char: no match. '%s'", (int) word );
+                                         ^
 save.c:839:24: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
      int cur_alias = 0, temp;
                         ^~~~
-gcc -c -g -O -Wall -DROM   skills.c
+#‘target_mem_ref’ not supported by expression#’save.c: In function ‘corpse_back’:
+save.c:1945:3: warning:  may be used uninitialized in this function [-Wmaybe-uninitialized]
+   fprintf( fp, "%d ", corpse_cont[5][i] );
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#‘target_mem_ref’ not supported by expression#’save.c:1946:3: warning:  may be used uninitialized in this function [-Wmaybe-uninitialized]
+   fprintf( fp, "%d ", item_level[5][i] );
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt skills.c
 skills.c: In function ‘exp_per_level’:
 skills.c:600:9: warning: variable ‘expl’ set but not used [-Wunused-but-set-variable]
      int expl,inc;
          ^~~~
-gcc -c -g -O -Wall -DROM   special.c
+gcc -c -g -O -Wall -DROM  -lcrypt special.c
 special.c: In function ‘spec_psionic’:
 special.c:663:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
      char *spell;
            ^~~~~
+special.c: In function ‘spec_quest_master’:
+special.c:2394:8: warning: format not a string literal and no format arguments [-Wformat-security]
+        sprintf(buf, quest_table[holder_2].quest_clue);
+        ^~~~~~~
+special.c:2460:2: warning: format not a string literal and no format arguments [-Wformat-security]
+  sprintf(buf,quest_table[holder_2].quest_clue);
+  ^~~~~~~
 special.c: In function ‘spec_monk’:
 special.c:2653:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
      char *spell;
            ^~~~~
-gcc -c -g -O -Wall -DROM   hunt.c
+gcc -c -g -O -Wall -DROM  -lcrypt hunt.c
 hunt.c: In function ‘do_danger_sense’:
 hunt.c:407:24: warning: variable ‘dir’ set but not used [-Wunused-but-set-variable]
      int count, chance, dir, count2;
                         ^~~
-gcc -c -g -O -Wall -DROM   update.c
-update.c:80:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:80:3: note: (near initialization for ‘were_types[0]’)
-update.c:85:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:85:3: note: (near initialization for ‘were_types[1]’)
-update.c:89:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:89:3: note: (near initialization for ‘were_types[2]’)
-update.c:93:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:93:3: note: (near initialization for ‘were_types[3]’)
-update.c:97:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:97:3: note: (near initialization for ‘were_types[4]’)
-update.c:101:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:101:3: note: (near initialization for ‘were_types[5]’)
-update.c:105:3: warning: missing braces around initializer [-Wmissing-braces]
-   {
-   ^
-update.c:105:3: note: (near initialization for ‘were_types[6]’)
+gcc -c -g -O -Wall -DROM  -lcrypt update.c
 update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
  {
  ^
-update.c:74:1: note: (near initialization for ‘were_types’)
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:95:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:95:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:99:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:95:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:99:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:103:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:95:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:99:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:103:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:107:17:
+       8, 65, 0, 6
+                 {
+   }
+   }
+update.c:74:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:82:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:87:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:91:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:95:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:99:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:103:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:107:17:
+       8, 65, 0, 6
+                 {
+   }
+   }
 update.c: In function ‘disaster_update’:
 update.c:2732:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
       else
       ^~~~
-update.c:2760:7: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+update.c:2760:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
        if(hit == TRUE)
        ^~
 update.c:2813:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
         else
         ^~~~
-update.c:2850:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+update.c:2850:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
          if( hit )
          ^~
-gcc -c -g -O -Wall -DROM   magic2.c
+gcc -c -g -O -Wall -DROM  -lcrypt magic2.c
 magic2.c: In function ‘do_lore’:
 magic2.c:143:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
   else if( check < 1)
        ^~
-magic2.c:146:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+magic2.c:146:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
     send_to_char( ".\n\r", ch );
     ^~~~~~~~~~~~
 magic2.c:166:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
   else
   ^~~~
-magic2.c:169:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+magic2.c:169:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
     send_to_char( ".\n\r", ch );
     ^~~~~~~~~~~~
 magic2.c: In function ‘spell_vengence’:
-magic2.c:2925:9: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+magic2.c:2944:9: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
      int count;
          ^~~~~
-gcc -c -g -O -Wall -DROM   quest.c
-gcc -c -g -O -Wall -DROM   maxload.c
-gcc -c -g -O -Wall -DROM   wizlist.c
+gcc -c -g -O -Wall -DROM  -lcrypt quest.c
+gcc -c -g -O -Wall -DROM  -lcrypt maxload.c
+gcc -c -g -O -Wall -DROM  -lcrypt wizlist.c
 rm -f merc
-gcc -g -O -lcrypt  -o merc act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o
+gcc -g -O  -o merc act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt
