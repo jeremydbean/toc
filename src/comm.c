@@ -2311,7 +2311,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   int chance;
   int add;
 
-  if(ch->level >= 52 )
+  if(ch->pcdata->last_level >= 813 )
     chance = 100;
   else
     chance = number_percent( );

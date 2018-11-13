@@ -57,7 +57,7 @@ void	dtrap_update	   args( ( void ) );
 void	sanity_check	   args( ( void ) );
 void	quest_update	   args( ( void ) );
 void    do_backup          args( ( void ) );
-void    btick_update    args( ( void ) ); 
+void    btick_update    args( ( void ) );
 void	save_pkills	args( ( void ) );
 
 extern  AREA_DATA *		area_first;
@@ -78,7 +78,7 @@ const  WERE_FORM  were_types [] =
   */
 
   {
-    NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+    NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0
   },
 
@@ -87,19 +87,19 @@ const  WERE_FORM  were_types [] =
       3, 60, 0, 1
   },
   {
-     "were_rat", 3, 3, 3, 3, 3, 10, 0, 0, 2, 
+     "were_rat", 3, 3, 3, 3, 3, 10, 0, 0, 2,
       4, 61, 0, 2
   },
   {
-     "were_boar", 3, 2, 3, 3, 3, 12, 0, 0, 2, 
+     "were_boar", 3, 2, 3, 3, 3, 12, 0, 0, 2,
       5, 62, 0, 3
   },
   {
-     "were_tiger", 4, 4, 3, 4, 4, 14, 0, 0, 3, 
+     "were_tiger", 4, 4, 3, 4, 4, 14, 0, 0, 3,
       6, 63, 0, 4
   },
   {
-     "were_bear", 5, 3, 4, 3, 3, 18, 0, 0, 3, 
+     "were_bear", 5, 3, 4, 3, 3, 18, 0, 0, 3,
       7, 64, 0, 5
   },
   {
@@ -168,20 +168,20 @@ void do_backup( void )
     backup = current_time + (60*60*24);
     system("tar cfz ../backups/`date +%b.%d`.tar.gz ../player");
     return;
-  
+
 }
 
 void show_backup( CHAR_DATA *ch, char *argument )
-{     
-    extern long backup; 
+{
+    extern long backup;
     char arg1[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
 
     argument = one_argument( argument, arg1 );
-    
+
     if(IS_NPC(ch))
         return;
-    
+
     if ( arg1[0] == '\0' )
     {
       sprintf( buf, "Next pfile backup scheduled for %s\n\r",(char *)ctime(&backup));
@@ -192,7 +192,7 @@ void show_backup( CHAR_DATA *ch, char *argument )
 
     if ( !str_cmp( arg1, "now" ) || !str_cmp( arg1, "NOW" ))
       do_backup();
-    
+
     return;
 }
 
@@ -228,7 +228,7 @@ void advance_level( CHAR_DATA *ch, bool is_advance )
     }
 
     if (ch->level == LEVEL_HERO3 + ch->pcdata->num_remorts)
-    { 
+    {
       send_to_char("This is the maxlevel you can achieve unless you remort.\n\r",ch);
     }
 
@@ -372,15 +372,15 @@ long next_xp_level( CHAR_DATA *ch )
 
   if (IS_NPC(ch)) return (ch->exp + 50000);
 
-  if (ch->level >= LEVEL_HERO) 
+  if (ch->level >= LEVEL_HERO)
   {
     xp = 10000 * (ch->level+1 - LEVEL_HERO);
     for (i=LEVEL_HERO;i<ch->level;i++)
-      incr += HERO_STEP_XP * (ch->level - LEVEL_HERO);       
+      incr += HERO_STEP_XP * (ch->level - LEVEL_HERO);
     xp += incr;
     xp += (51 * exp_per_level(ch,ch->pcdata->points) );
   }
-  else 
+  else
   {
     xp = (ch->level + 1) * exp_per_level(ch,ch->pcdata->points);
   }
@@ -974,7 +974,7 @@ void weather_update( void )
 
     switch ( weather_info.sky )
     {
-    default: 
+    default:
 	bug( "Weather_update: bad sky %d.", weather_info.sky );
 	weather_info.sky = SKY_CLOUDLESS;
 	break;
@@ -1917,14 +1917,14 @@ void obj_update( void )
 	      REMOVE_BIT(ch->affected_by, AFF_INVISIBLE);
 	      act("$n fades into existance.", ch, NULL,NULL,TO_ROOM);
 	  }
-	
+
 	  if(IS_SET(obj->extra_flags2, ITEM2_ADD_DETECT_INVIS) &&
 	    !is_affected(ch,skill_lookup("detect invis") ) )
 	  {
 	    send_to_char("You lose the ability to see the invisible.\n\r",ch);
 	    REMOVE_BIT(ch->affected_by, AFF_DETECT_INVIS);
 	  }
-	
+
 	  if(IS_SET(obj->extra_flags2, ITEM2_ADD_FLY) &&
 	    !is_affected(ch,skill_lookup("fly") ) )
 	  {
@@ -1999,7 +1999,7 @@ void room_update( void )
 			pChar = pCharNext)
 		{
 		    pCharNext = pChar->next_in_room;
-		    
+
 		    if(IS_SET(pChar->act2, ACT2_NO_TPORT) )
 		       continue;
 
@@ -2062,7 +2062,7 @@ void dtrap_update( void )
     {
 	ch_next = ch->next;
 
-	if(!IS_NPC(ch) 
+	if(!IS_NPC(ch)
 	&& !IS_IMMORTAL(ch)
 	&& IS_SET(ch->in_room->room_flags, ROOM_DT) )
 	{
@@ -2075,7 +2075,7 @@ void dtrap_update( void )
 		    ch->hit /= 2;
 		    send_to_char("Your fate has been sealed!\n\r",ch);
 		}
-		else 
+		else
 		{
 		    ch->hit = 1;
 		    send_to_char("As you step into the room the floor suddenly falls away...\n\r",ch);
@@ -2091,7 +2091,7 @@ void dtrap_update( void )
 	}
     }
 }
-		    
+
 /* ok lets have writable bans now :) */
 
 void ban_update( void )
@@ -2217,7 +2217,7 @@ void sanity_check( void )
     for( ch = char_list; ch != NULL; ch = ch_next ) {
 	ch_next = ch->next;
 
-	if( !IS_NPC(ch) 
+	if( !IS_NPC(ch)
 	&&  !IS_IMMORTAL(ch)
 	&&  ch->in_room == get_room_index( ROOM_VNUM_LIMBO )
 	&&  ch->timer > 0 ) {
@@ -2259,7 +2259,7 @@ void aggr_update( void )
 	wch_next = wch->next;
 	if ( IS_NPC(wch)
 	||   wch->level >= LEVEL_IMMORTAL
-	||   wch->in_room == NULL 
+	||   wch->in_room == NULL
 	||   wch->in_room->area->empty)
 	    continue;
 
@@ -2277,11 +2277,11 @@ void aggr_update( void )
 	    ||   IS_AFFECTED(ch, AFF_CHARM)
 	    ||   !IS_AWAKE(ch)
 	    ||   ( IS_SET(ch->act, ACT_WIMPY) && IS_AWAKE(wch) )
-	    ||   !can_see( ch, wch ) 
+	    ||   !can_see( ch, wch )
 	    ||   number_bits(1) == 0)
 		continue;
 */
-     /* the above code is commented out for bug testing, and replaced with 
+     /* the above code is commented out for bug testing, and replaced with
         individual if statements below to narrow down the problem - Rico 10/29/98*/
 
              if (!IS_NPC(ch))
@@ -2693,7 +2693,7 @@ void disaster_update( void )
 
 	   sprintf(buf,"Disaster: The Dragon has been let loose.");
 	   wizinfo(buf,LEVEL_IMMORTAL);
-         }     
+         }
        }
 
        if(pArea->disaster_type > 0)
@@ -3036,11 +3036,3 @@ void room_aff_update( void )
 
   return;
 }
-
-
-
-
-
-
-
-
