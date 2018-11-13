@@ -2164,6 +2164,10 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
+		if( ch->level >= chance && ch->pcdata->psionic == 0 && ch->pcdata->last_level == 813)
+			    {
+				 do_check_psi(ch, "");
+			    }
 	}
 	else if ( IS_IMMORTAL(ch) )
 	{
@@ -2173,6 +2177,7 @@ case CON_GET_ALIGNMENT:
 	    {
 		 do_check_psi(ch, "");
 	    }
+
 
 	}
 	else
@@ -2311,7 +2316,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   int chance;
   int add;
 
-  if(ch->pcdata->last_level >= 813 )
+  if(ch->pcdata->last_level = 813 )
     chance = 100;
   else
     chance = number_percent( );
@@ -2323,6 +2328,9 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 
   if(ch->pcdata->psionic == 1)
   {
+send_to_char("\n\r",ch);
+send_to_char("\n\r",ch);
+send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
 send_to_char("*----------------------------------------------------------------------*",ch);
 send_to_char("\n\r     An overwhelming sensation of new power hits you in a wave of\n\r",ch);
@@ -2373,7 +2381,16 @@ ch->position = POS_RESTING;
     else
 	 group_add(ch,"nightmare",0);
 
+	 sprintf( log_buf, "%s has been granted psionics! [Room: %d]", ch->name,
+ ch->in_room->vnum != 0 ? ch->in_room->vnum : ROOM_VNUM_LIMBO);
+	 log_string( log_buf );
+
+	 if(ch->pcdata->last_level = 813 )
+		 ch->pcdata->last_level = 0;
+
     save_char_obj(ch);
+
+
   return;
   }
   else
