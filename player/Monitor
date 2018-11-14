@@ -1,7 +1,7 @@
 #PLAYER
 Name Monitor~
 Id   57754
-LogO 1540576173
+LogO 1542177266
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,13 +13,13 @@ Psionic  1
 Cast none
 Levl 70
 Tru  70
-Plyd 398250
+Plyd 398772
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 1
-HMV  9950 9950 9975 9975 10000 10000
+Room 4911
+HMV  10001 10001 9887 9975 10000 10000
 NewGold 1
 NewPlat 180
 NewCopp 0
@@ -31,7 +31,8 @@ PkRec 0
 PkGiv 0
 Exp  1217300
 Act  221384
-AfBy 512
+AfBy 2622080
+AfBy2 4096
 Comm 24576
 Invi 70
 Mounted 0
@@ -60,12 +61,13 @@ Color 16 6
 Pos  8
 Prac 100
 Trai 50
+Save  -8
 Alig  749
-Hit   6
-Dam   6
-ACs 100 100 100 100
+Hit   32
+Dam   17
+ACs 170 170 170 170
 Attr 25 25 25 25 25
-AMod 0 2 2 2 0
+AMod 4 2 2 6 0
 Pass MoJgMcHsz48pM~
 Titl . [*AFK*] (WIZI)~
 Pnts 40
@@ -304,6 +306,20 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
+AffD 'giant strength'   0  64   4   1          0          0
+AffD 'frenzy'   0  17 110  17          0          0
+AffD 'frenzy'   0  17  11  19          0          0
+AffD 'frenzy'   0  17  11  18          0          0
+AffD 'shield'   0  72 -20  17          0          0
+AffD 'armor'   0  18 -20  17          0          0
+AffD 'fly'   0  67   0   0     524288          0
+AffD 'aid'   0  18  51  13          0          0
+AffD 'aid'   0  18   7  18          0          0
+AffD 'divine protection'   0   4   0   0          0       4096
+AffD 'bless'   0  70  -8  24          0          0
+AffD 'bless'   0  70   8  18          0          0
+AffD 'haste'   0  11   4   2    2097152          0
+AffD 'sanctuary'   0   5   0   0        128          0
 End
 
 #O
@@ -579,6 +595,19 @@ Cost 1044
 Cond 100
 Repd 0
 Val  4 5 5 0 0
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
 End
 
 #END
