@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542136514
+LogO 1542160807
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,8 +11,8 @@ Cla  0
 Gui  11
 Psionic  1
 Cast none
-Levl 22
-Plyd 92
+Levl 19
+Plyd 1569
 ListRemorts ~
 NumRemorts 0
 Note 0
@@ -70,7 +70,7 @@ Pnts 40
 TSex 1
 LLev 0
 HMVP 20 100 100
-Cond 0 48 48
+Cond 0 27 27
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
@@ -83,15 +83,19 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
+Sk 1 'astral walk'
 Sk 1 'clairvoyance'
 Sk 1 'confuse'
-Sk 1 'ego whip'
 Sk 1 'mindbar'
+Sk 1 'mindblast'
+Sk 1 'nightmare'
 Sk 1 'project'
 Sk 1 'psionic armor'
-Sk 1 'psychic shield'
+Sk 1 'pyrotechnics'
 Sk 1 'shift'
 Sk 1 'telekinesis'
+Sk 1 'torment'
+Sk 1 'transfusion'
 Sk 10 'axe'
 Sk 80 'dagger'
 Sk 7 'flail'
@@ -115,6 +119,7 @@ Wear 0
 Cost 0
 Cond 100
 Repd 0
+Val  0 0 179 0 0
 End
 
 #O

@@ -45,7 +45,9 @@ while ( 1 )
 
     # Run merc.
     rm -f shutdown.txt
-    immortal ./merc $port >&! $logfile
+	cd /mnt/e/toc/area
+	immortal -l $logfile ./merc $port
+	sleep 5
 	echo -----
 	immortalctl
 
@@ -57,5 +59,5 @@ while ( 1 )
 	chmod g+rw shutdown.txt
 	exit 0
     endif
-    sleep 15
+  
 end

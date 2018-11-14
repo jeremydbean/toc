@@ -2382,8 +2382,9 @@ ch->position = POS_RESTING;
 	 group_add(ch,"nightmare",0);
 
 	 sprintf( log_buf, "%s has been granted psionics! [Room: %d]", ch->name,
- ch->in_room->vnum != 0 ? ch->in_room->vnum : ROOM_VNUM_LIMBO);
+    ch->in_room->vnum != 0 ? ch->in_room->vnum : ROOM_VNUM_LIMBO);
 	 log_string( log_buf );
+	 	wizinfo( log_buf, LEVEL_IMMORTAL );
 
 	 if(ch->pcdata->last_level = 813 )
 		 ch->pcdata->last_level = 0;
