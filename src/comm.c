@@ -2164,10 +2164,6 @@ case CON_GET_ALIGNMENT:
 		 do_check_psi(ch, "");
 	    }
 
-		if( ch->level >= chance && ch->pcdata->psionic == 0 && ch->pcdata->last_level == 813)
-			    {
-				 do_check_psi(ch, "");
-			    }
 	}
 	else if ( IS_IMMORTAL(ch) )
 	{
@@ -2315,16 +2311,33 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 {
   int chance;
   int add;
+	int add2;
+	int add3;
+	int add4;
 
-  if(ch->pcdata->last_level = 813 )
-    chance = 100;
-  else
-    chance = number_percent( );
+
+
+  chance = number_percent( );
+
+	sprintf( log_buf, "%s psionic check complete! [Chance: %d]", ch->name, chance);
+	log_string( log_buf );
+	wizinfo( log_buf, MAX_LEVEL);
+
+
+	if(ch->pcdata->last_level < 3)
+	 ch->pcdata->last_level += 1;
 
   if( chance >= 90)
     ch->pcdata->psionic = 1;
-  else
-    ch->pcdata->psionic = 2;
+
+	 if(ch->pcdata->last_level >= 3)
+		{
+		ch->pcdata->psionic = 2;
+		sprintf( log_buf, "Psionics are forever out of the reach of %s.", ch->name);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+		save_char_obj(ch);
+	  }
 
   if(ch->pcdata->psionic == 1)
   {
@@ -2332,17 +2345,31 @@ send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
-send_to_char("*----------------------------------------------------------------------*",ch);
-send_to_char("\n\r     An overwhelming sensation of new power hits you in a wave of\n\r",ch);
-send_to_char("veritigo.  You fall to you your knees and scream out as it engulfs your mind.\n\r",ch);
+send_to_char("*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\n\r",ch);
+send_to_char("*----------------------------------------------------------------------*\n\r",ch);
+send_to_char("An overwhelming sensation of new power hits you in a wave of veritigo.\n\r",ch);
+send_to_char("You fall to you your knees and scream out as it engulfs your mind.\n\r",ch);
 send_to_char("As the dizzyness passes, you discover that you possess knowledge of\n\r",ch);
-send_to_char("some unique new skills.  Further contemplation leads to a premonition of\n\r",ch);
-send_to_char("....you, drifting in the astral plane, and before you is......\n\r",ch);
-send_to_char("\n\rThe Monk of the Way.\n\r",ch);
-send_to_char("*----------------------------------------------------------------------*\n\r\n\r",ch);
+send_to_char("some unique new skills.  Further contemplation leads to a premonition\n\r",ch);
+send_to_char("of you, drifting in the astral plane, and before you is..............\n\r",ch);
+send_to_char("\n\rSalir, The Monk of the Way.\n\r",ch);
+send_to_char("*----------------------------------------------------------------------*\n\r",ch);
+send_to_char("*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\n\r",ch);
+send_to_char("\n\r",ch);
+send_to_char("\n\r",ch);
 ch->position = POS_RESTING;
 
+sprintf( log_buf, "%s has been granted psionics!", ch->name);
+send_info( log_buf );
+sprintf( log_buf, "%s has been granted psionics! [Chance: %d]", ch->name, chance);
+log_string( log_buf );
+wizinfo( log_buf, MAX_LEVEL);
+
+
     add = number_percent();
+		sprintf( log_buf, "%s psi roll 1: [%d] | [psionic armor (40), psychic shield (70), mindbar]", ch->name, add);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
     if( add <= 40)
 	 group_add(ch,"psionic armor",0);
     else if( add <= 70)
@@ -2350,45 +2377,47 @@ ch->position = POS_RESTING;
     else
 	 group_add(ch,"mindbar",0);
 
-    add = number_percent();
-    if( add <= 35)
+    add2 = number_percent();
+		sprintf( log_buf, "%s psi roll 2: [%d] | [torment (35), ego whip (60), pyrotechnics (85), mindblast]", ch->name, add2);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+    if( add2 <= 35)
 	 group_add(ch,"torment",0);
-    else if( add <= 60)
+    else if( add2 <= 60)
 	 group_add(ch,"ego whip",0);
-    else if( add <= 85)
+    else if( add2 <= 85)
 	 group_add(ch,"pyrotechnics",0);
     else
 	 group_add(ch,"mindblast",0);
 
-    add = number_percent();
-    if( add <= 25)
+    add3 = number_percent();
+		sprintf( log_buf, "%s psi roll 3: [%d] | [clairvoyance (25), astral walk (50), shift (75), project]", ch->name, add3);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+    if( add3 <= 25)
 	 group_add(ch,"clairvoyance",0);
-    else if( add <= 50)
+    else if( add3 <= 50)
 	 group_add(ch,"astral walk",0);
-    else if( add <=75)
+    else if( add3 <=75)
 	 group_add(ch,"shift",0);
     else
 	 group_add(ch,"project",0);
 
-
-    add = number_percent();
-    if( add <= 15)
+    add4 = number_percent();
+		sprintf( log_buf, "%s psi roll 4: [%d] | [telekinesis (15), transfusion (35), confuse (70), nightmare]", ch->name, add4);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+    if( add4 <= 15)
 	 group_add(ch,"telekinesis",0);
-    else if( add <= 35)
+    else if( add4 <= 35)
 	 group_add(ch,"transfusion",0);
-    else if( add <= 70)
+    else if( add4 <= 70)
 	 group_add(ch,"confuse",0);
     else
 	 group_add(ch,"nightmare",0);
 
-	 sprintf( log_buf, "%s has been granted psionics! [Room: %d]", ch->name,
-    ch->in_room->vnum != 0 ? ch->in_room->vnum : ROOM_VNUM_LIMBO);
-	 log_string( log_buf );
-	 	wizinfo( log_buf, LEVEL_IMMORTAL );
 
-	 if(ch->pcdata->last_level = 813 )
-		 ch->pcdata->last_level = 0;
-
+		ch->pcdata->last_level = 3;
     save_char_obj(ch);
 
 

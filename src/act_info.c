@@ -4289,7 +4289,6 @@ void do_remort( CHAR_DATA *ch, char *arg)
    ch->position = POS_STANDING;
    ch->pcdata->bank = 0;
    ch->new_silver = 50;
-   ch->pcdata->last_level = 2;
 
    save_char_obj(ch);
 }

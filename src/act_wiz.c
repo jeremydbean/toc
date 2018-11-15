@@ -1823,11 +1823,18 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     send_to_char( buf, ch );
 
     if(!IS_NPC(victim)) {
-        sprintf( buf," Pkill: %s\n\r",victim->pcdata->pk_state == 1 ?
+        sprintf( buf," Pkill: %s",victim->pcdata->pk_state == 1 ?
 		"Yes" : "No");
 	send_to_char(buf,ch);
     } else {
 	send_to_char("\n\r",ch);
+    }
+    if(!IS_NPC(victim)) {
+        sprintf( buf,"        Psionic: %s\n\r",victim->pcdata->psionic == 1 ?
+    "Yes" : "No");
+  send_to_char(buf,ch);
+    } else {
+  send_to_char("\n\r",ch);
     }
 
     sprintf( buf, "Vnum: %d  Format: %s  Race: %s  Sex: %s  Room: %d\n\r",
@@ -1933,7 +1940,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     if (!IS_NPC(victim))
     {
 	sprintf( buf,
-	    "Age: %d  Played: %d  Last Level: %d  Quest Points: %d\n\r",
+	    "Age: %d  Played: %d  Psi Checks: %d/3  Quest Points: %d\n\r",
 	    get_age(victim),
 	    (int) (victim->played + current_time - victim->logon) / 3600,
 	    victim->pcdata->last_level, victim->questpoints);

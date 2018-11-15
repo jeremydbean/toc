@@ -212,8 +212,6 @@ void advance_level( CHAR_DATA *ch, bool is_advance )
     if (IS_NPC(ch) )
 	return;
 
-    ch->pcdata->last_level =
-	( ch->played + (int) (current_time - ch->logon) ) / 3600;
 
     sprintf( buf, "the %s",
 	title_table [ch->class] [ch->level] [ch->sex == SEX_FEMALE ? 1 : 0] );
@@ -434,7 +432,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
 	  }
 
 	  chance = number_range(18,22);
-	  if(ch->level == chance && ch->pcdata->psionic < 1)
+	  if(ch->level >= chance && ch->pcdata->psionic < 1)
 	    do_check_psi(ch,"");
 	  save_char_obj(ch);
 	}

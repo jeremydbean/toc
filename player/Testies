@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542251718
+LogO 1542302420
 Vers 3
 Prom ~
 Ignoring ~
@@ -9,16 +9,16 @@ Race human~
 Sex  1
 Cla  0
 Gui  0
-Psionic  1
+Psionic  2
 Cast none
 Levl 20
-Plyd 3365
+Plyd 9015
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4216
-HMV  143 143 160 160 214 214
+HMV  164 164 177 177 232 232
 NewGold 0
 NewPlat 0
 NewCopp 0
@@ -28,7 +28,7 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  40000
+Exp  36000
 Act  65788
 Comm 24576
 Mounted 0
@@ -55,18 +55,18 @@ Color 14 0
 Color 15 0
 Color 16 0
 Pos  5
-Prac 21
-Trai 20
+Prac 24
+Trai 23
 Alig  750
 ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Sorcerer~
+Titl  the Wizard~
 Pnts 40
 TSex 1
-LLev 0
-HMVP 143 160 214
+LLev 3
+HMVP 164 177 232
 Cond 0 0 0
 Sk 1 'armor'
 Sk 1 'burning hands'
@@ -80,14 +80,14 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
-Sk 1 'astral walk'
-Sk 1 'psionic armor'
-Sk 1 'telekinesis'
-Sk 1 'torment'
+Sk 1 'clairvoyance'
+Sk 1 'mindbar'
+Sk 1 'mindblast'
+Sk 1 'nightmare'
 Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'
-Sk 80 'recall'
+Sk 1 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'

@@ -175,7 +175,7 @@ int check_immune(CHAR_DATA *ch, int dam_type)
 	    immune = IS_VULNERABLE;
     }
     else /* magical attack */
-    {   
+    {
 	if (IS_SET(ch->imm_flags,IMM_MAGIC))
 	    immune = IS_IMMUNE;
 	else if (IS_SET(ch->res_flags,RES_MAGIC))
@@ -276,8 +276,8 @@ int get_skill(CHAR_DATA *ch, int sn)
 	else if (sn == gsn_bash && IS_SET(ch->off_flags,OFF_BASH))
 	    skill = 10 + 3 * ch->level;
 
-	else if (sn == gsn_disarm 
-	     &&  (IS_SET(ch->off_flags,OFF_DISARM) 
+	else if (sn == gsn_disarm
+	     &&  (IS_SET(ch->off_flags,OFF_DISARM)
 	     ||   IS_SET(ch->off_flags,ACT_WARRIOR)
 	     ||   IS_SET(ch->off_flags,ACT_THIEF)))
 	    skill = 20 + 3 * ch->level;
@@ -287,7 +287,7 @@ int get_skill(CHAR_DATA *ch, int sn)
 
 	else if (sn == gsn_dual_wield)
 	    skill = 20 + 3 * ch->level;
-       
+
         else if ( sn == gsn_fatality)
 	    skill = dice(1,ch->level/10);
 
@@ -355,7 +355,7 @@ int get_dual_sn(CHAR_DATA *ch)
 
 /* Above line commented out because it gives a pointer error
    and replaced with the line shown below - Rico */
-    
+
     return -1;
 
     else switch (wield->value[0])
@@ -469,7 +469,6 @@ void reset_char(CHAR_DATA *ch)
 	ch->pcdata->perm_hit    = ch->max_hit;
 	ch->pcdata->perm_mana   = ch->max_mana;
 	ch->pcdata->perm_move   = ch->max_move;
-	ch->pcdata->last_level  = ch->played/3600;
 	if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2) {
 		if (ch->sex > 0 && ch->sex < 3)
 		    ch->pcdata->true_sex        = ch->sex;
@@ -483,12 +482,12 @@ void reset_char(CHAR_DATA *ch)
 	ch->mod_stat[stat] = 0;
 
     if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
-	ch->pcdata->true_sex = 0; 
+	ch->pcdata->true_sex = 0;
     ch->sex             = ch->pcdata->true_sex;
     ch->max_hit         = ch->pcdata->perm_hit;
     ch->max_mana        = ch->pcdata->perm_mana;
     ch->max_move        = ch->pcdata->perm_move;
-   
+
     for (i = 0; i < 4; i++)
 	ch->armor[i]    = 100;
 
@@ -523,13 +522,13 @@ void reset_char(CHAR_DATA *ch)
 		case APPLY_HIT:         ch->max_hit             += mod; break;
 		case APPLY_MOVE:        ch->max_move            += mod; break;
 
-		case APPLY_AC:          
+		case APPLY_AC:
 		    for (i = 0; i < 4; i ++)
-			ch->armor[i] += mod; 
+			ch->armor[i] += mod;
 		    break;
 		case APPLY_HITROLL:     ch->hitroll             += mod; break;
 		case APPLY_DAMROLL:     ch->damroll             += mod; break;
-	
+
 		case APPLY_SAVING_PARA:         ch->saving_throw += mod; break;
 		case APPLY_SAVING_ROD:          ch->saving_throw += mod; break;
 		case APPLY_SAVING_PETRI:        ch->saving_throw += mod; break;
@@ -537,7 +536,7 @@ void reset_char(CHAR_DATA *ch)
 		case APPLY_SAVING_SPELL:        ch->saving_throw += mod; break;
 	    }
 	}
- 
+
 	for ( af = obj->affected; af != NULL; af = af->next )
 	{
 	    mod = af->modifier;
@@ -548,19 +547,19 @@ void reset_char(CHAR_DATA *ch)
 		case APPLY_INT:         ch->mod_stat[STAT_INT]  += mod; break;
 		case APPLY_WIS:         ch->mod_stat[STAT_WIS]  += mod; break;
 		case APPLY_CON:         ch->mod_stat[STAT_CON]  += mod; break;
- 
+
 		case APPLY_SEX:         ch->sex                 += mod; break;
 		case APPLY_MANA:        ch->max_mana            += mod; break;
 		case APPLY_HIT:         ch->max_hit             += mod; break;
 		case APPLY_MOVE:        ch->max_move            += mod; break;
- 
+
 		case APPLY_AC:
 		    for (i = 0; i < 4; i ++)
 			ch->armor[i] += mod;
 		    break;
 		case APPLY_HITROLL:     ch->hitroll             += mod; break;
 		case APPLY_DAMROLL:     ch->damroll             += mod; break;
- 
+
 		case APPLY_SAVING_PARA:         ch->saving_throw += mod; break;
 		case APPLY_SAVING_ROD:          ch->saving_throw += mod; break;
 		case APPLY_SAVING_PETRI:        ch->saving_throw += mod; break;
@@ -569,7 +568,7 @@ void reset_char(CHAR_DATA *ch)
 	    }
 	}
     }
-  
+
     /* now add back spell effects */
     for (af = ch->affected; af != NULL; af = af->next)
     {
@@ -581,25 +580,25 @@ void reset_char(CHAR_DATA *ch)
 		case APPLY_INT:         ch->mod_stat[STAT_INT]  += mod; break;
 		case APPLY_WIS:         ch->mod_stat[STAT_WIS]  += mod; break;
 		case APPLY_CON:         ch->mod_stat[STAT_CON]  += mod; break;
- 
+
 		case APPLY_SEX:         ch->sex                 += mod; break;
 		case APPLY_MANA:        ch->max_mana            += mod; break;
 		case APPLY_HIT:         ch->max_hit             += mod; break;
 		case APPLY_MOVE:        ch->max_move            += mod; break;
- 
+
 		case APPLY_AC:
 		    for (i = 0; i < 4; i ++)
 			ch->armor[i] += mod;
 		    break;
 		case APPLY_HITROLL:     ch->hitroll             += mod; break;
 		case APPLY_DAMROLL:     ch->damroll             += mod; break;
- 
+
 		case APPLY_SAVING_PARA:         ch->saving_throw += mod; break;
 		case APPLY_SAVING_ROD:          ch->saving_throw += mod; break;
 		case APPLY_SAVING_PETRI:        ch->saving_throw += mod; break;
 		case APPLY_SAVING_BREATH:       ch->saving_throw += mod; break;
 		case APPLY_SAVING_SPELL:        ch->saving_throw += mod; break;
-	} 
+	}
     }
 
     /* make sure sex is RIGHT!!!! */
@@ -654,7 +653,7 @@ int get_curr_stat( CHAR_DATA *ch, int stat )
 
 	max = UMIN(max,MAX_STAT);
     }
-  
+
     return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
 }
 
@@ -676,7 +675,7 @@ int get_max_train( CHAR_DATA *ch, int stat )
 
     return UMIN(max,MAX_STAT);
 }
-   
+
 int can_carry_n( CHAR_DATA *ch )
 {
     if ( !IS_NPC(ch) && ch->level >= LEVEL_IMMORTAL )
@@ -1610,7 +1609,7 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
 
     if (obj->action_to_room == NULL && obj->action_to_char == NULL)
     {
-    if( obj->pIndexData->action != NULL )  
+    if( obj->pIndexData->action != NULL )
         do_obj_action(ch,obj);
     }
     else
@@ -1786,7 +1785,7 @@ void obj_to_obj( OBJ_DATA *obj, OBJ_DATA *obj_to )
     obj->in_room                = NULL;
     obj->carried_by             = NULL;
     if (obj_to->pIndexData->vnum == OBJ_VNUM_PIT)
-	obj->cost = 0; 
+	obj->cost = 0;
 
     for ( ; obj_to != NULL; obj_to = obj_to->in_obj )
     {
@@ -2138,10 +2137,10 @@ void extract_char( CHAR_DATA *ch, bool fPull )
     {
 	obj_next = obj->next_content;
 /* Blackbird: Take care that maxload does not get updated in case player leaves */
-        if (IS_NPC(ch)) 
+        if (IS_NPC(ch))
 	  extract_obj( obj );
         else
-          extract_obj_player( obj );    
+          extract_obj_player( obj );
     }
 
     char_from_room( ch );
@@ -2417,21 +2416,21 @@ OBJ_DATA *create_money( int amount, int type )
     if ( amount == 1 ) {
 	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_ONE ), 0 );
 	sprintf(buf,obj->name,
-	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_COPPER   ? "copper"   :
 	    type == TYPE_SILVER   ? "silver"   :
 	    type == TYPE_GOLD     ? "gold"     :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
 	free_string(obj->name);
 	obj->name = str_dup(buf);
 	sprintf(buf,obj->short_descr,
-	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_COPPER   ? "copper"   :
 	    type == TYPE_SILVER   ? "silver"   :
 	    type == TYPE_GOLD     ? "gold"     :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
 	free_string(obj->short_descr);
 	obj->short_descr = str_dup(buf);
 	sprintf(buf,obj->description,
-	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_COPPER   ? "copper"   :
 	    type == TYPE_SILVER   ? "silver"   :
 	    type == TYPE_GOLD     ? "gold"     :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
@@ -2441,21 +2440,21 @@ OBJ_DATA *create_money( int amount, int type )
     } else {
 	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_SOME ), 0 );
 	sprintf(buf,obj->name,
-	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_COPPER   ? "copper"   :
 	    type == TYPE_SILVER   ? "silver"   :
 	    type == TYPE_GOLD     ? "gold"     :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
 	free_string(obj->name);
 	obj->name = str_dup(buf);
-	sprintf( buf, obj->short_descr, amount, 
-	    type == TYPE_COPPER   ? "copper" : 
+	sprintf( buf, obj->short_descr, amount,
+	    type == TYPE_COPPER   ? "copper" :
 	    type == TYPE_SILVER   ? "silver" :
 	    type == TYPE_GOLD     ? "gold" :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
 	free_string( obj->short_descr );
 	obj->short_descr        = str_dup( buf );
 	sprintf(buf,obj->description,
-	    type == TYPE_COPPER   ? "copper"   : 
+	    type == TYPE_COPPER   ? "copper"   :
 	    type == TYPE_SILVER   ? "silver"   :
 	    type == TYPE_GOLD     ? "gold"     :
 	    type == TYPE_PLATINUM ? "platinum" : "bug_money_type");
@@ -2478,16 +2477,16 @@ OBJ_DATA *create_money( int amount, int type )
 int get_obj_number( OBJ_DATA *obj )
 {
     int number;
- 
+
 /*    if ( obj->item_type == ITEM_CONTAINER || obj->item_type == ITEM_MONEY)*/
     if (obj->item_type == ITEM_MONEY)
 	number = 0;
     else
 	number = 1;
- 
+
     for ( obj = obj->contains; obj != NULL; obj = obj->next_content )
 	number += get_obj_number( obj );
- 
+
     return number;
 }
 
@@ -2551,7 +2550,7 @@ bool room_is_private( ROOM_INDEX_DATA *pRoomIndex )
 
     if ( IS_SET(pRoomIndex->room_flags, ROOM_SOLITARY) && count >= 1 )
 	return TRUE;
-    
+
     if ( IS_SET(pRoomIndex->room_flags, ROOM_IMP_ONLY) )
 	return TRUE;
 
@@ -2605,11 +2604,11 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
 
     if ( IS_NPC(ch) && IS_AFFECTED(victim, AFF2_GHOST))
 	return FALSE;
-	
+
     if ( !IS_NPC(victim)
     &&   IS_SET(victim->act, PLR_CLOAKED)
-    &&   ch->in_room != victim->in_room 
-    &&   get_trust( ch ) < victim->cloak_level ) 
+    &&   ch->in_room != victim->in_room
+    &&   get_trust( ch ) < victim->cloak_level )
 	return FALSE;
 
     if ( (!IS_NPC(ch) && IS_SET(ch->act, PLR_HOLYLIGHT))
@@ -2746,7 +2745,7 @@ char *item_type_name( OBJ_DATA *obj )
     case ITEM_HERB:             return "herb";
     case ITEM_SPELL_COMPONENT:  return "spell component";
     case ITEM_SOUL_CONTAINER:   return "soul container";
-    case ITEM_ACTION:		return "action";  
+    case ITEM_ACTION:		return "action";
     case ITEM_CAKE:		return "weedding cake";
     }
 
@@ -3471,7 +3470,7 @@ void do_flip( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3495,7 +3494,7 @@ void do_move( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3524,7 +3523,7 @@ void do_pull( CHAR_DATA *ch, char *argument )
        do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3548,7 +3547,7 @@ void do_push( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3572,7 +3571,7 @@ void do_turn( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3596,7 +3595,7 @@ void do_climb( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3620,7 +3619,7 @@ void do_crawl( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3644,7 +3643,7 @@ void do_jump( CHAR_DATA *ch, char *argument )
      do_manipulate(ch, arg);
    else
      send_to_char("Nothing seems to happen. Try something else?\n\r",ch);
-    
+
    return;
 }
 
@@ -3656,17 +3655,17 @@ void show_obj_condition(OBJ_DATA *obj, CHAR_DATA *ch)
     {
         case 10: sprintf(buf,"The %s is in perfect condition.\n\r",
                          obj->short_descr);	break;
-        case  9: 
+        case  9:
         case  8: sprintf(buf,"The %s is in great condition.\n\r",
                          obj->short_descr);	break;
-        case  7: 
+        case  7:
         case  6: sprintf(buf,"The %s is in good condition.\n\r",
                          obj->short_descr);	break;
-        case  5: 
-        case  4: 
+        case  5:
+        case  4:
         case  3: sprintf(buf,"The %s is in average condition.\n\r",
                          obj->short_descr);	break;
-        case  2: 
+        case  2:
         case  1: sprintf(buf,"The %s is in bad condition.\n\r",
                          obj->short_descr);	break;
         case  0: sprintf(buf,"The %s is falling apart.\n\r",
@@ -3678,4 +3677,3 @@ void show_obj_condition(OBJ_DATA *obj, CHAR_DATA *ch)
     send_to_char(buf,ch);
     return;
 }
-
