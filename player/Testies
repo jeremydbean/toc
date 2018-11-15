@@ -1,34 +1,34 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542161288
+LogO 1542251718
 Vers 3
 Prom ~
 Ignoring ~
 Race human~
 Sex  1
 Cla  0
-Gui  11
+Gui  0
 Psionic  1
 Cast none
-Levl 19
-Plyd 2050
+Levl 20
+Plyd 3365
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 3700
-HMV  20 20 100 100 100 100
+Room 4216
+HMV  143 143 160 160 214 214
 NewGold 0
 NewPlat 0
 NewCopp 0
-NewSilv 50
+NewSilv 0
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  2000
+Exp  40000
 Act  65788
 Comm 24576
 Mounted 0
@@ -55,22 +55,19 @@ Color 14 0
 Color 15 0
 Color 16 0
 Pos  5
-Prac 5
-Trai 3
-Save  -1
+Prac 21
+Trai 20
 Alig  750
-Hit   2
-Dam   2
-ACs 95 95 95 99
+ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Apprentice of Magic~
+Titl  the Sorcerer~
 Pnts 40
 TSex 1
 LLev 0
-HMVP 20 100 100
-Cond 0 18 18
+HMVP 143 160 214
+Cond 0 0 0
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
@@ -84,78 +81,16 @@ Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
 Sk 1 'astral walk'
-Sk 1 'clairvoyance'
-Sk 1 'confuse'
-Sk 1 'mindbar'
-Sk 1 'mindblast'
-Sk 1 'nightmare'
-Sk 1 'project'
 Sk 1 'psionic armor'
-Sk 1 'pyrotechnics'
-Sk 1 'shift'
 Sk 1 'telekinesis'
 Sk 1 'torment'
-Sk 1 'transfusion'
-Sk 10 'axe'
-Sk 80 'dagger'
-Sk 7 'flail'
-Sk 5 'mace'
-Sk 3 'polearm'
-Sk 8 'spear'
-Sk 3 'sword'
-Sk 20 'whip'
+Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'
 Sk 80 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-End
-
-#O
-Vnum 3716
-Nest 0
-Wear 0
-Cost 0
-Cond 100
-Repd 0
-Val  0 0 170 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-Wear 5
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3704
-Nest 0
-Wear 11
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3701
-Nest 0
-Wear 16
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3162
-Nest 0
-Wear -1
-Cost 500
-Cond 100
-Repd 0
 End
 
 #END

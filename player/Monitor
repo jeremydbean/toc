@@ -1,7 +1,7 @@
 #PLAYER
 Name Monitor~
 Id   57754
-LogO 1542177266
+LogO 1542233305
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,13 +13,13 @@ Psionic  1
 Cast none
 Levl 70
 Tru  70
-Plyd 398772
+Plyd 398827
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4911
-HMV  10001 10001 9887 9975 10000 10000
+HMV  10001 10001 9900 9975 10000 10000
 NewGold 1
 NewPlat 180
 NewCopp 0
@@ -30,11 +30,12 @@ Corpses	0
 PkRec 0
 PkGiv 0
 Exp  1217300
-Act  221384
+Act  745672
 AfBy 2622080
 AfBy2 4096
 Comm 24576
 Invi 70
+Clkl 70
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -306,20 +307,20 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
-AffD 'giant strength'   0  64   4   1          0          0
-AffD 'frenzy'   0  17 110  17          0          0
-AffD 'frenzy'   0  17  11  19          0          0
-AffD 'frenzy'   0  17  11  18          0          0
-AffD 'shield'   0  72 -20  17          0          0
-AffD 'armor'   0  18 -20  17          0          0
-AffD 'fly'   0  67   0   0     524288          0
-AffD 'aid'   0  18  51  13          0          0
-AffD 'aid'   0  18   7  18          0          0
-AffD 'divine protection'   0   4   0   0          0       4096
-AffD 'bless'   0  70  -8  24          0          0
-AffD 'bless'   0  70   8  18          0          0
-AffD 'haste'   0  11   4   2    2097152          0
-AffD 'sanctuary'   0   5   0   0        128          0
+AffD 'sanctuary'   0   4   0   0        128          0
+AffD 'haste'   0  10   4   2    2097152          0
+AffD 'bless'   0  69   8  18          0          0
+AffD 'bless'   0  69  -8  24          0          0
+AffD 'divine protection'   0   3   0   0          0       4096
+AffD 'aid'   0  17   7  18          0          0
+AffD 'aid'   0  17  51  13          0          0
+AffD 'fly'   0  66   0   0     524288          0
+AffD 'armor'   0  17 -20  17          0          0
+AffD 'shield'   0  71 -20  17          0          0
+AffD 'frenzy'   0  16  11  18          0          0
+AffD 'frenzy'   0  16  11  19          0          0
+AffD 'frenzy'   0  16 110  17          0          0
+AffD 'giant strength'   0  63   4   1          0          0
 End
 
 #O

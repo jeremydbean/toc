@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1542163398
+LogO 1542250889
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,26 +11,27 @@ Cla  3
 Gui  3
 Psionic  1
 Cast none
-Levl 24
-Plyd 33721
+Levl 25
+Plyd 34339
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4210
-HMV  218 511 215 257 133 242
-NewGold 651
-NewPlat 48
-NewCopp 10886
-NewSilv 3108
+HMV  510 590 212 262 56 248
+NewGold 669
+NewPlat 53
+NewCopp 10932
+NewSilv 3141
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  56680
+Exp  57773
 Act  65740
-AfBy 524288
+AfBy 2621568
+AfBy2 4096
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -55,22 +56,22 @@ Color 13 7
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  4
-Prac 9
+Pos  8
+Prac 3
 Save  -11
 Alig  -1000
-Hit   21
-Dam   31
-ACs -29 -29 -29 72
+Hit   28
+Dam   32
+ACs -54 -53 -52 54
 Attr 13 13 16 16 12
-AMod 13 1 0 2 1
+AMod 13 1 0 6 0
 Pass We2cg.QoJGvjg~
-Titl  the Grand Paladin~
+Titl  the Dreadnought~
 Pnts 40
 TSex 1
-LLev 8
-HMVP 511 244 238
-Cond 0 48 2
+LLev 9
+HMVP 543 249 244
+Cond 0 39 41
 Alias k kick~
 Alias re rescue~
 Sk 1 'confuse'
@@ -82,14 +83,14 @@ Sk 69 'dagger'
 Sk 25 'flail'
 Sk 25 'mace'
 Sk 35 'polearm'
-Sk 38 'shield block'
+Sk 39 'shield block'
 Sk 30 'spear'
-Sk 94 'sword'
+Sk 96 'sword'
 Sk 30 'whip'
 Sk 17 'berserk'
 Sk 1 'disarm'
 Sk 21 'dodge'
-Sk 49 'enhanced damage'
+Sk 52 'enhanced damage'
 Sk 48 'kick'
 Sk 35 'parry'
 Sk 11 'rescue'
@@ -102,11 +103,17 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'bless'  44  45   8  18          0          0
-AffD 'bless'   0  45  -8  24          0          0
-AffD 'fly'   0  42   0   0     524288          0
-AffD 'shield'   0  47 -20  17          0          0
-AffD 'giant strength'   0  39   4   1          0          0
+AffD 'armor'   0  16 -20  17          0          0
+AffD 'aid'   0  16  47  13          0          0
+AffD 'aid'   0  16   7  18          0          0
+AffD 'divine protection'   0   2   0   0          0       4096
+AffD 'haste'   0   9   4   2    2097152          0
+AffD 'sanctuary'   0   3   0   0        128          0
+AffD 'giant strength'   0  30   4   1          0          0
+AffD 'shield'   0  38 -20  17          0          0
+AffD 'fly'   0  33   0   0     524288          0
+AffD 'bless'   0  36  -8  24          0          0
+AffD 'bless'  40  36   8  18          0          0
 End
 
 #O
@@ -131,7 +138,7 @@ End
 #O
 Vnum 3737
 Nest 0
-Wear 11
+Wear -1
 Lev  1
 Cost 10
 Cond 91
@@ -283,6 +290,7 @@ Lev  8
 Cost 729
 Cond 100
 Repd 0
+Val  150 141 0 0 0
 End
 
 #O
@@ -294,8 +302,8 @@ Cost 8500
 Cond 100
 Repd 0
 Val  6 6 5 0 0
-Affect -1 18 -1 -6 14 0 0
 Affect -1 18 -1 13 12 0 0
+Affect -1 18 -1 -6 14 0 0
 End
 
 #O
@@ -439,7 +447,7 @@ End
 #O
 Vnum 13223
 Nest 0
-Wear -1
+Wear 11
 Lev  25
 Cost 100
 Cond 100
