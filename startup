@@ -34,10 +34,10 @@ while ( 1 )
     # cd ../area
 
     # Check to see if it is currently running or not
-    echo Making sure it is not currently running....
+    echo Making sure ToC is not currently running....
     set check = `ps ux | grep "merc 9000" | grep -v grep`
     if ("$check" != "") then
-	echo It is already running on that port!
+	echo ToC is already running on port $port!
 	echo -----
 	immortalctl
 	exit
@@ -46,10 +46,10 @@ while ( 1 )
     # Run merc.
     rm -f shutdown.txt
 	cd /mnt/e/toc/area
-	immortal -l $logfile --logger "tee ../log/teelog.log" ./merc $port
+	immortal -l $logfile --logger "tee ../log/toc.log" ./merc $port
 	sleep 5
-	sudo lnav ../log/teelog.log
-
+	sudo lnav ../log/toc.log
+	
     # Save to core files
 #    if ( -e core ) mv core core.$index
 
