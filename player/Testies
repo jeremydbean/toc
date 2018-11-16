@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542302420
+LogO 1542326290
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,14 +11,14 @@ Cla  0
 Gui  0
 Psionic  2
 Cast none
-Levl 20
-Plyd 9015
+Levl 19
+Plyd 10153
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4216
-HMV  164 164 177 177 232 232
+HMV  143 143 162 162 208 208
 NewGold 0
 NewPlat 0
 NewCopp 0
@@ -28,7 +28,7 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  36000
+Exp  38000
 Act  65788
 Comm 24576
 Mounted 0
@@ -55,18 +55,18 @@ Color 14 0
 Color 15 0
 Color 16 0
 Pos  5
-Prac 24
-Trai 23
+Prac 19
+Trai 21
 Alig  750
 ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Wizard~
+Titl  the Warlock~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 164 177 232
+HMVP 143 162 208
 Cond 0 0 0
 Sk 1 'armor'
 Sk 1 'burning hands'
@@ -80,10 +80,6 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
-Sk 1 'clairvoyance'
-Sk 1 'mindbar'
-Sk 1 'mindblast'
-Sk 1 'nightmare'
 Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'

@@ -2327,7 +2327,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 	if(ch->pcdata->last_level < 3)
 	 ch->pcdata->last_level += 1;
 
-  if( chance >= 90)
+  if( chance >= 95)
     ch->pcdata->psionic = 1;
 
 	 if(ch->pcdata->last_level >= 3)
@@ -2336,6 +2336,11 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 		sprintf( log_buf, "Psionics are forever out of the reach of %s.", ch->name);
 		log_string( log_buf );
 		wizinfo( log_buf, MAX_LEVEL);
+		send_to_char("\n\r",ch);
+		send_to_char("\n\r",ch);
+		send_to_char("\n\r",ch);
+		send_to_char("You feel as though you've lost something...",ch);
+		send_to_char("\n\r",ch);
 		save_char_obj(ch);
 	  }
 

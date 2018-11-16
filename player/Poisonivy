@@ -1,7 +1,7 @@
 #PLAYER
 Name PoisonIvy~
 Id   48291
-LogO 1541809264
+LogO 1542328969
 Vers 3
 Desc All that we see or seem is but a dream within a dream.
 ~
@@ -13,26 +13,26 @@ Cla  5
 Gui  5
 Psionic  2
 Cast none
-Levl 47
-Plyd 3418012
+Levl 48
+Plyd 3420719
 ListRemorts 0  0 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 4208
-HMV  858 858 757 757 483 483
-NewGold 191
-NewPlat 60
-NewCopp 4091
-NewSilv 358
+Room 8065
+HMV  676 865 585 772 490 490
+NewGold 449
+NewPlat 139
+NewCopp 8959
+NewSilv 821
 Bank 1824
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 QuestPnts 233
-Exp  94912
-Act  4194504
+Exp  97371
+Act  200
 AfBy 2622080
 AfBy2 4616
 Comm 24576
@@ -59,9 +59,9 @@ Color 13 7
 Color 14 9
 Color 15 6
 Color 16 6
-Pos  5
-Prac 10
-Trai 1
+Pos  4
+Prac 14
+Trai 2
 Save  -13
 Alig  1000
 Hit   49
@@ -72,12 +72,12 @@ AMod 9 -4 4 4 0
 Pass PozhU/901BCHg~
 Ariv You start to itch uncontrollably as $n arrives from $T.~
 Dprt Your hives vanish as $n leaves $t.~
-Titl  the Dead Inside~
+Titl  the Commander of Souls~
 Pnts 2540
 TSex 2
 LLev 949
-HMVP 813 747 458
-Cond 0 37 44
+HMVP 823 762 465
+Cond 0 14 3
 Alias ap c 'animate parts'~
 Alias oe open east~
 Alias ow open west~
@@ -114,20 +114,20 @@ Sk 76 'infravision'
 Sk 75 'major globe'
 Sk 75 'mana convert'
 Sk 75 'maze'
-Sk 88 'moonbeam'
+Sk 90 'moonbeam'
 Sk 77 'pass door'
 Sk 75 'plague'
 Sk 75 'poison'
 Sk 75 'raise dead'
 Sk 75 'remove curse'
-Sk 78 'rope trick'
+Sk 80 'rope trick'
 Sk 75 'sanctuary'
 Sk 75 'shield'
 Sk 77 'shroud'
 Sk 75 'ghostly presence'
 Sk 100 'shock sphere'
 Sk 76 'skeletal hands'
-Sk 78 'tentacles'
+Sk 82 'tentacles'
 Sk 1 'trap the soul'
 Sk 75 'vampiric touch'
 Sk 75 'vortex'
@@ -141,7 +141,7 @@ Sk 3 'polearm'
 Sk 7 'spear'
 Sk 3 'sword'
 Sk 75 'whip'
-Sk 89 'dodge'
+Sk 90 'dodge'
 Sk 75 'concoct'
 Sk 82 'meditation'
 Sk 75 'scrolls'
@@ -157,25 +157,25 @@ Gr 'necro maladictions'
 Gr 'necromancy'
 Gr 'necro protective'
 Gr 'necro transportation'
-AffD 'fire shield'  40   4   0   0          0          8
-AffD 'frenzy'  13  23 110  17          0          0
-AffD 'frenzy'   0  23  11  19          0          0
-AffD 'frenzy'  31  23  11  18          0          0
-AffD 'aid'   0  24  35  13          0          0
-AffD 'aid'  34  24   7  18          0          0
-AffD 'sanctuary'  47  12   0   0        128          0
-AffD 'force sword'  30   4   0   0          0        512
-AffD 'death shroud'  27   4   0   0          0          8
-AffD 'giant strength'   0  62   4   1          0          0
-AffD 'divine protection'  45   0   0   0          0       4096
-AffD 'haste'  29   3   4   2    2097152          0
-AffD 'armor'  40   7 -20  17          0          0
-AffD 'infravision'   3  66   0   0        512          0
-AffD 'shroud'  16   4 -35  17          0          0
-AffD 'shield'   0  17 -20  17          0          0
-AffD 'bless'   0  22   8  18          0          0
-AffD 'bless'   0  22  -8  24          0          0
-AffD 'fly'  11  19   0   0     524288          0
+AffD 'death shroud'  47   3   0   0          0          8
+AffD 'force sword'  39   2   0   0          0        512
+AffD 'fire shield'  24   0   0   0          0          8
+AffD 'haste'   0  13   4   2    2097152          0
+AffD 'sanctuary'  42   4   0   0        128          0
+AffD 'divine protection'  41   2   0   0          0       4096
+AffD 'armor'   0  12 -20  17          0          0
+AffD 'frenzy'  33   3 110  17          0          0
+AffD 'frenzy'  35   3  11  19          0          0
+AffD 'frenzy'  23   3  11  18          0          0
+AffD 'aid'   0   4  32  13          0          0
+AffD 'aid'   7   4   7  18          0          0
+AffD 'bless'  41  56  -8  24          0          0
+AffD 'bless'  29  56   8  18          0          0
+AffD 'fly'   1  48   0   0     524288          0
+AffD 'shield'   0  51 -20  17          0          0
+AffD 'shroud'  35  19 -35  17          0          0
+AffD 'infravision'   0  21   0   0        512          0
+AffD 'giant strength'   0  17   4   1          0          0
 End
 
 #O
@@ -690,8 +690,8 @@ Lev  28
 Cost 500
 Cond 100
 Repd 0
-Affect -1 28 -1 -4 4 0 0
 Affect -1 28 -1 -3 2 0 0
+Affect -1 28 -1 -4 4 0 0
 End
 
 #O
@@ -796,16 +796,6 @@ Wear 6
 Lev  25
 Cost 25000
 Cond 71
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 0
-Wear -1
-Lev  3
-Cost 10
-Cond 100
 Repd 0
 End
 
