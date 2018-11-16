@@ -2100,7 +2100,7 @@ case CON_GET_ALIGNMENT:
 
     case CON_READ_MOTD:
 	write_to_buffer( d,
-    "\n\rWelcome to THE TIMES OF CHAOS. Try and enjoy your stay.\n\r",
+    "\n\rWelcome to THE TIMES OF CHAOS. Try and enjoy your stay.\n\r\n\r\n\r\n\r",
 	    0 );
 	ch->next        = char_list;
 	char_list       = ch;

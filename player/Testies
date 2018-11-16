@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542326290
+LogO 1542338716
 Vers 3
 Prom ~
 Ignoring ~
@@ -9,10 +9,10 @@ Race human~
 Sex  1
 Cla  0
 Gui  0
-Psionic  2
+Psionic  1
 Cast none
 Levl 19
-Plyd 10153
+Plyd 16971
 ListRemorts ~
 NumRemorts 0
 Note 0
@@ -80,6 +80,10 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
+Sk 1 'clairvoyance'
+Sk 1 'confuse'
+Sk 1 'psionic armor'
+Sk 1 'torment'
 Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'
