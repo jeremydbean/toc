@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarte~
 Id   30739
-LogO 953524324
+LogO 1542379101
 Vers 3
 Desc .                      //:::::::::::::::::::::::::::::::::::::::::::::\\
 .                     //:::_______:::::::::________::::::::::_____:::::::\\
@@ -36,7 +36,7 @@ Gui  3
 Psionic  1
 Cast none
 Levl 51
-Plyd 655334
+Plyd 655341
 ListRemorts ~
 NumRemorts 0
 Note 953324127
@@ -89,7 +89,7 @@ ACs -75 -65 -71 51
 Wimp  150
 Attr 20 16 18 18 19
 AMod 13 0 0 7 -2
-Pass MiJx5Di.yq8i6~
+Pass AsQheSp/NGAuY~
 Ariv $n leaves $t.~
 Dprt $n has arrived from the $t.~
 Titl ... the mortal immortal.~
@@ -146,20 +146,20 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'warrior guild'
-AffD 'detect hidden'  29   9   0   0         32          0
-AffD 'detect magic'   0   9   0   0         16          0
-AffD 'detect invis'  47   9   0   0          8          0
-AffD 'stone skin'  52  14 -40  17          0          0
-AffD 'berserk'   0   2 100  17         64          0
-AffD 'berserk'  10   2  10  19         64          0
-AffD 'berserk'   0   2  10  18         64          0
-AffD 'shield'   0  55 -20  17          0          0
-AffD 'armor'   0  18 -20  17          0          0
-AffD 'sneak'  23  45   0   0      32768          0
-AffD 'sanctuary'   0   0   0   0        128          0
-AffD 'haste'   0   5   4   2    2097152          0
-AffD 'change sex'  19  73  -1   6          0          0
 AffD 'fly'  34   4   0   0     524288          0
+AffD 'change sex'  19  73  -1   6          0          0
+AffD 'haste'   0   5   4   2    2097152          0
+AffD 'sanctuary'   0   0   0   0        128          0
+AffD 'sneak'  23  45   0   0      32768          0
+AffD 'armor'   0  18 -20  17          0          0
+AffD 'shield'   0  55 -20  17          0          0
+AffD 'berserk'   0   2  10  18         64          0
+AffD 'berserk'  10   2  10  19         64          0
+AffD 'berserk'   0   2 100  17         64          0
+AffD 'stone skin'  52  14 -40  17          0          0
+AffD 'detect invis'  47   9   0   0          8          0
+AffD 'detect magic'   0   9   0   0         16          0
+AffD 'detect hidden'  29   9   0   0         32          0
 End
 
 #O
@@ -304,8 +304,8 @@ Lev  45
 Cost 3250
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 6 19 0 0
 AffD 'enchant weapon' 51 -1 6 18 0 0
+AffD 'enchant weapon' 51 -1 6 19 0 0
 End
 
 #O

@@ -1,0 +1,11 @@
+!/bin/csh
+
+rm *.o
+rm merc
+make
+rm *.o
+rm ../area/merc
+cp merc ../area
+rm merc
+echo DONE!
+ps ux

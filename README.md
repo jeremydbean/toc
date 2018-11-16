@@ -9,3 +9,5 @@ CURRENT REPORTED BUGS:
 
 
 
+sudo chmod -R 777 toc
+sudo chmod a+rwx -R toc

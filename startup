@@ -39,16 +39,17 @@ while ( 1 )
     if ("$check" != "") then
 	echo ToC is already running on port $port!
 	echo -----
-	immortalctl
+	#immortalctl
 	exit
     endif
 
     # Run merc.
     rm -f shutdown.txt
 	cd /mnt/e/toc/area
-	immortal -l $logfile --logger "tee ../log/toc.log" ./merc $port
+	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
+	./merc 9000 | tee -a ../log/toc.log
 	sleep 5
-	sudo lnav ../log/toc.log
+	#sudo lnav ../log/toc.log
 	
     # Save to core files
 #    if ( -e core ) mv core core.$index
