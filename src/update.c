@@ -431,8 +431,8 @@ void gain_exp( CHAR_DATA *ch, int gain )
 	    send_to_char("be able to COMMUNICATE with anyone until your Quest has been finished.\n\r",ch);
 	  }
 
-	  chance = number_range(18,22);
-	  if(ch->level >= chance && ch->pcdata->psionic < 1)
+	  chance = number_range(18,21);
+	  if(ch->level == chance && ch->pcdata->psionic < 1)
 	    do_check_psi(ch,"");
 	  save_char_obj(ch);
 	}

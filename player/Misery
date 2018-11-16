@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542380211
+LogO 1542395056
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
@@ -76,13 +76,13 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1634887
+Plyd 1635923
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 2537
-HMV  1828 1828 915 938 281 343
+HMV  1828 1828 938 938 343 343
 NewGold 1
 NewPlat 5078
 NewCopp 50
@@ -95,8 +95,7 @@ PkGiv 24
 QuestPnts 111
 Exp  177312
 Act  101122248
-AfBy 524856
-AfBy2 64
+AfBy 524800
 Comm 28672
 Mounted 0
 On_Quest 0
@@ -135,7 +134,7 @@ Dprt $n lets an arrow fly to $T.~
 Titl ... the man, the myth, the legend. ~
 Pnts 40
 TSex 2
-LLev 386
+LLev 3
 HMVP 1783 760 418
 Cond 0 35 48
 Alias / who~
@@ -195,11 +194,7 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  44   2   0   0          0         64
-AffD 'detect hidden'  12   7   0   0         32          0
-AffD 'detect magic'  48   7   0   0         16          0
-AffD 'detect invis'  40   7   0   0          8          0
-AffD 'fly'   0  20   0   0     524288          0
+AffD 'fly'   0   7   0   0     524288          0
 End
 
 #O

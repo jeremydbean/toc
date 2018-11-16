@@ -7,10 +7,11 @@ set port = 9000
 if ( "$1" != "" ) set port="$1"
 
 # So we can get core files created
-unlimit coredumpsize
+ulimit -n 65535
+sudo sysctl -p
 
 # set default permissions for saves
-umask 6
+#umask 6
 
 # Change to area directory.
 cd /mnt/e/toc/area

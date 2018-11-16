@@ -12,8 +12,8 @@ Desc .                            _,,aaaaa,,_
 .              ,8"                                      `8,
 .             dP'                                        8I
 .           ,8"                           bg,_          ,P'
-.          ,8'                              "Y8"Ya,,,,ad"  
-.         ,d"                            a,_ I8   `"""'    
+.          ,8'                              "Y8"Ya,,,,ad"
+.         ,d"                            a,_ I8   `"""'
 .        ,8'                              ""888
 .        dP     __                           `Yb,
 .       dP'  _,d8P::::Y8b,                     `Ya
@@ -23,10 +23,10 @@ Desc .                            _,,aaaaa,,_
 . Yb:::::::"8(,8P _d8   d8:::::::::::::Y88P"::::::Y8I
 . `Yb::::::::""::"":b,,dP:::::::::::::::::::aaa::::8(
 .   `Y8a::::::::::::::::::::::::::::::::::8P""Y8)::8I
-.    8b"ba:::::::::::::::::adP:::::::::::":::dP:::8' 
-.     `8b::::::::::::::aad888P:::::::::::::::dP:::8' 
-.      `8b:::::::::""""88"  d::::::::::b::::::::dP'  
-.        "Yb:::::::::::Y8bad:::::::::::"8Paaa""'     
+.    8b"ba:::::::::::::::::adP:::::::::::":::dP:::8'
+.     `8b::::::::::::::aad888P:::::::::::::::dP:::8'
+.      `8b:::::::::""""88"  d::::::::::b::::::::dP'
+.        "Yb:::::::::::Y8bad:::::::::::"8Paaa""'
 .          `"Y8a::::::::::::::::::aadP""
 .              ``""Y88bbbdddd88P""
 ~
@@ -88,13 +88,13 @@ ACs -106 -107 -101 9
 Wimp  250
 Attr 16 18 17 14 18
 AMod 14 3 0 8 4
-Pass Kyz2D/BNiZB8Q~
+Pass TeGUeG0bw/YpE~
 Ariv $n does the Electric Smurf Slide $tward.~
 Dprt $n' butt re-pops to $T.~
 Titl  is with the angels now.~
 Pnts 40
 TSex 2
-LLev 236
+LLev 3
 HMVP 965 332 406
 Cond 0 35 45
 Alias stone cast "stone skin"~
@@ -279,35 +279,6 @@ Cond 100
 Repd 0
 End
 
-#O
-Vnum 75
-Nest 1
-Name colorless potion~
-ShD  a colorless potion~
-Wear -1
-Cost 400
-Cond 100
-Repd 0
-Val  51 12 77 106 0
-Spell 1 'cancellation'
-Spell 2 'heal'
-Spell 3 'restore mana'
-End
-
-#O
-Vnum 75
-Nest 1
-Name colorless potion~
-ShD  a colorless potion~
-Wear -1
-Cost 400
-Cond 100
-Repd 0
-Val  51 12 77 106 0
-Spell 1 'cancellation'
-Spell 2 'heal'
-Spell 3 'restore mana'
-End
 
 #O
 Vnum 19122
@@ -670,36 +641,6 @@ Lev  1
 Cost 15
 Cond 100
 Repd 0
-End
-
-#O
-Vnum 90
-Nest 1
-Name redish-white scroll~
-ShD  a redish-white scroll~
-Wear -1
-Cost 500
-Cond 100
-Repd 0
-Val  51 64 108 106 0
-Spell 1 'fire shield'
-Spell 2 'sanctuary'
-Spell 3 'restore mana'
-End
-
-#O
-Vnum 90
-Nest 1
-Name redish-white scroll~
-ShD  a redish-white scroll~
-Wear -1
-Cost 500
-Cond 100
-Repd 0
-Val  51 64 108 106 0
-Spell 1 'fire shield'
-Spell 2 'sanctuary'
-Spell 3 'restore mana'
 End
 
 #O

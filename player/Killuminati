@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542385436
+LogO 1542406202
 Vers 3
 ShD  Chubby Nutz ~
 LnD  Pooptastic
@@ -14,11 +14,11 @@ Race elf~
 Sex  1
 Cla  5
 Gui  0
-Psionic  1
+Psionic  2
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2349426
+Plyd 2361947
 ListRemorts ~
 NumRemorts 0
 Note 995701290
@@ -75,7 +75,7 @@ Bout Killuminati raises into the sky, and is gone.~
 Titl  [*AFK*] - tell spellup any time!~
 Pnts 40
 TSex 1
-LLev 10
+LLev 3
 HMVP 10583 15000 514
 Cond 0 0 0
 Alias / who~

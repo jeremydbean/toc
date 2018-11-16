@@ -2107,6 +2107,18 @@ case CON_GET_ALIGNMENT:
 	d->connected    = CON_PLAYING;
 	reset_char(ch);
 
+	if( ch->pcdata->psionic >= 1 )
+		{
+			ch->pcdata->last_level = 3;
+			save_char_obj(ch);
+		}
+
+	if( ch->pcdata->psionic == 0 && ch->level <= 17 )
+		{
+			ch->pcdata->last_level = 0;
+			save_char_obj(ch);
+		}
+
 	if ( ch->level == 0 )
 	{
 
@@ -2156,13 +2168,21 @@ case CON_GET_ALIGNMENT:
 	  else
 	    char_to_room( ch, ch->in_room );
 
-	  psi = ch->pcdata->psionic;
-	  chance = number_range(18,22);
 
-	  if( ch->level >= chance && psi == 0)
+	  psi = ch->pcdata->psionic;
+	  chance = number_range(18,21);
+
+	  if( ch->level == chance && psi == 0)
 	    {
 		 do_check_psi(ch, "");
 	    }
+
+		psi = ch->pcdata->psionic;
+
+		if( ch->level == 22 && psi == 0)
+			{
+		 do_check_psi(ch, "");
+			}
 
 	}
 	else if ( IS_IMMORTAL(ch) )
@@ -2181,8 +2201,8 @@ case CON_GET_ALIGNMENT:
 	    char_to_room( ch, get_room_index( ROOM_VNUM_TEMPLE ) );
 
 	    psi = ch->pcdata->psionic;
-	    chance = number_range(18,22);
-	    if( ch->level >= chance && psi == 0)
+	    chance = number_range(18,21);
+	    if( ch->level == chance && psi == 0)
 	    {
 		do_check_psi(ch, "");
 	    }
@@ -2231,6 +2251,9 @@ case CON_GET_ALIGNMENT:
 	   }
 	   act("$n has entered the game.",ch->pet,NULL,NULL,TO_ROOM);
 	}
+
+
+
 
 	ch->pcdata->mounted = FALSE;
 
@@ -2319,8 +2342,6 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 
   chance = number_percent( );
 
-	if(ch->pcdata->last_level == 813)
-	chance = 100;
 
 	sprintf( log_buf, "%s psionic check complete! [Chance: %d]", ch->name, chance);
 	log_string( log_buf );
@@ -2333,7 +2354,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
   if( chance >= 95)
     ch->pcdata->psionic = 1;
 
-	 if(ch->pcdata->last_level == 3)
+	 if(ch->pcdata->last_level == 3 && chance < 95)
 		{
 		ch->pcdata->psionic = 2;
 		sprintf( log_buf, "Psionics are forever out of the reach of %s.", ch->name);
@@ -2350,16 +2371,16 @@ send_to_char("                *  You feel as though you've lost something... *\n
 send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
-send_to_char("*    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\n\r",ch);
-send_to_char("*    ----------------------------------------------------------------------*\n\r",ch);
-send_to_char("    An overwhelming sensation of new power hits you in a wave of veritigo.\n\r",ch);
-send_to_char("    You fall to you your knees and scream out as it engulfs your mind.\n\r",ch);
-send_to_char("    As the dizzyness passes, you discover that you possess knowledge of\n\r",ch);
-send_to_char("    some unique new skills.  Further contemplation leads to a premonition\n\r",ch);
-send_to_char("    of you, drifting in the astral plane, and before you is..............\n\r",ch);
-send_to_char("    \n\rSalir, The Monk of the Way.\n\r",ch);
-send_to_char("    *----------------------------------------------------------------------*\n\r",ch);
-send_to_char("    *-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\n\r",ch);
+send_to_char("*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\n\r",ch);
+send_to_char("*-------------------------------------------------------------------------*\n\r",ch);
+send_to_char("  An overwhelming sensation of new power hits you in a wave of veritigo.\n\r",ch);
+send_to_char("  You fall to you your knees and scream out as it engulfs your mind.\n\r",ch);
+send_to_char("  As the dizzyness passes, you discover that you possess knowledge of\n\r",ch);
+send_to_char("  some unique new skills.  Further contemplation leads to a premonition\n\r",ch);
+send_to_char("  of you, drifting in the astral plane, and before you is..............\n\r",ch);
+send_to_char("       Salir, The Monk of the Way.\n\r",ch);
+send_to_char("*-------------------------------------------------------------------------*\n\r",ch);
+send_to_char("*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\n\r",ch);
 send_to_char("\n\r",ch);
 send_to_char("\n\r",ch);
 ch->position = POS_RESTING;
@@ -2421,12 +2442,6 @@ wizinfo( log_buf, LEVEL_IMMORTAL);
     else
 	 group_add(ch,"nightmare",0);
 
-if(ch->pcdata->last_level = 813)
-{
-	sprintf( log_buf, "%s granted psi by an immortal!\n\r", ch->name);
-	log_string( log_buf );
-	wizinfo( log_buf, MAX_LEVEL);
-}
 
 		ch->pcdata->last_level = 3;
     save_char_obj(ch);

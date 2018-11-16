@@ -3167,8 +3167,8 @@ void do_advance( CHAR_DATA *ch, char *argument )
 
   /* victim->trust = 0; EC */
 
-  chance = number_range(18,22);
-  if(victim->level >= chance && ch->pcdata->psionic < 1)
+  chance = number_range(18,21);
+  if(victim->level == chance && ch->pcdata->psionic < 1)
      do_check_psi(victim,"");
 
   update_wizlist(victim,level);
