@@ -7,5 +7,7 @@ rm *.o
 rm ../area/merc
 cp merc ../area
 rm merc
+cd ..
+./startup &
 echo DONE!
 ps ux
