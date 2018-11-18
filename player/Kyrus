@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1542391693
+LogO 1542429444
 Vers 3
 Desc .~
 Prom ~
@@ -13,26 +13,25 @@ Gui  4
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 220560
+Plyd 225948
 ListRemorts 3  3 ~
 NumRemorts 1
 Note 947990183
 Scro 22
-Room 29004
-HMV  1485 1485 936 1054 179 507
-NewGold 442
-NewPlat 288
-NewCopp 1905
-NewSilv 777
-Bank 12878
+Room 29003
+HMV  1240 1476 726 1054 507 507
+NewGold 22
+NewPlat 49
+NewCopp 24
+NewSilv 1
+Bank 13522
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  150094
+Exp  152347
 Act  393420
-AfBy 2621440
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -65,7 +64,7 @@ Hit   92
 Dam   99
 ACs -89 -91 -124 53
 Attr 13 13 13 13 13
-AMod 11 5 -2 -3 -4
+AMod 11 5 -2 -7 -4
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
@@ -92,7 +91,7 @@ Alias sm smite~
 Alias chat gossip~
 Alias fi fist~
 Alias co confuse~
-Sk 83 'confuse'
+Sk 85 'confuse'
 Sk 1 'ego whip'
 Sk 1 'project'
 Sk 1 'psychic shield'
@@ -122,18 +121,16 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'frenzy'  49   6 110  17          0          0
-AffD 'frenzy'  45   6  11  19          0          0
-AffD 'frenzy'   0   6  11  18          0          0
-AffD 'haste'   0   0   4   2    2097152          0
-AffD 'shield'  26  19 -20  17          0          0
-AffD 'fly'  29   8   0   0     524288          0
-AffD 'giant strength'  38   5   4   1          0          0
-AffD 'bless'  41  13   8  18          0          0
-AffD 'bless'  15  13  -8  24          0          0
-AffD 'aid'   0  16   7  18          0          0
-AffD 'aid'   0  16  34  13          0          0
-AffD 'armor'   0  16 -20  17          0          0
+AffD 'giant strength'  49  57   4   1          0          0
+AffD 'frenzy'  40   2 110  17          0          0
+AffD 'frenzy'  48   2  11  19          0          0
+AffD 'frenzy'  29   2  11  18          0          0
+AffD 'armor'  49   3 -20  17          0          0
+AffD 'aid'  49   3  25  13          0          0
+AffD 'aid'   0   3   7  18          0          0
+AffD 'shield'  36   9 -20  17          0          0
+AffD 'bless'   0   7  -8  24          0          0
+AffD 'bless'   0   7   8  18          0          0
 End
 
 #O
@@ -347,8 +344,8 @@ Lev  43
 Cost 950
 Cond 100
 Repd 0
-Affect -1 43 -1 1 1 0 0
 Affect -1 43 -1 1 17 0 0
+Affect -1 43 -1 1 1 0 0
 End
 
 #O
@@ -402,8 +399,8 @@ Lev  53
 Cost 5000
 Cond 100
 Repd 0
-Affect -1 53 -1 1 3 0 0
 Affect -1 53 -1 -4 4 0 0
+Affect -1 53 -1 1 3 0 0
 End
 
 #O

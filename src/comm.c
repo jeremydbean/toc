@@ -2339,7 +2339,6 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 	int add4;
 
 
-
   chance = number_percent( );
 
 
@@ -2347,21 +2346,19 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 	log_string( log_buf );
 	wizinfo( log_buf, MAX_LEVEL);
 
-
 	if(ch->pcdata->last_level < 3)
 	 ch->pcdata->last_level += 1;
 
-  if( chance >= 95)
+  if( chance >= 96)
     ch->pcdata->psionic = 1;
 
-	 if(ch->pcdata->last_level == 3 && chance < 95)
+	 if(ch->pcdata->last_level == 3 && chance < 96)
 		{
 		ch->pcdata->psionic = 2;
 		sprintf( log_buf, "Psionics are forever out of the reach of %s.", ch->name);
 		log_string( log_buf );
 		wizinfo( log_buf, LEVEL_IMMORTAL);
-		send_to_char("\n\r",ch);
-send_to_char("                *  You feel as though you've lost something... *\n\r\n\r",ch);
+send_to_char("*  You feel as though you've lost something... *\n\r\n\r",ch);
 		save_char_obj(ch);
 	  }
 
@@ -2430,12 +2427,12 @@ wizinfo( log_buf, LEVEL_IMMORTAL);
 	 group_add(ch,"project",0);
 
     add4 = number_percent();
-		sprintf( log_buf, "%s psi roll 4: [%d] | [telekinesis (1-15), transfusion (16-45), confuse (46-60), nightmare (61+)]\n\r", ch->name, add4);
+		sprintf( log_buf, "%s psi roll 4: [%d] | [telekinesis (1-20), transfusion (21-40), confuse (41-60), nightmare (61+)]\n\r", ch->name, add4);
 		log_string( log_buf );
 		wizinfo( log_buf, MAX_LEVEL);
-    if( add4 <= 15)
+    if( add4 <= 20)
 	 group_add(ch,"telekinesis",0);
-    else if( add4 <= 45)
+    else if( add4 <= 40)
 	 group_add(ch,"transfusion",0);
     else if( add4 <= 60)
 	 group_add(ch,"confuse",0);
