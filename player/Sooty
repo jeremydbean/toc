@@ -18,7 +18,7 @@ Note 0
 Scro 22
 Room 2421
 HMV  48 48 103 103 118 118
-Gold 257
+NewGold 257
 Bank 0
 Dcount 0
 Corpses	0
@@ -306,21 +306,4 @@ Cond 100
 Repd 0
 End
 
-#PET
-Vnum 2404
-Name mercenary pet flip~
-Desc The mercenary looks like he is an adiquate guard, but if you want to travel to
-dangerous areas you may want to hire a bodyguard.
-A neck tag says 'I belong to Sooty'.
-~
-Sex  1
-HMV  16 16 100 100 2 100
-Gold 5
-AfBy 0
-Comm 7340032
-Pos  8
-ACs  -8 -8 -8 -10
-Attr 11 11 11 11 11
-AMod 0 0 0 0 0
-End
 #END

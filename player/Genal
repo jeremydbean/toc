@@ -18,7 +18,7 @@ Note 0
 Scro 22
 Room 2431
 HMV  70 70 121 121 114 130
-Gold 432
+NewGold 432
 Bank 0
 Dcount 0
 Corpses	0
@@ -403,21 +403,4 @@ Cond 100
 Repd 0
 End
 
-#PET
-Vnum 2404
-Name mercenary pet~
-Desc The mercenary looks like he is an adiquate guard, but if you want to travel to
-dangerous areas you may want to hire a bodyguard.
-A neck tag says 'I belong to Genal'.
-~
-Sex  1
-HMV  19 19 100 100 78 100
-Gold 5
-AfBy 0
-Comm 7340032
-Pos  8
-ACs  -8 -8 -8 -10
-Attr 11 11 11 11 11
-AMod 0 0 0 0 0
-End
 #END

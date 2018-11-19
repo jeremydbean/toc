@@ -18,7 +18,7 @@ Note 940705729
 Scro 22
 Room 4207
 HMV  25 44 19 117 43 121
-Gold 198
+NewGold 198
 Bank 0
 Dcount 0
 Corpses	0
@@ -305,20 +305,4 @@ Cond 100
 Repd 0
 End
 
-#PET
-Vnum 2406
-Name bodyguard pet~
-Desc The bodyguard looks like a trustworthy warrior.
-A neck tag says 'I belong to Dorien'.
-~
-Sex  1
-HMV  62 62 100 100 82 100
-Gold 25
-AfBy 0
-Comm 7340032
-Pos  8
-ACs  -5 -5 -5 -9
-Attr 13 12 12 12 12
-AMod 0 0 0 0 0
-End
 #END
