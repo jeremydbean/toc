@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542572138
+LogO 1542646831
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
@@ -76,7 +76,7 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1635986
+Plyd 1635989
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -195,8 +195,8 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'   0  11   0   0          0         64
 AffD 'fly'   0   6   0   0     524288          0
+AffD 'stealth'   0  11   0   0          0         64
 End
 
 #O
@@ -373,8 +373,8 @@ Lev  51
 Cost 500
 Cond 100
 Repd 0
-Affect -1 51 -1 -8 17 0 0
 Affect -1 51 -1 4 24 0 0
+Affect -1 51 -1 -8 17 0 0
 End
 
 #O

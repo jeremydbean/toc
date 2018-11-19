@@ -922,6 +922,8 @@ void weather_update( void )
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon sets.\n\r");
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon sets.\n\r");
@@ -934,13 +936,9 @@ void weather_update( void )
 	{
 	  case MOON_NEW:
 	    strcat(buf,"A new moon rises.\n\r");
-      wizinfo("Component Update!",MAX_LEVEL);
-      component_update();
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon rises.\n\r");
-      wizinfo("Component Update!",MAX_LEVEL);
-      component_update();
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon rises.\n\r");
@@ -1003,8 +1001,6 @@ void weather_update( void )
 	{
 	    strcat( buf, "The sky breaks, and rain falls from the heavens.\n\r" );
 	    weather_info.sky = SKY_RAINING;
-      wizinfo("Component Update!",MAX_LEVEL);
-      component_update();
 	}
 
 	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
@@ -1037,6 +1033,8 @@ void weather_update( void )
 	{
 	    strcat( buf, "The lightning has stopped.\n\r" );
 	    weather_info.sky = SKY_RAINING;
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	    break;
 	}
 	break;

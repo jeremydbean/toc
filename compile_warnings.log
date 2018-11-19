@@ -50,16 +50,11 @@ In file included from /usr/include/netinet/in.h:23:0,
 comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
      int ipaddr[4];
          ^~~~~~
-comm.c: In function ‘nanny’:
-comm.c:2113:2: warning: implicit declaration of function ‘component_update’; did you mean ‘violence_update’? [-Wimplicit-function-declaration]
-  component_update();
-  ^~~~~~~~~~~~~~~~
-  violence_update
 comm.c: In function ‘show_string’:
-comm.c:2796:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+comm.c:2793:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
        for (chk = d->showstr_point; isspace(*chk); chk++);
        ^~~
-comm.c:2797:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+comm.c:2794:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
         {
         ^
 gcc -c -g -O -Wall -DROM  -lcrypt const.c
@@ -354,16 +349,16 @@ update.c:107:17:
    }
    }
 update.c: In function ‘disaster_update’:
-update.c:2745:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2743:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
       else
       ^~~~
-update.c:2773:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2771:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
        if(hit == TRUE)
        ^~
-update.c:2824:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2822:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
         else
         ^~~~
-update.c:2861:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2859:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
          if( hit )
          ^~
 gcc -c -g -O -Wall -DROM  -lcrypt magic2.c

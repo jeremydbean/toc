@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1542378999
+LogO 1542646884
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,7 +12,7 @@ Gui  11
 Psionic  1
 Cast none
 Levl 30
-Plyd 2637
+Plyd 2655
 ListRemorts ~
 NumRemorts 0
 Note 0
@@ -65,9 +65,9 @@ Pass AsQheSp/NGAuY~
 Titl  the Maker of Staves~
 Pnts 40
 TSex 1
-LLev 0
+LLev 3
 HMVP 110 155 178
-Cond 0 19 19
+Cond 0 18 18
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
