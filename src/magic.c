@@ -4682,7 +4682,7 @@ void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
     obj_to_room( obj, ch->in_room );
     obj->timer = 20;
     obj->description = "A massive portal spins slowly here.";
-    obj->short_descr = "A massive portal";
+    obj->short_descr = "a massive portal";
     obj->value[0] = 10;
     obj->value[1] = victim->in_room->vnum;
     obj->value[2] = ch->level;
@@ -4727,7 +4727,7 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     obj_to_room( obj, ch->in_room );
     obj->timer = 20;
     obj->description = "A massive wormhole spins slowly here.";
-    obj->short_descr = "A massive wormhole";
+    obj->short_descr = "a massive wormhole";
     obj->name = "wormhole";
     obj->value[0] = 10;
     obj->value[1] = victim->in_room->vnum;
@@ -4738,7 +4738,7 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     obj_to_room( obj, victim->in_room );
     obj->timer = 20;
     obj->description = "A massive wormhole spins slowly here.";
-    obj->short_descr = "A massive wormhole";
+    obj->short_descr = "a massive wormhole";
     obj->name = "wormhole";
     obj->value[0] = 10;
     obj->value[1] = ch->in_room->vnum;
