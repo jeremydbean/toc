@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542665560
+LogO 1542669121
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,12 +12,12 @@ Gui  0
 Psionic  2
 Cast none
 Levl 22
-Plyd 24007
+Plyd 24040
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 10176
+Room 2
 HMV  143 143 162 162 208 208
 NewGold 0
 NewPlat 0
@@ -68,7 +68,7 @@ Pnts 40
 TSex 1
 LLev 3
 HMVP 143 162 208
-Cond 0 31 31
+Cond 0 30 30
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'

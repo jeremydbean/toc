@@ -3016,7 +3016,7 @@ void do_purge( CHAR_DATA *ch, char *argument )
 	      extract_obj( obj );
 	}
 
-	act( "A troop of janitors rush in, clean up the room, then leave.", ch, NULL, NULL, TO_ROOM);
+	act( "A flash of brilliant light blinds you, and the room is completely clean.", ch, NULL, NULL, TO_ROOM);
 	send_to_char( "Room purged.\n\r", ch );
 	return;
     }
@@ -6227,4 +6227,13 @@ void do_itrans( CHAR_DATA *ch, char *argument )
     }
 
     send_to_char( "Ok.\n\r", ch );
+}
+
+void do_component_update( CHAR_DATA *ch, char *argument )
+{
+  	component_update();
+  	component_update();
+  	component_update();
+    send_to_char( "New Components Scattered!\n\r", ch );
+    return;
 }

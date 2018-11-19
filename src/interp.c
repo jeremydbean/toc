@@ -397,6 +397,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "set",            do_set,         POS_DEAD,       L4,  LOG_ALWAYS, 1 },
     { "showhunt",       do_showhunt,    POS_DEAD,       L8,  LOG_NORMAL, 1 },
     { "shutdown",       do_shutdown,    POS_DEAD,       ML,  LOG_ALWAYS, 1 },
+	  { "component",     do_component_update,    POS_DEAD,       ML,  LOG_ALWAYS, 1 },
     { "sla",            do_sla,         POS_DEAD,       L4,  LOG_NORMAL, 0 },
     { "slay",           do_slay,        POS_DEAD,       L4,  LOG_ALWAYS, 1 },
     { "snoop",          do_snoop,       POS_DEAD,       L3,  LOG_ALWAYS, 1 },

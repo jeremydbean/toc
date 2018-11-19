@@ -14,6 +14,11 @@ act_wiz.c: In function ‘do_return’:
 act_wiz.c:2686:22: warning: comparison with string literal results in unspecified behavior [-Waddress]
      else if(ch->name != "ghost")
                       ^~
+act_wiz.c: In function ‘do_component_update’:
+act_wiz.c:6234:4: warning: implicit declaration of function ‘component_update’; did you mean ‘do_component_update’? [-Wimplicit-function-declaration]
+    component_update();
+    ^~~~~~~~~~~~~~~~
+    do_component_update
 act_wiz.c: In function ‘do_restorechar’:
 act_wiz.c:5542:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
      system(buf);
@@ -99,20 +104,20 @@ gcc -c -g -O -Wall -DROM  -lcrypt misc.c
 gcc -c -g -O -Wall -DROM  -lcrypt interp.c
 gcc -c -g -O -Wall -DROM  -lcrypt magic.c
 magic.c: In function ‘spell_heat_metal’:
-magic.c:2896:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2894:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
                 if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
                 ^~
-magic.c:2899:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2897:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
                     for (i = 0; i < 4; i ++)
                     ^~~
-magic.c:2899:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
-magic.c:2901:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+magic.c:2897:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2899:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
                       obj_lose->cost       = obj_lose->cost/3;
                       ^~~~~~~~
-magic.c:2950:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2948:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if ( saves_spell( level, victim ) )
      ^~
-magic.c:2952:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2950:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
        damage( ch, victim, dam, sn, DAM_FIRE );
        ^~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt pkill.c

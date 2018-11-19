@@ -158,8 +158,6 @@ void say_spell( CHAR_DATA *ch, int sn )
     return;
 }
 
-
-
 /*
  * Compute a saving throw.
  * Negative apply's make saving throw better.
@@ -4682,12 +4680,12 @@ void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 10;
+    obj->timer = 20;
     obj->description = "A massive portal spins slowly here.";
     obj->short_descr = "A massive portal";
     obj->value[0] = 10;
     obj->value[1] = victim->in_room->vnum;
-    obj->value[2] = 1 + ch->level;
+    obj->value[2] = ch->level;
 
     act("A huge swirling portal of colors appears before you.",victim, NULL,
 	NULL, TO_ROOM);
@@ -4727,24 +4725,24 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 10;
+    obj->timer = 20;
     obj->description = "A massive wormhole spins slowly here.";
     obj->short_descr = "A massive wormhole";
     obj->name = "wormhole";
     obj->value[0] = 10;
     obj->value[1] = victim->in_room->vnum;
-    obj->value[2] = 1 + ch->level;
+    obj->value[2] = ch->level;
 
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, victim->in_room );
-    obj->timer = 10;
+    obj->timer = 20;
     obj->description = "A massive wormhole spins slowly here.";
     obj->short_descr = "A massive wormhole";
     obj->name = "wormhole";
     obj->value[0] = 10;
     obj->value[1] = ch->in_room->vnum;
-    obj->value[2] = 1 + ch->level;
+    obj->value[2] = ch->level;
 
     act("A huge wormhole appears before you.",victim, NULL,
 	NULL, TO_ROOM);

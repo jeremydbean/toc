@@ -354,6 +354,7 @@ DECLARE_DO_FUN(	do_shout	);
 DECLARE_DO_FUN( do_showhunt     );
 DECLARE_DO_FUN(	do_shutdow	);
 DECLARE_DO_FUN(	do_shutdown	);
+DECLARE_DO_FUN(	do_component_update	);
 DECLARE_DO_FUN( do_sit		);
 DECLARE_DO_FUN( do_skills	);
 DECLARE_DO_FUN(	do_sla		);

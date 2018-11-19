@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1542646884
+LogO 1542668713
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,14 +11,14 @@ Cla  0
 Gui  11
 Psionic  1
 Cast none
-Levl 30
-Plyd 2655
+Levl 54
+Plyd 2703
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4216
-HMV  110 110 155 155 178 178
+HMV  147 270 181 253 238 322
 NewGold 0
 NewPlat 0
 NewCopp 0
@@ -28,7 +28,7 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  60000
+Exp  152000
 Act  65788
 Comm 24576
 Mounted 0
@@ -54,19 +54,19 @@ Color 13 0
 Color 14 0
 Color 15 0
 Color 16 0
-Pos  5
-Prac 18
-Trai 16
+Pos  8
+Prac 42
+Trai 40
 Alig  0
 ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass AsQheSp/NGAuY~
-Titl  the Maker of Staves~
+Titl  the Knight of the Realms~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 110 155 178
+HMVP 270 253 322
 Cond 0 18 18
 Sk 1 'armor'
 Sk 1 'burning hands'
@@ -77,6 +77,7 @@ Sk 1 'fly'
 Sk 1 'giant strength'
 Sk 1 'identify'
 Sk 1 'lightning bolt'
+Sk 100 'locate object'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'

@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542665732
+LogO 1542669226
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,13 +15,13 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2586577
+Plyd 2587759
 ListRemorts ~
 NumRemorts 0
 Note 1542515167
 Scro 22
 Room 4208
-HMV  10583 10583 15000 15000 514 514
+HMV  10593 10593 15050 15050 489 489
 NewGold 4346
 NewPlat 10000
 NewCopp 0
@@ -63,9 +63,11 @@ Pos  8
 Prac 210
 Trai 71
 Alig  492
+Hit   4
+Dam   4
 ACs 100 100 100 100
 Attr 17 21 18 18 18
-AMod 0 0 0 0 0
+AMod 1 0 0 0 0
 Pass Kilrpis9ggekI~
 Bin  Killuminati appears before you.~
 Bout Killuminati raises into the sky, and is gone.~
@@ -181,6 +183,7 @@ Sk 100 'plague'
 Sk 100 'poison'
 Sk 100 'portal'
 Sk 100 'iportal'
+Sk 100 'wormhole'
 Sk 100 'power gloves'
 Sk 100 'protection evil'
 Sk 100 'raise dead'
@@ -331,7 +334,7 @@ Name newbie pack~
 ShD  A *NEWBIE* pack!~
 Desc A *NEWBIE* pack lies here.~
 Wt   1
-Wear -1
+Wear 12
 Lev  1
 Cost 500
 Cond 100
@@ -682,6 +685,17 @@ Repd 0
 Spell 1 'haste'
 Spell 2 'heal'
 Spell 3 'fire shield'
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
 End
 
 #END
