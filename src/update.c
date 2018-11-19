@@ -828,6 +828,8 @@ void weather_update( void )
 
     case  6:
 	weather_info.sunlight = SUN_RISE;
+  wizinfo("Component Update!",MAX_LEVEL);
+  component_update();
 	switch( dice(1,4) )
 	{
 	  case 1:
@@ -847,6 +849,8 @@ void weather_update( void )
 
     case 18:
 	weather_info.sunlight = SUN_SET;
+  wizinfo("Component Update!",MAX_LEVEL);
+  component_update();
 	switch( dice(1,6) )
 	{
 	    case 1:
@@ -877,7 +881,10 @@ void weather_update( void )
 
     case 20:
 	weather_info.sunlight = SUN_DARK;
+  wizinfo("Component Update!",MAX_LEVEL);
+  component_update();
 	strcat( buf, "The night has begun.\n\r" );
+
 	break;
 
     case 24:
@@ -927,9 +934,13 @@ void weather_update( void )
 	{
 	  case MOON_NEW:
 	    strcat(buf,"A new moon rises.\n\r");
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon rises.\n\r");
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon rises.\n\r");
@@ -992,6 +1003,8 @@ void weather_update( void )
 	{
 	    strcat( buf, "The sky breaks, and rain falls from the heavens.\n\r" );
 	    weather_info.sky = SKY_RAINING;
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	}
 
 	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
@@ -1013,6 +1026,8 @@ void weather_update( void )
 	{
 	    strcat( buf, "The rain gently tapers off.\n\r" );
 	    weather_info.sky = SKY_CLOUDY;
+      wizinfo("Component Update!",MAX_LEVEL);
+      component_update();
 	}
 	break;
 

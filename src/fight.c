@@ -78,12 +78,12 @@ extern void     do_stop_hunting  args( ( CHAR_DATA *ch, char *args) );
 void violence_update( void )
 {
     CHAR_DATA *ch;
-    CHAR_DATA *ch_next;
+/*    CHAR_DATA *ch_next;*/
     CHAR_DATA *victim;
 
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-	ch_next = ch->next;
+	/*ch_next = ch->next;*/
 
 	if ( ( victim = ch->fighting ) == NULL || ch->in_room == NULL )
 	    continue;
@@ -2290,7 +2290,7 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *gch;
-    CHAR_DATA *lch;
+  /*  CHAR_DATA *lch;*/
     int xp;
     int members;
     int group_levels;
@@ -2329,7 +2329,7 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 	group_levels = ch->level ;
     }
 
-    lch = (ch->leader != NULL) ? ch->leader : ch;
+  /*  lch = (ch->leader != NULL) ? ch->leader : ch;*/
 
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
     {

@@ -2109,6 +2109,9 @@ case CON_GET_ALIGNMENT:
 	d->connected    = CON_PLAYING;
 	reset_char(ch);
 
+	wizinfo("Component Update!",MAX_LEVEL);
+	component_update();
+
 	if( ch->pcdata->psionic >= 1 )
 		{
 			ch->pcdata->last_level = 3;
@@ -2560,10 +2563,12 @@ bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )
 		ch->timer        = 0;
 		send_to_char( "Reconnecting.\n\r", ch );
 	     if(!IS_SET(ch->act, PLR_WIZINVIS) )
-		act( "$n has reconnected.", ch, NULL, NULL, TO_ROOM );
-		sprintf( log_buf, "%s@%s reconnected. [Room: %d]", ch->name,
-			 d->host, ch->in_room->vnum );
-		log_string( log_buf );
+			 	{
+					act( "$n has reconnected.", ch, NULL, NULL, TO_ROOM );
+					sprintf( log_buf, "%s@%s reconnected. [Room: %d]", ch->name,
+			 		d->host, ch->in_room->vnum );
+					log_string( log_buf );
+				}
 		if ( IS_SET(ch->act, PLR_WIZINVIS) && ch->invis_level > 63)
 		    wizinfo( log_buf, ch->invis_level );
 		else
@@ -2788,21 +2793,21 @@ void show_string(struct descriptor_data *d, char *input)
 	{
 	    *scan = '\0';
 	    write_to_buffer(d,buffer,strlen(buffer));
-	    for (chk = d->showstr_point; isspace(*chk); chk++);
-	    {
-		if (!*chk)
-		{
-		    if (d->showstr_head)
-		    {
-			free_string(d->showstr_head);
-			d->showstr_head = 0;
-		    }
-		    d->showstr_point  = 0;
-		}
-	    }
+	    	for (chk = d->showstr_point; isspace(*chk); chk++);
+	    		{
+						if (!*chk)
+							{
+		    				if (d->showstr_head)
+		    				{
+									free_string(d->showstr_head);
+									d->showstr_head = 0;
+		    				}
+		    					d->showstr_point  = 0;
+							}
+	    	}
 	    return;
 	}
-    }
+}
     return;
 }
 

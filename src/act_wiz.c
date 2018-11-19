@@ -185,7 +185,7 @@ void do_explode( CHAR_DATA *ch, char *argument)
 }
 
 
-void do_finger( CHAR_DATA *ch, char *argument )
+/*void do_finger( CHAR_DATA *ch, char *argument )
 {
    char arg[MAX_INPUT_LENGTH];
    FILE *fp;
@@ -3074,7 +3074,7 @@ void do_advance( CHAR_DATA *ch, char *argument )
     int level;
     int iLevel;
     int chance;
-    int updown = 1;
+/*    int updown = 1; */
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
@@ -3145,7 +3145,7 @@ void do_advance( CHAR_DATA *ch, char *argument )
 	  victim->pcdata->perm_move	= 100;
 	}
 
-	updown = -1;
+/*	updown = -1; */
     }
     else
     {

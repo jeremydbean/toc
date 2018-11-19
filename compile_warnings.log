@@ -3,14 +3,9 @@ gcc -c -g -O -Wall -DROM  -lcrypt act_info.c
 gcc -c -g -O -Wall -DROM  -lcrypt act_move.c
 gcc -c -g -O -Wall -DROM  -lcrypt act_obj.c
 gcc -c -g -O -Wall -DROM  -lcrypt act_wiz.c
-act_wiz.c: In function ‘do_finger’:
-act_wiz.c:219:1: warning: implicit declaration of function ‘ctime’; did you mean ‘utimes’? [-Wimplicit-function-declaration]
- ctime(&logon ) );
- ^~~~~
- utimes
-act_wiz.c:218:69: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
-      sprintf(arg,"%s was last on at %s\n\r", capitalize( argument ),(char *)
-                                                                     ^
+act_wiz.c:229:1: warning: "/*" within comment [-Wcomment]
+ /* equips a character */
+  
 act_wiz.c: In function ‘do_switch’:
 act_wiz.c:2650:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
      else if(ch->were_shape.name != NULL && victim->name != "ghost")
@@ -19,23 +14,6 @@ act_wiz.c: In function ‘do_return’:
 act_wiz.c:2686:22: warning: comparison with string literal results in unspecified behavior [-Waddress]
      else if(ch->name != "ghost")
                       ^~
-act_wiz.c: In function ‘do_advance’:
-act_wiz.c:3077:9: warning: variable ‘updown’ set but not used [-Wunused-but-set-variable]
-     int updown = 1;
-         ^~~~~~
-act_wiz.c: In function ‘do_finger’:
-act_wiz.c:213:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-      fgets(arg,80,fp);
-      ^~~~~~~~~~~~~~~~
-act_wiz.c:214:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-      fgets(arg,80,fp);
-      ^~~~~~~~~~~~~~~~
-act_wiz.c:215:6: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-      fgets(arg,80,fp);
-      ^~~~~~~~~~~~~~~~
-act_wiz.c:216:6: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
-      fscanf(fp,"%s",arg);
-      ^~~~~~~~~~~~~~~~~~~
 act_wiz.c: In function ‘do_restorechar’:
 act_wiz.c:5536:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
      system(buf);
@@ -72,20 +50,18 @@ In file included from /usr/include/netinet/in.h:23:0,
 comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
      int ipaddr[4];
          ^~~~~~
-comm.c: In function ‘check_reconnect’:
-comm.c:2562:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
-       if(!IS_SET(ch->act, PLR_WIZINVIS) )
-       ^~
-comm.c:2564:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
-   sprintf( log_buf, "%s@%s reconnected. [Room: %d]", ch->name,
-   ^~~~~~~
+comm.c: In function ‘nanny’:
+comm.c:2113:2: warning: implicit declaration of function ‘component_update’; did you mean ‘violence_update’? [-Wimplicit-function-declaration]
+  component_update();
+  ^~~~~~~~~~~~~~~~
+  violence_update
 comm.c: In function ‘show_string’:
-comm.c:2791:6: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
-      for (chk = d->showstr_point; isspace(*chk); chk++);
-      ^~~
-comm.c:2792:6: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
-      {
-      ^
+comm.c:2796:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+       for (chk = d->showstr_point; isspace(*chk); chk++);
+       ^~~
+comm.c:2797:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+        {
+        ^
 gcc -c -g -O -Wall -DROM  -lcrypt const.c
 gcc -c -g -O -Wall -DROM  -lcrypt db.c
 db.c: In function ‘do_dump’:
@@ -101,14 +77,6 @@ edit.c:183:9: warning: variable ‘vnum’ set but not used [-Wunused-but-set-va
      int vnum;
          ^~~~
 gcc -c -g -O -Wall -DROM  -lcrypt fight.c
-fight.c: In function ‘violence_update’:
-fight.c:81:16: warning: variable ‘ch_next’ set but not used [-Wunused-but-set-variable]
-     CHAR_DATA *ch_next;
-                ^~~~~~~
-fight.c: In function ‘group_gain’:
-fight.c:2293:16: warning: variable ‘lch’ set but not used [-Wunused-but-set-variable]
-     CHAR_DATA *lch;
-                ^~~
 gcc -c -g -O -Wall -DROM  -lcrypt handler.c
 handler.c: In function ‘affect_remove’:
 handler.c:986:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
@@ -126,24 +94,21 @@ handler.c:1121:10: warning: variable ‘found’ set but not used [-Wunused-but-
 gcc -c -g -O -Wall -DROM  -lcrypt misc.c
 gcc -c -g -O -Wall -DROM  -lcrypt interp.c
 gcc -c -g -O -Wall -DROM  -lcrypt magic.c
-magic.c: In function ‘spell_dispel_magic’:
-magic.c:1936:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
-     if (check_dispel(level,victim,skill_lookup("detect invis")))
-     ^~
-magic.c:1939:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
-  found = TRUE;
-  ^~~~~
 magic.c: In function ‘spell_heat_metal’:
-magic.c:2889:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
-      if ( number_bits( 2 ) != 0 )
-      ^~
-magic.c:2892:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
-    switch ( obj_lose->item_type )
-    ^~~~~~
-magic.c:2953:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2896:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+                if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
+                ^~
+magic.c:2899:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                    for (i = 0; i < 4; i ++)
+                    ^~~
+magic.c:2899:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2901:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+                      obj_lose->cost       = obj_lose->cost/3;
+                      ^~~~~~~~
+magic.c:2950:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if ( saves_spell( level, victim ) )
      ^~
-magic.c:2955:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2952:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
        damage( ch, victim, dam, sn, DAM_FIRE );
        ^~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
@@ -389,16 +354,16 @@ update.c:107:17:
    }
    }
 update.c: In function ‘disaster_update’:
-update.c:2730:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2745:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
       else
       ^~~~
-update.c:2758:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2773:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
        if(hit == TRUE)
        ^~
-update.c:2809:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2824:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
         else
         ^~~~
-update.c:2846:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2861:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
          if( hit )
          ^~
 gcc -c -g -O -Wall -DROM  -lcrypt magic2.c

@@ -1936,8 +1936,6 @@ void spell_dispel_magic( int sn, int level, CHAR_DATA *ch, void *vo )
     if (check_dispel(level,victim,skill_lookup("detect invis")))
         found = TRUE;
 
-	found = TRUE;
-
     if (check_dispel(level,victim,skill_lookup("detect hidden")))
         found = TRUE;
 
@@ -2887,23 +2885,22 @@ void spell_heat_metal( int sn, int level, CHAR_DATA *ch, void *vo )
 	 if ( number_percent( ) > (obj_lose->level + 30) )
 	   {
 	    if ( number_bits( 2 ) != 0 )
-		 continue;
-
-		 switch ( obj_lose->item_type )
-		 {
-		  case ITEM_ARMOR:
-			 if ( obj_lose->value[0] > 0 )
-			 {
-			  if( IS_OBJ_STAT( obj_lose, ITEM_NOREMOVE) )
-			    {
-				 if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
-				   for (i = 0; i < 4; i ++)
-					victim->armor[i] -= apply_ac( obj_lose, iWear, i );
-				 for (i = 0; i < 4; i ++)
-				    obj_lose->value[i] -= 1;
-				 obj_lose->cost       = obj_lose->cost/3;
-				 if ( iWear != WEAR_NONE )
-				   for (i = 0; i < 4; i++)
+		    continue;
+        switch ( obj_lose->item_type )
+		  {
+		    case ITEM_ARMOR:
+			     if ( obj_lose->value[0] > 0 )
+			      {
+			        if( IS_OBJ_STAT( obj_lose, ITEM_NOREMOVE) )
+			           {
+				           if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
+				               for (i = 0; i < 4; i ++)
+					               victim->armor[i] -= apply_ac( obj_lose, iWear, i );
+				               for (i = 0; i < 4; i ++)
+				                 obj_lose->value[i] -= 1;
+				                 obj_lose->cost       = obj_lose->cost/3;
+				                   if ( iWear != WEAR_NONE )
+				                     for (i = 0; i < 4; i++)
 					victim->armor[i] += apply_ac( obj_lose, iWear, i );
 				 dam = GET_DAMROLL(ch) + dice(2, ch->level/2);
 				 damage( ch, victim, dam, sn, DAM_FIRE );

@@ -271,7 +271,7 @@ void note_delete( NOTE_DATA *pnote )
 {
     FILE *fp;
     NOTE_DATA *prev;
- 
+
     /*
      * Remove note from linked list.
      */
@@ -286,7 +286,7 @@ void note_delete( NOTE_DATA *pnote )
 	    if ( prev->next == pnote )
 		break;
 	}
- 
+
 	if ( prev == NULL )
 	{
 	    bug( "Note_delete: pnote not found.", 0 );
@@ -304,7 +304,7 @@ void note_delete( NOTE_DATA *pnote )
     free_string( pnote->sender  );
     pnote->next = note_free;
     note_free   = pnote;
- 
+
     /*
      * Rewrite entire list.
      */
@@ -600,7 +600,7 @@ void do_note( CHAR_DATA *ch, char *argument )
 	if( strstr(ch->pnote->to_list,"Immortal")
 	|| strstr(ch->pnote->to_list,"Imm")
 	|| strstr(ch->pnote->to_list,"immortal")
-	|| strstr(ch->pnote->to_list,"imm") 
+	|| strstr(ch->pnote->to_list,"imm")
         || strstr(ch->pnote->to_list,"immortals")
         || strstr(ch->pnote->to_list,"Immortals"))
 	{
@@ -620,7 +620,7 @@ void do_note( CHAR_DATA *ch, char *argument )
 	{
 	    sprintf(buf,"The note fairy says 'A note to all has been posted by %s'",ch->name);
 	    send_info(buf);
-	}		
+	}
 
 	ch->pnote->next			= NULL;
 	strtime				= ctime( &current_time );
@@ -660,7 +660,7 @@ void do_note( CHAR_DATA *ch, char *argument )
 	fpReserve = fopen( NULL_FILE, "r" );
 
 	send_to_char( "Note Posted.\n\r", ch );
-	
+
 
 	return;
     }
@@ -870,7 +870,7 @@ void do_channels( CHAR_DATA *ch, char *argument)
 	else
 		  send_to_char("OFF\n\r",ch);
     }
-		  
+
     send_to_char("Leveling       ",ch);
     if (!IS_SET(ch->comm,COMM_NOGRATZ))
 	 send_to_char("ON\n\r",ch);
@@ -1132,7 +1132,7 @@ void do_hero( CHAR_DATA *ch, char *argument )
       if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
 	  argument = speak_filter( ch, argument );
 
-    
+
 
       sprintf( buf, "\x02\x0D<HERO>: %s\x02\x01\n\r", argument );
       send_to_char( buf, ch );
@@ -1891,7 +1891,7 @@ void do_tell( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
     char buf[MAX_STRING_LENGTH];
     char buf2[MAX_STRING_LENGTH];
-   
+
 
     if ( IS_SET(ch->comm, COMM_NOTELL) )
     {
@@ -2576,12 +2576,12 @@ void do_save( CHAR_DATA *ch, char *argument )
 {
     if ( IS_NPC(ch) )
 	return;
-    
+
     if (ch -> level < 1)
     {
       send_to_char("You cannot save until you are level 3.\n\r",ch);
       return;
-    }; 
+    };
     save_char_obj( ch );
     send_to_char("Saving. TOC will automatically save you every so often.\n\r", ch );
     WAIT_STATE(ch,2 * PULSE_VIOLENCE);
@@ -2674,7 +2674,7 @@ void add_follower( CHAR_DATA *ch, CHAR_DATA *master )
 
 void stop_follower( CHAR_DATA *ch )
 {
-    
+
     if ( ch->master == NULL )
     {
 	bug( "Stop_follower: null master.", 0 );
@@ -2910,13 +2910,13 @@ void do_group( CHAR_DATA *ch, char *argument )
 	act( "$N isn't following you.", ch, NULL, victim, TO_CHAR );
 	return;
     }
-    
+
     if (IS_AFFECTED(victim,AFF_CHARM))
     {
 	send_to_char("You can't remove charmed mobs from your group.\n\r",ch);
 	return;
     }
-    
+
     if (IS_AFFECTED(ch,AFF_CHARM))
     {
 	act("You like your master too much to leave $m!",ch,NULL,victim,TO_VICT);
@@ -3037,7 +3037,7 @@ void do_split( CHAR_DATA *ch, char *argument )
 	ch->new_copper += share+extra;
 	break;
     }
-    
+
     sprintf(buf,
 	"You split an amount worth %d in %s coins."
 	"Your share is worth %d coins.\n\r",amount,
@@ -3057,7 +3057,7 @@ void do_split( CHAR_DATA *ch, char *argument )
 	share);
 
     for (gch = ch->in_room->people;gch;gch = gch->next_in_room) {
-	if(gch != ch && is_same_group(gch,ch) && 
+	if(gch != ch && is_same_group(gch,ch) &&
 		!IS_AFFECTED(gch,AFF_CHARM)) {
 	    act(buf,ch,NULL,gch,TO_VICT);
 	    switch(type) {
@@ -3076,7 +3076,7 @@ void do_split( CHAR_DATA *ch, char *argument )
                   act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
                   obj_to_room( create_money(share,TYPE_GOLD), ch->in_room);
                 }
-                else 
+                else
 		  gch->new_gold += share;
 		break;
 	     case TYPE_SILVER:
@@ -3085,7 +3085,7 @@ void do_split( CHAR_DATA *ch, char *argument )
                   act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
                   obj_to_room( create_money(share,TYPE_SILVER), ch->in_room);
                 }
-                else 
+                else
 		  gch->new_silver += share;
 		break;
 	     case TYPE_COPPER:
@@ -3094,7 +3094,7 @@ void do_split( CHAR_DATA *ch, char *argument )
                   act("$n drops some coins.",gch,NULL,gch,TO_NOTVICT );
                   obj_to_room( create_money(share,TYPE_COPPER), ch->in_room);
                 }
-                else 
+                else
 		  gch->new_copper += share;
 		break;
 	    }
@@ -3193,7 +3193,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
 	int first = 1;
 	for ( i = 0; i < MAX_ALIASES; i++ )
 	{
-	    char * ptr; 
+	    char * ptr;
 	    ptr = ch->pcdata->alias[i].first;
 	    if ( (ptr != NULL) && !str_prefix(arg, ptr) )
 	    {
@@ -3211,7 +3211,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
 	    send_to_char("No aliases matched.\n\r", ch);
 	return;
 
-    } 
+    }
 
     if ( !str_cmp(arg, "delete") )
     {
@@ -3223,7 +3223,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
 
 	for ( i = 0; i < MAX_ALIASES; i++ )
 	{
-	    char * ptr; 
+	    char * ptr;
 	    ptr = ch->pcdata->alias[i].first;
 	    if ( (ptr != NULL) && !str_cmp(argument, ptr) )
 	    {
@@ -3235,7 +3235,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
 		    argument);
 		send_to_char(buf, ch);
 		return;
-	    }   
+	    }
 	}
 	send_to_char("No aliases matched.\n\r", ch);
 	return;
@@ -3244,7 +3244,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
     /* check for a previous match */
     for ( i = 0; i < MAX_ALIASES; i++ )
     {
-	char * ptr; 
+	char * ptr;
 	ptr = ch->pcdata->alias[i].first;
 	if ( (ptr != NULL) && !str_cmp(arg, ptr) )
 	{
@@ -3261,7 +3261,7 @@ void do_alias( CHAR_DATA *ch, char *argument )
     /* must be a new one */
     for ( i = 0; i < MAX_ALIASES; i++ )
     {
-	char * ptr;             
+	char * ptr;
 	ptr = ch->pcdata->alias[i].first;
 	if ( ptr == NULL )
 	{
@@ -3361,7 +3361,7 @@ void do_color ( CHAR_DATA *ch, char *argument )
       idx = col_table[t].num;
       col = -1;
       if (is_number (arg)) {
-	col = atoi (arg);        
+	col = atoi (arg);
       } else {
 	for ( t = 0; t <= 14; t++ ) {
 	  if (!str_prefix (arg,col_disp_table[t].type)) {
@@ -3378,10 +3378,10 @@ void do_color ( CHAR_DATA *ch, char *argument )
       send_to_char ("Color not found.\n\r",ch);
       return;
     }
-  }  
+  }
 
   send_to_char ("Color type not found.\n\r",ch);
-  
+
   return;
 }
 
