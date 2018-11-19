@@ -2358,7 +2358,7 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 		sprintf( log_buf, "Psionics are forever out of the reach of %s.", ch->name);
 		log_string( log_buf );
 		wizinfo( log_buf, LEVEL_IMMORTAL);
-send_to_char("*  You feel as though you've lost something... *\n\r\n\r",ch);
+send_to_char("* You feel as though you've lost something... *\n\r\n\r",ch);
 		save_char_obj(ch);
 	  }
 

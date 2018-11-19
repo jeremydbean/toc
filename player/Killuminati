@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542511310
+LogO 1542592350
 Vers 3
 ShD  Chubby Nutz ~
 LnD  Pooptastic
@@ -18,13 +18,13 @@ Psionic  2
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2461129
+Plyd 2536587
 ListRemorts ~
 NumRemorts 0
 Note 995701290
 Scro 22
 Room 4208
-HMV  10583 10583 15000 15000 514 514
+HMV  10583 10583 14798 15000 514 514
 NewGold 12826
 NewPlat 10000
 NewCopp 0
@@ -307,6 +307,8 @@ Sk 100 'staves'
 Sk 100 'track'
 Sk 100 'wands'
 Sk 100 'recall'
+Sk 100 'enchant item'
+Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'

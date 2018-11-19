@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542511310
+LogO 1542511683
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,7 +12,7 @@ Gui  0
 Psionic  1
 Cast none
 Levl 22
-Plyd 20915
+Plyd 20788
 ListRemorts ~
 NumRemorts 0
 Note 0
@@ -80,10 +80,10 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
-Sk 1 'astral walk'
+Sk 1 'clairvoyance'
+Sk 1 'confuse'
+Sk 1 'mindblast'
 Sk 1 'psychic shield'
-Sk 1 'pyrotechnics'
-Sk 1 'telekinesis'
 Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'

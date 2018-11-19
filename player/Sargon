@@ -1,7 +1,7 @@
 #PLAYER
 Name Sargon~
 Id   39198
-LogO 1542329448
+LogO 1542515948
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,17 +12,17 @@ Gui  0
 Psionic  2
 Cast Fors
 Levl 51
-Plyd 438653
+Plyd 439415
 ListRemorts ~
 NumRemorts 0
 Note 952731371
 Scro 22
-Room 4208
-HMV  610 1249 65 1057 375 375
-NewGold 6
+Room 4210
+HMV  619 1249 1045 1057 138 375
+NewGold 101
 NewPlat 0
-NewCopp 251
-NewSilv 12
+NewCopp 764
+NewSilv 175
 Bank 43792
 Dcount 0
 Corpses	0
@@ -31,7 +31,8 @@ PkGiv 3
 QuestPnts 5
 Exp  102085
 Act  67174476
-AfBy 524296
+AfBy 3678344
+AfBy2 512
 Comm 28736
 Mounted 0
 On_Quest 0
@@ -57,15 +58,15 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Alig  1000
-ACs 100 100 100 100
+Alig  996
+ACs 20 20 20 20
 Attr 13 15 14 13 16
-AMod 4 0 0 0 0
+AMod 4 0 0 4 0
 Pass SaeP6z9nQ6yts~
 Titl , BattleMage of Clan Forsaken~
 Pnts 40
 TSex 1
-LLev 105
+LLev 3
 HMVP 1249 1057 375
 Cond 0 2 6
 Alias ar c armor~
@@ -154,9 +155,15 @@ Gr 'draconian'
 Gr 'enhancement'
 Gr 'mage protective'
 Gr 'mage transportation'
-AffD 'giant strength'   0  33   4   1          0          0
-AffD 'fly'  38  36   0   0     524288          0
-AffD 'detect invis'  29  32   0   0          8          0
+AffD 'force sword'   0   4   0   0          0        512
+AffD 'pass door'   0  10   0   0    1048576          0
+AffD 'protection evil'   0  19   0   0       8192          0
+AffD 'haste'   0  19   4   2    2097152          0
+AffD 'sanctuary'   0   1   0   0        128          0
+AffD 'major globe'  26  18 -80  17          0          0
+AffD 'detect invis'  25  20   0   0          8          0
+AffD 'fly'  37  24   0   0     524288          0
+AffD 'giant strength'   0  21   4   1          0          0
 End
 
 #END

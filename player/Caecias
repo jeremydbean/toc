@@ -1,7 +1,7 @@
 #PLAYER
 Name Caecias~
 Id   14639
-LogO 946684905
+LogO 1542592205
 Vers 3
 Desc .                            _,,aaaaa,,_
 .                         _,dP"''    `""""Ya,_
@@ -30,6 +30,7 @@ Desc .                            _,,aaaaa,,_
 .          `"Y8a::::::::::::::::::aadP""
 .              ``""Y88bbbdddd88P""
 ~
+Prom ~
 Ignoring tidie kyrus~
 Race human~
 Sex  2
@@ -38,14 +39,17 @@ Gui  1
 Psionic  2
 Cast none
 Levl 52
-Plyd 994212
+Plyd 994217
 ListRemorts ~
 NumRemorts 0
 Note 946681692
 Scro 22
 Room 4911
 HMV  1060 1060 482 482 381 381
-Gold 168747
+NewGold 168747
+NewPlat 0
+NewCopp 0
+NewSilv 0
 Bank 0
 Dcount 0
 Corpses	0
@@ -171,9 +175,9 @@ Gr 'guild benedictions'
 Gr 'guild healing'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'bless'  14  25  -6  24          0          0
-AffD 'bless'  37  25   6  18          0          0
 AffD 'stone skin'  42  19 -40  17          0          0
+AffD 'bless'  37  25   6  18          0          0
+AffD 'bless'  14  25  -6  24          0          0
 End
 
 #O
@@ -278,7 +282,6 @@ Cost 275
 Cond 100
 Repd 0
 End
-
 
 #O
 Vnum 19122
@@ -964,8 +967,8 @@ Lev  52
 Cost 0
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 6 18 0 0
 AffD 'enchant weapon' 51 -1 6 19 0 0
+AffD 'enchant weapon' 51 -1 6 18 0 0
 End
 
 #O
