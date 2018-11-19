@@ -2757,32 +2757,30 @@ void disaster_update( void )
 
 	     if(hit == TRUE)
 	     {
-		EXIT_DATA *pexit;
-		int door, move, rand_door[10];
-		int count = -1;
+		       EXIT_DATA *pexit;
+		       int door, move, rand_door[10];
+		       int count = -1;
 
-		for(move = dice(1,3) ; move > 0; move--)
-		{
-
-		  for( door = 0; door < 10; door++)
-		    if ( ( pexit = vch->in_room->exit[door] ) != NULL
-		      &&  !IS_SET(pexit->exit_info, EX_CLOSED) )
-		      {
-			count++;
-			rand_door[count] = door;
-		      }
-		  door = number_range(0,count);
-		  if(rand_door >= 0)
-		  {
-		    send_to_char("You struggle in vain as the flood waters carry you along.\n\r",vch);
-		    act("$n is carried off by the flood waters.",vch,NULL,NULL,TO_ROOM);
-		    SET_BIT(vch->act, PLR_WIZINVIS);
-		    move_char( vch, rand_door[door], TRUE);
-		    REMOVE_BIT(vch->act, PLR_WIZINVIS);
-		    act("$n arrives on a wave of water screaming, 'HHggEEggLLggPP!'.",vch,NULL,NULL,TO_ROOM);
-		    damage(vch,vch,dice(4,4),skill_lookup("waterfall"),DAM_LIGHTNING);
-		  }
-		  count = -1;
+		       for(move = dice(1,3) ; move > 0; move--)
+		         {
+		             for( door = 0; door < 10; door++)
+		               if ( ( pexit = vch->in_room->exit[door] ) != NULL &&  !IS_SET(pexit->exit_info, EX_CLOSED) )
+		                 {
+			                    count++;
+			                    rand_door[count] = door;
+		                 }
+		       door = number_range(0,count);
+		       if(rand_door >= 0)
+		         {
+		             send_to_char("You struggle in vain as the flood waters carry you along.\n\r",vch);
+		             act("$n is carried off by the flood waters.",vch,NULL,NULL,TO_ROOM);
+		             SET_BIT(vch->act, PLR_WIZINVIS);
+		              move_char( vch, rand_door[door], TRUE);
+		              REMOVE_BIT(vch->act, PLR_WIZINVIS);
+		              act("$n arrives on a wave of water screaming, 'HHggEEggLLggPP!'.",vch,NULL,NULL,TO_ROOM);
+		              damage(vch,vch,dice(4,4),skill_lookup("waterfall"),DAM_LIGHTNING);
+		         }
+		       count = -1;
 		}
 	     }
 	   break;
@@ -2794,7 +2792,7 @@ void disaster_update( void )
 		    vch->in_room->sector_type != 8)
 	     {
 	       if(saves_spell(vch->level,vch) )
-		 send_to_char("<<BOOM>> Phew, that was close.\n\r",vch);
+		       send_to_char("<<BOOM>> Phew, that was close.\n\r",vch);
 	       else
 		 damage(vch,vch,dice(4,10),skill_lookup("lightning bolt"),DAM_LIGHTNING);
 	     }
@@ -2807,7 +2805,7 @@ void disaster_update( void )
 
 	      send_to_char("You feel the earth, move, under your feet....\n\r",vch);
 	      if(saves_spell(vch->level,vch) )
-		  hit = FALSE;
+		      hit = FALSE;
 	      else
 	       switch(vch->in_room->sector_type)
 	       {
@@ -2847,8 +2845,8 @@ void disaster_update( void )
 
 	       if( hit )
 	       {
-		 damage(vch,vch,dam,skill_lookup("earthquake"),DAM_BASH);
-		 vch->position = POS_STUNNED;
+		         damage(vch,vch,dam,skill_lookup("earthquake"),DAM_BASH);
+		          vch->position = POS_STUNNED;
 	       }
 	     }
 	   break;

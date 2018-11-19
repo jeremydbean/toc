@@ -510,12 +510,11 @@ void move_char( CHAR_DATA *ch, int door, bool skip_special_check )
        int count = -1;
 
        for( pick_door = 0; pick_door < 10; pick_door++)
-	 if ( ( pexit = ch->in_room->exit[pick_door] ) != NULL
-	    &&  !IS_SET(pexit->exit_info, EX_CLOSED) )
-	 {
-	   count++;
-	   rand_door[count] = pick_door;
-	 }
+	      if ( ( pexit = ch->in_room->exit[pick_door] ) != NULL &&  !IS_SET(pexit->exit_info, EX_CLOSED) )
+	       {
+	          count++;
+	          rand_door[count] = pick_door;
+	       }
 	 pick_door = number_range(0,count);
 	 door = rand_door[pick_door];
     }
@@ -524,12 +523,12 @@ void move_char( CHAR_DATA *ch, int door, bool skip_special_check )
     {
       if(!IS_NPC(ch) && ch->pcdata->mounted)
       {
-	do_riding(ch,door, skip_special_check);
-	return;
+	       do_riding(ch,door, skip_special_check);
+	       return;
       }
       else if(!IS_NPC(ch) && ch->pcdata->mounted)
-	ch->pcdata->mounted = FALSE;
-    }
+	     ch->pcdata->mounted = FALSE;
+     }
 
     if(IS_NPC(ch) && ch->ridden)
        return;

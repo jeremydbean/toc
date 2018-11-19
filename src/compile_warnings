@@ -1,0 +1,26 @@
+gcc -c -g -O -Wall -DROM  -lcrypt act_comm.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_info.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_move.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_obj.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_wiz.c
+gcc -c -g -O -Wall -DROM  -lcrypt comm.c
+gcc -c -g -O -Wall -DROM  -lcrypt const.c
+gcc -c -g -O -Wall -DROM  -lcrypt db.c
+gcc -c -g -O -Wall -DROM  -lcrypt edit.c
+gcc -c -g -O -Wall -DROM  -lcrypt fight.c
+gcc -c -g -O -Wall -DROM  -lcrypt handler.c
+gcc -c -g -O -Wall -DROM  -lcrypt misc.c
+gcc -c -g -O -Wall -DROM  -lcrypt interp.c
+gcc -c -g -O -Wall -DROM  -lcrypt magic.c
+gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
+gcc -c -g -O -Wall -DROM  -lcrypt save.c
+gcc -c -g -O -Wall -DROM  -lcrypt skills.c
+gcc -c -g -O -Wall -DROM  -lcrypt special.c
+gcc -c -g -O -Wall -DROM  -lcrypt hunt.c
+gcc -c -g -O -Wall -DROM  -lcrypt update.c
+gcc -c -g -O -Wall -DROM  -lcrypt magic2.c
+gcc -c -g -O -Wall -DROM  -lcrypt quest.c
+gcc -c -g -O -Wall -DROM  -lcrypt maxload.c
+gcc -c -g -O -Wall -DROM  -lcrypt wizlist.c
+rm -f merc
+gcc -g -O  -o merc act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt

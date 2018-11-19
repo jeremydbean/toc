@@ -1100,15 +1100,17 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 
 	{
 	  if(!IS_SET(ch->act, PLR_WIZINVIS) )
+		{
 	    act( "$n has lost $s link.", ch, NULL, NULL, TO_ROOM );
 	    sprintf(buf, "%s has lost %s link. [Room: %d]", ch->name,
-		ch->sex == 0 ? "its" : ch->sex == 1 ? "his" : "her",
-		ch->in_room->vnum);
-	    if ( IS_SET(ch->act, PLR_WIZINVIS))
-		wizinfo( buf, ch->invis_level );
-	    else
-		wizinfo( buf, LEVEL_IMMORTAL );
-	    ch->desc = NULL;
+			ch->sex == 0 ? "its" : ch->sex == 1 ? "his" : "her",
+			ch->in_room->vnum);
+	    	if ( IS_SET(ch->act, PLR_WIZINVIS))
+					wizinfo( buf, ch->invis_level );
+	    	else
+					wizinfo( buf, LEVEL_IMMORTAL );
+	    		ch->desc = NULL;
+		}
 	}
 	else
 	{

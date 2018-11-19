@@ -1649,13 +1649,17 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		switch(wch->pcdata->guild)
 		{
 		    default            :
-		    if(wch->class != CLASS_MONK
-		    && wch->class != CLASS_NECRO)
-					guild = "    ";	break;
-		    case GUILD_MAGE    : guild = "/M  ";	break;
-		    case GUILD_CLERIC  : guild = "/C  ";	break;
-		    case GUILD_THIEF   : guild = "/T  ";	break;
-		    case GUILD_WARRIOR : guild = "/W  ";	break;
+		    if(wch->class != CLASS_MONK && wch->class != CLASS_NECRO)
+					  guild = "    ";
+              break;
+		        case GUILD_MAGE    : guild = "/M  ";
+              break;
+		        case GUILD_CLERIC  : guild = "/C  ";
+              break;
+		        case GUILD_THIEF   : guild = "/T  ";
+              break;
+		        case GUILD_WARRIOR : guild = "/W  ";
+              break;
 		}
 
 	    /* a little formatting */
@@ -1975,13 +1979,13 @@ void do_equipment( CHAR_DATA *ch, char *argument )
 	    continue;
 
        if( !IS_NPC(ch)
-       &&  iWear == WEAR_SHIELD
-       &&  obj->item_type == ITEM_WEAPON)
+        &&  iWear == WEAR_SHIELD
+        &&  obj->item_type == ITEM_WEAPON)
        {
 	 send_to_char("<secondary weapon>  ",ch);
        }
        else
-	send_to_char( where_name[iWear], ch );
+	       send_to_char( where_name[iWear], ch );
 
 	if ( can_see_obj( ch, obj ) )
 	{
@@ -2640,16 +2644,18 @@ void do_teachlist(CHAR_DATA *ch, char *argument)
          continue;
        if ((gmdata.guild != GUILD_ANY)
             && (ch->pcdata->guild != gmdata.guild))
-         continue;
+            continue;
 
-         col = 0;
-        pMobIndex = get_mob_index(gmdata.vnum);
+      col = 0;
+      pMobIndex = get_mob_index(gmdata.vnum);
+
         if (pMobIndex == NULL)
            continue;
         if (gmdata.can_teach[0] == NULL)
            continue;
+
         sprintf(buf, "At guildmaster %s:\n\r",
-                     pMobIndex->short_descr);
+        pMobIndex->short_descr);
         send_to_char(buf,ch);
 
         for (i = 0; i < MAX_TEACH; i++)
@@ -2701,6 +2707,7 @@ void do_gainlist(CHAR_DATA *ch, char *argument)
    for (counter=0; guildmaster_table[counter].vnum != 0; counter++)
    {
        gmdata = guildmaster_table[counter];
+
        if (gmdata.class == CLASS_OTHER && ch->class == gmdata.guild)
          continue;
        if ( (gmdata.class != CLASS_ANY && gmdata.class != CLASS_OTHER)
@@ -2708,10 +2715,11 @@ void do_gainlist(CHAR_DATA *ch, char *argument)
          continue;
        if ((gmdata.guild != GUILD_ANY)
             && (ch->pcdata->guild != gmdata.guild))
-         continue;
+            continue;
 
-         col = 0;
-        pMobIndex = get_mob_index(gmdata.vnum);
+      col = 0;
+      pMobIndex = get_mob_index(gmdata.vnum);
+
         if (pMobIndex == NULL)
            continue;
         if (gmdata.can_gain[0] == NULL)

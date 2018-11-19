@@ -1,13 +1,14 @@
 !/bin/csh
 
+pkill -e merc
+pkill -e startup
+cd /mnt/e/toc/src
 rm *.o
 rm merc
-make
+make 2>&1 | tee ../compile_warnings.log
 rm *.o
 rm ../area/merc
 cp merc ../area
 rm merc
 cd ..
 ./startup &
-echo DONE!
-ps ux

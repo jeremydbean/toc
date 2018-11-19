@@ -1283,7 +1283,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 
     if ( argument[0] == '\0' )
     {
-	send_to_char( "Goto where?\n\r", ch );
+	send_to_char( "Goto where? (syntax: goto <name> or goto <room vnum>)\n\r", ch );
 	return;
     }
 
@@ -1302,12 +1302,12 @@ void do_goto( CHAR_DATA *ch, char *argument )
 
 	    if (vnum <= WORLD_SIZE)
 	    {
-		send_to_char( "You form an order with just a thought.\n\r", ch );
+		send_to_char( "You form order from nothingness.\n\r", ch );
 		create_room( vnum );
 		location = get_room_index( vnum );
 	    } else
 	    {
-		send_to_char( "Room number is to large.\n\r", ch );
+		send_to_char( "Room number is too large.\n\r", ch );
 		return;
 	    }
 	} else
@@ -1333,7 +1333,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 	    if (ch->pcdata != NULL && ch->pcdata->bamfout[0] != '\0')
 		act("$t",ch,ch->pcdata->bamfout,rch,TO_VICT);
 	    else
-		act("$n leaves in a swirling mist.",ch,NULL,rch,TO_VICT);
+		act("$n raises into the sky, and is gone.",ch,NULL,rch,TO_VICT);
 	}
     }
 
@@ -1356,7 +1356,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 	    if (ch->pcdata != NULL && ch->pcdata->bamfin[0] != '\0')
 		act("$t",ch,ch->pcdata->bamfin,rch,TO_VICT);
 	    else
-		act("$n appears in a swirling mist.",ch,NULL,rch,TO_VICT);
+		act("$n appears before you.",ch,NULL,rch,TO_VICT);
 	}
     }
 
