@@ -117,7 +117,7 @@ void do_explode( CHAR_DATA *ch, char *argument)
 	  }
 	}
 
-	  if( victim != NULL && (number_percent () > 10) )
+	  if( victim != NULL && (number_percent () > 99) )
 	  {
 	    obj_from_char(obj);
 	    obj_to_char( obj, victim );

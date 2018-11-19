@@ -10,7 +10,7 @@ Race human~
 Sex  1
 Cla  4
 Gui  4
-Psionic  1
+Psionic  0
 Cast Fors
 Levl 54
 Plyd 225948
@@ -91,11 +91,6 @@ Alias sm smite~
 Alias chat gossip~
 Alias fi fist~
 Alias co confuse~
-Sk 85 'confuse'
-Sk 1 'ego whip'
-Sk 1 'project'
-Sk 1 'psychic shield'
-Sk 56 'telekinesis'
 Sk 8 'axe'
 Sk 36 'dagger'
 Sk 6 'flail'

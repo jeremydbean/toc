@@ -1,7 +1,7 @@
 #PLAYER
 Name Monitor~
 Id   57754
-LogO 1542380353
+LogO 1542595644
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,7 +13,7 @@ Psionic  1
 Cast none
 Levl 70
 Tru  70
-Plyd 398831
+Plyd 399347
 ListRemorts ~
 NumRemorts 0
 Note 0
@@ -307,20 +307,20 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
-AffD 'giant strength'   0  63   4   1          0          0
-AffD 'frenzy'   0  16 110  17          0          0
-AffD 'frenzy'   0  16  11  19          0          0
-AffD 'frenzy'   0  16  11  18          0          0
-AffD 'shield'   0  71 -20  17          0          0
-AffD 'armor'   0  17 -20  17          0          0
-AffD 'fly'   0  66   0   0     524288          0
-AffD 'aid'   0  17  51  13          0          0
-AffD 'aid'   0  17   7  18          0          0
-AffD 'divine protection'   0   3   0   0          0       4096
-AffD 'bless'   0  69  -8  24          0          0
-AffD 'bless'   0  69   8  18          0          0
-AffD 'haste'   0  10   4   2    2097152          0
 AffD 'sanctuary'   0   4   0   0        128          0
+AffD 'haste'   0  10   4   2    2097152          0
+AffD 'bless'   0  69   8  18          0          0
+AffD 'bless'   0  69  -8  24          0          0
+AffD 'divine protection'   0   3   0   0          0       4096
+AffD 'aid'   0  17   7  18          0          0
+AffD 'aid'   0  17  51  13          0          0
+AffD 'fly'   0  66   0   0     524288          0
+AffD 'armor'   0  17 -20  17          0          0
+AffD 'shield'   0  71 -20  17          0          0
+AffD 'frenzy'   0  16  11  18          0          0
+AffD 'frenzy'   0  16  11  19          0          0
+AffD 'frenzy'   0  16 110  17          0          0
+AffD 'giant strength'   0  63   4   1          0          0
 End
 
 #O

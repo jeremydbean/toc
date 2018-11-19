@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542511683
+LogO 1542602034
 Vers 3
 Prom ~
 Ignoring ~
@@ -9,15 +9,16 @@ Race human~
 Sex  1
 Cla  0
 Gui  0
-Psionic  1
+Psionic  2
 Cast none
 Levl 22
-Plyd 20788
+Tru  69
+Plyd 22506
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 4216
+Room 4208
 HMV  143 143 162 162 208 208
 NewGold 0
 NewPlat 0
@@ -29,8 +30,9 @@ Corpses	0
 PkRec 0
 PkGiv 0
 Exp  38000
-Act  65788
+Act  82172
 Comm 24576
+Invi 69
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -54,7 +56,7 @@ Color 13 7
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  5
+Pos  8
 Prac 19
 Trai 21
 Alig  750
@@ -67,7 +69,7 @@ Pnts 40
 TSex 1
 LLev 3
 HMVP 143 162 208
-Cond 0 0 0
+Cond 0 25 25
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
@@ -80,10 +82,6 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
-Sk 1 'clairvoyance'
-Sk 1 'confuse'
-Sk 1 'mindblast'
-Sk 1 'psychic shield'
 Sk 1 'dagger'
 Sk 1 'scrolls'
 Sk 1 'wands'
@@ -91,6 +89,27 @@ Sk 1 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
+End
+
+#O
+Vnum 9224
+Nest 0
+Wear -1
+Lev  8
+Cost 729
+Cond 100
+Repd 0
+Val  150 97 0 0 0
+End
+
+#O
+Vnum 10243
+Nest 0
+Wear -1
+Lev  5
+Cost 20
+Cond 100
+Repd 0
 End
 
 #END
