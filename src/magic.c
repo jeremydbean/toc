@@ -4751,7 +4751,7 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     act("A huge wormhole appears before you.",ch,NULL,
 	NULL,TO_ROOM);
 
-    sprintf(buf,"%s has created a wormhole to %s. [Room %d]",
+    sprintf(buf,"%s has opened a wormhole to %s. [Room %d]",
 	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
 	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
 	 victim->in_room->vnum);

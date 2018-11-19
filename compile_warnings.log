@@ -120,12 +120,3 @@ magic.c:2948:5: warning: this ‘if’ clause does not guard... [-Wmisleading-in
 magic.c:2950:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
        damage( ch, victim, dam, sn, DAM_FIRE );
        ^~~~~~
-gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
-gcc -c -g -O -Wall -DROM  -lcrypt save.c
-save.c: In function ‘fread_char’:
-save.c:1265:41: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
-      bug( "Fread_char: no match. '%s'", (int) word );
-                                         ^
-save.c:839:24: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
-     int cur_alias = 0, temp;
-                        ^~~~
