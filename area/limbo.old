@@ -287,7 +287,7 @@ grill missionary breas gm~
 Grill the missionary of breas~
 The missionary of Breas is here back from his latest mission trip.
 ~
-The missionary of Breas has traveled the world converting others to 
+The missionary of Breas has traveled the world converting others to
 follow his god.
 ~
 human~
@@ -302,8 +302,8 @@ tempora high priestess gm~
 Tempora the high priestess~
 The High Priestess of Breas is here praying.
 ~
-You are in no doubt that this guildmaster is truly close to your god, 
-she has a peaceful, loving look. You notice that she is surrounded by 
+You are in no doubt that this guildmaster is truly close to your god,
+she has a peaceful, loving look. You notice that she is surrounded by
 a white aura.
 ~
 human~
@@ -367,8 +367,8 @@ drixt dragon gm~
 Drixt the golden dragon~
 There is a golden dragon here who looks like he has been in a cell to long.
 ~
-This gold dragon seems to have been in this cell for a long time.  He 
-seems to have been treated pretty good though.  Wonder what the guards 
+This gold dragon seems to have been in this cell for a long time.  He
+seems to have been treated pretty good though.  Wonder what the guards
 think about him being here.
 ~
 dragon~
@@ -383,7 +383,7 @@ tranis summoner gm~
 Tranis the Master Summoner~
 There is a man here summoning various things.
 ~
-The summoner seems to have no order to the things that he is summoning. 
+The summoner seems to have no order to the things that he is summoning.
 He is summoning all kinds of creatures.
 ~
 human~
@@ -429,7 +429,7 @@ Chamis the master charmer~
 There is a man here that seems to draw people to him.
 ~
 This man is know far and wide as the master charmer.  He is said to
-have no enemies and everyone just seems to want to do what he tells 
+have no enemies and everyone just seems to want to do what he tells
 them to do.
 ~
 human~
@@ -507,7 +507,7 @@ david missionary devota gm~
 the missionary of Devota~
 David, the missionary of Devota is here back from his latest mission trip.
 ~
-The missionary of Devota has traveled the world converting others to 
+The missionary of Devota has traveled the world converting others to
 follow his god.
 ~
 human~
@@ -537,7 +537,7 @@ jazair nomadic merchant~
 Jazair the merchant~
 Jazair the nomadic merchant master is here to show you his goods.
 ~
-Jazair the merchant is a nomad from the Desert of Sorrow.  He is known 
+Jazair the merchant is a nomad from the Desert of Sorrow.  He is known
 for selling many rare and exotic items.  He is also very quick to anger
 when a sale goes the wrong way and can go berserk.  Only the brave or
 foolhardy try to bargin with Jazair.
@@ -788,7 +788,7 @@ IK 0 0 NS
 8 8 1 0
 0 0 M 0
 #99
-angel~
+angel herbie~
 an angel~
 Herbie the Angel is here.
 ~
@@ -878,7 +878,7 @@ An elite dwarven guard of Dresden is standing here serving the four lords.
 He is a stocky dwarf with rigid facial features.  He has many
 different metals along his uniform.  He wears only the minimum armour on his
 gaunt body for Stonefist his creator made him strong enough to defeat the
-strongest of enemies.  He is very helpful and will lend a hand to you if you 
+strongest of enemies.  He is very helpful and will lend a hand to you if you
 are a good and just person.
 ~
 dwarf~
@@ -986,7 +986,7 @@ regular guard~
 the regular guard~
 A regular guard is standing here for the good of the people.
 ~
-As a guard of the city of Dresden he is to serve and protect the citizens at 
+As a guard of the city of Dresden he is to serve and protect the citizens at
 all costs.  He is very helpfull.  He is clad in the armour of the city.
 ~
 human~
@@ -1002,8 +1002,8 @@ captain guard~
 Captain of the Guard~
 The Captain of the Guard sits here at his desk.
 ~
-The Captain of the Guard is an older but very powerful man.  His ebony armor 
-seems to glow faintly.  The crest of the town of Dresden is displayed with 
+The Captain of the Guard is an older but very powerful man.  His ebony armor
+seems to glow faintly.  The crest of the town of Dresden is displayed with
 pride on his breastplate.
 ~
 human~
@@ -1019,8 +1019,8 @@ commander guard~
 Commander of the Guard~
 The Commander is here, practicing his pyrotechnics.
 ~
-The Commander wears steel armor over his mighty thews, and a broken strap is 
-hanging out of the side of his breastplate.  He looks as if he's quite an easy 
+The Commander wears steel armor over his mighty thews, and a broken strap is
+hanging out of the side of his breastplate.  He looks as if he's quite an easy
 fight, besides he would like the chance to test his new weapon on you.
 ~
 human~
@@ -1059,7 +1059,7 @@ A big strong cityguard of Dresden.
 ~
 human~
 BGT 0 750 M
-20 15 4d6+310 1d1+99 2d10+20 8 
+20 15 4d6+310 1d1+99 2d10+20 8
 -5 -5 -5 -5
 0 0 0 0
 8 8 1 250
@@ -1106,7 +1106,7 @@ G 0 500 M
 A 20
 $n eyes $N with a greedy look.~
 $n scans you quickly with a sharp greedy look on his face.~
-} 
+}
 #4459
 citizen dresden~
 a citizen of Dresden~
@@ -1259,7 +1259,7 @@ A big strong cityguard of Dresden.
 ~
 human~
 GT 0 500 M
-20 15 4d6+310 1d1+99 2d10+20 8 
+20 15 4d6+310 1d1+99 2d10+20 8
 -5 -5 -5 -5
 0 0 0 0
 8 8 1 250
@@ -1297,7 +1297,7 @@ A big strong cityguard of Dresden.
 ~
 human~
 BFGMT 0 500 M
-20 15 4d6+310 1d1+99 2d10+20 8 
+20 15 4d6+310 1d1+99 2d10+20 8
 -5 -5 -5 -5
 0 AB 0 0
 8 8 1 250
@@ -1399,7 +1399,7 @@ Lachesis~
 Lachesis the weaver of thread is here glaring at you!
 ~
 Lachesis, like her sisters Atropos and Clothos has a job in the scheme of
-life. She weaves the thread of your life makes it what it is. She knows 
+life. She weaves the thread of your life makes it what it is. She knows
 all your hopes and desires, and makes the fullness of life what it is.
 It would not be good to piss her off.
 ~
@@ -1507,7 +1507,7 @@ the guts of %s~
 A steaming pile of %s's entrails is lying here.~
 meat~
 19 0 A
-5 0 0 1 0 
+5 0 0 1 0
 0 2 0 D
 #17
 brains brain~
@@ -1601,7 +1601,7 @@ a generic quest item~
 A generic quest item is here.~
 stone~
 13 GV A
-0 0 0 0 0 
+0 0 0 0 0
 0 0 0 P
 #30
 bow~
@@ -1633,7 +1633,7 @@ a portal~
 A portal is here.~
 glass~
 30 A 0
-0 0 0 0 0 
+0 0 0 0 0
 0 1 0 P
 #34
 amaranth plant herb~
@@ -2294,7 +2294,7 @@ a big pot pie~
 A big pot pie has been left here.~
 food~
 19 0 A
-24 0 0 0 0 
+24 0 0 0 0
 0 2 50 P
 #3010
 pit~
@@ -2384,7 +2384,7 @@ iron~
 4 2 4 7 0
 10 10 500 G
 A
-19 1 
+19 1
 #3025
 axe hand~
 a hand axe~
@@ -2434,15 +2434,15 @@ torch~
 a torch~
 A large torch.~
 wood~
-1 0 A 
+1 0 A
 0 0 50 0 0
-0 1 10 G 
+0 1 10 G
 #3031
 lantern~
 a hooded brass lantern~
 A hooded brass lantern has been left here.~
 brass~
-1 0 A 
+1 0 A
 0 0 250 0 0
 0 4 30 P
 E
@@ -2506,8 +2506,8 @@ potion yellow~
 a yellow potion of see invisible~
 A small yellow potion has carelessly been left here.~
 glass~
-10 G AO 
-12 19 0 0 0 
+10 G AO
+12 19 0 0 0
 0 1 100 P
 E
 potion yellow~
@@ -2519,13 +2519,13 @@ a scroll of recall~
 A scroll has carelessly been left here.~
 vellum~
 2 G AO
-20 42 0 0 0  
-0 2 50 P 
+20 42 0 0 0
+0 2 50 P
 E
 scroll~
 The scroll has written a formula of 'Word of Recall' upon it.
 ~
-#3043 
+#3043
 ring protection~
 a ring of protection~
 an enchanted ring of protection sits on the floor.~
@@ -2547,7 +2547,7 @@ a wand of magic missiles~
 a wooden stick lies on the ground.~
 wood~
 3 G AO
-4 10 10 32 0 
+4 10 10 32 0
 0 1 400 P
 E
 wand~
@@ -2593,7 +2593,7 @@ E
 canoe~
 The canoe is fairly light.
 ~
-#3052 
+#3052
 bracer strong leather~
 a leather bracer~
 A strong leather bracer is here.~
@@ -2638,7 +2638,7 @@ pants leather~
 a pair of leather pants~
 A pair of leather pants is lying on the ground.~
 leather~
-9 0 AF 
+9 0 AF
 1 2 2 0 0
 5 5 50 G
 #3063
@@ -2646,7 +2646,7 @@ boots leather~
 a pair of leather boots~
 A pair of leather boots lies here.~
 leather~
-9 0 AG 
+9 0 AG
 1 2 2 0 0
 5 3 75 G
 #3064
@@ -2662,7 +2662,7 @@ sleeves leather~
 a pair of leather sleeves~
 A pair of leather sleeves is lying on the ground.~
 leather~
-9 0 AI 
+9 0 AI
 1 2 2 0 0
 5 3 55 G
 #3066
@@ -2670,7 +2670,7 @@ jerkin hard leather~
 a hard leather jerkin~
 A hard leather jerkin is lying on the ground.~
 leather~
-9 0 AD 
+9 0 AD
 1 3 3 0 1
 5 8 500 G
 #3067
@@ -2855,7 +2855,7 @@ a potion of flying~
 A potion of flying is here.~
 glass~
 10 G AO
-9 56 0 0 0 
+9 56 0 0 0
 0 1 100 P
 #3092
 potion true sight~
@@ -2864,14 +2864,14 @@ A potion of true sight is here.~
 glass~
 10 G AO
 10 19 20 44 0
-0 1 150 P 
+0 1 150 P
 #3097
 shield small metal~
 a small metal shield~
 A small metal shield is lying on the ground.~
 steel~
 9 0 AJ
-4 4 4 1 2 
+4 4 4 1 2
 5 3 750 P
 #3100
 tea cup~
@@ -2892,7 +2892,7 @@ A cup has been set here.~
 china~
 17 0 A
 2 2 12 0 0
-0 1 7 P 
+0 1 7 P
 E
 cup~
 It is a small simple cup.
@@ -3008,7 +3008,7 @@ A rusty key has been left here.~
 iron~
 18 0 A
 0 0 0 0 0
-0 1 0 W 
+0 1 0 W
 E
 key rusty~
 The key is a fairly large rusty key.  You notice some fresh dirt on it.
@@ -3042,7 +3042,7 @@ sword long~
 a long sword~
 A long sword has been left here.~
 steel~
-5 0 AN 
+5 0 AN
 1 2 5 3 D
 10 5 750 P
 E
@@ -3065,7 +3065,7 @@ The desk looks very sparse, there is a drawer in the left side.
 wood~
 15 0 0
 34 15 3122 20 0
-0 100 0 G 
+0 100 0 G
 E
 drawer~
 You notice a keyhole in the drawer.
@@ -3078,7 +3078,7 @@ The safe has a keyhole.
 iron~
 15 0 0
 34 15 3123 20 0
-0 100 0 G 
+0 100 0 G
 E
 safe~
 The safe is very heavy.
@@ -3287,18 +3287,18 @@ map midgaard dresden~
 			      Wand     |         Trinket  |_Mob Fact.
 			      Shop     | Bakery    |Shop  |
 			 _______|______|____|______|______|_Blacksmith
-			 |      |      |    |      |      |    
-		   Magic |      |      |    |      |      |    
-		   Shop__|____Mages    |   Nomad---*------|    
-			 |    Guild    |   Tent  Fountain | 
-			 |      |      |    |      |      |    
-			 |______|______|____|______|______|    
+			 |      |      |    |      |      |
+		   Magic |      |      |    |      |      |
+		   Shop__|____Mages    |   Nomad---*------|
+			 |    Guild    |   Tent  Fountain |
+			 |      |      |    |      |      |
+			 |______|______|____|______|______|
 				  |    | Weapon    |
 				Mage   | Shop    Supply Shop
-				Inn    |               
+				Inn    |
        Clerics                         |          Bloody    Warriors
 	Guild    Arena                 |         Axe Inn     Guild
-West      |        |               OakTree         |          |         East 
+West      |        |               OakTree         |          |         East
 Gate--------------------------------Square ------------------------------Gate
 	  |             |        |     |      |     |Mercs Shop
 	Monks        Jeweler     |     |      |
@@ -3309,7 +3309,7 @@ Gate--------------------------------Square ------------------------------Gate
 		       Guild           |           Rat's--Boats_|___
     To Forests    -------|-------------+---------- Lair         |   |(Docks)
      <--------------------------------]+[------------------------------------>
-				 Town  |  Pet    River of Wonders         To 
+				 Town  |  Pet    River of Wonders         To
 *Note:Smurfs 1up,1w Recall       Hall--|--Shop                          Deserts
       Froboz 1up,1e Recall           South
 				     Gate
@@ -3327,7 +3327,7 @@ map Sembia~
 			 * * *      Sembia     * * *
 			  = = ================== = =
 		       (C) ToC, Mangled by Soulcrusher
- 
+
 Strange   Mega       Kerofk   Mahn- Upper--Glass
 Campus    City\            \   Tor  |Argo  Fortress
   |       One   Elemental    \  |  /         New---Chain--Redferne's
@@ -3344,16 +3344,16 @@ Ancalador---Forest Of-------Dresden-------------Cross---Eastern Road--->Thalos
 	 /| Haon Dor |   |      |\      Old      Roads  Fire       |
        /  |    |     | Werith's | |     Thalos       \--Newts  Gnome Village
  Old /    |  Troll   | Wayhouse | |          \         \      Dwarven Catacombs
- Marsh High-  Den    |          | \            \         \          \   
-    |  lands       Cryst.       |   \River of  Ruins of---Dwarf--Dwarven 
+ Marsh High-  Den    |          | \            \         \          \
+    |  lands       Cryst.       |   \River of  Ruins of---Dwarf--Dwarven
  Camelot           Lake--Solace |      \Wonders  Thalos   Forest Kingdom--Mines
-		     |          |          \           Drow--|        \   
+		     |          |          \           Drow--|        \
 		   Hell         |            Sands of  City  |-Wyvern  Daycare
 				|    Moria   Sorrow     |        Tower
 		   Ruins        |      |           \  Underdark
        Assassin's    of     Miden'nir  |            \
 	 Guild --Midgaard---(Goblins)--+         Pyramid
- 
+
 This map shows just about all the major areas on ToC.  This map is NOT drawn
 to scale, some of the directions were changed to make everything fit.  This
 map shows the GENERAL location of an area with respect to the other areas.
@@ -3369,7 +3369,7 @@ paper~
 0 1 1000 P
 E
 map southern midgaard~
- 
+
 
 
 Southern Midgaard was totally ruined by the invading dragons.  Nothing has been
@@ -3387,11 +3387,11 @@ paper~
 0 1 750 P
 E
 map dwarven kingdom dwarf~
- 
+
 			 * * * The Dwarven Kingdom * * *
 			  = = ===================== = =
 				Untangled by Ezra
- 
+
 		    Dwarven
 		    Hospital
 		       |                                              *Path to
@@ -3435,8 +3435,8 @@ paper~
 0 1 1500 P
 E
 map moria first~
-* * * MORIA - Map 1 * * *                                           
- = = =============== = =                                                
+* * * MORIA - Map 1 * * *
+ = = =============== = =
 Talk about a mess! by Ezra                                           Foothills
 									 |
 This is as far as our courageous, noble, brave           Light Cave    Valley
@@ -3458,7 +3458,7 @@ in the depths of Moria itself.                                |           |
 		   |                  Light         |
 		   |                  Cave      The Hills
 		   |                    |           |
-		 Tunnel----Tunnel-----Light     The Hills 
+		 Tunnel----Tunnel-----Light     The Hills
 				      Cave          |
 						 Entering
 						 The Hills
@@ -3547,7 +3547,7 @@ map olympus~
 				    (C) ToC
 			       Mapped by  Regnan
 			       =================
- 
+
 				   Bedroom
 				      |
 				   Northern
@@ -3636,8 +3636,8 @@ vest standard merc~
 a standard issue vest~
 You see a standard issue vest here.~
 leather~
-9 0 AD 
-0 0 0 0 0 
+9 0 AD
+0 0 0 0 0
 -1 5 0 P
 E
 vest~
@@ -3663,7 +3663,7 @@ a standard issue cloak~
 You see a standard issue cloak here.~
 cloth~
 9 0 AC
-0 0 0 0 0 
+0 0 0 0 0
 -1 4 0 P
 E
 cloak~
@@ -3829,7 +3829,7 @@ E
 band gold wedding~
 A wide, plain circle of gold inscribed: 'Your loving wife, Vanya'.
 ~
-A 
+A
 24 -2
 
 #4444
@@ -3844,7 +3844,7 @@ E
 shield city~
 When you look at the shield you see a crest upon it.  The crest is two swords
 crossing over a pot of gold with a dragon flying high above it shooting
-lightning from its mouth.  You recognize it as the ensignia of the Elite Guard 
+lightning from its mouth.  You recognize it as the ensignia of the Elite Guard
 of Dresden.
 ~
 A
@@ -3918,7 +3918,7 @@ steel~
 25 15 0 P
 E
 sword city~
-The sword has a small ensignia of dresden upon it.  It is a small yet powerful 
+The sword has a small ensignia of dresden upon it.  It is a small yet powerful
 looking sword.
 ~
 A
@@ -3943,7 +3943,7 @@ steel~
 0 0 0 0 0
 15 12 0 P
 
-#4451 
+#4451
 helmet ebony~
 the ebony helmet~
 A black helmet is on the floor.~
@@ -4421,7 +4421,7 @@ steel~
 40 33 2500 P
 A
 13 10
-A 
+A
 14 10
 
 #4493
@@ -4538,7 +4538,7 @@ The Recall Ring~
 A Ring of glowing adamantite sits here in the dirt.~
 adamantite~
 37 AB AB
-1 0 0 0 0 
+1 0 0 0 0
 1 5 1000 P
 T
 $n wears $p and smiles happily!~
@@ -4663,7 +4663,7 @@ adamantite~
 1 3 1000 P
 E
 staff gods~
-In your hands you have the most powerful staff in the entire 
+In your hands you have the most powerful staff in the entire
 land of Sembia.  Slowly as you raise it with trembling hands
 you see a vision of Ricochet smiling happily upon you, giving
 you congratulations for re-creating his staff.
@@ -4712,7 +4712,7 @@ S
 The First National Bank of Dresden.~
 	The first thing you notice upon entering this place is how
 white everything seems to be.  The chairs are white, the walls and floor are
-white...lets face it EVERYTHING is white.  A patient teller waits along 
+white...lets face it EVERYTHING is white.  A patient teller waits along
 the north wall...waiting for your money that is. One other thing you notice
 is a sign hanging on the east wall...
 ~
@@ -4723,7 +4723,7 @@ to the market place.
 ~
 0 -1 2484
 E
-sign~	
+sign~
 The commands for the bank are the following.....
 
 		deposit <$> gold.
@@ -4889,7 +4889,7 @@ S
 #2554
 Sergeant's Reception Room.~
 This room is decorated with various swords and other ornamental artifacts of
-combat.  Tapestries of bloody battles adorn the stone walls.  If you have an 
+combat.  Tapestries of bloody battles adorn the stone walls.  If you have an
 appointment to see the Sergeant of the Guard then take a seat.
 But who knows how long you'll have to wait...
 The door to the Sergeant's office is to the north.
@@ -4909,7 +4909,7 @@ Stairs spiral down into darkness.
 S
 #2555
 Sergeant's Office.~
-This is the office of the Sergeant of the Guard.  He is in charge of all 
+This is the office of the Sergeant of the Guard.  He is in charge of all
 minor complaints and incidents.  His office is richly decorated with antique
 weapons and tapestries of war.  A large desk sits in the middle of the room.
 You see an iron bound door to the south.
@@ -4944,8 +4944,8 @@ S
 #2557
 Commander's Office.~
 This is the Office of the Commander.  He basically does nothing all day.
-Except of course play with fire.  Hence the black walls around the room.  
-The furniture is in ruins from the Commander's last pyrotechnical display.  
+Except of course play with fire.  Hence the black walls around the room.
+The furniture is in ruins from the Commander's last pyrotechnical display.
 You see a glass door with the emblem of the Dresden Guard to the south.
 ~
 0 AD 0
@@ -4981,7 +4981,7 @@ Captain's Office.~
 This is the office of the Captain of the Guard.  Leather couches and a solid
 marble desk sit against the far wall.  The Captain has a large portrait of
 the Mayor on the wall behind his desk.  A pair of heavy metal doors with the
-emblem of the Dresden Guard is on the north wall. 
+emblem of the Dresden Guard is on the north wall.
 You see an oak door to the south.
 ~
 0 AD 0
@@ -5004,7 +5004,7 @@ You feel yourself f
 		     l
 		      i
 		       n
-			g 
+			g
 			  SPLAT!
 You make a mess on the road below as your curiousity gets you killed.  Looks
 like the Captain shouldn't let tourists wander around his office.
@@ -5013,7 +5013,7 @@ like the Captain shouldn't let tourists wander around his office.
 S
 #2562
 The Pet Shop of Exotic Creatures.~
-This is the pet shop of exotic creatures.  There are a wide variety of 
+This is the pet shop of exotic creatures.  There are a wide variety of
 animals and beasts from around the world here.
 Buy a pet.  Take it home.  A loving companion to keep you company.
 ~
@@ -5024,7 +5024,7 @@ You see the main processional.
 ~
 0 -1 2430
 S
-#2563 
+#2563
 Pet Storage.~
 This is where the pet shop girl keeps her animals.  It is important that this
 room be right after the pet shop of exotic creatures.
@@ -5033,7 +5033,7 @@ room be right after the pet shop of exotic creatures.
 S
 #2564
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5048,9 +5048,9 @@ It's too dark to see anything.
 ~
 0 -1 2565
 S
-#2565 
+#2565
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5099,7 +5099,7 @@ It's too dark to see anything.
 ~
 0 -1 2568
 S
-#2568     
+#2568
 Wall Road.~
 Sunlight shines down on the guard post to the south, as though some God were
 blessing the building with their almighty power.
@@ -5114,7 +5114,7 @@ D2
 You see an oak door.
 ~
 door~
-1 -1 2569 
+1 -1 2569
 S
 #2569
 Southwest Guardpost and Watchtower.~
@@ -5170,7 +5170,7 @@ You see stairs leading down to the guardpost.
 S
 #2571
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5185,9 +5185,9 @@ It's too dark to see anything.
 ~
 0 -1 2572
 S
-#2572 
+#2572
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5251,7 +5251,7 @@ D2
 You see an oak door.
 ~
 door~
-1 -1 2576 
+1 -1 2576
 S
 #2576
 Southeast Guardpost and Watchtower.~
@@ -5299,7 +5299,7 @@ however not supposed to be up here.  If the guards catch you up here you will
 likely be in BIG trouble...
 ~
 0 D 1
-D5 
+D5
 You see stairs leading down to the guardpost.
 ~
 ~
@@ -5359,7 +5359,7 @@ It's too dark to see anything.
 S
 #2581
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5374,9 +5374,9 @@ It's too dark to see anything.
 ~
 0 -1 2580
 S
-#2582 
+#2582
 Wall Road.~
-The alley is shrouded in flitting shadows, and the darkness that pervades 
+The alley is shrouded in flitting shadows, and the darkness that pervades
 this area sends a chill up your spine.
 ~
 0 A 1
@@ -5435,8 +5435,7 @@ S
 #0
 
 #SPECIALS
-M 4474 spec_kidnapper  
+M 4474 spec_kidnapper
 S
 
 #$
-

@@ -15,7 +15,7 @@ act_wiz.c:2686:22: warning: comparison with string literal results in unspecifie
      else if(ch->name != "ghost")
                       ^~
 act_wiz.c: In function ‘do_restorechar’:
-act_wiz.c:5536:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+act_wiz.c:5542:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
      system(buf);
      ^~~~~~~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt comm.c
@@ -50,14 +50,23 @@ In file included from /usr/include/netinet/in.h:23:0,
 comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
      int ipaddr[4];
          ^~~~~~
+comm.c: In function ‘nanny’:
+comm.c:2112:2: warning: implicit declaration of function ‘component_update’; did you mean ‘violence_update’? [-Wimplicit-function-declaration]
+  component_update();
+  ^~~~~~~~~~~~~~~~
+  violence_update
 comm.c: In function ‘show_string’:
-comm.c:2793:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+comm.c:2796:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
        for (chk = d->showstr_point; isspace(*chk); chk++);
        ^~~
-comm.c:2794:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+comm.c:2797:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
         {
         ^
 gcc -c -g -O -Wall -DROM  -lcrypt const.c
+const.c:3732:5: warning: excess elements in array initializer
+     {
+     ^
+const.c:3732:5: note: (near initialization for ‘skill_table’)
 gcc -c -g -O -Wall -DROM  -lcrypt db.c
 db.c: In function ‘do_dump’:
 db.c:4284:6: warning: format not a string literal and no format arguments [-Wformat-security]
@@ -349,16 +358,16 @@ update.c:107:17:
    }
    }
 update.c: In function ‘disaster_update’:
-update.c:2743:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2742:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
       else
       ^~~~
-update.c:2771:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2770:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
        if(hit == TRUE)
        ^~
-update.c:2822:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+update.c:2821:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
         else
         ^~~~
-update.c:2859:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+update.c:2858:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
          if( hit )
          ^~
 gcc -c -g -O -Wall -DROM  -lcrypt magic2.c

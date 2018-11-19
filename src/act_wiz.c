@@ -3244,6 +3244,8 @@ void do_restore( CHAR_DATA *ch, char *argument )
 	    vch->hit    = vch->max_hit;
 	    vch->mana   = vch->max_mana;
 	    vch->move   = vch->max_move;
+      vch->pcdata->condition[COND_THIRST] = 100;
+      vch->pcdata->condition[COND_FULL] = 100;
 	    update_pos( vch);
 	    act("An angel glides down from heaven and cures all your wounds.",
 		ch,NULL,vch,TO_VICT);
@@ -3274,6 +3276,8 @@ void do_restore( CHAR_DATA *ch, char *argument )
 	    victim->hit         = victim->max_hit;
 	    victim->mana        = victim->max_mana;
 	    victim->move        = victim->max_move;
+      victim->pcdata->condition[COND_THIRST] = 100;
+      victim->pcdata->condition[COND_FULL] = 100;
 	    update_pos( victim);
 	    if (victim->in_room != NULL)
 	      act("An angel glides down from heaven and cures all your wounds.",
@@ -3297,6 +3301,8 @@ void do_restore( CHAR_DATA *ch, char *argument )
     victim->hit  = victim->max_hit;
     victim->mana = victim->max_mana;
     victim->move = victim->max_move;
+    victim->pcdata->condition[COND_THIRST] = 100;
+    victim->pcdata->condition[COND_FULL] = 100;
     update_pos( victim );
     act( "An angel glides down from heaven and cures all your wounds.",
 	ch, NULL, victim, TO_VICT );

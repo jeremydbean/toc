@@ -39,7 +39,7 @@ Mage:1  Cleric:3  Thief:4  Warrior:5  Monk: N/A   Necromancer:N/A
 0 'GHOSTLY PRESENCE'~
 Syntax: cast 'ghostly presence'
 
-This spell will temporarily turn you into a ghost.  While as a ghost you cannot be 
+This spell will temporarily turn you into a ghost.  While as a ghost you cannot be
 attacked and you can't attack anything.
 
 Ghostly presence is only available to necromancers at level 25 and higher.
@@ -65,12 +65,12 @@ Syntax: cast shroud
 Syntax: cast 'major globe'
 
 These spells protect the caster by decreasing (improving) the caster's armor
-class.  ARMOR and SHIELD each provide 20 points of armor.  STONE SKIN 
+class.  ARMOR and SHIELD each provide 20 points of armor.  STONE SKIN
 provides 40 points of armor.  SHROUD provides 35 points of armor.
 
 Major Globe provides 80 points of armor. At some future time, it may carry
-a slightly lower mana cost than armor, shield and stone skin.  It cannot be 
-combined with any of the others, however.  
+a slightly lower mana cost than armor, shield and stone skin.  It cannot be
+combined with any of the others, however.
 
 ARMOR and SHIELD may be cast on other characters besides the spellcaster.
 
@@ -104,7 +104,7 @@ Bewitch Weapon is a necromancer only spell and is gainable at level 25.
 Syntax: cast bless <character>
 
 This spell improves the to-hit roll and saving throw versus spell of the
-target character by an amount depending on the level of the spell caster. 
+target character by an amount depending on the level of the spell caster.
 
 Minimum level depends on your primary class and is:
 Mage:9  Cleric:6  Thief:12   Warrior:11   Monk: N/A   Necromancer:N/A
@@ -131,7 +131,7 @@ Butcher is a necromancer only spell, useable at Level 10.
 0 CALM~
 Syntax: cast calm
 
-This is a powerful spell, which can be used to stop all fighting in the 
+This is a powerful spell, which can be used to stop all fighting in the
 room.
 
 Minimum level depends on your primary class and is:
@@ -174,7 +174,7 @@ from you.  Use ORDER to order your charmed followers.
 
 You are responsible for the actions of your followers.  Conversely, other
 people who attack your followers will be penalized as if they attacked you.
-This spell is considered to be an attack; if it is used on another PC you 
+This spell is considered to be an attack; if it is used on another PC you
 will gain a killer flag for it.
 
 Minimum level depends on your primary class and is:
@@ -189,8 +189,8 @@ Syntax: cast 'icicle' <victim>
 
 These spells inflict cold damage on the victim. Cone of cold shoots out a cone
 of frozen air that can strike more than one victim, or none at all, depending
-on if the victim makes his saving throw or not.  Blizzard is an area affect 
-spell that hits all attackable characters in the room.  Icicle is a single 
+on if the victim makes his saving throw or not.  Blizzard is an area affect
+spell that hits all attackable characters in the room.  Icicle is a single
 attack.
 
 In addition to causing damage, chill touch reduces the strength of the
@@ -223,7 +223,7 @@ Mage:5  Cleric:4  Thief:7  Warrior:6  Monk: N/A   Necromancer:N/A
 Syntax: cast 'control weather' better
 Syntax: cast 'control weather' worse
 
-This spell makes the weather either better or worse.  The change in the 
+This spell makes the weather either better or worse.  The change in the
 weather does not take effect until the next tick.
 
 Minimum level depends on your primary class and is:
@@ -457,14 +457,14 @@ Mage:23   Cleric:23   Thief:29   Warrior:29   Monk: N/A   Necromancer:
 Syntax: cast 'dispel magic' <character>
         cast 'cancellation' <character>
         cast 'neutrality field'
- 
+
 All of these spells remove magical effects from the target.  Dispel magic
 has a reduced chance of working and is considering an attack spell.  Neutrality
 field works the same way as dispel magic, except that it affects everything in
-the room instead of a specific target. Cancellation can only be used on allies, but 
-is much more effective and does not provoke attack.  Unfortunately, the spells do 
+the room instead of a specific target. Cancellation can only be used on allies, but
+is much more effective and does not provoke attack.  Unfortunately, the spells do
 not discriminate between harmful and benign spells.
- 
+
 The chance of dispelling is based on the level of the spell. Permanent spells
 (such as mobile sanctuary) are much harder to remove.  Not all spells may
 be dispelled, Notable examples are poison and plague.
@@ -496,7 +496,7 @@ Mage:14   Cleric:14   Thief:17   Warrior:17   Monk: N/A   Necromancer:N/A
 Syntax: cast 'shocking grasp' <victim>
 Syntax: cast 'lightning bolt' <victim>
 Syntax: cast 'chain lightning' <victim>
-Syntax: cast 'call lightning' 
+Syntax: cast 'call lightning'
 
 These spells inflict electrical damage on the victim.  The higher-level
 spells do more damage.
@@ -628,8 +628,8 @@ Syntax: cast 'frost shield'
 Syntax: cast 'death shroud'
 
 These spell cause damage to be inflicted on anyone who attacks you
-while the spell is in effect.  For fire shield, if the person attacking you 
-uses an attack of a hot nature, however, the damage inflicted on you will be 
+while the spell is in effect.  For fire shield, if the person attacking you
+uses an attack of a hot nature, however, the damage inflicted on you will be
 increased.  Similarly, if you are surrounded by a frost shield and are
 attacked by a spell of a cold nature, you will suffer greater damage.
 
@@ -702,12 +702,12 @@ also slows healing and mana regeneration.
 
 Minimum level depends on your primary class and is:
 Mage:21  Cleric:25  Thief:27  Warrior:29  Monk: N/A   Necromancer:N/A
-~ 
+~
 
 0 'DIVINE INTERVENTION'~
 Syntax: cast 'divine intervention'
 
-This spell will restore all of the caster's hit points if successful.  The 
+This spell will restore all of the caster's hit points if successful.  The
 catch is that it also takes all of your mana.  The more mana you have the
 greater chance of the spell being successful.
 
@@ -825,8 +825,8 @@ Mage:9  Cleric:13  Thief:15   Warrior:18   Monk: N/A   Necromancer:N/A
 0 'MANA CONVERT'~
 Syntax: cast 'mana convert'
 
-This spell converts the physical energy of the caster into magical 
-energy.  It reduces your combat effectiveness, but allows you to 
+This spell converts the physical energy of the caster into magical
+energy.  It reduces your combat effectiveness, but allows you to
 cast more spells.
 
 Minimum level depends on your primary class and is:
@@ -855,7 +855,7 @@ Mage:24   Cleric:22   Thief:28   Warrior:26   Monk: N/A   Necromancer:24
 0 PLAGUE~
 Syntax: cast plague <victim>
 
-This spell causes the victim to suffer horribly with disease.  The 
+This spell causes the victim to suffer horribly with disease.  The
 victim feels weak, breaks out in boils and will eventually die if not healed.
 The plague is highly contagious.
 
@@ -904,15 +904,15 @@ Syntax: look in <portal name>
 Syntax: enter <portal name>
 
 Portals are gateways to another place.  To create a portal, use 'cast
-portal <target character>'.  This spell allows transport of multiple 
-characters, depending on the level of the caster, and is used primarily 
+portal <target character>'.  This spell allows transport of multiple
+characters, depending on the level of the caster, and is used primarily
 to transport groups.  The portal will disappear after some time or when
 a set number of people have entered it based on the level of the caster.
 
-To see what is on the other side of a portal, look in <portal name>.  
-To use a portal to go to this other place, enter <portal name>.  Most 
-portals (including those created using the spell) are called just 'portal', 
-but there may be portals of other names in certain rooms.. 
+To see what is on the other side of a portal, look in <portal name>.
+To use a portal to go to this other place, enter <portal name>.  Most
+portals (including those created using the spell) are called just 'portal',
+but there may be portals of other names in certain rooms..
 
 Portal is limited to M/M (minimum level 29) and C/C (minimum level 30).
 ~
@@ -935,14 +935,34 @@ dying.  There is a random chance that the resurrected player may lose none,
 some, or most of their eq, so they should be made aware of the risk involved
 in being resurrected.  The spell will fail if the player has nosummon on.
 
-Only C/C of level 31 or higher and necromancers of level 29 or higher can 
+Only C/C of level 31 or higher and necromancers of level 29 or higher can
 raise the dead.
+~
+62 IPORTAL WORMHOLE~
+Syntax: cast iportal <character/mob>
+Syntax: cast wormhole <character/mob>
+Syntax: look in <portal/wormhole>
+Syntax: enter <portal/wormhole>
+
+Portals are gateways to another place.  To create a portal, use 'cast
+iportal <target character>'.  This spell allows transport of multiple
+characters, depending on the level of the caster, and is used primarily
+to transport groups.  The portal will disappear after some time or when
+a set number of people have entered it based on the level of the caster.
+
+To see what is on the other side of a portal, look in <portal name>.
+To use a portal to go to this other place, enter portal.
+
+IPORTAL is an IMMORTAL-ONLY spell with no restrictions on target or the
+room it is casted from.  WORMHOLE is identical to iPortal, but connects
+the locations at both sides.
+
 ~
 
 0 REFRESH~
 Syntax: cast refresh <character>
 
-This spell refreshes the movement points of a character. 
+This spell refreshes the movement points of a character.
 
 Minimum level depends on your primary class and is:
 Mage:6  Cleric:4  Thief:8  Warrior:7  Monk: N/A   Necromancer:N/A
@@ -1018,7 +1038,7 @@ This is a placeholder for help on stinking cloud.
 0 SUMMON~
 Syntax: cast summon <character>
 
-This spell creates a gateway that works similarly to a portal except it 
+This spell creates a gateway that works similarly to a portal except it
 uses up all its magic when a single PC enters it.
 
 Minimum level depends on your primary class and is:
@@ -1028,7 +1048,7 @@ Mage:24   Cleric:12   Thief:29   Warrior:26   Monk: N/A   Necromancer:N/A
 0 TELEPORT~
 Syntax: cast <teleport>
 
-This spell takes you from your current location to a random location 
+This spell takes you from your current location to a random location
 somewhere in the world. This can be a risky thing to do, since it's
 a dangerous world.  Note that you can teleport only yourself, not mobs
 or other players.
@@ -1081,9 +1101,9 @@ Syntax: cast 'water burst' <victim>
 Syntax: cast 'geyser' <victim>
 
 Each of these spells inflicts water damage on the victim.  A material
-component is required to cast either of them - namely, water from a 
-container.  Geyser requires more water than 'water burst', as it is a more 
-powerful spell.  The amount of liquid needed will be extracted from the 
+component is required to cast either of them - namely, water from a
+container.  Geyser requires more water than 'water burst', as it is a more
+powerful spell.  The amount of liquid needed will be extracted from the
 container to fuel the spell.
 
 For water burst, minimum level depends on your primary class and is:
@@ -1095,7 +1115,7 @@ Geyser is only available to M/M and C/C, with a minimum level of 43.
 0 WEAKEN~
 Syntax: cast weaken <victim>
 
-This spell reduces the strength of the victim by an amount that depends on 
+This spell reduces the strength of the victim by an amount that depends on
 the level of the spellcaster.
 
 Minimum level depends on your primary class and is:
@@ -1120,13 +1140,13 @@ Mage:40   Cleric:42   Thief:48   Warrior:48   Monk: N/A   Necromancer:44
 0 'WORD OF RECALL'~
 Syntax: cast 'word of recall'
 
-This spell duplicates the built-in RECALL ability.  It is available to 
-full clerics (C/C) of level 28 or higher, but is not generally considered 
-useful since the recall skill is free and costs no mana. 
+This spell duplicates the built-in RECALL ability.  It is available to
+full clerics (C/C) of level 28 or higher, but is not generally considered
+useful since the recall skill is free and costs no mana.
 
 ~
 
-0 'DRACONIAN SPELLS' 'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH' 
+0 'DRACONIAN SPELLS' 'ACID BREATH' 'FIRE BREATH' 'FROST BREATH' 'GAS BREATH'
 'LIGHTNING BREATH'~
 Syntax: cast 'acid breath'      <victim>
 Syntax: cast 'fire breath'      <victim>
@@ -1150,5 +1170,3 @@ lightning breath - 36
 
 0 $~
 #$
-
-

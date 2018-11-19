@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542645210
+LogO 1542665560
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,12 @@ Gui  0
 Psionic  2
 Cast none
 Levl 22
-Tru  69
-Plyd 22543
+Plyd 24007
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 4208
+Room 10176
 HMV  143 143 162 162 208 208
 NewGold 0
 NewPlat 0
@@ -69,7 +68,7 @@ Pnts 40
 TSex 1
 LLev 3
 HMVP 143 162 208
-Cond 0 24 24
+Cond 0 31 31
 Sk 1 'armor'
 Sk 1 'burning hands'
 Sk 1 'chill touch'
@@ -80,6 +79,7 @@ Sk 1 'giant strength'
 Sk 1 'identify'
 Sk 1 'lightning bolt'
 Sk 1 'magic missile'
+Sk 100 'iportal'
 Sk 1 'refresh'
 Sk 1 'shield'
 Sk 1 'dagger'

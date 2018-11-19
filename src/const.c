@@ -33,7 +33,7 @@ void  (*move_table[])(CHAR_DATA*, char*) =
 const   struct attack_type      attack_table    []              =
 {
     {   "hit",          -1              },  /*  0 */
-    {   "slice",        DAM_SLASH       },      
+    {   "slice",        DAM_SLASH       },
     {   "stab",         DAM_PIERCE      },
     {   "slash",        DAM_SLASH       },
     {   "whip",         DAM_SLASH       },
@@ -360,7 +360,7 @@ const	struct	race_type	race_table	[]		=
 	"$n slithers in from $T.",
 	"$n slithers $t."
     },
- 
+
     {
 	"song bird",            FALSE,
 	0,              AFF_FLYING,             OFF_FAST|OFF_DODGE,
@@ -393,7 +393,7 @@ const	struct	race_type	race_table	[]		=
 	"undead",           FALSE,
 	0, AFF_DETECT_EVIL|AFF_DETECT_MAGIC|AFF_DETECT_HIDDEN, 0,
 	IMM_CHARM|IMM_POISON|IMM_DISEASE,
-        RES_SLASH|RES_PIERCE, 
+        RES_SLASH|RES_PIERCE,
 	VULN_FIRE|VULN_LIGHTNING|VULN_HOLY|VULN_BASH,
 	M, A|B|C|D|G|H|I|J|K,
 	"$n appears to the $t.",
@@ -402,16 +402,16 @@ const	struct	race_type	race_table	[]		=
 
     {
 	"vampire",           FALSE,
-        0, 
+        0,
 	AFF_DETECT_EVIL|AFF_DETECT_MAGIC|AFF_DETECT_HIDDEN,
 	OFF_RESCUE,
 	IMM_CHARM|IMM_POISON|IMM_DISEASE,
-        RES_MENTAL, 
+        RES_MENTAL,
         VULN_DROWNING|VULN_LIGHT|VULN_HOLY|VULN_SILVER,
 	A|C|D|H, D|E|H|J|K|V,
 	"A mist floats in from the $t and $n materializes in front of you.",
 	"$n melts into the shape of a small bat and flies off $t."
-    },          
+    },
 
     {
 	"water fowl",           FALSE,
@@ -420,7 +420,7 @@ const	struct	race_type	race_table	[]		=
 	A|G|W,          A|C|D|E|F|H|K|P,
 	"$n flies in from $T.",
 	"$n flies $t."
-    },          
+    },
 
     {
 	"wolf",                 FALSE,
@@ -664,11 +664,11 @@ const   struct  guildmaster_type        guildmaster_table       []  =
     {   /* 10 Ninja Master */
 	24,     CLASS_ANY,    GUILD_THIEF,
 	{
-	  "dirt kicking",   "second attack",   
+	  "dirt kicking",   "second attack",
 	  "trip",           "backstab"
 	},
 	{
-	  "dirt kicking",   "second attack",  
+	  "dirt kicking",   "second attack",
 	  "trip",           "backstab"
 	}
     },
@@ -713,7 +713,7 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	31,     CLASS_OTHER,   GUILD_CLERIC,
 	{
 	  "icicle",          "water burst",      "dust devil",
-	  "sunray",          
+	  "sunray",
 	  "cause critical",  "cause light",      "cause serious",
 	  "cancellation",     "dispel magic",    "protection evil",
 	  "sanctuary",        "shield",          "stone skin"
@@ -785,7 +785,7 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	36,     CLASS_OTHER,   GUILD_CLERIC,
 	{
 	  "cure light",      "cure serious",     "cure critical",
-	  "heal",	
+	  "heal",
 	  "bless",           "calm",             "mana convert",
 	  "remove curse",    "aid",              "holy word",
           "blindness",       "curse",            "energy drain",
@@ -842,7 +842,7 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	  "colour spray",    "fireball",
 	  "shocking grasp",
 	  "icicle",          "water burst",      "dust devil",
-	  "sunray",          
+	  "sunray",
 	  "blindness",       "curse",            "energy drain",
 	  "poison",          "weaken",           "second attack"
 	},
@@ -1856,7 +1856,7 @@ const   struct  con_app_type    con_app         [MAX_STAT+1]            =
     {  8, 99 },
     {  9,100 }     /* 30 */
 };
- 
+
 
 /*
  * Liquid properties.
@@ -2693,6 +2693,22 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	"portal",		"!Portal!"
     },
 
+		{
+	"iportal",
+	{ 62, 62, 62, 62, 62, 62 },	{ 1, 1, 2, 2, 2, 2},
+	spell_iportal,		TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(594),	1,	12,
+	"iportal",		"!iPortal!"
+		},
+
+		{
+	"wormhole",
+	{ 62, 62, 62, 62, 62, 62 },	{ 1, 1, 2, 2, 2, 2},
+	spell_wormhole,		TAR_IGNORE,		POS_STANDING,
+	NULL,			SLOT(595),	1,	12,
+	"wormhole",		"!wormhole!"
+		},
+
     {
 	"power gloves",
 	{ 25,  62, 62, 62, 62, 62 },     { 2, 2, 2, 2, 2, 2},
@@ -2723,7 +2739,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	spell_divine_intervention,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(559),	9,	18,
 	"",			"!Divine Intervention!"
-    },	
+    },
 
     {
 	"refresh",
@@ -2925,7 +2941,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	spell_death_ray,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(563),	500,	12,
 	"DEATH RAY",		"!Death Ray!"
-    },	
+    },
 
     {
 	"vortex",
@@ -2992,7 +3008,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	spell_neutrality_field,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(560),	35,	12,
 	"Wave of Blackness",	"!Neutrality Field!"
-    },	
+    },
 
     {
 	"fire breath",
@@ -3051,7 +3067,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	spell_cause_madness,  TAR_CHAR_DEFENSIVE,   POS_RESTING,
 	NULL,	SLOT(564),	10,  	12,
 	"",		"You feel more sane."
-    },		
+    },
 
 /* psi skills */
 
@@ -3466,7 +3482,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	&gsn_baura,		SLOT( 0),	0,	24,
 	"",			"Your bloody aura fades away."
     },
-	
+
 
     {
 	"levitate",

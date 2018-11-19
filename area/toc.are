@@ -234,7 +234,7 @@ Please type HELP RULES, ignorance of the rules is not an excuse.
 
 
       NOTE: If the MUD crashes when you attempt to log in a character,
-      please leave a note to Killuminati with the name.  [help note]   
+      please leave a note to Killuminati with the name.  [help note]
                                             - Killuminati (11/19/2018)
 
 ~
@@ -244,8 +244,14 @@ Welcome Immortal!
 
 NEW COMMANDS:
 
+ - c iportal <target> - immortal only spell, identical to portal, but with
+ 		no restrictions on target or room casted. (set skill self iportal 100)
+- c wormhole <target> - immortal only spell, identical to iportal, but connects
+ 		the locations at both sides.  (set skill self wormhole 100)
+
  - Use the qflag command to set the (Quest) flag on players during imm quests.
  - Use the rwhere command to find the location of a specific room name.
+ - Depending on level, you will now see [WizInfo] alerts for psionic information.
 
 ~
 
@@ -488,18 +494,28 @@ Date           Name(s)            Offense                Punishment
 ~
 
 -1 NEWS~
-(Last updated: yesterday)
+(Last updated: 11/19/2018)
+
+- Components are once again properly scattering around the world.  Also,
+	all scribe & concoct recipes are once again working!
+
+- Psionic chance has been raised from (1) 10% chance to (3) 5% chances
+	between levels 18-22.  (Approximately a 5% chance increase). However,
+	the chance of being granted some of the better psionic abilities have been
+	lowered slightly.)
+
+- Visibility of the psionic message has been increased greatly.  Also, all
+	characters will now be notified via INFO if a player is granted
+	psionic abilities!
+
+- Bug causing the MUD to crash when some older pfiles were loaded has been
+	fixed!  (Send a note to Killuminati if this happens again.)
 
 - MUD Diploma at the end of the school now has +10 to all leveling stats. :)
+
 - Gossip channel level requirement required.
+
 - You can now save at level 1.
-
-- There exists a staff of great power in the land of Sembia.  It is broken
-  into 7 pieces and the one who can find them all and re-assemble the staff
-  will be holding a great power.
-
-  NOTE: Multiple staffs can exist, once it is assembled the pieces will be
-        re-scattered :)
 
 - Eq can now get damaged, you need to go to an armorer or weaponsmith to
   repair the items, using a repair <item> syntax.

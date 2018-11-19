@@ -1,11 +1,11 @@
 #AREA   { ALL } Drakk   City of Dresden~
 
 #HELPS
--1 
+-1
 Dresden~
 Dresden, City of Adventure!  Welcome all ye adventurers to our wonderful city.
 We boast many fine Inns and Shops and have the best guilds in the land.  One
-warning... do not commit crimes within the city limits, the town guards are a 
+warning... do not commit crimes within the city limits, the town guards are a
 bit over-anxious to punish any offenders.
 ~
 
@@ -69,7 +69,7 @@ Bud, the famous dwarven Mercenary Master, stands here smoking a cigar.
 ~
 Bud is the biggest dwarf you have ever seen.  He stands almost 4'10 and must
 weigh over 300 lbs!  For his enormous size it looks like he is just a large
-pile of muscles.  He carries a human sized 2 handed axe slung over one 
+pile of muscles.  He carries a human sized 2 handed axe slung over one
 shoulder and has on a fine vest of mithril chain mail.  Looking at the
 number of scars on his body there is no doubt in your mind that Bud is
 indeed the famous dragon killer known throughout the land.
@@ -82,7 +82,7 @@ FHKNQ ABC D 0
 8 8 1 10000
 0 0 M 0
 #2404
-mercenary pet~ 
+mercenary pet~
 the mercenary~
 A mercenary guard is here to do your bidding.
 ~
@@ -97,7 +97,7 @@ BIU S 0 S
 8 8 1 0
 0 0 M 0
 #2405
-elf scout pet~      
+elf scout pet~
 the elven scout~
 A small agile elven scout is here keeping an eye out for ambushes.
 ~
@@ -126,7 +126,7 @@ N 0 C 0
 8 8 1 0
 0 0 L 0
 #2407
-dwarf warrior pet~ 
+dwarf warrior pet~
 the dwarven warrior~
 A stout dwarven wearrior is here leaning on an axe.
 ~
@@ -154,7 +154,7 @@ BIU S 0 S
 -4 -4 -4 -8
 C 0 C 0
 8 8 1 0
-0 0 G 0 
+0 0 G 0
 #2409
 nomad warrior~
 the nomadic warrior~
@@ -169,7 +169,7 @@ BIU S 0 S
 -10 -10 -10 -5
 C 0 C 0
 8 8 1 0
-0 0 H 0 
+0 0 H 0
 #2420
 paco shopowner~
 Paco~
@@ -214,7 +214,7 @@ human~
 BMV 0 0 S
 23 0 1d1+999 1d1+99 1d8+20 13
 -15 -15 -15 -15
-CDF ABCD 0 0 
+CDF ABCD 0 0
 8 8 1 500
 0 0 M 0
 #2423
@@ -244,7 +244,7 @@ BTVM 0 0 S
 -15 -15 -15 -15
 CEIK ABCD 0 0
 8 8 1 25000
-0 0 M 0  
+0 0 M 0
 #2425
 thief~
 the thief~
@@ -308,7 +308,7 @@ Melancholy~
 Melancholy is here, with a sack full of permits, guild papers, and maps.
 ~
 Ragged brown hair frames a ghostly, pale face.  Puffy eyelids surround two
-sky blue, haunting eyes.  An old, brown robe is wrapped around her frail 
+sky blue, haunting eyes.  An old, brown robe is wrapped around her frail
 frame.  She looks up from her pile of papers and maps and looks inquiringly
 at you, smiling faintly.
 ~
@@ -342,7 +342,7 @@ A drunk who seems to be too happy, and to carry too much money.
 ~
 human~
 G 0 400 S
-2 1 2d6+22 1d1+99 1d6+0 13 
+2 1 2d6+22 1d1+99 1d6+0 13
 8 8 8 10
 U 0 0 C
 8 8 1 65
@@ -391,7 +391,7 @@ FGHU 0 -200 M
 8 8 3 0
 0 0 S 0
 {
-A 8 
+A 8
 $n pees on $N's leg.~
 $n pees on your leg.~
 }
@@ -410,7 +410,7 @@ NU 0 0 C
 8 8 3 10
 0 0 M 0
 #2436
-horse pony pet~ 
+horse pony pet~
 the pony~
 A cute little pony is ready to take you places.
 ~
@@ -424,7 +424,7 @@ I 0 C 0
 8 8 1 0
 0 0 M 0
 #2437
-donkey horse mule pet~ 
+donkey horse mule pet~
 a pack mule~
 A weary looking pack mule is standing here.
 ~
@@ -439,7 +439,7 @@ I 0 C 0
 8 8 1 0
 0 0 M 0
 #2438
-horse gelding pet~ 
+horse gelding pet~
 the gelding~
 A handsome gelding stands here.
 ~
@@ -455,7 +455,7 @@ I 0 C 0
 8 8 1 0
 0 0 M 0
 #2439
-horse stallion pet~ 
+horse stallion pet~
 the stallion~
 A jet black stallion stands here.
 ~
@@ -470,7 +470,7 @@ I 0 C 0
 8 8 1 0
 0 0 M 0
 #2440
-horse warhorse pet~ 
+horse warhorse pet~
 the warhorse~
 A massive warhorse stomps noisily here.
 ~
@@ -486,7 +486,7 @@ I 0 C 0
 8 8 1 0
 0 0 M 0
 #2441
-elephant pet~ 
+elephant pet~
 the elephant~
 An enormous elephant swings his trunk here.
 ~
@@ -507,9 +507,9 @@ Templar tg~
 Templar of Devota~
 The Templar of Devota is here guarding the doorway.
 ~
-The Templar of Devota is a very powerful figure clothed in white robes.  He 
-towers over even the tallest humans around.  From the looks of his dark skin 
-he is from the nearby deserts, and from you have heard of the nomadic warriors 
+The Templar of Devota is a very powerful figure clothed in white robes.  He
+towers over even the tallest humans around.  From the looks of his dark skin
+he is from the nearby deserts, and from you have heard of the nomadic warriors
 of the deserts he is probably best left alone.
 ~
 giant~
@@ -520,11 +520,11 @@ ACDEFHIKLNOT ABP CD 0
 8 8 1 0
 0 0 H 0
 #4201
-healer Santa Claus~             
+healer Santa Claus thepit devota~             
 Santa Claus~
 Santa Claus is lending a hand to heal you.
 ~
-He's finished delivering his gifts and now he is filling in for the 
+He's finished delivering his gifts and now he is filling in for the
 vacationing healer.
 Type 'heal' to see a listing of spells.
 ~
@@ -541,7 +541,7 @@ The Grinch~
 The Grinch is waiting for an opportunity to steal the roast beast.
 ~
 He hates Christmas, hates hates hates it!  And he is determined to keep
-you from having any fun at all!  
+you from having any fun at all!
 ~
 giant~
 BMTV CDFJ 1000 S
@@ -748,11 +748,11 @@ Valkur~
 Leaning against the wall is a muscled warrior in sparkling, steel armour.
 He greets you with a warm smile and says 'How may I help you?'
 ~
-Valkur wears a white cloak across his back with Breas' coat of arms stitched 
-into it with golden thread. A steel breastplate covers his torso, and he is 
-wearing steel plates about his legs. On his feet he wears boots made from the 
-finest mithril, and his head is covered by a great war helmet with a red plume 
-upon the top. At his side is a giant, two-handed sword tied to his scabbard in 
+Valkur wears a white cloak across his back with Breas' coat of arms stitched
+into it with golden thread. A steel breastplate covers his torso, and he is
+wearing steel plates about his legs. On his feet he wears boots made from the
+finest mithril, and his head is covered by a great war helmet with a red plume
+upon the top. At his side is a giant, two-handed sword tied to his scabbard in
 a peace knot.
 ~
 human~
@@ -828,7 +828,7 @@ A warhammer is strapped to her leg, and she wears light chain mail.
 ~
 human~
 GQ DN 0 S
-16 5 6d6+190 1d1+99 3d4+15 7 
+16 5 6d6+190 1d1+99 3d4+15 7
 -5 -5 -5 -5
 EFKT AB 0 0
 8 8 2 0
@@ -852,7 +852,7 @@ templar knight~
 a knight templar~
 A knight templar stands here, guarding the temple from intruders.
 ~
-A flail is strapped to her leg, and she wears a suit of plate mail on her 
+A flail is strapped to her leg, and she wears a suit of plate mail on her
 body.
 ~
 human~
@@ -1104,7 +1104,7 @@ A Strange stone statues stands at the head of the pass.
 ~
 A large worn statue stands here at the head of what looks like a box canyon,
 its hard to tell the features of it because of the damage done to the statue
-from the elements. Up ahead in the distance you can see another strange 
+from the elements. Up ahead in the distance you can see another strange
 phenomenon, maybe you should go explore.
 ~
 unique~
@@ -1372,7 +1372,7 @@ light chain mail~
 a suit of light chain mail~
 This armour looks like its made from aluminum.~
 steel~
-9 DGIKLM AD 
+9 DGIKLM AD
 6 7 7 0 0
 15 15 400 P
 #4623
@@ -1397,7 +1397,7 @@ steel~
 15 14 300 P
 A
 21 -3
-A 
+A
 25 -5
 #4625
 white apron~
@@ -1500,7 +1500,7 @@ torch~
 a torch~
 A flaming torch is here.~
 wood~
-1 AI AO 
+1 AI AO
 0 0 35 0 0
 0 4 10 P
 A
@@ -1801,11 +1801,11 @@ adamantite~
 #2401
 Center of Christmas Tree Square.~
 This is the center of the square.  It is dominated by the trunk of the biggest
-Christmas tree you have ever seen.  It must be at least 10 feet in 
-diameter and one hundred feet tall!  As you look up, you can see some kind 
-of structure nestles in the branches high above you.  You also see a large 
-portal carved into the side of the tree, with an unearthly light emanating 
-from within.  Taking a closer look you see a staircase leading down into 
+Christmas tree you have ever seen.  It must be at least 10 feet in
+diameter and one hundred feet tall!  As you look up, you can see some kind
+of structure nestles in the branches high above you.  You also see a large
+portal carved into the side of the tree, with an unearthly light emanating
+from within.  Taking a closer look you see a staircase leading down into
 the mighty tree.  Near the base of a tree is a sign.
 
 For the holiday season the tree is strung with popcorn and cranberries.
@@ -1888,7 +1888,7 @@ west~
 S
 #2403
 Eastern Christmas Tree Square.~
-This is the eastern side of Christmas Tree Square.  To the east you see 
+This is the eastern side of Christmas Tree Square.  To the east you see
 Battle Road which leads to the Citadel of War and the east gate of Dresden.
 
 Colored lights have been hung around the square for the holiday season.
@@ -1946,7 +1946,7 @@ Southwestern corner of Christmas Tree Square.
 S
 #2405
 Western Christmas Tree Square.~
-This is the western side of Christmas Tree Square.  To the west you see 
+This is the western side of Christmas Tree Square.  To the west you see
 Temple Blvd which leads to the western gates of the city.
 
 Colored lights have been hung around the square for the holiday season.
@@ -2271,9 +2271,9 @@ town.  To the North you see the towers of Drakkar's Palace.  To the east you
 can hear the sounds of a market and to the west you see the tall spires of
 what can only be the University of Magic.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2306,9 +2306,9 @@ town.  To the North you see the towers of Drakkar's Palace.  To the east you
 can hear the sounds of a market and to the west you see the tall spires of
 what can only be the University of Magic.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2342,9 +2342,9 @@ town.  To the North you see the gates to Drakkar's Palace.  To the east you
 can hear the sounds of a market and to the west you see the tall spires of
 what can only be the University of Magic.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2379,12 +2379,12 @@ You can see a huge tree in the distance.
 S
 #2420
 Battle Road~
-You are on a very well made stone road that goes from the East Gates to 
+You are on a very well made stone road that goes from the East Gates to
 Christmas Tree Square.  To the north east you see a large citadel.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2401,13 +2401,13 @@ You see Christmas Tree Square immediately west.
 S
 #2421
 Battle Road~
-You are on a very well made stone road that goes from the East Gates to 
-Christmas Tree Square.  To the south you see River Road.  To the northeast 
+You are on a very well made stone road that goes from the East Gates to
+Christmas Tree Square.  To the south you see River Road.  To the northeast
 you see a large citadel.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2429,12 +2429,12 @@ You see Christmas Tree Square up ahead.
 S
 #2422
 Battle Road~
-You are on a very well made stone road that goes from the East Gates to 
+You are on a very well made stone road that goes from the East Gates to
 Christmas Tree Square.  To the north east you see a large citadel.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2451,13 +2451,13 @@ In the distance you see a large tree.
 S
 #2423
 Battle Road~
-You are on a very well made stone road that goes from the East Gates to 
-Christmas Tree Square.  To the north is a door with a sign hanging over 
+You are on a very well made stone road that goes from the East Gates to
+Christmas Tree Square.  To the north is a door with a sign hanging over
 it depicting a bloody axe.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2484,24 +2484,24 @@ Off in the distance you see a large tree.
 E
 sign~
 	  _                                            _
-      /\_| |_/\           BLOODY AXE INN           /\_| |_/\ 
+      /\_| |_/\           BLOODY AXE INN           /\_| |_/\
      (  _ * _  )                                  (  _ + _  )
       \/ | | \/      All Adventurers Welcome!      \/ | | \/
 	 | |                                          | |
 	 | |        Grunar the Dwarf Proprieter       | |
 	 |\|                                          |/|
 	 |\|                                          |/|
-	 |\|                                          |/|       
+	 |\|                                          |/|
 ~
 S
 #2424
 Battle Road~
-You are on a very well made stone road that goes from the East Gates to 
+You are on a very well made stone road that goes from the East Gates to
 Christmas Tree Square.  To the north you see the wall of a large citadel.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2572,9 +2572,9 @@ There is a lot more traffic on this road than on any other you have seen in
 town.  To the North you see the an enormous tree.  To the west are broad steps
 up to the temple of Devota.  South leads to the southern gates of the city.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2601,9 +2601,9 @@ There is a lot more traffic on this road than on any other you have seen in
 town.  To the North you see the an enormous tree.  South leads over a bridge
 to the southern gates of the city.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2646,9 +2646,9 @@ There is a lot more traffic on this road than on any other you have seen in
 town.  Just to the north is the Bridge of the Mermaids, and in the distance
 you see the an enormous tree.  The southern gates are to the south.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2687,7 +2687,7 @@ You see a large street heading to the heart of Dresden.
 ~
 0 -1 2430
 D2
-Through the gates you see a road which leads into the forested hills 
+Through the gates you see a road which leads into the forested hills
 to the south of Dresden.
 ~
 gate gates~
@@ -2711,7 +2711,7 @@ The Southern Gates of Dresden.
 gate gates~
 1 2499 2431
 D2
-The green forests of the Miden'nir are south, reportedly hiding countless 
+The green forests of the Miden'nir are south, reportedly hiding countless
 goblin warriors.
 ~
 ~
@@ -2729,9 +2729,9 @@ You are on a very well made stone road that goes from the West Gates to Oak
 Tree Square. To the west are the broad steps that lead up to the temple of
 Devota.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2753,12 +2753,12 @@ You see the west gates in the distance.
 S
 #2434
 Temple Boulevard.~
-You are on a very well made stone road that goes from the West Gates to 
+You are on a very well made stone road that goes from the West Gates to
 Christmas Tree Square.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2775,12 +2775,12 @@ You see the west gates in the distance.
 S
 #2435
 Temple Boulevard.~
-You are on a very well made stone road that goes from the West Gates to 
+You are on a very well made stone road that goes from the West Gates to
 Christmas Tree Square.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2802,12 +2802,12 @@ You see the west gates in the distance.
 S
 #2436
 Temple Boulevard.~
-You are on a very well made stone road that goes from the West Gates to 
+You are on a very well made stone road that goes from the West Gates to
 Christmas Tree Square.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2829,12 +2829,12 @@ You see the west gates up ahead.
 S
 #2437
 Temple Boulevard.~
-You are on a very well made stone road that goes from the West Gates to 
+You are on a very well made stone road that goes from the West Gates to
 Christmas Tree Square.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2851,7 +2851,7 @@ Off in the distance you see a large tree.
 D2
 ~
 ~
-0 -1 4800 
+0 -1 4800
 D3
 You see the west gates just ahead.
 ~
@@ -2942,9 +2942,9 @@ River Road is a shabbily made cobblestone road with many missing stones
 and is quite uneven.  It follows the course of the river to the docks.
 The is a sign hanging over the door on the Inn to the west.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -2976,9 +2976,9 @@ River Road is a shabbily made cobblestone road with many missing stones
 and is quite uneven.  It follows the course of the river to the docks.
 To the north is a building with a sign above the door.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3012,9 +3012,9 @@ River Road.~
 River Road is a shabbily made cobblestone road with many missing stones
 and is quite uneven.  It follows the course of the river to the docks.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3034,9 +3034,9 @@ River Road.~
 River Road is a shabbily made cobblestone road with many missing stones
 and is quite uneven.  It follows the course of the river to the docks.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3063,9 +3063,9 @@ and is quite uneven.  It follows the course of the river to the docks.
 This is the end of the road. The docks are to the south.  A boat shop of some
 sort is to the southeast.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3291,7 +3291,7 @@ Main Room of Tavern.
 E
 sign~
 			 Riverside Tavern Menu
- 
+
                          Roasted Chestnuts
                          Stuffed Goose
                          Figgy Pudding
@@ -3600,9 +3600,9 @@ seems very quiet here as if disconnected from the hustle and bustle of the rest
 of the city.  To the north the tall spires of the University of Magic extend
 into the sky.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3626,9 +3626,9 @@ of the city.  Directly north are the broad steps leading to one of the
 entrances to the University of Magic.  To the south is a building with a sign
 over the door.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3671,9 +3671,9 @@ seems very quiet here as if disconnected from the hustle and bustle of the rest
 of the city.  To the northeast the tall spires of the University of Magic
 extend into the sky.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3701,9 +3701,9 @@ You notice it is very quiet here as if disconnected from the hustle and bustle
 of the rest of the city.  To the east the tall spires of the University of
 Magic extend into the sky.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3776,9 +3776,9 @@ You notice it is very quiet here as if disconnected from the hustle and bustle
 of the rest of the city.  To the southeast the tall spires of the University of
 Magic extend into the sky.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3802,9 +3802,9 @@ as if disconnected from the hustle and bustle of the rest of the city.  To the
 south the tall spires of the University of Magic extend into the sky.  There
 is a sign posted over the doorway to the north.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3859,9 +3859,9 @@ although you do not leave any tracks in it.  You notice it is very quiet here
 as if disconnected from the hustle and bustle of the rest of the city.  To the
 south the tall spires of the University of Magic extend into the sky.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -3880,8 +3880,8 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute gifts.  To the south is a 
-very large group of tents.  The building to the north has a sign over 
+surrounding buildings, shopping for last minute gifts.  To the south is a
+very large group of tents.  The building to the north has a sign over
 the doorway.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -3925,8 +3925,8 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute presents.  To the east you 
-hear loud clanging from what can only be a forge.  There is a small shop 
+surrounding buildings, shopping for last minute presents.  To the east you
+hear loud clanging from what can only be a forge.  There is a small shop
 to the north.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -3958,7 +3958,7 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute presents.  To the east you 
+surrounding buildings, shopping for last minute presents.  To the east you
 hear loud clanging from what can only be a forge.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -4043,7 +4043,7 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute presents.  To the east you 
+surrounding buildings, shopping for last minute presents.  To the east you
 hear loud clanging from what can only be a forge.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -4074,7 +4074,7 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute presents.  To the north is a 
+surrounding buildings, shopping for last minute presents.  To the north is a
 very large group of tents.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -4117,7 +4117,7 @@ S
 Market Plaza.~
 The Market Plaza is alive with activity.  There are booths and tents all over
 the plaza.  You see people going in and out of the open doorways of all the
-surrounding buildings, shopping for last minute presents.  To the north is 
+surrounding buildings, shopping for last minute presents.  To the north is
 a fountain.  The building to the south has a sign over the doorway.
 
 The Dresden Merchant's Association has erected an elaborate holiday display,
@@ -4335,9 +4335,9 @@ town.  To the North you see the towers of Drakkar's Palace.  To the east you
 can hear the sounds of a market and to the west you see the tall spires of
 what can only be the University of Magic.
 
-Strands of colored lights have been hung all around to celebrate the 
+Strands of colored lights have been hung all around to celebrate the
 holiday season.  There are also paper cut out menorahs and dreidels here
-and there and a big lettered sign saying "Happy New Year" spans the 
+and there and a big lettered sign saying "Happy New Year" spans the
 roadway.
 ~
 24 0 1
@@ -5062,9 +5062,9 @@ S
 
 #2535
 Mercenary Guild~
-You enter a large room with many tables and chairs about.  There is the 
-musky smell of worn leather and sweaty bodies.  Looking around the room you 
-think you stepped into the anteroom of an areana.  There are many different 
+You enter a large room with many tables and chairs about.  There is the
+musky smell of worn leather and sweaty bodies.  Looking around the room you
+think you stepped into the anteroom of an areana.  There are many different
 types of fierce looking fighters from an array of backgrounds around the room.
 There is a counter at the far end of the room with a sign scrawled in chalk.
 ~
@@ -5103,7 +5103,7 @@ S
 Mecenary holding room.~
 This is the room used to hold the mercenaries waiting to be rented out to the
 next lucky adventurer.  This room must be one number higher than the actual
-shop room number and the special procedure spec_pet_shop_owner must be 
+shop room number and the special procedure spec_pet_shop_owner must be
 assigned to the shop owner.
 ~
 24 CJKN 0
@@ -5124,7 +5124,7 @@ S
 West trail around Dresden~
    You are on a dusty trail following the outside wall of Dresden.
 To the east the wall towers over you and to the west you see the
-forest of Haon-Dor. The trail leads north and south along the wall. 
+forest of Haon-Dor. The trail leads north and south along the wall.
 ~
 30 0 2
 D0
@@ -5142,11 +5142,11 @@ S
 West trail around Dresden~
    You are on a dusty trail following the outside wall of Dresden.
 To the east the wall towers over you and to the west you see the
-forest of Haon-Dor. The trail leads north and south along the wall. 
+forest of Haon-Dor. The trail leads north and south along the wall.
 ~
 30 0 2
 D0
-To the north you notice the path makes a turn, following the City wall. 
+To the north you notice the path makes a turn, following the City wall.
 ~
 ~
 0 -1 3902
@@ -5159,7 +5159,7 @@ S
 #3902
 Northwest corner of dusty trail.~
    You are standing outside the northwestern corner of the city wall.
-The trail leads east following the north wall and south towards the gate.  
+The trail leads east following the north wall and south towards the gate.
 ~
 30 0 2
 D1
@@ -5176,7 +5176,7 @@ S
 #3903
 Dusty trail along north wall.~
    You are walking on the trail following the outside of Dresden's
-northern wall.  
+northern wall.
 ~
 30 0 2
 D1
@@ -5185,7 +5185,7 @@ The dusty trail is winding along the north wall of Dresden.
 ~
 0 -1 3904
 D3
-The dusty trail turns left around the corner of the wall, behind it Haon-Dor. 
+The dusty trail turns left around the corner of the wall, behind it Haon-Dor.
 ~
 ~
 0 -1 3902
@@ -5194,8 +5194,8 @@ S
 The long dusty trail following the north wall.~
 You are along the northern wall of Dresden.  You can continue along
 the trail to the east or west, or head onwards to the plains of the north
-You can just barely make out the buildings of Dresden from here, the Palace 
-of Drakkar looks impressive even from this distance.  
+You can just barely make out the buildings of Dresden from here, the Palace
+of Drakkar looks impressive even from this distance.
 ~
 30 0 2
 D0
@@ -5204,7 +5204,7 @@ A small path extends into the plains.
 ~
 0 -1 300
 D1
-The dusty trail is winding along the north wall of Dresden. 
+The dusty trail is winding along the north wall of Dresden.
 ~
 ~
 0 -1 3905
@@ -5222,11 +5222,11 @@ S
 #3905
 Dusty trail along north wall.~
    You are walking on the trail following the outside of Dresden's
-northern wall.  
+northern wall.
 ~
 30 0 2
 D1
-The dusty trail turns right around the corner of the wall. 
+The dusty trail turns right around the corner of the wall.
 You notice some mountains in the distance.
 ~
 ~
@@ -5240,7 +5240,7 @@ S
 #3906
 Northeast corner of dusty trail.~
    You are standing outside the northeastern corner of the city wall.
-The trail leads west following the north wall and south towards the gate.  
+The trail leads west following the north wall and south towards the gate.
 ~
 30 0 2
 D1
@@ -5263,11 +5263,11 @@ S
 East trail around Dresden~
    You are on a dusty trail following the outside wall of Dresden.
 To the west the wall towers over you and far to the east you see
-some mountains. The trail leads north and south along the wall. 
+some mountains. The trail leads north and south along the wall.
 ~
 30 0 2
 D0
-To the north you notice the path makes a turn, following the City wall. 
+To the north you notice the path makes a turn, following the City wall.
 ~
 ~
 0 -1 3906
@@ -5281,7 +5281,7 @@ S
 East trail around Dresden~
    You are on a dusty trail following the outside wall of Dresden.
 To the west the wall towers over you and far to the east you see
-some mountains. The trail leads north and south along the wall. 
+some mountains. The trail leads north and south along the wall.
 ~
 30 0 2
 D0
@@ -5494,7 +5494,7 @@ Hatchet, Kahn, and Furey of MERC Industries to be run by any MERC Mud.
 1992 December 17
 
 The City of Dresden was created by Drakk and Modib for Dragons, Legends,
-and Lore MUD. 
+and Lore MUD.
 7 June 1994.
 
 ~
@@ -5503,7 +5503,7 @@ S
 Altar of the Temple of Devota.~
 The altar is made out of an enormous piece of white marble.  Behind it is a
 statue in the likeness of Devota herself looking out into her temple with a
-pleasant smile upon her face.  
+pleasant smile upon her face.
 
 A roaring fire blazes in front of the altar and a several Christmas stockings
 have been hung over the fireplace, with the names of the various immortals
@@ -6156,7 +6156,7 @@ plaque~
 
 							     by Drakk
 							     05/20/94
-					   
+
 ~
 S
 #4322
@@ -6204,7 +6204,7 @@ plaque~
 
 							     by Drakk
 							     05/20/94
-					   
+
 ~
 S
 #4324
@@ -6253,8 +6253,8 @@ door east~
 S
 #4327
 Captains Quarters.~
-This small but comfortable room has a bed, desk, and table with 4 chairs 
-in it.  It is devoid of any decorations.  It definitely looks like the room 
+This small but comfortable room has a bed, desk, and table with 4 chairs
+in it.  It is devoid of any decorations.  It definitely looks like the room
 of a warrior.
 ~
 43 8 0
@@ -6506,7 +6506,7 @@ door south~
 S
 #4343
 Mad Magicians Room.~
-This room is in disarray as if a hurricane had wiped through it.  You see 
+This room is in disarray as if a hurricane had wiped through it.  You see
 a man in long dark robes step out of the shadows.
 ~
 43 9 0
@@ -6920,7 +6920,7 @@ ledge that continues along the wall of the circular room.  When you look down
 the shaft ends in darkness.  Looking up you cannot see the ceiling.  There are
 exits leading in all directions.  You see a sign above each of the archways.
 ~
-43 0 9 
+43 0 9
 
 D1
 Hallway.
@@ -7284,7 +7284,7 @@ shield plaque~
 .
 							     by Drakk
 							     05/20/94
- 
+
 ~
 S
 #4402
@@ -10310,9 +10310,9 @@ D2
 S
 #4648
 Dark Wine Cellar.~
-     You have entered a very dark wine cellar.  It is filled with aging 
+     You have entered a very dark wine cellar.  It is filled with aging
 casks of wine.  There are many racks with bottles that rise to the ceiling.
-As you look around you get an uneasy feeling that you are not alone. . . 
+As you look around you get an uneasy feeling that you are not alone. . .
 ~
 46 8 0
 D4
@@ -10668,7 +10668,7 @@ Abandoned Storeroom~
 You are standing in a now unused storeroom. Creates, sacks, and unfamilar objects are stacked haphazardly in every corner. In the center of the room there is a huge iron ring attached to a thick wooden door.
 ~
 4 ADK 0
-D3    
+D3
 ~
 ~
 1 -1 4707
@@ -10941,7 +10941,7 @@ S
 #4802
 The narrow entrance~
 You have reached the entrance of a narrow box canyon. Standing beside you is
-an odd weather worn stone statue, that seems oddly out of place in the 
+an odd weather worn stone statue, that seems oddly out of place in the
 beautiful surroundings. Up ahead, you can catch glimpses of what looks like a
 large hand rising out of the earth and open heavenwards, now if you can only
 get past this statue.
@@ -10970,8 +10970,8 @@ your limbs, and you suddenly feel yourself moving.
 S
 #4804
 The Quiet Place~
-Silent trees surround you as you appear in this room, a gentle breeze stirs 
-at your feet and you can see that exits lead in most of the compass 
+Silent trees surround you as you appear in this room, a gentle breeze stirs
+at your feet and you can see that exits lead in most of the compass
 directions.
 ~
 48 K 4
@@ -11003,7 +11003,7 @@ Back to the Beginning.
 S
 #4805
 The Masters Place~
-Here resides the Master of all the monks, it is he that monks seek for 
+Here resides the Master of all the monks, it is he that monks seek for
 guidance. Lighted joss sticks fill the room with the sweet perfume of lotus
 flowers. But you stand in awe not at the room but of the power of the man
 that sits within it.
@@ -11029,8 +11029,8 @@ S
 #4807
 The Training room~
 The sounds of strenuous exercise come from a man at the center of this
-room. Target dummies line the area, some with broken parts others shattered 
-into small pieces. The man moves fluidly among the dismembered parts, 
+room. Target dummies line the area, some with broken parts others shattered
+into small pieces. The man moves fluidly among the dismembered parts,
 practicing some sort of martial art that reminds you of a bird...
 ~
 41 K 4
@@ -11074,7 +11074,7 @@ S
 *
 * -- Resets added by Eclipse (4600)
 *
-M 0 59 1 4652 
+M 0 59 1 4652
 O 0 32 4 4656
 O 0 32 4 4657
 O 0 32 4 4658
@@ -11104,7 +11104,7 @@ G 1 9582 10   ; a pink wand
 G 1 9581 10   ; a wand of oak
 G 1 9579 10   ; a grey-silver wand
 *
-M 0 2402 1 2495       Jewelers shop guy.   
+M 0 2402 1 2495       Jewelers shop guy.
 G 1 1310 -1             silver bar
 G 1 1311 -1             gold bar
 G 1 1312 -1             mithril bar
@@ -11112,7 +11112,7 @@ G 1 3043 -1             ring of protection
 *
 M 0 2403 1 2535       Bud the Mercenary Master shop guy.
 M 0 2404 1 2536         human mercenary
-M 0 2405 1 2536         elven scout  
+M 0 2405 1 2536         elven scout
 M 0 2406 1 2536         human bodyguard
 M 0 2407 1 2536         dwarven warrior
 M 0 2408 1 2536         giant gladiator
@@ -11419,7 +11419,7 @@ O 0 3135 10 4301 fountain in center of university
 *
 *  GMs for university
 *
-M 0 40    1  4329 wand/staff makers shop  
+M 0 40    1  4329 wand/staff makers shop
 G 1 9582 10         a pink wand
 G 1 9581 10         a wand of oak
 G 1 9579 10         a grey-silver wand
@@ -11538,7 +11538,7 @@ E 1 4610 14 13
 E 1 4611 14 12
 E 1 4614 14 8
 *
-M 0 4610 1 4630         Load monk at cherry tree    
+M 0 4610 1 4630         Load monk at cherry tree
 E 1 4610 14 13
 E 1 4611 14 12
 E 1 4614 14 8
@@ -11579,16 +11579,16 @@ M 0 4613 3 4623        Load servant temple garden
 *
 *
 M 0 4614 1 4612         Load Valkur in blacksmith
-E 1 4615 3 3             
+E 1 4615 3 3
 E 1 4615 3 4
-E 1 4616 2 5             
+E 1 4616 2 5
 E 1 4617 2 7
 E 1 4618 2 8
 E 1 4619 2 6
 E 1 4620 1 16
 G 0 4615 0
 G 0 4616 0
-G 0 4617 0 
+G 0 4617 0
 G 0 4618 0
 G 0 4619 0
 G 0 4622 0
@@ -11660,7 +11660,7 @@ G 0 4641 0
 G 0 4640 0
 G 0 4638 0
 G 0 4639 0
-G 0 4643 0 
+G 0 4643 0
 G 0 4644 0
 G 0 4645 0
 *
@@ -11728,7 +11728,7 @@ D 0 4712 4 1        Crypt Entrance Close Up
 D 0 4708 5 1        Abandoned Storeroom Close Down
 *
 M 0 4701 1 4721     Guild Master
-* 
+*
 M 0 4702 1 4721     Undead Cleric
 O 0 3010 1 4721     sacrificial pit to Master's Chambers
 O 0 3010 1 4804     pit in the quiet place
@@ -11762,7 +11762,7 @@ M 0 33   1  4642  hero of Breas garding the temple
 M 0 34   1  4630  convert magician in garden (cherry tree)
 M 0 35   1  4635  healer in temple
 M 0 36   1  4605  missionary of breeas in courtyard
-M 0 37   1  4639  high priestess at altar        
+M 0 37   1  4639  high priestess at altar
 *
 * ----- Door Resets -----
 *
@@ -11992,7 +11992,7 @@ D 0 4648 4 1            # Wine Cellar.
 *
 * gates to the city
 *
-D 0 2439 1 1    outside west gates 
+D 0 2439 1 1    outside west gates
 D 0 2438 3 1    inside west gates
 D 0 2440 3 0    outside east gates
 D 0 2426 1 1    inside east gates
@@ -12044,7 +12044,7 @@ E 1 4446 1 5       wear platemail
 * ------- ------
 * Regular Guards
 * ------- ------
-M 0 4452 1 2514 
+M 0 4452 1 2514
 E 1 4449 1 5       wear vest
 E 1 4447 1 11      wear shield
 E 1 4448 1 16      wield sword
@@ -12094,7 +12094,7 @@ E 1 4459 1 4       wear amulet R
 E 1 4491 1 5       wear platemail
 E 1 4464 1 6       wear helm
 E 1 4466 1 7       wear leggings
-E 1 4468 1 8       wear boots 
+E 1 4468 1 8       wear boots
 E 1 4467 1 9       wear gauntlets
 E 1 4465 1 10      wear sleeves
 E 1 4471 1 11      wear shield
@@ -12164,7 +12164,7 @@ E 1 4488 1 16      wield 2 handed sword
 M 0 4468 2 2572  Bow Guard II
 E 1 4484 1 5       wear brass plate
 E 1 4489 1 16      wield bow
-*                
+*
 M 0 4468 5 2430  Sword Guard III
 E 1 4484 1 5       wear brass plate
 E 1 4485 1 16      wield longsword
@@ -12219,12 +12219,12 @@ M 0 4458 15 2574
 M 0 4459 10 2480
 M 0 4459 10 2444
 *
-M 0 4459 3 2458   
+M 0 4459 3 2458
 E 1 4497 4 4       wear cloak of storage R
 *
 M 0 4459 5 2580
 *
-M 0 4459 2 2550    
+M 0 4459 2 2550
 E 1 4498 3 1       wear ring of holding L
 *
 * --- ----
@@ -12319,8 +12319,8 @@ S
  4622    0  0  0  0  0   100 100         7 20   ; cook
  4624    2  5  0  0  0   100 100         0 23   ; missionary
  13      5  6  7  9  0   100  50         0 23   ; The blacksmith WG/GM
- 21      15 0  0  0  0   100  50         0 23   ; The shopkeeper TG/GM 
- 25      0  0  0  0  0   100  50         0 23   ; The cook TG/GM 
+ 21      15 0  0  0  0   100  50         0 23   ; The shopkeeper TG/GM
+ 25      0  0  0  0  0   100  50         0 23   ; The cook TG/GM
  40      3  0  0  0  0   105  15         0 23   ; The Wand shop MG/GM
  42      4  10 0  0  0   105  15         0 23   ; The magic shop MG/GM
  51      9  0  0  0  0   100  50         0 23   ; The Armourer W/GM
@@ -12381,7 +12381,7 @@ M  2434 spec_fido           fidos in town.
 *M  3067 spec_guard          guards in town
 *M  3060 spec_guard          guards in town
 M  2425 spec_thief          thieves in town
-M  2435 spec_janitor        janitors in town    
+M  2435 spec_janitor        janitors in town
 *
 M 4460 spec_pet_shop_owner Pet shop Girl (exotics)
 *
@@ -12423,4 +12423,3 @@ S
 
 
 #$
-

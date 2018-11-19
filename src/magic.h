@@ -109,6 +109,8 @@ DECLARE_SPELL_FUN(	spell_pass_door		);
 DECLARE_SPELL_FUN(      spell_plague		);
 DECLARE_SPELL_FUN(	spell_poison		);
 DECLARE_SPELL_FUN(      spell_portal		);
+DECLARE_SPELL_FUN(      spell_iportal		);
+DECLARE_SPELL_FUN(      spell_wormhole		);
 DECLARE_SPELL_FUN(      spell_power_gloves      );
 DECLARE_SPELL_FUN(	spell_protection	);
 DECLARE_SPELL_FUN(	spell_raise_dead	);

@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542646997
+LogO 1542665732
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,7 +15,7 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2576698
+Plyd 2586577
 ListRemorts ~
 NumRemorts 0
 Note 1542515167
@@ -180,6 +180,7 @@ Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
 Sk 100 'portal'
+Sk 100 'iportal'
 Sk 100 'power gloves'
 Sk 100 'protection evil'
 Sk 100 'raise dead'
@@ -305,7 +306,6 @@ Sk 100 'track'
 Sk 100 'wands'
 Sk 100 'recall'
 Sk 100 'enchant item'
-Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'

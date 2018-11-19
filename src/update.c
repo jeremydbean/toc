@@ -824,12 +824,11 @@ void weather_update( void )
     case  5:
 	weather_info.sunlight = SUN_LIGHT;
 	strcat( buf, "The day has begun.\n\r" );
+  component_update();
 	break;
 
     case  6:
 	weather_info.sunlight = SUN_RISE;
-  wizinfo("Component Update!",MAX_LEVEL);
-  component_update();
 	switch( dice(1,4) )
 	{
 	  case 1:
@@ -837,20 +836,20 @@ void weather_update( void )
 	  break;
 	  case 2:
 	  strcat( buf,"The sun rises on the eastern horizen.\n\r");
+    component_update();
 	  break;
 	  case 3:
 	  strcat( buf,"A rooster crows off in the distance, and daylight streaks across the heavens.\n\r");
 	  break;
 	  case 4:
 	  strcat( buf,"The sun slowly glides up into the sky as the new day begins.\n\r");
+  	component_update();
 	  break;
 	}
 	break;
 
     case 18:
 	weather_info.sunlight = SUN_SET;
-  wizinfo("Component Update!",MAX_LEVEL);
-  component_update();
 	switch( dice(1,6) )
 	{
 	    case 1:
@@ -859,6 +858,7 @@ void weather_update( void )
 
 	    case 2:
 	    strcat( buf, "The sky is ablaze with colors as the sun dips below the horizon.\n\r" );
+    	component_update();
 	    break;
 
 	    case 3:
@@ -867,6 +867,7 @@ void weather_update( void )
 
 	    case 4:
 	    strcat( buf, "The rainbow colors of an aurora fill the night sky.\n\r");
+      component_update();
 	    break;
 
 	    case 5:
@@ -881,9 +882,8 @@ void weather_update( void )
 
     case 20:
 	weather_info.sunlight = SUN_DARK;
-  wizinfo("Component Update!",MAX_LEVEL);
-  component_update();
 	strcat( buf, "The night has begun.\n\r" );
+  component_update();
 
 	break;
 
@@ -916,13 +916,13 @@ void weather_update( void )
 	{
 	  case MOON_NEW:
 	    strcat(buf,"A new moon sets.\n\r");
+      component_update();
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon sets.\n\r");
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon sets.\n\r");
-      wizinfo("Component Update!",MAX_LEVEL);
       component_update();
 	  break;
 	  case MOON_WANING:
@@ -939,15 +939,18 @@ void weather_update( void )
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon rises.\n\r");
+      component_update();
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon rises.\n\r");
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon rises.\n\r");
+      component_update();
 	  break;
 	}
 	weather_info.moon_place = MOON_UP;
+  component_update();
       break;
     }
 
@@ -1022,8 +1025,6 @@ void weather_update( void )
 	{
 	    strcat( buf, "The rain gently tapers off.\n\r" );
 	    weather_info.sky = SKY_CLOUDY;
-      wizinfo("Component Update!",MAX_LEVEL);
-      component_update();
 	}
 	break;
 
@@ -1033,8 +1034,6 @@ void weather_update( void )
 	{
 	    strcat( buf, "The lightning has stopped.\n\r" );
 	    weather_info.sky = SKY_RAINING;
-      wizinfo("Component Update!",MAX_LEVEL);
-      component_update();
 	    break;
 	}
 	break;
