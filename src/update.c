@@ -2757,9 +2757,9 @@ void disaster_update( void )
 
 	     if(hit == TRUE)
 	     {
-		       EXIT_DATA *pexit;
-		       int door, move, rand_door[10];
-		       int count = -1;
+		     EXIT_DATA *pexit;
+		     int door, move, rand_door[10];
+		     int count = -1;
 
 		       for(move = dice(1,3) ; move > 0; move--)
 		         {
@@ -2769,18 +2769,18 @@ void disaster_update( void )
 			                    count++;
 			                    rand_door[count] = door;
 		                 }
-		       door = number_range(0,count);
-		       if(rand_door >= 0)
-		         {
-		             send_to_char("You struggle in vain as the flood waters carry you along.\n\r",vch);
-		             act("$n is carried off by the flood waters.",vch,NULL,NULL,TO_ROOM);
-		             SET_BIT(vch->act, PLR_WIZINVIS);
-		              move_char( vch, rand_door[door], TRUE);
-		              REMOVE_BIT(vch->act, PLR_WIZINVIS);
-		              act("$n arrives on a wave of water screaming, 'HHggEEggLLggPP!'.",vch,NULL,NULL,TO_ROOM);
-		              damage(vch,vch,dice(4,4),skill_lookup("waterfall"),DAM_LIGHTNING);
-		         }
-		       count = -1;
+		              door = number_range(0,count);
+		              if(rand_door >= 0)
+		                {
+    		             send_to_char("You struggle in vain as the flood waters carry you along.\n\r",vch);
+		                 act("$n is carried off by the flood waters.",vch,NULL,NULL,TO_ROOM);
+		                 SET_BIT(vch->act, PLR_WIZINVIS);
+		                 move_char( vch, rand_door[door], TRUE);
+		                 REMOVE_BIT(vch->act, PLR_WIZINVIS);
+		                 act("$n arrives on a wave of water screaming, 'HHggEEggLLggPP!'.",vch,NULL,NULL,TO_ROOM);
+		                 damage(vch,vch,dice(4,4),skill_lookup("waterfall"),DAM_LIGHTNING);
+		                 }
+		             count = -1;
 		}
 	     }
 	   break;
@@ -2846,7 +2846,7 @@ void disaster_update( void )
 	       if( hit )
 	       {
 		         damage(vch,vch,dam,skill_lookup("earthquake"),DAM_BASH);
-		          vch->position = POS_STUNNED;
+		         vch->position = POS_STUNNED;
 	       }
 	     }
 	   break;

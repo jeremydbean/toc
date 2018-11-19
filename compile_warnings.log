@@ -127,19 +127,25 @@ gcc -c -g -O -Wall -DROM  -lcrypt misc.c
 gcc -c -g -O -Wall -DROM  -lcrypt interp.c
 gcc -c -g -O -Wall -DROM  -lcrypt magic.c
 magic.c: In function ‘spell_dispel_magic’:
-magic.c:1937:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:1936:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if (check_dispel(level,victim,skill_lookup("detect invis")))
      ^~
-magic.c:1940:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:1939:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
   found = TRUE;
   ^~~~~
 magic.c: In function ‘spell_heat_metal’:
-magic.c:2890:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2889:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
       if ( number_bits( 2 ) != 0 )
       ^~
-magic.c:2893:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2892:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
     switch ( obj_lose->item_type )
     ^~~~~~
+magic.c:2953:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if ( saves_spell( level, victim ) )
+     ^~
+magic.c:2955:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       damage( ch, victim, dam, sn, DAM_FIRE );
+       ^~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
 gcc -c -g -O -Wall -DROM  -lcrypt save.c
 save.c: In function ‘fread_char’:
