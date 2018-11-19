@@ -1,8 +1,9 @@
 #PLAYER
 Name Smmith~
 Id   19095
-LogO 941148390
+LogO 1542594673
 Vers 3
+Prom ~
 Ignoring ~
 Race elf~
 Sex  1
@@ -11,14 +12,17 @@ Gui  0
 Psionic  2
 Cast none
 Levl 35
-Plyd 315576
+Plyd 316571
 ListRemorts ~
 NumRemorts 0
 Note 937252879
 Scro 22
 Room 2412
 HMV  561 561 353 442 114 329
-Gold 75211
+NewGold 75211
+NewPlat 0
+NewCopp 0
+NewSilv 0
 Bank 0
 Dcount 0
 Corpses	0
@@ -157,9 +161,9 @@ Gr 'enhancement'
 Gr 'mage maladictions'
 Gr 'mage protective'
 Gr 'mage transportation'
-AffD 'detect invis'  26  10   0   0          8          0
-AffD 'haste'   0   6   4   2    2097152          0
 AffD 'fly'  33  28   0   0     524288          0
+AffD 'haste'   0   6   4   2    2097152          0
+AffD 'detect invis'  26  10   0   0          8          0
 End
 
 #O
