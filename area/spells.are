@@ -938,28 +938,6 @@ in being resurrected.  The spell will fail if the player has nosummon on.
 Only C/C of level 31 or higher and necromancers of level 29 or higher can
 raise the dead.
 ~
-62 IPORTAL WORMHOLE~
-Syntax: cast iportal <character/mob>
-Syntax: cast wormhole <character/mob>
-Syntax: look in <portal/wormhole>
-Syntax: enter <portal/wormhole>
-
-Portals are gateways to another place.  To create a portal, use 'cast
-iportal <target character>'.  This spell allows transport of multiple
-characters, depending on the level of the caster, and is used primarily
-to transport groups.  The portal will disappear after some time or when
-a set number of people have entered it based on the level of the caster.
-
-To see what is on the other side of a portal, look in <portal name>.
-To use a portal to go to this other place, enter portal.
-
-IPORTAL is an IMMORTAL-ONLY spell with no restrictions on target or the
-room it is casted from.  WORMHOLE is identical to iPortal, but connects
-the locations at both sides.  Use this command carefully, as the portals
-created DO NOT EVAPORATE until reboot!  You can modify the destination
-of the portal/wormhole by using the command "set obj portal v1 <vnum>"
-
-~
 
 0 REFRESH~
 Syntax: cast refresh <character>

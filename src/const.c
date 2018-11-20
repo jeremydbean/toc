@@ -2693,7 +2693,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	"portal",		"!Portal!"
     },
 
-		{
+/*		{
 	"iportal",
 	{ 62, 62, 62, 62, 62, 62 },	{ 1, 1, 2, 2, 2, 2},
 	spell_iportal,		TAR_IGNORE,		POS_STANDING,
@@ -2707,7 +2707,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
 	spell_wormhole,		TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(595),	1,	12,
 	"wormhole",		"!wormhole!"
-		},
+}, */
 
     {
 	"power gloves",

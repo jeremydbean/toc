@@ -796,6 +796,7 @@ void do_telekinesis( CHAR_DATA *ch, char *argument )
     if ( query_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
         continue;
        }
+
 	   if ( !is_full_name( arg, obj->name )
 		|| obj->item_type == ITEM_TREASURE
 		|| obj->item_type == ITEM_MONEY

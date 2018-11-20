@@ -833,12 +833,14 @@ void weather_update( void )
 	{
 	  case 1:
 	  strcat( buf,"Daylight paints the sky a bright red, heralding a new day.\n\r");
+    component_update();
 	  break;
 	  case 2:
 	  strcat( buf,"The sun rises on the eastern horizen.\n\r");
 	  break;
 	  case 3:
 	  strcat( buf,"A rooster crows off in the distance, and daylight streaks across the heavens.\n\r");
+    component_update();
 	  break;
 	  case 4:
 	  strcat( buf,"The sun slowly glides up into the sky as the new day begins.\n\r");
@@ -860,6 +862,7 @@ void weather_update( void )
 
 	    case 3:
 	    strcat( buf, "Stars begin to shine coldly as the night begins.\n\r");
+      component_update();
 	    break;
 
 	    case 4:
@@ -872,6 +875,7 @@ void weather_update( void )
 
 	    case 6:
 	    strcat( buf, "Thousands of stars paint the sky as night begins.\n\r");
+      component_update();
 	    break;
 	}
 	break;
@@ -916,6 +920,7 @@ void weather_update( void )
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon sets.\n\r");
+      component_update();
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon sets.\n\r");
@@ -934,6 +939,7 @@ void weather_update( void )
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon rises.\n\r");
+      component_update();
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon rises.\n\r");

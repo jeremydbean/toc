@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1542693554
+LogO 1542745269
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  3
 Psionic  1
 Cast none
 Levl 27
-Plyd 40014
+Plyd 40066
 ListRemorts ~
 NumRemorts 0
 Note 1542589633
 Scro 22
-Room 4210
-HMV  625 625 231 285 25 300
+Room 4201
+HMV  625 625 285 285 298 300
 NewGold 3
 NewPlat 265
 NewCopp 6
@@ -30,7 +30,8 @@ PkRec 0
 PkGiv 0
 Exp  62126
 Act  65740
-AfBy 2621496
+AfBy 2621624
+AfBy2 4104
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -70,7 +71,7 @@ Pnts 40
 TSex 1
 LLev 3
 HMVP 590 262 256
-Cond 0 37 37
+Cond 0 100 100
 Alias k kick~
 Alias re rescue~
 Sk 6 'confuse'
@@ -101,18 +102,21 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'armor'  23  12 -20  17          0          0
-AffD 'aid'   0  12  35  13          0          0
-AffD 'aid'  25  12   7  18          0          0
-AffD 'giant strength'   0  14   4   1          0          0
-AffD 'shield'   0  22 -20  17          0          0
-AffD 'fly'   0  17   0   0     524288          0
-AffD 'bless'   0  20  -8  24          0          0
-AffD 'bless'  22  20   8  18          0          0
-AffD 'haste'  19   0   4   2    2097152          0
-AffD 'detect invis'  26   3   0   0          8          0
-AffD 'detect magic'   0   3   0   0         16          0
-AffD 'detect hidden'  51   3   0   0         32          0
+AffD 'fire shield'   0   4   0   0          0          8
+AffD 'divine protection'   0  10   0   0          0       4096
+AffD 'haste'   0  17   4   2    2097152          0
+AffD 'sanctuary'  19  12   0   0        128          0
+AffD 'detect hidden'  51   2   0   0         32          0
+AffD 'detect magic'   0   2   0   0         16          0
+AffD 'detect invis'  26   2   0   0          8          0
+AffD 'bless'  22  19   8  18          0          0
+AffD 'bless'   0  19  -8  24          0          0
+AffD 'fly'   0  16   0   0     524288          0
+AffD 'shield'   0  21 -20  17          0          0
+AffD 'giant strength'   0  13   4   1          0          0
+AffD 'aid'  25  11   7  18          0          0
+AffD 'aid'   0  11  35  13          0          0
+AffD 'armor'  23  11 -20  17          0          0
 End
 
 #O
@@ -218,8 +222,8 @@ Cost 8500
 Cond 100
 Repd 0
 Val  6 6 5 0 0
-Affect -1 18 -1 -6 14 0 0
 Affect -1 18 -1 13 12 0 0
+Affect -1 18 -1 -6 14 0 0
 End
 
 #O
@@ -337,7 +341,7 @@ Lev  14
 Cost 10
 Cond 100
 Repd 0
-Val  0 0 9930 0 0
+Val  0 0 9929 0 0
 End
 
 #O

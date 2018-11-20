@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542726515
+LogO 1542745269
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,7 +15,7 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2634373
+Plyd 2649165
 ListRemorts ~
 NumRemorts 0
 Note 1542515167
@@ -33,7 +33,7 @@ PkRec 0
 PkGiv 0
 QuestPnts 24
 Exp  1214750
-Act  336126
+Act  65788
 AfBy 512
 Comm 155680
 Mounted 0
@@ -182,8 +182,6 @@ Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
 Sk 100 'portal'
-Sk 100 'iportal'
-Sk 100 'wormhole'
 Sk 100 'power gloves'
 Sk 100 'protection evil'
 Sk 100 'raise dead'
@@ -309,22 +307,10 @@ Sk 100 'track'
 Sk 100 'wands'
 Sk 100 'recall'
 Sk 100 'enchant item'
+Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-End
-
-#O
-Vnum 12
-Nest 0
-ShD  the head of Kyrus~
-Desc The severed head of Kyrus is lying here.~
-ExtF 16777216
-Wear -1
-Lev  1
-Cost 0
-Cond 25
-Repd 0
 End
 
 #O

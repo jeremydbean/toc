@@ -4071,6 +4071,40 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )
     OBJ_DATA *obj;
     char buf[MAX_INPUT_LENGTH];
 
+    if (IS_IMMORTAL(ch))
+    {
+      if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+      ||   victim == ch
+      ||   victim->in_room == NULL )
+      {
+  	send_to_char( "Target not found.\n\r", ch );
+  	return;
+      }
+
+      pObjIndex = get_obj_index( 33 );
+      obj = create_object( pObjIndex, 0 );
+      obj_to_room( obj, victim->in_room );
+      obj->timer = 3;
+      obj->value[0] = 2;
+      obj->value[1] = ch->in_room->vnum;
+
+      act("A swirling portal of colors appears before you.",victim, NULL,
+    NULL, TO_ROOM);
+      send_to_char("A swirling portal of colors appears before you.\n\r",victim);
+      send_to_char("Your target is aware of the summons.\n\r",ch);
+
+      sprintf(buf,"%s has tried to summon %s. [Room %d]",
+     (ch->short_descr == NULL ? ch->short_descr : ch->name),
+     (victim->short_descr == NULL ? victim->short_descr : victim->name),
+     victim->in_room->vnum);
+      if(IS_SET(ch->act, PLR_WIZINVIS) )
+       wizinfo(buf,ch->invis_level);
+      else
+       wizinfo(buf, LEVEL_IMMORTAL);
+      return;
+  }
+    else
+    {
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
@@ -4122,6 +4156,7 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )
     else
      wizinfo(buf, LEVEL_IMMORTAL);
     return;
+  }
 }
 
 
@@ -4614,6 +4649,45 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
     OBJ_INDEX_DATA *pObjIndex;
     OBJ_DATA  *obj;
 
+    if (IS_IMMORTAL(ch))
+    {
+      if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+      ||   victim == ch
+      ||   victim->in_room == NULL )
+      {
+  	send_to_char( "Target not found.\n\r", ch );
+  	return;
+      }
+
+      pObjIndex = get_obj_index( 33 );
+      obj = create_object( pObjIndex, 0 );
+      obj_to_room( obj, ch->in_room );
+      obj->timer = 3;
+      obj->value[0] = 3;
+      obj->value[1] = victim->in_room->vnum;
+      obj->value[2] = 1 + ch->level/15;
+
+      act("A swirling portal of colors appears before you.",victim, NULL,
+  	NULL, TO_ROOM);
+      send_to_char("A swirling portal of colors appears before you.\n\r",victim);
+      send_to_char("A portal has opened at your target.\n\r",ch);
+      act("A swirling portal of colors appears before you.",ch,NULL,
+  	NULL,TO_ROOM);
+
+      sprintf(buf,"%s has created a portal to %s. [Room %d]",
+  	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
+  	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
+  	 victim->in_room->vnum);
+
+    if(IS_SET(ch->act, PLR_WIZINVIS) )
+      wizinfo(buf,ch->invis_level);
+    else
+      wizinfo(buf, LEVEL_IMMORTAL);
+
+    return;
+}
+    else
+    {
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
@@ -4637,7 +4711,51 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 3;
+    obj->timer = 10;
+    obj->value[0] = 3;
+    obj->value[1] = victim->in_room->vnum;
+    obj->value[2] = 1 + ch->level/15;
+
+    act("A swirling portal of colors appears before you.",victim, NULL,
+	NULL, TO_ROOM);
+    send_to_char("A swirling portal of colors appears before you.\n\r",victim);
+    send_to_char("A portal has opened at your target.\n\r",ch);
+    act("A swirling portal of colors appears before you.",ch,NULL,
+	NULL,TO_ROOM);
+
+    sprintf(buf,"%s has created a portal to %s. [Room %d]",
+	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
+	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
+	 victim->in_room->vnum);
+
+    if(IS_SET(ch->act, PLR_WIZINVIS) )
+      wizinfo(buf,ch->invis_level);
+    else
+      wizinfo(buf, LEVEL_IMMORTAL);
+
+    return;
+  }
+}
+
+/*void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
+{
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+    OBJ_INDEX_DATA *pObjIndex;
+    OBJ_DATA  *obj;
+
+    if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+    ||   victim == ch
+    ||   victim->in_room == NULL )
+    {
+	send_to_char( "Target not found.\n\r", ch );
+	return;
+    }
+
+    pObjIndex = get_obj_index( 33 );
+    obj = create_object( pObjIndex, 0 );
+    obj_to_room( obj, ch->in_room );
+    obj->timer = 10;
     obj->value[0] = 3;
     obj->value[1] = victim->in_room->vnum;
     obj->value[2] = 1 + ch->level/15;
@@ -4661,8 +4779,8 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
 
     return;
 }
-
-void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
+*/
+/*void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
@@ -4680,55 +4798,7 @@ void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 0;
-    obj->description = "A massive portal spins slowly here.";
-    obj->short_descr = "a massive portal";
-    obj->value[0] = 3;
-    obj->value[1] = victim->in_room->vnum;
-    obj->value[2] = 1 + ch->level/15;
-
-    act("A huge swirling portal of colors appears before you.",victim, NULL,
-	NULL, TO_ROOM);
-    send_to_char("A huge swirling portal of colors appears before you.\n\r",victim);
-    send_to_char("A portal has opened at your target.\n\r",ch);
-    act("A huge swirling portal of colors appears before you.",ch,NULL,
-	NULL,TO_ROOM);
-
-    sprintf(buf,"%s has created an immortal portal to %s. [Room %d]",
-	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
-	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
-	 victim->in_room->vnum);
-
-    if(IS_SET(ch->act, PLR_WIZINVIS) )
-      wizinfo(buf,ch->invis_level);
-    else
-      wizinfo(buf, LEVEL_IMMORTAL);
-
-    return;
-}
-
-void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
-{
-    char buf[MAX_STRING_LENGTH];
-    CHAR_DATA *victim;
-    OBJ_INDEX_DATA *pObjIndex;
-    OBJ_DATA  *obj;
-
-    if ( ( victim = get_char_world( ch, target_name ) ) == NULL
-    ||   victim == ch
-    ||   victim->in_room == NULL )
-    {
-	send_to_char( "Target not found.\n\r", ch );
-	return;
-    }
-
-    pObjIndex = get_obj_index( 33 );
-    obj = create_object( pObjIndex, 0 );
-    obj_to_room( obj, ch->in_room );
-    obj->timer = 0;
-    obj->description = "A massive wormhole spins slowly here.";
-    obj->short_descr = "a massive wormhole";
-    obj->name = "wormhole";
+    obj->timer = 10;
     obj->value[0] = 3;
     obj->value[1] = victim->in_room->vnum;
     obj->value[2] = 1 + ch->level/15;
@@ -4736,25 +4806,23 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, victim->in_room );
-    obj->timer = 0;
-    obj->description = "A massive wormhole spins slowly here.";
-    obj->short_descr = "a massive wormhole";
-    obj->name = "wormhole";
+    obj->timer = 10;
     obj->value[0] = 3;
     obj->value[1] = ch->in_room->vnum;
     obj->value[2] = 1 + ch->level/15;
 
-    act("A huge wormhole appears before you.",victim, NULL,
+    act("A swirling portal of colors appears before you.",victim, NULL,
 	NULL, TO_ROOM);
-    send_to_char("A huge wormhole appears before you.\n\r",victim);
-    send_to_char("A wormhole has opened at your target.\n\r",ch);
-    act("A huge wormhole appears before you.",ch,NULL,
+    send_to_char("A swirling portal of colors appears before you.\n\r",victim);
+    send_to_char("A portal has opened at your target.\n\r",ch);
+    act("A swirling portal of colors appears before you.",ch,NULL,
 	NULL,TO_ROOM);
 
-    sprintf(buf,"%s has opened a wormhole to %s. [Room %d]",
+    sprintf(buf,"%s has created a portal to %s. [Room %d]",
 	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
 	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
 	 victim->in_room->vnum);
+
 
     if(IS_SET(ch->act, PLR_WIZINVIS) )
       wizinfo(buf,ch->invis_level);
@@ -4763,3 +4831,4 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
 
     return;
 }
+*/

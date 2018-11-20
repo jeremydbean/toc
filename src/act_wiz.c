@@ -517,6 +517,8 @@ void do_jail( CHAR_DATA *ch, char *argument )
     {
         REMOVE_BIT(victim->act, PLR_JAILED );
         REMOVE_BIT(victim->comm, COMM_NOCHANNELS );
+        REMOVE_BIT(victim->comm, COMM_NOTITLE);
+        victim->pcdata->title = str_dup(" the Jailbird.");
         SET_BIT(victim->act, PLR_EXCON );
         send_to_char( "You have been released from Jail.\n\r",victim );
         sprintf(buf,"%s released from Jail.\n\r",victim->name);
@@ -536,8 +538,11 @@ void do_jail( CHAR_DATA *ch, char *argument )
 
         SET_BIT(victim->act, PLR_JAILED );
         SET_BIT(victim->comm, COMM_NOCHANNELS );
+        SET_BIT(victim->comm, COMM_NOTITLE);
+        victim->pcdata->title = str_dup(" . (JAILED)");
         REMOVE_BIT(victim->act, PLR_WARNED );
-        send_to_char( "GO TO JAIL, do not pass GO, do not collect 200$.\n\r", victim);
+        REMOVE_BIT(victim->act, PLR_EXCON );
+        send_to_char( "GO TO JAIL, do not pass GO, do not collect $200.\n\r", victim);
         sprintf(buf,"%s is now in Jail.\n\r",victim->name);
         send_to_char( buf,ch);
         char_from_room( victim );
