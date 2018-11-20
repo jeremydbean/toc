@@ -836,14 +836,12 @@ void weather_update( void )
 	  break;
 	  case 2:
 	  strcat( buf,"The sun rises on the eastern horizen.\n\r");
-    component_update();
 	  break;
 	  case 3:
 	  strcat( buf,"A rooster crows off in the distance, and daylight streaks across the heavens.\n\r");
 	  break;
 	  case 4:
 	  strcat( buf,"The sun slowly glides up into the sky as the new day begins.\n\r");
-  	component_update();
 	  break;
 	}
 	break;
@@ -858,7 +856,6 @@ void weather_update( void )
 
 	    case 2:
 	    strcat( buf, "The sky is ablaze with colors as the sun dips below the horizon.\n\r" );
-    	component_update();
 	    break;
 
 	    case 3:
@@ -867,7 +864,6 @@ void weather_update( void )
 
 	    case 4:
 	    strcat( buf, "The rainbow colors of an aurora fill the night sky.\n\r");
-      component_update();
 	    break;
 
 	    case 5:
@@ -884,7 +880,6 @@ void weather_update( void )
 	weather_info.sunlight = SUN_DARK;
 	strcat( buf, "The night has begun.\n\r" );
   component_update();
-
 	break;
 
     case 24:
@@ -893,9 +888,8 @@ void weather_update( void )
 	break;
     }
 
-
-    if( time_info.hour == 11 || time_info.hour == 23)
-       component_update();
+/*    if( time_info.hour == 11 || time_info.hour == 23)
+       component_update(); */
 
       if (current_time > backup)
         do_backup();
@@ -916,14 +910,12 @@ void weather_update( void )
 	{
 	  case MOON_NEW:
 	    strcat(buf,"A new moon sets.\n\r");
-      component_update();
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon sets.\n\r");
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon sets.\n\r");
-      component_update();
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon sets.\n\r");
@@ -939,18 +931,15 @@ void weather_update( void )
 	  break;
 	  case MOON_WAXING:
 	    strcat(buf,"A crescent moon rises.\n\r");
-      component_update();
 	  break;
 	  case MOON_FULL:
 	    strcat(buf,"A full moon rises.\n\r");
 	  break;
 	  case MOON_WANING:
 	    strcat(buf,"A crescent moon rises.\n\r");
-      component_update();
 	  break;
 	}
 	weather_info.moon_place = MOON_UP;
-  component_update();
       break;
     }
 

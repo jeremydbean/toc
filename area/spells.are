@@ -955,7 +955,9 @@ To use a portal to go to this other place, enter portal.
 
 IPORTAL is an IMMORTAL-ONLY spell with no restrictions on target or the
 room it is casted from.  WORMHOLE is identical to iPortal, but connects
-the locations at both sides.
+the locations at both sides.  Use this command carefully, as the portals
+created DO NOT EVAPORATE until reboot!  You can modify the destination
+of the portal/wormhole by using the command "set obj portal v1 <vnum>"
 
 ~
 

@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542669121
+LogO 1542726285
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  0
 Psionic  2
 Cast none
 Levl 22
-Plyd 24040
+Plyd 24098
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 2
-HMV  143 143 162 162 208 208
+Room 4208
+HMV  166 166 128 163 170 226
 NewGold 0
 NewPlat 0
 NewCopp 0
@@ -28,14 +28,13 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  38000
-Act  82172
+Exp  44000
+Act  65788
 Comm 24576
-Invi 69
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 0
+Pk_State 1
 Jw_Timer 0
 ColFlag 1
 Color 0 0
@@ -56,18 +55,18 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 19
-Trai 21
+Prac 23
+Trai 25
 Alig  750
 ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Warlock~
+Titl  the Grand Sorcerer~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 143 162 208
+HMVP 166 163 226
 Cond 0 30 30
 Sk 1 'armor'
 Sk 1 'burning hands'
@@ -79,7 +78,6 @@ Sk 1 'giant strength'
 Sk 1 'identify'
 Sk 1 'lightning bolt'
 Sk 1 'magic missile'
-Sk 100 'iportal'
 Sk 1 'refresh'
 Sk 1 'shield'
 Sk 1 'dagger'

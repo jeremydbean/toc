@@ -2739,7 +2739,7 @@ char *item_type_name( OBJ_DATA *obj )
     case ITEM_PILL:             return "pill";
     case ITEM_MAP:              return "map";
     case ITEM_SCUBA_GEAR:       return "scuba gear";
-    case ITEM_PORTAL:		return "portal";
+    case ITEM_PORTAL:		        return "portal";
     case ITEM_MANIPULATION:     return "manipulate";
     case ITEM_SADDLE:           return "saddle";
     case ITEM_HERB:             return "herb";

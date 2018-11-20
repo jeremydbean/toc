@@ -2109,9 +2109,6 @@ case CON_GET_ALIGNMENT:
 	d->connected    = CON_PLAYING;
 	reset_char(ch);
 
-	component_update();
-	component_update();
-
 	if( ch->pcdata->psionic >= 1 )
 		{
 			ch->pcdata->last_level = 3;

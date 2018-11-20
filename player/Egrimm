@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1542601522
+LogO 1542693492
 Vers 3
 Desc .
 
@@ -63,18 +63,18 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1776733
+Plyd 1777356
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4210
-HMV  1598 1630 260 525 168 346
-NewGold 93
-NewPlat 339
-NewCopp 135
-NewSilv 150
-Bank 1554756
+HMV  1093 1630 14 525 81 346
+NewGold 3
+NewPlat 898
+NewCopp 49
+NewSilv 8
+Bank 1548000
 Dcount 0
 Corpses	0
 PkRec 1
@@ -83,7 +83,6 @@ QuestPnts 262
 Exp  133484
 Act  4260044
 AfBy 3678856
-AfBy2 4096
 Comm 28736
 Mounted 0
 On_Quest 0
@@ -214,19 +213,18 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'frenzy'   0  15 110  17          0          0
-AffD 'frenzy'   0  15  11  19          0          0
-AffD 'frenzy'   0  15  11  18          0          0
-AffD 'aid'   0  16  51  13          0          0
-AffD 'aid'   0  16   7  18          0          0
-AffD 'shield'   0  53 -20  17          0          0
-AffD 'divine protection'   0   2   0   0          0       4096
-AffD 'bless'   0  68  -8  24          0          0
-AffD 'bless'   0  68   8  18          0          0
+AffD 'frenzy'   0   5 110  17          0          0
+AffD 'frenzy'   0   5  11  19          0          0
+AffD 'frenzy'   0   5  11  18          0          0
+AffD 'aid'   0   6  51  13          0          0
+AffD 'aid'   0   6   7  18          0          0
+AffD 'shield'   0  43 -20  17          0          0
+AffD 'bless'   0  58  -8  24          0          0
+AffD 'bless'   0  58   8  18          0          0
+AffD 'stone skin'   0  35 -40  17          0          0
+AffD 'armor'   0   6 -20  17          0          0
+AffD 'giant strength'   0  34   4   1          0          0
 AffD 'sanctuary'   0   3   0   0        128          0
-AffD 'stone skin'   0  45 -40  17          0          0
-AffD 'armor'   0  16 -20  17          0          0
-AffD 'giant strength'   0  44   4   1          0          0
 End
 
 #O
@@ -341,7 +339,7 @@ Wear -1
 Cost 500
 Cond 100
 Repd 0
-Val  51 104 -1 -1 0
+Val  51 106 -1 -1 0
 Spell 1 'remove align'
 End
 
@@ -478,20 +476,6 @@ Cost 10
 Cond 20
 Repd 0
 Val  3 4 3 0 0
-End
-
-#O
-Vnum 29276
-Nest 1
-Wear -1
-Lev  51
-Time 5
-Cost 1000
-Cond 100
-Repd 0
-Spell 1 'cure blindness'
-Spell 2 'cure nightmare'
-Spell 3 'sleep'
 End
 
 #O
@@ -952,6 +936,17 @@ Lev  1
 Cost 0
 Cond 25
 Repd 0
+End
+
+#O
+Vnum 2310
+Nest 0
+Wear -1
+Lev  28
+Cost 1000
+Cond 100
+Repd 0
+Affect -1 28 -1 5 17 0 0
 End
 
 #O

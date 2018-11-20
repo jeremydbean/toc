@@ -477,7 +477,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if(IS_SET(ch->in_room->room_flags, ROOM_SILENT) )
+    if(IS_SET(ch->in_room->room_flags, ROOM_SILENT) && !IS_IMMORTAL(ch))
     {
     send_to_char("You try and utter your spell, but no sound comes out!\n\r",ch);
     return;
@@ -4680,12 +4680,12 @@ void spell_iportal( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 20;
+    obj->timer = 0;
     obj->description = "A massive portal spins slowly here.";
     obj->short_descr = "a massive portal";
-    obj->value[0] = 10;
+    obj->value[0] = 3;
     obj->value[1] = victim->in_room->vnum;
-    obj->value[2] = ch->level;
+    obj->value[2] = 1 + ch->level/15;
 
     act("A huge swirling portal of colors appears before you.",victim, NULL,
 	NULL, TO_ROOM);
@@ -4725,24 +4725,24 @@ void spell_wormhole( int sn, int level, CHAR_DATA *ch, void *vo )
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, ch->in_room );
-    obj->timer = 20;
+    obj->timer = 0;
     obj->description = "A massive wormhole spins slowly here.";
     obj->short_descr = "a massive wormhole";
     obj->name = "wormhole";
-    obj->value[0] = 10;
+    obj->value[0] = 3;
     obj->value[1] = victim->in_room->vnum;
-    obj->value[2] = ch->level;
+    obj->value[2] = 1 + ch->level/15;
 
     pObjIndex = get_obj_index( 33 );
     obj = create_object( pObjIndex, 0 );
     obj_to_room( obj, victim->in_room );
-    obj->timer = 20;
+    obj->timer = 0;
     obj->description = "A massive wormhole spins slowly here.";
     obj->short_descr = "a massive wormhole";
     obj->name = "wormhole";
-    obj->value[0] = 10;
+    obj->value[0] = 3;
     obj->value[1] = ch->in_room->vnum;
-    obj->value[2] = ch->level;
+    obj->value[2] = 1 + ch->level/15;
 
     act("A huge wormhole appears before you.",victim, NULL,
 	NULL, TO_ROOM);
