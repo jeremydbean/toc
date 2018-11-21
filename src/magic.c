@@ -3727,7 +3727,7 @@ void spell_power_gloves( int sn, int level, CHAR_DATA *ch, void *vo)
     else
     af.duration  = 12;
     af.location  = APPLY_DAMROLL;
-    af.modifier  = dice(1,6) + level/10;
+    af.modifier  = dice(1,6) * level/4;
     af.bitvector = 0;
     af.bitvector2 = 0;
     affect_to_char( victim, &af );
