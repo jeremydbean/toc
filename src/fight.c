@@ -980,7 +980,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
     {   dam /= 2;
     }
 
-    if ( IS_AFFECTED(victim, AFF_PROTECT) )
+    if ( IS_AFFECTED(victim, AFF_PROTECT) && IS_EVIL(ch) )
     {   if (!IS_AFFECTED(victim, AFF_SANCTUARY))
           dam -= dam / 4;
         else

@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542820243
+LogO 1542822647
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  4
 Psionic  2
 Cast none
 Levl 53
-Plyd 31699
+Plyd 32437
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 29204
-HMV  470 731 884 884 337 337
+HMV  743 743 884 884 337 337
 NewGold 147
 NewPlat 56
 NewCopp 1153
@@ -31,7 +31,6 @@ PkGiv 0
 Exp  135673
 Act  131272
 AfBy 3670696
-AfBy2 4120
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -62,7 +61,7 @@ Trai 57
 Save  -4
 Alig  1000
 Hit   79
-Dam   94
+Dam   81
 ACs -247 -218 -277 -80
 Attr 13 16 13 13 13
 AMod 16 4 2 7 0
@@ -305,24 +304,20 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-AffD 'sanctuary'   0   8   0   0        128          0
-AffD 'haste'   0  19   4   2    2097152          0
-AffD 'bless'   0  72   8  18          0          0
-AffD 'bless'   0  72  -8  24          0          0
-AffD 'divine protection'   0  14   0   0          0       4096
-AffD 'aid'   0  20   7  18          0          0
-AffD 'aid'   0  20  24  13          0          0
-AffD 'fly'   0  69   0   0     524288          0
-AffD 'armor'   0  20 -20  17          0          0
-AffD 'shield'   0  74 -20  17          0          0
-AffD 'giant strength'   0  66   4   1          0          0
-AffD 'infravision'   0 136   0   0        512          0
-AffD 'fire shield'   0   8   0   0          0          8
-AffD 'frost shield'   0   8   0   0          0         16
-AffD 'power gloves'   0   8  13  19          0          0
-AffD 'pass door'   0  13   0   0    1048576          0
-AffD 'detect invis'   0  66   0   0          8          0
-AffD 'detect hidden'   0  66   0   0         32          0
+AffD 'sanctuary'  -2  11   0   0        128          0
+AffD 'haste'   0  22   4   2    2097152          0
+AffD 'bless'   0  75   8  18          0          0
+AffD 'bless'   0  75  -8  24          0          0
+AffD 'aid'   0  23   7  18          0          0
+AffD 'aid'  -3  23  36  13          0          0
+AffD 'fly'   0  72   0   0     524288          0
+AffD 'armor'   0  23 -20  17          0          0
+AffD 'shield'   0  77 -20  17          0          0
+AffD 'giant strength'   0  69   4   1          0          0
+AffD 'infravision'  -2 139   0   0        512          0
+AffD 'pass door'   0  16   0   0    1048576          0
+AffD 'detect invis'   0  69   0   0          8          0
+AffD 'detect hidden'   0  69   0   0         32          0
 End
 
 #O

@@ -654,6 +654,9 @@ void spell_aid(int sn, int level, CHAR_DATA *ch, void *vo)
 
     af.type 	 = sn;
     af.level	 = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration	 = 7 + level/4;
     af.bitvector = 0;
     af.bitvector2 = 0;
@@ -696,6 +699,9 @@ void spell_armor( int sn, int level, CHAR_DATA *ch, void *vo )
 
     af.type      = sn;
     af.level	 = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration  = 24;
     af.modifier  = -20;
     af.location  = APPLY_AC;
@@ -945,6 +951,9 @@ void spell_cancellation( int sn, int level, CHAR_DATA *ch, void *vo )
         found = TRUE;
 
     if (check_dispel(level,victim,skill_lookup("power gloves")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("frenzy")))
         found = TRUE;
 
     if (check_dispel(level,victim,skill_lookup("frost shield")))
@@ -2714,18 +2723,22 @@ void spell_frenzy(int sn, int level, CHAR_DATA *ch, void *vo)
 	      ch,NULL,victim,TO_CHAR);
 	return;
     }
-
-    if ((IS_GOOD(ch) && !IS_GOOD(victim)) ||
+if(!IS_IMMORTAL(ch) )
+  {
+ if ((IS_GOOD(ch) && !IS_GOOD(victim)) ||
 	(IS_NEUTRAL(ch) && !IS_NEUTRAL(victim)) ||
-	(IS_EVIL(ch) && !IS_EVIL(victim))
-       )
+	(IS_EVIL(ch) && !IS_EVIL(victim)))
     {
 	act("Your god doesn't seem to like $N",ch,NULL,victim,TO_CHAR);
 	return;
     }
+  }
 
     af.type 	 = sn;
     af.level	 = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration	 = level / 3;
     af.modifier  = level / 6;
     af.bitvector = 0;
@@ -2883,10 +2896,10 @@ void spell_haste( int sn, int level, CHAR_DATA *ch, void *vo )
 
     af.type      = sn;
     af.level     = level;
-    if (victim == ch)
-	 af.duration  = level/2;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
     else
-	 af.duration  = level/3;
+	  af.duration  = level/3;
     af.location  = APPLY_DEX;
     af.modifier  = 1 + (level >= 18) + (level >= 25) + (level >= 32);
     af.bitvector = AFF_HASTE;
@@ -3567,7 +3580,7 @@ void spell_mass_sanctuary( int sn, int level, CHAR_DATA *ch, void *vo )
 	    continue;
     af.type      = sn;
     af.level     = level;
-    af.duration  = number_fuzzy( level / 6 );
+    af.duration  = number_fuzzy( level / 4 );
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = AFF_SANCTUARY;
@@ -3606,7 +3619,10 @@ void spell_pass_door( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
-    af.duration  = number_fuzzy( level / 4 );
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
+    af.duration  = number_fuzzy( level / 2 );
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = AFF_PASS_DOOR;
@@ -3706,6 +3722,9 @@ void spell_power_gloves( int sn, int level, CHAR_DATA *ch, void *vo)
 
     af.type      = sn;
     af.level     = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration  = 12;
     af.location  = APPLY_DAMROLL;
     af.modifier  = dice(1,6) + level/10;
@@ -3736,6 +3755,9 @@ void spell_protection( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration  = 24;
     af.location  = APPLY_NONE;
     af.modifier  = 0;
@@ -3764,7 +3786,10 @@ void spell_divine_protection( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
-    af.duration  = 18;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
+    af.duration  = 6;
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = 0;
@@ -3871,7 +3896,10 @@ void spell_sanctuary( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
-    af.duration  = number_fuzzy( level / 6 );
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
+    af.duration  = number_fuzzy( level / 4 );
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = AFF_SANCTUARY;
