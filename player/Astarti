@@ -1,35 +1,35 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1542765934
+LogO 1542807615
 Vers 3
 Prom ~
 Ignoring ~
 Race human~
 Sex  1
 Cla  0
-Gui  11
+Gui  0
 Psionic  1
 Cast none
 Levl 54
-Plyd 7372
+Plyd 22185
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 2401
-HMV  1 270 199 253 322 322
+Room 4208
+HMV  371 371 270 270 418 418
 NewGold 0
 NewPlat 0
-NewCopp 108
-NewSilv 50
+NewCopp 0
+NewSilv 0
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
 Exp  152000
-Act  65788
+Act  220
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -55,18 +55,18 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  5
-Prac 42
-Trai 40
+Prac 54
+Trai 56
 Alig  0
 ACs 100 100 100 100
 Attr 13 16 13 13 13
 AMod 0 0 0 0 0
 Pass AsQheSp/NGAuY~
-Titl  the Jailbird.~
+Titl  the Knight of the Realms~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 270 253 322
+HMVP 371 270 418
 Cond 0 100 100
 Sk 100 'reserved'
 Sk 100 'aid'

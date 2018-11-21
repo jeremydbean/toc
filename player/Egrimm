@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1542777631
+LogO 1542777806
 Vers 3
 Desc .
 
@@ -63,15 +63,15 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1778352
+Plyd 1778527
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4210
-HMV  1467 1579 29 525 70 346
+HMV  1189 1579 261 525 58 346
 NewGold 4
-NewPlat 672
+NewPlat 639
 NewCopp 207
 NewSilv 58
 Bank 1548000
@@ -213,13 +213,13 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'sanctuary'  44   6   0   0        128          0
-AffD 'armor'  49  14 -20  17          0          0
-AffD 'shield'   0  26 -20  17          0          0
-AffD 'bless'   0  41  -8  24          0          0
-AffD 'bless'   0  41   8  18          0          0
-AffD 'stone skin'   0  18 -40  17          0          0
-AffD 'giant strength'   0  17   4   1          0          0
+AffD 'sanctuary'  43   4   0   0        128          0
+AffD 'armor'  49  12 -20  17          0          0
+AffD 'shield'   0  24 -20  17          0          0
+AffD 'bless'   0  39  -8  24          0          0
+AffD 'bless'   0  39   8  18          0          0
+AffD 'stone skin'   0  16 -40  17          0          0
+AffD 'giant strength'   0  15   4   1          0          0
 End
 
 #O
@@ -803,18 +803,6 @@ Lev  53
 Cost 1500
 Cond 92
 Repd 0
-End
-
-#O
-Vnum 3609
-Nest 1
-ExtF 21
-Wear -1
-Lev  30
-Cost 0
-Cond 100
-Repd 0
-Val  4 5 4 4 0
 End
 
 #O

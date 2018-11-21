@@ -94,23 +94,41 @@ handler.c:1121:10: warning: variable ‘found’ set but not used [-Wunused-but-
 gcc -c -g -O -Wall -DROM  -lcrypt misc.c
 gcc -c -g -O -Wall -DROM  -lcrypt interp.c
 gcc -c -g -O -Wall -DROM  -lcrypt magic.c
+magic.c: In function ‘spell_cancellation’:
+magic.c:1005:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   if (check_dispel(level,victim,skill_lookup("fire shield")))
+   ^~
+magic.c:1008:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (check_dispel(level,victim,skill_lookup("divine protection")))
+       ^~
+magic.c: In function ‘spell_change_sex’:
+magic.c:1211:10: warning: unused variable ‘buf’ [-Wunused-variable]
+     char buf[MAX_STRING_LENGTH];
+          ^~~
 magic.c: In function ‘spell_heat_metal’:
-magic.c:2916:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2930:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
                 if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
                 ^~
-magic.c:2919:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2933:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
                     for (i = 0; i < 4; i ++)
                     ^~~
-magic.c:2919:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
-magic.c:2921:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+magic.c:2933:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2935:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
                       obj_lose->cost       = obj_lose->cost/3;
                       ^~~~~~~~
-magic.c:2970:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2984:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
      if ( saves_spell( level, victim ) )
      ^~
-magic.c:2972:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+magic.c:2986:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
        damage( ch, victim, dam, sn, DAM_FIRE );
        ^~~~~~
+magic.c: In function ‘spell_summon’:
+magic.c:4137:11: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+       (buf,ch->invis_level);
+           ^
+magic.c:4137:11: warning: statement with no effect [-Wunused-value]
+       (buf,ch->invis_level);
+       ~~~~^~~~~~~~~~~~~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
 gcc -c -g -O -Wall -DROM  -lcrypt save.c
 save.c: In function ‘fread_char’:
@@ -401,5 +419,5 @@ gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-g' '-O0' '-Q' '-v' '-da' '-O' '-o' 'merc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4tmQq6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o merc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqe2Rer.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o merc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-g' '-O0' '-Q' '-v' '-da' '-O' '-o' 'merc' '-mtune=generic' '-march=x86-64'

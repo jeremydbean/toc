@@ -2256,7 +2256,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"detect hidden",
 	{ 9, 9, 14, 14, 62, 62 },     { 1,  1,  2,  2, 2, 2},
-	spell_detect_hidden,    TAR_CHAR_SELF,          POS_STANDING,
+	spell_detect_hidden,    TAR_CHAR_DEFENSIVE,          POS_STANDING,
 	NULL,                   SLOT(44),        10,     12,
 	"",                     "You feel less aware of your suroundings."
     },
@@ -2264,7 +2264,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"detect invis",
 	{ 8,  7, 11, 11, 62, 62 },     { 1,  1,  2,  2, 2, 2},
-	spell_detect_invis,     TAR_CHAR_SELF,          POS_STANDING,
+	spell_detect_invis,     TAR_CHAR_DEFENSIVE,          POS_STANDING,
 	NULL,                   SLOT(19),        10,     12,
 	"",                     "You no longer see invisible objects."
     },
@@ -2416,7 +2416,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"fire shield",
 	{ 19, 25, 63, 63, 62, 62 },     { 2,  2,  2,  2, 2, 2},
-	spell_fire_shield,         TAR_CHAR_SELF,          POS_FIGHTING,
+	spell_fire_shield,         TAR_CHAR_DEFENSIVE,          POS_FIGHTING,
 	NULL,                   SLOT(522),       30,     12,
 	"Flaming Aura",             "...!FLAME OFF!..."
     },
@@ -2456,7 +2456,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"frost shield",
 	{ 19, 25, 63, 63, 62, 62 },     { 2,  2,  2,  2, 2, 2},
-	spell_frost_shield,         TAR_CHAR_SELF,          POS_FIGHTING,
+	spell_frost_shield,         TAR_CHAR_DEFENSIVE,          POS_FIGHTING,
 	NULL,                   SLOT(566),       30,     12,
 	"Flaming Aura",             "...!FLAME OFF!..."
     },
@@ -2664,7 +2664,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"pass door",
 	{ 24, 22, 28, 26, 62, 24 },     { 1,  1,  2,  2, 2, 2},
-	spell_pass_door,        TAR_CHAR_SELF,          POS_STANDING,
+	spell_pass_door,        TAR_CHAR_DEFENSIVE,          POS_STANDING,
 	NULL,                   SLOT(74),       20,     12,
 	"",                     "You feel solid again."
     },
@@ -2712,7 +2712,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"power gloves",
 	{ 25,  62, 62, 62, 62, 62 },     { 2, 2, 2, 2, 2, 2},
-	spell_power_gloves,	TAR_CHAR_SELF,	POS_FIGHTING,
+	spell_power_gloves,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL, 			SLOT(515),	28,		12,
 	"power gloves",		"Your gloves fade away."
     },
@@ -2720,7 +2720,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"protection evil",
 	{ 11,  9, 13, 12, 62, 62 },     { 1,  1,  2,  2, 2, 2},
-	spell_protection,       TAR_CHAR_SELF,          POS_STANDING,
+	spell_protection,       TAR_CHAR_DEFENSIVE,          POS_STANDING,
 	NULL,                   SLOT(34),        12,     12,
 	"",                     "You feel less protected."
     },

@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1542776608
+LogO 1542777852
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  3
 Psionic  1
 Cast none
 Levl 30
-Plyd 46645
+Plyd 46687
 ListRemorts ~
 NumRemorts 0
 Note 1542589633
 Scro 22
 Room 4210
-HMV  696 696 36 291 30 299
+HMV  696 681 43 276 60 299
 NewGold 0
 NewPlat 276
 NewCopp 9
@@ -58,18 +58,18 @@ Pos  8
 Prac 8
 Save  -9
 Alig  6
-Hit   20
-Dam   38
-ACs -36 -19 -19 77
+Hit   17
+Dam   42
+ACs -34 -16 -16 73
 Attr 13 13 16 16 12
-AMod 13 0 -1 0 -4
+AMod 15 0 -1 2 -4
 Pass We2cg.QoJGvjg~
 Titl  the Overlord~
 Pnts 40
 TSex 1
 LLev 3
 HMVP 666 281 274
-Cond 0 31 31
+Cond 0 30 30
 Alias k kick~
 Alias re rescue~
 Sk 6 'confuse'
@@ -101,10 +101,10 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'giant strength'   0  50   4   1          0          0
-AffD 'shield'  35  20 -20  17          0          0
-AffD 'bless'   0  18  -8  24          0          0
-AffD 'bless'  37  18   8  18          0          0
+AffD 'bless'  37  17   8  18          0          0
+AffD 'bless'   0  17  -8  24          0          0
+AffD 'shield'  35  19 -20  17          0          0
+AffD 'giant strength'   0  49   4   1          0          0
 End
 
 #O
@@ -172,17 +172,6 @@ Affect -1 22 -1 -1 22 0 0
 End
 
 #O
-Vnum 9213
-Nest 0
-Wear 10
-Lev  22
-Cost 5566
-Cond 100
-Repd 0
-Affect -1 22 -1 -1 2 0 0
-End
-
-#O
 Vnum 9214
 Nest 0
 Wear 7
@@ -211,7 +200,7 @@ Lev  14
 Cost 10
 Cond 100
 Repd 0
-Val  0 0 9820 0 0
+Val  0 0 9819 0 0
 End
 
 #O
@@ -486,6 +475,17 @@ Affect -1 29 -1 -4 18 0 0
 End
 
 #O
+Vnum 9213
+Nest 1
+Wear -1
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 -1 2 0 0
+End
+
+#O
 Vnum 5025
 Nest 0
 ExtF 64
@@ -548,6 +548,18 @@ Lev  29
 Cost 1000
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+Val  4 5 4 4 0
 End
 
 #END

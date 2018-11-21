@@ -944,6 +944,21 @@ void spell_cancellation( int sn, int level, CHAR_DATA *ch, void *vo )
     if (check_dispel(level,victim,skill_lookup("bless")))
         found = TRUE;
 
+    if (check_dispel(level,victim,skill_lookup("power gloves")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("frost shield")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("shield")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("divine protection")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("stone skin")))
+        found = TRUE;
+
     if (check_dispel(level,victim,skill_lookup("blindness")))
     {
         found = TRUE;
@@ -982,7 +997,16 @@ void spell_cancellation( int sn, int level, CHAR_DATA *ch, void *vo )
         found = TRUE;
 
     if (check_dispel(level,victim,skill_lookup("detect good")))
-	found = TRUE;
+	     found = TRUE;
+
+  if (check_dispel(level,victim,skill_lookup("aid")))
+    found = TRUE;
+
+  if (check_dispel(level,victim,skill_lookup("fire shield")))
+      found = TRUE;
+
+      if (check_dispel(level,victim,skill_lookup("divine protection")))
+          found = TRUE;
 
     if (check_dispel(level,victim,skill_lookup("detect hidden")))
         found = TRUE;
@@ -1184,6 +1208,7 @@ void spell_change_sex( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
+    char buf[MAX_STRING_LENGTH];
 
     if ( is_affected( victim, sn ))
     {
@@ -1218,6 +1243,7 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
+    char buf[MAX_STRING_LENGTH];
 
     if ( victim == ch )
     {
@@ -1225,41 +1251,28 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
-/*   if(!IS_NPC(victim) )
+/*    if(!IS_NPC(victim) )
 	return;
-  */
+*/
 
     if ( IS_AFFECTED(victim, AFF_CHARM)
     ||   IS_AFFECTED(ch, AFF_CHARM)
     ||   ch->level < victim->level
     ||   IS_SET(victim->imm_flags,IMM_CHARM)
     ||   IS_SET(victim->act, ACT_MOUNTABLE)
-    ||   saves_spell( level, victim ))
-
+/*    ||   saves_spell( level, victim )) */
+    ||   number_percent() < 50)
     {
       send_to_char("Spell failed.\n\r",ch);
       return;
     }
 
-    if (IS_SET(victim->act,ACT_AGGRESSIVE))
+/*    if (IS_SET(victim->act,ACT_AGGRESSIVE))
     {
         send_to_char("Spell failed.\n\r",ch);
         return;
     }
-
-
-    if (number_percent() <= 50)
-    {
-        send_to_char("You failed.\n\r",ch);
-        return;
-    }
-
-    if (IS_SET(victim->in_room->room_flags,ROOM_SAFE))
-    {
-	send_to_char(
-	    "I don't think so...\n\r",ch);
-	return;
-    }
+*/
 
     if (IS_SET(victim->in_room->room_flags,ROOM_LAW))
     {
@@ -1268,13 +1281,13 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
-    if( IS_SET(victim->act, ACT_AGGRESSIVE) )
+/*    if( IS_SET(victim->act, ACT_AGGRESSIVE) )
     {
 	REMOVE_BIT(victim->act, ACT_AGGRESSIVE);
     }
-
+*/
     if ( victim->master )
-	stop_follower( victim );
+  	stop_follower( victim );
     add_follower( victim, ch );
     victim->leader = ch;
     af.type      = sn;
@@ -1284,20 +1297,21 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
     af.modifier  = 0;
     af.bitvector = AFF_CHARM;
     af.bitvector2 = 0;
-
-
-    if(!IS_NPC(victim))
-      af.duration  = number_fuzzy( 5 + level / 20 );
-
-    if(IS_NPC(victim))
-      af.duration  = number_fuzzy( 5 + level / 6 );
-
     affect_to_char( victim, &af );
     act( "Isn't $n just so nice?", ch, NULL, victim, TO_VICT );
+    sprintf(buf,"%s has charmed %s. [Room: %d]",
+	 (ch->short_descr == NULL ? ch->short_descr : ch->name),
+	 (victim->short_descr == NULL ? victim->short_descr : victim->name),
+	  victim->in_room->vnum);
+    log_string( buf );
+      wizinfo(buf, 68);
     if ( ch != victim )
 	act("$N looks at you with adoring eyes.",ch,NULL,victim,TO_CHAR);
     return;
 }
+
+
+
 
 
 
@@ -2872,7 +2886,7 @@ void spell_haste( int sn, int level, CHAR_DATA *ch, void *vo )
     if (victim == ch)
 	 af.duration  = level/2;
     else
-	 af.duration  = level/4;
+	 af.duration  = level/3;
     af.location  = APPLY_DEX;
     af.modifier  = 1 + (level >= 18) + (level >= 25) + (level >= 32);
     af.bitvector = AFF_HASTE;
@@ -3692,7 +3706,7 @@ void spell_power_gloves( int sn, int level, CHAR_DATA *ch, void *vo)
 
     af.type      = sn;
     af.level     = level;
-    af.duration  = dice(1,2) +1;
+    af.duration  = 12;
     af.location  = APPLY_DAMROLL;
     af.modifier  = dice(1,6) + level/10;
     af.bitvector = 0;
@@ -3750,7 +3764,7 @@ void spell_divine_protection( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
-    af.duration  = 10;
+    af.duration  = 18;
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = 0;
@@ -4120,7 +4134,7 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )
      (victim->short_descr == NULL ? victim->short_descr : victim->name),
      victim->in_room->vnum);
       if(IS_SET(ch->act, PLR_WIZINVIS) )
-       wizinfo(buf,ch->invis_level);
+      (buf,ch->invis_level);
       else
        wizinfo(buf, LEVEL_IMMORTAL);
       return;
@@ -4684,7 +4698,7 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
       pObjIndex = get_obj_index( 33 );
       obj = create_object( pObjIndex, 0 );
       obj_to_room( obj, ch->in_room );
-      obj->timer = 10;
+      obj->timer = 20;
       obj->value[0] = 3;
       obj->value[1] = victim->in_room->vnum;
       obj->value[2] = 1 + ch->level/15;

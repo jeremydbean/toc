@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542763556
+LogO 1542815692
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
@@ -76,17 +76,17 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1640020
+Plyd 1657033
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4208
-HMV  1828 1828 938 938 343 343
-NewGold 1
-NewPlat 5078
-NewCopp 50
-NewSilv 3
+HMV  1614 1828 938 938 170 343
+NewGold 79
+NewPlat 5118
+NewCopp 298
+NewSilv 187
 Bank 978395
 Dcount 0
 Corpses	0
@@ -95,7 +95,7 @@ PkGiv 24
 QuestPnts 111
 Exp  177312
 Act  33947848
-AfBy 512
+AfBy 524800
 Comm 28672
 Mounted 0
 On_Quest 0
@@ -121,13 +121,13 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Save  2
-Alig  347
-Hit   70
+Save  -6
+Alig  1000
+Hit   78
 Dam   87
-ACs -212 -183 -242 -45
+ACs -232 -203 -262 -65
 Attr 20 16 18 18 19
-AMod 12 4 2 6 0
+AMod 16 4 2 6 0
 Pass Kilrpis9ggekI~
 Ariv $n lets an arrow fly to $T.~
 Dprt $n lets an arrow fly to $T.~
@@ -194,6 +194,11 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
+AffD 'giant strength'   0  36   4   1          0          0
+AffD 'shield'   0  44 -20  17          0          0
+AffD 'fly'   0  39   0   0     524288          0
+AffD 'bless'   0  51   8  18          0          0
+AffD 'bless'   0  51  -8  24          0          0
 End
 
 #O
@@ -215,7 +220,7 @@ ExtF 2100545
 Wear 3
 Lev  50
 Cost 3000
-Cond 89
+Cond 88
 Repd 0
 End
 
@@ -324,7 +329,7 @@ Nest 0
 Wear 7
 Lev  53
 Cost 0
-Cond 100
+Cond 99
 Repd 0
 Val  13 12 13 -1 0
 End
@@ -1237,12 +1242,34 @@ Repd 0
 End
 
 #O
+Vnum 3092
+Nest 0
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 29208
+Nest 0
+Wear -1
+Lev  51
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 51 -1 -2 23 0 0
+End
+
+#O
 Vnum 29243
 Nest 0
 Name newbie sword~
 ShD  (Glowing) (Magical) (Flaming) newbie sword~
 Desc A flaming newbie sword lies here.~
-ExtF 3145986
 Act_room $n wields his extremely powerful newbie sword.~
 Act_char You wield your "newbie sword"... boy, will they be suprised.~
 Wear 16
@@ -1254,15 +1281,13 @@ Affect -1 54 -1 -2 21 0 0
 End
 
 #O
-Vnum 3092
+Vnum 29208
 Nest 0
 Wear -1
-Cost 150
+Lev  51
+Cost 3000
 Cond 100
 Repd 0
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
 End
 
 #END

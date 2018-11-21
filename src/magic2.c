@@ -944,7 +944,7 @@ void do_confuse( CHAR_DATA *ch, char *argument )
     {
 	 af.type      = gsn_confuse;
 	 af.level     = ch->level;
-	 af.duration  = 4 + (ch->level >= 30) + (ch->level >= 40);
+	 af.duration  = 8 + (ch->level >= 30) + (ch->level >= 40);
 	 af.modifier  = 0;
 	 af.location  = 0;
 	 af.modifier  = 0;
@@ -4004,16 +4004,17 @@ void spell_fire_shield( int sn, int level, CHAR_DATA *ch, void *vo )
     {
 	if (victim == ch)
 	  send_to_char("You are already enveloped in flames.\n\r",ch);
-	else
+/*	else
 	  act("You can't cast this spell on $N.",ch,NULL,victim,TO_CHAR);
-	return;
+      */
+
     }
     af.type      = sn;
     af.level     = level;
     if(IS_NPC(ch) )
       af.duration  = dice(10,2) + 5;
     else
-      af.duration  = level/15 + 1;
+      af.duration  = 12;
     af.location  = 0;
     af.modifier  = 0;
     af.bitvector = 0;
@@ -4041,10 +4042,7 @@ void spell_frost_shield( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     af.type      = sn;
     af.level     = level;
-    if(IS_NPC(ch) )
-      af.duration  = dice(10,2) + 5;
-    else
-      af.duration  = level/15 + 1;
+    af.duration  = 12;
     af.location  = 0;
     af.modifier  = 0;
     af.bitvector = 0;

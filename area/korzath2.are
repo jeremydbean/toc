@@ -11,7 +11,7 @@ He is an unholy creature who fears the good and holy.
 ~
 human~
 CFGHMO DGOV -350 S
-53 22 50d37+1000 25d49+294 4d10+18 5
+56 22 50d37+1000 25d49+294 4d10+18 5
 -30 -30 -30 -30
 DEFHJKP ABM 0 N
 8 8 1 800
@@ -25,10 +25,10 @@ This deranged madman was trapped in the maze once he was determined to be
 'unworthy' in the Battleground Arena.
 ~
 human~
-CFGM DGOV -250 S
-53 22 53d37+1000 25d49+300 4d10+18 7
+CG DGOV -250 S
+59 22 53d37+1000 25d49+300 4d10+18 7
 -30 -30 -30 -30
-CDFHIKP AB 0 OP
+CDFHIKNU AB CDEFG EHOP
 8 8 1 900
 0 0 M 0
 #29203
@@ -40,10 +40,10 @@ The lieutenent went insane after spending many months trapped here in the
 maze.
 ~
 human~
-CFGMT DGOV -275 S
-53 22 53d37+1000 25d49+280 4d10+18 11
+CGT DGOV -275 S
+59 22 53d37+1000 25d49+280 4d10+18 11
 -30 -30 -30 -30
-CDEFHIKLP AB 0 G
+CDEFHIKLP AB CDEFG G
 8 8 1 1500
 0 0 M 0
 #29204
@@ -56,9 +56,9 @@ decrepid and sickly looking.  He must be a creature of the undead.
 ~
 undead~
 CFGM BDGOV -500 S
-53 22 53d38+1000 25d50+300 6d7+21 6
+59 22 53d38+1000 25d50+300 6d7+21 6
 -30 -30 -30 -35
-FHIKPZ A ABM HI NO
+FHIKPZ AX ABM HI ENO
 8 8 1 1200
 0 0 M 0
 #29205
@@ -483,11 +483,25 @@ Gweedo has been serving drinks here ever since Haze sat down and wrote
 him into the .are file.
 ~
 human~
-BGMS DOT 0 S
+BGHMS DOT 0 S
 70 50 70d53+1000 35d70+420 10d11+20 20
 -50 -50 -50 -50
 CDEFH ABCD 0 0
 8 8 1 0
+0 0 M 0
+#29232
+killer clown guy~
+a killer clown~
+A guy in a clown mask stares at you.
+~
+A guy in a clown mask wanders around aimlessly.
+~
+human~
+CG D -250 S
+58 32 200d2+1500 25d49+450 4d10+18 7
+-15 -15 -15 -15
+CDFHKNU ABPN CDEFG EHOP
+8 8 1 900
 0 0 M 0
 #0
 
@@ -1145,7 +1159,7 @@ bronze~
 53 4 5000 P
 E
 plate battle~
-Some carefully engineered battle plate was manufactured in Korzath's 
+Some carefully engineered battle plate was manufactured in Korzath's
 Fortress.
 ~
 A
@@ -1976,8 +1990,8 @@ You open the diary:
 
 5th week of the 2nd Quarter Month in the Ninth Dread (Illisandian Calender)
 
-   My Father, Fyzac has required of me to keep a log of my thoughts at 
-least once per quarter month.  I will do it only as he requires it of me 
+   My Father, Fyzac has required of me to keep a log of my thoughts at
+least once per quarter month.  I will do it only as he requires it of me
 although once per quarter month is asking for too much of my time.
    Tomorrow I set out to make a name for myself.  During that time I'll have
 no time for diaries.  When I return I shall continue my writings as I see
@@ -1994,6 +2008,38 @@ adamantite~
 55 500 1 P
 A
 14 -300
+#29303
+flaming newbie sword~
+(flaming) newbie sword~
+A brand new (flaming) sword is laying up against the wall.~
+adamantite~
+5 ABCHIMV AN
+1 10000 4 1 ACDE
+68 5 1000000 P
+A
+1 1000
+A
+2 1000
+A
+3 1000
+A
+4 1000
+A
+5 1000
+A
+12 10000
+A
+13 10000
+A
+14 10000
+A
+17 10000
+A
+18 7500
+A
+19 7500
+A
+24 7500
 #0
 
 #ROOMS
@@ -2100,8 +2146,8 @@ E
 gant three~
 	Gant led Silverglen along with Traveller.  While Traveller kept the
 castle together, Gant worked to add more members.  The castle had nearly
-ceased to add new blood to it's ranks until Gant attained his leadership 
-position.  He interviewed countless possible recruits to find the ones 
+ceased to add new blood to it's ranks until Gant attained his leadership
+position.  He interviewed countless possible recruits to find the ones
 who would be the best candidates to become members of Silverglen.
 ~
 E
@@ -2229,11 +2275,11 @@ making him a Hero of the Third Order.
 ~
 E
 thrombosis three~
-	Thrombosis, known by the name Clot to his friends, was close to 
+	Thrombosis, known by the name Clot to his friends, was close to
 attaining the status of Hero on DLL.  He has returned to the land of Sembia
-here on ToC to once again climb the mountain of levels to try and reach Hero 
-status.  His generosity and helpfulness on ToC has been unmatched by any 
-other player and that is the reason his statue is here.  He is already a 
+here on ToC to once again climb the mountain of levels to try and reach Hero
+status.  His generosity and helpfulness on ToC has been unmatched by any
+other player and that is the reason his statue is here.  He is already a
 Hero to those he has helped.
 ~
 E
@@ -2272,8 +2318,8 @@ E
 chelon nine~
 	Chelon, known to all as The ADVICE GODDESS, was one of the most
 loved Heroes of DLL.  She and Kasandra helped to create the Social Club
-that served as a gathering place where players could sit back, relax, 
-talk, and have a few drinks.  She has returned to ToC to once again offer 
+that served as a gathering place where players could sit back, relax,
+talk, and have a few drinks.  She has returned to ToC to once again offer
 advice and maybe have the Social Club rebuilt.
 ~
 E
@@ -2526,7 +2572,7 @@ Most commonly used abbreviations on this mud...
     _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O   _  O
    / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/   / \/
   /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\  /  /\
-  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   / 
+  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /  \   /
    \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/    \_/
    CoR    R&R    BRH    RFK    COT    DBD    DEA    ToC    TBC  ROFLMAO
 Pull the lever(s) that match the correct answer(s).
@@ -2882,10 +2928,10 @@ twice the number of apples that the gnome man had before gnome man lost
 seven apples to the goblins in a bet about how many apples Seraloi had
 given to Kalak (which was six).  Raistlin bought nine apples from the
 druids, leaving the druids with three times the amount that the gnome man
-had after the bet.  After the betting Sarmini ate a green apple and the 
+had after the bet.  After the betting Sarmini ate a green apple and the
 gnome man had robbed Sarmini.  The gnome man had eleven apples before
-losing the bet.  Before Raistlin bought the apples from the druids, he 
-had three times the apples that the gnome man had after the bet.  The 
+losing the bet.  Before Raistlin bought the apples from the druids, he
+had three times the apples that the gnome man had after the bet.  The
 gnome man stole one third the amount of apples from Sarmini that Raistlin
 had after he bought the apples from the druids.  The healer came by and
 sold a quarter of his apples to the druids.
@@ -2931,7 +2977,7 @@ Question~
 		Paco the Pawn Shop owner was found murdered in Dresden.
 The Mayor called for an immediate investigation to find out who had
 committed such a ruthless crime.  The six subjects were Jazair the Nomad,
-Stehnrik the Dwarven Guard, Maliki of the Wand shop, Darla the pet shop 
+Stehnrik the Dwarven Guard, Maliki of the Wand shop, Darla the pet shop
 girl, Bidom the Wizard, and Kalak the Blacksmith.  Each was interrogated
 heavily.  Bidom confessed that he did the murder because Paco had robbed
 some potions from his shop.  Jazair confessed that he did it because his
@@ -2984,11 +3030,11 @@ Question~
 		A tub is one hundred liters in size and it is filled
 with ice.  When water becomes ice it expands by ten percent.  Because
 of the difference in temperature, ice is melting at a rate of twenty
-liters per minute.  After two minutes the room becomes cooler and ice 
-melts at a rate of ten liters per minute.  After a certain period of 
+liters per minute.  After two minutes the room becomes cooler and ice
+melts at a rate of ten liters per minute.  After a certain period of
 time all the ice has melted.  Gioli is measuring the amount of water
-that flows out of the tub.  His instruments add fifty percent to his 
-measurements.  Gioli will measure the overflow eight minutes after it 
+that flows out of the tub.  His instruments add fifty percent to his
+measurements.  Gioli will measure the overflow eight minutes after it
 begins to melt.  What is Gioli's measurement?
 
 You have limited time to move through the exit that has your answer.
@@ -3595,7 +3641,7 @@ S
 Battlecross~
      The cold black rock around you must be quite thick because there isn't
 much space inside the Battlecross.  The ceiling is low and this room is
-has barely enough square footage to equal that of a crawl space.     
+has barely enough square footage to equal that of a crawl space.
 ~
 292 LNQ 0
 D1
@@ -3803,7 +3849,7 @@ S
 #29276
 Battleground Arena~
      To the south of you is the cross of the Battleground.  Maybe there
-is a way in from here?     
+is a way in from here?
 ~
 292 NQ 0
 D0
@@ -4333,7 +4379,7 @@ S
 #29304
 Secret~
      This room is dark and cold.  Boxes and crates of books are stacked
-to the ceiling.  All of the crates are magically sealed but one lies 
+to the ceiling.  All of the crates are magically sealed but one lies
 open.  Such books as "Military Warfare, Strategy, and Tactics," and
 "Castle Management," lie atop the crate.  Other books lie below it but
 the titles are written in a language you are unfamiliar with.  You could
@@ -4346,8 +4392,8 @@ door~
 1 -1 29302
 E
 2page~
-     All four types of castles I have defined have a chance at succeeding 
-in their belief.  I will first examine the fundamentals that apply to any 
+     All four types of castles I have defined have a chance at succeeding
+in their belief.  I will first examine the fundamentals that apply to any
 type of castle and then I will take a look at them to further explain
 how each can find success or failure and why they will succeed or fail.
 
@@ -4369,12 +4415,12 @@ E
 3page~
 Castle Member Quality
 """""""""""""""""""""
-	Most castles fight to gather as many members as they can possibly 
-gather.  In my opinion this is a mistake.  A castle should keep itself 
+	Most castles fight to gather as many members as they can possibly
+gather.  In my opinion this is a mistake.  A castle should keep itself
 small and tight.  If a castle is kept small then the members will know
-each other, group together for combat, and have a united trust amongst 
-themselves.  If a castle gets too large then the members do not interact 
-as much as they should.  They may not even know the names of all the 
+each other, group together for combat, and have a united trust amongst
+themselves.  If a castle gets too large then the members do not interact
+as much as they should.  They may not even know the names of all the
 members of their castle!
 	If a "problem" should begin to arise then a large castle will
 have more trouble dealing with it.  Such problems are:
@@ -4389,8 +4435,8 @@ E
 4page~
 You continue to read on:
 	A large castle will have a problem stopping spies from other castles
-from infiltrating.  Another problem that was listed is when lower level 
-members get killed.  In most cases, the higher members of the castle will 
+from infiltrating.  Another problem that was listed is when lower level
+members get killed.  In most cases, the higher members of the castle will
 spend countless hours helping the recently deceased.  While this is the good
 samaritan thing to do, it can be detrimental to the castle as a whole.
 	If a castle stays small and the members get to know each other
@@ -4727,7 +4773,7 @@ E
 2diary~
 24th week of 4th Quarter Month in the Ninth Dread
 
-   At Midnight tonight our family will celebrate the coming of the Eighth 
+   At Midnight tonight our family will celebrate the coming of the Eighth
 Dread.  Another year will have passed for us on this side of the Dragon
 Sea.  For the past three quarter months I have travelled over this land
 called 'Sembia' and fought in prize fights.  I've yet to lose a single bout
@@ -4758,8 +4804,8 @@ mage and the mage has been disposed of.
    I will now proceed to take over the business and run it for a short
 period of time until I am ready to sell off all of the pieces of the
 business and milk it for all it's worth.  I know my uncle put in his will
-that I should take the family fortune and erect a temple next to the 
-Dragon Sea in honor of my grandfather's landing but I have other plans 
+that I should take the family fortune and erect a temple next to the
+Dragon Sea in honor of my grandfather's landing but I have other plans
 for the fortune and that particular plot of land by the Sea.
 						Continued of 4diary
 ~
@@ -5092,17 +5138,65 @@ E  1  29206  3  13		  equips rib bone belt
 E  1  29207  3  16		  equips bone mace
 G  1  29274  9  		  loads poison pills
 *
-M  0  29202  3  29212		Deranged Madman
+M  0  29202  10  29212		Deranged Madman
 E  1  29208  3  3		  equips golden amulet
 E  1  29209  3  10		  equips bronzed arm
 *
-M  0  29202  3  29213		Deranged Madman
+M  0  29202  10  29213		Deranged Madman
 E  1  29208  3  4		  equips golden amulet
 E  1  29209  3  10		  equips bronzed arm
 *
-M  0  29202  3  29215		Deranged Madman
+M  0  29202  10  29208		Deranged Madman
 E  1  29208  3  4		  equips golden amulet
 E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29212		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29210		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29215		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29214		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29213		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29213		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29202  10  29214		Deranged Madman
+E  1  29208  3  3		  equips golden amulet
+E  1  29209  3  10		  equips bronzed arm
+*
+M  0  29232  12  29208		a killer clown
+*
+M  0  29232  12  29208		a killer clown
+*
+M  0  29232  12  29207		a killer clown
+*
+M  0  29232  12  29207		a killer clown
+*
+M  0  29232  12  29206		a killer clown
+*
+M  0  29232  12  29206		a killer clown
+*
+M  0  29232  12  29206		a killer clown
+*
+M  0  29232  12  29205		a killer clown
+*
+M  0  29232  12  29205		a killer clown
+*
+M  0  29232  12  29204		a killer clown
 *
 M  0  29203  3  29218		Insane Lieutenant
 E  1  29210  3  5		  equips straight jacket
@@ -5113,15 +5207,15 @@ E  1  29210  3  5		  equips straight jacket
 M  0  29203  3  29220		Insane Lieutenant
 E  1  29210  3  5		  equips straight jacket
 *
-M  0  29204  3  29219		Shadowman
+M  0  29204  6  29219		Shadowman
 E  1  29211  3  16		  equips shadowblade
 E  1  29212  3  12		  equips shadowskin
 *
-M  0  29204  3  29212		Shadowman
+M  0  29204  6  29212		Shadowman
 E  1  29211  3  16		  equips shadowblade
 E  1  29212  3  12		  equips shadowskin
 *
-M  0  29204  3  29223		Shadowman
+M  0  29204  6  29223		Shadowman
 E  1  29211  3  16		  equips shadowblade
 E  1  29212  3  12		  equips shadowskin
 *
@@ -5351,7 +5445,7 @@ G  1  29295  -1			  Eclipse's drink
 *
 *---Objects---*
 *
-O  0  29200  2  29201		loads hero statue    
+O  0  29200  2  29201		loads hero statue
 *
 O  0  29200  2  29202		loads hero statue
 *
@@ -5384,7 +5478,7 @@ P  1  29284  3  29254		  puts star cube in shining chest
 *
 O  0  29255  1  29316		loads wooden chest
 P  1  29283  3  29255		  puts black and gold ring in wooden chest
-* 
+*
 O  0  29256  1  29217		loads lever 1
 O  0  29257  1  29217		loads lever 2
 O  0  29258  1  29217		loads lever 3
@@ -5498,4 +5592,3 @@ S
 
 
 #$
-

@@ -22,7 +22,7 @@ a drow mage~
 A dark elf mage stands here quietly observing all.
 ~
 He looks at you and memorizes everything about you.  Your clothes, hair,
-eye color, weight, and everything else about you is stored away inside 
+eye color, weight, and everything else about you is stored away inside
 his head for reference at some future time.
 ~
 elf~
@@ -74,7 +74,7 @@ at hand.. his whip and an unfortunate soul's back. Ooohhh, that's gotta hurt!
 elf~
 BT J -750 S
 20 10 3d9+333 2d20+120 2d8+5 3
--2 -3 -2 -1 
+-2 -3 -2 -1
 0 0 0 0
 8 8 1 100
 0 0 M 0
@@ -134,7 +134,7 @@ A naked female drow is dancing around a huge fire.
 ~
 She is extremly naked and extremly attractive.  Her movements are so fluid
 they make you think of a gentle flowing stream.  Her stark white hair flows
-behind her.  
+behind her.
 ~
 elf~
 B J 750 S
@@ -199,7 +199,7 @@ hobbit~
 B 0 240 S
 20 2 3d9+333 2d20+120 2d8+5 3
 -3 -3 -3 -2
-0 0 0 0 
+0 0 0 0
 8 8 1 250
 0 0 M 0
 #25213
@@ -213,7 +213,7 @@ insect~
 BF 0 -1000 S
 40 4 15d10+1850 2d40+140 4d8+13 3
 -6 -6 -6 -1
-0 0 0 0 
+0 0 0 0
 8 8 0 0
 0 0 G 0
 #25214
@@ -377,9 +377,9 @@ cloth~
 9 0 AK
 3 4 3 2 0
 20 2 250 P
-A 
+A
 1 2
-A 
+A
 2 3
 A
 19 1
@@ -401,7 +401,7 @@ cloth~
 9 0 AD
 5 5 5 9 0
 20 1 300 P
-A 
+A
 12 20
 #25219
 wand~
@@ -433,7 +433,7 @@ metal~
 20 1 300 P
 A
 5 1
-A 
+A
 18 1
 A
 19 2
@@ -499,7 +499,7 @@ a wagon~
 A wagon being pulled by a giant snail.~
 wood~
 12 0 0
-0 0 0 0 0 
+0 0 0 0 0
 1 10000 0 P
 #25230
 ring sun~
@@ -535,13 +535,13 @@ The road leads on to a crystal city.
 S
 #25202
 The road through the grove.~
-The Trade Route continues through the grove and into the City of Nethril.  
+The Trade Route continues through the grove and into the City of Nethril.
 You can see slaves all through the grove working on harvesting the massive
-mushrooms.  Several of the fifty-foot high mushrooms have dark figures 
-standing on top of them.  
+mushrooms.  Several of the fifty-foot high mushrooms have dark figures
+standing on top of them.
 ~
 252 D 11
-D1 
+D1
 You can see the road leading to a cavern entrance.
 ~
 ~
@@ -571,7 +571,7 @@ You see the cavern wall.
 ~
 ~
 0 -1 25201
-D2 
+D2
 You see a small path leading out into the grove.
 ~
 ~
@@ -585,7 +585,7 @@ E
 sign~
 The Matron Mothers of Nethril can not guarantee your safety if you leave
  The Trade Route.  There are several houseless rogues living in the Mushroom
- Grove that would see ill done to any trader that visits our city.  
+ Grove that would see ill done to any trader that visits our city.
 ~
 S
 #25204
@@ -639,7 +639,7 @@ S
 The road starts up the slope.~
 The road starts to climb a slope here that leads to the gates of Nethril.
 It looks like the city was built on top of a broken pillar and even at
-this distance you can make out the light the crystal reflects.  This far  
+this distance you can make out the light the crystal reflects.  This far
 into the grove you can barely make out the eastern wall in the dim light.
 ~
 252 D 11
@@ -691,7 +691,7 @@ The crystal walls of the city stretch above into the dim light above you.
 Looking closely you can make out windows with heavy crossbows trained on
 the road.  Several drow guards stand watch at the gates and they check all
 the wagons entering the city.  To your northwest and southwest you can make
-out a road around the city walls.  The roads along the walls look like a 
+out a road around the city walls.  The roads along the walls look like a
 giant camp for the merchants to park caravans larger then the city allows
 inside the walls.
 ~
@@ -742,7 +742,7 @@ You see the road leading to a main road through the grove.
 S
 #25210
 The road along the wall.~
-The road continues on.  Several fires light the sides of the road as the 
+The road continues on.  Several fires light the sides of the road as the
 merchants meals are cooked by servants.  You see a duegar and another type
 of creature you have never seen before arguing over some sort of jewlery.
 You don't understand their gutteral language, but you understand the meaning
@@ -764,7 +764,7 @@ S
 Outside the Northern Gate of Nethril.~
 Several guards start to run to the southeast as a fight between two different
 merchants starts to break out.  To your north the road continues into the
-distance and leaves the cavern.  To your southwest and southeast the road 
+distance and leaves the cavern.  To your southwest and southeast the road
 continues on through the camps of merchants.
 ~
 252 D 11
@@ -789,7 +789,7 @@ The road around the base of the wall.~
 The first thing you notice is the mushroom tower to the northwest of the
 road.  Three drow are standing on top of the mushroom.  The tents and
 camps are almost non-existant here because the merchants don't want the
-guards scrutinizing them too closely.  
+guards scrutinizing them too closely.
 ~
 252 D 11
 D6
@@ -873,13 +873,13 @@ You see the road continue around the wall.
 S
 #25216
 The road along the wall.~
-The body of a dead dark elf is laying here with several bolts sticking out 
-of it.  Two drow guards are standing near the body blocking any 'ambitious' 
-individual from getting anything off of it.  Another drow dressed in robes 
+The body of a dead dark elf is laying here with several bolts sticking out
+of it.  Two drow guards are standing near the body blocking any 'ambitious'
+individual from getting anything off of it.  Another drow dressed in robes
 comes and pulls a pouch from around the neck of the dead drow.  Opening it
-he nods his head and making a gesture disappears.  The two other drow pull 
+he nods his head and making a gesture disappears.  The two other drow pull
 the body toward the southeast.  Looking up along the ledge you see several
-dark elves reloading heavy crossbows.  One can't help but wonder what 
+dark elves reloading heavy crossbows.  One can't help but wonder what
 happened here.
 ~
 252 D 11
@@ -898,8 +898,8 @@ S
 The Southern Gate of Nethril.~
 Merchant traffic here is busy as servants from several of the ruling houses
 of Nethril look at the wares the merchants are selling.  A duegar smiles as
-he walks away counting several small red stones in his hand and two drow 
-direct a snail and a large wagon full of underground crabs through the 
+he walks away counting several small red stones in his hand and two drow
+direct a snail and a large wagon full of underground crabs through the
 gates.
 ~
 252 D 11
@@ -908,7 +908,7 @@ You see a road going down a slope.
 ~
 ~
 0 -1 25224
-D7 
+D7
 You see a road along the wall.
 ~
 ~
@@ -942,8 +942,8 @@ S
 The road around the city.~
 Two duergar are here fighting as children play and take items from both
 of their wagons.  They wrecked into each other.  The guards on the ledge
-are snickering at the two.  From here you can see an area of the grove 
-cleared out and several barrels sitting around the edge.  
+are snickering at the two.  From here you can see an area of the grove
+cleared out and several barrels sitting around the edge.
 ~
 252 D 11
 D6
@@ -964,14 +964,14 @@ and wagons at the base of the wall.  In the distance to the north you can
 see the road leading from an entrance in the cavern wall.  From the amount
 of tracks on the road you can tell that it is used heavily for traffic.
 ~
-252 D 11 
+252 D 11
 D0
 You can see the road leading north to the cavern wall.
 ~
 ~
 0 -1 25221
 D2
-You see the road leading south to a city. 
+You see the road leading south to a city.
 ~
 ~
 0 -1 25211
@@ -995,11 +995,11 @@ Several mushroom seem to be messed up.
 mushroom~
 4 -1 25266
 D2
-You see the road leads to a crystal city. 
+You see the road leads to a crystal city.
 ~
 ~
 0 -1 25220
-D3 
+D3
 You can see a giant mushroom tower.
 ~
 ~
@@ -1026,7 +1026,7 @@ S
 #25223
 The northern entrance of the cavern.~
 The northern wall climbs straight up to the ceiling of this massive cavern.
-Even though this cavern is miles underneath the surface of the world the 
+Even though this cavern is miles underneath the surface of the world the
 glowing moss makes it seem like a star-filled night.  The crystal city
 reflecting light in the south draws your attention.  Wide bars cover the
 way north and you can see a sign here.
@@ -1037,18 +1037,18 @@ You see a crystal city in the distance.
 ~
 ~
 0 -1 25222
-E 
+E
 sign~
 The way north has been blocked under the orders of the ruling council of
-Nethril.  
+Nethril.
 ~
 S
 #25224
 South of the City.~
 You are on a slope that rises from the south and leads to the city gates
 in the north.  The massive wall of this cavern lays to the south.  To the
-southeast you can see a giant mushroom with dark figures standing on top of 
-it. 
+southeast you can see a giant mushroom with dark figures standing on top of
+it.
 ~
 252 D 11
 D0
@@ -1066,11 +1066,11 @@ S
 The southern road before the mushroom.~
 To the west is a huge mushroom.  You can see several dark figures standing
 on the top of it looking down at you.  The road here looks barely used and
-you can see only a few tracks in the dirt.  The wall of the cavern stands 
+you can see only a few tracks in the dirt.  The wall of the cavern stands
 to the south and a crystal city lies to the north.
 ~
 252 D 11
-D0 
+D0
 The crystal city sits to the north.
 ~
 ~
@@ -1089,8 +1089,8 @@ S
 #25226
 The southern entrance of the cavern.~
 The cavern stretches to the north and the massive wall to the south rises
-up to the ceiling.  The ceiling looks like the surface on a clear starry 
-night.  A massive crystal city lies a short distance in the north.  You 
+up to the ceiling.  The ceiling looks like the surface on a clear starry
+night.  A massive crystal city lies a short distance in the north.  You
 can see a sign here.
 ~
 252 D 11
@@ -1101,7 +1101,7 @@ You see a crystal city.
 0 -1 25225
 E
 sign~
-The way south has been barred due to warfare. 
+The way south has been barred due to warfare.
 
     The ruling council of Nethril
 ~
@@ -1111,7 +1111,7 @@ The road west of the city.~
 This road is the shorter of the four leading to Nethril from the maze of
 caves known as the Underdark.  There is a giant mushroom to the north and
 you can see dark figures watching you from the top of it.  At this point
-you realize your at the halfway point between the western wall and the 
+you realize your at the halfway point between the western wall and the
 city.
 ~
 252 D 11
@@ -1149,9 +1149,9 @@ You see a road leading to the crystal city.
 S
 #25229
 The river entrance to the cavern.~
-The river is calm and gentle here and looking ahead of you it seems to be 
-all the way to the great crystal city that it passes through.  Looking to 
-the east the river is swallowed in the darkness of underground caves.  
+The river is calm and gentle here and looking ahead of you it seems to be
+all the way to the great crystal city that it passes through.  Looking to
+the east the river is swallowed in the darkness of underground caves.
 Glowing moss covers the ceiling and the cavern looks as if its somewhere on
 the surface on a clear starry night.
 ~
@@ -1215,7 +1215,7 @@ see small figures walking on the deck of this barge.  It looks as if it is
 headed toward the city.  You notice that one of the nets holding the crates
 in place has come undone and is now hanging into the water.
 ~
-252 D 11 
+252 D 11
 D6
 The river continues into the cavern.
 ~
@@ -1231,8 +1231,8 @@ S
 The underground river.~
 You can see lights from a barge on the river to the northeast.  Several
 merchants from the various races of the underdark must use this river as
-a highway of trade.  It seems to flow directly through the crystal city 
-to the west.  
+a highway of trade.  It seems to flow directly through the crystal city
+to the west.
 ~
 252 DE 7
 3 5 0
@@ -1251,11 +1251,11 @@ S
 The underground river continues.~
 The river continues on to a crystal city.  To the north you see several
 dark figures working in a cleared out area of the grove.  One huge figure
-keeps snapping a whip and shouting at the smaller ones.  
+keeps snapping a whip and shouting at the smaller ones.
 ~
 252 DE 7
 7 5 0
-D1 
+D1
 The river continues on into the cavern.
 ~
 ~
@@ -1271,7 +1271,7 @@ The river narrows.~
 The river narrows slightly here as it starts to cut through the slope that
 the crystal city is built on.  Drow guards riding a skiff have stopped a
 craft here piloted by mindflayers.  You bump into something and when you
-look into the water to see the sightless eyes of a corpse greet your gaze 
+look into the water to see the sightless eyes of a corpse greet your gaze
 before it is pulled beneath the water by the denizens of the river.
 ~
 252 DE 7
@@ -1291,7 +1291,7 @@ S
 The river underneath the outer eastern wall.~
 The river flows into a tunnel leading through the rock mound and into the
 city beyond.  You can't see much through the darkness, but you can make a
-massive gate above you hanging from the walls that could drop down at a 
+massive gate above you hanging from the walls that could drop down at a
 moments notice to stop any invasion force that might come along the river.
 ~
 252 DE 7
@@ -1312,7 +1312,7 @@ In the city.~
 Walls climb up on either side of the river and you can see the tops of
 buildings beyond.  On top of the walls you can see citizens of the city
 walking along doing their daily routine.  You see a guard patrol look down
-at you and then one of the younger looking ones run off into the city. 
+at you and then one of the younger looking ones run off into the city.
 ~
 252 DE 7
 7 5 0
@@ -1331,7 +1331,7 @@ S
 The docks.~
 Several small ships are docked here loading and unloading crates.  Guards
 stand every few feet to protect the drow in finer dress that stand around
-and write notes onto tablets.  Races from all over the dark underground 
+and write notes onto tablets.  Races from all over the dark underground
 world are on these boats.  A hook horror with a glowing collar stands on
 the dock by one boat as a mindflayer points to places on the ground it wants
 the cargo unloaded.  On another boat several gnomes are hearding roth off
@@ -1340,7 +1340,7 @@ drow children in filthy rags run back and forth between the crowds kicking
 some sort of fruit.
 ~
 252 D 7
-D8 
+D8
 You can see a cave in the distance leading out of the city.
 ~
 ~
@@ -1353,10 +1353,10 @@ The river continues on through the city.
 S
 #25239
 Underneath the bridge.~
-You pass underneath a bridge that has a guard every few feet.  They 
-all look heavily armored.  They dont even take any notice of you as 
-you pass underneath them.  Several fine dressed drow are crossing the 
-bridge in both directions.  
+You pass underneath a bridge that has a guard every few feet.  They
+all look heavily armored.  They dont even take any notice of you as
+you pass underneath them.  Several fine dressed drow are crossing the
+bridge in both directions.
 ~
 252 DE 7
 9 5 0
@@ -1375,7 +1375,7 @@ S
 The river at the inner wall.~
 The river here flows into the wall of the city.  Guards stand on the high
 walls on either side of the river, but you don't see any civillians.  The
-guards look down at you, but no aggressive moves are made.  
+guards look down at you, but no aggressive moves are made.
 ~
 252 DE 7
 9 5 0
@@ -1413,12 +1413,12 @@ S
 #25242
 The river before the city.~
 The walls along the river are rough and have been carved out into a wall a
-hundred feet tall over the years.  The river flows quietly to the cavern 
+hundred feet tall over the years.  The river flows quietly to the cavern
 wall.  You can see a huge iron container being dropped from above.
 ~
 252 DE 7
 9 5 0
-D6 
+D6
 The river flows into the city.
 ~
 ~
@@ -1463,9 +1463,9 @@ The river flows into the cavern.
 S
 #25245
 Before the mushroom tower.~
-You can see the interior of the mushroom through the open door.  It looks 
-burned out though and smoke still blows out of it.  There is a sign on the 
-wall beside the door. 
+You can see the interior of the mushroom through the open door.  It looks
+burned out though and smoke still blows out of it.  There is a sign on the
+wall beside the door.
 
 ~
 252 D 0
@@ -1484,9 +1484,9 @@ Captain E'lithain, Commander of the Grove Watch
 S
 #25246
 Before the mushroom tower.~
-You are standing before a thirty foot tall mushroom.  There is something   
+You are standing before a thirty foot tall mushroom.  There is something
 coming out of the door to the tower that you really weren't expecting.  Snow,
-and it is making a deep drift just outside of the door.  There is a sign 
+and it is making a deep drift just outside of the door.  There is a sign
 on the wall beside the door.
 ~
 252 D 0
@@ -1506,9 +1506,9 @@ S
 #25247
 The farm.~
 Several slaves are working here harvesting and preparing mushrooms from the
-consumption of the city.  Drow taskmasters whip and shout at the slaves 
-working all around this place.  Three wagons are loaded down with the 
-mushroom and several more are waiting to be loaded.  
+consumption of the city.  Drow taskmasters whip and shout at the slaves
+working all around this place.  Three wagons are loaded down with the
+mushroom and several more are waiting to be loaded.
 ~
 252 D 0
 D2
@@ -1555,8 +1555,8 @@ boards~
 S
 #25250
 The dark passage.~
-Tracks in the dust show that this passage is used often.  The walls 
-are smooth and look dug out.  Other than that this hall looks rather 
+Tracks in the dust show that this passage is used often.  The walls
+are smooth and look dug out.  Other than that this hall looks rather
 unremarkable.
 ~
 252 AD 11
@@ -1610,8 +1610,8 @@ S
 #25253
 The dark passage.~
 You can hear muffled voices from the west.  The smell of alcohol is still
-strong, but now you can smell something sweet too.  Tracks in the dust 
-show that this passage is used often. 
+strong, but now you can smell something sweet too.  Tracks in the dust
+show that this passage is used often.
 ~
 252 AD 11
 D1
@@ -1661,7 +1661,7 @@ S
 #25256
 Along the path.~
 The path continues here and in the distance to the northeast you can see
-a dark cave in the cavern wall.  Small pieces of web that hang off of the 
+a dark cave in the cavern wall.  Small pieces of web that hang off of the
 stalks are blowing like a banner.  There are torches spaced here and there
 among the path and the runes on the stalks are glowing brightly.
 ~
@@ -1698,7 +1698,7 @@ E
 altar~
 Looking closely you can see that this altar is actually made up of the skulls
 of several different creatures.  Blood from whatever sacrifices are performed
-here have begun to run out of the silent screams of the skulls and form a 
+here have begun to run out of the silent screams of the skulls and form a
 large puddle around the altar.
 ~
 S
@@ -1754,10 +1754,10 @@ S
 #25261
 On the bridge.~
 This bridge has been carved out of stone.  Exquisite carvings are on every
-part of it and no carving is repeated twice.  The railing along the brige  
+part of it and no carving is repeated twice.  The railing along the brige
 is thick and is as ornately carved as the rest of the bridge.  Several
 torches light the span from one side to the other.  Below, you can see the
-water of an underground river and the lights of several small vessels 
+water of an underground river and the lights of several small vessels
 travelling on it.  In the distance up the river a fight has started out
 between guards and small people on a barge.  A rope tied to one of the
 rails hangs over the edge.
@@ -1781,7 +1781,7 @@ so ambundant here.  Mushrooms of all colors and sizes have grown to such
 a point that they almost strangle the small southwestern path.
 ~
 252 D 11
-D0 
+D0
 You see a bridge.
 ~
 ~
@@ -1794,9 +1794,9 @@ You see a small overgrown path.
 S
 #25263
 The strangled path.~
-The path here is overgrown and quiet.  This is one part of the grove that 
-no towers are around and the only part you have seen so far that makes 
-you feel at ease.  The path continues to the southwest.    
+The path here is overgrown and quiet.  This is one part of the grove that
+no towers are around and the only part you have seen so far that makes
+you feel at ease.  The path continues to the southwest.
 ~
 252 D 11
 D6
@@ -1813,8 +1813,8 @@ S
 #25264
 The strangled path.~
 Light seems to be coming from a clearing in the west along with several
-shadows of dancing figures.  You can also hear music with a fast rythm 
-that the shadows seem to be moving to.  
+shadows of dancing figures.  You can also hear music with a fast rythm
+that the shadows seem to be moving to.
 ~
 252 D 11
 D6
@@ -1843,7 +1843,7 @@ You see a small overgrown path.
 S
 #25266
 The hidden path.~
-The entire path is littered with bolts.  Three bodies that look like 
+The entire path is littered with bolts.  Three bodies that look like
 pin-cushions are also here.  You can make out the top of a tower in the
 west and every once in awhile a bolt will shoot from the top of the tower
 and hit a mushroom stalk.  You might had better move before you get hit
@@ -1882,9 +1882,9 @@ A dark path.
 S
 #25268
 A dark path.~
-Some scraps of cloth have been ripped off of someones clothing and is 
+Some scraps of cloth have been ripped off of someones clothing and is
 hanging on the edge of a sharp rock jutting out of the ground.  The
-path here has less crushed undergrowth on it.  The ceiling of the cavern 
+path here has less crushed undergrowth on it.  The ceiling of the cavern
 above is lost in the mushroom canopy.
 ~
 252 AD 11
@@ -1902,7 +1902,7 @@ S
 #25269
 The turn in the dark path.~
 There is a turn in the path here that heads north.  There are none of the
-trampled mushrooms that you saw earlier in the path and you feel like a 
+trampled mushrooms that you saw earlier in the path and you feel like a
 dozen eyes are watching you.
 ~
 252 AD 11
@@ -1936,7 +1936,7 @@ S
 The top of a mushroom tower.~
 An archway connects the top of this tower with the path around the walls
 of the city.  Several mounted crossbows are mounted on the rails and are
-pointed at various parts of the camp covering the foot of the wall.  A  
+pointed at various parts of the camp covering the foot of the wall.  A
 hole in the floor has some steps that lead downward.
 ~
 252 D 11
@@ -1993,7 +1993,7 @@ S
 The spider pit.~
 You realize that it was a mistake to try to come down these stairs when you
 hear a splintering of wood and feel yourself falling into something soft and
-crunchy.  You wonder what it could be until you feel several things biting 
+crunchy.  You wonder what it could be until you feel several things biting
 you and then remember about where you are.  These are drow.  Of course there
 is going to be a few spiders around somewhere.  You curse your luck when
 you find yourself in the same place a lot of the beings do in this realm.
@@ -2007,8 +2007,8 @@ Outside the southern tower.~
 A giant mushroom stands here and from looking at it you can tell it has
 been hollowed out and turned into some sort of a tower.  You can see drow
 high above you standing on the edge of the tower and looking at you with
-hated glares.  Luckily, the rulers of the city have decreed that no one 
-should attack unless attacked first.  Less wars that way, and the city is 
+hated glares.  Luckily, the rulers of the city have decreed that no one
+should attack unless attacked first.  Less wars that way, and the city is
 still rebuilding from the last one.
 ~
 252 D 11
@@ -2022,7 +2022,7 @@ S
 Inside the tower.~
 The bottom of the tower reminds you a lot of a tavern.  There are barrels
 of what can only be mushroom wine in one corner and a square table with
-some chairs place around it in a chaotic fashion.  On the table sits a 
+some chairs place around it in a chaotic fashion.  On the table sits a
 deck of cards and two mugs.  There is a stair in the corner of the room
 that leads upward or you can go enter the door to leave the tower.
 ~
@@ -2053,7 +2053,7 @@ You can't see anything through the darkness.
 0 -1 25276
 E
 books~
-     There are several arcane runes and symbols on the pages.  You can't 
+     There are several arcane runes and symbols on the pages.  You can't
 make heads or tails of it.
 ~
 S
@@ -2077,7 +2077,7 @@ S
 At the foot of the western mushroom tower.~
 This tower raises up to an incredible fifty feet.  One of the taller of the
 giant mushrooms that cover the floor of this cavern.  The tower sits in the
-center of a circular area that has been cleared out of all other growth.  
+center of a circular area that has been cleared out of all other growth.
 A door leads into the tower or you can go south to the road.
 ~
 252 D 11
@@ -2103,14 +2103,14 @@ You see nothing but darkness.
 S
 #25281
 The second floor of the tower.~
-Your light floods this room and you can see that it is as spotless and 
-clean as the first floor.  The bunkbeds on one wall and the single bed 
-on the other wall all have little gold coins bouncing up and down on them. 
+Your light floods this room and you can see that it is as spotless and
+clean as the first floor.  The bunkbeds on one wall and the single bed
+on the other wall all have little gold coins bouncing up and down on them.
 The weapons rack by the bunkbeds is full and all the weapons are placed
 neatly upon it and gleam from your light.  A desk on the other wall has
 a small bookcase built onto it and every book is sitting straight up.
 The guards here must be anal retentive.
-~ 
+~
 252 AD 0
 D4
 You can see the roof of the cavern.
@@ -2130,7 +2130,7 @@ a sunken effect.  Rotating crossbows are sitting at all four corners and
 everyone of them are cocked and ready to fire at a moments notice.  Each
 of the crossbows also has a full quiver of bolts hung on a tiny peg nailed
 in the wall by it.  You can see out across the entire cavern from here and
-you also have an excellent view of the other towers in the grove.  You 
+you also have an excellent view of the other towers in the grove.  You
 notice two guards and a mage standing beside one wall talking.  You catch
 something about an inspection, but not much more.
 ~
@@ -2148,7 +2148,7 @@ daggers are laying all over the ground.  One lump of charred material moans
 and then sits silent.  You're still wondering what is going on when several
 bolts fly from the wall of mushrooms across the road behind you and hit all
 around the stalk of the mushroom.  Maybe you had better get inside or leave
-this place. 
+this place.
 ~
 252 D 11
 D1
@@ -2159,12 +2159,12 @@ You can see a road.
 S
 #25284
 The first floor of the tower.~
-The first thought that runs through your mind is that it looks like a small 
-tornado went through this room.  The single table has been overturned and 
-what appear to have been chairs has been broken and smashed beyond all hope 
-of repair.  Several barrels in one corner of the room have large holes in 
-them and they are all leaking a sweet smelling liquid.  The liquid is 
-pooling on the floor and mixing with the blood still flowing from three 
+The first thought that runs through your mind is that it looks like a small
+tornado went through this room.  The single table has been overturned and
+what appear to have been chairs has been broken and smashed beyond all hope
+of repair.  Several barrels in one corner of the room have large holes in
+them and they are all leaking a sweet smelling liquid.  The liquid is
+pooling on the floor and mixing with the blood still flowing from three
 freshly killed drow.
 ~
 252 AD 0
@@ -2181,7 +2181,7 @@ sweat as soon as you ascend the steps from below.  Everything in this room
 looks like it has been wiped away by what could have only been a fireball.
 You take a step and hear a crunch.  Looking down you see the skeletal remains
 of one of the attackers of this tower.  Small fires are still burning here
-and there and the smoke is being pulled out the hole in the ceiling of the 
+and there and the smoke is being pulled out the hole in the ceiling of the
 room.  Stairs leading to the hole still exist, but you're aren't sure if
 anyone could trust them.
 ~
@@ -2202,7 +2202,7 @@ The top of the tower.~
 It looks like the attackers didn't make it this far.  The lack of bodies are
 a good indication of that.  Small bolts are sticking out of the roof though
 and are still being shot into the grove across the road to the east.  Two
-guards and a mage look battle weary and hardly take notice of you as they 
+guards and a mage look battle weary and hardly take notice of you as they
 continue to shoot bolts.  Looking south to the city it makes you wonder what
 you'll find there.
 ~
@@ -2218,7 +2218,7 @@ The burned tower.~
 Guards have to float to the top of the tower to keep watch because recent
 events have forced them to close the bottom levels of the tower.  Being
 burned out will tend to do that though.  It looks like a small sun has
-given birth and died in this room.  Small tendrils of smoke still rise 
+given birth and died in this room.  Small tendrils of smoke still rise
 up from the ashes.  Even the stairs are gone leaving the door you came
 through the only way out.
 ~
@@ -2234,9 +2234,9 @@ that even the legendary magical might of the drow couldn't control.
 S
 #25289
 The barge.~
-Gnome traders run around the deck and try to control the craft in the 
-current of the river.  Crates and crates of goods are stacked on the 
-deck waiting to be unloaded upon reaching the city.  A net has been 
+Gnome traders run around the deck and try to control the craft in the
+current of the river.  Crates and crates of goods are stacked on the
+deck waiting to be unloaded upon reaching the city.  A net has been
 torn from one and is hanging limply over the edge.
 ~
 252 D 11
@@ -2328,7 +2328,7 @@ M 0 25200 13 25286
 E 1 25215 -1 16      *sword
 E 1 25216 -1 12      *piwafwi
 E 1 25217 -1 8       *boots
-M 0 25200 13 25286  
+M 0 25200 13 25286
 E 1 25215 -1 16      *sword
 E 1 25216 -1 12      *piwafwi
 E 1 25217 -1 8       *boots
@@ -2393,7 +2393,7 @@ E 1 25216 -1 12      *piwafwi
 E 1 25217 -1 8       *boots
 E 1 25220 -1 5       *chainmail
 E 1 25221 -1 4       *amulet
-M 0 25203 3 25270    
+M 0 25203 3 25270
 E 1 25215 -1 16      *sword
 E 1 25216 -1 3       *piwafwi
 E 1 25217 -1 8       *boots
@@ -2409,22 +2409,22 @@ E 1 25221 -1 4       *amulet
 M 0 25204 2 25247
 E 1 25225 -1 16      *whip
 E 1 25226 -1 6       *mask
-M 0 25204 2 25248   
+M 0 25204 2 25248
 E 1 25225 -1 16      *whip
 E 1 25226 -1 6       *mask
 *slaves in the food
 M 0 25205 10 25247
 E 1 25224 -1 13      *loincloth
-M 0 25205 10 25247   
-E 1 25224 -1 13      *loincloth
 M 0 25205 10 25247
 E 1 25224 -1 13      *loincloth
 M 0 25205 10 25247
 E 1 25224 -1 13      *loincloth
-M 0 25205 10 25247   
+M 0 25205 10 25247
+E 1 25224 -1 13      *loincloth
+M 0 25205 10 25247
 E 1 25224 -1 13      *loincloth
 *slaves in the whine
-M 0 25205 10 25248  
+M 0 25205 10 25248
 E 1 25224 -1 13      *loincloth
 M 0 25205 10 25248
 E 1 25224 -1 13      *loincloth
@@ -2439,21 +2439,24 @@ M 0 25206 1 25248
 *smugglers three
 M 0 25207 3 25254
 E 1 25215 -1 16      *sword
-M 0 25207 3 25254     
+M 0 25207 3 25254
 E 1 25215 -1 16      *sword
-M 0 25207 3 25254 
+M 0 25207 3 25254
 E 1 25215 -1 16      *sword
 *worshippers of Eilistraee
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
-M 0 25208 10 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
+M 0 25208 20 25265
 *Eilistraee
 M 0 25209 1 25265
 *duergar merchants
@@ -2477,7 +2480,7 @@ E 1 25223 -1 11      *shield
 M 0 25214 4 25221
 E 1 25222 -1 16      *axe
 E 1 25223 -1 11      *shield
-M 0 25214 4 25224 
+M 0 25214 4 25224
 E 1 25222 -1 16      *axe
 E 1 25223 -1 11      *shield
 M 0 25214 -1 25227
