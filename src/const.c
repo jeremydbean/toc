@@ -2440,7 +2440,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"force sword",
 	{ 32, 62, 62, 62, 62, 34 },     { 2,  2,  2,  2, 2, 2},
-	spell_force_sword,      TAR_CHAR_SELF,     POS_FIGHTING,
+	spell_force_sword,      TAR_CHAR_DEFENSIVE,     POS_FIGHTING,
 	NULL,                   SLOT(543),       40,     18,
 	"sword of force",       "Your guardian sword disappears."
     },

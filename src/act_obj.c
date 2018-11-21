@@ -106,7 +106,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	act( "$d: you can't carry that much weight.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
-    } 
+    }
 
     if (!can_loot(ch,obj)) {
 	act("Corpse looting is not permitted.",ch,NULL,NULL,TO_CHAR );
@@ -177,7 +177,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	        sprintf(buffer,"%d gold",obj->value[0]);
 	        do_split(ch,buffer);
 	    }
-	  } 
+	  }
 	  extract_obj( obj );
 	  break;
 	case TYPE_SILVER:
@@ -449,7 +449,7 @@ void do_get( CHAR_DATA *ch, char *argument )
              return;
           }
           switch(container->value[1]) {
-             case TYPE_PLATINUM: 
+             case TYPE_PLATINUM:
                 ch->new_platinum += amount;
                 sprintf(buf,"You get %d platinum coins.\n\r",amount);
                 break;
@@ -472,9 +472,9 @@ void do_get( CHAR_DATA *ch, char *argument )
           container->value[0] -= amount;
           if (container->value[0] <= 0) {
             extract_obj(container);
-          } 
+          }
           return;
- 
+
 	case ITEM_CORPSE_PC:
 	    {
 
@@ -701,7 +701,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
     }
 
     if(is_number(arg)) {
-	int amount = atoi(arg);	
+	int amount = atoi(arg);
 
 	argument = one_argument(argument,arg);
 	if(amount<= 0) {
@@ -861,7 +861,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	    return;
 	}
     }
-		
+
     count = 0;
 
     if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
@@ -1272,7 +1272,7 @@ void do_balance( CHAR_DATA *ch, char *argument )
     return;
 }
 
-/* 
+/*
  * End of TOC Bank Code
  * By Gravestone.
  */
@@ -1350,7 +1350,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
     int liquid;
 
     one_argument( argument, arg );
-  
+
     if ( arg[0] == '\0' )
     {
 	for ( obj = ch->in_room->contents; obj; obj = obj->next_content )
@@ -1421,7 +1421,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 
 	amount = number_range(3, 10);
 	amount = UMIN(amount, obj->value[1]);
-	
+
 	gain_condition( ch, COND_DRUNK,
 	    amount * liq_table[liquid].liq_affect[COND_DRUNK  ] );
 
@@ -1574,11 +1574,14 @@ bool remove_obj( CHAR_DATA *ch, int iWear, bool fReplace )
     if ( !fReplace )
 	return FALSE;
 
+	if (!IS_IMMORTAL(ch))
+  {
     if ( IS_SET(obj->extra_flags, ITEM_NOREMOVE) )
     {
 	act( "You can't remove $p.", ch, obj, NULL, TO_CHAR );
 	return FALSE;
     }
+  }
 
     unequip_char( ch, obj );
     act( "$n stops using $p.", ch, obj, NULL, TO_ROOM );
@@ -1667,9 +1670,20 @@ void do_secondary( CHAR_DATA *ch, char *argument )
 	/* reduce the power of dual wield by restricting weapons usable */
 	for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
 	{
+    if (IS_IMMORTAL(ch))
+    {
+      if ( !remove_obj( ch, WEAR_SHIELD, fReplace ) )
+    	    return;
+        act( "$n wields $p as a second weapon.", ch, obj, NULL, TO_ROOM );
+        act( "You wield $p as your second weapon.", ch, obj, NULL, TO_CHAR );
+        equip_char( ch, obj, WEAR_SHIELD );
+        return;
+    }
+
+
 	  if ( paf->location == APPLY_DAMROLL )
 	  {
-	    if(paf->modifier > 3)
+	    if(paf->modifier > 5)
 	    {
 	      send_to_char("That item is too powerful to dual wield.\n\r",ch);
 	      return;
@@ -1678,7 +1692,7 @@ void do_secondary( CHAR_DATA *ch, char *argument )
 
 	  if ( paf->location == APPLY_HITROLL )
 	  {
-	    if(paf->modifier > 4)
+	    if(paf->modifier > 5)
 	    {
 	      send_to_char("That item is too powerful to dual wield.\n\r",ch);
 	      return;
@@ -1778,8 +1792,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
              send_to_char(buf,ch);
              return;
            }
-       }   
- 
+       }
+
     }
 
 
@@ -1997,14 +2011,14 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 	if ( !remove_obj( ch, WEAR_WIELD, fReplace ) )
 	    return;
 
-	if ( !IS_NPC(ch) 
+	if ( !IS_NPC(ch)
 	&& get_obj_weight( obj ) > str_app[get_curr_stat(ch,STAT_STR)].wield )
 	{
 	    send_to_char( "It is too heavy for you to wield.\n\r", ch );
 	    return;
 	}
 
-	if (!IS_NPC(ch) && ch->size < SIZE_LARGE 
+	if (!IS_NPC(ch) && ch->size < SIZE_LARGE
 	&&  IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
  	&&  get_eq_char(ch,WEAR_SHIELD) != NULL
   	&&  obj->pIndexData->action != NULL)
@@ -2023,7 +2037,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 	   return;
 
         skill = get_weapon_skill(ch,sn);
- 
+
         if (skill >= 100)
 	    act("$p feels like a part of you!",ch,obj,NULL,TO_CHAR);
         else if (skill > 85)
@@ -2186,7 +2200,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
     int copper;
-    
+
     CHAR_DATA *gch;
     int members;
     char buffer[100];
@@ -2230,9 +2244,9 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 		"copper coins for your sacrifice.\n\r",copper);
 	send_to_char(buf,ch);
     }
-    
+
     ch->new_copper += copper;
-    
+
     if (IS_SET(ch->act,PLR_AUTOSPLIT) ) {
     	members = 0;
 	for (gch = ch->in_room->people;gch;gch = gch->next_in_room)
@@ -2241,7 +2255,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 
 	if ( members > 1 && copper > 1) {
 	    sprintf(buffer,"%d copper",copper);
-	    do_split(ch,buffer);	
+	    do_split(ch,buffer);
 	}
     }
 
@@ -2419,7 +2433,7 @@ void do_brandish( CHAR_DATA *ch, char *argument )
     {
 	act( "$n brandishes $p.", ch, staff, NULL, TO_ROOM );
 	act( "You brandish $p.",  ch, staff, NULL, TO_CHAR );
-	if ( ch->level < staff->level 
+	if ( ch->level < staff->level
 	||   number_percent() >= chance)
  	{
 	    act ("You fail to invoke $p.",ch,staff,NULL,TO_CHAR);
@@ -2542,8 +2556,8 @@ void do_zap( CHAR_DATA *ch, char *argument )
 	    act( "You zap $P with $p.", ch, wand, obj, TO_CHAR );
 	}
 
- 	if (ch->level < wand->level 
-	||  number_percent() >= 20 + get_skill(ch,gsn_wands) * 4/5) 
+ 	if (ch->level < wand->level
+	||  number_percent() >= 20 + get_skill(ch,gsn_wands) * 4/5)
 	{
 	    act( "Your efforts with $p produce only smoke and sparks.",
 		 ch,wand,NULL,TO_CHAR);
@@ -2759,10 +2773,10 @@ void do_steal( CHAR_DATA *ch, char *argument )
         send_to_char( "You can't find it.\n\r", ch );
         return;
     }
-	
+
     if(!can_drop_obj( ch, obj )
     ||   IS_SET(obj->extra_flags, ITEM_INVENTORY)
-    ||   obj->level > ch->level 
+    ||   obj->level > ch->level
     ||   IS_SET(obj->extra_flags2, ITEM2_NOSTEAL ) )
     {
 	send_to_char( "You can't pry it away.\n\r", ch );
@@ -2828,7 +2842,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 	do_say( keeper, "Sorry, I am closed. Come back later." );
 	return NULL;
     }
-    
+
     if ( time_info.hour > pShop->close_hour )
     {
 	do_say( keeper, "Sorry, I am closed. Come back tomorrow." );
@@ -2994,7 +3008,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	    if ( obj->wear_loc == WEAR_NONE
 	    &&   can_see_obj( ch, obj )
 	    &&   ( cost = get_cost( keeper, obj, TRUE ) ) > 0
-	    &&   ( arg[0] == '\0'  
+	    &&   ( arg[0] == '\0'
  	       ||  is_name(arg,obj->name) ))
 	    {
 		if ( !found )
@@ -3401,7 +3415,7 @@ void do_manipulate( CHAR_DATA *ch, char *argument )
 	      obj->short_descr ? obj->short_descr : obj->name, TO_ROOM);
 	  return;
       case 9: /* jump */
-	  
+
 	if( obj->value[2] == 1 ) /* down */
 	{
 	    act("You jump down $T, and find yourself in another room.",ch,
@@ -3463,7 +3477,7 @@ void do_manipulate( CHAR_DATA *ch, char *argument )
 		 obj->short_descr ? obj->short_descr : obj->name, TO_ROOM );
 	}
 	return;
-	
+
      case 10: /* obj has special proc */
      break;
    }
@@ -3659,7 +3673,7 @@ void do_repair( CHAR_DATA *ch, char *argument )
     if(obj->number_repair >= 25) {
         act( "$N starts repairing your $p and breaks it!",
 		ch, obj, rpr, TO_CHAR );
-        act( "$N starts repairing $n's $p and breaks it!", 
+        act( "$N starts repairing $n's $p and breaks it!",
 		ch, obj, rpr, TO_ROOM );
 	extract_obj(obj);
 	do_say(rpr,"Heh, old thing broke apart, guess you don't have to pay.\n\r");
@@ -3674,17 +3688,17 @@ void do_repair( CHAR_DATA *ch, char *argument )
 
 
 
-long query_gold(CHAR_DATA *ch) 
+long query_gold(CHAR_DATA *ch)
 {
-  if (ch == NULL) return 0; 
-  return (long) ((5 * ch->new_platinum) + (ch -> new_gold) + 
+  if (ch == NULL) return 0;
+  return (long) ((5 * ch->new_platinum) + (ch -> new_gold) +
                  (0.1 * ch -> new_silver) + (0.01 * ch->new_copper));
 }
 
 int query_carry_coins(CHAR_DATA *ch, long amount)
 {
   if (ch == NULL) return 0;
-  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold + 
+  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold +
                                ch->new_silver + ch->new_copper + amount)/100));
 }
 
@@ -3695,11 +3709,11 @@ int query_carry_weight(CHAR_DATA *ch)
 }
 
 void add_money(CHAR_DATA *ch, long amount)
-{ 
+{
   char buf[1000];
   long has_money;
   long i;
-  if (amount > 0) 
+  if (amount > 0)
   {  ch->new_platinum += amount/5;
      ch->new_gold += amount%5;
      return;
@@ -3711,14 +3725,14 @@ void add_money(CHAR_DATA *ch, long amount)
   has_money = query_gold(ch);
   if (has_money < amount)
   { sprintf(buf,"[ADD_MONEY] Trying to substract %ld money while char %s has only %ld.\n\r",
-            amount,ch->name,has_money); 
+            amount,ch->name,has_money);
     log_string(buf);
     ch->new_gold = 0;
     ch->new_platinum = 0;
     ch->new_silver = 0;
     ch->new_copper = 0;
     return;
-  } 
+  }
   i = 100 * amount;
   if ((i > 0) && (ch->new_copper >= 100))
   { if (ch->new_copper >= i)
@@ -3736,7 +3750,7 @@ void add_money(CHAR_DATA *ch, long amount)
     { ch->new_silver -= i;
       return;
     }
-    amount = amount - (ch->new_silver/10); 
+    amount = amount - (ch->new_silver/10);
     ch->new_silver = ch->new_silver % 10;
     add_money(ch,-1 * amount);
     return;
@@ -3770,34 +3784,34 @@ void add_money(CHAR_DATA *ch, long amount)
     return;
   }
   sprintf(buf,"[ADD_MONEY] Trying to substract %ld money while char %s has no money left.\n\r",
-          amount,ch->name); 
+          amount,ch->name);
   log_string(buf);
 }
 
 void add_gold(CHAR_DATA *ch, long amount)
-{ 
-  if (ch == NULL) return; 
+{
+  if (ch == NULL) return;
   ch->new_gold += amount;
   if (ch->new_gold < 0) ch->new_gold = 0;
 }
 
 void add_copper(CHAR_DATA *ch, long amount)
-{ 
-  if (ch == NULL) return; 
+{
+  if (ch == NULL) return;
   ch->new_copper += amount;
   if (ch->new_copper < 0) ch->new_copper = 0;
 }
 
 void add_silver(CHAR_DATA *ch, long amount)
-{ 
-  if (ch == NULL) return; 
+{
+  if (ch == NULL) return;
   ch->new_silver += amount;
   if (ch->new_silver < 0) ch->new_silver = 0;
 }
 
 void add_platinum(CHAR_DATA *ch, long amount)
 {
-  if (ch == NULL) return; 
+  if (ch == NULL) return;
   ch->new_platinum += amount;
   if (ch->new_platinum < 0) ch->new_platinum = 0;
 }
@@ -3913,5 +3927,3 @@ void add_platinum(CHAR_DATA *ch, long amount)
 	return;
     }
 */
-
-

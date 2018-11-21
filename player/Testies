@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542827239
+LogO 1542830433
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,23 +12,23 @@ Gui  4
 Psionic  2
 Cast none
 Levl 53
-Plyd 35781
+Plyd 37648
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 29205
-HMV  680 761 14758 15178 332 337
-NewGold 342
-NewPlat 131
-NewCopp 1618
-NewSilv 605
+HMV  761 761 14949 15178 337 337
+NewGold 368
+NewPlat 141
+NewCopp 1680
+NewSilv 651
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  137411
+Exp  137645
 Act  131272
 AfBy 3678888
 AfBy2 4120
@@ -305,27 +305,27 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-AffD 'pass door'   0  70   0   0    1048576          0
-AffD 'protection evil'  -1  70   0   0       8192          0
-AffD 'fire shield'  -1  70   0   0          0          8
-AffD 'frost shield'   0  70   0   0          0         16
-AffD 'detect hidden'  -1  70   0   0         32          0
-AffD 'detect invis'   0  70   0   0          8          0
-AffD 'power gloves'   0  70  87  19          0          0
-AffD 'infravision'   0 140   0   0        512          0
-AffD 'giant strength'   0  70   4   1          0          0
-AffD 'frenzy'   0  70 110  17          0          0
-AffD 'frenzy'   0  70  11  19          0          0
-AffD 'frenzy'   0  70  11  18          0          0
-AffD 'fly'   0  73   0   0     524288          0
-AffD 'aid'   0  70  54  13          0          0
-AffD 'aid'   0  70   7  18          0          0
-AffD 'divine protection'   0  70   0   0          0       4096
-AffD 'bless'   0  76  -8  24          0          0
-AffD 'bless'  -2  76   8  18          0          0
-AffD 'haste'   0  70   4   2    2097152          0
-AffD 'sanctuary'   0  70   0   0        128          0
-AffD 'major globe'   0  70 -150  17          0          0
+AffD 'pass door'   0  37   0   0    1048576          0
+AffD 'protection evil'  -1  37   0   0       8192          0
+AffD 'fire shield'  -1  37   0   0          0          8
+AffD 'frost shield'   0  37   0   0          0         16
+AffD 'detect hidden'  -1  37   0   0         32          0
+AffD 'detect invis'   0  37   0   0          8          0
+AffD 'power gloves'   0  37  87  19          0          0
+AffD 'infravision'   0 107   0   0        512          0
+AffD 'giant strength'   0  37   4   1          0          0
+AffD 'frenzy'   0  37 110  17          0          0
+AffD 'frenzy'   0  37  11  19          0          0
+AffD 'frenzy'   0  37  11  18          0          0
+AffD 'fly'   0  40   0   0     524288          0
+AffD 'aid'   0  37  54  13          0          0
+AffD 'aid'   0  37   7  18          0          0
+AffD 'divine protection'   0  37   0   0          0       4096
+AffD 'bless'   0  43  -8  24          0          0
+AffD 'bless'  -2  43   8  18          0          0
+AffD 'haste'   0  37   4   2    2097152          0
+AffD 'sanctuary'   0  37   0   0        128          0
+AffD 'major globe'   0  37 -150  17          0          0
 End
 
 #O

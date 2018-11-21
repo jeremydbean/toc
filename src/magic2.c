@@ -3365,22 +3365,26 @@ void spell_moonbeam( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_force_sword( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     AFFECT_DATA af;
+    CHAR_DATA *victim = (CHAR_DATA *) vo;
 
-    if ( IS_AFFECTED2(ch, AFF2_FORCE_SWORD) )
+    if ( IS_AFFECTED2(victim, AFF2_FORCE_SWORD) )
     {
        send_to_char("You already have a force sword on guard.\n\r",ch);
        return;
     }
-    act( "A sword materializes out of nowhere to guard $n.", ch, NULL, NULL, TO_ROOM );
+    act( "A sword materializes out of nowhere to guard $n.", victim, NULL, NULL, TO_ROOM );
     af.type      = sn;
     af.level	 = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration  = dice(2,2) + 1;
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     af.bitvector = 0;
     af.bitvector2 = AFF2_FORCE_SWORD;
-    affect_to_char( ch, &af );
-    send_to_char( "A sword materializes next to you and stands guard.\n\r", ch );
+    affect_to_char( victim, &af );
+    send_to_char( "A sword materializes next to you and stands guard.\n\r", victim );
     return;
 
 }

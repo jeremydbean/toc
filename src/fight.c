@@ -325,6 +325,15 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
     if (IS_AFFECTED(ch,AFF_HASTE))
 	one_hit(ch,victim,dt);
 
+	 if( IS_AFFECTED2( victim, AFF2_DIVINE_PROT ) )
+	 	one_hit(ch,victim,dt);
+		one_hit(ch,victim,dt);
+
+	if (IS_IMMORTAL(ch))
+one_hit(ch,victim,dt);
+one_hit(ch,victim,dt);
+one_hit(ch,victim,dt);
+
     if ( IS_AFFECTED2(ch,AFF2_FORCE_SWORD) && number_percent () > 70)
 	damage(ch,victim,dice(ch->level/2,8),skill_lookup("force sword"), DAM_ENERGY);
 
