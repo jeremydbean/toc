@@ -4192,6 +4192,7 @@ bool check_recover( CHAR_DATA *ch )
 	REMOVE_BIT(ch->affected_by2, AFF2_STUNNED);
 	affect_strip(ch,skill_lookup("confuse") );
 	send_to_char("You are more aware of your surroundings.\n\r",ch);
+	do_emote(ch,"appears more aware of their surroundings.");
 	return TRUE;
       }
    }

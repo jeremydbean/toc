@@ -2600,7 +2600,7 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     {
 	"major globe",
 	{  30, 30, 35, 40, 62, 32 },     { 2,  2,  2,  2, 2, 2},
-	spell_major_globe,     TAR_CHAR_SELF,     POS_STANDING,
+	spell_major_globe,     TAR_CHAR_DEFENSIVE,     POS_STANDING,
 	NULL,                  SLOT(526),       37,     12,
 	"",                   "Your globe of protection fades away."
     },

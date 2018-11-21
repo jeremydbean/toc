@@ -915,7 +915,7 @@ void do_confuse( CHAR_DATA *ch, char *argument )
 	   return;
 	 }
 
-	ch->mana -= 139;
+
     }
     else
     {
@@ -944,10 +944,7 @@ void do_confuse( CHAR_DATA *ch, char *argument )
     {
 	 af.type      = gsn_confuse;
 	 af.level     = ch->level;
-   if(IS_IMMORTAL(ch) )
-   af.duration  = ch->level;
-   else
-	 af.duration  = 8 + (ch->level >= 30) + (ch->level >= 40);
+	 af.duration  = 4 + (ch->level >= 30) + (ch->level >= 40);
 	 af.modifier  = 0;
 	 af.location  = 0;
 	 af.modifier  = 0;
@@ -956,11 +953,14 @@ void do_confuse( CHAR_DATA *ch, char *argument )
 	 affect_to_char( victim, &af );
 	 act("You feel very confused.",victim,NULL,NULL,TO_CHAR);
 	 act("$n looks very confused.",victim,NULL,NULL,TO_NOTVICT);
+   ch->mana -= ch->level + 50;
+
 
     }
     else
     {
 	 act("$N is already pretty confused.",ch,NULL,victim,TO_CHAR);
+	 ch->mana -= (dice(1,5) + 3);
 	 return;
     }
 
@@ -977,7 +977,6 @@ void do_confuse( CHAR_DATA *ch, char *argument )
     return;
 
 }
-
 /* psi */
 void do_clairvoyance( CHAR_DATA *ch, char *argument )
 {
@@ -1964,13 +1963,18 @@ void do_shift( CHAR_DATA *ch, char *argument )
 void spell_major_globe( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     AFFECT_DATA af;
+    CHAR_DATA *victim = (CHAR_DATA *) vo;
 
-    if ( is_affected( ch, sn ) )
+    if ( IS_AFFECTED(victim, sn) )
     {
-	send_to_char("You are already in a protective globe.\n\r",ch);
-	return;
+  if (victim == ch)
+  send_to_char("You are already in a protective globe.\n\r",ch);
+  else
+    act("$N is already in protective globe.",ch,NULL,victim,TO_CHAR);
+  return;
     }
 
+/*
     if(is_affected(ch, skill_lookup("armor") )
     || is_affected(ch, skill_lookup("shield") )
     || is_affected(ch, skill_lookup("shroud") )
@@ -1979,17 +1983,20 @@ void spell_major_globe( int sn, int level, CHAR_DATA *ch, void *vo )
       send_to_char("You can't combine this with other protective spells.\n\r",ch);
       return;
     }
-
+*/
     af.type      = sn;
     af.level	 = level;
+    if(IS_IMMORTAL(ch) )
+    af.duration  = ch->level;
+    else
     af.duration  = 24;
-    af.modifier  = -80;
+    af.modifier  = -80 - ch->level;
     af.location  = APPLY_AC;
     af.bitvector = 0;
     af.bitvector2= 0;
-    affect_to_char( ch, &af );
-    send_to_char("A misty globe surrounds you.\n\r",ch);
-    act("A misty globe surrounds $n.",ch,NULL,NULL,TO_ROOM);
+    affect_to_char( victim, &af );
+    send_to_char("A misty globe surrounds you.\n\r",victim);
+    act("A misty globe surrounds $n.",victim,NULL,NULL,TO_ROOM);
     return;
 }
 

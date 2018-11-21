@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542822647
+LogO 1542826290
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,13 +15,13 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2699703
+Plyd 2702311
 ListRemorts ~
 NumRemorts 0
 Note 1542515167
 Scro 22
 Room 29204
-HMV  25010 25010 25050 25050 24975 24975
+HMV  25010 25010 24956 25050 24975 24975
 NewGold 5026
 NewPlat 10068
 NewCopp 4313
@@ -34,7 +34,7 @@ PkGiv 0
 QuestPnts 24
 Exp  1214750
 Act  270588
-AfBy 2621960
+AfBy 512
 Comm 155680
 Mounted 0
 On_Quest 0
@@ -62,13 +62,13 @@ Color 16 6
 Pos  8
 Prac 210
 Trai 72
-Save  7492
+Save  7500
 Alig  169
-Hit   7512
+Hit   7504
 Dam   7504
-ACs 10080 10080 10080 10080
+ACs 10100 10100 10100 10100
 Attr 17 21 18 18 18
-AMod 1005 1000 1000 1004 1000
+AMod 1001 1000 1000 1000 1000
 Pass Kilrpis9ggekI~
 Bin  Killuminati appears before you.~
 Bout Killuminati raises into the sky, and is gone.~
@@ -312,13 +312,6 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-AffD 'detect invis'   0  44   0   0          8          0
-AffD 'giant strength'   0  44   4   1          0          0
-AffD 'shield'   0  52 -20  17          0          0
-AffD 'fly'   0  47   0   0     524288          0
-AffD 'bless'   0  50  -8  24          0          0
-AffD 'bless'   0  50   8  18          0          0
-AffD 'haste'   0   9   4   2    2097152          0
 End
 
 #O
