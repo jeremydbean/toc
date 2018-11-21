@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1542745269
+LogO 1542777570
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,12 +15,12 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 2649165
+Plyd 2667225
 ListRemorts ~
 NumRemorts 0
 Note 1542515167
 Scro 22
-Room 4208
+Room 1
 HMV  10593 10593 15050 15050 489 489
 NewGold 4346
 NewPlat 10000
@@ -33,7 +33,7 @@ PkRec 0
 PkGiv 0
 QuestPnts 24
 Exp  1214750
-Act  65788
+Act  336124
 AfBy 512
 Comm 155680
 Mounted 0
@@ -61,7 +61,7 @@ Color 15 6
 Color 16 6
 Pos  8
 Prac 210
-Trai 71
+Trai 72
 Alig  492
 Hit   4
 Dam   4
@@ -682,6 +682,30 @@ Cost 0
 Cond 100
 Repd 0
 Val  0 0 -1 0 0
+End
+
+#O
+Vnum 24006
+Nest 0
+ExtF 256
+Wear -1
+Lev  14
+Cost 175
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 20301
+Nest 0
+Wear -1
+Lev  1
+Cost 100
+Cond 100
+Repd 0
+Spell 1 'haste'
+Spell 2 'heal'
+Spell 3 'fire shield'
 End
 
 #END

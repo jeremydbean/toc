@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1542693492
+LogO 1542777631
 Vers 3
 Desc .
 
@@ -63,25 +63,25 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1777356
+Plyd 1778352
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4210
-HMV  1093 1630 14 525 81 346
-NewGold 3
-NewPlat 898
-NewCopp 49
-NewSilv 8
+HMV  1467 1579 29 525 70 346
+NewGold 4
+NewPlat 672
+NewCopp 207
+NewSilv 58
 Bank 1548000
 Dcount 0
 Corpses	0
 PkRec 1
 PkGiv 2
 QuestPnts 262
-Exp  133484
-Act  4260044
+Exp  133492
+Act  4194508
 AfBy 3678856
 Comm 28736
 Mounted 0
@@ -110,10 +110,10 @@ Color 16 6
 Pos  8
 Prac 8
 Save  -8
-Alig  709
-Hit   87
-Dam   109
-ACs -87 -79 -109 22
+Alig  712
+Hit   69
+Dam   98
+ACs -197 -189 -219 -88
 Attr 22 16 18 16 19
 AMod 12 0 -1 -6 -2
 Pass EgIz9KImiHzdA~
@@ -152,7 +152,7 @@ Sk 1 'chill touch'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 1 'detect hidden'
-Sk 61 'detect invis'
+Sk 62 'detect invis'
 Sk 1 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'detect traps'
@@ -160,7 +160,7 @@ Sk 98 'dispel magic'
 Sk 1 'dust devil'
 Sk 95 'faerie fire'
 Sk 86 'fly'
-Sk 95 'gate'
+Sk 96 'gate'
 Sk 85 'giant strength'
 Sk 100 'haste'
 Sk 94 'icicle'
@@ -213,18 +213,13 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'frenzy'   0   5 110  17          0          0
-AffD 'frenzy'   0   5  11  19          0          0
-AffD 'frenzy'   0   5  11  18          0          0
-AffD 'aid'   0   6  51  13          0          0
-AffD 'aid'   0   6   7  18          0          0
-AffD 'shield'   0  43 -20  17          0          0
-AffD 'bless'   0  58  -8  24          0          0
-AffD 'bless'   0  58   8  18          0          0
-AffD 'stone skin'   0  35 -40  17          0          0
-AffD 'armor'   0   6 -20  17          0          0
-AffD 'giant strength'   0  34   4   1          0          0
-AffD 'sanctuary'   0   3   0   0        128          0
+AffD 'sanctuary'  44   6   0   0        128          0
+AffD 'armor'  49  14 -20  17          0          0
+AffD 'shield'   0  26 -20  17          0          0
+AffD 'bless'   0  41  -8  24          0          0
+AffD 'bless'   0  41   8  18          0          0
+AffD 'stone skin'   0  18 -40  17          0          0
+AffD 'giant strength'   0  17   4   1          0          0
 End
 
 #O
@@ -339,7 +334,7 @@ Wear -1
 Cost 500
 Cond 100
 Repd 0
-Val  51 106 -1 -1 0
+Val  51 104 -1 -1 0
 Spell 1 'remove align'
 End
 
@@ -912,41 +907,6 @@ Cost 5000
 Cond 99
 Repd 0
 Affect -1 53 -1 -4 18 0 0
-End
-
-#O
-Vnum 13225
-Nest 0
-Wear -1
-Lev  25
-Cost 100
-Cond 100
-Repd 0
-Affect -1 25 -1 -4 1 0 0
-End
-
-#O
-Vnum 12
-Nest 0
-ShD  the head of Kyrus~
-Desc The severed head of Kyrus is lying here.~
-ExtF 16777216
-Wear -1
-Lev  1
-Cost 0
-Cond 25
-Repd 0
-End
-
-#O
-Vnum 2310
-Nest 0
-Wear -1
-Lev  28
-Cost 1000
-Cond 100
-Repd 0
-Affect -1 28 -1 5 17 0 0
 End
 
 #O

@@ -1285,7 +1285,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
               base_exp = exp_per_level(victim,victim->pcdata->points) * victim->level;
               curr_exp = victim->exp;
               if (curr_exp > base_exp) {
-                gain_exp(victim, UMIN(-1 * ((curr_exp - base_exp)/2),-1));
+                gain_exp(victim, UMIN(-1 * ((curr_exp - base_exp)/16),-1));
               } else if (curr_exp < base_exp) {
                 { sprintf( log_buf, "[GAMEDRIVER] %s has %ld exp at level %d. Minimum for level is %ld.",
                                   victim->name, curr_exp, victim->level, base_exp);
@@ -1426,7 +1426,7 @@ bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim )
 	return TRUE;
     }
 
-/*
+
     if ((ch->in_room->vnum == ROOM_VNUM_TEMPLE) ||
 	(victim->in_room->vnum == ROOM_VNUM_TEMPLE) ||
         (ch->in_room->vnum == ROOM_VNUM_ALTAR) ||
@@ -1434,14 +1434,14 @@ bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim )
         send_to_char( "Not in the temple my dear.\n\r",ch);
         return TRUE;
     }
-*/
-    /* no fighting in safe rooms
+
+
     if (IS_SET(ch->in_room->room_flags,ROOM_SAFE)
      || IS_SET(victim->in_room->room_flags, ROOM_SAFE) )
     {
 	send_to_char("You are unable to affect your victim.\n\r",ch);
 	return TRUE;
-    } */
+    }
 
     if (victim->fighting == ch)
 	return FALSE;

@@ -1225,16 +1225,17 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
-    if(!IS_NPC(victim) )
+/*   if(!IS_NPC(victim) )
 	return;
+  */
 
     if ( IS_AFFECTED(victim, AFF_CHARM)
     ||   IS_AFFECTED(ch, AFF_CHARM)
     ||   ch->level < victim->level
     ||   IS_SET(victim->imm_flags,IMM_CHARM)
     ||   IS_SET(victim->act, ACT_MOUNTABLE)
-    ||   saves_spell( level, victim )
-    ||   number_percent() < 40)
+    ||   saves_spell( level, victim ))
+
     {
       send_to_char("Spell failed.\n\r",ch);
       return;
@@ -1246,6 +1247,19 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
         return;
     }
 
+
+    if (number_percent() <= 50)
+    {
+        send_to_char("You failed.\n\r",ch);
+        return;
+    }
+
+    if (IS_SET(victim->in_room->room_flags,ROOM_SAFE))
+    {
+	send_to_char(
+	    "I don't think so...\n\r",ch);
+	return;
+    }
 
     if (IS_SET(victim->in_room->room_flags,ROOM_LAW))
     {
@@ -1265,11 +1279,19 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
     victim->leader = ch;
     af.type      = sn;
     af.level	 = level;
-    af.duration  = number_fuzzy( 5 + level / 6 );
+    af.duration  = number_fuzzy( 5 + level / 20 );
     af.location  = 0;
     af.modifier  = 0;
     af.bitvector = AFF_CHARM;
     af.bitvector2 = 0;
+
+
+    if(!IS_NPC(victim))
+      af.duration  = number_fuzzy( 5 + level / 20 );
+
+    if(IS_NPC(victim))
+      af.duration  = number_fuzzy( 5 + level / 6 );
+
     affect_to_char( victim, &af );
     act( "Isn't $n just so nice?", ch, NULL, victim, TO_VICT );
     if ( ch != victim )
@@ -4662,7 +4684,7 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo )
       pObjIndex = get_obj_index( 33 );
       obj = create_object( pObjIndex, 0 );
       obj_to_room( obj, ch->in_room );
-      obj->timer = 3;
+      obj->timer = 10;
       obj->value[0] = 3;
       obj->value[1] = victim->in_room->vnum;
       obj->value[2] = 1 + ch->level/15;

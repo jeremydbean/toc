@@ -1,7 +1,7 @@
 #PLAYER
 Name Nero~
 Id   52481
-LogO 1542489018
+LogO 1542763469
 Vers 3
 Desc .                                      ---            
 .                                    --...--          
@@ -45,13 +45,13 @@ Gui  2
 Psionic  2
 Cast Legi
 Levl 54
-Plyd 1497114
+Plyd 1497356
 ListRemorts ~
 NumRemorts 0
 Note 953324212
 Scro 22
 Room 4208
-HMV  1235 1304 290 290 143 293
+HMV  1304 1304 290 290 107 293
 NewGold 28
 NewPlat 6697
 NewCopp 382
@@ -64,8 +64,8 @@ PkGiv 9
 QuestPnts 347
 Exp  177337
 Act  67108936
-AfBy 2622080
-AfBy2 4160
+AfBy 2097664
+AfBy2 64
 Comm 28736
 Mounted 0
 On_Quest 0
@@ -96,16 +96,16 @@ Save  -8
 Alig  983
 Hit   91
 Dam   101
-ACs -54 -53 -77 43
+ACs -34 -33 -57 63
 Attr 14 13 17 15 19
-AMod 12 4 2 7 0
+AMod 16 4 2 7 0
 Pass NeLnWGi23YlKM~
 Titl  Forscythe, Lord of the Legion~
 Pnts 40
 TSex 1
 LLev 3
 HMVP 1161 180 418
-Cond 0 17 48
+Cond 0 100 100
 Alias ba bash~
 Alias 0 level Congratz!!!!!!!~
 Alias 1 stealth~
@@ -145,20 +145,17 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  20   7   0   0          0         64
-AffD 'armor'  15   7 -20  17          0          0
-AffD 'shield'  41   4 -20  17          0          0
-AffD 'fly'  37   3   0   0     524288          0
-AffD 'sanctuary'   0   5   0   0        128          0
-AffD 'haste'   0  10   4   2    2097152          0
-AffD 'bless'  37  69   8  18          0          0
-AffD 'bless'  12  69  -8  24          0          0
-AffD 'divine protection'  16   3   0   0          0       4096
-AffD 'aid'  17  17   7  18          0          0
-AffD 'aid'  21  17  38  13          0          0
-AffD 'frenzy'  15  16  11  18          0          0
-AffD 'frenzy'  22  16  11  19          0          0
-AffD 'frenzy'  13  16 110  17          0          0
+AffD 'stealth'  20  11   0   0          0         64
+AffD 'giant strength'   0  65   4   1          0          0
+AffD 'frenzy'  12  10 110  17          0          0
+AffD 'frenzy'  21  10  11  19          0          0
+AffD 'frenzy'  13  10  11  18          0          0
+AffD 'aid'  21  11  38  13          0          0
+AffD 'aid'  16  11   7  18          0          0
+AffD 'bless'  12  63  -8  24          0          0
+AffD 'bless'  35  63   8  18          0          0
+AffD 'haste'   0   4   4   2    2097152          0
+AffD 'armor'  15   1 -20  17          0          0
 End
 
 #O
@@ -348,8 +345,8 @@ Lev  49
 Cost 2500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 7 18 0 0
 AffD 'enchant weapon' 51 -1 7 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
 End
 
 #O
@@ -776,7 +773,7 @@ Nest 1
 Name flaming red potion~
 ShD  a flaming red potion~
 Wear -1
-Time 86
+Time 80
 Cost 400
 Cond 100
 Repd 0

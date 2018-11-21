@@ -1,7 +1,7 @@
 #PLAYER
 Name Kazuu~
 Id   10600
-LogO 1541889697
+LogO 1542772638
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,13 +13,13 @@ Psionic  1
 Cast none
 Levl 69
 Tru  69
-Plyd 78510
+Plyd 78628
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 29317
-HMV  667 667 161 169 514 514
+HMV  667 667 169 169 514 514
 NewGold 140
 NewPlat 46
 NewCopp 3153
@@ -30,9 +30,10 @@ Corpses	0
 PkRec 0
 PkGiv 0
 Exp  1927300
-Act  73980
+Act  90364
 AfBy 512
 Comm 24576
+Invi 69
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -67,7 +68,7 @@ Pass Ka6DaOurToKjg~
 Titl .~
 Pnts 40
 TSex 1
-LLev 1
+LLev 3
 HMVP 667 169 514
 Cond 0 41 41
 Sk 100 'reserved'
@@ -298,7 +299,7 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
-AffD 'psionic armor'  51  33   0   0          0          0
+AffD 'psionic armor'  51  31   0   0          0          0
 End
 
 #O
