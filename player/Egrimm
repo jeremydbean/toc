@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1542777806
+LogO 1542865017
 Vers 3
 Desc .
 
@@ -63,17 +63,17 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1778527
+Plyd 1781513
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4210
-HMV  1189 1579 261 525 58 346
-NewGold 4
-NewPlat 639
-NewCopp 207
-NewSilv 58
+HMV  1086 1659 235 555 24 246
+NewGold 327
+NewPlat 733
+NewCopp 1475
+NewSilv 556
 Bank 1548000
 Dcount 0
 Corpses	0
@@ -81,7 +81,7 @@ PkRec 1
 PkGiv 2
 QuestPnts 262
 Exp  133492
-Act  4194508
+Act  4260044
 AfBy 3678856
 Comm 28736
 Mounted 0
@@ -109,13 +109,12 @@ Color 15 6
 Color 16 6
 Pos  8
 Prac 8
-Save  -8
-Alig  712
-Hit   69
-Dam   98
+Alig  718
+Hit   54
+Dam   86
 ACs -197 -189 -219 -88
 Attr 22 16 18 16 19
-AMod 12 0 -1 -6 -2
+AMod 8 6 0 -6 -2
 Pass EgIz9KImiHzdA~
 Ariv The HO TRAIN arrives from $T and $n jumps off ~
 Dprt $n hops aboard the HO TRAIN!! and heads $t~
@@ -213,13 +212,11 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'sanctuary'  43   4   0   0        128          0
-AffD 'armor'  49  12 -20  17          0          0
-AffD 'shield'   0  24 -20  17          0          0
-AffD 'bless'   0  39  -8  24          0          0
-AffD 'bless'   0  39   8  18          0          0
-AffD 'stone skin'   0  16 -40  17          0          0
-AffD 'giant strength'   0  15   4   1          0          0
+AffD 'sanctuary'  40  11   0   0        128          0
+AffD 'giant strength'   0  19   4   1          0          0
+AffD 'armor'   7  12 -20  17          0          0
+AffD 'shield'   9  49 -20  17          0          0
+AffD 'stone skin'   9  41 -40  17          0          0
 End
 
 #O
@@ -779,22 +776,6 @@ AffD 'enchant weapon' 51 -1 8 18 0 0
 End
 
 #O
-Vnum 17020
-Nest 1
-Name finger~
-ShD  The Finger~
-Desc Suddenly you feel put back in your place by The Finger!~
-ExtF 19
-Act_room $n puts you back in your place with $p!~
-Act_char You suddenly decide to flip everyone $p!~
-Wear -1
-Lev  53
-Cost 2000
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 17025
 Nest 1
 ExtF 6
@@ -803,6 +784,23 @@ Lev  53
 Cost 1500
 Cond 92
 Repd 0
+End
+
+#O
+Vnum 18010
+Enchanted
+Nest 1
+Name god~
+ShD  0==}-DEFENDER OF GOD-->~
+Desc The defender of God lies here~
+ExtF 0
+Wear -1
+Lev  52
+Cost 7500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 10 19 0 0
+AffD 'enchant weapon' 51 -1 10 18 0 0
 End
 
 #O
@@ -898,20 +896,29 @@ Affect -1 53 -1 -4 18 0 0
 End
 
 #O
-Vnum 18010
-Enchanted
+Vnum 17020
 Nest 0
-Name god~
-ShD  0==}-DEFENDER OF GOD-->~
-Desc The defender of God lies here~
-ExtF 0
+Name finger~
+ShD  The Finger~
+Desc Suddenly you feel put back in your place by The Finger!~
+ExtF 19
+Act_room $n puts you back in your place with $p!~
+Act_char You suddenly decide to flip everyone $p!~
 Wear 16
-Lev  52
-Cost 7500
+Lev  53
+Cost 2000
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 10 19 0 0
-AffD 'enchant weapon' 51 -1 10 18 0 0
+End
+
+#O
+Vnum 17112
+Nest 0
+Wear -1
+Lev  35
+Cost 3440
+Cond 100
+Repd 0
 End
 
 #END

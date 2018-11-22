@@ -1,34 +1,34 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1542830872
+LogO 1542864658
 Vers 3
 Prom ~
 Ignoring ~
 Race hobbit~
-Sex  1
+Sex  2
 Cla  3
 Gui  3
 Psionic  1
 Cast none
-Levl 35
-Plyd 48802
+Levl 38
+Plyd 51025
 ListRemorts ~
 NumRemorts 0
 Note 1542589633
 Scro 22
-Room 1011
-HMV  247 785 300 305 323 329
-NewGold 71
-NewPlat 286
-NewCopp 680
-NewSilv 150
+Room 4210
+HMV  938 942 366 384 97 347
+NewGold 75
+NewPlat 281
+NewCopp 501
+NewSilv 148
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  80684
+Exp  88906
 Act  204
 AfBy 3678888
 AfBy2 4632
@@ -57,22 +57,20 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 28
-Trai 5
-Save  -9
+Save  -14
 Alig  1000
-Hit   33
-Dam   90
-ACs -44 -31 -30 54
+Hit   44
+Dam   91
+ACs -68 -47 -54 34
 Attr 13 13 16 16 12
-AMod 15 0 -1 6 0
+AMod 17 -3 0 6 -4
 Pass We2cg.QoJGvjg~
-Titl  the Baron of Meteors~
+Titl  the Master Warrior~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 728 310 304
-Cond 0 45 45
+HMVP 885 329 322
+Cond 0 43 43
 Alias k kick~
 Alias re rescue~
 Sk 6 'confuse'
@@ -80,22 +78,22 @@ Sk 1 'mindblast'
 Sk 1 'project'
 Sk 1 'psionic armor'
 Sk 30 'axe'
-Sk 81 'dagger'
+Sk 83 'dagger'
 Sk 25 'flail'
-Sk 25 'mace'
+Sk 65 'mace'
 Sk 35 'polearm'
-Sk 39 'shield block'
+Sk 43 'shield block'
 Sk 30 'spear'
 Sk 100 'sword'
 Sk 30 'whip'
 Sk 47 'berserk'
 Sk 1 'disarm'
-Sk 24 'dodge'
-Sk 79 'enhanced damage'
-Sk 72 'kick'
-Sk 37 'parry'
+Sk 26 'dodge'
+Sk 89 'enhanced damage'
+Sk 83 'kick'
+Sk 38 'parry'
 Sk 11 'rescue'
-Sk 46 'second attack'
+Sk 53 'second attack'
 Sk 17 'third attack'
 Sk 1 'hide'
 Sk 81 'recall'
@@ -104,28 +102,28 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'force sword'   0  64   0   0          0        512
-AffD 'major globe'  -1  53 -150  17          0          0
-AffD 'sanctuary'  -1  53   0   0        128          0
-AffD 'haste'   0  53   4   2    2097152          0
-AffD 'bless'   0  59   8  18          0          0
-AffD 'bless'   0  59  -8  24          0          0
-AffD 'divine protection'   0  53   0   0          0       4096
-AffD 'aid'   0  53   7  18          0          0
-AffD 'aid'   0  53  42  13          0          0
-AffD 'fly'   0  56   0   0     524288          0
-AffD 'frenzy'   0  53  11  18          0          0
-AffD 'frenzy'   0  53  11  19          0          0
-AffD 'frenzy'   0  53 110  17          0          0
-AffD 'giant strength'   0  53   4   1          0          0
-AffD 'infravision'  33 123   0   0        512          0
-AffD 'power gloves'   0  53  35  19          0          0
-AffD 'detect invis'   0  53   0   0          8          0
-AffD 'detect hidden'   0  53   0   0         32          0
-AffD 'frost shield'   0  53   0   0          0         16
-AffD 'fire shield'   0  53   0   0          0          8
-AffD 'protection evil'  27  53   0   0       8192          0
-AffD 'pass door'  -1  53   0   0    1048576          0
+AffD 'pass door'  -1  18   0   0    1048576          0
+AffD 'protection evil'  16  18   0   0       8192          0
+AffD 'fire shield'   0  18   0   0          0          8
+AffD 'frost shield'   0  18   0   0          0         16
+AffD 'detect hidden'   0  18   0   0         32          0
+AffD 'detect invis'   0  18   0   0          8          0
+AffD 'power gloves'   0  18  35  19          0          0
+AffD 'infravision'  28  88   0   0        512          0
+AffD 'giant strength'   0  18   4   1          0          0
+AffD 'frenzy'   0  18 110  17          0          0
+AffD 'frenzy'   0  18  11  19          0          0
+AffD 'frenzy'   0  18  11  18          0          0
+AffD 'fly'   0  21   0   0     524288          0
+AffD 'aid'   0  18  42  13          0          0
+AffD 'aid'   0  18   7  18          0          0
+AffD 'divine protection'   0  18   0   0          0       4096
+AffD 'bless'   0  24  -8  24          0          0
+AffD 'bless'   0  24   8  18          0          0
+AffD 'haste'   0  18   4   2    2097152          0
+AffD 'sanctuary'  -1  18   0   0        128          0
+AffD 'major globe'  -1  18 -150  17          0          0
+AffD 'force sword'   0  29   0   0          0        512
 End
 
 #O
@@ -162,7 +160,7 @@ End
 #O
 Vnum 10027
 Nest 0
-Wear 5
+Wear -1
 Lev  14
 Cost 210
 Cond 99
@@ -181,18 +179,6 @@ Repd 0
 End
 
 #O
-Vnum 1395
-Nest 0
-Wear 4
-Lev  22
-Cost 5000
-Cond 100
-Repd 0
-Val  8 6 6 0 0
-Affect -1 22 -1 -1 22 0 0
-End
-
-#O
 Vnum 9214
 Nest 0
 Wear 7
@@ -200,28 +186,6 @@ Lev  22
 Cost 5060
 Cond 100
 Repd 0
-End
-
-#O
-Vnum 1395
-Nest 0
-Wear 3
-Lev  22
-Cost 5000
-Cond 100
-Repd 0
-Val  8 7 7 0 0
-End
-
-#O
-Vnum 24002
-Nest 0
-Wear 0
-Lev  14
-Cost 10
-Cond 99
-Repd 0
-Val  0 0 9784 0 0
 End
 
 #O
@@ -477,6 +441,26 @@ Affect -1 29 -1 -5 1 0 0
 End
 
 #O
+Vnum 9955
+Nest 1
+Wear -1
+Lev  1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 1
+Wear -1
+Lev  40
+Cost 450
+Cond 92
+Repd 0
+End
+
+#O
 Vnum 5025
 Nest 0
 ExtF 64
@@ -498,16 +482,6 @@ Cost 500
 Cond 100
 Repd 0
 Affect -1 28 -1 -3 18 0 0
-End
-
-#O
-Vnum 13223
-Nest 0
-Wear 11
-Lev  25
-Cost 100
-Cond 100
-Repd 0
 End
 
 #O
@@ -535,12 +509,85 @@ End
 #O
 Vnum 724
 Nest 0
-Wear -1
+Wear 8
 Lev  30
 Cost 500
 Cond 100
 Repd 0
 Affect -1 30 -1 -4 5 0 0
+End
+
+#O
+Vnum 7623
+Nest 0
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10029
+Nest 0
+Wear -1
+Lev  14
+Cost 200
+Cond 100
+Repd 0
+Val  1 4 5 3 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 4
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear 3
+Lev  33
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9321
+Nest 0
+Wear 0
+Lev  25
+Cost 1750
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10049
+Nest 0
+Wear -1
+Lev  32
+Cost 2300
+Cond 100
+Repd 0
+Affect -1 32 -1 -1 5 0 0
 End
 
 #O
@@ -553,25 +600,14 @@ Repd 0
 End
 
 #O
-Vnum 7623
+Vnum 17112
 Nest 0
-Wear 8
-Lev  25
-Cost 150
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10029
-Nest 0
-ExtF 4096
 Wear 16
-Lev  14
-Cost 200
+Lev  35
+Cost 3440
 Cond 100
 Repd 0
-Val  1 4 5 3 0
+Affect -1 35 -1 -3 3 0 0
 End
 
 #END

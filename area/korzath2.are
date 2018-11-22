@@ -28,7 +28,7 @@ human~
 CG DGOV -250 S
 59 22 53d37+1000 25d49+300 4d10+18 7
 -30 -30 -30 -30
-CDFHIKNU AB CDEFG EHOP
+DFHIKNU AB CDEFG EHOP
 8 8 1 900
 0 0 M 0
 #29203
@@ -43,7 +43,7 @@ human~
 CGT DGOV -275 S
 59 22 53d37+1000 25d49+280 4d10+18 11
 -30 -30 -30 -30
-CDEFHIKLP AB CDEFG G
+DEFHIKLP AB CDEFG G
 8 8 1 1500
 0 0 M 0
 #29204
@@ -71,7 +71,7 @@ sent it to the maze to feed off of the dead adventurers who perish here.
 ~
 vampire~
 CFGM DOTV -350 S
-53 23 53d40+1000 21d53+318 6d7+21 5
+59 23 53d40+1000 21d53+318 6d7+21 5
 -33 -33 -33 -33
 DEFHJKP AB 0 N
 8 8 1 1500
@@ -498,9 +498,9 @@ A guy in a clown mask wanders around aimlessly.
 ~
 human~
 CG D -250 S
-58 32 200d2+1500 25d49+450 4d10+18 7
+59 32 200d2+1500 25d49+450 4d10+18 7
 -15 -15 -15 -15
-CDFHKNU ABPN CDEFG EHOP
+DFHKNU ABPN CDEFG EHOP
 8 8 1 900
 0 0 M 0
 #0

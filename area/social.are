@@ -1293,7 +1293,7 @@ $n rolls on the floor laughing at $N's antics!
 $n rolls on the floor laughing at your antics!
 #
 
-roll 1 0
+eyeroll 1 0
 You roll your eyes in disgust.
 $n rolls $s eyes, disgusted.
 You look at $N and roll your eyes in disgust.
@@ -1845,12 +1845,12 @@ $n falls unconscious after giving $mself the Vulcan Death Grip. What a fool!
 wave 0 0
 You wave.
 $n waves happily.
-You wave goodbye to $N.
-$n waves goodbye to $N.
-$n waves goodbye to you.  Have a good journey.
+You wave happily at $N.
+$n waves at $N.
+$n waves at you.
 They didn't wait for you to wave goodbye.
 Are you going on adventures as well??
-$n waves goodbye to $mself.
+$n waves to $mself. Ok..
 
 wedgie 0 0
 You can't wedgie the AIR! It has no undies for you to yank upon.
@@ -1989,7 +1989,7 @@ $n *whaps* you mercilessly with $s fluffy pillow!
 Sorry, they aren't here.
 You *whap* yourself mercilessly with your fluffy pillow!
 $n *whaps* $mself mercilessly!
- 
+
 agree 0 0
 You agree absolutely.
 $n agrees absolutely.

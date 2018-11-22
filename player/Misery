@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542815692
+LogO 1542921164
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
@@ -76,17 +76,17 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1657033
+Plyd 1657948
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
-Room 4208
-HMV  1614 1828 938 938 170 343
-NewGold 79
-NewPlat 5118
-NewCopp 298
-NewSilv 187
+Room 29205
+HMV  1798 1862 849 938 343 343
+NewGold 248
+NewPlat 5183
+NewCopp 701
+NewSilv 486
 Bank 978395
 Dcount 0
 Corpses	0
@@ -95,7 +95,8 @@ PkGiv 24
 QuestPnts 111
 Exp  177312
 Act  33947848
-AfBy 524800
+AfBy 3678888
+AfBy2 4632
 Comm 28672
 Mounted 0
 On_Quest 0
@@ -121,13 +122,13 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Save  -6
+Save  2
 Alig  1000
-Hit   78
-Dam   87
-ACs -232 -203 -262 -65
+Hit   88
+Dam   133
+ACs -252 -223 -282 -85
 Attr 20 16 18 18 19
-AMod 16 4 2 6 0
+AMod 16 4 2 10 0
 Pass Kilrpis9ggekI~
 Ariv $n lets an arrow fly to $T.~
 Dprt $n lets an arrow fly to $T.~
@@ -194,11 +195,25 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'giant strength'   0  36   4   1          0          0
-AffD 'shield'   0  44 -20  17          0          0
-AffD 'fly'   0  39   0   0     524288          0
-AffD 'bless'   0  51   8  18          0          0
-AffD 'bless'   0  51  -8  24          0          0
+AffD 'force sword'   0  55   0   0          0        512
+AffD 'major globe'  -1  65 -150  17          0          0
+AffD 'sanctuary'   0  65   0   0        128          0
+AffD 'haste'   0  65   4   2    2097152          0
+AffD 'divine protection'   0  65   0   0          0       4096
+AffD 'aid'   0  65   7  18          0          0
+AffD 'aid'   0  65  34  13          0          0
+AffD 'fly'   0  68   0   0     524288          0
+AffD 'frenzy'   0  65  11  18          0          0
+AffD 'frenzy'   0  65  11  19          0          0
+AffD 'frenzy'   0  65 110  17          0          0
+AffD 'giant strength'   0  65   4   1          0          0
+AffD 'power gloves'   0  65  35  19          0          0
+AffD 'detect invis'   0  65   0   0          8          0
+AffD 'detect hidden'   0  65   0   0         32          0
+AffD 'frost shield'   0  65   0   0          0         16
+AffD 'fire shield'   0  65   0   0          0          8
+AffD 'protection evil'   0  65   0   0       8192          0
+AffD 'pass door'   0  65   0   0    1048576          0
 End
 
 #O
@@ -375,8 +390,8 @@ Lev  51
 Cost 500
 Cond 100
 Repd 0
-Affect -1 51 -1 -8 17 0 0
 Affect -1 51 -1 4 24 0 0
+Affect -1 51 -1 -8 17 0 0
 End
 
 #O

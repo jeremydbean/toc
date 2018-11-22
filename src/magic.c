@@ -936,15 +936,21 @@ void spell_cancellation( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
+  if(!IS_IMMORTAL(ch))
+    {
    if(!IS_NPC(victim) && IS_SET(victim->act,PLR_NOSUMMON))
    {
      send_to_char("Your victim is immune to cancelation.\n\r",ch);
      return;
    }
+    }
 
 	/* begin running through the spells */
 
     if (check_dispel(level,victim,skill_lookup("armor")))
+        found = TRUE;
+
+    if (check_dispel(level,victim,skill_lookup("force sword")))
         found = TRUE;
 
     if (check_dispel(level,victim,skill_lookup("bless")))
@@ -1564,7 +1570,10 @@ void spell_cure_disease( int sn, int level, CHAR_DATA *ch, void *vo )
     }
     else
 	send_to_char("Spell failed.\n\r",ch);
+  return;
 }
+
+
 
 
 

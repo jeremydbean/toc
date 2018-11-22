@@ -328,6 +328,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	 if( IS_AFFECTED2( victim, AFF2_DIVINE_PROT ) )
 	 	one_hit(ch,victim,dt);
 		one_hit(ch,victim,dt);
+		one_hit(ch,victim,dt);
 
 	if (IS_IMMORTAL(ch))
 one_hit(ch,victim,dt);
@@ -3612,12 +3613,14 @@ void do_smite( CHAR_DATA *ch, char *argument )
     {
         check_improve(ch,gsn_smite,TRUE,1);
         multi_hit( ch, victim, gsn_smite );
-        if (number_percent() < 5) {
+        if (number_percent() < 3) 
+				{
            act("Your weapon breaks with a tremendous sound!",ch,NULL,victim,TO_CHAR);
            act("$n's weapon breaks with a trememdous sound!",ch,NULL,victim,TO_ROOM);
            obj_from_char(obj);
            extract_obj(obj);
         }
+
     }
     else
     {

@@ -2109,15 +2109,23 @@ case CON_GET_ALIGNMENT:
 	d->connected    = CON_PLAYING;
 	reset_char(ch);
 
+	if (ch->pcdata->num_remorts >= 1)
+	{
+		ch->pcdata->condition[COND_THIRST] = -1;
+		ch->pcdata->condition[COND_FULL] = -1;
+	}
+
+
 	if( ch->pcdata->psionic >= 1 )
 		{
 			ch->pcdata->last_level = 3;
 			save_char_obj(ch);
 		}
 
-	if( ch->pcdata->psionic == 0 && ch->level <= 17 )
+	if( ch->level <= 17 )
 		{
 			ch->pcdata->last_level = 0;
+			ch->pcdata->psionic = 0;
 			save_char_obj(ch);
 		}
 
@@ -2340,8 +2348,10 @@ void do_check_psi ( CHAR_DATA *ch, char *argument )
 	int add3;
 	int add4;
 
-
-  chance = number_percent( );
+	if (ch->pcdata->num_remorts >= 2)
+		chance = 100;
+	else
+  	chance = number_percent( );
 
 
 	sprintf( log_buf, "%s psionic check complete! [Chance: %d]", ch->name, chance);
@@ -2390,7 +2400,20 @@ sprintf( log_buf, "%s has been granted psionics! [Chance: %d]\n\r", ch->name, ch
 log_string( log_buf );
 wizinfo( log_buf, LEVEL_IMMORTAL);
 
-
+if (ch->pcdata->num_remorts >= 3)
+	{
+		group_add(ch,"confuse",0);
+		group_add(ch,"telekinesis",0);
+		group_add(ch,"clairvoyance",0);
+		group_add(ch,"astral walk",0);
+		sprintf( log_buf, "%s remort psi granted: | [confuse, telekinesis, clairvoyance, astral walk]", ch->name);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+		ch->pcdata->last_level = 3;
+		save_char_obj(ch);
+	}
+else
+{
     add = number_percent();
 		sprintf( log_buf, "%s psi roll 1: [%d] | [psionic armor (1-40), psychic shield (41-70), mindbar (71+)]", ch->name, add);
 		log_string( log_buf );
@@ -2445,14 +2468,9 @@ wizinfo( log_buf, LEVEL_IMMORTAL);
 		ch->pcdata->last_level = 3;
     save_char_obj(ch);
 
-
   return;
   }
-  else
-  {
-    save_char_obj(ch);
-    return;
-  }
+}
 
 }
 

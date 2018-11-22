@@ -20,7 +20,7 @@ struct web_descriptor {
     char request[MAXDATA*2];
     struct sockaddr_in their_addr;
     int sin_size;
-    WEB_DESCRIPTOR *next;	
+    WEB_DESCRIPTOR *next;
     bool valid;
 };
 
@@ -90,7 +90,7 @@ void handle_web(void) {
 	    if(max_fd < current->fd)
 		max_fd = current->fd;
 	}
-	
+
 	/* Wait for ONE descriptor to have activity */
 	select(max_fd+1, &readfds, NULL, NULL, &ZERO_TIME);
 
@@ -143,7 +143,7 @@ on FIRST LINE) */
 	    else if(!strstr(current->request, "HTTP/1.")
 		 &&  strchr(current->request, '\n')) /* HTTP/0.9 (no ver
 number) */
-		handle_web_request(current);		
+		handle_web_request(current);
 	    else {
 		continue; /* Don't have full request yet! */
 	    }
@@ -241,7 +241,7 @@ Chaos Who List</B><P>\n\r");
 	    continue;
 
 
-       
+
 
 	/*
 	 * Figure out what to print for class and guild.
@@ -263,7 +263,7 @@ Chaos Who List</B><P>\n\r");
 	    case MAX_LEVEL - 8 : class = "MARTR";    break;
 	    case MAX_LEVEL - 9 : class = "SAINT";    break;
            case MAX_LEVEL - 10 : class = "GUEST";    break;
-  	   case MAX_LEVEL - 11 : class = "FRND";     break;
+  	   case MAX_LEVEL - 11 : class = "King";     break;
             case MAX_LEVEL - 13 : class = "Emper";   break;
             case MAX_LEVEL - 14 : class = "Lord ";   break;
             case MAX_LEVEL - 15 : class = "Mastr";    break;
@@ -332,7 +332,7 @@ WEB_DESCRIPTOR *new_web_desc(void)
 
     VALIDATE(desc);
 
-    return desc;	
+    return desc;
 }
 
 void free_web_desc(WEB_DESCRIPTOR *desc)
@@ -344,4 +344,3 @@ void free_web_desc(WEB_DESCRIPTOR *desc)
     desc->next = web_desc_free;
     web_desc_free = desc;
 }
-

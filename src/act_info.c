@@ -1633,7 +1633,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		case MAX_LEVEL - 8 : class = "MARTR";	break;
 	        case MAX_LEVEL - 9 : class = "SAINT";   break;
                case MAX_LEVEL - 10 : class = "GUEST";    break;
-	       case MAX_LEVEL - 11 : class = "FRND";	break;
+	       case MAX_LEVEL - 11 : class = "King";	break;
                case MAX_LEVEL - 13 : class = "Emper";   break;
                case MAX_LEVEL - 14 : class = "Lord ";   break;
                case MAX_LEVEL - 15 : class = "Mastr";    break;
@@ -1868,7 +1868,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	    case MAX_LEVEL - 8 : class = "MARTR";    break;
 	    case MAX_LEVEL - 9 : class = "SAINT";    break;
             case MAX_LEVEL - 10 : class = "GUEST";    break;
-  	    case MAX_LEVEL - 11 : class = "FRND";     break;
+  	    case MAX_LEVEL - 11 : class = "King";     break;
             case MAX_LEVEL - 13 : class = "Emper";   break;
             case MAX_LEVEL - 14 : class = "Lord ";   break;
             case MAX_LEVEL - 15 : class = "Mastr";    break;
@@ -4125,7 +4125,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
      send_to_char(buf,ch);
      return;
    }
-   if (ch->pcdata->num_remorts >= 3) {
+   if (ch->pcdata->num_remorts >= 5) {
      send_to_char("You are not allowed to remort anymore.\n\r",ch);
      return;
    }
@@ -4141,16 +4141,20 @@ void do_remort( CHAR_DATA *ch, char *arg)
      sprintf(saveclass+strlen(saveclass)," %d ",ch->pcdata->guild);
      ind_class += 1;
    }
-   if (ch->pcdata->num_remorts > 0) {
+   if (ch->pcdata->num_remorts > 0)
+   {
      sprintf(saveclass,"%s %s",str_dup(ch->pcdata->list_remorts),str_dup(saveclass));
 
      to_strip = str_dup(ch->pcdata->list_remorts);
-     while (to_strip[0] != '\0') {
+     while (to_strip[0] != '\0')
+      {
        to_strip = one_argument(to_strip,get_class);
        had_classes[ind_class] = atoi(get_class);
        ind_class += 1;
      }
    }
+   if (ch->pcdata->num_remorts < 4)
+   {
    for (i=0;i < 2*MAX_CLASS;i++) {
      if ((requested_class == had_classes[i]) ||
          (requested_guild == had_classes[i]))
@@ -4174,10 +4178,11 @@ void do_remort( CHAR_DATA *ch, char *arg)
        }
        return;
      }
+     }
    }
    /* HEHE, FINALLY A VALID CHOICE */
 
-   send_to_char( "You remort till level 3.\n\r", ch );
+   send_to_char( "   ** You have remorted to level 3. **\n\r", ch );
    for (obj = ch->carrying; obj != NULL; obj = obj_next) {
      obj_next = obj->next_content;
      obj_from_char(obj);
@@ -4190,22 +4195,22 @@ void do_remort( CHAR_DATA *ch, char *arg)
    ch->pcdata->num_remorts += 1;
    free_string(ch->pcdata->list_remorts);
    ch->pcdata->list_remorts = str_dup(saveclass);
-   ch->pcdata->perm_hit  = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
-   ch->pcdata->perm_mana = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
-   ch->pcdata->perm_move = 145 + 5 * UMAX(0,ch->pcdata->num_remorts);
-   if (ch->pcdata->num_remorts == 3)
-     ch->pcdata->psionic = 1;
-   else
-     ch->pcdata->psionic = 0;
-   if (ch->pcdata->num_remorts >= 2) {
+   ch->pcdata->perm_hit  = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->perm_mana = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->perm_move = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->psionic = 0;
+   ch->pcdata->pk_state = 0;
+   if (ch->pcdata->num_remorts >= 1)
+   {
      ch->pcdata->condition[COND_THIRST] = -1;
      ch->pcdata->condition[COND_FULL] = -1;
    }
+   ch->pcdata->last_level = 0;
    ch->max_hit  = ch->pcdata->perm_hit;
    ch->max_mana = ch->pcdata->perm_mana;
    ch->max_move = ch->pcdata->perm_move;
-   ch->practice = 15 + ch->pcdata->num_remorts;
-   ch->train    = 8 + ch->pcdata->num_remorts;
+   ch->practice = 15 + (2 * UMAX(1,ch->pcdata->num_remorts));
+   ch->train    = 8 + (2 * UMAX(1,ch->pcdata->num_remorts));
    ch->hit      = ch->max_hit;
    ch->mana     = ch->max_mana;
    ch->move     = ch->max_move;
@@ -4295,8 +4300,10 @@ void do_remort( CHAR_DATA *ch, char *arg)
      }
    }
    ch->position = POS_STANDING;
+   /*
    ch->pcdata->bank = 0;
    ch->new_silver = 50;
+   */
 
    save_char_obj(ch);
 }

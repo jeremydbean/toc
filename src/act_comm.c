@@ -2482,13 +2482,14 @@ void do_typo( CHAR_DATA *ch, char *argument )
 
 
 
-void do_rent( CHAR_DATA *ch, char *argument )
+void do_roll( CHAR_DATA *ch, char *argument )
 {
-    send_to_char( "There is no rent here.  Just save and quit.\n\r", ch );
-    return;
+    int chance;
+  	chance = number_percent( );
+    sprintf(log_buf,"[Roll]: %s rolls %d / 100.",ch->name,chance);
+    act( log_buf, ch, NULL, NULL, TO_CHAR );
+    act( log_buf, ch, NULL, NULL, TO_ROOM );
 }
-
-
 
 void do_qui( CHAR_DATA *ch, char *argument )
 {
@@ -2507,7 +2508,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
 	return;
 
     if (ch->battleticks > 0) {
-        send_to_char( "Not when you're in battletick mode.\n\r", ch );
+        send_to_char( "You can't calm down enough to quit!\n\r", ch );
         return;
     }
 
@@ -2577,11 +2578,11 @@ void do_save( CHAR_DATA *ch, char *argument )
     if ( IS_NPC(ch) )
 	return;
 
-    if (ch -> level < 1)
+/*    if (ch -> level < 1)
     {
       send_to_char("You cannot save until you are level 3.\n\r",ch);
       return;
-    };
+    }; */
     save_char_obj( ch );
     send_to_char("Saving. TOC will automatically save you every so often.\n\r", ch );
     WAIT_STATE(ch,2 * PULSE_VIOLENCE);
