@@ -4182,6 +4182,8 @@ void do_remort( CHAR_DATA *ch, char *arg)
    }
    /* HEHE, FINALLY A VALID CHOICE */
 
+
+
    send_to_char( "   ** You have remorted to level 3. **\n\r", ch );
    for (obj = ch->carrying; obj != NULL; obj = obj_next) {
      obj_next = obj->next_content;
