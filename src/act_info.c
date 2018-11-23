@@ -4195,9 +4195,9 @@ void do_remort( CHAR_DATA *ch, char *arg)
    ch->pcdata->num_remorts += 1;
    free_string(ch->pcdata->list_remorts);
    ch->pcdata->list_remorts = str_dup(saveclass);
-   ch->pcdata->perm_hit  = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
-   ch->pcdata->perm_mana = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
-   ch->pcdata->perm_move = 195 + 5 * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->perm_hit  = (200) * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->perm_mana = (200) * UMAX(1,ch->pcdata->num_remorts);
+   ch->pcdata->perm_move = (200) * UMAX(1,ch->pcdata->num_remorts);
    ch->pcdata->psionic = 0;
    ch->pcdata->pk_state = 0;
    if (ch->pcdata->num_remorts >= 1)

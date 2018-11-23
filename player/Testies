@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542923621
+LogO 1542926279
 Vers 3
 Prom ~
 Ignoring ~
@@ -9,16 +9,16 @@ Race elf~
 Sex  1
 Cla  0
 Gui  0
-Psionic  0
+Psionic  1
 Cast none
-Levl 3
-Plyd 48007
-ListRemorts 1  1  5 ~
-NumRemorts 2
+Levl 18
+Plyd 49475
+ListRemorts 1  1  0  0  4  2  2  3  3 ~
+NumRemorts 5
 Note 0
 Scro 22
 Room 4208
-HMV  205 205 205 205 205 205
+HMV  1048 1177 1048 1120 1062 1165
 NewGold 873
 NewPlat 344
 NewCopp 2949
@@ -28,14 +28,14 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  6000
+Exp  39600
 Act  131272
 AfBy 512
 Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 1
+Pk_State 0
 Jw_Timer 0
 ColFlag 1
 Color 0 0
@@ -55,19 +55,21 @@ Color 13 3
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  8
-Prac 19
-Trai 12
+Pos  5
+Prac 43
+Trai 36
+Save  -7
 Alig  1000
-ACs 100 100 100 100
+Hit   7
+ACs 80 80 80 80
 Attr 13 13 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Apprentice of Magic~
+Titl  the Wizard~
 Pnts 2540
 TSex 1
-LLev 0
-HMVP 205 205 205
+LLev 3
+HMVP 1177 1120 1165
 Cond 0 -1 -1
 Alias / who~
 Alias f flee~
@@ -85,6 +87,10 @@ Sk 1 'lightning bolt'
 Sk 1 'magic missile'
 Sk 1 'refresh'
 Sk 1 'shield'
+Sk 1 'astral walk'
+Sk 1 'clairvoyance'
+Sk 1 'confuse'
+Sk 1 'telekinesis'
 Sk 10 'axe'
 Sk 80 'dagger'
 Sk 7 'flail'
@@ -100,6 +106,9 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
+AffD 'bless'   0  62  -7  24          0          0
+AffD 'bless'   0  62   7  18          0          0
+AffD 'armor'   0  55 -20  17          0          0
 End
 
 #END
