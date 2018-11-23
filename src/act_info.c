@@ -1633,7 +1633,8 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		case MAX_LEVEL - 8 : class = "MARTR";	break;
 	        case MAX_LEVEL - 9 : class = "SAINT";   break;
                case MAX_LEVEL - 10 : class = "GUEST";    break;
-	       case MAX_LEVEL - 11 : class = "King";	break;
+	             case MAX_LEVEL - 11 : class = "King";	break;
+               case MAX_LEVEL - 12 : class = "Hand";   break;
                case MAX_LEVEL - 13 : class = "Emper";   break;
                case MAX_LEVEL - 14 : class = "Lord ";   break;
                case MAX_LEVEL - 15 : class = "Mastr";    break;
@@ -1869,6 +1870,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	    case MAX_LEVEL - 9 : class = "SAINT";    break;
             case MAX_LEVEL - 10 : class = "GUEST";    break;
   	    case MAX_LEVEL - 11 : class = "King";     break;
+            case MAX_LEVEL - 12 : class = "Hand ";   break;
             case MAX_LEVEL - 13 : class = "Emper";   break;
             case MAX_LEVEL - 14 : class = "Lord ";   break;
             case MAX_LEVEL - 15 : class = "Mastr";    break;
@@ -4185,13 +4187,17 @@ void do_remort( CHAR_DATA *ch, char *arg)
 
 
    send_to_char( "   ** You have remorted to level 3. **\n\r", ch );
+   sprintf(buf, "%s has remorted!", ch->name);
+   send_info(buf);
+   wizinfo(buf,LEVEL_IMMORTAL);
+   do_backup();
    for (obj = ch->carrying; obj != NULL; obj = obj_next) {
      obj_next = obj->next_content;
      obj_from_char(obj);
      extract_obj(obj);
    }
    ch->level    = 3;
-   ch->pcdata->points = 2500;
+   ch->pcdata->points =+ 2500;
    ch->exp      = 3 * exp_per_level(ch,ch->pcdata->points);
    for (i=0;i<MAX_STATS;i++) ch->perm_stat[i] = 13;
    ch->pcdata->num_remorts += 1;

@@ -2400,6 +2400,17 @@ sprintf( log_buf, "%s has been granted psionics! [Chance: %d]\n\r", ch->name, ch
 log_string( log_buf );
 wizinfo( log_buf, LEVEL_IMMORTAL);
 
+if (ch->pcdata->num_remorts >= 4)
+	{
+		group_add(ch,"shift",0);
+	  group_add(ch,"project",0);
+	  group_add(ch,"nightmare",0);
+	  group_add(ch,"mindblast",0);
+		sprintf( log_buf, "%s remort psi granted: | [shift, project, nightmare, mindblast]", ch->name);
+		log_string( log_buf );
+		wizinfo( log_buf, MAX_LEVEL);
+	}
+
 if (ch->pcdata->num_remorts >= 3)
 	{
 		group_add(ch,"confuse",0);

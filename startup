@@ -1,20 +1,10 @@
 #!/bin/csh
 # Written by Furey.
-# With additions from Tony.
+# With additions from Tony and Alander.
 
 # Set the port number.
 set port = 9000
 if ( "$1" != "" ) set port="$1"
-
-# So we can get core files created
-ulimit -n 65535
-sudo sysctl -p
-
-# set default permissions for saves
-#umask 6
-
-# Change to area directory.
-cd /mnt/e/toc/area
 
 # Set limits.
 if ( -e shutdown.txt ) rm -f shutdown.txt
@@ -24,41 +14,20 @@ while ( 1 )
     #   change the 'set logfile' line to reflect the directory name.
     set index = 1000
     while ( 1 )
-	set logfile = ../log/$index.log
+	set logfile = /mnt/e/toc/log/$index.log
 	if ( ! -e $logfile ) break
 	@ index++
     end
 
-    # Backup player files
-    # cd ../player
-    # backup&
-    # cd ../area
-
-    # Check to see if it is currently running or not
-    echo Making sure ToC is not currently running....
-    set check = `ps ux | grep "merc 9000" | grep -v grep`
-    if ("$check" != "") then
-	echo ToC is already running on port $port!
-	echo -----
-	#immortalctl
-	exit
-    endif
-
-    # Run merc.
-    rm -f shutdown.txt
+    # Run rom.
 	cd /mnt/e/toc/area
-	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
-	./merc 9000 | tee -a ../log/toc.log
-	sleep 5
-	#sudo lnav ../log/toc.log
-	
-    # Save to core files
-#    if ( -e core ) mv core core.$index
+    ./merc $port >&! $logfile
+
 
     # Restart, giving old connections a chance to die.
     if ( -e shutdown.txt ) then
-	chmod g+rw shutdown.txt
+	rm -f shutdown.txt
 	exit 0
     endif
-  
+    sleep 15
 end

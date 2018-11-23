@@ -1246,6 +1246,38 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
     }
     else if ( victim->position == POS_DEAD )
     {
+			if( IS_AFFECTED2( victim, AFF2_DIVINE_PROT ) )
+			{
+
+				 stop_fighting( victim, TRUE );
+				 victim->position = POS_STANDING;
+
+
+				victim->hit    = (victim->max_hit * .75);
+				victim->mana   = (victim->max_mana * .75);
+				victim->move   = (victim->max_move * .75);
+
+				REMOVE_BIT(victim->affected_by2, AFF2_DIVINE_PROT);
+				affect_strip(victim,skill_lookup("divine protection") );
+
+				send_to_char("or...?\n\r\n\r",victim);
+			  send_to_char("A bright flash of light fills the room and envelops you...\n\r",victim);
+				send_to_char("            You have been spared from death by the Gods.\n\r",victim);
+				send_to_char("                        ...your divine protection fades.\n\r\n\r",victim);
+
+				remove_hate( ch, victim );
+
+		    if(ch->hunting && ch->hunting == victim)
+			do_stop_hunting(ch, ch->hunting->name);
+
+		    if(victim->hunting)
+			do_stop_hunting(victim, victim->hunting->name);
+
+
+
+				return;
+			}
+	else;
 	group_gain( ch, victim );
 
 	if( !IS_NPC(ch) && !IS_NPC(victim) )
@@ -1288,6 +1320,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
 
 	    if(victim->hunting)
 		do_stop_hunting(victim, victim->hunting->name);
+
+
 
 	    if(IS_NPC(ch)) {
               long curr_exp;
@@ -1875,7 +1909,9 @@ bool check_shield_block( CHAR_DATA *ch, CHAR_DATA *victim )
  * Set position of a victim.
  */
 void update_pos( CHAR_DATA *victim )
-{
+		{
+
+
     if ( victim->hit > 0 )
     {
        if( victim->position <= POS_STUNNED )
@@ -1885,6 +1921,7 @@ void update_pos( CHAR_DATA *victim )
 
     if ( IS_NPC(victim) && victim->hit < 1 )
     {
+
 	victim->position = POS_DEAD;
 	return;
     }
@@ -2595,6 +2632,11 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
     /* Got em hooked now, so make it a little harder */
     if (gch->level > 35 )
 	xp =  15 * xp / (gch->level - 20 );
+
+
+    if( IS_AFFECTED2( gch, AFF2_DIVINE_PROT ) )
+	  xp +=  2 * xp;
+
 
   /* TOok out the time exp shit GR */
 
@@ -3613,7 +3655,7 @@ void do_smite( CHAR_DATA *ch, char *argument )
     {
         check_improve(ch,gsn_smite,TRUE,1);
         multi_hit( ch, victim, gsn_smite );
-        if (number_percent() < 3) 
+        if (number_percent() < 3)
 				{
            act("Your weapon breaks with a tremendous sound!",ch,NULL,victim,TO_CHAR);
            act("$n's weapon breaks with a trememdous sound!",ch,NULL,victim,TO_ROOM);

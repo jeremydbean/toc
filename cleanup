@@ -1,11 +1,15 @@
-!/bin/csh
+#!/bin/csh
+# Written by Furey.
+# With additions from Tony.
 
 pkill -e merc
+pkill -e immortal
 pkill -e startup
 cd /mnt/e/toc/src
 rm *.o
 rm merc
-make 2>&1 | tee ../compile_warnings.log
+#make 2>&1 | tee ../compile_warnings.log
+make
 rm *.o
 rm ../area/merc
 cp merc ../area

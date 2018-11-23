@@ -1,5 +1,10 @@
 gcc -c -g -O -Wall -DROM  -lcrypt act_comm.c
 gcc -c -g -O -Wall -DROM  -lcrypt act_info.c
+act_info.c: In function ‘do_remort’:
+act_info.c:4193:4: warning: implicit declaration of function ‘do_backup’; did you mean ‘do_afk’? [-Wimplicit-function-declaration]
+    do_backup();
+    ^~~~~~~~~
+    do_afk
 gcc -c -g -O -Wall -DROM  -lcrypt act_move.c
 gcc -c -g -O -Wall -DROM  -lcrypt act_obj.c
 act_obj.c: In function ‘remove_obj’:
@@ -63,10 +68,10 @@ comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-
      int ipaddr[4];
          ^~~~~~
 comm.c: In function ‘show_string’:
-comm.c:2811:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+comm.c:2822:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
        for (chk = d->showstr_point; isspace(*chk); chk++);
        ^~~
-comm.c:2812:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+comm.c:2823:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
         {
         ^
 gcc -c -g -O -Wall -DROM  -lcrypt const.c
@@ -91,6 +96,13 @@ fight.c:328:3: warning: this ‘if’ clause does not guard... [-Wmisleading-ind
 fight.c:330:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
    one_hit(ch,victim,dt);
    ^~~~~~~
+fight.c: In function ‘damage’:
+fight.c:1278:5: warning: ‘return’ with no value, in function returning non-void
+     return;
+     ^~~~~~
+fight.c:874:6: note: declared here
+ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
+      ^~~~~~
 gcc -c -g -O -Wall -DROM  -lcrypt handler.c
 handler.c: In function ‘affect_remove’:
 handler.c:986:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
@@ -433,5 +445,5 @@ gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-g' '-O0' '-Q' '-v' '-da' '-O' '-o' 'merc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvLPqMH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o merc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPoglK9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o merc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-g' '-O0' '-Q' '-v' '-da' '-O' '-o' 'merc' '-mtune=generic' '-march=x86-64'
