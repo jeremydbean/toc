@@ -1266,6 +1266,11 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
 				send_to_char("                        ...your divine protection fades.\n\r\n\r",victim);
 
 				remove_hate( ch, victim );
+				  sprintf( log_buf, "%s has been spared by the gods divine protection from certain death at the hands of %s!", victim->name,
+					ch->name);
+		    log_string( log_buf );
+		    wizinfo(log_buf,LEVEL_IMMORTAL);
+
 
 		    if(ch->hunting && ch->hunting == victim)
 			do_stop_hunting(ch, ch->hunting->name);

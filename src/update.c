@@ -840,7 +840,6 @@ void weather_update( void )
 	  break;
 	  case 3:
 	  strcat( buf,"A rooster crows off in the distance, and daylight streaks across the heavens.\n\r");
-    component_update();
 	  break;
 	  case 4:
 	  strcat( buf,"The sun slowly glides up into the sky as the new day begins.\n\r");
@@ -875,7 +874,6 @@ void weather_update( void )
 
 	    case 6:
 	    strcat( buf, "Thousands of stars paint the sky as night begins.\n\r");
-      component_update();
 	    break;
 	}
 	break;

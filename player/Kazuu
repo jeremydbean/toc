@@ -1,7 +1,7 @@
 #PLAYER
 Name Kazuu~
 Id   10600
-LogO 1542772638
+LogO 1543287221
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,12 +13,12 @@ Psionic  1
 Cast none
 Levl 69
 Tru  69
-Plyd 78628
+Plyd 79408
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 29317
+Room 4208
 HMV  667 667 169 169 514 514
 NewGold 140
 NewPlat 46
@@ -299,7 +299,7 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
-AffD 'psionic armor'  51  31   0   0          0          0
+AffD 'psionic armor'  49  19   0   0          0          0
 End
 
 #O
@@ -413,6 +413,50 @@ Cost 7000
 Cond 100
 Repd 0
 Affect -1 54 -1 15 12 0 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
+Cond 100
+Repd 0
 End
 
 #END

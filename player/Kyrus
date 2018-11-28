@@ -1,36 +1,36 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1542948108
+LogO 1543413076
 Vers 3
 Desc .~
 Prom ~
 Ignoring ~
 Race human~
-Sex  2
+Sex  1
 Cla  5
 Gui  5
 Psionic  1
 Cast Fors
-Levl 45
-Plyd 268151
+Levl 55
+Plyd 294800
 ListRemorts 3  3  4 ~
 NumRemorts 2
 Note 947990183
 Scro 22
-Room 4207
-HMV  755 755 1055 1055 516 516
-NewGold 162
-NewPlat 56
-NewCopp 794
-NewSilv 324
-Bank 17506
+Room 29003
+HMV  955 955 1271 1271 271 526
+NewGold 2942
+NewPlat 1716
+NewCopp 4614
+NewSilv 4976
+Bank 17685
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  91589
+Exp  201584
 Act  262348
 AfBy 3678888
 AfBy2 4632
@@ -59,23 +59,23 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 16
-Trai 6
-Save  -15
+Prac 11
+Trai 1
+Save  -1
 Alig  1000
-Hit   49
-Dam   92
-ACs -98 -85 -85 38
-Attr 13 15 14 13 14
-AMod 9 10 10 2 11
+Hit   64
+Dam   117
+ACs -123 -117 -126 30
+Attr 18 16 14 13 14
+AMod 15 1 2 3 -1
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
-Titl  the Mistress of Summoning~
+Titl  the Master of the Crypt~
 Pnts 5040
 TSex 1
 LLev 3
-HMVP 684 1005 491
+HMVP 935 1121 571
 Cond 0 100 100
 Alias \ who~
 Alias k kick~
@@ -104,7 +104,7 @@ Sk 1 'cause light'
 Sk 1 'chill touch'
 Sk 75 'create skeleton'
 Sk 75 'create wraith'
-Sk 75 'create vampire'
+Sk 78 'create vampire'
 Sk 75 'butcher'
 Sk 75 'bewitch weapon'
 Sk 1 'curse'
@@ -124,17 +124,17 @@ Sk 1 'poison'
 Sk 1 'raise dead'
 Sk 75 'remove curse'
 Sk 75 'rope trick'
-Sk 75 'sanctuary'
+Sk 76 'sanctuary'
 Sk 75 'shield'
 Sk 75 'shroud'
 Sk 1 'ghostly presence'
 Sk 100 'shock sphere'
 Sk 1 'skeletal hands'
-Sk 76 'tentacles'
+Sk 82 'tentacles'
 Sk 1 'trap the soul'
 Sk 1 'vampiric touch'
 Sk 75 'neutrality field'
-Sk 1 'astral walk'
+Sk 75 'astral walk'
 Sk 1 'ego whip'
 Sk 1 'mindbar'
 Sk 1 'transfusion'
@@ -144,10 +144,10 @@ Sk 6 'flail'
 Sk 5 'mace'
 Sk 3 'polearm'
 Sk 7 'spear'
-Sk 75 'sword'
+Sk 100 'sword'
 Sk 15 'whip'
-Sk 83 'dodge'
-Sk 76 'meditation'
+Sk 95 'dodge'
+Sk 77 'meditation'
 Sk 1 'scrolls'
 Sk 1 'wands'
 Sk 100 'recall'
@@ -159,37 +159,28 @@ Gr 'life & undeath'
 Gr 'necromancy'
 Gr 'necro protective'
 Gr 'necro transportation'
-AffD 'pass door'  32  18   0   0    1048576          0
-AffD 'protection evil'   0  18   0   0       8192          0
-AffD 'fire shield'  36  18   0   0          0          8
-AffD 'frost shield'  32  18   0   0          0         16
-AffD 'detect hidden'  27  18   0   0         32          0
-AffD 'detect invis'  32  18   0   0          8          0
-AffD 'power gloves'  41  18  35  19          0          0
-AffD 'infravision'  37  88   0   0        512          0
-AffD 'giant strength'  37  18   4   1          0          0
-AffD 'frenzy'  38  18 110  17          0          0
-AffD 'frenzy'  38  18  11  19          0          0
-AffD 'frenzy'  33  18  11  18          0          0
-AffD 'fly'  35  21   0   0     524288          0
-AffD 'aid'   0  18  48  13          0          0
-AffD 'aid'   0  18   7  18          0          0
-AffD 'divine protection'   0  18   0   0          0       4096
-AffD 'force sword'   0  18   0   0          0        512
-AffD 'bless'   0  24  -8  24          0          0
-AffD 'bless'   0  24   8  18          0          0
-AffD 'haste'   0  18   4   2    2097152          0
-AffD 'sanctuary'   0  18   0   0        128          0
-AffD 'major globe'  -1  18 -150  17          0          0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear 17
-Cost 0
-Cond 59
-Repd 0
+AffD 'major globe'   0   0 -150  17          0          0
+AffD 'sanctuary'  -1   0   0   0        128          0
+AffD 'haste'   0   0   4   2    2097152          0
+AffD 'bless'  -1   6   8  18          0          0
+AffD 'bless'   0   6  -8  24          0          0
+AffD 'force sword'  20   0   0   0          0        512
+AffD 'divine protection'   0   0   0   0          0       4096
+AffD 'aid'  12   0   7  18          0          0
+AffD 'aid'   0   0  50  13          0          0
+AffD 'fly'   0   3   0   0     524288          0
+AffD 'frenzy'   0   0  11  18          0          0
+AffD 'frenzy'   0   0  11  19          0          0
+AffD 'frenzy'  25   0 110  17          0          0
+AffD 'giant strength'  30   0   4   1          0          0
+AffD 'infravision'  14  70   0   0        512          0
+AffD 'power gloves'  16   0  35  19          0          0
+AffD 'detect invis'   4   0   0   0          8          0
+AffD 'detect hidden'   2   0   0   0         32          0
+AffD 'frost shield'   0   0   0   0          0         16
+AffD 'fire shield'   0   0   0   0          0          8
+AffD 'protection evil'  15   0   0   0       8192          0
+AffD 'pass door'  14   0   0   0    1048576          0
 End
 
 #O
@@ -198,7 +189,7 @@ Nest 0
 Wear 12
 Lev  29
 Cost 500
-Cond 95
+Cond 76
 Repd 0
 End
 
@@ -212,57 +203,54 @@ Repd 0
 End
 
 #O
-Vnum 3737
+Vnum 725
 Nest 0
-Wear 11
-Lev  1
-Cost 10
-Cond 74
-Repd 0
-Val  3 3 4 0 0
-End
-
-#O
-Vnum 1395
-Nest 0
-Wear 4
-Lev  22
-Cost 5000
+Wear 9
+Lev  46
+Cost 950
 Cond 100
 Repd 0
-Val  8 7 7 0 0
 End
 
 #O
-Vnum 1395
+Vnum 16021
 Nest 0
-Wear 3
-Lev  22
-Cost 5000
+Wear 15
+Lev  46
+Cost 1935
+Cond 93
+Repd 0
+Affect -1 46 -1 5 20 0 0
+End
+
+#O
+Vnum 16021
+Nest 0
+Wear 14
+Lev  46
+Cost 1935
+Cond 94
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
 Cond 100
 Repd 0
-Val  8 6 6 0 0
-Affect -1 22 -1 -1 22 0 0
+Affect -1 48 -1 -1 22 0 0
 End
 
 #O
-Vnum 8713
+Vnum 3715
 Nest 0
-Wear 13
-Lev  6
-Cost 1250
-Cond 80
-Repd 0
-Val  3 5 5 0 0
-End
-
-#O
-Vnum 724
-Nest 0
-Wear 8
-Lev  30
-Cost 500
-Cond 100
+Wear -1
+Cost 0
+Cond 0
 Repd 0
 End
 
@@ -272,116 +260,201 @@ Nest 0
 Wear 0
 Lev  20
 Cost 0
-Cond 36
+Cond 25
 Repd 0
 Val  0 0 -1 0 0
 End
 
 #O
-Vnum 2390
+Vnum 7651
 Nest 0
-Wear 9
-Lev  23
-Cost 10000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10048
-Nest 0
+ExtF 20
 Wear 5
-Lev  32
-Cost 2200
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10049
-Nest 0
-ExtF 2104641
-Wear 16
-Lev  32
-Cost 2300
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9213
-Nest 0
-Wear 10
-Lev  22
-Cost 5566
-Cond 100
-Repd 0
-Affect -1 22 -1 -1 2 0 0
-End
-
-#O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear 14
-Lev  28
-Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear 15
-Lev  28
-Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 16006
-Nest 0
-Wear 2
 Lev  43
-Cost 2260
+Cost 950
 Cond 100
 Repd 0
-Affect -1 43 -1 7 17 0 0
 End
 
 #O
-Vnum 16011
+Vnum 3609
 Nest 0
-ExtF 66
-Wear 6
-Lev  42
-Cost 1842
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
 Cond 100
 Repd 0
 End
 
 #O
-Vnum 16006
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 2 22 0 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear 4
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+Affect -1 43 -1 13 17 0 0
+End
+
+#O
+Vnum 10000
+Nest 0
+ExtF 2100289
+Wear 17
+Lev  50
+Cost 6000
+Cond 100
+Repd 0
+Affect -1 50 -1 1 23 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16016
+Nest 0
+Wear 8
+Lev  52
+Cost 2368
+Cond 100
+Repd 0
+Affect -1 52 -1 -7 14 0 0
+End
+
+#O
+Vnum 16033
 Nest 0
 Wear 1
-Lev  43
-Cost 2260
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+Affect -1 52 -1 3 1 0 0
+End
+
+#O
+Vnum 16033
+Nest 0
+Wear 2
+Lev  52
+Cost 2409
 Cond 100
 Repd 0
 End
 
 #O
-Vnum 16013
+Vnum 29206
 Nest 0
-Wear 7
-Lev  41
-Cost 1498
+Wear 13
+Lev  50
+Cost 2000
 Cond 100
 Repd 0
-Affect -1 41 -1 -7 13 0 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 22 0 0
+End
+
+#O
+Vnum 29277
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29219
+Nest 0
+ExtF 1052672
+Wear 16
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29277
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'shroud'
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 -3 1 0 0
+Affect -1 53 -1 -1 2 0 0
+Affect -1 53 -1 -13 14 0 0
+Affect -1 53 -1 -3 5 0 0
+End
+
+#O
+Vnum 29276
+Nest 0
+Wear -1
+Lev  51
+Time 103
+Cost 1000
+Cond 100
+Repd 0
+Spell 1 'cure blindness'
+Spell 2 'cure nightmare'
+Spell 3 'sleep'
+End
+
+#O
+Vnum 29279
+Nest 0
+Wear -1
+Lev  51
+Cost 1000
+Cond 100
+Repd 0
+Spell 3 'frenzy'
 End
 
 #END

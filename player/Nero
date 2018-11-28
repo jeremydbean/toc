@@ -1,7 +1,7 @@
 #PLAYER
 Name Nero~
 Id   52481
-LogO 1542763469
+LogO 1543212372
 Vers 3
 Desc .                                      ---            
 .                                    --...--          
@@ -45,17 +45,17 @@ Gui  2
 Psionic  2
 Cast Legi
 Levl 54
-Plyd 1497356
+Plyd 1499345
 ListRemorts ~
 NumRemorts 0
 Note 953324212
 Scro 22
 Room 4208
-HMV  1304 1304 290 290 107 293
-NewGold 28
-NewPlat 6697
-NewCopp 382
-NewSilv 200
+HMV  1318 1318 290 290 183 293
+NewGold 1
+NewPlat 6760
+NewCopp 27
+NewSilv 8
 Bank 0
 Dcount 0
 Corpses	0
@@ -64,9 +64,9 @@ PkGiv 9
 QuestPnts 347
 Exp  177337
 Act  67108936
-AfBy 2097664
-AfBy2 64
-Comm 28736
+AfBy 3678888
+AfBy2 4696
+Comm 24640
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -92,13 +92,13 @@ Color 15 6
 Color 16 6
 Pos  8
 Prac 1
-Save  -8
-Alig  983
-Hit   91
-Dam   101
-ACs -34 -33 -57 63
+Save  -7
+Alig  52
+Hit   85
+Dam   130
+ACs -150 -152 -173 -66
 Attr 14 13 17 15 19
-AMod 16 4 2 7 0
+AMod 16 4 2 9 0
 Pass NeLnWGi23YlKM~
 Titl  Forscythe, Lord of the Legion~
 Pnts 40
@@ -145,17 +145,28 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  20  11   0   0          0         64
-AffD 'giant strength'   0  65   4   1          0          0
-AffD 'frenzy'  12  10 110  17          0          0
-AffD 'frenzy'  21  10  11  19          0          0
-AffD 'frenzy'  13  10  11  18          0          0
-AffD 'aid'  21  11  38  13          0          0
-AffD 'aid'  16  11   7  18          0          0
-AffD 'bless'  12  63  -8  24          0          0
-AffD 'bless'  35  63   8  18          0          0
-AffD 'haste'   0   4   4   2    2097152          0
-AffD 'armor'  15   1 -20  17          0          0
+AffD 'stealth'  51  10   0   0          0         64
+AffD 'pass door'  14  61   0   0    1048576          0
+AffD 'protection evil'   4  61   0   0       8192          0
+AffD 'fire shield'   5  61   0   0          0          8
+AffD 'frost shield'   0  61   0   0          0         16
+AffD 'detect hidden'  41  61   0   0         32          0
+AffD 'detect invis'  42  61   0   0          8          0
+AffD 'power gloves'  16  61  35  19          0          0
+AffD 'giant strength'  36  61   4   1          0          0
+AffD 'frenzy'   2  61 110  17          0          0
+AffD 'frenzy'  23  61  11  19          0          0
+AffD 'frenzy'   6  61  11  18          0          0
+AffD 'fly'  37  64   0   0     524288          0
+AffD 'aid'  33  61  52  13          0          0
+AffD 'aid'   9  61   7  18          0          0
+AffD 'divine protection'  42  61   0   0          0       4096
+AffD 'force sword'  14  61   0   0          0        512
+AffD 'bless'   0  67  -8  24          0          0
+AffD 'bless'  19  67   8  18          0          0
+AffD 'haste'  10  61   4   2    2097152          0
+AffD 'sanctuary'   0  61   0   0        128          0
+AffD 'major globe'  -1  61 -150  17          0          0
 End
 
 #O
@@ -203,17 +214,6 @@ Repd 0
 End
 
 #O
-Vnum 7651
-Nest 0
-ExtF 20
-Wear 5
-Lev  43
-Cost 950
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 17025
 Nest 0
 ExtF 6
@@ -236,46 +236,12 @@ Repd 0
 End
 
 #O
-Vnum 10004
-Nest 0
-ExtF 2100545
-Wear 4
-Lev  50
-Cost 3000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10004
-Nest 0
-ExtF 2100545
-Wear 3
-Lev  50
-Cost 0
-Cond 100
-Repd 0
-Val  13 12 13 0 0
-End
-
-#O
 Vnum 29236
 Nest 0
 Wear 8
 Lev  53
 Cost 5000
 Cond 100
-Repd 0
-End
-
-#O
-Vnum 3609
-Nest 0
-ExtF 21
-Wear 10
-Lev  30
-Cost 4000
-Cond 90
 Repd 0
 End
 
@@ -295,6 +261,7 @@ Nest 0
 Name twinkle scimitar~
 ShD  An Elven Scimitar Named 'Twinkle'~
 Desc A Scimitar lies here.~
+ExtF 3145985
 Act_room $p glows blue as $n grabs the hilt.~
 Act_char The room is filled with a blue light as you grip $p.~
 Wear 16
@@ -333,20 +300,6 @@ Cost 900
 Cond 100
 Repd 0
 Spell 1 'protection evil'
-End
-
-#O
-Vnum 700
-Enchanted
-Nest 1
-ExtF 3146819
-Wear -1
-Lev  49
-Cost 2500
-Cond 100
-Repd 0
-AffD 'enchant weapon' 51 -1 7 19 0 0
-AffD 'enchant weapon' 51 -1 7 18 0 0
 End
 
 #O
@@ -724,28 +677,6 @@ Repd 0
 End
 
 #O
-Vnum 700
-Nest 1
-ExtF 3146818
-Wear -1
-Lev  48
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 17025
-Nest 1
-ExtF 6
-Wear -1
-Lev  53
-Cost 1500
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 16046
 Nest 1
 Wear -1
@@ -773,7 +704,7 @@ Nest 1
 Name flaming red potion~
 ShD  a flaming red potion~
 Wear -1
-Time 80
+Time 48
 Cost 400
 Cond 100
 Repd 0
@@ -790,16 +721,6 @@ Cost 11
 Cond 100
 Repd 0
 Spell 3 'refresh'
-End
-
-#O
-Vnum 725
-Nest 1
-Wear -1
-Lev  46
-Cost 950
-Cond 100
-Repd 0
 End
 
 #O
@@ -820,7 +741,18 @@ Nest 1
 ExtF 21
 Wear -1
 Lev  30
-Cost 0
+Cost 4000
+Cond 90
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 1
+ExtF 6
+Wear -1
+Lev  53
+Cost 1500
 Cond 100
 Repd 0
 End
@@ -834,6 +766,20 @@ Lev  26
 Cost 0
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 700
+Enchanted
+Nest 1
+ExtF 3146819
+Wear -1
+Lev  49
+Cost 2500
+Cond 100
+Repd 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
+AffD 'enchant weapon' 51 -1 7 19 0 0
 End
 
 #O
@@ -873,6 +819,39 @@ Lev  54
 Cost 2500
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 3609
+Nest 0
+ExtF 21
+Wear 10
+Lev  30
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 7651
+Nest 0
+ExtF 20
+Wear 5
+Lev  43
+Cost 950
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16030
+Nest 0
+Wear 3
+Lev  52
+Cost 2560
+Cond 100
+Repd 0
+Affect -1 52 -1 1 20 0 0
 End
 
 #END

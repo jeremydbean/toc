@@ -1,7 +1,7 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542982227
+LogO 1543024673
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
@@ -106,27 +106,27 @@ Gui  4
 Psionic  2
 Cast Fors
 Levl 40
-Plyd 1671644
+Plyd 1672306
 ListRemorts 2  2 ~
 NumRemorts 1
 Note 953485148
 Scro 22
-Room 1044
-HMV  482 761 458 714 484 484
-NewGold 1529
-NewPlat 5218
-NewCopp 8558
-NewSilv 3856
+Room 29498
+HMV  573 750 546 714 383 484
+NewGold 1533
+NewPlat 5219
+NewCopp 8570
+NewSilv 3865
 Bank 978395
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 24
 QuestPnts 111
-Exp  86984
+Exp  87457
 Act  33947848
 AfBy 3678888
-AfBy2 4632
+AfBy2 536
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -158,7 +158,7 @@ Save  -15
 Alig  1000
 Hit   42
 Dam   79
-ACs 67 82 80 181
+ACs -83 -68 -70 31
 Attr 13 13 13 13 13
 AMod 9 10 10 2 11
 Pass Kilrpis9ggekI~
@@ -169,7 +169,7 @@ Pnts 2540
 TSex 2
 LLev 3
 HMVP 699 664 459
-Cond 0 -1 -1
+Cond 0 47 47
 Alias / who~
 Alias f flee~
 Alias ] recall~
@@ -199,10 +199,10 @@ Sk 15 'whip'
 Sk 1 'bash'
 Sk 75 'dirt kicking'
 Sk 75 'dodge'
-Sk 42 'enhanced damage'
+Sk 45 'enhanced damage'
 Sk 97 'hand to hand'
 Sk 75 'kick'
-Sk 76 'parry'
+Sk 77 'parry'
 Sk 75 'trip'
 Sk 1 'second attack'
 Sk 1 'blinding fists'
@@ -219,26 +219,26 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'haste'   0  52   4   2    2097152          0
-AffD 'bless'  -1  58   8  18          0          0
-AffD 'bless'  -1  58  -8  24          0          0
-AffD 'force sword'  14  52   0   0          0        512
-AffD 'divine protection'   0  52   0   0          0       4096
-AffD 'aid'  12  52   7  18          0          0
-AffD 'aid'   4  52  39  13          0          0
-AffD 'fly'   0  55   0   0     524288          0
-AffD 'frenzy'   7  52  11  18          0          0
-AffD 'frenzy'  -1  52  11  19          0          0
-AffD 'frenzy'   0  52 110  17          0          0
-AffD 'giant strength'   0  52   4   1          0          0
-AffD 'infravision'  11 122   0   0        512          0
-AffD 'power gloves'  17  52  35  19          0          0
-AffD 'detect invis'   0  52   0   0          8          0
-AffD 'detect hidden'  -2  52   0   0         32          0
-AffD 'frost shield'  14  52   0   0          0         16
-AffD 'fire shield'  -1  52   0   0          0          8
-AffD 'protection evil'  -1  52   0   0       8192          0
-AffD 'pass door'  -1  52   0   0    1048576          0
+AffD 'pass door'   0  68   0   0    1048576          0
+AffD 'protection evil'   0  68   0   0       8192          0
+AffD 'fire shield'  10  68   0   0          0          8
+AffD 'frost shield'  -1  68   0   0          0         16
+AffD 'detect hidden'  -1  68   0   0         32          0
+AffD 'detect invis'   0  68   0   0          8          0
+AffD 'power gloves'   2  68  35  19          0          0
+AffD 'infravision'   9 138   0   0        512          0
+AffD 'giant strength'  -1  68   4   1          0          0
+AffD 'frenzy'  -2  68 110  17          0          0
+AffD 'frenzy'   0  68  11  19          0          0
+AffD 'frenzy'  -1  68  11  18          0          0
+AffD 'fly'  15  71   0   0     524288          0
+AffD 'aid'   0  68  28  13          0          0
+AffD 'aid'  -1  68   7  18          0          0
+AffD 'force sword'  -1  68   0   0          0        512
+AffD 'bless'   5  74  -8  24          0          0
+AffD 'bless'  -1  74   8  18          0          0
+AffD 'haste'   0  68   4   2    2097152          0
+AffD 'major globe'  13  68 -150  17          0          0
 End
 
 #O

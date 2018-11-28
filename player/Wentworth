@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1542864658
+LogO 1543382465
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,24 +11,24 @@ Cla  3
 Gui  3
 Psionic  1
 Cast none
-Levl 38
-Plyd 51025
+Levl 51
+Plyd 63747
 ListRemorts ~
 NumRemorts 0
 Note 1542589633
 Scro 22
-Room 4210
-HMV  938 942 366 384 97 347
-NewGold 75
-NewPlat 281
-NewCopp 501
-NewSilv 148
+Room 4208
+HMV  1135 1275 440 440 283 325
+NewGold 876
+NewPlat 425
+NewCopp 1049
+NewSilv 761
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  88906
+Exp  119106
 Act  204
 AfBy 3678888
 AfBy2 4632
@@ -57,135 +57,74 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Save  -14
+Prac 6
+Save  -5
 Alig  1000
-Hit   44
-Dam   91
-ACs -68 -47 -54 34
+Hit   63
+Dam   115
+ACs -110 -103 -102 21
 Attr 13 13 16 16 12
-AMod 17 -3 0 6 -4
+AMod 14 0 0 6 0
 Pass We2cg.QoJGvjg~
-Titl  the Master Warrior~
+Titl  the Dreadnought~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 885 329 322
-Cond 0 43 43
+HMVP 1258 405 400
+Cond 0 100 100
 Alias k kick~
 Alias re rescue~
-Sk 6 'confuse'
+Sk 66 'confuse'
 Sk 1 'mindblast'
 Sk 1 'project'
 Sk 1 'psionic armor'
 Sk 30 'axe'
-Sk 83 'dagger'
+Sk 100 'dagger'
 Sk 25 'flail'
-Sk 65 'mace'
+Sk 78 'mace'
 Sk 35 'polearm'
-Sk 43 'shield block'
-Sk 30 'spear'
+Sk 45 'shield block'
+Sk 32 'spear'
 Sk 100 'sword'
 Sk 30 'whip'
 Sk 47 'berserk'
 Sk 1 'disarm'
-Sk 26 'dodge'
-Sk 89 'enhanced damage'
-Sk 83 'kick'
-Sk 38 'parry'
+Sk 32 'dodge'
+Sk 100 'enhanced damage'
+Sk 85 'kick'
+Sk 45 'parry'
 Sk 11 'rescue'
-Sk 53 'second attack'
-Sk 17 'third attack'
+Sk 58 'second attack'
+Sk 19 'third attack'
 Sk 1 'hide'
 Sk 81 'recall'
-Sk 87 'smite'
+Sk 96 'smite'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'pass door'  -1  18   0   0    1048576          0
-AffD 'protection evil'  16  18   0   0       8192          0
-AffD 'fire shield'   0  18   0   0          0          8
-AffD 'frost shield'   0  18   0   0          0         16
-AffD 'detect hidden'   0  18   0   0         32          0
-AffD 'detect invis'   0  18   0   0          8          0
-AffD 'power gloves'   0  18  35  19          0          0
-AffD 'infravision'  28  88   0   0        512          0
-AffD 'giant strength'   0  18   4   1          0          0
-AffD 'frenzy'   0  18 110  17          0          0
-AffD 'frenzy'   0  18  11  19          0          0
-AffD 'frenzy'   0  18  11  18          0          0
-AffD 'fly'   0  21   0   0     524288          0
-AffD 'aid'   0  18  42  13          0          0
-AffD 'aid'   0  18   7  18          0          0
-AffD 'divine protection'   0  18   0   0          0       4096
-AffD 'bless'   0  24  -8  24          0          0
-AffD 'bless'   0  24   8  18          0          0
-AffD 'haste'   0  18   4   2    2097152          0
-AffD 'sanctuary'  -1  18   0   0        128          0
-AffD 'major globe'  -1  18 -150  17          0          0
-AffD 'force sword'   0  29   0   0          0        512
-End
-
-#O
-Vnum 2803
-Nest 0
-Wear 2
-Lev  7
-Cost 441
-Cond 97
-Repd 0
-End
-
-#O
-Vnum 2803
-Nest 0
-Wear 1
-Lev  7
-Cost 441
-Cond 93
-Repd 0
-End
-
-#O
-Vnum 8713
-Nest 0
-Wear 13
-Lev  8
-Cost 1250
-Cond 99
-Repd 0
-Val  5 5 5 0 0
-End
-
-#O
-Vnum 10027
-Nest 0
-Wear -1
-Lev  14
-Cost 210
-Cond 99
-Repd 0
-Val  6 5 5 0 0
-End
-
-#O
-Vnum 17713
-Nest 0
-Wear 17
-Lev  18
-Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9214
-Nest 0
-Wear 7
-Lev  22
-Cost 5060
-Cond 100
-Repd 0
+AffD 'major globe'  16  25 -150  17          0          0
+AffD 'sanctuary'  18  25   0   0        128          0
+AffD 'haste'   1  25   4   2    2097152          0
+AffD 'bless'   0  31   8  18          0          0
+AffD 'bless'  16  31  -8  24          0          0
+AffD 'force sword'  -1  25   0   0          0        512
+AffD 'divine protection'  13  25   0   0          0       4096
+AffD 'aid'  27  25   7  18          0          0
+AffD 'aid'   0  25  22  13          0          0
+AffD 'fly'  -1  28   0   0     524288          0
+AffD 'frenzy'   0  25  11  18          0          0
+AffD 'frenzy'   0  25  11  19          0          0
+AffD 'frenzy'  11  25 110  17          0          0
+AffD 'giant strength'  22  25   4   1          0          0
+AffD 'infravision'   0  95   0   0        512          0
+AffD 'power gloves'  13  25  35  19          0          0
+AffD 'detect invis'   0  25   0   0          8          0
+AffD 'detect hidden'  16  25   0   0         32          0
+AffD 'frost shield'   0  25   0   0          0         16
+AffD 'fire shield'   0  25   0   0          0          8
+AffD 'protection evil'   0  25   0   0       8192          0
+AffD 'pass door'   6  25   0   0    1048576          0
 End
 
 #O
@@ -209,238 +148,6 @@ Repd 0
 End
 
 #O
-Vnum 29015
-Nest 1
-Wear -1
-Lev  15
-Cost 100
-Cond 100
-Repd 0
-Affect -1 15 -1 -4 4 0 0
-End
-
-#O
-Vnum 3092
-Nest 1
-Wear -1
-Cost 150
-Cond 100
-Repd 0
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 1
-Wear -1
-Cost 150
-Cond 100
-Repd 0
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 9224
-Nest 1
-Wear -1
-Lev  8
-Cost 729
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 13225
-Nest 1
-ExtF 1048642
-Wear -1
-Lev  25
-Cost 100
-Cond 100
-Repd 0
-Affect -1 25 -1 -4 1 0 0
-End
-
-#O
-Vnum 13225
-Nest 1
-ExtF 1048642
-Wear -1
-Lev  25
-Cost 100
-Cond 77
-Repd 0
-End
-
-#O
-Vnum 13215
-Nest 1
-Wear -1
-Lev  27
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 13215
-Nest 1
-Wear -1
-Lev  27
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 2314
-Nest 1
-Wear -1
-Lev  27
-Cost 2000
-Cond 100
-Repd 0
-Affect -1 27 -1 5 20 0 0
-End
-
-#O
-Vnum 9213
-Nest 1
-Wear -1
-Lev  22
-Cost 5566
-Cond 100
-Repd 0
-Affect -1 22 -1 -1 2 0 0
-End
-
-#O
-Vnum 13211
-Nest 1
-Wear -1
-Lev  29
-Cost 1000
-Cond 100
-Repd 0
-Affect -1 29 -1 -4 18 0 0
-End
-
-#O
-Vnum 2309
-Nest 1
-Wear -1
-Lev  29
-Cost 1000
-Cond 100
-Repd 0
-Affect -1 29 -1 -5 1 0 0
-End
-
-#O
 Vnum 9955
 Nest 1
 Wear -1
@@ -451,45 +158,266 @@ Repd 0
 End
 
 #O
-Vnum 717
+Vnum 3092
 Nest 1
 Wear -1
-Lev  40
-Cost 450
-Cond 92
-Repd 0
-End
-
-#O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear 15
-Lev  28
-Cost 500
+Cost 150
 Cond 100
 Repd 0
-Affect -1 28 -1 -1 18 0 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear 14
-Lev  28
-Cost 500
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
 Cond 100
 Repd 0
-Affect -1 28 -1 -3 18 0 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 2390
-Nest 0
-Wear 9
-Lev  23
-Cost 10000
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+Wear -1
+Cost 150
+Cond 100
+Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 16032
+Nest 1
+Wear -1
+Lev  52
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16051
+Nest 1
+Wear -1
+Lev  51
+Cost 2436
+Cond 100
+Repd 0
+Affect -1 51 -1 -25 12 0 0
+End
+
+#O
+Vnum 720
+Nest 1
+Wear -1
+Lev  34
+Cost 850
+Cond 100
+Repd 0
+Affect -1 34 -1 3 2 0 0
+End
+
+#O
+Vnum 8713
+Nest 1
+Wear -1
+Lev  8
+Cost 1250
+Cond 85
+Repd 0
+Val  5 5 5 0 0
+End
+
+#O
+Vnum 7623
+Nest 1
+Wear -1
+Lev  25
+Cost 150
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 2500
+Cond 70
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16033
+Nest 1
+Wear -1
+Lev  52
+Cost 2409
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5612
+Nest 1
+Wear -1
+Lev  52
+Cost 600
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 53
+Repd 0
+End
+
+#O
+Vnum 10006
+Nest 1
+ExtF 2100544
+Wear -1
+Lev  49
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 49 -1 9 14 0 0
+End
+
+#O
+Vnum 3746
+Nest 1
+Wear -1
+Lev  3
+Cost 10
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 25029
+Nest 1
+Wear -1
+Lev  51
+Cost 5000
 Cond 100
 Repd 0
 End
@@ -518,96 +446,217 @@ Affect -1 30 -1 -4 5 0 0
 End
 
 #O
-Vnum 7623
+Vnum 16006
+Nest 0
+Wear 1
+Lev  43
+Cost 2260
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16006
+Nest 0
+Wear 2
+Lev  43
+Cost 2260
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+Affect -1 41 -1 1 2 0 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 15
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 717
+Nest 0
+Wear 14
+Lev  40
+Cost 450
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 725
+Nest 0
+Wear 9
+Lev  46
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 720
+Nest 0
+Wear 11
+Lev  34
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3092
 Nest 0
 Wear -1
-Lev  25
 Cost 150
 Cond 100
 Repd 0
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 10029
-Nest 0
-Wear -1
-Lev  14
-Cost 200
-Cond 100
-Repd 0
-Val  1 4 5 3 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear 4
-Lev  33
-Cost 4000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear 3
-Lev  33
-Cost 4000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9321
+Vnum 9944
 Nest 0
 Wear 0
-Lev  25
-Cost 1750
-Cond 100
+Lev  20
+Cost 0
+Cond 33
 Repd 0
 Val  0 0 -1 0 0
 End
 
 #O
-Vnum 10048
+Vnum 7651
 Nest 0
+ExtF 20
 Wear 5
-Lev  32
-Cost 2200
+Lev  43
+Cost 950
 Cond 100
 Repd 0
 End
 
 #O
-Vnum 10049
+Vnum 10031
 Nest 0
-Wear -1
-Lev  32
-Cost 2300
+Wear 17
+Lev  39
+Cost 22000
 Cond 100
 Repd 0
-Affect -1 32 -1 -1 5 0 0
+Spell 3 'shocking grasp'
+Affect -1 39 -1 3 21 0 0
 End
 
 #O
-Vnum 3715
+Vnum 10004
 Nest 0
-Wear -1
-Cost 0
-Cond 98
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
 Repd 0
 End
 
 #O
-Vnum 17112
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29206
+Nest 0
+Wear 13
+Lev  50
+Cost 2000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear -1
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29214
+Nest 0
+Wear -1
+Lev  51
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 51 -1 1 20 0 0
+End
+
+#O
+Vnum 29207
+Nest 0
+Wear -1
+Lev  51
+Cost 2000
+Cond 100
+Repd 0
+Affect -1 51 -1 15 12 0 0
+End
+
+#O
+Vnum 29214
+Nest 0
+Wear -1
+Lev  51
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29211
 Nest 0
 Wear 16
-Lev  35
-Cost 3440
+Lev  51
+Cost 5000
 Cond 100
 Repd 0
-Affect -1 35 -1 -3 3 0 0
+Affect -1 51 -1 -5 2 0 0
+End
+
+#O
+Vnum 700
+Nest 0
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -1 18 0 0
 End
 
 #END
