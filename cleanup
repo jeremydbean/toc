@@ -5,7 +5,7 @@
 pkill -e merc
 pkill -e immortal
 pkill -e startup
-cd /mnt/e/toc/src
+cd ~/home/ToC/src
 rm *.o
 rm merc
 #make 2>&1 | tee ../compile_warnings.log
