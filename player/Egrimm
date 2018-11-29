@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1543214870
+LogO 1543469164
 Vers 3
 Desc .
 
@@ -63,24 +63,24 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1786073
+Plyd 1786993
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
 Room 4210
-HMV  1605 1605 354 525 88 396
-NewGold 2
-NewPlat 4868
-NewCopp 90
-NewSilv 9
-Bank 1538000
+HMV  1597 1605 107 525 199 396
+NewGold 13
+NewPlat 4657
+NewCopp 202
+NewSilv 96
+Bank 1532000
 Dcount 0
 Corpses	0
 PkRec 1
 PkGiv 2
 QuestPnts 262
-Exp  133859
+Exp  133929
 Act  4260044
 AfBy 3678888
 AfBy2 4632
@@ -111,7 +111,7 @@ Color 16 6
 Pos  8
 Prac 8
 Save  -12
-Alig  625
+Alig  541
 Hit   90
 Dam   147
 ACs -166 -157 -190 -50
@@ -161,7 +161,7 @@ Sk 98 'dispel magic'
 Sk 1 'dust devil'
 Sk 95 'faerie fire'
 Sk 86 'fly'
-Sk 96 'gate'
+Sk 97 'gate'
 Sk 85 'giant strength'
 Sk 100 'haste'
 Sk 95 'icicle'
@@ -214,22 +214,22 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'major globe'   0  45 -150  17          0          0
-AffD 'sanctuary'  26  45   0   0        128          0
-AffD 'bless'   7  51   8  18          0          0
-AffD 'bless'  27  51  -8  24          0          0
-AffD 'force sword'  23  45   0   0          0        512
-AffD 'divine protection'  43  45   0   0          0       4096
-AffD 'aid'   0  45   7  18          0          0
-AffD 'aid'  39  45  41  13          0          0
-AffD 'frenzy'  25  45  11  18          0          0
-AffD 'frenzy'  30  45  11  19          0          0
-AffD 'frenzy'  -1  45 110  17          0          0
-AffD 'giant strength'  31  45   4   1          0          0
-AffD 'power gloves'  16  45  35  19          0          0
-AffD 'detect hidden'   0  45   0   0         32          0
-AffD 'frost shield'  49  45   0   0          0         16
-AffD 'fire shield'  38  45   0   0          0          8
+AffD 'major globe'   0  29 -150  17          0          0
+AffD 'sanctuary'  24  29   0   0        128          0
+AffD 'bless'   4  35   8  18          0          0
+AffD 'bless'  22  35  -8  24          0          0
+AffD 'force sword'  21  29   0   0          0        512
+AffD 'divine protection'  41  29   0   0          0       4096
+AffD 'aid'   0  29   7  18          0          0
+AffD 'aid'  37  29  41  13          0          0
+AffD 'frenzy'  21  29  11  18          0          0
+AffD 'frenzy'  27  29  11  19          0          0
+AffD 'frenzy'  -1  29 110  17          0          0
+AffD 'giant strength'  26  29   4   1          0          0
+AffD 'power gloves'  10  29  35  19          0          0
+AffD 'detect hidden'   0  29   0   0         32          0
+AffD 'frost shield'  46  29   0   0          0         16
+AffD 'fire shield'  35  29   0   0          0          8
 End
 
 #O
@@ -502,18 +502,6 @@ Repd 0
 End
 
 #O
-Vnum 6405
-Nest 1
-ExtF 84
-Wear -1
-Lev  48
-Cost 6000
-Cond 100
-Repd 0
-Affect -1 48 -1 -2 1 0 0
-End
-
-#O
 Vnum 29219
 Enchanted
 Nest 1
@@ -560,6 +548,17 @@ Spell 1 'remove align'
 End
 
 #O
+Vnum 700
+Nest 1
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -4 5 0 0
+End
+
+#O
 Vnum 17020
 Nest 1
 Name finger~
@@ -576,14 +575,15 @@ Repd 0
 End
 
 #O
-Vnum 700
+Vnum 6405
 Nest 1
+ExtF 84
 Wear -1
 Lev  48
-Cost 2500
+Cost 6000
 Cond 100
 Repd 0
-Affect -1 48 -1 -4 5 0 0
+Affect -1 48 -1 -2 1 0 0
 End
 
 #O

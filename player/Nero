@@ -1,7 +1,7 @@
 #PLAYER
 Name Nero~
 Id   52481
-LogO 1543212372
+LogO 1543464115
 Vers 3
 Desc .                                      ---            
 .                                    --...--          
@@ -45,13 +45,13 @@ Gui  2
 Psionic  2
 Cast Legi
 Levl 54
-Plyd 1499345
+Plyd 1499388
 ListRemorts ~
 NumRemorts 0
 Note 953324212
 Scro 22
-Room 4208
-HMV  1318 1318 290 290 183 293
+Room 23
+HMV  1318 1318 290 290 161 293
 NewGold 1
 NewPlat 6760
 NewCopp 27
@@ -145,28 +145,28 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'stealth'  51  10   0   0          0         64
-AffD 'pass door'  14  61   0   0    1048576          0
-AffD 'protection evil'   4  61   0   0       8192          0
-AffD 'fire shield'   5  61   0   0          0          8
-AffD 'frost shield'   0  61   0   0          0         16
-AffD 'detect hidden'  41  61   0   0         32          0
-AffD 'detect invis'  42  61   0   0          8          0
-AffD 'power gloves'  16  61  35  19          0          0
-AffD 'giant strength'  36  61   4   1          0          0
-AffD 'frenzy'   2  61 110  17          0          0
-AffD 'frenzy'  23  61  11  19          0          0
-AffD 'frenzy'   6  61  11  18          0          0
-AffD 'fly'  37  64   0   0     524288          0
-AffD 'aid'  33  61  52  13          0          0
-AffD 'aid'   9  61   7  18          0          0
-AffD 'divine protection'  42  61   0   0          0       4096
-AffD 'force sword'  14  61   0   0          0        512
-AffD 'bless'   0  67  -8  24          0          0
-AffD 'bless'  19  67   8  18          0          0
-AffD 'haste'  10  61   4   2    2097152          0
-AffD 'sanctuary'   0  61   0   0        128          0
 AffD 'major globe'  -1  61 -150  17          0          0
+AffD 'sanctuary'   0  61   0   0        128          0
+AffD 'haste'  10  61   4   2    2097152          0
+AffD 'bless'  19  67   8  18          0          0
+AffD 'bless'   0  67  -8  24          0          0
+AffD 'force sword'  14  61   0   0          0        512
+AffD 'divine protection'  42  61   0   0          0       4096
+AffD 'aid'   9  61   7  18          0          0
+AffD 'aid'  33  61  52  13          0          0
+AffD 'fly'  37  64   0   0     524288          0
+AffD 'frenzy'   6  61  11  18          0          0
+AffD 'frenzy'  23  61  11  19          0          0
+AffD 'frenzy'   2  61 110  17          0          0
+AffD 'giant strength'  36  61   4   1          0          0
+AffD 'power gloves'  16  61  35  19          0          0
+AffD 'detect invis'  42  61   0   0          8          0
+AffD 'detect hidden'  41  61   0   0         32          0
+AffD 'frost shield'   0  61   0   0          0         16
+AffD 'fire shield'   5  61   0   0          0          8
+AffD 'protection evil'   4  61   0   0       8192          0
+AffD 'pass door'  14  61   0   0    1048576          0
+AffD 'stealth'  51  10   0   0          0         64
 End
 
 #O
@@ -778,8 +778,8 @@ Lev  49
 Cost 2500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 7 18 0 0
 AffD 'enchant weapon' 51 -1 7 19 0 0
+AffD 'enchant weapon' 51 -1 7 18 0 0
 End
 
 #O
