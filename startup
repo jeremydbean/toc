@@ -45,13 +45,13 @@ while ( 1 )
 
     # Run merc.
     rm -f shutdown.txt
-	cd /mnt/e//ToC/area
+	cd /mnt/e/ToC/area
 	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
     #./merc $port | sudo tee -a $logfile
     echo ToC Starting!
-	echo $logfile
+	echo sudo lnav $logfile
 	./merc $port >&! $logfile
-	#sudo lnav $logfile
+	
 
     # Save to core files
 #    if ( -e core ) mv core core.$index
