@@ -7,7 +7,7 @@
 
 /***************************************************************************
 *  Automated Quest code written by Vassago of MOONGATE, moongate.ams.com   *
-*  4000. Copyright (c) 1996 Ryan Addams, All Rights Reserved. Use of this  * 
+*  4000. Copyright (c) 1996 Ryan Addams, All Rights Reserved. Use of this  *
 *  code is allowed provided you add a credit line to the effect of:        *
 *  "Quest Code (c) 1996 Ryan Addams" to your logon screen with the rest    *
 *  of the standard diku/rom credits. If you use this or a modified version *
@@ -152,7 +152,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
 	    sprintf(buf, "Time left for current quest: %d\n\r",ch->countdown);
 	    send_to_char(buf, ch);
 	}
-        else 
+        else
         {   if (ch->nextquest > 0)
             { sprintf(buf, "Time left before you can start a next quest: %d\n\r",ch->nextquest);
               send_to_char(buf,ch);
@@ -166,7 +166,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
     }
 
 /* Checks for a character in the room with spec_questmaster set. This special
-   procedure must be defined in special.c. You could instead use an 
+   procedure must be defined in special.c. You could instead use an
    ACT_QUESTMASTER flag instead of a special procedure. */
 
     for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room )
@@ -197,7 +197,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
 /*  commented this section out below, and replaced with quest.c data from 1999 - Forrest */
 /*    if (!strcmp(arg1, "list"))
     {
-        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM); 
+        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM);
 	act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
 	sprintf(buf, "Current Quest Items available for Purchase:\n\r\
 	Potion of Sanctuary		150qp\n\r
@@ -232,7 +232,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	    send_to_char("To buy an item, type 'AQUEST BUY <item>'.\n\r",ch);
 	    return;
 	}
-        if (IS_NPC(ch)) 
+        if (IS_NPC(ch))
            return;
 	if (is_name(arg2, "hero"))
 	{
@@ -335,7 +335,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
     }
     else if (!strcmp(arg1, "request"))
     {
-        act( "$n asks $N for a quest.", ch, NULL, questman, TO_ROOM); 
+        act( "$n asks $N for a quest.", ch, NULL, questman, TO_ROOM);
 	act ("You ask $N for a quest.",ch, NULL, questman, TO_CHAR);
 	if (IS_SET(ch->act, PLR_QUESTOR))
 	{
@@ -370,7 +370,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
     }
     else if (!strcmp(arg1, "complete"))
     {
-        act( "$n informs $N $e has completed $s quest.", ch, NULL, questman, TO_ROOM); 
+        act( "$n informs $N $e has completed $s quest.", ch, NULL, questman, TO_ROOM);
 	act ("You inform $N you have completed $s quest.",ch, NULL, questman, TO_CHAR);
 	if (ch->questgiver != questman)
 	{
@@ -413,7 +413,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
     		for (obj = ch->carrying; obj != NULL; obj= obj_next)
     		{
         	    obj_next = obj->next_content;
-        
+
 		    if (obj != NULL && obj->pIndexData->vnum == ch->questobj)
 		    {
 			obj_found = TRUE;
@@ -476,7 +476,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	act( "You inform $N that you are quitting for now.",ch,NULL,questman,TO_CHAR);
 /*        sprintf(test_buf,"%s is aborting a quest.",ch->name);
         log_string(test_buf);*/
-        
+
 	if( ch->questgiver != questman )
 	{
 	    sprintf(buf,"I never sent you on a quest!.");
@@ -485,7 +485,7 @@ To buy an item, type 'AQUEST BUY <item>'.\n\r");
 	}
 
         if (ch -> level >= 50)
-        {  
+        {
             sprintf(buf,"HERO's are not allowed to abort quests!.");
             do_say(questman,buf);
             return;
@@ -544,7 +544,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 		&& vsearch->level < ch->level
 		&& !IS_SET(vsearch->imm_flags, IMM_SUMMON)
 		&& vsearch->pShop == NULL
-		&& ch->level <= 56
+		&& ch->level <= 59
     		&& !IS_SET(vsearch->act,ACT_TRAIN)
     		&& !IS_SET(vsearch->act,ACT_PRACTICE)
     		&& !IS_SET(vsearch->act,ACT_IS_HEALER)
@@ -622,7 +622,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 
     /* Quest to kill a mob */
 
-    else 
+    else
     {
     switch(number_range(0,1))
     {
@@ -683,7 +683,7 @@ void quest_update(void)
 
 	if (IS_NPC(ch)) continue;
 
-	if (ch->nextquest > 0) 
+	if (ch->nextquest > 0)
 	{
 	    ch->nextquest--;
 

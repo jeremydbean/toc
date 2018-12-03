@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1542957962
+LogO 1543805499
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,25 +11,27 @@ Cla  4
 Gui  4
 Psionic  1
 Cast none
-Levl 59
-Plyd 51314
+Levl 56
+Plyd 53004
 ListRemorts 0  0  4  5  1  1  2  2 ~
 NumRemorts 3
 Note 0
 Scro 22
-Room 4208
-HMV  1455 1654 1357 1441 1531 1542
-NewGold 873
-NewPlat 344
-NewCopp 2949
-NewSilv 50
+Room 29208
+HMV  10054 10054 10000 10000 10000 10000
+NewGold 899
+NewPlat 354
+NewCopp 3011
+NewSilv 96
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  434650
+Exp  239650
 Act  131272
+AfBy 3678888
+AfBy2 4632
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -54,21 +56,22 @@ Color 13 3
 Color 14 11
 Color 15 6
 Color 16 6
-Pos  5
-Prac 82
-Trai 75
-Save  -7
+Pos  8
+Prac 57
+Trai 59
+Save  7492
 Alig  1000
-Hit   7
-ACs 80 80 80 80
+Hit   7526
+Dam   7546
+ACs 10060 10060 10060 10060
 Attr 13 13 13 13 13
-AMod 0 0 0 0 0
+AMod 1004 1000 1000 1004 1000
 Pass TeGUeG0bw/YpE~
-Titl  the Angel of Movement~
+Titl  the Lord of the Castle~
 Pnts 2540
 TSex 1
 LLev 3
-HMVP 1654 1441 1542
+HMVP 10000 10000 10000
 Cond 0 -1 -1
 Alias / who~
 Alias f flee~
@@ -85,7 +88,7 @@ Sk 6 'flail'
 Sk 80 'mace'
 Sk 3 'polearm'
 Sk 7 'spear'
-Sk 3 'sword'
+Sk 4 'sword'
 Sk 15 'whip'
 Sk 1 'dodge'
 Sk 1 'hand to hand'
@@ -97,9 +100,38 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'bless'   0  46  -7  24          0          0
-AffD 'bless'   0  46   7  18          0          0
-AffD 'armor'   0  37 -20  17          0          0
+AffD 'major globe'   0  45 -150  17          0          0
+AffD 'sanctuary'   0  45   0   0        128          0
+AffD 'haste'   0  45   4   2    2097152          0
+AffD 'bless'   0  51   8  18          0          0
+AffD 'bless'   0  51  -8  24          0          0
+AffD 'force sword'   0  45   0   0          0        512
+AffD 'divine protection'   0  45   0   0          0       4096
+AffD 'aid'   0  45   7  18          0          0
+AffD 'aid'   0  45  54  13          0          0
+AffD 'fly'   0  48   0   0     524288          0
+AffD 'frenzy'   0  45  11  18          0          0
+AffD 'frenzy'   0  45  11  19          0          0
+AffD 'frenzy'   0  45 110  17          0          0
+AffD 'giant strength'   0  45   4   1          0          0
+AffD 'infravision'   0 115   0   0        512          0
+AffD 'power gloves'   0  45  35  19          0          0
+AffD 'detect invis'   0  45   0   0          8          0
+AffD 'detect hidden'   0  45   0   0         32          0
+AffD 'frost shield'   0  45   0   0          0         16
+AffD 'fire shield'   0  45   0   0          0          8
+AffD 'protection evil'   0  45   0   0       8192          0
+AffD 'pass door'   0  45   0   0    1048576          0
+End
+
+#O
+Vnum 29303
+Nest 0
+Wear 16
+Lev  55
+Cost 1000000
+Cond 100
+Repd 0
 End
 
 #END

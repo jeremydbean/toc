@@ -15,4 +15,4 @@ rm ../area/merc
 cp merc ../area
 rm merc
 cd ..
-sudo ./startup &
+./startup &
