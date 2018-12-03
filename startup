@@ -49,8 +49,8 @@ while ( 1 )
 	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
 	touch $logfile
 	sudo chmod 777 $logfile
+	echo ToC Starting!
     ./merc $port | sudo tee -a $logfile
-    echo ToC Starting!
 	#echo sudo lnav $logfile
 	#./merc $port >&! $logfile
 	
