@@ -20,13 +20,13 @@ sudo apt install openssh-server
 #Get ToC files
 	#sudo git clone http://www.github.com/jeremydbean/ToC.git
 	#sudo git config credential.helper store
-
-git clone git@github.com:jeremydbean/toc.git
+	#git clone git@github.com:jeremydbean/toc.git
+	
 sudo chown toc toc
 sudo chmod -R 777 toc
 cd toc
 dos2unix startup
 dos2unix cleanup
-dos2unix install.sh
+dos2unix install
 sudo chmod a+x startup
 sudo chmod a+x cleanup
