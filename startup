@@ -11,7 +11,7 @@ ulimit -n 65535
 sudo sysctl -p
 
 # set default permissions for saves
-umask 6
+umask 000
 
 # Change to area directory.
 cd /mnt/e/ToC/area
@@ -22,6 +22,7 @@ if ( -e shutdown.txt ) rm -f shutdown.txt
 while ( 1 )
     # If you want to have logs in a different directory,
     #   change the 'set logfile' line to reflect the directory name.
+	sudo chmod 777 /mnt/e/ToC/log -R
     set index = 1000
     while ( 1 )
 	set logfile = /mnt/e/ToC/log/$index.log
@@ -50,7 +51,7 @@ while ( 1 )
 	touch $logfile
 	sudo chmod 777 $logfile
 	echo ToC Starting!
-    ./merc $port | sudo tee -a $logfile
+    ./merc $port | tee -a $logfile
 	#echo sudo lnav $logfile
 	#./merc $port >&! $logfile
 	

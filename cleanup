@@ -1,18 +1,29 @@
-#!/bin/csh
-# Written by Furey.
-# With additions from Tony.
+#!/bin/bash -x
+# By Killuminati
 
-pkill -e merc
-pkill -e immortal
-pkill -e startup
 cd /mnt/e/ToC/src
 rm *.o
 rm merc
-#make 2>&1 | tee ../compile_warnings.log
 make
 rm *.o
 rm ../area/merc
 cp merc ../area
 rm merc
 cd ..
-./startup &
+set +x
+echo "Done."
+echo ""
+sleep 3
+read -p "Kill existing processes and start ToC?"  RESPONSE
+if [ "$RESPONSE" = y ]; then
+	pkill -e merc
+	pkill -e immortal
+	pkill -e startup
+	./startup &
+elif ["$RESPONSE" = n ]; then
+	echo "Reboot in game for changes to take effect."
+else
+	echo "Make a valid selection! [y or n]"
+fi
+
+

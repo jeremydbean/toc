@@ -1,13 +1,15 @@
-#!/bin/csh -v
+#!/bin/bash 
 # Written by Killuminati.
 
-
-sudo apt update 
-sudo apt upgrade 
+umask 000
+echo Installing ToC required files...
+sleep 3
+sudo apt update
+sudo apt upgrade
 sudo apt-get update
-sudo apt install csh 
-sudo apt-get install build-essential 
-sudo apt-get install telnet 
+sudo apt install csh
+sudo apt-get install build-essential
+sudo apt-get install telnet
 sudo apt-get install git-all
 sudo apt upgrade
 sudo apt autoremove
@@ -18,15 +20,26 @@ sudo apt install openssh-server
 #sudo service ssh start
 
 #Get ToC files
-	#sudo git clone http://www.github.com/jeremydbean/ToC.git
-	#sudo git config credential.helper store
-	#git clone git@github.com:jeremydbean/toc.git
-	
-sudo chown toc toc
+echo ""
+echo "Done."
+echo ""
+sleep 3
+read -p "Get ToC Files from GitHub? [y/n?]"  RESPONSE
+if [ "$RESPONSE" = y ]; then
+	git clone git@github.com:jeremydbean/toc.git
+elif ["$RESPONSE" = n ]; then
+	echo "Skipping."
+else
+	echo "Make a valid selection! [y or n]"
+fi
+
+cd ..
+set -x
+sudo chown toc:toc toc -R
 sudo chmod -R 777 toc
 cd toc
 dos2unix startup
 dos2unix cleanup
-dos2unix install
 sudo chmod a+x startup
 sudo chmod a+x cleanup
+
