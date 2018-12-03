@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1542821912
+LogO 1543578948
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  0
 Psionic  1
 Cast none
 Levl 54
-Plyd 22195
+Plyd 22772
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4208
-HMV  371 371 200 270 418 418
+HMV  371 371 270 270 418 418
 NewGold 0
 NewPlat 0
 NewCopp 0
@@ -297,7 +297,7 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-AffD 'sanctuary'  -1  14   0   0        128          0
+AffD 'sanctuary'  -1   4   0   0        128          0
 End
 
 #END

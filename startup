@@ -14,7 +14,7 @@ sudo sysctl -p
 #umask 6
 
 # Change to area directory.
-cd ~/home/ToC/area
+cd /mnt/e/ToC/area
 
 # Set limits.
 if ( -e shutdown.txt ) rm -f shutdown.txt
@@ -24,7 +24,7 @@ while ( 1 )
     #   change the 'set logfile' line to reflect the directory name.
     set index = 1000
     while ( 1 )
-	set logfile = ~/home/ToC/log/$index.log
+	set logfile = /mnt/e/ToC/log/$index.log
 	if ( ! -e $logfile ) break
 	@ index++
     end
@@ -45,7 +45,7 @@ while ( 1 )
 
     # Run merc.
     rm -f shutdown.txt
-	cd ~/home/ToC/area
+	cd /mnt/e//ToC/area
 	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
     #./merc $port | sudo tee -a $logfile
     echo ToC Starting!

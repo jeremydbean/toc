@@ -1,35 +1,35 @@
 #PLAYER
 Name Drimdal~
 Id   11323
-LogO 1543369025
+LogO 1543728848
 Vers 3
 Prom ~
 Ignoring ~
 Race dwarf~
-Sex  1
+Sex  2
 Cla  4
 Gui  4
 Psionic  0
 Cast none
 Levl 51
-Plyd 10397
+Plyd 15154
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 4210
-HMV  509 1213 504 730 98 374
-NewGold 1711
-NewPlat 141
-NewCopp 10857
-NewSilv 3273
+Room 2427
+HMV  1012 1210 604 690 170 370
+NewGold 2981
+NewPlat 688
+NewCopp 5905
+NewSilv 1840
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  118197
-Act  65740
+Exp  121197
+Act  204
 AfBy 3678888
 AfBy2 4632
 Comm 24576
@@ -57,21 +57,21 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 7
-Save  -8
-Alig  1000
-Hit   53
-Dam   101
-ACs -110 -105 -108 27
+Prac 8
+Save  -12
+Alig  3
+Hit   52
+Dam   98
+ACs -72 -70 -69 37
 Attr 14 13 13 12 18
-AMod 10 1 -4 5 1
+AMod 14 1 -4 3 -2
 Pass Dr94HKICoxVpM~
 Titl  the Hero of the Fifth Order~
 Pnts 40
 TSex 1
 LLev 0
 HMVP 1166 666 400
-Cond 0 38 38
+Cond 0 100 100
 Alias ner nerve~
 Sk 8 'axe'
 Sk 20 'dagger'
@@ -79,47 +79,48 @@ Sk 6 'flail'
 Sk 80 'mace'
 Sk 3 'polearm'
 Sk 7 'spear'
-Sk 3 'sword'
+Sk 6 'sword'
 Sk 15 'whip'
 Sk 1 'bash'
-Sk 20 'dodge'
-Sk 50 'enhanced damage'
-Sk 98 'hand to hand'
+Sk 21 'dodge'
+Sk 88 'enhanced damage'
+Sk 100 'hand to hand'
 Sk 1 'kick'
-Sk 18 'parry'
+Sk 20 'parry'
 Sk 1 'trip'
-Sk 19 'second attack'
-Sk 22 'fists of fury'
+Sk 23 'second attack'
+Sk 41 'blinding fists'
+Sk 28 'fists of fury'
 Sk 25 'iron skin'
-Sk 35 'nerve damage'
-Sk 18 'steel fist'
-Sk 10 'meditation'
+Sk 47 'nerve damage'
+Sk 19 'steel fist'
+Sk 11 'meditation'
 Sk 80 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-AffD 'major globe'  46  36 -150  17          0          0
-AffD 'sanctuary'   0  36   0   0        128          0
-AffD 'haste'   0  36   4   2    2097152          0
-AffD 'bless'   0  42   8  18          0          0
-AffD 'bless'  37  42  -8  24          0          0
-AffD 'force sword'  23  36   0   0          0        512
-AffD 'divine protection'   0  36   0   0          0       4096
-AffD 'aid'   0  36   7  18          0          0
-AffD 'aid'   0  36  37  13          0          0
-AffD 'fly'  43  39   0   0     524288          0
-AffD 'frenzy'   0  36  11  18          0          0
-AffD 'frenzy'   0  36  11  19          0          0
-AffD 'frenzy'   0  36 110  17          0          0
-AffD 'giant strength'  33  36   4   1          0          0
-AffD 'power gloves'   0  36  35  19          0          0
-AffD 'detect invis'  24  36   0   0          8          0
-AffD 'detect hidden'   0  36   0   0         32          0
-AffD 'frost shield'   0  36   0   0          0         16
-AffD 'fire shield'   0  36   0   0          0          8
-AffD 'protection evil'   0  36   0   0       8192          0
-AffD 'pass door'  36  36   0   0    1048576          0
-AffD 'steel fist'  45   3  15  19          0          0
+AffD 'pass door'  41  68   0   0    1048576          0
+AffD 'protection evil'   0  68   0   0       8192          0
+AffD 'fire shield'  25  68   0   0          0          8
+AffD 'frost shield'  23  68   0   0          0         16
+AffD 'detect hidden'  51  68   0   0         32          0
+AffD 'steel fist'   0   5  16  19          0          0
+AffD 'detect invis'   0  68   0   0          8          0
+AffD 'power gloves'  23  68  35  19          0          0
+AffD 'giant strength'   0  68   4   1          0          0
+AffD 'frenzy'   2  68 110  17          0          0
+AffD 'frenzy'   0  68  11  19          0          0
+AffD 'frenzy'  12  68  11  18          0          0
+AffD 'fly'  43  71   0   0     524288          0
+AffD 'aid'   0  68  34  13          0          0
+AffD 'aid'   0  68   7  18          0          0
+AffD 'divine protection'   5  68   0   0          0       4096
+AffD 'force sword'   0  68   0   0          0        512
+AffD 'bless'   0  74  -8  24          0          0
+AffD 'bless'   0  74   8  18          0          0
+AffD 'haste'  39  68   4   2    2097152          0
+AffD 'sanctuary'  40  68   0   0        128          0
+AffD 'major globe'  -1  68 -150  17          0          0
 End
 
 #O
@@ -128,53 +129,9 @@ Nest 0
 Wear 11
 Lev  4
 Cost 10
-Cond 89
+Cond 71
 Repd 0
 Val  4 3 3 0 0
-End
-
-#O
-Vnum 1388
-Nest 0
-Wear -1
-Lev  18
-Cost 8500
-Cond 100
-Repd 0
-Val  5 6 7 0 0
-End
-
-#O
-Vnum 9321
-Nest 0
-Wear 0
-Lev  25
-Cost 1750
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-Affect -1 25 -1 4 20 0 0
-End
-
-#O
-Vnum 1388
-Nest 0
-Wear -1
-Lev  17
-Cost 8500
-Cond 100
-Repd 0
-Val  6 6 5 0 0
-End
-
-#O
-Vnum 4619
-Nest 0
-Wear 6
-Lev  25
-Cost 25000
-Cond 100
-Repd 0
 End
 
 #O
@@ -208,8 +165,8 @@ Cost 0
 Cond 100
 Repd 0
 Val  1 4 5 3 0
-Affect -1 15 -1 3 21 0 0
 Affect -1 15 -1 -8 13 0 0
+Affect -1 15 -1 3 21 0 0
 End
 
 #O
@@ -221,16 +178,6 @@ Cost 5000
 Cond 100
 Repd 0
 Val  8 7 7 0 0
-End
-
-#O
-Vnum 17713
-Nest 1
-Wear -1
-Lev  18
-Cost 500
-Cond 100
-Repd 0
 End
 
 #O
@@ -310,35 +257,58 @@ Repd 0
 End
 
 #O
-Vnum 10059
-Nest 0
-Wear 4
-Lev  33
-Cost 4000
-Cond 83
+Vnum 4619
+Nest 1
+Wear -1
+Lev  25
+Cost 25000
+Cond 100
 Repd 0
-Affect -1 33 -1 2 24 0 0
+End
+
+#O
+Vnum 700
+Nest 1
+ExtF 3146818
+Wear -1
+Lev  48
+Cost 2500
+Cond 100
+Repd 0
+Affect -1 48 -1 -1 4 0 0
+End
+
+#O
+Vnum 1388
+Nest 1
+Wear -1
+Lev  17
+Cost 8500
+Cond 100
+Repd 0
+Val  6 6 5 0 0
+End
+
+#O
+Vnum 1388
+Nest 1
+Wear -1
+Lev  18
+Cost 8500
+Cond 100
+Repd 0
+Val  5 6 7 0 0
 End
 
 #O
 Vnum 10059
-Nest 0
-Wear 3
+Nest 1
+Wear -1
 Lev  33
 Cost 4000
 Cond 100
 Repd 0
 Affect -1 33 -1 -1 14 0 0
-End
-
-#O
-Vnum 10048
-Nest 0
-Wear 5
-Lev  32
-Cost 2200
-Cond 100
-Repd 0
 End
 
 #O
@@ -397,28 +367,6 @@ Affect -1 46 -1 1 4 0 0
 End
 
 #O
-Vnum 16022
-Nest 0
-Wear -1
-Lev  41
-Cost 1891
-Cond 100
-Repd 0
-Affect -1 41 -1 -2 23 0 0
-End
-
-#O
-Vnum 16022
-Nest 0
-Wear -1
-Lev  41
-Cost 1891
-Cond 100
-Repd 0
-Affect -1 41 -1 -1 13 0 0
-End
-
-#O
 Vnum 725
 Nest 0
 Wear 9
@@ -429,33 +377,9 @@ Repd 0
 End
 
 #O
-Vnum 16022
-Nest 0
-Wear -1
-Lev  41
-Cost 1891
-Cond 100
-Repd 0
-Affect -1 41 -1 3 21 0 0
-Affect -1 41 -1 5 17 0 0
-Affect -1 41 -1 1 1 0 0
-End
-
-#O
-Vnum 700
-Nest 0
-Wear -1
-Lev  48
-Cost 2500
-Cond 100
-Repd 0
-Affect -1 48 -1 -1 4 0 0
-End
-
-#O
 Vnum 724
 Nest 0
-Wear -1
+Wear 8
 Lev  30
 Cost 500
 Cond 100
@@ -470,6 +394,94 @@ Lev  50
 Cost 2000
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 17713
+Nest 0
+Wear 17
+Lev  18
+Cost 500
+Cond 93
+Repd 0
+End
+
+#O
+Vnum 29049
+Nest 0
+Wear 0
+Lev  45
+Cost 1500
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+Affect -1 45 -1 -15 14 0 0
+End
+
+#O
+Vnum 29215
+Nest 0
+Wear 6
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 -3 5 0 0
+End
+
+#O
+Vnum 10059
+Nest 0
+Wear -1
+Lev  33
+Cost 4000
+Cond 83
+Repd 0
+Affect -1 33 -1 2 24 0 0
+End
+
+#O
+Vnum 10051
+Nest 0
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+Affect -1 50 -1 1 20 0 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear -1
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear -1
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+Affect -1 32 -1 -4 2 0 0
+Affect -1 32 -1 -1 1 0 0
+End
+
+#O
+Vnum 10061
+Nest 0
+Wear -1
+Lev  43
+Cost 2700
+Cond 90
+Repd 0
+Affect -1 43 -1 1 20 0 0
 End
 
 #END

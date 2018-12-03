@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1543469164
+LogO 1543737218
 Vers 3
 Desc .
 
@@ -63,13 +63,13 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1786993
+Plyd 1787714
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
-Room 4210
-HMV  1597 1605 107 525 199 396
+Room 4208
+HMV  1589 1589 525 525 396 396
 NewGold 13
 NewPlat 4657
 NewCopp 202
@@ -214,22 +214,22 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'major globe'   0  29 -150  17          0          0
-AffD 'sanctuary'  24  29   0   0        128          0
-AffD 'bless'   4  35   8  18          0          0
-AffD 'bless'  22  35  -8  24          0          0
-AffD 'force sword'  21  29   0   0          0        512
-AffD 'divine protection'  41  29   0   0          0       4096
-AffD 'aid'   0  29   7  18          0          0
-AffD 'aid'  37  29  41  13          0          0
-AffD 'frenzy'  21  29  11  18          0          0
-AffD 'frenzy'  27  29  11  19          0          0
-AffD 'frenzy'  -1  29 110  17          0          0
-AffD 'giant strength'  26  29   4   1          0          0
-AffD 'power gloves'  10  29  35  19          0          0
-AffD 'detect hidden'   0  29   0   0         32          0
-AffD 'frost shield'  46  29   0   0          0         16
-AffD 'fire shield'  35  29   0   0          0          8
+AffD 'fire shield'  18  68   0   0          0          8
+AffD 'frost shield'   1  68   0   0          0         16
+AffD 'detect hidden'  20  68   0   0         32          0
+AffD 'power gloves'   7  68  35  19          0          0
+AffD 'giant strength'  20  68   4   1          0          0
+AffD 'frenzy'  21  68 110  17          0          0
+AffD 'frenzy'  -1  68  11  19          0          0
+AffD 'frenzy'  45  68  11  18          0          0
+AffD 'aid'  39  68  25  13          0          0
+AffD 'aid'   0  68   7  18          0          0
+AffD 'divine protection'  33  68   0   0          0       4096
+AffD 'force sword'  33  68   0   0          0        512
+AffD 'bless'   0  74  -8  24          0          0
+AffD 'bless'  26  74   8  18          0          0
+AffD 'sanctuary'   0  68   0   0        128          0
+AffD 'major globe'  22  68 -150  17          0          0
 End
 
 #O
@@ -437,17 +437,6 @@ Repd 0
 End
 
 #O
-Vnum 5614
-Nest 1
-Wear -1
-Lev  52
-Cost 6000
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-End
-
-#O
 Vnum 16032
 Nest 1
 Wear -1
@@ -455,18 +444,6 @@ Lev  52
 Cost 0
 Cond 100
 Repd 0
-End
-
-#O
-Vnum 29228
-Nest 1
-Wear -1
-Lev  53
-Cost 5000
-Cond 92
-Repd 0
-Spell 3 'blindness'
-Affect -1 53 -1 -4 3 0 0
 End
 
 #O
@@ -525,16 +502,6 @@ Repd 0
 End
 
 #O
-Vnum 9937
-Nest 1
-Wear -1
-Lev  1
-Cost 1
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 90
 Nest 1
 Name blank scroll~
@@ -559,6 +526,16 @@ Affect -1 48 -1 -4 5 0 0
 End
 
 #O
+Vnum 9937
+Nest 1
+Wear -1
+Lev  1
+Cost 1
+Cond 100
+Repd 0
+End
+
+#O
 Vnum 17020
 Nest 1
 Name finger~
@@ -572,6 +549,29 @@ Lev  53
 Cost 2000
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 5614
+Nest 1
+Wear -1
+Lev  52
+Cost 6000
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 29228
+Nest 1
+Wear -1
+Lev  53
+Cost 5000
+Cond 92
+Repd 0
+Spell 3 'blindness'
+Affect -1 53 -1 -4 3 0 0
 End
 
 #O
