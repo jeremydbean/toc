@@ -390,9 +390,8 @@ void gain_exp( CHAR_DATA *ch, int gain )
 {
     int chance;
 
-
     if ( IS_NPC(ch) || ch->level > LEVEL_HERO4 || ch->level == 50)
-	return;
+	     return;
 
     if (ch -> level == LEVEL_HERO3 + ch->pcdata->num_remorts)
         return;
