@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1543797197
+LogO 1543884234
 Vers 3
 Desc .~
 Prom ~
@@ -13,24 +13,24 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 56
-Plyd 348713
+Plyd 349950
 ListRemorts 3  3  4  5 ~
 NumRemorts 3
 Note 947990183
 Scro 22
-Room 29208
-HMV  1433 2029 768 1126 341 955
-NewGold 41
-NewPlat 15
-NewCopp 97
-NewSilv 70
+Room 29207
+HMV  1108 2029 1058 1126 955 955
+NewGold 132
+NewPlat 50
+NewCopp 314
+NewSilv 231
 Bank 25547
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  247537
+Exp  249442
 Act  262348
 AfBy 3678888
 AfBy2 4632
@@ -76,7 +76,7 @@ Pnts 2540
 TSex 1
 LLev 3
 HMVP 1951 1111 1077
-Cond 0 -1 -1
+Cond 0 100 100
 Alias \ who~
 Alias k kick~
 Alias ` bash~
@@ -115,7 +115,7 @@ Sk 92 'dodge'
 Sk 86 'dual wield'
 Sk 75 'fatality'
 Sk 100 'parry'
-Sk 92 'second attack'
+Sk 93 'second attack'
 Sk 1 'hide'
 Sk 77 'pick lock'
 Sk 75 'sneak'
@@ -128,28 +128,28 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
-AffD 'pass door'   0  28   0   0    1048576          0
-AffD 'protection evil'   0  28   0   0       8192          0
-AffD 'fire shield'   0  28   0   0          0          8
-AffD 'frost shield'  -1  28   0   0          0         16
-AffD 'detect hidden'   0  28   0   0         32          0
-AffD 'detect invis'   0  28   0   0          8          0
-AffD 'power gloves'   0  28  35  19          0          0
-AffD 'infravision'   0  98   0   0        512          0
-AffD 'giant strength'   0  28   4   1          0          0
-AffD 'frenzy'   0  28 110  17          0          0
-AffD 'frenzy'   0  28  11  19          0          0
-AffD 'frenzy'   1  28  11  18          0          0
-AffD 'fly'  -2  31   0   0     524288          0
-AffD 'aid'   0  28  47  13          0          0
-AffD 'aid'  40  28   7  18          0          0
-AffD 'divine protection'  41  28   0   0          0       4096
-AffD 'force sword'  40  28   0   0          0        512
-AffD 'bless'  42  34  -8  24          0          0
-AffD 'bless'   0  34   8  18          0          0
-AffD 'haste'   0  28   4   2    2097152          0
-AffD 'sanctuary'   0  28   0   0        128          0
-AffD 'major globe'   0  28 -150  17          0          0
+AffD 'major globe'   0   9 -150  17          0          0
+AffD 'sanctuary'   0   9   0   0        128          0
+AffD 'haste'   0   9   4   2    2097152          0
+AffD 'bless'   0  15   8  18          0          0
+AffD 'bless'  39  15  -8  24          0          0
+AffD 'force sword'  37   9   0   0          0        512
+AffD 'divine protection'  37   9   0   0          0       4096
+AffD 'aid'  33   9   7  18          0          0
+AffD 'aid'   0   9  47  13          0          0
+AffD 'fly'  -2  12   0   0     524288          0
+AffD 'frenzy'   0   9  11  18          0          0
+AffD 'frenzy'   0   9  11  19          0          0
+AffD 'frenzy'   0   9 110  17          0          0
+AffD 'giant strength'   0   9   4   1          0          0
+AffD 'infravision'   0  79   0   0        512          0
+AffD 'power gloves'   0   9  35  19          0          0
+AffD 'detect invis'   0   9   0   0          8          0
+AffD 'detect hidden'   0   9   0   0         32          0
+AffD 'frost shield'  -1   9   0   0          0         16
+AffD 'fire shield'   0   9   0   0          0          8
+AffD 'protection evil'   0   9   0   0       8192          0
+AffD 'pass door'   0   9   0   0    1048576          0
 End
 
 #O
@@ -345,8 +345,8 @@ Lev  50
 Cost 3000
 Cond 98
 Repd 0
-Affect -1 50 -1 1 24 0 0
 Affect -1 50 -1 29 14 0 0
+Affect -1 50 -1 1 24 0 0
 End
 
 #O
@@ -498,9 +498,9 @@ Lev  53
 Cost 1500
 Cond 100
 Repd 0
-Affect -1 53 -1 -4 18 0 0
-Affect -1 53 -1 2 23 0 0
 Affect -1 53 -1 3 23 0 0
+Affect -1 53 -1 2 23 0 0
+Affect -1 53 -1 -4 18 0 0
 End
 
 #O

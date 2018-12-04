@@ -1,0 +1,1758 @@
+Fri Nov 23 20:53:54 2018 :: LOADING COMM TABLE
+Fri Nov 23 20:53:54 2018 ::  INIT OK 
+Fri Nov 23 20:53:54 2018 :: Ended LOADING COMM TABLE
+Fri Nov 23 20:53:54 2018 :: Ended Fixing Exits
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Fri Nov 23 20:53:54 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Fri Nov 23 20:53:54 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Fri Nov 23 20:53:54 2018 :: Ended Area Update
+Fri Nov 23 20:53:54 2018 :: Ended Loading Notes
+Fri Nov 23 20:53:54 2018 :: Ended Loading Ban
+Fri Nov 23 20:53:54 2018 :: Ended Loading Pkills
+Fri Nov 23 20:53:54 2018 :: TOC is ready to rock on port 9000.
+Fri Nov 23 20:53:54 2018 :: Setting up signals.
+Fri Nov 23 20:53:55 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Fri Nov 23 20:53:55 2018 :: Sock.sinaddr:  192.168.1.1
+Fri Nov 23 20:53:56 2018 :: Loading Misery's playerfile
+Fri Nov 23 20:53:56 2018 :: Misery@192.168.1.1 has connected. [Room: 29498]
+Fri Nov 23 20:54:04 2018 :: Sock.sinaddr:  192.168.1.1
+Fri Nov 23 20:54:05 2018 :: Loading Killuminati's playerfile
+Fri Nov 23 20:54:05 2018 :: Killuminati@192.168.1.1 has connected. [Room: 4208]
+Fri Nov 23 20:54:56 2018 :: Log Killuminati: ig spellup mis
+Fri Nov 23 20:54:59 2018 :: Sock.sinaddr:  173.22.228.146
+Fri Nov 23 20:55:01 2018 :: Loading Kyrus's playerfile
+Fri Nov 23 20:55:02 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 2401]
+Fri Nov 23 20:55:08 2018 :: Log Killuminati: ig
+Fri Nov 23 20:55:41 2018 :: Log Killuminati: restore self
+Fri Nov 23 20:55:41 2018 :: Log Killuminati: restore mi 
+Fri Nov 23 20:55:47 2018 :: Log Killuminati: restore self
+Fri Nov 23 20:55:55 2018 :: Log Killuminati: fsave
+Fri Nov 23 20:56:01 2018 :: Log Killuminati: trans misery bor
+Fri Nov 23 20:56:13 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 20:56:27 2018 :: Log Killuminati: trans mis bor
+Fri Nov 23 20:56:37 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 20:56:40 2018 :: Misery has been spared by the god’s divine protection from certain death at the hands of borg!
+Fri Nov 23 20:57:22 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 20:57:53 2018 :: Misery has quit. [Room: 29498]
+Fri Nov 23 20:57:53 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Nov 23 20:57:53 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 20:57:53 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Nov 23 20:57:53 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Nov 23 20:57:53 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Nov 23 20:57:53 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 20:57:53 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Nov 23 20:57:53 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Nov 23 20:57:56 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 20:58:22 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 20:58:47 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 20:58:48 2018 :: Log Killuminati: snoop ky
+Fri Nov 23 20:59:23 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:02:37 2018 :: Kyrus has been spared by the god’s divine protection from certain death at the hands of angry pirate!
+Fri Nov 23 21:03:41 2018 :: Log Kyrus: o all kill pi
+Fri Nov 23 21:04:13 2018 :: Log Killuminati: restore self
+Fri Nov 23 21:04:13 2018 :: Log Killuminati: restore ky 
+Fri Nov 23 21:04:20 2018 :: Log Killuminati: restore self
+Fri Nov 23 21:04:46 2018 :: Log Kyrus: o all kill bu
+Fri Nov 23 21:05:20 2018 :: Log Kyrus: drop cop
+Fri Nov 23 21:06:17 2018 :: Kyrus has been spared by the god’s divine protection from certain death at the hands of Captain Amos Trask!
+Fri Nov 23 21:07:45 2018 :: Log Kyrus: o all rescue kyrus
+Fri Nov 23 21:08:06 2018 :: Log Killuminati: restore self
+Fri Nov 23 21:08:06 2018 :: Log Killuminati: restore ky 
+Fri Nov 23 21:08:12 2018 :: Log Killuminati: restore self
+Fri Nov 23 21:08:13 2018 :: Log Killuminati: snoop self
+Fri Nov 23 21:10:24 2018 :: Log Kyrus: o all kill bu
+Fri Nov 23 21:10:59 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:11:34 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:12:07 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:13:53 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:14:03 2018 :: Log Kyrus: o all rescue kyrus
+Fri Nov 23 21:14:12 2018 :: Log Kyrus: o all kill dr
+Fri Nov 23 21:14:50 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:15:30 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:16:16 2018 :: Log Kyrus: o all kill buc
+Fri Nov 23 21:17:08 2018 :: Log Kyrus: drop cop
+Fri Nov 23 21:17:31 2018 :: Log Kyrus: depos 179
+Fri Nov 23 21:18:41 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:19:29 2018 :: Log Kyrus: o all kill bu
+Fri Nov 23 21:20:06 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:20:28 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:20:48 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:21:04 2018 :: Log Kyrus: o all kill pi
+Fri Nov 23 21:21:30 2018 :: Log Killuminati: snoop ky
+Fri Nov 23 21:21:36 2018 :: Log Killuminati: snoop ky
+Fri Nov 23 21:24:17 2018 :: Log Killuminati: snoop self
+Fri Nov 23 21:26:04 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:26:36 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:27:19 2018 :: Log Kyrus: o all kill sw
+Fri Nov 23 21:30:28 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:31:19 2018 :: Sock.sinaddr:  97.88.72.5
+Fri Nov 23 21:31:22 2018 :: Loading Egrimm's playerfile
+Fri Nov 23 21:31:23 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Fri Nov 23 21:31:26 2018 :: Log Egrimm: who
+Fri Nov 23 21:31:33 2018 :: Log Egrimm: goss god damn 48
+Fri Nov 23 21:31:35 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:38 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:41 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:45 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:47 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:31:50 2018 :: Log Egrimm: goss is the piurate ship straight east out of town?
+Fri Nov 23 21:31:52 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:55 2018 :: Log Egrimm: mc
+Fri Nov 23 21:31:58 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:01 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:05 2018 :: Log Egrimm: goto slayer
+Fri Nov 23 21:32:08 2018 :: Log Egrimm: di
+Fri Nov 23 21:32:17 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:20 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:23 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:30 2018 :: Log Egrimm: goto lance
+Fri Nov 23 21:32:33 2018 :: Log Egrimm: goto lancelot
+Fri Nov 23 21:32:42 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:44 2018 :: Log Kyrus: drop quick
+Fri Nov 23 21:32:45 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:49 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:52 2018 :: Log Egrimm: goto persante
+Fri Nov 23 21:32:55 2018 :: Log Egrimm: mc
+Fri Nov 23 21:32:58 2018 :: Log Egrimm: mc
+Fri Nov 23 21:33:02 2018 :: Log Egrimm: goto 3.slayer
+Fri Nov 23 21:33:06 2018 :: Log Egrimm: goto 4.slayer
+Fri Nov 23 21:33:10 2018 :: Log Egrimm: goto 5.slayer
+Fri Nov 23 21:33:13 2018 :: Log Egrimm: goto 6.slayer
+Fri Nov 23 21:33:19 2018 :: Log Egrimm: dm slayer
+Fri Nov 23 21:33:22 2018 :: Log Egrimm: c fae
+Fri Nov 23 21:33:25 2018 :: Log Egrimm: get bash cor
+Fri Nov 23 21:33:27 2018 :: Log Egrimm: who
+Fri Nov 23 21:33:32 2018 :: Log Egrimm: where lance
+Fri Nov 23 21:33:34 2018 :: Log Egrimm: where
+Fri Nov 23 21:33:36 2018 :: Log Egrimm: area
+Fri Nov 23 21:33:38 2018 :: Log Egrimm: mc
+Fri Nov 23 21:33:41 2018 :: Log Egrimm: look
+Fri Nov 23 21:33:42 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:43 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:45 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:46 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:46 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:33:47 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:48 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:49 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:50 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:51 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:52 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:53 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:53 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:54 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:55 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:56 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:57 2018 :: Log Egrimm: sca
+Fri Nov 23 21:33:58 2018 :: Log Egrimm: 
+Fri Nov 23 21:33:58 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:33:59 2018 :: Log Egrimm: sca
+Fri Nov 23 21:34:00 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:01 2018 :: Log Egrimm: sca
+Fri Nov 23 21:34:02 2018 :: Log Egrimm: scan
+Fri Nov 23 21:34:03 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:04 2018 :: Log Egrimm: scan
+Fri Nov 23 21:34:04 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:05 2018 :: Log Egrimm: scan
+Fri Nov 23 21:34:05 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:07 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:07 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:08 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:09 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:09 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:10 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:12 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:14 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:15 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:15 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:16 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:17 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:34:17 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:17 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:19 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:21 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:21 2018 :: Log Egrimm: scan
+Fri Nov 23 21:34:22 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:23 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:25 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:27 2018 :: Log Egrimm: ex
+Fri Nov 23 21:34:30 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:31 2018 :: Log Egrimm: ex
+Fri Nov 23 21:34:32 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:34:34 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:35 2018 :: Log Egrimm: sca
+Fri Nov 23 21:34:36 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:37 2018 :: Log Egrimm: 
+Fri Nov 23 21:34:37 2018 :: Log Egrimm: sca
+Fri Nov 23 21:34:40 2018 :: Log Egrimm: mc
+Fri Nov 23 21:34:43 2018 :: Log Egrimm: mc
+Fri Nov 23 21:34:46 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:34:47 2018 :: Log Egrimm: mc
+Fri Nov 23 21:34:58 2018 :: Log Egrimm: goss what is a gateable mob in camelot?
+Fri Nov 23 21:35:01 2018 :: Log Egrimm: mc
+Fri Nov 23 21:35:01 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:35:04 2018 :: Log Egrimm: mc
+Fri Nov 23 21:35:07 2018 :: Log Egrimm: goto kyrus
+Fri Nov 23 21:35:11 2018 :: Log Egrimm: l ky
+Fri Nov 23 21:35:14 2018 :: Log Egrimm: mc
+Fri Nov 23 21:35:18 2018 :: Log Egrimm: mc
+Fri Nov 23 21:35:21 2018 :: Log Egrimm: mc
+Fri Nov 23 21:35:38 2018 :: Kyrus has been spared by the god’s divine protection from certain death at the hands of Egrimm!
+Fri Nov 23 21:35:57 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:35:59 2018 :: Log Egrimm: goss whoops
+Fri Nov 23 21:36:01 2018 :: Log Egrimm: goto jester
+Fri Nov 23 21:36:06 2018 :: Log Egrimm: goto 2.jester
+Fri Nov 23 21:36:10 2018 :: Log Egrimm: /
+Fri Nov 23 21:36:10 2018 :: Log Egrimm: /
+Fri Nov 23 21:36:13 2018 :: Log Egrimm: scan
+Fri Nov 23 21:36:14 2018 :: Log Egrimm: look
+Fri Nov 23 21:36:15 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:16 2018 :: Log Egrimm: scan
+Fri Nov 23 21:36:25 2018 :: Log Egrimm: scan
+Fri Nov 23 21:36:26 2018 :: Log Egrimm: look
+Fri Nov 23 21:36:33 2018 :: Log Egrimm: scan
+Fri Nov 23 21:36:34 2018 :: Log Egrimm: look
+Fri Nov 23 21:36:35 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:36 2018 :: Log Egrimm: scan
+Fri Nov 23 21:36:37 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:38 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:38 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:39 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:40 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:42 2018 :: Log Egrimm: climb
+Fri Nov 23 21:36:50 2018 :: Log Egrimm: l gua
+Fri Nov 23 21:36:55 2018 :: Log Egrimm: con gua
+Fri Nov 23 21:36:57 2018 :: Log Egrimm: look
+Fri Nov 23 21:36:58 2018 :: Log Egrimm: 
+Fri Nov 23 21:36:59 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:01 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:02 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:05 2018 :: Log Egrimm: l gu
+Fri Nov 23 21:37:08 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:09 2018 :: Log Egrimm: mc
+Fri Nov 23 21:37:10 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:13 2018 :: Log Egrimm: mc
+Fri Nov 23 21:37:14 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:16 2018 :: Log Egrimm: mc
+Fri Nov 23 21:37:17 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:20 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:20 2018 :: Log Egrimm: goss stupid battle ticks
+Fri Nov 23 21:37:21 2018 :: Log Egrimm: look
+Fri Nov 23 21:37:23 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:24 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:25 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:26 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:26 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:27 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:27 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:30 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:30 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:31 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:32 2018 :: Log Egrimm: scan
+Fri Nov 23 21:37:35 2018 :: Log Egrimm: l gu
+Fri Nov 23 21:37:35 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:39 2018 :: Log Egrimm: con gu
+Fri Nov 23 21:37:46 2018 :: Log Kyrus: drop all.gold
+Fri Nov 23 21:37:46 2018 :: Log Egrimm: open north
+Fri Nov 23 21:37:47 2018 :: Log Egrimm: sca
+Fri Nov 23 21:37:48 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:49 2018 :: Log Egrimm: sca
+Fri Nov 23 21:37:51 2018 :: Log Egrimm: 
+Fri Nov 23 21:37:55 2018 :: Log Egrimm: open southwest
+Fri Nov 23 21:37:56 2018 :: Log Egrimm: sca
+Fri Nov 23 21:37:58 2018 :: Log Egrimm: 
+Fri Nov 23 21:38:02 2018 :: Log Egrimm: l thorin
+Fri Nov 23 21:38:06 2018 :: Log Egrimm: con thorin
+Fri Nov 23 21:38:16 2018 :: Log Kyrus: o all recall
+Fri Nov 23 21:38:17 2018 :: Log Egrimm: quit
+Fri Nov 23 21:38:17 2018 :: Egrimm has quit. [Room: 25047]
+Fri Nov 23 21:38:17 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Fri Nov 23 21:38:17 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Fri Nov 23 21:38:17 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Fri Nov 23 21:38:17 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Fri Nov 23 21:40:03 2018 :: Log Killuminati: restore Kyrus
+Fri Nov 23 21:41:51 2018 :: Kyrus has quit. [Room: 16003]
+Fri Nov 23 21:41:51 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Nov 23 21:41:51 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 21:41:51 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Nov 23 21:41:51 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Nov 23 21:41:51 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Nov 23 21:41:51 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 21:41:51 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Nov 23 21:41:51 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Nov 23 21:51:59 2018 :: Sock.sinaddr:  97.88.72.5
+Fri Nov 23 21:52:02 2018 :: Loading Egrimm's playerfile
+Fri Nov 23 21:52:03 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 25047]
+Fri Nov 23 21:52:06 2018 :: Log Egrimm: sa
+Fri Nov 23 21:52:09 2018 :: Log Egrimm: /
+Fri Nov 23 21:52:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:12 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:13 2018 :: Log Egrimm: who
+Fri Nov 23 21:52:19 2018 :: Log Egrimm: mc
+Fri Nov 23 21:52:22 2018 :: Log Egrimm: mc
+Fri Nov 23 21:52:55 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:55 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:56 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:56 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:57 2018 :: Log Egrimm: 
+Fri Nov 23 21:52:57 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:00 2018 :: Log Egrimm: r w 7
+Fri Nov 23 21:53:00 2018 :: Log Egrimm: open west
+Fri Nov 23 21:53:01 2018 :: Log Egrimm: r w 10
+Fri Nov 23 21:53:01 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:02 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:02 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:03 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:03 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:04 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:04 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:05 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:05 2018 :: Log Egrimm: r s 7
+Fri Nov 23 21:53:06 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:06 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:07 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:07 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:08 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:08 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:09 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:09 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:10 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:10 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:11 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:12 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:12 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:13 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:13 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:14 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:14 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:17 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:18 2018 :: Log Egrimm: sca
+Fri Nov 23 21:53:21 2018 :: Log Egrimm: l kn
+Fri Nov 23 21:53:22 2018 :: Log Egrimm: look
+Fri Nov 23 21:53:24 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:25 2018 :: Log Egrimm: scan
+Fri Nov 23 21:53:27 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:28 2018 :: Log Egrimm: scan
+Fri Nov 23 21:53:30 2018 :: Log Egrimm: 
+Fri Nov 23 21:53:32 2018 :: Log Egrimm: l ger
+Fri Nov 23 21:53:36 2018 :: Log Egrimm: l gar
+Fri Nov 23 21:53:40 2018 :: Log Egrimm: quit
+Fri Nov 23 21:53:40 2018 :: Egrimm has quit. [Room: 751]
+Fri Nov 23 21:53:40 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Fri Nov 23 21:53:40 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Fri Nov 23 21:53:40 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Fri Nov 23 21:53:40 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Fri Nov 23 21:55:59 2018 :: Sock.sinaddr:  97.88.72.5
+Fri Nov 23 21:56:03 2018 :: Loading Egrimm's playerfile
+Fri Nov 23 21:56:05 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 751]
+Fri Nov 23 21:56:10 2018 :: Log Egrimm: c slo gar
+Fri Nov 23 21:56:14 2018 :: Log Egrimm: c fae
+Fri Nov 23 21:56:17 2018 :: Log Egrimm: ray
+Fri Nov 23 21:56:23 2018 :: Log Egrimm: get shield cor
+Fri Nov 23 21:56:25 2018 :: Log Egrimm: look
+Fri Nov 23 21:56:26 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:28 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:28 2018 :: Log Egrimm: scan
+Fri Nov 23 21:56:29 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:30 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:31 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:34 2018 :: Log Egrimm: l ren
+Fri Nov 23 21:56:36 2018 :: Log Egrimm: l knight
+Fri Nov 23 21:56:38 2018 :: Log Egrimm: look
+Fri Nov 23 21:56:39 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:41 2018 :: Log Egrimm: scan
+Fri Nov 23 21:56:42 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:42 2018 :: Log Egrimm: scan
+Fri Nov 23 21:56:43 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:43 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:45 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:45 2018 :: Log Egrimm: scan
+Fri Nov 23 21:56:47 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:49 2018 :: Log Egrimm: l gaw
+Fri Nov 23 21:56:53 2018 :: Log Egrimm: 
+Fri Nov 23 21:56:54 2018 :: Log Egrimm: scan
+Fri Nov 23 21:56:57 2018 :: Log Egrimm: 
+Fri Nov 23 21:57:01 2018 :: Log Egrimm: l lan
+Fri Nov 23 21:57:09 2018 :: Log Egrimm: dm lan
+Fri Nov 23 21:57:12 2018 :: Log Egrimm: dm
+Fri Nov 23 21:57:15 2018 :: Log Egrimm: dm
+Fri Nov 23 21:57:19 2018 :: Log Egrimm: dm
+Fri Nov 23 21:57:22 2018 :: Log Egrimm: c fae
+Fri Nov 23 21:57:25 2018 :: Log Egrimm: where per
+Fri Nov 23 21:57:37 2018 :: Log Egrimm: c slo lan
+Fri Nov 23 21:57:41 2018 :: Log Egrimm: dm
+Fri Nov 23 21:57:44 2018 :: Log Egrimm: ray
+Fri Nov 23 21:57:47 2018 :: Log Egrimm: ice
+Fri Nov 23 21:57:51 2018 :: Log Egrimm: ice
+Fri Nov 23 21:57:56 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:02 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:05 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:09 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:12 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:15 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:18 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:22 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:25 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:29 2018 :: Log Egrimm: ice
+Fri Nov 23 21:58:33 2018 :: Log Egrimm: l i cor
+Fri Nov 23 21:58:36 2018 :: Log Egrimm: get all cor
+Fri Nov 23 21:58:37 2018 :: Log Egrimm: look
+Fri Nov 23 21:58:38 2018 :: Log Egrimm: scan
+Fri Nov 23 21:58:47 2018 :: Log Egrimm: 
+Fri Nov 23 21:58:48 2018 :: Log Egrimm: l ka
+Fri Nov 23 21:58:50 2018 :: Log Egrimm: scan
+Fri Nov 23 21:58:55 2018 :: Log Egrimm: 
+Fri Nov 23 21:58:55 2018 :: Log Egrimm: scan
+Fri Nov 23 21:58:57 2018 :: Log Egrimm: 
+Fri Nov 23 21:58:57 2018 :: Log Egrimm: scan
+Fri Nov 23 21:58:59 2018 :: Log Egrimm: 
+Fri Nov 23 21:59:00 2018 :: Log Egrimm: 
+Fri Nov 23 21:59:03 2018 :: Log Egrimm: 
+Fri Nov 23 21:59:06 2018 :: Log Egrimm: 
+Fri Nov 23 21:59:07 2018 :: Log Egrimm: scan
+Fri Nov 23 21:59:12 2018 :: Log Egrimm: open north
+Fri Nov 23 21:59:13 2018 :: Log Egrimm: sca
+Fri Nov 23 21:59:22 2018 :: Log Egrimm: l ar
+Fri Nov 23 21:59:26 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:29 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:32 2018 :: Log Egrimm: who
+Fri Nov 23 21:59:33 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:36 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:40 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:43 2018 :: Log Egrimm: mc
+Fri Nov 23 21:59:46 2018 :: Log Egrimm: look
+Fri Nov 23 21:59:53 2018 :: Log Egrimm: l fool
+Fri Nov 23 21:59:59 2018 :: Log Egrimm: where per
+Fri Nov 23 22:00:00 2018 :: Log Egrimm: look
+Fri Nov 23 22:00:01 2018 :: Log Egrimm: 
+Fri Nov 23 22:00:03 2018 :: Log Egrimm: 
+Fri Nov 23 22:00:06 2018 :: Log Egrimm: l mer
+Fri Nov 23 22:00:10 2018 :: Log Egrimm: 
+Fri Nov 23 22:00:10 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:00:14 2018 :: Log Egrimm: l de
+Fri Nov 23 22:00:24 2018 :: Log Egrimm: con dem
+Fri Nov 23 22:00:26 2018 :: Log Egrimm: /
+Fri Nov 23 22:00:29 2018 :: Log Egrimm: look
+Fri Nov 23 22:00:30 2018 :: Log Egrimm: /
+Fri Nov 23 22:00:32 2018 :: Log Egrimm: aff
+Fri Nov 23 22:00:39 2018 :: Log Egrimm: open hidden
+Fri Nov 23 22:00:42 2018 :: Log Egrimm: open secret
+Fri Nov 23 22:00:43 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:00:45 2018 :: Log Egrimm: /
+Fri Nov 23 22:00:46 2018 :: Log Egrimm: /
+Fri Nov 23 22:00:47 2018 :: Log Egrimm: aff
+Fri Nov 23 22:00:50 2018 :: Log Egrimm: aff
+Fri Nov 23 22:00:50 2018 :: Log Egrimm: aff
+Fri Nov 23 22:00:51 2018 :: Log Egrimm: /
+Fri Nov 23 22:00:56 2018 :: Log Egrimm: goto lam
+Fri Nov 23 22:01:00 2018 :: Log Egrimm: goto watcher
+Fri Nov 23 22:01:04 2018 :: Log Egrimm: /
+Fri Nov 23 22:01:07 2018 :: Log Egrimm: con dem
+Fri Nov 23 22:01:14 2018 :: Log Egrimm: l
+Fri Nov 23 22:01:18 2018 :: Log Egrimm: who
+Fri Nov 23 22:01:24 2018 :: Log Egrimm: tell killuminati heal
+Fri Nov 23 22:01:24 2018 :: Log Killuminati: restore Egrimm
+Fri Nov 23 22:01:28 2018 :: Log Egrimm: dm dem
+Fri Nov 23 22:01:31 2018 :: Log Egrimm: dm
+Fri Nov 23 22:01:34 2018 :: Log Egrimm: dm
+Fri Nov 23 22:01:37 2018 :: Log Egrimm: c slo dem
+Fri Nov 23 22:01:41 2018 :: Log Egrimm: c slo dem
+Fri Nov 23 22:01:42 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:01:44 2018 :: Log Egrimm: c fawe
+Fri Nov 23 22:01:45 2018 :: Log Egrimm: c fae
+Fri Nov 23 22:01:48 2018 :: Log Egrimm: ray
+Fri Nov 23 22:01:51 2018 :: Log Egrimm: ice
+Fri Nov 23 22:01:55 2018 :: Log Egrimm: ice
+Fri Nov 23 22:01:58 2018 :: Log Egrimm: ice
+Fri Nov 23 22:02:01 2018 :: Log Egrimm: sp
+Fri Nov 23 22:02:09 2018 :: Log Egrimm: look
+Fri Nov 23 22:02:14 2018 :: Log Egrimm: con vam
+Fri Nov 23 22:02:35 2018 :: Log Egrimm: l i pack
+Fri Nov 23 22:02:35 2018 :: Log Egrimm: get god pack
+Fri Nov 23 22:02:35 2018 :: Log Egrimm: wear god
+Fri Nov 23 22:02:42 2018 :: Log Egrimm: k
+Fri Nov 23 22:02:42 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:02:50 2018 :: Log Egrimm: k
+Fri Nov 23 22:02:59 2018 :: Log Egrimm: k
+Fri Nov 23 22:03:02 2018 :: Log Egrimm: k
+Fri Nov 23 22:03:05 2018 :: Log Egrimm: k
+Fri Nov 23 22:03:08 2018 :: Log Egrimm: k
+Fri Nov 23 22:03:12 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:15 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:18 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:21 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:25 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:28 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:31 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:34 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:35 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:03:38 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:41 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:50 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:53 2018 :: Log Egrimm: ice
+Fri Nov 23 22:03:56 2018 :: Log Egrimm: tell killuminati heal
+Fri Nov 23 22:03:56 2018 :: Log Killuminati: restore Egrimm
+Fri Nov 23 22:04:01 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:05 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:08 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:11 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:14 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:18 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:21 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:24 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:27 2018 :: Log Egrimm: time
+Fri Nov 23 22:04:35 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:35 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:04:38 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:47 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:56 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:04:59 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:05:02 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:05:06 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:05:10 2018 :: Log Egrimm: ice vamp
+Fri Nov 23 22:05:14 2018 :: Log Egrimm: l i cor
+Fri Nov 23 22:05:17 2018 :: Log Egrimm: get hat cor
+Fri Nov 23 22:05:20 2018 :: Log Egrimm: wear hat
+Fri Nov 23 22:05:21 2018 :: Log Egrimm: look
+Fri Nov 23 22:05:25 2018 :: Log Egrimm: get all
+Fri Nov 23 22:05:30 2018 :: Log Egrimm: drop cor
+Fri Nov 23 22:05:33 2018 :: Log Egrimm: l i cor
+Fri Nov 23 22:05:34 2018 :: Log Egrimm: l
+Fri Nov 23 22:05:36 2018 :: Log Egrimm: eq
+Fri Nov 23 22:05:45 2018 :: Log Egrimm: inv
+Fri Nov 23 22:05:53 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:05:53 2018 :: Log Egrimm: l
+Fri Nov 23 22:05:57 2018 :: Log Egrimm: desc
+Fri Nov 23 22:06:00 2018 :: Log Egrimm: /
+Fri Nov 23 22:06:02 2018 :: Log Egrimm: look
+Fri Nov 23 22:06:08 2018 :: Log Egrimm: enter pent
+Fri Nov 23 22:06:11 2018 :: Log Egrimm: enter
+Fri Nov 23 22:06:17 2018 :: Log Egrimm: quit
+Fri Nov 23 22:06:17 2018 :: Egrimm has quit. [Room: 781]
+Fri Nov 23 22:06:17 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Fri Nov 23 22:06:17 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Fri Nov 23 22:06:17 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Fri Nov 23 22:06:17 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Fri Nov 23 22:30:29 2018 :: Sock.sinaddr:  97.88.72.5
+Fri Nov 23 22:30:31 2018 :: Loading Egrimm's playerfile
+Fri Nov 23 22:30:32 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 781]
+Fri Nov 23 22:30:35 2018 :: Log Egrimm: en po
+Fri Nov 23 22:30:41 2018 :: Log Egrimm: enter hidden
+Fri Nov 23 22:30:47 2018 :: Log Egrimm: enter pentagram
+Fri Nov 23 22:30:47 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:30:52 2018 :: Log Egrimm: roomdesc
+Fri Nov 23 22:30:55 2018 :: Log Egrimm: room
+Fri Nov 23 22:31:02 2018 :: Log Egrimm: showroom
+Fri Nov 23 22:31:05 2018 :: Log Egrimm: /
+Fri Nov 23 22:31:06 2018 :: Log Egrimm: who
+Fri Nov 23 22:31:09 2018 :: Log Egrimm: look
+Fri Nov 23 22:31:15 2018 :: Log Egrimm: open secret
+Fri Nov 23 22:31:18 2018 :: Log Egrimm: open hidden
+Fri Nov 23 22:31:21 2018 :: Log Egrimm: open trap
+Fri Nov 23 22:31:24 2018 :: Log Egrimm: open portal
+Fri Nov 23 22:31:26 2018 :: Log Egrimm: l
+Fri Nov 23 22:31:28 2018 :: Log Egrimm: auto
+Fri Nov 23 22:31:37 2018 :: Log Egrimm: look
+Fri Nov 23 22:31:40 2018 :: Log Egrimm: sca
+Fri Nov 23 22:31:42 2018 :: Log Egrimm: look
+Fri Nov 23 22:31:44 2018 :: Log Egrimm: l sign
+Fri Nov 23 22:31:46 2018 :: Log Egrimm: room
+Fri Nov 23 22:31:52 2018 :: Log Egrimm: help room
+Fri Nov 23 22:31:54 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:31:54 2018 :: Log Egrimm: help desc
+Fri Nov 23 22:32:08 2018 :: Log Egrimm: /
+Fri Nov 23 22:32:09 2018 :: Log Egrimm: /
+Fri Nov 23 22:32:14 2018 :: Log Egrimm: goto lam
+Fri Nov 23 22:32:17 2018 :: Log Egrimm: enter
+Fri Nov 23 22:32:20 2018 :: Log Egrimm: enter caul
+Fri Nov 23 22:32:24 2018 :: Log Egrimm: enter pent
+Fri Nov 23 22:32:45 2018 :: Log Egrimm: goss Bean you there?
+Fri Nov 23 22:32:49 2018 :: Log Egrimm: look
+Fri Nov 23 22:32:51 2018 :: Log Egrimm: who
+Fri Nov 23 22:32:56 2018 :: Log Egrimm: look
+Fri Nov 23 22:33:00 2018 :: Log Egrimm: where
+Fri Nov 23 22:33:03 2018 :: Log Egrimm: where mer
+Fri Nov 23 22:33:10 2018 :: Log Egrimm: where merl
+Fri Nov 23 22:33:14 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:33:16 2018 :: Log Egrimm: goto merlin
+Fri Nov 23 22:33:19 2018 :: Log Egrimm: aff
+Fri Nov 23 22:33:21 2018 :: Log Egrimm: sa
+Fri Nov 23 22:33:24 2018 :: Log Egrimm: c ar
+Fri Nov 23 22:33:28 2018 :: Log Egrimm: ha
+Fri Nov 23 22:33:31 2018 :: Log Egrimm: aff
+Fri Nov 23 22:33:36 2018 :: Log Egrimm: c fly
+Fri Nov 23 22:33:40 2018 :: Log Egrimm: look
+Fri Nov 23 22:33:42 2018 :: Log Egrimm: inv
+Fri Nov 23 22:33:58 2018 :: Log Egrimm: l i staff
+Fri Nov 23 22:34:04 2018 :: Log Egrimm: wear belt
+Fri Nov 23 22:34:06 2018 :: Log Egrimm: gr
+Fri Nov 23 22:34:10 2018 :: Log Egrimm: rem belt
+Fri Nov 23 22:34:11 2018 :: Log Egrimm: gr
+Fri Nov 23 22:34:15 2018 :: Log Egrimm: sc
+Fri Nov 23 22:34:17 2018 :: Log Egrimm: look
+Fri Nov 23 22:34:19 2018 :: Log Egrimm: who
+Fri Nov 23 22:34:25 2018 :: Log Egrimm: mc
+Fri Nov 23 22:34:29 2018 :: Log Egrimm: mc
+Fri Nov 23 22:34:32 2018 :: Log Egrimm: mc
+Fri Nov 23 22:34:32 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:34:35 2018 :: Log Egrimm: pray
+Fri Nov 23 22:34:35 2018 :: Log Egrimm: enter alter
+Fri Nov 23 22:34:44 2018 :: Log Egrimm: help prompt
+Fri Nov 23 22:35:02 2018 :: Log Egrimm: help command
+Fri Nov 23 22:35:05 2018 :: Log Egrimm: command
+Fri Nov 23 22:35:24 2018 :: Log Egrimm: iron
+Fri Nov 23 22:35:42 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:35:42 2018 :: Log Egrimm: noloot
+Fri Nov 23 22:35:44 2018 :: Log Egrimm: noloot
+Fri Nov 23 22:36:21 2018 :: Log Egrimm: value
+Fri Nov 23 22:36:23 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:36:44 2018 :: Log Egrimm: level
+Fri Nov 23 22:36:45 2018 :: Log Egrimm: level
+Fri Nov 23 22:36:51 2018 :: Log Egrimm: 
+Fri Nov 23 22:36:53 2018 :: Log Egrimm: -
+Fri Nov 23 22:36:55 2018 :: Log Egrimm: -
+Fri Nov 23 22:37:18 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:37:22 2018 :: Log Egrimm: autoexit
+Fri Nov 23 22:37:23 2018 :: Log Egrimm: autoexit
+Fri Nov 23 22:37:25 2018 :: Log Egrimm: look
+Fri Nov 23 22:37:32 2018 :: Log Egrimm: command
+Fri Nov 23 22:37:48 2018 :: Log Egrimm: compact
+Fri Nov 23 22:37:50 2018 :: Log Egrimm: look
+Fri Nov 23 22:37:53 2018 :: Log Egrimm: compact
+Fri Nov 23 22:37:55 2018 :: Log Egrimm: look
+Fri Nov 23 22:38:28 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:38:44 2018 :: Log Egrimm: danger
+Fri Nov 23 22:39:06 2018 :: Log Egrimm: command2
+Fri Nov 23 22:39:22 2018 :: Log Egrimm: rest
+Fri Nov 23 22:39:43 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:39:52 2018 :: Log Egrimm: who
+Fri Nov 23 22:40:21 2018 :: Log Egrimm: brief
+Fri Nov 23 22:40:22 2018 :: Log Egrimm: look
+Fri Nov 23 22:40:40 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:40:43 2018 :: Log Egrimm: he hell
+Fri Nov 23 22:40:46 2018 :: Log Egrimm: enter hell
+Fri Nov 23 22:40:47 2018 :: Log Egrimm: wake
+Fri Nov 23 22:40:49 2018 :: Log Egrimm: enter hell
+Fri Nov 23 22:41:04 2018 :: Log Egrimm: enter pentagram
+Fri Nov 23 22:41:06 2018 :: Log Egrimm: look
+Fri Nov 23 22:41:10 2018 :: Log Egrimm: l demon
+Fri Nov 23 22:41:35 2018 :: Log Egrimm: enter pain
+Fri Nov 23 22:41:38 2018 :: Log Egrimm: /
+Fri Nov 23 22:41:53 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:42:04 2018 :: Log Egrimm: enter merlin
+Fri Nov 23 22:42:06 2018 :: Log Egrimm: who
+Fri Nov 23 22:43:07 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Nov 23 22:43:27 2018 :: Log Egrimm: who
+Fri Nov 23 22:43:30 2018 :: Log Egrimm: quit
+Fri Nov 23 22:43:30 2018 :: Egrimm has quit. [Room: 781]
+Fri Nov 23 22:43:30 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Fri Nov 23 22:43:30 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Fri Nov 23 22:43:30 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Fri Nov 23 22:43:30 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Fri Nov 23 22:43:41 2018 :: Sock.sinaddr:  97.88.72.5
+Fri Nov 23 22:43:46 2018 :: Loading Wentworth's playerfile
+Fri Nov 23 22:43:46 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Fri Nov 23 22:43:48 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Fri Nov 23 22:46:47 2018 :: Log Wentworth: drop cor
+Fri Nov 23 22:49:47 2018 :: Log Killuminati: restore Wentworth
+Fri Nov 23 22:51:42 2018 :: Log Killuminati: restore self
+Fri Nov 23 22:51:42 2018 :: Log Killuminati: restore Wentworth 
+Fri Nov 23 22:51:44 2018 :: Log Killuminati: restore self
+Fri Nov 23 22:54:28 2018 :: Log Killuminati: restore self
+Fri Nov 23 22:54:28 2018 :: Log Killuminati: restore Wentworth 
+Fri Nov 23 22:54:30 2018 :: Log Killuminati: restore self
+Fri Nov 23 22:58:27 2018 :: Wentworth has quit. [Room: 4210]
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Fri Nov 23 22:58:27 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Fri Nov 23 22:58:27 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 08:14:24 2018 :: Sock.sinaddr:  108.211.120.167
+Sat Nov 24 08:14:25 2018 :: EOF encountered on read.
+Sat Nov 24 11:50:36 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Nov 24 11:50:37 2018 :: Loading Kyrus's playerfile
+Sat Nov 24 11:50:37 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 16003]
+Sat Nov 24 11:51:34 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:52:31 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:53:20 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:54:57 2018 :: Log Kyrus: drop da
+Sat Nov 24 11:57:03 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:57:17 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:57:34 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:57:46 2018 :: Kyrus killed by A Black Raven at 25015
+Sat Nov 24 11:57:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 11:57:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 11:57:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 11:57:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 11:58:01 2018 :: Log Killuminati: restore self
+Sat Nov 24 11:58:01 2018 :: Log Killuminati: restore Kyrus 
+Sat Nov 24 11:58:07 2018 :: Log Killuminati: restore self
+Sat Nov 24 11:58:20 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 11:58:20 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 11:58:20 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 11:58:20 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 11:58:41 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 11:59:11 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 12:03:53 2018 :: Sock.sinaddr:  75.1.86.84
+Sat Nov 24 12:03:53 2018 :: EOF encountered on read.
+Sat Nov 24 12:37:05 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 12:58:25 2018 :: Log Kyrus: drop spike
+Sat Nov 24 13:00:08 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:00:26 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:00:46 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:01:12 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:01:25 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:01:39 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:01:54 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:02:16 2018 :: Kyrus has been spared by the god’s divine protection from certain death at the hands of blood royal guardian!
+Sat Nov 24 13:02:19 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:02:33 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:02:42 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:03:01 2018 :: Kyrus killed by Princess Semele at 10173
+Sat Nov 24 13:03:01 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 13:03:01 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 13:03:01 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 13:03:01 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 13:03:02 2018 :: Log Killuminati: restore Kyrus
+Sat Nov 24 13:03:03 2018 :: Log Killuminati: restore self
+Sat Nov 24 13:03:03 2018 :: Log Killuminati: restore Kyrus 
+Sat Nov 24 13:03:09 2018 :: Log Killuminati: restore self
+Sat Nov 24 13:03:09 2018 :: Log Killuminati: restore <Room:4208> Kyrus
+Sat Nov 24 13:03:22 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Nov 24 13:03:23 2018 :: Loading Kazuu's playerfile
+Sat Nov 24 13:03:25 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 29317]
+Sat Nov 24 13:03:30 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 13:03:30 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 13:03:34 2018 :: Log Kazuu: drop corpse
+Sat Nov 24 13:03:34 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 13:03:34 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 13:03:36 2018 :: Kazuu has quit. [Room: 10173]
+Sat Nov 24 13:03:39 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 13:03:39 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 13:03:39 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 13:03:39 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 13:03:51 2018 :: Log Kyrus: drop co
+Sat Nov 24 13:11:14 2018 :: Kyrus has quit. [Room: 4206]
+Sat Nov 24 13:11:14 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 13:11:14 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 13:11:14 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 13:11:14 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 13:11:14 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 13:11:14 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 13:11:14 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 13:11:14 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 13:43:08 2018 :: Sock.sinaddr:  179.62.3.228
+Sat Nov 24 13:43:09 2018 :: EOF encountered on read.
+Sat Nov 24 18:21:31 2018 :: Sock.sinaddr:  200.105.200.66
+Sat Nov 24 18:21:31 2018 :: EOF encountered on read.
+Sat Nov 24 20:54:50 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sat Nov 24 22:50:59 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 22:51:09 2018 :: Loading Wentworth's playerfile
+Sat Nov 24 22:51:09 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sat Nov 24 22:51:11 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sat Nov 24 22:53:48 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 22:57:23 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 22:57:46 2018 :: Log Wentworth: drop cor
+Sat Nov 24 22:59:26 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:00:10 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:10:44 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:16:09 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:16:47 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:17:26 2018 :: Log Killuminati: restore Wentworth
+Sat Nov 24 23:18:49 2018 :: Wentworth has quit. [Room: 4208]
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:18:49 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sat Nov 24 23:18:49 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:18:51 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:18:54 2018 :: Loading Sargon's playerfile
+Sat Nov 24 23:18:56 2018 :: Sargon@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sat Nov 24 23:26:18 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:26:18 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:26:18 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:26:18 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Sat Nov 24 23:30:52 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sat Nov 24 23:30:52 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Sat Nov 24 23:30:52 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sat Nov 24 23:30:52 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Sat Nov 24 23:31:42 2018 :: Log Sargon: drop shield
+Sat Nov 24 23:31:45 2018 :: Log Sargon: drop white
+Sat Nov 24 23:31:45 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:31:45 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:31:45 2018 :: Log Sargon: drop white
+Sat Nov 24 23:31:45 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:31:45 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sat Nov 24 23:31:47 2018 :: Sargon has quit. [Room: 4210]
+Sat Nov 24 23:31:48 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:31:50 2018 :: Loading Wentworth's playerfile
+Sat Nov 24 23:31:50 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sat Nov 24 23:31:53 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sat Nov 24 23:32:09 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:32:09 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sat Nov 24 23:32:09 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:32:09 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:33:08 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Nov 24 23:33:08 2018 :: Loading Kyrus's playerfile
+Sat Nov 24 23:33:09 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4206]
+Sat Nov 24 23:39:24 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Nov 24 23:39:25 2018 :: Loading Kazuu's playerfile
+Sat Nov 24 23:39:27 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 10173]
+Sat Nov 24 23:39:30 2018 :: Wentworth has quit. [Room: 4208]
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:39:30 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sat Nov 24 23:39:30 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:39:32 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:39:34 2018 :: Loading Egrimm's playerfile
+Sat Nov 24 23:39:35 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 781]
+Sat Nov 24 23:39:41 2018 :: Log Egrimm: inv
+Sat Nov 24 23:39:58 2018 :: Log Egrimm: l
+Sat Nov 24 23:40:00 2018 :: Log Kazuu: trans egrimm
+Sat Nov 24 23:40:05 2018 :: Log Egrimm: goss thanks
+Sat Nov 24 23:40:24 2018 :: Log Egrimm: goss yeah, was exploring
+Sat Nov 24 23:40:26 2018 :: Log Egrimm: eq
+Sat Nov 24 23:40:28 2018 :: Log Egrimm: inv
+Sat Nov 24 23:40:37 2018 :: Log Kazuu: pardon
+Sat Nov 24 23:40:43 2018 :: Log Kazuu: pardon kyrus wanted
+Sat Nov 24 23:40:45 2018 :: Log Egrimm: goss killed the demon but he blew up all my stuff
+Sat Nov 24 23:40:46 2018 :: Kazuu has quit. [Room: 4207]
+Sat Nov 24 23:40:53 2018 :: Log Egrimm: goss lost a bunch of stuff
+Sat Nov 24 23:41:04 2018 :: Log Egrimm: eq
+Sat Nov 24 23:41:16 2018 :: Log Egrimm: inc
+Sat Nov 24 23:41:19 2018 :: Log Egrimm: inv
+Sat Nov 24 23:41:23 2018 :: Log Egrimm: put bash pit
+Sat Nov 24 23:41:32 2018 :: Log Egrimm: put shild pit
+Sat Nov 24 23:41:36 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:41:37 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:41:37 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:41:39 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:41:41 2018 :: Log Egrimm: get new pit
+Sat Nov 24 23:41:54 2018 :: Log Egrimm: get 3.shield pit
+Sat Nov 24 23:42:04 2018 :: Log Egrimm: goss why is that?
+Sat Nov 24 23:42:18 2018 :: Log Egrimm: get shield pit
+Sat Nov 24 23:42:19 2018 :: Log Egrimm: get shield pit
+Sat Nov 24 23:42:20 2018 :: Log Egrimm: get shield pit
+Sat Nov 24 23:42:25 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:42:26 2018 :: Log Egrimm: put shield pit
+Sat Nov 24 23:42:28 2018 :: Log Egrimm: eq
+Sat Nov 24 23:42:30 2018 :: Log Egrimm: inv
+Sat Nov 24 23:42:38 2018 :: Log Egrimm: goto sch
+Sat Nov 24 23:42:42 2018 :: Log Egrimm: l sch
+Sat Nov 24 23:42:57 2018 :: Log Egrimm: goto schle
+Sat Nov 24 23:43:00 2018 :: Log Egrimm: kil sch
+Sat Nov 24 23:43:04 2018 :: Log Egrimm: ba
+Sat Nov 24 23:43:10 2018 :: Log Egrimm: get pack cor
+Sat Nov 24 23:43:10 2018 :: Log Egrimm: wear pack
+Sat Nov 24 23:43:12 2018 :: Log Egrimm: put all pack
+Sat Nov 24 23:43:27 2018 :: Log Egrimm: get blade pack
+Sat Nov 24 23:43:30 2018 :: Log Egrimm: get gaunt pack
+Sat Nov 24 23:43:30 2018 :: Log Egrimm: /
+Sat Nov 24 23:43:32 2018 :: Log Egrimm: 
+Sat Nov 24 23:43:36 2018 :: Log Egrimm: put gaunt pit
+Sat Nov 24 23:43:39 2018 :: Log Egrimm: put blade pit
+Sat Nov 24 23:43:40 2018 :: Log Egrimm: quit
+Sat Nov 24 23:43:40 2018 :: Egrimm has quit. [Room: 4208]
+Sat Nov 24 23:43:40 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sat Nov 24 23:43:40 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:43:40 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sat Nov 24 23:43:40 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sat Nov 24 23:43:41 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:43:44 2018 :: Loading Wentworth's playerfile
+Sat Nov 24 23:43:44 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sat Nov 24 23:43:46 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sat Nov 24 23:44:27 2018 :: Log Kyrus: drop all
+Sat Nov 24 23:44:27 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:44:27 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:44:28 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:44:28 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:45:57 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:45:57 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:45:57 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:45:57 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:46:13 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Nov 24 23:48:02 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Nov 24 23:48:23 2018 :: Loading Kazuu's playerfile
+Sat Nov 24 23:48:24 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 4207]
+Sat Nov 24 23:48:33 2018 :: Log Kyrus: drop cl
+Sat Nov 24 23:48:37 2018 :: Log Kazuu: clone clover
+Sat Nov 24 23:49:40 2018 :: Log Killuminati: restore self
+Sat Nov 24 23:49:40 2018 :: Log Killuminati: restore Wentworth 
+Sat Nov 24 23:49:47 2018 :: Log Killuminati: restore self
+Sat Nov 24 23:50:38 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:50:38 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Nov 24 23:51:37 2018 :: Wentworth has quit. [Room: 4208]
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:51:37 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sat Nov 24 23:51:37 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:51:39 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:51:40 2018 :: Loading Nero's playerfile
+Sat Nov 24 23:51:42 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sat Nov 24 23:52:15 2018 :: Log Kyrus: drop va
+Sat Nov 24 23:52:24 2018 :: Log Kazuu: clone vam
+Sat Nov 24 23:52:43 2018 :: Log Nero: drop black
+Sat Nov 24 23:52:51 2018 :: Log Kazuu: clone arm
+Sat Nov 24 23:53:24 2018 :: Log Kazuu: clone arm
+Sat Nov 24 23:55:38 2018 :: Log Kazuu: clone master
+Sat Nov 24 23:55:39 2018 :: Log Kazuu: clone master
+Sat Nov 24 23:55:39 2018 :: Log Kazuu: clone master
+Sat Nov 24 23:55:39 2018 :: Log Kazuu: clone master
+Sat Nov 24 23:56:35 2018 :: Log Killuminati: restore self
+Sat Nov 24 23:56:35 2018 :: Log Killuminati: restore Nero 
+Sat Nov 24 23:56:42 2018 :: Log Killuminati: restore self
+Sat Nov 24 23:57:57 2018 :: Nero has quit. [Room: 4208]
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:57:57 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sat Nov 24 23:57:57 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sat Nov 24 23:57:59 2018 :: Sock.sinaddr:  97.88.72.5
+Sat Nov 24 23:58:01 2018 :: Loading Wentworth's playerfile
+Sat Nov 24 23:58:01 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sat Nov 24 23:58:02 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sat Nov 24 23:58:13 2018 :: Kazuu has quit. [Room: 4208]
+Sat Nov 24 23:59:00 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Nov 24 23:59:00 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Nov 24 23:59:00 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Nov 24 23:59:00 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:01:13 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:01:33 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:01:33 2018 :: Log Killuminati: restore Wentworth 
+Sun Nov 25 00:01:39 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:04:26 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Nov 25 00:04:28 2018 :: Loading Kazuu's playerfile
+Sun Nov 25 00:04:29 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 4208]
+Sun Nov 25 00:04:33 2018 :: Log Kazuu: advance
+Sun Nov 25 00:04:38 2018 :: Log Kazuu: advance kyrus 51
+Sun Nov 25 00:04:40 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:04:41 2018 :: Kazuu has quit. [Room: 4208]
+Sun Nov 25 00:06:16 2018 :: Log Kyrus: drop arm
+Sun Nov 25 00:06:18 2018 :: Log Kyrus: drop robe
+Sun Nov 25 00:06:30 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:06:40 2018 :: Log Kyrus: drop key
+Sun Nov 25 00:07:29 2018 :: Log Killuminati: restore Kyrus
+Sun Nov 25 00:08:08 2018 :: Log Killuminati: restore Kyrus
+Sun Nov 25 00:09:00 2018 :: Log Kyrus: drop amulet
+Sun Nov 25 00:09:08 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:10:18 2018 :: Log Wentworth: drop leg
+Sun Nov 25 00:12:31 2018 :: Kyrus has quit. [Room: 4205]
+Sun Nov 25 00:12:31 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:12:31 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:12:31 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:12:31 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:12:31 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:12:31 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:12:31 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:12:31 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:14:46 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:17:43 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:18:58 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:26:24 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:27:41 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:28:58 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:29:58 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:31:06 2018 :: Log Killuminati: restore Wentworth
+Sun Nov 25 00:31:15 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:31:16 2018 :: Log Killuminati: restore Wentworth 
+Sun Nov 25 00:31:22 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:38:07 2018 :: Wentworth has quit. [Room: 4210]
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:38:07 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 00:38:07 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:38:08 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 00:38:10 2018 :: Loading Egrimm's playerfile
+Sun Nov 25 00:38:11 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sun Nov 25 00:38:13 2018 :: Log Egrimm: eq
+Sun Nov 25 00:38:25 2018 :: Log Egrimm: goto lamorak
+Sun Nov 25 00:38:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:38:29 2018 :: Log Egrimm: l au
+Sun Nov 25 00:38:32 2018 :: Log Egrimm: l king
+Sun Nov 25 00:38:36 2018 :: Log Egrimm: dm king
+Sun Nov 25 00:38:39 2018 :: Log Egrimm: dm
+Sun Nov 25 00:38:43 2018 :: Log Egrimm: dm
+Sun Nov 25 00:38:46 2018 :: Log Egrimm: dm
+Sun Nov 25 00:38:48 2018 :: Log Egrimm: get all
+Sun Nov 25 00:38:48 2018 :: Log Egrimm: wear all
+Sun Nov 25 00:38:51 2018 :: Log Egrimm: inv
+Sun Nov 25 00:38:53 2018 :: Log Egrimm: l i pack
+Sun Nov 25 00:39:13 2018 :: Log Egrimm: get finger pack
+Sun Nov 25 00:39:15 2018 :: Log Egrimm: wear finger
+Sun Nov 25 00:39:22 2018 :: Log Egrimm: wear god
+Sun Nov 25 00:39:29 2018 :: Log Egrimm: put finger pack
+Sun Nov 25 00:39:30 2018 :: Log Egrimm: inv
+Sun Nov 25 00:39:43 2018 :: Log Egrimm: tell killuminati bigspellup
+Sun Nov 25 00:39:43 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:39:43 2018 :: Log Killuminati: restore Egrimm 
+Sun Nov 25 00:39:49 2018 :: Log Egrimm: sc
+Sun Nov 25 00:39:49 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:40:03 2018 :: Log Egrimm: dm
+Sun Nov 25 00:40:08 2018 :: Log Egrimm: get ex cor
+Sun Nov 25 00:40:10 2018 :: Log Egrimm: eq
+Sun Nov 25 00:40:11 2018 :: Log Egrimm: inv
+Sun Nov 25 00:40:12 2018 :: Log Egrimm: l
+Sun Nov 25 00:40:20 2018 :: Log Egrimm: 
+Sun Nov 25 00:40:24 2018 :: Log Egrimm: l q
+Sun Nov 25 00:40:27 2018 :: Log Egrimm: con q
+Sun Nov 25 00:40:36 2018 :: Log Egrimm: 
+Sun Nov 25 00:40:40 2018 :: Log Egrimm: sca
+Sun Nov 25 00:40:47 2018 :: Log Egrimm: /
+Sun Nov 25 00:40:49 2018 :: Log Egrimm: 
+Sun Nov 25 00:40:50 2018 :: Log Egrimm: 
+Sun Nov 25 00:40:51 2018 :: Log Egrimm: 
+Sun Nov 25 00:40:54 2018 :: Log Egrimm: drop all
+Sun Nov 25 00:40:58 2018 :: Log Egrimm: goto lamorak
+Sun Nov 25 00:41:01 2018 :: Log Egrimm: 
+Sun Nov 25 00:41:05 2018 :: Log Egrimm: eq
+Sun Nov 25 00:41:09 2018 :: Log Egrimm: quit
+Sun Nov 25 00:41:09 2018 :: Egrimm has quit. [Room: 770]
+Sun Nov 25 00:41:09 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Nov 25 00:41:09 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 00:41:09 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Nov 25 00:41:09 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 00:41:11 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 00:41:13 2018 :: Loading Wentworth's playerfile
+Sun Nov 25 00:41:13 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sun Nov 25 00:41:14 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 00:41:34 2018 :: Log Wentworth: drop leaf
+Sun Nov 25 00:44:14 2018 :: Log Wentworth: drop leaf
+Sun Nov 25 00:44:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:44:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:44:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:44:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:44:22 2018 :: Log Wentworth: drop cher
+Sun Nov 25 00:46:23 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 00:46:23 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:46:23 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 00:46:23 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:46:29 2018 :: Log Wentworth: drop pot
+Sun Nov 25 00:47:05 2018 :: Wentworth has quit. [Room: 3758]
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:47:05 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 00:47:05 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 00:47:07 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 00:47:09 2018 :: Loading Egrimm's playerfile
+Sun Nov 25 00:47:10 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 770]
+Sun Nov 25 00:47:13 2018 :: Log Egrimm: dm king
+Sun Nov 25 00:47:17 2018 :: Log Egrimm: dm
+Sun Nov 25 00:47:20 2018 :: Log Egrimm: dm
+Sun Nov 25 00:47:23 2018 :: Log Egrimm: c fae
+Sun Nov 25 00:47:33 2018 :: Log Egrimm: ray
+Sun Nov 25 00:47:36 2018 :: Log Egrimm: ice
+Sun Nov 25 00:47:42 2018 :: Log Egrimm: help damage
+Sun Nov 25 00:47:45 2018 :: Log Egrimm: get ex cor
+Sun Nov 25 00:47:50 2018 :: Log Egrimm: gr
+Sun Nov 25 00:47:53 2018 :: Log Egrimm: aff
+Sun Nov 25 00:48:08 2018 :: Log Egrimm: /
+Sun Nov 25 00:48:10 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:11 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:11 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:12 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:12 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:26 2018 :: Log Egrimm: r e 8
+Sun Nov 25 00:48:27 2018 :: Log Egrimm: open east
+Sun Nov 25 00:48:27 2018 :: Log Egrimm: r e 3
+Sun Nov 25 00:48:27 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:29 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:29 2018 :: Log Egrimm: 
+Sun Nov 25 00:48:30 2018 :: Log Egrimm: enter portal
+Sun Nov 25 00:49:06 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:07 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:07 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:07 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:08 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:08 2018 :: Log Egrimm: r n 7
+Sun Nov 25 00:49:09 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:09 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:10 2018 :: Log Egrimm: r n 4
+Sun Nov 25 00:49:10 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:10 2018 :: Log Egrimm: r n 3
+Sun Nov 25 00:49:11 2018 :: Log Egrimm: open trapdoor
+Sun Nov 25 00:49:11 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:12 2018 :: Log Egrimm: open up
+Sun Nov 25 00:49:12 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:12 2018 :: Log Egrimm: open hidden
+Sun Nov 25 00:49:13 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:13 2018 :: Log Egrimm: open secret
+Sun Nov 25 00:49:13 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:14 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:14 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:15 2018 :: Log Egrimm: open hidden
+Sun Nov 25 00:49:15 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:16 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:16 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:17 2018 :: Log Egrimm: open south
+Sun Nov 25 00:49:17 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:17 2018 :: Log Egrimm: open trapdoor
+Sun Nov 25 00:49:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:19 2018 :: Log Egrimm: open west
+Sun Nov 25 00:49:19 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:19 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:20 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:20 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:21 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:21 2018 :: Log Egrimm: open tapestry
+Sun Nov 25 00:49:22 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:22 2018 :: Log Egrimm: open tile
+Sun Nov 25 00:49:22 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:23 2018 :: Log Egrimm: open west
+Sun Nov 25 00:49:23 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:24 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:24 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:26 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:26 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:26 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:27 2018 :: Log Egrimm: open south
+Sun Nov 25 00:49:27 2018 :: Log Egrimm: r s 4
+Sun Nov 25 00:49:28 2018 :: Log Egrimm: open east
+Sun Nov 25 00:49:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:28 2018 :: Log Egrimm: open tapestry
+Sun Nov 25 00:49:29 2018 :: Log Egrimm: r e 6
+Sun Nov 25 00:49:29 2018 :: Log Egrimm: (minister is around here)
+Sun Nov 25 00:49:29 2018 :: Log Egrimm: open mirror
+Sun Nov 25 00:49:30 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:30 2018 :: Log Egrimm: open floor
+Sun Nov 25 00:49:30 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:31 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:31 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:32 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:32 2018 :: Log Egrimm: (platus)r w 4
+Sun Nov 25 00:49:33 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:33 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:33 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:49:37 2018 :: Log Egrimm: open statue
+Sun Nov 25 00:49:37 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:37 2018 :: Log Egrimm: open trapdoor
+Sun Nov 25 00:49:37 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:38 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:38 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:38 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:38 2018 :: Log Egrimm: open west
+Sun Nov 25 00:49:39 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:39 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:39 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:40 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:40 2018 :: Log Egrimm: open north
+Sun Nov 25 00:49:40 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:40 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:43 2018 :: Log Egrimm: look
+Sun Nov 25 00:49:47 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:48 2018 :: Log Egrimm: sca
+Sun Nov 25 00:49:49 2018 :: Log Egrimm: 
+Sun Nov 25 00:49:51 2018 :: Log Egrimm: l ghost
+Sun Nov 25 00:50:17 2018 :: Log Egrimm: r w 4
+Sun Nov 25 00:50:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:19 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:50:22 2018 :: Log Egrimm: open statue
+Sun Nov 25 00:50:22 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:22 2018 :: Log Egrimm: open trapdoor
+Sun Nov 25 00:50:23 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:23 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:23 2018 :: Log Egrimm: open north
+Sun Nov 25 00:50:23 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:24 2018 :: Log Egrimm: open west
+Sun Nov 25 00:50:24 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:24 2018 :: Log Egrimm: open north
+Sun Nov 25 00:50:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:25 2018 :: Log Egrimm: open north
+Sun Nov 25 00:50:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:26 2018 :: Log Egrimm: 
+Sun Nov 25 00:50:46 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:02 2018 :: Log Egrimm: open statue
+Sun Nov 25 00:51:05 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:08 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:11 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:15 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:18 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:21 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:24 2018 :: Log Egrimm: look
+Sun Nov 25 00:51:25 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:29 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:30 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:31 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:32 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:34 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:35 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:36 2018 :: Log Egrimm: scan
+Sun Nov 25 00:51:36 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:37 2018 :: Log Egrimm: scan
+Sun Nov 25 00:51:37 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:38 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:38 2018 :: Log Egrimm: scan
+Sun Nov 25 00:51:41 2018 :: Log Egrimm: l spider
+Sun Nov 25 00:51:42 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:43 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:44 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:48 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:49 2018 :: Log Egrimm: 
+Sun Nov 25 00:51:52 2018 :: Log Egrimm: open statue
+Sun Nov 25 00:51:55 2018 :: Log Egrimm: pick statue
+Sun Nov 25 00:51:58 2018 :: Log Egrimm: unlock statue
+Sun Nov 25 00:51:59 2018 :: Log Egrimm: look
+Sun Nov 25 00:52:00 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:02 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:03 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:03 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:09 2018 :: Log Egrimm: open hidden
+Sun Nov 25 00:52:11 2018 :: Log Egrimm: open secret
+Sun Nov 25 00:52:13 2018 :: Log Egrimm: look
+Sun Nov 25 00:52:14 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:14 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:15 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:15 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:16 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:17 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:52:22 2018 :: Log Egrimm: l pl
+Sun Nov 25 00:52:43 2018 :: Log Egrimm: dm pla
+Sun Nov 25 00:52:48 2018 :: Log Egrimm: dm
+Sun Nov 25 00:52:51 2018 :: Log Egrimm: c fae
+Sun Nov 25 00:52:56 2018 :: Log Egrimm: l i pack
+Sun Nov 25 00:53:02 2018 :: Log Egrimm: ray
+Sun Nov 25 00:53:05 2018 :: Log Egrimm: ray
+Sun Nov 25 00:53:08 2018 :: Log Egrimm: ray
+Sun Nov 25 00:53:12 2018 :: Log Egrimm: ice
+Sun Nov 25 00:53:14 2018 :: Log Egrimm: l i cor
+Sun Nov 25 00:53:18 2018 :: Log Egrimm: get star cor
+Sun Nov 25 00:53:22 2018 :: Log Egrimm: get saber cor
+Sun Nov 25 00:53:23 2018 :: Log Egrimm: look
+Sun Nov 25 00:53:24 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:27 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:28 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:30 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:30 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:31 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:31 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:32 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:34 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:34 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:35 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:35 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:36 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:37 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:37 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:38 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:38 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:39 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:39 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:40 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:41 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:42 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:43 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:44 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:45 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:45 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:46 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:47 2018 :: Log Egrimm: scan
+Sun Nov 25 00:53:48 2018 :: Log Egrimm: 
+Sun Nov 25 00:53:50 2018 :: Log Egrimm: dm proto
+Sun Nov 25 00:53:54 2018 :: Log Egrimm: dm mini
+Sun Nov 25 00:53:57 2018 :: Log Egrimm: c fae
+Sun Nov 25 00:54:00 2018 :: Log Egrimm: ice
+Sun Nov 25 00:54:04 2018 :: Log Egrimm: get staff cor
+Sun Nov 25 00:54:05 2018 :: Log Egrimm: l
+Sun Nov 25 00:54:07 2018 :: Log Egrimm: scan
+Sun Nov 25 00:54:08 2018 :: Log Egrimm: l i cor
+Sun Nov 25 00:54:11 2018 :: Log Egrimm: scan
+Sun Nov 25 00:54:12 2018 :: Log Egrimm: look
+Sun Nov 25 00:54:13 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:13 2018 :: Log Egrimm: scan
+Sun Nov 25 00:54:14 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:15 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:16 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:17 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:17 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:18 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:19 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:19 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:20 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:21 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:22 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:23 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:24 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:30 2018 :: Log Egrimm: goss help
+Sun Nov 25 00:54:30 2018 :: Log Killuminati: restore Egrimm
+Sun Nov 25 00:54:33 2018 :: Log Egrimm: en po
+Sun Nov 25 00:54:42 2018 :: Log Egrimm: tell killuminati bigspellup
+Sun Nov 25 00:54:42 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:54:42 2018 :: Log Killuminati: restore Egrimm 
+Sun Nov 25 00:54:48 2018 :: Log Killuminati: restore self
+Sun Nov 25 00:54:49 2018 :: Log Egrimm: sc
+Sun Nov 25 00:54:50 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:51 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:52 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:52 2018 :: Log Egrimm: 
+Sun Nov 25 00:54:54 2018 :: Log Egrimm: inv
+Sun Nov 25 00:54:57 2018 :: Log Egrimm: drop all
+Sun Nov 25 00:55:00 2018 :: Log Egrimm: quit
+Sun Nov 25 00:55:00 2018 :: Egrimm has quit. [Room: 4210]
+Sun Nov 25 00:55:00 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Nov 25 00:55:00 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 00:55:00 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Nov 25 00:55:00 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 00:55:01 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 00:55:03 2018 :: Loading Wentworth's playerfile
+Sun Nov 25 00:55:03 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sun Nov 25 00:55:05 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 3758]
+Sun Nov 25 00:55:15 2018 :: Log Wentworth: drop sca
+Sun Nov 25 00:55:18 2018 :: Log Wentworth: drop cher
+Sun Nov 25 00:55:52 2018 :: Log Wentworth: drop charm
+Sun Nov 25 00:57:19 2018 :: Wentworth has quit. [Room: 4210]
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 00:57:19 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 00:57:19 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 01:20:17 2018 :: Sock.sinaddr:  71.87.246.115
+Sun Nov 25 01:20:18 2018 :: EOF encountered on read.
+Sun Nov 25 01:36:04 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:36:09 2018 :: Loading Nero's playerfile
+Sun Nov 25 01:36:10 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4208]
+Sun Nov 25 01:36:40 2018 :: Log Killuminati: restore Nero
+Sun Nov 25 01:44:47 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:44:52 2018 :: Loading Nero's playerfile
+Sun Nov 25 01:45:31 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:45:34 2018 :: Loading Nero's playerfile
+Sun Nov 25 01:45:47 2018 :: Closing link to Nero.
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Closing link to Nero.
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:45:47 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 01:45:47 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:45:47 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com reconnected. [Room: 10171]
+Sun Nov 25 01:46:08 2018 :: EOF encountered on read.
+Sun Nov 25 01:46:08 2018 :: Closing link to Killuminati.
+Sun Nov 25 01:46:43 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:46:48 2018 :: Loading Wentworth's playerfile
+Sun Nov 25 01:46:48 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sun Nov 25 01:46:49 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 01:46:58 2018 :: Wentworth has quit. [Room: 4210]
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 4
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 3
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:46:58 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 01:46:58 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 01:47:00 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:47:02 2018 :: Loading Nero's playerfile
+Sun Nov 25 01:47:05 2018 :: Closing link to Nero.
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:47:05 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 01:47:05 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:47:05 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com reconnected. [Room: 10171]
+Sun Nov 25 01:48:32 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Nov 25 01:48:32 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:49:04 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Nov 25 01:49:04 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Nov 25 01:50:38 2018 :: Nero has quit. [Room: 10172]
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 01:50:38 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 01:50:38 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 01:50:52 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:50:53 2018 :: Loading Egrimm's playerfile
+Sun Nov 25 01:50:55 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 01:51:01 2018 :: Log Egrimm: goto lamorak
+Sun Nov 25 01:51:04 2018 :: Log Egrimm: 
+Sun Nov 25 01:51:06 2018 :: Log Egrimm: dm king
+Sun Nov 25 01:51:09 2018 :: Log Egrimm: dm
+Sun Nov 25 01:51:13 2018 :: Log Egrimm: dm
+Sun Nov 25 01:51:16 2018 :: Log Egrimm: dm
+Sun Nov 25 01:51:19 2018 :: Sock.sinaddr:  192.168.1.1
+Sun Nov 25 01:51:19 2018 :: Log Egrimm: dm
+Sun Nov 25 01:51:19 2018 :: Loading Killuminati's playerfile
+Sun Nov 25 01:51:20 2018 :: Killuminati@192.168.1.1 reconnected. [Room: 4208]
+Sun Nov 25 01:51:22 2018 :: Log Egrimm: c fae
+Sun Nov 25 01:51:26 2018 :: Log Egrimm: c fae
+Sun Nov 25 01:51:31 2018 :: Log Egrimm: who
+Sun Nov 25 01:51:37 2018 :: Log Egrimm: get ex cor
+Sun Nov 25 01:51:39 2018 :: Log Egrimm: l i cor
+Sun Nov 25 01:51:42 2018 :: Log Egrimm: get gold cor
+Sun Nov 25 01:51:44 2018 :: Log Egrimm: who
+Sun Nov 25 01:51:46 2018 :: Log Egrimm: quit
+Sun Nov 25 01:51:46 2018 :: Egrimm has quit. [Room: 770]
+Sun Nov 25 01:51:46 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Nov 25 01:51:46 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 01:51:46 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Nov 25 01:51:46 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 01:51:48 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 01:51:50 2018 :: Loading Nero's playerfile
+Sun Nov 25 01:51:51 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 10172]
+Sun Nov 25 01:51:59 2018 :: Log Killuminati: restore Nero
+Sun Nov 25 01:53:45 2018 :: Log Killuminati: restore Nero
+Sun Nov 25 01:53:54 2018 :: Log Killuminati: restore self
+Sun Nov 25 01:53:55 2018 :: Log Killuminati: restore Nero 
+Sun Nov 25 01:54:01 2018 :: Log Killuminati: restore self
+Sun Nov 25 01:55:03 2018 :: Log Nero: drop star
+Sun Nov 25 01:55:03 2018 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Nov 25 01:55:03 2018 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 01:55:13 2018 :: Called for vnum: 717 to modify as: -1 as gameload.
+Sun Nov 25 01:55:13 2018 :: Vnum 717|Signval: -1|Gameload|Total: 2
+Sun Nov 25 01:57:55 2018 :: Log Killuminati: restore Nero
+Sun Nov 25 01:59:55 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Nov 25 01:59:55 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 01:59:56 2018 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Nov 25 01:59:56 2018 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:00:57 2018 :: Log Nero: drop dag
+Sun Nov 25 02:01:16 2018 :: Log Nero: drop cloak
+Sun Nov 25 02:01:17 2018 :: Log Nero: drop cloak
+Sun Nov 25 02:01:47 2018 :: Log Nero: drop cloak
+Sun Nov 25 02:01:48 2018 :: Log Nero: drop cloak
+Sun Nov 25 02:01:49 2018 :: Log Nero: drop dag
+Sun Nov 25 02:02:32 2018 :: Log Nero: drop ex
+Sun Nov 25 02:02:33 2018 :: Nero has quit. [Room: 4210]
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:02:33 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 02:02:33 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:02:35 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 02:02:37 2018 :: Loading Wentworth's playerfile
+Sun Nov 25 02:02:37 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sun Nov 25 02:02:38 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 02:02:50 2018 :: Log Wentworth: drop saber
+Sun Nov 25 02:02:57 2018 :: Log Wentworth: drop bash
+Sun Nov 25 02:02:58 2018 :: Log Wentworth: drop bash
+Sun Nov 25 02:02:58 2018 :: Log Wentworth: drop bash
+Sun Nov 25 02:03:16 2018 :: Log Wentworth: drop star
+Sun Nov 25 02:03:17 2018 :: Log Wentworth: drop star
+Sun Nov 25 02:03:27 2018 :: Log Wentworth: drop gold
+Sun Nov 25 02:03:41 2018 :: Log Wentworth: drop sar
+Sun Nov 25 02:03:43 2018 :: Log Wentworth: drop star
+Sun Nov 25 02:03:52 2018 :: Log Wentworth: drop cloak
+Sun Nov 25 02:03:57 2018 :: Log Wentworth: drop cloak
+Sun Nov 25 02:04:05 2018 :: Log Wentworth: drop shr
+Sun Nov 25 02:04:28 2018 :: Log Wentworth: drop plat
+Sun Nov 25 02:04:28 2018 :: Log Wentworth: drop plat
+Sun Nov 25 02:04:52 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 02:04:52 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:04:52 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Nov 25 02:04:52 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:04:54 2018 :: Log Wentworth: drop staff
+Sun Nov 25 02:04:54 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Nov 25 02:04:54 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:06:06 2018 :: Wentworth has quit. [Room: 4210]
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:06:06 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 02:06:06 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 02:06:08 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 02:06:09 2018 :: Loading Nero's playerfile
+Sun Nov 25 02:06:11 2018 :: Nero@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 02:06:38 2018 :: Log Nero: drop shr
+Sun Nov 25 02:07:23 2018 :: Nero has quit. [Room: 4210]
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 7664 to modify as: -1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 7664|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 7664 to modify as: 1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 7664|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 7665 to modify as: -1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 7665|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 7665 to modify as: 1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 7665|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 28114 to modify as: -1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 28114|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:07:23 2018 :: Called for vnum: 28114 to modify as: 1 as playerload.
+Sun Nov 25 02:07:23 2018 :: Vnum 28114|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:07:25 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 02:07:27 2018 :: Loading Egrimm's playerfile
+Sun Nov 25 02:07:28 2018 :: Egrimm@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 770]
+Sun Nov 25 02:07:31 2018 :: Log Egrimm: dm king
+Sun Nov 25 02:07:34 2018 :: Log Egrimm: c fae
+Sun Nov 25 02:07:37 2018 :: Log Egrimm: ice
+Sun Nov 25 02:07:41 2018 :: Log Egrimm: get all
+Sun Nov 25 02:07:41 2018 :: Log Egrimm: wear all
+Sun Nov 25 02:07:42 2018 :: Log Egrimm: ice
+Sun Nov 25 02:07:46 2018 :: Log Egrimm: ice
+Sun Nov 25 02:07:49 2018 :: Log Egrimm: ice
+Sun Nov 25 02:07:52 2018 :: Log Egrimm: ice
+Sun Nov 25 02:07:56 2018 :: Log Egrimm: ice
+Sun Nov 25 02:08:01 2018 :: Log Egrimm: inv
+Sun Nov 25 02:08:03 2018 :: Log Egrimm: drop sc
+Sun Nov 25 02:08:05 2018 :: Log Egrimm: get ex cor
+Sun Nov 25 02:08:07 2018 :: Log Egrimm: /
+Sun Nov 25 02:08:08 2018 :: Log Egrimm: 
+Sun Nov 25 02:08:09 2018 :: Log Egrimm: 
+Sun Nov 25 02:08:10 2018 :: Log Egrimm: 
+Sun Nov 25 02:08:12 2018 :: Log Egrimm: drop ex
+Sun Nov 25 02:08:12 2018 :: Log Egrimm: drop ex
+Sun Nov 25 02:08:13 2018 :: Log Egrimm: drop ex
+Sun Nov 25 02:08:14 2018 :: Log Egrimm: inv
+Sun Nov 25 02:08:16 2018 :: Log Egrimm: l i pack
+Sun Nov 25 02:08:25 2018 :: Log Egrimm: eq
+Sun Nov 25 02:09:06 2018 :: Log Egrimm: wor
+Sun Nov 25 02:09:09 2018 :: Log Egrimm: get ex
+Sun Nov 25 02:09:12 2018 :: Log Egrimm: put ex pack
+Sun Nov 25 02:09:17 2018 :: Log Egrimm: quit
+Sun Nov 25 02:09:17 2018 :: Egrimm has quit. [Room: 4210]
+Sun Nov 25 02:09:17 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Nov 25 02:09:17 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:09:17 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Nov 25 02:09:17 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 02:09:19 2018 :: Sock.sinaddr:  97.88.72.5
+Sun Nov 25 02:09:21 2018 :: Loading Wentworth's playerfile
+Sun Nov 25 02:09:21 2018 :: [*****] BUG: Read_object: vnum 9955 bad type.
+Sun Nov 25 02:09:22 2018 :: Wentworth@97-88-72-5.dhcp.stls.mo.charter.com has connected. [Room: 4210]
+Sun Nov 25 02:09:29 2018 :: Log Wentworth: drop holy
+Sun Nov 25 02:09:29 2018 :: Log Wentworth: drop holy
+Sun Nov 25 02:09:29 2018 :: Log Wentworth: drop holy
+Sun Nov 25 02:10:04 2018 :: Wentworth has quit. [Room: 4210]
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 9955 to modify as: -1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 9955|Signval: -1|!Gameload|Total: 1
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Nov 25 02:10:04 2018 :: Called for vnum: 9955 to modify as: 1 as playerload.
+Sun Nov 25 02:10:04 2018 :: Vnum 9955|Signval: 1|!Gameload|Total: 0
+Sun Nov 25 03:40:10 2018 :: Sock.sinaddr:  85.224.98.194
+Sun Nov 25 03:40:10 2018 :: EOF encountered on read.

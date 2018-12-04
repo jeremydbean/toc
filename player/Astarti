@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1543578948
+LogO 1543884770
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,26 +11,26 @@ Cla  0
 Gui  0
 Psionic  1
 Cast none
-Levl 54
-Plyd 22772
+Levl 59
+Plyd 31707
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 4208
-HMV  371 371 270 270 418 418
-NewGold 0
-NewPlat 0
-NewCopp 0
-NewSilv 0
+Room 29206
+HMV  633 633 798 798 448 448
+NewGold 78
+NewPlat 30
+NewCopp 186
+NewSilv 138
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  152000
+Exp  427071
 Act  220
-AfBy 128
+AfBy 512
 Comm 24576
 Mounted 0
 On_Quest 0
@@ -56,18 +56,21 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 54
-Trai 56
-Alig  0
-ACs 100 100 100 100
+Prac 237
+Trai 59
+Save  7500
+Alig  8
+Hit   7500
+Dam   7500
+ACs 10100 10100 10100 10100
 Attr 13 16 13 13 13
-AMod 0 0 0 0 0
+AMod 1000 1000 1000 1000 1000
 Pass AsQheSp/NGAuY~
-Titl  the Knight of the Realms~
+Titl  the .~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 371 270 418
+HMVP 633 798 448
 Cond 0 100 100
 Sk 100 'reserved'
 Sk 100 'aid'
@@ -297,7 +300,28 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
-AffD 'sanctuary'  -1   4   0   0        128          0
+AffD 'infravision'   0  35   0   0        512          0
+End
+
+#O
+Vnum 29303
+Nest 0
+Wear 16
+Lev  56
+Cost 1000000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
 End
 
 #END

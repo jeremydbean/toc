@@ -1,5 +1,5 @@
-#!/bin/bash -x
-# By Killuminati
+#!/bin/bash
+#By Killuminati
 
 cd /mnt/e/ToC/src
 rm *.o
@@ -14,16 +14,14 @@ set +x
 echo "Done."
 echo ""
 sleep 3
-read -p "Kill existing processes and start ToC?"  RESPONSE
+
+cd /mnt/e/ToC/
+
+read -p "Kill any existing sessions and then reload ToC? [y/n?] "  RESPONSE
 if [ "$RESPONSE" = y ]; then
-	pkill -e merc
-	pkill -e immortal
-	pkill -e startup
-	./startup &
-elif ["$RESPONSE" = n ]; then
+(pkill -e merc; pkill -e immortal; pkill -e startup; ./startup &) &
+elif [ "$RESPONSE" = n ]; then
 	echo "Reboot in game for changes to take effect."
 else
 	echo "Make a valid selection! [y or n]"
 fi
-
-

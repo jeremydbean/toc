@@ -7,7 +7,6 @@ set port = 9000
 if ( "$1" != "" ) set port="$1"
 
 # So we can get core files created
-ulimit -n 65535
 sudo sysctl -p
 
 # set default permissions for saves
@@ -22,10 +21,11 @@ if ( -e shutdown.txt ) rm -f shutdown.txt
 while ( 1 )
     # If you want to have logs in a different directory,
     #   change the 'set logfile' line to reflect the directory name.
-	sudo chmod 777 /mnt/e/ToC/log -R
+
     set index = 1000
     while ( 1 )
 	set logfile = /mnt/e/ToC/log/$index.log
+		sudo chmod 777 /mnt/e/ToC/log -R
 	if ( ! -e $logfile ) break
 	@ index++
     end
@@ -48,13 +48,12 @@ while ( 1 )
 	cd /mnt/e/ToC/area
     rm -f shutdown.txt
 	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
-	touch $logfile
-	sudo chmod 777 $logfile
 	echo ToC Starting!
-    ./merc $port | tee -a $logfile
-	#echo sudo lnav $logfile
-	#./merc $port >&! $logfile
-	
+  #./merc $port | sudo tee /mnt/e/ToC/log/toc.log
+	echo sudo lnav $logfile
+  ./merc $port >&! $logfile
+
+
 
     # Save to core files
 #    if ( -e core ) mv core core.$index

@@ -391,14 +391,8 @@ void gain_exp( CHAR_DATA *ch, int gain )
     int chance;
 
 
-    if ( IS_NPC(ch) || ch->level > LEVEL_HERO4 || ch->level == 50)
+    if ( IS_NPC(ch) || ch->level > 59 || ch->level == 50)
 	return;
-
-    if (ch -> level == LEVEL_HERO3 + ch->pcdata->num_remorts)
-        return;
-
-    if (ch->level == LEVEL_HERO3 + 3)
-        return;
 
      ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
 

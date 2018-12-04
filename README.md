@@ -7,6 +7,5 @@ CURRENT REPORTED BUGS:
 
 <strike>- Game currently allows players to log in multiple times.  (Many copies of the character can be loaded.)  It appears this is related to 	(at least) failing to check code at line 2544 in comm.c.  </strike>
 
-
 sudo chmod -R 777 toc
 sudo chmod a+rwx -R toc

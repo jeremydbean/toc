@@ -3525,7 +3525,7 @@ void config_prompt( CHAR_DATA *ch )
         sprintf(buf,"%ld",ch->exp);
         str_replace_c(buf2, "%x", buf);
 
-        if (!IS_NPC(ch) && (ch->level < 54) )
+        if (!IS_NPC(ch) && (ch->level < 59) )
             sprintf(buf,"%ld", next_xp_level(ch)-ch->exp);
         else
             sprintf(buf,"none");
