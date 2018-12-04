@@ -1,7 +1,7 @@
 #PLAYER
 Name Astarti~
 Id   55051
-LogO 1543901269
+LogO 1543911390
 Vers 3
 Prom ~
 Ignoring ~
@@ -11,24 +11,25 @@ Cla  0
 Gui  0
 Psionic  1
 Cast none
-Levl 59
-Plyd 47891
+Levl 55
+Tru  69
+Plyd 56658
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 29206
-HMV  633 633 798 798 448 448
-NewGold 78
-NewPlat 30
-NewCopp 186
-NewSilv 138
+HMV  592 592 696 696 424 424
+NewGold 182
+NewPlat 70
+NewCopp 434
+NewSilv 322
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  427071
+Exp  187094
 Act  220
 Comm 24576
 Mounted 0
@@ -55,21 +56,21 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 237
-Trai 59
+Prac 219
+Trai 56
 Save  7500
-Alig  8
+Alig  1
 Hit   7500
 Dam   7500
 ACs 10100 10100 10100 10100
 Attr 13 16 13 13 13
 AMod 1000 1000 1000 1000 1000
 Pass AsQheSp/NGAuY~
-Titl  the .~
+Titl  the Master of the Realms~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 633 798 448
+HMVP 592 696 424
 Cond 0 100 100
 Sk 100 'reserved'
 Sk 100 'aid'
