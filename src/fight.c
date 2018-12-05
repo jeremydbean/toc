@@ -2663,7 +2663,15 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
     {
       sprintf(buf,"%s gained %d XP.",gch->name,xp);
       wizinfo(buf,LEVEL_IMMORTAL);
+
     }
+
+		if(gch->level > 49 && xp >= 50 )
+		{
+			sprintf(buf,"[XP TRACK]: %s gained %d XP.",gch->name,xp);
+			log_string(buf);
+
+		}
 
     return xp;
 }
