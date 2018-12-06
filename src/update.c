@@ -345,6 +345,8 @@ EC				  + get_curr_stat(ch,STAT_WIS))/5);
     {
 	if(IS_IMMORTAL(ch) )
 	    sprintf(buf, "%s has been granted Immortality!", ch->name);
+  else if(ch->level == LEVEL_KING)
+    	    sprintf(buf,"%s has reached the pinnacle of mortal power!!!",ch->name);
 	else if(ch->level == LEVEL_HERO4)
 	    sprintf(buf,"%s is now a Lord of the Realms!!!!",ch->name);
 	else if(ch->level == LEVEL_HERO3)
@@ -352,11 +354,12 @@ EC				  + get_curr_stat(ch,STAT_WIS))/5);
 	else if(ch->level > LEVEL_HERO && ch->level < LEVEL_HERO4)
 	    sprintf(buf,"%s has reached the next level of Heroism!!",ch->name);
 	else if(IS_HERO(ch) )
-	    sprintf(buf, "%s has reached the Pinnacle of Mortal Power!",
+	    sprintf(buf, "%s is now a hero!",
 		ch->name);
 	else
 	    sprintf(buf, "%s has achieved level %d!", ch->name, ch->level);
 	send_info(buf);
+    log_string( buf );
     }
     return;
 }
@@ -388,15 +391,16 @@ long next_xp_level( CHAR_DATA *ch )
 
 void gain_exp( CHAR_DATA *ch, int gain )
 {
+    char buf[MAX_STRING_LENGTH];
     int chance;
 
-    if ( IS_NPC(ch) || ch->level > LEVEL_HERO4 || ch->level == 50)
+    if ( IS_NPC(ch) || ch->level > LEVEL_KING || ch->level == 50)
 	     return;
 
-    if (ch -> level == LEVEL_HERO3 + ch->pcdata->num_remorts)
+    if (ch -> level == 54 + ch->pcdata->num_remorts)
         return;
 
-    if (ch->level == LEVEL_HERO3 + 5)
+    if (ch->level == LEVEL_KING)
         return;
 
      ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
@@ -428,6 +432,19 @@ void gain_exp( CHAR_DATA *ch, int gain )
 	    send_to_char("your worthiness to become a Hero of the Realms.  The quest will not be an\n\r",ch);
 	    send_to_char("easy one, and will take you to many foreign places. Also, you WILL NOT\n\r",ch);
 	    send_to_char("be able to COMMUNICATE with anyone until your Quest has been finished.\n\r",ch);
+	  }
+
+    if(ch->level == 59)
+	  {
+      send_to_char(" ============================================================== \n\r",ch);
+      send_to_char("                                                                \n\r",ch);
+	    send_to_char(" ***  Congratulations.  You've done it.  You've beaten ToC. *** \n\r",ch);
+      send_to_char("                                                                \n\r",ch);
+      sprintf( buf,"                                    Total Time Played: %d           ",(int) (ch->played + current_time - ch->logon) / 3600);
+	    send_to_char(buf,ch);
+      send_to_char(" \n\r",ch);
+      send_to_char(" ============================================================== \n\r",ch);
+
 	  }
 
 	  chance = number_range(18,21);

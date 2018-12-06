@@ -233,25 +233,13 @@ Please type HELP NEWS for information about a magical staff.
 Please type HELP RULES, ignorance of the rules is not an excuse.
 
 
-      NOTE: If the MUD crashes when you attempt to log in a character,
-      please leave a note to Killuminati with the name.  [help note]
-                                            - Killuminati (11/19/2018)
 
 ~
 
 62 IMOTD~
 Welcome Immortal!
 
-NEW COMMANDS:
 
- - c iportal <target> - immortal only spell, identical to portal, but with
- 		no restrictions on target or room casted. (set skill self iportal 100)
-- c wormhole <target> - immortal only spell, identical to iportal, but connects
- 		the locations at both sides.  (set skill self wormhole 100)
-
- - Use the qflag command to set the (Quest) flag on players during imm quests.
- - Use the rwhere command to find the location of a specific room name.
- - Depending on level, you will now see [WizInfo] alerts for psionic information.
 
 ~
 

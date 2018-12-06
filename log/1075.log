@@ -1,0 +1,245 @@
+Wed Dec  5 22:46:59 2018 :: LOADING COMM TABLE
+Wed Dec  5 22:46:59 2018 ::  INIT OK 
+Wed Dec  5 22:46:59 2018 :: Ended LOADING COMM TABLE
+Wed Dec  5 22:46:59 2018 :: Ended Fixing Exits
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Wed Dec  5 22:46:59 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Wed Dec  5 22:46:59 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Wed Dec  5 22:46:59 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Wed Dec  5 22:46:59 2018 :: Ended Area Update
+Wed Dec  5 22:46:59 2018 :: Ended Loading Notes
+Wed Dec  5 22:46:59 2018 :: Ended Loading Ban
+Wed Dec  5 22:46:59 2018 :: Ended Loading Pkills
+Wed Dec  5 22:46:59 2018 :: TOC is ready to rock on port 9000.
+Wed Dec  5 22:46:59 2018 :: Setting up signals.
+Wed Dec  5 22:46:59 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Wed Dec  5 22:47:05 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 22:47:06 2018 :: Loading Killuminati's playerfile
+Wed Dec  5 22:47:06 2018 :: Killuminati@localhost has connected. [Room: 4911]
+Wed Dec  5 22:49:07 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 22:49:07 2018 :: Loading Testies's playerfile
+Wed Dec  5 22:49:07 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 22:49:39 2018 :: Log Killuminati: restore self
+Wed Dec  5 22:49:39 2018 :: Log Killuminati: restore test 
+Wed Dec  5 22:49:45 2018 :: Log Killuminati: restore self
+Wed Dec  5 22:57:50 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 22:58:01 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 22:58:01 2018 :: Loading Testies's playerfile
+Wed Dec  5 22:58:02 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:07:13 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:07:24 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:07:25 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:07:25 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:16:53 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:17:03 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:17:04 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:17:04 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:25:02 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:25:13 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:25:13 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:25:14 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:35:17 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:35:28 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:35:28 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:35:29 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:44:23 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:44:34 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:44:34 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:44:35 2018 :: Testies@localhost has connected. [Room: 25265]
+Wed Dec  5 23:53:34 2018 :: Testies has quit. [Room: 2]
+Wed Dec  5 23:53:45 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec  5 23:53:45 2018 :: Loading Testies's playerfile
+Wed Dec  5 23:53:46 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:02:36 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:02:47 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:02:47 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:02:47 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:11:04 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:11:15 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:11:15 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:11:16 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:19:59 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:20:10 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:20:10 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:20:10 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:28:19 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:28:30 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:28:30 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:28:30 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:37:59 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:38:09 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:38:09 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:38:10 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:47:09 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:47:19 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:47:20 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:47:20 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 00:52:48 2018 :: Sock.sinaddr:  174.45.88.53
+Thu Dec  6 00:52:54 2018 :: Loading Headslicer's playerfile
+Thu Dec  6 00:53:00 2018 :: EOF encountered on read.
+Thu Dec  6 00:53:00 2018 :: Closing link to Headslicer.
+Thu Dec  6 00:55:50 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 00:56:00 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 00:56:01 2018 :: Loading Testies's playerfile
+Thu Dec  6 00:56:01 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:05:18 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:05:28 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:05:29 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:05:29 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:14:29 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:14:39 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:14:39 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:14:40 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:25:08 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:25:18 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:25:19 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:25:19 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:34:12 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:34:23 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:34:23 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:34:23 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:44:08 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:44:18 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:44:19 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:44:19 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 01:53:39 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 01:53:50 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 01:53:51 2018 :: Loading Testies's playerfile
+Thu Dec  6 01:53:51 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:03:36 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:03:47 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:03:47 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:03:48 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:12:20 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:12:31 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:12:32 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:12:32 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:22:16 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:22:26 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:22:27 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:22:27 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:32:12 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:32:23 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:32:24 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:32:24 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:42:34 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:42:45 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:42:46 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:42:46 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:51:27 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:51:38 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:51:38 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:51:38 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 02:59:40 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 02:59:51 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 02:59:51 2018 :: Loading Testies's playerfile
+Thu Dec  6 02:59:52 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:07:26 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:07:37 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:07:38 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:07:38 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:17:17 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:17:27 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:17:28 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:17:28 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:26:07 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:26:18 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:26:19 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:26:19 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:34:42 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:34:53 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:34:54 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:34:54 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:44:18 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:44:29 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:44:29 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:44:30 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 03:53:38 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 03:53:49 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 03:53:50 2018 :: Loading Testies's playerfile
+Thu Dec  6 03:53:50 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:03:34 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:03:44 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:03:44 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:03:45 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:12:22 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:12:33 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:12:34 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:12:34 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:21:34 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:21:45 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:21:45 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:21:45 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:32:30 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:32:41 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:32:42 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:32:42 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:42:01 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:42:12 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:42:12 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:42:12 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 04:51:16 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 04:51:27 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 04:51:27 2018 :: Loading Testies's playerfile
+Thu Dec  6 04:51:27 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 05:00:14 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 05:00:25 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 05:00:25 2018 :: Loading Testies's playerfile
+Thu Dec  6 05:00:26 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 05:10:13 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 05:10:24 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 05:10:24 2018 :: Loading Testies's playerfile
+Thu Dec  6 05:10:24 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 05:19:07 2018 :: Testies has quit. [Room: 2]
+Thu Dec  6 05:19:17 2018 :: Sock.sinaddr:  127.0.0.1
+Thu Dec  6 05:19:17 2018 :: Loading Testies's playerfile
+Thu Dec  6 05:19:18 2018 :: Testies@localhost has connected. [Room: 25265]
+Thu Dec  6 05:28:29 2018 :: Log Testies: adv self 54
+Thu Dec  6 05:28:50 2018 :: Log Testies: adv self 1
+Thu Dec  6 05:29:12 2018 :: Log Killuminati: restore self
+Thu Dec  6 05:29:12 2018 :: Log Killuminati: restore Testies 
+Thu Dec  6 05:29:18 2018 :: Log Killuminati: restore self
+Thu Dec  6 05:29:28 2018 :: Log Testies: restore self
+Thu Dec  6 05:30:14 2018 :: Log Testies: set skill hand self 100
+Thu Dec  6 05:30:24 2018 :: Log Testies: set skill self hand 100

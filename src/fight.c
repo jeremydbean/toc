@@ -2469,25 +2469,26 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
 	case  3 :       base_exp = 143;         break;
 	case  4 :       base_exp = 165;         break;
 */
-	default :       base_exp =   0;         break;
-	case -9 :       base_exp =   1;         break;
-	case -8 :       base_exp =   2;         break;
-	case -7 :       base_exp =   5;         break;
-	case -6 :       base_exp =  10;         break;
-	case -5 :       base_exp =  15;         break;
-	case -4 :       base_exp =  25;         break;
-	case -3 :       base_exp =  35;         break;
-	case -2 :       base_exp =  45;         break;
-	case -1 :       base_exp =  60;         break;
-	case  0 :       base_exp =  80;         break;
-	case  1 :       base_exp =  90;         break;
-	case  2 :       base_exp = 125;         break;
-	case  3 :       base_exp = 150;         break;
-	case  4 :       base_exp = 180;         break;
-    }
 
-    if (level_range > 4)
-	base_exp = 180 + 20 * (level_range - 4);
+default :       base_exp =   0;         break;
+case -9 :       base_exp =   1;         break;
+case -8 :       base_exp =   2;         break;
+case -7 :       base_exp =   5;         break;
+case -6 :       base_exp =  10;         break;
+case -5 :       base_exp =  15;         break;
+case -4 :       base_exp =  25;         break;
+case -3 :       base_exp =  35;         break;
+case -2 :       base_exp =  45;         break;
+case -1 :       base_exp =  60;         break;
+case  0 :       base_exp = 100;         break;
+case  1 :       base_exp = 125;         break;
+case  2 :       base_exp = 150;         break;
+case  3 :       base_exp = 175;         break;
+case  4 :       base_exp = 200;         break;
+	}
+
+	if (level_range > 4)
+base_exp = 200 + 50 * (level_range - 4);
 
     /* Group bonus */
     switch (number_in_group)
@@ -2636,12 +2637,29 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
 
     /* Got em hooked now, so make it a little harder */
     if (gch->level > 35 )
-	xp =  15 * xp / (gch->level - 20 );
+	xp =  15 * xp / (gch->level - 10 );
+
+/* Increased level XP due to lack of mobs - Killum. */
 
 
-    if( IS_AFFECTED2( gch, AFF2_DIVINE_PROT ) )
+    if (gch->level > 35 && gch->level < 54)
+		xp +=  1.5 * xp;
+
+	if (gch->level == 55)
+		xp +=  1.5 * xp;
+
+	if (gch->level == 56)
+	  xp +=  1.75 * xp;
+
+	if (gch->level == 57)
+	  xp +=  1.75 * xp;
+
+	if (gch->level == 58)
+	  xp +=  1.5 * xp;
+
+/*if( IS_AFFECTED2( gch, AFF2_DIVINE_PROT )
 	  xp +=  2 * xp;
-
+*/
 
   /* TOok out the time exp shit GR */
 
@@ -2659,7 +2677,7 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
     /* adjust for grouping */
     xp = xp * gch->level/total_levels * group_bonus;
 
-    if(gch->level > 10 && xp >= 300 )
+    if(gch->level > 10 && xp >= 400 )
     {
       sprintf(buf,"%s gained %d XP.",gch->name,xp);
       wizinfo(buf,LEVEL_IMMORTAL);
@@ -2668,7 +2686,7 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,
 
 		if(gch->level > 49 && xp >= 50 )
 		{
-			sprintf(buf,"[XP TRACK]: %s gained %d XP.",gch->name,xp);
+			sprintf(buf,"[XP TRACK]: ;%s; gained ;%d; XP.",gch->name,xp);
 			log_string(buf);
 
 		}

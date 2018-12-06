@@ -136,6 +136,7 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void *vo ) );
 #define MAX_LEVEL                  70
 #define MAX_PKILL_LIST             20
 #define LEVEL_IMMORTAL             (MAX_LEVEL - 10)
+#define LEVEL_KING								 (MAX_LEVEL - 11)
 #define LEVEL_HERO4                (MAX_LEVEL - 15)
 #define LEVEL_HERO3                (MAX_LEVEL - 16)
 #define LEVEL_HERO2                (MAX_LEVEL - 17)
@@ -245,7 +246,7 @@ struct offense_data
         int            offense_id;
         char           *offense_on;
         char           *offense_text;
-};  
+};
 
 struct  time_info_data
 {
@@ -344,7 +345,7 @@ struct  descriptor_data
     pid_t		ipid;
     char *		ident;
     int 		port;
-    int			ip; 
+    int			ip;
     int			top_web_desc;
     sh_int              descriptor;
     sh_int              connected;
@@ -508,10 +509,10 @@ struct  shop_data
 #define CASTLE_FOUR             17503
 
 /*
-#define RELIC_VNUM1             4506  
-#define RELIC_VNUM2             4507  
-#define RELIC_VNUM3             4508  
-#define RELIC_VNUM4             4509  
+#define RELIC_VNUM1             4506
+#define RELIC_VNUM2             4507
+#define RELIC_VNUM3             4508
+#define RELIC_VNUM4             4509
 #define RELIC_VNUM5             4510
 #define RELIC_VNUM6             4511
 #define RELIC_VNUM7             4512
@@ -2118,7 +2119,7 @@ extern sh_int  gsn_baura;
  * Character macros.
  */
 #define IS_NPC(ch)              (IS_SET((ch)->act, ACT_IS_NPC))
-#define IS_SWITCHED(ch)         (ch->desc != NULL && ch->desc->original != NULL) 
+#define IS_SWITCHED(ch)         (ch->desc != NULL && ch->desc->original != NULL)
 #define IS_IMMORTAL(ch)         (ch->level >= LEVEL_IMMORTAL)
 #define IS_IMP(ch)		(ch->level == MAX_LEVEL)
 #define IS_HERO(ch)             (ch->level >= LEVEL_HERO)
@@ -2134,7 +2135,7 @@ extern sh_int  gsn_baura;
 #define IS_NEUTRAL(ch)          (!IS_GOOD(ch) && !IS_EVIL(ch))
 
 #define IS_AWAKE(ch)            (ch->position > POS_SLEEPING)
-#define GET_AC(ch,type)         ((ch)->armor[type] + ( IS_AWAKE(ch) ? dex_app[get_curr_stat(ch,STAT_DEX)].defensive : 0 ))  
+#define GET_AC(ch,type)         ((ch)->armor[type] + ( IS_AWAKE(ch) ? dex_app[get_curr_stat(ch,STAT_DEX)].defensive : 0 ))
 #define GET_HITROLL(ch) ((ch)->hitroll+str_app[get_curr_stat(ch,STAT_STR)].tohit)
 #define GET_DAMROLL(ch)	((ch)->damroll+str_app[get_curr_stat(ch,STAT_STR)].todam)
 
@@ -2312,7 +2313,7 @@ int     fclose          args( ( FILE *stream ) );
 int     fprintf         args( ( FILE *stream, const char *format, ... ) );
 int     atoi            args( ( const char *string ) );
 #if     defined(SYSV)
-siz_t   fread           args( ( void *ptr, size_t size, size_t n, 
+siz_t   fread           args( ( void *ptr, size_t size, size_t n,
 			    FILE *stream) );
 #else
 int     fread           args( ( void *ptr, int size, int n, FILE *stream ) );
@@ -2424,7 +2425,7 @@ void    do_bounce	args( (OBJ_DATA *obj) );
 void    add_money       args( (CHAR_DATA *ch, long amount) );
 long    query_gold      args( (CHAR_DATA *ch) );
 int     query_carry_weight args( ( CHAR_DATA *ch) );
-int     query_carry_coins  args( ( CHAR_DATA *ch, long amount) ); 
+int     query_carry_coins  args( ( CHAR_DATA *ch, long amount) );
 void    add_gold        args( (CHAR_DATA *ch, long amount) );
 void    add_copper      args( (CHAR_DATA *ch, long amount) );
 void    add_silver      args( (CHAR_DATA *ch, long amount) );
@@ -2443,7 +2444,7 @@ void    send_to_room    args( ( const char *txt, int vnum ) );
 void    page_to_char    args( ( const char *txt, CHAR_DATA *ch ) );
 void    act             args( ( const char *format, CHAR_DATA *ch,
 			    const void *arg1, const void *arg2, int type ) );
-void    act_new         args( ( const char *format, CHAR_DATA *ch, 
+void    act_new         args( ( const char *format, CHAR_DATA *ch,
 			    const void *arg1, const void *arg2, int type,
 			    int min_pos) );
 char *  speak_filter    args( (CHAR_DATA *ch, const char *str) );
@@ -2663,7 +2664,7 @@ bool    parse_gen_groups args( ( CHAR_DATA *ch,char *argument ) );
 void    list_group_costs args( ( CHAR_DATA *ch ) );
 void    list_group_known args( ( CHAR_DATA *ch ) );
 int     exp_per_level   args( ( CHAR_DATA *ch, int points ) );
-void    check_improve   args( ( CHAR_DATA *ch, int sn, bool success, 
+void    check_improve   args( ( CHAR_DATA *ch, int sn, bool success,
 				    int multiplier ) );
 int     group_lookup    args( (const char *name) );
 void    gn_add          args( ( CHAR_DATA *ch, int gn) );

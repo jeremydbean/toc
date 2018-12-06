@@ -1,7 +1,7 @@
 #PLAYER
 Name Egrimm~
 Id   26087
-LogO 1543737218
+LogO 1543984633
 Vers 3
 Desc .
 
@@ -63,7 +63,7 @@ Gui  0
 Psionic  2
 Cast Rogu
 Levl 53
-Plyd 1787714
+Plyd 1788045
 ListRemorts ~
 NumRemorts 0
 Note 953485148
@@ -214,22 +214,22 @@ Gr 'guild elemental'
 Gr 'guild enhancement'
 Gr 'guild protective'
 Gr 'guild transportation'
-AffD 'fire shield'  18  68   0   0          0          8
-AffD 'frost shield'   1  68   0   0          0         16
-AffD 'detect hidden'  20  68   0   0         32          0
-AffD 'power gloves'   7  68  35  19          0          0
-AffD 'giant strength'  20  68   4   1          0          0
-AffD 'frenzy'  21  68 110  17          0          0
-AffD 'frenzy'  -1  68  11  19          0          0
-AffD 'frenzy'  45  68  11  18          0          0
-AffD 'aid'  39  68  25  13          0          0
-AffD 'aid'   0  68   7  18          0          0
-AffD 'divine protection'  33  68   0   0          0       4096
-AffD 'force sword'  33  68   0   0          0        512
-AffD 'bless'   0  74  -8  24          0          0
-AffD 'bless'  26  74   8  18          0          0
-AffD 'sanctuary'   0  68   0   0        128          0
-AffD 'major globe'  22  68 -150  17          0          0
+AffD 'major globe'  19  62 -150  17          0          0
+AffD 'sanctuary'   0  62   0   0        128          0
+AffD 'bless'  26  68   8  18          0          0
+AffD 'bless'   0  68  -8  24          0          0
+AffD 'force sword'  33  62   0   0          0        512
+AffD 'divine protection'  33  62   0   0          0       4096
+AffD 'aid'   0  62   7  18          0          0
+AffD 'aid'  37  62  25  13          0          0
+AffD 'frenzy'  44  62  11  18          0          0
+AffD 'frenzy'  -1  62  11  19          0          0
+AffD 'frenzy'  21  62 110  17          0          0
+AffD 'giant strength'  19  62   4   1          0          0
+AffD 'power gloves'   5  62  35  19          0          0
+AffD 'detect hidden'  19  62   0   0         32          0
+AffD 'frost shield'   1  62   0   0          0         16
+AffD 'fire shield'  17  62   0   0          0          8
 End
 
 #O
@@ -320,8 +320,8 @@ Cost 283
 Cond 100
 Repd 0
 Val  6 5 6 1 0
-Affect -1 34 -1 -4 13 0 0
 Affect -1 34 -1 -1 24 0 0
+Affect -1 34 -1 -4 13 0 0
 End
 
 #O
@@ -488,8 +488,8 @@ Lev  52
 Cost 5000
 Cond 100
 Repd 0
-AffD 'enchant weapon' 52 -1 7 19 0 0
 AffD 'enchant weapon' 52 -1 7 18 0 0
+AffD 'enchant weapon' 52 -1 7 19 0 0
 End
 
 #O
@@ -609,8 +609,8 @@ Lev  52
 Cost 7500
 Cond 100
 Repd 0
-AffD 'enchant weapon' 51 -1 10 18 0 0
 AffD 'enchant weapon' 51 -1 10 19 0 0
+AffD 'enchant weapon' 51 -1 10 18 0 0
 End
 
 #END
