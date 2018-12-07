@@ -2,7 +2,6 @@
 CC       = gcc
 PROF     =
 NOCRYPT  = -lcrypt
-DEBUG    = -g -O0 -Q -v -da
 C_FLAGS  = -O -Wall -DROM $(PROF) $(NOCRYPT)
 L_FLAGS  = -O $(PROF)
 

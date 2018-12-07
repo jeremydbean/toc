@@ -1,7 +1,7 @@
 #PLAYER
 Name Wentworth~
 Id   30708
-LogO 1544015544
+LogO 1544152462
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,23 +12,23 @@ Gui  3
 Psionic  1
 Cast none
 Levl 52
-Plyd 80635
+Plyd 81991
 ListRemorts ~
 NumRemorts 0
 Note 1542589633
 Scro 22
 Room 4210
-HMV  1283 1417 486 486 210 431
-NewGold 401
-NewPlat 2009
-NewCopp 1655
-NewSilv 808
+HMV  1427 1427 486 486 63 431
+NewGold 757
+NewPlat 2141
+NewCopp 2635
+NewSilv 1446
 Bank 0
 Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  130742
+Exp  130511
 Act  204
 AfBy 3678888
 AfBy2 4632
@@ -57,20 +57,19 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 1
-Save  -8
+Save  -13
 Alig  1000
 Hit   62
 Dam   113
 ACs -130 -123 -127 2
 Attr 13 13 16 16 12
-AMod 16 10 8 9 14
+AMod 16 10 10 7 14
 Pass We2cg.QoJGvjg~
 Titl  the Dreadnought~
 Pnts 40
 TSex 1
 LLev 3
-HMVP 1370 411 406
+HMVP 1380 411 406
 Cond 0 100 100
 Alias k kick~
 Alias re rescue~
@@ -84,18 +83,18 @@ Sk 25 'flail'
 Sk 83 'mace'
 Sk 35 'polearm'
 Sk 51 'shield block'
-Sk 32 'spear'
+Sk 43 'spear'
 Sk 100 'sword'
 Sk 30 'whip'
 Sk 47 'berserk'
 Sk 1 'disarm'
-Sk 36 'dodge'
+Sk 67 'dodge'
 Sk 100 'enhanced damage'
 Sk 85 'kick'
-Sk 56 'parry'
+Sk 57 'parry'
 Sk 15 'rescue'
-Sk 69 'second attack'
-Sk 38 'third attack'
+Sk 71 'second attack'
+Sk 75 'third attack'
 Sk 1 'hide'
 Sk 82 'recall'
 Sk 100 'smite'
@@ -103,28 +102,28 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'warrior guild'
-AffD 'pass door'  15  68   0   0    1048576          0
-AffD 'protection evil'   0  68   0   0       8192          0
-AffD 'fire shield'   0  68   0   0          0          8
-AffD 'frost shield'  25  68   0   0          0         16
-AffD 'detect hidden'   0  68   0   0         32          0
-AffD 'detect invis'  -1  68   0   0          8          0
-AffD 'power gloves'   0  68  35  19          0          0
-AffD 'infravision'   0 138   0   0        512          0
-AffD 'giant strength'   0  68   4   1          0          0
-AffD 'frenzy'   0  68 110  17          0          0
-AffD 'frenzy'   0  68  11  19          0          0
-AffD 'frenzy'  -1  68  11  18          0          0
-AffD 'fly'  49  71   0   0     524288          0
-AffD 'aid'  49  68  52  13          0          0
-AffD 'aid'  51  68   7  18          0          0
-AffD 'divine protection'  52  68   0   0          0       4096
-AffD 'force sword'  52  68   0   0          0        512
-AffD 'bless'  52  74  -8  24          0          0
-AffD 'bless'   2  74   8  18          0          0
-AffD 'haste'  -2  68   4   2    2097152          0
-AffD 'sanctuary'   0  68   0   0        128          0
-AffD 'major globe'   0  68 -150  17          0          0
+AffD 'pass door'   8  44   0   0    1048576          0
+AffD 'protection evil'   0  44   0   0       8192          0
+AffD 'fire shield'   0  44   0   0          0          8
+AffD 'frost shield'  20  44   0   0          0         16
+AffD 'detect hidden'   0  44   0   0         32          0
+AffD 'detect invis'  -1  44   0   0          8          0
+AffD 'power gloves'   0  44  35  19          0          0
+AffD 'infravision'   0 114   0   0        512          0
+AffD 'giant strength'   0  44   4   1          0          0
+AffD 'frenzy'   0  44 110  17          0          0
+AffD 'frenzy'   0  44  11  19          0          0
+AffD 'frenzy'  -1  44  11  18          0          0
+AffD 'fly'  43  47   0   0     524288          0
+AffD 'aid'  45  44  52  13          0          0
+AffD 'aid'  45  44   7  18          0          0
+AffD 'divine protection'  47  44   0   0          0       4096
+AffD 'force sword'  46  44   0   0          0        512
+AffD 'bless'  46  50  -8  24          0          0
+AffD 'bless'   0  50   8  18          0          0
+AffD 'haste'  -2  44   4   2    2097152          0
+AffD 'sanctuary'   0  44   0   0        128          0
+AffD 'major globe'   0  44 -150  17          0          0
 End
 
 #O
@@ -426,7 +425,7 @@ Vnum 3715
 Nest 0
 Wear 17
 Cost 0
-Cond 38
+Cond 30
 Repd 0
 End
 
@@ -499,17 +498,6 @@ Affect -1 51 -1 15 12 0 0
 End
 
 #O
-Vnum 5634
-Nest 0
-Wear -1
-Lev  52
-Cost 5000
-Cond 100
-Repd 0
-Affect -1 52 -1 -1 2 0 0
-End
-
-#O
 Vnum 5608
 Nest 0
 Wear -1
@@ -547,12 +535,22 @@ End
 #O
 Vnum 29211
 Nest 0
-Wear 16
+Wear -1
 Lev  51
 Cost 5000
 Cond 100
 Repd 0
 Affect -1 51 -1 -2 4 0 0
+End
+
+#O
+Vnum 29214
+Nest 0
+Wear 16
+Lev  51
+Cost 4000
+Cond 100
+Repd 0
 End
 
 #END
