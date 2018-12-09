@@ -829,11 +829,11 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	  "detect traps",    "detect stealth",
 	  "call lightning",  "control weather",  "faerie fire",
 	  "faerie fog",      "lightning bolt",   "meditation",
-	  "dodge",            "staves",		 "wands"
+	  "dodge",         "staves",		 "wands",    "second attack"
 	},
 	{
 	  "detection", "weather", "meditation", "staves",
-	  "wands", "dodge"
+	  "wands", "dodge", "second attack"
 	}
     },
     {   /* 23 Mad Magician */
@@ -844,11 +844,11 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	  "icicle",          "water burst",      "dust devil",
 	  "sunray",
 	  "blindness",       "curse",            "energy drain",
-	  "poison",          "weaken",           "second attack"
+	  "poison",          "weaken"
 	},
 	{
-	  "guild combat", "guild elemental", "guild maladictions",
-          "second attack"
+	  "guild combat", "guild elemental", "guild maladictions"
+
 	}
     },
     {   /* 24 Dragon in cell */
@@ -859,7 +859,7 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	  "cone of cold",    "blizzard",         "water burst",
 	  "geyser",	     "dust devil",       "vortex",
           "meteor swarm",    "sunray",		 "icicle",
-	  "scribe"
+	  "scribe",
 	},
 	{
 	  "draconian", "mage elemental", "scribe"
@@ -922,10 +922,10 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	  "poison",           "weaken",          "maze",
 	  "acid blast",      "chain lightning",  "colour spray",
 	  "fireball",        "shocking grasp",   "heat metal",
-	  "concoct"
+	  "concoct", "second attack"
 	},
 	{
-	  "combat", "mage maladictions", "concoct"
+	  "combat", "mage maladictions", "concoct", "second attack"
 	},
     },
 
@@ -992,7 +992,7 @@ const   struct  guildmaster_type        guildmaster_table       []  =
 	   "refresh",        "armor",            "fly",
 	   "faerie fire",    "giant strength",   "burning hands",
 	   "shield",         "identify",         "lightning bolt",
-	   "wands",	     "scrolls"
+	   "wands",	     "scrolls", 
 	   },
 	   {
 	   }

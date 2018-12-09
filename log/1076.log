@@ -1,0 +1,381 @@
+Fri Dec  7 15:02:09 2018 :: LOADING COMM TABLE
+Fri Dec  7 15:02:09 2018 ::  INIT OK 
+Fri Dec  7 15:02:09 2018 :: Ended LOADING COMM TABLE
+Fri Dec  7 15:02:09 2018 :: Ended Fixing Exits
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Fri Dec  7 15:02:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Fri Dec  7 15:02:09 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Fri Dec  7 15:02:09 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Fri Dec  7 15:02:09 2018 :: Ended Area Update
+Fri Dec  7 15:02:09 2018 :: Ended Loading Notes
+Fri Dec  7 15:02:09 2018 :: Ended Loading Ban
+Fri Dec  7 15:02:09 2018 :: Ended Loading Pkills
+Fri Dec  7 15:02:09 2018 :: TOC is ready to rock on port 9000.
+Fri Dec  7 15:02:09 2018 :: Setting up signals.
+Fri Dec  7 15:02:12 2018 :: Sock.sinaddr:  127.0.0.1
+Fri Dec  7 15:02:12 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Fri Dec  7 15:02:17 2018 :: Sock.sinaddr:  173.22.228.146
+Fri Dec  7 15:02:19 2018 :: Loading Kyrus's playerfile
+Fri Dec  7 15:02:20 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 301]
+Fri Dec  7 15:02:20 2018 :: Kyrus turned into a PKILLER.
+Fri Dec  7 15:02:23 2018 :: Sock.sinaddr:  127.0.0.1
+Fri Dec  7 15:02:23 2018 :: Loading Killuminati's playerfile
+Fri Dec  7 15:02:24 2018 :: Killuminati@localhost has connected. [Room: 4911]
+Fri Dec  7 15:04:45 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Fri Dec  7 15:05:38 2018 :: Log Killuminati: log ky
+Fri Dec  7 15:05:40 2018 :: Log Killuminati: log ky
+Fri Dec  7 15:05:41 2018 :: Log Killuminati: restore self
+Fri Dec  7 15:05:42 2018 :: Log Killuminati: restore Kyrus 
+Fri Dec  7 15:05:48 2018 :: Log Killuminati: restore self
+Fri Dec  7 15:12:01 2018 :: Log Kyrus: drop boo
+Fri Dec  7 15:12:50 2018 :: Log Kyrus: drop staf
+Fri Dec  7 15:12:50 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Fri Dec  7 15:12:50 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Fri Dec  7 15:12:52 2018 :: Called for vnum: 17713 to modify as: -1 as gameload.
+Fri Dec  7 15:12:52 2018 :: Vnum 17713|Signval: -1|Gameload|Total: 1
+Fri Dec  7 15:19:23 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 15:19:28 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 15:19:39 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:22:51 2018 :: Kyrus has achieved level 27!
+Fri Dec  7 15:23:55 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:24:51 2018 :: Kyrus has achieved level 28!
+Fri Dec  7 15:25:32 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 15:28:39 2018 :: Kyrus has achieved level 29!
+Fri Dec  7 15:28:58 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:32:46 2018 :: Kyrus has achieved level 30!
+Fri Dec  7 15:33:16 2018 :: Log Kyrus: drop hor
+Fri Dec  7 15:34:06 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:35:21 2018 :: Kyrus has achieved level 31!
+Fri Dec  7 15:38:40 2018 :: Kyrus has quit. [Room: 4207]
+Fri Dec  7 15:38:40 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Dec  7 15:38:40 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Dec  7 15:38:40 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Dec  7 15:38:40 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Dec  7 15:49:16 2018 :: Sock.sinaddr:  173.22.228.146
+Fri Dec  7 15:49:17 2018 :: Loading Kyrus's playerfile
+Fri Dec  7 15:49:18 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4207]
+Fri Dec  7 15:51:54 2018 :: Kyrus has achieved level 32!
+Fri Dec  7 15:52:20 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:54:23 2018 :: Kyrus has achieved level 33!
+Fri Dec  7 15:55:00 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:56:22 2018 :: Kyrus has achieved level 34!
+Fri Dec  7 15:57:25 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 15:57:51 2018 :: Log Kyrus: drop scal
+Fri Dec  7 16:02:07 2018 :: Kyrus has achieved level 35!
+Fri Dec  7 16:02:34 2018 :: Log Kyrus: drop robe
+Fri Dec  7 16:03:31 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:07:37 2018 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Fri Dec  7 16:07:37 2018 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Fri Dec  7 16:07:45 2018 :: Kyrus has quit. [Room: 1460]
+Fri Dec  7 16:07:45 2018 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Fri Dec  7 16:07:45 2018 :: Vnum 1388|Signval: -1|!Gameload|Total: 1
+Fri Dec  7 16:07:45 2018 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Fri Dec  7 16:07:45 2018 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Fri Dec  7 16:07:45 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Dec  7 16:07:45 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Dec  7 16:07:45 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Dec  7 16:07:45 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Dec  7 16:08:48 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Fri Dec  7 16:08:48 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Fri Dec  7 16:08:56 2018 :: Sock.sinaddr:  173.22.228.146
+Fri Dec  7 16:08:58 2018 :: Loading Kyrus's playerfile
+Fri Dec  7 16:08:59 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 1460]
+Fri Dec  7 16:09:08 2018 :: Called for vnum: 1388 to modify as: 1 as playerload.
+Fri Dec  7 16:09:08 2018 :: Vnum 1388|Signval: 1|!Gameload|Total: 0
+Fri Dec  7 16:09:41 2018 :: Log Kyrus: drop col
+Fri Dec  7 16:11:41 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Fri Dec  7 16:11:41 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Fri Dec  7 16:13:30 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:13:54 2018 :: Kyrus has achieved level 36!
+Fri Dec  7 16:15:35 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:15:42 2018 :: Kyrus has achieved level 37!
+Fri Dec  7 16:16:54 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:17:15 2018 :: Kyrus has achieved level 38!
+Fri Dec  7 16:18:24 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:18:51 2018 :: Kyrus has achieved level 39!
+Fri Dec  7 16:21:49 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 16:22:37 2018 :: Kyrus has achieved level 40!
+Fri Dec  7 16:22:41 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Fri Dec  7 16:22:41 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 1
+Fri Dec  7 16:22:41 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Fri Dec  7 16:22:41 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 0
+Fri Dec  7 16:22:57 2018 :: Log Kyrus: drop brac
+Fri Dec  7 16:22:57 2018 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Fri Dec  7 16:22:57 2018 :: Vnum 1388|Signval: -1|!Gameload|Total: 2
+Fri Dec  7 16:22:57 2018 :: Log Kyrus: drop brac
+Fri Dec  7 16:22:57 2018 :: Called for vnum: 1388 to modify as: -1 as playerload.
+Fri Dec  7 16:22:57 2018 :: Vnum 1388|Signval: -1|!Gameload|Total: 3
+Fri Dec  7 16:22:58 2018 :: Called for vnum: 1388 to modify as: -1 as gameload.
+Fri Dec  7 16:22:58 2018 :: Vnum 1388|Signval: -1|Gameload|Total: 2
+Fri Dec  7 16:22:58 2018 :: Called for vnum: 1388 to modify as: -1 as gameload.
+Fri Dec  7 16:22:58 2018 :: Vnum 1388|Signval: -1|Gameload|Total: 1
+Fri Dec  7 16:23:08 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec  7 16:23:08 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Fri Dec  7 16:23:08 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec  7 16:23:08 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Fri Dec  7 16:26:22 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 16:26:42 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 16:27:11 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Fri Dec  7 16:29:29 2018 :: Kyrus has quit. [Room: 4346]
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Fri Dec  7 16:29:29 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Fri Dec  7 16:29:29 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Fri Dec  7 23:18:43 2018 :: Sock.sinaddr:  173.22.228.146
+Fri Dec  7 23:18:44 2018 :: Loading Kyrus's playerfile
+Fri Dec  7 23:18:45 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4346]
+Fri Dec  7 23:19:47 2018 :: Log Killuminati: restore self
+Fri Dec  7 23:19:47 2018 :: Log Killuminati: restore Kyrus 
+Fri Dec  7 23:19:53 2018 :: Log Killuminati: restore self
+Fri Dec  7 23:23:07 2018 :: Kyrus has achieved level 41!
+Fri Dec  7 23:24:03 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 23:32:29 2018 :: Kyrus has achieved level 42!
+Fri Dec  7 23:35:54 2018 :: Kyrus has achieved level 43!
+Fri Dec  7 23:35:57 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 23:36:18 2018 :: Log Kyrus: drop opal
+Fri Dec  7 23:37:16 2018 :: Log Kyrus: drop opal
+Fri Dec  7 23:40:32 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 23:40:42 2018 :: Log Kyrus: drop leg
+Fri Dec  7 23:40:44 2018 :: Log Kyrus: drop dag
+Fri Dec  7 23:48:37 2018 :: Kyrus has achieved level 44!
+Fri Dec  7 23:50:31 2018 :: Log Killuminati: restore Kyrus
+Fri Dec  7 23:53:28 2018 :: Kyrus has achieved level 45!
+Fri Dec  7 23:55:29 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:03:33 2018 :: Kyrus has achieved level 46!
+Sat Dec  8 00:07:59 2018 :: Sock.sinaddr:  185.92.73.138
+Sat Dec  8 00:08:00 2018 :: EOF encountered on read.
+Sat Dec  8 00:12:26 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:12:55 2018 :: Log Kyrus: drop og
+Sat Dec  8 00:15:44 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:19:58 2018 :: Kyrus has achieved level 47!
+Sat Dec  8 00:24:10 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:28:29 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Sat Dec  8 00:28:34 2018 :: [*****] BUG: Skill lookup failed for detect stealth.
+Sat Dec  8 00:30:05 2018 :: Log Killuminati: restore self
+Sat Dec  8 00:30:06 2018 :: Log Killuminati: restore Kyrus 
+Sat Dec  8 00:30:12 2018 :: Log Killuminati: restore self
+Sat Dec  8 00:41:29 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:41:53 2018 :: Kyrus has achieved level 48!
+Sat Dec  8 00:42:59 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:45:17 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:47:03 2018 :: Kyrus has achieved level 49!
+Sat Dec  8 00:48:23 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:55:46 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 00:59:09 2018 :: Kyrus has achieved level 50!
+Sat Dec  8 00:59:24 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Dec  8 00:59:26 2018 :: Loading Kazuu's playerfile
+Sat Dec  8 00:59:28 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 770]
+Sat Dec  8 00:59:36 2018 :: Log Kazuu: advance kyrus 51
+Sat Dec  8 00:59:37 2018 :: Kazuu has quit. [Room: 770]
+Sat Dec  8 00:59:37 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 00:59:37 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Dec  8 00:59:37 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 00:59:37 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Dec  8 00:59:37 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 00:59:37 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Dec  8 00:59:37 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 00:59:37 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Dec  8 01:02:37 2018 :: Log Kyrus: drop key
+Sat Dec  8 01:03:18 2018 :: [XP TRACK]: ;Kyrus; gained ;564; XP.
+Sat Dec  8 01:03:57 2018 :: [XP TRACK]: ;Kyrus; gained ;330; XP.
+Sat Dec  8 01:04:19 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 01:05:56 2018 :: Log Kyrus: depos 1089
+Sat Dec  8 01:06:17 2018 :: Log Kyrus: drop key
+Sat Dec  8 01:06:26 2018 :: Log Kyrus: drop dag
+Sat Dec  8 01:06:37 2018 :: Log Kyrus: drop ring
+Sat Dec  8 01:08:13 2018 :: [XP TRACK]: ;Kyrus; gained ;307; XP.
+Sat Dec  8 01:08:36 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 01:08:52 2018 :: [XP TRACK]: ;Kyrus; gained ;695; XP.
+Sat Dec  8 01:09:42 2018 :: [XP TRACK]: ;Kyrus; gained ;291; XP.
+Sat Dec  8 01:09:46 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 01:09:48 2018 :: Kyrus has quit. [Room: 4207]
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sat Dec  8 01:09:48 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 01:09:48 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sat Dec  8 02:51:06 2018 :: Sock.sinaddr:  59.126.234.219
+Sat Dec  8 02:51:06 2018 :: EOF encountered on read.
+Sat Dec  8 10:44:40 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Dec  8 10:44:41 2018 :: Loading Kyrus's playerfile
+Sat Dec  8 10:44:41 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4207]
+Sat Dec  8 10:44:56 2018 :: Log Kyrus: drop key
+Sat Dec  8 10:45:20 2018 :: [XP TRACK]: ;Kyrus; gained ;490; XP.
+Sat Dec  8 10:45:24 2018 :: [XP TRACK]: ;Kyrus; gained ;381; XP.
+Sat Dec  8 10:45:46 2018 :: [XP TRACK]: ;Kyrus; gained ;505; XP.
+Sat Dec  8 10:45:50 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:45:54 2018 :: [XP TRACK]: ;Kyrus; gained ;517; XP.
+Sat Dec  8 10:45:56 2018 :: [XP TRACK]: ;Kyrus; gained ;543; XP.
+Sat Dec  8 10:46:37 2018 :: [XP TRACK]: ;Kyrus; gained ;511; XP.
+Sat Dec  8 10:46:42 2018 :: [XP TRACK]: ;Kyrus; gained ;386; XP.
+Sat Dec  8 10:47:02 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:47:31 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:47:31 2018 :: [XP TRACK]: ;Kyrus; gained ;533; XP.
+Sat Dec  8 10:47:35 2018 :: [XP TRACK]: ;Kyrus; gained ;490; XP.
+Sat Dec  8 10:47:38 2018 :: [XP TRACK]: ;Kyrus; gained ;555; XP.
+Sat Dec  8 10:47:41 2018 :: [XP TRACK]: ;Kyrus; gained ;520; XP.
+Sat Dec  8 10:48:27 2018 :: [XP TRACK]: ;Kyrus; gained ;489; XP.
+Sat Dec  8 10:48:30 2018 :: Log Kyrus: drop amulet
+Sat Dec  8 10:49:01 2018 :: [XP TRACK]: ;Kyrus; gained ;550; XP.
+Sat Dec  8 10:49:07 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:49:32 2018 :: [XP TRACK]: ;Kyrus; gained ;440; XP.
+Sat Dec  8 10:49:36 2018 :: [XP TRACK]: ;Kyrus; gained ;280; XP.
+Sat Dec  8 10:49:39 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:50:09 2018 :: [XP TRACK]: ;Kyrus; gained ;409; XP.
+Sat Dec  8 10:50:53 2018 :: [XP TRACK]: ;Kyrus; gained ;381; XP.
+Sat Dec  8 10:50:53 2018 :: Kyrus has reached the next level of Heroism!!
+Sat Dec  8 10:50:57 2018 :: Log Kyrus: drop amulet
+Sat Dec  8 10:50:58 2018 :: [XP TRACK]: ;Kyrus; gained ;524; XP.
+Sat Dec  8 10:51:36 2018 :: [XP TRACK]: ;Kyrus; gained ;538; XP.
+Sat Dec  8 10:51:47 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:52:06 2018 :: [XP TRACK]: ;Kyrus; gained ;520; XP.
+Sat Dec  8 10:52:10 2018 :: Log Kyrus: drop amulet
+Sat Dec  8 10:52:10 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:52:11 2018 :: [XP TRACK]: ;Kyrus; gained ;349; XP.
+Sat Dec  8 10:52:30 2018 :: [XP TRACK]: ;Kyrus; gained ;507; XP.
+Sat Dec  8 10:53:07 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:53:09 2018 :: [XP TRACK]: ;Kyrus; gained ;527; XP.
+Sat Dec  8 10:53:33 2018 :: Called for vnum: 3715 to modify as: -1 as gameload.
+Sat Dec  8 10:53:33 2018 :: Vnum 3715|Signval: -1|Gameload|Total: 0
+Sat Dec  8 10:53:33 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 10:53:33 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sat Dec  8 10:53:48 2018 :: [XP TRACK]: ;Kyrus; gained ;513; XP.
+Sat Dec  8 10:54:04 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 10:54:08 2018 :: Log Killuminati: restore self
+Sat Dec  8 10:54:09 2018 :: Log Killuminati: restore Kyrus 
+Sat Dec  8 10:54:15 2018 :: Log Killuminati: restore self
+Sat Dec  8 10:54:30 2018 :: [XP TRACK]: ;Kyrus; gained ;501; XP.
+Sat Dec  8 11:01:13 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:02:40 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:03:51 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:04:41 2018 :: [XP TRACK]: ;Kyrus; gained ;717; XP.
+Sat Dec  8 11:04:54 2018 :: Log Kyrus: drop sp
+Sat Dec  8 11:04:59 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:06:32 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:08:07 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:08:40 2018 :: [XP TRACK]: ;Kyrus; gained ;598; XP.
+Sat Dec  8 11:08:50 2018 :: Log Kyrus: drop ring
+Sat Dec  8 11:08:54 2018 :: Kyrus has quit. [Room: 16075]
+Sat Dec  8 11:08:54 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 11:08:54 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 11:08:54 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 11:08:54 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 11:08:54 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 11:08:54 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 11:08:54 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 11:08:54 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 11:12:34 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Dec  8 11:12:35 2018 :: Loading Kyrus's playerfile
+Sat Dec  8 11:12:36 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 16075]
+Sat Dec  8 11:14:26 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:16:47 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:17:12 2018 :: [XP TRACK]: ;Kyrus; gained ;748; XP.
+Sat Dec  8 11:17:20 2018 :: Log Kyrus: drop ring
+Sat Dec  8 11:17:33 2018 :: Log Killuminati: restore Kyrus
+Sat Dec  8 11:21:51 2018 :: Sock.sinaddr:  173.22.228.146
+Sat Dec  8 11:21:52 2018 :: Loading Kazuu's playerfile
+Sat Dec  8 11:21:54 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 770]
+Sat Dec  8 11:22:18 2018 :: Log Kazuu: load
+Sat Dec  8 11:22:26 2018 :: Log Kazuu: load obj 3715 1
+Sat Dec  8 11:22:26 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 11:22:26 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sat Dec  8 11:26:41 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 11:26:41 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sat Dec  8 11:26:41 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 11:26:41 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sat Dec  8 11:27:03 2018 :: Log Kazuu: load obj 7651
+Sat Dec  8 11:27:18 2018 :: Log Kazuu: load obj 3609
+Sat Dec  8 11:27:26 2018 :: Log Kazuu: clone blank
+Sat Dec  8 11:27:27 2018 :: Log Kazuu: clone blank
+Sat Dec  8 11:27:48 2018 :: Kazuu has quit. [Room: 770]
+Sat Dec  8 11:27:48 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 11:27:48 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sat Dec  8 11:27:48 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 11:27:48 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sat Dec  8 11:27:48 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 11:27:48 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sat Dec  8 11:27:48 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 11:27:48 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sat Dec  8 11:28:03 2018 :: Log Kyrus: drop arm
+Sat Dec  8 11:28:05 2018 :: Log Kyrus: drop bre
+Sat Dec  8 11:28:49 2018 :: Log Kyrus: drop key
+Sat Dec  8 11:29:03 2018 :: [XP TRACK]: ;Kyrus; gained ;454; XP.
+Sat Dec  8 11:29:25 2018 :: [XP TRACK]: ;Kyrus; gained ;408; XP.
+Sat Dec  8 11:29:29 2018 :: [XP TRACK]: ;Kyrus; gained ;410; XP.
+Sat Dec  8 11:29:52 2018 :: [XP TRACK]: ;Kyrus; gained ;454; XP.
+Sat Dec  8 11:30:04 2018 :: [XP TRACK]: ;Kyrus; gained ;384; XP.
+Sat Dec  8 11:30:05 2018 :: [XP TRACK]: ;Kyrus; gained ;481; XP.
+Sat Dec  8 11:30:17 2018 :: Kyrus has quit. [Room: 4207]
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 1
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 0
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sat Dec  8 11:30:17 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sat Dec  8 11:30:17 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sat Dec  8 11:52:36 2018 :: Sock.sinaddr:  184.65.189.204
+Sat Dec  8 11:52:36 2018 :: EOF encountered on read.
+Sat Dec  8 14:17:11 2018 :: Log Killuminati: shutdown
+Sat Dec  8 14:17:11 2018 :: Closing link to Killuminati.
+Sat Dec  8 14:17:11 2018 :: Normal termination of game.

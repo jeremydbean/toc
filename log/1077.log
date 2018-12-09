@@ -1,0 +1,84 @@
+Sat Dec  8 14:20:02 2018 :: LOADING COMM TABLE
+Sat Dec  8 14:20:02 2018 ::  INIT OK 
+Sat Dec  8 14:20:02 2018 :: Ended LOADING COMM TABLE
+Sat Dec  8 14:20:02 2018 :: Ended Fixing Exits
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sat Dec  8 14:20:02 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sat Dec  8 14:20:02 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Sat Dec  8 14:20:02 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Sat Dec  8 14:20:02 2018 :: Ended Area Update
+Sat Dec  8 14:20:02 2018 :: Ended Loading Notes
+Sat Dec  8 14:20:02 2018 :: Ended Loading Ban
+Sat Dec  8 14:20:02 2018 :: Ended Loading Pkills
+Sat Dec  8 14:20:02 2018 :: TOC is ready to rock on port 9000.
+Sat Dec  8 14:20:02 2018 :: Setting up signals.
+Sat Dec  8 14:20:03 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Sat Dec  8 14:20:09 2018 :: Sock.sinaddr:  127.0.0.1
+Sat Dec  8 14:20:10 2018 :: Loading Killuminati's playerfile
+Sat Dec  8 14:20:10 2018 :: Killuminati@localhost has connected. [Room: 2]
+Sat Dec  8 16:58:04 2018 :: Sock.sinaddr:  185.92.73.138
+Sat Dec  8 16:58:04 2018 :: EOF encountered on read.
+Sat Dec  8 16:59:21 2018 :: Sock.sinaddr:  151.0.167.176
+Sat Dec  8 16:59:21 2018 :: EOF encountered on read.
+Sat Dec  8 18:34:26 2018 :: Sock.sinaddr:  188.0.236.231
+Sat Dec  8 18:34:28 2018 :: EOF encountered on read.
+Sun Dec  9 01:08:41 2018 :: Log Killuminati: set char self class mage
+Sun Dec  9 01:08:45 2018 :: Log Killuminati: set char self guild mage
+Sun Dec  9 01:08:55 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec  9 01:08:55 2018 :: Loading Testies's playerfile
+Sun Dec  9 01:08:55 2018 :: Testies@localhost has connected. [Room: 25265]
+Sun Dec  9 01:09:01 2018 :: Log Killuminati: trans testi
+Sun Dec  9 01:09:07 2018 :: Log Killuminati: adv testi 30
+Sun Dec  9 01:09:12 2018 :: Log Killuminati: set char test class mage
+Sun Dec  9 01:09:29 2018 :: Log Killuminati: set char test guild mage
+Sun Dec  9 01:09:51 2018 :: Log Killuminati: set skill testie all 0
+Sun Dec  9 01:10:03 2018 :: Log Killuminati: adv test 0
+Sun Dec  9 01:10:05 2018 :: Log Killuminati: adv test 1
+Sun Dec  9 01:10:12 2018 :: Log Killuminati: adv test 15
+Sun Dec  9 01:10:14 2018 :: Log Killuminati: trust test 0
+Sun Dec  9 01:12:02 2018 :: Log Killuminati: set char test class warrior
+Sun Dec  9 01:16:47 2018 :: Log Killuminati: trans testi
+Sun Dec  9 01:17:02 2018 :: Log Killuminati: set char testi class mage
+Sun Dec  9 01:17:05 2018 :: Log Killuminati: set char testi guild mage
+Sun Dec  9 01:17:17 2018 :: Log Killuminati: fsave

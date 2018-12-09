@@ -4,19 +4,19 @@
 
 Psionics are mental abilities that are awarded to some players.  They can
 be obtained only through a random draw at certain levels and cannot be
-gained.  Individuals who are given psionics will get only a few of the 
-mental skills and which ones they get is also random.  For information on 
-training any psionic skills you may have been so fortunate as to learn, 
-read help on SALIR.  For information on individual skills, see helps on 
-ASTRAL WALK, CLAIRVOYANCE, CONFUSE, EGO WHIP, MINDBAR, MINDBLAST, NIGHTMARE, 
-PROJECT, PSIONIC ARMOR, PSYCHIC SHIELD, PYROTECHNICS, SHIFT, TELEKINESIS, 
+gained.  Individuals who are given psionics will get only a few of the
+mental skills and which ones they get is also random.  For information on
+training any psionic skills you may have been so fortunate as to learn,
+read help on SALIR.  For information on individual skills, see helps on
+ASTRAL WALK, CLAIRVOYANCE, CONFUSE, EGO WHIP, MINDBAR, MINDBLAST, NIGHTMARE,
+PROJECT, PSIONIC ARMOR, PSYCHIC SHIELD, PYROTECHNICS, SHIFT, TELEKINESIS,
 TORMENT, and TRANSFUSION.
 ~
 
 15 'ASTRAL WALK'~
 Syntax: astral <target>
 
-This psionic skill is similar to the GATE spell, with the only difference 
+This psionic skill is similar to the GATE spell, with the only difference
 being that fewer restrictions are applied to its use.
 
 Minimum level: 25
@@ -25,8 +25,8 @@ Minimum level: 25
 15 CLAIRVOYANCE~
 Syntax: clairvoyance <character>
 
-This psionic skill allows you to see a mental picture of where the target 
-character is in the world, what is in the room, and what the room looks 
+This psionic skill allows you to see a mental picture of where the target
+character is in the world, what is in the room, and what the room looks
 like.
 
 Minimum level: 18
@@ -35,8 +35,8 @@ Minimum level: 18
 15 CONFUSE~
 Syntax: confuse <victim>
 
-This psionic skill makes the targeted victim confused.  In the confused 
-state, victims who are fighting will sometimes forget they are supposed to 
+This psionic skill makes the targeted victim confused.  In the confused
+state, victims who are fighting will sometimes forget they are supposed to
 be fighting, and will only defend themselves while they try to figure out
 why they are being attacked.
 
@@ -46,7 +46,7 @@ Minimum level: 21
 15 'EGO WHIP'~
 Syntax: ego <victim>
 
-This psionic skill is a direct attack on the victims ego and mind.  When 
+This psionic skill is a direct attack on the victims ego and mind.  When
 used it makes victims feel less confident about themselves and damages
 blood vessels and synapses in the brain.
 
@@ -67,8 +67,8 @@ Minimum level: 22
 15 MINDBLAST~
 Syntax: mindblast
 
-This is the most powerful of the mental (psionic) attacks.  When used, all 
-attackable victims in the room of the user will be overwhelmed by mental 
+This is the most powerful of the mental (psionic) attacks.  When used, all
+attackable victims in the room of the user will be overwhelmed by mental
 energies, causing brain hemorrhages.
 
 Minimum level: 23
@@ -86,9 +86,9 @@ Minimum level: 21
 15 PROJECT~
 Syntax: project <direction>
 
-This psionic skill allows you to project your astral form in the 
-direction specified, allowing you to see everything in the path of the 
-direction specified.  In this form, you are able to pass through most 
+This psionic skill allows you to project your astral form in the
+direction specified, allowing you to see everything in the path of the
+direction specified.  In this form, you are able to pass through most
 obstructions, such as doors, and are immune to attack.
 
 Minimum level: 19
@@ -117,7 +117,7 @@ Minimum level: 19
 15 PYROTECHNICS~
 Syntax: pyrotechnics <victim>
 
-This psionic skill takes the energy from a light source and transforms it 
+This psionic skill takes the energy from a light source and transforms it
 into a figure of fire that attacks the victim.  The light source is used up
 when this skill is used.  The more powerful the light source, the
 more damage is inflicted on the victim.
@@ -182,12 +182,12 @@ spear           this skill covers both spears and staves, but not polearms
 sword           the warrior's standby, from rapier to claymore
 whip            the use of whips, chains, and bullwhips
 exotic          the use of strange magical weapons
-bow             the use of weapons that can shoot to another room 
+bow             the use of weapons that can shoot to another room
 
 The exotic skill cannot be purchased, and is dependent solely upon level.
 
 Note that all characters may use all weapons, but that the minimum level
-they need to be for a given class of weapons and the starting percentage of 
+they need to be for a given class of weapons and the starting percentage of
 skill at each weapon type is dependent on their primary class.
 
 Trainer: Rakar (all)
@@ -197,17 +197,17 @@ See also helps on ARCHERY and PARRY.
 
 -1 AGGROSTAB~
 
-This skill gives you a chance of attacking aggressive monsters before they 
-attack you. Thieves get the benefit of having a chance to do backstab 
+This skill gives you a chance of attacking aggressive monsters before they
+attack you. Thieves get the benefit of having a chance to do backstab
 damage, provided they are learned in backstab. This skill is available only
-to members of the thieves' guild.  Only players with a Thief background get 
-the backstab benefit attached to this skill.  
+to members of the thieves' guild.  Only players with a Thief background get
+the backstab benefit attached to this skill.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:30  Cleric:30  Thief:15  Warrior:24 
+Mage:30  Cleric:30  Thief:15  Warrior:24
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:7  Cleric:7  Thief:4  Warrior:6
@@ -230,12 +230,12 @@ The minimum level to use this skill depends on your primary class and is:
 
 Mage:35  Cleric:30  Thief:25  Warrior:15  Monk:20
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:5  Cleric:5  Thief:3  Warrior:2  Monk:3
 
-Necromancers cannot learn archery. 
+Necromancers cannot learn archery.
 
 Trainer: Rakar (all)
 ~
@@ -244,7 +244,7 @@ Trainer: Rakar (all)
 Syntax: backstab <victim>
 Syntax: bs <victim>
 
-Backstab is the favored attack of thieves, murderers and other rogues.  It 
+Backstab is the favored attack of thieves, murderers and other rogues.  It
 can be used with any weapon type, but is most effective with piercing weapons.
 The damage inflicted by a backstab is determined by the attacker's level, his
 weapon skill, his backstab skill, and the power of his opponent.
@@ -252,16 +252,16 @@ Backstab is available only to thieves and members of the thief guild.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:20  Cleric:24  Thief:3  Warrior:14  
+Mage:20  Cleric:24  Thief:3  Warrior:14
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
-Mage:7  Cleric:7  Thief:free  Warrior:7  
+Mage:7  Cleric:7  Thief:free  Warrior:7
 
 Monks and necromancers cannot use backstab.
 
-Trainer:  Ni Hi the Ninja Master (?/T), Tia (T/?) 
+Trainer:  Ni Hi the Ninja Master (?/T), Tia (T/?)
            and mud school adept (practice only, no gain)
 ~
 
@@ -277,34 +277,34 @@ The minimum level to use this skill depends on your primary class and is:
 
 Mage:20  Cleric:5  Thief:15  Warrior:3  Monk:12
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
-Mage:6  Cleric:5  Thief:5  Warrior:4  Monk:5  
+Mage:6  Cleric:5  Thief:5  Warrior:4  Monk:5
 
 Necromancers cannot learn bash.  Dwarves receive bash for free, regardless
 of their class.
 
-Trainer: Geko (?/W), Jazair (any with skill but no gain), 
+Trainer: Geko (?/W), Jazair (any with skill but no gain),
          Master of Movement (Monk)
 ~
 
 -1 BERSERK~
 Syntax: berserk
 
-Only powerful members of the warrior guild can master berserking, the ability 
-to enter insane rage in combat.  Its effects are not altogether unlike the 
-FRENZY spell -- a huge surge of combat prowess, coupled with a disregard 
-for personal safety.  
+Only powerful members of the warrior guild can master berserking, the ability
+to enter insane rage in combat.  Its effects are not altogether unlike the
+FRENZY spell -- a huge surge of combat prowess, coupled with a disregard
+for personal safety.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:30  Cleric:29  Thief:35  Warrior:18  
+Mage:30  Cleric:29  Thief:35  Warrior:18
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
-Mage:7  Cleric:6  Thief:6  Warrior:4  
+Mage:7  Cleric:6  Thief:6  Warrior:4
 
 Monks and necromancers may not learn bash since they cannot join the
 warrior guild.
@@ -316,7 +316,7 @@ Trainer: Geko (?/W)
 Syntax: blind <victim>
 
 This is an assortment of various punches aimed at a foe, delivering
-multiple blows. Only monks of level 20 or above have the quick reflexes 
+multiple blows. Only monks of level 20 or above have the quick reflexes
 and amazing agility to use this martial art.
 
 Number of trains: 3
@@ -342,7 +342,7 @@ This skill allows the user to make a magic potion, if a matching set of
 ingredients can be discovered.  It may take a lot of trial and error,
 and different combinations create different potions.
 
-Only pure magic users who join the mage guild or are necromancers may 
+Only pure magic users who join the mage guild or are necromancers may
 concoct potions.  The minimum level to concoct is:
 
 Mage:17  Cleric:17  Necromancer:19
@@ -371,15 +371,15 @@ Trainer: Master of Movement (Monk)
 0 'DANGER SENSE'~
 Syntax: danger
 
-This skill tells you where the other players around the area are and how far 
+This skill tells you where the other players around the area are and how far
 away from you, in very general terms.  It also reveals how many stealthed players
 are in the area.  It is available only to members of the warrior guild.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:36  Cleric:36  Thief:31  Warrior:13  
+Mage:36  Cleric:36  Thief:31  Warrior:13
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:1  Cleric:1  Thief:2  Warrior:2
@@ -397,7 +397,7 @@ no help available yet
 
 -1 DESTRUCTION~
 This skill is gainable only by full warriors (W/W). Gaining this skill
-gives the user the chance to destroy his or her opponent's weapon.  The 
+gives the user the chance to destroy his or her opponent's weapon.  The
 chances are very slim, but they still exist.  It may not be used before
 level 25.
 
@@ -408,21 +408,21 @@ Trainer: Vladamir (W/W)
 -1 DIRT 'DIRT KICKING'~
 Syntax: dirt <victim>
 
-Considered by some to be a cowardly skill, dirt kicking gives the clever 
+Considered by some to be a cowardly skill, dirt kicking gives the clever
 combatant a chance to blind his opponent by casting dirt into his eyes.  The
 blindness does not last long, but can provide an edge in combat.  Dexterity
-helps in hitting or avoiding a dirt kick.  
+helps in hitting or avoiding a dirt kick.
 
 The minimum level to use this skill depends on your primary class and is:
 
 Mage:15  Cleric:15  Thief:6  Warrior:8  Monk:20
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:5  Cleric:5  Thief:4  Warrior:4
 
-Necromancers cannot use dirt kicking.  
+Necromancers cannot use dirt kicking.
 
 Trainer: Geko (?/W), Ni Hi (?/T), Silent Master (monk)
 ~
@@ -432,18 +432,18 @@ Syntax: disarm <victim>
 
 Disarm is a somewhat showy and unreliable skill, designed to relieve your
 opponent of his weapon.  You are most likely to be able to disarm your
-opponent if you are skilled with both your own and your opponent's weapon. 
+opponent if you are skilled with both your own and your opponent's weapon.
 
 The minimum level to use this skill depends on your primary class and is:
 
 Mage:18  Cleric:17  Thief:16  Warrior:12  Monk:16
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:5  Cleric:5  Thief:5  Warrior:free  Monk:5
 
-Necromancers cannot learn to disarm.  
+Necromancers cannot learn to disarm.
 
 Trainer: Kalak (W/?), Dolonar (?/W), Master of Movement (Monk)
 ~
@@ -451,15 +451,15 @@ Trainer: Kalak (W/?), Dolonar (?/W), Master of Movement (Monk)
 -1 DODGE~
 In the words of one wise warrior, 'the best way to block a blow is to not
 be where it lands'.  The dodge skill honors this tradition, by improving the
-character's natural agility to the point where many blows will miss the 
+character's natural agility to the point where many blows will miss the
 target. The chance of dodging is also affected by the dexterity of the
-attacker and the target. 
+attacker and the target.
 
 The minimum level to use this skill depends on your primary class and is:
 
 Mage:19  Cleric:22  Thief:5  Warrior:13  Monk:free  Necromancer:23
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:5  Cleric:5  Thief:3  Warrior:4  Monk:3  Necro:5
@@ -473,7 +473,7 @@ Trainer: Geko (?/W), Dolonar (?/W), Suma (?/T), Qualo (?/C), Diemos (?/M),
 -1 'DUAL WIELD'~
 Syntax: second <weapon name>
 
-This skill allows full thieves (i.e. T/T) to use a second weapon in the spot 
+This skill allows full thieves (i.e. T/T) to use a second weapon in the spot
 normally taken up by using a shield. Some restrictions apply as to what
 weapons may be wielded as a second weapon.  The minimum level to use
 dual wield is 17.
@@ -483,19 +483,19 @@ Trainer: Mizry (T/T)
 ~
 
 -1 'ENHANCED DAMAGE'~
-Monks and members of the warriors guild can become skilled enough in 
-combat that they are able to inflict more damage than other classes.  Enhanced 
-damage is checked for with each hit, although with a low skill, the chance 
+Monks and members of the warriors guild can become skilled enough in
+combat that they are able to inflict more damage than other classes.  Enhanced
+damage is checked for with each hit, although with a low skill, the chance
 of receiving a bonus is very low indeed.
 
 The minimum level to use this skill depends on your primary class and is:
 
 Mage:31  Cleric:31  Thief:30  Warrior:16  Monk:14
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
-Mage:7  Cleric:7  Thief:6  Warrior:3  Monk:5  
+Mage:7  Cleric:7  Thief:6  Warrior:3  Monk:5
 
 Necromancers may not learn enhanced damage.
 
@@ -503,7 +503,7 @@ Trainer:  Dolonar (?/W), Silent Master (monk)
 ~
 
 -1 FATALITY~
-This skill gives the user a chance to kill his or her victim in a single 
+This skill gives the user a chance to kill his or her victim in a single
 blow.  It is not a command but, rather, each backstab carries a small chance
 of causing a fatality.  Only pure thieves (T/T) of level 26 or above
 have the knowledge of anatomy and the dexterity to cause fatality.
@@ -524,8 +524,8 @@ Trainer: Master of Movement (Monk)
 ~
 
 -1 'HAND TO HAND'~
-Learning the rare hand to hand style of fighting gives the player a weapon 
-even when disarmed -- bare hands.  Trained hand to hand experts are far more 
+Learning the rare hand to hand style of fighting gives the player a weapon
+even when disarmed -- bare hands.  Trained hand to hand experts are far more
 effective than many swordsmen, and those of the monk class are even more
 effective with it.
 
@@ -538,7 +538,7 @@ Number of trains required depends on your primary class and is:
 Thief:4  Warrior:4 Monk:free
 
 Magic using classes have notoriously delicate hands, preventing them from
-learning hand to hand combat. 
+learning hand to hand combat.
 
 Trainer: Breark (W/W, T/W), Silent Master (monk), mud school adept (practice
          only, no gain)
@@ -560,7 +560,7 @@ Trainer: Master of Movement (monk)
 Syntax: kick <victim>
 
 Kicking allows the adventurer to receive an extra attack in combat, a powerful
-kick. However, a failed kick may throw an unwary fighter off balance.  
+kick. However, a failed kick may throw an unwary fighter off balance.
 
 The minimum level to use this skill depends on your primary class and is:
 
@@ -594,14 +594,14 @@ Syntax: nerve <victim>
 Intimate knowledge of anatomy has enabled the studious monks to
 concentrate on certain nerve centers in the bodies of their opponents when
 forced into battle.  Striking these vulnerable areas causes great pain and
-damage.  Monks receive this skill for free but must study until level 15 
+damage.  Monks receive this skill for free but must study until level 15
 before they can use it.
 
 Trainer: Silent Master (Monk)
 ~
 
 -1 PARRY~
-If at first you fail to dodge, block it.  Parry is useful for deflecting 
+If at first you fail to dodge, block it.  Parry is useful for deflecting
 attacks, and is successful more often than dodge.  Parry requires a weapon for
 full success.  The hand-to-hand skill may also be used, but results in reduced
 damage instead of no damage.  The best chance of parrying occurs when the
@@ -624,22 +624,22 @@ Trainer: Dolonar (?/W), Stout(?/T), Kalak (W/?), Silent Master (Monk),
 -1 RESCUE~
 Syntax: rescue <character>
 
-A friend in need is a friend indeed.  And when in combat, a warrior (or a 
-member of the warrior guild) with the rescue skill is just the friend you 
-need.  Rescue allows you to intercede in combat, protecting weaker characters 
-from bodily harm. Hopefully the favor will be returned.  Success in rescuing 
-depends on the skill rating, as well as a comparison of level, dexterity, 
-and speed between the character and the target. 
+A friend in need is a friend indeed.  And when in combat, a warrior (or a
+member of the warrior guild) with the rescue skill is just the friend you
+need.  Rescue allows you to intercede in combat, protecting weaker characters
+from bodily harm. Hopefully the favor will be returned.  Success in rescuing
+depends on the skill rating, as well as a comparison of level, dexterity,
+and speed between the character and the target.
 
 Note: you rescue a friend, not the monster.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:26  Cleric:20  Thief:18  Warrior:7 
+Mage:26  Cleric:20  Thief:18  Warrior:7
 
 Number of trains required depends on your primary class and is:
 
-Mage:5 Cleric:5  Thief:5  Warrior:free  
+Mage:5 Cleric:5  Thief:5  Warrior:free
 
 Monks and Necromancers may not learn rescue.
 
@@ -653,14 +653,14 @@ daylight unbeknownst to the acute observer.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:10  Cleric:18  Thief:5  Warrior:15  
+Mage:10  Cleric:18  Thief:5  Warrior:15
 
 Number of trains required depends on your primary class and is:
 
-Mage:3  Cleric:3  Thief:1  Warrior:3  
+Mage:3  Cleric:3  Thief:1  Warrior:3
 
 Monks and necromancers cannot learn this skill, as they cannot join the
-thief guild. 
+thief guild.
 
 Trainer: Suma (?/T)
 ~
@@ -668,31 +668,31 @@ Trainer: Suma (?/T)
 Syntax: steal <object> <character>
 Syntax: steal coins <character>
 
-This skill allows items to be stolen from the inventory of monsters and 
-characters, and even from shops!  But beware, shop keepers guard their 
-merchandise carefully, and attempting to steal from a character earns you a 
-THIEF flag if you are caught.  Only thieves and members of the thief 
+This skill allows items to be stolen from the inventory of monsters and
+characters, and even from shops!  But beware, shop keepers guard their
+merchandise carefully, and attempting to steal from a character earns you a
+THIEF flag if you are caught.  Only thieves and members of the thief
 guild may learn to steal.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:11  Cleric:11  Thief:8  Warrior:10  
+Mage:11  Cleric:11  Thief:8  Warrior:10
 
-Thieves receive this skill for free.  All other classes require 5 trains.  
-Monks and necromancers cannot join thieves' guild and, therefore, cannot 
+Thieves receive this skill for free.  All other classes require 5 trains.
+Monks and necromancers cannot join thieves' guild and, therefore, cannot
 learn to steal.
 
 Trainer: Quickfingers (?/T), Tia (T/?), mud school adept (practice only,
          no gain)
-~ 
+~
 
 -1 STEALTH~
 Syntax: stealth
 
-This skill allows full thieves (T/T) to pass totally unseen by others.  
+This skill allows full thieves (T/T) to pass totally unseen by others.
 There is no way to detect a character who is using stealth.
 
-Minimum level is 18 to use stealth. 
+Minimum level is 18 to use stealth.
 
 Number of trains required: 5
 Trainer: Mizry (T/T)
@@ -712,7 +712,7 @@ Trainer: Silent Master (Monk)
 0 'STUNNING BLOW'~
 Syntax: stun <victim>
 
-This skill allows the martial artist to strike at an exposed part of his 
+This skill allows the martial artist to strike at an exposed part of his
 or her opponent, stunning the victim for a brief period of time.  The
 accuracy required by this skill limits its use to monks of level 21 or
 above.
@@ -724,10 +724,10 @@ Trainer: Silent Master (Monk)
 -1 TRIP~
 Syntax: trip <character>
 
-Trip is a somewhat dastardly attack, which involves using any one of a 
-number of methods to bring your opponent down to the ground.  Tripping large 
-monsters is generally not a good idea, and agile ones will find the attack 
-easy to avoid.  
+Trip is a somewhat dastardly attack, which involves using any one of a
+number of methods to bring your opponent down to the ground.  Tripping large
+monsters is generally not a good idea, and agile ones will find the attack
+easy to avoid.
 
 The minimum level to use this skill depends on your primary class and is:
 
@@ -735,7 +735,7 @@ Mage:21  Cleric:19  Thief:1  Warrior:15  Monk:10
 
 Number of trains required depends on your primary class and is:
 
-Mage:5 Cleric:5  Thief:4  Warrior:5  Monk:free  
+Mage:5 Cleric:5  Thief:4  Warrior:5  Monk:free
 
 Members of the thief guild receive this skill for free.
 
@@ -748,7 +748,7 @@ Trainer: Ni Hi (?/T), Silent Master (Monk), mud school adept (practice only,
 -1 'SECOND ATTACK'~
 Training in second attack allows the character a chance at additional strikes
 in combat. A 100% second attack does NOT guarantee 2 attacks every
-round.  
+round.
 
 The minimum level to use this skill depends on your primary class and is:
 
@@ -756,14 +756,15 @@ Mage:24  Cleric:22  Thief:12  Warrior:5  Monk:8
 
 Number of trains required depends on your primary class and is:
 
-Mage:5 Cleric:4  Thief:3  Warrior:2  Monk:3  
+Mage:5 Cleric:4  Thief:3  Warrior:2  Monk:3
 
 Members of the warrior guild receive this skill for free.
 
 Necromancers cannot learn second attack.
 
 Trainer: Breark (?/W), Ni Hi (?/T), Dominic (C/C), Fredar (?/C),
-         Kilar (?/M), Master of Movement (Monk)
+         Kilar (?/M), Master of Movement (Monk), Flame the fire
+         Mage (M/M)
 ~
 
 -1 'THIRD ATTACK'~
@@ -779,7 +780,7 @@ Trainer: Vladamir (W/W)
 -1 TRACK~
 Syntax: track <character>
 
-Full thieves (T/T) may acquire the ability to learn where their enemies 
+Full thieves (T/T) may acquire the ability to learn where their enemies
 are.  The track skill tells them which direction and how many spaces away
 the target character is.  The minimum level that must be attained to use
 the track skill is 25.
@@ -790,9 +791,9 @@ Trainer: Mizry, the Assassin
 
 -1 'FAST HEALING'~
 The fast healing skill improves wound healing rates, whether walking, resting,
-or sleeping. It represents knowledge of healing herbs or just general 
-toughness and stamina.  Fast healing is checked every tick, and it is 
-possible for it to fail.  
+or sleeping. It represents knowledge of healing herbs or just general
+toughness and stamina.  Fast healing is checked every tick, and it is
+possible for it to fail.
 
 The minimum level to use this skill depends on your primary class and is:
 
@@ -813,15 +814,15 @@ Haggling is an indispensable skill to the trader.  It allows a character to
 match wits with a merchant, seeking to get a better price for merchandise,
 or to buy at the lowest possible cost.  Unfortunately, most merchants are
 already very skilled at haggling, so the untrained adventurer had best
-guard his treasure closely.  
+guard his treasure closely.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:7  Cleric:18  Thief:1  Warrior:14  
+Mage:7  Cleric:18  Thief:1  Warrior:14
 
 Number of trains required depends on your primary class and is:
 
-Mage:5  Cleric:5  Thief:3  Warrior:5  
+Mage:5  Cleric:5  Thief:3  Warrior:5
 
 Monks and Necromancers cannot learn haggle, since they cannot join the
 monk guild.
@@ -833,25 +834,25 @@ Trainer: Suma (?/T)
 Hide and sneak are similar skills, both related to remaining undetected.
 Hide has a very high chance of success, but only works for as long as the
 character remains stationary.  Sneak may be used when moving (including to
-sneak by monsters), but has a lower chance of success.  
+sneak by monsters), but has a lower chance of success.
 
 Minimum levels for hide are:
 
-Mage:10  Cleric:16  Thief:2  Warrior:12  
+Mage:10  Cleric:16  Thief:2  Warrior:12
 
 Number of trains required depends on your primary class and is:
 
-Mage:6  Cleric:6  Thief:free  Warrior:6  
+Mage:6  Cleric:6  Thief:free  Warrior:6
 
-Trainer: Warder (?/T), Tia (T/?), Fingers (practice only, no gain) 
+Trainer: Warder (?/T), Tia (T/?), Fingers (practice only, no gain)
 
 Minimum levels for sneak are:
 
-Mage:8  Cleric:12  Thief:4  Warrior:10  
+Mage:8  Cleric:12  Thief:4  Warrior:10
 
 Number of trains required depends on your primary class and is:
 
-Mage:6  Cleric:6  Thief:free  Warrior:5  
+Mage:6  Cleric:6  Thief:free  Warrior:5
 
 Trainer: Warder (?/T), Tia (T/?), Fingers (practice only, no gain), mud
          school adept (practice only, no gain)
@@ -868,9 +869,9 @@ guild.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:35  Cleric:35  Thief:17  Warrior:27  
+Mage:35  Cleric:35  Thief:17  Warrior:27
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
 Mage:1  Cleric:1  Thief:1  Warrior:1
@@ -892,13 +893,13 @@ only available to members of the thieves' guild.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:5  Cleric:6  Thief:12  Warrior:20  
+Mage:5  Cleric:6  Thief:12  Warrior:20
 
 Number of trains required depends on your primary class and is:
 
-Mage: 4  Cleric:4  Thief:5  Warrior:6  
+Mage: 4  Cleric:4  Thief:5  Warrior:6
 
-Monks and necromancers may not learn lore, since they may not join the 
+Monks and necromancers may not learn lore, since they may not join the
 thieves' guild.
 
 Trainer: Stout (?/T)
@@ -907,7 +908,7 @@ Trainer: Stout (?/T)
 -1 MEDITATION~
 This skill is similar to fast healing, but relies on concentration and
 mantras to increase mana recovery when the character is sleeping or resting.
-Having the skill is all that is required to make it work; you will 
+Having the skill is all that is required to make it work; you will
 automatically try to meditate when you are healing.
 
 The minimum level to use this skill depends on your primary class and is:
@@ -930,7 +931,7 @@ This skill is for members of the thieves' guild only.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:21  Cleric:21  Thief:10  Warrior:14  
+Mage:21  Cleric:21  Thief:10  Warrior:14
 
 Number of trains required depends on your primary class and is:
 
@@ -951,14 +952,14 @@ no help available yet
 Syntax: pick <object>
 Syntax: pick <direction>
 
-Lock picking is one of the prime skills of thieves (and members of the 
-thief guild), allowing them to gain access to many secured areas.  Lock 
-picking chances are improved by  intelligence, and hindered by the difficulty 
-of the lock. 
+Lock picking is one of the prime skills of thieves (and members of the
+thief guild), allowing them to gain access to many secured areas.  Lock
+picking chances are improved by  intelligence, and hindered by the difficulty
+of the lock.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:23  Cleric:25  Thief:7  Warrior:25  
+Mage:23  Cleric:25  Thief:7  Warrior:25
 
 Number of trains required depends on your primary class and is:
 
@@ -982,7 +983,7 @@ inside.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:6  Cleric:6  Thief:5  Warrior:4  Monk:5  Necromancer:6  
+Mage:6  Cleric:6  Thief:5  Warrior:4  Monk:5  Necromancer:6
 
 Number of trains required is 3 for all classes.
 Trainer: Seraloi (any)
@@ -995,7 +996,7 @@ The scribing of scrolls is very difficult to do, because finding the
 correct ingredients and getting them to mix for a usable ink to write
 with is so hard.  The rewards of discovery can be quite shocking though.
 
-Only full mages above level 20 may use this skill.   
+Only full mages above level 20 may use this skill.
 
 Number of trains: 4
 Trainer: Drixt (M/M)
@@ -1006,18 +1007,18 @@ Syntax: search <object>
 Syntax: search <direction>
 
 This skill enables you to search for and disarm traps.   Only thieves and
-members of the thief guild may learn to search.  
+members of the thief guild may learn to search.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:9  Cleric:11  Thief:7  Warrior:11  
+Mage:9  Cleric:11  Thief:7  Warrior:11
 
 Thieves receive this skill for free; it costs 2 trains for all others.  Monks
 and necromancers cannot learn search as they cannot join the thieves' guild.
 
-Trainer: Quickfingers (?/T), Tia (T/?), mud school adept (practice only, 
+Trainer: Quickfingers (?/T), Tia (T/?), mud school adept (practice only,
          no gain)
-~ 
+~
 
 -1 SHOVE~
 Syntax: shove <character> <direction>
@@ -1031,7 +1032,7 @@ victim is of higher level than the shover.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:16  Cleric:15  Thief:13  Warrior:10  Monk:11  Necromancer:16  
+Mage:16  Cleric:15  Thief:13  Warrior:10  Monk:11  Necromancer:16
 
 Number of trains required is 1 for W/* and Monk and 2 for all others.
 
@@ -1077,7 +1078,7 @@ Trainer: David (C/?), Gioli (M/?), Undead Spirit (necro), Dawn (?/M),
          mud school adept (practice only, no gain)
 
 
-Minimum levels for the use of staves are:  
+Minimum levels for the use of staves are:
 
 Mage:5  Cleric:2  Thief:9  Warrior:9  Necromancer:7
 
@@ -1092,7 +1093,7 @@ Trainer: Silius (?/C), Dawn (?/M - practice only, no gain), Diemos (?/M),
          (practice only, no gain)
 
 
-Minimum levels for the use of wands are:  
+Minimum levels for the use of wands are:
 
 Mage:2  Cleric:5  Thief:9  Warrior:9  Necromancer:6
 
@@ -1102,7 +1103,7 @@ Mage:free  Cleric:2  Thief:3  Warrior:3  Necromancer:free
 
 Members of the mage guild receive this skill for free.
 
-Trainer: Dawn (?/M - practice only, no gain), Diemos (?/M), Gioli (M/?), 
+Trainer: Dawn (?/M - practice only, no gain), Diemos (?/M), Gioli (M/?),
          Silius (?/C), Soul Trapper (necro), mud school adept (practice
          only, no gain)
 ~
@@ -1110,7 +1111,7 @@ Trainer: Dawn (?/M - practice only, no gain), Diemos (?/M), Gioli (M/?),
 0 RECALL /~
 Syntax: RECALL
 
-RECALL prays to Mota for miraculous transportation from where you are back 
+RECALL prays to Mota for miraculous transportation from where you are back
 to the Temple of Devota.  '/' is a synonym for RECALL.  This skill is given
 to all characters for free.
 
@@ -1136,12 +1137,12 @@ whips have an easier time getting around them.  Axes may split shields in two.
 
 The minimum level to use this skill depends on your primary class and is:
 
-Mage:17  Cleric:17  Thief:16  Warrior:2  
+Mage:17  Cleric:17  Thief:16  Warrior:2
 
-The number of trains needed to gain this skill depends on your primary 
+The number of trains needed to gain this skill depends on your primary
 class and is:
 
-Mage:5  Cleric:3  Thief:5  Warrior:free 
+Mage:5  Cleric:3  Thief:5  Warrior:free
 
 Trainer: Kalak (W/?), Geko (?/W), mud school adept (practice only, no gain)
 ~
@@ -1150,5 +1151,3 @@ Trainer: Kalak (W/?), Geko (?/W), mud school adept (practice only, no gain)
 0 $~
 
 #$
-
-

@@ -323,12 +323,12 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	return;
 
     if (IS_AFFECTED(ch,AFF_HASTE))
-	one_hit(ch,victim,dt);
+	  one_hit(ch,victim,dt);
 
-	 if( IS_AFFECTED2( victim, AFF2_DIVINE_PROT ) )
+	 if( IS_AFFECTED2( victim, AFF2_DIVINE_PROT ) && number_percent () > 5)
 	 	one_hit(ch,victim,dt);
-		one_hit(ch,victim,dt);
-		one_hit(ch,victim,dt);
+  	one_hit(ch,victim,dt);
+
 
 	if (IS_IMMORTAL(ch))
 one_hit(ch,victim,dt);

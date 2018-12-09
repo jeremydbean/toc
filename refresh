@@ -10,9 +10,8 @@ rm ../area/merc
 cp merc ../area
 rm merc
 cd ..
-sleep 1
 pkill -e merc
 pkill -e immortal
 pkill -e startup
-sleep 2
+sleep 1
 ./startup &
