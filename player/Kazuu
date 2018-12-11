@@ -1,7 +1,7 @@
 #PLAYER
 Name Kazuu~
 Id   10600
-LogO 1544286468
+LogO 1544500591
 Vers 3
 Prom ~
 Ignoring ~
@@ -13,12 +13,12 @@ Psionic  1
 Cast none
 Levl 69
 Tru  69
-Plyd 143690
+Plyd 144469
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
-Room 770
+Room 10177
 HMV  667 667 169 169 514 514
 NewGold 140
 NewPlat 46
@@ -354,17 +354,6 @@ Spell 1 'remove align'
 End
 
 #O
-Vnum 29242
-Nest 0
-Wear -1
-Lev  54
-Cost 7000
-Cond 100
-Repd 0
-Affect -1 54 -1 15 12 0 0
-End
-
-#O
 Vnum 17025
 Nest 0
 ExtF 6
@@ -387,23 +376,70 @@ Repd 0
 End
 
 #O
-Vnum 17025
+Vnum 3715
 Nest 0
-ExtF 6
 Wear -1
-Lev  53
-Cost 1500
+Cost 0
 Cond 100
 Repd 0
 End
 
 #O
-Vnum 17025
+Vnum 3715
 Nest 0
-ExtF 6
 Wear -1
-Lev  53
-Cost 1500
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear -1
+Lev  20
+Cost 0
+Cond 100
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
 Cond 100
 Repd 0
 End

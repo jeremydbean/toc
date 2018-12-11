@@ -56,3 +56,704 @@ tar: Removing leading `../' from member names
 Sun Dec  9 06:11:32 2018 :: Sock.sinaddr:  127.0.0.1
 Sun Dec  9 06:11:33 2018 :: Loading Killuminati's playerfile
 Sun Dec  9 06:11:33 2018 :: Killuminati@localhost has connected. [Room: 4368]
+Sun Dec  9 07:55:53 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec  9 07:55:54 2018 :: Loading Testies's playerfile
+Sun Dec  9 07:55:54 2018 :: Testies@localhost has connected. [Room: 4368]
+Sun Dec  9 07:56:25 2018 :: Testies has quit. [Room: 4368]
+Sun Dec  9 11:40:37 2018 :: Sock.sinaddr:  68.61.48.244
+Sun Dec  9 11:40:38 2018 :: EOF encountered on read.
+Sun Dec  9 11:59:30 2018 :: Sock.sinaddr:  37.187.105.83
+Sun Dec  9 11:59:30 2018 :: Sock.sinaddr:  37.187.105.83
+Sun Dec  9 11:59:30 2018 :: EOF encountered on read.
+Sun Dec  9 11:59:42 2018 :: EOF encountered on read.
+Sun Dec  9 18:57:35 2018 :: Sock.sinaddr:  172.104.84.223
+Sun Dec  9 18:57:36 2018 :: EOF encountered on read.
+Sun Dec  9 20:07:24 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Dec  9 20:07:25 2018 :: Loading Kyrus's playerfile
+Sun Dec  9 20:07:26 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 4207]
+Sun Dec  9 20:07:34 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 20:07:58 2018 :: Kyrus has quit. [Room: 29004]
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Dec  9 20:07:58 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Dec  9 20:07:58 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Dec  9 21:41:43 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Dec  9 21:41:44 2018 :: Loading Kyrus's playerfile
+Sun Dec  9 21:41:44 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 29004]
+Sun Dec  9 21:42:21 2018 :: Log Kyrus: drop key
+Sun Dec  9 21:42:40 2018 :: [XP TRACK]: ;Kyrus; gained ;493; XP.
+Sun Dec  9 21:43:04 2018 :: [XP TRACK]: ;Kyrus; gained ;411; XP.
+Sun Dec  9 21:43:10 2018 :: [XP TRACK]: ;Kyrus; gained ;531; XP.
+Sun Dec  9 21:43:27 2018 :: [XP TRACK]: ;Kyrus; gained ;370; XP.
+Sun Dec  9 21:43:34 2018 :: [XP TRACK]: ;Kyrus; gained ;355; XP.
+Sun Dec  9 21:43:37 2018 :: [XP TRACK]: ;Kyrus; gained ;539; XP.
+Sun Dec  9 21:43:40 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:44:15 2018 :: [XP TRACK]: ;Kyrus; gained ;376; XP.
+Sun Dec  9 21:44:22 2018 :: [XP TRACK]: ;Kyrus; gained ;553; XP.
+Sun Dec  9 21:44:39 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:44:43 2018 :: [XP TRACK]: ;Kyrus; gained ;535; XP.
+Sun Dec  9 21:44:46 2018 :: [XP TRACK]: ;Kyrus; gained ;347; XP.
+Sun Dec  9 21:44:49 2018 :: [XP TRACK]: ;Kyrus; gained ;495; XP.
+Sun Dec  9 21:44:56 2018 :: [XP TRACK]: ;Kyrus; gained ;487; XP.
+Sun Dec  9 21:45:10 2018 :: [XP TRACK]: ;Kyrus; gained ;493; XP.
+Sun Dec  9 21:45:13 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 21:45:45 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:45:58 2018 :: [XP TRACK]: ;Kyrus; gained ;347; XP.
+Sun Dec  9 21:45:58 2018 :: Kyrus has reached the next level of Heroism!!
+Sun Dec  9 21:46:25 2018 :: [XP TRACK]: ;Kyrus; gained ;293; XP.
+Sun Dec  9 21:46:46 2018 :: [XP TRACK]: ;Kyrus; gained ;279; XP.
+Sun Dec  9 21:47:18 2018 :: [XP TRACK]: ;Kyrus; gained ;227; XP.
+Sun Dec  9 21:47:27 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:47:44 2018 :: [XP TRACK]: ;Kyrus; gained ;398; XP.
+Sun Dec  9 21:47:48 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 21:47:49 2018 :: [XP TRACK]: ;Kyrus; gained ;323; XP.
+Sun Dec  9 21:47:57 2018 :: [XP TRACK]: ;Kyrus; gained ;531; XP.
+Sun Dec  9 21:47:59 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:48:07 2018 :: [XP TRACK]: ;Kyrus; gained ;410; XP.
+Sun Dec  9 21:48:27 2018 :: [XP TRACK]: ;Kyrus; gained ;314; XP.
+Sun Dec  9 21:48:30 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 21:48:31 2018 :: [XP TRACK]: ;Kyrus; gained ;314; XP.
+Sun Dec  9 21:48:33 2018 :: [XP TRACK]: ;Kyrus; gained ;467; XP.
+Sun Dec  9 21:48:34 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 21:48:38 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 21:48:59 2018 :: [XP TRACK]: ;Kyrus; gained ;445; XP.
+Sun Dec  9 21:49:08 2018 :: [XP TRACK]: ;Kyrus; gained ;303; XP.
+Sun Dec  9 21:49:12 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:49:36 2018 :: [XP TRACK]: ;Kyrus; gained ;298; XP.
+Sun Dec  9 21:49:58 2018 :: [XP TRACK]: ;Kyrus; gained ;535; XP.
+Sun Dec  9 21:50:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:50:19 2018 :: [XP TRACK]: ;Kyrus; gained ;514; XP.
+Sun Dec  9 21:50:28 2018 :: [XP TRACK]: ;Kyrus; gained ;372; XP.
+Sun Dec  9 21:51:10 2018 :: [XP TRACK]: ;Kyrus; gained ;345; XP.
+Sun Dec  9 21:51:37 2018 :: [XP TRACK]: ;Kyrus; gained ;467; XP.
+Sun Dec  9 21:51:45 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:52:04 2018 :: [XP TRACK]: ;Kyrus; gained ;324; XP.
+Sun Dec  9 21:52:46 2018 :: [XP TRACK]: ;Kyrus; gained ;455; XP.
+Sun Dec  9 21:53:10 2018 :: [XP TRACK]: ;Kyrus; gained ;556; XP.
+Sun Dec  9 21:53:14 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 21:55:25 2018 :: Log Kyrus: drop key
+Sun Dec  9 21:55:43 2018 :: [XP TRACK]: ;Kyrus; gained ;335; XP.
+Sun Dec  9 21:56:36 2018 :: [XP TRACK]: ;Kyrus; gained ;373; XP.
+Sun Dec  9 21:56:40 2018 :: [XP TRACK]: ;Kyrus; gained ;347; XP.
+Sun Dec  9 21:58:27 2018 :: [XP TRACK]: ;Kyrus; gained ;371; XP.
+Sun Dec  9 21:58:32 2018 :: [XP TRACK]: ;Kyrus; gained ;472; XP.
+Sun Dec  9 22:00:40 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:00:53 2018 :: [XP TRACK]: ;Kyrus; gained ;384; XP.
+Sun Dec  9 22:00:57 2018 :: [XP TRACK]: ;Kyrus; gained ;453; XP.
+Sun Dec  9 22:01:00 2018 :: [XP TRACK]: ;Kyrus; gained ;335; XP.
+Sun Dec  9 22:01:04 2018 :: [XP TRACK]: ;Kyrus; gained ;460; XP.
+Sun Dec  9 22:01:12 2018 :: [XP TRACK]: ;Kyrus; gained ;410; XP.
+Sun Dec  9 22:01:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:01:35 2018 :: [XP TRACK]: ;Kyrus; gained ;477; XP.
+Sun Dec  9 22:01:36 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:02:47 2018 :: [XP TRACK]: ;Kyrus; gained ;286; XP.
+Sun Dec  9 22:02:58 2018 :: [XP TRACK]: ;Kyrus; gained ;396; XP.
+Sun Dec  9 22:03:15 2018 :: [XP TRACK]: ;Kyrus; gained ;292; XP.
+Sun Dec  9 22:03:38 2018 :: [XP TRACK]: ;Kyrus; gained ;195; XP.
+Sun Dec  9 22:03:42 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:04:08 2018 :: [XP TRACK]: ;Kyrus; gained ;439; XP.
+Sun Dec  9 22:04:11 2018 :: [XP TRACK]: ;Kyrus; gained ;292; XP.
+Sun Dec  9 22:04:28 2018 :: [XP TRACK]: ;Kyrus; gained ;393; XP.
+Sun Dec  9 22:04:35 2018 :: [XP TRACK]: ;Kyrus; gained ;327; XP.
+Sun Dec  9 22:04:38 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:04:38 2018 :: [XP TRACK]: ;Kyrus; gained ;395; XP.
+Sun Dec  9 22:04:41 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:04:54 2018 :: [XP TRACK]: ;Kyrus; gained ;300; XP.
+Sun Dec  9 22:04:57 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:05:17 2018 :: [XP TRACK]: ;Kyrus; gained ;472; XP.
+Sun Dec  9 22:06:47 2018 :: [XP TRACK]: ;Kyrus; gained ;391; XP.
+Sun Dec  9 22:08:23 2018 :: [XP TRACK]: ;Kyrus; gained ;423; XP.
+Sun Dec  9 22:08:26 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:08:37 2018 :: [XP TRACK]: ;Kyrus; gained ;398; XP.
+Sun Dec  9 22:08:37 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:09:14 2018 :: [XP TRACK]: ;Kyrus; gained ;462; XP.
+Sun Dec  9 22:09:23 2018 :: [XP TRACK]: ;Kyrus; gained ;541; XP.
+Sun Dec  9 22:09:41 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:14:01 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:15:14 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:15:39 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:16:01 2018 :: [XP TRACK]: ;Kyrus; gained ;580; XP.
+Sun Dec  9 22:16:07 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:16:11 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Dec  9 22:16:11 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 22:16:12 2018 :: Log Kyrus: drop cor
+Sun Dec  9 22:16:12 2018 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Sun Dec  9 22:16:12 2018 :: Vnum 10051|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 22:16:18 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Sun Dec  9 22:16:18 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 22:16:36 2018 :: Log Killuminati: restore self
+Sun Dec  9 22:16:36 2018 :: Log Killuminati: restore Kyrus 
+Sun Dec  9 22:16:42 2018 :: Log Killuminati: restore self
+Sun Dec  9 22:17:49 2018 :: Log Kyrus: drop key
+Sun Dec  9 22:18:03 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Dec  9 22:18:03 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Dec  9 22:18:13 2018 :: [XP TRACK]: ;Kyrus; gained ;162; XP.
+Sun Dec  9 22:18:33 2018 :: [XP TRACK]: ;Kyrus; gained ;241; XP.
+Sun Dec  9 22:18:36 2018 :: [XP TRACK]: ;Kyrus; gained ;179; XP.
+Sun Dec  9 22:19:02 2018 :: [XP TRACK]: ;Kyrus; gained ;243; XP.
+Sun Dec  9 22:19:05 2018 :: [XP TRACK]: ;Kyrus; gained ;214; XP.
+Sun Dec  9 22:19:08 2018 :: [XP TRACK]: ;Kyrus; gained ;185; XP.
+Sun Dec  9 22:19:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:19:26 2018 :: Log Kyrus: drop dag
+Sun Dec  9 22:20:09 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Sun Dec  9 22:20:18 2018 :: [XP TRACK]: ;Kyrus; gained ;243; XP.
+Sun Dec  9 22:21:03 2018 :: [XP TRACK]: ;Kyrus; gained ;184; XP.
+Sun Dec  9 22:21:03 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:21:22 2018 :: [XP TRACK]: ;Kyrus; gained ;199; XP.
+Sun Dec  9 22:21:25 2018 :: [XP TRACK]: ;Kyrus; gained ;159; XP.
+Sun Dec  9 22:21:25 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:22:18 2018 :: [XP TRACK]: ;Kyrus; gained ;179; XP.
+Sun Dec  9 22:22:25 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:22:26 2018 :: [XP TRACK]: ;Kyrus; gained ;148; XP.
+Sun Dec  9 22:23:09 2018 :: [XP TRACK]: ;Kyrus; gained ;129; XP.
+Sun Dec  9 22:23:17 2018 :: [XP TRACK]: ;Kyrus; gained ;153; XP.
+Sun Dec  9 22:23:44 2018 :: [XP TRACK]: ;Kyrus; gained ;243; XP.
+Sun Dec  9 22:24:01 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:24:16 2018 :: [XP TRACK]: ;Kyrus; gained ;224; XP.
+Sun Dec  9 22:24:42 2018 :: [XP TRACK]: ;Kyrus; gained ;222; XP.
+Sun Dec  9 22:24:45 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:24:46 2018 :: [XP TRACK]: ;Kyrus; gained ;226; XP.
+Sun Dec  9 22:24:52 2018 :: [XP TRACK]: ;Kyrus; gained ;237; XP.
+Sun Dec  9 22:25:19 2018 :: [XP TRACK]: ;Kyrus; gained ;211; XP.
+Sun Dec  9 22:25:32 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:25:38 2018 :: [XP TRACK]: ;Kyrus; gained ;228; XP.
+Sun Dec  9 22:25:42 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:25:42 2018 :: [XP TRACK]: ;Kyrus; gained ;148; XP.
+Sun Dec  9 22:25:52 2018 :: [XP TRACK]: ;Kyrus; gained ;148; XP.
+Sun Dec  9 22:25:55 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:26:55 2018 :: [XP TRACK]: ;Kyrus; gained ;163; XP.
+Sun Dec  9 22:27:08 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:27:48 2018 :: [XP TRACK]: ;Kyrus; gained ;201; XP.
+Sun Dec  9 22:28:01 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:28:02 2018 :: [XP TRACK]: ;Kyrus; gained ;231; XP.
+Sun Dec  9 22:29:04 2018 :: [XP TRACK]: ;Kyrus; gained ;156; XP.
+Sun Dec  9 22:29:34 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:29:49 2018 :: [XP TRACK]: ;Kyrus; gained ;277; XP.
+Sun Dec  9 22:29:49 2018 :: Kyrus is now a Knight of the Realms!!!
+Sun Dec  9 22:30:06 2018 :: [XP TRACK]: ;Kyrus; gained ;75; XP.
+Sun Dec  9 22:31:01 2018 :: [XP TRACK]: ;Kyrus; gained ;75; XP.
+Sun Dec  9 22:31:58 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:33:23 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:35:03 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:35:53 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:36:49 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:38:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:39:28 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:40:11 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:41:25 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:44:07 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:44:21 2018 :: [XP TRACK]: ;Kyrus; gained ;233; XP.
+Sun Dec  9 22:45:54 2018 :: Log Kyrus: drop key
+Sun Dec  9 22:46:14 2018 :: Log Kyrus: drop gold
+Sun Dec  9 22:46:29 2018 :: [XP TRACK]: ;Kyrus; gained ;130; XP.
+Sun Dec  9 22:46:35 2018 :: [XP TRACK]: ;Kyrus; gained ;115; XP.
+Sun Dec  9 22:46:38 2018 :: [XP TRACK]: ;Kyrus; gained ;134; XP.
+Sun Dec  9 22:46:54 2018 :: [XP TRACK]: ;Kyrus; gained ;166; XP.
+Sun Dec  9 22:47:01 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Sun Dec  9 22:47:01 2018 :: [XP TRACK]: ;Kyrus; gained ;117; XP.
+Sun Dec  9 22:47:10 2018 :: [XP TRACK]: ;Kyrus; gained ;116; XP.
+Sun Dec  9 22:47:12 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:47:31 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Sun Dec  9 22:47:45 2018 :: [XP TRACK]: ;Kyrus; gained ;110; XP.
+Sun Dec  9 22:47:48 2018 :: [XP TRACK]: ;Kyrus; gained ;113; XP.
+Sun Dec  9 22:47:57 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Dec  9 22:47:58 2018 :: Loading Kazuu's playerfile
+Sun Dec  9 22:47:59 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 770]
+Sun Dec  9 22:48:01 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Sun Dec  9 22:48:01 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:48:20 2018 :: Log Kyrus: drop ass
+Sun Dec  9 22:48:20 2018 :: Log Kyrus: drop ass
+Sun Dec  9 22:49:14 2018 :: Log Kazuu: load obj 29240
+Sun Dec  9 22:49:14 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Sun Dec  9 22:49:14 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 2
+Sun Dec  9 22:49:25 2018 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Sun Dec  9 22:49:25 2018 :: Vnum 29240|Signval: -1|!Gameload|Total: 3
+Sun Dec  9 22:49:25 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Sun Dec  9 22:49:25 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 2
+Sun Dec  9 22:49:30 2018 :: Kazuu has quit. [Room: 770]
+Sun Dec  9 22:49:30 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec  9 22:49:30 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 22:49:30 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec  9 22:49:30 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 22:49:30 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec  9 22:49:30 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 22:49:30 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec  9 22:49:30 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 22:49:42 2018 :: Log Kyrus: drop tr
+Sun Dec  9 22:50:04 2018 :: [XP TRACK]: ;Kyrus; gained ;106; XP.
+Sun Dec  9 22:50:19 2018 :: [XP TRACK]: ;Kyrus; gained ;134; XP.
+Sun Dec  9 22:50:40 2018 :: [XP TRACK]: ;Kyrus; gained ;83; XP.
+Sun Dec  9 22:50:41 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:51:06 2018 :: [XP TRACK]: ;Kyrus; gained ;97; XP.
+Sun Dec  9 22:51:36 2018 :: [XP TRACK]: ;Kyrus; gained ;153; XP.
+Sun Dec  9 22:52:01 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Sun Dec  9 22:52:02 2018 :: [XP TRACK]: ;Kyrus; gained ;144; XP.
+Sun Dec  9 22:52:06 2018 :: [XP TRACK]: ;Kyrus; gained ;128; XP.
+Sun Dec  9 22:52:09 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:52:17 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:52:32 2018 :: [XP TRACK]: ;Kyrus; gained ;158; XP.
+Sun Dec  9 22:52:42 2018 :: [XP TRACK]: ;Kyrus; gained ;152; XP.
+Sun Dec  9 22:52:46 2018 :: [XP TRACK]: ;Kyrus; gained ;127; XP.
+Sun Dec  9 22:52:48 2018 :: [XP TRACK]: ;Kyrus; gained ;162; XP.
+Sun Dec  9 22:52:51 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:52:59 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:53:07 2018 :: [XP TRACK]: ;Kyrus; gained ;167; XP.
+Sun Dec  9 22:53:37 2018 :: [XP TRACK]: ;Kyrus; gained ;165; XP.
+Sun Dec  9 22:54:15 2018 :: [XP TRACK]: ;Kyrus; gained ;125; XP.
+Sun Dec  9 22:55:02 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:55:03 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Sun Dec  9 22:55:32 2018 :: [XP TRACK]: ;Kyrus; gained ;173; XP.
+Sun Dec  9 22:55:59 2018 :: [XP TRACK]: ;Kyrus; gained ;174; XP.
+Sun Dec  9 22:56:18 2018 :: Log Kyrus: depos 1524
+Sun Dec  9 22:56:46 2018 :: Log Kyrus: drop key
+Sun Dec  9 22:57:16 2018 :: [XP TRACK]: ;Kyrus; gained ;150; XP.
+Sun Dec  9 22:57:19 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 22:57:20 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 22:57:20 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Sun Dec  9 22:57:26 2018 :: [XP TRACK]: ;Kyrus; gained ;124; XP.
+Sun Dec  9 22:57:30 2018 :: [XP TRACK]: ;Kyrus; gained ;152; XP.
+Sun Dec  9 22:59:24 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:00:20 2018 :: [XP TRACK]: ;Kyrus; gained ;81; XP.
+Sun Dec  9 23:00:42 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:00:50 2018 :: Log Kyrus: drop dia
+Sun Dec  9 23:00:55 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:01:31 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:03:07 2018 :: Do_remove: Kyrus : mas
+Sun Dec  9 23:03:07 2018 :: Do_remove: Kyrus : mas
+Sun Dec  9 23:03:17 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:03:17 2018 :: Do_remove: Kyrus : dark
+Sun Dec  9 23:03:27 2018 :: Do_remove: Kyrus : force
+Sun Dec  9 23:03:39 2018 :: Do_remove: Kyrus : white
+Sun Dec  9 23:03:39 2018 :: Do_remove: Kyrus : white
+Sun Dec  9 23:03:47 2018 :: Log Kyrus: drop arm
+Sun Dec  9 23:04:03 2018 :: Log Kyrus: drop star
+Sun Dec  9 23:04:04 2018 :: Do_remove: Kyrus : all
+Sun Dec  9 23:04:04 2018 :: Kyrus did a remove all.
+Sun Dec  9 23:04:09 2018 :: Do_remove: Kyrus : all
+Sun Dec  9 23:04:09 2018 :: Kyrus did a remove all.
+Sun Dec  9 23:04:45 2018 :: [XP TRACK]: ;Kyrus; gained ;60; XP.
+Sun Dec  9 23:05:04 2018 :: Log Kyrus: drop star
+Sun Dec  9 23:05:12 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:05:19 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:05:50 2018 :: [XP TRACK]: ;Kyrus; gained ;54; XP.
+Sun Dec  9 23:05:55 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:09:09 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:09:12 2018 :: [XP TRACK]: ;Kyrus; gained ;95; XP.
+Sun Dec  9 23:10:15 2018 :: [XP TRACK]: ;Kyrus; gained ;53; XP.
+Sun Dec  9 23:11:13 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:11:18 2018 :: [XP TRACK]: ;Kyrus; gained ;79; XP.
+Sun Dec  9 23:11:49 2018 :: [XP TRACK]: ;Kyrus; gained ;81; XP.
+Sun Dec  9 23:12:00 2018 :: [XP TRACK]: ;Kyrus; gained ;97; XP.
+Sun Dec  9 23:12:14 2018 :: Log Kyrus: drop peg
+Sun Dec  9 23:12:42 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:12:58 2018 :: [XP TRACK]: ;Kyrus; gained ;63; XP.
+Sun Dec  9 23:13:07 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:13:30 2018 :: [XP TRACK]: ;Kyrus; gained ;64; XP.
+Sun Dec  9 23:13:33 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:14:40 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:15:43 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:16:10 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Sun Dec  9 23:16:16 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Sun Dec  9 23:16:38 2018 :: [XP TRACK]: ;Kyrus; gained ;139; XP.
+Sun Dec  9 23:16:41 2018 :: [XP TRACK]: ;Kyrus; gained ;112; XP.
+Sun Dec  9 23:16:55 2018 :: [XP TRACK]: ;Kyrus; gained ;163; XP.
+Sun Dec  9 23:17:04 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Sun Dec  9 23:17:05 2018 :: [XP TRACK]: ;Kyrus; gained ;113; XP.
+Sun Dec  9 23:17:08 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:17:24 2018 :: [XP TRACK]: ;Kyrus; gained ;104; XP.
+Sun Dec  9 23:17:28 2018 :: [XP TRACK]: ;Kyrus; gained ;129; XP.
+Sun Dec  9 23:17:31 2018 :: [XP TRACK]: ;Kyrus; gained ;150; XP.
+Sun Dec  9 23:17:32 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Sun Dec  9 23:17:55 2018 :: [XP TRACK]: ;Kyrus; gained ;168; XP.
+Sun Dec  9 23:18:02 2018 :: [XP TRACK]: ;Kyrus; gained ;144; XP.
+Sun Dec  9 23:18:05 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:18:29 2018 :: [XP TRACK]: ;Kyrus; gained ;145; XP.
+Sun Dec  9 23:18:32 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:19:00 2018 :: [XP TRACK]: ;Kyrus; gained ;82; XP.
+Sun Dec  9 23:19:37 2018 :: [XP TRACK]: ;Kyrus; gained ;75; XP.
+Sun Dec  9 23:19:59 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:20:00 2018 :: [XP TRACK]: ;Kyrus; gained ;150; XP.
+Sun Dec  9 23:20:13 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Sun Dec  9 23:20:14 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:20:43 2018 :: [XP TRACK]: ;Kyrus; gained ;126; XP.
+Sun Dec  9 23:21:11 2018 :: [XP TRACK]: ;Kyrus; gained ;110; XP.
+Sun Dec  9 23:21:37 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:21:46 2018 :: [XP TRACK]: ;Kyrus; gained ;124; XP.
+Sun Dec  9 23:22:08 2018 :: [XP TRACK]: ;Kyrus; gained ;128; XP.
+Sun Dec  9 23:22:34 2018 :: [XP TRACK]: ;Kyrus; gained ;115; XP.
+Sun Dec  9 23:22:37 2018 :: [XP TRACK]: ;Kyrus; gained ;145; XP.
+Sun Dec  9 23:22:41 2018 :: [XP TRACK]: ;Kyrus; gained ;154; XP.
+Sun Dec  9 23:22:49 2018 :: [XP TRACK]: ;Kyrus; gained ;135; XP.
+Sun Dec  9 23:22:51 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:23:05 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:23:11 2018 :: [XP TRACK]: ;Kyrus; gained ;162; XP.
+Sun Dec  9 23:23:50 2018 :: [XP TRACK]: ;Kyrus; gained ;130; XP.
+Sun Dec  9 23:24:24 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:24:43 2018 :: [XP TRACK]: ;Kyrus; gained ;145; XP.
+Sun Dec  9 23:25:13 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:25:26 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Sun Dec  9 23:25:44 2018 :: [XP TRACK]: ;Kyrus; gained ;160; XP.
+Sun Dec  9 23:26:10 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:26:21 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:26:31 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Sun Dec  9 23:26:35 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:26:40 2018 :: Log Killuminati: restore self
+Sun Dec  9 23:26:40 2018 :: Log Killuminati: restore Kyrus 
+Sun Dec  9 23:26:46 2018 :: Log Killuminati: restore self
+Sun Dec  9 23:26:50 2018 :: [XP TRACK]: ;Kyrus; gained ;183; XP.
+Sun Dec  9 23:27:05 2018 :: [XP TRACK]: ;Kyrus; gained ;154; XP.
+Sun Dec  9 23:27:41 2018 :: [XP TRACK]: ;Kyrus; gained ;173; XP.
+Sun Dec  9 23:27:51 2018 :: Log Kyrus: drop mace
+Sun Dec  9 23:28:07 2018 :: Log Kyrus: drop mace
+Sun Dec  9 23:28:11 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:28:58 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:29:22 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:29:30 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:29:55 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:30:09 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:30:19 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:30:26 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:30:32 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:30:48 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:31:06 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:31:23 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:31:31 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:31:40 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:31:40 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:31:54 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:32:03 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:32:20 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:32:36 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:32:40 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:32:47 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:32:57 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:33:12 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:33:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:33:44 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:33:45 2018 :: Kyrus has been spared by the gods divine protection from certain death at the hands of demon!
+Sun Dec  9 23:33:49 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:33:58 2018 :: Log Killuminati: restore self
+Sun Dec  9 23:33:58 2018 :: Log Killuminati: restore Kyrus 
+Sun Dec  9 23:34:04 2018 :: Log Killuminati: restore self
+Sun Dec  9 23:34:08 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:34:24 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:34:27 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:34:46 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:35:04 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:35:21 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:35:36 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:35:39 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:35:56 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:36:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:36:43 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:36:44 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:37:16 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:37:21 2018 :: [XP TRACK]: ;Kyrus; gained ;89; XP.
+Sun Dec  9 23:37:22 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:37:32 2018 :: [*****] BUG: Dam_message: bad dt -1.
+Sun Dec  9 23:37:55 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Dec  9 23:37:55 2018 :: Loading Kazuu's playerfile
+Sun Dec  9 23:37:58 2018 :: Kazuu@173-22-228-146.client.mchsi.com has connected. [Room: 770]
+Sun Dec  9 23:38:07 2018 :: Log Kazuu: drop hat
+Sun Dec  9 23:39:25 2018 :: Log Kazuu: load obj 25106
+Sun Dec  9 23:39:38 2018 :: Log Kyrus: drop piw
+Sun Dec  9 23:39:44 2018 :: Log Kazuu: load obj 25106 1
+Sun Dec  9 23:40:37 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:40:52 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Sun Dec  9 23:41:09 2018 :: [XP TRACK]: ;Kyrus; gained ;134; XP.
+Sun Dec  9 23:41:16 2018 :: [XP TRACK]: ;Kyrus; gained ;152; XP.
+Sun Dec  9 23:43:17 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:43:35 2018 :: [XP TRACK]: ;Kyrus; gained ;103; XP.
+Sun Dec  9 23:43:38 2018 :: [XP TRACK]: ;Kyrus; gained ;149; XP.
+Sun Dec  9 23:43:43 2018 :: [XP TRACK]: ;Kyrus; gained ;170; XP.
+Sun Dec  9 23:43:45 2018 :: [XP TRACK]: ;Kyrus; gained ;107; XP.
+Sun Dec  9 23:43:49 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:44:15 2018 :: Log Kazuu: load obj 9944
+Sun Dec  9 23:44:16 2018 :: Log Kazuu: load obj 9944
+Sun Dec  9 23:44:16 2018 :: Log Kazuu: load obj 9944
+Sun Dec  9 23:44:16 2018 :: Log Kazuu: load obj 9944
+Sun Dec  9 23:44:32 2018 :: Log Kyrus: drop sc
+Sun Dec  9 23:44:46 2018 :: [XP TRACK]: ;Kyrus; gained ;165; XP.
+Sun Dec  9 23:45:00 2018 :: [XP TRACK]: ;Kyrus; gained ;120; XP.
+Sun Dec  9 23:45:06 2018 :: [XP TRACK]: ;Kyrus; gained ;105; XP.
+Sun Dec  9 23:45:09 2018 :: [XP TRACK]: ;Kyrus; gained ;138; XP.
+Sun Dec  9 23:45:13 2018 :: [XP TRACK]: ;Kyrus; gained ;109; XP.
+Sun Dec  9 23:45:28 2018 :: [XP TRACK]: ;Kyrus; gained ;120; XP.
+Sun Dec  9 23:45:31 2018 :: [XP TRACK]: ;Kyrus; gained ;112; XP.
+Sun Dec  9 23:45:34 2018 :: [XP TRACK]: ;Kyrus; gained ;115; XP.
+Sun Dec  9 23:45:41 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Sun Dec  9 23:45:44 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:45:45 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:45:48 2018 :: Kazuu has quit. [Room: 770]
+Sun Dec  9 23:45:48 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec  9 23:45:48 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 23:45:48 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec  9 23:45:48 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 23:45:48 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec  9 23:45:48 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec  9 23:45:48 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec  9 23:45:48 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec  9 23:46:16 2018 :: [XP TRACK]: ;Kyrus; gained ;102; XP.
+Sun Dec  9 23:46:20 2018 :: [XP TRACK]: ;Kyrus; gained ;65; XP.
+Sun Dec  9 23:46:49 2018 :: [XP TRACK]: ;Kyrus; gained ;125; XP.
+Sun Dec  9 23:47:10 2018 :: [XP TRACK]: ;Kyrus; gained ;104; XP.
+Sun Dec  9 23:47:19 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:47:32 2018 :: [XP TRACK]: ;Kyrus; gained ;103; XP.
+Sun Dec  9 23:47:35 2018 :: [XP TRACK]: ;Kyrus; gained ;122; XP.
+Sun Dec  9 23:47:39 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:47:42 2018 :: [XP TRACK]: ;Kyrus; gained ;194; XP.
+Sun Dec  9 23:48:03 2018 :: [XP TRACK]: ;Kyrus; gained ;154; XP.
+Sun Dec  9 23:48:10 2018 :: [XP TRACK]: ;Kyrus; gained ;192; XP.
+Sun Dec  9 23:48:28 2018 :: [XP TRACK]: ;Kyrus; gained ;153; XP.
+Sun Dec  9 23:48:31 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:48:43 2018 :: [XP TRACK]: ;Kyrus; gained ;153; XP.
+Sun Dec  9 23:48:47 2018 :: [XP TRACK]: ;Kyrus; gained ;110; XP.
+Sun Dec  9 23:48:55 2018 :: [XP TRACK]: ;Kyrus; gained ;105; XP.
+Sun Dec  9 23:48:56 2018 :: Log Kyrus: drop amulet
+Sun Dec  9 23:49:28 2018 :: [XP TRACK]: ;Kyrus; gained ;148; XP.
+Sun Dec  9 23:49:32 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:49:49 2018 :: [XP TRACK]: ;Kyrus; gained ;176; XP.
+Sun Dec  9 23:49:51 2018 :: [XP TRACK]: ;Kyrus; gained ;161; XP.
+Sun Dec  9 23:50:15 2018 :: [XP TRACK]: ;Kyrus; gained ;133; XP.
+Sun Dec  9 23:50:18 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:50:52 2018 :: [XP TRACK]: ;Kyrus; gained ;133; XP.
+Sun Dec  9 23:51:12 2018 :: [XP TRACK]: ;Kyrus; gained ;178; XP.
+Sun Dec  9 23:51:30 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:51:50 2018 :: [XP TRACK]: ;Kyrus; gained ;125; XP.
+Sun Dec  9 23:52:29 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Sun Dec  9 23:52:46 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:52:47 2018 :: [XP TRACK]: ;Kyrus; gained ;138; XP.
+Sun Dec  9 23:57:43 2018 :: Log Kyrus: drop key
+Sun Dec  9 23:58:13 2018 :: [XP TRACK]: ;Kyrus; gained ;153; XP.
+Sun Dec  9 23:58:29 2018 :: [XP TRACK]: ;Kyrus; gained ;126; XP.
+Sun Dec  9 23:58:32 2018 :: [XP TRACK]: ;Kyrus; gained ;121; XP.
+Sun Dec  9 23:59:05 2018 :: [XP TRACK]: ;Kyrus; gained ;114; XP.
+Sun Dec  9 23:59:13 2018 :: [XP TRACK]: ;Kyrus; gained ;136; XP.
+Sun Dec  9 23:59:16 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Sun Dec  9 23:59:20 2018 :: Log Killuminati: restore Kyrus
+Sun Dec  9 23:59:44 2018 :: [XP TRACK]: ;Kyrus; gained ;129; XP.
+Sun Dec  9 23:59:58 2018 :: [XP TRACK]: ;Kyrus; gained ;155; XP.
+Mon Dec 10 00:00:18 2018 :: [XP TRACK]: ;Kyrus; gained ;136; XP.
+Mon Dec 10 00:00:54 2018 :: [XP TRACK]: ;Kyrus; gained ;89; XP.
+Mon Dec 10 00:01:18 2018 :: [XP TRACK]: ;Kyrus; gained ;123; XP.
+Mon Dec 10 00:01:39 2018 :: [XP TRACK]: ;Kyrus; gained ;79; XP.
+Mon Dec 10 00:01:51 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:02:00 2018 :: [XP TRACK]: ;Kyrus; gained ;65; XP.
+Mon Dec 10 00:02:04 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Mon Dec 10 00:02:08 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:02:31 2018 :: [XP TRACK]: ;Kyrus; gained ;142; XP.
+Mon Dec 10 00:02:39 2018 :: [XP TRACK]: ;Kyrus; gained ;155; XP.
+Mon Dec 10 00:02:45 2018 :: [XP TRACK]: ;Kyrus; gained ;163; XP.
+Mon Dec 10 00:03:06 2018 :: [XP TRACK]: ;Kyrus; gained ;130; XP.
+Mon Dec 10 00:03:10 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:03:23 2018 :: [XP TRACK]: ;Kyrus; gained ;113; XP.
+Mon Dec 10 00:03:33 2018 :: [XP TRACK]: ;Kyrus; gained ;162; XP.
+Mon Dec 10 00:03:36 2018 :: [XP TRACK]: ;Kyrus; gained ;123; XP.
+Mon Dec 10 00:03:36 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:04:12 2018 :: [XP TRACK]: ;Kyrus; gained ;118; XP.
+Mon Dec 10 00:04:44 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:04:45 2018 :: [XP TRACK]: ;Kyrus; gained ;183; XP.
+Mon Dec 10 00:04:57 2018 :: [XP TRACK]: ;Kyrus; gained ;149; XP.
+Mon Dec 10 00:05:33 2018 :: [XP TRACK]: ;Kyrus; gained ;106; XP.
+Mon Dec 10 00:06:00 2018 :: [XP TRACK]: ;Kyrus; gained ;165; XP.
+Mon Dec 10 00:06:17 2018 :: [XP TRACK]: ;Kyrus; gained ;131; XP.
+Mon Dec 10 00:06:20 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:07:26 2018 :: Log Kyrus: drop key
+Mon Dec 10 00:07:41 2018 :: [XP TRACK]: ;Kyrus; gained ;162; XP.
+Mon Dec 10 00:07:57 2018 :: [XP TRACK]: ;Kyrus; gained ;140; XP.
+Mon Dec 10 00:08:01 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Mon Dec 10 00:08:16 2018 :: [XP TRACK]: ;Kyrus; gained ;128; XP.
+Mon Dec 10 00:08:23 2018 :: [XP TRACK]: ;Kyrus; gained ;167; XP.
+Mon Dec 10 00:08:24 2018 :: [XP TRACK]: ;Kyrus; gained ;116; XP.
+Mon Dec 10 00:08:27 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Mon Dec 10 00:08:30 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:08:48 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Mon Dec 10 00:08:52 2018 :: [XP TRACK]: ;Kyrus; gained ;131; XP.
+Mon Dec 10 00:08:58 2018 :: [XP TRACK]: ;Kyrus; gained ;115; XP.
+Mon Dec 10 00:09:01 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:09:30 2018 :: [XP TRACK]: ;Kyrus; gained ;133; XP.
+Mon Dec 10 00:09:34 2018 :: [XP TRACK]: ;Kyrus; gained ;107; XP.
+Mon Dec 10 00:09:40 2018 :: [XP TRACK]: ;Kyrus; gained ;168; XP.
+Mon Dec 10 00:09:41 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:10:16 2018 :: [XP TRACK]: ;Kyrus; gained ;101; XP.
+Mon Dec 10 00:10:37 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:10:38 2018 :: [XP TRACK]: ;Kyrus; gained ;146; XP.
+Mon Dec 10 00:10:42 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:10:51 2018 :: [XP TRACK]: ;Kyrus; gained ;65; XP.
+Mon Dec 10 00:11:16 2018 :: [XP TRACK]: ;Kyrus; gained ;109; XP.
+Mon Dec 10 00:11:16 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:11:39 2018 :: [XP TRACK]: ;Kyrus; gained ;110; XP.
+Mon Dec 10 00:11:45 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Mon Dec 10 00:11:49 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:11:53 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:11:59 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:12:55 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Mon Dec 10 00:13:10 2018 :: Log Killuminati: restore self
+Mon Dec 10 00:13:11 2018 :: Log Killuminati: restore Kyrus 
+Mon Dec 10 00:13:17 2018 :: Log Killuminati: restore self
+Mon Dec 10 00:13:39 2018 :: [XP TRACK]: ;Kyrus; gained ;122; XP.
+Mon Dec 10 00:13:55 2018 :: [XP TRACK]: ;Kyrus; gained ;167; XP.
+Mon Dec 10 00:14:15 2018 :: [XP TRACK]: ;Kyrus; gained ;130; XP.
+Mon Dec 10 00:14:18 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:14:19 2018 :: [XP TRACK]: ;Kyrus; gained ;108; XP.
+Mon Dec 10 00:14:48 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:14:52 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Mon Dec 10 00:15:06 2018 :: [XP TRACK]: ;Kyrus; gained ;136; XP.
+Mon Dec 10 00:15:41 2018 :: [XP TRACK]: ;Kyrus; gained ;136; XP.
+Mon Dec 10 00:16:25 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:16:46 2018 :: [XP TRACK]: ;Kyrus; gained ;138; XP.
+Mon Dec 10 00:16:54 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:17:50 2018 :: Log Kyrus: drop key
+Mon Dec 10 00:18:03 2018 :: [XP TRACK]: ;Kyrus; gained ;138; XP.
+Mon Dec 10 00:18:20 2018 :: [XP TRACK]: ;Kyrus; gained ;129; XP.
+Mon Dec 10 00:18:32 2018 :: [XP TRACK]: ;Kyrus; gained ;166; XP.
+Mon Dec 10 00:18:38 2018 :: [XP TRACK]: ;Kyrus; gained ;151; XP.
+Mon Dec 10 00:18:41 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Mon Dec 10 00:19:04 2018 :: [XP TRACK]: ;Kyrus; gained ;158; XP.
+Mon Dec 10 00:19:05 2018 :: [XP TRACK]: ;Kyrus; gained ;135; XP.
+Mon Dec 10 00:19:07 2018 :: [XP TRACK]: ;Kyrus; gained ;117; XP.
+Mon Dec 10 00:19:16 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:19:23 2018 :: [XP TRACK]: ;Kyrus; gained ;118; XP.
+Mon Dec 10 00:19:26 2018 :: [XP TRACK]: ;Kyrus; gained ;116; XP.
+Mon Dec 10 00:19:35 2018 :: [XP TRACK]: ;Kyrus; gained ;120; XP.
+Mon Dec 10 00:19:35 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:20:05 2018 :: [XP TRACK]: ;Kyrus; gained ;95; XP.
+Mon Dec 10 00:20:16 2018 :: [XP TRACK]: ;Kyrus; gained ;74; XP.
+Mon Dec 10 00:20:17 2018 :: [XP TRACK]: ;Kyrus; gained ;125; XP.
+Mon Dec 10 00:20:26 2018 :: [XP TRACK]: ;Kyrus; gained ;74; XP.
+Mon Dec 10 00:20:34 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:20:45 2018 :: [XP TRACK]: ;Kyrus; gained ;113; XP.
+Mon Dec 10 00:20:48 2018 :: [XP TRACK]: ;Kyrus; gained ;118; XP.
+Mon Dec 10 00:20:51 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:21:21 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Mon Dec 10 00:21:33 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:21:59 2018 :: [XP TRACK]: ;Kyrus; gained ;117; XP.
+Mon Dec 10 00:22:11 2018 :: [XP TRACK]: ;Kyrus; gained ;112; XP.
+Mon Dec 10 00:22:36 2018 :: [XP TRACK]: ;Kyrus; gained ;140; XP.
+Mon Dec 10 00:22:46 2018 :: [XP TRACK]: ;Kyrus; gained ;154; XP.
+Mon Dec 10 00:22:50 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:23:02 2018 :: [XP TRACK]: ;Kyrus; gained ;123; XP.
+Mon Dec 10 00:23:05 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:23:38 2018 :: [XP TRACK]: ;Kyrus; gained ;136; XP.
+Mon Dec 10 00:23:44 2018 :: [XP TRACK]: ;Kyrus; gained ;120; XP.
+Mon Dec 10 00:23:49 2018 :: [XP TRACK]: ;Kyrus; gained ;156; XP.
+Mon Dec 10 00:23:52 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:24:21 2018 :: [XP TRACK]: ;Kyrus; gained ;147; XP.
+Mon Dec 10 00:24:32 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:24:53 2018 :: [XP TRACK]: ;Kyrus; gained ;149; XP.
+Mon Dec 10 00:25:17 2018 :: [XP TRACK]: ;Kyrus; gained ;131; XP.
+Mon Dec 10 00:25:44 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:26:01 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:27:18 2018 :: Log Kyrus: drop  key
+Mon Dec 10 00:27:35 2018 :: [XP TRACK]: ;Kyrus; gained ;156; XP.
+Mon Dec 10 00:27:50 2018 :: [XP TRACK]: ;Kyrus; gained ;126; XP.
+Mon Dec 10 00:27:54 2018 :: [XP TRACK]: ;Kyrus; gained ;155; XP.
+Mon Dec 10 00:28:12 2018 :: [XP TRACK]: ;Kyrus; gained ;140; XP.
+Mon Dec 10 00:28:15 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Mon Dec 10 00:28:18 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Mon Dec 10 00:28:36 2018 :: [XP TRACK]: ;Kyrus; gained ;156; XP.
+Mon Dec 10 00:28:38 2018 :: [XP TRACK]: ;Kyrus; gained ;167; XP.
+Mon Dec 10 00:28:51 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:28:55 2018 :: [XP TRACK]: ;Kyrus; gained ;105; XP.
+Mon Dec 10 00:29:02 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Mon Dec 10 00:29:08 2018 :: [XP TRACK]: ;Kyrus; gained ;140; XP.
+Mon Dec 10 00:29:12 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:29:28 2018 :: [XP TRACK]: ;Kyrus; gained ;83; XP.
+Mon Dec 10 00:29:48 2018 :: [XP TRACK]: ;Kyrus; gained ;125; XP.
+Mon Dec 10 00:29:59 2018 :: [XP TRACK]: ;Kyrus; gained ;73; XP.
+Mon Dec 10 00:30:10 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:30:25 2018 :: [XP TRACK]: ;Kyrus; gained ;169; XP.
+Mon Dec 10 00:30:28 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:30:44 2018 :: [XP TRACK]: ;Kyrus; gained ;152; XP.
+Mon Dec 10 00:31:03 2018 :: [XP TRACK]: ;Kyrus; gained ;69; XP.
+Mon Dec 10 00:31:17 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:31:27 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:31:45 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Mon Dec 10 00:31:46 2018 :: [XP TRACK]: ;Kyrus; gained ;112; XP.
+Mon Dec 10 00:31:49 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:32:06 2018 :: [XP TRACK]: ;Kyrus; gained ;143; XP.
+Mon Dec 10 00:32:24 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:32:27 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:32:31 2018 :: [XP TRACK]: ;Kyrus; gained ;105; XP.
+Mon Dec 10 00:32:34 2018 :: [XP TRACK]: ;Kyrus; gained ;132; XP.
+Mon Dec 10 00:32:37 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:32:51 2018 :: [XP TRACK]: ;Kyrus; gained ;168; XP.
+Mon Dec 10 00:32:54 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:33:07 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:33:20 2018 :: [XP TRACK]: ;Kyrus; gained ;157; XP.
+Mon Dec 10 00:33:51 2018 :: [XP TRACK]: ;Kyrus; gained ;168; XP.
+Mon Dec 10 00:34:15 2018 :: [XP TRACK]: ;Kyrus; gained ;147; XP.
+Mon Dec 10 00:34:54 2018 :: [XP TRACK]: ;Kyrus; gained ;175; XP.
+Mon Dec 10 00:34:57 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:35:39 2018 :: [XP TRACK]: ;Kyrus; gained ;168; XP.
+Mon Dec 10 00:36:32 2018 :: Log Kyrus: drop key
+Mon Dec 10 00:36:45 2018 :: [XP TRACK]: ;Kyrus; gained ;133; XP.
+Mon Dec 10 00:37:05 2018 :: [XP TRACK]: ;Kyrus; gained ;158; XP.
+Mon Dec 10 00:37:13 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Mon Dec 10 00:37:25 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:37:28 2018 :: [XP TRACK]: ;Kyrus; gained ;118; XP.
+Mon Dec 10 00:37:31 2018 :: [XP TRACK]: ;Kyrus; gained ;109; XP.
+Mon Dec 10 00:37:32 2018 :: [XP TRACK]: ;Kyrus; gained ;133; XP.
+Mon Dec 10 00:37:47 2018 :: [XP TRACK]: ;Kyrus; gained ;131; XP.
+Mon Dec 10 00:37:54 2018 :: [XP TRACK]: ;Kyrus; gained ;145; XP.
+Mon Dec 10 00:38:12 2018 :: [XP TRACK]: ;Kyrus; gained ;164; XP.
+Mon Dec 10 00:38:15 2018 :: [XP TRACK]: ;Kyrus; gained ;103; XP.
+Mon Dec 10 00:38:21 2018 :: [XP TRACK]: ;Kyrus; gained ;161; XP.
+Mon Dec 10 00:38:25 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:38:45 2018 :: [XP TRACK]: ;Kyrus; gained ;90; XP.
+Mon Dec 10 00:39:16 2018 :: [XP TRACK]: ;Kyrus; gained ;68; XP.
+Mon Dec 10 00:39:28 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:39:41 2018 :: [XP TRACK]: ;Kyrus; gained ;138; XP.
+Mon Dec 10 00:39:53 2018 :: [XP TRACK]: ;Kyrus; gained ;137; XP.
+Mon Dec 10 00:39:53 2018 :: Kyrus is now a Lord of the Realms!!!!
+Mon Dec 10 00:40:04 2018 :: [XP TRACK]: ;Kyrus; gained ;191; XP.
+Mon Dec 10 00:40:29 2018 :: [XP TRACK]: ;Kyrus; gained ;277; XP.
+Mon Dec 10 00:40:32 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:40:33 2018 :: [XP TRACK]: ;Kyrus; gained ;276; XP.
+Mon Dec 10 00:40:34 2018 :: [XP TRACK]: ;Kyrus; gained ;252; XP.
+Mon Dec 10 00:40:36 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:40:50 2018 :: [XP TRACK]: ;Kyrus; gained ;352; XP.
+Mon Dec 10 00:41:07 2018 :: [XP TRACK]: ;Kyrus; gained ;275; XP.
+Mon Dec 10 00:41:53 2018 :: Log Kyrus: drop pa
+Mon Dec 10 00:42:10 2018 :: [XP TRACK]: ;Kyrus; gained ;218; XP.
+Mon Dec 10 00:42:13 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:42:13 2018 :: [XP TRACK]: ;Kyrus; gained ;224; XP.
+Mon Dec 10 00:42:16 2018 :: [XP TRACK]: ;Kyrus; gained ;228; XP.
+Mon Dec 10 00:42:16 2018 :: Log Kyrus: drop amulet
+Mon Dec 10 00:42:38 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:42:48 2018 :: [XP TRACK]: ;Kyrus; gained ;236; XP.
+Mon Dec 10 00:43:07 2018 :: [XP TRACK]: ;Kyrus; gained ;344; XP.
+Mon Dec 10 00:43:16 2018 :: [XP TRACK]: ;Kyrus; gained ;300; XP.
+Mon Dec 10 00:43:20 2018 :: Log Killuminati: restore Kyrus
+Mon Dec 10 00:43:57 2018 :: [XP TRACK]: ;Kyrus; gained ;354; XP.
+Mon Dec 10 00:44:27 2018 :: [XP TRACK]: ;Kyrus; gained ;343; XP.
+Mon Dec 10 00:44:48 2018 :: [XP TRACK]: ;Kyrus; gained ;254; XP.
+Mon Dec 10 00:45:22 2018 :: Kyrus has quit. [Room: 29003]
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 29240|Signval: -1|!Gameload|Total: 3
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 2
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 10051 to modify as: -1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 10051|Signval: -1|!Gameload|Total: 3
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 10051 to modify as: 1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 10051|Signval: 1|!Gameload|Total: 2
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Mon Dec 10 00:45:22 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Mon Dec 10 00:45:22 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2

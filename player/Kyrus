@@ -1,7 +1,7 @@
 #PLAYER
 Name Kyrus~
 Id   64165
-LogO 1544286617
+LogO 1544502292
 Vers 3
 Desc .~
 Prom ~
@@ -12,25 +12,25 @@ Cla  0
 Gui  0
 Psionic  1
 Cast Fors
-Levl 52
-Plyd 404822
+Levl 56
+Plyd 424307
 ListRemorts 3  3  4  5  2  2 ~
 NumRemorts 4
 Note 947990183
 Scro 22
-Room 4207
-HMV  385 1503 489 1603 629 1258
-NewGold 434
-NewPlat 182
-NewCopp 2596
-NewSilv 859
-Bank 28817
+Room 29203
+HMV  1550 1550 1706 1706 1413 1430
+NewGold 4
+NewPlat 17
+NewCopp 57
+NewSilv 9
+Bank 33950
 Dcount 0
 Corpses	0
 PkRec 5
 PkGiv 2
 QuestPnts 1
-Exp  120860
+Exp  243519
 Act  262348
 AfBy 3678888
 AfBy2 4632
@@ -59,23 +59,23 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 57
-Trai 17
-Save  -5
+Prac 68
+Trai 16
+Save  -42
 Alig  1000
-Hit   60
-Dam   107
-ACs -114 -114 -115 28
+Hit   87
+Dam   139
+ACs -181 -175 -186 -60
 Attr 18 15 14 13 14
-AMod 13 9 12 4 15
+AMod 10 1 -3 9 4
 Pass KywXdZywU5G42~
 Ariv Arriving from the $t is none other than $n Frost.~
 Dprt Leaving to $T is $n Frost.~
-Titl  the Heroine of the Fourth Order~
+Titl  Frost~
 Pnts 2540
 TSex 1
 LLev 3
-HMVP 1487 1577 1290
+HMVP 1548 1634 1330
 Cond 0 100 100
 Alias \ who~
 Alias k kick~
@@ -125,7 +125,7 @@ Sk 75 'geyser'
 Sk 75 'haste'
 Sk 75 'haven'
 Sk 75 'heat metal'
-Sk 75 'icicle'
+Sk 77 'icicle'
 Sk 75 'identify'
 Sk 75 'infravision'
 Sk 75 'invis'
@@ -134,7 +134,7 @@ Sk 1 'magic missile'
 Sk 75 'major globe'
 Sk 75 'mana convert'
 Sk 75 'mass invis'
-Sk 85 'meteor swarm'
+Sk 100 'meteor swarm'
 Sk 75 'pass door'
 Sk 75 'portal'
 Sk 75 'power gloves'
@@ -162,13 +162,14 @@ Sk 1 'telekinesis'
 Sk 10 'axe'
 Sk 100 'dagger'
 Sk 7 'flail'
-Sk 5 'mace'
+Sk 7 'mace'
 Sk 3 'polearm'
 Sk 8 'spear'
-Sk 4 'sword'
+Sk 100 'sword'
 Sk 20 'whip'
-Sk 82 'dodge'
-Sk 79 'meditation'
+Sk 100 'dodge'
+Sk 78 'second attack'
+Sk 81 'meditation'
 Sk 75 'scribe'
 Sk 1 'scrolls'
 Sk 75 'wands'
@@ -184,72 +185,28 @@ Gr 'enchantment'
 Gr 'enhancement'
 Gr 'mage protective'
 Gr 'mage transportation'
-AffD 'major globe'   0  37 -150  17          0          0
-AffD 'sanctuary'   0  37   0   0        128          0
-AffD 'haste'   0  37   4   2    2097152          0
-AffD 'bless'  -1  43   8  18          0          0
-AffD 'bless'   0  43  -8  24          0          0
-AffD 'force sword'   0  37   0   0          0        512
-AffD 'divine protection'   0  37   0   0          0       4096
-AffD 'aid'  18  37   7  18          0          0
-AffD 'aid'   0  37  21  13          0          0
-AffD 'fly'   0  40   0   0     524288          0
-AffD 'frenzy'  -1  37  11  18          0          0
-AffD 'frenzy'   0  37  11  19          0          0
-AffD 'frenzy'   9  37 110  17          0          0
-AffD 'giant strength'   0  37   4   1          0          0
-AffD 'infravision'   0 107   0   0        512          0
-AffD 'power gloves'   0  37  35  19          0          0
-AffD 'detect invis'   0  37   0   0          8          0
-AffD 'detect hidden'   0  37   0   0         32          0
-AffD 'frost shield'   0  37   0   0          0         16
-AffD 'fire shield'  28  37   0   0          0          8
-AffD 'protection evil'   0  38   0   0       8192          0
-AffD 'pass door'  12  38   0   0    1048576          0
-End
-
-#O
-Vnum 29012
-Nest 0
-Wear 11
-Lev  9
-Cost 100
-Cond 87
-Repd 0
-End
-
-#O
-Vnum 9321
-Nest 0
-Wear 0
-Lev  25
-Cost 1750
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-Affect -1 25 -1 2 4 0 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear 3
-Lev  33
-Cost 4000
-Cond 100
-Repd 0
-Affect -1 33 -1 3 18 0 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear 4
-Lev  33
-Cost 4000
-Cond 85
-Repd 0
-Affect -1 33 -1 -4 2 0 0
+AffD 'pass door'   0  60   0   0    1048576          0
+AffD 'protection evil'  39  60   0   0       8192          0
+AffD 'fire shield'   0  60   0   0          0          8
+AffD 'frost shield'   0  60   0   0          0         16
+AffD 'detect hidden'   0  60   0   0         32          0
+AffD 'detect invis'   3  60   0   0          8          0
+AffD 'power gloves'  16  60  35  19          0          0
+AffD 'infravision'   0 130   0   0        512          0
+AffD 'giant strength'   0  60   4   1          0          0
+AffD 'frenzy'   0  60 110  17          0          0
+AffD 'frenzy'   0  60  11  19          0          0
+AffD 'frenzy'   0  60  11  18          0          0
+AffD 'fly'   0  63   0   0     524288          0
+AffD 'aid'   0  60  43  13          0          0
+AffD 'aid'   0  60   7  18          0          0
+AffD 'divine protection'   0  60   0   0          0       4096
+AffD 'force sword'   0  60   0   0          0        512
+AffD 'bless'   0  66  -8  24          0          0
+AffD 'bless'   0  66   8  18          0          0
+AffD 'haste'   0  60   4   2    2097152          0
+AffD 'sanctuary'  21  60   0   0        128          0
+AffD 'major globe'   0  60 -150  17          0          0
 End
 
 #O
@@ -258,7 +215,7 @@ Nest 0
 Wear 15
 Lev  40
 Cost 450
-Cond 100
+Cond 57
 Repd 0
 Affect -1 40 -1 -1 1 0 0
 End
@@ -269,30 +226,9 @@ Nest 0
 Wear 14
 Lev  40
 Cost 450
-Cond 100
+Cond 95
 Repd 0
 Affect -1 40 -1 1 1 0 0
-End
-
-#O
-Vnum 16011
-Nest 0
-Wear 6
-Lev  42
-Cost 1842
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 16013
-Nest 0
-Wear 7
-Lev  41
-Cost 1498
-Cond 100
-Repd 0
-Affect -1 41 -1 -15 14 0 0
 End
 
 #O
@@ -318,27 +254,6 @@ Affect -1 50 -1 3 23 0 0
 End
 
 #O
-Vnum 29207
-Nest 0
-Wear -1
-Lev  51
-Cost 2000
-Cond 100
-Repd 0
-Affect -1 51 -1 1 21 0 0
-End
-
-#O
-Vnum 16022
-Nest 0
-Wear -1
-Lev  41
-Cost 1891
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 16016
 Nest 0
 Wear 8
@@ -350,54 +265,13 @@ Affect -1 52 -1 -19 12 0 0
 End
 
 #O
-Vnum 16033
-Nest 0
-Wear 1
-Lev  52
-Cost 2409
-Cond 100
-Repd 0
-Affect -1 52 -1 -17 14 0 0
-End
-
-#O
-Vnum 10049
-Nest 0
-Wear 16
-Lev  32
-Cost 2300
-Cond 100
-Repd 0
-Affect -1 32 -1 -1 3 0 0
-End
-
-#O
-Vnum 16033
-Nest 0
-Wear 2
-Lev  52
-Cost 2409
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3715
-Nest 0
-Wear 17
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 3609
 Nest 0
-ExtF 4245
+ExtF 21
 Wear 10
 Lev  30
 Cost 4000
-Cond 100
+Cond 73
 Repd 0
 End
 
@@ -408,8 +282,149 @@ ExtF 20
 Wear 5
 Lev  43
 Cost 950
+Cond 97
+Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 2
+Lev  53
+Cost 1500
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 17025
+Nest 0
+ExtF 6
+Wear 1
+Lev  53
+Cost 1500
+Cond 89
+Repd 0
+End
+
+#O
+Vnum 29240
+Nest 0
+Wear 11
+Lev  54
+Cost 9000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 29227
+Nest 0
+Wear 7
+Lev  53
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 53 -1 -1 13 0 0
+End
+
+#O
+Vnum 760
+Nest 0
+ExtF 3145760
+Wear 6
+Lev  55
+Cost 0
+Cond 50
+Repd 0
+End
+
+#O
+Vnum 25106
+Nest 0
+Wear 12
+Lev  1
+Cost 1000
+Cond 49
+Repd 0
+Val  2 3 2 0 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 94
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear -1
+Cost 0
+Cond 98
+Repd 0
+End
+
+#O
+Vnum 10000
+Nest 0
+Wear 17
+Lev  50
+Cost 6000
+Cond 100
+Repd 0
+Affect -1 50 -1 3 23 0 0
+End
+
+#O
+Vnum 10001
+Nest 0
+Wear -1
+Lev  50
+Cost 4000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 4
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 50 -1 -1 5 0 0
+End
+
+#O
+Vnum 29211
+Nest 0
+Wear 16
+Lev  51
+Cost 5000
+Cond 100
+Repd 0
+Affect -1 51 -1 -19 12 0 0
+End
+
+#O
+Vnum 10004
+Nest 0
+ExtF 2100545
+Wear 3
+Lev  50
+Cost 3000
+Cond 100
+Repd 0
+Affect -1 50 -1 -5 4 0 0
 End
 
 #END

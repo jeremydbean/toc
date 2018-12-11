@@ -1,7 +1,7 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1544337047
+LogO 1544429007
 Vers 3
 Prom ~
 Ignoring ~
@@ -12,13 +12,13 @@ Gui  0
 Psionic  0
 Cast none
 Levl 40
-Plyd 80529
+Plyd 81108
 ListRemorts ~
 NumRemorts 0
 Note 0
 Scro 22
 Room 4368
-HMV  269 269 196 232 294 334
+HMV  269 269 232 232 334 334
 NewGold 999
 NewPlat 388
 NewCopp 3261
@@ -72,6 +72,13 @@ Alias / who~
 Alias f flee~
 Alias ] recall~
 Alias l get all~
+Sk 1 'dodge'
+Sk 1 'hand to hand'
+Sk 1 'kick'
+Sk 1 'trip'
+Sk 1 'nerve damage'
+Sk 1 'meditation'
+Sk 1 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
