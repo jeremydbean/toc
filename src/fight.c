@@ -2677,18 +2677,20 @@ base_exp = 200 + 50 * (level_range - 4);
     /* adjust for grouping */
     xp = xp * gch->level/total_levels * group_bonus;
 
-    if(gch->level > 10 && xp >= 400 )
+    if(gch->level > 10 && xp >= 600 )
     {
       sprintf(buf,"%s gained %d XP.",gch->name,xp);
       wizinfo(buf,LEVEL_IMMORTAL);
 
     }
 
-		if(gch->level > 49 && xp >= 50 )
+		if( xp >= 10 )
 		{
-			sprintf(buf,"[XP TRACK]: ;%s; (level %d;) gained ;%d; XP.",gch->name,gch->level,xp);
+			sprintf(buf,"[XP TRACK]: %s (Level %d) gained %d XP from '%s' (Level %d).",gch->name,gch->level,xp,victim->name,victim->level);
 			log_string(buf);
 
+			sprintf(buf,"[XP_EXCEL]: %s;%d;%d;%s;%d",gch->name,gch->level,xp,victim->name,victim->level);
+			log_string(buf);
 		}
 
     return xp;

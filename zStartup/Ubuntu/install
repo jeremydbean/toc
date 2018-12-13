@@ -1,0 +1,55 @@
+#!/bin/bash
+# Written by Killuminati.
+
+umask 000
+
+read -p "Install prerequisites for ToC server? [y/n?]  RESPONSE
+if [ "$RESPONSE" = y ]; then
+	echo Installing ToC required files...
+	sleep 3
+	sudo apt update
+	sudo apt upgrade
+	sudo apt-get update
+	sudo apt install csh
+	sudo apt-get install build-essential
+	sudo apt-get install telnet
+	sudo apt-get install git-all
+	sudo apt upgrade
+	sudo apt autoremove
+	sudo apt-get install dos2unix
+	sudo apt install git-sh
+	sudo apt install ssh
+	sudo apt install openssh-server
+	#sudo service ssh start
+elif ["$RESPONSE" = n ]; then
+	echo "Skipping prerequisites."
+else
+	echo "Make a valid selection! [y or n]"
+fi
+
+
+#Get ToC files
+echo ""
+echo "Done."
+echo ""
+sleep 3
+read -p "Get ToC Files from GitHub? [y/n?]"  RESPONSE
+if [ "$RESPONSE" = y ]; then
+	git clone git@github.com:jeremydbean/toc.git
+elif ["$RESPONSE" = n ]; then
+	echo "Skipping GitHub pull."
+else
+	echo "Make a valid selection! [y or n]"
+fi
+
+echo "Permission fix!"
+sleep 2
+cd ..
+set -x
+sudo chown toc:toc toc -R
+sudo chmod -R 777 toc
+cd toc
+dos2unix startup
+dos2unix cleanup
+sudo chmod a+x startup
+sudo chmod a+x cleanup

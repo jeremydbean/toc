@@ -1,0 +1,35 @@
+#!/bin/bash
+#By Killuminati
+
+cd ~/toc/src
+rm *.o
+rm merc
+make
+if [ $? -eq 0 ]
+then
+  echo "ToC Successfully Compiled"
+else
+  echo "Could not compile." >&2 
+  exit
+fi
+
+rm *.o
+rm ../area/merc
+cp merc ../area
+rm merc
+cd ..
+set +x
+echo "Done."
+echo ""
+sleep 1
+cd ~/toc
+
+read -p "Kill any existing sessions and then reload ToC? [y/n?] "  RESPONSE
+if [ "$RESPONSE" = y ]; then
+(pkill -e merc; pkill -e immortal; pkill -e startup; ./startup &) &
+elif [ "$RESPONSE" = n ]; then
+	echo ""
+	echo "Game not reloaded.  Reboot in game for changes to take effect."
+else
+	echo "Make a valid selection! [y or n]"
+fi
