@@ -2686,7 +2686,7 @@ base_exp = 200 + 50 * (level_range - 4);
 
 		if(gch->level > 49 && xp >= 50 )
 		{
-			sprintf(buf,"[XP TRACK]: ;%s; gained ;%d; XP.",gch->name,xp);
+			sprintf(buf,"[XP TRACK]: ;%s; (level %d;) gained ;%d; XP.",gch->name,gch->level,xp);
 			log_string(buf);
 
 		}

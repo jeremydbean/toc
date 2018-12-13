@@ -772,6 +772,8 @@ void do_delete( CHAR_DATA *ch, char *argument)
 {
    char arg1[MAX_INPUT_LENGTH];
    char strsave[MAX_INPUT_LENGTH];
+   char buf[MAX_INPUT_LENGTH];
+   char name[MAX_INPUT_LENGTH];
    char *pArg;
    char cEnd;
 
@@ -821,12 +823,18 @@ void do_delete( CHAR_DATA *ch, char *argument)
 
     if (!strcmp( crypt(arg1, ch->pcdata->pwd),ch->pcdata->pwd) )
     {
-    send_to_char( "Goodbye cruel world!\n\r", ch );
-    send_to_char( "You turn yourself into line noise.\n\r", ch );
+    do_backup();
+    sprintf( buf, "mv %s%s %s%s.deleted", PLAYER_DIR, capitalize( ch->name ), PLAYER_DIR, capitalize( ch->name ));
+    system(buf);;
+    send_to_char( "\n\r", ch );
+    send_to_char( "            Goodbye cruel world!    \n\r", ch );
+    send_to_char( "     You turn yourself into line noise. \n\r", ch );
+    send_to_char( "\n\r", ch );
     send_to_char( "\n\r", ch );
     sprintf( log_buf, "%s has deleted.", ch->name );
     log_string( log_buf );
     wizinfo(log_buf,LEVEL_IMMORTAL);
+
             sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
             do_quit(ch,"");
             unlink(strsave);

@@ -391,7 +391,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "qflag",          set_questflag,  POS_DEAD,       L8,  LOG_ALWAYS, 1 },
     { "reboot",         do_reboot,      POS_DEAD,       L2,  LOG_ALWAYS, 1 },
     { "restore",        do_restore,     POS_DEAD,       L4,  LOG_ALWAYS, 1 },
-    { "restorechar",    do_restorechar, POS_DEAD,       L3,  LOG_ALWAYS, 1 },
+/*  {"restorechar",    do_restorechar, POS_DEAD,       L3,  LOG_ALWAYS, 1 },*/
     { "return",         do_return,      POS_DEAD,       L6,  LOG_NORMAL, 1 },
     { "rwhere",         do_rwhere,      POS_DEAD,       L8,  LOG_NORMAL, 1 },
     { "set",            do_set,         POS_DEAD,       L4,  LOG_ALWAYS, 1 },

@@ -1,0 +1,201 @@
+Wed Dec 12 00:46:01 2018 :: LOADING COMM TABLE
+Wed Dec 12 00:46:01 2018 ::  INIT OK 
+Wed Dec 12 00:46:01 2018 :: Ended LOADING COMM TABLE
+Wed Dec 12 00:46:01 2018 :: Ended Fixing Exits
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Wed Dec 12 00:46:01 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Wed Dec 12 00:46:01 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Wed Dec 12 00:46:01 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Wed Dec 12 00:46:01 2018 :: Ended Area Update
+Wed Dec 12 00:46:01 2018 :: Ended Loading Notes
+Wed Dec 12 00:46:01 2018 :: Ended Loading Ban
+Wed Dec 12 00:46:01 2018 :: Ended Loading Pkills
+Wed Dec 12 00:46:01 2018 :: TOC is ready to rock on port 9000.
+Wed Dec 12 00:46:01 2018 :: Setting up signals.
+Wed Dec 12 00:46:03 2018 :: Sock.sinaddr:  173.22.228.146
+Wed Dec 12 00:46:03 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Wed Dec 12 00:46:12 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec 12 00:46:13 2018 :: Loading Killuminati's playerfile
+Wed Dec 12 00:46:13 2018 :: Killuminati@localhost has connected. [Room: 2]
+Wed Dec 12 00:46:16 2018 :: Loading Kyrus's playerfile
+Wed Dec 12 00:46:16 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 29207]
+Wed Dec 12 00:46:59 2018 :: Kyrus has quit. [Room: 29207]
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 29240|Signval: -1|!Gameload|Total: 4
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 3
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Wed Dec 12 00:46:59 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Wed Dec 12 00:46:59 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Wed Dec 12 08:29:15 2018 :: Sock.sinaddr:  185.153.197.12
+Wed Dec 12 08:29:16 2018 :: EOF encountered on read.
+Wed Dec 12 08:43:56 2018 :: Sock.sinaddr:  173.22.228.146
+Wed Dec 12 08:43:59 2018 :: Loading Kyrus's playerfile
+Wed Dec 12 08:44:00 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 29207]
+Wed Dec 12 08:44:12 2018 :: [XP TRACK]: ;Kyrus; gained ;165; XP.
+Wed Dec 12 08:44:17 2018 :: [XP TRACK]: ;Kyrus; gained ;175; XP.
+Wed Dec 12 08:44:32 2018 :: [XP TRACK]: ;Kyrus; gained ;215; XP.
+Wed Dec 12 08:44:37 2018 :: [XP TRACK]: ;Kyrus; gained ;243; XP.
+Wed Dec 12 08:44:40 2018 :: [XP TRACK]: ;Kyrus; gained ;232; XP.
+Wed Dec 12 08:44:43 2018 :: [XP TRACK]: ;Kyrus; gained ;196; XP.
+Wed Dec 12 08:45:11 2018 :: [XP TRACK]: ;Kyrus; gained ;193; XP.
+Wed Dec 12 08:45:17 2018 :: [XP TRACK]: ;Kyrus; gained ;250; XP.
+Wed Dec 12 08:45:20 2018 :: Log Kyrus: drop amulet
+Wed Dec 12 08:45:23 2018 :: [XP TRACK]: ;Kyrus; gained ;146; XP.
+Wed Dec 12 08:45:45 2018 :: Log Killuminati: restore Kyrus
+Wed Dec 12 08:46:08 2018 :: [XP TRACK]: ;Kyrus; gained ;221; XP.
+Wed Dec 12 08:46:09 2018 :: Log Kyrus: drop amulet
+Wed Dec 12 08:46:21 2018 :: [XP TRACK]: ;Kyrus; gained ;202; XP.
+Wed Dec 12 08:46:24 2018 :: Log Kyrus: drop amulet
+Wed Dec 12 08:46:54 2018 :: [XP TRACK]: ;Kyrus; gained ;310; XP.
+Wed Dec 12 08:47:05 2018 :: [XP TRACK]: ;Kyrus; gained ;209; XP.
+Wed Dec 12 08:47:08 2018 :: Log Killuminati: restore Kyrus
+Wed Dec 12 08:47:20 2018 :: [XP TRACK]: ;Kyrus; gained ;179; XP.
+Wed Dec 12 08:47:26 2018 :: [XP TRACK]: ;Kyrus; gained ;245; XP.
+Wed Dec 12 08:47:30 2018 :: [XP TRACK]: ;Kyrus; gained ;206; XP.
+Wed Dec 12 08:47:33 2018 :: Log Kyrus: drop amulet
+Wed Dec 12 08:48:14 2018 :: Log Kyrus: drop key
+Wed Dec 12 08:48:17 2018 :: Kyrus has quit. [Room: 29004]
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 29240|Signval: -1|!Gameload|Total: 4
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 3
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Wed Dec 12 08:48:17 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Wed Dec 12 08:48:17 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Wed Dec 12 11:16:46 2018 :: Log Killuminati: load obj 25016
+Wed Dec 12 11:16:51 2018 :: Log Killuminati: drop gol
+Wed Dec 12 11:18:57 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec 12 11:18:57 2018 :: Loading Testies's playerfile
+Wed Dec 12 11:18:58 2018 :: Testies@localhost has connected. [Room: 4368]
+Wed Dec 12 11:19:09 2018 :: Log Killuminati: log testies
+Wed Dec 12 11:20:15 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec 12 11:20:17 2018 :: Loading Kazuu's playerfile
+Wed Dec 12 11:20:29 2018 :: Kazuu@localhost has connected. [Room: 1]
+Wed Dec 12 11:20:36 2018 :: Log Killuminati: log kaz
+Wed Dec 12 11:20:40 2018 :: Log Kazuu: save
+Wed Dec 12 11:20:46 2018 :: Log Kazuu: quit
+Wed Dec 12 11:20:46 2018 :: Kazuu has quit. [Room: 1]
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:20:46 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:20:46 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:06 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec 12 11:21:09 2018 :: Loading Kazuu's playerfile
+Wed Dec 12 11:21:16 2018 :: EOF encountered on read.
+Wed Dec 12 11:21:16 2018 :: Closing link to Kazuu.
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Wed Dec 12 11:21:16 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Wed Dec 12 11:21:16 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Wed Dec 12 11:21:29 2018 :: Log Testies: quit
+Wed Dec 12 11:21:29 2018 :: Testies has quit. [Room: 4368]
+Wed Dec 12 11:33:22 2018 :: Sock.sinaddr:  127.0.0.1
+Wed Dec 12 11:33:22 2018 :: Loading Testies's playerfile
+Wed Dec 12 11:33:23 2018 :: Testies@localhost has connected. [Room: 4368]
+Wed Dec 12 11:33:23 2018 :: Log Testies: who
+Wed Dec 12 11:33:45 2018 :: Log Testies: 
+Wed Dec 12 11:33:45 2018 :: Testies has deleted.
+Wed Dec 12 11:33:45 2018 :: Testies has quit. [Room: 4368]
+Wed Dec 12 11:34:52 2018 :: Log Killuminati: shutdown
+Wed Dec 12 11:34:52 2018 :: Closing link to Killuminati.
+Wed Dec 12 11:34:53 2018 :: Normal termination of game.

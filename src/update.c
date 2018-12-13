@@ -166,7 +166,8 @@ void do_backup( void )
     wizinfo("Automated backup complete.",62);
     log_string("Automated backup complete.");
     backup = current_time + (60*60*24);
-    system("tar cfz ../backups/`date +%b.%d`.tar.gz ../player");
+  /*  system("tar cfz ../backups/`date +%b.%d`.tar.gz ../player"); */
+    system("tar cfz ../backups/`date +%b.%d.%Y-%H.%M.%S`.tar.gz ../player");
     return;
 
 }

@@ -43,15 +43,22 @@ while ( 1 )
 	exit
     endif
 
+	cd /mnt/e/ToC/area
 
     # Run merc.
-	cd /mnt/e/ToC/area
-    rm -f shutdown.txt
+
+	if ( ! -e merc ) then 
+	echo MERC not found.
+	exit
+	endif
+	
+  	
+	rm -f shutdown.txt
 	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
 	echo ToC Starting!
   #./merc $port | sudo tee /mnt/e/ToC/log/toc.log
 	echo sudo lnav $logfile
-  ./merc $port >&! $logfile
+   ./merc $port >&! $logfile
 
 
 

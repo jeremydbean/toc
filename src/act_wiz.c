@@ -5534,13 +5534,13 @@ void do_restorechar( CHAR_DATA *ch, char *argument )
 /*	send_to_char("Storing current character file before extracting "
 			"previous file.\n\r", ch);*/
 
-	sprintf(buf, "cd %s; mv %s %s;gunzip -c %s | tar xvf - %s%s",
+	sprintf(buf, "cd %s; mv %s %s;gunzip -c %s | tar xvf - %s%s.restored",
 		PLAYER_DIR, name, PLAYER_TEMP, filename, PLAYER_DIR, name);
     }
     else
     {
 	send_to_char("Restoring from file...", ch);
-    	sprintf(buf, "cd %s; gunzip -c %s | tar xvf - %s",
+    	sprintf(buf, "cd %s;   %s | tar xvf - %s",
 		PLAYER_DIR, filename, name);
     }
     system(buf);
