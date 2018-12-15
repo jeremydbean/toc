@@ -17,7 +17,7 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
- 
+
 #if !defined(macintosh)
 extern  int     _filbuf         args( (FILE *) );
 #endif
@@ -127,7 +127,7 @@ void save_char_obj( CHAR_DATA *ch )
 	if ( ch->carrying != NULL )
 	    fwrite_obj( ch, ch->carrying, fp, 0 );
 	/* save the pets */
-	if (ch->pet != NULL && ch->pet->in_room == ch->in_room 
+	if (ch->pet != NULL && ch->pet->in_room == ch->in_room
         && ch->pet->carrying == NULL )
 	    fwrite_pet(ch->pet,fp);
 	fprintf( fp, "#END\n" );
@@ -166,7 +166,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "LnD  %s~\n",	ch->long_descr	);
     if (ch->description[0] != '\0')
 	fprintf( fp, "Desc %s~\n",	ch->description	);
-    if(ch->prompt)     fprintf( fp, "Prom %s~\n",      ch->prompt      );  
+    if(ch->prompt)     fprintf( fp, "Prom %s~\n",      ch->prompt      );
     fprintf( fp, "Ignoring %s~\n",  ch->pcdata->ignore);
     fprintf( fp, "Race %s~\n", pc_race_table[ch->race].name );
     fprintf( fp, "Sex  %d\n",	ch->sex			);
@@ -672,7 +672,8 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->act				= PLR_NOSUMMON
 					| PLR_AUTOASSIST | PLR_AUTOEXIT
 					| PLR_AUTOLOOT   | PLR_AUTOSAC
-					| PLR_AUTOGOLD   | PLR_AUTOSPLIT;
+					| PLR_AUTOGOLD   | PLR_AUTOSPLIT
+          | PLR_DAMAGE_NUMBERS;
     ch->comm				= COMM_COMBINE
 					| COMM_PROMPT;
     ch->invis_level			= 0;
@@ -723,7 +724,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 
     found = FALSE;
     fclose( fpReserve );
-    
+
     #if defined(unix)
     /* decompress if .gz file exists */
     sprintf( strsave, "%s%s%s", PLAYER_DIR, capitalize(name),".gz");
@@ -1018,7 +1019,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             {
                 int gn;
                 char *temp;
- 
+
                 temp = fread_word( fp ) ;
                 gn = group_lookup(temp);
 		/* gn    = group_lookup( fread_word( fp ) ); */
@@ -1125,7 +1126,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	case 'Q':
 
 	    KEY( "Quest_Pause", ch->pcdata->quest_pause, fread_number(fp) );
-	    
+
 	      if( !str_cmp( word, "Quest_Items:") )
 	      {
 		 ch->pcdata->questor[0] = fread_number( fp );
@@ -1280,7 +1281,7 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     if (!str_cmp(word,"Vnum"))
     {
     	int vnum;
-    	
+
     	vnum = fread_number(fp);
     	if (get_mob_index(vnum) == NULL)
 	{
@@ -1295,35 +1296,35 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
         bug("Fread_pet: no vnum in file.",0);
         pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
     }
-    
+
     for ( ; ; )
     {
     	word 	= feof(fp) ? "END" : fread_word(fp);
     	fMatch = FALSE;
-    	
+
     	switch (UPPER(word[0]))
     	{
     	case '*':
     	    fMatch = TRUE;
     	    fread_to_eol(fp);
     	    break;
-    		
+
     	case 'A':
     	    KEY( "Act",		pet->act,		fread_number(fp));
 	    KEY( "AfBy",	pet->affected_by,	fread_number(fp));
 	    KEY( "AfBy2",	pet->affected_by2,	fread_number(fp));
 	    KEY( "Alig",	pet->alignment,		fread_number(fp));
-    	    
+
 	    if (!str_cmp(word,"ACs"))
 	    {
     	    	int i;
-    	    	
+
     	    	for (i = 0; i < 4; i++)
     	    	    pet->armor[i] = fread_number(fp);
     	    	fMatch = TRUE;
     	    	break;
     	    }
-    	    
+
     	    if (!str_cmp(word,"AffD"))
     	    {
     	    	AFFECT_DATA *paf;
@@ -1331,7 +1332,7 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
 
     	        paf = new_affect();
 
-/* BB	
+/* BB
     	    	if (affect_free == NULL)
     	    	    paf = alloc_perm(sizeof(*paf));
     	    	else
@@ -1339,13 +1340,13 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	    	    paf = affect_free;
 		    affect_free = affect_free->next;
     	    	}
-*/    	    	
+*/
     	    	sn = skill_lookup(fread_word(fp));
     	     	if (sn < 0)
     	     	    bug("Fread_char: unknown skill.",0);
     	     	else
     	     	   paf->type = sn;
-    	     	   
+
     	     	paf->level	= fread_number(fp);
     	     	paf->duration	= fread_number(fp);
     	     	paf->modifier	= fread_number(fp);
@@ -1361,33 +1362,33 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	    if (!str_cmp(word,"AMod"))
     	    {
     	     	int stat;
-    	     	
+
     	     	for (stat = 0; stat < MAX_STATS; stat++)
     	     	    pet->mod_stat[stat] = fread_number(fp);
     	     	fMatch = TRUE;
     	     	break;
     	    }
-    	     
+
     	    if (!str_cmp(word,"Attr"))
     	    {
     	         int stat;
-    	         
+
     	         for (stat = 0; stat < MAX_STATS; stat++)
     	             pet->perm_stat[stat] = fread_number(fp);
     	         fMatch = TRUE;
 		 break;
     	    }
 	    break;
-    	     
+
     	 case 'C':
     	     KEY( "Comm",	pet->comm,		fread_number(fp));
     	     break;
-    	     
+
     	 case 'D':
     	     KEY( "Dam",	pet->damroll,		fread_number(fp));
     	     KEY( "Desc",	pet->description,	fread_string(fp));
     	     break;
-    	     
+
     	 case 'E':
     	     if (!str_cmp(word,"End"))
 	     {
@@ -1398,15 +1399,15 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
 	     }
     	     KEY( "Exp",	pet->exp,		fread_number(fp));
 	     break;
-    	     
+
     	 case 'G':
     	     KEY( "Gold",	pet->new_gold,		fread_number(fp));
              pet->new_gold = 0;
     	     break;
-    	     
+
     	 case 'H':
     	     KEY( "Hit",	pet->hitroll,		fread_number(fp));
-    	     
+
     	     if (!str_cmp(word,"HMV"))
     	     {
     	     	pet->hit	= fread_number(fp);
@@ -1419,12 +1420,12 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	     	break;
     	     }
 	     break;
-    	     
+
      	case 'L':
     	     KEY( "Levl",	pet->level,		fread_number(fp));
     	     KEY( "LnD",	pet->long_descr,	fread_string(fp));
     	     break;
-    	     
+
     	case 'N':
     	     KEY( "Name",	pet->name,		fread_string(fp));
              KEY( "NewGold",    pet->new_gold,          fread_long(fp));
@@ -1432,30 +1433,30 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
              KEY( "NewCopp",    pet->new_copper,        fread_long(fp));
              KEY( "NewPlat",    pet->new_platinum,      fread_long(fp));
     	     break;
-    	     
+
     	case 'P':
     	     KEY( "Pos",	pet->position,		fread_number(fp));
     	     break;
-    	     
+
 	case 'R':
     	    KEY( "Race",	pet->race, race_lookup(fread_string(fp)));
     	    break;
- 	    
+
     	case 'S' :
 	    KEY( "Save",	pet->saving_throw,	fread_number(fp));
     	    KEY( "Sex",		pet->sex,		fread_number(fp));
     	    KEY( "ShD",		pet->short_descr,	fread_string(fp));
     	    break;
-    	    
+
     	if ( !fMatch )
     	{
     	    bug("Fread_pet: no match.",0);
     	    fread_to_eol(fp);
     	}
-    	
+
     	}
     }
-    
+
 }
 
 void fread_obj( CHAR_DATA *ch, FILE *fp )
@@ -1569,7 +1570,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
                           fread_number(fp);
                           break;
                         }
-                        else 
+                        else
 			  paf->type = sn;
 		}
 		else /* old form */
@@ -1646,7 +1647,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 		    return;
 		}
 		else
-		{   
+		{
 		    if (!new_format)
 		    {
 			obj->next	= object_list;
@@ -1671,7 +1672,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 			obj = create_object(obj->pIndexData,0);
 			obj->wear_loc = wear;
 		    }
-/* Outcommented for maxload 
+/* Outcommented for maxload
 		    if ( iNest == 0 || rgObjNest[iNest] == NULL ) {
                         log_string("to_char");
 			obj_to_char( obj, ch );
@@ -1750,7 +1751,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 		fMatch = TRUE;
 	    }
 	    break;
-		    
+
 	case 'R':
 	    KEY( "Repd",	obj->number_repair,	fread_number(fp));
 	    break;
@@ -1791,7 +1792,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 	    {
 	      char_to_obj(create_mobile(get_mob_index(fread_number(fp))),obj );
 	      fMatch = TRUE;
-	    }	
+	    }
 	    break;
 
 	case 'V':
@@ -1971,7 +1972,7 @@ void corpse_back( CHAR_DATA *ch, OBJ_DATA *corpse )
 
 	    if ( corpse_cont[i][0] == 99 )
 		break;
-	    
+
 	    for( c = 1; c < corpse_cont[i][0] +2 ; c++ )
 	    {
 		corpse_cont[i][c] = fread_number( fp );
@@ -2015,6 +2016,3 @@ void corpse_back( CHAR_DATA *ch, OBJ_DATA *corpse )
     fpReserve = fopen( NULL_FILE, "r" );
     return;
 }
-
-
-

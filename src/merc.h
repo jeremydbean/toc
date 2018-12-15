@@ -1373,6 +1373,7 @@ struct  kill_data
 /* 5 bits reserved, I-M */
 #define PLR_SWEDISH		(I)
 #define PLR_QFLAG               (J)
+#define PLR_DAMAGE_NUMBERS			(K)
 
 /* RT personal flags */
 #define PLR_HOLYLIGHT           (N)

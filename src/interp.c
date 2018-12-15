@@ -175,6 +175,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "color",	        do_color,	POS_DEAD,        0,  LOG_NORMAL, 1 },
 /*    { "combine",	do_combine,	POS_DEAD,        0,  LOG_NORMAL, 1 },*/
     { "compact",	do_compact,	POS_DEAD,        0,  LOG_NORMAL, 1 },
+	  { "damagenumbers",	do_damagenumbers,	POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "depart",		do_depart,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "description",	do_description,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "delet",		do_delet,	POS_DEAD,	 0,  LOG_ALWAYS, 0 },
@@ -312,8 +313,8 @@ const	struct	cmd_type	cmd_table	[] =
     { "quit",		do_quit,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "recall",		do_recall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1 },
     { "/",		do_recall,	POS_FIGHTING,	 0,  LOG_NORMAL, 0 },
-    { "roll",		do_roll,	POS_DEAD,	 0,  LOG_NORMAL, 0 },
-    { "save",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
+    { "roll",		do_roll,	POS_DEAD,	 0,  LOG_ALWAYS, 0 },
+    { "save",		do_save,	POS_DEAD,	 0,  LOG_ALWAYS, 1 },
     { "sleep",		do_sleep,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "sneak",		do_sneak,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
     { "split",		do_split,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
@@ -336,7 +337,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "allow",          do_allow,       POS_DEAD,       L3,  LOG_ALWAYS, 1 },
 /*  { "areaload",       do_areaload,    POS_DEAD,       L4,  LOG_ALWAYS, 1 }, */
 /*  { "areasave",       do_areasave,    POS_DEAD,       L4,  LOG_ALWAYS, 1 }, */
-    { "backup",		show_backup,	POS_DEAD,	L1,  LOG_ALWAYS, 1 },
+    { "backup",					show_backup,		POS_DEAD,				L1,  LOG_ALWAYS, 1 },
     { "ban",            do_ban,         POS_DEAD,       L3,  LOG_ALWAYS, 1 },
     { "cloak",          do_cloak,       POS_DEAD,       L8,  LOG_ALWAYS, 1 },
     { "clone",          do_clone,       POS_DEAD,       L5,  LOG_ALWAYS, 1 },
@@ -371,7 +372,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "log",            do_log,         POS_DEAD,       L2,  LOG_ALWAYS, 1 },
     { "memory",         do_memory,      POS_DEAD,       L5,  LOG_NORMAL, 1 },
     { "mwhere",         do_mwhere,      POS_DEAD,       L8,  LOG_NORMAL, 1 },
-/*    { "newcorpse",      do_newcorpse,   POS_DEAD,       L3,  LOG_ALWAYS, 1 },*/
+    { "newcorpse",      do_newcorpse,   POS_DEAD,       L3,  LOG_ALWAYS, 1 },
     { "newlock",        do_newlock,     POS_DEAD,       L4,  LOG_ALWAYS, 1 },
     { "nochannels",     do_nochannels,  POS_DEAD,       L7,  LOG_ALWAYS, 1 },
     { "noemote",        do_noemote,     POS_DEAD,       L6,  LOG_ALWAYS, 1 },

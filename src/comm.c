@@ -1412,13 +1412,31 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
 	  if (victim->fighting != NULL)
 	    {
+			if (IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
+			{
 	      if(victim->fighting == ch)
-	       sprintf(buf,"\n[ %s: %s <*> You: %s ]",
-		  PERS(victim,ch), wound,wound2);
-	      else
+
+	       sprintf(buf,"\n[ %s: [%d/%d hp] <*> You: %s ]",
+		  PERS(victim,ch), victim->hit, victim->max_hit,wound2);
+	      else;
+		sprintf(buf,"\n[ %s: [%d/%d hp] <*> %s: [%d/%d hp] ]",
+		PERS(victim, ch), victim->hit,victim->max_hit,PERS(victim->fighting,ch), victim->fighting->hit, victim->fighting->max_hit);
+				}
+			}
+
+
+			if (!IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
+			{
+				if(victim->fighting == ch)
+				 sprintf(buf,"\n[ %s: %s <*> You: %s ]",
+			PERS(victim,ch), wound,wound2);
+				else
 		sprintf(buf,"\n[ %s: %s <*> %s: %s ]",
-		  PERS(victim, ch), wound, PERS(victim->fighting,ch), wound2);
-	    }
+		  PERS(victim,ch), wound,wound2);
+			}
+
+
+
 	    buf[0] = UPPER(buf[0]);
 	    write_to_buffer( d, buf, 0);
 	}

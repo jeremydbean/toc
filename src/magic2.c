@@ -2132,7 +2132,7 @@ void spell_tentacles( int sn, int level, CHAR_DATA *ch, void *vo )
 	  act("Black tentacles rip out of the ground, flailing $n.",vch,
 		NULL,NULL,TO_ROOM);
 
-	  tentacle = dice(1,3) + 1;
+	  tentacle = dice(2,4) + 1;
 
 	  for( count = 0; count < tentacle; count++)
 	  {
@@ -3838,13 +3838,13 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
     count2 = 0;
     count3 = 0;
 
-    /* count up the mobs/players in the room, 2 meteors per */
+    /* count up the mobs/players in the room, 3 meteors per */
     for ( gch = vch; gch != NULL; gch = gch->next_in_room )
-       count3 += 2;
+       count3 += 3;
 
-    /* Don't give too many attacks, 9 is plenty */
-    if (count3 > 9)
-       count3 = 9;
+    /* Don't give too many attacks, 12 is plenty */
+    if (count3 > 12)
+       count3 = 12;
 
       for ( gch = vch; gch != NULL; gch = gch->next_in_room )
       {
@@ -3855,8 +3855,8 @@ void spell_meteor_swarm( int sn, int level, CHAR_DATA *ch, void *vo )
            if (number_percent() > 85)
              count3--;
 
-           /* Do 2 attacks at most per mob, then go to the next mob */
-           while( count2 < 2 && count3 > 0 && gch->in_room == ch->in_room)
+           /* Do 4 attacks at most per mob, then go to the next mob */
+           while( count2 < 4 && count3 > 0 && gch->in_room == ch->in_room)
            {
              if(saves_spell(level,gch) )
                damage(ch,gch,dice(level,5),sn,DAM_FIRE);

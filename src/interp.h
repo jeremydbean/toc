@@ -150,6 +150,7 @@ DECLARE_DO_FUN( do_crane_dance  );
 DECLARE_DO_FUN(	do_credits	);
 DECLARE_DO_FUN( do_crawl        );
 DECLARE_DO_FUN( do_create_relic );
+DECLARE_DO_FUN( do_damagenumbers	);
 DECLARE_DO_FUN( do_danger_sense );
 DECLARE_DO_FUN( do_deaf		);
 DECLARE_DO_FUN( do_delet	);

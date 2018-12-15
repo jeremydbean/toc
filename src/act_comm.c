@@ -2494,7 +2494,7 @@ void do_roll( CHAR_DATA *ch, char *argument )
 {
     int chance;
   	chance = number_percent( );
-    sprintf(log_buf,"[Roll]: %s rolls %d / 100.",ch->name,chance);
+    sprintf(log_buf,"[Roll]: \x02\x02%s rolls %d/100\x02\x01",ch->name,chance);
     act( log_buf, ch, NULL, NULL, TO_CHAR );
     act( log_buf, ch, NULL, NULL, TO_ROOM );
 }

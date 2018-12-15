@@ -2793,16 +2793,35 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
 	else
 	{
 	    if (ch == victim)
-	    {
-		sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $m%c",attack,vp,punct);
-		sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 you%c",attack,vp,punct);
-	    }
-	    else
-	    {
-		sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $N%c",  attack, vp, punct );
 		sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 $N%c",  attack, vp, punct );
-		sprintf( buf3, "$n's %s\x02\x0A %s\x02\x01 you%c", attack, vp, punct );
-	    }
+		if (IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
+		{
+		   if (ch  == victim)
+		        {
+				  sprintf( buf1, "$n \x02\x0A%s\x02\x01 $melf%c [-\x02\x0A%d\x02\x01]",vp,punct,dam);
+				  sprintf( buf2, "You \x02\x0A%s\x02\x01 yourself%c [-\x02\x0A%d\x02\x01]",vs,punct,dam);
+			    }
+		    else
+				{
+				  sprintf( buf1, "$n \x02\x0A%s\x02\x01 $N%c [-\x02\x0A%d\x02\x01]", vp, punct, dam);
+				  sprintf( buf2, "You \x02\x0A%s\x02\x01 $N%c [-\x02\x0A%d\x02\x01]", vs, punct, dam );
+				  sprintf( buf3, "$n \x02\x0A%s\x02\x01 you%c [-\x02\x0A%d\x02\x01]", vp, punct, dam);
+				}
+		}
+		if (!IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
+{
+	if (ch == victim)
+		 {
+	 sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $m%c",attack,vp,punct);
+	 sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 you%c",attack,vp,punct);
+		 }
+		 else
+		 {
+	 sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $N%c",  attack, vp, punct );
+	 sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 $N%c",  attack, vp, punct );
+	 sprintf( buf3, "$n's %s\x02\x0A %s\x02\x01 you%c", attack, vp, punct );
+		 }
+}
 	}
     }
 
@@ -2823,6 +2842,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
 
 
 
+
 /*
  * Disarm a creature.
  * Caller must check for successful attack.
@@ -2837,9 +2857,9 @@ void disarm( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( IS_OBJ_STAT(obj,ITEM_NOREMOVE))
     {
 	act("$S weapon won't budge!",ch,NULL,victim,TO_CHAR);
-	act("$n tries to disarm you, but your weapon won't budge!",
+	act("$n tries to \x02\x0C disarm\x02\x01 you, but your weapon won't budge!",
 	    ch,NULL,victim,TO_VICT);
-	act("$n tries to disarm $N, but fails.",ch,NULL,victim,TO_NOTVICT);
+	act("$n tries to \x02\x0C disarm\x02\x01 $N, but fails.",ch,NULL,victim,TO_NOTVICT);
 	return;
     }
 
@@ -4297,6 +4317,7 @@ bool check_recover( CHAR_DATA *ch )
        REMOVE_BIT(ch->affected_by2, AFF2_STUNNED);
        affect_strip(ch,skill_lookup("stunning blow") );
        send_to_char("You recover from being stunned.\n\r",ch);
+			 	do_emote(ch,"recovers from being stunned.");
        return TRUE;
      }
    }
@@ -4335,16 +4356,17 @@ void fatality(CHAR_DATA *ch, CHAR_DATA *victim)
   OBJ_DATA *corpse;
   char buf[MAX_STRING_LENGTH];
 
-    act( "$n has pierced a vital organ! YOU ARE DEAD!",
+    act( "$n's attack has pierced a vital organ, killing you instantly!",
 	 ch, NULL, victim, TO_VICT    );
-    act( "Your vicious attack SLAY'S $N!",  ch, NULL, victim, TO_CHAR    );
-    act( "$n has SLAIN $N with one mighty blow!",  ch, NULL, victim, TO_NOTVICT );
+    act( "Your vicious attack has pieced a vital organ, killing $N instantly!  *FATALITY*",  ch, NULL, victim, TO_CHAR    );
+    act( "$n has pieced a vital organ, killing $N instantly!",  ch, NULL, victim, TO_NOTVICT );
     check_improve(ch,gsn_fatality,TRUE,5);
     WAIT_STATE( ch, skill_table[gsn_fatality].beats );
 
-    sprintf(buf,"%s scored a fatality on %s. [Room: %d]",ch->name,
+    sprintf(buf,"%s finished %s... *FATALITY*. [Room: %d]",ch->name,
 	IS_NPC(victim) ? victim->short_descr : victim->name, ch->in_room->vnum);
     wizinfo(buf,LEVEL_IMMORTAL);
+	 log_string( buf );
 
 
 	group_gain( ch, victim );
@@ -4993,7 +5015,7 @@ void do_blinding_fists( CHAR_DATA *ch, char *argument )
       else
       {    /* hit is used for dam type to give wider range */
 	act("$n blurs into motion, striking you.",ch,NULL,victim,TO_VICT);
-	damage( ch, victim, number_range(ch->level/3,ch->level*3/5),
+	damage( ch, victim, number_range(ch->level/2,ch->level*3/4),
 		gsn_blinding_fists, hit );
 	check_improve(ch,gsn_blinding_fists,TRUE,6);
 	WAIT_STATE( ch, skill_table[gsn_blinding_fists].beats);
@@ -5093,9 +5115,9 @@ void do_fists_of_fury( CHAR_DATA *ch, char *argument )
     {
       if( number_percent( ) > chance )
       {
-	act("$N tries to flee from your onslaught.",ch,NULL,victim,TO_CHAR);
-	act("You try and escape from $N's onslaught.",ch,NULL,victim,TO_VICT);
-	do_flee(victim,"");
+	act("$N tries to flee from your onslaught, but trip!.", ch,NULL,victim,TO_CHAR);
+	act("You try and escape from $N's onslaught, but trip!",ch,NULL,victim,TO_VICT);
+	do_trip(victim,"");
 	check_improve(ch,gsn_fists_of_fury,FALSE,6);
       }
       else

@@ -1,0 +1,74 @@
+#!/bin/csh
+# Written by Furey.
+# With additions from Tony.
+
+# Set the port number.
+set port = 9000
+if ( "$1" != "" ) set port="$1"
+
+# So we can get core files created
+sudo sysctl -p
+
+# set default permissions for saves
+umask 000
+
+# Change to area directory.
+cd /mnt/e/ToC/area
+
+# Set limits.
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+
+    set index = 1000
+    while ( 1 )
+	set logfile = /mnt/e/ToC/log/$index.log
+		sudo chmod 777 /mnt/e/ToC/log -R
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    # Backup player files
+    # cd ../player
+    # backup&
+    #cd ../area
+
+    # Check to see if it is currently running or not
+    echo Making sure ToC is not currently running....
+    set check = `ps ux | grep "merc 9000" | grep -v grep`
+    if ("$check" != "") then
+	echo ToC is already running on port $port!
+	exit
+    endif
+
+	cd /mnt/e/ToC/area
+
+    # Run merc.
+
+	if ( ! -e merc ) then 
+	echo MERC not found.
+	exit
+	endif
+	
+  	
+	rm -f shutdown.txt
+	#immortal -l $logfile --logger "tee -a ../log/toc.log" ./merc $port
+	echo ToC Starting!
+  #./merc $port | sudo tee /mnt/e/ToC/log/toc.log
+	echo sudo lnav $logfile
+   ./merc $port >&! $logfile
+
+
+
+    # Save to core files
+#    if ( -e core ) mv core core.$index
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	chmod g+rw shutdown.txt
+	exit 0
+    endif
+
+end

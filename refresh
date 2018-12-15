@@ -1,0 +1,17 @@
+#!/bin/bash -x
+# By Killuminati
+
+cd /mnt/e/ToC/src
+rm *.o
+rm merc
+make
+rm *.o
+rm ../area/merc
+cp merc ../area
+rm merc
+cd ..
+pkill -e merc
+pkill -e immortal
+pkill -e startup
+sleep 1
+./startup &

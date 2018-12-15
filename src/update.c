@@ -35,6 +35,7 @@ DECLARE_DO_FUN(do_drop          );
 
 /* Added for the backup command 12/17/97 Ricochet */
 long backup;
+long dailybackup;
 
 /*
  * Local functions.
@@ -57,6 +58,7 @@ void	dtrap_update	   args( ( void ) );
 void	sanity_check	   args( ( void ) );
 void	quest_update	   args( ( void ) );
 void    do_backup          args( ( void ) );
+void    do_dailybackup     args( ( void ) );
 void    btick_update    args( ( void ) );
 void	save_pkills	args( ( void ) );
 
@@ -165,9 +167,22 @@ void do_backup( void )
     extern long backup;
     wizinfo("Automated backup complete.",62);
     log_string("Automated backup complete.");
-    backup = current_time + (60*60*24);
+    backup = current_time + (60*60*4);
   /*  system("tar cfz ../backups/`date +%b.%d`.tar.gz ../player"); */
     system("tar cfz ../backups/`date +%b.%d.%Y-%H.%M.%S`.tar.gz ../player");
+    return;
+
+}
+
+/* Pfile backup command fixed on 12/17/97 - Ricochet */
+void do_dailybackup( void )
+{
+    extern long backup;
+    wizinfo("Daily backup complete.",62);
+    log_string("Daily backup complete.");
+    dailybackup = current_time + (60*60*24);
+  /*  system("tar cfz ../backups/`date +%b.%d`.tar.gz ../player"); */
+    system("tar cf ../backups/`date +%b.%d`.tar.gz ../player");
     return;
 
 }
@@ -187,12 +202,18 @@ void show_backup( CHAR_DATA *ch, char *argument )
     {
       sprintf( buf, "Next pfile backup scheduled for %s\n\r",(char *)ctime(&backup));
       send_to_char(buf,ch);
-      send_to_char("Type BACKUP NOW to run the backup now.\n\r",ch);
+      sprintf( buf, "Next daily backup scheduled for %s\n\r",(char *)ctime(&dailybackup));
+      send_to_char(buf,ch);
+      send_to_char("Type BACKUP NOW to run a backup now.\n\r",ch);
       return;
     }
 
     if ( !str_cmp( arg1, "now" ) || !str_cmp( arg1, "NOW" ))
       do_backup();
+    if ( !str_cmp( arg1, "daily" ) || !str_cmp( arg1, "DAILY" ))
+      do_dailybackup();
+
+      return;
 
     return;
 }
@@ -222,13 +243,18 @@ void advance_level( CHAR_DATA *ch, bool is_advance )
 
     if(ch->level == 5)
     {
-      send_to_char("Remember to join a guild before your next level.\n\r",ch);
-      send_to_char("If you don't, you will be placed in the same guild as your class.\n\r",ch);
+      send_to_char("\n\r",ch);
+      send_to_char("         NOTE: Remember to join a guild before your next level.    \n\r",ch);
+      send_to_char("   If you don't, you will be placed in the same guild as your class.\n\r",ch);
+      send_to_char("\n\r",ch);
     }
 
     if (ch->level == LEVEL_HERO3 + ch->pcdata->num_remorts)
     {
-      send_to_char("This is the maxlevel you can achieve unless you remort.\n\r",ch);
+            send_to_char("\n\r",ch);
+            send_to_char("    NOTE:  This is the maxlevel you can achieve unless you remort.   \n\r",ch);
+            send_to_char("              (Type 'HELP REMORT' for more information.)\n\r",ch);
+            send_to_char("\n\r",ch);
     }
 
     if(ch->level == 6 && ch->pcdata->guild == GUILD_NONE)
@@ -441,7 +467,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
       send_to_char("                                                                \n\r",ch);
 	    send_to_char(" ***  Congratulations.  You've done it.  You've beaten ToC. *** \n\r",ch);
       send_to_char("                                                                \n\r",ch);
-      sprintf( buf,"                                    Total Time Played: %d           ",(int) (ch->played + current_time - ch->logon) / 3600);
+      sprintf( buf,"                           Total Time Played: %d                    ",(int) (ch->played + current_time - ch->logon) / 3600);
 	    send_to_char(buf,ch);
       send_to_char(" \n\r",ch);
       send_to_char(" ============================================================== \n\r",ch);
@@ -482,7 +508,7 @@ int hit_gain( CHAR_DATA *ch )
 	    case POS_FIGHTING:	gain /= 3;		 	break;
 */
 	    default:            gain *= .75;              break;
-	    case POS_SLEEPING:  gain = 3 * gain / 2;            break;
+	    case POS_SLEEPING:  gain = 4 * gain / 2;            break;
 	    case POS_RESTING:   gain = gain/3;                  break;
 	    case POS_FIGHTING:  gain /= 2;                      break;
 	}
@@ -910,8 +936,8 @@ void weather_update( void )
 /*    if( time_info.hour == 11 || time_info.hour == 23)
        component_update(); */
 
-      if (current_time > backup)
-        do_backup();
+     if (current_time > dailybackup)
+
 
     if(time_info.day == 0 || time_info.day < 10)
        weather_info.moon_phase = MOON_NEW;

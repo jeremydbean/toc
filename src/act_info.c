@@ -899,6 +899,23 @@ void do_noloot(CHAR_DATA *ch, char *argument)
     }
 }
 
+void do_damagenumbers(CHAR_DATA *ch, char *argument)
+{
+    if (IS_NPC(ch))
+      return;
+
+    if (IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
+    {
+      send_to_char("Actual Damage Numbers will not appear.\n\r",ch);
+      REMOVE_BIT(ch->act,PLR_DAMAGE_NUMBERS);
+    }
+    else
+    {
+      send_to_char("Actual Damage Numbers will appear.\n\r",ch);
+      SET_BIT(ch->act,PLR_DAMAGE_NUMBERS);
+    }
+}
+
 void do_nofollow(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))

@@ -1752,7 +1752,7 @@ void do_pick( CHAR_DATA *ch, char *argument )
 	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
 	if ( IS_SET(pexit->exit_info, EX_PICKPROOF) && !IS_IMMORTAL(ch))
 	    { send_to_char( "You failed.\n\r",             ch ); return; }
-	if ( IS_SET(pexit->exit_info, EX_WIZLOCKED) )
+	if ( IS_SET(pexit->exit_info, EX_WIZLOCKED) && !IS_IMMORTAL(ch))
 	    { send_to_char( "This lock is magical. You can't pick it.\n\r", ch);
 	      return;
 	    }
@@ -3749,13 +3749,13 @@ void do_stealth( CHAR_DATA *ch, char *argument )
 
     if(IS_AFFECTED(ch,AFF_HIDE) )
     {
-      send_to_char("Your too busy hiding.\n\r",ch);
+      send_to_char("You're too busy hiding.\n\r",ch);
       return;
     }
 
     if(IS_AFFECTED(ch,AFF_SNEAK) )
     {
-      send_to_char("Your too busy sneaking around.\n\r",ch);
+      send_to_char("You're too busy sneaking around.\n\r",ch);
       return;
     }
 
