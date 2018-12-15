@@ -2792,8 +2792,6 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
 	}
 	else
 	{
-	    if (ch == victim)
-		sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 $N%c",  attack, vp, punct );
 		if (IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
 		{
 		   if (ch  == victim)
