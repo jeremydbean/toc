@@ -4268,6 +4268,8 @@ void do_remort( CHAR_DATA *ch, char *arg)
    REMOVE_BIT(ch->act, PLR_WANTED);
    sprintf(buf, "the %s", title_table[ch->class][1][(ch->sex == SEX_FEMALE? 1 : 0)]);
    set_title(ch, buf);
+
+
    for (i=0;i<MAX_SKILL;i++) ch->pcdata->learned[i] = 0;
    for (i=0;i<MAX_GROUP;i++) ch->pcdata->group_known[i] = 0;
 
@@ -4282,6 +4284,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
         break;
       group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
    }
+ 
    ch->affected_by = ch->affected_by|race_table[ch->race].aff;
    ch->imm_flags   = ch->imm_flags | race_table[ch->race].imm;
    ch->res_flags   = ch->res_flags | race_table[ch->race].res;

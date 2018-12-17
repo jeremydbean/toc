@@ -1,27 +1,27 @@
 #PLAYER
 Name Testies~
 Id   47466
-LogO 1544999028
+LogO 1545028541
 Vers 3
 Prom ~
 Ignoring ~
-Race human~
+Race elf~
 Sex  1
-Cla  4
-Gui  4
+Cla  0
+Gui  0
 Psionic  0
 Cast none
-Levl 35
+Levl 3
 Tru  70
-Plyd 158820
-ListRemorts ~
+Plyd 159663
+ListRemorts  4 ~
 NumRemorts 5
 Note 1544841593
 Scro 22
-Room 15011
-HMV  16097 29969 14946 14946 14981 14981
+Room 16021
+HMV  1000 1000 1000 1000 1000 1000
 NewGold 1493
-NewPlat 392
+NewPlat 393
 NewCopp 3421
 NewSilv 1525
 Bank 0
@@ -29,13 +29,14 @@ Dcount 0
 Corpses	0
 PkRec 0
 PkGiv 0
-Exp  75934
+Exp  6450
 Act  140488
+AfBy 512
 Comm 24576
 Mounted 0
 On_Quest 0
 Quest_Pause 0
-Pk_State 1
+Pk_State 0
 Jw_Timer 0
 ColFlag 1
 Color 0 0
@@ -56,18 +57,18 @@ Color 14 11
 Color 15 6
 Color 16 6
 Pos  8
-Prac 69
-Trai 35
-Alig  735
+Prac 25
+Trai 18
+Alig  723
 ACs 100 100 100 100
 Attr 13 13 13 13 13
 AMod 0 0 0 0 0
 Pass TeGUeG0bw/YpE~
-Titl  the Grand Monk~
-Pnts 2540
+Titl  the Apprentice of Magic~
+Pnts 2500
 TSex 1
 LLev 0
-HMVP 29969 14946 14981
+HMVP 1000 1000 1000
 Cond 0 -1 -1
 Alias / who~
 Alias f flee~
@@ -231,15 +232,15 @@ Sk 100 'shift'
 Sk 100 'telekinesis'
 Sk 100 'torment'
 Sk 100 'transfusion'
-Sk 100 'axe'
-Sk 100 'dagger'
-Sk 100 'flail'
-Sk 100 'mace'
-Sk 100 'polearm'
+Sk 10 'axe'
+Sk 80 'dagger'
+Sk 7 'flail'
+Sk 5 'mace'
+Sk 3 'polearm'
 Sk 100 'shield block'
-Sk 100 'spear'
-Sk 100 'sword'
-Sk 100 'whip'
+Sk 8 'spear'
+Sk 3 'sword'
+Sk 20 'whip'
 Sk 100 'aggrostab'
 Sk 100 'archery'
 Sk 100 'backstab'
@@ -301,330 +302,6 @@ Sk 100 'smite'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'monk default'
-End
-
-#O
-Vnum 9321
-Nest 0
-Wear -1
-Lev  25
-Cost 1750
-Cond 100
-Repd 0
-Val  0 0 -1 0 0
-End
-
-#O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear -1
-Lev  28
-Cost 500
-Cond 91
-Repd 0
-End
-
-#O
-Vnum 5025
-Nest 0
-ExtF 64
-Wear -1
-Lev  28
-Cost 0
-Cond 100
-Repd 0
-Val  4 -1 -1 -1 0
-End
-
-#O
-Vnum 10048
-Nest 0
-Wear -1
-Lev  32
-Cost 2200
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 4619
-Enchanted
-Nest 0
-Wear -1
-Lev  26
-Cost 0
-Cond 100
-Repd 0
-AffD 'enchant armor' 53 -1 -1 17 0 0
-End
-
-#O
-Vnum 8713
-Nest 0
-Wear -1
-Lev  14
-Cost 416
-Cond 100
-Repd 0
-Val  4 4 3 -1 0
-End
-
-#O
-Vnum 3609
-Nest 0
-ExtF 21
-Wear -1
-Lev  30
-Cost 0
-Cond 100
-Repd 0
-Val  5 6 5 5 0
-End
-
-#O
-Vnum 911
-Nest 0
-Wear -1
-Lev  34
-Cost 2600
-Cond 89
-Repd 0
-End
-
-#O
-Vnum 17713
-Nest 0
-Wear -1
-Lev  18
-Cost 0
-Cond 68
-Repd 0
-End
-
-#O
-Vnum 10042
-Nest 0
-Wear -1
-Lev  23
-Cost 1300
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 13204
-Nest 0
-Wear -1
-Lev  29
-Cost 100
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9214
-Nest 0
-Wear -1
-Lev  22
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 911
-Nest 0
-Wear -1
-Lev  34
-Cost 2600
-Cond 95
-Repd 0
-End
-
-#O
-Vnum 29032
-Nest 0
-Wear -1
-Lev  29
-Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9322
-Nest 1
-Wear -1
-Lev  29
-Cost 0
-Cond 95
-Repd 0
-End
-
-#O
-Vnum 3746
-Nest 1
-Wear -1
-Lev  3
-Cost 10
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 3009
-Nest 1
-Wear -1
-Cost 50
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 70
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 64
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 79
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 73
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 66
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 66
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 81
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 88
-Nest 1
-Wear -1
-Cost 0
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 2321
-Nest 1
-Wear -1
-Lev  29
-Cost 3000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 2321
-Nest 1
-Wear -1
-Lev  29
-Cost 3000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear -1
-Lev  33
-Cost 4000
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 10059
-Nest 0
-Wear -1
-Lev  33
-Cost 4000
-Cond 100
-Repd 0
-Affect -1 33 -1 -1 4 0 0
-End
-
-#O
-Vnum 724
-Nest 0
-Wear -1
-Lev  30
-Cost 500
-Cond 100
-Repd 0
-End
-
-#O
-Vnum 9224
-Nest 0
-Wear -1
-Lev  8
-Cost 0
-Cond 100
-Repd 0
-Val  150 123 0 0 0
-End
-
-#O
-Vnum 3092
-Nest 0
-Wear -1
-Cost 150
-Cond 100
-Repd 0
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
 End
 
 #END
