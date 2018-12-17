@@ -1,0 +1,276 @@
+Sun Dec 16 13:04:23 2018 :: LOADING COMM TABLE
+Sun Dec 16 13:04:23 2018 ::  INIT OK 
+Sun Dec 16 13:04:23 2018 :: Ended LOADING COMM TABLE
+Sun Dec 16 13:04:23 2018 :: Ended Fixing Exits
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sun Dec 16 13:04:23 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sun Dec 16 13:04:23 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Sun Dec 16 13:04:23 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Sun Dec 16 13:04:23 2018 :: Ended Area Update
+Sun Dec 16 13:04:23 2018 :: Ended Loading Notes
+Sun Dec 16 13:04:23 2018 :: Ended Loading Ban
+Sun Dec 16 13:04:23 2018 :: Ended Loading Pkills
+Sun Dec 16 13:04:23 2018 :: TOC is ready to rock on port 9000.
+Sun Dec 16 13:04:23 2018 :: Setting up signals.
+Sun Dec 16 13:04:27 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 13:04:27 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 13:04:27 2018 :: Loading Killuminati's playerfile
+Sun Dec 16 13:04:27 2018 :: Loading Testies's playerfile
+Sun Dec 16 13:04:27 2018 :: Killuminati@localhost has connected. [Room: 29204]
+Sun Dec 16 13:04:28 2018 :: Testies@localhost has connected. [Room: 25265]
+Sun Dec 16 13:06:42 2018 :: Log Testies: fist dro
+Sun Dec 16 13:06:46 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:06:48 2018 :: Log Testies: blind dro
+Sun Dec 16 13:06:49 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:06:54 2018 :: Log Testies: blind dro
+Sun Dec 16 13:06:55 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:01 2018 :: Log Testies: blind dro
+Sun Dec 16 13:07:01 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:07 2018 :: Log Testies: blind dro
+Sun Dec 16 13:07:08 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:13 2018 :: Log Testies: blind dro
+Sun Dec 16 13:07:13 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:19 2018 :: Log Testies: blind dro
+Sun Dec 16 13:07:19 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:26 2018 :: Log Testies: kill dro
+Sun Dec 16 13:07:26 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:07:29 2018 :: Log Testies: kill dro
+Sun Dec 16 13:07:32 2018 :: Log Testies: kill dro
+Sun Dec 16 13:07:35 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 13:17:01 2018 :: Testies has quit. [Room: 2]
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 13:17:01 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Dec 16 13:17:01 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 13:17:11 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 13:17:11 2018 :: Loading Testies's playerfile
+Sun Dec 16 13:17:12 2018 :: Testies@localhost has connected. [Room: 25265]
+Sun Dec 16 14:10:09 2018 :: Sock.sinaddr:  173.22.228.146
+Sun Dec 16 14:10:09 2018 :: Loading Kyrus's playerfile
+Sun Dec 16 14:10:10 2018 :: Kyrus@173-22-228-146.client.mchsi.com has connected. [Room: 29003]
+Sun Dec 16 14:10:12 2018 :: Log Kyrus: who
+Sun Dec 16 14:10:13 2018 :: Log Kyrus: wake
+Sun Dec 16 14:10:13 2018 :: Log Kyrus: l
+Sun Dec 16 14:10:14 2018 :: Log Kyrus: time
+Sun Dec 16 14:10:16 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:18 2018 :: Log Kyrus: kill gu
+Sun Dec 16 14:10:18 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:10:21 2018 :: Log Kyrus: ge key cor
+Sun Dec 16 14:10:22 2018 :: Log Kyrus: wear bl
+Sun Dec 16 14:10:24 2018 :: Log Kyrus: recal
+Sun Dec 16 14:10:25 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:26 2018 :: Log Kyrus: put all.key pit
+Sun Dec 16 14:10:29 2018 :: Log Kyrus: get key pit
+Sun Dec 16 14:10:30 2018 :: Log Kyrus: r e 4
+Sun Dec 16 14:10:30 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:31 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:33 2018 :: Log Kyrus: r e 8
+Sun Dec 16 14:10:33 2018 :: Log Kyrus: open east
+Sun Dec 16 14:10:33 2018 :: Log Kyrus: r e 19
+Sun Dec 16 14:10:34 2018 :: Log Kyrus: r n 6
+Sun Dec 16 14:10:34 2018 :: Log Kyrus: open north
+Sun Dec 16 14:10:35 2018 :: Log Kyrus: r n 8
+Sun Dec 16 14:10:40 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:41 2018 :: Log Kyrus: unl north
+Sun Dec 16 14:10:42 2018 :: Log Kyrus: open north
+Sun Dec 16 14:10:42 2018 :: Log Kyrus: drop key
+Sun Dec 16 14:10:43 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:44 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:44 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:45 2018 :: Log Kyrus: 
+Sun Dec 16 14:10:47 2018 :: Log Kyrus: wo
+Sun Dec 16 14:10:49 2018 :: Log Kyrus: wo
+Sun Dec 16 14:10:52 2018 :: Log Kyrus: kill cl
+Sun Dec 16 14:10:55 2018 :: Log Kyrus: af
+Sun Dec 16 14:11:00 2018 :: Log Kyrus: i
+Sun Dec 16 14:11:00 2018 :: Log Kyrus: sm
+Sun Dec 16 14:11:08 2018 :: Log Kyrus: sm
+Sun Dec 16 14:11:10 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:11:10 2018 :: [XP TRACK]: Kyrus (Level 54) gained 133 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:11:10 2018 :: [XP_EXCEL]: Kyrus;54;133;killer clown guy;59
+Sun Dec 16 14:11:15 2018 :: Log Kyrus: 
+Sun Dec 16 14:11:16 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:11:27 2018 :: Log Kyrus: sm
+Sun Dec 16 14:11:28 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:11:28 2018 :: [XP TRACK]: Kyrus (Level 54) gained 163 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:11:28 2018 :: [XP_EXCEL]: Kyrus;54;163;killer clown guy;59
+Sun Dec 16 14:11:34 2018 :: Log Kyrus: worth
+Sun Dec 16 14:11:34 2018 :: Log Kyrus: sm
+Sun Dec 16 14:11:42 2018 :: Log Kyrus: l
+Sun Dec 16 14:11:44 2018 :: Log Kyrus: wo
+Sun Dec 16 14:11:46 2018 :: Log Kyrus: sm
+Sun Dec 16 14:11:52 2018 :: Log Kyrus: k
+Sun Dec 16 14:11:52 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:11:52 2018 :: [XP TRACK]: Kyrus (Level 54) gained 141 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:11:52 2018 :: [XP_EXCEL]: Kyrus;54;141;killer clown guy;59
+Sun Dec 16 14:11:55 2018 :: Log Kyrus: wo
+Sun Dec 16 14:11:56 2018 :: Log Kyrus: l
+Sun Dec 16 14:11:57 2018 :: Log Kyrus: 
+Sun Dec 16 14:12:01 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:12:07 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:12:13 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:12:20 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:12:22 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:12:22 2018 :: [XP TRACK]: Kyrus (Level 54) gained 153 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:12:22 2018 :: [XP_EXCEL]: Kyrus;54;153;killer clown guy;59
+Sun Dec 16 14:12:22 2018 :: Kyrus is now a Lord of the Realms!!!!
+Sun Dec 16 14:12:43 2018 :: Log Kyrus: gr
+Sun Dec 16 14:12:47 2018 :: Log Kyrus: skil
+Sun Dec 16 14:12:48 2018 :: Log Kyrus: k
+Sun Dec 16 14:12:52 2018 :: Log Kyrus: k
+Sun Dec 16 14:12:52 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:12:52 2018 :: [XP TRACK]: Kyrus (Level 55) gained 284 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:12:52 2018 :: [XP_EXCEL]: Kyrus;55;284;killer clown guy;59
+Sun Dec 16 14:12:55 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:13:02 2018 :: Log Kyrus: sm cl
+Sun Dec 16 14:13:02 2018 :: Kyrus alignment has raised by 1. [Alignment: 1000]
+Sun Dec 16 14:13:02 2018 :: [XP TRACK]: Kyrus (Level 55) gained 340 XP from 'killer clown guy' (Level 59).
+Sun Dec 16 14:13:02 2018 :: [XP_EXCEL]: Kyrus;55;340;killer clown guy;59
+Sun Dec 16 14:13:08 2018 :: Log Kyrus: recal
+Sun Dec 16 14:13:08 2018 :: Log Kyrus: r e 3
+Sun Dec 16 14:13:09 2018 :: Log Kyrus: 
+Sun Dec 16 14:13:09 2018 :: Log Kyrus: 
+Sun Dec 16 14:13:10 2018 :: Log Kyrus: r e 8
+Sun Dec 16 14:13:10 2018 :: Log Kyrus: open east
+Sun Dec 16 14:13:10 2018 :: Log Kyrus: r e 19
+Sun Dec 16 14:13:11 2018 :: Log Kyrus: r n 6
+Sun Dec 16 14:13:11 2018 :: Log Kyrus: open north
+Sun Dec 16 14:13:12 2018 :: Log Kyrus: r n 8
+Sun Dec 16 14:13:12 2018 :: Log Kyrus: wo
+Sun Dec 16 14:13:14 2018 :: Log Kyrus: quit
+Sun Dec 16 14:13:14 2018 :: Kyrus has quit. [Room: 29003]
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 29240 to modify as: -1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 29240|Signval: -1|!Gameload|Total: 4
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 29240 to modify as: 1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 29240|Signval: 1|!Gameload|Total: 3
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 29215 to modify as: -1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 29215|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 29215 to modify as: 1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 29215|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 717 to modify as: -1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 717|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 717 to modify as: 1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 717|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 3715 to modify as: -1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 3715|Signval: -1|!Gameload|Total: 2
+Sun Dec 16 14:13:14 2018 :: Called for vnum: 3715 to modify as: 1 as playerload.
+Sun Dec 16 14:13:14 2018 :: Vnum 3715|Signval: 1|!Gameload|Total: 1
+Sun Dec 16 15:10:19 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 15:10:19 2018 :: EOF encountered on read.
+Sun Dec 16 15:10:19 2018 :: Closing link to Testies.
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Sun Dec 16 15:10:19 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Sun Dec 16 15:10:19 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Sun Dec 16 15:10:19 2018 :: Loading Testies's playerfile
+Sun Dec 16 15:10:19 2018 :: Testies@localhost has connected. [Room: 25265]
+Sun Dec 16 15:10:20 2018 :: Log Testies: who
+Sun Dec 16 15:10:29 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 15:10:29 2018 :: EOF encountered on read.
+Sun Dec 16 15:10:29 2018 :: Closing link to Killuminati.
+Sun Dec 16 15:10:30 2018 :: Loading Killuminati's playerfile
+Sun Dec 16 15:10:30 2018 :: Killuminati@localhost has connected. [Room: 29204]
+Sun Dec 16 15:11:47 2018 :: Log Testies: tell killuminati bigspellup
+Sun Dec 16 15:11:47 2018 :: Log Killuminati: restore self
+Sun Dec 16 15:11:47 2018 :: Log Killuminati: restore Testies 
+Sun Dec 16 15:11:53 2018 :: Log Killuminati: restore self
+Sun Dec 16 15:12:41 2018 :: Log Testies: /
+Sun Dec 16 15:12:44 2018 :: Log Testies: lo
+Sun Dec 16 15:12:47 2018 :: Log Testies: kill dro
+Sun Dec 16 15:12:47 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:12:51 2018 :: Log Testies: fist dro
+Sun Dec 16 15:12:51 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:12:57 2018 :: Log Testies: fist dro
+Sun Dec 16 15:12:57 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:13:03 2018 :: Log Testies: fist dro
+Sun Dec 16 15:13:03 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:13:09 2018 :: Log Testies: help news
+Sun Dec 16 15:13:14 2018 :: Log Testies: blinding fis
+Sun Dec 16 15:13:17 2018 :: Log Testies: blinding fis dr
+Sun Dec 16 15:13:19 2018 :: Log Testies: blinding drp
+Sun Dec 16 15:13:21 2018 :: Log Testies: blinding dro
+Sun Dec 16 15:13:21 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:13:27 2018 :: Log Testies: blinding dro
+Sun Dec 16 15:13:27 2018 :: Testies alignment has dropped by 0. [Alignment: 752]
+Sun Dec 16 15:17:40 2018 :: Log Testies: stat mob test
+Sun Dec 16 15:17:45 2018 :: Log Testies: stat dro
+Sun Dec 16 15:17:50 2018 :: Log Testies: stat mob dro
+Sun Dec 16 15:17:56 2018 :: Log Testies: af
+Sun Dec 16 15:17:57 2018 :: Log Testies: sc
+Sun Dec 16 15:18:05 2018 :: Log Testies: goto swashb
+Sun Dec 16 15:18:08 2018 :: Log Testies: stat mob swas
+Sun Dec 16 15:18:14 2018 :: Log Testies: kill swa
+Sun Dec 16 15:18:18 2018 :: Log Testies: fists
+Sun Dec 16 15:18:24 2018 :: Log Testies: fists
+Sun Dec 16 15:18:30 2018 :: Log Testies: burn
+Sun Dec 16 15:18:31 2018 :: Log Testies: blind
+Sun Dec 16 15:18:37 2018 :: Testies alignment has raised by 1. [Alignment: 753]
+Sun Dec 16 15:18:37 2018 :: [XP TRACK]: Testies (Level 34) gained 753 XP from 'swash swashbuckler' (Level 48).
+Sun Dec 16 15:18:37 2018 :: [XP_EXCEL]: Testies;34;753;swash swashbuckler;48
+Sun Dec 16 15:18:37 2018 :: Log Testies: blinding
+Sun Dec 16 15:18:37 2018 :: Log Testies: blinding
+Sun Dec 16 15:21:57 2018 :: Log Testies: log testi
+Sun Dec 16 15:22:00 2018 :: Log Testies: shutdown
+Sun Dec 16 15:22:00 2018 :: Closing link to Killuminati.
+Sun Dec 16 15:22:00 2018 :: Closing link to Testies.
+Sun Dec 16 15:22:01 2018 :: Normal termination of game.

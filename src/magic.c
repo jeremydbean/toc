@@ -2324,10 +2324,11 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo )
     /* the moment of truth */
     if (result < (fail / 4))  /* item destroyed */
     {
-	act("$p flares blindingly... and evaporates!",ch,obj,NULL,TO_CHAR);
-	act("$p flares blindingly... and evaporates!",ch,obj,NULL,TO_ROOM);
+	act("$p glows blue, then fades...",ch,obj,NULL,TO_CHAR);
+	act("$p glows blue, then fades...",ch,obj,NULL,TO_ROOM);
         obj_from_char(obj);
-	extract_obj(obj);
+        obj->condition = 1;
+        SET_BIT(obj->extra_flags, ITEM_DAMAGED);
 	return;
     }
 

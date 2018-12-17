@@ -1098,6 +1098,7 @@ struct  kill_data
 #define ITEM_ADD_AFFECT         (X)
 #define ITEM_EMBALMED		(Y)
 #define ITEM_FLAGS2             (Z)
+#define ITEM_DAMAGED						(aa)
 
 /*
  * Second group of extra flags

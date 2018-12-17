@@ -1419,8 +1419,8 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 	       sprintf(buf,"\n[ %s: [%d/%d hp] <*> You: %s ]",
 		  PERS(victim,ch), victim->hit, victim->max_hit,wound2);
 	      else;
-		sprintf(buf,"\n[ %s: [%d/%d hp] <*> %s: [%d/%d hp] ]",
-		PERS(victim, ch), victim->hit,victim->max_hit,PERS(victim->fighting,ch), victim->fighting->hit, victim->fighting->max_hit);
+		sprintf(buf,"\n[ %s: [%d/%d hp] <*> %s: %s ]",
+		PERS(victim, ch), victim->hit,victim->max_hit,PERS(victim->fighting,ch),wound2);
 				}
 			}
 
@@ -2127,7 +2127,7 @@ case CON_GET_ALIGNMENT:
 	d->connected    = CON_PLAYING;
 	reset_char(ch);
 
-	if (ch->pcdata->num_remorts >= 1)
+	if (ch->pcdata->num_remorts > 0)
 	{
 		ch->pcdata->condition[COND_THIRST] = -1;
 		ch->pcdata->condition[COND_FULL] = -1;

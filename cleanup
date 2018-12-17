@@ -24,12 +24,12 @@ echo ""
 sleep 1
 cd /mnt/e/ToC/
 
-read -p "Kill any existing sessions and then reload ToC? [y/n?] "  RESPONSE
-if [ "$RESPONSE" = y ]; then
+#read -p "Kill any existing sessions and then reload ToC? [y/n?] "  RESPONSE
+#if [ "$RESPONSE" = y ]; then
 (pkill -e merc; pkill -e immortal; pkill -e startup; ./startup &) &
-elif [ "$RESPONSE" = n ]; then
-	echo ""
-	echo "Game not reloaded.  Reboot in game for changes to take effect."
-else
-	echo "Make a valid selection! [y or n]"
-fi
+#elif [ "$RESPONSE" = n ]; then#
+#	echo ""
+#	echo "Game not reloaded.  Reboot in game for changes to take effect."
+#else
+#	echo "Make a valid selection! [y or n]"
+#fi

@@ -2862,6 +2862,7 @@ char *extra_bit_name( int extra_flags )
     if ( extra_flags & ITEM_MAGIC        ) strcat( buf, " magic"        );
     if ( extra_flags & ITEM_NODROP       ) strcat( buf, " nodrop"       );
     if ( extra_flags & ITEM_BLESS        ) strcat( buf, " bless"        );
+    if ( extra_flags & ITEM_DAMAGED        ) strcat( buf, " damaged"        );
     if ( extra_flags & ITEM_ANTI_GOOD    ) strcat( buf, " anti-good"    );
     if ( extra_flags & ITEM_ANTI_EVIL    ) strcat( buf, " anti-evil"    );
     if ( extra_flags & ITEM_ANTI_NEUTRAL ) strcat( buf, " anti-neutral" );

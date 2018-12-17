@@ -13,7 +13,7 @@ vast amount of knowledge he possesses. He is wearing fine magic clothing,
 and you notice that she is surrounded by a blue shimmering aura.
 ~
 human~
-GJKTV DEFJ 0 S
+JKTV DEFJ 0 S
 36 0 1d1+1999 1d1+999 3d8+24 19
 -15 -15 -15 -15
 FG ABCD 0 0
@@ -28,7 +28,7 @@ The gladiator is a strong man.  He looks like someone who could teach
 even the mightest of warriors a thing or two.
 ~
 human~
-BGJKTV DEFJ 0 S
+GJKTV DEFJ 0 S
 36 0 1d1+1999 1d1+999 3d8+24 19
 -15 -15 -15 -15
 FG ABCD 0 0
@@ -44,7 +44,7 @@ good service in the line of battle.  He looks like his experiences in
 life is more than you will ever know.
 ~
 human~
-BGJKTV DEFJ 0 S
+GJKTV DEFJ 0 S
 36 0 1d1+1999 1d1+999 3d8+24 19
 -15 -15 -15 -15
 FG ABCD 0 0
@@ -75,7 +75,7 @@ This is one big, ugly, and smelly troll.  You are unable to detect any
 signs that he has ever been in a battle.  Wonder why?
 ~
 troll~
-BGKTV DEFJ 0 S
+GKTV DEFJ 0 S
 36 0 1d1+1999 1d1+999 3d8+24 19
 -15 -15 -15 -15
 FG ABCD 0 0
@@ -92,7 +92,7 @@ the way of the true thief.  She is dressed in poor clothing, having
 the appearance of a beggar.
 ~
 human~
-BGJKSV DFP 0 S
+GJKSV DFP 0 S
 36 0 1d1+1999 1d1+199 3d8+24 17
 -15 -15 -15 -15
 BEFHJN ABCD 0 0
@@ -107,7 +107,7 @@ This is a very strange shopkeeper.  He seems to keep his inventory
 inside his long overcoat that he is wearing.
 ~
 human~
-BGJKSV DF 0 S
+GJKSV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 17
 -15 -15 -15 -15
 BEFHJN ABCD 0 0
@@ -115,8 +115,8 @@ BEFHJN ABCD 0 0
 0 0 M 0
 
 #22
-quickfingers pickpocket thief master gm~
-Quickfingers the pickpocket~
+quickfingers quick fingers thief master gm~
+the quickfingers~
 The thief is eyeing your wallet closely.
 ~
 Quickfingers is a very ordinary looking man, maybe to ordinary.  He
@@ -130,23 +130,23 @@ BEFHJN ABCD 0 0
 8 8 2 0
 0 0 M 0
 #23
-picky locksmith thief gm~
-Picky the locksmith~
+locksmith thief gm~
+the locksmith~
 The locksmith is here trying to help someone who lost their keys.
 ~
 The locksmith seems very capable in his choosen profession.  He can
 pop a lock faster than anyone else you have ever seen.
 ~
 gnome~
-BJKSV DF 0 S
+JBKSV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 17
 -15 -15 -15 -15
 BEFHJN ABCD 0 0
 8 8 2 0
 0 0 M 0
 #24
-nihi ninja master gm~
-Ni Hi the ninja master~
+ninja master gm~
+the ninja master~
 The ninja master is barely visible.
 ~
 The ninja master is here showing his methods to his students.
@@ -159,11 +159,11 @@ BEFHJN ABCD 0 0
 8 8 2 0
 0 0 M 0
 #25
-suma chef cook master gm~
-Suma the chef~
-The master chef is here preparing some food.
+cook master gm~
+the cook~
+The cook is here preparing some food.
 ~
-The master chef look like he has had a few to many of his award winning
+The cook look like he has had a few to many of his award winning
 recipes (well, at least for a thieves guild).
 ~
 dwarf~
@@ -174,15 +174,15 @@ BEFHJN ABCD 0 0
 8 8 2 500
 0 0 M 0
 #26
-mizry assassin master gm~
-Mizry the assassin~
+assassin master gm~
+the assassin~
 The assassin is barely visible in the shadows.
 ~
 It is very hard to keep the assassin in view.  He seems to be able to
 just disappear into the shadows.
 ~
 elf~
-BGKSV DF 0 S
+GKSV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 17
 -15 -15 -15 -15
 BEFHJN ABCD 0 0
@@ -198,7 +198,7 @@ The master of ceremonies is a very busy man.  He is the most well versed
 person in the art of benedictions and therefore is in high demand.
 ~
 human~
-BJKQV CDEFH 0 S
+JBKQV CDEFH 0 S
 36 0 1d1+1999 1d1+999 3d8+24 20
 -15 -15 -15 -15
 EFHIKbb ABCD 0 0
@@ -214,7 +214,7 @@ His motto is that through meditation and a stress free life, you can
 achieve great happiness.
 ~
 halfling~
-BGJKQV CDEFH 0 S
+GJKQV CDEFH 0 S
 36 0 1d1+1999 1d1+999 3d8+24 20
 -15 -15 -15 -15
 EFHIKbb ABCD 0 0
@@ -268,7 +268,7 @@ EFHIKbb ABCD 0 0
 8 8 2 0
 0 0 M 0
 #35
-qualo healer~
+qaulo healer~
 Qualo the healer~
 The healer is here to help those in need.
 ~
@@ -291,7 +291,7 @@ The missionary of Breas has traveled the world converting others to
 follow his god.
 ~
 human~
-BGJKQV CDEFH 0 S
+GJKQV CDEFH 0 S
 36 0 1d1+1999 1d1+999 3d8+24 20
 -15 -15 -15 -15
 EFHIKbb ABCD 0 0
@@ -307,7 +307,7 @@ she has a peaceful, loving look. You notice that she is surrounded by
 a white aura.
 ~
 human~
-BJKQV CDEFH 0 S
+JBKQV CDEFH 0 S
 36 0 1d1+1999 1d1+999 3d8+24 20
 -15 -15 -15 -15
 EFHIKbb ABCD 0 0
@@ -324,7 +324,7 @@ person there is when it comes to wands. She seems to have a very large
 selection and can tell you everything there is about wandmaking
 ~
 human~
-BJKRV DF 0 S
+JBKRV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -340,7 +340,7 @@ alot about the history of the world.  He is rarely not seen reading a
 history book.
 ~
 human~
-BJKRV DF 0 S
+JKRV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -387,7 +387,7 @@ The summoner seems to have no order to the things that he is summoning.
 He is summoning all kinds of creatures.
 ~
 human~
-BJKRV DF 0 S
+JBKRV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -402,7 +402,7 @@ Boy this magician sure is good.  You can't tell how he is doing his
 tricks.
 ~
 gnome~
-BGJKRV DF 0 S
+GJKRV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -417,7 +417,7 @@ The mystic knight is the greatest fighter that the mages have ever
 known.  His skills rival that of some of the strongest warriors.
 ~
 human~
-BGJKTV DF 0 S
+GJKTV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -433,7 +433,7 @@ have no enemies and everyone just seems to want to do what he tells
 them to do.
 ~
 human~
-BJKTV DF 0 S
+JBKTV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -466,7 +466,7 @@ He does not have enough experience yet to train people in new arts, just to
 show them how to better use the arts they already know.
 ~
 human~
-BJKTV DF 0 S
+JBKTV DF 0 S
 36 0 1d1+1999 1d1+199 3d8+24 13
 -20 -20 -20 -20
 ACDEIKbb ABCD 0 0
@@ -482,7 +482,7 @@ you would guess that he has been a blacksmith for a long time, and he
 probably can make some very good equipment.
 ~
 dwarf~
-BJKTVZ C DEFJ 0 S
+JBKTV DEFJ 0 S
 36 0 1d1+1999 1d1+999 3d8+24 19
 -15 -15 -15 -15
 FG ABCD 0 0
@@ -552,7 +552,7 @@ ACDEIKbb ABCD 0 0
 #56
 fingers hobbit trinket shopkeeper gm~
 Fingers the shopkeeper~
-A rosey cheeked hobbit whisks over to you to show off his latest buy.
+A rosey cheeked hobbit wisks over to you to show off his latest buy.
 ~
 A plump little hobbit named Fingers runs this establishment.  He is well
 known for his ability to dissapear when his fingers get him in trouble.
@@ -565,7 +565,7 @@ ACDEIKbb ABCD 0 0
 8 8 1 0
 0 0 S 0
 #57
-salir monk psionicist gm~
+monk psionicist gm~
 Salir the Monk~
 Salir, a Monk of the Way is hovering above the ground with his legs crossed.
 ~
@@ -610,96 +610,12 @@ hand is slowly dragging his razor gloved hand down the chalkboard.  The
 sound is painful to hear!
 ~
 unique~
-BGJKRV DF -750 S
+GJKRV DF -750 S
 50 20 1D1+15000 1D1+500 10D30+50 13
 -20 -20 -20 -20
 ACDEIKbbdd ABCD 0 0
 8 8 1 0
 0 0 H 0
-#60
-were bat~
-a were bat~
-A savage bat is here.
-~
-It appears to be a flying rodent.
-~
-bat~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
-#61
-were rat~
-a were rat~
-A rabit rat is here.
-~
-The crazed rat looks at you like your lunch.
-~
-rat~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
-#62
-were boar~
-a were boar~
-A viscious boar is here.
-~
-It's got long teeth, and looks ready to charge.
-~
-orc~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
-#63
-were tiger~
-a were tiger~
-A very large feline is here.
-~
-It's feline alright, but this one stands on two legs.
-~
-cat~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
-#64
-were bear~
-a were bear~
-A very large bear is here. Might be a good idea to find a tree.
-~
-Big best describes it. Very big.
-~
-bear~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
-#65
-were wolf~
-a were wolf~
-A really mean looking wolf stands here, on two legs.
-~
-It's big, it's mean, and it looks hungre. Running might be a good option.
-~
-wolf~
-TV DGTN 0 S
-1 0 1D1+1 10D10+10 1D1+1 5
-0 0 0 0
-EFI ALQ CIP HY
-8 8 0 0
-0 0 M 0
 #71
 greater vampire~
 The greater vampire~
@@ -797,21 +713,18 @@ time wandering the world, and other dimensions, healing those in need.
 ~
 unique~
 BQ CDFHJT 1000 S
-70 10 1d1+19000 1d1+1000 10d20+100 20
+65 10 1d1+9000 1d1+1000 10d20+100 20
 -5 -5 -5 -5
 AEFGHIK ABCDEFG 0 0
 8 8 1 0
 0 0 M 0
 #4444
-elite guard~
-an elite guard~
-An elite guard of Dresden is standing here serving the four lords.
+elite guard Prancer~
+Prancer~
+Prancer is here serving Santa.
 ~
-He is a powerfully built man with rigid facial features.  His uniform
-consists of different metals, both rare and common.  He wears only the best
-armour money can buy.  Glorianna's sigil is etched over his heart and glows
-faintly.  He is very helpful and will gladly lend a hand if you are a good
-and just person.
+Dasher is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 human~
 CGTV DFN 0 M
@@ -826,14 +739,12 @@ $n whispers to $N.~
 $n whispers to you,"Time heals all wounds, your quest for HERO continues"~
 }
 #4445
-elite guard Krill~
-Krill~
-Krill the elite guard of Dresden is standing here serving the four lords.
+elite guard Krill Dasher~
+Dasher~
+Dasher is standing here serving Santa.
 ~
-Krill is a powerfully built human with rigid facial features.  He has many
-different metals along his uniform.  He wears only the best armour that his
-creater Glorianna gave to him when he was made.  He is very helpful and
-will lend a hand to you if you are a good and just person.
+Dasher is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 human~
 CGTV DFN 0 M
@@ -848,15 +759,12 @@ $n nods at $N~
 $n nods quickly to you.~
 }
 #4446
-elite guard dwarf Stehnrik~
-Stehnrik~
-Stenrik the dwarven guard of Dresden is standing here serving the four lords.
+elite guard dwarf Stehnrik Dancer~
+Dancer~
+Dancer is standing here serving Santa
 ~
-Stehnrik is a powerfully built dwarf with rigid facial features.  He has many
-different metals along his uniform.  He wears only the minimum of armor on his
-gaunt body for Stonefist, his creator, made him strong enough to defeat his
-enemies without it.  He will only lend a hand to you if you are a good and
-just person.
+Dancer is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 dwarf~
 CGTV DFN 0 M
@@ -871,15 +779,12 @@ $n speaks quietly to $N.~
 $n tells you,"Remember always the glory of the dwarven hero's!~
 }
 #4447
-elite guard dwarf~
-a dwarven guard~
-An elite dwarven guard of Dresden is standing here serving the four lords.
+elite guard dwarf Donder~
+Donder~
+Donder is here serving Santa.
 ~
-He is a stocky dwarf with rigid facial features.  He has many
-different metals along his uniform.  He wears only the minimum armour on his
-gaunt body for Stonefist his creator made him strong enough to defeat the
-strongest of enemies.  He is very helpful and will lend a hand to you if you
-are a good and just person.
+Donder is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 dwarf~
 CGTV DFN 0 M
@@ -894,14 +799,12 @@ $n speaks with $N.~
 $n says,"If you are true of heart, trouble will never find you."~
 }
 #4448
-elite guard elf shevian~
-Shevian~
-Shevian an elite elven guard of Dresden is standing here serving the public.
+elite guard elf shevian Blitzen~
+Blitzen~
+Blitzen is here serving Santa.
 ~
-He is one of the more powerfully built elves with rigid facial features.  He
-has many different metals along his uniform.  He wears only the best armour
-that his creater Silverstar gave to him when he was made.  He is very helpful
-and will lend a hand to you if you are for the cause of good.
+Blitzen is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 elf~
 CGTV DFN 0 M
@@ -916,14 +819,12 @@ $n whispers to $N.~
 $n whispers to you,"Stealth and secrecy are your best weapons."~
 }
 #4449
-elite guard elf~
-a elite elf guard~
-An elite elven guard of Dresden is standing here serving the public.
+elite guard elf cupid~
+Cupid~
+Cupid is here serving Santa.
 ~
-He is one of the more powerfully built elves with rigid facial features.  He
-has many different metals along his uniform.  He wears only the best armour
-that his creater Silverstar gave to him when he was made.  He is very helpful
-and will lend a hand to you if you are for the cause of good.
+Cupid is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 elf~
 CGTV DFN 0 M
@@ -938,14 +839,16 @@ $n pulls $N aside.~
 $n tells you,"Remember evil lurks in the hearts of all men and women."~
 }
 #4450
-elite guard hobbit Borip~
-Borip~
-Borip an elite hobbit guard of Dresden is standing here serving the public.
+elite guard hobbit Borip Rudolph~
+Rudolph~
+Rudolph the Red Nosed Reindeer is here serving Santa.
 ~
-He is more powerfully built hobbit with rigid facial features.  He has many
-different metals along his uniform.  He wears small but grand armour that his
-creater Perri gave to him when he was made.  He is very helpfull and will lend
-a hand to you if you are for the cause of good.
+Rudolph the red nosed reindeer had a very shiny nose
+And if you ever saw him You would even say it glows.
+All of the other reindeer used to laugh and call him names
+And they wouldn't let him join in any of their reindeer games.
+
+So he grew up big and tough and ready to guard Santa!
 ~
 hobbit~
 CGTV DFN 0 M
@@ -960,14 +863,12 @@ $n speaks with $N.~
 $n tells you,"Respect your opponent and he will respect you.~
 }
 #4451
-elite guard hobbit~
-a elite hobbit guard~
-An elite hobbit guard of Dresden is standing here serving the public.
+elite guard hobbit vixen~
+Vixen~
+Vixen is here serving Santa
 ~
-He is more powerfully built hobbit with rigid facial features.  He has many
-different metals along his uniform.  He wears small but grand armour that his
-creater Perri gave to him when he was made.  He is very helpfull and will lend
-a hand to you if you are for the cause of good.
+Vixen is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 hobbit~
 CGTV DFN 0 M
@@ -982,12 +883,12 @@ $n pulls $N aside.~
 $n tells you,"May peace favor your sword!"~
 }
 #4452
-regular guard~
-the regular guard~
-A regular guard is standing here for the good of the people.
+regular guard Comet~
+Comet~
+Comet is standing here serving Santa.
 ~
-As a guard of the city of Dresden he is to serve and protect the citizens at
-all costs.  He is very helpfull.  He is clad in the armour of the city.
+Vixen is a powerfully built reindeer with rigid facial features.  He
+is ready to be yoked to the sleigh to deliver gifts.
 ~
 human~
 BCGT CFH 100 S
@@ -1051,11 +952,11 @@ CEFKNT ABRS D C
 0 0 H 0
 
 #4456
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
 BGT 0 750 M
@@ -1065,16 +966,16 @@ BGT 0 750 M
 8 8 1 250
 0 0 M 0
 {
-A 50
+A 70
 $n welcomes $N to the city of dresden.~
 $n welcomes you to the city of dresden!~
 }
 #4457
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
 BGT 0 750 M
@@ -1084,16 +985,16 @@ BGT 0 750 M
 8 8 2 250
 0 0 M 0
 {
-A 25
+A 54
 $n pats $N on the head.~
 $n pats you on the head.~
 }
 #4458
-citizen dresden~
-a citizen of Dresden~
-A citizen of Dresden stands here.
+citizen dresden elf santa~
+Santa's elf~
+Santa's elf is wrapping packages.
 ~
-He is one of the wealthy citizens of Dresden.
+He is a very hardworking and loyal helper to Santa.
 ~
 human~
 G 0 500 M
@@ -1103,16 +1004,16 @@ G 0 500 M
 8 8 1 300
 0 0 M 0
 {
-A 20
+A 54
 $n eyes $N with a greedy look.~
 $n scans you quickly with a sharp greedy look on his face.~
 }
 #4459
-citizen dresden~
-a citizen of Dresden~
-A citizen of Dresden stands here.
+citizen dresden elf santa~
+Santa's elf~
+Santa's elf is wrapping packages.
 ~
-She is one of the wealthy citizens of Dresden.
+She is a very hardworking and loyal helper to Santa.
 ~
 human~
 G 0 500 M
@@ -1122,7 +1023,7 @@ G 0 500 M
 8 8 2 150
 0 0 M 0
 {
-A 20
+A 54
 $n eyes $N with a greedy look.~
 $n eyes your belongings with a semi-concealed look of longing.~
 }
@@ -1251,11 +1152,11 @@ CDEFHIJKNOT ABN RS P
 0 0 M 0
 
 #4468
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
 GT 0 500 M
@@ -1265,16 +1166,16 @@ GT 0 500 M
 8 8 1 250
 0 0 M 0
 {
-A 25
+A 54
 $n speaks with $N.~
-$n tells you,"Let peace favor you in Dresden!"~
+$n tells you,"Let peace favor you in dresden!"~
 }
 #4469
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
 GT 0 500 M
@@ -1284,45 +1185,45 @@ GT 0 500 M
 8 8 2 250
 0 0 M 0
 {
-A 25
+A 54
 $n eyes $N warily.~
 $n eyes you warily with a look of mistrust.~
 }
 #4470
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
-BFGMT 0 500 M
+BFGT 0 500 M
 20 15 4d6+310 1d1+99 2d10+20 8
 -5 -5 -5 -5
-0 AB 0 0
+0 0 0 0
 8 8 1 250
 0 0 M 0
 {
-A 25
+A 54
 $n welcomes $N to the city!~
-$n welcomes you to the great city of Dresden!~
+#n welcomes you to the great city of dresden!~
 }
 #4471
-guard cityguard~
-a cityguard~
-A Dresden cityguard stands here.
+guard cityguard bellringer~
+A Salvation Army bellringer~
+A bellringer is collecting for the Salvation Army.
 ~
-A big strong cityguard of Dresden.
+He's big and strong and has a big iron pot you can drop your donation into.
 ~
 human~
-BFGMT 0 500 M
+BFGT 0 500 M
 20 15 4d6+310 1d1+99 2d10+20 8
 -5 -5 -5 -5
-0 AB 0 0
+0 0 0 0
 8 8 2 250
 0 0 M 0
 {
-A 25
+A 54
 $n looks at $N with a look of contempt.~
 $n looks at you with a vaguely concealed look of contempt.~
 }
@@ -1375,42 +1276,6 @@ CEFHKMN ABK 0 J
 8 8 1 3500
 0 0 G 0
 
-#4475
-atropos~
-Atropos~
-Atropos the cutter of the thread glares at you!
-~
-Atropos, one of the mythical greek fates is the cutter of thread, like
-her two other sisters, Clotho and Lachesis she has a job determining the
-fate of your life.  She is the one to fear simply because Atropos is the
-embodyment of death itself.
-~
-unique~
-LMTUVZ B BCDEFHJNPTUVZ G 0 S
-55 100 5000d1+1 500d1+1 10d5+15 11
--10 -10 -10 -10
-AFHIZ A AB CD 0
-8 8 2 100
-0 0 M 0
-
-#4476
-lachesis~
-Lachesis~
-Lachesis the weaver of thread is here glaring at you!
-~
-Lachesis, like her sisters Atropos and Clothos has a job in the scheme of
-life. She weaves the thread of your life makes it what it is. She knows
-all your hopes and desires, and makes the fullness of life what it is.
-It would not be good to piss her off.
-~
-unique~
-LMTUVZ B BCDEFHNOPTUVZ G 0 S
-55 100 5000d1+1 500d1+1 10d5+15 11
--10 -10 -10 -10
-ACEFIJZ A AB CD 0
-8 8 2 100
-0 0 M 0
-
 #7550
 ghost~
 ghost~
@@ -1438,53 +1303,21 @@ paper~
 0 0 0 0 0
 0 1 0 P
 #2
-coin %s~
-a %s coin~
-One miserable coin.~
+coin gold~
+a gold coin~
+One miserable gold coin.~
 gold~
 20 0 A
 1 0 0 0 0
 0 1 0 P
 #3
-coins %s~
-%d %s coins~
-A pile of %s coins.~
+coins gold~
+%d gold coins~
+A pile of gold coins.~
 gold~
 20 0 A
 0 0 0 0 0
 0 1 0 P
-#4
-relica~
-Castle A Relic~
-The Relic of Castle A.~
-stone~
-32 0 A
-9946 0 0 0 0
-15 50 0 P
-#5
-relicb~
-Castle B Relic~
-The Relic of Castle B.~
-stone~
-32 0 A
-9952 0 0 0 0
-15 50 0 P
-#6
-relicc~
-Castle C Relic~
-The Relic of Castle C.~
-stone~
-32 0 A
-9966 0 0 0 0
-15 50 0 P
-#7
-relicd~
-Castle D Relic~
-The Relic of Castle D.~
-stone~
-32 0 A
-9967 0 0 0 0
-15 50 0 P
 #10
 corpse~
 corpse of %s~
@@ -1582,11 +1415,11 @@ cloth~
 0 0 0 0 0
 0 0 0 P
 #24
-jug moonshine~
-a jug o' moonshine~
-A large jug is here.~
+carton eggnog~
+a carton of eggnog~
+A large carton of eggnog has been left here.~
 ceramic~
-10 ASV A
+10 AS A
 50 36 28 74 0
 1 5 0 P
 #25
@@ -1594,8 +1427,8 @@ sword coinspinner~
 the Sword of Luck~
 Coinspinner, the Sword of Luck, is waiting here.~
 adamantite~
-5 ABGTUV AN
-2 5 7 1 0
+5 ABGT AN
+2 5 5 1 0
 41 1 4500 P
 A
 3 1
@@ -1606,9 +1439,9 @@ A
 A
 12 20
 A
-18 5
+18 53
 A
-19 4
+19 3
 A
 24 -5
 #26
@@ -1947,7 +1780,7 @@ The huckeberry is a shrub with blue berries. It's medicinal uses are
 anti-thirst, and several obscure diseases.
 ~
 #54
-eye newt component~
+eye newt~
 eye of newt~
 An eye ball is here.~
 spell component~
@@ -1955,7 +1788,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #55
-unicorn horn component~
+unicorn horn~
 a unicorn horn~
 The horn of a unicorn is here.~
 spell component~
@@ -1963,7 +1796,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #56
-claw dragon component~
+claw dragon~
 a dragons claw~
 A dragons claw is here.~
 spell component~
@@ -1971,7 +1804,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #57
-fingernail troll component~
+fingernail troll~
 a trolls fingernail~
 A fingernail clipping is here.~
 spell component~
@@ -1979,7 +1812,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #58
-pixie dust component~
+pixie dust~
 some pixie dust~
 A small pile of glittering dust is here.~
 spell component~
@@ -1987,7 +1820,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #59
-fur lycanthrope component~
+fur lycanthrope~
 a patch of lycanthrope fur~
 Some fur is on the ground here.~
 spell component~
@@ -1995,7 +1828,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #60
-rakshasa claw component~
+rakshasa claw~
 a rakshasa's claw~
 A claw is here on the ground.~
 spell component~
@@ -2003,7 +1836,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #61
-wrapping mummy component~
+wrapping mummy~
 a mummy's wrapping~
 There is a piece of old decaying cloth here.~
 spell component~
@@ -2011,7 +1844,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #62
-hoof clipping nightmare component~
+hoof clipping nightmare~
 a nightmare's hoof clipping~
 An equinine's hoof clipping is here.~
 spell component~
@@ -2019,7 +1852,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #63
-feather phoenix component~
+feather phoenix~
 a phoenix feather~
 There is a bright red feather here.~
 spell component~
@@ -2027,7 +1860,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #64
-spine manticore component~
+spine manticore~
 a manticore's spine~
 A manticore's spine is here.~
 spell component~
@@ -2035,7 +1868,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #65
-scale dragon component~
+scale dragon~
 a dragon's scale~
 A large scale from some reptile is here.~
 spell component~
@@ -2043,7 +1876,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #66
-dryad hair componentr~
+dryad hair~
 a strand of hair~
 Lying on the ground, barely detectable, is a single strand of a Dryad's hair.~
 spell component~
@@ -2051,7 +1884,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #67
-eye beholder component~
+eye beholder~
 a beholder's eye~
 An eyeball is lying here on the ground.~
 spell component~
@@ -2059,7 +1892,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #68
-horn gorgon component~
+horn gorgon~
 a gorgon's horn~
 There is some kind of animals horn here.~
 spell component~
@@ -2067,7 +1900,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #69
-tongue basilisk component~
+tongue basilisk~
 a basilisks tongue~
 There is a grotesque piece of flesh here.~
 spell component~
@@ -2075,7 +1908,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #70
-dragon tooth component~
+dragon tooth~
 a dragon tooth~
 A large tooth is lying on the ground here.~
 spell component~
@@ -2083,7 +1916,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #71
-finger goblin component~
+finger goblin~
 a goblin's finger~
 Something's severed finger is here.~
 spell component~
@@ -2091,7 +1924,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #72
-ear minotaur component~
+ear minotaur~
 a minotaur's ear~
 Somethings severed ear is here.~
 spell component~
@@ -2099,7 +1932,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #73
-tentacle roper component~
+tentacle roper~
 a roper's tentacle~
 There is some kind of tentacle on the ground here.~
 spell component~
@@ -2123,7 +1956,7 @@ glass~
 0 0 0 0 0
 0 1 400 P
 #76
-blood dragon component~
+blood dragon~
 a vial of dragons blood~
 There is a vial with a thick red fluid in it here.~
 spell component~
@@ -2131,7 +1964,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #77
-medusa eye component~
+medusa eye~
 a vial of medusa eye fluid~
 There is a small vial with a clear liquid here.~
 spell component~
@@ -2139,7 +1972,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #78
-blood demon component~
+blood demon~
 a vial of demons blood~
 There is a vial of some thick red liquid here.~
 spell component~
@@ -2147,7 +1980,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #79
-cobweb spiderweb component~
+cobweb spiderweb~
 a glass container of cobwebs~
 There is a glass container here, with some silky material in it.~
 spell component~
@@ -2155,7 +1988,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #80
-wing fairy component~
+wing faire~
 a glass encased wing of a fairy~
 You see a glass encased wing. You wonder what it use to be attached to.~
 spell component~
@@ -2163,7 +1996,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #81
-ink squid component~
+ink squid~
 a vial of squid ink~
 There is a vial here with a dark fluid in it.~
 spell component~
@@ -2171,7 +2004,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #82
-stinger poison component~
+stinger poison~
 a vial of purple worm stinger poison~
 A vial with a strange liquid in it is here.~
 spell component~
@@ -2179,7 +2012,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #83
-venom thessalhydra component~
+venom thessalhydra~
 a vial of thessalhydra venom~
 You see a small vial with some kind of liquid in it here.~
 spell component~
@@ -2187,15 +2020,15 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #84
-saliva froghemoth component~
+saliva froghemoth~
 a vial of froghemoth saliva~
-There is a vial here, with a clear liquid in it.~
+There is a vile here, with a clear liquid in it.~
 spell component~
 35 V A
 0 0 0 0 0
 0 0 0 P
 #85
-scale tarrasque component~
+scale tarrasque~
 a vial of crushed tarrasque scale~
 There is a vial here, with a shinny sand like substance in it.~
 spell component~
@@ -2203,7 +2036,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #86
-cube gelatinous component~
+cube gelatinous~
 an inert gelatinous cube~
 There is a dead gelatinous cube here.~
 spell component~
@@ -2211,7 +2044,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #87
-flesh grey ooze component~
+flesh grey ooze~
 a vial of grey ooze~
 There is a vial here, with a dull grey fleshy substance in it.~
 spell component~
@@ -2219,7 +2052,7 @@ spell component~
 0 0 0 0 0
 0 0 0 P
 #88
-slime green component~
+slime green~
 a vial of green slime~
 There is a vial here, with viscous green substance in it.~
 spell component~
@@ -2241,7 +2074,7 @@ A very nasty item is here.~
 glass~
 36 V A
 0 0 0 0 0
-49 1 20000 P
+0 1 1 P
 #92
 head~
 a severed head~
@@ -2299,9 +2132,9 @@ glass~
 8 8 7 0 0
 0 2 50 P
 #3004
-bottle local~
-a bottle of local specialty~
-A dark bottle has been left here.~
+bottle local eggnog~
+a glass of eggnog~
+A glass of eggnog has been left here.~
 glass~
 17 0 A
 8 8 8 0 0
@@ -2321,17 +2154,17 @@ spell.  The edge of the blade looks as if it could cut through anything
 or anyone.
 ~
 #3009
-potpie pot pie~
-a big pot pie~
-A big pot pie has been left here.~
+goose~
+a big helping of roast goose~
+A big helping of roast goose has been left here.~
 food~
 19 0 A
 24 0 0 0 0
 0 2 50 P
 #3010
-pit~
-the donation pit~
-A pit for sacrifices is in front of the altar.~
+pit stocking~
+the Christmas stocking~
+A big stocking has been hung over the fireplace for all to use.~
 stone~
 15 O 0
 10000 0 0 1000 0
@@ -2342,33 +2175,33 @@ This is where you put money and items to help Doz expand this shrine and
 convert more people to the belief of Mota, lord of the gods.
 ~
 #3011
-bread~
-a bread~
-A loaf of bread is here. It doesn't look too stale.~
+potato latke~
+a potato latke~
+A delicious potato pancake is here. It is the traditional food for Chanukah.~
 food~
 19 0 A
 12 0 0 0 0
 0 1 10 P
 #3012
-cinnamon roll~
-a cinnamon roll~
-A piping hot cinnamon roll is here. It looks delicious!~
+gingerbread house~
+a gingerbread house~
+A gingerbread house is here. It looks delicious!~
 food~
 19 0 A
 8 0 0 0 0
 0 1 15 P
 #3013
-sfhg cookies~
-Soulcrusher's sfhg cookies~
-A sack of oddly shaped, burnt, chocolate chip cookies is here.~
+candy cane~
+a candy cane~
+A red and white striped candy cane is here.~
 food~
 19 0 A
 10 0 0 0 0
 0 1 20 P
 #3014
-danish blueberry~
-a blueberry danish~
-A scrumptious blueberry danish is here.~
+plum pudding~
+a plum pudding~
+A plum pudding with hard sauce is here.~
 food~
 19 0 A
 6 0 0 0 0
@@ -2470,18 +2303,16 @@ wood~
 0 0 50 0 0
 0 1 10 G
 #3031
-lantern~
-a hooded brass lantern~
-A hooded brass lantern has been left here.~
+lantern menorah~
+a menorah~
+A menorah holds eight candles.~
 brass~
 1 0 A
 0 0 250 0 0
 0 4 30 P
 E
-lantern~
-It is a large and robust but somewhat battered oil lantern made from brass,
-equipped with a handle to make it handy and a hood to protect its flame.
-Some letters have been scratched on its bottom.
+lantern menorah~
+It is a large and robust but somewhat battered candleabra made from brass,
 ~
 E
 letters~
@@ -2521,7 +2352,7 @@ a scroll of identify~
 A scroll has carelessly been left here.~
 vellum~
 2 G AO
-12 45 0 0 0
+12 53 0 0 0
 5 1 1350 P
 E
 scroll identify~
@@ -4705,7 +4536,6 @@ you congratulations for re-creating his staff.
 #0
 
 
-
 #ROOMS
 #1
 The Void~
@@ -4758,8 +4588,8 @@ E
 sign~
 The commands for the bank are the following.....
 
-		deposit <$> platinum.
-		withdraw <$> platinum.
+		deposit <$> gold.
+		withdraw <$> gold.
 
 Pretty simple if you ask me...The bank has been brought to you by
 Gravestone.  It was founded on November 12th 1995.
@@ -4818,12 +4648,6 @@ you can be let out of jail by ceasing what ever it was that got you here
 in the first place.
 ~
 0 BNX 0
-S
-#9
-Rest Area~
-A resting place for lost souls
-~
-0 AP 0
 S
 #2550
 Entrance to the Mayor's Office.~
@@ -5061,7 +4885,7 @@ Pet Storage.~
 This is where the pet shop girl keeps her animals.  It is important that this
 room be right after the pet shop of exotic creatures.
 ~
-0 DP 1
+0 D 1
 S
 #2564
 Wall Road.~
@@ -5188,7 +5012,7 @@ S
 #2570
 Inside Southwest Watchtower.~
 You are inside the Southwest Watchtower.
-From up here you can see above the trees and most of the valley.  This is a
+>From up here you can see above the trees and most of the valley.  This is a
 beautiful view of the river leading west into the forest.  You are however
 not supposed to be up here.  If the guards catch you up here you will likely
 be in BIG trouble...
@@ -5325,7 +5149,7 @@ S
 #2577
 Inside Southeast Watchtower.~
 You are inside the Southeast Watchtower.
-From up here you can see above the trees and most of the valley.  There is a
+>From up here you can see above the trees and most of the valley.  There is a
 beautiful view of the river as it winds its way to the desert.  You are
 however not supposed to be up here.  If the guards catch you up here you will
 likely be in BIG trouble...
@@ -5467,7 +5291,6 @@ S
 #0
 
 #SPECIALS
-M 4474 spec_kidnapper
 S
 
 #$

@@ -87,6 +87,7 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
 	    && IS_OBJ_STAT(obj, ITEM_MAGIC)  )   strcat( buf, "(Magical) "   );
     if ( IS_OBJ_STAT(obj, ITEM_GLOW)      )   strcat( buf, "(Glowing) "   );
     if ( IS_OBJ_STAT(obj, ITEM_HUM)       )   strcat( buf, "(Humming) "   );
+    if ( IS_OBJ_STAT(obj, ITEM_DAMAGED)       )   strcat( buf, "(Damaged) "   );
 /*    if ( IS_OBJ_STAT(obj, ITEM_EMBALMED   )   strcat( buf, "(Embalmed) "  ); */
  /*
       if ( IS_AFFECTED(ch, AFF_DETECT_GOOD)

@@ -2519,22 +2519,43 @@ base_exp = 200 + 50 * (level_range - 4);
 
     else if (align > 500) /* monster is more good than slayer */
     {
-	change = (align - 500) * base_exp / 500 * gch->level/total_levels;
-	change = UMAX(1,change);
+	change = (align / 100);
+	/*change = UMAX(1,change);*/
 	gch->alignment = UMAX(-1000,gch->alignment - change);
+	sprintf( buf, "%s alignment has lowered by %d. [Alignment: %d]\n\r",gch->name,change,gch->alignment);
+	log_string( buf );
+	if (IS_SET(gch->act,PLR_DAMAGE_NUMBERS))
+		{
+		sprintf( buf, "Your alignment has lowered by %d.\n\r",change);
+		send_to_char(buf,gch);
+		}
     }
 
     else if (align < -500) /* monster is more evil than slayer */
     {
-	change =  ( -1 * align - 500) * base_exp/500 * gch->level/total_levels;
-	change = UMAX(1,change);
+	change = (align / 100);
+	/*change = UMAX(1,change);*/
 	gch->alignment = UMIN(1000,gch->alignment + change);
+	sprintf( buf, "%s alignment has lowered by %d. [Alignment: %d]\n\r",gch->name,change,gch->alignment);
+	log_string( buf );
+	if (IS_SET(gch->act,PLR_DAMAGE_NUMBERS))
+		{
+		sprintf( buf, "Your alignment has lowered by %d.\n\r",change);
+		send_to_char(buf,gch);
+		}
     }
 
     else /* improve this someday */
     {
-	change =  gch->alignment * base_exp/500 * gch->level/total_levels;
+	change = (align / 100);
 	gch->alignment -= change;
+	sprintf( buf, "%s alignment has lowered by %d. [Alignment: %d]\n\r",gch->name,change,gch->alignment);
+	log_string( buf );
+	if (IS_SET(gch->act,PLR_DAMAGE_NUMBERS))
+		{
+		sprintf( buf, "Your alignment has lowered by %d.\n\r",change);
+		send_to_char(buf,gch);
+		}
     }
 
     /* calculate exp multiplier */
@@ -2741,30 +2762,30 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
     else                   { vs = "do UNSPEAKABLE things to";
 			     vp = "does UNSPEAKABLE things to";         }
 
-    punct   = (dam <= 24) ? '.' : '!';
+	 punct   = (dam <= 24) ? '.' : '!';
 
-    if ( dt == TYPE_HIT )
-    {
-	if (ch  == victim)
-	{
-      sprintf( buf1, "$n \x02\x0A%s\x02\x01 $melf%c",vp,punct);
-      sprintf( buf2, "You \x02\x0A%s\x02\x01 yourself%c",vs,punct);
-/*          sprintf( buf1, "$n %s $melf%c",vp,punct);
-	    sprintf( buf2, "You %s yourself%c",vs,punct);
-*/      }
-	else
-	{
-      sprintf( buf1, "$n \x02\x0A%s\x02\x01 $N%c",  vp, punct );
-      sprintf( buf2, "You \x02\x0A%s\x02\x01 $N%c", vs, punct );
-      sprintf( buf3, "$n \x02\x0A%s\x02\x01 you%c", vp, punct );
-/*          sprintf( buf1, "$n %s $N%c",  vp, punct );
-	    sprintf( buf2, "You %s $N%c", vs, punct );
-	    sprintf( buf3, "$n %s you%c", vp, punct );
-*/      }
-    }
-    else
-    {
-	if ( dt >= 0 && dt < MAX_SKILL )
+				    if ( dt == TYPE_HIT )
+				    {
+					if (ch  == victim)
+					{
+				      sprintf( buf1, "$n \x02\x0A%s\x02\x01 $melf%c",vp,punct);
+				      sprintf( buf2, "You \x02\x0A%s\x02\x01 yourself%c",vs,punct);
+				/*          sprintf( buf1, "$n %s $melf%c",vp,punct);
+					    sprintf( buf2, "You %s yourself%c",vs,punct);
+				*/      }
+					else
+					{
+				      sprintf( buf1, "$n \x02\x0A%s\x02\x01 $N%c",  vp, punct );
+				      sprintf( buf2, "You \x02\x0A%s\x02\x01 $N%c", vs, punct );
+				      sprintf( buf3, "$n \x02\x0A%s\x02\x01 you%c", vp, punct );
+				/*          sprintf( buf1, "$n %s $N%c",  vp, punct );
+					    sprintf( buf2, "You %s $N%c", vs, punct );
+					    sprintf( buf3, "$n %s you%c", vp, punct );
+				*/      }
+				    }
+				    else
+				    {
+					if ( dt >= 0 && dt < MAX_SKILL )
 	    attack      = skill_table[dt].noun_damage;
 	else if ( dt >= TYPE_HIT
 	&& dt <= TYPE_HIT + MAX_DAMAGE_MESSAGE)
@@ -2794,17 +2815,17 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
 	{
 		if (IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
 		{
-		   if (ch  == victim)
-		        {
-				  sprintf( buf1, "$n \x02\x0A%s\x02\x01 $melf%c [-\x02\x0A%d\x02\x01]",vp,punct,dam);
-				  sprintf( buf2, "You \x02\x0A%s\x02\x01 yourself%c [-\x02\x0A%d\x02\x01]",vs,punct,dam);
-			    }
-		    else
-				{
-				  sprintf( buf1, "$n \x02\x0A%s\x02\x01 $N%c [-\x02\x0A%d\x02\x01]", vp, punct, dam);
-				  sprintf( buf2, "You \x02\x0A%s\x02\x01 $N%c [-\x02\x0A%d\x02\x01]", vs, punct, dam );
-				  sprintf( buf3, "$n \x02\x0A%s\x02\x01 you%c [-\x02\x0A%d\x02\x01]", vp, punct, dam);
-				}
+			if (ch == victim)
+				 {
+			 sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $m%c [\x02\x0A-%d\x02\x01]",attack,vp,punct,dam);
+			 sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 you%c [\x02\x0A-%d\x02\x01]",attack,vp,punct,dam);
+				 }
+				 else
+				 {
+			 sprintf( buf1, "$n's %s\x02\x0A %s\x02\x01 $N%c [\x02\x0A-%d\x02\x01]",  attack, vp, punct, dam );
+			 sprintf( buf2, "Your %s\x02\x0A %s\x02\x01 $N%c [\x02\x0A-%d\x02\x01]",  attack, vp, punct, dam );
+			 sprintf( buf3, "$n's %s\x02\x0A %s\x02\x01 you%c[\x02\x0A-%d\x02\x01]", attack, vp, punct, dam );
+				 }
 		}
 		if (!IS_SET(ch->act,PLR_DAMAGE_NUMBERS))
 {
@@ -3708,11 +3729,18 @@ void do_smite( CHAR_DATA *ch, char *argument )
         multi_hit( ch, victim, gsn_smite );
         if (number_percent() < 3)
 				{
-           act("Your weapon breaks with a tremendous sound!",ch,NULL,victim,TO_CHAR);
-           act("$n's weapon breaks with a trememdous sound!",ch,NULL,victim,TO_ROOM);
+           act("Your weapon makes a loud CRACK and SLAMS into the ground!!",ch,NULL,victim,TO_CHAR);
+           act("$n's makes a terrible cracking sound and SLAMS to the ground!!",ch,NULL,victim,TO_ROOM);
+					 obj->condition = 1;
+					 SET_BIT(obj->extra_flags, ITEM_DAMAGED);
            obj_from_char(obj);
-           extract_obj(obj);
+					 obj_to_room( obj, ch->in_room );
+					 sprintf( log_buf, "%s weapon has been smited!\n\r", ch->name);
+					 log_string( log_buf );
+					 wizinfo( log_buf, MAX_LEVEL);
         }
+
+
 
     }
     else
@@ -5013,7 +5041,7 @@ void do_blinding_fists( CHAR_DATA *ch, char *argument )
       else
       {    /* hit is used for dam type to give wider range */
 	act("$n blurs into motion, striking you.",ch,NULL,victim,TO_VICT);
-	damage( ch, victim, number_range(ch->level/2,ch->level*3/4),
+	damage( ch, victim, number_range(ch->level,ch->level*3),
 		gsn_blinding_fists, hit );
 	check_improve(ch,gsn_blinding_fists,TRUE,6);
 	WAIT_STATE( ch, skill_table[gsn_blinding_fists].beats);
@@ -5107,15 +5135,15 @@ void do_fists_of_fury( CHAR_DATA *ch, char *argument )
     act("$n errupts in a fury of flying fists!",ch,NULL,victim,TO_ROOM);
     send_to_char("You attack in an all consuming fury!\n\r",ch);
 
-    chance += 30;
+    chance += 60;
 
     for(hit = number_bits(2) + 2 + (ch->level >= 35) + (ch->level >= 45); hit > 0; hit--)
     {
       if( number_percent( ) > chance )
       {
-	act("$N tries to flee from your onslaught, but trip!.", ch,NULL,victim,TO_CHAR);
-	act("You try and escape from $N's onslaught, but trip!",ch,NULL,victim,TO_VICT);
-	do_trip(victim,"");
+	act("$N tries to flee from your onslaught.",ch,NULL,victim,TO_CHAR);
+	act("You try and escape from $N's onslaught.",ch,NULL,victim,TO_VICT);
+	do_flee(victim,"");
 	check_improve(ch,gsn_fists_of_fury,FALSE,6);
       }
       else
@@ -5377,6 +5405,7 @@ void damage_eq(CHAR_DATA *victim, int dam)
                 send_to_char(buf,victim);
                 if(number_percent() < 15)
                     damage_eq(victim,dam);
+										SET_BIT(obj->extra_flags, ITEM_DAMAGED);
                 return;
             }
         }

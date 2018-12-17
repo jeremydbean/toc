@@ -1,0 +1,158 @@
+Sun Dec 16 12:18:27 2018 :: LOADING COMM TABLE
+Sun Dec 16 12:18:27 2018 ::  INIT OK 
+Sun Dec 16 12:18:27 2018 :: Ended LOADING COMM TABLE
+Sun Dec 16 12:18:27 2018 :: Ended Fixing Exits
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Sun Dec 16 12:18:27 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Sun Dec 16 12:18:27 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Sun Dec 16 12:18:27 2018 :: Ended Area Update
+Sun Dec 16 12:18:27 2018 :: Ended Loading Notes
+Sun Dec 16 12:18:27 2018 :: Ended Loading Ban
+Sun Dec 16 12:18:27 2018 :: Ended Loading Pkills
+Sun Dec 16 12:18:27 2018 :: TOC is ready to rock on port 9000.
+Sun Dec 16 12:18:27 2018 :: Setting up signals.
+Sun Dec 16 12:18:29 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 12:18:30 2018 :: Loading Killuminati's playerfile
+Sun Dec 16 12:18:30 2018 :: Killuminati@localhost has connected. [Room: 29204]
+Sun Dec 16 12:30:26 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 12:30:26 2018 :: Loading Testies's playerfile
+Sun Dec 16 12:30:27 2018 :: Testies@localhost has connected. [Room: 4368]
+Sun Dec 16 12:30:27 2018 :: Log Testies: who
+Sun Dec 16 12:30:38 2018 :: Log Killuminati: set char testies guild monk
+Sun Dec 16 12:30:48 2018 :: Log Killuminati: set char testies guild none
+Sun Dec 16 12:30:56 2018 :: Log Killuminati: set char testies class monk
+Sun Dec 16 12:31:02 2018 :: Log Killuminati: set skill testies all 100
+Sun Dec 16 12:31:11 2018 :: Log Testies: who
+Sun Dec 16 12:31:13 2018 :: Log Testies: eq
+Sun Dec 16 12:31:20 2018 :: Log Testies: quit
+Sun Dec 16 12:31:20 2018 :: Testies has quit. [Room: 4368]
+Sun Dec 16 12:33:07 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 12:33:07 2018 :: Loading Testies's playerfile
+Sun Dec 16 12:33:08 2018 :: Testies@localhost has connected. [Room: 4368]
+Sun Dec 16 12:33:08 2018 :: Log Testies: who
+Sun Dec 16 12:33:10 2018 :: Log Testies: eq
+Sun Dec 16 12:33:12 2018 :: Log Testies: inv
+Sun Dec 16 12:33:59 2018 :: Log Testies: quit
+Sun Dec 16 12:33:59 2018 :: Testies has quit. [Room: 4368]
+Sun Dec 16 12:35:13 2018 :: Sock.sinaddr:  127.0.0.1
+Sun Dec 16 12:35:14 2018 :: Loading Testies's playerfile
+Sun Dec 16 12:35:14 2018 :: Testies@localhost has connected. [Room: 4368]
+Sun Dec 16 12:35:14 2018 :: Log Testies: who
+Sun Dec 16 12:35:16 2018 :: Log Testies: eq
+Sun Dec 16 12:35:18 2018 :: Log Testies: rem dag
+Sun Dec 16 12:35:23 2018 :: Log Testies: goto drow
+Sun Dec 16 12:35:32 2018 :: Log Killuminati: trust test 70
+Sun Dec 16 12:35:36 2018 :: Log Killuminati: trust test 70
+Sun Dec 16 12:35:39 2018 :: Log Killuminati: restore self
+Sun Dec 16 12:35:40 2018 :: Log Killuminati: restore testi 
+Sun Dec 16 12:35:44 2018 :: Log Testies: goto drow
+Sun Dec 16 12:35:46 2018 :: Log Killuminati: restore self
+Sun Dec 16 12:35:49 2018 :: Log Testies: fists dro
+Sun Dec 16 12:35:52 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:35:56 2018 :: Log Testies: fists dro
+Sun Dec 16 12:35:58 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:02 2018 :: Log Testies: damagenub
+Sun Dec 16 12:36:02 2018 :: Log Testies: damagenu,
+Sun Dec 16 12:36:03 2018 :: Log Testies: damagenum
+Sun Dec 16 12:36:07 2018 :: Log Testies: fists dro
+Sun Dec 16 12:36:10 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:13 2018 :: Log Testies: sc
+Sun Dec 16 12:36:33 2018 :: Log Testies: blinding dro
+Sun Dec 16 12:36:34 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:40 2018 :: Log Testies: blinding dro
+Sun Dec 16 12:36:40 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:46 2018 :: Log Testies: blinding dro
+Sun Dec 16 12:36:46 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:52 2018 :: Log Testies: blinding dro
+Sun Dec 16 12:36:52 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:36:59 2018 :: Log Testies: blinding dro
+Sun Dec 16 12:37:01 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:37:09 2018 :: Log Testies: goto swashb
+Sun Dec 16 12:37:12 2018 :: Log Testies: goto drow
+Sun Dec 16 12:37:15 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:16 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:16 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:16 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:16 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:17 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:17 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:17 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:17 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:18 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:18 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:18 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:18 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:19 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:19 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:19 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:19 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:20 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:20 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:20 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:20 2018 :: Log Testies: clone dro
+Sun Dec 16 12:37:21 2018 :: Log Testies: adv self 34
+Sun Dec 16 12:37:26 2018 :: Log Testies: fist dro
+Sun Dec 16 12:37:29 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:37:36 2018 :: Log Testies: color damage bright_red
+Sun Dec 16 12:37:39 2018 :: Log Testies: fist dro
+Sun Dec 16 12:37:41 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:37:46 2018 :: Log Testies: fist dro
+Sun Dec 16 12:37:47 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:37:52 2018 :: Log Testies: fist dro
+Sun Dec 16 12:37:52 2018 :: Log Testies: blind dro
+Sun Dec 16 12:37:55 2018 :: Log Testies: restore self
+Sun Dec 16 12:37:59 2018 :: Log Testies: set char self hp 30000
+Sun Dec 16 12:38:03 2018 :: Log Testies: set char self mana 15000
+Sun Dec 16 12:38:06 2018 :: Log Testies: set char self end 15000
+Sun Dec 16 12:38:08 2018 :: Log Testies: restore self
+Sun Dec 16 12:38:13 2018 :: Log Testies: blind dro
+Sun Dec 16 12:38:14 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:38:19 2018 :: Log Testies: blind dro
+Sun Dec 16 12:38:20 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:38:30 2018 :: Log Testies: blind dro
+Sun Dec 16 12:38:32 2018 :: Testies alignment has dropped 0
+Sun Dec 16 12:38:58 2018 :: Log Testies: fsave
+Sun Dec 16 12:38:59 2018 :: Log Testies: shutdown
+Sun Dec 16 12:38:59 2018 :: Closing link to Testies.
+Sun Dec 16 12:38:59 2018 :: Closing link to Killuminati.
+Sun Dec 16 12:39:00 2018 :: Normal termination of game.

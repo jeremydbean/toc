@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1544837083
+LogO 1545027464
 Vers 3
 Desc You see something very special about him.
 ~
@@ -15,17 +15,17 @@ Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 4541709
+Plyd 4718943
 ListRemorts ~
 NumRemorts 0
-Note 1544152815
+Note 1544841593
 Scro 22
-Room 29205
-HMV  29646 30010 15050 15050 14975 14975
-NewGold 5996
-NewPlat 10335
-NewCopp 21822
-NewSilv 4572
+Room 10176
+HMV  29209 30010 15050 15050 14975 14975
+NewGold 856954
+NewPlat 1803
+NewCopp 93
+NewSilv 704
 Bank 0
 Dcount 0
 Corpses	0
@@ -62,11 +62,11 @@ Color 16 6
 Pos  8
 Prac 265
 Trai 72
-Alig  21
+Alig  -64
 Hit   4
 Dam   4
 ACs 100 100 100 100
-Attr 17 21 18 18 18
+Attr 25 21 18 18 18
 AMod 1 0 0 0 0
 Pass Kilrpis9ggekI~
 Bin  Killuminati appears before you.~
@@ -765,16 +765,6 @@ Repd 0
 End
 
 #O
-Vnum 29303
-Nest 0
-Wear -1
-Lev  54
-Cost 1000000
-Cond 100
-Repd 0
-End
-
-#O
 Vnum 5620
 Nest 0
 ExtF 1049152
@@ -790,13 +780,13 @@ Affect -1 52 -1 13 12 0 0
 End
 
 #O
-Vnum 29303
+Vnum 9925
 Nest 0
 Wear -1
-Lev  68
-Cost 1000000
+Lev  51
+Cost 5000
 Cond 100
-Repd 0
+Repd 3
 End
 
 #END

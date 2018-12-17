@@ -2026,7 +2026,11 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 	    send_to_char("You need two hands free for that weapon.\n\r",ch);
 	    return;
 	}
-
+  if ( IS_OBJ_STAT(obj, ITEM_DAMAGED))
+    {
+        send_to_char("This item is damaged and cannot be used again until repaired.\n\r",ch);
+        return;
+    }
 	act( "$n wields $p.", ch, obj, NULL, TO_ROOM );
 	act( "You wield $p.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_WIELD );
@@ -3660,11 +3664,11 @@ void do_repair( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    cost = ((100 - obj->condition) * obj->level) * 10;
+    cost = ((100 - obj->condition) * obj->level) * 5;
 
     if(query_gold(ch) < cost) {
-      sprintf(buf,"It will cost you %d to repair %s.\n\r",cost,
-              obj->short_descr);
+      sprintf(buf,"It will cost you %d to repair %s.  This has been repaired %d times now...\n\r",cost,
+              obj->short_descr, obj->number_repair);
       send_to_char(buf,ch);
       return;
     }
@@ -3677,11 +3681,18 @@ void do_repair( CHAR_DATA *ch, char *argument )
 		ch, obj, rpr, TO_ROOM );
 	extract_obj(obj);
 	do_say(rpr,"Heh, old thing broke apart, guess you don't have to pay.\n\r");
-    } else {
+} else {
 	add_money(ch,cost*-1);
         obj->condition = 100;
         act( "$N repairs your $p.", ch, obj, rpr, TO_CHAR );
         act( "$N repairs $n's $p.", ch, obj, rpr, TO_ROOM );
+        sprintf(buf,"It cost ya %d to repair %s.  It's been repaired %d times now.\n\r",cost,
+                obj->short_descr, obj->number_repair);
+        send_to_char(buf,ch);
+        if (IS_OBJ_STAT(obj,ITEM_DAMAGED))
+        {
+        REMOVE_BIT(obj->extra_flags, ITEM_DAMAGED);
+        }
        return;
     }
 }
