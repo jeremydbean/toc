@@ -4209,11 +4209,17 @@ void do_remort( CHAR_DATA *ch, char *arg)
    send_info(buf);
    wizinfo(buf,LEVEL_IMMORTAL);
    do_backup();
-   for (obj = ch->carrying; obj != NULL; obj = obj_next) {
-     obj_next = obj->next_content;
-     obj_from_char(obj);
-     extract_obj(obj);
-   }
+
+   if (ch->pcdata->num_remorts >= 5)
+    {
+     for (obj = ch->carrying; obj != NULL; obj = obj_next)
+        {
+          obj_next = obj->next_content;
+          obj_from_char(obj);
+          extract_obj(obj);
+
+        }
+    }
    ch->level    = 3;
    ch->pcdata->points =+ 2500;
    ch->exp      = 3 * exp_per_level(ch,ch->pcdata->points);
@@ -4284,7 +4290,7 @@ void do_remort( CHAR_DATA *ch, char *arg)
         break;
       group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
    }
- 
+
    ch->affected_by = ch->affected_by|race_table[ch->race].aff;
    ch->imm_flags   = ch->imm_flags | race_table[ch->race].imm;
    ch->res_flags   = ch->res_flags | race_table[ch->race].res;

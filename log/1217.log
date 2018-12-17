@@ -1,0 +1,177 @@
+Mon Dec 17 04:03:04 2018 :: LOADING COMM TABLE
+Mon Dec 17 04:03:04 2018 ::  INIT OK 
+Mon Dec 17 04:03:04 2018 :: Ended LOADING COMM TABLE
+Mon Dec 17 04:03:04 2018 :: Ended Fixing Exits
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Mon Dec 17 04:03:04 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Mon Dec 17 04:03:04 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:03:04 2018 :: Ended Area Update
+Mon Dec 17 04:03:04 2018 :: Ended Loading Notes
+Mon Dec 17 04:03:04 2018 :: Ended Loading Ban
+Mon Dec 17 04:03:04 2018 :: Ended Loading Pkills
+Mon Dec 17 04:03:04 2018 :: TOC is ready to rock on port 9000.
+Mon Dec 17 04:03:04 2018 :: Setting up signals.
+Mon Dec 17 04:03:06 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:03:07 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:03:07 2018 :: Loading Killuminati's playerfile
+Mon Dec 17 04:03:07 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:03:07 2018 :: Killuminati@localhost has connected. [Room: 10176]
+Mon Dec 17 04:03:07 2018 :: Testies@localhost has connected. [Room: 4216]
+Mon Dec 17 04:04:33 2018 :: Testies has quit. [Room: 4216]
+Mon Dec 17 04:04:43 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:04:44 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:04:44 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:04:49 2018 :: Testies has quit. [Room: 16021]
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Mon Dec 17 04:04:49 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Dec 17 04:04:49 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Mon Dec 17 04:05:03 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:05:03 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:05:03 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:05:19 2018 :: Log Testies: remort smoke007 cleric cleric human
+Mon Dec 17 04:05:19 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Mon Dec 17 04:05:40 2018 :: Log Testies: adv self 55
+Mon Dec 17 04:05:57 2018 :: Log Testies: remort smoke007 monk none human
+Mon Dec 17 04:06:09 2018 :: Log Testies: remort smoke007 mage mage elf
+Mon Dec 17 04:06:09 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Mon Dec 17 04:06:18 2018 :: Log Testies: adv self 22
+Mon Dec 17 04:06:20 2018 :: Log Testies: save
+Mon Dec 17 04:06:26 2018 :: Testies has quit. [Room: 16021]
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 911 to modify as: -1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 911|Signval: -1|!Gameload|Total: 3
+Mon Dec 17 04:06:26 2018 :: Called for vnum: 911 to modify as: 1 as playerload.
+Mon Dec 17 04:06:26 2018 :: Vnum 911|Signval: 1|!Gameload|Total: 2
+Mon Dec 17 04:06:27 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:06:28 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:06:28 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:06:28 2018 :: Testies psionic check complete! [Chance: 100]
+Mon Dec 17 04:06:28 2018 :: Testies has been granted psionics! [Chance: 100]
+
+Mon Dec 17 04:06:28 2018 :: Testies psi roll 1: [28] | [psionic armor (1-40), psychic shield (41-70), mindbar (71+)]
+Mon Dec 17 04:06:28 2018 :: Testies psi roll 2: [21] | [torment (1-35), ego whip (36-60), pyrotechnics (61-85), mindblast (86+)]
+Mon Dec 17 04:06:28 2018 :: Testies psi roll 3: [80] | [clairvoyance (1-25), astral walk (26-50), shift (51-75), project (76+)]
+Mon Dec 17 04:06:28 2018 :: Testies psi roll 4: [64] | [telekinesis (1-20), transfusion (21-45), confuse (46-60), nightmare (61+)]
+
+Mon Dec 17 04:06:43 2018 :: Log Testies: adv self 56
+Mon Dec 17 04:07:00 2018 :: Log Testies: remort smoke007 thief thief dwarf
+Mon Dec 17 04:07:12 2018 :: Log Testies: remort smoke007 thief thief dwarf
+Mon Dec 17 04:07:12 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Mon Dec 17 04:07:29 2018 :: Log Testies: adv self 22
+Mon Dec 17 04:07:31 2018 :: Testies has quit. [Room: 16021]
+Mon Dec 17 04:07:31 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Dec 17 04:07:31 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Mon Dec 17 04:07:31 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Dec 17 04:07:31 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Mon Dec 17 04:07:32 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:07:32 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:07:33 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:07:33 2018 :: Testies psionic check complete! [Chance: 100]
+Mon Dec 17 04:07:33 2018 :: Testies has been granted psionics! [Chance: 100]
+
+Mon Dec 17 04:07:33 2018 :: Testies remort psi granted: | [confuse, telekinesis, clairvoyance, astral walk]
+Mon Dec 17 04:07:48 2018 :: Log Testies: adv self 57
+Mon Dec 17 04:07:53 2018 :: Log Testies: remort smoke007 
+Mon Dec 17 04:07:56 2018 :: Log Testies: remort self
+Mon Dec 17 04:07:58 2018 :: Log Testies: remort smoke007
+Mon Dec 17 04:08:10 2018 :: Log Testies: remort smoke007 necro none human
+Mon Dec 17 04:08:10 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Mon Dec 17 04:08:19 2018 :: Log Testies: adv self 22
+Mon Dec 17 04:08:20 2018 :: Testies has quit. [Room: 16021]
+Mon Dec 17 04:08:20 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Dec 17 04:08:20 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Mon Dec 17 04:08:20 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Dec 17 04:08:20 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Mon Dec 17 04:08:21 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:08:22 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:08:22 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:08:22 2018 :: Testies psionic check complete! [Chance: 100]
+Mon Dec 17 04:08:22 2018 :: Testies has been granted psionics! [Chance: 100]
+
+Mon Dec 17 04:08:22 2018 :: Testies remort psi granted: | [shift, project, nightmare, mindblast]
+Mon Dec 17 04:08:22 2018 :: Testies remort psi granted: | [confuse, telekinesis, clairvoyance, astral walk]
+Mon Dec 17 04:08:47 2018 :: Log Testies: adv self 58
+Mon Dec 17 04:08:57 2018 :: Log Testies: remort smoke007 hu
+Mon Dec 17 04:09:01 2018 :: Log Testies: remort smoke007 hu
+Mon Dec 17 04:09:13 2018 :: Log Testies: remort smoke007 thief thief dwarf
+Mon Dec 17 04:09:13 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names
+Mon Dec 17 04:10:35 2018 :: Testies has quit. [Room: 16021]
+Mon Dec 17 04:10:35 2018 :: Called for vnum: 17713 to modify as: -1 as playerload.
+Mon Dec 17 04:10:35 2018 :: Vnum 17713|Signval: -1|!Gameload|Total: 2
+Mon Dec 17 04:10:35 2018 :: Called for vnum: 17713 to modify as: 1 as playerload.
+Mon Dec 17 04:10:35 2018 :: Vnum 17713|Signval: 1|!Gameload|Total: 1
+Mon Dec 17 04:10:44 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:10:44 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:10:44 2018 :: Testies@localhost has connected. [Room: 16021]
+Mon Dec 17 04:10:45 2018 :: Testies turned into a PKILLER.
+Mon Dec 17 04:10:55 2018 :: Log Testies: load obj 132
+Mon Dec 17 04:11:02 2018 :: Log Testies: load obj 29303
+Mon Dec 17 04:11:03 2018 :: Log Testies: load obj 29303
+Mon Dec 17 04:11:03 2018 :: Log Testies: load obj 29303
+Mon Dec 17 04:11:06 2018 :: Log Testies: outfit
+Mon Dec 17 04:11:11 2018 :: Log Testies: load obj 9923
+Mon Dec 17 04:11:11 2018 :: Log Testies: load obj 9923
+Mon Dec 17 04:11:22 2018 :: Log Testies: remort smoke007 thief thief dwarf
+Mon Dec 17 04:11:22 2018 :: Automated backup complete.
+tar: Removing leading `../' from member names

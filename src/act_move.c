@@ -2327,7 +2327,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
     {
        if (chance < skill)
        {
-          if (chance < 2)
+          if (chance < 5)
 
           {
              location = get_random_room(ch);
@@ -2378,7 +2378,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
 
    if (chance < skill)
    {
-      if (chance < 2)
+      if (chance < 5)
       {
          location = get_random_room(ch);
          send_to_char("Something is very wrong!\n\r",ch);
@@ -2398,7 +2398,10 @@ void do_recall( CHAR_DATA *ch, char *argument )
              act("$n disappears.", ch, NULL, NULL, TO_ROOM);
              char_from_room(ch);
              char_to_room(ch,location);
+            if (ch->level <= 57)
+            {
              ch->move /= 2;
+            }
              do_look(ch, "auto");
 
              if (location != get_room_index(ROOM_VNUM_TEMPLE))

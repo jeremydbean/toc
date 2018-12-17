@@ -257,6 +257,14 @@ void advance_level( CHAR_DATA *ch, bool is_advance )
             send_to_char("\n\r",ch);
     }
 
+    if (ch->level == 58)
+    {
+            send_to_char("\n\r",ch);
+            send_to_char("      IMPORTANT: This is your FINAL time to remort.  You may once again choose   \n\r",ch);
+            send_to_char("    any class or guild.  Choose Wisely! (Type 'HELP REMORT' for more information.)\n\r",ch);
+            send_to_char("\n\r",ch);
+    }
+
     if(ch->level == 6 && ch->pcdata->guild == GUILD_NONE)
     {
       if(query_gold(ch) < 50)
