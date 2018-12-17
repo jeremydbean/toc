@@ -1,10 +1,10 @@
 #!/bin/bash
 #By Killuminati
 
-cd /mnt/e/ToC/src
+cd /mnt/e/toc/src
 rm *.o
 rm merc
-make
+make 2>&1 | tee /mnt/e/toc/compile_errors.txt
 if [ $? -eq 0 ]
 then
   echo "ToC Successfully Compiled"
@@ -22,7 +22,7 @@ set +x
 echo "Done."
 echo ""
 sleep 1
-cd /mnt/e/ToC/
+cd /mnt/e/toc/
 
 #read -p "Kill any existing sessions and then reload ToC? [y/n?] "  RESPONSE
 #if [ "$RESPONSE" = y ]; then

@@ -1,0 +1,369 @@
+Mon Dec 17 04:52:19 2018 :: LOADING COMM TABLE
+Mon Dec 17 04:52:19 2018 ::  INIT OK 
+Mon Dec 17 04:52:19 2018 :: Ended LOADING COMM TABLE
+Mon Dec 17 04:52:19 2018 :: Ended Fixing Exits
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:52:19 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Mon Dec 17 04:52:19 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Mon Dec 17 04:52:19 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Mon Dec 17 04:52:19 2018 :: Ended Area Update
+Mon Dec 17 04:52:19 2018 :: Ended Loading Notes
+Mon Dec 17 04:52:19 2018 :: Ended Loading Ban
+Mon Dec 17 04:52:19 2018 :: Ended Loading Pkills
+Mon Dec 17 04:52:19 2018 :: TOC is ready to rock on port 9000.
+Mon Dec 17 04:52:19 2018 :: Setting up signals.
+Mon Dec 17 04:52:21 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:52:21 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:52:21 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:52:21 2018 :: Loading Killuminati's playerfile
+Mon Dec 17 04:52:21 2018 :: Testies@localhost has connected. [Room: 16050]
+Mon Dec 17 04:52:22 2018 :: Killuminati@localhost has connected. [Room: 10176]
+Mon Dec 17 04:52:40 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:40 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:41 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:41 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:41 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:41 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:42 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:42 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:42 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:42 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:43 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:43 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:43 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:43 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:44 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:44 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:44 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:45 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:52:45 2018 :: EOF encountered on read.
+Mon Dec 17 04:52:45 2018 :: Closing link to Killuminati.
+Mon Dec 17 04:52:45 2018 :: Loading Killuminati's playerfile
+Mon Dec 17 04:52:45 2018 :: Killuminati@localhost reconnected. [Room: 10176]
+Mon Dec 17 04:52:53 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:53 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:53 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:54 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:54 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:54 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:54 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:55 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:55 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:55 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:56 2018 :: Log Testies: clone dro
+Mon Dec 17 04:52:59 2018 :: Log Testies: load obj 9925
+Mon Dec 17 04:53:07 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:09 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:16 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:28 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:35 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:41 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:50 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:53:54 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:02 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:08 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:13 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:19 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:26 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:32 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:38 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:44 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:50 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:54:57 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:03 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:12 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:18 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:22 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:30 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:34 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:41 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:55:56 2018 :: Log Testies: clone drow
+Mon Dec 17 04:55:57 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:03 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:03 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:10 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:10 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:16 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:18 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:23 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:27 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:29 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:30 2018 :: Testies weapon has been smited!
+
+Mon Dec 17 04:56:33 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:56:36 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:36 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:37 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:37 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:38 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:38 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:39 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:39 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:40 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:40 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:41 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:42 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:42 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:43 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:43 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:44 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:44 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:45 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:45 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:46 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:46 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:47 2018 :: Log Testies: clone drow
+Mon Dec 17 04:56:47 2018 :: Log Testies: clone drow
+Mon Dec 17 04:57:48 2018 :: Log Testies: set char self gold 1100000
+Mon Dec 17 04:58:14 2018 :: Log Testies: clone drow
+Mon Dec 17 04:58:14 2018 :: Log Testies: clone drow
+Mon Dec 17 04:58:15 2018 :: Log Testies: clone drow
+Mon Dec 17 04:58:15 2018 :: Log Testies: clone drow
+Mon Dec 17 04:58:16 2018 :: EOF encountered on read.
+Mon Dec 17 04:58:16 2018 :: Closing link to Testies.
+Mon Dec 17 04:58:18 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 04:58:18 2018 :: Loading Testies's playerfile
+Mon Dec 17 04:58:19 2018 :: Testies@localhost reconnected. [Room: 25265]
+Mon Dec 17 04:58:25 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:58:25 2018 :: Testies weapon has been smited!
+
+Mon Dec 17 04:58:32 2018 :: Log Testies: clone drow
+Mon Dec 17 04:58:32 2018 :: Log Testies: clone drow
+Mon Dec 17 04:59:02 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:08 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:14 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:20 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:27 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:33 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:41 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:47 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:52 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 04:59:58 2018 :: Log Testies: clone drow
+Mon Dec 17 04:59:59 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:05 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:05 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:11 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:12 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:18 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:18 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:25 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:27 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:31 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:33 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:38 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:38 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:44 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:44 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:51 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:51 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:00:57 2018 :: Log Testies: clone drow
+Mon Dec 17 05:00:58 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:04 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:04 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:10 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:11 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:17 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:17 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:24 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:24 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:30 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:36 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:37 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:39 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:43 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:45 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:50 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:50 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:01:56 2018 :: Log Testies: clone drow
+Mon Dec 17 05:01:57 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:03 2018 :: Log Testies: clone drow
+Mon Dec 17 05:02:03 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:09 2018 :: Log Testies: clone drow
+Mon Dec 17 05:02:10 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:19 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:22 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:31 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:40 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:41 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:49 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:02:54 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:00 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:06 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:13 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:13 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:19 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:20 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:26 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:28 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:32 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:34 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:39 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:39 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:46 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:46 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:52 2018 :: Log Testies: clone drow
+Mon Dec 17 05:03:52 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:03:59 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:02 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:05 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:08 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:12 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:14 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:18 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:19 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:25 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:26 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:31 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:32 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:38 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:41 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:45 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:47 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:51 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:53 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:58 2018 :: Log Testies: clone drow
+Mon Dec 17 05:04:58 2018 :: Testies alignment has lowered by 0. [Alignment: 741]
+
+Mon Dec 17 05:04:58 2018 :: Testies weapon has been smited!
+
+Mon Dec 17 05:05:04 2018 :: Log Testies: clone drow
+Mon Dec 17 05:05:05 2018 :: Log Testies: clone drow
+Mon Dec 17 05:16:07 2018 :: Testies has quit. [Room: 2]
+Mon Dec 17 05:16:18 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 05:16:18 2018 :: Loading Testies's playerfile
+Mon Dec 17 05:16:18 2018 :: Testies@localhost has connected. [Room: 25265]
+Mon Dec 17 05:26:00 2018 :: Testies has quit. [Room: 2]
+Mon Dec 17 05:26:11 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 05:26:12 2018 :: Loading Testies's playerfile
+Mon Dec 17 05:26:12 2018 :: Testies@localhost has connected. [Room: 25265]
+Mon Dec 17 05:34:18 2018 :: Testies has quit. [Room: 2]
+Mon Dec 17 05:34:29 2018 :: Sock.sinaddr:  127.0.0.1
+Mon Dec 17 05:34:30 2018 :: Loading Testies's playerfile
+Mon Dec 17 05:34:30 2018 :: Testies@localhost has connected. [Room: 25265]

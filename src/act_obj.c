@@ -3710,13 +3710,13 @@ int query_carry_coins(CHAR_DATA *ch, long amount)
 {
   if (ch == NULL) return 0;
   return (ch->carry_weight + ((ch->new_platinum + ch->new_gold +
-                               ch->new_silver + ch->new_copper + amount)/100));
+                               ch->new_silver + ch->new_copper + amount)/5000));
 }
 
 int query_carry_weight(CHAR_DATA *ch)
 {
   if (ch == NULL) return 0;
-  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold + ch->new_silver + ch->new_copper)/100));
+  return (ch->carry_weight + ((ch->new_platinum + ch->new_gold + ch->new_silver + ch->new_copper)/5000));
 }
 
 void add_money(CHAR_DATA *ch, long amount)

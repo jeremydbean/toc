@@ -1,0 +1,459 @@
+gcc -c -g -O -Wall -DROM  -lcrypt act_comm.c
+act_comm.c: In function ‘do_delete’:
+act_comm.c:826:5: warning: implicit declaration of function ‘do_backup’ [-Wimplicit-function-declaration]
+     do_backup();
+     ^~~~~~~~~
+act_comm.c:776:9: warning: unused variable ‘name’ [-Wunused-variable]
+    char name[MAX_INPUT_LENGTH];
+         ^~~~
+act_comm.c:828:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+     system(buf);;
+     ^~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt act_info.c
+act_info.c: In function ‘do_remort’:
+act_info.c:4211:4: warning: implicit declaration of function ‘do_backup’; did you mean ‘do_afk’? [-Wimplicit-function-declaration]
+    do_backup();
+    ^~~~~~~~~
+    do_afk
+gcc -c -g -O -Wall -DROM  -lcrypt act_move.c
+gcc -c -g -O -Wall -DROM  -lcrypt act_obj.c
+act_obj.c: In function ‘remove_obj’:
+act_obj.c:1574:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if ( !fReplace )
+     ^~
+act_obj.c:1577:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  if (!IS_IMMORTAL(ch))
+  ^~
+gcc -c -g -O -Wall -DROM  -lcrypt act_wiz.c
+act_wiz.c:230:1: warning: "/*" within comment [-Wcomment]
+ /* equips a character */
+  
+act_wiz.c: In function ‘do_switch’:
+act_wiz.c:2656:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->were_shape.name != NULL && victim->name != "ghost")
+                                                         ^~
+act_wiz.c: In function ‘do_return’:
+act_wiz.c:2692:22: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     else if(ch->name != "ghost")
+                      ^~
+act_wiz.c: In function ‘do_component_update’:
+act_wiz.c:6239:4: warning: implicit declaration of function ‘component_update’; did you mean ‘do_component_update’? [-Wimplicit-function-declaration]
+    component_update();
+    ^~~~~~~~~~~~~~~~
+    do_component_update
+act_wiz.c: In function ‘do_restorechar’:
+act_wiz.c:5547:5: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+     system(buf);
+     ^~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt comm.c
+comm.c: In function ‘new_descriptor’:
+comm.c:922:54: warning: pointer targets in passing argument 3 of ‘getsockname’ differ in signedness [-Wpointer-sign]
+     getsockname( control, (struct sockaddr *) &sock, &size );
+                                                      ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/x86_64-linux-gnu/sys/socket.h:116:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~~~~~~
+comm.c:923:63: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+     if ( ( desc = accept( control, (struct sockaddr *) &sock, &size) ) < 0 )
+                                                               ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/x86_64-linux-gnu/sys/socket.h:232:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~
+comm.c:955:56: warning: pointer targets in passing argument 3 of ‘getpeername’ differ in signedness [-Wpointer-sign]
+     if ( getpeername( desc, (struct sockaddr *) &sock, &size ) < 0 )
+                                                        ^
+In file included from /usr/include/netinet/in.h:23:0,
+                 from /usr/include/netdb.h:27,
+                 from comm.c:102:
+/usr/include/x86_64-linux-gnu/sys/socket.h:130:12: note: expected ‘socklen_t * restrict {aka unsigned int * restrict}’ but argument is of type ‘int *’
+ extern int getpeername (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~~~~~~
+comm.c:919:9: warning: variable ‘ipaddr’ set but not used [-Wunused-but-set-variable]
+     int ipaddr[4];
+         ^~~~~~
+comm.c: In function ‘process_output’:
+comm.c:1421:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+        else;
+        ^~~~
+comm.c:1422:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+   sprintf(buf,"\n[ %s: [%d/%d hp] <*> %s: %s ]",
+   ^~~~~~~
+comm.c:1434:36: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+   sprintf(buf,"\n[ %s: %s <*> %s: %s ]",
+                                   ~^
+comm.c: In function ‘show_string’:
+comm.c:2840:7: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+       for (chk = d->showstr_point; isspace(*chk); chk++);
+       ^~~
+comm.c:2841:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+        {
+        ^
+gcc -c -g -O -Wall -DROM  -lcrypt const.c
+gcc -c -g -O -Wall -DROM  -lcrypt db.c
+db.c: In function ‘do_dump’:
+db.c:4284:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      fprintf(fp, buf);
+      ^~~~~~~
+db.c:4340:17: warning: format not a string literal and no format arguments [-Wformat-security]
+                 fprintf(fp, buf);
+                 ^~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt edit.c
+edit.c: In function ‘edit_exit’:
+edit.c:183:9: warning: variable ‘vnum’ set but not used [-Wunused-but-set-variable]
+     int vnum;
+         ^~~~
+gcc -c -g -O -Wall -DROM  -lcrypt fight.c
+fight.c: In function ‘damage’:
+fight.c:1283:5: warning: ‘return’ with no value, in function returning non-void
+     return;
+     ^~~~~~
+fight.c:874:6: note: declared here
+ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type )
+      ^~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt handler.c
+handler.c: In function ‘affect_remove’:
+handler.c:992:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^~~~
+handler.c:992:9: warning: incompatible implicit declaration of built-in function ‘exit’
+handler.c:992:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+handler.c: In function ‘affect_join’:
+handler.c:1134:17: warning: operation on ‘paf->level’ may be undefined [-Wsequence-point]
+      paf->level = (paf->level += paf_old->level) / 2;
+      ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+handler.c:1127:10: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
+     bool found;
+          ^~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt misc.c
+gcc -c -g -O -Wall -DROM  -lcrypt interp.c
+gcc -c -g -O -Wall -DROM  -lcrypt magic.c
+magic.c: In function ‘spell_cancellation’:
+magic.c:1020:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   if (check_dispel(level,victim,skill_lookup("fire shield")))
+   ^~
+magic.c:1023:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (check_dispel(level,victim,skill_lookup("divine protection")))
+       ^~
+magic.c: In function ‘spell_change_sex’:
+magic.c:1226:10: warning: unused variable ‘buf’ [-Wunused-variable]
+     char buf[MAX_STRING_LENGTH];
+          ^~~
+magic.c: In function ‘spell_heat_metal’:
+magic.c:2953:16: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+                if ( ( iWear = obj_lose->wear_loc ) != WEAR_NONE )
+                ^~
+magic.c:2956:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                    for (i = 0; i < 4; i ++)
+                    ^~~
+magic.c:2956:20: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+magic.c:2958:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+                      obj_lose->cost       = obj_lose->cost/3;
+                      ^~~~~~~~
+magic.c:3007:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if ( saves_spell( level, victim ) )
+     ^~
+magic.c:3009:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       damage( ch, victim, dam, sn, DAM_FIRE );
+       ^~~~~~
+magic.c: In function ‘spell_summon’:
+magic.c:4178:11: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+       (buf,ch->invis_level);
+           ^
+magic.c:4178:11: warning: statement with no effect [-Wunused-value]
+       (buf,ch->invis_level);
+       ~~~~^~~~~~~~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt pkill.c
+gcc -c -g -O -Wall -DROM  -lcrypt save.c
+save.c: In function ‘fread_char’:
+save.c:1266:41: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+      bug( "Fread_char: no match. '%s'", (int) word );
+                                         ^
+save.c:840:24: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
+     int cur_alias = 0, temp;
+                        ^~~~
+#‘target_mem_ref’ not supported by expression#’save.c: In function ‘corpse_back’:
+save.c:1946:3: warning:  may be used uninitialized in this function [-Wmaybe-uninitialized]
+   fprintf( fp, "%d ", corpse_cont[5][i] );
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#‘target_mem_ref’ not supported by expression#’save.c:1947:3: warning:  may be used uninitialized in this function [-Wmaybe-uninitialized]
+   fprintf( fp, "%d ", item_level[5][i] );
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt skills.c
+skills.c: In function ‘exp_per_level’:
+skills.c:600:9: warning: variable ‘expl’ set but not used [-Wunused-but-set-variable]
+     int expl,inc;
+         ^~~~
+gcc -c -g -O -Wall -DROM  -lcrypt special.c
+special.c: In function ‘spec_psionic’:
+special.c:663:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
+     char *spell;
+           ^~~~~
+special.c: In function ‘spec_quest_master’:
+special.c:2394:8: warning: format not a string literal and no format arguments [-Wformat-security]
+        sprintf(buf, quest_table[holder_2].quest_clue);
+        ^~~~~~~
+special.c:2460:2: warning: format not a string literal and no format arguments [-Wformat-security]
+  sprintf(buf,quest_table[holder_2].quest_clue);
+  ^~~~~~~
+special.c: In function ‘spec_monk’:
+special.c:2653:11: warning: variable ‘spell’ set but not used [-Wunused-but-set-variable]
+     char *spell;
+           ^~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt hunt.c
+hunt.c: In function ‘do_danger_sense’:
+hunt.c:407:24: warning: variable ‘dir’ set but not used [-Wunused-but-set-variable]
+     int count, chance, dir, count2;
+                        ^~~
+gcc -c -g -O -Wall -DROM  -lcrypt update.c
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:97:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:97:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:101:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:97:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:101:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:105:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:97:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:101:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:105:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:109:17:
+       8, 65, 0, 6
+                 {
+   }
+   }
+update.c:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+update.c:84:14:
+     0, 0, 0, 0
+              {
+   },
+   }
+update.c:89:17:
+       3, 60, 0, 1
+                 {
+   },
+   }
+update.c:93:17:
+       4, 61, 0, 2
+                 {
+   },
+   }
+update.c:97:17:
+       5, 62, 0, 3
+                 {
+   },
+   }
+update.c:101:17:
+       6, 63, 0, 4
+                 {
+   },
+   }
+update.c:105:17:
+       7, 64, 0, 5
+                 {
+   },
+   }
+update.c:109:17:
+       8, 65, 0, 6
+                 {
+   }
+   }
+update.c: In function ‘show_backup’:
+update.c:213:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if ( !str_cmp( arg1, "daily" ) || !str_cmp( arg1, "DAILY" ))
+     ^~
+update.c:216:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       return;
+       ^~~~~~
+update.c: In function ‘weather_update’:
+update.c:947:9: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+      if (current_time > dailybackup)
+         ^
+update.c: In function ‘disaster_update’:
+update.c:2786:6: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+update.c:2814:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+       if(hit == TRUE)
+       ^~
+update.c:2865:8: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+        else
+        ^~~~
+update.c:2902:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+         if( hit )
+         ^~
+gcc -c -g -O -Wall -DROM  -lcrypt magic2.c
+magic2.c: In function ‘do_lore’:
+magic2.c:143:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  else if( check < 1)
+       ^~
+magic2.c:146:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+    send_to_char( ".\n\r", ch );
+    ^~~~~~~~~~~~
+magic2.c:166:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+magic2.c:169:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+    send_to_char( ".\n\r", ch );
+    ^~~~~~~~~~~~
+magic2.c: In function ‘spell_vengence’:
+magic2.c:2955:9: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+     int count;
+         ^~~~~
+gcc -c -g -O -Wall -DROM  -lcrypt quest.c
+gcc -c -g -O -Wall -DROM  -lcrypt maxload.c
+gcc -c -g -O -Wall -DROM  -lcrypt wizlist.c
+rm -f merc
+gcc  -O  -o merc act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o skills.o special.o hunt.o update.o magic2.o quest.o maxload.o wizlist.o -lcrypt

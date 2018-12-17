@@ -3644,6 +3644,7 @@ void do_smite( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
     OBJ_DATA *obj;
     int chance;
+		int weapondamage;
 
     one_argument( argument, arg );
 
@@ -3727,9 +3728,11 @@ void do_smite( CHAR_DATA *ch, char *argument )
     {
         check_improve(ch,gsn_smite,TRUE,1);
         multi_hit( ch, victim, gsn_smite );
-        if (number_percent() < 3)
+
+		weapondamage = number_percent();
+        if (weapondamage < 4)
 				{
-           act("Your weapon makes a loud CRACK and SLAMS into the ground!!",ch,NULL,victim,TO_CHAR);
+           act("\n\r** Your weapon makes a loud CRACK and SLAMS into the ground!! \n\r**",ch,NULL,victim,TO_CHAR);
            act("$n's makes a terrible cracking sound and SLAMS to the ground!!",ch,NULL,victim,TO_ROOM);
 					 obj->condition = 1;
 					 SET_BIT(obj->extra_flags, ITEM_DAMAGED);
