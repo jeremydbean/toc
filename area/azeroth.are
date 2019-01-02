@@ -1,4 +1,4 @@
-#AREA  { 15+ } Crane   Azeroth~
+lll#AREA  { 15+ } Crane   Azeroth~
 
 #MOBILES
 #28101
@@ -8,7 +8,7 @@ One of the king's footman is here, ready to fight off the orcs.
 ~
 He is equipped in a hardened steel breast plate and wields a broadsword
 in one hand with a shield in the other to battle with the vile Orcish
-hordes.  
+hordes.
 ~
 human~
 AGHT 0 300 S
@@ -24,7 +24,7 @@ A footman~
 One of the king's footman is here, fighting off the orcs.
 ~
 He is equipped in a shiny steel breast plate and wields a longsword in
-one hand with a shield in the other to chop down the Orcs.    
+one hand with a shield in the other to chop down the Orcs.
 ~
 human~
 AGT 0 300 S
@@ -41,7 +41,7 @@ An Elven archer is here to aid the Alliance against the Orcs.
 ~
 This archer is wearing a light suit of Elven chain mail and holds a long
 bow in his right hand.  Although outmatched in hand-to-hand combat, he
-can kill a foe with deadly proficiency from a distance.  
+can kill a foe with deadly proficiency from a distance.
 ~
 elf~
 AGH 0 0 S
@@ -58,7 +58,7 @@ An Elven ranger is here to aid the Alliance against the Orcs.
 ~
 About his waist he carries a short sword in case he runs out of arrows.
 Like the reflexes of a cat and the speed of a blinking eye, he could
-send a wave of arrows at you before you could turn your back to run.  
+send a wave of arrows at you before you could turn your back to run.
 ~
 elf~
 AGH 0 0 S
@@ -117,7 +117,7 @@ position within the king's Honor Guard at an early age. He has lead many
 battles against the Orcish Horde and still managed to live to tell about
 it. He has a lot of grey hair and several scars across his face.
 ~
-human~ 
+human~
 AGT CH 750 S
 50 3 1d1+1799 1d1+99 5d15+20 8
 -50 -50 -50 0
@@ -149,7 +149,7 @@ An orc grunt~
 An orcish grunt is here, hunched over his axe.
 ~
 Equipped with a mighty axe and battle worn armor this grunt is prepared
-to fight to the death. 
+to fight to the death.
 ~
 orc~
 ACGHT 0 -750 S
@@ -293,7 +293,7 @@ ABCHS 0 0 S
 10 10 10 0
 FIN 0 0 0
 8 8 1 0
-0 0 M 0 
+0 0 M 0
 
 #28118
 peasant~
@@ -310,7 +310,7 @@ ABCHS 0 0 S
 10 10 10 0
 FIN 0 0 0
 8 8 2 0
-0 0 M 0 
+0 0 M 0
 
 #28119
 peasant sleeping~
@@ -327,7 +327,7 @@ ABCHS 0 0 S
 10 10 10 0
 FIN 0 0 0
 4 4 1 0
-0 0 M 0 
+0 0 M 0
 
 #28120
 peon~
@@ -345,7 +345,7 @@ ABCHS 0 0 S
 10 10 10 0
 FIN 0 0 0
 8 8 1 0
-0 0 M 0 
+0 0 M 0
 
 #28121
 uther lightbringer~
@@ -357,7 +357,7 @@ Silver Hand.  With the strength of arms and faith possessed by these
 paladins, he hopes to witness the Orcish Horde be cast back into the
 vile pits that spawned them.
 ~
-human~ 
+human~
 ABGQT DHJN 1000 S
 55 5 1d1+7799 1d1+599 5d15+20 8
 -50 -50 -50 -25
@@ -498,7 +498,7 @@ A
 A
 19 10
       
-#28106 
+#28106
 corpse~
 A half eaten corpse~
 There is a half eaten corpse here.~
@@ -742,7 +742,7 @@ A
 A
 18 1
 A
-19 3 
+19 3
 
 #28122
 shield~
@@ -1024,7 +1024,7 @@ you are in the heart of the Orcish empire, Black Rock Spire. To the
 south you see a rather impressive wall and two guard towers with a gate
 between them. Mountains roll around this area in the distance creating a
 perfect defense. The only noticeable exit is south and back into the
-portal. There is a sign here with a skull on the end of it. 
+portal. There is a sign here with a skull on the end of it.
 ~
 281 N 2
 D2
@@ -1097,7 +1097,7 @@ S
 
 #28104
 Going Up the Tower~
-The exits are up to the top and back down to the ground. 
+The exits are up to the top and back down to the ground.
 ~
 281 N 0
 D5
@@ -1284,7 +1284,7 @@ S
 
 #28114
 Going Up the Tower~
-The exits are up to the top and back down to the ground. 
+The exits are up to the top and back down to the ground.
 ~
 281 N 0
 D5
@@ -1301,7 +1301,7 @@ S
 
 #28115
 Going Up the Tower~
-The exits are up to the top and back down to the ground. 
+The exits are up to the top and back down to the ground.
 ~
 281 N 0
 D5
@@ -1332,7 +1332,7 @@ S
 
 #28117
 Going Up the Tower~
-The exits are up to the top and back down to the ground. 
+The exits are up to the top and back down to the ground.
 ~
 281 N 0
 D5
@@ -1349,7 +1349,7 @@ S
 
 #28118
 Going Up the Tower~
-The exits are up to the top and back down to the ground. 
+The exits are up to the top and back down to the ground.
 ~
 281 N 0
 D5
@@ -1447,7 +1447,7 @@ S
 On the Faint Path~
 You are now on a small path heading east toward what appears to be an
 abandoned farm. There is another exit to the west.
-~  
+~
 281 N 3
 D3
 Just the beginning of a faint path.
@@ -1463,7 +1463,7 @@ S
 
 #28124
 More Swamp~
-You are walking through what you estimate to be the middle of the swamp 
+You are walking through what you estimate to be the middle of the swamp
 now. There are exits to the east and west.
 ~
 281 N 3
@@ -2037,7 +2037,7 @@ S
 #28152
 The River~
 You are now going over a deep river, the humans first line of defense
-against the Horde. To the west you can see a city. 
+against the Horde. To the west you can see a city.
 ~
 281 N 7
 D3
@@ -2809,47 +2809,47 @@ M 0 28103 10  28153   Elven Archer 1
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153   Elven Archer 2
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153   Elven Archer 3
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153   Elven Archer 4
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153   Elven Archer 5
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153  Elven Archer 6
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28153   Elven Archer 7
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28154   Elven Archer 8
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28154   Elven Archer 9
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-* 
+*
 M 0 28103 10  28154   Elven Archer 10
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
@@ -2859,47 +2859,47 @@ M 0 28103 10  28151   Elven Ranger 1
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28151   Elven Ranger 2
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28148   Elven Ranger 3
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28148   Elven Ranger 4
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28147   Elven Ranger 5
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28147   Elven Ranger 6
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28145   Elven Ranger 7
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28145   Elven Ranger 8
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28146   Elven Ranger 9
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
 G 1 28125 -1           A Wooden Long Bow
-*  
+*
 M 0 28103 10  28146   Elven Ranger 10
 E 1 28103 -1  6        Standard Helmet of Azeroth
 E 1 28123 -1  16       An Archers Short Sword
@@ -3026,25 +3026,25 @@ E 1 28128 10  16       A Glaive-Guisarme
 E 1 28129 -1  5        Knights of the Silver Hand Full Plate
 E 1 28127 -1  3        Kinghts of the Silver Hand Cloak
 E 1 28127 -1  4        Kinghts of the Silver Hand Cloak
-* 
+*
 M 0 28106 5   28154  Paladin 2
 E 1 28128 10  16       A Glaive-Guisarme
 E 1 28129 -1  5        Knights of the Silver Hand Full Plate
 E 1 28127 -1  3        Kinghts of the Silver Hand Cloak
 E 1 28127 -1  4        Kinghts of the Silver Hand Cloak
-* 
+*
 M 0 28106 5   28155   Paladin 3
 E 1 28130 10  16       Great Holy Avenger
 E 1 28129 -1  5        Knights of the Silver Hand Full Plate
 E 1 28127 -1  3        Kinghts of the Silver Hand Cloak
 E 1 28127 -1  4        Kinghts of the Silver Hand Cloak
-* 
+*
 M 0 28106 5   28153   Paladin 4
 E 1 28130 10  16       Great Holy Avenger
 E 1 28129 -1  5        Knights of the Silver Hand Full Plate
 E 1 28127 -1  3        Kinghts of the Silver Hand Cloak
 E 1 28127 -1  4        Kinghts of the Silver Hand Cloak
-* 
+*
 M 0 28106 5   28153   Paladin 5
 E 1 28128 10  16       A Glaive-Guisarme
 E 1 28129 -1  5        Knights of the Silver Hand Full Plate
@@ -3056,7 +3056,7 @@ O 0 28106 1   28126   Half Eaten Corpse
 M 0 28107 1   28162   Sir Anduin Lothar
 *
 O 0 28132 1   28101   Dark Portal
-* 
+*
 O 0 28131 1   28161   Dark Portal
 *
 O 0 28140 1   28129   Portal
@@ -3071,25 +3071,25 @@ M 0 28113 5   28144   Ogre 4
 *
 M 0 28113 5   28146   Ogre 5
 *
-M 0 28114 5   28148   Ogre Mage 1      
+M 0 28114 5   28148   Ogre Mage 1
 *
-M 0 28114 5   28150   Ogre Mage 2       
+M 0 28114 5   28150   Ogre Mage 2
 *
-M 0 28114 5   28108   Ogre Mage 3       
+M 0 28114 5   28108   Ogre Mage 3
 *
-M 0 28114 5   28116   Ogre Mage 4       
+M 0 28114 5   28116   Ogre Mage 4
 *
-M 0 28114 5   28120   Ogre Mage 5       
+M 0 28114 5   28120   Ogre Mage 5
 *
-M 0 28114 5   28137   Ogre Mage 6       
+M 0 28114 5   28137   Ogre Mage 6
 *
-M 0 28114 5   28139   Ogre Mage 7       
+M 0 28114 5   28139   Ogre Mage 7
 *
-M 0 28114 5   28141   Ogre Mage 8       
+M 0 28114 5   28141   Ogre Mage 8
 *
-M 0 28114 5   28143   Ogre Mage 9       
+M 0 28114 5   28143   Ogre Mage 9
 *
-M 0 28114 5   28145   Ogre Mage 10       
+M 0 28114 5   28145   Ogre Mage 10
 *
 M 0 28115 3   28145   Death Knight 1
 E 1 28108 -1  17      Staff of the Death Knight
@@ -3120,13 +3120,13 @@ E 1 28114 -1  5       Divine Breast Plate
 E 1 28115 -1  3       Divine Cloak
 E 1 28115 -1  4       Divine Cloak
 E 1 28116 -1  1       Divine Ring
-E 1 28116 -1  2       Divine Ring   
+E 1 28116 -1  2       Divine Ring
 E 1 28117 -1  14      Divine Bracer
 E 1 28117 -1  15      Divine Bracer
-E 1 28118 -1  7       Divine Silver Leggings  
+E 1 28118 -1  7       Divine Silver Leggings
 E 1 28119 -1  10      Divine Arm Bands
-E 1 28120 -1  17      Cross of the Knights of the Silver Hand  
-E 1 28121 -1  6       Divine Knights Helmet and Visor 
+E 1 28120 -1  17      Cross of the Knights of the Silver Hand
+E 1 28121 -1  6       Divine Knights Helmet and Visor
 E 1 28122 -1  11      Shield of the Knights of the Silver Hand
 *
 M 0 28124 1   28127    Dracolich

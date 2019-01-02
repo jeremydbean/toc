@@ -1,7 +1,7 @@
 #PLAYER
 Name Killuminati~
 Id   30948
-LogO 1545112562
+LogO 1546451220
 Vers 3
 Desc You see something very special about him.
 ~
@@ -9,19 +9,19 @@ Prom ~
 Ignoring spellup~
 Race elf~
 Sex  1
-Cla  4
-Gui  0
+Cla  3
+Gui  3
 Psionic  1
 Cast Valh
 Levl 70
 Tru  70
-Plyd 4765714
+Plyd 5807123
 ListRemorts ~
 NumRemorts 0
 Note 1544841593
 Scro 22
-Room 3
-HMV  30010 30010 15050 15050 14975 14975
+Room 4208
+HMV  29960 29960 15025 15025 14975 14975
 NewGold 856954
 NewPlat 10000000
 NewCopp 93
@@ -63,11 +63,11 @@ Pos  8
 Prac 265
 Trai 72
 Alig  -64
-Hit   4
-Dam   4
+Hit   10
+Dam   10
 ACs 100 100 100 100
 Attr 25 21 18 18 18
-AMod 1 0 0 0 0
+AMod 1 2 2 2 0
 Pass Kilrpis9ggekI~
 Bin  Killuminati appears before you.~
 Bout Killuminati raises into the sky, and is gone.~
@@ -773,16 +773,16 @@ Lev  52
 Cost 1900
 Cond 100
 Repd 0
-Affect -1 52 -1 -4 19 0 0
-Affect -1 52 -1 1 24 0 0
-Affect -1 52 -1 -1 14 0 0
 Affect -1 52 -1 13 12 0 0
+Affect -1 52 -1 -1 14 0 0
+Affect -1 52 -1 1 24 0 0
+Affect -1 52 -1 -4 19 0 0
 End
 
 #O
 Vnum 9925
 Nest 0
-Wear -1
+Wear 16
 Lev  51
 Cost 5000
 Cond 100

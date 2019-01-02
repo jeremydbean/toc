@@ -1,0 +1,105 @@
+Fri Dec 21 14:42:31 2018 :: LOADING COMM TABLE
+Fri Dec 21 14:42:31 2018 ::  INIT OK 
+Fri Dec 21 14:42:31 2018 :: Ended LOADING COMM TABLE
+Fri Dec 21 14:42:31 2018 :: Ended Fixing Exits
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Fri Dec 21 14:42:31 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Fri Dec 21 14:42:31 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Fri Dec 21 14:42:31 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Fri Dec 21 14:42:31 2018 :: Ended Area Update
+Fri Dec 21 14:42:31 2018 :: Ended Loading Notes
+Fri Dec 21 14:42:31 2018 :: Ended Loading Ban
+Fri Dec 21 14:42:31 2018 :: Ended Loading Pkills
+Fri Dec 21 14:42:31 2018 :: TOC is ready to rock on port 9000.
+Fri Dec 21 14:42:31 2018 :: Setting up signals.
+Fri Dec 21 22:23:00 2018 :: Sock.sinaddr:  151.52.59.250
+Fri Dec 21 22:23:01 2018 :: EOF encountered on read.
+Sat Dec 22 06:45:22 2018 :: Sock.sinaddr:  127.0.0.1
+Sat Dec 22 06:45:23 2018 :: Loading Killuminati's playerfile
+Sat Dec 22 06:45:23 2018 :: Killuminati@localhost has connected. [Room: 29208]
+Sat Dec 22 10:30:22 2018 :: Sock.sinaddr:  122.25.64.95
+Sat Dec 22 10:30:22 2018 :: EOF encountered on read.
+Sat Dec 22 11:42:03 2018 :: Sock.sinaddr:  94.1.144.142
+Sat Dec 22 11:42:03 2018 :: EOF encountered on read.
+Sat Dec 22 12:56:17 2018 :: Sock.sinaddr:  75.147.150.125
+Sat Dec 22 12:56:17 2018 :: EOF encountered on read.
+Sun Dec 23 00:20:19 2018 :: Sock.sinaddr:  173.56.105.250
+Sun Dec 23 00:20:19 2018 :: EOF encountered on read.
+Sun Dec 23 04:38:04 2018 :: Sock.sinaddr:  209.141.43.189
+Sun Dec 23 04:38:05 2018 :: EOF encountered on read.
+Sun Dec 23 09:07:39 2018 :: Sock.sinaddr:  185.153.197.6
+Sun Dec 23 09:07:39 2018 :: EOF encountered on read.
+Sun Dec 23 17:37:41 2018 :: Sock.sinaddr:  185.153.197.12
+Sun Dec 23 17:37:41 2018 :: EOF encountered on read.
+Sun Dec 23 20:27:11 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:27:29 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:27:29 2018 :: EOF encountered on read.
+Sun Dec 23 20:27:47 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:27:47 2018 :: EOF encountered on read.
+Sun Dec 23 20:28:05 2018 :: EOF encountered on read.
+Sun Dec 23 20:29:02 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:29:20 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:29:20 2018 :: EOF encountered on read.
+Sun Dec 23 20:29:38 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:29:38 2018 :: EOF encountered on read.
+Sun Dec 23 20:29:56 2018 :: EOF encountered on read.
+Sun Dec 23 20:29:59 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:30:17 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:30:35 2018 :: Sock.sinaddr:  5.188.210.12
+Sun Dec 23 20:30:35 2018 :: EOF encountered on read.
+Sun Dec 23 20:30:53 2018 :: EOF encountered on read.
+Sun Dec 23 20:30:53 2018 :: EOF encountered on read.
+Sun Dec 23 23:30:55 2018 :: Sock.sinaddr:  172.104.84.223
+Sun Dec 23 23:30:55 2018 :: EOF encountered on read.
+Mon Dec 24 01:29:09 2018 :: Sock.sinaddr:  104.131.136.184
+Mon Dec 24 01:29:19 2018 :: EOF encountered on read.
+Mon Dec 24 10:17:44 2018 :: Sock.sinaddr:  185.142.236.34
+Mon Dec 24 10:17:45 2018 :: Sock.sinaddr:  185.142.236.34
+Mon Dec 24 10:17:46 2018 :: EOF encountered on read.
+Mon Dec 24 10:17:46 2018 :: EOF encountered on read.
+Mon Dec 24 12:22:13 2018 :: Sock.sinaddr:  77.72.83.225
+Mon Dec 24 12:22:13 2018 :: EOF encountered on read.
+Mon Dec 24 20:19:45 2018 :: Sock.sinaddr:  208.90.174.120
+Mon Dec 24 20:19:45 2018 :: EOF encountered on read.
+Tue Dec 25 00:47:58 2018 :: EOF encountered on read.
+Tue Dec 25 00:47:58 2018 :: Closing link to Killuminati.

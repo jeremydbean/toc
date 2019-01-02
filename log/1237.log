@@ -1,0 +1,110 @@
+Tue Dec 25 00:52:09 2018 :: LOADING COMM TABLE
+Tue Dec 25 00:52:09 2018 ::  INIT OK 
+Tue Dec 25 00:52:09 2018 :: Ended LOADING COMM TABLE
+Tue Dec 25 00:52:09 2018 :: Ended Fixing Exits
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 3715 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 3715|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 717|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 717 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 717|Signval: 1|Gameload|Total: 2
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 911|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 911 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 911|Signval: 1|Gameload|Total: 2
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 1388 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 1388|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 7664 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 7664|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 7665 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 7665|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 17713 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 17713|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 10051 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 10051|Signval: 1|Gameload|Total: 2
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (5).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: [*****] BUG: Equip_char: already equipped (-1).
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 29215 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 29215|Signval: 1|Gameload|Total: 2
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 2
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 29240 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 29240|Signval: 1|Gameload|Total: 3
+Tue Dec 25 00:52:09 2018 :: Called for vnum: 28114 to modify as: 1 as gameload.
+Tue Dec 25 00:52:09 2018 :: Vnum 28114|Signval: 1|Gameload|Total: 1
+Tue Dec 25 00:52:09 2018 :: Ended Area Update
+Tue Dec 25 00:52:09 2018 :: Ended Loading Notes
+Tue Dec 25 00:52:09 2018 :: Ended Loading Ban
+Tue Dec 25 00:52:09 2018 :: Ended Loading Pkills
+Tue Dec 25 00:52:09 2018 :: TOC is ready to rock on port 9000.
+Tue Dec 25 00:52:09 2018 :: Setting up signals.
+Tue Dec 25 00:53:35 2018 :: Sock.sinaddr:  127.0.0.1
+Tue Dec 25 00:53:35 2018 :: Loading Killuminati's playerfile
+Tue Dec 25 00:53:35 2018 :: Killuminati@localhost has connected. [Room: 4208]
+Tue Dec 25 07:17:19 2018 :: Sock.sinaddr:  98.183.251.117
+Tue Dec 25 07:17:20 2018 :: EOF encountered on read.
+Tue Dec 25 14:13:48 2018 :: Sock.sinaddr:  200.5.91.246
+Tue Dec 25 14:13:49 2018 :: EOF encountered on read.
+Tue Dec 25 15:44:44 2018 :: Sock.sinaddr:  98.110.109.250
+Tue Dec 25 15:44:45 2018 :: EOF encountered on read.
+Tue Dec 25 20:22:34 2018 :: Sock.sinaddr:  107.194.92.29
+Tue Dec 25 20:22:34 2018 :: EOF encountered on read.
+Wed Dec 26 01:08:36 2018 :: Sock.sinaddr:  195.144.213.52
+Wed Dec 26 01:08:37 2018 :: EOF encountered on read.
+Wed Dec 26 04:29:34 2018 :: Sock.sinaddr:  185.54.155.85
+Wed Dec 26 04:29:34 2018 :: EOF encountered on read.
+Wed Dec 26 05:00:55 2018 :: Sock.sinaddr:  77.72.87.15
+Wed Dec 26 05:00:57 2018 :: EOF encountered on read.
+Wed Dec 26 08:30:15 2018 :: Sock.sinaddr:  195.144.212.101
+Wed Dec 26 08:30:16 2018 :: EOF encountered on read.
+Wed Dec 26 08:33:49 2018 :: Sock.sinaddr:  96.23.173.26
+Wed Dec 26 08:33:50 2018 :: EOF encountered on read.
+Wed Dec 26 17:31:39 2018 :: Sock.sinaddr:  208.99.224.208
+Wed Dec 26 17:31:39 2018 :: EOF encountered on read.
+Wed Dec 26 17:56:18 2018 :: Sock.sinaddr:  185.53.91.26
+Wed Dec 26 17:56:18 2018 :: EOF encountered on read.
+Wed Dec 26 18:05:30 2018 :: Sock.sinaddr:  193.238.46.50
+Wed Dec 26 18:05:30 2018 :: EOF encountered on read.
+Wed Dec 26 19:13:24 2018 :: Sock.sinaddr:  122.254.44.253
+Wed Dec 26 19:13:24 2018 :: EOF encountered on read.
+Wed Dec 26 19:36:49 2018 :: Sock.sinaddr:  77.72.87.51
+Wed Dec 26 19:36:50 2018 :: EOF encountered on read.
+Wed Dec 26 20:55:14 2018 :: Sock.sinaddr:  103.193.117.234
+Wed Dec 26 20:55:15 2018 :: EOF encountered on read.
+Wed Dec 26 21:19:20 2018 :: Sock.sinaddr:  116.193.173.80
+Wed Dec 26 21:19:21 2018 :: EOF encountered on read.
+Wed Dec 26 21:39:42 2018 :: Sock.sinaddr:  185.92.73.112
+Wed Dec 26 21:39:42 2018 :: EOF encountered on read.
+Thu Dec 27 01:51:00 2018 :: Sock.sinaddr:  104.131.134.147
+Thu Dec 27 01:51:10 2018 :: EOF encountered on read.
+Thu Dec 27 05:42:27 2018 :: Sock.sinaddr:  172.104.84.223
+Thu Dec 27 05:42:27 2018 :: EOF encountered on read.
+Thu Dec 27 06:04:50 2018 :: Sock.sinaddr:  181.198.96.252
+Thu Dec 27 06:04:50 2018 :: EOF encountered on read.
+Thu Dec 27 09:42:32 2018 :: Sock.sinaddr:  89.36.174.146
+Thu Dec 27 09:42:32 2018 :: EOF encountered on read.
+Thu Dec 27 10:31:48 2018 :: Sock.sinaddr:  120.51.128.160
+Thu Dec 27 10:31:48 2018 :: EOF encountered on read.
+Thu Dec 27 13:00:19 2018 :: Sock.sinaddr:  99.109.81.198
+Thu Dec 27 13:00:20 2018 :: EOF encountered on read.
+Thu Dec 27 18:15:19 2018 :: Sock.sinaddr:  172.104.84.223
+Thu Dec 27 18:15:19 2018 :: EOF encountered on read.
+Thu Dec 27 19:16:05 2018 :: Sock.sinaddr:  178.33.108.192
+Thu Dec 27 19:16:36 2018 :: EOF encountered on read.
+Thu Dec 27 19:18:56 2018 :: Sock.sinaddr:  77.72.87.181
+Thu Dec 27 19:18:57 2018 :: EOF encountered on read.
+Thu Dec 27 22:08:11 2018 :: Sock.sinaddr:  169.159.132.18
+Thu Dec 27 22:08:12 2018 :: EOF encountered on read.
