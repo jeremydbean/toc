@@ -1,0 +1,5753 @@
+#AREA   {10 60} Morgan  The Glitter Palace~
+
+#MOBILES
+#10000
+prince augustus~
+Crown Prince Augustus Starfire~
+Prince Augustus paces the room, but freezes when you enter.
+~
+When you take a closer look you see that the Crown Prince has the shakes.
+Not at all the regal figure you expected to find ....
+~
+human~
+BCGHTM CDEFHN 1000 M
+61 35 200d2+8850 0d0+200 9d6+45 17
+-20 -20 -20 -20
+ILNR ABQ BQ 0
+8 8 1 0
+AHMV 0 M 0
+{}
+#10001
+princess semele~
+Princess Semele~
+Princess Semele Starfire is sleeping in the royal bed.
+~
+You can see that she's just been through labour. Her newborn child, Dion, has
+been brought to safety by some of the guardians. Her defiant look halts you.
+You are baffled by such a regal person. You can do nothing, but kneel before
+her and bow your head in silence.
+~
+human~
+BGQM CDEFHN 1000 M
+61 40 200d2+8950 100d2+950 9d6+50 20
+-22 -22 -22 -21
+LNR ABQ BQ 0
+8 8 2 0
+AHJMV 0 M 0
+{}
+#10002
+countess diluna~
+Countess DiLuna~
+Before you stands Countess DiLuna, leader of sector sixteen.
+~
+Countess Diluna is Warlord of sector sixteen. A sector with warrior-women
+planets, where women rule over men. She glares at you and is disgusted by 
+your pitiful appearance ... After all ... you are only a male.
+~
+human~
+BCGTM CDFHN 500 M
+54 33 100d2+4200 0d0+100 7D6+38 17
+-20 -20 -20 -15
+IJLNR ABQ BQ 0
+8 8 2 0
+AHMV 0 M 0
+{}
+#10003
+warrior woman~
+the warrior-woman~
+A tall warrior-woman stands here, shielding the Countess.
+~
+The moment you set your eyes on her you understand that you'd better not mess
+with her or her mistress.
+~
+human~
+BCGTM CDF 500 M
+51 24 100d2+2500 0d0+100 5d8+35 17
+-19 -19 -19 -15
+ILNR ABQ BQ C
+8 8 2 0
+AHMV 0 M 0
+{}
+#10004
+guard~
+the palace guard~
+A palace guard stands here guarding the elevator.
+~
+He tells you :'DON'T EVEN THINK ABOUT GETTING PAST ME, YOU'RE NOTHING BUT
+	       A NUISANCE ... AND DON'T BOTHER ME AGAIN, OR I'LL HAVE YOU
+	       IN IRONS !!'.
+~
+human~
+BGT CFH 500 M
+48 25 100d2+2550 0d0+100 6d6+25 17
+-19 -19 -19 -14
+ILN ABQ BQ 0
+8 8 1 5000
+AHMV 0 M 0
+{}
+#10005
+royal guard~
+the royal guard~
+The Royal Guard guards the entrance to his king's chambers.
+~
+He urges you to reconsider and go away .... he doesn't want to hurt you.
+~
+human~
+BFGT CFH 600 M
+49 27 100d2+2650 0d0+100 4d10+28 17
+-20 -20 -20 -15
+ILN ABQ BW C
+8 8 1 6000
+AHMV 0 M 0
+{}
+#10006
+blood royal guardian~
+the Blood Royal~
+A member of the Blood Royal eyes you suspiciously.
+~
+He is clad in indigo blue velvet robes and on his breast glitters a precious
+starjewel, carved into an eight-pointed star ... he's armed and don't under-
+estimate his mental powers ... remember he has pledged his life to the royal
+family ... he's prepared to die ... are you ??
+~
+human~
+BGRM CDEFHN 750 M
+60 35 100d2+3900 30d2+560 7d8+40 19
+-22 -23 -22 -22
+FILNR ABQ BCPQ 0
+8 8 1 9000
+AHJMV 0 M 0
+{}
+#10007
+little girl~
+the little lady~
+The little girl cringes in terror.
+~
+The little lady watches you anxiously ... you figure she's about fourteen
+years old ... the poor thing was probably getting ready to go to her
+first ball, when suddenly, the rebels began their attack.
+~
+human~
+BGHT CHNQ 650 M
+45 17 100d2+2200 0d0+100 8d4+17 22
+-17 -17 -17 -12
+ILN ABQ BQ CP
+8 8 2 0
+AMV 0 S 0
+{}
+#10008
+lady waiting~
+the lady in waiting~
+The lady in waiting begins to shield her mistress.
+~
+You see a pretty looking lass ... she's quite young herself, and as frightened
+as the young girl she takes care of ... can't you have pity on them ??
+~
+human~
+BGHT CHQ 550 M
+47 19 100d2+2400 0d0+100 6d6+18 22
+-19 -19 -19 -14
+ILNR ABQ BQ CP
+8 8 2 0
+AHMV 0 M 0
+{}
+#10009
+bear olefsky~
+Bear Olefsky~
+Bear Olefsky helps his people gathering their stuff.
+~
+Bear Olefsky is ruler of the planetary system of Solgart. His people come
+from icy planets and the climate has made them into very tough people. He
+looks very worried ... on the one hand he wants to stay at the palace and
+help fight the rebels, on the other hand he knows it's a losing fight and
+that he can't afford to be captured or killed, since his people will be
+needing him in the Solgart system now more than ever.
+~
+human~
+BGT CDFHN 750 M
+55 35 100d2+4300 0d0+100 10d4+40 17
+-20 -21 -20 -15
+IN ABQ BQ 0
+8 8 1 0
+AHMV 0 M 0
+{}
+#10010
+warlord rykilth~
+Warlord Rykilth~
+Warlord Rykilth is ordering his servants to hurry up.
+~
+Rykilth is warlord of sector twenty-four. The sector of the vaporbreathing
+race. Inside his helmet you see some swirling fog changing color. It's
+turning dark brownish, which means he's becoming cautious. He obviously
+does not trust you.
+~
+vaporbreather~
+BGT CDFH 200 M
+52 40 100d2+4000 0d0+100 6d7+36 17
+-21 -21 -20 -16
+IN ABQ BQ F
+8 8 1 0
+ABHMV 0 M 0
+{}
+#10011
+page~
+the page~
+A page is running through the hallways, warning people about the attack.
+~
+The page starts running to you and just when he wants to warn you about the
+rebel's assault, he notices that you are not supposed to be here ... he turns
+white and starts running in the other direction yelling : 'They are already
+here !!!'.
+~
+human~
+BGHT C 500 M
+44 18 50d2+2200 0d0+100 8d4+19 17
+-17 -17 -17 -12
+IN ABQ BQ CP
+8 8 1 2500
+AHMV 0 M 0
+{}
+#10012
+platus~
+the ghost of Platus~
+A transluscent form roams the room ...
+~
+You realize it's the same man/thing you saw before ... he's not surprised to
+see you, you wonder if anything can ever surprise him anymore, he doesn't
+even take notice of you ... drat you wonder what his name was again ??
+~
+ghost~
+BGR BCDEFHNU 750 M
+43 30 100d2+2900 50d2+480 4d8+40 19
+-18 -18 -18 -16
+GIN ABQ BCPQ HJN
+8 8 1 0
+EHJKM 0 M 0
+{}
+#10013
+mutant spider tarantula~
+the mutated spider~
+A GIGANTIC TARANTULA crawls towards you, saliva dripping from its fangs.
+~
+Somehow, long ago, something must have happened that mutated a spider, and
+let it become the monster that is attacking you now ...
+~
+spider~
+BCFGT CDEFJK -750 M
+41 24 50d2+2200 0d0+150 4d8+32 30
+-18 -18 -18 -13
+IN ABLQ BQ CHJKN
+8 8 0 0
+ABGP 0 M 0
+{}
+#10014
+minister~
+the Minister of Protocol~
+The Minister of Protocol is fussing about rules and regulations.
+~
+When he spots you, he turns red, fumes ... and bellows to you : 'What are you
+doing here ?? Do you have written permission ... in three-fold ?? And look at
+the way you are dressed, not to mention the state your clothes are in and ...
+blah !!! You smell terrible, go take a bath !! I will report this to your
+superiors, be certain of that !! ... and off he is, having spotted yet another
+person who has broken the Protocol.
+~
+human~
+CGHT CHN 550 M
+39 15 15d5+1700 0d0+100 5d6+15 17
+-15 -15 -15 -10
+IN ABQ BQ C
+8 8 1 6000
+AHMV 0 M 0
+{}
+#10015
+chamberlain~
+the Royal Chamberlain~
+The Royal Chamberlain sighs and prepares to make a stand.
+~
+You are astounded to find out that he's quite calm now ... and that, in his
+hand, he's holding quite a dangerous looking blade ...
+~
+human~
+BCGT CHN 550 M
+38 15 10d5+1600 0d0+100 5d6+16 17
+-15 -15 -15 -10
+IN ABQ BQ C
+8 8 1 5000
+AHMV 0 M 0
+{}
+#10016
+captain~
+the captain~
+The captain of the palace guard is checking all the rooms.
+~
+You see a noble man, hardened by countless battles for his king. His
+experience tells him that they're fighting a losing battle... still, he's
+content with the thought he's going to die fighting for his king and not of 
+old age. The captain checks all the rooms and evacuates all who hasn't left 
+yet.
+~
+human~
+CGT CFN 600 M
+37 20 10d5+1500 0d0+100 3d10+19 17
+-14 -15 -14 -9
+EIN ABQ BQ 0
+8 8 1 2000
+AHMV 0 M 0
+{}
+#10017
+loyalist man militia~
+the loyalist~
+A man at arms of the Royal Ground Forces stands in front of you.
+~
+The soldier was and is loyal to his king. He is desperately seeking for a way
+to the higher levels ... aren't you too ??
+~
+human~
+CGT CN 600 M
+35 20 200d2+900 0d0+100 4d7+18 17
+-13 -13 -13 -8
+IN ABQ BQ 0
+8 8 1 1000
+AHMV 0 M 0
+{}
+#10018
+guardian blood royal~
+the guardian~
+A member of the Blood Royal observes you calmly.
+~
+He is clad in the ceremonial indigo blue velvet robes and on his breast
+glitters a precious starjewel, carved into an eight-pointed star ... he's
+been invited by the king for this banquet, as were all the guardians ...
+and so it was that all the guardians were in the same spot, at the same time
+and all unarmed, since nobody was allowed to wear weapons when they were near
+the king ... and his mental powers were useless against Abdiel's mind-dead ...
+~
+human~
+BCGR CDEFHN 750 M
+33 30 10d3+1850 10d3+280 11d3+35 19
+-13 -14 -13 -13
+FIN ABQ BCPQ 0
+8 8 1 4500
+AHJMV 0 M 0
+{}
+#10019
+prior~
+the prior~
+A Prior in the Order of Adamant prays here to the Creator.
+~
+He's kneeling before an obsidian altar, arranged on it are a small dish, rare
+and costly perfumed oil, a silver chalice and a dagger, whose hilt is formed
+by an eight-pointed star.
+~
+human~
+BCGQR CDEFHN 1000 M
+35 17 10d5+1640 10d4+400 4d6+16 20
+-13 -13 -13 -10
+ILN ABQ BQ 0
+8 8 1 3000
+AHMV 0 M 0
+{}
+#10020
+priest brown~
+the Priest~
+A Priest in the Order of Adamant is praying to the Creator.
+~
+He is wearing a brown robe. On his right arm you can see a lot of nasty scars
+... they seem to be self-inflicted. His vows forbid him to lay hands on any
+mortal weapon.
+~
+human~
+BCGQ CDEFHN 750 M
+31 18 12d3+900 10d3+360 2d12+14 20
+-10 -10 -10 -7
+ILN ABQ BQ 0
+8 8 1 750
+AHMV 0 M 0
+{}
+#10021
+warrior black warrior-priest~
+the Warrior-Priest~
+A Warrior-Priest in the Order of Adamant is guarding his brothers.
+~
+He is wearing a black velvet robe. He also bears scars on his right arm, but
+he's got ones on other places too, although those are battle scars and not
+self-inflicted as are those on his right arm. He's wielding a silver dagger ...
+as a warrior-priest he IS allowed to handle mortal weapons.
+~
+human~
+BGT CDEFHN 750 M
+32 20 10d4+1420 0d0+300 6d4+18 20
+-13 -14 -13 -10
+EILNR ABQ BQ 0
+8 8 1 1500
+AHMV 0 M 0
+{}
+#10022
+mikael~
+the Mikael~
+Mikael walks through the room directing the mind-dead towards you.
+~
+You see one of the mind-dead ... this is one of Abdiel's favourites and thus
+called Mikael - you see, Abdiel calls all his favorites Mikael. Abdiel's 
+mental powers allowed him to drain this man's soul and make it into one of 
+his mind- deads.
+~
+mind-dead~
+CGT CDEFNQ -750 M
+28 16 12d3+728 5d6+135 2d12+16 18
+-10 -10 -10 -5
+EIJN ABPQ BQ HJNO
+8 8 0 2150
+ADM 0 M 0
+{}
+#10023
+mind-dead minddead undead~
+the mind-dead~
+The mind-dead walks through the room oblivious to you ... for now.
+~
+You can see the difference in its eyes ... they are so ... so ... so empty
+... dead, or rather undead ... His soul has been totally drained by Abdiel's
+mental powers.
+~
+mind-dead~
+CGT CDEFNQ -750 M
+26 15 10d2+645 5d5+130 3d7+15 18
+-9 -9 -9 -4
+EIN ABPQ BQ HJNO
+8 8 0 1750
+ADM 0 M 0
+{}
+#10024
+khardan alchemist~
+Khardan the alchemist~
+Khardan the alchemist is preparing several potions.
+~
+Khardan is clad in dark green robes. From his belt hang several pouches with
+all kinds of herbs and minerals in it. He stands ready to fight intruders.
+~
+human~
+BGR CDFHN -800 M
+25 17 10d3+518 10d3+275 3d6+14 30
+-8 -8 -8 -4
+CN ABQ BCPQ 0
+8 8 1 2000
+AHMV 0 M 0
+{}
+#10025
+jack ripper~
+Jack the Ripper~
+Jack sneaks up on you from behind and brings down his long knife.
+~
+Jack's life is all about butchering. Somehow when he's around knives, he gets
+an irresistible urge to cut meat.
+~
+human~
+BCGT C -900 M
+24 15 10d3+518 0d0+100 2d10+14 17
+-7 -7 -7 -3
+IJN ABQ BQ N
+8 8 1 1500
+AHMV 0 M 0
+{}
+#10026
+huey md medic doctor~
+Dr. Huey~
+Dr. Huey is busy, attending the wounded.
+~
+He glances at you and raises his eyebrow : 'there's nothing wrong with you !!
+why are you wasting my time ??'.
+~
+human~
+BGT CHN 600 M
+23 14 10d3+468 0d0+100 3d6+13 17
+-7 -7 -7 -2
+CN ABQ BQ 0
+8 8 1 1200
+AHMV 0 M 0
+{}
+#10027
+nurse~
+the nurse~
+A nurse is assisting the doctor.
+~
+You notice how calm she's under the situation. She tells you she's got no time
+for you : 'There are real patients who do need my help !!'.
+~
+human~
+BGT CHN 600 M
+21 11 10d2+378 0d0+100 4d4+11 22
+-5 -5 -5 -1
+IN ABQ BQ 0
+8 8 2 400
+AHMV 0 M 0
+{}
+#10028
+pauline tailor~
+Pauline the tailor~
+Pauline stands here fuming with rage.
+~
+Pauline's determined to fend off any rebel, who wants to enter and loot her
+shop.
+~
+human~
+BCGT CH 400 M
+20 10 2d9+339 0d0+100 2d8+10 22
+-4 -4 -4 0
+IN ABQ BQ 0
+8 8 2 1000
+AHMV 0 M 0
+{}
+#10029
+innkeeper dardanus~
+Dardanus~
+Dardanus, the innkeeper grimly draws his sword.
+~
+The innkeeper eyes you with distrust. He has seen a lot of people in his life
+and been through a lot. If you are one of the rebels ... be warned, he won't
+give that up easily.
+~
+human~
+BCGT CH 450 M
+19 7 2d9+313 0d0+100 2d8+10 17
+-4 -4 -4 0
+EFIN ABQ BQ 0
+8 8 1 800
+AHMV 0 M 0
+{}
+#10030
+john doe~
+John Doe~
+John Doe is hiding behind the counter.
+~
+John Doe's profession is being a baker, not a fighter !! So don't be so
+surprised to find him hiding behind the counter !!!
+~
+human~
+BCGHT CH 0 M
+18 6 2d9+288 0d0+100 2d7+4 17
+-3 -3 -3 0
+IN ABQ BQ CP
+8 8 1 600
+AHMV 0 M 0
+{}
+#10031
+cook~
+the cook~
+A very nervous looking man is preparing some hot meals.
+~
+When he sees you he drops to the ground and yammers something about it not
+being his fault that dinner isn't ready yet ... after a while he notices you
+are not one of the rebels and his face brightens at first; then he realizes
+that you're probably up to no good either.
+~
+human~
+BCGHT CHN 400 M
+17 6 2d9+262 0d0+100 3d4+4 17
+-3 -3 -3 0
+IN ABQ BQ 0
+8 8 1 700
+AHMV 0 M 0
+{}
+#10032
+militia man rebel~
+the rebel~
+A militia-man of the Rebel Armed Forces stands here on guard duty.
+~
+He shows no flaws ... no wonder cause he's under the command of Citizen's
+General Derek Sagan.
+~
+human~
+BGT C 100 M
+16 5 2d9+236 0d0+100 2d6+5 17
+-2 -2 -2 1
+IN ABQ BQ 0
+8 8 1 450
+AHMV 0 M 0
+{}
+#10033
+collaborator~
+the collaborator~
+A collaborator stands here watching you and wonders on who's side you are.
+~
+Blahh!! it takes all your will-power to look his way, you can't help but 
+loathe him.
+~
+human~
+GHT C -400 M
+14 4 2d10+174 0d0+100 1d12+3 17
+-1 -1 -1 1
+IN ABQ BQ N
+8 8 1 300
+AHMV 0 M 0
+{}
+#10034
+commander guard~
+the commander~
+The commander of the Home Guard is tied to a chair and unconsious.
+~
+He opens his eyes one last time and murmurs : 'I did not talk ....'
+~
+human~
+BGT CR 750 M
+14 6 2d10+197 0d0+100 1d13+4 17
+-1 -2 -1 1
+IN ABQ BQ 0
+8 8 1 500
+AHMV 0 M 0
+{}
+#10035
+rebel mob~
+the rebel mob~
+A rebel mob is looting the palace.
+~
+You can see the greed in his eyes ... you won't be able to reason with him,
+you had better bash some sense into him.
+~
+human~
+GHT C -650 M
+12 2 2d10+150 0d0+100 1d10+3 17
+0 0 0 1
+IN ABQ BQ N
+8 8 1 500
+AHMV 0 M 0
+{}
+#10036
+peter robes president~
+Peter Robes~
+Self-elected President Peter Robes stands right in front of you.
+~
+The evil Abdiel, last priest in the order of Dark Lightning, desired to
+rule the galaxy and thus planned the rebellion to kill the royal family and
+replace them by someone, who he controlled. He also made sure that almost all
+of his sworn enemies, the priests of the order of Adamant, were exterminated
+in the process. After the rebellion he named Peter Robes, a former scientist,
+president and let him form a 'democratic' council. Robes was an easy prey for
+Abdiel's mental powers.
+~
+human~
+CGHT C -750 M
+10 1 2d7+121 0d0+100 4d2+2 17
+1 1 1 1
+ILN ABQ BQ N
+8 8 1 200
+AHMV 0 M 0
+{}
+#10037
+palace guard loyal loyalist~
+the palace guard~
+A loyal palace guard is fighting for his life.
+~
+Betrayed by some of his buddies ... attacked by creepy undead ... you can see
+he's still quite young.  You see a few streaks of dried-up tears on his face,
+but he's determined now ... together with a few other loyalists he prepares
+to make his last stand.
+~
+human~
+BGT CFN 750 M
+13 4 2d10+170 0d0+100 5d2+4 17
+-1 -1 -1 1
+ILN ABQ BPQ 0
+8 8 1 300
+AHMV 0 M 0
+{}
+#10038
+blood royal guardian~
+the Blood Royal~
+A female Blood Royal eyes you suspiciously.
+~
+She is clad in indigo blue velvet robes and on her breast glitters a precious
+starjewel, carved into an eight-pointed star ... she's armed and don't under-
+estimate her mental powers ... don't forget she has pledged her life to the
+royal family ... she's prepared to die ... are you ??
+~
+human~
+BGMR CDEFHN 750 M
+61 35 100d2+3700 30d2+640 7d8+40 19
+-22 -23 -22 -22
+FILNR ABQ BCPQ 0
+8 8 2 9000
+AHJMV 0 M 0
+{}
+
+#0
+
+#OBJECTS
+#10000
+sceptre crystal crystalline~
+the Crystalline Sceptre of Commanding~
+A Sceptre made of the purest crystal lies here on the ground, forgotten.~
+crystal~
+9 AGHKLMV AO
+14 13 14 2 0
+50 14 6000 P
+E
+sceptre crystal crystalline~
+   In your hand you hold the powerful `Sceptre of Commanding', which will
+help its owner to command his or her troops. But beware ... great experience
+is needed to use it safely and it also tends to drain its holder physically.
+~
+A
+3 1
+A
+4 2
+A
+13 -25
+A
+18 4
+A
+19 5
+#10001
+crystalline white sword justice~
+(Flaming) the Crystalline Sword of Justice~
+(Flaming) A Sword, white and made of the purest crystal lies here.~
+crystal~
+5 GHIKLMV AN
+1 19 3 3 0
+50 18 4000 P
+E
+sword crystalline crystal white justice~
+In your hand you hold the mighty `Sword of Justice', it will help its owner
+to dissuade opponents from evil ... then the sword begins to speak to you:
+
+    ... if you will believe with me that the soul is immortal and able to
+    endure all good and ill, we shall keep always to the upward way and in
+    all things pursue justice with the help of wisdom. Then we shall be at
+    peace with Heaven and ourselves, both during our sojourn here and when,
+    like victors in the Games collecting gifts from their friends, we
+    receive the prize of justice; and so, not here only, but in the journey
+    of a thousand years of which I have told you, we shall fare well.
+
+						       Plato, The Republic
+~
+A
+1 1
+A
+2 1
+A
+17 -8
+A
+18 8
+A
+19 8
+#10002
+diadem crystal crystalline~
+the Crystalline Diadem of Perception~
+A Diadem made of the purest crystal lies here on the ground.~
+crystal~
+9 AGHIKLMV AE
+14 13 13 2 0
+50 16 6000 P
+E
+diadem crystalline crystal~
+   In your hand you hold the beautiful `Diadem of Perception', which will
+help its owner to concentrate better ... however beware : concentration and
+protection don't always go together.
+~
+A
+3 2
+A
+4 1
+A
+12 100
+A
+13 -50
+A
+14 -100
+A
+17 30
+#10003
+crystal robe crystalline~
+the Crystalline Robe of Shielding~
+A rich flowing crystalline white Robe, made of the purest crystal lies here.~
+crystal~
+9 AGHIKLMV AD
+14 14 14 3 0
+50 24 9000 P
+E
+robe crystalline crystal~
+   In your hands you hold the famous Robe of Shielding, which will grant its
+wearer divine protection.
+~
+A
+12 40
+A
+13 -20
+A
+14 -50
+A
+17 -15
+A
+18 5
+A
+19 3
+A
+23 -8
+A
+24 -10
+#10004
+crystal cloak crystalline~
+the Crystalline Royal Cloak~
+A purple rimmed, crystalline cloak lies on the ground.~
+crystalline~
+9 AGHIKLMV AC
+14 13 14 1 0
+50 16 3000 P
+A
+18 3
+A
+19 5
+#10005
+crown crystal crystalline~
+the Crystalline Crown of Perception~
+A Crown made of the purest crystal lies here on the ground.~
+crystal~
+9 AGHIKLMV AE
+14 13 13 2 0
+49 14 6500 P
+E
+crown crystalline crystal~
+   In your hand you hold the beautiful `Crown of Perception', which will
+help its owner to concentrate better ... however beware : concentration and
+protection don't always go together.
+~
+A
+3 2
+A
+4 1
+A
+12 100
+A
+13 -50
+A
+14 -100
+A
+17 30
+#10006
+crystalline white dagger~
+(Flaming) the Crystalline Dagger of Wonders~
+(Flaming) A Dagger, white and made of the purest crystal lies here.~
+crystal~
+5 GHIKLMV AN
+2 6 12 2 0
+49 4 4000 P
+E
+dagger crystalline crystal white~
+   In your hand you wear the remarkable `Dagger of Wonders', especially made
+for magi.  It is light and easy to wield and perfectly fit to hide within 
+the folds of the fabric of one's robe.
+~
+A
+1 1
+A
+2 1
+A
+17 -6
+A
+18 5
+A
+19 7
+#10007
+purse gold coins~
+a purse~
+A purse lies here, waiting to be picked up.~
+leather~
+20 AV A
+3000 0 0 0 0
+1 30 0 P
+#10008
+ceresian battle armor~
+(Dark) a Ceresian battle armor~
+(Dark) Some strange looking body armor lies on the ground.~
+tungsten~
+9 CGIKRV AD
+14 14 14 1 0
+50 35 4500 P
+E
+ceresian battle armor~
+This armor has been blessed by the Goddess Ceres.
+~
+A
+14 -10
+A
+17 -15
+A
+18 5
+A
+19 2
+#10009
+ceresian grand axe grand-axe~
+(Dark) a Ceresian Grand-Axe~
+(Dark) A heavily bladed Ceresian Grand-Axe lies in front of your feet.~
+plasteel~
+5 CGIKRV AN
+5 9 6 6 0
+50 27 3800 P
+E
+ceresian grand axe grand-axe~
+This heavy axe has been blessed by the Goddess Ceres.
+~
+A
+1 2
+A
+17 -6
+A
+18 5
+A
+19 6
+#10010
+ceresian cloak~
+(Dark) a Ceresian royal cloak~
+(Dark) A red rimmed cloak lies on the ground.~
+brocade~
+9 CGIKV AC
+14 13 14 1 0
+50 10 1800 P
+E
+ceresian royal cloak~
+This cloak has been blessed by the Goddess Ceres.
+~
+A
+17 -5
+A
+18 2
+A
+19 2
+A
+24 -5
+#10011
+ceresian leggings~
+(Dark) a pair of Ceresian battle armor leggings~
+(Dark) Some strange looking leggings lie on the ground.~
+tungsten~
+9 CGIKRV AF
+14 14 14 0 0
+50 20 1800 P
+E
+ceresian leggings~
+These leggings have been blessed by the Goddess Ceres.
+~
+A
+17 -7
+A
+18 3
+A
+19 1
+#10012
+ceresian kite~
+(Dark) a Ceresian kite~
+(Dark) A strange looking kite lies abandoned on the ground.~
+tungsten~
+9 CGIKRV AJ
+14 14 14 3 0
+50 26 2500 P
+E
+kite ceresian~
+This kite has been blessed by clerics of the Goddess Ceres.
+~
+A
+13 -10
+A
+14 -15
+A
+17 -10
+A
+18 4
+A
+19 3
+A
+23 -6
+A
+24 -8
+#10013
+ceresian armor~
+(Dark) a Ceresian body armor~
+(Dark) A strange looking piece of body armor lies in a heap on the ground.~
+tungsten~
+9 CGIKRV AD
+14 14 13 0 0
+50 28 3000 P
+E
+armor ceresian body~
+This piece of body armor has been blessed by clerics of the Goddess Ceres.
+~
+A
+17 -10
+A
+18 3
+A
+19 1
+#10014
+ceresian helmet~
+(Dark) a Ceresian war helmet~
+(Dark) A strange looking helmet lies in a heap on the ground.~
+tungsten~
+9 CGIKRV AE
+14 14 13 0 0
+50 15 3000 P
+E
+helmet ceresian~
+This war helmet has been blessed by clerics of the Goddess Ceres.
+~
+A
+2 1
+A
+17 -10
+A
+18 2
+A
+19 2
+#10015
+ceresian leggings~
+(Dark) a pair of Ceresian leggings~
+(Dark) Some strange looking leggings lie on the ground.~
+tungsten~
+9 CGIKRV AF
+14 14 13 0 0
+50 15 1000 P
+E
+leggings ceresian~
+These leggings have been blessed by clerics of the Goddess Ceres.
+~
+A
+17 -5
+A
+18 2
+#10016
+ceresian war lance~
+(Dark) a Ceresian War Lance~
+(Dark) A strange looking lance lies on the ground.~
+plasteel~
+5 CGIKRV AN
+3 10 5 6 0
+50 12 2000 P
+E
+ceresian lance~
+This war lance has been blessed by clerics of the Goddess Ceres.
+~
+A
+18 2
+A
+19 2
+#10017
+royal breastplate~
+a Royal breastplate~
+A breastplate with the royal crest on it lies on the ground in front of you.~
+tungsten~
+9 GRV AD
+13 13 13 1 0
+49 15 1400 P
+A
+17 -9
+A
+18 3
+A
+19 2
+#10018
+royal leggings~
+a pair of Royal military leggings~
+Some shining leggings lie on the ground.~
+tungsten~
+9 GRV AF
+13 13 13 1 0
+49 10 1200 P
+A
+17 -3
+A
+18 1
+A
+19 1
+#10019
+royal purper cloak~
+a Royal White Cloak~
+An indigo blue rimmed, white cloak lies on the ground.~
+polyester-cotton~
+9 GV AC
+14 13 13 2 0
+49 2 1800 P
+A
+18 1
+A
+19 2
+#10031
+staff protocolaire~
+the Staff Protocolaire~
+A long staff lies on the ground.~
+oak~
+4 AGV AO
+40 18 18 53 0
+39 16 22000 P
+E
+staff protocolaire~
+This staff helps the Minister of Protocol to find those who break protocol.
+The staff is all-seeing and all-knowing ...
+~
+A
+18 3
+A
+19 2
+#10034
+solgartian battle armor~
+a Solgartian battle armor~
+Body armor from another world lies here on the ground.~
+tungsten~
+9 AGIKRV AD
+14 14 14 1 0
+50 35 45000 P
+A
+14 -25
+A
+17 -20
+A
+18 3
+A
+19 4
+#10035
+solgartian saber~
+a Solgartian Saber~
+A Solgartian Saber lies in front of your feet.~
+plasteel~
+5 AGIKRV AN
+1 9 6 6 0
+50 27 3800 P
+A
+1 1
+A
+17 -5
+A
+18 4
+A
+19 7
+#10036
+solgartian cloak~
+a Solgartian royal cloak~
+A light-red rimmed cloak lies on the ground.~
+brocade~
+9 AGIKV AC
+14 13 14 1 0
+50 10 2800 P
+A
+18 2
+A
+19 3
+A
+24 -5
+#10037
+solgartian leggings~
+a pair of Solgartian battle armor leggings~
+Leggings from out of this world lie on the ground.~
+tungsten~
+9 AGIKRV AF
+14 14 14 1 0
+50 12 1800 P
+A
+17 -7
+A
+18 2
+A
+19 2
+#10038
+vapor vaporbreather breather tank~
+a Vaporbreather's life tank~
+A strange looking empty tank has been placed here.~
+tungsten~
+9 BGIKRV AD
+15 16 14 8 0
+50 60 4500 P
+A
+1 -1
+A
+14 -30
+A
+17 -30
+A
+18 6
+A
+19 1
+#10039
+vapor breather vaporbreather needle~
+a Vaporbreather's `Needle'~
+A Vaporbreather's weapon-device lies in front of your feet.~
+plasteel~
+5 BGIKRV AN
+4 9 6 2 0
+50 27 3800 P
+A
+1 2
+A
+17 -6
+A
+18 6
+A
+19 5
+#10040
+vapor breather vaporbreather cloak~
+a Vaporbreather's royal cloak~
+A dark-red rimmed cloak lies on the ground.~
+brocade~
+9 BGIKV AC
+14 14 14 3 0
+50 25 2800 P
+A
+17 -15
+A
+18 4
+A
+19 2
+A
+24 -5
+#10041
+ball-dress ball dress gown~
+a Silk ball-dress, trimmed with ribbons and knots~
+A beautiful silk gown lies folded on a chair.~
+silk~
+9 AKV AD
+14 12 14 2 0
+47 19 2300 P
+A
+17 -15
+A
+18 3
+A
+19 2
+A
+24 -5
+#10042
+scalpel~
+a Sharp scalpel~
+A surgeon's scalpel is left on the ground.~
+steel~
+5 AV AN
+2 7 4 6 0
+23 1 1300 P
+A
+18 3
+A
+19 3
+#10043
+green robes alchemist~
+some green Alchemist robes~
+A piece of green cloth lies on the ground, neatly folded.~
+cotton-wool~
+9 CGJV ADK
+9 9 9 4 0
+25 10 1600 P
+A
+17 -8
+A
+18 2
+A
+19 1
+A
+24 -5
+#10045
+staff alchemist~
+the Swirling oaken staff of Khardan~
+An oaken staff has been firmly put in the ground.~
+oak~
+4 BGJV AO
+30 10 10 28 0
+25 18 2000 P
+A
+18 3
+A
+19 1
+#10046
+robe brown~
+simple Brown Robes~
+A pile of brown cloth has been dropped on the ground.~
+cotton-wool~
+9 AGIKLV ADK
+10 9 8 5 0
+31 10 2100 P
+A
+17 -14
+A
+18 2
+A
+19 2
+A
+24 -8
+#10047
+prayers prayer~
+(Chanted) Prayers to the Creator~
+(Chanted) Prayers to the Creator resound through the hallway.~
+holy words~
+5 GIKLV AN
+0 7 6 8 0
+31 1 2000 P
+A
+18 5
+A
+19 5
+#10048
+black robes robe~
+some Black velvet robes~
+A pile of black cloth lies here on the ground, neatly folded.~
+cotton-wool~
+9 CGIKLV ADK
+11 9 10 5 0
+32 12 2200 P
+A
+17 -14
+A
+18 3
+A
+19 3
+A
+24 -6
+#10049
+dagger silver star~
+a Silver star-hilted dagger~
+A dagger with a hilt, shaped as an eight-pointed star, lies here.~
+silver~
+5 AGIKLV AN
+2 7 6 2 0
+32 10 2300 P
+A
+18 3
+A
+19 7
+#10050
+indigo blue velvet robes~
+some Indigo blue velvet robes~
+A pile of indigo blue cloth lies on the ground.~
+cotton-wool~
+9 AGIKLV ADK
+14 12 14 4 0
+50 12 2600 P
+E
+indigo blue velvet robes~
+The robes are ornamented with small eight-pointed stars on the edgings.
+~
+A
+12 50
+A
+13 -15
+A
+14 -15
+A
+17 -18
+A
+19 2
+A
+24 -12
+#10051
+starjewel~
+(Shining) A Precious Starjewel~
+(Shining) A piece of priceless jewelry lies on the ground, shining vibrantly.~
+starjewel~
+9 GIKLUV AC
+13 12 13 3 0
+50 1 4000 P
+E
+starjewel~
+   It's a VERY rare and expensive jewel, carved in the form of an eight-pointed
+star and given to the Blood Royal by the king. It is said that, as long as the
+rightful owner lives, the starjewel will shine brightly ... but that it will
+become nothing more than a dark, lifeless, stone when the rightful owner dies,
+or when the jewel is unjustly taken from him.
+~
+A
+12 50
+A
+17 10
+A
+18 4
+A
+19 4
+#10052
+bloodsword blood saber~
+(Flaming) A Light Saber~
+A Guardian's Bloodsword has been left here in its sheath.~
+energy~
+5 GIKLMUV AN
+0 20 3 1 0
+50 15 5500 P
+E
+blood bloodsword saber~
+   The bloodsword is a weapon made by and for the Blood Royals. It's a
+Light Saber that can be used to attack or to form a shield ... however, when
+you wield the Saber, tiny needles will protrude from its hilt, injecting micro-
+machines that will find their way through your neuro-system and establish a
+link between your brain functions and the Saber. Some guardians were even able
+to create a mindlink with each other through the bloodsword. However only the
+Blood Royals can survive the micro-machines, through their manipulated genes...
+common mortals will die an agonizing death as a result of a corrupted nervous
+system. Use of the Saber reduces your mental stamina, until ultimately one is
+totally drained of one's mental energy ...
+
+   As soon as you hold the hilt of the bloodsword in your hand, your hand
+begins to sting painfully and a flaming energy blade appears. Then, by a mere
+thought from you, the bloodsword switches to its defensive mode and the blade
+is replaced by a wavering energy shield.
+~
+A
+1 -3
+A
+3 -4
+A
+4 -4
+A
+5 -2
+A
+12 -75
+A
+13 -50
+A
+14 -85
+A
+17 -20
+A
+18 9
+A
+19 9
+A
+24 -10
+#10056
+bloodsword blood saber~
+(Translucent) A Light Saber~
+(Translucent) A Guardian's Bloodsword has been left here.~
+energy~
+5 GIKLMUV AN
+0 7 7 1 0
+43 10 4500 G
+E
+blood bloodsword saber~
+   The bloodsword is a weapon made by and for the Blood Royals. It's a
+Light Saber that can be used to attack or to form a shield ... however, when
+you wield the Saber, tiny needles will protrude from its hilt, injecting micro-
+machines that will find their way through your neuro-system and establish a
+link between your brain functions and the Saber. Some guardians were even able
+to create a mindlink with each other through the bloodsword. However only the
+Blood Royals can survive the micro-machines, through their manipulated genes...
+common mortals will die an agonizing death as a result of a corrupted nervous
+system. Use of the Saber reduces your mental stamina, until ultimately one will
+be totally drained of ones mental energy ...
+
+   This particular one is Platus' bloodsword ... it has turned ghostly
+translucent with him, lost some of its powers, but is a mighty saber still.
+
+   As soon as you hold the hilt of the bloodsword in your hand, your hand
+begins to sting painfully and a flaming energy blade appears. Then, by a mere
+thought from you, the bloodsword switches to its defensive mode and the blade
+is replaced by a wavering energy shield.
+~
+A
+1 -2
+A
+3 -3
+A
+4 -3
+A
+5 -2
+A
+12 -50
+A
+13 -35
+A
+14 -50
+A
+17 -15
+A
+18 5
+A
+19 7
+A
+24 -6
+#10058
+indigo blue velvet robes~
+some Indigo blue velvet robes~
+A pile of indigo blue cloth lies on the ground.~
+cotton-wool~
+9 AGIKLUV ADK
+14 12 14 4 0
+33 13 1800 P
+E
+indigo blue velvet robes~
+The robes are ornamented with small eight-pointed stars on the edgings.
+~
+A
+12 30
+A
+13 -10
+A
+14 -10
+A
+17 -10
+A
+19 2
+A
+24 -8
+#10059
+starjewel~
+(Shining) A Precious Starjewel~
+(Shining) A piece of priceless jewelry lies on the ground, shining vibrantly.~
+starjewel~
+9 GIKLUV AC
+13 12 13 3 0
+33 1 4000 P
+E
+starjewel~
+   It's a VERY rare and expensive jewel, carved in the form of an eight-pointed
+star and given to the Blood Royal by the king. It is said that, as long as the
+rightful owner lives, the starjewel will shine brightly ... but that it will
+become nothing more than a dark, lifeless, stone when the rightful owner dies,
+or when the jewel is unjustly taken from him.
+~
+A
+12 30
+A
+17 5
+A
+18 3
+A
+19 3
+#10060
+indigo blue velvet robes~
+(Translucent) some Indigo blue velvet robes~
+(Translucent) A pile of indigo blue cloth lies on the ground.~
+cotton-wool~
+9 AGIKLUV ADK
+13 12 13 4 0
+43 12 2000 G
+E
+indigo blue velvet robes~
+   These robes belong to Platus and have turned ghostly translucent with him.
+You can look right through the fabric and the small eight-pointed stars that
+decorate the edgings can only be faintly seen.
+~
+A
+12 40
+A
+13 -10
+A
+14 -5
+A
+17 -14
+A
+19 2
+A
+24 -10
+#10061
+starjewel~
+(Translucent) A Precious Starjewel~
+(Translucent) A piece of jewelry lies on the ground, it was priceless once.~
+starjewel~
+9 GIKLUV AC
+12 11 12 2 0
+43 1 2700 G
+E
+starjewel~
+   It's a VERY rare and expensive jewel, carved in the form of an eight-pointed
+star and given to the Blood Royal by the king. It is said that, as long as the
+rightful owner lives, the starjewel will shine brightly ... but that it will
+become nothing more than a dark, lifeless, stone when the rightful owner dies,
+or when the jewel is unjustly taken from him.
+
+   This particular one is Platus' starjewel ... it has turned ghostly
+translucent with him and lost some of its powers ...
+~
+A
+12 40
+A
+17 10
+A
+18 3
+A
+19 3
+#10020
+standard military battle armor~
+a Standard military battle armor~
+A common battle armor lies on the ground in front of you.~
+leather~
+9 G AD
+0 0 0 0 0
+-1 6 300 P
+A
+17 -8
+A
+18 2
+A
+19 1
+#10021
+standard military leggings~
+a pair of Standard military leggings~
+Some shining leggings lie in front of you.~
+leather~
+9 G AF
+0 0 0 0 0
+-1 5 100 P
+A
+18 1
+A
+19 1
+#10022
+blue cloak~
+a Blue rimmed, white cloak~
+A blue rimmed, white cloak lies on the ground.~
+cloth~
+9 G AC
+0 0 0 0 0
+-1 4 280 P
+A
+18 2
+A
+19 2
+#10023
+war lance~
+a Standard military War Lance~
+A war lance has been placed against the wall.~
+wood~
+5 A AN
+3 0 0 6 0
+-1 3 150 P
+A
+17 -5
+A
+18 3
+A
+19 4
+#10024
+war blade~
+a Standard military War blade~
+A sturdy blade has been placed against the wall.~
+steel~
+5 A AN
+1 0 0 3 0
+-1 4 200 P
+A
+17 -5
+A
+18 2
+A
+19 2
+#10025
+rebel assault weapon sword~
+a Rebel assault-weapon~
+A weird looking device lies on the ground.~
+steel~
+5 E AN
+0 0 0 6 0
+-1 4 200 P
+A
+17 -2
+A
+18 6
+A
+19 2
+#10026
+rebel jumpsuit~
+a Rebel jumpsuit~
+Some clothes, made of a strange fabric lies here.~
+cloth~
+9 E AD
+0 0 0 0 0
+-1 5 210 P
+A
+17 -4
+A
+18 2
+#10027
+roman breastplate~
+a Roman-style breastplate~
+A Roman-like breastplate lies here ... a phoenix is engraved in it.~
+bronze~
+9 G AD
+0 0 0 0 0
+-1 5 210 P
+E
+roman breastplate~
+The breastplate is a simplified copy of Lord Sagan's armor and has a phoenix
+engraved in it.
+~
+A
+17 -5
+A
+18 2
+A
+19 1
+#10028
+roman leggings~
+a pair of Roman-style leggings~
+Some Roman-like leggings lie here ... a phoenix is engraved in them.~
+leather~
+9 G AF
+0 0 0 0 0
+-1 5 190 P
+E
+roman leggings~
+The leggings are a simplified copy of Lord Sagan's leggings and a phoenix has
+been engraved in them.
+~
+A
+18 2
+#10029
+roman sword short~
+a Roman-style short sword~
+A Roman-like short sword lies on the ground.~
+bronze~
+5 0 AN
+1 0 0 3 0
+-1 4 200 P
+E
+roman sword short~
+This sword is an almost exact copy of the short swords used by the ancient
+Roman Legionnaires, only this one has a phoenix engraved in its hilt.
+~
+A
+18 4
+A
+19 5
+#10030
+livery~
+an indigo blue livery~
+A livery lies on the ground, neatly folded.~
+cloth~
+9 AG AD
+0 0 0 0 0
+-1 3 210 P
+E
+livery~
+The livery is made of rich, indigo blue fabrics. A crest, a beautiful silvery
+eight-pointed star, has been woven in it.
+~
+A
+17 -10
+A
+18 3
+A
+24 -3
+#10032
+standard military sword~
+a Standard military sword~
+A medium sword is left on the ground.~
+steel~
+5 0 AN
+1 0 0 6 0
+-1 22 1500 P
+A
+18 2
+A
+19 2
+#10033
+jack knife jack-knife~
+a Jack-knife~
+The strangest looking knife you have ever seen, lies here on the ground.~
+steel~
+5 E AN
+2 0 0 2 0
+-1 21 1000 P
+A
+18 2
+A
+19 4
+#10044
+blue green potion~
+the Swirling blue-green potion, called 'the Wrath of Khardan'~
+A potion with changing blue and green colours lies on the ground.~
+glass~
+10 GJK A
+25 28 200 200 P
+5 3 100 0
+E
+potion blue green~
+You hear the sarcastic laughter of Khardan ...
+~
+#10053
+statue~
+the statue~
+A large obsidian statue stands in a dark corner of the room.~
+stone~
+15 CG 0
+0 0 0 0 0
+1 1000 1 P
+E
+statue~
+You're not familiar with the person the statue resembles. You notice that
+the statue's mouth can be opened and you can't help but wonder what kind of
+things you could put in it ... Gosh, maybe there's already something in it.
+~
+#10054
+tongue tong~
+an obsidian tongue~
+A heavy obsidian tongue lies on the ground.~
+~
+18 0 1
+10096 0 0 0 0
+-1 10 20 P
+#10055
+key~
+a translucent key~
+You can barely see the translucent key that lies here.~
+~
+18 32 1
+10146 0 0 0 0
+1 1 30 P
+#10057
+standard military battle armor~
+a Standard military battle armor~
+A common battle armor lies on the ground in front of you.~
+~
+9 G AD
+0 0 0 0 0
+-1 20 1600 P
+A
+17 -4
+A
+18 2
+#115
+portal~
+A Portal~
+A shimmering portal stands open in the air~
+magic~
+30 0 0
+5 23 0 0 0
+0 10000 0 P
+E
+portal~
+Portal back to the plains
+~
+#0
+
+#ROOMS
+#10000
+Before the crystal bridge.~
+     Just when you want to cross the bridge, a large way-sign catches your
+attention. You admit that you are curious about what it says ... so why not
+read it !!!
+~
+0 CN 2
+D0
+~
+~
+0 0 10001
+E
+sign shield~
+.
+			    THE GLITTER PALACE
+			    ------------------
+
+		     ( Star of the Guardians Trilogy )
+
+		  a Morgan production, (c) September 1994
+			new format in November 1994
+
+The Glitter Palace consists of 5 levels and is meant for players from level 10
+till 50. Open your eyes, look at room descriptions for clues and try look at
+things, use your brain and you'll find what you're looking for ... ignore
+advice in room descriptions at own risk and ohh ... i almost forgot : there
+may be hidden doors without any hints, these will only be shortcuts, so
+missing these won't matter much.
+e.g. what's it, you usually open when you want to go down (or up) ??
+Ask yourself questions like these, find the places where you must use that
+knowledge and beat "the Glitter Palace" !!!!!!!!!!
+p.s.  looking at equipment might give you a clue as to what it will do.
+p.p.s.you might also be able to open doors with e.g. either: open e, or open
+      east, open w, or open west, etc.
+3p.s  have lots of fun while working your way up !
+~
+S
+#10001
+A crystal bridge.~
+     You are walking on a crystal bridge. In the far the Glittering Palace
+towers above you ... you also seem to hear some noises now.
+~
+0 N 2
+D0
+~
+~
+0 0 10002
+D2
+~
+~
+0 0 10000
+S
+#10002
+Royal Island.~
+     You step off the bridge and clearly hear sounds of a raging battle ...
+OHHH MY GOD .... THE PALACE IS UNDER ATTACK !!! ....
+To the north the gates of the Glitter Palace tower above you.
+~
+0 N 2
+D0
+~
+gate door north n~
+1 0 10003
+D2
+~
+~
+0 0 10001
+S
+#10003
+The Glitter Palace's Grand Gate.~
+     Once proud palace guards lie on the ground ... nothing much remains of
+them but a bloody pulp, Jeeezzz you sure you wanna get caught up in the middle
+of this ??
+~
+0 DN 0
+D0
+~
+gate door north n~
+1 0 10004
+D2
+~
+gate door south s~
+1 0 10002
+D3
+~
+door west w~
+1 0 10005
+S
+#10004
+A large hall.~
+     The hall is really big. You notice it's splendidly decorated too ... hmm,
+those gold embroidered rugs would really liven up your place.
+~
+0 DN 0
+D0
+~
+~
+0 0 10006
+D2
+~
+gate door south s~
+1 0 10003
+S
+#10005
+A large guard room.~
+     As you enter the guard room a sickening smell enters your nose ... slain
+guards lie everywhere ...
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10003
+S
+#10006
+A large hall.~
+     Wow, this reception hall is really big and luxuriously decorated too !!
+You can't help but wonder how much those antique chinese vases must have
+costed.
+~
+0 DN 0
+D0
+~
+~
+0 0 10007
+D2
+~
+~
+0 0 10004
+S
+#10007
+A large hall.~
+     The hall is as nicely decorated as before ... still your attention is
+now drawn towards the maimed bodies, strewn on the floor. Some of them were
+members of the Palace Guard ... you can't quite place the others though,
+then you suddenly realize they must be part of the forces that are attacking
+the palace.
+~
+0 DN 0
+D0
+~
+~
+0 0 10008
+D2
+~
+~
+0 0 10006
+S
+#10008
+A high domed intersection.~
+     You are in awe of the craftsmanship of the masons that build this dome ...
+hallways extend to all directions.
+~
+0 DN 0
+D0
+~
+~
+0 0 10025
+D1
+~
+~
+0 0 10015
+D2
+~
+~
+0 0 10007
+D3
+~
+~
+0 0 10009
+S
+#10009
+The western wing.~
+     The sight of more bodies makes you, hmm how shall i say it ..., rather
+uncomfortable.
+~
+0 DN 0
+D1
+~
+~
+0 0 10008
+D3
+~
+~
+0 0 10010
+S
+#10010
+The western wing.~
+     You see a door to the north, there is a sign on the wall.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10011
+D1
+~
+~
+0 0 10009
+D3
+~
+~
+0 0 10012
+E
+sign~
+.
+			 +--------------------+
+			 |'The Officer's mess'|
+			 +--------------------+
+~
+S
+#10011
+The officer's mess.~
+     You see some half eaten meals on some of the tables ... they must have
+left in a hurry ...
+~
+0 DN 0
+D2
+~
+door south s~
+1 0 10010
+S
+#10012
+The end of the western wing.~
+     You can see a door to the south, a sign protrudes above it.
+~
+0 DN 0
+D1
+~
+~
+0 0 10010
+D2
+~
+door south s~
+1 0 10013
+E
+sign~
+.
+		      +--------------------------+
+		      |'Home Guard's head office'|
+		      +--------------------------+
+~
+S
+#10013
+Secretaries office.~
+     You are standing in the secretaries office ... it's empty ... to the
+south you see another door, there's a sign near it.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10012
+D2
+~
+door south s~
+1 0 10014
+E
+sign~
+.
+			    +---------------+
+			    |'C.O.'s office'|
+			    +---------------+
+~
+S
+#10014
+C.O.'s office.~
+     The Commander is tied to his chair, his secretary lies dead on the
+ground. He's being interrogated by the rebels ... why don't you get out,
+while you still can ??
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10013
+S
+#10015
+The eastern wing.~
+     Scorched and ripped tapestries tell you, that a battle has been fought
+here ...
+~
+0 DN 0
+D1
+~
+~
+0 0 10016
+D3
+~
+~
+0 0 10008
+S
+#10016
+The eastern wing.~
+     You can see doors to the north and south. There's a sign hanging from
+the wall.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10017
+D1
+~
+~
+0 0 10019
+D2
+~
+door south s~
+1 0 10018
+D3
+~
+~
+0 0 10015
+E
+sign~
+.
+			+-------------------------+
+			| north - 'Dining room'   |
+			| south - 'Briefing room' |
+			+-------------------------+
+~
+S
+#10017
+A dining room.~
+     Large dinner tables fill the room.~
+0 DN 0
+D2
+~
+door south s~
+1 0 10016
+S
+#10018
+The briefing room.~
+     The walls are covered with all kinds maps and charts, on a table in the
+middle of the room stands a model of the palace and it's perimeter.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10016
+S
+#10019
+The eastern wing.~
+     To the east a charred door hangs out off its hinges.
+~
+0 DN 0
+D1
+~
+~
+0 0 10020
+D3
+~
+~
+0 0 10016
+S
+#10020
+The barracks.~
+     You enter a hallway, it continues to the east and there are doors to the
+north and south.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10021
+D1
+~
+~
+0 0 10023
+D2
+~
+door south s~
+1 0 10022
+D3
+~
+~
+0 0 10019
+S
+#10021
+A sleeping room.~
+     There a neat rows of bunks to each side of the room.
+~
+0 DN 0
+D2
+~
+door south s~
+1 0 10020
+S
+#10022
+A sleeping room.~
+     The place is a mess, beds are overthrown, garments are lying all over
+the place.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10020
+S
+#10023
+The barracks.~
+     The entrance to rooms further east is barricaded, some remaining loyal
+Palace Guards decided to make their last stand here.
+~
+0 DN 0
+D2
+~
+door south s~
+1 0 10024
+D3
+~
+~
+0 0 10020
+S
+#10024
+A sleeping room.~
+     Beds have been hastily wrought into a defensive barrier.  You can see
+some Palace Guards struggling to hold their position.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10023
+S
+#10025
+The northern wing.~
+     Once beautiful vases and mirrors lie now shattered on the ground.
+~
+0 DN 0
+D0
+~
+~
+0 0 10026
+D2
+~
+~
+0 0 10008
+S
+#10026
+The northern wing.~
+     The hall is empty. To the far north you can hear sounds of an on-going
+battle.
+~
+0 DN 0
+D0
+~
+~
+0 0 10027
+D2
+~
+~
+0 0 10025
+S
+#10027
+The northern wing.~
+     A large stairway leads up to the second floor.
+~
+0 DN 0
+D2
+~
+~
+0 0 10026
+D4
+~
+~
+0 0 10028
+S
+#10028
+The royal stairway.~
+     The royal stairway leads up to the second floor and down to the second.
+~
+0 CDN 0
+D4
+~
+~
+0 0 10029
+D5
+~
+~
+0 0 10027
+S
+#10029
+A grand hallway.~
+     The Palace Guards that defended the staircase lie dead at your feet.
+~
+0 DN 0
+D0
+~
+~
+0 0 10030
+D5
+~
+~
+0 0 10028
+S
+#10030
+A grand hallway.~
+     The hall continues to the north. A creepy feeling comes over you ...
+it's as if someone is watching you ...
+~
+0 DN 0
+D0
+~
+~
+0 0 10031
+D2
+~
+~
+0 0 10029
+S
+#10031
+An intersection.~
+     You get the awkward feeling again that somebody is looking at you ...
+jeeeeez man !!!, pull yourself together, you're seeing ghosts.
+~
+0 DN 0
+D0
+~
+~
+0 0 10052
+D1
+~
+~
+0 0 10032
+D2
+~
+~
+0 0 10030
+D3
+~
+~
+0 0 10033
+S
+#10032
+A cul-de-sac.~
+     Some rebel soldiers are guarding an elevator to the east.
+~
+0 DN 0
+D1
+~
+~
+3 0 10179
+D3
+~
+~
+0 0 10031
+S
+#10033
+A grand hallway.~
+     To the west is the business section of the palace.
+~
+0 DN 0
+D1
+~
+~
+0 0 10031
+D3
+~
+~
+0 0 10034
+S
+#10034
+Intersection in the hall of commerce.~
+     The normally crowded hallway is now deserted.
+~
+0 DN 0
+D0
+~
+~
+0 0 10035
+D1
+~
+~
+0 0 10033
+D2
+~
+~
+0 0 10041
+S
+#10035
+The hall of commerce.~
+     You see some shops to the east and west, their name-signs are hanging
+above the doors.
+~
+0 DN 0
+D0
+~
+~
+0 0 10038
+D1
+~
+door east e~
+1 0 10036
+D2
+~
+~
+0 0 10034
+D3
+~
+door west w~
+1 0 10037
+E
+sign signs~
+.
+		     +--------------------------------+
+		     | west - Pauline's emporium      |
+		     | east - John Doe's royal bakery |
+		     +--------------------------------+
+~
+S
+#10036
+John Doe's bakery.~
+     At first you think the room is deserted, but then you see someone
+cowering behind the counter.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10035
+S
+#10037
+Pauline's - Luxurious Outfitters.~
+     Garments of all sorts are stacked on several shelves or hanging in the
+wardrobes. As you enter the shoppe a woman flings herself at you, your best
+guess is that it's Pauline herself, only after a nasty scratch from her nails
+on your face, are you able to make her understand that you're not one of the
+rebels ...
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10035
+S
+#10038
+North end of the hall of commerce.~
+     You see some shops to the east and west, name-signs are attached to
+the wall above the doors.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10039
+D2
+~
+~
+0 0 10035
+D3
+~
+door west w~
+1 0 10128
+E
+sign signs~
+.
+	    +-------------------------------------------------+
+	    | west - Cook's kitchen (commercial presentation) |
+	    | east - The Royal Dragon Talon Inn               |
+	    +-------------------------------------------------+
+~
+S
+#10039
+The Royal Dragon Talon Inn.~
+     As you enter the room, the innkeeper draws his sword, takes a defensive
+position and asks you what your business here is.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10038
+S
+#10040
+Jack, the Ripper's, Butcher Shoppe.~
+     You are standing in a butcher shop, all sorts of meats are hanging from
+and on the walls.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10041
+S
+#10041
+The hall of commerce.~
+     The normally crowded hall now seems quite deserted. To the east is a
+shop, its name-sign is nailed on the wall.
+~
+0 DN 0
+D0
+~
+~
+0 0 10034
+D1
+~
+door east e~
+1 0 10040
+D2
+~
+~
+0 0 10042
+E
+sign~
+.
+		+-------------------------------------------+
+		| east - Jack, the Ripper's, Butcher Shoppe |
+		+-------------------------------------------+
+~
+S
+#10042
+The hall of commerce.~
+     You see a shop to the east, a name-sign is nailed to the door. The
+medical section is to the west.
+~
+0 DN 0
+D0
+~
+~
+0 0 10041
+D1
+~
+door east e~
+1 0 10043
+D2
+~
+~
+0 0 10046
+D3
+~
+~
+0 0 10044
+E
+sign~
+.
+		+--------------------------------------+
+		| east - Khardan's emporium of Alchemy |
+		+--------------------------------------+
+~
+S
+#10043
+Khardan's emporium of Alchemy.~
+     Coloured fumes fill the room, several smashed potions lie on the ground ..
+Suddenly you see a puff of smoke and Khardan the Alchemist slowly fades 
+into existence ... 'WHAT DO YOU SEEK MORTALS ??' You suddenly realize that 
+you're standing in the fluids of Khardan's former opponents. My God!
+What kind of herbs is he using ?!!
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10042
+S
+#10044
+The medical section.~
+     To the west you see a door. There's a sign hanging above it.
+~
+0 DN 0
+D1
+~
+~
+0 0 10042
+D3
+~
+door west w~
+1 0 10045
+E
+sign~
+.
+	      +-------------------------------------------+
+	      | 'Hospital -   day shift by Huey M.D.       |
+	      |           - night shift by D. Howser M.D.' |
+	      +-------------------------------------------+
+~
+S
+#10045
+The hospital.~
+     The hospital is filled with wounded. Dr. Huey and his nurse are doing
+whatever they can to help them.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10044
+S
+#10046
+A cul-de-sac.~
+     The cul-de-sac is quite empty ... makes sense since there's nothing to
+do here and you really can't 'hide' your anxiety to do something, so go do
+something !!!
+~
+0 DN 0
+D0
+~
+~
+0 0 10042
+D2
+~
+hidden~
+4 0 10047
+S
+#10047
+A secret hallway.~
+     To the south you can make out the faint outlines of a door. A sign,
+shaped like an eight-pointed star, is nailed on it.
+~
+0 ADN 0
+D0
+~
+hidden~
+4 0 10046
+D2
+~
+door south s~
+1 0 10048
+E
+sign~
+.
+		    +--------------------------------+
+		    |'Temple of the Order of Adamant'|
+		    +--------------------------------+
+~
+S
+#10048
+Temple of Adamant.~
+     You see rows of empty benches, and in the middle an adamantine shrine.
+~
+0 ADN 0
+D0
+~
+door north n~
+1 0 10047
+D2
+~
+hidden~
+4 0 10049
+E
+shrine~
+
+Hmmm, it's just what it appears to be ... lets have a look on those benches.
+~
+E
+benches bench~
+
+After a quick search in one of the back rooms of the temple, you notice a door
+hidden in the dark.
+~
+S
+#10049
+A dark back passage.~
+     You are walking in the dark hidden passage you found in the temple.
+To the south you hear chanting of arcane words.
+~
+0 ADN 0
+D0
+~
+hidden~
+4 0 10048
+D2
+~
+~
+0 0 10050
+S
+#10050
+An Room of Adamant.~
+Prayers resound in this most holy place :
+    'Gloria in excelsis Deo. Et in terra pax hominibus bonea voluntatis.
+     Laudamus te, benedictus te, adoramus te' ...
+    'Glory to God in the highest, and on earth peace to men of good will.
+     We praise thee, we bless thee, we adore thee' ...
+To the south you can see a dark black shrine of adamant; the Prior is
+kneeling before it.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10049
+D2
+~
+~
+0 0 10051
+S
+#10051
+The shrine of adamant.~
+     The prior is performing rites to give him and his priests divine
+protection, since they can't protect themselves due to their vows of
+non-violence. The only ones of their order who were allowed to wield weapons
+were the black robed warrior-priests ... but they were forbidden by the king,
+another act of his folly, and now there are but a few of them left ... too
+few to make a difference ...
+~
+0 ADN 0
+D0
+~
+~
+0 0 10050
+S
+#10052
+A grand hallway.~
+     The hall continues to the north. A creepy feeling comes over you ...
+it's as if someone is watching you ...
+~
+0 DN 0
+D0
+~
+~
+0 0 10053
+D2
+~
+~
+0 0 10031
+S
+#10053
+A grand hallway.~
+     There are two large gilted doors to the north, a gold-framed sign hangs
+near them on the wall.
+~
+0 DN 0
+D0
+~
+doors door north n~
+1 0 10054
+D2
+~
+~
+0 0 10052
+E
+sign~
+.
+			    +-------------+
+			    |'Throne Room'|
+			    +-------------+
+~
+S
+#10054
+Throne Room.~
+     You walk between rows of tables. It seems king Amodius Starfire was
+holding a grand banquet, all the Blood Royal of the realm, the guardians clad
+in their ceremonial indigo blue robes, were present. When the mindseizer
+Abdiel, last priest in the Order of Dark Lightning, and his army of mind-deads
+entered the throne room, they were trapped without their bloodswords and up
+against mobs that could withstand their mental attacks. Only those of the
+golden wing, the elite group of the empire, the lords Sagan, Platus, Stavros,
+Tusca and the lady Maigrey managed to escape the onslaught.
+~
+0 DN 0
+D0
+~
+~
+0 0 10059
+D1
+~
+~
+0 0 10055
+D2
+~
+doors door south s~
+1 0 10053
+D3
+~
+~
+0 0 10057
+S
+#10055
+Eastern part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though.
+~
+0 DN 0
+D0
+~
+~
+0 0 10060
+D1
+~
+panel east e~
+1 0 10056
+D3
+~
+~
+0 0 10054
+S
+#10056
+A hidden alcove.~
+     You found entrance into a hidden alcove, but so did the mind-dead ...
+The floors is filled with the corpses of the guardians they found.
+~
+0 ADN 0
+D3
+~
+panel west w~
+1 0 10055
+S
+#10057
+Western part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though. The
+sight of so many dead makes you kind of sad.
+~
+0 DN 0
+D0
+~
+~
+0 0 10061
+D1
+~
+~
+0 0 10054
+D3
+~
+panel west w~
+1 0 10058
+S
+#10058
+A hidden alcove.~
+     You found the entrance to this hidden alcove, but so did the mind-dead.
+The Blood Royals who tried to hide here lie dead at your feet.
+~
+0 ADN 0
+D1
+~
+panel east e~
+1 0 10057
+S
+#10059
+Center of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though.
+~
+0 DN 0
+D0
+~
+~
+0 0 10062
+D1
+~
+~
+0 0 10060
+D2
+~
+~
+0 0 10054
+D3
+~
+~
+0 0 10061
+S
+#10060
+Eastern part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though. You
+stop a moment to take a closer look at one of the mind-deads, his twisted face
+startles even you !!! and you've seen a lot in your long life of adventuring.
+~
+0 DN 0
+D0
+~
+~
+0 0 10063
+D2
+~
+~
+0 0 10055
+D3
+~
+~
+0 0 10059
+S
+#10061
+Western part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though.
+~
+0 DN 0
+D0
+~
+~
+0 0 10065
+D1
+~
+~
+0 0 10059
+D2
+~
+~
+0 0 10057
+S
+#10062
+The Throne.~
+     King Amodius Starfire sits on his throne, then you notice the gaping
+wound on his forehead. A mortally wounded guardian manages to whisper in your
+ear : 'The king has died ... long live the king !!', his last act is to raise
+his hand and point towards the throne. A sad thought crosses your mind ...
+many called the old king a doddering fool ... even amongst the guardians, yet
+they gave their lives to try to safe him ... after all, he was their king.
+~
+0 DN 0
+D1
+~
+~
+0 0 10063
+D2
+~
+~
+0 0 10059
+D3
+~
+~
+0 0 10065
+D4
+~
+trapdoor~
+4 0 10067
+E
+throne Throne~
+
+Hmmm, you can't help but wonder what kind of view you'd have, standing on the
+throne ... hey ... when you watch closely you see a trapdoor above the throne
+delicately hidden from sight.
+~
+S
+#10063
+Eastern part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground. Corpses of many mind-deads prove they fought bravely though.
+~
+0 DN 0
+D1
+~
+panel east e~
+1 0 10064
+D2
+~
+~
+0 0 10060
+D3
+~
+~
+0 0 10062
+S
+#10064
+A hidden alcove.~
+     You've found an entrance into a secret alcove. A Blood Royal managed to
+remain undetected by hiding in here.
+~
+0 DN 0
+D3
+~
+panel west w~
+1 0 10063
+S
+#10065
+Western part of the throne Room.~
+     You are walking between rows of tables, several Blood Royal lay slain on
+the ground.
+~
+0 DN 0
+D1
+~
+~
+0 0 10062
+D2
+~
+~
+0 0 10061
+D3
+~
+panel west w~
+1 0 10066
+S
+#10066
+A hidden alcove.~
+     You found the entrance to this secret alcove. Some guardians are hiding
+here, having managed to remain unnoticed so far.
+~
+0 DN 0
+D1
+~
+panel east e~
+1 0 10065
+S
+#10067
+Above the throne.~
+     You climbed on the throne, opened the trapdoor and managed to squeeze
+your way up into this alcove here ... You see another trapdoor above you, and
+can barely make out the outline of the other trapdoor down on the floor.
+~
+0 CDN 0
+D4
+~
+trapdoor~
+1 0 10068
+D5
+~
+floor~
+4 0 10062
+S
+#10068
+A dark hallway.~
+     You've now reached the third floor. Fires have been doused to (hopefully)
+slow down the rebel forces' progress, since darkness is great at concealing
+things.
+~
+0 ADN 0
+D0
+~
+hidden~
+4 0 10069
+D5
+~
+trapdoor~
+1 0 10067
+E
+fires fire~
+
+You take a closer look at the fire places ... hmm, some torches lie in a
+heap near one of them.
+~
+E
+torch torches~
+
+You look at the torches and after a quick examination you see one that might
+still be usable ... you light it and are able to see a hidden door to the 
+north now ... then the torch goes out.
+~
+S
+#10069
+A dark hallway.~
+     Fires have been doused to slow down the rebel forces' progress ... thank
+God you brought torches of your own with you !! You can vaguely make out the
+contours of a door to the east. Near the west wall of the room it gets too
+dark to see anything.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10085
+D2
+~
+hidden~
+4 0 10068
+D3
+~
+secret~
+4 0 10070
+E
+wall west~
+
+You take some time to examine the west wall a little bit better and discover
+a secret door.
+~
+S
+#10070
+West end in the dark hallway.~
+     It's as dark as night in here. You can see but a few feet before you ...
+You think you see a door to the west. The hall continues south.
+~
+0 ADN 0
+D1
+~
+secret~
+4 0 10069
+D2
+~
+~
+0 0 10074
+D3
+~
+door west w~
+1 0 10071
+E
+wall east~
+
+You take some time to examine the east wall a little bit better and discover
+a secret door.
+~
+S
+#10071
+A dark room.~
+     It's really dark in here ... you stumble around but you can't find any
+other exit except the one you used to get in here.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10070
+S
+#10072
+A dark hallway.~
+     It's really dark in here ... you stumble around but the only exit seems
+to be the one you used to get in here.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10074
+S
+#10073
+A dark hallway.~
+     You stumble into yet another room ... it's as dark here as the room you
+left, but you are able to make out a door to the east.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10075
+S
+#10074
+A dark hallway.~
+     It's as dark as night in here. You see a door to the west. The hall
+continues south.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10070
+D2
+~
+~
+0 0 10075
+D3
+~
+door west w~
+1 0 10072
+S
+#10075
+Dark end of the hall.~
+     It's really dark in here ... there's a door to the west. The east wall
+is cloaked in darkness.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10074
+D1
+~
+hidden~
+4 0 10076
+D3
+~
+door west w~
+1 0 10073
+E
+wall east~
+
+A thorough search teaches you the whereabouts of a door hidden in the east
+wall, obscured by the darkness.
+~
+S
+#10076
+A dark hallway.~
+     Still the same darkness, but you can see a way east.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10077
+D3
+~
+hidden~
+4 0 10075
+E
+wall west~
+
+A thorough search teaches you the whereabouts of a door hidden in the west
+wall.
+~
+S
+#10077
+A dark hallway.~
+     This is the darkest part of the hall yet and the only exit seems to
+be the way by which you came here.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10078
+D3
+~
+~
+0 0 10076
+S
+#10078
+A dark room.~
+     The darkness seems less now ... you see a door to the south and east.
+~
+0 ACDN 0
+D1
+~
+door east e~
+1 0 10079
+D2
+~
+door south s~
+1 0 10080
+D3
+~
+~
+0 0 10077
+S
+#10079
+A dark hallway.~
+     Total darkness ... you can't see a thing !! You stumble around but you
+can't seem to find any exit, or can you?
+~
+0 ADN 0
+D0
+~
+hatch~
+4 0 10082
+E
+wall north n~
+You notice that the north wall sounds hollow when you knock on it ... the
+wall could be a concealed hatch.
+~
+S
+#10080
+A dark hallway.~
+     Ahhh .... you can see some light seeping through the ceiling here, but
+it isn't much and you sadly decide the only exit is the way you came?
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10078
+D4
+~
+trapdoor~
+4 0 10087
+E
+ceiling~
+You examine the ceiling and you feel the faint outlines of a trapdoor.
+~
+S
+#10081
+South end in the dark hallway.~
+     The darkness has thickened ... still you can make out a door to the east.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10083
+D1
+~
+door east e~
+1 0 10082
+S
+#10082
+A dark hallway.~
+     The darkness is almost complete ... the only exit seems to be the door
+to the west.
+~
+0 ADN 0
+D3
+~
+door west w~
+1 0 10081
+S
+#10083
+East end in the dark hallway.~
+     The darkness seems to be a bit less and you clearly see a door to the
+east and one to the west.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10084
+D2
+~
+~
+0 0 10081
+D3
+~
+~
+0 0 10085
+S
+#10084
+A dark hallway.~
+     The darkness is complete ... you can't see a thing!!! You begin feeling
+around for a door or hatch or something.
+~
+0 ACDN 0
+D2
+~
+hatch~
+4 0 10082
+E
+wall south s~
+You notice that the south wall sounds hollow when you knock on it ... the
+wall might very well be a concealed hatch.
+~
+S
+#10085
+A dark hallway.~
+     Darkness ... but you can see doors to the south and west. The hall
+continues east.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10083
+D2
+~
+door south s~
+1 0 10086
+D3
+~
+door west w~
+1 0 10069
+S
+#10086
+A dark hallway.~
+   The darkness is almost complete ... the only exit seems to be the one you
+used to get in here.
+~
+0 ADN 0
+D0
+~
+door north n~
+1 0 10085
+S
+#10087
+A sloping passage.~
+   You opened the hidden trapdoor and managed to crawl your way up here.
+A small burning torch is fastened to the wall ... guess they forgot to douse
+this one. There's a staircase leading up.
+~
+0 DN 0
+D4
+~
+~
+0 0 10088
+D5
+~
+trapdoor~
+4 0 10080
+E
+floor ground~
+You brush away the sand and dust on the ground and feel the faint outlines of
+a trapdoor.
+~
+S
+#10088
+A dimly lit room.~
+   Ahh you've reached the fourth floor ... the light is getting less again.
+You clearly see a door to the west.
+~
+0 ADN 0
+D3
+~
+door west w~
+1 0 10089
+D5
+~
+~
+0 0 10087
+S
+#10089
+A dimly lit hallway.~
+     It's almost dark again, but you can see a door to the east and an
+opening to the west.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10088
+D3
+~
+~
+0 0 10090
+S
+#10090
+A dimly lit hallway.~
+     You're enveloped in darkness again ... you think you see an opening
+to the west and east.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10089
+D3
+~
+~
+0 0 10091
+S
+#10091
+Dark end in the hallway.~
+     The darkness begins to get oppressive ...
+still you see a way east and south.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10090
+D2
+~
+~
+0 0 10092
+S
+#10092
+A dimly lit hallway.~
+     Pfff, at last you see a teeny tiny bit of light seeping through a crack
+in the west wall. To the south you notice a beautifully decorated tapestry
+hanging on the wall. The hallway continues east.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10091
+D1
+~
+~
+0 0 10093
+E
+tapestry~
+
+It doesn't take you long to realize it's an image of a heroic battle.
+~
+E
+crack~
+
+You sadly decide it's just a crack in the structure of the wall ... nothing
+more, nothing less.
+~
+S
+#10093
+A dimly lit hallway.~
+     The darkness is growing more dense again ... still you are able to see
+an opening east and west. On the south wall hangs another tapestry.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10094
+D2
+~
+tapestry~
+4 0 10095
+D3
+~
+~
+0 0 10092
+E
+tapestry~
+
+The tapestry shows the banners of the lords who've sworn allegiance to the
+Royal House, the Starfires. When you take a closer look, you notice something
+strange about it ... only you don't exactly know what.
+~
+S
+#10094
+A dark end.~
+     The darkness is almost complete ... in the shadows you see a statue to
+the east and another rich tapestry hangs on the south wall. The only exit
+seems to be to the west.
+~
+0 ADN 0
+D3
+~
+~
+0 0 10093
+E
+tapestry~
+
+You see a vivid image of skies filled with unnatural creatures, in fact it's
+so vivid it scares you at first ... but then you see the beauty of the several
+wyverns, griffins and dragons.
+~
+S
+#10095
+A brightly lit room.~
+     Ahh, the tapestry skillfully hid a secret room. A burning torch is left
+here, giving you enough light to see a concealed trapdoor in the ceiling. The
+floor is made of beautiful marble tiles. There is another tapestry to the
+south.
+~
+0 DN 0
+D0
+~
+tapestry~
+4 0 10093
+D4
+~
+trapdoor~
+4 10054 10096
+D5
+~
+marble tile tiles~
+4 0 10097
+E
+tapestry~
+
+The tapestry reveals the galaxies and their space lanes ... ehh ?? galaxies ??
+space lanes ?? what ARE you talking about ?
+~
+E
+marble tiles tile~
+
+You examine the marble tiles, and can't help noticing their beauty ...
+Wait a sec !! ... are you imagining things or is that one in the corner
+loose ???
+~
+S
+#10096
+A secret room.~
+     The room is dimly lit by a half burned up torch. On a shelf you see
+some bottles and pots with all kinds of potions in it.
+~
+0 DN 0
+D5
+~
+trapdoor~
+4 10054 10095
+S
+#10097
+A brightly lit room.~
+     You climbed down through the floor back to the third level of the Glitter
+Palace... to the west you see a door.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10098
+D4
+~
+marble tile tiles~
+4 0 10095
+S
+#10098
+A brightly lit corridor.~
+     You admire the glittering white marble floor and dark grey marble walls.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10097
+D3
+~
+~
+0 0 10099
+S
+#10099
+A brightly lit corridor.~
+     You admire the glittering white marble floor and dark grey marble walls.
+Streaks of metallic glitter run through them.
+~
+0 DN 0
+D1
+~
+~
+0 0 10098
+D3
+~
+~
+0 0 10100
+S
+#10100
+A bend in the brightly lit corridor.~
+     You are in awe of this majestic hallway. The corridor continues to the
+north and east.
+~
+0 DN 0
+D0
+~
+~
+0 0 10101
+D1
+~
+~
+0 0 10099
+S
+#10101
+A brightly lit corridor.~
+     You admire the glittering white marble floor and dark grey marble walls.
+The corridor continues to the north and south.
+~
+0 DN 0
+D0
+~
+~
+0 0 10102
+D2
+~
+~
+0 0 10100
+S
+#10102
+North end of the brightly lit corridor.~
+     To the north you see a huge, ornate adamant door.
+~
+0 DN 0
+D0
+~
+adamant door~
+1 0 10103
+D2
+~
+~
+0 0 10101
+S
+#10103
+spiral staircase.~
+     To the south is an ornate adamant door. A spiral staircase winds
+its way up.
+~
+0 DN 0
+D2
+~
+adamant~
+1 0 10102
+D4
+~
+~
+0 0 10104
+S
+#10104
+Upstairs.~
+     Pffttt, at last you reached the top of the spiral staircase. You are back
+on the fourth floor of the Glitter Palace. To the south you see another ornate
+adamant door.
+~
+0 DN 0
+D2
+~
+adamant~
+1 0 10105
+D5
+~
+~
+0 0 10103
+S
+#10105
+A small hallway.~
+     The hallway continues to the south. You see an ornate adamant door to
+the north.
+~
+0 DN 0
+D0
+~
+adamant~
+1 0 10104
+D2
+~
+~
+0 0 10106
+S
+#10106
+A small hallway.~
+     The hallway continues to the north and south.
+~
+0 DN 0
+D0
+~
+~
+0 0 10105
+D2
+~
+~
+0 0 10107
+S
+#10107
+Center of the small hallway.~
+     The hallway continues south. You see a door to the east. Somehow a
+sixth sense warns you about going east here.
+~
+0 DN 0
+D0
+~
+~
+0 0 10106
+D1
+~
+door east e~
+1 0 10108
+D2
+~
+~
+0 0 10109
+S
+#10108
+A trap room.~
+     Ouch !! the door slams shut behind you and you don't have the key. You
+should really put more faith in your feelings next time !!!
+~
+0 CD 0
+S
+#10109
+A small hallway.~
+     A large tapestry finished off with brocade hangs on the west wall. There
+is a door to the east. The hallway continues south.
+~
+0 DN 0
+D0
+~
+~
+0 0 10107
+D1
+~
+door east e~
+1 0 10111
+D2
+~
+~
+0 0 10110
+E
+tapestry~
+
+The tapestry turns out to be some kind of map ... You learn from it, that the
+door to the east is a one-way door and also the way to get to level four.
+On the other hand you might want to adventure more south first ...
+~
+S
+#10110
+An end in the small hallway.~
+     The west wall is decorated by a large ornate tapestry.
+~
+0 DN 0
+D0
+~
+~
+0 0 10109
+D1
+~
+~
+0 0 10112
+E
+tapestry~
+
+The tapestry shows you the tale of 'The Lord of the Rings', it's really an
+exciting story ... but did you come here to read, or to adventure ???
+~
+S
+#10111
+A small alcove.~
+     Ack !! the door slams shut behind you and you don't have the key ....
+luckily you can see a door to the south. A large tapestry hangs on the east
+wall.
+~
+0 CDN 0
+D1
+~
+tapestry~
+4 0 10120
+D2
+~
+door south s~
+1 0 10112
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tales. Wait a sec ... one to
+the east is a bit crooked.
+~
+S
+#10112
+A small hallway.~
+     The walls are decorated by beautiful tapestries. The hallway continues
+to the east and west.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10111
+D1
+~
+~
+0 0 10113
+D3
+~
+~
+0 0 10110
+S
+#10113
+An end in the small hallway.~
+     The walls are decorated by beautiful tapestries, especially the one to
+the north. You also notice that the one to the south seems to be slightly
+crooked.
+~
+0 DN 0
+D2
+~
+tapestry~
+4 0 10114
+D3
+~
+~
+0 0 10112
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tale. Hmmm .... the one to the
+south seems a bit crooked.
+~
+S
+#10114
+A narrow hallway.~
+     The hallway continues to the east. A beautiful tapestry hangs on the
+north wall.
+~
+0 DN 0
+D0
+~
+tapestry~
+4 0 10113
+D1
+~
+~
+0 0 10115
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tale. When you look at it more
+closely you notice there's a secret door behind it.
+~
+S
+#10115
+A bend in the narrow hallway.~
+     You see the hallway continues west and north.
+~
+0 DN 0
+D0
+~
+~
+0 0 10116
+D3
+~
+~
+0 0 10114
+S
+#10116
+A small ornate hallway.~
+     The hall continues south and east.
+~
+0 DN 0
+D1
+~
+~
+0 0 10117
+D2
+~
+~
+0 0 10115
+S
+#10117
+A small ornate hallway.~
+     You see a richly dressed man standing here. He panics when he sees you,
+turns pale and runs off east while calling for the guards.
+~
+0 DN 0
+D1
+~
+~
+0 0 10118
+D3
+~
+~
+0 0 10116
+S
+#10118
+A small ornate hallway.~
+     When the richly dressed man sees you're following him, he gets even more
+upset and flees east again.
+~
+0 DN 0
+D1
+~
+~
+0 0 10119
+D3
+~
+~
+0 0 10117
+S
+#10119
+End of the small ornate hallway.~
+     You enter the dimly lit end of the hallway, the richly dressed man
+stands before you. You sense a change in his posture.
+~
+0 DN 0
+D3
+~
+~
+0 0 10118
+S
+#10120
+A narrow hallway.~
+     The hallway is decorated by several smaller tapestries and continues to
+the east.
+~
+0 DN 0
+D1
+~
+~
+0 0 10121
+D3
+~
+tapestry~
+4 0 10111
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tales. Wait a sec ... one to
+the west is a bit crooked.
+~
+S
+#10121
+A narrow hallway.~
+     The hallway is decorated by several smaller tapestries and continues
+to the east.
+~
+0 DN 0
+D1
+~
+~
+0 0 10122
+D3
+~
+~
+0 0 10120
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tales. Hey, you actually heard
+about this one ... uhh ...ooopps, it's a different one after all, what a
+bummer.
+~
+S
+#10122
+A narrow hallway.~
+     The hallway is decorated by several smaller tapestries and continues to
+the east.
+~
+0 DN 0
+D1
+~
+~
+0 0 10123
+D3
+~
+~
+0 0 10121
+E
+tapestry~
+
+The tapestries are beginning to bore you.
+~
+S
+#10123
+A narrow hallway.~
+     The hallway is decorated by several smaller tapestries and continues to
+the east.
+~
+0 DN 0
+D1
+~
+~
+0 0 10124
+D3
+~
+~
+0 0 10122
+E
+tapestry~
+
+Yep, they are definitely boring.
+~
+S
+#10124
+A narrow hallway.~
+     The south wall has been decorated by some smaller tapestries, to the
+north you see an elevator, it's not functional though ...
+~
+0 DN 0
+D1
+~
+~
+0 0 10125
+D3
+~
+~
+0 0 10123
+E
+tapestry~
+
+God, are these tapestries boring or what ??!!!
+~
+S
+#10125
+A narrow hallway.~
+     The north wall has been decorated with a big mirror with the image of a
+golden dragon in it; the south wall, with a tapestry with a silver dragon 
+on it.
+~
+0 DN 0
+D0
+~
+golden dragon mirror~
+4 0 10127
+D1
+~
+~
+0 0 10126
+D3
+~
+~
+0 0 10124
+E
+golden dragon mirror~
+
+The mirror makes it seem as if the dragon is really alive ... Did it just
+wink at you ?? You can't suppress the urge to touch the mirror.
+~
+E
+silver dragon tapestry~
+
+The silver dragon stands there guarding the hall ... Ehhh ... get real man !!
+It's just a tapestry, tapestries can't guard hallways.
+~
+S
+#10126
+A cul-de-sac.~
+     You are standing in a cul-de-sac. On the north and east wall hang some
+tapestries.  On the south wall hangs a strange mirror.
+~
+0 DN 0
+D3
+~
+~
+0 0 10125
+E
+tapestry~
+
+Yep, it's yet another tapestry telling heroic tales.
+~
+E
+mirror~
+
+Gosh !! is your head really that huge ??!!
+~
+S
+#10127
+A cul-de-sac.~
+     You are standing in a cul-de-sac. On the north and east wall hang some
+tapestries, on the south wall hangs a strange mirror with the image of a
+golden dragon in it.
+~
+0 CDN 0
+D2
+~
+mirror~
+4 0 10125
+D5
+~
+floor~
+4 0 10129
+E
+mirror dragon golden~
+
+When you look in the mirror, the reflection reveals a small button to you,
+skillfully hidden in the carved decorations of the marble tiles.
+~
+E
+button~
+
+You wonder why the button is there ... after some consideration you decide to
+just push on it ... with a grinding sound a part of the floor slides aside,
+revealing to you a way down.
+~
+S
+#10128
+Cook's Kitchen, Quantum Homeshopping Ltd.~
+     You are standing in the strangest kitchen you have ever seen ... to
+the west is what appears to be some kind of kitchen with strange pieces of
+machinery in it, to the north and south are a lot of seats, as if this were
+an arena or something. In the corners you see a few other weird looking
+things, on one of them you read : `camera one'. You are really confused by
+all of this ...
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10038
+S
+#10129
+Beginning of a forgotten hallway.~
+     You are back on the third floor, and found a secret hallway forgotten
+about a long time ago ... it's heavy to breath here ... damp air fills your
+nostrils.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10130
+D4
+~
+trapdoor~
+4 0 10127
+E
+ceiling~
+
+When you take a closer look at the ceiling, you see the outlines of a trapdoor
+in it.
+~
+S
+#10130
+An intersection in the forgotten hallway.~
+     You proceed along the hallway, while tearing apart nasty spider webs.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10135
+D1
+~
+~
+0 0 10131
+D2
+~
+~
+0 0 10129
+E
+spider web webs~
+
+OUGhhhhh!!, if there's something on the world you don't like, it's snakes
+and spider webs.
+~
+S
+#10131
+A forgotten hallway.~
+     The hallway continues west and east. The webs are getting thicker to the
+east ... obviously it has been a long time since anyone came here.
+~
+0 ADN 0
+D1
+~
+~
+0 0 10132
+D3
+~
+~
+0 0 10130
+E
+spider web webs~
+
+Yuk !!! The webs are clinging to you like glue ... you get an itchy feeling
+all over your body.
+~
+S
+#10132
+A bend in the forgotten hallway.~
+     The hallway continues north and west ... the northern exit is obscured
+by thick spider webs.
+~
+0 ADN 0
+D0
+~
+~
+0 0 10133
+D3
+~
+~
+0 0 10131
+E
+spider web webs~
+
+Brrrrrr ...... this place gives you the creeps ...
+~
+S
+#10133
+An end in the forgotten hallway.~
+     While you are wiping some web material out of your face, you notice
+there's a door to the west.
+~
+0 ADN 0
+D2
+~
+~
+0 0 10132
+D3
+~
+door west w~
+1 0 10134
+E
+spider webs web~
+
+You curse the day the Creator created them irritating spiders and their
+sticky, filthy webs.
+~
+S
+#10134
+A computer-room.~
+     Immediately your attention is drawn towards the north wall, which
+consists of a few consoles. After removing the last of the spider webs and
+some of their owners you are able to see some symbols on screen1, screen2
+and screen3.
+~
+0 ADN 0
+D1
+~
+door east e~
+1 0 10133
+E
+screen1~
+
+The symbols turn into words and then finally in sentences and you are able to
+read the story of Platus, one of the Guardians of the famous golden wing ...
+
+     As you know, the golden wing consisted of the four Lords Sagan,
+Platus, Stavros, Tusca and the Lady Maigrey ... Once the famous elite
+guardians of King Amodius ... now one of them has betrayed his king ...
+revealing the one flaw in the genetically-manipulated born leaders, the Blood
+Royal ... their ability to lead, creating an almost insatiable lust for
+power.
+     And so it came to be that the leader of the golden wing, Lord Sagan,
+conspired with the evil Abdiel, to take over the power from King Amodius ...
+The almost senile and incompetent ruler of this universe. Still the other four
+Guardians remained loyal to their liege ... something Warlord Sagan, as their
+wing leader, saw as betrayal towards him.
+     The last four Guardians were unable to save Princess Semele or Prince
+Augustus, but did manage to escape with their new-born baby, the new Crown
+Prince Dion Starfire. Since then they each went their way, entrusting Lord
+Platus with the care for the child, since he had always been the wisest.
+~
+E
+screen2~
+
+     Alas, they were not safe for long since their former comrade in arms and
+leader, Warlord Sagan, now hunted them and killed them one by one. Dion even
+witnessed the death of his 'father' and tutor Platus.
+     On the other end of the universe Lady Maigrey felt the death of Platus
+by the mind-link induced by their Bloodswords. But now the mind-link was
+re-established, Lord Sagan was also able to feel her presence and position
+in the galaxy. Now Lady Maigrey was a prisoner/guest of Sagan.
+     Just before his death Platus had entrusted Mendaharin Tusca, son of
+Lord Tusca, with the care for the young Dion. Still ... Dion's Blood-Royal
+genes drew him to Lord Sagan, and the chance of becoming the new king. And
+so Dion also became a prisoner of Sagan. Lord Sagan put Dion through a test
+ritual that would prove whether or not he was destined to be king. Dion passed
+the test, still Sagan was reluctant to believe ... - Impatient as you are,
+you scroll down the text until you see the name of Platus mentioned again -...
+
+Now is the time of the assault of Warlord Sagan's regular troops and Abdiel's
+mind-deads on the palace. Now is the time where the baby Dion has to be saved.
+Now is the time that the ghost of Platus returns to guard the baby.
+~
+E
+screen3~
+
+- The Test,
+
+  And then, i said, we must try them with enchantments - that is the sort of
+  test - and see what will be their behavior; like those who take colts amid
+  noise and tumult to see if they are of a timid nature, so must we take our
+  youth amid terrors of some kind, and again pass them into pleasures, and
+  prove them more thoroughly than gold is proved in the furnace. ... And he
+  who at every age, as a boy and youth and in mature life, has come out the
+  trial victorious and pure, shall be appointed a ruler and guardian of the
+  State. ... But him who fails, we must reject.
+
+						    Plato , The Republic
+~
+S
+#10135
+A bend in the forgotten hallway.~
+     The forgotten hallway turns west here ... As if the many spider webs and
+their inhabitants aren't worse enough, the walls begin to get slimy. You take
+care not to touch the walls, but this and clearing away the spider webs makes
+your progress slow.
+~
+0 ADN 5
+D2
+~
+~
+0 0 10130
+D3
+~
+~
+0 0 10136
+E
+spider webs~
+
+You know ... you are beginning to get pretty good in removing these webs and
+their owners without getting the stuff all over you.
+~
+S
+#10136
+A forgotten hallway.~
+     You see the faint outlines of a middle-aged man ... when he sees you,
+(does he really ??? it rather seems he looks straight through you) you faintly
+hear him whisper ... Platus ... Dion ... safe ... Maigrey ... you try to hear
+more but then you realize there is nothing here anymore ... you begin to doubt
+if you ever did see anything ... it probably was just the wind playing tricks
+on you ...
+~
+0 ADN 5
+D1
+~
+~
+0 0 10135
+D3
+~
+~
+0 0 10137
+E
+man platus ghost wraith~
+
+You concentrate even more ... but you can't see anything in this room ...
+if there ever was anything here ... it is surely gone now.
+~
+S
+#10137
+A forgotten hallway.~
+     The spider webs are replaced by murky water dripping from the ceiling.
+You are not quite sure which you hate more ...
+~
+0 ADN 5
+D1
+~
+~
+0 0 10136
+D3
+~
+~
+0 0 10138
+E
+spider web webs~
+
+Little red eyes are watching you from within the shadows.
+~
+E
+water~
+
+You're just glad you bought new water-proof boots the other day.
+~
+S
+#10138
+A forgotten hallway.~
+     Little bugs begin to crawl around your feet ... spider webs have
+returned ... slimy walls ... God, you want to get out of here !!!
+~
+0 ADN 5
+D1
+~
+~
+0 0 10137
+D3
+~
+~
+0 0 10139
+E
+spider web webs slime wall walls water~
+
+You begin to understand how somebody who suffers from claustrophobia
+must feel.
+~
+S
+#10139
+A forgotten hallway.~
+     Suddenly you feel a wind brushing against your cheek ... and then it's
+gone. You wonder where it came from. A thorough search tells you nothing
+about the source, and finally you give up and decide to move on.
+~
+0 ADN 5
+D1
+~
+~
+0 0 10138
+D3
+~
+~
+0 0 10140
+S
+#10140
+A forgotten hallway.~
+     The hall continues west and east. To the north a you see a bashed door.
+With a powerful bash you throw the door from its hinges and clear the 
+northern exit.
+~
+0 ADN 5
+D0
+~
+~
+0 0 10143
+D1
+~
+~
+0 0 10139
+D3
+~
+~
+0 0 10141
+E
+spider web webs spiders~
+
+There are less of the accursed spiders here ... you wonder what could be
+the reason for that ...
+~
+S
+#10141
+A forgotten hallway.~
+     You really wonder what the spiders eat to survive here, since you haven't
+seen any insects. After a while you notice that there are no bugs or spiders
+here. You wonder what could be the reason of it ... whatever it is, you bet
+you'll find more answers if you go more west.
+~
+0 ADN 5
+D1
+~
+~
+0 0 10140
+D3
+~
+~
+0 0 10142
+E
+spider web webs spiders~
+
+Actually, you don't even care why there aren't any spiders or webs here ...
+you are just glad that they are gone.
+~
+S
+#10142
+A cul-de-sac.~
+     You are at the end of the hallway. You have walked right into a gigantic
+web and it's particularly sticky too ... yuk !!! ... While you are trying to
+free yourself from the web, the owner of the web crawls towards you ...
+~
+0 ADN 5
+D1
+~
+~
+0 0 10141
+E
+web~
+
+You realize that you are in big trouble when the owner of this web finds you.
+~
+S
+#10143
+An abandoned room.~
+     You are standing in what used to be a bedroom. Now the spiders and the
+bugs dwell here. To the west you see a closet-door.
+~
+0 ADN 4
+D1
+~
+~
+0 0 10145
+D2
+~
+~
+0 0 10140
+D3
+~
+closet west w~
+1 0 10144
+S
+#10144
+A closet.~
+     You are in the closet, some pieces of textile lie here and there, but
+most of it has disintegrated. Filthy maggots are crawling everywhere.
+~
+0 ADN 4
+D1
+~
+closet east e~
+1 0 10143
+S
+#10145
+An abandoned bedroom.~
+     Some rotted pieces of wood lie here. Your best guess is that they
+belonged to the bedroom's furniture once. To the north you see a statue. It's
+taller than you, but you aren't sure who the statue is supposed to resemble.
+~
+0 ADN 4
+D0
+~
+statue~
+4 10055 10146
+D3
+~
+~
+0 0 10143
+E
+statue secret~
+
+All over the room everything is covered by webs and their inhabitants ... all
+but this statue ... hmm, how strange ... you decide to take a closer look ...
+~
+E
+closer~
+
+You hold your torch near the statue and begin to conduct a thorough search ..
+After a few minutes you find a small key-hole, hidden in the carvings of the
+statue and you realize the statue is actually a secret door.
+~
+S
+#10146
+A secret room.~
+     You are in the secret room behind the statue. You are struck by the fact
+that absolutely no bug or spider managed to crawl its way in here. You wonder
+if besides Platus' key, the entrance is protected by some sort of strong
+magical barrier ... after some hard thinking you banish it from your mind ...
+Only to find out that the statue doesn't give way anymore, no matter how hard
+you push. After a while you calm down and direct your attention to the room.
+~
+0 ACDN 0
+D4
+~
+trapdoor~
+4 0 10147
+E
+room~
+
+You examine the room from top to bottom and back ... and with success, after
+scraping away some mortar, you find a trapdoor in the ceiling.
+~
+S
+#10147
+A staircase.~
+     The trapdoor brought you to a staircase, and so you decide to climb
+your way up and see where it ends.
+~
+0 ADN 0
+D4
+~
+~
+0 0 10148
+D5
+~
+trapdoor~
+4 0 10146
+S
+#10148
+A staircase.~
+     You finally reached the end of the staircase ... hufff..puff... it was
+about time too !! You stop a moment to catch your breath and then open the
+hatch in front of you.
+~
+0 ADN 0
+D0
+~
+hatch~
+1 0 10149
+D5
+~
+~
+0 0 10147
+S
+#10149
+A closet.~
+     You carefully slide the hatch back in his place. All there is to see
+now, is a wooden wall of a closet. You have finally reached the fifth floor,
+and you feel like celebrating ... still, life goes on and you start looking
+for the handle of the closet's door.
+~
+0 ADN 0
+D3
+~
+closet door west w handle~
+1 0 10150
+S
+#10150
+A bedroom.~
+     You are a in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed, which makes you aware of the fact that you could use
+a nap. To the east you see a closet.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10151
+D1
+~
+closet door east e~
+1 0 10149
+E
+bed~
+
+The bed looks really soft, as do the silken cushions and the fluffy blanket.
+~
+E
+closet~
+
+Hmm ?? Why look at the closet ?? Never saw one before ?? ... poor thing ...
+~
+S
+#10151
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, antiques, paintings and tapestries. To the east and south you
+see bedroom doors. The hallway continues north and west. You peek north and
+see some heavily guarded doors.
+~
+0 DN 0
+D0
+~
+~
+0 0 10170
+D1
+~
+door east e~
+1 0 10152
+D2
+~
+door south s~
+1 0 10150
+D3
+~
+~
+0 0 10153
+S
+#10152
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and, to the west, you see a 
+huge comfortable looking bed. You notice all the furniture are engraved with 
+an eight-pointed star, the Divine and Royal crest.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10151
+E
+furniture~
+
+All the furniture is finished off with Royal purple and an eight-pointed star.
+~
+S
+#10153
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, antiques, paintings and tapestries. To the south you see a
+bedroom-door. The hallway continues east and west.
+~
+0 DN 0
+D1
+~
+~
+0 0 10151
+D2
+~
+door south s~
+1 0 10154
+D3
+~
+~
+0 0 10155
+S
+#10154
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed. To the east side of the room the banner of the
+Solgart system is placed.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10153
+E
+antiques antique~
+
+Your eyes behold the most precious things you ever saw. Still you are no thief
+and, reluctantly, you let the treasures stand where they are.
+~
+E
+solgart banner~
+
+You see the colors of the solgart system ...  white and light blue. They
+stand for the icy worlds with their light blue sky.
+~
+S
+#10155
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations. The hallway continues east and west.
+~
+0 DN 0
+D1
+~
+~
+0 0 10153
+D3
+~
+~
+0 0 10156
+S
+#10156
+A bend in the Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, paintings and tapestries. To the south you see a bedroom door.
+The hallway continues north and east.
+~
+0 DN 0
+D0
+~
+~
+0 0 10159
+D1
+~
+~
+0 0 10155
+D2
+~
+door south s~
+1 0 10157
+S
+#10157
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed, which makes you aware of the fact that you could use
+a nap. To the west you see a closet.
+~
+0 DN 0
+D0
+~
+door north n~
+1 0 10156
+D3
+~
+west w closet~
+1 0 10158
+E
+closet~
+
+Yesss .... it's a closet alright.
+~
+S
+#10158
+a closet.~
+     You stumble around in somebody else's clothes ... Have you no shame
+at all ????
+~
+0 DN 0
+D1
+~
+east e door closet~
+1 0 10157
+S
+#10159
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, paintings and tapestries. To the east and west you see bedroom
+doors. The hallway continues north and south.
+~
+0 DN 0
+D0
+~
+~
+0 0 10161
+D1
+~
+door east e~
+1 0 10169
+D2
+~
+~
+0 0 10156
+D3
+~
+door west w~
+1 0 10160
+S
+#10160
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed. This particular bedroom looks unused;  You are 
+tempted to go lie down on the bed, but you decide against it because you 
+don't want to risk offending the new king Augustus.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10159
+S
+#10161
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, paintings and tapestries. To the east and west you see bedroom
+doors. The hallway continues north and south. You are surprised that it's
+relatively calm here, while people are dying a few levels below.
+~
+0 DN 0
+D0
+~
+~
+0 0 10165
+D1
+~
+door east e~
+1 0 10168
+D2
+~
+~
+0 0 10159
+D3
+~
+door west w~
+1 0 10162
+S
+#10162
+A bedroom.~
+     You enter another luxurious bedroom. You notice somebody has left in a
+hurry ... a few garments and things are still lying on the bed, ready to be
+packed. Some suitcases stand in a corner, an empty one near the bed. To the
+west you see a closet.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10161
+D3
+~
+west w closet~
+1 0 10163
+E
+closet~
+
+It looks like any other closet ...
+~
+S
+#10163
+the closet.~
+     You look around in the, almost, empty closet, since most of the clothes
+are already packed. Then you notice something strange about the south wall of
+the closet.
+~
+0 DN 0
+D1
+~
+east e closet~
+1 0 10162
+D2
+~
+hidden secret door~
+4 0 10164
+E
+south wall~
+
+AHhhh ... you were right, you did notice a slight difference in the structure
+of the wall. You realize a part of the south wall is a hidden door ... Now ...
+if you only knew how to open it ....
+~
+S
+#10164
+A secret room.~
+     You've gained entrance into this secret room. To your surprise you find
+a frightened girl and her equally scared lady in waiting are hiding here. They
+probably heard you walking in the hallway, thought you were one of the rebels
+and fled into their secret hiding place.
+~
+0 DN 0
+D0
+~
+hidden secret door~
+4 0 10163
+S
+#10165
+The Royal hallway.~
+     You are walking through the Royal hallway. You are in awe of the many
+decorations, paintings and tapestries. To the west you see a bedroom door.
+The hallway continues north and south.
+~
+0 DN 0
+D0
+~
+~
+0 0 10166
+D2
+~
+~
+0 0 10161
+D3
+~
+door west w~
+1 0 10167
+S
+#10166
+The elevator.~
+     You've reached the end of the Royal hallway. To the north you see the
+elevator. It has been disabled and the doors are barred, in case the rebels
+might be able to restore it. When the Palace guard, assigned to guard the
+elevator, sees you, he first frowns, then relaxes. He obviously decided you
+are not one of the rebels ... ehh, which you aren't ... or are you ??
+~
+0 DN 0
+D2
+~
+~
+0 0 10165
+S
+#10167
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed. Against the east side of the room a huge shield is
+placed with the colours and crest of Warlord DiLuna. You see her people are
+making everything ready for a hasty departure from the Royal Palace.
+~
+0 DN 0
+D1
+~
+door east e~
+1 0 10165
+S
+#10168
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the east you see a huge
+comfortable looking bed. This room is unused now. The occupant probably has
+already fled the palace.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10161
+S
+#10169
+A bedroom.~
+     You are in one of the luxurious Royal guest rooms. The room is filled
+with antiques, beautifully decorated furniture and to the west you see a huge
+comfortable looking bed. Against the east side of the room a huge shield is
+placed with the colours and crest of Warlord Rykilth. Rykilth is shouting to
+his people to pack his belongings. He obviously wants to leave the palace as
+quick as possible.
+~
+0 DN 0
+D3
+~
+door west w~
+1 0 10159
+S
+#10170
+Before the Royal chambers.~
+     The Royal hallway ends here. Armed guards, wearing the royal crest, stand
+at the silver-steel gates, guarding the entrance to the royal chambers. The
+pendant of the Starfires is fastened left and right of the doors.
+~
+0 DN 0
+D0
+~
+north n doors~
+1 0 10171
+D2
+~
+~
+0 0 10151
+E
+pendant~
+
+The pendant shows an eight-pointed star on a deep blue surface.
+~
+S
+#10171
+the Royal Chambers.~
+As you walk through the chambers strange words force their way into your mind:
+
+... O fortuna, velut luna, statu variabilis, semper crecis, aut decrescis ...
+... O, fortune! like the moon ever changing, rising first, then declining ...
+
+					       Carl Orff - Carmina Burana
+~
+0 DN 0
+D0
+~
+~
+0 0 10172
+D2
+~
+south s doors~
+1 0 10170
+S
+#10172
+the Royal Chambers.~
+Once again words of the same strange source fill you mind:
+
+... In fortune solio sederam elatus ... nunc a sumo corrui ...
+... Once on fortune's throne I sat exalted ... I was struck down ...
+
+					       Carl Orff - Carmina Burana
+
+To the east you notice Princess Semele's bedroom doors.
+~
+0 DN 0
+D1
+~
+east e door bedroom~
+1 0 10173
+D2
+~
+~
+0 0 10171
+D3
+~
+~
+0 0 10174
+S
+#10173
+Princess Semele's Royal bedroom.~
+     You see Princess Semele lying in the bed. A few nurses are tending
+to her. Some pages are removing an old set of blankets. Others are bringing
+fruits and some soft drinks to Semele. On one side of the bed you see an
+empty crib. On the other side, a female Blood Royal guards her queen.
+
+... Sors immanis et inanis, rota tu volubilis ...
+... Dread destiny and empty fate, an ever-turning wheel ...
+
+					       Carl Orff - Carmina Burana
+~
+0 DN 0
+D3
+~
+west w door bedroom~
+1 0 10172
+E
+crib~
+
+You take a closer look at the empty crib and see that it has been used.
+A name has been beautifully engraved in the crib ... it says : 'Dion'.
+~
+S
+#10174
+the Royal Chambers.~
+You try to block them out, but the odd words penetrate your mental
+barrier with ease:
+
+... the lion does not defend himself against traps, and the fox does not
+    defend himself against wolves ...
+
+					       N. Machiavelli - the Prince
+
+To the north you see Prince Augustus' quarters, to the south you see some
+ebony doors with the royal crest on them, leading to King Amodius' living
+quarters.
+~
+0 DN 0
+D0
+~
+door north n bedroom~
+1 0 10176
+D1
+~
+~
+0 0 10172
+D2
+~
+door south s bedroom~
+1 0 10175
+S
+#10175
+King Amodius' Royal bedroom.~
+     You notice how common the furniture and decorations are compared to the
+rest of the palace. King Amodius might have been a bit indecisive, and maybe
+even a fool ... still he had always understood and respected the common man.
+Something that can't be said of all rich and/or powerful people.
+
+... Quod per sortem sternit fortem, necum omnes flagite ! ...
+... And since by fate the strong are overthrown, weep ye all with me !
+
+					       Carl Orff - carmina burana
+~
+0 DN 0
+D0
+~
+door north n bedroom~
+1 0 10174
+S
+#10176
+Prince Augustus' bedroom.~
+The ancient words can't be stopped and resound in your mind:
+
+... nimis exalatus rex sedet in veritce - caveat ruinam ! ...
+... raised to dizzy heights of power, the king sits in majesty - but
+    let him beware his downfall ! ...
+
+					       Carl Orff - Carmina Burana
+
+~
+0 DN 0
+D1
+~
+~
+0 0 10177
+D2
+~
+door south s bedroom~
+1 0 10174
+S
+#10177
+Prince Augustus' bedroom.~
+     This part of the prince's bedroom is made into some sort of study. To
+the north, east and south are large bookshelves filled with all sorts of
+books. After a closer look you see that the northern shelf contains some
+fantasy and fiction books, the eastern shelf contains some philosophical
+books and the south wall is filled with social and economical books.
+~
+0 DN 0
+D0
+~
+star guardian king margeret weiss tracy hickman~
+4 0 10178
+D3
+~
+~
+0 0 10176
+E
+philosophical philosophy~
+
+You see books from famous authors like ehh ... hmm ... Freud and stuff.
+~
+E
+social sociology~
+
+A quick look shows you titles about social behaviour, all kind of societal
+problems etc.
+~
+E
+economy economical~
+
+Names of many economical brains cloud your view .... Porter, Keynes, Abell,
+Limperg etc etc. ...
+~
+E
+fiction fantasy~
+
+You take one of them out of the shelf, sit down, and begin to read Tolkien's
+Lord of the Rings ... after you've finished it you take another look at the
+shelf. A lot of authors are there : Margeret Weiss and Tracy Hickman, Terry
+Brooks, Jack Vance etc...etc... You just want to turn your head away when you
+see a book sticking out a bit ... It's volume one of the Star of the Guardian
+series, The Lost King.
+~
+S
+#10178
+An ante-room.~
+     You tried to pull the book out to read it, instead you found out it was
+a secret handle that made the entire northern wall swing ajar. You worked
+your way in here and found the secret royal elevator. You wonder if it's still
+operative. The elevator doors are to the east.
+~
+0 DN 0
+D1
+~
+elevator door s~
+1 0 10179
+D2
+~
+star of the guardian lost king margeret weiss tracy hickman~
+4 0 10177
+S
+#10179
+In the elevator.~
+.
+				   Y
+				   o
+				   u
+
+				   a
+				   r
+				   e
+
+				   g
+				   o
+				   i
+				   n
+				   g
+
+				   d
+				   o
+				   w
+				   n
+
+				   v
+				   e
+				   r
+				   y
+
+				   q
+				   u
+				   i
+				   c
+				   k
+				   l
+				   y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+And finally you are brought to the ground level of the palace. The elevator
+doors are to the south.
+~
+0 DN 0
+D2
+~
+elevator door s~
+1 0 10180
+S
+#10180
+Outside the palace.~
+     You walk out the elevator and the doors slam shut behind you. The
+elevator is automatically disabled to prevent any pursuers from following you.
+~
+0 N 2
+D3
+~
+~
+0 0 10003
+S
+#0
+
+#RESETS
+*
+O 0 115 1 10000   * Portal back to plains
+M 0 10000 1 10176         PRINCE AUGUSTUS STARFIRE
+E 1 10000 1 17                 crystal sceptre
+E 1 10001 1 16                 crystal sword
+E 1 10003 2 5                  crystal robes
+E 1 10004 2 3                  crystal cloak
+E 1 10005 1 6                  crystal crown
+G 1 10007 6                    coins
+*
+M 0 10001 1 10173         PRINCESS SEMELE STARFIRE
+E 1 10002 1 6                  crystal diadem
+E 1 10003 2 5                  crystal robes
+E 1 10004 2 3                  crystal cloak
+E 1 10006 1 16                 crystal dagger
+G 1 10007 6                    coins
+*
+M 0 10002 1 10167         COUNTESS DILUNA
+E 1 10008 1 5                  ceresian battle armor
+E 1 10009 1 16                 ceresian grand-axe
+E 1 10010 1 3                  ceresian royal cloak
+E 1 10011 1 7                  ceresian battle leggings
+E 1 10012 2 11                 ceresian kite
+*
+M 0 10003 1 10167         WARRIOR-WOMAN
+E 1 10014 1 6                  ceresian helmet
+E 1 10012 2 11                 ceresian kite
+E 1 10013 1 5                  ceresian armor
+E 1 10016 1 16                 ceresian war lance
+E 1 10015 1 7                  ceresian leggings
+*
+M 0 10004 1 10166         PALACE GUARD
+E 1 10020 13 5                 standard military battle armor
+E 1 10023 10 16                standard military war lance
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+*
+M 0 10005 2 10170         ROYAL PALACE GUARD
+E 1 10017 2 5                  royal military battle armor
+E 1 10023 10 16                standard military war lance
+E 1 10018 2 7                  royal military leggings
+E 1 10019 2 3                  royal, purper rimmed, cloak
+M 0 10005 2 10170
+E 1 10017 2 5                  royal military battle armor
+E 1 10023 10 16                standard military war lance
+E 1 10018 2 7                  royal military leggings
+E 1 10019 2 3                  royal, purper rimmed, cloak
+*
+M 0 10006 1 10176         BLOOD ROYAL
+E 1 10050 2 5                  indigo blue velvet robes
+E 1 10051 2 3                  starjewel
+E 1 10052 2 16                 bloodsword
+*
+M 0 10038 1 10173         BLOOD ROYAL, FEMALE
+E 1 10050 2 5                  indigo blue velvet robes
+E 1 10051 2 3                  starjewel
+E 1 10052 2 16                 bloodsword
+*
+M 0 10007 1 10164         LITTLE LADY
+E 1 10041 2 5                  ball-gown
+G 1 10007 6                    coins
+*
+M 0 10008 1 10164         LADY IN WAITING
+E 1 10041 2 5                  ball-gown
+*
+M 0 10009 1 10154         BEAR OLEFSKY
+E 1 10034 1 5                  solgartian battle-armor
+E 1 10035 1 16                 solgartian saber
+E 1 10036 1 3                  solgartian royal cloak
+E 1 10037 1 7                  solgartian leggings
+G 1 10007 6                    coins
+*
+M 0 10010 1 10169         WARLORD RIKILTH
+E 1 10038 1 5                  vaporbreather's tank
+E 1 10039 1 16                 vaporbreather 'needle'
+E 1 10040 1 3                  vaporbreather's royal cloak
+G 1 10007 6                    coins
+*
+M 0 10011 1 10166         A PAGE
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10012 1 10136         GHOST OF PLATUS
+E 1 10060 1 5                  translucent indigo-blue robes
+E 1 10061 1 3                  translucent starjewel
+E 1 10056 1 16                 translucent bloodsword
+G 1 10055 1                    translucent key
+*
+M 0 10013 1 10142         MUTANT SPIDER
+*
+M 0 10014 1 10126         MINISTER OF PROTOCOL
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+E 1 10031 1 17                 staff protocolaire
+*
+M 0 10015 1 10119         ROYAL CHAMBERLAIN
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10016 1 10098         CAPTAIN OF THE GUARD
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10024 2 16                 standard military war blade
+*
+M 0 10017 3 10070         LOYALIST
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military war lance
+M 0 10017 3 10083
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military war lance
+M 0 10017 3 10091
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military war lance
+*
+M 0 10018 3 10064         GUARDIAN, LOW LVL
+E 1 10058 3 5                  indigo blue robes
+E 1 10059 3 3                  starjewel
+M 0 10018 3 10066
+E 1 10058 3 5                  indigo blue robes
+E 1 10059 3 3                  starjewel
+M 0 10018 3 10066
+E 1 10058 3 5                  indigo blue robes
+E 1 10059 3 3                  starjewel
+*
+M 0 10019 1 10051         PRIOR OF THE ORDER OF ADAMANT
+E 1 10046 3 5                  brown robes
+E 1 10047 3 16                 prayers
+*
+M 0 10020 2 10050         PRIEST IN THE ORDER OF ADAMANT
+E 1 10046 3 5                  brown robes
+E 1 10047 3 16                 prayers
+M 0 10020 2 10051
+E 1 10046 3 5                  brown robes
+E 1 10047 3 16                 prayers
+*
+M 0 10021 2 10050         WARRIOR-PRIEST IN THE ORDER OF ADAMANT
+E 1 10048 2 5                  black velvet robes
+E 1 10049 2 16                 silver dagger with star shaped hilt
+M 0 10021 2 10051
+E 1 10048 2 5                  black velvet robes
+E 1 10049 2 16                 silver dagger with star shaped hilt
+*
+M 0 10022 1 10059         MIKAEL
+E 1 10025 12 16                rebel assault weapon
+E 1 10026 9 5                  jumpsuit
+*
+M 0 10023 3 10031         MIND-DEAD
+E 1 10025 12 16                rebel assault weapon
+E 1 10026 9 5                  jumpsuit
+M 0 10023 3 10034
+E 1 10025 12 16                rebel assault weapon
+E 1 10026 9 5                  jumpsuit
+M 0 10023 3 10055
+E 1 10025 12 16                rebel assault weapon
+E 1 10026 9 5                  jumpsuit
+*
+M 0 10024 1 10043         KHARDAN THE ALCHEMIST
+E 1 10043 1 5                  green alchemist robes
+E 1 10044 1 17                 swirling potion
+E 1 10045 1 16                 alchemist's staff
+*
+M 0 10025 1 10040         JACK THE BUTCHER
+E 1 10030 10 5                 livery
+E 1 10033 1 16                 jack-knife
+*
+M 0 10026 1 10045         DR. HUEY
+E 1 10030 10 5                 livery
+E 1 10042 1 16                 scalpel
+*
+M 0 10027 1 10045         NURSE
+E 1 10030 10 5                 livery
+*
+M 0 10028 1 10037         PAULINE THE TAILOR
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10029 1 10039         DARDANUS THE INNKEEPER
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10030 1 10036         JOHN DOE THE BAKER
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10031 1 10128         COOK FROM COMMERCIAL PRESENTATION
+E 1 10030 10 5                 livery
+E 1 10032 7 16                 standard military sword
+*
+M 0 10032 4 10032         WARLORD SAGAN'S REBEL MILITIA
+E 1 10027 4 5                  roman-style breastplate
+E 1 10028 4 7                  roman-style leggings
+E 1 10029 4 16                 roman-style short sword
+M 0 10032 4 10032
+E 1 10027 4 5                  roman-style breastplate
+E 1 10028 4 7                  roman-style leggings
+E 1 10029 4 16                 roman-style short sword
+M 0 10032 4 10053
+E 1 10027 4 5                  roman-style breastplate
+E 1 10028 4 7                  roman-style leggings
+E 1 10029 4 16                 roman-style short sword
+M 0 10032 4 10053
+E 1 10027 4 5                  roman-style breastplate
+E 1 10028 4 7                  roman-style leggings
+E 1 10029 4 16                 roman-style short sword
+*
+M 0 10033 3 10029         COLLABORATOR
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10025 12 16                rebel assault weapon
+M 0 10033 3 10038
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10025 12 16                rebel assault weapon
+M 0 10033 3 10065
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10025 12 16                rebel assault weapon
+*
+M 0 10034 1 10014         COMMANDER OF THE HOME GUARD
+E 1 10020 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10024 2 16                 standard military blade
+*
+M 0 10035 4 10006         REBEL MOB
+E 1 10026 9 5                  jumpsuit
+E 1 10025 12 16                rebel assault weapon
+M 0 10035 4 10014
+E 1 10026 9 5                  jumpsuit
+E 1 10025 12 16                rebel assault weapon
+M 0 10035 4 10020
+E 1 10026 9 5                  jumpsuit
+E 1 10025 12 16                rebel assault weapon
+M 0 10035 4 10020
+E 1 10026 9 5                  jumpsuit
+E 1 10025 12 16                rebel assault weapon
+*
+M 0 10036 1 10008         PETER ROBES PRESIDENT
+E 1 10026 9 5                  jumpsuit
+E 1 10025 12 16                rebel assault weapon
+*
+M 0 10037 4 10023         LOYALIST, LOW LVL
+E 1 10057 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military lance
+M 0 10037 4 10023
+E 1 10057 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military lance
+M 0 10037 4 10024
+E 1 10057 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military lance
+M 0 10037 4 10024
+E 1 10057 13 5                 standard military armor
+E 1 10021 13 7                 standard military leggings
+E 1 10022 10 3                 white, blue rimmed, cloak
+E 1 10023 10 16                standard military lance
+*
+O 0 10053 1 10094          STATUE
+P 1 10054 1 10053               tongue key
+*
+D 0 10002 0 1
+D 0 10003 0 1
+D 0 10003 2 1
+D 0 10003 3 1
+D 0 10005 1 1
+*
+D 0 10004 2 1
+D 0 10010 0 1
+D 0 10011 2 1
+D 0 10012 2 1
+D 0 10013 0 1
+*
+D 0 10013 2 1
+D 0 10014 0 1
+D 0 10016 0 1
+D 0 10016 2 1
+D 0 10017 2 1
+*
+D 0 10018 0 1
+D 0 10020 0 1
+D 0 10020 2 1
+D 0 10021 2 1
+D 0 10022 0 1
+*
+D 0 10023 2 1
+D 0 10024 0 1
+D 0 10032 1 1
+D 0 10035 1 1
+D 0 10035 3 1
+*
+D 0 10036 3 1
+D 0 10037 1 1
+D 0 10038 1 1
+D 0 10038 3 1
+D 0 10039 3 1
+*
+D 0 10128 1 1
+D 0 10040 3 1
+D 0 10041 1 1
+D 0 10042 1 1
+D 0 10043 3 1
+*
+D 0 10044 3 1
+D 0 10045 1 1
+D 0 10046 2 4
+D 0 10047 0 4
+D 0 10047 2 1
+*
+D 0 10048 0 1
+D 0 10048 2 4
+D 0 10049 0 4
+D 0 10053 0 1
+D 0 10054 2 1
+*
+D 0 10055 1 1
+D 0 10056 3 1
+D 0 10057 3 1
+D 0 10058 1 1
+D 0 10062 4 4
+*
+D 0 10067 5 4
+D 0 10063 1 1
+D 0 10064 3 1
+D 0 10065 3 1
+D 0 10066 1 1
+D 0 10067 4 1
+D 0 10068 5 1
+*
+D 0 10068 0 4
+D 0 10069 2 4
+D 0 10069 1 1
+D 0 10069 3 4
+D 0 10070 1 4
+*
+D 0 10070 3 1
+D 0 10071 1 1
+D 0 10072 1 1
+D 0 10073 1 1
+D 0 10074 3 1
+*
+D 0 10075 3 1
+D 0 10075 1 4
+D 0 10076 3 4
+D 0 10078 1 1
+D 0 10078 2 1
+*
+D 0 10079 0 4
+D 0 10080 0 1
+D 0 10080 4 4
+D 0 10081 1 1
+*
+D 0 10082 3 1
+D 0 10083 1 1
+D 0 10084 2 1
+D 0 10085 2 1
+*
+D 0 10085 3 1
+D 0 10086 0 1
+D 0 10087 5 4
+D 0 10088 3 1
+D 0 10089 1 1
+*
+D 0 10093 2 4
+D 0 10095 0 4
+D 0 10095 4 3
+D 0 10096 5 3
+D 0 10095 5 4
+*
+D 0 10097 4 4
+D 0 10097 3 1
+D 0 10098 1 1
+D 0 10102 0 1
+D 0 10103 2 1
+*
+D 0 10104 2 1
+D 0 10105 0 1
+D 0 10107 1 1
+D 0 10109 1 1
+D 0 10111 1 4
+*
+D 0 10111 2 1
+D 0 10112 0 1
+D 0 10113 2 4
+D 0 10114 0 4
+D 0 10120 3 4
+*
+D 0 10125 0 4
+D 0 10127 2 4
+D 0 10127 5 4
+D 0 10129 4 4
+D 0 10133 3 1
+D 0 10134 1 1
+D 0 10143 3 1
+*
+D 0 10144 1 1
+D 0 10145 0 3
+D 0 10146 4 4
+D 0 10147 5 4
+D 0 10148 0 1
+*
+D 0 10149 3 1
+D 0 10150 0 1
+D 0 10150 1 1
+D 0 10151 1 1
+D 0 10151 2 1
+*
+D 0 10152 3 1
+D 0 10153 2 1
+D 0 10154 0 1
+D 0 10156 2 1
+D 0 10157 0 1
+*
+D 0 10157 3 1
+D 0 10158 1 1
+D 0 10159 1 1
+D 0 10159 3 1
+D 0 10160 1 1
+*
+D 0 10161 1 1
+D 0 10161 3 1
+D 0 10162 1 1
+D 0 10162 3 1
+D 0 10163 1 1
+*
+D 0 10163 2 4
+D 0 10164 0 4
+D 0 10165 3 1
+D 0 10167 1 1
+D 0 10168 3 1
+*
+D 0 10169 3 1
+D 0 10170 0 1
+D 0 10171 2 1
+D 0 10172 1 1
+D 0 10173 3 1
+*
+D 0 10174 0 1
+D 0 10174 2 1
+D 0 10175 0 1
+D 0 10176 2 1
+D 0 10177 0 4
+*
+D 0 10178 2 4
+D 0 10178 1 1
+D 0 10179 2 1
+*
+S
+
+#SPECIALS
+*
+* M 10022 spec_cast_undead           mikael
+* M 10023 spec_cast_undead           mind-dead
+M 10001 spec_cast_cleric             princess semele
+M 10006 spec_cast_mage               blood royal, male
+M 10012 spec_cast_mage               ghost platus
+M 10018 spec_cast_mage               blood royal, low lvl
+M 10019 spec_cast_cleric             prior order of adamant
+M 10020 spec_cast_cleric             priest order of adamant
+M 10024 spec_cast_mage               khardan alchemist
+M 10038 spec_cast_mage               blood royal, female
+*
+S
+
+#$

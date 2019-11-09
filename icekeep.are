@@ -1,0 +1,3663 @@
+#AREA   {15 55} Shop    The Ice Keep~
+
+
+
+#MOBILES
+#18001
+alendar old man~
+Alendar~
+An old man is huddled here trying to keep warm.
+~
+As you get closer to the old man he appears old but
+at the same time ageless.  He has lived at the top
+of this mountain for many, many years and he is 
+wise beyond his years.
+~
+human~
+BMQ CHN 750 S
+40 4 15d9+1650 1d1+210 4d7+13 13
+-13 -13 -10 -8
+CFO AB I 0
+8 8 1 798
+0 0 M 0
+#18002
+lanatir ruler~
+Lanatir~
+The great ruler Lanatir sits here upon his throne.
+~
+This great ruler has lived for a very long time and
+you can see in his eyes that he is weary.  Now
+he spends all of his time sitting upon his golden
+throne.
+~
+human~
+BMT HNOV 850 S
+57 12 30d20+6600 1d1+300 13d4+26 18
+-21 -21 -23 -25
+ACDFIKO AB GI P
+6 6 1 1210
+0 0 G 0
+#18003
+white sorcerer~
+A White Sorcerer~
+A sorcerer dressed completely in white stands here.
+~
+This sorcerer is a master of all magic and looks at
+you like it's just daring you to pick a fight.
+~
+human~
+BMR NTV 725 S
+30 3 3d4+715 1d1+130 5d4+9 19
+-2 -2 -2 -5
+FU ABN CI M
+8 8 1 300
+0 0 M 0
+#18004
+black shadow figure guardian~
+A Black Guardian~
+A shadowy figure stands here before you.
+~
+As you look closer at the figure you can see no defining
+features upon his face.  He looks menacing and snarls at
+you.
+~
+modron~
+BFMT GHJ -100 S
+48 8 20d12+2900 1d1+100 10d6+19 27
+-19 -19 -19 -10
+CEIK 0 BEI JP
+8 8 0 779
+0 0 L 0
+#18005
+wraith smokey~
+A Smokey Wraith~
+A giant wraith is hovering in front of you.
+~
+This wraith seems to be made entirely out of smoke.  He
+is enveloped in a cloud of the opaque stuff and you aren't 
+even sure where he actually is.
+~
+undead~
+BMOS DEFHJOQT -400 S
+30 3 10d12+700 1d1+100 5d4+8 8
+-7 -7 -7 -5
+FG AM H N
+8 8 0 289
+0 0 G 0
+#18006
+viper snake ice~
+an ice viper~
+A large snake is slithering toward you.
+~
+This is one of the many creatures that inhabit this
+frozen land.  It looks poised to strike at any moment!
+~
+snake~
+FGOT P -300 S
+20 5 5d10+300 1d1+100 4d3+6 30
+-2 -2 -2 2
+FM IL B H
+8 8 0 0
+0 0 S 0
+#18007
+glaze wolf~
+a glaze wolf~
+A very large wolf is ready to gnaw your leg off.
+~
+This is a very large wolf that loves the cold weather
+and would like nothing more than to eat you for dinner.
+~
+wolf~
+GT GJ 100 S
+25 4 7d10+440 1d1+100 3d7+6 10
+-7 -6 -7 0
+FI E I R
+8 8 1 0
+0 0 L 0
+#18008
+polar bear~
+a polar bear~
+A very large polar bear is ready to claw your face off.
+~
+This is a very large polar bear that hasn't eaten anything
+in days.  He licks his lips at the sight of you.
+~
+bear~
+GMT G 0 S
+29 3 2d10+480 1d1+100 9d3+5 5
+-5 -5 -5 0
+IKO 0 I J
+8 8 1 0
+0 0 L 0
+#18009
+ice warrior~
+An Ice Warrior~
+A very large warrior stands here with his sword drawn.
+~
+This is one of the many warriors that once fought for
+the mighty Lanatir.  Now he just tries to keep warm
+inside the ice keep.
+~
+human~
+CT N 400 S
+34 6 14d5+700 1d1+100 10d3+3 17
+-11 -11 -12 -3
+CDEFI 0 0 K
+8 8 1 650
+0 0 L 0 
+#18010
+arctic ranger~
+An Arctic Ranger~
+A very large ranger stands here ready for a fight.
+~
+This is one of the many that once fought for the mighty
+Lanatir.  Now he is just looking for a good fight.
+~
+human~
+CFT G 200 S
+37 4 3d6+1488 1d1+100 8d4+12 8
+-5 -4 -5 0
+CDKN 0 0 0
+8 8 1 345
+0 0 L 0
+#18011
+large blizzard demon~
+A Blizzard Demon~
+A very large demon stands blocking your path.
+~
+This demon was created by an unknown magic and it now
+roams the halls of this ancient ice keep.
+~
+undead~
+FMOR HNTU -850 S
+47 6 25d12+2200 1d1+200 12d3+15 26
+-10 -10 -10 -10
+DEFHK 0 M N
+8 8 0 209
+0 0 G 0
+#18012
+small duck~
+a small duck~
+A small duck is waddling around here.
+~
+This small duck has lived his entire life near the
+frozen pond, and has remained here despite the pond
+being frozen solid.
+~
+water fowl~
+G 0 950 S
+13 1 1d5+176 1d1+50 2d5+4 23
+-1 -1 -1 -1
+F 0 I H
+8 8 1 0
+0 0 S 0
+#18013
+sparrow~
+a sparrow~
+A large sparrow is here chirping.
+~
+A large sparrow is here innocently singing a song.
+~
+song bird~
+G T 910 S
+18 1 2d9+250 1d1+90 3d5+5 13
+-1 -1 -1 -1
+F 0 I O
+8 8 2 0
+0 0 S 0
+#18014
+shopkeeper trader~
+a trader~
+A trader is here waiting to sell you something.
+~
+Standing before you is a tall man with a long beard.  He is
+the owner of the outpost and is waiting for you to buy something.
+~
+human~
+BGLMV DFJ 1000 S
+10 2 1d1+500 1d1+100 5d5+4 5
+-5 -5 -5 -5
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 1 30000
+0 0 L 0
+#18015
+shopkeeper shadowy man figure~
+a shadowy figure~
+A shadowy figure is here scurrying around.
+~
+This man seems to lurk in the shadows.  Every time he steps into
+the light you attempt to get a glimpse of his face, but you can 
+see nothing.
+~
+human~
+BGLMV DFJ -600 S
+30 2 1d1+999 1d1+200 9d9+6 6
+-5 -5 -5 -5 
+0 ABCDEFGHIJKLMNOPQRS 0 0
+8 8 1 20000
+0 0 M 0
+
+
+#0
+
+
+#OBJECTS
+#18001
+white key~
+A white key~
+A small, white key lies here.~
+steel~
+18 IV A
+0 0 0 0 0
+1 3 0 P
+#18002
+black key~
+A black key~
+A small, black key lies here.~
+steel~
+18 CV A
+0 0 0 0 0
+1 3 0 P
+#18003
+smokey key~
+A smokey key~
+A small, smokey colored key lies here.~
+steel~
+18 EV A
+0 0 0 0 0
+1 3 0 P
+#18004
+crystal lens~
+A crystal lens~
+A small lens made of crystal lies here.~
+glass~
+18 GUV AO
+0 0 0 0 0
+1 1 3000 P
+#18005
+black lens~
+A black lens~
+A small, black colored lens lies here.~
+glass~
+18 GUV AO
+0 0 0 0 0
+1 1 3000 P
+#18006
+smokey lens~
+A smokey lens~
+A small, smokey colored lens lies here.~
+glass~
+18 GUV AO
+0 0 0 0 0
+1 1 3000 P
+#18007
+ring wisdom~
+The Ring of Wisdom~
+A small ring lies here glinting in the light.~
+gold~
+9 G AB
+8 9 5 9 0
+40 3 2500 P
+A
+3 1
+A
+4 3
+A
+18 1
+A
+17 -5
+#18008
+sphere lanatir~
+Sphere of Lanatir~
+A giant sphere of holy power is here.~
+silver~
+1 AGUV AO
+0 0 9999 0 0
+51 5 5000 P
+E
+sphere lanatir~
+This magic sphere was once owned by the powerful Lanatir.
+You are unsure of the magic it holds and you are just
+happy to have it in your possession.
+~
+A
+12 50
+A
+13 -15
+A
+2 -2
+A
+17 -5
+#18009
+wand power~
+Wand of Power~
+A very powerful wand is lying at your feet.~
+silver~
+3 GV AO
+52 2 2 83 0
+52 6 9000 P
+E
+wand power~
+This wand was once carried by the powerful Lanatir.  It is
+made completely of silver and must be quite valuable.
+~
+A
+2 -1
+A
+12 -35
+A
+13 40
+A
+18 4
+A
+19 4
+#18010
+hammer wrath~
+Hammer of Wrath~
+A very large, black hammer lies here.~
+adamantite~
+5 BHUV ANP
+4 13 5 18 D
+52 20 7500 P
+A
+1 2
+A
+3 -2
+A
+4 -1
+A
+12 -30
+A
+13 -30
+A
+18 7
+A
+19 9
+#18011
+icy sword~
+an icy sword~
+A large, ice covered sword lies here.~
+adamantite~
+5 B AN
+1 8 5 30 B
+33 10 200 P
+A
+1 1
+A
+14 -50
+A
+18 2
+A
+19 1
+#18012
+sorcerer hood~
+A Sorcerer's Hood~
+A small, white hood lies crumpled on the ground.~
+leather~
+9 AI AE
+3 7 4 8 0
+30 6 125 P
+A
+3 1
+A
+12 25
+A
+13 -5
+A
+24 -2
+#18013
+crown truth~
+Crown of Truth~
+A small, golden crown lies here gleaming in the sunlight.~
+gold~
+9 AV AE
+13 14 12 11 0
+48 8 5000 P
+A
+2 2
+A
+13 40
+A
+19 1
+#18014
+block ice~
+a giant block of ice~
+~
+glass~
+31 V 0
+2 18050 3 1 0
+1 200 100 P
+#18015
+vine~
+a vine~
+~
+paper~
+31 V 0
+6 18155 4 1 0
+1 200 100 P
+#18016
+vine~
+a vine~
+~
+paper~
+31 V 0
+7 18132 5 1 0
+1 200 100 P
+#18017
+coat bear bearskin~
+a bearskin coat~
+A warm coat made from the skin of a bear is here.~
+leather~
+9 0 AD
+9 6 7 2 0
+16 10 5000 P
+A
+17 -12
+A
+1 2
+A
+2 -1
+A
+14 -30
+A
+18 2
+A
+19 1
+A
+12 -10
+#18018
+heavy wool mittens~
+some heavy wool mittens~
+Some very warm looking mittens are here.~
+cloth~
+9 0 AH
+6 7 3 2 0
+13 5 4000 P
+A
+17 -10
+A
+19 1
+A
+1 1
+A
+5 -2
+A
+13 -10
+A 
+18 1
+#18019
+eskimo pie~
+an eskimo pie~
+A small bar of ice cream is here.~
+food~
+19 0 AO
+18 0 0 0 0
+1 1 65 P
+#18020
+beef jerky strip~
+a strip of beef jerky~
+A delicious piece of beef jerky is here.~
+food~
+19 0 A
+10 0 0 0 0
+1 1 10 P
+#18021
+icy dagger~
+An icy dagger~
+A small dagger covered in ice is here.~
+adamantite~
+5 BV AN
+2 4 7 2 D
+11 3 11000 P
+A
+18 2
+A
+19 1
+#18022
+heavy wool cap~
+a heavy wool cap~
+A cap made of heavy wool is here.~
+cloth~
+9 0 AE
+6 7 4 2 0
+15 3 6000 P
+A
+13 15
+A
+18 2
+A
+2 1
+A
+1 -1
+A
+12 -5
+#18023
+heavy boots snakeskin~
+some snakeskin boots~
+Some thick snakeskin boots are here.~
+leather~
+9 0 AG
+3 6 2 0 0
+12 4 6000 P
+A
+18 2
+A 
+17 -15
+A
+13 -5
+A
+12 -5
+A
+14 20
+
+
+
+#0
+
+
+#ROOMS
+#18001
+A small field~
+You have reached the middle of a small icy field.  The bright 
+sunlight is blinding and the landscape is quite barren from 
+the lack of warmth.
+~
+180 0 2
+D0
+A small field
+~
+~
+0 -1 18002
+D1
+A small field
+~
+~
+0 -1 18003
+D2
+A small field
+~
+~
+0 -1 18120
+D3
+A small field
+~
+~
+0 -1 18004
+S
+#18002
+A small field~
+You are standing in a field completely covered in ice.
+Off to the east you think you can make out a small trail
+that leads off into the mountains.
+~
+180 0 2
+D1
+A small field
+~
+~
+0 -1 18006
+D2
+A small field
+~
+~
+0 -1 18001
+D3
+A small field
+~
+~
+0 -1 18005
+S
+#18003
+A small field~
+This part of the field is filled with many holes and very 
+small tunnels.  This must be where the creatures of the area 
+have taken residence.
+~
+180 0 2
+D0
+A small field
+~
+~
+0 -1 18006
+D2
+A small field
+~
+~
+0 -1 18121
+D3
+A small field
+~
+~
+0 -1 18001
+S
+#18004
+A small field~
+As you make your way inside the field a strong gust of wind
+almost lifts you off of the ground and you are quite sure that
+you will freeze to death soon if you don't find shelter.
+~
+180 0 2
+D0
+A small field
+~
+~
+0 -1 18005
+D1
+A small field
+~
+~
+0 -1 18001
+D2
+A small field
+~
+~
+0 -1 18119
+S
+#18005
+A small field~
+You are in the northeastern part of the field and far off
+to the east you think you can see a trail leading off into
+the mountains.
+~
+180 0 2
+D1
+A small field
+~
+~
+0 -1 18002
+D2
+A small field
+~
+~
+0 -1 18004
+S
+#18006
+A small field~
+You have reached the beginning of a small trail that leads
+far off into the mountains.  The trail is very icy and you
+aren't certain where it leads.
+~
+180 0 2
+D2
+A small field
+~
+~
+0 -1 18003
+D3
+A small field
+~
+~
+0 -1 18002
+D6
+An icy trail
+~
+~
+0 -1 18007
+S
+#18007
+An icy trail~
+This trail is very slippery and you have trouble staying
+on your feet.  You can tell by the way the ice is solidly
+packed that many have traveled here before you.  The 
+trail continues to the north and the east.
+~
+180 0 2
+D0
+An icy trail
+~
+~
+0 -1 18008
+D1
+An icy trail
+~
+~
+0 -1 18009
+D9
+A small field
+~
+~
+0 -1 18006
+S
+#18008
+An icy trail~
+The trail continues onward and as the sky darkens it begins
+to snow.  The snowflakes are coming down rapidly and you know
+that soon the trail will be covered by a huge white blanket
+of snow.
+~
+180 0 3
+D0
+An icy trail
+~
+~
+0 -1 18010
+D2
+An icy trail
+~
+~
+0 -1 18007
+S
+#18009
+An icy trail~
+This trail is very steep and slippery as it winds along an
+ice covered mountain.  One wrong step and you would find
+yourself falling into a very deep valley.  The trail continues
+to the southeast.
+~
+180 0 3
+D1
+Too dark to tell
+~
+~
+0 -1 18012
+D3
+An icy trail
+~
+~
+0 -1 18007
+D6
+Too dark to tell
+~
+~
+0 -1 18011
+D8
+Too dark to tell
+~
+~
+0 -1 18013
+S
+#18010
+An icy trail~
+The trail continues onward and as the sky darkens it begins
+to snow.  The snowflakes are coming down rapidly and you know
+that soon the trail will be covered by a huge white blanket
+of snow.
+~
+180 0 3
+D2
+An icy trail
+~
+~
+0 -1 18008
+D7
+A snow covered trail
+~
+~
+0 -1 18022
+S
+#18011
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18012
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18013
+An icy trail~
+This trail is very steep and slippery as it winds along an
+ice covered mountain.  One wrong step and you would find
+yourself falling into a very deep valley.  The trail continues
+to the south.
+~
+180 0 3
+D2
+Too dark to tell
+~
+~
+0 -1 18015
+D7
+Too dark to tell
+~
+~
+0 -1 18009
+D8
+Too dark to tell
+~
+~
+0 -1 18014
+D9
+Too dark to tell
+~
+~
+0 -1 18016
+S
+#18014
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18015
+An icy trail~
+This trail is very steep and slippery as it winds along an
+ice covered mountain.  One wrong step and you would find
+yourself falling into a very deep valley.  The trail continues
+to the south.
+~
+180 0 3
+D0
+Too dark to tell
+~
+~
+0 -1 18013
+D2
+Too dark to tell
+~
+~
+0 -1 18018
+D9
+Too dark to tell
+~
+~
+0 -1 18017
+S
+#18016
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18017
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18018
+An icy trail~
+This trail is very steep and slippery as it winds along an
+ice covered mountain.  One wrong step and you would find
+yourself falling into a very deep valley.  The trail continues
+to the east.
+~
+180 0 3
+D0
+Too dark to tell
+~
+~
+0 -1 18015
+D1
+Too dark to tell
+~
+~
+0 -1 18019
+D2
+Too dark to tell
+~
+~
+0 -1 18020
+S
+#18019
+An icy trail~
+You have almost reached the top of the icy mountain.  At 
+the top of the peak you can faintly see an old man huddled
+trying to keep warm.
+~
+180 0 3
+D2
+Too dark to tell
+~
+~
+0 -1 18021
+D3
+Too dark to tell
+~
+~
+0 -1 18018
+S
+#18020
+Whoops!~
+You take a wrong step and slip on the ice.  Suddenly you
+find yourself falling off the trail into a very deep valley.
+You hit the ground with a loud THUD and feel extremely lucky
+to be alive.
+~
+180 0 3
+S
+#18021
+The peak of the mountain~
+You have reached the peak of the mountain and see a small
+old man huddled underneath a rock facing trying to keep
+warm.
+~
+180 0 3
+D0
+Too dark to tell
+~
+~
+0 -1 18019
+S
+#18022
+A snow covered trail~
+It has begun to snow very heavily and it looks like it will
+be a blizzard.  The trail is getting harder to see now as
+the snow begins to pile up around you.
+~
+180 A 4
+D0
+Too dark to tell
+~
+~
+0 -1 18023
+D8
+An icy trail
+~
+~
+0 -1 18010
+S
+#18023
+A snow covered trail~
+The snow is coming down in huge flakes now and very quickly
+the trail begins to fill with snow.  You had better find
+shelter soon before you are buried under a thick layer of snow.
+~
+180 A 4
+D0
+Too dark to tell
+~
+~
+0 -1 18024
+D2
+Too dark to tell
+~
+~
+0 -1 18022
+S
+#18024
+A snow covered trail~
+The snow almost completely covers the trail now and you begin
+to seek a refuge from the storm.  In the distance you can make
+out the outline of an enormous building.
+~
+180 A 4
+D2
+Too dark to tell
+~
+~
+0 -1 18023
+D6
+Too dark to tell
+~
+~
+0 -1 18025
+S
+#18025
+A snow covered trail~
+The blanket of snow that has fallen now completely covers
+the trail and off to the east you can see a giant, ice covered
+building.  
+~
+180 A 4
+D1
+Too dark to tell
+~
+~
+0 -1 18026
+D9
+Too dark to tell
+~
+~
+0 -1 18024
+S
+#18026
+Entrance to the ice keep~
+You have reached the entrance to a giant ice keep.  Perhaps you
+should go inside for shelter.
+~
+180 A 3
+D3
+Too dark to tell
+~
+~
+0 -1 18025
+D4
+Inside the ice keep
+~
+~
+1 -1 18027
+S
+#18027
+Inside the ice keep~
+You make your way inside the ice keep and start to feel warmer
+as the blizzard continues outside.  The solid, ice-laden walls
+of the giant keep help hold the savage storm outside.  Even so,
+it is still chilly and the danger of a frosty death stays with
+you.
+~
+180 ADN 0
+D0
+Inside the ice keep
+~
+~
+0 -1 18029
+D1
+Inside the ice keep
+~
+~
+0 -1 18028
+D5
+Entrance to the ice keep
+~
+~
+1 -1 18026
+S
+#18028
+Inside the ice keep~
+The air is chilly inside this section of the keep and you
+can still see your breath in the air in front of you.  The
+walls are completely covered with a solid sheet of ice.  All
+around you are the creatures that inhabit this frozen building.
+~
+180 ADN 0
+D0
+Inside the ice keep
+~
+~
+0 -1 18030
+D1
+A long hallway
+~
+~
+0 -1 18031
+D3
+Inside the ice keep
+~
+~
+0 -1 18027
+S
+#18029
+Inside the ice keep~
+The air is chilly inside this section of the keep and you
+can still see your breath in the air in front of you.  The
+walls are completely covered with a solid sheet of ice.  All
+around you are the creatures that inhabit this frozen building.
+~
+180 ADN 0
+D1
+Inside the ice keep
+~
+~
+0 -1 18030
+D2
+Inside the ice keep
+~
+~
+0 -1 18027
+S
+#18030
+Inside the ice keep~
+The air is chilly inside this section of the keep and you
+can still see your breath in the air in front of you.  The
+walls are completely covered with a solid sheet of ice.  All
+around you are the creatures that inhabit this frozen building.
+~
+180 ADN 0
+D2
+Inside the ice keep
+~
+~
+0 -1 18028
+D3
+Inside the ice keep
+~
+~
+0 -1 18029
+S
+#18031
+A long hallway~
+You are in a long hallway inside the great keep.  Strange
+sounds can be heard all around you and you shiver at the
+thought of what might happen to you as you make your way
+inside the keep.  The hall branches off to the north and
+to the east.
+~
+180 ADN 0
+D0
+A small passageway
+~
+~
+0 -1 18053
+D1
+A long hallway
+~
+~
+0 -1 18032
+D3
+Inside the ice keep
+~
+~
+0 -1 18028
+S
+#18032
+A long hallway~
+As you make your way down the long hall it becomes darker
+and you can barely see what lies ahead of you.
+~
+180 ADN 0
+D1
+A turn in the hallway
+~
+~
+0 -1 18033
+D3
+A long hallway
+~
+~
+0 -1 18031
+S
+#18033
+A turn in the hallway~
+You have reached a turn in the hallway.  The hallway continues
+on toward the north and to the west.  There is an enormous
+white door to the southeast.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18034
+D3
+A long hallway
+~
+~
+0 -1 18032
+D8
+Inside the white tower
+~
+~
+2 18001 18058
+S
+#18034
+A long hallway~
+You turn down another long hallway and begin to feel a 
+little warmer.  Strange sounds can be heard all around you
+and you shiver at the thought of what might happen to you 
+as you make your way inside the keep.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18035
+D2
+A turn in the hallway
+~
+~
+0 -1 18033
+S
+#18035
+A long hallway~
+You make your way down the hallway and begin to feel less 
+afraid.  The silence all around you is peaceful and you feel
+at peace as well.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18036
+D2
+A long hallway
+~
+~
+0 -1 18034
+S
+#18036
+A long hallway~
+As you make your way down the hall your footsteps echo in 
+the silence.  The entire hall is quiet.  Strangely, now 
+it makes you feel uneasy.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18037
+D2
+A long hallway
+~
+~
+0 -1 18035
+S
+#18037
+A long hallway~
+You feel like you've been traveling this hallway forever
+and it is too dark ahead to see any end.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18038
+D2
+A long hallway
+~
+~
+0 -1 18036
+S
+#18038
+A long hallway~
+You are nearing the end of the hallway and you can barely
+make out some light ahead to discern that the hallway curves 
+off to the west.
+~
+180 ADN 0
+D0
+A turn in the hallway
+~
+~
+0 -1 18039
+D2
+A long hallway
+~
+~
+0 -1 18037
+S
+#18039
+A turn in the hallway~
+You have reached a turn in the hallway.  The hallway continues
+on toward the west and to the south.  There is an enormous
+black door to the northeast.
+~
+180 ADN 0
+D2
+A long hallway
+~
+~
+0 -1 18038
+D3
+A long hallway
+~
+~
+0 -1 18040
+D6
+Inside the black tower
+~
+~
+2 18002 18059
+S
+#18040
+A long hallway~
+The hallway continues inside the ice keep and the silence
+is broken from time to time by the screams of animals
+attacking each other.  You had better hurry before they find
+you too.
+~
+180 ADN 0
+D1
+A turn in the hallway
+~
+~
+0 -1 18039
+D3
+A long hallway
+~
+~
+0 -1 18041
+S
+#18041
+A long hallway~
+The sound of animals begins to get louder as you make your
+way down the hallway.  It begins to get darker and you are
+not sure if anything is lying in wait in the darkness.
+~
+180 ADN 0
+D1
+A long hallway
+~
+~
+0 -1 18040
+D3
+A long hallway
+~
+~
+0 -1 18042
+S
+#18042
+A long hallway~
+You have reached the middle of the long hallway and this
+room is strangely illuminated from an unknown source.  The
+hall continues to the east and west and there is a door
+made of crystal to the north. 
+~
+180 DN 0
+D0
+A Crystal Door
+~
+~
+3 18004 18051 
+D1
+A long hallway
+~
+~
+0 -1 18041
+D3
+A long hallway
+~
+~
+0 -1 18043
+S
+#18043
+A long hallway~
+The hallway continues inside the ice keep and the silence
+is broken from time to time by the screams of animals
+attacking each other.  You had better hurry before they find
+you too.
+~
+180 ADN 0
+D1
+A long hallway
+~
+~
+0 -1 18042
+D3
+A long hallway
+~
+~
+0 -1 18044
+S
+#18044
+A long hallway~
+The hallway continues inside the ice keep and the silence 
+is broken from time to time by the screams of animals
+attacking each other.  You had better hurry before they
+find you too.
+~
+180 ADN 0
+D1
+A long hallway
+~
+~
+0 -1 18043
+D3
+A turn in the hallway
+~
+~
+0 -1 18045
+S
+#18045
+A turn in the hallway~
+You have reached a turn in the hallway.  The hall continues
+to the south and to the east.  There is an enormous smokey
+colored door to the northwest.
+~
+180 ADN 0
+D1
+A long hallway
+~
+~
+0 -1 18044
+D2
+A long hallway
+~
+~
+0 -1 18046
+D7
+Inside the smokey tower
+~
+~
+2 18003 18060
+S
+#18046
+A long hallway~
+This hallway is completely black and you have trouble seeing
+even with the help of a light.  The hall continues on to the
+south.
+~
+180 ADN 0
+D0
+A turn in the hallway
+~
+~
+0 -1 18045
+D2
+A long hallway
+~
+~
+0 -1 18047
+S
+#18047
+A long hallway~
+This hallway is completely black and you have trouble seeing
+even with the help of a light.  The hall continues on to the
+south.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18046
+D2
+A long hallway
+~
+~
+0 -1 18048
+S
+#18048
+A long hallway~
+The hallway begins to widen as you near the end.  It is 
+still completely black but you can sense the end is near.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18047
+D2
+A long hallway
+~
+~
+0 -1 18049
+S
+#18049
+A long hallway~
+The hall begins to get brighter as you enter the room.  There
+seems to be something shining from the next room giving off
+a strange light.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18048
+D2
+A long hallway
+~
+~
+0 -1 18050
+S
+#18050
+The end of the hall~
+You have reached the end of the long hallway and it would
+appear that you have to turn back.  The walls here are 
+completely covered with ice and they reflect your light 
+very well.  There is a large block of completely black ice 
+against the west wall.  Upon closer inspection you can see 
+that some of the ice has been chipped away.
+~
+180 ADN 0
+D0
+A long hallway
+~
+~
+0 -1 18049
+D3
+A Secret Room
+~
+abcdghi~
+4 -1 18080
+S
+#18051
+A White Room~
+You are inside a room with no ice and it feels very warm.
+All the walls in the room are colored white and there is a
+black door to the north.
+~
+180 ADN 0
+D0
+A Black Door
+~
+~
+3 18005 18052
+D2
+A long hallway
+~
+~
+0 -1 18042
+S
+#18052
+A Black Room~
+You are inside a room with no ice and it feels very warm.
+All the walls in the room are colored black and there is a 
+smokey colored door to the north.
+~
+180 ADN 0
+D0
+A Smokey Colored Door
+~
+~
+3 18006 18061
+D2
+A White Room
+~
+~
+0 -1 18051
+S
+#18053
+A small passageway~
+This is a small passageway that continues on into the middle
+of the ice keep.
+~
+180 ADN 0
+D0
+A small passageway
+~
+~
+0 -1 18054
+D2
+A long hallway
+~
+~
+0 -1 18031
+S
+#18054
+A small passageway~
+This is a small passageway that continues on into the middle
+of the ice keep.
+~
+180 ADN 0
+D0
+A small hallway
+~
+~
+0 -1 18055
+D2
+A small passageway
+~
+~
+0 -1 18053
+S
+#18055
+A small hallway~
+This is a small hallway that branches off to the east and west.
+Lying on the floor here is a small white key.
+~
+180 ADN 0
+D1
+A small hallway
+~
+~
+0 -1 18056
+D2
+A small passageway
+~
+~
+0 -1 18054
+D3
+A small hallway
+~
+~
+0 -1 18057
+S
+#18056 
+A small hallway~
+This section of the hallway is darker.  Lying on the ground
+you see a small black key.
+~
+180 ADN 0
+D3
+A small hallway
+~
+~
+0 -1 18055
+S
+#18057
+A small hallway~
+This section of the hallway is completely dark.  Lying on the
+ground you can faintly see a small smokey colored key.
+~
+180 ADN 0
+D1
+A small hallway
+~
+~
+0 -1 18055
+S
+#18058
+Inside the white tower~
+You are now inside the white tower.  All of the walls are
+completely covered in the color white and inch thick coats
+of ice coat the tower walls.  Stone carvings, barely visible
+beneath the icy coating, remind you that this place was once
+inhabited a long time ago.
+~
+180 DN 0
+D1
+Inside the white tower
+~
+~
+0 -1 18084
+D7
+A turn in the hallway
+~
+~
+0 -1 18033
+S
+#18059
+Inside the black tower~
+You are now inside the black tower.  All of the walls are
+completely colored in black and coating the walls is a thin
+layer of ice.
+~
+180 ADN 0
+D0
+Inside the black tower
+~
+~
+0 -1 18094
+D9
+A turn in the hallway
+~
+~
+0 -1 18039
+S
+#18060
+Inside the smokey tower~
+You have reached the insides of a very smokey tower.  You 
+choke and gasp for air as you make your way inside.  This 
+tower is very warm and there is no sign of ice.
+~
+180 ADN 0
+D0 
+Inside the smokey tower
+~
+~
+0 -1 18105
+D8
+A turn in the hallway
+~
+~
+0 -1 18045
+S
+#18061
+A Smokey Room~
+You are inside a room with no ice and it feels very warm.
+All the walls in the room are blackened by the smoke and 
+there is a small door to the north.
+~
+180 ADN 0
+D0
+Inside the Palace of Lanatir
+~
+~
+1 -1 18062
+D2
+A Black Room
+~
+~
+0 -1 18052
+S
+#18062
+Inside the Palace of Lanatir~
+You have reached the entrance to the palace of Lanatir.  He
+was once a powerful ruler before his exile to this great ice
+keep.
+~
+180 DN 0
+D2
+A Smokey Room
+~
+~
+1 -1 18061
+D6
+Inside the Palace of Lanatir
+~
+~
+0 -1 18063
+S
+#18063
+Inside the Palace of Lanatir~
+You are inside the beautiful palace of Lanatir.  Decorating
+the walls you see tapestries and beautiful portraits of
+Lanatir and his family.  This place has not been visited for
+many many years but somehow it keeps its beautiful appearance.
+~
+180 DN 0
+D0
+A small chapel
+~
+~
+0 -1 18064
+D1
+Inside the Palace of Lanatir
+~
+~
+0 -1 18065
+D9
+Inside the Palace of Lanatir
+~
+~
+0 -1 18062
+S
+#18064
+A small chapel~
+This is a small chapel where Lanatir and his family used to
+come for private worship.  It looks abandoned and it hasn't
+been cleaned in years.  There is a two inch thick layer of 
+dust and debris covering everything in the room.
+~
+180 CDN 0
+D2
+Inside the Palace of Lanatir
+~
+~
+0 -1 18063
+S
+#18065
+Inside the Palace of Lanatir~
+This is a small hallway leading further into the palace.
+Torches line the walls giving the hallway an eerie feel and
+you wonder if you should turn back now.
+~
+180 DN 0
+D1
+Too dark to tell
+~
+~
+0 -1 18066
+D3
+Inside the Palace of Lanatir
+~
+~
+0 -1 18063
+D8
+Inside the Palace of Lanatir
+~
+~
+0 -1 18067
+S
+#18066
+A Dead End~
+You have reached a small dead end inside the palace.  Here
+more tapestries line the walls and it almost seems as if 
+someone has been here recently.  Written on the wall are the
+words...
+
+         NAME THE ONE AND ONLY TRUE LOVE OF LANATIR
+
+~
+180 DN 0
+D1
+The Throne Room
+~
+cala~
+4 -1 18068
+D3
+Inside the Palace of Lanatir
+~
+~
+0 -1 18065
+S
+#18067
+Inside the Palace of Lanatir~
+The hallway continues here toward the south and you can see
+a brighter light shining from that room.
+~
+180 DN 0
+D2
+A small courtyard
+~
+~
+0 -1 18069
+D7
+Inside the Palace of Lanatir
+~
+~
+0 -1 18065
+S
+#18068
+The Throne Room~
+You have reached the throne room of the great Lanatir.  In
+the back of the room you can see the great ruler seated upon
+a throne made of gold and covered with diamonds.  He raises his
+hand seeming to point at you ... a sudden clicking sound tells 
+you that the door you came in just shut.  
+~
+180 DN 0
+D0
+The Throne Room
+~
+~
+0 -1 18070
+D1
+The Throne Room
+~
+~
+0 -1 18073
+D2
+The Throne Room
+~
+~
+0 -1 18071
+S
+#18069
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D0
+Inside the Palace of Lanatir
+~
+~
+0 -1 18067
+D1
+A small courtyard
+~
+~
+0 -1 18075
+D2
+A small courtyard
+~
+~
+0 -1 18077
+D3
+A small courtyard
+~
+~
+0 -1 18079
+S
+#18070
+The Throne Room~
+You have reached the throne room of the great Lanatir.  In
+the back of the room you can see the great ruler seated upon
+a throne made of gold and covered with diamonds.
+~
+180 DN 0
+D1
+The Throne Room
+~
+~
+0 -1 18074
+D2
+The Throne Room
+~
+~
+0 -1 18068
+S
+#18071
+The Throne Room~
+You have reached the throne room of the great Lanatir.  In
+the back of the room you can see the great ruler seated upon
+a throne made of gold and covered with diamonds.
+~
+180 DN 0
+D0
+The Throne Room
+~
+~
+0 -1 18068
+D1
+The Throne Room
+~
+~
+0 -1 18072
+S
+#18072
+The Throne Room~
+You have reached the throne room of the great Lanatir.  In
+the back of the room you can see the great ruler seated upon
+a throne made of gold and covered with diamonds.  Written
+on the wall in small letters are the words, 'Use the name
+of my son as the key to escape.'
+~
+180 DN 0
+D0
+The Throne Room
+~
+~
+0 -1 18073
+D1
+You can see nothing
+~
+utor~
+4 -1 18081
+D3
+The Throne Room
+~
+~
+0 -1 18071
+S
+#18073
+The Throne Room~
+You have reached the back of the throne room of the great Lanatir.
+Seated upon a giant throne is the great Lanatir himself.
+~
+180 DN 0
+D0
+The Throne Room
+~
+~
+0 -1 18074
+D2
+The Throne Room
+~
+~
+0 -1 18072
+D3
+The Throne Room
+~
+~
+0 -1 18068
+S
+#18074
+The Throne Room~
+You have reached the throne room of the great Lanatir.  In
+the back of the room you can see the great ruler seated upon
+a throne made of gold and covered with diamonds.
+~
+180 DN 0
+D2
+The Throne Room
+~
+~
+0 -1 18073
+D3
+The Throne Room
+~
+~
+0 -1 18070
+S
+#18075
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D2
+A small courtyard
+~
+~
+0 -1 18076
+D3
+A small courtyard
+~
+~
+0 -1 18069
+S
+#18076
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D0
+A small courtyard
+~
+~
+0 -1 18075
+D3
+A small courtyard
+~
+~
+0 -1 18077
+S
+#18077
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D0
+A small courtyard
+~
+~
+0 -1 18069
+D1
+A small courtyard
+~
+~
+0 -1 18076
+D3
+A small courtyard
+~
+~
+0 -1 18078
+S
+#18078
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D0
+A small courtyard
+~
+~
+0 -1 18079
+D1
+A small courtyard
+~
+~
+0 -1 18077
+S
+#18079
+A small courtyard~
+You have reached a small courtyard inside the palace.  The
+sun shines brightly through the ceiling which is made
+entirely of glass.  This is a very peaceful room and must
+have been where Lanatir came to relax.
+~
+180 DN 0
+D1
+A small courtyard
+~
+~
+0 -1 18069
+D2
+A small courtyard
+~
+~
+0 -1 18078
+S
+#18080
+A secret room~
+You have stumbled upon a small, unlit room inside the vast
+ice keep.  Written in small letters on the back wall you
+can make out the words, 'UTOR'.
+~
+180 ADN 0
+D1
+The end of the hall
+~
+secret~
+4 -1 18050
+S
+#18081
+A small passageway~
+You have reached a small passageway past Lanatir's throne
+room.  The passage continues on to the east.
+~
+180 ADN 0
+D1
+A small passageway
+~
+~
+0 -1 18082
+D3
+The Throne Room
+~
+~
+0 -1 18072
+S
+#18082
+A small passageway~
+You are inside a secret passageway and ahead you can see
+daylight.
+~
+180 ADN 0
+D1
+A small field
+~
+~
+0 -1 18083
+D3
+A small passageway
+~
+~
+0 -1 18081
+S
+#18083
+A small field~
+You exit the passageway out into the crisp winter air.  It
+feels good to be out of the musty old keep but at the same
+time you can't help being aware of the bitter cold.
+~
+180 0 2
+D1
+A small field
+~
+~
+0 -1 18004
+S
+#18084
+Inside the white tower~
+You are in a small hallway inside the white tower.  All
+of the walls are white and the whole place seems to have
+a holy power surrounding it.
+~
+180 DN 0
+D1
+Inside the white tower
+~
+~
+0 -1 18085
+D3
+Inside the white tower
+~
+~
+0 -1 18058
+S
+#18085
+Inside the white tower~
+You continue on inside the tower and the room becomes a 
+little brighter.  The walls are so white that they almost
+glow.  It is so bright you find yourself putting away your
+light.  The hall continues on to the south.
+~
+180 DN 0
+D2
+Inside the white tower
+~
+~
+0 -1 18086
+D3
+Inside the white tower
+~
+~
+0 -1 18084
+S
+#18086
+Inside the white tower~
+You have reached a small fork in the hallway.  The hall
+continues on to the southeast and the southwest.
+~
+180 DN 0
+D0
+Inside the white tower
+~
+~
+0 -1 18085
+D8
+Inside the white tower
+~
+~
+0 -1 18087
+D9
+Inside the white tower
+~
+~
+0 -1 18088
+S
+#18087
+Inside the white tower~
+You make your way down the southeast passage and you 
+can feel the presence of a powerful being.  You begin
+to wonder whether it is wise to continue forward.
+~
+180 DN 2
+D7
+Inside the white tower
+~
+~
+0 -1 18086
+D8
+Inside the white tower
+~
+~
+0 -1 18089
+S
+#18088
+Inside the white tower~
+You make your way down the southwest passage and you
+suddenly feel empty and powerless.  The hall continues
+to the west.
+~
+180 DN 0
+D3
+Inside the white tower
+~
+~
+0 -1 18091
+D6
+Inside the white tower
+~
+~
+0 -1 18086
+S
+#18089
+Inside the white tower~
+You can feel a drastic increase in power in this room.
+You must be getting close to a source of tremendous
+magic.
+~
+180 DN 0
+D1
+Inside the white tower
+~
+~
+0 -1 18090
+D7
+Inside the white tower
+~
+~
+0 -1 18087
+S
+#18090
+Inside the white tower~
+You are right below a closed door that seems to shimmer
+with magic.  Perhaps you should open it and meet your
+fate.
+~
+180 DN 0
+D3
+Inside the white tower
+~
+~
+0 -1 18089
+D4
+The Sorcerer's Haven
+~
+~
+1 -1 18093
+S
+#18091
+Inside the white tower~
+The hallway suddenly becomes very dark and you can't see
+anything ahead of you.
+~
+180 ADN 0
+D1
+Inside the white tower
+~
+~
+0 -1 18088
+D3
+Too dark to tell
+~
+~
+0 -1 18092
+S
+#18092
+Trapped!~
+You enter the room and with a loud crash the exit behind
+you is cut off.  Suddenly you feel very light-headed as you 
+are teleported off to an unknown place......
+~
+180 ADFN 0
+18026 5 1
+S
+#18093
+The Sorcerer's Haven~
+You have reached the source of the powerful magic.  Standing
+before you are six sorcerers that seem to be guarding
+something.
+~
+180 DN 0
+D5
+Inside the white tower
+~
+~
+1 -1 18090
+S
+#18094
+Inside the black tower~
+You have reached a branch in the hallway.  There are
+exits to the east and the west.
+~
+180 ADN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18099
+D2
+Inside the black tower
+~
+~
+0 -1 18059
+D3
+Inside the black tower
+~
+~
+0 -1 18095
+S
+#18095
+Inside the black tower~
+You are in a narrow hallway inside the black tower.  It
+is so narrow that only one person can fit inside.
+~
+180 ACDLN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18094
+D3
+Too dark to tell
+~
+~
+0 -1 18096
+S
+#18096
+Inside the black tower~
+You are in a narrow hallway inside the black tower.  It
+is so narrow that only one person can fit inside.
+~
+180 ACDLN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18095
+D3
+Inside the black tower
+~
+~
+0 -1 18097
+S
+#18097
+Inside the black tower~
+You are in a narrow hallway inside the black tower.  It
+is so narrow that only one person can fit inside.
+~
+180 ACDLN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18096
+D3
+A Dead End
+~
+~
+0 -1 18098
+S
+#18098
+A Dead End~
+You have reached a dead end in the narrow hallway.  Scribbled 
+into the wall in front of you are the words, 'Cala and Lanatir
+forever'.
+~
+180 ACDLN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18097
+S
+#18099
+Inside the black tower~
+You are in a small, twisting hallway inside the black tower.
+The hallway continues on to the east.
+~
+180 ADN 0
+D1
+Inside the black tower
+~
+~
+0 -1 18100
+D3
+Inside the black tower
+~
+~
+0 -1 18094
+S
+#18100
+Inside the black tower~
+You are in a small, twisting hallway inside the black tower.
+The hallway continues on to the south.
+~
+180 ADN 0
+D2
+Inside the black tower
+~
+~
+0 -1 18101
+D3
+Inside the black tower
+~
+~
+0 -1 18099
+S
+#18101
+Inside the black tower~
+You are in a small, twisting hallway inside the black tower.
+The hallway continues on to the east.
+~
+180 ADN 0
+D0
+Inside the black tower
+~
+~
+0 -1 18100
+D1
+Inside the black tower
+~
+~
+0 -1 18102
+S
+#18102
+Inside the black tower~
+You are in a small twisting hallway inside the black tower.
+The hallway continues on to the north.
+~
+180 ADN 0
+D0
+Inside the black tower
+~
+~
+0 -1 18103
+D3
+Inside the black tower
+~
+~
+0 -1 18101
+S
+#18103
+Inside the black tower~
+You are in a small twisting hallway inside the black tower.
+The hallway continues on to the east.
+~
+180 ADN 0
+D1
+Too dark to tell
+~
+~
+0 -1 18104
+D2
+Inside the black tower
+~
+~
+0 -1 18102
+S
+#18104
+The End~
+You have reached the end and in front of you stands a shadowy
+figure holding a black colored lens.
+~
+180 ADJN 0
+D3
+Inside the black tower
+~
+~
+0 -1 18103
+S
+#18105
+Inside the smokey tower~
+You are inside the smokey tower and the smoke filled
+air all around you makes it very difficult to breathe.
+There is an exit to the west and to the south.
+~
+180 ADN 0
+D2
+Inside the smokey tower
+~
+~
+0 -1 18060
+D3
+Inside the smokey tower
+~
+~
+0 -1 18106
+S
+#18106
+Inside the smokey tower~
+As you make your way into the tower you choke and gag
+on the noxious fumes that surround you.  Maybe you
+should get in and out of here as fast as you can.
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18107
+D1
+Too smokey to tell
+~
+~
+0 -1 18105
+D2
+Too smokey to tell
+~
+~
+0 -1 18113
+S
+#18107
+Inside the smokey tower~
+You can barely see as you enter the room.  You think you
+see an exit to the west.
+~
+180 ADN 0
+D2
+Too smokey to tell
+~
+~
+0 -1 18106
+D3
+Too smokey to tell
+~
+~
+0 -1 18108
+S
+#18108
+Inside the smokey tower~
+You can barely see as you enter the room.  You think you
+see an exit to the west.
+~
+180 ADN 0
+D1
+Too smokey to tell
+~
+~
+0 -1 18107
+D3
+Too smokey to tell
+~
+~
+0 -1 18109
+S
+#18109
+Inside the smokey tower~
+You can't see a thing!
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18110
+D1
+Too smokey to tell
+~
+~
+0 -1 18108
+S
+#18110
+Inside the smokey tower~
+Entering this room causes you to gasp for air as the smoke
+is now extremely thick.  You feel that you must be close to
+the source but still cannot see anything.
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18111
+D2
+Too smokey to tell
+~
+~
+0 -1 18109
+S
+#18111
+An extremely hot room~
+This room is filled with even more smoke, and it is so hot
+that you wish you were back in the bitter cold outside of 
+this ice keep.  To the east you can see a light as bright 
+as the sun itself and the heat radiating out of the room
+is too hot for any living being to stand.  You begin to 
+think that it would be wise to turn back immediately before
+you are burned to death........
+~
+180 ADN 0
+D1
+Too smokey to tell
+~
+~
+0 -1 18112
+D2
+Too smokey to tell
+~
+~
+0 -1 18110
+S
+#18112
+A Fiery Room~
+As you walk into the room you are burned beyond recognition
+by the searing heat coming from a gigantic pit filled with 
+bubbling lava.  You try to run out of the room but the boiling
+puddles on the ground that were once your feet keep you from
+moving.
+~
+180 ADI 0
+D3
+Too smokey to tell
+~
+~
+0 -1 18111
+S
+#18113
+Inside the smokey tower~
+You are in a small hallway that is completely filled with
+smoke.  The smoke makes your eyes water and it is extremely
+difficult to breathe.
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18106
+D3
+Too smokey to tell
+~
+~
+0 -1 18114
+S
+#18114
+Inside the smokey tower~
+You can't see a thing!
+~
+180 ADN 0
+D1
+Too smokey to tell
+~
+~
+0 -1 18113
+D2
+Too smokey to tell
+~
+~
+0 -1 18115
+S
+#18115
+Inside the smokey tower~
+You can't see a thing!
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18114
+D2
+Too smokey to tell
+~
+~
+0 -1 18116
+S
+#18116
+Inside the smokey tower~
+You can't see a thing!
+~
+180 ADN 0
+D0
+Too smokey to tell
+~
+~
+0 -1 18115
+D3
+Too smokey to tell
+~
+~
+0 -1 18117
+S
+#18117
+Inside the smokey tower~
+You can't see a thing!
+~
+180 ADN 0
+D1
+Too smokey to tell
+~
+~
+0 -1 18116
+D5
+Too smokey to tell
+~
+~
+1 -1 18118
+S
+#18118
+A smokey room~
+You have reached a room with even more smoke than the
+rest you have encountered.  There is a giant wraith
+standing in front of you glaring.
+~
+180 ADN 0
+D4
+Too smokey to tell
+~
+~
+1 -1 18117
+S
+#18119
+A small field~
+You have reached a small, icy field far out in the wilderness.
+The landscape seems to stretch for miles and you are stunned by               
+the beauty of the sun reflecting off the icy ground.                            
+~
+180 0 2
+D0 
+A small field
+~
+~
+0 -1 18004
+D1
+A small field
+~
+~
+0 -1 18120
+D9
+A trail through the wilderness
+~
+~
+0 -1 18122
+S
+#18120
+A small field~
+As you walk through the field you hear the sound of your
+footsteps crunching on the solid ground.  All around you 
+can be heard the sounds of wild animals searching for food.
+~
+180 0 2  
+D0
+A small field
+~
+~
+0 -1 18001
+D1
+A small field
+~
+~
+0 -1 18121
+D3
+A small field
+~
+~
+0 -1 18119
+S
+#18121
+A small field~
+This section of the field is filled with enormous snowdrifts
+that have the appearance of small hills on either side of you.
+The wind is quite strong and and you are having trouble staying
+on your feet.
+~
+180 0 4
+D0
+A small field
+~
+~
+0 -1 18003
+D3
+A small field
+~
+~
+0 -1 18120
+S
+#18122
+A trail through the wilderness~
+You have reached a fork in a very winding trail through the 
+wilderness.  The path continues off to the west and you can
+see a small field to the northeast.
+~
+180 0 4
+D2
+A trail through the wilderness
+~
+~
+0 -1 18123
+D3
+A trail through the wilderness
+~
+~
+0 -1 18128
+D6
+A small field
+~
+~
+0 -1 18119
+S
+#18123
+A trail through the wilderness~
+This small trail has become increasingly icy and the wind
+has begun to howl around you.  You trudge onward through the
+harsh landscape and the trail shows no signs of ending.
+~
+180 0 4
+D0
+A trail through the wilderness
+~
+~
+0 -1 18122
+D1
+A trail through the wilderness
+~
+~
+0 -1 18124
+S
+#18124
+A trail through the wilderness~
+The trail has begun to slope upward and you start to feel
+out of breath as you make the tough hike up the trail.
+The path continues on to the west and the south.
+~
+180 0 4
+D2
+A trail through the wilderness
+~
+~
+0 -1 18125
+D3
+A trail through the wilderness
+~
+~
+0 -1 18123
+S
+#18125
+A trail through the wilderness~
+This section of the trail looks very well traveled upon
+and you can see the faint outline of wheel marks on the 
+frozen ground.
+~
+180 0 3
+D0
+A trail through the wilderness
+~
+~
+0 -1 18124
+D9
+A trail through the wilderness
+~
+~
+0 -1 18126
+S
+#18126
+A trail through the wilderness~
+This part of the trail feels slightly colder than the
+rest of the trail and branches off to the southeast and
+the northeast.
+~
+180 0 3
+D3
+A trail through the wilderness
+~
+~
+0 -1 18127
+D6
+A trail through the wilderness
+~
+~
+0 -1 18125
+D8
+Beginning of a small path
+~
+~
+0 -1 18139
+S
+#18127
+A trail through the wilderness~
+The landscape begins to become darker and the sounds of wild
+animals can be heard around you.  You continue to shiver as you
+have been out in the cold for quite some time now.  Hopefully 
+you can find some shelter soon.
+~
+180 0 4
+D1
+A trail through the wilderness
+~
+~
+0 -1 18126
+D3
+A trail through the wilderness
+~
+~
+0 -1 18134
+S
+#18128
+A trail through the wilderness~
+The further you travel on this trail the steeper it becomes.  You 
+are beginning to get tired and you could sure use a rest.
+~
+180 0 4
+D1
+A trail through the wilderness
+~
+~
+0 -1 18122
+D7
+A trail through the wilderness
+~
+~
+0 -1 18129
+S
+#18129
+A trail through the wilderness~
+The trail continues on to the north and all around you is silence.  
+The only sound that can be heard is your breathing and the crunching 
+of your footsteps.
+~
+180 0 4
+D0
+A trail through the wilderness
+~
+~
+0 -1 18130
+D8
+A trail through the wilderness
+~
+~
+0 -1 18128
+S
+#18130
+A trail through the wilderness~
+The trail continues on to the west and ahead in the distance you 
+can see a small log building.
+~
+180 0 4
+D2
+A trail through the wilderness
+~
+~
+0 -1 18129
+D3
+A trail through the wilderness
+~
+~
+0 -1 18131
+S
+#18131
+A trail through the wilderness~
+You are nearing the small building now and you can see smoke
+rising from the chimney and the smell of cooking food begins to
+make your mouth water.  The trail continues on to the southwest.
+~
+180 0 4
+D1
+A trail through the wilderness
+~
+~
+0 -1 18130
+D9
+Outside of the trading outpost
+~
+~
+0 -1 18132
+S
+#18132
+Outside of the trading outpost~
+You have reached a small outpost located in the middle of nowhere.
+The building is made completely of logs and there is a small wooden
+door on the outside of the building.  The left side of the building
+is covered with a large tangle of vines and you can smell food cooking
+from within.
+~
+180 0 4
+D3
+Inside the outpost
+~
+~
+1 -1 18133
+D6
+A trail through the wilderness
+~
+~
+0 -1 18131
+E
+vines tangle~
+As you look more closely it appears that one vine is much thicker
+than the rest.........
+~
+S
+#18133
+Inside the outpost~
+This is the inside of a small outpost located in the middle of 
+nowhere.  On the walls around you are the skins of various dead 
+animals and the smell of beef jerky fills the air.
+~
+180 CK 4
+D1
+Outside the outpost
+~
+~
+1 -1 18132
+S
+#18134
+A trail through the wilderness~
+The wind continues to swirl around you and it begins to get
+even colder.  You can feel your extremities begin to get numb 
+and turn blue.
+~
+180 0 4
+D1
+A trail through the wilderness
+~
+~
+0 -1 18127
+D2
+A trail through the wilderness
+~
+~
+0 -1 18135
+S
+#18135
+A trail through the wilderness~
+The wind has begun to get much stronger now and you can feel
+it swirl around you from all directions.  You can see the trail
+extend to the north and decide to press onward.
+~
+180 0 4
+D0
+A trail through the wilderness
+~
+~
+0 -1 18134
+D8
+A trail through the wilderness
+~
+~
+0 -1 18136
+S
+#18136
+A trail through the wilderness~
+It has begun to get slightly darker as you emerge onto this
+section of the trail.  The sun is partially obscured behind
+the dense trees surrounding you and a cold wind is blowing
+from behind you.
+~
+180 0 4
+D1
+A trail through the wilderness
+~
+~
+0 -1 18137
+D7
+A trail through the wilderness
+~
+~
+0 -1 18135
+S
+#18137
+A trail through the wilderness~
+This small, winding trail seems to stretch as far as the eye 
+can see.  You prepare yourself for a long journey as you travel 
+onward.
+~
+180 0 4
+D2
+Beginning of a small trail
+~
+~
+0 -1 18138
+D3
+A trail through the wilderness
+~
+~
+0 -1 18136
+S
+#18138
+Beginning of a small trail~
+This is the beginning of a small trail that appears to stretch 
+for miles ahead of you into the wintery land of this frozen realm.
+~
+180 0 2
+D0
+A trail through the wilderness
+~
+~
+0 -1 18137
+D2
+Outside the gates of Gelidia
+~
+~
+0 -1 18200
+S
+#18139
+Beginning of a small path~
+You have reached a small path that leads to a small, frozen
+pond.  The air seems clearer here and you think you can 
+actually hear the sounds of birds chirping and ducks quacking.
+~
+180 CK 2
+D1
+A path around the pond
+~
+~
+0 -1 18140
+D7
+A trail through the wilderness
+~
+~
+0 -1 18126
+S
+#18140
+A path around the pond~
+This is a small path that leads around a frozen pond.
+All around you can be heard the sounds of wildlife and
+you take a moment to lean back and enjoy the scenery
+despite the freezing cold.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18142
+D1
+On the frozen pond
+~
+~
+0 -1 18152
+D2
+A path around the pond
+~
+~
+0 -1 18141
+D3
+Beginning of a small path
+~
+~
+0 -1 18139
+S
+#18141
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18140
+D1
+A path around the pond
+~
+~
+0 -1 18151
+S
+#18142
+A path around the pond~
+The air is clean and crisp here and the gravel path under 
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18143
+D1
+On the frozen pond
+~
+~
+0 -1 18153
+D2
+A path around the pond
+~
+~
+0 -1 18140
+S
+#18143
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18144
+D1
+On the frozen pond
+~
+~
+0 -1 18154
+D2
+A path around the pond
+~
+~
+0 -1 18142
+S
+#18144
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D1
+A path around the pond
+~
+~
+0 -1 18145
+D2
+A path around the pond
+~
+~
+0 -1 18143
+S
+#18145
+A path around the pond~
+The air is clean and crisp here and the gravel path under 
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D1
+A path around the pond
+~
+~
+0 -1 18146
+D2
+On the frozen pond
+~
+~
+0 -1 18154
+D3
+A path around the pond
+~
+~
+0 -1 18144
+S
+#18146
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D2
+A path around the pond
+~
+~
+0 -1 18147
+D3
+A path around the pond
+~
+~
+0 -1 18145
+S
+#18147
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18146
+D2
+A path around the pond
+~
+~
+0 -1 18148
+D3
+On the frozen pond
+~
+~
+0 -1 18154
+S
+#18148
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18147
+D2
+A path around the pond
+~
+~
+0 -1 18149
+D3
+On the frozen pond
+~
+~
+0 -1 18153
+S
+#18149
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18148
+D2
+A path around the pond
+~
+~
+0 -1 18150
+D3
+On the frozen pond
+~
+~
+0 -1 18152
+S
+#18150
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18149
+D3
+A path around the pond
+~
+~
+0 -1 18151
+S
+#18151
+A path around the pond~
+The air is clean and crisp here and the gravel path under
+your feet makes a crunching sound as you step.  All around
+you are birds and other woodland creatures.
+~
+180 0 2
+D0
+On the frozen pond
+~
+~
+0 -1 18152
+D1
+A path around the pond
+~
+~
+0 -1 18150
+D3
+A path around the pond
+~
+~
+0 -1 18141
+S
+#18152
+On the frozen pond~
+You are standing on the frozen ice of a small pond.  The
+ice feels quite thick and you are sure that it can hold 
+your weight.  At least you hope it can.  As you make your 
+way further onto the ice you nearly lose your footing and
+fall face-first onto the frozen pond.
+~
+180 0 2
+D0
+On the frozen pond
+~
+~
+0 -1 18153
+D1
+A path around the pond
+~
+~
+0 -1 18149
+D2
+A path around the pond
+~
+~
+0 -1 18151
+D3
+A path around the pond
+~
+~
+0 -1 18140
+S
+#18153
+On the frozen pond~
+You are standing on the frozen ice of a small pond.  The
+ice feels quite thick and you are sure that it can hold
+your weight.  At least you hope it can.  As you make your
+way further onto the ice you nearly lose your footing and
+fall face-first onto the frozen pond.
+~
+180 0 2
+D0
+On the frozen pond
+~
+~
+0 -1 18154
+D1
+A path around the pond
+~
+~
+0 -1 18148
+D2
+On the frozen pond
+~
+~
+0 -1 18152
+D3
+A path around the pond
+~
+~
+0 -1 18142
+S
+#18154
+On the frozen pond~
+You are standing on the frozen ice of a small pond.  The
+ice feels quite thick and you are sure that it can hold
+your weight.  At least you hope it can.  As you make your
+way further onto the ice you nearly lose your footing and
+fall face-first onto the frozen pond.
+~
+180 0 2
+D0
+A path around the pond
+~
+~
+0 -1 18145
+D1
+A path around the pond
+~
+~
+0 -1 18147
+D2
+On the frozen pond
+~
+~
+0 -1 18153
+D3
+A path around the pond
+~
+~
+0 -1 18143
+S
+#18155
+On top of the outpost~
+You are in a small room that was built on top of the outpost.
+From here you have a great view of the landscape around you and
+the sun is shining brightly off of the objects in the room.
+~
+180 CK 4
+S
+
+
+
+#0
+
+#RESETS
+*
+M 0 18001 1 18021     Load Alendar
+E 1 18007 3 1           equip ring of wisdom
+*
+M 0 18002 1 18073     Load Lanatir
+E 1 18008 1 0           equip sphere of lanatir
+E 1 18009 1 17          equip wand of power
+E 1 18010 1 16          equip hammer of wrath
+*
+* Load white tower main mobs
+*
+M 0 18003 6 18093     Load Sorcerer
+E 1 18004 -1 17          equip crystal lens
+E 1 18012 3 6            equip sorcerer hood
+*
+M 0 18003 6 18093     Load Sorcerer
+M 0 18003 6 18093     Load Sorcerer
+M 0 18003 6 18093     Load Sorcerer
+M 0 18003 6 18093     Load Sorcerer
+M 0 18003 6 18093     Load Sorcerer
+*
+* Load black tower main mob
+*
+M 0 18004 1 18104     Load Black Guardian
+E 1 18005 -1 17          equip black lens
+E 1 18013 2 6            equip crown of truth
+*
+* Load smokey tower main mob
+*
+M 0 18005 1 18118     Load smokey wraith
+E 1 18006 -1 17          equip smokey lens
+*
+* Load mobs outside the ice keep
+*
+M 0 18006 7 18001     Load ice viper
+M 0 18006 7 18006     Load ice viper
+M 0 18006 7 18011     Load ice viper
+M 0 18006 7 18015     Load ice viper
+M 0 18006 7 18022     Load ice viper
+M 0 18006 7 18025     Load ice viper
+M 0 18006 7 18025     Load ice viper
+*
+M 0 18007 5 18003     Load glaze wolf
+M 0 18007 5 18005     Load glaze wolf
+M 0 18007 5 18009     Load glaze wolf
+M 0 18007 5 18018     Load glaze wolf
+M 0 18007 5 18022     Load glaze wolf
+*
+M 0 18008 6 18004     Load polar bear
+M 0 18008 6 18007     Load polar bear
+M 0 18008 6 18010     Load polar bear
+M 0 18008 6 18019     Load polar bear
+M 0 18008 6 18024     Load polar bear
+M 0 18008 6 18026     Load polar bear
+*
+* Load mobs inside the ice keep
+*
+M 0 18009 8 18029     Load ice warrior
+E 1 18011 16 16           equip icy sword
+*
+M 0 18009 8 18032     Load ice warrior
+E 1 18011 16 16           equip icy sword
+*
+M 0 18009 8 18036     Load ice warrior
+*
+M 0 18009 8 18040     Load ice warrior
+E 1 18011 16 16           equip icy sword
+*
+M 0 18009 8 18046     Load ice warrior
+E 1 18011 16 16           equip icy sword
+*
+M 0 18009 8 18087     Load ice warrior
+E 1 18011 9 16            equip icy sword
+*
+M 0 18009 8 18105     Load ice warrior
+*
+M 0 18010 6 18028     Load arctic ranger
+M 0 18010 6 18034     Load arctic ranger
+M 0 18010 6 18044     Load arctic ranger
+M 0 18010 6 18046     Load arctic ranger
+M 0 18010 6 18101     Load arctic ranger
+M 0 18010 6 18114     Load arctic ranger
+*
+M 0 18011 7 18031     Load blizzard demon
+M 0 18011 7 18042     Load blizzard demon
+M 0 18011 7 18050     Load blizzard demon
+M 0 18011 7 18080     Load blizzard demon
+M 0 18011 7 18090     Load blizzard demon
+M 0 18011 7 18116     Load blizzard demon
+*
+M 0 18012 8 18141     Load duck
+M 0 18012 8 18150     Load duck
+M 0 18012 8 18154     Load duck
+M 0 18012 8 18146     Load duck
+M 0 18012 8 18152     Load duck
+M 0 18012 8 18149     Load duck
+M 0 18012 8 18140     Load duck
+M 0 18012 8 18150     Load duck
+*
+M 0 18013 7 18147     Load sparrow
+M 0 18013 7 18151     Load sparrow
+M 0 18013 7 18139     Load sparrow
+M 0 18013 7 18143     Load sparrow
+M 0 18013 7 18145     Load sparrow
+M 0 18013 7 18152     Load sparrow
+M 0 18013 7 18150     Load sparrow
+*         
+M 0 18014 1 18133     Load trader
+G 1 18017 10          Give bearskin coat to trader 
+G 1 18018 10          Give wool mittens to trader
+G 1 18019 10          Give eskimo pie to trader
+G 1 18020 10          Give beef jerky to trader
+*
+M 0 18015 1 18155     load shadow shopkeeper
+G 1 18021 10          Give icy dagger to shadow
+G 1 18022 10          Give wool cap to shadow
+G 1 18023 10          Give snakeskin boots to shadow
+* Load keys on the ground
+*
+O 0 18001 -1 18055    Load white key  
+O 0 18002 -1 18056    Load black key
+O 0 18003 -1 18057    Load smokey key
+O 0 18014 -1 18050    Load block of ice to move
+O 0 18015 -1 18132    Load vine to climb up
+O 0 18016 -1 18155    Load vine to climb back down
+*
+D 0 18026 4 1         Shut ice keep outside 
+D 0 18027 5 1         Shut ice keep inside
+D 0 18033 8 2         Lock white tower door
+D 0 18039 6 2         Lock black tower door
+D 0 18042 0 3         Wizlock white door
+D 0 18045 7 2         Lock smokey tower door
+D 0 18051 0 3         Wizlock black door
+D 0 18052 0 3         Wizlock smokey door
+D 0 18050 3 4         Shut secret ice block door
+D 0 18080 1 4         Shut secret ice block door 
+D 0 18061 0 1         Shut Palace door outside
+D 0 18062 2 1         Shut Palace door inside
+D 0 18066 1 4         Shut secret door
+D 0 18072 1 4         Shut secret door
+D 0 18090 4 1         Shut sorcerer door outside
+D 0 18093 5 1         Shut sorcerer door inside
+D 0 18117 5 1         Shut smokey door outside
+D 0 18118 4 1         Shut smokey door inside
+D 0 18132 3 1         Shut outpost door outside
+D 0 18133 1 1         Shut outpost door inside
+S
+
+#SHOPS
+18014 2 8 22 0 0 110 55 0 23      the trader
+18015 3 4 5 9 15 110 65 0 23      shadow shopkeeper
+0
+
+
+#SPECIALS
+M 18001 spec_cast_cleric
+M 18002 spec_cast_mage  
+M 18005 spec_cast_undead
+M 18006 spec_poison
+
+S
+
+#$         

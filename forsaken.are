@@ -1,0 +1,165 @@
+#AREA   { CAS } Kyrus   Forsaken Clanhall~
+
+#MOBILES
+#15475
+guard beast tarrasque~
+Tarrasque~
+A tall hideous beast stands here, guarding the gate.
+~
+The hugest beast you've ever set your eyes on stands here.
+~
+ogre~
+ABMT HOV 0 S
+70 50 1d1+20000 1d1+5000 15d10+100 0
+0 0 0 0
+EFGHIKM ABI CD 0
+8 8 0 69
+AHMV ABCDEFGHIJK G 0
+#0
+
+
+
+#OBJECTS
+#15475
+{~
+hatch~
+A secret hatch which you can enter~
+unknown~
+31 0 0
+6 15475 0 1 0
+0 0 0 P
+#15476
+pit~
+the donation pit~
+A pit for donations is here.~
+unknown~
+15 O 0
+ABCDIJKN 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#15475
+A passage~
+You find yourself in a really dark corridor...  You have the very
+distinct feeling you are being watched, and the feeling runs chills down
+your spine...  
+~
+0 ACN 0
+D0
+~
+~
+0 0 15480
+S
+#15476
+The Archway~
+As you enter the room, you see a huge bone archway marking the entrance
+to Castle Forsaken.  Large torches line the hallway, lighting the bleached
+skulls of opposing castle members.  
+~
+0 ACDN 0
+D0
+~
+~
+0 0 15477
+D2
+~
+~
+1 0 15480
+S
+#15477
+The Center room~
+The tunnelway widens into a very large center room.  This room is
+brightly illuminated, but you cannot seem to locate the source.  Tunnelways
+lead off to the east and west, and you spot a small room to the north, full
+of weapons.  A small crumbling set of stairs leads downward.  
+~
+0 DNW 0
+D0
+~
+~
+0 0 15478
+D2
+~
+~
+0 0 15476
+D5
+~
+~
+0 0 15479
+S
+#15478
+The Armory~
+This is where castle members come to hone their fighting skills.  Racks
+of weapons hang on the walls for you to train with.  
+~
+0 DTUV 0
+D2
+~
+~
+0 0 15477
+S
+#15479
+The donation pit~
+Upon entering the kingdom of the Forsaken, you are overcome with a wave
+of despair.  Adventureres of every race and class populate the room and eye
+you with wary prejudice.  In this room the Forsaken throw away thier worries
+and converse in battle tactics and the demise of another castle.  Peering
+around you overhear many hideous plots and stories of the days of old, "... 
+I once heard those two took down the Guardian of the Souls twice without so
+much as an effort."  "Bah, ya didn't neither," retorted a stout dwarf. 
+"Lords Kyrus and Misery wouldn't waste their time on such a creature."  Just
+then the two notice your gawking and seem displeased to know of your
+eavesdropping.  The Forsaken do not look kindly upon spies and outsiders who
+do not belong within the confines of the castle.  
+~
+0 CDNTU 0
+D4
+~
+~
+0 0 15477
+S
+#15480
+Before the gates~
+You are standing before a huge bone gate.  The stench of death is
+overwhelming...  Piles of blood bones lie mangled in the corner...  Another
+victim of the deadly Terrasque.  
+~
+0 ADN 0
+D0
+~
+~
+1 0 15476
+D2
+~
+~
+0 0 15475
+S
+#0
+
+
+
+#SPECIALS
+M 15475 spec_castle_guard_agg  
+S
+
+
+
+#RESETS
+D 0 15476 2 1
+D 0 15480 0 1
+O 0 15475 0 15479
+O 0 15476 0 15479
+M 0 15475 1 15480
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

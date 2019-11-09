@@ -1,0 +1,5442 @@
+#AREA   {None } Diku    Limbo~
+
+
+
+#MOBILES
+#10
+rakar weaponmaster gm~
+Rakar the weaponsmaster~
+The weaponsmaster is here sharpening an exotic looking sword.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge he possesses. He is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+human~
+GJKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 15000
+0 0 M 0
+#11
+geko gladiator master gm~
+Geko the gladiator~
+The mighty gladiator is here waiting for his next battle.
+~
+The gladiator is a strong man.  He looks like someone who could teach
+even the mightest of warriors a thing or two.
+~
+human~
+BGJKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 0
+0 0 M 0
+#12
+vladamir veteran gm~
+Vladamir the veteran~
+The veteran is here resting from his years of fighting in the Dragon Wars.
+~
+The mighy veteran looks like he has given his country many years of
+good service in the line of battle.  He looks like his experiences in
+life is more than you will ever know.
+~
+human~
+BGJKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 0
+0 0 M 0
+#13
+dolonar blacksmith gm~
+Dolonar the blacksmith~
+The dwarven blacksmith is here making a new piece of plate mail.
+~
+The dwarven blacksmith is big and strong.  From the size of his arms,
+you would guess that he has been a blacksmith for a long time, and he
+probably can make some very good equipment.
+~
+dwarf~
+JBKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 0
+0 0 M 5000
+#14
+breark troll gm~
+Breark the troll~
+A troll warrior is here looking for his next victim.
+~
+This is one big, ugly, and smelly troll.  You are unable to detect any
+signs that he has ever been in a battle.  Wonder why?
+~
+troll~
+BGKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 0
+0 0 M 0
+
+#20
+warder nightmaster gm~
+Warder the nightmaster~
+The nightmaster is eyeing you closely.
+~
+You realize that whenever the night master moves, you fail to notice it:
+the way of the true thief.  She is dressed in poor clothing, having
+the appearance of a beggar.
+~
+human~
+BGJKSV DFP 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#21
+stout fence gm~
+Stout the Fence~
+A man in a long overcoat approaches you, "Need any supplies?"
+~
+This is a very strange shopkeeper.  He seems to keep his inventory
+inside his long overcoat that he is wearing.
+~
+human~
+BGJKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 5000
+0 0 M 0
+
+#22
+quickfingers pickpocket thief master gm~
+Quickfingers the pickpocket~
+The thief is eyeing your wallet closely.
+~
+Quickfingers is a very ordinary looking man, maybe to ordinary.  He
+seems to be able to blend into the crouds very well.
+~
+halfling~
+BJKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#23
+picky locksmith thief gm~
+Picky the locksmith~
+The locksmith is here trying to help someone who lost their keys.
+~
+The locksmith seems very capable in his choosen profession.  He can
+pop a lock faster than anyone else you have ever seen.
+~
+gnome~
+BJKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#24
+nihi ninja master gm~
+Ni Hi the ninja master~
+The ninja master is barely visible.
+~
+The ninja master is here showing his methods to his students.
+~
+human~
+BJKSV DPF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#25
+suma chef cook master gm~
+Suma the chef~
+The master chef is here preparing some food.
+~
+The master chef look like he has had a few to many of his award winning
+recipes (well, at least for a thieves guild).
+~
+dwarf~
+BKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 500
+0 0 M 0
+#26
+mizry assassin master gm~
+Mizry the assassin~
+The assassin is barely visible in the shadows.
+~
+It is very hard to keep the assassin in view.  He seems to be able to
+just disappear into the shadows.
+~
+elf~
+BGKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+
+#30
+dominic master ceremonies gm~
+Dominic the master of ceremonies~
+The master of ceremonies is here practicing for tonights benediction.
+~
+The master of ceremonies is a very busy man.  He is the most well versed
+person in the art of benedictions and therefore is in high demand.
+~
+human~
+BJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#31
+lunk gardener gm~
+Lunk the gardener~
+The gardener is here checking on his plants.
+~
+The gardener is a wise man who hears many things through the "grapevine."
+His motto is that through meditation and a stress free life, you can
+achieve great happiness.
+~
+halfling~
+BGJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#32
+eriak crypt thing gm~
+Eriak the crypt thing~
+The crypt thing is heading toward you.
+~
+You have heard many tales about the crypt thing, but no one has ever lived
+to tell a personal account of meeting him.
+~
+undead~
+BGKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#33
+fredar hero breas gm~
+Fredar the hero of breas~
+The Hero of Breas is here trying to go unnoticed.
+~
+The Hero of Breas is the most famous of all clerics who went off to war.
+He is said to have killed half of the enemy soldiers by himself in the last
+war.
+~
+human~
+BGJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#34
+silius convert magician gm~
+Silius the convert magician~
+A convert from the ways of magic is standing here.
+~
+The convert was on the way to becoming a very powerful magician before
+his god called him to service.  Now he spends all of his time working for
+his god.
+~
+elf~
+BJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#35
+qualo healer~
+Qualo the healer~
+The healer is here to help those in need.
+~
+The healer must have the divine favor of his god because his healing skills
+are known around the world as the best healing skills ever.
+~
+human~
+BJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#36
+grill missionary breas gm~
+Grill the missionary of breas~
+The missionary of Breas is here back from his latest mission trip.
+~
+The missionary of Breas has traveled the world converting others to 
+follow his god.
+~
+human~
+BGJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#37
+tempora high priestess gm~
+Tempora the high priestess~
+The High Priestess of Breas is here praying.
+~
+You are in no doubt that this guildmaster is truly close to your god, 
+she has a peaceful, loving look. You notice that she is surrounded by 
+a white aura.
+~
+human~
+BJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+
+#40
+dawn wandmaker gm~
+Dawn the Wand Maker~
+The wand maker is here showing you the latest in wands.
+~
+You would imagine that this shopkeeper is probably the most knowlegable
+person there is when it comes to wands. She seems to have a very large
+selection and can tell you everything there is about wandmaking
+~
+human~
+BJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 5000
+0 0 M 0
+#41
+diemos librarian gm~
+Diemos the librarian~
+Diemos the librarian is here watching over the books.
+~
+This wise old man looks like a very knowlegeable man who can tell you
+alot about the history of the world.  He is rarely not seen reading a
+history book.
+~
+human~
+BJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#42
+kilar mad magician gm~
+Kilar the mad magician~
+There is a man in the corner spouting off stuff about spells.
+~
+This magician seems to have been the target of one to many lighting
+bolts.  He is just rambling on about spells he use to know but can't
+seem to remember.
+~
+human~
+BKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#43
+drixt dragon gm~
+Drixt the golden dragon~
+There is a golden dragon here who looks like he has been in a cell to long.
+~
+This gold dragon seems to have been in this cell for a long time.  He 
+seems to have been treated pretty good though.  Wonder what the guards 
+think about him being here.
+~
+dragon~
+BKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#44
+tranis summoner gm~
+Tranis the Master Summoner~
+There is a man here summoning various things.
+~
+The summoner seems to have no order to the things that he is summoning. 
+He is summoning all kinds of creatures.
+~
+human~
+BJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#45
+creole gnome magician gm~
+Creole the magician~
+There is a magician here entertaining the people as they pass by.
+~
+Boy this magician sure is good.  You can't tell how he is doing his
+tricks.
+~
+gnome~
+BGJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#46
+danko mystic knight gm~
+Danko the mystic knight~
+The mystic knight is standing here in all of his glory.
+~
+The mystic knight is the greatest fighter that the mages have ever
+known.  His skills rival that of some of the strongest warriors.
+~
+human~
+BGJKTV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#47
+chamis master charmer gm~
+Chamis the master charmer~
+There is a man here that seems to draw people to him.
+~
+This man is know far and wide as the master charmer.  He is said to
+have no enemies and everyone just seems to want to do what he tells 
+them to do.
+~
+human~
+BJKTV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#48
+flame fire mage gm~
+Flame the fire mage~
+The fire mage is here setting things on fire.
+~
+The fire mage is here.  He seems very comfortable with magic relating
+to fire.
+~
+human~
+BKTV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+
+#50
+guildmaster master gm~
+the guildmaster~
+The guildmaster is here teaching newbies.
+~
+This guildmaster is still a guildmaster in training.  He is doing his intern
+work in the newbie school training people to use their most basic skills.
+He does not have enough experience yet to train people in new arts, just to
+show them how to better use the arts they already know.
+~
+human~
+BJKTV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#51
+kalak dwarf dwarven black smith blacksmith armourer master gm~
+the dwarven blacksmith~
+Kalak, the dwarven blacksmith is here making a new piece of plate mail.
+~
+The dwarven blacksmith is big and strong.  From the size of his arms,
+you would guess that he has been a blacksmith for a long time, and he
+probably can make some very good equipment.
+~
+dwarf~
+BJKTV DEFJ 0 S
+36 0 1d1+1999 1d1+999 3d8+24 19
+-15 -15 -15 -15
+FG ABCD 0 0
+8 8 1 15000
+0 0 M 0
+#52
+tia ninja master gm~
+the ninja master~
+Tia, the ninja master is barely visible.
+~
+The ninja master is here showing his methods to his students.
+~
+human~
+GJKSV DPF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 17
+-15 -15 -15 -15
+BEFHJN ABCD 0 0
+8 8 2 0
+0 0 M 0
+#53
+david missionary devota gm~
+the missionary of Devota~
+David, the missionary of Devota is here back from his latest mission trip.
+~
+The missionary of Devota has traveled the world converting others to 
+follow his god.
+~
+human~
+GJKQV CDEFH 0 S
+36 0 1d1+1999 1d1+999 3d8+24 20
+-15 -15 -15 -15
+EFHIKbb ABCD 0 0
+8 8 2 0
+0 0 M 0
+#54
+gioli gnome magician gm~
+the magician~
+Gioli, the gnome magician, is here entertaining the people as they pass by.
+~
+Boy this magician sure is good.  You can't tell how he is doing his
+tricks.
+~
+gnome~
+GJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#55
+jazair nomadic merchant~
+Jazair the merchant~
+Jazair the nomadic merchant master is here to show you his goods.
+~
+Jazair the merchant is a nomad from the Desert of Sorrow.  He is known 
+for selling many rare and exotic items.  He is also very quick to anger
+when a sale goes the wrong way and can go berserk.  Only the brave or
+foolhardy try to bargin with Jazair.
+~
+human~
+BKTV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 L 0
+#56
+fingers hobbit trinket shopkeeper gm~
+Fingers the shopkeeper~
+A rosey cheeked hobbit whisks over to you to show off his latest buy.
+~
+A plump little hobbit named Fingers runs this establishment.  He is well
+known for his ability to dissapear when his fingers get him in trouble.
+~
+hobbit~
+BKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 S 0
+#57
+salir monk psionicist gm~
+Salir the Monk~
+Salir, a Monk of the Way is hovering above the ground with his legs crossed.
+~
+     Salir is well know throughout the land for the power of his mind.
+It is said he can kill with thought alone, although he only kills in self
+defense.  He is dressed on plain grey robes and has a shaved head except
+for a long single braid.
+~
+human~
+BKSV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#58
+gm Seraloi mage~
+Seraloi, the lost.~
+Seraloi is here, searching for his lost brother.
+~
+   Seraloi lost track of his brother Gioli in a magical mishap several
+years ago.  Since then he has been searching for him far and wide.  A
+rumor reached him that a wandering mage was seen in Dresden, so he has come
+here in hopes that this wandering mage is his brother.  His clothes are
+travel worn, and a large scar mars his face.
+~
+gnome~
+GJKRV DF 0 S
+36 0 1d1+1999 1d1+199 3d8+24 13
+-20 -20 -20 -20
+ACDEIKbb ABCD 0 0
+8 8 1 0
+0 0 M 0
+#59
+guru Freddy~
+Freddy Krugar~
+The training guru says, "Schools out!", then drags his claws across the
+chalkboard.
+~
+    Freddy stands with his foot resting on the teachers bloody chair.  His
+hand is slowly dragging his razor gloved hand down the chalkboard.  The
+sound is painful to hear!
+~
+unique~
+BGJKRV DF -750 S
+50 20 1D1+15000 1D1+500 10D30+50 13
+-20 -20 -20 -20
+ACDEIKbbdd ABCD 0 0
+8 8 1 0
+0 0 H 0
+#60
+were bat~
+a were bat~
+A savage bat is here.
+~
+It appears to be a flying rodent.
+~
+bat~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#61
+were rat~
+a were rat~
+A rabit rat is here.
+~
+The crazed rat looks at you like your lunch.
+~
+rat~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#62
+were boar~
+a were boar~
+A viscious boar is here.
+~
+It's got long teeth, and looks ready to charge.
+~
+orc~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#63
+were tiger~
+a were tiger~
+A very large feline is here.
+~
+It's feline alright, but this one stands on two legs.
+~
+cat~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#64
+were bear~
+a were bear~
+A very large bear is here. Might be a good idea to find a tree.
+~
+Big best describes it. Very big.
+~
+bear~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#65
+were wolf~
+a were wolf~
+A really mean looking wolf stands here, on two legs.
+~
+It's big, it's mean, and it looks hungre. Running might be a good option.
+~
+wolf~
+TV DGTN 0 S
+1 0 1D1+1 10D10+10 1D1+1 5
+0 0 0 0
+EFI ALQ CIP HY
+8 8 0 0
+0 0 M 0
+#71
+greater vampire~
+The greater vampire~
+A greater vampire is here protecting it's master.
+~
+The greater vampire oozes fear.  Just by looking at him the hair on your
+arms rise. He looks mighty tough.
+~
+undead~
+BFR DF -900 S
+29 0 10d10+850 1d1+200 7d5+35 6
+-5 -5 -5 -3
+W 0 0 0
+8 8 1 0
+0 0 M 0
+#72
+naberius devil marquis~
+Naberius~
+Naberius, a Marquis of hell, guards his new master.
+~
+As you watch, Naberius transfroms from a large bird into a viscious
+creature, all talons and teeth.
+~
+unique~
+BFT DFH -1000 S
+29 0 10d15+900 1d1+200 5d8+50 5
+-8 -8 -8 -5
+W 0 0 0
+8 8 1 0
+0 0 M 0
+#73
+efreeti~
+An Efreeti~
+An Efreeti is here serving it's master.
+~
+The Efreeti is a creature formed from the elemental plane of fire. It's
+flame's lick at you hungrily as it attacks.
+~
+unique~
+BFQ DFT -800 S
+29 0 10d10+750 1d1+200 6d6+35 3
+-5 -5 -5 -3
+W 0 0 0
+8 8 1 0
+0 0 M 0
+#74
+invisible stalker~
+An invisible stalker~
+An invisible stalker is here fighting for it's master.
+~
+Even though you can see there is something there, you can't really see what
+it looks like.  The blow's it is dishing out on your body are real enough
+though.
+~
+unique~
+BFS DFTB -900 S
+29 0 10d10+750 1d1+200 5d7+35 8
+-5 -5 -5 -3
+W 0 0 0
+8 8 1 0
+0 0 M 0
+#79
+demon guardian~
+The guardian demon~
+A guardian demon is here, protecting it's domain.
+~
+The guardian demon looks fierce, and very good at it's job.
+~
+undead~
+BFR DFH -950 S
+29 0 10d10+1000 1d1+200 5d5+5 5
+-5 -5 -5 -3
+V 0 0 0
+8 8 1 0
+0 0 M 0
+#80
+undead~
+an undead mob~
+An undead mob is waiting to be created here.~
+You see one of the undead.~
+unique~
+OX DF -750 S
+0 0 1d1+1 1d1+1 1d1+1 5
+0 0 0 0
+IK 0 0 NS
+8 8 1 0
+0 0 M 0
+#99
+angel~
+an angel~
+Herbie the Angel is here.
+~
+Herbie is an angel, with big beautiful white wings. He spends most of his
+time wandering the world, and other dimensions, healing those in need.
+~
+unique~
+BQ CDFHJT 1000 S
+65 10 1d1+9000 1d1+1000 10d20+100 20
+-5 -5 -5 -5
+AEFGHIK ABCDEFG 0 0
+8 8 1 0
+0 0 M 0
+#4444
+elite guard~
+an elite guard~
+An elite guard of Dresden is standing here serving the four lords.
+~
+He is a powerfully built man with rigid facial features.  His uniform
+consists of different metals, both rare and common.  He wears only the best
+armour money can buy.  Glorianna's sigil is etched over his heart and glows
+faintly.  He is very helpful and will gladly lend a hand if you are a good
+and just person.
+~
+human~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -14 -13 -8
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n whispers to $N.~
+$n whispers to you,"Time heals all wounds, your quest for HERO continues"~
+}
+#4445
+elite guard Krill~
+Krill~
+Krill the elite guard of Dresden is standing here serving the four lords.
+~
+Krill is a powerfully built human with rigid facial features.  He has many
+different metals along his uniform.  He wears only the best armour that his
+creater Glorianna gave to him when he was made.  He is very helpful and
+will lend a hand to you if you are a good and just person.
+~
+human~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -14 -13 -8
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n nods at $N~
+$n nods quickly to you.~
+}
+#4446
+elite guard dwarf Stehnrik~
+Stehnrik~
+Stenrik the dwarven guard of Dresden is standing here serving the four lords.
+~
+Stehnrik is a powerfully built dwarf with rigid facial features.  He has many
+different metals along his uniform.  He wears only the minimum of armor on his
+gaunt body for Stonefist, his creator, made him strong enough to defeat his
+enemies without it.  He will only lend a hand to you if you are a good and
+just person.
+~
+dwarf~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-15 -14 -14 -10
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n speaks quietly to $N.~
+$n tells you,"Remember always the glory of the dwarven hero's!~
+}
+#4447
+elite guard dwarf~
+a dwarven guard~
+An elite dwarven guard of Dresden is standing here serving the four lords.
+~
+He is a stocky dwarf with rigid facial features.  He has many
+different metals along his uniform.  He wears only the minimum armour on his
+gaunt body for Stonefist his creator made him strong enough to defeat the
+strongest of enemies.  He is very helpful and will lend a hand to you if you 
+are a good and just person.
+~
+dwarf~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -14 -13 -8
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n speaks with $N.~
+$n says,"If you are true of heart, trouble will never find you."~
+}
+#4448
+elite guard elf shevian~
+Shevian~
+Shevian an elite elven guard of Dresden is standing here serving the public.
+~
+He is one of the more powerfully built elves with rigid facial features.  He
+has many different metals along his uniform.  He wears only the best armour
+that his creater Silverstar gave to him when he was made.  He is very helpful
+and will lend a hand to you if you are for the cause of good.
+~
+elf~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -13 -13 -8
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n whispers to $N.~
+$n whispers to you,"Stealth and secrecy are your best weapons."~
+}
+#4449
+elite guard elf~
+a elite elf guard~
+An elite elven guard of Dresden is standing here serving the public.
+~
+He is one of the more powerfully built elves with rigid facial features.  He
+has many different metals along his uniform.  He wears only the best armour
+that his creater Silverstar gave to him when he was made.  He is very helpful
+and will lend a hand to you if you are for the cause of good.
+~
+elf~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -13 -13 -8
+CDEFIKNQS BLN EJK HIM
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n pulls $N aside.~
+$n tells you,"Remember evil lurks in the hearts of all men and women."~
+}
+#4450
+elite guard hobbit Borip~
+Borip~
+Borip an elite hobbit guard of Dresden is standing here serving the public.
+~
+He is more powerfully built hobbit with rigid facial features.  He has many
+different metals along his uniform.  He wears small but grand armour that his
+creater Perri gave to him when he was made.  He is very helpfull and will lend
+a hand to you if you are for the cause of good.
+~
+hobbit~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -13 -13 -8
+CDEFIKNQS BLN EKJ MHI
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n speaks with $N.~
+$n tells you,"Respect your opponent and he will respect you.~
+}
+#4451
+elite guard hobbit~
+a elite hobbit guard~
+An elite hobbit guard of Dresden is standing here serving the public.
+~
+He is more powerfully built hobbit with rigid facial features.  He has many
+different metals along his uniform.  He wears small but grand armour that his
+creater Perri gave to him when he was made.  He is very helpfull and will lend
+a hand to you if you are for the cause of good.
+~
+hobbit~
+CGTV DFN 0 M
+40 10 15d10+1550 1d1+99 4d8+13 8
+-14 -13 -13 -8
+CDEFIKNQS BLN EKJ MHI
+8 8 1 3000
+AMV ABCDEFGH M 0
+{
+A 54
+$n pulls $N aside.~
+$n tells you,"May peace favor your sword!"~
+}
+#4452
+regular guard~
+the regular guard~
+A regular guard is standing here for the good of the people.
+~
+As a guard of the city of Dresden he is to serve and protect the citizens at 
+all costs.  He is very helpfull.  He is clad in the armour of the city.
+~
+human~
+BCGT CFH 100 S
+25 5 5d10+350 1d1+99 2d10+7 27
+-7 -9 -8 -3
+CFIKS BLQ N HJ
+8 8 1 200
+AMV ABCDEFGH M 0
+
+#4453
+captain guard~
+Captain of the Guard~
+The Captain of the Guard sits here at his desk.
+~
+The Captain of the Guard is an older but very powerful man.  His ebony armor 
+seems to glow faintly.  The crest of the town of Dresden is displayed with 
+pride on his breastplate.
+~
+human~
+BGT CDFH 650 S
+45 30 5d10+1680 1d1+599 6d6+25 7
+-15 -15 -15 -5
+CDEFIKOT AB MNRS 0
+5 5 1 3500
+0 0 H 0
+
+#4454
+commander guard~
+Commander of the Guard~
+The Commander is here, practicing his pyrotechnics.
+~
+The Commander wears steel armor over his mighty thews, and a broken strap is 
+hanging out of the side of his breastplate.  He looks as if he's quite an easy 
+fight, besides he would like the chance to test his new weapon on you.
+~
+human~
+BGT CFH 500 S
+42 25 6d6+1350 6d6+450 5d6+20 7
+-12 -13 -13 -10
+EFKOTU ABH CLQ GI
+8 8 1 400
+0 0 H 0
+
+#4455
+sergeant guard~
+Sergeant of the Guard~
+The Sergeant of the Guard looks up from the papers on his desk.
+He asks 'May I help you?'
+~
+This is the tough and burly Sergeant of the Guard.  He wears the black armor of
+battle.  Of middle age with graying hair that pokes out from under his helmet,
+he has many scars from previous battles and duels.  He is always waiting for
+a chance to fight again.
+~
+human~
+BGT CH 400 S
+40 25 10d10+1080 4d4+250 4d6+25 7
+-10 -15 -10 -5
+CEFKNT ABRS D C
+5 5 1 3000
+0 0 H 0
+
+#4456
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+BGT 0 750 M
+20 15 4d6+310 1d1+99 2d10+20 8 
+-5 -5 -5 -5
+0 0 0 0
+8 8 1 250
+0 0 M 0
+{
+A 50
+$n welcomes $N to the city of dresden.~
+$n welcomes you to the city of dresden!~
+}
+#4457
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+BGT 0 750 M
+20 15 4d6+310 1d1+99 2d10+20 8
+-5 -5 -5 -5
+0 0 0 0
+8 8 2 250
+0 0 M 0
+{
+A 25
+$n pats $N on the head.~
+$n pats you on the head.~
+}
+#4458
+citizen dresden~
+a citizen of Dresden~
+A citizen of Dresden stands here.
+~
+He is one of the wealthy citizens of Dresden.
+~
+human~
+G 0 500 M
+10 20 6d6+62 1d1+99 1d5+5 17
+5 5 5 5
+0 0 0 0
+8 8 1 300
+0 0 M 0
+{
+A 20
+$n eyes $N with a greedy look.~
+$n scans you quickly with a sharp greedy look on his face.~
+} 
+#4459
+citizen dresden~
+a citizen of Dresden~
+A citizen of Dresden stands here.
+~
+She is one of the wealthy citizens of Dresden.
+~
+human~
+G 0 500 M
+10 20 6d6+62 1d1+99 1d5+5 17
+5 5 5 5
+0 0 0 0
+8 8 2 150
+0 0 M 0
+{
+A 20
+$n eyes $N with a greedy look.~
+$n eyes your belongings with a semi-concealed look of longing.~
+}
+#4460
+petshop girl~
+the petshop girl~
+The petshop girl is here, selling you rare and exotic animals.
+~
+She loves animals in all forms, and sells them not for money, but to spread
+the love of animals around.
+~
+human~
+BGMV 0 0 S
+40 40 1d1+1999 1d1+1999 10d10+30 16
+-205 -205 -205 -205
+0 ABCD 0 0
+8 8 2 2500
+0 0 M 0
+
+#4461
+jaguar pet~
+the Jaguar~
+A massive black jaguar stands here, raking the floor with its claws.
+~
+The Jaguar looks like a very fierce, yet agile fighter.
+~
+unique~
+BITU PV 0 S
+40 10 15d10+1199 1d1+199 4d8+13 5
+-13 -13 -13 0
+ADFHO 0 0 R
+8 8 3 0
+AGNV ACDEFHJKQUV H 0
+
+#4462
+raven bird pet~
+the Raven~
+A black raven is here, using its wings to hover in the air.
+~
+The Raven looks like a fierce fighter.
+~
+unique~
+BITU TV 0 S
+36 25 10d10+800 1d1+499 4d7+10 23
+-8 -8 -8 0
+BFH 0 0 0
+8 8 3 0
+AGW ACDEFHJKPU S 0
+
+#4463
+pseudodragon dragon pet~
+the Pseudodragon~
+A pseudodragon is here, gazing at its master with admiration.
+~
+The Pseudodragon resembles a miniature red dragon, with light brown scales.
+~
+unique~
+BIRU DT 0 S
+32 22 6d12+699 1d1+599 4d6+9 5
+-10 -10 -10 -15
+FHM 0 C 0
+8 8 3 0
+CHZ ACDEFHJKLPQUVX S 0
+
+#4464
+imp pet~
+the Imp~
+An imp flits about here.
+~
+The Imp looks to be a weak, yet fearless fighter.
+~
+unique~
+BIRU JTV 0 S
+28 18 5d10+599 1d1+569 3d7+7 26
+-5 -5 -5 -10
+FHM 0 C 0
+8 8 3 0
+BXcc ACDEFHJKLPQUVX S 0
+
+#4465
+eagle bird pet~
+the Eagle~
+A bald eagle glides here, on the warm air currents.
+~
+The Eagle looks to be a fierce, and agile fighter.
+~
+unique~
+BITU FTV 0 S
+24 0 3d9+333 1d1+439 2d8+5 5
+-7 -9 -9 -6
+AEFH 0 0 0
+8 8 3 0
+AGW ACDEFHJKPU M 0
+
+#4466
+sabertooth tiger pet~
+the Sabertooth Tiger~
+A sabertooth tiger pads softly about here, sniffing the air for intruders.
+~
+The Sabertooth Tiger bares its 9 inch fangs at you.
+~
+unique~
+BITU GP 0 S
+20 6 5d10+400 1d1+199 4d4+6 8
+-5 -5 -5 -5
+CDFIJ 0 0 0
+8 8 3 0
+DGVcc ACDEFHJKUV H 0
+
+#4467
+mayor dresden~
+the Mayor of Dresden~
+The Mayor of Dresden greets you with a warm smile.
+He shakes your hand.
+~
+The Mayor is an old fat man with balding hair and a pot belly.  He carries
+his trusty long sword at his side wherever he goes.  The Mayor holds a lot of
+power in Dresden... attacking him would only get you killed.
+~
+human~
+TV CDFHNP 750 S
+35 25 5d5+1000 1d1+199 8d6+20 20
+-15 -15 -15 -10
+CDEFHIJKNOT ABN RS P
+8 8 1 3500
+0 0 M 0
+
+#4468
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+GT 0 500 M
+20 15 4d6+310 1d1+99 2d10+20 8 
+-5 -5 -5 -5
+0 0 0 0
+8 8 1 250
+0 0 M 0
+{
+A 25
+$n speaks with $N.~
+$n tells you,"Let peace favor you in Dresden!"~
+}
+#4469
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+GT 0 500 M
+20 15 4d6+310 1d1+99 2d10+20 8
+-5 -5 -5 -5
+0 0 0 0
+8 8 2 250
+0 0 M 0
+{
+A 25
+$n eyes $N warily.~
+$n eyes you warily with a look of mistrust.~
+}
+#4470
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+BFGMT 0 500 M
+20 15 4d6+310 1d1+99 2d10+20 8 
+-5 -5 -5 -5
+0 AB 0 0
+8 8 1 250
+0 0 M 0
+{
+A 25
+$n welcomes $N to the city!~
+$n welcomes you to the great city of Dresden!~
+}
+#4471
+guard cityguard~
+a cityguard~
+A Dresden cityguard stands here.
+~
+A big strong cityguard of Dresden.
+~
+human~
+BFGMT 0 500 M
+20 15 4d6+310 1d1+99 2d10+20 8
+-5 -5 -5 -5
+0 AB 0 0
+8 8 2 250
+0 0 M 0
+{
+A 25
+$n looks at $N with a look of contempt.~
+$n looks at you with a vaguely concealed look of contempt.~
+}
+#4472
+waiter~
+Joe~
+Joe the Barkeep of this establishment is waiting to serve you drinks.
+~
+One of his arms is the size of your leg.  Starting a brawl in this tavern
+would be a mistake.
+~
+human~
+BGT 0 500 S
+40 40 8d8+20000 1d1+1999 8d8+40 8
+-25 -25 -25 -25
+0 ABCD 0 0
+8 8 1 2500
+0 0 H 0
+#4473
+goraidin guard~
+Goraidin~
+A Goraidin stands here, guarding the entrance from intruders.
+Goraidin says 'What do you want?'
+~
+No scars mar the surface of his face.  His black eyes hold no mercy, nor
+compassion.  He is always looking for new ways to kill people.  Don't tempt
+him or you'll wind up getting your body parts scraped up from the sidewalk
+with a spoon.
+~
+human~
+BGT H 750 S
+40 30 4d4+950 1d1+299 8d6+25 8
+-20 -20 -20 -20
+AO AB D 0
+8 8 1 80
+0 0 G 0
+#4474
+dragon black~
+the Great Black Dragon~
+A black dragon is here, laughing at your insolence.
+~
+This huge black wyrm laughs at your puny weapons.  You realize that he is not
+going to roll over and die for you.
+~
+dragon~
+BCF DF -1000 S
+39 15 39d30+468 20d39+230 3d8+4 31
+-13 -13 -13 -13
+CEFHKMN ABK 0 J
+8 8 1 3500
+0 0 G 0
+
+#4475
+atropos~
+Atropos~
+Atropos the cutter of the thread glares at you!
+~
+Atropos, one of the mythical greek fates is the cutter of thread, like
+her two other sisters, Clotho and Lachesis she has a job determining the
+fate of your life.  She is the one to fear simply because Atropos is the
+embodyment of death itself.
+~
+unique~
+LMTUVZ B BCDEFHJNPTUVZ G 0 S
+55 100 5000d1+1 500d1+1 10d5+15 11
+-10 -10 -10 -10
+AFHIZ A AB CD 0
+8 8 2 100
+0 0 M 0
+
+#4476
+lachesis~
+Lachesis~
+Lachesis the weaver of thread is here glaring at you!
+~
+Lachesis, like her sisters Atropos and Clothos has a job in the scheme of
+life. She weaves the thread of your life makes it what it is. She knows 
+all your hopes and desires, and makes the fullness of life what it is.
+It would not be good to piss her off.
+~
+unique~
+LMTUVZ B BCDEFHNOPTUVZ G 0 S
+55 100 5000d1+1 500d1+1 10d5+15 11
+-10 -10 -10 -10
+ACEFIJZ A AB CD 0
+8 8 2 100
+0 0 M 0
+
+#7550
+ghost~
+ghost~
+A gasous form drifts through the room.
+~
+~
+unique~
+0 0 750 S
+26 5 5d10+550 26d5+100 4d6+3 32
+-15 -15 -15 -10
+MNc AB CD 0
+8 8 2 500
+DHZ ACDEFHJKPQUVX M 0
+#0
+
+
+
+#OBJECTS
+#1
+note generic~
+a generic note~
+A generic note.~
+paper~
+12 0 A
+0 0 0 0 0
+0 1 0 P
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+gold~
+20 0 A
+1 0 0 0 0
+0 1 0 P
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+gold~
+20 0 A
+0 0 0 0 0
+0 1 0 P
+#10
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+meat~
+23 0 A
+0 0 0 1 0
+0 100 0 D
+#11
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+meat~
+24 O A
+0 0 0 1 0
+0 100 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+13 0 A
+0 0 0 0 0
+0 5 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+19 0 A
+16 0 0 0 0
+0 2 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+19 0 A
+20 0 0 0 0
+0 5 0 D
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+19 0 A
+20 0 0 0 0
+0 5 0 D
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+19 0 A
+5 0 0 1 0 
+0 2 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+19 0 A
+10 0 0 0 0
+0 2 0 D
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
+food~
+19 0 A
+8 0 0 0 0
+0 1 10 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+1 A A
+0 0 999 0 0
+0 0 0 P
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+25 G 0
+100000 100000 0 0 0
+0 0 0 P
+#23
+quest flag~
+a quest flag~
+A flag is waving here, waiting for someone to take it.~
+cloth~
+13 AS A
+0 0 0 0 0
+0 0 0 P
+#24
+jug moonshine~
+a jug o' moonshine~
+A large jug is here.~
+ceramic~
+10 ASV A
+50 36 28 74 0
+1 5 0 P
+#25
+sword coinspinner~
+the Sword of Luck~
+Coinspinner, the Sword of Luck, is waiting here.~
+adamantite~
+5 ABGTUV AN
+2 5 7 1 0
+41 1 4500 P
+A
+3 1
+A
+4 1
+A
+5 1
+A
+12 20
+A
+18 5
+A
+19 4
+A
+24 -5
+#26
+portal~
+a portal~
+A portal is here, an unused item?????.~
+cloth~
+30 A A
+1 0 0 0 0
+0 0 0 P
+#27
+saddle~
+a saddle~
+A saddle is here.~
+leather~
+33 A AD
+0 0 0 0 0
+2 0 50 P
+#29
+generic quest item~
+a generic quest item~
+A generic quest item is here.~
+stone~
+13 GV A
+0 0 0 0 0 
+0 0 0 P
+#30
+bow~
+a bow~
+A bow is here.~
+wood~
+5 ABGT AN
+9 5 5 1 0
+41 1 1500 P
+#31
+helmet bubble~
+a big glass bubble~
+A big glass bubble with a tube and tank attached to it is here.~
+glass~
+29 AGV AE
+0 0 0 0 0
+0 2 0 P
+#32
+mirror~
+a mirror~
+A mirror is here, taking up the whole wall.~
+glass~
+30 A 0
+1 0 0 0 0
+0 1000 0 P
+#33
+portal~
+a portal~
+A portal is here.~
+glass~
+30 A 0
+0 0 0 0 0 
+0 1 0 P
+#34
+amaranth plant herb~
+an amaranth plant~
+A small plant with snowy flowers is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+herb amaranth plant~
+The amaranth plant, also called 'love-lies-bleeding', is thought to
+be a plant that never dies. It is sometimes used as an astringent,
+or to slow down hemorrhaging.
+~
+#35
+angelica plant herb~
+a sprig of angelica~
+A sprig of angelica is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+angelica herb~
+Angelica can be used to help cure liver, lung, and spleen problems. It
+also help restore vision and hearing.
+~
+#36
+belladonna plant herb~
+a belladonna plant~
+A pretty plant with purple flowers and black berries is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+belladonna herb~
+The belladonna plant, if used correctly, can be used to help cure bladder
+problems, as a sedative or pain reliever, and also has a chance to
+cure lycanthropy. If used incorrectly, it can create a deadly poison.
+This plant is also known as 'deadly nightshade'.
+~
+#37
+catnip plant herb~
+a sprig of catnip~
+A minty smelling plant is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+catnip herb~
+Catnip is an herb of the mint family, widely known for the way the odor
+of it affects cats. It can also be used to help sooth colds and fevers.
+~
+#38
+foxglove plant herb~
+a foxglove flower~
+A plant with thimblelike flowers is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+digitalis herb~
+This plant goes by many names, to include "dead mens bell's", fairy bells,
+digitalis, and fairy fingers.  It is sometimes used in various tonics,
+and as a heart
+stimulant.
+~
+#39
+chervil plant herb~
+a chervil leaf~
+A plant is growing here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+chervil herb~
+The chervil plant is very similar to parsley. It's most common uses are in
+soups and salads to add flavor, and is rumored to be an ingriedent in some
+potions; if for nothing else, to help kill the taste, as most potions have
+an atrocious flavor.
+~
+#40
+clove plant herb~
+a clove~
+A single flower rests here on the ground.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+clove herb~
+The clove is the dried flower bud of a tropical evergreen tree. How it got
+here is anyone's guess. It is often used as a spice, but it can also be
+used as an anesthetic or disinfectant.
+~
+#41
+mistletoe plant herb~
+a sprig of mistletoe~
+You see a sprig of mistletoe here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+mistletoe herb~
+The mistletoe is a parasitic evergreen plant, with yellowish flowers and
+shiney, white, poisonous berries.  Other than it's known uses during
+holidays, it can be used to help with convulsions, certain diseases,
+and as a narcotic.
+~
+#42
+marjoram plant herb~
+a marjoram plant~
+There is a minty smelling plant growing here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+marjoram herb~
+The marjoram plant is of the mint family. It is often used in cooking,
+however, it can also aid in curing dizziness, brain disorders, and
+toothaches.
+~
+#43
+hyssop plant herb~
+a sprig of hyssop~
+A fragrant, blue flowered plant is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+hyssop herb~
+The hyssop is a plant of the mint family. It can be used to cure
+respiratory ailments, jaundice, and in treatment of cuts and wounds.
+~
+#44
+aconite plant herb~
+a sprig of aconite~
+A plant with hoodlike flowers is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+aconite herb~
+This plant is also called monkshood, friar's cap, and is also known
+as wolfsbane for it's supposed ability to drive of werewolves.
+~
+#45
+sarsaparilla vine herb~
+a sarsaparilla vine~
+A vine is growing here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+sarsaparilla herb~
+This vine is known for it's fragrant roots, which are used to make a drink
+of the same name. It is also used for keeping the body's system in balance,
+curing certain, ah, social diseases, and as a blood purifier.
+~
+#46
+juniper berry herb~
+a juniper berry~
+A small shrub is growing here, with berrylike cones.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+juniper berry herb~
+The juniper is a small tree or shrub. The berries of this plant can be used
+as an aphrodisiac, a stimulant, a disinfectant, and several other obscure
+uses.
+~
+#47
+saffron~
+a sprig of saffron~
+A plant with orange stigmas is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+saffron herb~
+This plant is often used as a dye, or to add flavor to certain foods.
+It can also be used to help aid in the cure of certain diseases and
+respiratory infections.
+~
+#48
+alfalfa plant herb~
+an alfalfa sprout~
+A patch of alfalfa is here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+alfalfa herb~
+The alfalfa sprout, also called lucerne, is a green plant of the pea
+family. It is considered to be a healthy addition to anyone's diet,
+and also helps to restore damaged muscle tissue.
+~
+#49
+pomegranate plant herb~
+a pomegranate~
+A pomegranate is laying here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+pomegranate herb~
+The pomegranate is a red fruit with a hard rind and many seeds inside it.
+Other than tasting good, it can be used as a nerve sedative.
+~
+#50
+cabbage plant herb~
+a head of cabbage~
+A cabbage is growing here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+cabbage herb~
+This plant looks similar to lettace in shape. It can be used in many
+different food dishes, or eaten by itself.  When the cabbage is crushed
+and the juice extracted, it can help treat ulcers and other stomach
+problems.
+~
+#51
+kelp plant herb~
+a piece of kelp~
+A piece of kelp has somehow managed to come to rest here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+kelp herb~
+The kelp plant is a large, coarse, brown seaweed. It is rich in iodine,
+and has many uses. A few of it's medicinal uses are to help with thyroid,
+heart, and artery problems.
+~
+#52
+asparagus plant herb~
+an asparagus shoot~
+A asparagus plant is growing here.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+asparagus herb~
+The asparagus plant is of the lily family, with edible shoots. When the
+juice is extracted from the plant, it can be used as a sedative, and to
+help with heart problems.
+~
+#53
+huckleberry plant herb~
+a huckleberry~
+A small shrubbery is here, with pretty blue berries on it.~
+herb~
+34 V A
+0 0 0 0 0
+0 0 0 P
+E
+huckleberry herb~
+The huckeberry is a shrub with blue berries. It's medicinal uses are
+anti-thirst, and several obscure diseases.
+~
+#54
+eye newt~
+eye of newt~
+An eye ball is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#55
+unicorn horn~
+a unicorn horn~
+The horn of a unicorn is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#56
+claw dragon~
+a dragons claw~
+A dragons claw is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#57
+fingernail troll~
+a trolls fingernail~
+A fingernail clipping is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#58
+pixie dust~
+some pixie dust~
+A small pile of glittering dust is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#59
+fur lycanthrope~
+a patch of lycanthrope fur~
+Some fur is on the ground here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#60
+rakshasa claw~
+a rakshasa's claw~
+A claw is here on the ground.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#61
+wrapping mummy~
+a mummy's wrapping~
+There is a piece of old decaying cloth here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#62
+hoof clipping nightmare~
+a nightmare's hoof clipping~
+An equinine's hoof clipping is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#63
+feather phoenix~
+a phoenix feather~
+There is a bright red feather here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#64
+spine manticore~
+a manticore's spine~
+A manticore's spine is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#65
+scale dragon~
+a dragon's scale~
+A large scale from some reptile is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#66
+dryad hair~
+a strand of hair~
+Lying on the ground, barely detectable, is a single strand of a Dryad's hair.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#67
+eye beholder~
+a beholder's eye~
+An eyeball is lying here on the ground.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#68
+horn gorgon~
+a gorgon's horn~
+There is some kind of animals horn here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#69
+tongue basilisk~
+a basilisks tongue~
+There is a grotesque piece of flesh here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#70
+dragon tooth~
+a dragon tooth~
+A large tooth is lying on the ground here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#71
+finger goblin~
+a goblin's finger~
+Something's severed finger is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#72
+ear minotaur~
+a minotaur's ear~
+Somethings severed ear is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#73
+tentacle roper~
+a roper's tentacle~
+There is some kind of tentacle on the ground here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#74
+tea container~
+a container of tea~
+A small beverage container is here.~
+glass~
+10 G AO
+0 0 0 0 0
+0 1 400 P
+#75
+potion~
+a potion~
+A potion is here.~
+glass~
+10 G AO
+0 0 0 0 0
+0 1 400 P
+#76
+blood dragon~
+a vial of dragons blood~
+There is a vial with a thick red fluid in it here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#77
+medusa eye~
+a vial of medusa eye fluid~
+There is a small vial with a clear liquid here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#78
+blood demon~
+a vial of demons blood~
+There is a vial of some thick red liquid here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#79
+cobweb spiderweb~
+a glass container of cobwebs~
+There is a glass container here, with some silky material in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#80
+wing faire~
+a glass encased wing of a fairy~
+You see a glass encased wing. You wonder what it use to be attached to.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#81
+ink squid~
+a vial of squid ink~
+There is a vial here with a dark fluid in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#82
+stinger poison~
+a vial of purple worm stinger poison~
+A vial with a strange liquid in it is here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#83
+venom thessalhydra~
+a vial of thessalhydra venom~
+You see a small vial with some kind of liquid in it here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#84
+saliva froghemoth~
+a vial of froghemoth saliva~
+There is a vial here, with a clear liquid in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#85
+scale tarrasque~
+a vial of crushed tarrasque scale~
+There is a vial here, with a shinny sand like substance in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#86
+cube gelatinous~
+an inert gelatinous cube~
+There is a dead gelatinous cube here.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#87
+flesh grey ooze~
+a vial of grey ooze~
+There is a vial here, with a dull grey fleshy substance in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#88
+slime green~
+a vial of green slime~
+There is a vial here, with viscous green substance in it.~
+spell component~
+35 V A
+0 0 0 0 0
+0 0 0 P
+#90
+scroll~
+a scroll~
+A rolled vellum scroll is here.~
+vellum~
+2 G AO
+0 0 0 0 0
+0 1 500 P
+#91
+container soul bottle~
+a prison for the soul~
+A very nasty item is here.~
+glass~
+36 V A
+0 0 0 0 0
+49 1 20000 P
+#92
+head~
+a severed head~
+A surgically removed head lies here.~
+meat~
+13 0 A
+0 0 0 0 0
+0 5 0 D
+#93
+arm~
+a severed arm~
+A surgically removed arm is lying here.~
+meat~
+19 0 A
+20 0 0 0 0
+0 5 0 D
+#94
+leg~
+a severed leg~
+A surgically removed leg is lying here.~
+meat~
+19 0 A
+20 0 0 0 0
+0 5 0 D
+#3000
+barrel beer~
+a barrel of beer~
+A beer barrel has been left here.~
+wood~
+17 0 A
+50 50 1 0 0
+0 25 300 P
+#3001
+bottle beer~
+a bottle of beer~
+A beer bottle has been left here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 20 P
+#3002
+bottle ale~
+a bottle of ale~
+A dark bottle of ale has been left here.~
+glass~
+17 0 A
+8 8 3 0 0
+0 2 10 P
+#3003
+bottle firebreather~
+a bottle of firebreather~
+A bottle of firebreather has been left here.~
+glass~
+17 0 A
+8 8 7 0 0
+0 2 50 P
+#3004
+bottle local~
+a bottle of local specialty~
+A dark bottle has been left here.~
+glass~
+17 0 A
+8 8 8 0 0
+0 2 20 P
+#3005
+scimitar blade~
+Hassan's scimitar~
+Hassan's scimitar lies upon the ground, waiting for its owner.~
+adamantite~
+5 BI AN
+1 5 6 21 EF
+35 20 30 P
+E
+scimitar blade~
+It is quite heavy.  The blade is made of some metal that you can't even
+spell.  The edge of the blade looks as if it could cut through anything
+or anyone.
+~
+#3009
+potpie pot pie~
+a big pot pie~
+A big pot pie has been left here.~
+food~
+19 0 A
+24 0 0 0 0 
+0 2 50 P
+#3010
+pit~
+the donation pit~
+A pit for sacrifices is in front of the altar.~
+stone~
+15 O 0
+10000 0 0 1000 0
+0 0 0  P
+E
+pit~
+This is where you put money and items to help Doz expand this shrine and
+convert more people to the belief of Mota, lord of the gods.
+~
+#3011
+bread~
+a bread~
+A loaf of bread is here. It doesn't look too stale.~
+food~
+19 0 A
+12 0 0 0 0
+0 1 10 P
+#3012
+cinnamon roll~
+a cinnamon roll~
+A piping hot cinnamon roll is here. It looks delicious!~
+food~
+19 0 A
+8 0 0 0 0
+0 1 15 P
+#3013
+sfhg cookies~
+Soulcrusher's sfhg cookies~
+A sack of oddly shaped, burnt, chocolate chip cookies is here.~
+food~
+19 0 A
+10 0 0 0 0
+0 1 20 P
+#3014
+danish blueberry~
+a blueberry danish~
+A scrumptious blueberry danish is here.~
+food~
+19 0 A
+6 0 0 0 0
+0 1 15 P
+#3020
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+steel~
+5 0 AN
+2 1 4 2 0
+5 1 100 G
+#3021
+sword small~
+a small sword~
+A small sword lies here.~
+steel~
+5 0 AN
+1 1 5 1 0
+5 3 200 G
+#3022
+sword long~
+a long sword~
+A long sword has been left here.~
+steel~
+5 0 AN
+1 2 5 3 0
+10 5 750 G
+#3023
+club~
+a club~
+A stout wooden club is here.~
+wood~
+5 0 AN
+4 1 7 7 0
+5 3 150 G
+A
+18 -1
+#3024
+mace heavy~
+a mace~
+A heavy iron mace is here.~
+iron~
+5 0 AN
+4 2 4 7 0
+10 10 500 G
+A
+19 1 
+#3025
+axe hand~
+a hand axe~
+A small hand axe lies forgotten on the floor.~
+iron~
+5 0 AN
+5 1 6 25 0
+5 5 200 G
+#3026
+axe battle~
+a battle axe~
+A large steel axe rests on the ground.~
+steel~
+5 0 AN
+5 2 5 25 F
+10 9 500 G
+#3027
+spear~
+a spear~
+A long spear leans against the wall.~
+steel~
+5 0 AN
+3 1 8 11 0
+5 5 150 G
+#3028
+staff~
+a wooden staff~
+A stout wooden staff lies on the floor.~
+wood~
+5 0 AN
+3 1 8 7 F
+5 4 100 G
+A
+17 -2
+#3029
+flail~
+a flail~
+A small iron flail is here.~
+iron~
+5 0 AN
+6 1 7 7 0
+10 5 500 G
+A
+17 1
+#3030
+torch~
+a torch~
+A large torch.~
+wood~
+1 0 A 
+0 0 50 0 0
+0 1 10 G 
+#3031
+lantern~
+a hooded brass lantern~
+A hooded brass lantern has been left here.~
+brass~
+1 0 A 
+0 0 250 0 0
+0 4 30 P
+E
+lantern~
+It is a large and robust but somewhat battered oil lantern made from brass,
+equipped with a handle to make it handy and a hood to protect its flame.
+Some letters have been scratched on its bottom.
+~
+E
+letters~
+They say, "Use 'hold lantern' to activate."
+~
+#3032
+bag~
+a bag~
+A small bag.~
+leather~
+15 0 A
+50 0 0 5 0
+0 2 15 G
+#3033
+box~
+a box~
+A small box.~
+wood~
+15 0 A
+10 0 0 5 0
+0 3 10 G
+#3039
+scroll cancellation~
+a scroll of cancellation~
+A rolled vellum scroll is here.~
+vellum~
+2 G AO
+15 507 0 0 0
+0 1 1000 P
+E
+scroll~
+Use this scroll to remove magical curses.
+~
+#3040
+scroll identify~
+a scroll of identify~
+A scroll has carelessly been left here.~
+vellum~
+2 G AO
+12 45 0 0 0
+5 1 1350 P
+E
+scroll identify~
+The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#3041
+potion yellow~
+a yellow potion of see invisible~
+A small yellow potion has carelessly been left here.~
+glass~
+10 G AO 
+12 19 0 0 0 
+0 1 100 P
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#3042
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+vellum~
+2 G AO
+20 42 0 0 0  
+0 2 50 P 
+E
+scroll~
+The scroll has written a formula of 'Word of Recall' upon it.
+~
+#3043 
+ring protection~
+a ring of protection~
+an enchanted ring of protection sits on the floor.~
+silver~
+8 G AB
+0 0 0 0 0
+5 1 500 P
+E
+ring~
+It's a silver ring set with a gleaming moonstone.
+~
+A
+17 -2
+A
+24 -1
+#3044
+wand magic missile missiles~
+a wand of magic missiles~
+a wooden stick lies on the ground.~
+wood~
+3 G AO
+4 10 10 32 0 
+0 1 400 P
+E
+wand~
+It has a little note that says 'point this end at target'.
+~
+#3045
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+steel~
+9 0 AD
+3 4 4 0 2
+5 16 750 G
+#3046
+bronze breast plate~
+a bronze breast plate~
+A bronze breast plate is lying on the ground.~
+bronze~
+9 0 AD
+6 5 7 0 5
+10 20 1000 G
+#3050
+raft~
+a raft~
+A raft has been left here.~
+wood~
+22 0 A
+0 0 0 0 0
+0 75 1000 A
+E
+raft~
+The raft looks very primitive.
+~
+#3051
+canoe~
+a canoe~
+A canoe has been left here.~
+wood~
+22 0 A
+0 0 0 0 0
+0 50 1500 G
+E
+canoe~
+The canoe is fairly light.
+~
+#3052 
+bracer strong leather~
+a leather bracer~
+A strong leather bracer is here.~
+leather~
+9 0 AM
+0 2 2 0 0
+5 1 25 P
+#3053
+belt leather~
+a leather belt~
+A soft leather belt is here.~
+leather~
+9 0 AL
+1 2 2 0 0
+5 1 50 G
+#3054
+girdle leather~
+a leather girdle~
+A wide leather girdle is here.~
+leather~
+9 0 AL
+1 3 3 0 1
+7 2 50 G
+#3060
+jerkin leather~
+a leather jerkin~
+A leather jerkin is lying on the ground.~
+leather~
+9 0 AD
+1 2 2 0 0
+5 5 75 G
+#3061
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+leather~
+9 0 AE
+1 2 2 0 0
+5 1 25 G
+#3062
+pants leather~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
+leather~
+9 0 AF 
+1 2 2 0 0
+5 5 50 G
+#3063
+boots leather~
+a pair of leather boots~
+A pair of leather boots lies here.~
+leather~
+9 0 AG 
+1 2 2 0 0
+5 3 75 G
+#3064
+gloves leather~
+a pair of leather gloves~
+A pair of leather gloves is lying on the ground.~
+leather~
+9 0 AH
+1 2 2 0 0
+5 1 55 G
+#3065
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+leather~
+9 0 AI 
+1 2 2 0 0
+5 3 55 G
+#3066
+jerkin hard leather~
+a hard leather jerkin~
+A hard leather jerkin is lying on the ground.~
+leather~
+9 0 AD 
+1 3 3 0 1
+5 8 500 G
+#3067
+cap hard leather~
+a hard leather cap~
+A hard leather cap is lying on the ground.~
+leather~
+9 0 AE
+1 3 3 0 0
+10 2 100 G
+#3068
+pants hard leather~
+a pair of hard leather pants~
+A pair of hard leather pants is lying on the ground.~
+leather~
+9 0 AF
+1 3 3 0 1
+10 7 200 G
+#3069
+boots hard leather~
+a pair of hard leather boots~
+A pair of hard leather boots lies here.~
+leather~
+9 0 AG
+1 3 3 0 1
+10 4 200 G
+#3070
+gloves hard leather~
+a pair of hard leather gloves~
+A pair of hard leather gloves is lying on the ground.~
+leather~
+9 0 AH
+1 3 3 0 1
+10 1 100 G
+#3071
+sleeves hard leather~
+a pair of hard leather sleeves~
+A pair of hard leather sleeves is lying on the ground.~
+leather~
+9 0 AI
+1 3 3 0 1
+10 4 100 G
+#3072
+jerkin scale mail~
+a scale mail jerkin~
+A scale mail jerkin is lying on the ground.~
+steel~
+9 0 AD
+3 4 4 0 2
+5 10 100 P
+#3073
+coif scale mail~
+a scale mail coif~
+A scale mail coif is lying on the ground.~
+steel~
+9 0 AE
+3 4 4 0 1
+5 5 75 P
+#3074
+skirt scale mail~
+a long scale mail skirt~
+A long scale mail skirt is lying on the ground.~
+steel~
+9 0 AF
+3 4 4 0 2
+5 8 150 P
+#3075
+boots reinforced~
+a pair of reinforced boots~
+A pair of reinforced boots lies here.~
+leather~
+9 0 AG
+3 4 4 0 2
+5 4 150 P
+#3076
+gloves reinforced~
+a pair of reinforced gloves~
+A pair of reinforced gloves is lying on the ground.~
+leather~
+9 0 AH
+3 4 4 0 2
+5 2 150 P
+#3077
+sleeves scale mail~
+a pair of scale mail sleeves~
+A pair of scale mail sleeves is lying on the ground.~
+steel~
+9 0 AI
+3 4 4 0 2
+5 6 150 P
+#3080
+potion heal healing~
+a potion of healing~
+A potion of healing is here.~
+glass~
+10 G AO
+20 28 0 0 0
+15 1 2000 P
+#3081
+potion sanct sanctuary~
+a potion of sanctuary~
+A potion of sanctuary is here.~
+glass~
+10 G AO
+20 36 0 0 0
+10 1 10000 P
+#3082
+potion divine~
+a potion of divine protection~
+A potion of divine protection is here.~
+crystal~
+10 ABGI AO
+35 36 66 1 0
+20 1 25000 P
+#3083
+potion cure light~
+a potion of cure light wounds~
+A potion of cure light wounds is here.~
+glass~
+10 G AO
+5 16 0 0 0
+0 1 150 P
+#3084
+potion cure serious~
+a potion of cure serious wounds~
+A potion of cure serious wounds is here.~
+glass~
+10 G AO
+10 61 0 0 0
+5 1 1500 P
+#3085
+potion cure critical critic~
+a potion of cure critical wounds~
+A potion of cure critical wounds is here.~
+glass~
+10 G AO
+15 15 0 0 0
+8 1 2500 P
+#3086
+potion antidote bottle~
+a bottle of antidote~
+A bottle of antidote is here.~
+clay~
+10 G AO
+14 43 16 501 0
+0 1 150 P
+#3087
+potion cure blindness~
+a potion of cure blindness~
+A potion of cure blindness is here.~
+glass~
+10 G AO
+13 14 0 0 0
+0 1 100 P
+#3088
+vial holy water~
+a vial of holy water~
+A vial of holy water is here.~
+crystal~
+10 AGI AO
+20 3 34 35 0
+5 1 1500 P
+#3089
+potion armor~
+a potion of armor~
+A potion of armor is here.~
+glass~
+10 G AO
+10 1 0 0 0
+0 1 150 P
+#3090
+potion negation~
+a potion of negation~
+A potion of negation is here.~
+glass~
+10 BG AO
+35 507 0 0 0
+0 1 350 P
+#3091
+potion fly flying~
+a potion of flying~
+A potion of flying is here.~
+glass~
+10 G AO
+9 56 0 0 0 
+0 1 100 P
+#3092
+potion true sight~
+a potion of true sight~
+A potion of true sight is here.~
+glass~
+10 G AO
+10 19 20 44 0
+0 1 150 P 
+#3097
+shield small metal~
+a small metal shield~
+A small metal shield is lying on the ground.~
+steel~
+9 0 AJ
+4 4 4 1 2 
+5 3 750 P
+#3100
+tea cup~
+a cup of tea~
+A cup has been set here.~
+china~
+17 0 A
+2 2 11 0 0
+0 1 5 P
+E
+cup~
+It is a small simple cup.
+~
+#3101
+coffee cup~
+a cup of coffee~
+A cup has been set here.~
+china~
+17 0 A
+2 2 12 0 0
+0 1 7 P 
+E
+cup~
+It is a small simple cup.
+~
+#3102
+water cup~
+a cup of water~
+A cup has been set here.~
+clay~
+17 0 A
+3 3 0 0 0
+0 1 1 P
+E
+cup~
+It is a large simple cup.
+~
+#3105
+bracer bronze~
+a bronze bracer~
+A bronze bracer is lying on the ground.~
+bronze~
+9 0 AM
+3 6 6 0 3
+15 3 2500 P
+#3106
+bracer iron~
+an iron bracer~
+An iron bracer is lying on the ground.~
+iron~
+9 0 AM
+3 7 7 0 3
+12 4 2000 P
+#3110
+shirt chain mail~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+steel~
+9 0 AD
+5 4 5 0 3
+10 18 500 P
+#3111
+coif chain mail~
+a chain mail coif~
+A chain mail coif is lying on the ground.~
+steel~
+9 0 AE
+5 4 5 0 2
+10 5 200 P
+#3112
+skirt chain mail~
+a long chain mail skirt~
+A long chain mail skirt is lying on the ground.~
+steel~
+9 0 AF
+5 4 5 0 3
+10 10 250 P
+#3113
+boots ironbound~
+a pair of iron-bound boots~
+A pair of iron-bound boots lies here.~
+iron~
+9 0 AG
+5 4 5 0 3
+10 6 500 P
+#3114
+gauntlets chain mail~
+a pair of chain mail gauntlets~
+A pair of chain mail gauntlets is lying on the ground.~
+steel~
+9 0 AH
+5 4 5 0 3
+10 4 300 P
+#3115
+sleeves chain mail~
+a pair of chain mail sleeves~
+A pair of chain mail sleeves is lying on the ground.~
+steel~
+9 0 AI
+5 4 5 0 3
+10 8 200 P
+#3116
+shield large metal~
+a large metal shield~
+A large metal shield is lying on the ground.~
+steel~
+9 0 AJ
+5 5 5 2 4
+10 10 575 P
+#3117
+shield small wooden~
+a small wooden shield~
+A small wooden shield is lying on the ground.~
+wood~
+9 0 AJ
+4 3 2 1 1
+5 2 150 P
+#3120
+key iron~
+a key~
+An iron key has been left here.~
+iron~
+18 0 A
+0 0 0 0 0
+0 1 0 G
+E
+key iron~
+The iron key is not special.
+~
+#3121
+key rusty~
+a key~
+A rusty key has been left here.~
+iron~
+18 0 A
+0 0 0 0 0
+0 1 0 W 
+E
+key rusty~
+The key is a fairly large rusty key.  You notice some fresh dirt on it.
+~
+#3122
+key wooden~
+a key~
+A wooden key has been left here.~
+wood~
+18 0 A
+0 0 0 0 0
+0 1 0 G
+E
+key wooden~
+The wooden key is not special.
+~
+#3123
+key brass~
+a key~
+A brass key has been left here.~
+brass~
+18 0 A
+0 0 0 0 0
+0 1 0 G
+E
+key brass~
+The brass key is small and looks like it fits a very complicated lock.
+~
+#3124
+sword long~
+a long sword~
+A long sword has been left here.~
+steel~
+5 0 AN 
+1 2 5 3 D
+10 5 750 P
+E
+sword long~
+This is the ceremonial sword of the Mayor of Dresden.
+~
+#3129
+hand cuffs~
+a pair of hand cuffs~
+A pair of hand cuffs has been left here.~
+iron~
+13 0 AO
+0 0 0 0 0
+0 4 200 A
+#3130
+desk drawer~
+the desk~
+A desk is set against the western wall.~
+The desk looks very sparse, there is a drawer in the left side.
+wood~
+15 0 0
+34 15 3122 20 0
+0 100 0 G 
+E
+drawer~
+You notice a keyhole in the drawer.
+~
+#3131
+safe~
+the safe~
+A safe is placed in a dark corner of the room.~
+The safe has a keyhole.
+iron~
+15 0 0
+34 15 3123 20 0
+0 100 0 G 
+E
+safe~
+The safe is very heavy.
+~
+#3132
+gold coins~
+the gold~
+A lot of gold is here.~
+Looks like at least 1,000 coins.
+gold~
+20 0 A
+950 0 0 0 0
+0 25 950 P
+#3133
+city key~
+the City Key~
+The very big City Key is lying here.~
+It is probably the biggest key you have seen in your life.  It is made from
+polished gold and has various patterns on it along with the Dresden Coat of
+Arms.
+gold~
+18 0 A
+0 0 0 0 0
+0 25 100 G
+#3134
+bench~
+the Bench~
+A white-painted wooden bench is standing here.~
+wood~
+12 0 0
+0 0 0 0 0
+0 100 600 G
+E
+bench~
+It is a quite heavy but very comfortable bench.  It is placed with its front
+towards the river so you can sit and watch the river and the houses on the
+other side.
+~
+#3135
+fountain water~
+a fountain~
+A small white fountain gushes forth here.~
+stone~
+25 0 0
+50 50 0 0 0
+0 500 300 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#3136
+coins gold~
+a small pile of gold coins~
+A small pile of gold coins lies here.~
+gold~
+20 0 1
+20 0 0 0 0
+0 2 20 P
+#3137
+key steel~
+a steel key~
+A large steel key has been left here.~
+steel~
+18 0 A
+0 0 0 0 0
+0 1 0 G
+E
+key steel~
+A key of this size must fit a very strong lock.
+~
+#3138
+skin water buffalo~
+a buffalo water skin~
+A bloated dead buffalo is on the floor.~
+leather~
+17 0 A
+20 20 0 0 0
+0 5 30 G
+#3139
+letter resignation~
+the receptionist's letter of resignation~
+The receptionist's letter of resignation is taped to the wall.~
+paper~
+12 0 0
+0 0 0 0 0
+0 0 0 P
+E
+letter resignation~
+The letter is written in a bold and feminine Carolinian hand.
+
+    To whom it may concern,
+
+	Merc Industries has installed a new no-rent save and quit
+	system.  Apparently one can now save and quit at any time
+	from anywhere inside a town or out.  My services here are
+	no longer required.
+
+    Diana the Receptionist
+~
+#3140
+notice liquidation bank~
+the bank's notice of liquidation~
+The bank's notice of liquidation is taped to the wall.~
+paper~
+12 0 0
+0 0 0 0 0
+0 0 0 P
+E
+notice liquidation bank~
+The letter is written in a reserved and dignified Spencer hand.
+
+    To whom it may concern,
+
+	Merc Industries has charmed your money.  Apparently one's
+	gold will remain close, even beyond death. We are closing
+	down our offices and ATM machines.  Our services here are
+	no longer required.
+
+    Dresden City Bank
+~
+#3150
+coffee cup cinnamon~
+a cup of cinnamon coffee~
+A piping hot cup of cinnamon coffee is here.~
+china~
+17 0 A
+3 3 12 0 0
+0 1 25 P
+E
+coffee~
+It's a nice flavorful blend, just right for late-night mudding sessions.
+~
+#3151
+soup bowl~
+a bowl of chicken noodle soup~
+A nice hot bowl of chicken noodle soup is here.~
+wood~
+19 0 A
+8 0 0 0 0
+0 2 30 P
+E
+soup~
+This looks like just the thing for a cold!
+~
+#3152
+stew beef bowl~
+a bowl of beef stew~
+A bowl of nice thick beef stew, with lots of veggetables, sits here.~
+clay~
+19 0 A
+25 0 0 0 0
+0 3 50 P
+E
+stew~
+This is Kate's special stew, guaranteed to keep hunger pangs away for many
+hours.  Care for a bite?
+~
+#3153
+breadstick bread stick~
+a breadstick~
+A yummy breadstick, covered with sesame seeds, is here.~
+food~
+19 0 A
+4 0 0 0 0
+0 1 5 P
+E
+breadstick~
+A nice, crunchy breadstick with just enough seasoning.  Better buy two.
+~
+#3154
+beer bottle george killian's irish red~
+a bottle of George Killian's Irish Red~
+A dark-tinted bottle of beer is here.~
+glass~
+17 0 A
+8 8 1 0 0
+0 2 20 P
+E
+beer bottle~
+It's a fine beer for serious drinkers, complete with the famous horse head
+logo.  Worth every penny.
+~
+#3161
+key white~
+a white key~
+A white key has been left here.~
+ivory~
+18 0 AO
+0 0 0 0 0
+0 1 0 G
+#3162
+map midgaard dresden~
+a map of the city of Dresden~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 500 P
+E
+map midgaard dresden~
+			       CITY OF DRESDEN
+			 = = = =============== = = =
+			  (C) Made by Drakk & Soul.
+							  Sewers
+				     Palace(unfinished)   |
+			      Wand     |         Trinket  |_Mob Fact.
+			      Shop     | Bakery    |Shop  |
+			 _______|______|____|______|______|_Blacksmith
+			 |      |      |    |      |      |    
+		   Magic |      |      |    |      |      |    
+		   Shop__|____Mages    |   Nomad---*------|    
+			 |    Guild    |   Tent  Fountain | 
+			 |      |      |    |      |      |    
+			 |______|______|____|______|______|    
+				  |    | Weapon    |
+				Mage   | Shop    Supply Shop
+				Inn    |               
+       Clerics                         |          Bloody    Warriors
+	Guild    Arena                 |         Axe Inn     Guild
+West      |        |               OakTree         |          |         East 
+Gate--------------------------------Square ------------------------------Gate
+	  |             |        |     |      |     |Mercs Shop
+	Monks        Jeweler     |     |      |
+	Guild                    |     |      |  Shop         Thieves
+			    Temple of  | River|____| Warehouse Guild
+			    Devota ----| Tavern    |____|_______|____[Gangland]
+		       Necro           |                        |
+		       Guild           |           Rat's--Boats_|___
+    To Forests    -------|-------------+---------- Lair         |   |(Docks)
+     <--------------------------------]+[------------------------------------>
+				 Town  |  Pet    River of Wonders         To 
+*Note:Smurfs 1up,1w Recall       Hall--|--Shop                          Deserts
+      Froboz 1up,1e Recall           South
+				     Gate
+~
+#3163
+map Sembia~
+a map of Sembia~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 1500 P
+E
+map Sembia~
+			 * * *      Sembia     * * *
+			  = = ================== = =
+		       (C) ToC, Mangled by Soulcrusher
+ 
+Strange   Mega       Kerofk   Mahn- Upper--Glass
+Campus    City\            \   Tor  |Argo  Fortress
+  |       One   Elemental    \  |  /         New---Chain--Redferne's
+Mage             Canyon        \|/    Ofcol--Ofcol         Residence
+Tower                \          |       |                           \
+  |    Dragon Tower    \-----Plains-----+--Holy Grove                Dylan's
+  |   /                         |    |  |                Astral      (Harpies)
+Shadow                          |    | Rome      Glitter Planes
+Grove---Galaxy                  |    |           Palace /        Elven Valley
+  | Lonely Olympus    Tombs of  |  Stones of        \ /              |
+   \ Mount. \ Arach  /Tarin     |  G'harne           |             Shire
+     \    \  \ |   /            |                    |               |   To New
+Ancalador---Forest Of-------Dresden-------------Cross---Eastern Road--->Thalos
+	 /| Haon Dor |   |      |\      Old      Roads  Fire       |
+       /  |    |     | Werith's | |     Thalos       \--Newts  Gnome Village
+ Old /    |  Troll   | Wayhouse | |          \         \      Dwarven Catacombs
+ Marsh High-  Den    |          | \            \         \          \   
+    |  lands       Cryst.       |   \River of  Ruins of---Dwarf--Dwarven 
+ Camelot           Lake--Solace |      \Wonders  Thalos   Forest Kingdom--Mines
+		     |          |          \           Drow--|        \   
+		   Hell         |            Sands of  City  |-Wyvern  Daycare
+				|    Moria   Sorrow     |        Tower
+		   Ruins        |      |           \  Underdark
+       Assassin's    of     Miden'nir  |            \
+	 Guild --Midgaard---(Goblins)--+         Pyramid
+ 
+This map shows just about all the major areas on ToC.  This map is NOT drawn
+to scale, some of the directions were changed to make everything fit.  This
+map shows the GENERAL location of an area with respect to the other areas.
+Type "areas" for a complete list with suggested levels and the authors.
+~
+#3164
+map southern midgaard~
+a map of southern Midgaard~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 1000 P
+E
+map southern midgaard~
+ 
+
+
+Southern Midgaard was totally ruined by the invading dragons.  Nothing has been
+done to rebuild it.
+
+
+~
+#3165
+map dwarven kingdom dwarf~
+a map of the Dwarven Kingdom~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 750 P
+E
+map dwarven kingdom dwarf~
+ 
+			 * * * The Dwarven Kingdom * * *
+			  = = ===================== = =
+				Untangled by Ezra
+ 
+		    Dwarven
+		    Hospital
+		       |                                              *Path to
+	 North of---Path by---Path by---Barracks     Guard--Door to----Castle
+	  Shops     Hospital  Barracks  Entrance     House  Kingdom  Strangelove
+Granite     |                              |                   |
+Head's---Path North                      First               Narrow
+Bakery    of Shop                       Barracks              Path
+	    |                              |                   |
+	 Hide and    Turn               Back of     Bend in--Narrow
+	Tooth Shop--in Road             Barracks     Path     Path
+		       |                    \         |
+		    Path to               Dwarven   Narrow
+		    Village              Catacombs   Path
+		       |                              |
+	     Store  *Inside    Entrance     Top of   Dark   *Mine
+	     Room---Entrance--To Mountain--Mountain--Path--Entrance
+		\                             |                 \
+	       Wine                        Middle of          Dwarven
+	      Cellar                       Mountain            Mines
+		  \                            |
+		Dwarven                    Base of
+	       Catacombs                   Mountain           North
+					      |           Up\   |
+					   Path to            \ |
+					   Dwarven      West----+----East
+					   Kingdom              | \
+					      |                 |   \Down
+					   Dwarven            South
+					   Drop-off
+					  (Day-Care)
+*key required
+~
+#3166
+map moria first~
+a map of the first level of Moria~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 1500 P
+E
+map moria first~
+* * * MORIA - Map 1 * * *                                           
+ = = =============== = =                                                
+Talk about a mess! by Ezra                                           Foothills
+									 |
+This is as far as our courageous, noble, brave           Light Cave    Valley
+and apparently quite deceased cartographers                   |           |
+could get.  Perhaps more maps could be found             Smelly Tunnel  Cave
+in the depths of Moria itself.                                |           |
+						  Cave---Many Tunnels---Tunnel
+						    |         |           |
+	 West End--Large Cave--East End           Cave      Tunnel      *Hole
+	    |          |                            |         |        (Map 2)
+	    |        Tunnel---------Tunnel--------Tunnel----Tunnel
+	    |                                       |
+ *Hole----Damp----Damp  Tunnel--Tunnel--Tunnel    Tunnel
+(Map 3)  Tunnel  Tunnel   |               |         |
+		   |      |            (*Map 3)  The Cave
+		   |      |                         |
+		   |    Tunnel--Light--Maze      End of
+		   |            Cave    |        The Path
+		   |                  Light         |
+		   |                  Cave      The Hills
+		   |                    |           |
+		 Tunnel----Tunnel-----Light     The Hills 
+				      Cave          |
+						 Entering
+						 The Hills
+				       Dresden
+					  |         |
+					Moria--------
+~
+#3167
+map new thalos~
+a map of New Thalos ~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 2500 P
+E
+map new thalos~
+.
+	   * * * **************** New Thalos ***************** * * *
+		   "Not Thalos or Old Thalos but New Thalos"
+	    = = =============================================== = =
+		     (C) ToC - This place is HUGE! by Ezra
+
+				   Plains
+				     |
+Northwest--West Casbah-------------North-----------------Casbah--------Northeast
+  Tower     |                       Gate                    |            Tower
+	  Alley                      |                      |              |
+	    |    Guard            Sultan's                  |  Library----Kali
+	  Alley  House              Walk                    |             Row
+		   |                 |      Dancing         |              |
+     Sultan's----Grand----Palace--Sultan's--Daemon          |   Dance-----Kali
+      Palace    Entrance   Gate     Walk      Inn           |   Hall      Row
+		   |                 |                      |
+		 Guard               |         Bowyer--Guildsman's--Mason's
+		 House               |         Guild       Row      Guild
+ High                                |                      |
+Priest                               |         Weaver--Guildsman's--Craftsman
+Chamber  Altar                    Sultan's     Guild       Row        Guild
+  |        |                        Walk                    |
+Inside--Inside--Donation             |         Tanner--Guildsman's--Museum
+Temple  Temple    Room               |         Guild       Row      of the
+  |        |                         |                      |       Greater
+Cleric     |                         |                 Guildsman's---Gods
+Guild     /                          |                     Row
+	/                            |                      |
+     Temple             Ahkeem's  Sultan's  Vera's     Guildsman's         Mage
+     Gates                Stuff     Walk   Veggies         Row             Tower
+       |     Alley--Alley    |       |       |              |                |
+     Temple    |           Market--Market--Market           | Witch's  Magic |
+     Square  Alley   Bank--Square  Square  Square--Butchery |  Brew    Shop  |
+       |       |             |       |       |              |    |      |    |
+West--West---West---West---Market--Center--Market---East--East--East--East--East
+Gate  Main   Main   Main   Square  Square  Square   Main  Main  Main  Main  Gate
+  |    |       |             |       |       |              |    |
+  |  Repair  Alley  Store--Market--Market--Market--Abdul's  | Mercenary--Thieves
+  |   Shop     |           Square  Square  Sqaure   Armor   |   Guild     Guild
+  |          Alley--Alley    |       |       |             Alley
+Warrior's                  Bread   Medina  Igor's  Leather  |           Smuggler
+  Guild                    Stand     |    Weapons   Shop---Alley--Alley---Inn
+				   Medina                        /
+      Warehouse    Shipwright        |     Forge  Stables      /    Cass's  Dump
+       |     |          |          Common    |       |        |       |      |
+       +-----West Ishtar Drive-----Square----+---East Ishtar Drive----+------+
+			|            |
+		    Boat Ramp        |
+			|          South
+===================Ishtar River====Bridge======================> To Dragon Sea
+				     |
+				   South
+				   Gate
+~
+#3168
+map olympus~
+a map of Olympus~
+A rolled up map is here.~
+paper~
+28 0 A
+1 0 0 0 0
+0 1 2000 P
+E
+map olympus~
+.
+			       *****OLYMPUS*****
+			       =================
+				    (C) ToC
+			       Mapped by  Regnan
+			       =================
+ 
+				   Bedroom
+				      |
+				   Northern
+				     Hall
+			Western       |         Eastern
+	      Bedroom----Hall----Second Floor----Hall----Bedroom
+				/     |
+			 Stairway  Southern
+			     |       Hall                    North
+			Throne Room   |                        |  /Up
+			     |      Bedroom                    |/
+			     |                          West---+---East
+		  Kitchen    |     Stable                     /|
+		     |       |       |                  Down/  |
+	Guest     Western  Castle  Eastern   Guest           South
+       Quarters----Wing----Entry----Wing----Quarters
+		     |       |       |
+		  Storage   Z|    Storage
+		   Room     e|S    Room   Smithy
+			    u|t             |
+			    s+--Ares Street-+--Weapon
+		    Mystery  |              |   Shop
+		    Shop-----+           Armoury
+			     |
+		   Residence-+-Residence
+			     |
+		     Bakery--+
+			     |
+		       **Entrance**
+			    /
+		      Mountain
+~
+#3350
+sword standard merc~
+a standard issue sword~
+You see a standard issue sword here.~
+steel~
+5 G AN
+1 0 0 3 0
+-1 5 0 P
+E
+sword~
+You see a sword of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 1
+#3351
+dagger standard merc~
+a standard issue dagger~
+You see a standard issue dagger here.~
+steel~
+5 G AN
+2 0 0 11 0
+-1 2 0 P
+E
+dagger~
+You see a dagger of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 1
+#3352
+mace standard merc~
+a standard issue mace~
+You see a standard issue mace here.~
+iron~
+5 G AN
+4 0 0 7 0
+-1 10 0 P
+E
+mace~
+You see a mace of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 2
+#3353
+vest standard merc~
+a standard issue vest~
+You see a standard issue vest here.~
+leather~
+9 0 AD 
+0 0 0 0 0 
+-1 5 0 P
+E
+vest~
+You see a vest of great craftsmanship.  Stamped on the side is:
+Merc Industries
+~
+#3354
+shield standard merc~
+a standard issue shield~
+You see a standard issue shield here.~
+steel~
+9 0 AJ
+0 0 0 0 0
+-1 3 0 P
+E
+shield~
+You see a shield of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3355
+cloak standard merc~
+a standard issue cloak~
+You see a standard issue cloak here.~
+cloth~
+9 0 AC
+0 0 0 0 0 
+-1 4 0 P
+E
+cloak~
+You see a cloak of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3356
+helmet standard merc~
+a standard issue helmet~
+You see a standard issue helmet here.~
+leather~
+9 0 AE
+0 0 0 0 0
+-1 3 0 P
+E
+helmet~
+You see a helmet of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3357
+leggings standard merc~
+a pair of standard issue leggings~
+You see a pair of standard issue leggings here.~
+leather~
+9 0 AF
+0 0 0 0 0
+-1 3 0 P
+E
+leggings~
+You see leggings of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3358
+boots standard merc~
+a pair of standard issue boots~
+You see a pair of standard issue boots here.~
+leather~
+9 0 AG
+0 0 0 0 0
+-1 3 0 P
+E
+boots~
+You see boots of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3359
+gloves standard merc~
+a pair of standard issue gloves~
+You see a pair of standard issue gloves here.~
+leather~
+9 0 AH
+0 0 0 0 0
+-1 3 0 P
+E
+gloves~
+You see gloves of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3360
+sleeves standard merc~
+a pair of standard issue sleeves~
+You see a pair of standard issue sleeves here.~
+leather~
+9 0 AI
+0 0 0 0 0
+-1 2 0 P
+E
+sleeves~
+You see sleeves of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3361
+cape standard merc~
+a standard issue cape~
+You see a standard issue cape here.~
+cloth~
+9 0 AK
+0 0 0 0 0
+-1 2 0 P
+E
+cape~
+You see a cape of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3362
+belt standard merc~
+a standard issue belt~
+You see a standard issue belt here.~
+bronze~
+9 0 AL
+0 0 0 0 0
+-1 2 0 P
+E
+belt standard merc~
+You see a bronze belt of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3363
+bracer standard merc~
+a standard issue bracer~
+You see a standard issue bracer here.~
+bronze~
+9 0 4097
+0 0 0 0 0
+-1 1 0 P
+E
+bracer~
+You see a bracer of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#3364
+ring signet~
+a city guard signet ring~
+You see a ring with a strange symbol on the floor.~
+copper~
+8 64 AB
+0 0 0 0 0
+-1 1 0 P
+A
+17 -5
+A
+24 -1
+#3365
+banner war merc~
+a war banner~
+A war banner is on the floor here.~
+cloth~
+1 AG A
+0 0 500 0 0
+-1 1 0 P
+E
+banner~
+This is the official Merc war banner to see you through the darkest realm!
+~
+A
+24 -1
+A
+17 -2
+#3371
+ring diamond wedding~
+a diamond wedding ring~
+Vanya's diamond wedding ring has been left here.~
+diamond~
+8 I AB
+0 0 0 0 0
+0 1 0 P
+E
+ring diamond wedding~
+A slender gold band set with a marquise-cut four carat blue-white solitaire.
+Inscribed on the inside of the band is: 'Your loving husband, House'.
+~
+A
+24 -2
+#3372
+band gold wedding~
+a gold wedding band~
+House's gold wedding band has been left here.~
+gold~
+8 I AB
+0 0 0 0 0
+0 1 0 P
+E
+band gold wedding~
+A wide, plain circle of gold inscribed: 'Your loving wife, Vanya'.
+~
+A 
+24 -2
+
+#4444
+shield~
+the Shield of Dresden~
+A shield with the crest of Dresden upon it lies here.~
+steel~
+9 AGKL AJ
+11 11 10 0 0
+40 30 2300 P
+E
+shield city~
+When you look at the shield you see a crest upon it.  The crest is two swords
+crossing over a pot of gold with a dragon flying high above it shooting
+lightning from its mouth.  You recognize it as the ensignia of the Elite Guard 
+of Dresden.
+~
+A
+17 -6
+A
+13 20
+#4445
+sword valor~
+the sword of valor~
+A long steel sword lies on the ground here.~
+steel~
+5 AGK AN
+1 2 23 3 AD
+40 24 2500 P
+E
+sword valor~
+Here is the sword of the Elite Guard of Dresden.  You can feel it pulsing in
+your hands as you hold it.
+~
+A
+1 2
+A
+13 -50
+A
+18 4
+A
+19 3
+A
+14 -50
+#4446
+plate platemail valor~
+platemail of valor~
+A grand set of platemail that shines with an inner light is here.~
+steel~
+9 ABGK AD
+12 12 11 0 0
+40 30 2200 P
+A
+4 2
+A
+14 25
+A
+20 -5
+
+#4447
+shield~
+a steel shield~
+A large shield with the crest of the city of Dresden upon it is here.~
+steel~
+9 ABKL AJ
+8 7 9 0 0
+25 20 1200 P
+E
+shield city~
+When you look at the shield you see a crest upon it.  The crest is two swords
+crossing over a pot of gold with a dragon flying high above it shooting
+lightning from its mouth.  You recognize the enisgnia as those used by the
+reserve guards.
+~
+A
+17 -6
+A
+19 3
+#4448
+sword standard~
+a standard issue sword of Dresden~
+A sword with the ensignia of Dresden etched upon it is here.~
+steel~
+5 AGK AN
+1 2 15 3 0
+25 15 0 P
+E
+sword city~
+The sword has a small ensignia of dresden upon it.  It is a small yet powerful 
+looking sword.
+~
+A
+19 3
+#4449
+vest regular~
+a regular guard vest~
+Someone has left a guard's vest lying here.~
+leather~
+9 ABGK AD
+1 2 14 1 0
+25 14 0 P
+A
+13 20
+
+#4450
+office key~
+the key to the office~
+The mayor's key to his office is here.~
+steel~
+18 AG A
+0 0 0 0 0
+15 12 0 P
+
+#4451 
+helmet ebony~
+the ebony helmet~
+A black helmet is on the floor.~
+adamantite~
+9 GK AE
+12 12 11 0 0
+45 25 3200 P
+A
+13 1
+A
+1 1
+#4452
+sleeves ebony~
+a pair of ebony sleeves~
+A pair of black sleeves are on the floor.~
+adamantite~
+9 GK AI
+12 10 11 0 0
+45 30 2900 P
+A
+5 1
+A
+24 -5
+#4453
+leggings ebony~
+some ebony leggings~
+Some black leggings are on the floor.~
+adamantite~
+9 GK AI
+10 11 13 0 0
+42 30 2600 P
+A
+14 20
+A
+2 2
+#4454
+gauntlets ebony~
+a pair of ebony gauntlets~
+A pair of black gauntlets are on the floor.~
+adamantite~
+9 GK AH
+11 10 13 0 0
+43 30 2700 P
+A
+18 3
+A
+23 -3
+#4455
+boots ebony~
+some ebony boots~
+Some black boots are on the floor.~
+adamantite~
+9 GK AG
+11 10 12 3 0
+40 30 2850 P
+A
+13 10
+A
+23 -6
+#4456
+cloak ebony~
+an ebony cloak~
+A black cloak lies on the floor.~
+adamantite~
+9 GK AC
+11 13 9 0 0
+42 30 2650 P
+A
+22 -4
+A
+24 -2
+#4457
+girth ebony~
+the ebony girth~
+A black girth is on the floor.~
+adamantite~
+9 GK AL
+13 11 12 0 0
+45 32 2350 P
+A
+1 1
+A
+24 -2
+#4458
+shield large ebony~
+the large ebony shield~
+A large, black shield is on the floor.~
+adamantite~
+9 GK AJ
+10 11 12 0 0
+44 30 2560 P
+A
+17 4
+A
+19 3
+#4459
+amulet dresden~
+the amulet of Dresden~
+A shiny black amulet with a silver symbol is here.~
+adamantite~
+9 GK AC
+12 11 11 0 0
+40 28 2650 P
+A
+17 3
+A
+19 1
+#4460
+ebony key~
+an ebony key~
+A shiny black key is here.~
+adamantite~
+18 0 A
+0 0 0 0 0
+40 5 0 P
+#4461
+sword dragonsbane~
+a black hilted sword called, "Dragonsbane"~
+A black hilted sword with engravings on the blade lies here.~
+adamantite~
+5 FG AN
+0 2 24 1 E
+40 7 1800 P
+A
+18 4
+A
+19 3
+#4462
+signet ring~
+a Dresden signet ring~
+A shiny ring of ebony is in the dirt.~
+adamantite~
+9 G AB
+11 10 10 0 0
+36 1 1000 P
+A
+24 -2
+A
+13 4
+#4463
+bracer~
+an ebony bracer~
+You see an ebony bracer here.~
+adamantite~
+9 0 AM
+9 10 12 0 0
+35 9 0 P
+A
+23 -15
+
+#4464
+helmet steel~
+the steel helmet~
+A steel helmet is on the floor.~
+steel~
+9 GK AE
+9 10 10 0 0
+37 20 2300 P
+A
+21 -2
+A
+3 1
+#4465
+sleeves steel~
+a pair of steel sleeves~
+A pair of steel sleeves are on the floor.~
+steel~
+9 GK AI
+11 12 12 0 0
+40 25 2500 P
+A
+20 -2
+A
+24 -1
+#4466
+leggings steel~
+some steel leggings~
+Some steel leggings are on the floor.~
+steel~
+9 GK AF
+12 11 10 0 0
+39 25 2350 P
+A
+14 10
+A
+2 1
+#4467
+gauntlets steel~
+a pair of steel gauntlets~
+A pair of steel gauntlets are on the floor.~
+steel~
+9 GK AH
+11 11 10 2 0
+41 25 2250 P
+A
+18 1
+A
+23 -1
+A
+1 1
+#4468
+boots steel~
+some steel boots~
+Some steel boots are on the floor.~
+steel~
+9 GK AG
+11 10 9 3 0
+42 25 2550 P
+A
+13 5
+A
+23 -2
+#4469
+cloak commander~
+the commander's cloak~
+A commander's cloak lies on the floor.~
+steel~
+9 GK AC
+11 11 11 1 0
+42 27 2650 P
+A
+22 -2
+A
+24 -1
+#4470
+girth steel~
+the steel girth~
+A steel girth is on the floor.~
+steel~
+9 GK AL
+12 11 10 0 0
+42 25 2650 P
+A
+24 -1
+#4471
+shield large steel~
+the large steel shield~
+A large, steel shield is on the floor.~
+steel~
+9 GK AJ
+12 11 11 0 0
+40 30 2750 P
+A
+17 2
+A
+19 1
+#4472
+bracer steel~
+a steel bracer~
+You see a steel bracer here.~
+steel~
+9 0 AM
+10 9 10 0 0
+38 9 0 P
+A
+12 5
+#4473
+sword runesword~
+a black steel sword called "Runesword"~
+A black hilted sword with engravings on the blade lies here.~
+steel~
+5 BFGM AN
+0 2 23 11 AD
+40 7 1650 P
+A
+13 50
+A
+18 4
+A
+19 3
+A
+24 -10
+
+#4474
+helmet black~
+the black helmet~
+A black helmet is on the floor.~
+iron~
+9 GK AE
+10 11 10 0 0
+36 20 1950 P
+A
+21 -1
+#4475
+sleeves black scalemail~
+a pair of black scalemail sleeves~
+A pair of black scalemail sleeves are on the floor.~
+iron~
+9 GK AI
+9 10 10 0 0
+35 20 1650 P
+A
+20 -1
+#4476
+leggings black scalemail~
+some black scalemail leggings~
+Some black scalemail leggings are on the floor.~
+iron~
+9 GK AF
+10 10 9 2 0
+38 23 1350 P
+A
+14 5
+#4477
+gauntlets black scalemail~
+a pair of black scalemail gauntlets~
+A pair of black scalemail gauntlets are on the floor.~
+iron~
+9 GK AH
+12 10 11 0 0
+40 20 1650 P
+A
+21 -1
+#4478
+boots black scalemail~
+some black scalemail boots~
+Some black scalemail boots are on the floor.~
+iron~
+9 GK AG
+11 10 10 0 0
+36 20 1550 P
+A
+13 2
+A
+23 -1
+#4479
+cloak black sergeant~
+the sergeant's black cloak~
+A black sergeant's cloak lies on the floor.~
+iron~
+9 GK AC
+10 10 9 2 0
+36 20 1750 P
+A
+22 -1
+#4480
+girth black scalemail~
+the black scalemail girth~
+A black scalemail girth is on the floor.~
+iron~
+9 GK AJ
+10 10 9 2 0
+36 24 1780 P
+#4481
+shield large black~
+the large black shield~
+A large, black shield is on the floor.~
+iron~
+9 GK AJ
+11 10 10 0 0
+40 20 1650 P
+A
+17 1
+#4482
+bracer black~
+a black bracer~
+You see a black bracer here.~
+iron~
+9 0 AM
+9 10 11 0 0
+34 9 0 P
+A
+12 1
+#4483
+staff black iron~
+a black iron staff~
+A black iron staff with engravings on the head lies here.~
+iron~
+5 BG AN
+0 2 22 8 0
+36 25 1750 P
+A
+18 4
+A
+19 1
+A
+12 20
+
+#4484
+plate brass platemail~
+a suit of brass platemail~
+A suit of brass platemail is sitting on the floor.~
+brass~
+9 G AD
+7 8 8 0 0
+20 10 1000 P
+A
+24 -1
+A
+13 8
+#4485
+copper longsword~
+a copper longsword~
+A blade with runes etched on it is on the floor.~
+copper~
+5 G AN
+0 2 6 3 0
+20 7 1000 P
+A
+18 2
+#4486
+copper hammer~
+a copper hammer~
+A hammer with runes etched on it is on the floor.~
+copper~
+5 G AN
+0 2 6 7 0
+20 12 1000 P
+A
+18 2
+#4487
+copper pike polearm~
+a copper pike~
+A polearm with runes etched on it is on the floor.~
+copper~
+5 G AN
+0 2 6 2 0
+20 7 1000 P
+A
+18 2
+#4488
+copper two-handed sword~
+a copper two-handed sword~
+A large two-handed sword with runes etched on it is on the floor.~
+copper~
+5 G AN
+0 2 6 25 0
+20 7 1000 P
+A
+18 2
+#4489
+yew bow~
+a yew bow~
+A bow with runes etched on it is on the floor.~
+wood~
+5 G AN
+9 2 6 11 0
+20 7 1000 P
+A
+18 2
+
+#4490
+ebony plate armor~
+a suit of ebony plate armor~
+A suit of ebony plate armor is here on the ground.~
+adamantite~
+9 GK AD
+12 12 13 2 0
+45 35 3200 P
+A
+13 20
+A
+14 20
+
+#4491
+steel plate armor~
+a suit of steel plate armor~
+A suit of steel plate armor is here on the ground.~
+steel~
+9 GK AD
+11 12 12 2 0
+42 33 2800 P
+A
+13 15
+A
+14 15
+
+#4492
+black plate armor~
+a suit of black plate armor~
+A suit of black plate armor is here on the ground.~
+steel~
+9 GK AD
+11 11 11 2 0
+40 33 2500 P
+A
+13 10
+A 
+14 10
+
+#4493
+molson beer~
+a bottle of beer~
+A bottle of Molson Export is here.~
+glass~
+17 0 A
+2 2 7 0 0
+0 3 20 P
+#4494
+jello shot~
+a jello shot~
+A jello shot is wiggling here.~
+glass~
+17 0 A
+1 1 3 0 0
+0 3 25 P
+#4495
+gin~
+a bottle of gin~
+A bottle of gin is sitting here.~
+glass~
+17 0 A
+5 5 7 0 0
+0 3 40 P
+
+#4496
+skull throne~
+a giant skull throne~
+A giant skull throne with a snake crawling through the eyes and nose is here.~
+stone~
+12 0 0
+0 0 0 0 0
+0 100 300 P
+
+#4497
+cloak storage~
+the cloak of storage~
+A cloak is on the ground in a pile.~
+leather~
+15 G AC
+70 1 0 0 0
+8 5 120 P
+#4498
+ring holding~
+a ring of holding~
+A small ring with a hinge is here collecting dust.~
+silver~
+15 G AB
+70 1 0 0 0
+10 3 80 P
+#4499
+city key~
+the City Key~
+The city key to Dresden lies descarded on the floor.~
+steel~
+18 0 A
+0 0 0 0 0
+0 9 0 P
+#4500
+long sword~
+a long sword~
+A discarded long sword lies here.~
+steel~
+5 AGK AN
+1 2 6 3 0
+7 8 0 P
+A
+19 2
+#4501
+white cloak~
+a Goraidin's white cloak~
+An expensive looking snowy white cloak is here.~
+leather~
+9 AFGIKLM AC
+12 12 12 5 0
+40 16 3500 P
+A
+1 2
+A
+13 20
+A
+14 10
+A
+18 -3
+A
+19 3
+A
+21 -5
+#4502
+sword winter~
+the Sword of Winter~
+A metal blade, cold to the touch, is here glowing softly.~
+adamantite~
+5 AGFIKL AN
+1 2 23 30 BDF
+40 25 3250 P
+A
+1 -1
+A
+2 4
+A
+13 -20
+A
+17 -5
+A
+19 3
+A
+23 -10
+#4503
+ring recall~
+The Recall Ring~
+A Ring of glowing adamantite sits here in the dirt.~
+adamantite~
+37 AB AB
+1 0 0 0 0 
+1 5 1000 P
+T
+$n wears $p and smiles happily!~
+You wear $p and are transported to Recall!~
+#4504
+ring doom~
+The Ring of Doom!~
+A dark ring lies here in the dust...dont pick it up!~
+adamantite~
+37 AB AB
+2 0 0 0 0
+1 5 1000 P
+T
+$n wears $p and screams 'Ohhh great merciful jesus!'....then explodes!~
+You wear $p and explode into very tiny little pieces!~
+#4505
+ring poison~
+The Poison Ring~
+A greenish hued ring lies in the dust here.~
+adamantite~
+37 AB AB
+3 0 3 0 0
+1 5 1000 P
+#4506
+genericrelic relicobjectone staffone piece staff~
+the first piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4507
+genericrelic relicobjecttwo stafftwo piece staff~
+the second piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4508
+genericrelic relicobjectthree staffthree piece staff~
+the third piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4509
+genericrelic relicobjectfour stafffour piece staff~
+the fourth piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4510
+genericrelic relicobjectfive stafffive piece staff~
+the fifth piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4511
+genericrelic relicobjectsix staffsix piece staff~
+the sixth piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4512
+genericrelic relicobjectseven staffseven piece staff~
+the seventh and final piece of a staff~
+A piece of a staff is lying here.~
+adamantite~
+32 AB A
+0 0 0 0 0
+1 2 10000 P
+E
+piece staff~
+A piece of staff is lying here.
+Type 'create relic' when you have all the pieces.
+~
+#4513
+staff gods~
+The Staff of the Gods~
+A very powerful staff is lying here.~
+adamantite~
+4 GV AO
+65 12 12 568 0
+1 3 1000 P
+E
+staff gods~
+In your hands you have the most powerful staff in the entire 
+land of Sembia.  Slowly as you raise it with trembling hands
+you see a vision of Ricochet smiling happily upon you, giving
+you congratulations for re-creating his staff.
+~
+
+
+#0
+
+
+
+#ROOMS
+#1
+The Void~
+  You are floating in nothing.
+~
+0 8 1
+S
+#2
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 DKS 1
+S
+#3
+The Jail~
+    You have been placed in jail for one of the following reasons:
+
+1.   You refused to talk to an Immortal, or follow their instructions.
+2.   You broke one of the games rules, most likely more than once.
+3.   You were using offensive language, or were harrasing another player.
+
+In most cases, you have been nochanneled, meaning your public channels
+have been taken away.  Tell may also have been removed, but the Say
+command should be functioning.  You will be released from jail if/when
+the Immortal who put you here decides, or if that Immortal left a note
+to the other Immortals to let you out when they see you.  In most cases
+you can be let out of jail by ceasing what ever it was that got you here
+in the first place.
+~
+0 BNX 0
+S
+#4
+The First National Bank of Dresden.~
+	The first thing you notice upon entering this place is how
+white everything seems to be.  The chairs are white, the walls and floor are
+white...lets face it EVERYTHING is white.  A patient teller waits along 
+the north wall...waiting for your money that is. One other thing you notice
+is a sign hanging on the east wall...
+~
+0 DK 0
+D3
+to the market place.
+~
+~
+0 -1 2484
+E
+sign~	
+The commands for the bank are the following.....
+
+		deposit <$> gold.
+		withdraw <$> gold.
+
+Pretty simple if you ask me...The bank has been brought to you by
+Gravestone.  It was founded on November 12th 1995.
+~
+S
+#5
+The Jail~
+    You have been placed in jail for one of the following reasons:
+
+1.   You refused to talk to an Immortal, or follow their instructions.
+2.   You broke one of the games rules, most likely more than once.
+3.   You were using offensive language, or were harrasing another player.
+
+In most cases, you have been nochanneled, meaning your public channels
+have been taken away.  Tell may also have been removed, but the Say
+command should be functioning.  You will be released from jail if/when
+the Immortal who put you here decides, or if that Immortal left a note
+to the other Immortals to let you out when they see you.  In most cases
+you can be let out of jail by ceasing what ever it was that got you here
+in the first place.
+~
+0 BNX 0
+S
+#6
+The Jail~
+    You have been placed in jail for one of the following reasons:
+
+1.   You refused to talk to an Immortal, or follow their instructions.
+2.   You broke one of the games rules, most likely more than once.
+3.   You were using offensive language, or were harrasing another player.
+
+In most cases, you have been nochanneled, meaning your public channels
+have been taken away.  Tell may also have been removed, but the Say
+command should be functioning.  You will be released from jail if/when
+the Immortal who put you here decides, or if that Immortal left a note
+to the other Immortals to let you out when they see you.  In most cases
+you can be let out of jail by ceasing what ever it was that got you here
+in the first place.
+~
+0 BNX 0
+S
+#7
+The Jail~
+    You have been placed in jail for one of the following reasons:
+
+1.   You refused to talk to an Immortal, or follow their instructions.
+2.   You broke one of the games rules, most likely more than once.
+3.   You were using offensive language, or were harrasing another player.
+
+In most cases, you have been nochanneled, meaning your public channels
+have been taken away.  Tell may also have been removed, but the Say
+command should be functioning.  You will be released from jail if/when
+the Immortal who put you here decides, or if that Immortal left a note
+to the other Immortals to let you out when they see you.  In most cases
+you can be let out of jail by ceasing what ever it was that got you here
+in the first place.
+~
+0 BNX 0
+S
+#9
+Rest Area~
+A resting place for lost souls
+~
+0 AP 0
+S
+#2550
+Entrance to the Mayor's Office.~
+The entrance is guarded by two very large guards that stand sentinel, braving
+the elements for eternity.  The ensignia of a bald eagle on a white background
+is embroidered into their light leather cloaks revealing them as Goraidin, the
+High Guard's finest warriors, trained to kill without mercy.
+A flight of stairs spirals up into darkness.
+There is a sign nailed to the wooden door to the west.
+You see an oak door to the north, and one to the south.
+~
+0 N 1
+D0
+You see an oak door.
+~
+door~
+1 -1 2552
+D1
+You see the main processional.
+~
+~
+0 -1 2430
+D2
+An oak door.
+~
+door~
+1 -1 2553
+D3
+You see a wooden door.
+~
+door~
+2 4450 2551
+D4
+Stairs lead up into darkness.
+~
+~
+0 -1 2558
+E
+sign~
+
+	Enter at your own risk.
+			Signed: The Mayor of Dresden.
+~
+S
+#2551
+Mayor's Office.~
+Torch sconces flank the walls, and a large, high-backed throne made from the
+bones of many creatures dominates this room.  Seated on the throne is the
+mayor flipping his key around on its leather chain.  You feel a presence in
+the room, yet only the mayor is here... no one else.
+~
+0 ADN 0
+D1
+You see a wooden door leading to the entrance.
+~
+door~
+0 -1 2550
+S
+#2552
+Guards Room.~
+There are many barrels and chests of food in here.  All of it looks spoiled.
+This is where the guards of Dresden hang out when not on duty.
+You see an oak door to the south.
+Stairs spiral up into darkness.
+~
+0 AD 0
+D2
+~
+An oak door.~
+1 -1 2550
+D4
+Stairs lead up into darkness.~
+~
+0 -1 2556
+S
+#2553
+Guards Room.~
+There are many barrels and chests of food in here.  All of it looks spoiled.
+This is where the guards of Dresden hang out when not on duty.
+You see an oak door to the north.
+Stairs spiral up into darkness.
+~
+0 AD 0
+D0
+An oak door.
+~
+door~
+1 -1 2550
+D4
+Stairs spiral up into darkness.
+~
+~
+0 -1 2554
+S
+#2554
+Sergeant's Reception Room.~
+This room is decorated with various swords and other ornamental artifacts of
+combat.  Tapestries of bloody battles adorn the stone walls.  If you have an 
+appointment to see the Sergeant of the Guard then take a seat.
+But who knows how long you'll have to wait...
+The door to the Sergeant's office is to the north.
+Stairs spiral down into darkness.
+~
+0 AD 0
+D0
+You see an iron bound door.
+~
+door~
+1 -1 2555
+D5
+Stairs spiral down into darkness.
+~
+~
+0 -1 2553
+S
+#2555
+Sergeant's Office.~
+This is the office of the Sergeant of the Guard.  He is in charge of all 
+minor complaints and incidents.  His office is richly decorated with antique
+weapons and tapestries of war.  A large desk sits in the middle of the room.
+You see an iron bound door to the south.
+~
+0 AD 0
+D2
+You see an iron bound door.
+~
+door~
+1 -1 2554
+S
+#2556
+Commander's Reception Area.~
+This is the waiting room for meetings with the Commander.  There is no
+furniture in the room.  The secretary's hair is scorched from her recent
+attempts to control fire.
+A glass door with the emblem of the Dresden Guard is to the north.
+Stairs spiral down into darkness.
+~
+0 AD 0
+D0
+You see a glass door with the emblem of the Dresden Guard.
+~
+door~
+1 -1 2557
+D5
+Stairs spiral down into darkness.
+~
+~
+0 -1 2552
+S
+#2557
+Commander's Office.~
+This is the Office of the Commander.  He basically does nothing all day.
+Except of course play with fire.  Hence the black walls around the room.  
+The furniture is in ruins from the Commander's last pyrotechnical display.  
+You see a glass door with the emblem of the Dresden Guard to the south.
+~
+0 AD 0
+D2
+You see a glass door.
+~
+door~
+1 -1 2556
+S
+#2558
+Captain's Waiting Room.~
+This is the reception area for the Captain of the Guard.  A large portrait
+of the Mayor is on the north wall.  With the amount of extravagance and
+expensive items that decorate this room you wonder how he gets away with it.
+The title Emperor would be more appropriate than Captain of the Guard.
+You see an oak door to the north.
+Stairs lead down into darkness.
+~
+0 AD 0
+D0
+You see an oak door.
+~
+door~
+1 -1 2559
+D5
+Stairs spiral down into darkness.
+~
+~
+0 -1 2550
+S
+#2559
+Captain's Office.~
+This is the office of the Captain of the Guard.  Leather couches and a solid
+marble desk sit against the far wall.  The Captain has a large portrait of
+the Mayor on the wall behind his desk.  A pair of heavy metal doors with the
+emblem of the Dresden Guard is on the north wall. 
+You see an oak door to the south.
+~
+0 AD 0
+D0
+You see a set of heavy metal doors with the emblem of the Dresden Guard.
+~
+doors~
+2 4460 2560
+D2
+You see an oak door.
+~
+door~
+1 -1 2558
+S
+#2560
+Whooops!!~
+You feel yourself f
+		   a
+		    l
+		     l
+		      i
+		       n
+			g 
+			  SPLAT!
+You make a mess on the road below as your curiousity gets you killed.  Looks
+like the Captain shouldn't let tourists wander around his office.
+~
+0 AC 1
+S
+#2562
+The Pet Shop of Exotic Creatures.~
+This is the pet shop of exotic creatures.  There are a wide variety of 
+animals and beasts from around the world here.
+Buy a pet.  Take it home.  A loving companion to keep you company.
+~
+0 DM 1
+D3
+You see the main processional.
+~
+~
+0 -1 2430
+S
+#2563 
+Pet Storage.~
+This is where the pet shop girl keeps her animals.  It is important that this
+room be right after the pet shop of exotic creatures.
+~
+0 DP 1
+S
+#2564
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2438
+D2
+It's too dark to see anything.
+~
+~
+0 -1 2565
+S
+#2565 
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2564
+D2
+Nothing special there.
+~
+~
+0 -1 2566
+S
+#2566
+Wall Road.~
+The darkness begins to fade away as you go farther south.  You feel as though
+someone is watching you from the shadows.
+~
+0 A 1
+D0
+Nothing special there.
+~
+~
+0 -1 2565
+D2
+You can see the south-west guardpost in the distance.
+~
+~
+0 -1 2567
+S
+#2567
+Wall Road.~
+A cloud passes over the sun, sinking the alley into darkness.  The hair on
+your back begins to stick up, and you shake yet it is not cold.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2566
+D2
+It's too dark to see anything.
+~
+~
+0 -1 2568
+S
+#2568     
+Wall Road.~
+Sunlight shines down on the guard post to the south, as though some God were
+blessing the building with their almighty power.
+~
+0 A 1
+D0
+Nothing special there.
+~
+~
+0 -1 2567
+D2
+You see an oak door.
+~
+door~
+1 -1 2569 
+S
+#2569
+Southwest Guardpost and Watchtower.~
+This is the Southwest guardpost for Dresden.
+It is used as a watch station and coffee break area for the Guards of Dresden.
+There are some stairs in the corner leading up to the watchtower.
+You see an oak door to the north and east.
+There is a sign above the stairway.
+~
+0 D 1
+D0
+You see an oak door.
+~
+door~
+1 -1 2568
+D1
+You see an oak door.
+~
+door~
+1 -1 2579
+D4
+You see stairs leading up to the watchtower.
+~
+~
+0 -1 2570
+E
+sign~
+
+** WARNING **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be killed on sight.
+
+-The Mayor-
+~
+S
+#2570
+Inside Southwest Watchtower.~
+You are inside the Southwest Watchtower.
+From up here you can see above the trees and most of the valley.  This is a
+beautiful view of the river leading west into the forest.  You are however
+not supposed to be up here.  If the guards catch you up here you will likely
+be in BIG trouble...
+~
+0 D 1
+D5
+You see stairs leading down to the guardpost.
+~
+~
+0 -1 2569
+S
+#2571
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2426
+D2
+It's too dark to see anything.
+~
+~
+0 -1 2572
+S
+#2572 
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2571
+D2
+Nothing special there.
+~
+~
+0 -1 2573
+S
+#2573
+Wall Road.~
+The darkness begins to fade away as you go farther south.  You feel as though
+someone is watching you from the shadows.
+~
+0 A 1
+D0
+Nothing special there.
+~
+~
+0 -1 2572
+D2
+You can see the south-west guardpost in the distance.
+~
+~
+0 -1 2574
+S
+#2574
+Wall Road.~
+A cloud passes over the sun, sinking the alley into darkness.  The hair on
+your back begins to stick up, and you shake yet it is not cold.
+~
+0 A 1
+D0
+It's too dark to see anything.
+~
+~
+0 -1 2573
+D2
+It's too dark to see anything.
+~
+~
+0 -1 2575
+S
+#2575
+Wall Road.~
+Sunlight shines down on the guard post to the south, as though some God were
+blessing the building with their almighty power.
+~
+0 A 1
+D0
+Nothing special there.
+~
+~
+0 -1 2574
+D2
+You see an oak door.
+~
+door~
+1 -1 2576 
+S
+#2576
+Southeast Guardpost and Watchtower.~
+This is the Southeast guardpost of Dresden.
+It is used as a watch station and coffee break area for the guards of Dresden.
+There are some stairs in the corner leading up to the watchtower.
+You see an oak door to the west and north.
+There is a sign above the stairway.
+~
+0 D 1
+D0
+You see an oak door.
+~
+door~
+1 -1 2575
+D3
+You see an oak door.
+~
+door~
+1 -1 2578
+D4
+You see stairs leading up to the watchtower.
+~
+~
+0 -1 2577
+E
+sign~
+
+** WARNING **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be killed on sight.
+
+-The Mayor-
+~
+S
+#2577
+Inside Southeast Watchtower.~
+You are inside the Southeast Watchtower.
+From up here you can see above the trees and most of the valley.  There is a
+beautiful view of the river as it winds its way to the desert.  You are
+however not supposed to be up here.  If the guards catch you up here you will
+likely be in BIG trouble...
+~
+0 D 1
+D5 
+You see stairs leading down to the guardpost.
+~
+~
+0 -1 2576
+S
+#2578
+Path along the river.~
+You walk along the path beside the river.  The bustle from the docks can be
+heard from the west, and an oak door leads east into the southeast guardpost
+and watchtower.
+~
+0 0 1
+D1
+You see an oak door.
+~
+door~
+1 -1 2576
+D3
+You see the docks of Dresden.
+~
+~
+0 -1 2447
+S
+#2579
+Wall Road.~
+Sunlight shines down on the guard post to the west, as though some God were
+blessing the building with their almighty power.
+~
+0 A 1
+D1
+Nothing special there.
+~
+~
+0 -1 2580
+D3
+You see an oak door.
+~
+door~
+1 -1 2569
+S
+#2580
+Wall Road.~
+A cloud passes over the sun, sinking the alley into darkness.  The hair on
+your back begins to stick up, and you shake yet it is not cold.
+~
+0 A 1
+D1
+It's too dark to see anything.
+~
+~
+0 -1 2581
+D3
+It's too dark to see anything.
+~
+~
+0 -1 2579
+S
+#2581
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D1
+It's too dark to see anything.
+~
+~
+0 -1 2582
+D3
+It's too dark to see anything.
+~
+~
+0 -1 2580
+S
+#2582 
+Wall Road.~
+The alley is shrouded in flitting shadows, and the darkness that pervades 
+this area sends a chill up your spine.
+~
+0 A 1
+D1
+It's too dark to see anything.
+~
+~
+0 -1 2583
+D2
+Nothing special there.
+~
+~
+0 -1 2581
+S
+#2583
+Wall Road.~
+The darkness begins to fade away as you go farther east.  You feel as though
+someone is watching you from the shadows. To the north is the long abandoned
+Dresden City Morgue.
+~
+0 A 1
+D0
+The windows have long since been boarded up. But someone or something has
+broken the door down... from the INSIDE!
+~
+~
+0 -1 4700
+D1
+Nothing special there.
+~
+~
+0 -1 2584
+D2
+Nothing special there.
+~
+~
+0 -1 2582
+S
+#2584
+Wall Road.~
+The light fights away the last shreds of darkness.
+You can see the south gate to the east.
+~
+0 A 1
+D1
+Inside the south gate of Dresden.
+~
+~
+0 -1 2431
+D3
+You see darkness.
+~
+~
+0 -1 2583
+S
+#0
+
+#SPECIALS
+M 4474 spec_kidnapper  
+S
+
+#$
+

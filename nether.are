@@ -1,0 +1,2814 @@
+#AREA   {HERO } Elrond  The Netherworld~
+
+#MOBILES
+#30000
+drake dragon young~
+a young dark drake~
+A strange looking type of a dragon, a drake, watches you with malice.
+~
+Dark drakes are the rarest of all great drakes. These dragons are almost
+always black, although a few may be grey or a very dark black blue. They are
+exceptionally cruel and evil, even by dragon standards, and unfortunately
+make their lairs in all climes. They are good flyers, but cannot swim. Dark
+drakes are the most active of all dragons, spending only half their time
+sleeping and resting unlike other dragons.
+~
+drake~
+ACFQR BCFHT -800 M
+52 20 4D50+1800 2D50+200 10D4+70 31
+-100 -100 -100 -250
+ABCDEFIKN ABCEFHI OPRS K
+8 8 0 2670
+Z ABCDEFKLPQ G B
+{}
+#30001
+drake dragon elder~
+a elder dark drake~
+A huge, strange looking type of a dragon, a drake, watches you with malice.
+~
+Dark drakes are the rarest of all great drakes. These dragons are almost
+always black, although a few may be grey or a very dark black blue. They are
+exceptionally cruel and evil, even by dragon standards, and unfortunately
+make their lairs in all climes. They are good flyers, but cannot swim. Dark
+drakes are the most active of all dragons, spending only half their time
+sleeping and resting unlike other dragons.
+~
+drake~
+ACFQR BCFHT -800 M
+57 40 8D50+2800 1D50+200 10D12+60 31
+-100 -100 -100 -250
+ABCDEFIKN ABCEFHI OPRS K
+8 8 0 2460
+Z ABCDEFKLPQ G B
+{}
+#30002
+basilisk monster~
+a greater basilisk~
+A fearsome basilisk is looking at you as if considering his next meal.
+~
+The greater basilisk is more reptilian and less cock-like than it's more
+common relatives, the basilisk and the ockatrice. It has a long serpent-
+like body, four dragon-like legs with clawes, bat wings, and a drake's
+head with a sharp beak. It is a basilisk's next step in the evolutionary
+ladder, and is is one of the most terrible beasts in existence.
+Like their lesser cousins, their gaze turns victims to stone, but
+they can be safely viewed through a mirror.
+~
+dragon~
+ACFQRST BCFHLT -1000 M
+56 40 8D50+2800 1D50+200 10D8+60 29
+-100 -100 -100 -250
+ABCDEFIKN ABCHI OPRS J
+8 8 0 2840
+Z ABCDLPQ G C
+{}
+#30003
+behemoth monster dragon~
+a huge behemoth~
+An extremely rare dragonkind is here watching over his loot, a behemoth.
+~
+A behemoth is an extremely rare, huge dragon. They do not have lairs, but
+usually devastate an area (30-200 miles in diameter) and then find a
+large flat area and sleep for hundreds of years. They fear nothing, even
+while they sleep. Often they sleep long enough to allow sediment build up
+on top of them, after which they may be mistaken for strange hills. They
+do not use spells, and are not graceful creatures, destroying vegetation
+and constructions absentmindedly when they walk. They should be treated
+as fire drakes in all other respects.
+~
+dragon~
+ABCFQRST BCFHTXaacc -1000 M
+59 40 8D50+4800 1D50+200 10D8+60 32
+-100 -100 -100 -150
+ABCDEFIKN ABEFHIK OPRS GJ
+8 8 0 3500
+Z ABCDEFKLPQ G B
+{}
+#30004
+balrog dragon monster creature~
+a terrible balrog~
+A giant balrog is standing in the shadows here.
+~
+The balrog is perhaps the largest creature that exists. It is like a
+behemoth in nature, but is much bigger. The beating of this creature's
+wings alone will create winds strong enough to level weak wooden
+structures and cause all beings within 1 mile of the beast to fall down.
+It has huge claws but crushes more than claws because of it's incredible
+size. When a balrog wakes up from it's long sleep, entire nations
+are usually mobilized against the threat, though this usually does little
+good, its rampage of feeding and destruction usually covers an area
+thousands of square miles. There is said to be a very obscure, evil ritual
+that will awaken a balrog against it's will.
+~
+dragon~
+ACFQR BCFHT -1000 M
+60 50 8D50+5800 1D50+200 10D12+70 27
+-100 -100 -100 -200
+ABCDEFIKN ABCDEFHI OPRS GJK
+8 8 0 5000
+Z ABCDEFKLPQ G B
+{}
+#30005
+demon creature undead~
+a shade demon~
+A huge shadowy looking demon guards this passage.
+~
+It appears to be a shadowy blur with yellow humanoid eyes. These monsters are
+practically invisible if standing in a shadow. This type of demon enjoys
+tempting individuals to do evil and horrible deeds in the dark of night,
+and if they can tempt their victims without the use of spells, all the better.
+~
+demon~
+ACFNQ BCFT -1000 M
+54 25 8D50+2800 1D50+200 10D6+60 31
+-100 -100 -100 -50
+ABCDEFIKN ABCEFI OPRS J
+8 8 0 2200
+IM ABCDEFKLPQ G C
+{}
+#30006
+demon creature undead~
+a ice demon~
+A ice cold demon comes towards you with alarming speed.
+~
+Ice demons are bluish white humanoids with snow and ice billowing around
+them at all times. The ice demon's high defensive capabilities are derived
+from the chaos this miniature maelstrom. Beware it's touch because it's
+flesh-numbing cold and can cause unconsciousness. On their home plane, ice
+demons would lair in an icy cavern complex. They enjoy freezing their
+victims to death, sometimes encasing beings in ice while still alive.
+~
+demon~
+ACFNQ BCFT -800 M
+55 25 8D50+2800 1D50+200 10D6+60 30
+-100 -100 -100 0
+ABCDEFIKN ABFHI OPRS GK
+8 8 0 2600
+IM ABCDEFKLPQ G C
+{}
+#30007
+demon creature undead~
+a plague demon~
+A demon with a strange aura is approaching you with an evil grin on his face.
+~
+One of the most disgusting of all demonic creatures is the plague demon. Most
+are blackish green with yellow pus oozing from open sores which cover their
+bodies. They are gaunt, with huge bloodshot eyes, and their touch causes
+diseases like Asthma, Rabies, Malaria, Leprosy, Plague and such.
+They are loners, avoided even by other demons.
+~
+demon~
+ACFNQ BCFT -800 M
+56 25 8D50+2800 1D50+200 10D6+60 28
+-100 -100 -100 -50
+ABCDEFIKN ABCEF OPRS GJK
+8 8 0 2000
+IM ABCDEFKLPQ G C
+{}
+#30008
+drake demon dragon~
+A demon drake~
+A huge demonic drake is clawing towards you with alarming speed.
+~
+Demon drakes are dragons from another plane. They appear to be small
+demonic drakes, black in color, or rarely reddish black. They are often
+seen leading other demons into battle so beware of ambushes. It's breath
+is much different than that of its brethern, a black fire which can be hot
+or cold whichever it chooses.
+~
+demon~
+ACFNQ BCFT -800 M
+56 25 8D50+2800 1D50+200 10D6+60 31
+-100 -100 -100 -150
+ABCDEFIKN ABCEFHI OPRS K
+8 8 0 2000
+IM ABCDEFKLPQ G C
+{}
+#30009
+vampire unicorn~
+a vampire unicorn~
+A unicorn is starting to come your way, something isn't right you notice.
+~
+A foul perversion of what was once good and fair in the world, must have 
+been the work of very evil vampires. Once the guardian of all that was
+pure in the woods, vampiric unicorns have now become a menace, feared
+by all within the eleven realms.  They can change into a mist or a bat.
+There no visual differences between a vampiric unicorn and a normal one.
+~
+vampire~
+ACDR CDETUX -800 M
+51 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30010
+vampire werewolf~
+a vampiric werewolf~
+A werewolf is coming your way with malice in it's eyes.
+~
+Perhaps the most accursed individuals in the history of the world, these poor
+souls become infected with both lycanthropy and vampirism at different
+times in their existence. Though they had to be werewolves first since
+vampires can't be diseased, for they are dead afterall.
+~
+vampire~
+ACDR CDETUX -800 M
+51 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30011
+vampire mage~
+a vampire mage~
+A vampire is flying towards you.
+~
+Vampirism is not a humanoid only disease, each and every living race can
+contract it. Usually the vampires try to disease an important or a powerful
+person bringing thereby increasing their own power.
+~
+vampire~
+ACDR CDETUX -800 M
+52 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30012
+vampire cleric~
+a vampire cleric~
+A vampire is flying towards you.
+~
+Vampirism is not a humanoid only disease, each and every living race can
+contract it. Usually the vampires try to disease an important or a powerful
+person bringing thereby increasing their own power.
+~
+vampire~
+ACDR CDETUX -800 M
+52 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30013
+wraith monster creature~
+a wraith~
+a monster is approaching with a mean sense of hunger in it's eyes.
+~
+Beware mortal, for this creature is out for one thing only... mortal
+flesh for which it thirsts totally and unconditionally. Nothing
+will stop it from trying to set its teeth in you. He uses his claws
+to weaken mortals, so don't ever let it touch you or you will become
+inflicted with a weakening disease.
+~
+vampire~
+ACDR CDETUX -800 M
+53 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30014
+hellraiser monster creature~
+Hellraiser~
+A monster is clawing your way with a strange kind of determination.
+~
+Not even in your worst nightmares have you seen a creature such as this.
+It's the mortalized form of Hell. It lives in a constant, unrelenting
+agony. How strange.. when you look into its eyes you see a kind of
+happiness, as if the pain is......is........
+~
+vampire~
+ACDR CDETUX -800 M
+51 23 10D20+1800 30D5+150 4D10+50 30
+-15 -15 -15 -50
+ABCDEFKR ABFHL MNOPQRS JY
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30015
+morgoth god monster~
+Morgoth~
+A god-like being is watching you.
+~
+Morgoth's passions were many and mighty, and they conjured all that would
+be evil.  His unending desire and insatiable want was never stayed while
+he remained in this realm. With each triumph, each acquisition, he strived
+for more.
+~
+vampire~
+ACDR CDETUX -800 M
+59 33 30D20+1800 30D5+150 4D20+50 30
+-51 -55 -55 -150
+ABCDEFKR ABEFGHL MNOPQRS J
+8 8 0 1500
+V ACDFJKLP H B
+{}
+#30016
+hellhound monster creature hound~
+a hellhound~
+A hellish monster is glaring at you.
+~
+These monsters of eerie and hellish disposition are often found in thrall to
+demonic beings. They resemble large dogs with a fur of mangy, rust-reed or
+red-brown color, while their teeth and tongue are soot black. In combat,
+hellhounds prove clever hunters. They operate in packs and attack first by
+breathing fire at their prey, then close in for the kill with a flurry of
+razor-sharp teeth and claws.
+~
+vampire~
+ABCDFR CDE -800 M
+50 23 10D20+1400 30D5+150 4D10+30 30
+-5 -4 -2 -50
+ABEFR ABHL NOPRS JK
+8 8 0 2500
+V ACDFJKLP H B
+{}
+#30017
+shopkeeper man blacksmith~
+a blacksmith~
+a man is pounding away at some piece of ore.
+~
+Here labors man in his late thirties. He is working very hard at some new
+weapon. You cannot even begin to guess what he is now making.
+~
+human~
+AB CDET 560 M
+60 40 5D10+10000 8D5+1000 20D15+100 21
+-10 -10 -10 -10
+BCDEFHIJKLMNO AB RS M
+8 8 1 10000
+H ACDFJKLP M A
+{}
+#30018
+shopkeeper man blacksmith~
+a blacksmith~
+a large japanese man proudly stands here.
+~
+This man is a swordmaster without equal.  He has collected a number of blades
+and other weapons on his travels.
+~
+human~
+AB CDET 560 M
+100 40 5D10+10000 8D5+1000 2D40+180 21
+-10 -10 -10 -10
+BCDEFHIJKLMNO AB RS M
+8 8 1 10000
+H ACDFJKLP M A
+{}
+#0
+
+#OBJECTS
+#30000
+key~
+the castle key~
+A simple stone key has been dropped here.
+~
+stone~
+18 H A
+0 0 0 0 0
+51 1 15 P
+#30001
+katana~
+A katana~
+A fine japanese short blade, known as a katana, stands in the corner.
+~
+steel~
+5 0 AN
+1 6 9 3 0
+51 10 110000 P
+A
+2 1
+A
+18 3
+A
+19 3
+#30002
+No-dachi sword blade~
+A No-Dachi~
+A legendary japanese two-handed sword is laying here.
+~
+steel~
+5 AI AN
+1 10 5 1 0
+51 15 210000 P
+A
+1 2
+A
+2 -2
+A
+18 4
+A
+19 3
+#30003
+Nunchaku~
+A Nunchaku~
+A martial-artist's usual tool, a nunchaku.
+~
+wood~
+5 I AN
+0 4 14 8 0
+51 8 120000 P
+A
+5 1
+A
+14 10
+#30004
+Sai dagger~
+A Sai~
+A not so common, but very deadly dagger-like blade, a Sai.
+~
+steel~
+5 I AN
+2 5 11 2 0
+51 6 165000 P
+A
+17 -2
+A
+18 3
+A
+19 3
+#30005
+tonfa~
+A Tonfa~
+A bashing tool for any combatant, though difficult to master, a tonfa.
+~
+wood~
+5 I AN
+4 6 9 8 0
+51 8 130000 P
+A
+12 10
+A
+24 -1
+A
+1 -1
+#30006
+bo~
+A Bo~
+The ancient art of quarterstaff fighting is best done with a Bo.
+~
+wood~
+5 I AN
+8 4 14 7 0
+51 12 170000 P
+A
+1 1
+A
+2 1
+A
+3 -1
+A
+4 -1
+A
+5 1
+#30007
+foil~
+A Foil~
+A little used rapier-like blade, the foil.
+~
+steel~
+5 I AN
+1 5 11 2 0
+51 6 115000 P
+#30008
+lance~
+A footman's Lance~
+Normally used by knights, this is a footman's lance.
+~
+iron~
+5 I AN
+0 10 5 11 0
+51 20 150000 P
+A
+2 -2
+A
+18 3
+#30009
+shuriken~
+A Returning Shuriken~
+The ninja's weapon, also known as the throwing star, but more properly called 
+a shuriken.
+~
+steel~
+5 I AN
+9 6 9 10 0
+51 4 200000 P
+A
+17 -2
+A
+24 -1
+#30010
+trident~
+A trident~
+A gladiator's weapon normally but also excellent for battle, a trident.
+~
+iron~
+5 I AN
+8 6 9 11 0
+51 12 180000 P
+A
+17 -5
+A
+19 3
+#30011
+book~
+the Book of Beasts and other vile Creatures~
+A very big book is laying here on the floor.
+~
+paper~
+12 AFG A
+0 0 0 0 0
+51 10 0 P
+E
+book~
+This book contains a short description of all monsters in this area
+and sometimes showing where each creature is most vulnerable or most
+immune to attack.
+
+page 1 : drakes, lesser and greater
+page 2 : basilisk
+page 3 : behemoth
+page 4 : balrog
+page 5 : shade and ice demons
+page 6 : plague demon and demon drake
+page 7 : vampire unicorn and vampire werewolf
+page 8 : vampire mage and vampire cleric
+page 9 : wraith and hellhound
+page 10 : morgoth
+page 11 : hellraiser
+
+By: Elrond Half Elven
+~
+E
+1~
+Dark drakes are the rarest of all great drakes. These dragons are almost
+always black, although a few may be grey or a very dark black blue. They are
+exceptionally cruel and evil, even by dragon standards, and unfortunately
+make their lairs in all climes. They are good flyers, but cannot swim. Dark
+drakes are the most active of all dragons, spending only half their time
+sleeping and resting unlike other dragons.
+
+Known
+Immunities : fire, cold
+Vulnerabilities : acid
+~
+E
+2~
+The greater basilisk is more reptilian and less cock-like than it's more
+common relatives, the basilisk and the ockatrice. It has a long serpent-
+like body, four dragon-like legs with clawes, bat wings, and a drake's
+head with a sharp beak. It is a basilisk's next step in the evolutionary
+ladder, and is is one of the most terrible beasts in existence.
+Like their lesser cousins, their gaze turns victims to stone, but
+they can be safely viewed through a mirror.
+
+Known
+Immunities : fire, cold
+Vulnerabilities : lightning
+~
+E
+3~
+A behemoth is an extremely rare, huge dragon. They do not have lairs, but
+usually devastate an area (30-200 miles in diameter) and then find a
+large flat area and sleep for hundreds of years. They fear nothing, even
+while they sleep. Often they sleep long enough to allow sediment build up
+on top of them, after which they may be mistaken for strange hills. They
+do not use spells, and are not graceful creatures, destroying vegetation
+and constructions absentmindedly when they walk. They should be treated
+as fire drakes in all other respects.
+
+Known
+Immunities : acid
+Vulnerabilities : slashing, lightning
+~
+E
+4~
+
+The balrog is perhaps the largest creature that exists. It is like a
+behemoth in nature, but is much bigger. The beating of this creature's
+wings alone will create winds strong enough to level weak wooden
+structures and cause all beings within 1 mile of the beast to fall down.
+It has huge claws but crushes more than claws because of it's incredible
+size. When a balrog wakes up from it's long sleep, entire nations
+are usually mobilized against the threat, though this usually does little
+good, its rampage of feeding and destruction usually covers an area
+thousands of square miles. There is said to be a very obscure, evil ritual
+that will awaken a balrog against it's will.
+
+Known
+Immunities : magic
+Vulnerabilities : acid, lightning, slashing
+~
+E
+5~
+Shade Demon:
+It appears to be a shadowy blur with yellow humanoid eyes. These monsters are
+practically invisible if standing in a shadow. This type of demon enjoys
+tempting individuals to do evil and horrible deeds in the dark of night,
+and if they can tempt their victims without the use of spells, all the better.
+
+Immune to : piercing, cold
+Vulnerable to : lightning
+
+Ice demons are bluish white humanoids with snow and ice billowing around
+them at all times. The ice demon's high defensive capabilities are derived
+from the chaos this miniature maelstrom. Beware it's touch because it's
+flesh-numbing cold and can cause unconsciousness. On their home plane, ice
+demons would lair in an icy cavern complex. They enjoy freezing their
+victims to death, sometimes encasing beings in ice while still alive.
+
+Immune to : summoning, charming
+Vulnerable to : acid
+~
+E
+6~
+Plaque Demon:
+One of the most disgusting of all demonic creatures is the plague demon. Most
+are blackish green with yellow pus oozing from open sores which cover their
+bodies. They are gaunt, with huge bloodshot eyes, and their touch causes
+diseases like Asthma, Rabies, Malaria, Leprosy, Plague and such.
+They are loners, avoided even by other demons.
+
+Immune to : magic, bashing
+Vulnerable to : lightning, acid
+
+Demon Drake:
+Demon drakes are dragons from another plane. They appear to be small
+demonic drakes, black in color, or rarely reddish black. They are often
+seen leading other demons into battle so beware of ambushes. It's breath
+is much different than that of its brethern, a black fire which can be hot
+or cold whichever it chooses.
+
+Immune to : magic
+Vulnerable to : acid
+~
+E
+7~
+Vampiric Unicorn:
+A foul perversion of what was once good and fair in the world, must have 
+been the work of very evil vampires. Once the guardian of all that was
+pure in the woods, vampiric unicorns have now become a menace, feared
+by all within the eleven realms.  They can change into a mist or a bat.
+There no visual differences between a vampiric unicorn and a normal one.
+
+Immune to : piercing, poison
+Vulnerable : Lightning, silver
+
+Vampiric Werewolf:
+Perhaps the most accursed individuals in the history of the world, these
+poor souls become infected with both lycanthropy and vampirism at different
+times in their existence. Though they had to be werewolves first since
+vampires can't be diseased, for they are dead afterall.
+
+Immune to : fire, poison
+Vulnerable to : lightning, silver
+~
+E
+8~
+Vampire mage, cleric:
+Vampirism is not a humanoid only disease, each and every living race can
+contract it. Usually the vampires try to disease an important or a powerful
+person bringing thereby increasing their own power.
+
+Immune to : fire, poison
+Vulnerable : lighthing, silver
+~
+E
+9~
+Wraith:
+Beware mortal, for this creature is out for one thing only... mortal
+flesh for which it thirsts totally and unconditionally. Nothing
+will stop it from trying to set its teeth in you. He uses his claws
+to weaken mortals, so don't ever let it touch you or you will become
+inflicted with a weakening disease.
+
+Immune to : piercing
+Vulnerable : silver
+
+Hellhound:
+These monsters of eerie and hellish disposition are often found in thrall to
+demonic beings. They resemble large dogs with a fur of mangy, rust-reed or
+red-brown color, while their teeth and tongue are soot black. In combat,
+hellhounds prove clever hunters. They operate in packs and attack first by
+breathing fire at their prey, then close in for the kill with a flurry of
+razor-sharp teeth and claws.
+
+Immune to : ?
+Vulnerable to : acid
+~
+E
+11~
+Hellraiser:
+Not even in your worst nightmares have you seen a creature such as this.
+It's the mortalized form of Hell. It lives in a constant, unrelenting
+agony. How strange.. when you look into its eyes you see a kind of
+happiness, as if the pain is......is........
+
+Immune to : piercing
+Vulnerable to ; poison
+~
+E
+10~
+Morgoth:
+Morgoth's passions were many and mighty, and they conjured all that would
+be evil.  His unending desire and insatiable want was never stayed while
+he remained in this realm. With each triumph, each acquisition, he strived
+for more.
+
+Immune to : bashing, slashing, acid
+Vulnerable to : ?
+~
+#30012
+No-dachi sword blade~
+A Silver No-Dachi~
+A silvery legendary japanse two-handed sword is laying here.
+~
+silver~
+5 AI AN
+1 5 11 1 0
+51 15 150000 P
+A
+1 3
+A
+2 -3
+A
+3 -3
+A
+4 -5
+A
+18 10
+A
+19 10
+#30013
+No-dachi sword blade~
+A Muramasa blade~
+A legendary shogun once owned this blade, and now it is just laying here.
+~
+steel~
+5 AI AN
+1 4 14 1 0
+51 15 160000 P
+A
+1 2
+A
+2 -2
+A
+18 6
+A
+19 6
+#30014
+mace bane~
+Bane~
+A black japanese death mace has been left here.
+~
+silver~
+5 AI AN
+4 6 9 8 0
+51 15 180000 P
+A
+1 2
+A
+2 -2
+A
+18 6
+A
+19 6
+#30015
+rapier~
+a large rapier~
+Normally used by courtiers, this is a rapier.
+~
+iron~
+5 I AN
+1 6 9 11 0
+51 20 150000 P
+A
+2 2
+A
+18 3
+A
+17 4
+#30016
+cutlass~
+A broad cutlass~
+Normally used by pirates, this is cutlass.
+~
+iron~
+5 I AN
+1 4 14 1 0
+51 20 25000 P
+A
+2 2
+A
+17 4
+A
+18 3
+#30017
+Scimitar~
+A silver scimitar~
+Good for killing vampires and other undead creatures, this is a silver
+scimitar.
+~
+silver~
+5 I AN
+1 5 11 1 0
+51 20 15000 P
+A
+1 2
+A
+18 6
+#30018
+spear~
+A spear~
+Normally used by warriors, this is a long spear.
+~
+iron~
+5 I AN
+8 5 11 11 0
+51 20 13000 P
+A
+2 -2
+A
+18 9
+#30019
+Kryll~
+A kryll~
+An alien tool, its use is still yet unknown.
+~
+iron~
+5 I AN
+0 4 14 20 0
+51 20 250000 P
+A
+1 2
+A
+2 2
+A
+17 6
+A
+18 6
+#30020
+No-dachi sword blade weapon slayer~
+The Unholy Slayer of all Life~
+A monster, an ugly black weapon, a slayer.....
+~
+steel~
+5 AI AN
+1 9 9 29 0
+51 15 275000 P
+A
+1 2
+A
+2 2
+A
+3 -10
+A
+4 -10
+A
+18 10
+A
+19 12
+#30021
+dai-katana katana sword blade~
+A Dai-katana~
+An awesome, divine blade for slaying the unholy is laying here.
+~
+steel~
+5 AI AN
+1 9 7 1 0
+51 15 250000 P
+A
+1 5
+A
+2 5
+A
+3 -8
+A
+4 -8
+A
+5 -8
+A
+18 12
+A
+19 12
+#0
+#ROOMS
+#30000
+Darkwood~
+You enter a forest. Right from the start you notice something strange
+about this forest. There is no sound, no movement, nothing.. not even
+a breeze stirs the leaves of trees, nothing. You start to get a very
+strange feeling, a dread and forboding feeling of death assails you
+from every direction. You look at the trees and you now notice that
+they are dead and hollow. Finally it's all coming together now, you
+are nearing the portal to Hades or simply The Netherworld.
+There is a carving in a tree here.
+~
+30 BQ 3
+D0
+~
+~
+0 -1 30001
+D4
+~
+~
+0 -1 65
+E
+carving sign note~
+From the creator:
+I want to warn anyone entering this place, it's hard! Very Hard!!
+All monsters have certain immunities and certain vulnerabilities.
+Look for a book laying somewhere. In it you will find a description
+of every monster in this area, it might prove very useful to know
+which monster has what vulnerability and what immunity.
+
+For all non-hero and non-immortal players this area is meant solely
+for HEROES to play in. Now I can understand you may want to do this
+area but BEWARE, the mobs are made extra strong in here.
+
+All HEROES try to form groups. I'm on orders to make this area hard and
+I had to keep in mind that every monster needs to be killed with at least
+3 players hitting it.
+
+YOU HAVE BEEN WARNED!
+
+Small suggestion: try the vampires first they are the easiest.
+
+Elrond.
+~
+S
+#30001
+Darkwood~
+A gloomy place this is, everything is dark or darker still. Nothing lives
+here, as a matter of fact everything here has been dead a very long time.
+Although all is dead here, still you feel a presence at the edge of your
+mind but everytime you turn around there is nothing there.
+~
+30 AQ 3
+D0
+~
+~
+0 -1 30002
+D2
+~
+~
+0 -1 30000
+D4
+~
+~
+0 -1 30104
+S
+#30002
+Darkwood~
+You come upon a clearing in the forest. The ground here is burned as if
+some great fire occured here and wasted everything. Standing in the middle
+of the clearing you look in all directions and still there is nothing to
+be seen here. As you watch longer you get the distinct feeling that you are
+being closed in by the trees.
+~
+30 AQ 3
+D0
+~
+~
+0 -1 30005
+D1
+~
+~
+0 -1 30003
+D2
+~
+~
+0 -1 30001
+D3
+~
+~
+0 -1 30006
+S
+#30003
+A small path~
+You stumble upon a small path in the forest. It looks like this path is
+frequented, very regularly, by some creatures. There is no sign whatsoever
+about where this path may be leading to, besides further in the forest.
+~
+30 AQ 3
+D2
+~
+~
+0 -1 30004
+D3
+~
+~
+0 -1 30002
+S
+#30004
+Darkwood~
+As it appears, the path leads you to a deadend. Suddenly, the path just
+stops here at this rocky mountainside. You feel your way along the side
+of the mountain here but no entrance whatsoever, can be detected. All this
+is starting to look very strange.. small, well-travelled paths leading to
+sheer rock faces.
+~
+30 AQ 3
+D0
+~
+~
+0 -1 30003
+S
+#30005
+Spring~
+There is a spring here, flowing from the side of the mountain. You may try to
+drink this, it looks clear enough.  The forest is very thin here along the
+side of a mountain.  Strange that there would be a mountain here, and yet you 
+never noticed it before.
+~
+30 AQ 3
+D2
+~
+~
+0 -1 30002
+S
+#30006
+A small path~
+A way is cut here through the bushes by someone or something.
+The way is twisted with turns going in the strangest directions.
+You wonder how it's possible that you never cross the same path
+twice, and still it seems like you turn at every step.
+~
+30 AQ 3
+D1
+~
+~
+0 -1 30002
+D2
+~
+~
+0 -1 30007
+S
+#30007
+A ladder~
+Appearing out of nowhere, you stumble upon a ladder leading down into the
+ground, like a mineshaft, of sorts. You hesitate to enter but some presence
+draws you downward. It's an irresistable, unrelenting urge within your soul.
+~
+30 AQ 3
+D0
+~
+~
+0 -1 30006
+D5
+~
+~
+0 -1 30008
+S
+#30008
+Welcome To My Nightmare!~
+When you climbed down the ladder somewhere you crossed over to another
+plane of existence. The spot you are now standing on is barren and cold.
+Somewhere to the north you see something resembling a castle coming into
+view high on the top of a mountain. The mountainrange you see to the north
+extends also towards the east. The barren plain continues soutward and
+westward as far as the eye can see.
+~
+30 BQ 10
+D0
+~
+~
+0 -1 30009
+D1
+~
+~
+0 -1 30010
+D2
+~
+~
+0 -1 30011
+D4
+~
+~
+0 -1 30007
+S
+#30009
+A small road into the mountains~
+You are now travelling on a small, brick road which leads you towards the
+distant mountains. Far in the distance you see a castle coming into view.
+You become engulfed by a feeling of dread. This place you are being drawn 
+to isn't going to be very pleasant.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30012
+D2
+~
+~
+0 -1 30008
+S
+#30010
+Another portal~
+Again some shimmering portal is in front of you. Do you dare to enter
+this one?  There is no telling where or when you will emerge.
+~
+30 BQ 10
+D1
+~
+~
+0 -1 30053
+D3
+~
+~
+0 -1 30008
+S
+#30011
+Portal~
+A shimmering portal is in front of you.
+There is a sign beside it.
+
+"Beware for only the hardiest adventurers will survive this
+world. Only the very greatest of all creatures should brave this realm!"
+~
+30 BQ 10
+D0
+~
+~
+0 -1 30008
+D2
+~
+~
+0 -1 30077
+E
+sign~
+"Beware for only the hardiest adventurers will survive this world. Only the
+very greatest of all creatures should brave this realm!"
+~
+S
+#30012
+Base of the mountain~
+You come upon a crossing. There is a sign here pointing to the right. It
+simply says Blood Castle. Another sign is pointing to the left, and says
+Back Entrance, now would that be the back entrance of the castle? After
+a short inspection you come to the conclusion that neither path is very
+good and that there is hardly a difference between them.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30013
+D2
+~
+~
+0 -1 30009
+D3
+~
+~
+0 -1 30016
+S
+#30013
+Road to the front door~
+You have chosen the road to the main entrance. Well, maybe it's easier.
+You at least have a good view of the castle itself. Forbidden, is the
+word that comes to your mind when you look upon it, forbidden indeed!
+The castle is black and the battlements stand out sharply against
+the blackened sky.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30014
+D3
+~
+~
+0 -1 30012
+S
+#30014
+At the Castle~
+You are now very near to the castle and the feeling of dread which you
+first felt when you started walking towards the castle has increased
+tremendously. The feeling is very disturbing like the view of the castle
+itself, that I cannot even begin to describe it.. utterly horrible.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30015
+D2
+~
+~
+0 -1 30013
+S
+#30015
+Front gate.~
+Now you are at the front gate of the castle. The portuculis is closed and
+locked. The entryway to the castle towers over you. The dread feeling has
+risen enormously as you begin to falter and fumble for your weapon.
+~
+30 AQ 10
+D0
+a door
+~
+door gate~
+2 30000 30024
+S
+#30016
+A small path~
+It's difficult making your way through the bushes. The bushes now almost
+obscure the way. Apparently it is very seldom used. Looking further you see
+the path suddenly becomes quite steep. You sigh, realizing that it will be a
+long and arduous climb.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30017
+D1
+~
+~
+0 -1 30012
+S
+#30017
+Mountain path~
+Not much here besides twisted scrub brush, stone and dirt. The road is very
+rocky, strewn with blackish stones of varying size and shape.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30018
+D2
+~
+~
+0 -1 30016
+S
+#30018
+Mountain path~
+Not much here besides twisted scrub brush, stone and dirt. The road is very
+rocky, strewn with blackish stones of varying size and shape.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30019
+D2
+~
+~
+0 -1 30017
+S
+#30019
+Mountain path~
+Not much here besides twisted scrub brush, stone and dirt. The road is very
+rocky, strewn with blackish stones of varying size and shape.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30020
+D2
+~
+~
+0 -1 30018
+S
+#30020
+Mountain path~
+Not much here besides twisted scrub brush, stone and dirt. The road is very
+rocky, strewn with blackish stones of varying size and shape. But there is a
+turn here, leading towards the castle. You find yourself hoping the end is
+near, because you are becoming extremely tired. It's as if the path is drawing
+your scant remaining energy down through your feet.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30021
+D2
+~
+~
+0 -1 30019
+S
+#30021
+Mountain path~
+Not much here besides twisted scrub brush, stone and dirt. The road is very
+rocky, strewn with blackish stones of varying size and shape. You are now at
+the backside of the castle. What could be said of the front can also be said
+of the back, a dread and evil place this be.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30022
+D3
+~
+~
+0 -1 30020
+S
+#30022
+Mountain path~
+You now can see the castle very clearly from this point. You can discern a
+small opening in the walls. For what reason would the Castle's Lord have, for
+designing a backdoor such as the like of this?
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30023
+D3
+~
+~
+0 -1 30021
+S
+#30023
+The backdoor~
+You are standing before back door. There is no one here standing guard.
+And stranger still, the door appears to be unlocked nor barred in any way.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30022
+D2
+a door
+~
+door gate~
+1 -1 30027
+S
+#30024
+The Inner Castle~
+This is the main part of the castle. It's not very warm inside, in fact, it
+is quite the same as outside. A smell drifts in from the east. Before you
+lies a staircase, which leads up.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30028
+D1
+~
+~
+0 -1 30025
+D2
+a door
+~
+door gate~
+2 30000 30015
+S
+#30025
+The Dining Room~
+A beautiful room is this. The walls are covered with tapestries of all the
+old lords of the castle. There is a small table here, strewn with various
+kinds of food and wine. At the other side of the room you see a very large
+and somewhat strange chair with bizarre markings on it. At the far end of
+the room is a door to the kitchen.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30026
+D3
+~
+~
+0 -1 30024
+S
+#30026
+The Kitchen~
+A dirty and sodden place. Like it hasn't been used in a great many years.
+When you open a cupboard there is nothing in it. How strange... a full table
+and an unused kitchen.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30027
+D3
+~
+~
+0 -1 30025
+S
+#30027
+The Storeroom~
+Oops, wrong door. This is the storeroom.
+~
+30 AQ 10
+D0
+a door
+~
+door gate~
+1 -1 30023
+D3
+~
+~
+0 -1 30026
+S
+#30028
+A Staircase~
+This is a staircase as you may have guessed.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30024
+D4
+~
+~
+0 -1 30029
+S
+#30029
+A Hallway on the second floor.~
+There is a room to the north. You hear some strange sounds coming from
+within. Could it be that someone or something is inside? You check the
+door and discover that it's not locked.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30030
+D4
+~
+~
+0 -1 30034
+D5
+~
+~
+0 -1 30028
+S
+#30030
+A Study~
+It appears that someone has recently been studying here. There are books
+and manuscripts everywhere. The titles of the books are wideranging from
+herblore to the engineering difficulties of siege-equipment to the finer
+points of human physiology.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30032
+D1
+~
+~
+0 -1 30031
+D2
+~
+~
+0 -1 30029
+D3
+~
+~
+0 -1 30033
+S
+#30031
+A Storeroom~
+A small storeroom teeming with more books and various stuff. The dust is
+becomes too much for you, causing you to cough repeatedly.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30030
+S
+#30032
+Sleeping Room~
+Well, this appears to be a bedroom, but there isn't a bed anywhere. The room
+only contains a coffin-like thing, which is standing open. You suddenly
+question yourself.. Does this mean that whatever dwells here is now awake and
+roaming about somewhere?
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30030
+S
+#30033
+A Storeroom~
+A dusty place filled with books, scripts and tomes. You quickly scan
+the titles, but discover nothing here that interests you.~
+30 AQ 10
+D1
+~
+~
+0 -1 30030
+S
+#30034
+The Third Floor.~
+A particularly gloomy sphere hangs here.  It makes it quite unsettling
+to be near. The halls are totally silent, nothing can be heard whatsoever.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30035
+D4
+~
+~
+0 -1 30044
+D5
+~
+~
+0 -1 30029
+S
+#30035
+A Hallway~
+There are doors to your right and left. The hall itself, is entirely black.
+The beams on the ceiling, the walls, the marble floor... all totally black.
+But then you detect they also have a faint reddish hue.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30036
+D1
+~
+~
+0 -1 30041
+D2
+~
+~
+0 -1 30034
+D3
+~
+~
+0 -1 30040
+S
+#30036
+A Hallway~
+Again a door to the left and to the right. On the walls, along the entire
+corridor, hang tapestries. There is one that catches your attention. It
+depicts the dark battle between a strange, winged mage and some kind of
+demonic beast of the Netherworld.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30037
+D1
+~
+~
+0 -1 30039
+D2
+~
+~
+0 -1 30035
+D3
+~
+~
+0 -1 30038
+S
+#30037
+A Sleeping Room~
+Yet another very empty room, not unlike a tomb within a tomb. The coffin here
+is also open and apparently whatever rests within this macabre bed, must be
+awake now. You are startled by a sudden cry from above, making your hair
+stand on end.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30036
+S
+#30038
+A Sleeping Room~
+Not much here either. Again a coffin and you notice fresh blood stains upon
+the marble floor. On the back wall, is a painting of a dark man with something
+like fangs. He is very terrifying to look at.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30036
+S
+#30039
+A Dressing Room~
+A dark place this is. A candle glows blackly upon a table, making it difficult
+to discern anything. You notice some very strange clothing hanging over the
+back of a chair. They give you the impression of a bat.. maybe the castle's 
+denizens are worshippers of a bat-like god.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30036
+S
+#30040
+A Workroom~
+A most ghastly sight.  The beings who live here must enjoy a strange kind of
+pleasure indeed.  The room is filled with all kinds of torture equipment.
+A corpse lies in one of the corners with only its head still attached to its
+body.  Attached to one of the implements, is a man. Remarkably, he is still
+alive, albeit barely.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30035
+S
+#30041
+A Storeroom~
+Ooops, another wrong door.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30035
+S
+#30042
+Study~
+A large table adorns the center of this room. It is entirely covered by tall
+stacks of books. You begin to gather up a few, but in a bitter disgust, throw 
+them down immediately, for all books are about the foul and evil art of
+necromancy.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30044
+S
+#30043
+Hideous Gallery~
+Every wall is covered with portraits and macabre scenes of monsters, ghouls
+and other obscenities. There are paintings of dreadful slaughterings and
+horrific attrocities to humans. How can this be possible? Such madness, such
+pure evil, such total mayhem...
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30044
+S
+#30044
+The Fourth Floor~
+It's totally dark here. From the vague outlines you can see that there are
+doors here with a faint light seeping from the cracks below them. Try as you
+might, you can't hear a thing behind them.
+~
+30 AQ 10
+D1 
+~ 
+~
+0 -1 30043
+D2
+~
+~
+0 -1 30046
+D3
+~
+~
+0 -1 30042
+D4
+~
+~
+0 -1 30048
+D5
+~
+~
+0 -1 30034
+S
+#30045
+Empty~
+You have stumbled upon a totally empty room.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30046
+S
+#30046
+A small Waiting Room.~
+There are a few chairs here standing against a wall. The chairs appear to be
+very comfortable if it weren't for bloodstains on them. The total darkness is 
+starting to get on your nerves and you feel like running away from this
+horrendous  place.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30044
+D1
+~
+~
+0 -1 30047
+D3
+~
+~
+0 -1 30045
+S
+#30047
+A Sleeping Room~
+There is again a coffin here, but this time it's closed . You can't quite 
+bring yourself to open it, there just might be something inside whom you
+don't want to meet.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30046
+S
+#30048
+The Last Stairway~
+You are nearing the top of the castle. The evil presence you felt downstairs
+is getting stronger, as if you where walking towards it's center. Could it be
+that whatever causes this atmosphere of rot and decay is up here waiting for
+you?
+~
+30 AQ 10
+D4
+~
+~
+0 -1 30050
+D5
+~
+~
+0 -1 30044
+S
+#30049
+Workroom~
+As it was downstairs.  A fair number of toture implements are stored here and
+they are used frequently, judging by the wear they show.  A woman is tied to 
+one of the devices and she looks at you with tearfilled, begging eyes, seeming 
+to plead with you free or slay her. She is unable to speak, for her tongue has
+been ripped from her mouth. She's obviously been the subject of some dreadful
+experiment and you realize that it was probably her that you heard screaming
+earlier in your visit.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30050
+S
+#30050
+The Top of the Citadel~
+There is only one window here.  You can look outside here for the first time.
+All around the darkened sky are huge bats flying about.  You now hear a voice
+talking silently within your mind.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30051
+D2
+~
+~
+0 -1 30052
+D3
+~
+~
+0 -1 30049
+D5
+~
+~
+0 -1 30048
+S
+#30051
+A Torture Room~
+As it was downstairs. A fair number of toture devices are scattered about.
+You decide they get much use, by looking at the thickly clotted blood upon
+them.  There aren't any victims here aside from a few corpses who are beyond
+your help.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30050
+S
+#30052
+The Lord's Domain~
+You have stepped inside the personal rooms of the lord of the castle. Now you 
+must face him or die in the attempt. You feel you must succeed, since you
+survived your journey here. You think you must have done something right or 
+are just extremely lucky.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30050
+S
+#30053
+At the Other End~
+So you stepped through the portal. Now you are in a world of demons. Prepare
+to battle demons of every kind here.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30054
+D3
+~
+~
+0 -1 30010
+S
+#30054
+Demon Realms~
+This is the beginning. Prepare for some serious difficulties on the roads
+of this accursed realm.  The land about you is filled with ice and the
+temperature is very low, certainly below freezing. How for Valhalla's sake
+can anything survive here?
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30055
+D1
+~
+~
+0 -1 30059
+D3
+~
+~
+0 -1 30053
+S
+#30055
+Demon Realms~
+Ice everywhere. A strange kind of coldness enters the very fibre of your being
+deep within your every bone. In the distance you see ice, ice and even more
+ice.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30056
+D2
+~
+~
+0 -1 30054
+S
+#30056
+Demon Realms~
+You are standing on a hill of ice. You can look in all directions. To the
+north and west is a complete nothingness. The rest is ice, ice all over.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30057
+D2
+~
+~
+0 -1 30055
+S
+#30057
+Demon Realms~
+You come upon a lake. You touch the water and your finger is instantly
+turned to ice. You feel an acute pain from your now frozen finger and
+you quickly put your hand in your pocket in an attempt to thaw it.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30058
+D3
+~
+~
+0 -1 30056
+S
+#30058
+Demon Realms~
+You walk past the lake. You carefully avoid any contact with the water.
+You look into the water and you see your image reflected within... BUT IT'S
+WRONG! Your face is completely distorted and you quickly turn away from
+the grizzly sight.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30057
+D2
+~
+~
+0 -1 30059
+S
+#30059
+Demon Realms~
+You left the lakeside and are again walking over a plain. The plain stretches
+as far as the eye can see. It is very dark, though there is some light coming
+from the south. The light has an odd, almost artificial look about it.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30058
+D2
+~
+~
+0 -1 30060
+D3
+~
+~
+0 -1 30054
+S
+#30060
+Demon Realms~
+A portal on an ice covered plain, how unappropiate. You are once again at a
+portal.  A sign is beside it.
+~
+30 ABQ 10
+D0
+~
+~
+0 -1 30059
+D1
+~
+~
+0 -1 30061
+E
+sign~
+"The Land of Shade"
+~
+S
+#30061
+Demon Realms~
+The sign's simple script describe the world you have entered, quite well.
+This is a shady looking place. Everywhere here is shrouded in shade. 
+There is little light and yet there is no darkness.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30062
+D1
+~
+~
+0 -1 30064
+D3
+~
+~
+0 -1 30060
+S
+#30062
+Demon realms~
+There is a mountain here but there you have little chance of climbing it,
+it blocks passage to the west or north. You are even standing in the shade
+of the mountain. There is no real source of light here so how do those shades 
+exist, you wonder.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30063
+D2
+~
+~
+0 -1 30061
+S
+#30063
+Demon Realms~
+The mountains are to your left, preventing passage to the north. Before front
+you, looms a great chasm, removing of any chance of going east, leaving only
+the south and the way back to the west.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30064
+D3
+~
+~
+0 -1 30062
+S
+#30064
+Demon Realms~
+Once again upon a plain, although this one is very different from the plain
+in the ice realm. In this one you can hardly see a yard in front of you,
+whereas in the ice plain,  you could see for miles and miles. There is a
+flickering light to the east.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30063
+D1
+~
+~
+0 -1 30065
+D3
+~
+~
+0 -1 30061
+S
+#30065
+Demon Realms~
+Another portal is here. And again there is a sign beside it.
+The sign reads: 'Land of Disease'.. definitely not a nice name.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30066
+D3
+~
+~
+0 -1 30064
+S
+#30066
+Demon Realms~
+Upon your first step a terrible stench assaults you. It's so revolting, that
+you immediately throw up you last meal. When the nausea has eased somewhat you
+start to gaze around. Now you wish you could have stayed on the other side of 
+the portal, there you couldn't see a thing, and here, you wish couldn't.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30065
+D1
+~
+~
+0 -1 30067
+D2
+~
+~
+0 -1 30069
+S
+#30067
+Demon Realms~
+You begin to climb a hill. Everything you walk upon dies almost immediatly as
+if too weak to withstand you footsteps. The whole sodden place looks like it's
+horribly diseased and will die at any second.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30068
+D3
+~
+~
+0 -1 30066
+S
+#30068
+Demon Realms~
+You are near the top of the small hill, but you can't continue any further.
+There are some fresh corpses of diseased animals laying in your way, blocking 
+any safe passage, let alone the smell of them, which is so nausating, you
+can't take one step further in that direction.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30067
+S
+#30069
+Demon Realms~
+In the distance the wailing of a wretched dog can be heard. After a few howls
+you hear it yelp and you guess something must have given it a kick. The sound
+is coming from the south where there is also a small, flickering light.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30066
+D2
+~
+~
+0 -1 30070
+S
+#30070
+Demon Realms~
+Again a portal to another world. The sign this time reads: 'Drake's Den'.
+It is a mild, yet adequate warning against all who might want to enter.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30069
+D4
+~
+~
+0 -1 30071
+S
+#30071
+Demon Realms~
+You have entered a cave complex. It's very dark in here, there are no torches
+nor any light at all. It is very damp, dripping of moisture and the walls and
+floor are very slippery.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30072
+D5
+~
+~
+0 -1 30070
+S
+#30072
+Demon Realms~
+In the distance you hear a faint, yet powerful snoring sound.  What awful
+creature could actually live here? On the walls, are claw marks and if your
+hand is some measure for size the animal that made those marks must have been
+really something.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30071
+D1
+~
+~
+0 -1 30073
+D3
+~
+~
+0 -1 30074
+S
+#30073
+Demon Realms~
+This is a deadend. There are a few skeletons on the ground here. Is this the
+place where that beast keeps it's food and leftovers?  The sheer size of the
+cave amazes you, you can hardly see the ceiling of it.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30072
+S
+#30074
+Demon Realms~
+You decend deeper into the cave complex. Now the sound becomes very distinct
+and clear. Somewhere down here there must be some very large beast or demon.
+Large bones are laying on the ground here, very large bones. Whatever could
+have killed and eaten a creature with bones as large as these would certainly
+have no problems dealing the likes of you!
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30072
+D2
+~
+~
+0 -1 30075
+S
+#30075
+Demon Realms~
+Again a tunnel but this time there is a pulsating light coming from the
+west. This tunnel has remained hidden from your sight and it's pure luck
+that you have discovered it now.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30074
+D3
+~
+~
+0 -1 30076
+S
+#30076
+Drake's Den~
+Now you have found the great beasts resting place. Since you had just heard it
+snoring, and yet it is now not here, you must have luckily just missed it.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30075
+S
+#30077
+Wasteland~
+You step into a wasteland that eludes every attempt of your mind to comprehend
+what you are seeing. There is a feeling of evilness all around here.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30011
+D1
+~
+~
+0 -1 30078
+D3
+~
+~
+0 -1 30091
+S
+#30078
+Wasteland~
+You are walking in an easterly direction. There is nothing here that is of
+any interest to you. Even when you look up in the sky there is a certain,
+empty blackness
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30079
+D2
+~
+~
+0 -1 30080
+D3
+~
+~
+0 -1 30077
+S
+#30079
+Mountains~
+You are nearing a mountain range. This you know, because the ground is rising 
+as you go. You are starting to get the feeling of being watched by a being of
+great and total malice, as if someone or something wants you gone.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30081
+D2
+~
+~
+0 -1 30078
+S
+#30080
+Riverbank~
+This once, must have been a riverbank, though the river has long since run
+dry. There are some scattered skeletons, of former waterdenizens, who couldn't 
+escape the dryness, littering the dry bottom. There are some fresh marks along 
+the sides of it, revealing there must be something living here recently.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30078
+S
+#30081
+A cave~
+You entered a cavecomplex. Though this one is big, it would be impossible for
+something like a dragon to enter through this way.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30082
+D2
+~
+~
+0 -1 30079
+S
+#30082
+A Crosspoint~
+There are tunnels spoking out in every direction. You make a short inspection
+of each but find nothing which makes one more preferable than the other.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30083
+D1
+~
+~
+0 -1 30084
+D2
+~
+~
+0 -1 30081
+D3
+~
+~
+0 -1 30085
+S
+#30083
+Dark Tunnel~
+This tunnel is too dark for you to go safely through. It's slippery and
+littered with large holes, which you could easily fall into.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30082
+S
+#30084
+A Tunnel~
+You can move safely through this tunnel. Far ahead you can see a flickering
+light.  Maybe it's a small vein of silver or gold within the cavewall.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30086
+D3
+~
+~
+0 -1 30082
+S
+#30085
+Chasm~
+In front of you is a chasm which quite effectively cuts off any possibility
+of going any further to the west. You look at the walls and see some crude
+paintings of men. Maybe some ancient, human tribe once lived here.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30082
+S
+#30086
+A Dark Tunnel~
+The tunnel gets very dark here, you can barely see a thing.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30087
+D3
+~
+~
+0 -1 30084
+S
+#30087
+An Even Darker Tunnel~
+Now you walk in absolute darkness.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30088
+D3
+~
+~
+0 -1 30086
+S
+#30088
+A Turn~
+The tunnel veers off to the south here. Cautiously peering around the corner
+you see a room. The room is full with litter and bones.  You cannot yet see
+whether its occupant is at home or not.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30089
+D3
+~
+~
+0 -1 30087
+S
+#30089
+Tunnel to Room~
+You are in the last stretch of tunnel leading to the room.  You now have a
+full view of the room. It really is filled with various, assorted bones and
+debris.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30088
+D2
+~
+~
+0 -1 30090
+S
+#30090
+A Room~
+You are standing in a heap of bones. You can't even figure out of what and how 
+many creatures they belonged. There is also a foul and potent stench here, as 
+if some of the skeletons here have not been picked entirely clean yet and the
+remains slowly fester and rot. You begin to take notice of your surroundings,
+the cave is much bigger then you expected, the ceiling is beyond your sight.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30089
+S
+#30091
+Wasteland~
+You come upon a charred field on this plain. The entire area has been charred 
+by the firebreath of some monster.  Where so many of creatures of great size 
+and strength living so close together, it's only natural that there are fights
+occasionally.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30077
+D0
+~
+~
+0 -1 30092
+D2
+~
+~
+0 -1 30098
+S
+#30092
+A Pit~
+A pit is in front of you.  It's was so well camouflaged that you almost fell
+into it.  When you look down into it you cannot see its bottom. Along the
+sides of the pit, rough stairs have been hewed, in a downward leading spiral.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30091
+D5
+~
+~
+0 -1 30093
+S
+#30093
+The circular stairs~
+The stair go round and round along the side of the pit. You start counting the
+number of steps you take......93.....94...95....96....
+~
+30 AQ 10
+D4
+~
+~
+0 -1 30092
+D5
+~
+~
+0 -1 30094
+S
+#30094
+The circular stairs~
+Still counting......256.....257....258.....stumble....stumble....you almost
+fall, but miraculously regain your balance and..... *DOH!* You've forgotten
+at which number you where. You decide to start over... 1..2..3..4..5....
+~
+30 AQ 10
+D4
+~
+~
+0 -1 30093
+D5
+~
+~
+0 -1 30095
+S
+#30095
+The circular stairs~
+1560.....1561.....1562....1653.....When you look up you see that you've gone
+a terribly long way. 1654....1655....1656.....
+~
+30 AQ 10
+D4
+~
+~
+0 -1 30094
+D5
+~
+~
+0 -1 30096
+S
+#30096
+The circular stairs~
+10234......10235.....10236.... And you reached bottom at 10237. This is a
+hell of a way to go. You are totally breathless from the walk, you start to
+think and you remind yourself of a saying: What goes up, must come down.
+Now does that work in the reverse as well?
+~
+30 ABQ 10
+D3
+~
+~
+0 -1 30097
+D4
+~
+~
+0 -1 30095
+S
+#30097
+A Cave~
+A small habitat of some animal. You see some strange looking bones and some
+strange pieces of furniture, broken chairs and stuff laying about. You have
+gone quite deep into the ground and it's becoming very warm here. You decide
+that there must be some vulcanic undercurrent somewhere.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30096
+S
+#30098
+A Forest~
+This looks like any other wood, one with trees and bushes. The one thing that
+might set this one apart from others is that the trees are incredibly big,
+so big, in fact, that you can't even see the tops of them.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30091
+D1
+~
+~
+0 -1 30099
+D2
+~
+~
+0 -1 30100
+S
+#30099
+A Forest~
+The trees block all ways except the way back to the path.
+~
+30 AQ 10
+D3
+~
+~
+0 -1 30098
+S
+#30100
+A Small Path in the Forest~
+You are walking on a small path. The path is not very straight and you can't
+see where the path is going.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30098
+D1
+~
+~
+0 -1 30101
+S
+#30101
+A Small Path in a Forest~
+You are walking on a small path. The path is not very straight and you can't
+see where the path is going.
+~
+30 AQ 10
+D0
+~
+~
+0 -1 30102
+D3
+~
+~
+0 -1 30100
+S
+#30102
+An Even Smaller Path in a Forest~
+You are walking on a very small path. The path is certainly not very
+straight and you can't see where the path is going.
+~
+30 AQ 10
+D2
+~
+~
+0 -1 30101
+D3
+~
+~
+0 -1 30103
+S
+#30103
+A Small Cave~
+You look into a small cave. Nothing peculiar about it, aside from the very
+large bones at its entrance.
+~
+30 AQ 10
+D1
+~
+~
+0 -1 30102
+S
+#30104
+A Cloud in the Sky~
+You are floating around.
+~
+30 BQ 9
+D1
+~
+~
+0 -1 30105
+D3
+~
+~
+0 -1 30107
+D5
+~
+~
+0 -1 30001
+S
+#30105
+Another Cloud~
+You are still floating around.
+~
+30 AQ 9
+D0
+~
+~
+0 -1 30106
+D3
+~
+~
+0 -1 30104
+S
+#30106
+A Weaponshop in the Sky~
+An ancient shop is here. At this place some of the rarest blades have been
+forged and sold. The man who forges these is one of the ancient race of
+Japanese, who are known to be master blacksmiths.
+~
+30 AQ 9
+D2
+~
+~
+0 -1 30105
+S
+#30107
+Another Cloud in the Sky~
+You are still floating around.
+~
+30 AQ 9
+D0
+~
+~
+0 -1 30108
+D1
+~
+~
+0 -1 30104
+S
+#30108
+Yet Another Cloud in the Sky~
+You are floating over a dark looking cloud, maybe there is a storm brewing.
+~
+30 AQ 9
+D0
+~
+~
+0 -1 30109
+D2
+~
+~
+0 -1 30107
+S
+#30109
+A Weaponshop~
+In this shop some strange weapons are sold. Sometimes the keeper also
+has some rare, non-weapon items, but that depends on the market really.
+~
+30 AQ 9
+D2
+~
+~
+0 -1 30108
+S
+
+#0
+
+#RESETS
+*younger drakes
+M 0 30000 2 30087
+M 0 30000 2 30081
+
+*elder drake
+M 0 30001 1 30091
+
+*basilisk
+M 0 30002 1 30090
+
+*behemoth
+M 0 30003 1 30103
+
+*balrog, not nice
+M 0 30004 1 30097
+E 1 30020 1 16
+
+*demons for each different plane 1
+M 0 30005 1 30061
+M 0 30006 1 30056
+M 0 30007 1 30066
+M 0 30008 1 30076
+
+*the vampires and stuff
+M 0 30009 5 30029  *unicorn
+
+M 0 30010 10 30032 *werewolf
+M 0 30010 10 30028
+M 0 30010 10 30030
+M 0 30010 10 30037
+M 0 30010 10 30040
+
+M 0 30011 4 30044 *mages
+M 0 30011 4 30043
+
+M 0 30012 6 30048
+M 0 30012 6 30049
+M 0 30012 6 30051
+
+M 0 30013 3 30003
+E 1 30000 1 17
+
+M 0 30014 2 30024
+
+M 0 30015 1 30052
+E 1 30021 1 16
+
+M 0 30016 2 30012
+
+M 0 30017 1 30109
+E 1 30008 1 16
+G 1 30010 1
+G 1 30015 1
+G 1 30016 1
+G 1 30017 1
+G 1 30018 1
+G 1 30019 1
+
+M 0 30018 1 30106
+G 1 30001 1
+G 1 30002 1
+G 1 30003 1
+G 1 30004 1
+G 1 30005 1
+G 1 30006 1
+G 1 30007 1
+G 1 30009 1
+G 1 30012 1
+G 1 30013 1
+G 1 30014 1
+
+O 0 30011 1 30104
+
+D 0 30015 0 3
+D 0 30024 2 1
+S
+
+#SHOPS
+30017 3 4 5 9 0 150 50 0 23
+30018 3 4 5 9 0 150 50 0 23
+0
+
+#$
+

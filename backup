@@ -1,0 +1,17 @@
+# Set the date.
+set today = `date | sed -e 's/  / /g' | cut -d" " -f2,3 | sed -e 's/ /\./g'`
+set day = `date | cut -d" " -f0,1`
+
+echo "Backup for $today"
+
+if ( -e ../backups/$today.tar.gz ) then
+	echo "It was already done today."
+	exit 0
+endif
+
+tar cfz ../backups/$today.tar.gz ../player
+
+if ($day == Fri) then
+	echo Deleting 1st level players!
+	delete.1sts
+endif

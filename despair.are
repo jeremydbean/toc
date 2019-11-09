@@ -1,0 +1,261 @@
+#AREA   {25+} Soulcrusher  Shrine of Despair~
+
+
+#MOBILES
+#23000
+raver guard~
+RaverGuard of Despair~
+The RaverGuards of Despair stand their silent vigil.
+~
+Trapped between the realms of death and life, these pitiful souls long to be
+living or released from life, anything would be better than this existance.
+Realizing this, you understand their intense sadness, and determine that
+these are the best possible guards for a cult such as this.
+~
+undead~
+BG DFHJNT 0 S
+60 8 50d10+9500 2d65+765 8d6+128 30
+-30 -30 -30 -30
+CDEFHIKNT AB CDEFGHIJKLMNOPQRS 0
+8 8 1 0
+0 0 G 0
+#23001
+statue moortephyd~
+Statue of Moortephyd~
+The statue of Moortephyd stares down upon you with black, almost lifelike
+eyes.
+~
+A grand masterpiece of sculpturing. Hewn from a single piece of obsidian,
+this statue appears almost alive.. which is impossible not only because it
+is a statue, but because it is a statue of a liche, and liches do not live.
+The longer you look at it, the harder it is to focus, shimmering, fading,
+consuming... you are lost within its embrace... utterly alone.
+~
+BDGJK DFHJN 0 S
+60 9 50d10+10000 2d70+900 8d8+148 20
+-30 -30 -30 -30
+0 0 0 0
+8 8 0 0
+0 0 G 0
+#23002
+grand master~
+The Grand Master~
+The Grand Master of the Cult of Despair stands here awaiting your
+worship and pennance.
+~
+The Grand Master is an almost identical twin of Moortephyd.. You then realize
+that this was not always so, and that through some dark acts of sorcery, this
+once living creature has been morbidly transformed into it's current state.
+~
+undead~
+BGJK DFHJN 0 S
+65 8 50d10+9500 2d65+800 8d6+128 18
+-15 -15 -15 -15
+0 0 0 0
+8 8 0 0
+0 0 L 0
+#0
+
+
+#OBJECTS
+#23000
+raver axe raverAxe~
+RaverAxe~
+It is a wicked, yet merciful axe of phenominal size and sharpness.
+~
+steel~
+5 ABGHM AN
+5 5 25 21 BF 
+-1 25 0 P
+#23001
+shroud mourning~
+Shroud of Mourning~
+An blackish, opaque shroud flutters eerily in the non-existant breeze.
+~
+cloth~
+9 ABG AD
+10 10 10 10 0 
+-1 5 0 P
+#23002
+death mask~
+Death's Head Mask~
+A black mask, in the shape of a leering skull, lies here.
+~
+gold~
+9 ABG AE
+10 10 10 10 0
+-1 5 0 P
+
+#0
+
+
+#ROOMS
+#23000
+Entrance to Shrine Despair~
+Before you are the gates to the Cult of Despair's Shrine. The gates and
+structure are made entirely of cold, black obsidian. An aura of profound
+sadness and great loss emanates from within. A pair of tall, forboding
+guards silently stand vigil here.
+~
+0 0 1
+D0 
+~
+~
+1 -1 23001
+S
+#23001
+Courtyard of Sorrow~
+As you enter the courtyard of the Shrine, you are consumed by a total, 
+numbing feeling of dread and sorrow, and welcome it, for you are home. 
+Before you stands an enormous statue of the liche, Moordyphyd.
+At the base of the statue is an engraved plaque.
+
+Exits are to the north, south, east and west.
+~
+0 KQ 1
+D0
+~
+~
+0 -1 23004
+D1
+~
+~
+0 -1 23006
+D2
+~
+~
+1 -1 23000
+D3
+~
+~
+0 -1 23002
+S
+#23002
+Regeneration Room~
+A somber chamber, with thin, silken, shroud-like cloth scattered upon the
+dark stone floor. Rest here, ye weary body and mind.
+
+Exits are east to the courtyard and north to the library.
+~
+0 DKQTU 0
+D0
+~
+~
+0 -1 23003
+D1
+~
+~
+0 -1 23001
+S
+#23003
+The Library~
+Shhhh! The acolytes of Moortephyd are studying for their final exume.. er
+exam. Tombs and manuscripts are stacked, stored and jammed into every nook 
+and cranny. You spot a free seat at a table and quickly scoot into it.
+
+Exits are south to the Regeneration Room and east to the Inner Sanctum.
+~
+0 DKQX 0
+D1
+~
+~
+0 -1 23004
+D2
+~
+~
+0 -1 23002
+S
+#23004
+Inner Sanctum~
+You are in a huge, domed room. Totally devoid of any distinguishing features 
+or light. In the center, emanating a glow of anti-light, is the Grand Master.
+
+Exits are west to the Library, south to the courtyard, and east to the Council
+Chamber.
+~
+0 ADKQ 0
+D1
+~
+~
+0 -1 23005
+D2
+~
+~
+0 -1 23001
+D3
+~
+~
+0 -1 23003
+S
+#23005
+Council Chamber~
+Before you is the longest table you have ever seen. Constructed of highly
+polished ironwood, its surface eerily reflects the torchlight of the brands
+lining the walls. Several score highbacked chairs surround the table on its
+every edge.  It is here, where cult members discuss the happenings of the
+world around them.
+
+Exits are west to the Inner Sanctum and south to the Halls of Allegiance.
+~
+0 DFKQ 0
+D2
+~
+~
+0 -1 23006
+D3
+~
+~
+0 -1 23004
+S
+#23006
+Halls of Allegiance~
+You are in a great hall. Upon the hallowed walls are inscribed the names of
+all who have gone before. In the center of the hall, is a raised dias, with
+a large slab of black stone upon it.
+
+Exits are north to the Council Chamber and West to the Courtyard.
+~
+0 ADKQ 0
+D0
+~
+~
+0 -1 23005
+D3
+~
+~
+0 -1 23001
+E
+Slab~
+The next obsidian tile to be added to these halls. The newest members names
+and initiation dates are inscribed here:
+
+Moordyphyd - 5/4/95
+~
+S
+#0
+
+
+#RESETS
+*
+*
+M 1 23000 2 23000       *  RaverGuard of Despair to Entrance to Shrine Despair
+E 1 23001 100 5        *    Raver Axe
+E 1 23002 100 6        *    Shroud of Mourning
+E 1 23000 100 16       *    Death's Head Mask
+*
+M 1 23001 1 23001       *  Statue of Moordyphyd to Courtyard of Sorrow
+D 1 23001 2 1          *  Courtyard of Sorrow Close South
+*
+M 1 23002 1 23004       *  The Grand Master in Inner Sanctum
+*
+S
+
+
+#SPECIALS
+M  23000 spec_cast_undead               RaverGuard of Despair
+M  23001 spec_cast_adept                Statue of Moordyphyd
+M  23002 spec_cast_adept                The Grand Master
+S
+
+
+#$

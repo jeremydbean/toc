@@ -1,0 +1,2481 @@
+#AREA	{25 35} Lok     Coven~
+
+
+
+#MOBILES
+#24101
+beast ravening~
+The ravening beast~
+A ravening beast is here, hunting for your blood!
+~
+The ravening beast stands about 1' tall at the shoulder, and measures 
+10' from nose to tail. It resembles a monitor lizard, only its furry, 
+has a dog like snout, perky ears, and 6 legs, and has many more long 
+sharp nasty teeth.
+~
+lizard~
+GT F -400 S
+30 7 6d12+850 10d10+20 5d7+14 10
+-9 -9 -9 -6
+CDE 0 L F
+8 8 1 250
+0 0 S 0
+#24102
+hag gelda~
+The hag Gelda~
+An old hag is here predicting dire consequences for you.
+~
+The hag is dressed in rags, has long tangled matted gray hair, and is 
+very old. The hag tells you 'I see you enter a fire and fight a great 
+battle with a minion of hell, and you die horribly!' . With that the 
+hag breaks into an ugly fit of laughter.
+~
+saurian~
+BCGQ DK 0 S
+28 5 6d12+740 10d10+20 3d8+13 5
+-7 -8 -8 -4
+K 0 F 0 
+8 8 2 500
+0 0 M 0
+#24103
+guard woodsman~
+The woodsman guard~
+A woodsman guard is here, manning his post.
+~
+The guard has a large war axe, a heavy hide cloak, and a longbow. He 
+blends in with the surrounding terrain from years of experience. He 
+tells you 'Beware of the Murkmire, because just recently the town of 
+Dunkeldorf lost 10 men in the forest. Also be wary of the ravening beasts 
+running loose in the forest. Avoid the hag. Is there any chance of you 
+hiring on to help defend Dunkeldorf?'.
+~
+human~
+BGT N 500 S
+30 6 6d12+875 10d10+20 4d6+13 25
+-9 -8 -7 0
+CDFK 0 0 H
+8 8 1 1000
+0 0 M 0
+#24104
+lumberjack~
+The lumberjack~
+A lumberjack is here, smelling of sap and sweat.
+~
+The lumberjack is a tall human, equipped with rugged clothing and 
+carrying a lumber axe. He sees you and asks 'Have you come from the 
+forest? You have? Is it safe again in the forest?
+~
+human~
+GT P 400 S
+25 7 5d10+600 10d10+10 4d5+5 25
+-6 -6 -6 -6
+KO 0 0 P
+8 8 1 800
+0 0 M 0
+#24105
+al grocer~
+Al the grocer~
+A grocer is here, ready to fill your order.
+~
+Al is 5'10", fat, and balding. His nose twitches at the thought of 
+selling you stuff. You get to talking with him, and find out that he is 
+a very frightened man. Mainly he fears that whatever attacked in the 
+woods will strike town next. He gets to talking of the glory days of 
+Dunkeldorf, before everyone started disappearing.
+~
+human~
+BGT 0 450 S
+26 5 5d10+550 10d10+5 2d10+8 17
+-5 -5 -5 0
+DE CD 0 G
+8 8 1 5000
+0 0 M 0
+#24106
+mark miller~
+Mark the miller of Dunkeldorf~
+The miller of Dunkeldorf stands here, covered in sawdust.
+~
+Mark the miller is a thick stocky, hairy man. He carries himself with 
+great confidence and precision. You talk with him for a while, and he 
+tells you that he has had a dream of you visiting a strange white 
+temple and fighting the guardian there. He wishes you luck and 
+godspeed.
+~
+human~
+BGT 0 550 S
+27 5 5d10+675 10d10+15 5d4+10 17
+-5 -5 -5 -2
+DEF CD 0 0
+8 8 1 5000
+0 0 M 0
+#24107
+hans smith village~
+Hans the smith of Dunkeldorf~
+The smith of Dunkeldorf is here, fanning the fires of his furnace.
+~
+Hans is a very strong human, almost as strong as they run. He is in his 
+late 40's and has jet black hair and a beard. You get to talking with 
+Hans, and the conversation turns to iron. Hans tells you that he used 
+to get iron from the old mine in the Murkmire, but the cave has long 
+since collapsed and become unstable, so now he trades for it.
+~
+human~
+BGT 0 600 S
+29 6 6d12+800 10d10+5 3d8+8 17
+-6 -6 -6 0
+DE CD 0 0
+8 8 1 5000
+0 0 M 0
+#24108
+fritz innkeeper~
+Fritz the innkeeper of the Dunkeldorf inn~
+The innkeeper is here, taking orders and singing in a clear tenor.
+~
+Fritz the innkeeper is a short human, standing a mere 5' tall. He makes 
+up for it with a high energy level and animated conversation. Fritz 
+tells you a sad tale about his mad sister Gelda running off into the 
+forest one night naked and screaming, never to return.
+~
+human~
+BGT 0 700 S
+28 5 6d12+700 10d10+10 2d12+5 17
+-5 -5 -5 -2
+DE CD 0 0
+8 8 1 5000
+0 0 S 0
+#24109
+libby trader halfling~
+Libby the halfling trader~
+A halfling trader is here, with news and song from the shire.
+~
+Libby is a wee little guy, with a plump rounded figure, and a huge 
+satchel full of curiosities. He sings for you a song of life in the 
+shire, and of longbottom leaf.
+~
+hobbit~
+BG 0 300 S
+26 4 5d10+475 10d10+1 2d10+5 17
+-4 -2 -4 -5
+EFJ CD 0 0
+8 8 1 5000
+0 0 S 0
+#24110
+snake rock~
+The giant rock snake~
+A giant gray scaled snake is here, hissing at you!
+~
+The rock snake is some 20' long and 1' in diameter, enough muscle to 
+crush an ox. Its rounded head gives it away as a non poisonous 
+constrictor.
+~
+snake~
+GT JP 0 S
+32 9 10d10+1050 10d10+1 4d7+14 10
+-10 -10 -9 -2
+DH 0 L J
+8 8 2 100
+0 0 L 0
+#24111
+guardian temple white being~
+The guardian of the white temple~
+A being in white robes and glowing with a bright white 
+light stands here!
+~
+The guardian of the white temple appears human, as your eyes adjust to 
+the light emanating from him. He tells you the following tale:
+
+'When I was an able boy of 18, I worked for my dad in the mine. One day 
+I struck out in a new direction, and broke through to this green meadow 
+here. I followed the meadow to this temple and found an aged warrior 
+here garbed as I am now. He gave me this sickle and robe and froze me 
+to this spot. He told me that my task was to wait for the day when a 
+hero would step forth from the mine, and if that hero should prove 
+worthy, you may find release. He said the exit would be hidden from all 
+but the chosen ones. You have come through. Show me you are worthy 
+hero, and best me in combat. The forces of evil rise again, and the 
+land sings out for a champion. Can you not hear her singing through the 
+temple? Strike now and prove yourself worthy. If you win seek knowledge 
+in the runes of the sickle and save the cross for dire need. May god be 
+with you.'
+~
+human~
+BGT HN 1000 S
+33 10 10d10+1375 10d10+30 5d6+16 20
+-11 -10 -9 -9
+DEFH N G S
+8 8 1 4000
+0 0 M 0
+#24112
+witch woman~
+The witch~
+A woman in an ink black robe is here, speaking in a hissing tongue.
+~
+The witch looks harried and driven. Her eyes dance wildly, 
+and she cackles at you with an insane glee.
+~
+saurian~
+GQ D -700 S
+32 6 10d10+1050 10d10+300 3d9+10 19
+-8 -8 -7 -12
+K P C N
+8 8 2 2000
+0 0 M 0
+#24113
+warlock man~
+The warlock~
+A man in an ink black robe is here, chanting in a hissing tongue.
+~
+The warlock looks harried and driven. His eyes dart wildly, 
+and he cackles with an insane glee.
+~
+saurian~
+GR D -800 S
+33 6 10d10+1125 10d10+300 3d8+14 19
+-8 -7 -7 -11
+FK 0 0 F
+8 8 1 2250
+0 0 M 0
+#24114
+leader coven~
+The coven leader~
+A man in a blood red robe is here, glaring at you and howling for your blood!
+~
+The coven leader looks harried and driven. His eyes
+dart wildly, and he cackles with an insane glee.
+~
+saurian~
+GR DF -900 S
+34 8 10d10+1300 10d10+15 3d8+16 9
+-10 -10 -10 -10
+DEFI 0 G 0
+8 8 1 1500
+0 0 M 0
+#24115
+beast hell flaming~
+The flaming beast from hell~
+A minion of hell is here, sputtering flame from its foul rod!
+~
+The minion of hell is manlike, and flaming. It has horns and a horribly 
+disfigured face. Its skin is beet red, and his fingers and toes end in 
+terrible talons. It looks at you, and with a fiery laughter, it says: 
+'So, you are foolish enough to enter the circle. You may win this 
+battle, but you will not stop our plan!'
+~
+saurian~
+FGT DFH -1000 S
+35 10 10d10+1350 10d10+25 4d7+17 18
+-12 -11 -11 -12
+DEHIK H P N
+8 8 1 7500
+0 0 M 0
+#24116
+healer priest Mezambrius~
+Mezambrius, the holy priest of Dunkeldorf~
+The priest, Mezambrius, is hiding from the witches here
+~
+Mezambrius, the priest of Dunkeldorf escaped to this hideout when he 
+realized how serious a problem his city faced.  He has erected a temple 
+here in order to pray to his God that a band of heroes will arrive 
+someday and save Dunkeldorf from the evil witches and warlocks of
+the Coven.  As his gaze meets your face, a smile comes to his face and he 
+stretches out his hands in benediction, a sign that his services are open 
+to you.
+~ 
+human~
+BDGQ DEFH 1000 S
+35 8 10d10+1300 10d10+400 3d8+12 20
+-5 -5 -5 -5
+0 CD 0 0
+8 8 1 1000
+0 0 M 0
+#0
+
+
+#OBJECTS
+#24101
+sickle golden~
+the golden sickle~
+A golden sickle with wedge shaped runes lies here.~
+gold~
+18 I AO
+0 0 0 0 0 
+25 1 100 P
+E
+runes rune~
+You look at the runes. A warm glow fills you and you hear an inner 
+voice speaking to you. It says ' Go s, 2w, 2s, and 4e from the white 
+temple. Use me on the eastern brush and stop the coven!'
+~
+#24102
+shovel stout sturdy~
+a stout sturdy shovel~
+A stout sturdy shovel lies here.~
+iron~
+18 0 AO
+0 0 0 0 0 
+25 5 10 P
+#24103
+creek swift swiftly flowing~
+a swiftly flowing creek~
+A swiftly flowing creek is here, running with cool clean water.~
+stone~
+25 0 0
+999 999 0 0 0 
+0 0 0 P
+#24104
+pilsner beer~
+a nice cold, wimpy pilsner~
+A nice cold glass of yellow beer is here.~
+glass~
+17 0 AO
+1 1 1 0 0
+1 2 5 P
+#24105
+dunkel beer~
+a nice cold manly dunkel~
+A nice cold glass of brown beer is here.~
+glass~
+17 0 AO
+1 1 1 0 0
+1 4 10 P
+#24106
+grub plate local~
+a plate of the local grub~
+A hot steaming plate of the local grub is here! Yummy!~
+silver~
+19 0 AO
+24 0 0 0 0
+1 4 3 P
+#24107
+key room~
+a room key~
+A room key is here, and it has a picture of a full mug on it.~
+adamantite~
+18 0 AO
+0 0 0 0 0 
+1 15 25 P
+#24108
+amulet flaming~
+the flaming amulet~
+A flaming amulet is here, searing the ground.~
+bronze~
+18 ACE AC
+0 0 0 0 0 
+30 15 500 P
+#24109
+root mandrake~
+a mandrake root~
+A mandrake root is here.~
+wood~
+26 0 AO
+28 548 61 0 0 
+28 15 300 P
+#24110
+axe woodsmans~
+a woodsman's axe~
+A large axe stained with tree sap is here.~
+wood~
+5 0 AN
+5 5 6 25 DF
+27 10 100 P
+#24111
+cloak woodsmans~
+a woodsman's cloak~
+A forest colored cloak is here.~
+cloth~
+9 0 AK
+7 7 7 3 0 
+29 8 100 P
+A
+17 -10
+#24112
+cross white marble~
+a white marble cross~
+A white marble cross is here.~
+stone~
+4 AIKL AO
+35 3 3 36 0
+31 12 15000 P
+#24113
+robe ink black~
+an ink black robe~
+An ink black robe is here, beckoning to you. Put it on! Ha Ha Ha ....~
+leather~
+9 CEHJM AD
+7 8 7 5 0 
+30 9 300 P
+A
+4 -2
+A
+12 30
+#24114
+band black~
+a black rune band~
+A band of black metal engraved with runes is here.~
+steel~
+9 CEHJM AM
+7 8 8 5 0
+32 14 300 P
+A
+13 -20
+A
+24 -2
+E
+rune runes~
+As you look at the runes, you feel an incredible heat surge toward you, 
+trying to consume you! Your sight is filled with a fire and flames of 
+souls in terrible torment. Gradually the flames diminish, leaving only a 
+green after-image of a pentagram.
+~
+#24115
+rod black~
+a black rune covered rod~
+A black rune covered rod vibrates in the dark~
+bronze~
+3 CEHJM AO
+40 8 8 22 0 
+34 7 700 P
+E
+rune runes~
+As you look at the runes, you feel an incredible heat surge toward you, 
+trying to consume you! Your sight is filled with a fire and flames of 
+souls in terrible torment. Gradually the flames diminish, leaving only a 
+green after-image of a pentagram.
+~
+#24116
+ring fire~
+a ring of fire~
+A ring of fire is here, smoldering on the ground.~
+iron~
+9 AU AB
+10 9 10 8 0
+33 10 300 P
+A
+23 -2
+A
+24 -2
+A
+12 10
+#24117
+pick~
+a pick~
+A pick is here.~
+steel~
+5 0 ANP
+8 5 7 27 F 
+30 11 75 P
+#24118
+horseshoe shoe~
+a horseshoe~
+A horseshoe is here, lying on the ground. Maybe today is your 
+lucky day?~
+iron~
+13 0 AO
+0 0 0 0 0
+1 2 50 P
+#24119
+rope~
+fifty feet of rope~
+A huge coil of rope is here.~
+leather~
+13 0 AO
+0 0 0 0 0
+10 5 25 P
+#24120
+potion~
+a clear potion~
+A glass jar of a clear fluid is here.~
+glass~
+10 0 AO
+30 29 0 0 0 
+30 3 300 P
+#24121
+pile~
+a pile hidden in dust~
+~
+stone~
+15 C 0
+500 0 0 0 0
+0 2000 0 P
+#24122
+key bronze~
+a bronze key~
+a bronze key~
+bronze~
+18 G AO
+0 0 0 0 0
+25 1 10 P
+#24123
+chest bronze~
+a bronze chest~
+A bronze chest vibrates at the altar~
+bronze~
+15 ABD 0
+500 13 24122 0 0
+0 2000 0 P
+#24124
+flail rusty~
+a rusty flail~
+The flail of Dunkeldorf~
+adamantite~
+5 BK AN
+6 4 9 27 B
+30 12 800 P
+A
+1 -1
+A
+18 -2
+A
+19 6
+#0
+
+
+#ROOMS
+#24101
+Before the Forest Murkmire~
+Ahead of you lies the dark forest Murkmire. You have heard of it 
+before, back when you were but a small child. Your grandmother used to 
+tell you tales of the Murkmire to get you to behave. 'If you don't be 
+quiet, a ravening beast will smell you out and carry you off to the 
+Murkmire!' she would warn you. Now after many years of battle, you have 
+hardened and honed your skills to admirable levels. Are you ready to 
+face your own inner demons and enter? As you gaze at the road leading 
+into the dark woods, you notice a large tower behind you and a small plaque 
+nailed to a tree. 
+~
+241 C 3
+D0
+The Murkmire~
+~
+0 -1 24102
+D2
+Your escape back to freedom ... WIMP!~
+~
+0 -1 6003
+E
+plaque small~
+Coven, 1994 by Lok, levels 25-35
+There is a mystery here with clues scattered throughout mobs and 
+objects. Play with brief OFF and look at just about everything.
+~
+S
+#24102
+On a Road in the Forest Murkmire~
+You are on a broad road in the forest Murkmire. Above you brooding 
+walnuts, oaks, and hickory trees spread their leaves in a high arbor, 
+blocking out all light. It is humid here, so much so that the mist 
+envelops you in a suffocating grip. Far above you birds cackle and 
+chatter to one and another, marking your presence for all predators.
+~
+241 A 3
+D2
+The Murkmire~
+~
+0 -1 24101
+D3
+The Murkmire~
+~
+0 -1 24103
+E
+road broad~
+The road has been heavily traveled, mainly by wagons.
+~
+S
+#24103
+On a Road in the Forest Murkmire~
+You are on a broad road in the forest Murkmire. Above you brooding 
+walnuts, oaks, and hickory trees spread their leaves in a high arbor, 
+blocking out all light. Sweat streams down your face. The road is muddy 
+here, and your boots stick with a sucking pop with each stride.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24104
+D1
+The Murkmire~
+~
+0 -1 24102
+E
+road broad~
+The road has been heavily traveled, mainly by wagons.
+~
+S
+#24104
+At an Intersection in the Forest Murkmire~
+You have arrived at an intersection in the forest Murkmire. Here the 
+forest has been ruthlessly beaten back by loggers and you can once 
+again see the sky. There is a small outpost here, made of logs. There 
+is a sign staked into the road, pointing to the western road. The road 
+re-enters the dark forest to the north and south.
+~
+241 0 3
+D0
+The Murkmire~
+~
+0 -1 24105
+D2
+The Murkmire~
+~
+0 -1 24103
+D3
+The western road~
+~
+0 -1 24119
+E
+road~
+The road has been heavily traveled, mainly by wagons. Most traffic 
+leads west.
+~
+E
+sign~
+******************************
+* Dunkeldorf, Population 25  *
+******************************
+~
+S
+#24105
+On a Road in the Forest Murkmire~
+You are on a broad road in the forest Murkmire. Here the road ends at 
+an eastern and western going logging trail. There is a huge rack of 
+de-limbed trees here. There is a large brush pile here on the side 
+created by years of dumping. A broad road heads off to the south.
+~
+241 A 3
+D1
+The Murkmire~
+~
+0 -1 24106
+D2
+The Murkmire~
+~
+0 -1 24104
+D3
+The Murkmire~
+~
+0 -1 24118
+E
+road broad~
+The road has been heavily traveled, mainly by wagons. Most traffic 
+heads south.
+~
+E
+trails trail logging~
+You look down the logging trails. There are deep gouges where logs have 
+been dragged through the dirt and mud by horse teams. There is some 
+evidence of foot traffic, which mostly goes west.
+~
+E
+brush pile~
+You look closely at the brush pile and notice a stirring in it. 
+Squinting, you make out the face and forepaws of a raccoon.
+~
+S
+#24106
+On a Logging Trail in the Forest Murkmire~
+You are mired in mud on an old unused logging trail. You take some 
+comfort in the fact that others before you were also so mired, as 
+evidenced by the deep tracks in the mud. Far above you in the trees a 
+black raven squawks at you, almost as if it were laughing at you. You 
+throw a rock at the bird, and it flies off.
+~
+241 A 3
+D2
+The Murkmire~
+~
+0 -1 24107
+D3
+The Murkmire~
+~
+0 -1 24105
+E
+bird raven fly flies~
+The bird has flown off to the northeast, at least you think its 
+northeast.
+~
+S
+#24107
+On a Logging Trail in the Forest Murkmire~
+You stand on hard, dry ground in the looming darkness of the Murkmire. 
+Around you are old rotted stumps and an impenetrable wall of 
+underbrush. You feel hemmed in and pressed by the towering, looming 
+hardwoods. The smell of rotting flesh leads you towards the carcass of 
+a dead animal wedged in the crook of a tree. Again, tales of the 
+ravening beast well up in your mind.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24106
+D1
+The Murkmire~
+~
+0 -1 24108
+E
+corpse animal dead carcass~
+As you get closer to the carcass you recoil in horror as you recognize 
+it as human. It has many terrible wounds.
+~
+E
+wounds wound human~
+The human is a male in his late 20's. He is naked, and bears teeth 
+marks on his neck. His chest has been cut open, and his heart removed. 
+Most of his right haunch has been consumed by some sort of animal.
+~
+S
+#24108
+At an Ancient Clearing in Forest Murkmire~
+You have wandered into an ancient clearing in the forest. Here, the 
+birds have ceased their chatter, and here, the heat lies again in a 
+heavy humid embrace. The forest canopy has grown over the clearing, 
+blocking out the sky above. The underbrush surrounds you, closing off 
+all avenues of escape. There is a smell of death in the air, and you 
+feel eyes on the back of your neck.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24111
+D1
+The Murkmire~
+~
+0 -1 24109
+D3
+The Murkmire~
+~
+0 -1 24107
+E
+eyes eye~
+You quickly turn around, staring hard into the gloom, but there is 
+nothing there.
+~
+S
+#24109
+At an Ancient Clearing in Forest Murkmire~
+You have wandered into an ancient clearing in the forest. Here, the 
+birds have ceased their chatter, and here, the heat lies again in a 
+heavy humid embrace. The forest canopy has grown over the clearing, 
+blocking out the sky above. The underbrush surrounds you, closing off 
+all avenues of escape. There is a smell of death in the air, and you 
+feel eyes on the back of your neck.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24110
+D3
+The Murkmire~
+~
+0 -1 24108
+E
+eyes eye~
+You quickly turn around, staring hard into the gloom, but there is 
+nothing there.
+~
+S
+#24110
+At an Ancient Clearing in Forest Murkmire~
+You have wandered into an ancient clearing in the forest. Here, the 
+birds have ceased their chatter, and here, the heat lies again in a 
+heavy humid embrace. The forest canopy has grown over the clearing, 
+blocking out the sky above. The underbrush surrounds you, closing off 
+all avenues of escape. There is a smell of death in the air, and you 
+feel eyes on the back of your neck.
+~
+241 A 3
+D2
+The Murkmire~
+~
+0 -1 24109
+D3
+The Murkmire~
+~
+0 -1 24111
+E
+eyes eye~
+You quickly turn around, staring hard into the gloom, and see a dark 
+animal run off into the forest!
+~
+S
+#24111
+At an Ancient Clearing in Forest Murkmire~
+You have wandered into an ancient clearing in the forest. Here, the 
+birds have ceased their chatter, and here, the heat lies again in a 
+heavy humid embrace. The forest canopy has grown over the clearing, 
+blocking out the sky above. The underbrush surrounds you, closing off 
+all avenues of escape. There is a smell of death in the air, and you 
+feel eyes on the back of your neck.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24112
+D1
+The Murkmire~
+~
+0 -1 24110
+D2
+The Murkmire~
+~
+0 -1 24108
+E
+eyes eye~
+You quickly turn around, staring hard into the gloom, but there is 
+nothing there.
+~
+S
+#24112
+On a Logging Trail in the Forest Murkmire~
+You are mired in mud on an old unused logging trail. You take some 
+comfort in the fact that others before you were also so mired, as 
+evidenced by the deep tracks in the mud. The towering trees have 
+swallowed the sky, and a thick underbrush presses you in, confining you 
+to the trail. Above you, high in a tree, a black raven cackles at you 
+in the language of its kind. You throw a rock at it and miss. The raven 
+continues to laugh at you.
+~
+241 A 3
+D1
+The Murkmire~
+underbrush brush~
+2 24101 24143
+D2
+The Murkmire~
+~
+0 -1 24111
+D3
+The Murkmire~
+~
+0 -1 24113
+E
+bird raven black~
+You scowl at the raven, but it still sits there laughing at you.
+~
+S
+#24113
+At an Abandoned Logging Operation in Forest Murkmire~
+Here, amid the towering trees of the Murkmire, man has carved a small 
+space of his own. Once again you can see the clear open sky, and your 
+foul mood lightens only to immediately plunge downward once again at 
+the sight of many bodies lying about the clearing in twisted broken 
+heaps.
+~
+241 0 3
+D0
+The Murkmire~
+~
+0 -1 24114
+D1
+The Murkmire~
+~
+0 -1 24112
+D3
+The Murkmire~
+~
+0 -1 24116
+E
+body bodies~
+You examine the dead lumberjacks here. There are 2 of them, and they 
+look as if they have been severely burned. Their chests have been cut 
+open, and their hearts have been removed.
+~
+S
+#24114
+At an Abandoned Logging Operation in Forest Murkmire~
+Here, amid the towering trees of the Murkmire, man has carved a small 
+space of his own. Once again you can see the clear open sky, and your 
+foul mood lightens only to immediately plunge downward once again at 
+the sight of many bodies lying about the clearing in twisted broken 
+heaps.
+~
+241 0 3
+D2
+The Murkmire~
+~
+0 -1 24113
+D3
+The Murkmire~
+~
+0 -1 24115
+E
+body bodies~
+You examine the dead lumberjacks here. There are 4 of them, and they 
+look as if they have been severely burned. Their chests have been cut 
+open, and their hearts have been removed. On one you find a strange 
+symbol carved into his sundered chest.
+~
+E
+symbol strange~
+The symbol is etched into the chest of the body, and is a 5 pointed 
+star inside a circle.
+~
+S
+#24115
+At an Abandoned Logging Operation in Forest Murkmire~
+Here, amid the towering trees of the Murkmire, man has carved a small 
+space of his own. Once again you can see the clear open sky, and your 
+foul mood lightens only to immediately plunge downward once again at 
+the sight of many bodies lying about the clearing in twisted broken 
+heaps.
+~
+241 0 3
+D1
+The Murkmire~
+~
+0 -1 24114
+D2
+The Murkmire~
+~
+0 -1 24116
+E
+body bodies~
+You examine the dead lumberjacks here. There are 3 of them, and they 
+look as if they have been severely burned. Their chests have been cut 
+open, and their hearts have been removed.
+~
+S
+#24116
+At an Abandoned Logging Operation in Forest Murkmire~
+Here, amid the towering trees of the Murkmire, man has carved a small 
+space of his own. Once again you can see the clear open sky, and your 
+foul mood lightens only to immediately plunge downward once again at 
+the sight of many bodies lying about the clearing in twisted broken 
+heaps.
+~
+241 0 3
+D0
+The Murkmire~
+~
+0 -1 24115
+D1
+The Murkmire~
+~
+0 -1 24113
+D3
+The Murkmire~
+~
+0 -1 24117
+E
+body bodies~
+You examine the dead lumberjacks here. There are 2 of them, and they 
+look as if they have been severely burned. Their chests have been cut 
+open, and their hearts have been removed.
+~
+S
+#24117
+On a Logging Trail in the Forest Murkmire~
+You are on a high, dry, logging trail through the forest Murkmire. To 
+the west of you is an old cave blocked by a pile of rubble. The 
+looming hardwood trees have blocked off all but the sky just above the 
+cave. Underbrush, so thick you cant see through it, presses from all 
+sides.
+~
+241 0 3
+D1
+The Murkmire~
+~
+0 -1 24116
+D2
+The Murkmire~
+~
+0 -1 24118
+D3
+The Cave~
+rubble stones pile~
+2 24102 24137
+E
+rubble pile cave stones~
+You look at the pile of rubble. You think with a good shovel and time, 
+you could clear the opening.
+~
+E
+trail~
+The trail is well traveled here, with most of the traffic being that of 
+a cart variety.
+~
+S
+#24118
+On a Logging Trail in the Forest Murkmire~
+You are on a high, dry, logging trail through the forest Murkmire. The 
+towering hardwoods blot out the sky. Underbrush, so thick you cant see 
+through it, presses from all sides. There are piles of logs on either 
+side of the trail, shorn of all limbs. From deep within the darkness, 
+you hear a strange inhuman cry.
+~
+241 A 3
+D0
+The Murkmire~
+~
+0 -1 24117
+D1
+The Murkmire~
+~
+0 -1 24105
+E
+logs piles~
+The logs are still green, oozing sap from the saw cuts.
+~
+E
+trail~
+The trail is well traveled here, with most of the traffic being that of 
+a cart variety.
+~
+S
+#24119
+Main Street, Dunkeldorf~
+You stroll down main street in the logging town of Dunkeldorf. All 
+about you people go about their errands with a grim determination. Log 
+houses line the street. There are mule teams hauling logs, down the 
+street where you can hear the sound of sawing as well as the rhythmic 
+clang, clang, clang of the village smith. People stare long and hard at you.
+~
+241 0 1
+D0
+A log house~
+door~
+1 -1 24120
+D1
+The Murkmire~
+~
+0 -1 24104
+D2
+A log house~
+door~
+1 -1 24121
+D3
+Main Street~
+~
+0 -1 24122
+E
+houses house log~
+The log houses are simple one story houses made from a notch and stack 
+technique and chinked with some kind of mud compound.
+~
+S
+#24120
+Inside a Log House~
+You stand inside a log house. It is a simple one room house with a dirt 
+floor and mud thatch chinking. There are no windows. The house is 
+heated by a stone fireplace. There are a few cots and a wash basin in 
+addition to the various personal possessions of the occupants.
+~
+241 D 0
+D2
+Main Street~
+door~
+1 -1 24119
+E
+possessions personal possession~
+You snoop through the possessions of the occupants. You see a nice 
+display of colored clay pots, a doll, a chest in which clothes are 
+kept, and yes, you find a bedpan under one of the cots.
+~
+S
+#24121
+Inside a Log House~
+You stand inside a log house. It is a simple one room house with a dirt 
+floor and mud thatch chinking. There are no windows. The house is 
+heated by a stone fireplace. There are a few cots and a wash basin in 
+addition to the various personal possessions of the occupants. A little 
+girl is crying here.
+~
+241 D 0
+D0
+Main Street~
+door~
+1 -1 24119
+E
+possessions personal possession~
+You snoop through the possessions of the occupants. You see a nice 
+display of colored clay pots, a doll, a chest in which clothes are 
+kept, and yes, you find a bedpan under one of the cots.
+~
+E
+girl little crying~
+You look at the little girl, who immediately bursts into a renewed bout 
+of tears. You comfort her, and ask her why she is crying. She relates a 
+sad tale of how her daddy is gone forever.
+~
+S
+#24122
+Main Street, Dunkeldorf~
+You stroll down main street in the logging town of Dunkeldorf. All
+about you people go about their errands with a grim determination. Log
+houses line the street. There are mule teams hauling logs, down the
+street where you can hear the sound of sawing as well as the rhythmic
+clang, clang, clang of the village smith. People stare long and hard at you.
+~
+241 0 1
+D0
+A log house~
+door~
+1 -1 24123
+D1
+Main Street~
+~
+0 -1 24119
+D2
+A log house~
+door~
+1 -1 24124
+D3
+Main Street~
+~
+0 -1 24125
+E
+houses house log~
+The log houses are simple one story houses made from a notch and stack 
+technique and chinked with some kind of mud compound.
+~
+S
+#24123
+Inside a Log House~
+You stand inside a log house. It is a simple one room house with a dirt 
+floor and mud thatch chinking. There are no windows. The house is 
+heated by a stone fireplace. There are a few cots and a wash basin in 
+addition to the various personal possessions of the occupants. A woman 
+screams in terror at your entrance!
+~
+241 D 0
+D2
+Main Street~
+door~
+1 -1 24122
+E
+possessions personal possession~
+You snoop through the possessions of the occupants. You see a nice 
+display of colored clay pots, a doll, a chest in which clothes are 
+kept, and yes, you find a bedpan under one of the cots.
+~
+E
+woman screaming~
+You manage to calm the woman with a combination of physical restraint 
+and soothing tones. She tells you of her fear of the long absence of 
+her husband.
+~
+S
+#24124
+Inside a Log House~
+You stand inside a log house. It is a simple one room house with a dirt 
+floor and mud thatch chinking. There are no windows. The house is 
+heated by a stone fireplace. There are a few cots and a wash basin in 
+addition to the various personal possessions of the occupants. A little 
+girl is crying here.
+~
+241 D 0
+D0
+Main Street~
+door~
+1 -1 24122
+E
+possessions personal possession~
+You snoop through the possessions of the occupants. You see a nice 
+display of colored clay pots, a doll, a chest in which clothes are 
+kept, and yes, you find a bedpan under one of the cots.
+~
+E
+girl little crying~
+You look at the little girl, who immediately bursts into a renewed bout 
+of tears. You comfort her, and ask her why she is crying. She relates a 
+sad tale of how her daddy is gone forever.
+~
+S
+#24125
+Main Street, Dunkeldorf~
+You stroll down main street in the logging town of Dunkeldorf. All
+about you people go about their errands with a grim determination. Log
+houses line the street. There are mule teams hauling logs, down the
+street where you can hear the sound of sawing as well as the rhythmic
+clang, clang, clang of the village smith. People stare long and hard at you.
+North of you is a two story building with a sign picturing a full mug.
+To the west of you is a huge sawmill.
+~
+241 0 1
+D0
+The two story building~
+door~
+1 -1 24127
+D1
+Main Street~
+~
+0 -1 24122
+D2
+Main Street~
+~
+0 -1 24133
+D3
+The saw mill~
+~
+0 -1 24126
+E
+houses house log~
+The log houses are simple one story houses made from a notch and stack 
+technique and chinked with some kind of mud compound.
+~
+E
+sign mug~
+*****    *      *    *      *
+  *      * *    *    * *    *             THE
+  *      *  *   *    *  *   *           DUNKELDORF
+  *      *   *  *    *   *  *                INN
+  *      *    * *    *    * *                      (VACANCY)
+******   *      *    *      * 
+~
+S
+#24126
+The Saw Mill~
+You stand on the hectic floor of a saw mill. Flowing water from a creek 
+turns a huge paddle wheel, which drives through a series of belts a 
+shaft upon which a 3' diameter saw blade is mounted. The blade spins at 
+a high rate of speed, slicing through the logs fed through it by the mill 
+workers. The noise is deafening, and the mill workers take no notice of you.
+You look over and see a variety of fine work being done, mainly furniture
+items and one craftsman working on a sign.  Upon closer examination of 
+the room, you notice a small crack of light peeking up from the floor.
+~
+241 D 0
+D1
+Main Street~
+~
+0 -1 24125
+D5
+A crack of light~
+crack~
+3 24102 24160
+E
+sign~
+******************************
+* Dunkeldorf, Population 15  *
+******************************
+~
+E
+crack~
+Although the floor is very dusty, you see a small crack of light shining 
+through the floor.  After examing the crack, you conclude that it may be 
+soft enough to open up a bit if you had some type of instrument to pry it 
+with, something sharp would probably be good. 
+~ 
+S
+#24127
+In the Common Room of the Dunkeldorf Inn~
+You stand in the main common room of the Dunkeldorf Inn. There are five 
+tables and benches here, and a main bay window overlooking Main Street. 
+The floor is being washed by a young lad with a mop, who is patiently 
+working around the paying patrons of the inn. A large sign is nailed to 
+the wall, and a set of stairs goes up.
+~
+241 D 0
+D2
+Main Street~
+~
+0 -1 24125
+D4
+Up the stairs~
+~
+0 -1 24128
+E
+sign large~
+Beer, pilsner   5 gold
+Beer, dunkel   10 gold
+Grub            3 gold
+Room           25 gold
+~
+S
+#24128
+At the Top of the Stairs~
+You stand at the top of the stairs inside a log building. There are 4 
+doors in the cardinal directions, all made of wood with iron latches. A 
+flickering lamp lights the landing.
+~
+241 D 0
+D0
+A room~
+door~
+2 24107 24131
+D1
+A room~
+door~
+2 24107 24132
+D2
+A room~
+door~
+2 24107 24129
+D3
+A room~
+door~
+2 24107 24130
+D5
+Down the stairs~
+~
+0 -1 24127
+E
+lamp flickering~
+It is just an ordinary oil lamp.
+~
+S
+#24129
+A Small Room~
+You are inside a small room in the Dunkeldorf Inn. The interior is 
+sparse and clean. There is a single bed, a washbasin, a bedpan, and an 
+armoire. A simple glass window overlooks the town.
+~
+241 D 0
+D0
+The landing~
+door~
+1 24107 24128
+E
+bed~
+The bed looks like it has clean sheets, and there is no sign of 
+bedbugs.
+~
+E
+bedpan washbasin~
+You have seen these many times before.
+~
+E
+armoire~
+You open the armoire. It is empty except for an extra blanket.
+~
+S
+#24130
+A Small Room~
+You are inside a small room in the Dunkeldorf Inn. The interior is 
+sparse and clean. There is a single bed, a washbasin, a bedpan, and an 
+armoire. A simple glass window overlooks the town.
+~
+241 D 0
+D1
+The landing~
+door~
+1 24107 24128
+E
+bed~
+The bed looks like it has clean sheets, and there is no sign of 
+bedbugs.
+~
+E
+bedpan washbasin~
+You have seen these many times before.
+~
+E
+armoire~
+You open the armoire. It is empty except for an extra blanket.
+~
+S
+#24131
+A Small Room~
+You are inside a small room in the Dunkeldorf Inn. The interior is 
+sparse and clean. There is a single bed, a washbasin, a bedpan, and an 
+armoire. A simple glass window overlooks the town.
+~
+241 D 0
+D2
+The landing~
+door~
+1 24107 24128
+E
+bed~
+The bed looks like it has clean sheets, and there is no sign of 
+bedbugs.
+~
+E
+bedpan washbasin~
+You have seen these many times before.
+~
+E
+armoire~
+You open the armoire. It is empty except for an extra blanket.
+~
+S
+#24132
+A Small Room~
+You are inside a small room in the Dunkeldorf Inn. The interior is 
+sparse and clean. There is a single bed, a washbasin, a bedpan, and an 
+armoire. A simple glass window overlooks the town.
+~
+241 D 0
+D3
+The landing~
+door~
+1 24107 24128
+E
+bed~
+The bed looks like it has clean sheets, and there is no sign of 
+bedbugs.
+~
+E
+bedpan washbasin~
+You have seen these many times before.
+~
+E
+armoire~
+You open the armoire. It is empty except for an extra blanket.
+~
+S
+#24133
+Main Street, Dunkeldorf~
+You stroll down main street in the logging town of Dunkeldorf. All 
+about you people go about their errands with a grim determination. 
+There are mule teams hauling logs, down the street. To the west of you 
+is a general store, to the east a stables, and to the south, the 
+village smith.
+~
+241 0 1
+D0
+Main Street~
+~
+0 -1 24125
+D1
+The stables~
+~
+0 -1 24135
+D2
+The village smith~
+~
+0 -1 24136
+D3
+The store~
+~
+0 -1 24134
+S
+#24134
+The General Store of Dunkeldorf~
+You are inside the pitiful general store of Dunkeldorf. The single rack 
+of shelves is empty of most goods, and what there is way overpriced. 
+You probably own more than this store does.
+~
+241 D 0
+D1
+Main Street~
+~
+0 -1 24133
+S
+#24135
+The Stables of Dunkeldorf~
+The stables of Dunkeldorf are very Spartan, consisting of only six 
+stalls and one stable boy. The proprietor is busy brushing a mule while 
+his hand is removing the tack and harness from another team. The floor 
+is very muddy as are the mules.
+~
+241 D 0
+D3
+Main Street~
+~
+0 -1 24133
+E
+mud mules floor muddy~
+The mud looks exactly like the mud on your boots.
+~
+S
+#24136
+The Village Smithy~
+You are in the way at the village smithy. The towns only smith is busy 
+working a single anvil and the bellows. About him are a variety of 
+ordinary items in various states of repair. There is a sign here.
+~
+241 D 0
+D0
+Main Street~
+~
+0 -1 24133
+E
+sign~
+The sign says type list to see what I have today.
+~
+S
+#24137
+Inside the Dark Cave~
+You are inside a dark cave which smells of rot. The little airflow here 
+comes from a shaft that goes up and out. White cylindrical rocks lie on 
+the floor in heaps. The walls of the cave appear regular. Rubble is 
+strewn about the cave mouth, which appears to be unstable.
+~
+241 AD 0
+D0
+The dark cave~
+~
+0 -1 24138
+D1
+The cave mouth~
+rubble~
+2 24102 24117
+E
+shaft~
+The air shaft is too small to climb through for you.
+~
+E
+rocks cylindrical~
+You realize the rocks, upon closer examination, are really human bones.
+~
+E
+walls regular wall~
+The walls have red colored veins of iron ore in them, and appear to 
+have been dug by man.
+~
+E
+rubble~
+It looks like if you had a good shovel, you could move it.
+~
+S
+#24138
+Inside the Dark Cave~
+You are inside a dark cave which smells of rot. White cylindrical rocks 
+lie on the floor in heaps. The walls of the cave appear regular.
+~
+241 AD 0
+D0
+The dark cave~
+~
+0 -1 24139
+D2
+The dark cave~
+~
+1 -1 24137
+E
+rocks cylindrical~
+You realize the rocks, upon closer examination, are really human bones.
+~
+E
+walls regular wall~
+The walls have red colored veins of iron ore in them, and appear to 
+have been dug by man.
+~
+S
+#24139
+Inside the Dark Cave~
+You are inside a dark cave which smells of rot. White cylindrical rocks 
+lie on the floor in heaps. The walls of the cave appear regular.
+~
+241 AD 0
+D1
+The dark cave~
+~
+0 -1 24140
+D2
+The dark cave~
+~
+1 -1 24138
+E
+rocks cylindrical~
+You realize the rocks, upon closer examination, are really human bones.
+~
+E
+walls regular wall~
+The walls have red colored veins of iron ore in them, and appear to 
+have been dug by man.
+~
+S
+#24140
+Inside the Dark Cave~
+You are inside a dark cave which smells of rot. White cylindrical rocks 
+lie on the floor in heaps. The walls of the cave appear regular. There 
+are markings on the wall here.
+~
+241 AD 0
+D1
+The dark cave~
+~
+0 -1 24141
+D3
+The dark cave~
+~
+1 -1 24139
+E
+rocks cylindrical~
+You realize the rocks, upon closer examination, are really human bones.
+~
+E
+walls regular wall~
+The walls have red colored veins of iron ore in them, and appear to 
+have been dug by man.
+~
+E
+markings marking~
+HE WHO IS OF PURE HEART AND OF STRONG BLADE
+SHALL BEST THE GUARDIAN AND REMOVE THE SCOURGE
+~
+S
+#24141
+Inside the Dark Cave~
+You are inside a cave. Light streams in through a tight opening to the 
+north. Beyond you can see a bright green meadow. Your spirits lift at 
+the thought of getting out of the cave.
+~
+241 D 0
+D0
+The green meadow~
+~
+0 -1 24142
+D3
+The dark cave~
+~
+1 -1 24140
+S
+#24142
+The Chapel in the Meadow~
+You have squeezed from the narrow southern cave into a bright green 
+meadow amid a beautiful open, young forest. You walk in the grass 
+towards a white marble chapel, made of seven pillars and open to the 
+sky. As you enter the chapel, a feeling of peace comes over you. You 
+feel the worlds' wind whistle through the columns, making a strange 
+keening sound.
+~
+241 N 2
+D2
+The dark cave~
+~
+0 -1 24141
+S
+#24143
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The outer circle~
+~
+0 -1 24144
+D1
+The inner circle~
+~
+0 -1 24150
+D2
+The outer circle~
+~
+0 -1 24159
+D3
+The underbrush~
+brush underbrush~
+2 24101 24112
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24144
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The outer circle~
+~
+0 -1 24156
+D1
+The inner circle~
+~
+0 -1 24147
+D2
+The outer circle~
+~
+0 -1 24143
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24145
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D1
+The outer circle~
+~
+0 -1 24146
+D2
+The inner circle~
+~
+0 -1 24147
+D3
+The outer circle~
+~
+0 -1 24156
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24146
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D1
+The outer circle~
+~
+0 -1 24157
+D2
+The inner circle~
+~
+0 -1 24148
+D3
+The outer circle~
+~
+0 -1 24145
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24147
+The Inner Circle of Coven~
+You stand in the inner circle of coven, amid the trees. The ground and 
+trees here are scorched from the raging fire in the pit below you at 
+the center of the circle. Across the way you see a warlock toss something
+fist-sized into the pit causing the fire to leap higher greedily 
+consuming the item. There is a heavy aura of evil here which threatens 
+and beckons to you.
+~
+241 A 3
+D0
+The outer circle~
+~
+0 -1 24145
+D1
+The inner circle~
+~
+0 -1 24148
+D2
+The inner circle~
+~
+0 -1 24150
+D3
+The outer circle~
+~
+0 -1 24144
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+fist fist-sized something toss~
+You carefully observe a second toss. The object appears to be a piece 
+of meat of some kind.
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24148
+The Inner Circle of Coven~
+You stand in the inner circle of coven, amid the trees. The ground and
+trees here are scorched from the raging fire in the pit below you at
+the center of the circle. Across the way you see a warlock toss something
+fist-sized into the pit causing the fire to leap higher greedily
+consuming the item. There is a heavy aura of evil here which threatens
+and beckons to you.
+~
+241 A 3
+D0
+The outer circle~
+~
+0 -1 24146
+D1
+The outer circle~
+~
+0 -1 24149
+D2
+The inner circle~
+~
+0 -1 24151
+D3
+The inner circle~
+~
+0 -1 24147
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+fist fist-sized something toss~
+You carefully observe a second toss. The object appears to be a piece 
+of meat of some kind.
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24149
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The outer circle~
+~
+0 -1 24157
+D2
+The outer circle~
+~
+0 -1 24152
+D3
+The inner circle~
+~
+0 -1 24148
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24150
+The Inner Circle of Coven~
+You stand in the inner circle of coven, amid the trees. The ground and
+trees here are scorched from the raging fire in the pit below you at
+the center of the circle. Across the way you see a warlock toss something
+fist-sized into the pit causing the fire to leap higher greedily
+consuming the item. There is a heavy aura of evil here which threatens
+and beckons to you.
+~
+241 AC 3
+D0
+The inner circle~
+~
+0 -1 24147
+D1
+The inner circle~
+~
+0 -1 24151
+D2
+The outer circle~
+~
+0 -1 24153
+D3
+The outer circle~
+~
+0 -1 24143
+D5
+Into the fire~
+~
+0 -1 24155
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+fist fist-sized something toss~
+You carefully observe a second toss. The object appears to be a piece 
+of meat of some kind.
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24151
+The Inner Circle of Coven~
+You stand in the inner circle of coven, amid the trees. The ground and
+trees here are scorched from the raging fire in the pit below you at
+the center of the circle. Across the way you see a warlock toss something
+fist-sized into the pit causing the fire to leap higher greedily
+consuming the item. There is a heavy aura of evil here which threatens
+and beckons to you.
+~
+241 A 3
+D0
+The inner circle~
+~
+0 -1 24148
+D1
+The outer circle~
+~
+0 -1 24152
+D2
+The outer circle~
+~
+0 -1 24154
+D3
+The inner circle~
+~
+0 -1 24150
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+fist fist-sized something toss~
+You carefully observe a second toss. The object appears to be a piece 
+of meat of some kind.
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24152
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The outer circle~
+~
+0 -1 24149
+D2
+The outer circle~
+~
+0 -1 24158
+D3
+The inner circle~
+~
+0 -1 24151
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24153
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The inner circle~
+~
+0 -1 24150
+D1
+The outer circle~
+~
+0 -1 24154
+D3
+The outer circle~
+~
+0 -1 24159
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24154
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 2
+D0
+The inner circle~
+~
+0 -1 24151
+D1
+The outer circle~
+~
+0 -1 24158
+D3
+The outer circle~
+~
+0 -1 24153
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24155
+Into the Fire~
+You have plunged into the raging flames. You feel your equipment and 
+skin start to sear, but just as you have given up hope, a warm feeling 
+fills your body and mind and eases your pain. In your head you hear 
+'good luck my champion, may you fare well in your bout with the 
+creature from hell. Be sure to recover the amulet, as it will unlock 
+the flame barrier and allow you to return to the real world. Remember 
+always to stay on the path of righteousness.' And with that, the voice 
+and warmth vanish.
+~
+241 ADN 0
+D4
+The inner circle~
+barrier flame~
+3 24108 24150
+S
+#24156
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 3
+D1
+The outer circle~
+~
+0 -1 24145
+D2
+The outer circle~
+~
+0 -1 24144
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24157
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 3
+D2
+The outer circle~
+~
+0 -1 24149
+D3
+The outer circle~
+~
+0 -1 24146
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24158
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 3
+D0
+The outer circle~
+~
+0 -1 24152
+D3
+The outer circle~
+~
+0 -1 2154
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully, you wipe the guano from you eye.
+~
+S
+#24159
+The Outer Circle of Coven~
+You stand in a circular clearing, bounded by brush on the outside, and 
+with trees in the center. The twisted trees of the center grow 
+exceptionally high here, and blot out the sky in a black canopy. The 
+ground you stand on has a silvery sheen to the dirt, as if some 
+precious metal has been sprinkled here. To the center of the clearing a 
+bright fire roars, and reaches for the treetops in a hellish blaze.
+~
+241 A 3
+D0
+The outer circle~
+~
+0 -1 24143
+D1
+The outer circle~
+~
+0 -1 24153
+E
+trees center~
+You stare at the trees in the center, and in your mind's eye, you 
+connect them to form a star.
+~
+E
+dirt silvery sheen~
+The metal tastes like silver
+~
+E
+fire~
+You stare hypnotically into the dancing flames. Images form in the 
+fires. Images of enemies. Dead evil enemies you have killed. Their 
+faces twist in horror as their bodies burn, regenerate, and burn again, 
+in a never-ending painful cycle. You feel drawn towards them, and start 
+to walk toward them, when something wet hits you in the eye. You look 
+up and see a white dove pin wheeling higher into the sky, through the 
+treetops. Gratefully you wipe the guano from you eye.
+~
+S
+#24160
+The Hideout~
+You have discovered the hideout of the priest of Dunkeldorf.  The room is 
+very cold and has accumulated more than its share of dust.  The holy men of 
+the city established this secret room not long after the appearance of the 
+Coven.  Here they lend their healing services to their guests so that one 
+day they may defeat the evil Coven.  Your only exit is back up through
+the mill.
+~
+241 ADK 0
+D4
+a crack of light~
+crack~
+0 -1 24126
+E
+chest~
+Next to the altar, a bronze chest vibrates to the same cadence as 
+Mezambrius' prayers.  He motions you forward to the chest as if he 
+is granting you a magnificent gift.
+~
+E
+dust~
+Amongst the dust of the room, you see a small pile heaped in a corner.
+~
+E
+crack~
+You see a large crack in the ceiling leading back towards the Sawmill.  
+You may manage to make it back up if you take a good enough leap
+~
+S
+#0
+
+
+#RESETS
+* Forest Murkmire
+M 0 24101 2 24109                    Ravening beast
+M 0 24101 2 24117                    Ravening beast
+M 0 24102 1 24114                    Hag
+G 1 24109 10                           Mandrake root
+M 0 24103 2 24104                    Guard at post
+E 1 24110 20 16                      Woodsman's axe
+E 1 24111 2 12                       Woodsman's cloak
+M 0 24103 2 24104                    Guard at post
+E 1 24110 20 16                      Woodsman's axe
+E 1 24111 20 12                      Woodsman's cloak
+* Dunkeldorf
+M 0 24104 5 24119                    Lumberjack
+E 1 24110 20 16                      Woodsman's axe
+M 0 24104 5 24133                    Lumerjack
+M 0 24104 5 24127                    Lumberjack
+E 1 24110 20 16                      Woodsman's axe
+M 0 24104 5 24124                    Lumberjack at home
+E 1 24110 20 16                      Woodsman's axe
+M 0 24105 1 24134                    Al the grocer
+G 1 24119 100                          sells rope
+M 0 24106 1 24126                    Mark the miller
+M 0 24107 1 24136                    Hans the smith
+G 1 24117 100                          pick
+G 1 24102 100                          shovel
+G 1 24118 100                          horseshoe
+M 0 24108 1 24127                    Fritz the innkeeper
+G 1 24104 100                          pilsner
+G 1 24105 100                          dunkel
+G 1 24106 100                          plate of grub
+G 1 24107 100                          room key
+M 0 24109 1 24122                    Libby the halfling trader
+G 1 24120 100                          potion invis
+O 0 24103 1 24126                    Creek in mill
+M 0 24116 1 24160                    Mezambrius the priest
+O 0 24121 1 24160                    Pile of dust
+P 1 24122 8 24121                      Bronze key in pile
+O 0 24123 1 24160                    Bronze chest
+P 1 24124 10 24123                     Flail of Dunkeldorf in chest
+* Cave and white temple
+M 0 24110 1 24139                    Rock snake
+M 0 24111 1 24142                    Guardian
+G 1 24101 8                            Sickle
+G 1 24112 5                            White marble cross
+*Coven
+M 0 24112 5 24132                    Witch
+E 1 24113 20 5                       Robe
+M 0 24112 5 24145                    Witch
+E 1 24113 20 5                       Robe
+M 0 24112 5 24149                    Witch
+E 1 24113 20 5                       Robe
+M 0 24112 5 24154                    Witch
+E 1 24113 20 5                       Robe
+M 0 24112 5 24143                    Witch
+E 1 24113 20 5                       Robe
+M 0 24113 2 24148                    Warlock
+E 1 24113 20 5                       Robe
+M 0 24114 1 24151                    Coven leader
+E 1 24113 20 5                       Robe
+E 1 24114 8 14                       Black band
+M 0 24115 1 24155                    Beast from hell
+E 1 24116 4 1                        Ring of fire
+E 1 24115 3 17                       Black rune rod
+E 1 24108 100 3                      Flaming amulet
+*Doors
+D 0 24112 1 2                ; On a Logging Trail in the Forest Lock East
+D 0 24117 3 2                ; On a Logging Trail in the Forest Lock West
+D 0 24119 0 1                ; Main Street, Dunkeldorf Close North
+D 0 24119 2 1                ; Main Street, Dunkeldorf Close South
+D 0 24120 2 1                ; Inside a Log House Close South
+D 0 24121 0 1                ; Inside a Log House Close North
+D 0 24122 0 1                ; Main Street, Dunkeldorf Close North
+D 0 24122 2 1                ; Main Street, Dunkeldorf Close South
+D 0 24123 2 1                ; Inside a Log House Close South
+D 0 24124 0 1                ; Inside a Log House Close North
+D 0 24128 0 2                ; At the Top of the Stairs Lock North
+D 0 24128 1 2                ; At the Top of the Stairs Lock East
+D 0 24128 2 2                ; At the Top of the Stairs Lock South
+D 0 24128 3 2                ; At the Top of the Stairs Lock West
+D 0 24129 0 1                ; A Small Room Close North
+D 0 24130 1 1                ; A Small Room Close East
+D 0 24131 2 1                ; A Small Room Close South
+D 0 24132 3 1                ; A Small Room Close West
+D 0 24137 1 2                ; Inside the Dark Cave Lock East
+D 0 24143 3 2                ; The Outer Circle of Coven Lock West
+D 0 24155 4 3		     ; Into the Fire Pickproof Up
+D 0 24125 0 1                ; Main Street, Dunkeldorf Open North
+D 0 24126 5 3                ; Secret Room to Hideout Pickproof Up
+S
+
+
+#SHOPS
+24105 13 12 1 8 19 200 50 6 18               Al the grocer
+24106 12 13 0 0 0 150 65 4 20                Mark the miller
+24107 13 5 18 9 8 125 75 4 20                Hans the smith
+24108 19 17 18 0 0 130 75 0 23               Fritz the innkeeper
+24109 10 0 0 0 0 150 50 6 18                 Libby the halfling trader
+0
+
+
+#SPECIALS
+M  24102 spec_cast_cleric         The hag
+M  24103 spec_guard               The woodsman guard
+M  24112 spec_cast_cleric         The witch
+M  24113 spec_cast_mage           The warlock
+M  24114 spec_cast_mage           The coven leader
+M  24115 spec_breath_fire         The beast from hell
+M  24116 spec_cast_cleric         Mezambrius, priest of Dunkeldorf
+S
+
+
+#$

@@ -1,0 +1,973 @@
+#AREA   { CAS } Soul    The Consortium~
+
+#HELPS
+-1 CONSORTIUM~
+The Consortium is a coalition of various entrepreneurs organized for the
+primary goal of profit. The Consortium raises money by selling equipment
+and services (including spells, CRs, and mercenaries). Prices for these
+services are set by the governing board of directors. The Consortium
+remains officially neutral in all castle disputes, but will contract
+out services to affluent castles. Any contract, once taken, must be
+fulfilled.
+
+The only loyalty of the members of the castle is to each other. In order
+to remain profitable, the consortium must consist of an assortment
+of classes. In order to perform their tasks, member of The Consortium
+must possess elite equipment as well as a vast degree of knowledge about
+Sembia.
+~
+0 $~
+
+#MOBILES
+#17501
+towel boy~
+a towel boy~
+the towel boy offers you a clean white towel.
+~
+The towel boy sits at his table with a pile of clean towels. Don't forget
+to tip him; rumor has it that he can provide various healing service.
+~
+human~
+BDMGQV DFHJ 1000 S
+60 30 300d1+5000 2d500+1500 12d7+10 1
+-5 -5 -5 -5
+F AB 0 0
+8 8 2 0
+0 0 M 0
+#17502
+noneck joe~
+Noneck Joe~
+Noneck Joe is hanging out here.
+~
+This man looks is big and mean, and you don't want to mess with him. You
+notice a large bulge under his leather trench coat. Either this guy is
+packing, or he is really happy to see you.
+~
+human~
+BMTV DFHJ 500 S
+55 27 200d1+4700 2d255+600 11d5+5 21
+-3 -3 -3 -3
+CDEJKU AB CLQ R
+8 8 1 0
+0 0 M 0
+#17503
+madcanuk~
+the receptionist~
+The Consortium receptionist sits behind a large black desk.
+~
+She coolly eyes you, wondering whether she should summon security.  You
+had better have an appointment!
+~
+human~
+BGMTV DFHJ 1000 S
+25 25 100d1+2350 2d500+450 7d5+10 1
+-1 -1 -1 -1
+F B 0 0
+8 8 1 20
+0 0 M 0
+#17504
+terminator~
+a Terminator Model T1000~
+The Terminator says, "Hasta la vista, baby!"
+~
+You've seen him at the movies, so why do you expect me to describe him
+here?  Besides, you are going to be dead shortly, anyway.
+~
+human~
+AGMQRV CDFJNQ 500 S
+55 27 200d1+4700 2d550+500 11d5+5 1
+-3 -3 -3 -3
+EFGHUZ AB ABL G H
+8 8 1 0
+0 0 M 0
+#17505
+hitman~
+the hitman~
+The hitman is here, and he has a contract out on you!
+~
+He stands about 6'5" and his biceps are as big around as your chest.
+Better get out while you still can.
+~
+human~
+AGMQRV CDFJNQ 500 S
+50 25 100d1+2350 2d400+200 7d5+10 1
+-1 -1 -1 -1
+EFGHUZ AB ABL G H
+8 8 1 0
+0 0 M 0
+#17506
+special forces trooper~
+a Consortium Special Forces Trooper~
+An elite Consortium Trooper stands at attention.
+~
+The elven soldier stand at attention. His impeccable uniform is offset by
+a blue cap. You notice the logo of The Consortium on his left shoulder.
+~
+elf~
+BMTV DFJ 500 S
+55 27 200d1+4700 2d155+500 11d5+5 1
+-3 -3 -3 -3
+CDEJKTU AB CLQ R
+8 8 1 0
+0 0 M 0
+#17507
+noneck joe~
+Noneck Joe~
+Noneck Joe is hanging out here.
+~
+This man looks is big and mean, and you don't want to mess with him. You
+notice a large bulge under his leather trench coat. Either this guy is
+packing, or he is really happy to see you.
+~
+human~
+BMTV DFJ 500 S
+55 27 200d1+4700 2d255+600 11d5+5 21
+-3 -3 -3 -3
+CDEJKU AB CLQ R
+8 8 1 0
+0 0 M 0
+
+#0
+
+
+#OBJECTS
+#17501
+passcard~
+The key to the executive washroom.~
+The key to The Consortium's executive washroom is here.~
+steel~
+8 0 A
+0 0 0 0 0
+0 1 0 G
+E key~
+This is the key to The Consortium's executive washroom.
+~
+#17502
+water cooler~
+a water cooler~
+The Consortium's water cooler is here.~
+obsidian~
+25 0 0
+50 50 0 0 0
+0 500 3000 G
+E water cooler~
+It's cold and it is free. There is also a cute elf leaning against it.
+Drink up!
+~
+#17503
+supply cabinet pit~
+the Consortium's supply cabinet~
+The Consortium's supply cabinet sits on one side of the room.~
+stone~
+15 MO 0
+1000000 0 0 0 0
+0 0 0 P
+E supply cabinet~
+This cabinet contains items needed to run the day to day business of the
+Consortium. Strange...you notice that the cabinet contains an awful lot of
+armaments.  ~
+#17504
+ledger relic~
+The Consortium's Ledger~
+A Ledger tracking all of The Consortium's business records is here.~
+onyx~
+32 ABFOUV 0
+0 0 0 0 0
+10 1 0 P
+E ledger~
+This ledger contains the records of the day to day business operations of
+The Consortium. It also contains information on contacts carried out by
+employees.  Needless to say, the business operations of The Consortium
+would be crippled without it.~
+#17505
+cement~
+a bag of cement~
+A bag of "Gnu Shuz" cement lies here.~
+stone~
+13 0 AO
+0 0 0 0 0
+1 250 0 P
+A
+14 -500
+#0
+
+#ROOMS
+#17501
+Storefront~
+You are standing before what appears to be some sort of a business
+operation. The unassuming stone facade to the north appears as if it
+might be an old warehouse or factory. You have an itchy feeling that
+unseen eyes are watching you from the shadows Four large wooden steps
+lead up to a landing and a steel door. Several "noneck Joes" are
+lounging around at the top of the landing. They don't look like they
+have much of a sense of humor.
+~
+175 CNZ A 0
+D0
+~
+~
+1 -1 17504
+D1
+~
+guido~
+4 17501 17502
+D2
+too dark to tell.
+~
+~
+0 -1 67
+E
+plaque~
+The Consortium. Founded on December 28, 1995 by our Lords Hazeldean and
+Soosmar. Architect: Soulcrusher
+~
+S
+#17502
+Personnel Office~
+You are standing in the Personnel Office of The Consortium. The room is
+lit by a single, bare light bulb which hangs from the ceiling on a long
+cord. An extremely sharp looking dagger sticks out of a small table made
+from unfinished wood.A closed, leather bound tome sits beside the dagger.
+Two chairs face each other on opposite sides of the table. You notice that
+the grain of the wood on the surface of the table is highlighted by deep
+red stains.~
+175 CDNW 0
+D3
+~
+~
+1 -1 17501
+S
+#17503
+Observation Deck~
+You are in a large, man-made cavern that has been carved out of the cliffs
+along the great Drow trade route. A large section of the southern wall has
+been removed, and the resulting gap affords a breathtaking view of the
+trade route. You marvel at all of the tiny merchants and peasants going
+about there day to day business down below. You repress and urge to see
+how far you can spit.
+~
+175 CDNZ A 0
+D5
+~
+slab~
+4 -1 17504
+S
+#17504
+Security Check~
+This rectangular room is devoid of all furniture. The walls and carpeting
+are a uniform black. A mirror occupies a large portion of the western
+wall. To the north, a thick steel door blocks any further progress. A
+device beside the door is waiting to scan your security badge.
+~
+175 DNZ A 1
+D0
+~
+~
+1 -1 17507
+D2
+~
+~
+1 -1 17501
+D4
+~
+lamp~
+4 -1 17503
+S
+#17505
+Weight Room~
+This is where Consortium members come to train, relax, and try to lose
+those love handles. The weight room has all of the latest and greatest
+conveniences, including a universal gym and nordic track machines.
+~
+175 DNZ A 1
+D0
+~
+~
+0 -1 17510
+D1
+~
+~
+0 -1 17506
+S
+#17506
+Entrance to Recreation Facilities~
+This hallway leads to the recreation facilities of The Consortium. The
+Consortium likes to ensure that its members are relaxed and healthy.
+~
+175 DNZ A 0
+D1
+~
+~
+0 -1 17507
+D3
+~
+~
+1 -1 17505
+S
+#17507
+Foyer~
+This is the entrance to the actual business offices of The Consortium.
+The elaborately carpeted floor flows into hallways to the easy and west.
+To the north, a few marble steps lead up to a small door. Priceless works
+of art line the walls.
+~
+175 DNZ A 0
+D0
+~
+~
+1 -1 17511
+D1
+~
+~
+0 -1 17508
+D2
+~
+~
+1 -1 17504
+D3
+~
+~
+0 -1 17506
+S
+#17508
+Special Forces Division~
+This section of the building houses the headquarters of The Consortium's
+elite special forces units. These crack mercenary troops are feared throughout
+Sembia for their ferocity and skill in battle. Their services are extremly
+expensive, but once paid their loyalty is legendary. Several soldiers are
+lounging about in this area, some of them smoking cigarettes. A passageway
+to the east leads to the surface.
+~
+175 DNZ A 0
+D1
+~
+~
+0 -1 17509
+D3
+~
+~
+0 -1 17507
+S
+#17509
+Training Facilities~
+You cover your eyes as you emerge into daylight. This area is where Sembia's
+finest mercenary troops go through their daily drill exercises. About 100 
+meters to the south of you, a group a magi are honing their combat skills
+on the firing range. Small groups of soldiers throughout the area are 
+duelling and going through physical training. The area to the east contains 
+a large obstacle course. You can enter a small building to the north.
+~
+175 DNZ A 1
+D0
+~
+~
+0 -1 17512
+D3
+~
+~
+0 -1 17508
+S
+#17510
+Hallway~
+The floor of this hallway is lined with an elegant tile mosaic. Tall brass
+stands lining both walls hold flowing plants. Everything seems very clean
+and polished. A humidor full of fine cigars can be found along one wall.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17513
+D2
+~
+~
+0 -1 17505
+S
+#17511
+Library~
+The Consortium understand the power and value of information, and holds one
+of the largest libraries in Sembia (the only larger one belongs to the 
+Hitower University). The stacks are neatly arranged, and the rows of shelves
+go on almost as far as the eye can see. There is some sort of office to
+the north.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17514
+D2
+~
+~
+1 -1 17507
+S
+#17512
+Weapons Reseach and Development~
+Throughout this large, but cluttered, laboratory, Magi and Craftsmen are
+designing fearsome magical weapons, both for use by The Consortium's Special
+Forces and for sale to third parties. A large banner on the western wall
+proclaims, "War is good for business." A hallway to the north leads to
+the war room.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17515
+D2
+~
+~
+0 -1 17509
+S
+#17513
+Spa~
+You have arrived in heaven! This room is dominated by a massive jaquzzi.
+It looks as if it could comfortably sit at least 15 people. The steam
+rising off the bubbling water makes the tub look very inviting. A bottle
+of champagne is chilling in a silver bucket on the side of the tub. A
+cabinet on one the other side contains a large selection of spirits
+including and impressive collection of single malt Scotch.
+~
+175 CDNTUZ A 0
+D2
+~
+~
+0 -1 17510
+S
+#17514
+Accounting~
+This is a very strange looking accounting office. The cluttered small,
+cluttered room is dominated by two wooden desks. Both desks are overflowing
+with papers. Two thick necked men are lounging about here. One of them is
+holding a pastrami sandwich in his fat knuckled hands. They seem to be
+deeply engrossed in a discussion over the sports pages in the Dresden Times.
+Hmmm....this doesn't look like any accounting department that you have ever
+seen.
+~
+175 DNZ A 1
+D0
+~
+~
+0 -1 17516
+D2
+~
+~
+0 -1 17511
+S
+#17515
+War Room~
+This is where the leaders of The Consortium Special Forces meet to plan their
+strategy for world domination. The western wall is dominated by a large map of
+Sembia. An army of industrious strategists are working and buzzing around 
+several long paper strewn tables arranged to face the big map. There is a 
+water cooler at the back of the room.
+~
+175 NZ A 0
+D2
+~
+~
+0 -1 17512
+S
+#17516
+Back Room~
+This appears to be some kind of a storeroom. The lighting is provided by a
+dingy light bulb hanging from the ceiling. In comparison to the other rooms
+in the building, this room is remarkably cluttered. The floor is littered
+with an assortment of boxes and papers. You notice the faint outline of
+a trapdoor in the ceiling.
+~
+175 DNZ A 0
+D2
+~
+~
+0 -1 17514
+D4
+~
+~
+1 -1 17518
+S
+#17517
+Upstairs Hallway~
+The beautiful towering walls of the upstairs hallway are fashioned from fine
+white marble. In the middle of the hallway, a beautiful scarlet carpet runs
+parallel to the walls. A passage on the eastern wall leads to an entry room.
+~
+175 DNZ A 0
+D1
+~
+~
+0 -1 17518
+D2
+~
+~
+0 -1 17519
+S
+#17518
+Sumptuous Entry~
+The opulance of this room is quite impressive even by the standards of the
+rooms on the lower level. Your eyes follow the marble walls up to a high
+domed ceiling. The ceiling is adorned by an ornate fresco depicting a reclining
+lizard reaching out a finger to a divine being. A delicate woven carpet
+runs from a set of marble stairs to the north to a carved archway to
+the south. A small divan with a plush red cushion sits underneath a divan
+on the eastern wall. A small passage leads to a side room to the west. 
+~
+175 DNZ A 0
+D2
+Hallway to Living Quarters~
+~
+0 -1 17520
+D3
+Side Room~
+~
+0 -1 17517
+D5
+Storage Room~
+~
+1 -1 17516
+S
+#17519
+Marble Hallway~
+The carpet lined marble hallway runs from north to south. A small passage
+to the east leads to a side room.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17517
+D1
+The Treasure Room~
+~
+0 -1 17520
+D2
+~
+~
+0 -1 17522
+S
+#17520
+Benefits Room~
+I guess the only benefits available in The Consortium are death benefits, and
+that is exactly what The Consortium is going to do. They are going to benefit
+from your death by taking all of your equipment. You can take some small
+pleasure in imagining the delight on the faces of the newbie Consortium
+members as they receive their new equipment.
+~
+175 ACDINXZ A 8
+D0
+~
+wonton~
+4 -1 17518
+D3
+~
+soup~
+4 -1 17519
+S
+#17521
+OK's Chamber~
+This room is dimly lit by hidden fixtures and contains a striking amount of 
+fine Dwarven stonework and carving.  All of the amenities available to the 
+medieval office are spread throughout the room in a disordered fashion, right 
+down to the wooden chop-up Doll.  The pile of discarded contracts stamped 
+'DONE' on the stone desk confirms that this offices occupant does BUSINESS.
+~
+175 DNZ A 0
+D2
+~
+~
+1 -1 17528
+E
+doll~
+This wooden effigy of a roughly Elf sized/shaped creature shows the many 
+chops and gouges of OK's distracted.  Guess he doesn't doodle when he 
+thinks, eh?   
+~
+S
+#17522
+Intersection in Marble Hallway~
+The marble hallway runs to the east and to the west with a major branch running
+to the north.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17519
+D2
+~
+~
+0 -1 17529
+S
+#17523
+Lazy Person's Bedroom~
+This is the bedroom of a very lazy person. It is a complete mess. They were
+too lazy to even send in a room description. There is a picture on the wall.
+~
+175 DNZ A 0
+D2
+~
+~
+1 -1 17530
+E
+picture~
+This is a picture of a person who is too busy mudding to shower - yuck!
+~
+S
+
+#17524
+Khosadom's Lab~
+You see a very well equipped lab for Khosadom's experiments in necromancy.
+A refrigerator holds spare body parts and needles and thread are stacked on
+top of it.  Assorted spell components and jars of blood and formaldehyde
+are arranged on the shelves, along with a few books.  A sewing machine is
+at the end of one table and you wonder just what that leathery material
+arranged next to it is.  You're glad the room is well ventilated!
+
+There's also a half open closet in one corner of the room and a comfortable
+bed of nails for Khosadom to relax on when the night's experiments are done.
+~
+175 DNZ A 0
+D2
+To the hallway.
+~
+~
+1 -1 17531
+E
+closet~
+You can see a jumbled assortment of skeletons.
+~
+S
+
+#17525
+Hazeldean's Office or Bedroom~
+This is Hazeldean's place. He is important - he has three pictures! This
+room will be cool as soon as he writes a description. There is a picture
+of Hazeldean, picture2 and picture3 on the wall.
+~
+175 DNZ A 0
+D2
+~
+~
+1 -1 17532
+E
+Hazeldean~
+This is a picture of a naked dwarf...naughty Hazeldean!
+~
+E
+picture2~
+This is a picture of ?
+~
+E
+picture3~
+Insert description here.
+~
+S
+#17526
+Soosmar's Study~
+Phew! It smells like an outhouse in here. The atmosphere must be magically
+altered to reproduce the conditions on the Saurian homeworld. The room itself
+is a caved carved out the rock surrounding the building. The furniture is 
+roughly hewn from bare stone. You notice a hot rock in the corner. There is
+a small jar of meat on the crude stone desk.
+~
+175 DNZ A 0
+D1
+~
+~
+2 17501 17527
+E
+hot rock~
+This large, flat rock is magically warm to the touch.
+~
+E
+jar~
+The jar appears to be full of some sort of meat strips. The label reads:
+
+		100% Genuine Elf Jerky
+		Manufactured by The Consortium
+		Contains no additives or preservatives
+~
+S
+#17527
+Board Room~
+This where member of The Consortium's Board of directors carry out very
+important business. The room is dominated by a large oak table. Several
+comfortable chairs are arranged around the large table. On one side of 
+the room, a large black book sits on a small table.
+~
+175 DNZ A 0
+D1
+~
+~
+2 -1 17528
+D3
+~
+~
+2 17501 17526
+S
+#17528
+End of Marble Hallway~
+This is the western end of the marble hallway.
+~
+175 DNZ A 0
+D0
+~
+~
+1 -1 17521
+D1
+~
+~
+0 -1 17529
+D3
+~
+~
+2 17501 17527
+S
+#17529
+Marble Hallway~
+The carpet lined marble hallway runs to the east and west.
+~
+175 DNZ A 0
+D0
+~
+~
+0 -1 17522
+D1
+~
+~
+0 -1 17530
+D2
+~
+toronto~
+4 -1 17534
+D3
+~
+~
+0 -1 17528
+S
+#17530
+Marble Hallway~
+The carpet lined marble hallway runs to the east and west.
+~
+175 DNZ A 0
+D0
+~
+~
+1 -1 17523
+D1
+~
+~
+0 -1 17531
+D2
+~
+~
+1 -1 17535
+D3
+~
+~
+0 -1 17529
+S
+#17531
+Marble Hallway~
+This carpet lined marble hallway runs to the east and west.
+~
+175 DNZ A 0
+D0
+~
+~
+1 -1 17524
+D1
+~
+~
+0 -1 17532
+D3
+~
+~
+0 -1 17530
+S
+#17532
+End of Marble Hallway~
+This is eastern most end of the marble hallway.
+~
+175 DNZ A 0
+D0
+~
+~
+1 -1 17525
+D1
+Portal Room~
+~
+1 -1 17533
+D3
+~
+~
+0 -1 17531
+S
+#17533
+Reception Area~
+This entrance is only used by high ranking members of the Consortium. A 
+receptionist sits behind and oak desk at the western end of the room. Strange
+shimmering doorways are located along the eastern, northern, and southern 
+walls. On the western wall, there is a closed door besides the receptionist's
+desk.
+~
+175 ADZ A 0
+D0
+Glitter Palace~
+~
+0 -1 10000
+D1
+Recall~
+~
+0 -1 4207
+D2
+Under the Sea~
+~
+0 -1 6401
+D3
+~
+~
+1 -1 17532
+S
+#17534
+The Executive Washroom~
+You have finally made it to the Executive Washroom! These facilities are really
+posh. Aren't you glad you no longer have to do your business in the presence
+of peons? There is even a dwarf here whose sole job in life is to keep the 
+toilet seats warm when no one else is sitting on them. Oh, don't mind the 
+bodies littering the floor.
+~
+175 DJZ A 0
+D0
+~
+stalldoor~
+4 -1 17529
+D1
+~
+toiletseat~
+4 -1 17535
+D3
+~
+towelholder~
+4 -1 17534
+S
+#17535
+The Consortium Lounge and Bar~
+This is where high ranking members of The Consortium come to relax. Large, 
+comfortable sofas are placed in strategic locations throughout the lounge.
+A dartboard hangs on the western wall. Your mouth waters as you eye the
+bartender drafting ice cold beers at the complementary bar. You notice a
+small cabinet in one corner.
+~
+175 DNTUZ A 0
+D0
+Marble Hallway~
+~
+0 -1 17530
+D3
+~
+newfoundland~
+4 -1 17534
+S
+
+#0
+
+
+
+#RESETS
+*
+* MOBILE RESETS *
+*
+M 0 17501 1 17513    Towelboy (Healer)
+*
+M 0 17502 2 17501    Noneck Joe (Gateguards at Gates (Sanc'd))
+E 1 17505 -1 17        cement
+M 0 17502 2 17501
+E 1 17505 -1 17        cement
+*
+M 0 17503 1 17533    Receptionist (Gate Mob - Seldon)
+*
+M 0 17504 4 17518    Terminator (Highlevel Aggie Guards)
+M 0 17504 4 17518
+M 0 17504 4 17519
+M 0 17504 4 17519
+*
+M 0 17505 4 17535    Hitman (Lowlevel Aggie Guards)
+M 0 17505 4 17535
+M 0 17505 4 17535
+M 0 17505 4 17535
+*
+M 0 17506 8 17504    SF Trooper (Gateguards at Entrance to Courtyard)
+E 1 17505 -1 17        cement
+M 0 17506 8 17504
+E 1 17505 -1 17        cement
+M 0 17506 8 17504
+E 1 17505 -1 17        cement
+M 0 17506 8 17504
+E 1 17505 -1 17        cement
+*
+M 0 17506 8 17507    SF Trooper Gateguard (Foyer)
+E 1 17505 -1 17        cement
+M 0 17506 8 17507
+E 1 17505 -1 17        cement
+M 0 17506 8 17507
+E 1 17505 -1 17        cement
+M 0 17506 8 17507
+E 1 17505 -1 17        cement
+*
+M 0 17507 2 17501    Noneck Joe (Gateguards at Gates (un-Sanc'd))
+E 1 17505 -1 17        cement
+M 0 17507 2 17501
+E 1 17505 -1 17        cement
+*
+O 0 17502 1 17515    Water Cooler (Fountain in Garden)
+O 0 17503 1 17535    Storage Cabinet (Pit in Throne Room)
+*
+* DOOR RESETS *
+*
+D 0 17501 0 1   Main Gate
+D 0 17501 1 4   Secret to Membership Room (locked)
+D 0 17502 3 1   Secret from Membership Room (locked)
+D 0 17503 5 4   Secret from Secret Room
+D 0 17504 0 1   To Main Entryway
+D 0 17504 2 1   To Main Gate
+D 0 17504 4 4   Secret to Secret Room
+D 0 17507 0 1   Door to main hallway (closed)
+D 0 17507 2 1   To Main Entryway
+D 0 17511 2 1
+D 0 17516 4 1
+D 0 17518 5 1
+D 0 17520 0 4   Secret Exit from DT
+D 0 17520 3 4   Secret Exit from DT
+D 0 17521 2 1
+D 0 17523 2 1
+D 0 17524 2 1
+D 0 17525 2 1
+D 0 17526 1 1
+D 0 17527 1 1
+D 0 17527 3 1
+D 0 17528 0 1
+D 0 17528 3 1
+D 0 17529 2 4    Secret to Secret Room
+D 0 17530 0 1
+D 0 17530 2 1
+D 0 17531 0 1
+D 0 17532 0 1
+D 0 17532 1 1
+D 0 17533 3 1
+D 0 17534 0 4    Secret from Secret Room (Hallway)
+D 0 17534 1 4    Secret from Secret Room (Throne Room)
+D 0 17534 3 4    Secret from Secret Room (Outside)
+D 0 17535 3 4    Secret from Throne Room (Secret Room)
+S
+
+#SPECIALS
+M 17501 spec_cast_adept          Healer
+M 17502 spec_castle_guard        Noneck Joe Gateguard (Sanc'd)
+M 17504 spec_castle_guard_agg    Terminator Aggie Guard
+M 17505 spec_castle_guard_agg    Hitman Aggie Guard
+M 17506 spec_castle_guard        Stormtrooper Gateguard (UnSanc'd)
+M 17507 spec_castle_guard        Noneck Joe Gateguard (Unsanc'd)
+S
+
+#$

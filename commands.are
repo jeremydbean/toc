@@ -1,0 +1,1859 @@
+#HELPS
+
+0 SUMMARY~
+
+MOVEMENT                            GROUP
+north south east west up down       follow group gtell split
+northeast ne northwest nw
+southeast se southwest sw
+run exits recall
+sleep wake rest stand
+
+OBJECTS                             INFORMATION
+get put drop give sacrifice         help credits commands areas socials
+wear wield hold                     report score time weather where who
+recite quaff zap brandish           color description password title
+lock unlock open close pick         gainlist teachlist
+inventory equipment look compare
+eat drink fill
+list buy sell value
+move climb flip push pull turn
+
+COMMUNICATION
+gossip leveling music q/a
+shout quiet info yell
+say tell gtell reply
+emote pose note channels
+
+COMBAT                              OTHER
+kill flee kick rescue disarm        ! save quit
+dirt-kick backstab cast wimpy       practice train
+bash
+
+For more help, type 'help <topic>' for any command, skill, or spell.
+Type 'help KEYWORD' to see a list of all of the available topics.
+Also help on: DAMAGE DYING EXPERIENCE NEWS STORY TICK WIZLIST GUILDS
+If you are new here, we recommend that you read BEGINNERS.
+~
+
+0 ALIAS ALIASES~
+Syntax:
+alias <word> <command as a string>     (sets the alias)
+alias delete <alias to delete>         (deletes an alias)
+alias <word>                           (shows an alias)
+
+e.g.: alias mm cast 'magic missile'
+      alias delete mm
+
+To see all the aliases you have, type alias and to see a specific alias
+type: alias <alias name>.
+
+There is a max of 20 aliases per character.
+~
+
+0 AREAS~
+Syntax: areas
+
+AREAS shows you a list of areas in the game.  Area names are shown with
+recommended levels.  However, those recommendations are just a rough range
+and it is a good idea to read road signs to determine if you are entering
+somewhere that may be particularly dangerous.
+~
+
+0 ARRIVE DEPART~
+Syntax: arrive <string>
+        depart <string>
+
+Sets the message that others see when you enter and leave rooms.
+
+All messages must contain a $n where your name is to be placed and a
+$t(or $T) where the direction is to be placed.
+
+The difference between $t and $T is the directions that are defaulted.
+$t (arrive/depart)= north, south, east, west, up, down
+$T (arrive) = the north, the south, the east, the west, above, below
+$T (depart) = the north, the south, the east, the west, up, down
+~
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT~
+Syntax: autolist   
+        autoloot   
+        autogold    
+        autosac    
+        autoexit   
+        autosplit  
+        autoassist 
+
+ToC uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The actions are as follows:
+
+autolist   : list all automatic actions
+autogold   : take all gold from dead mobiles
+autoloot   : take all equipment from dead mobiles
+autosac    : sacrifice dead monsters (if autoloot is on, only empty corpses)
+autoexit   : display room exits upon entering a room
+autosplit  : split up spoils from combat among your group members
+autoassist : makes you help group members in combat
+
+Typing a command sets the action (except for autolist); typing it again removes
+it.  When you create a new character, the default is for all of the automatic
+actions to be on.
+
+AUTO is equivalent to autolist and also shows the status of the PROMPT,
+COMBINE ITEMS, NOFOLLOW, NOSUMMON, and NOLOOT flags..
+~
+
+0 BRANDISH QUAFF RECITE ZAP~
+Syntax: brandish
+Syntax: quaff    <potion>
+Syntax: recite   <scroll> <target>
+Syntax: zap      <target>
+Syntax: zap
+
+BRANDISH brandishes a magical staff.  QUAFF quaffs a magical potion (as opposed
+to DRINK, which drinks mundane liquids).  RECITE recites a magical scroll; the
+<target> is optional, depending on the nature of the scroll.  ZAP zaps a
+magical wand at a target.  If the target is not specified, and you are fighting
+someone, then that character is used for a target.
+
+You must HOLD a wand or a staff before using BRANDISH or ZAP.
+
+All of these commands use up their objects.  Potions and scrolls have a single
+charge.  Wands and staves have multiple charges.  When a magical object has no
+more charges, it will be consumed.
+
+These commands may require an item skill to be successful, see the help entries
+on the SCROLLS, STAVES, and WANDS skills for more information.  No skill is
+required to quaff a potion.
+~
+
+5 TEACHLIST~
+Syntax: teachlist
+
+This will show you a list of guildmasters and what they can teach you for skills/
+spells. Some spells/skills will require that you learn the group they are in.
+So also check out the gainlist command. 
+~
+
+5 GAINLIST~
+Syntax: gainlist
+
+This will show you a list of guildmasters and what they will allow you to gain
+for skills/spells. For information on every group you can consult the help.
+The command teachlist will show you where you can learn which spell. So also
+check out the teachlist command.
+~
+
+70 DNS~
+Syntax: dns
+
+This command will turn DNS lookups on and off.  Remember that with DNS lookups
+turned off, sitebans on name hosts will be ignored.
+
+~
+
+67 FSAVE~
+Syntax: fsave
+
+This command will force all the players to save, but doesn't send them a message
+when you do it.  This command is also invoked on reboots and shutdowns.
+
+~
+
+0 BRIEF~
+Syntax: brief
+
+If brief is on, you will see only short descriptions of rooms when you
+enter them and when you type LOOK.  Typing brief once, turns brief on; typing 
+it again, turns it off, allowing you to see full descriptions.
+
+The default is for brief to be off.
+~
+
+0 BUY LIST SELL VALUE~
+Syntax: buy   <object>
+Syntax: list
+Syntax: sell  <object>
+Syntax: value <object>
+
+BUY buys an object from a shop keeper.
+When multiple items of the same name are listed, type 'buy n.item', where n
+is the position of the item in a list of that name.  So if there are two
+swords, buy 2.sword will buy the second.
+
+LIST lists the objects the shop keeper will sell you.
+List <name> shows you only objects of that name.
+
+SELL sells an object to a shop keeper.
+
+VALUE asks the shop keeper how much he, she, or it will buy the item for.
+~
+
+0 CAST~
+Syntax: cast <spell> <target>
+
+Before you can cast a spell, you have to practice it.  The more you practice,
+the higher chance you have of success when casting.  Casting spells costs mana.
+The mana cost decreases as your level increases.
+
+The <target> is optional.  Many spells which need targets will use an
+appropriate default target, especially during combat.
+
+If the spell name is more than one word, then you must quote the spell name.
+Example: cast 'cure critic' frag.  Quoting is optional for single-word spells.
+You can abbreviate the spell name.
+
+When you cast an offensive spell, the victim usually gets a saving throw.
+The effect of the spell is reduced or eliminated if the victim makes the
+saving throw successfully.
+
+See also the help sections for individual spells.
+~
+
+0 CLIMB~
+Syntax: climb <object>
+
+In order to get between certain rooms, you must CLIMB a rope, ladder or
+other object.  Read room descriptions carefully to find the object you need
+to climb.
+~
+
+0 OPEN CLOSE LOCK UNLOCK~
+Syntax: open   <object|direction>
+Syntax: close  <object|direction>
+Syntax: lock   <object|direction>
+Syntax: unlock <object|direction>
+
+OPEN and CLOSE open and close an object or a door.
+
+LOCK and UNLOCK lock and unlock a closed object or door.  You must have
+the requisite key to LOCK or UNLOCK.
+
+Those with the appropriate skill can PICK locks, enabling them to open
+locked doors or objects without having the key.  See help on PICK for more
+information.
+~
+
+0 COLOR~
+Syntax:  color on/off/list/default
+         color <color type> <color>
+
+The COLOR command is used to toggle color on or off and to set colors for
+the various channels.
+
+Typing the word COLOR alone will toggle color on or off.
+
+COLOR DEFAULT is used to load the default colors for the various
+channels.  If you turn color on without having set defaults, you will not
+see any colors as they will all be set to grey.
+
+COLOR LIST shows a list of the available colors.
+
+To set the color for an indivdual type of message, use
+COLOR <TYPE OF MESSAGE> <# of color>
+The color number can be obtained using COLOR LIST.
+For example, to make all gossips appear in yellow, type:
+COLOR gossips 7
+~
+
+0 COMBINE~
+Syntax: combine
+
+If combine is on, you will see like items in your inventory combined on
+a single line.  The number of items of that type you have will be shown in
+parentheses in front of the item.  
+
+For example, if, with combine off, you see:
+a big pot pie
+a big pot pie
+a big pot pie
+
+with combine on you would see:
+(3) a big pot pie
+
+If combine is on, typing combine again turns it off, showing you the long
+inventory again.  The default is for combine to be on.
+~
+
+0 COMMANDS~
+Syntax: commands
+
+COMMANDS shows you all the commands in the game.
+~
+
+0 COMPACT~
+Syntax: compact
+
+When COMPACT mode is on, your actions and the game responses are shown to
+you without spaces between the lines.  Typing compact once turns compact
+mode on; typing it again, removes compact mode, showing blank spaces between
+lines again. 
+
+The default is for compact to be off.
+~
+
+0 COMPARE~
+Syntax: compare <object-1> <object-2>
+Syntax: compare <object>
+
+COMPARE compares two objects in your inventory.  If both objects are weapons,
+it will report the one with the better average damage.  If both objects are
+armor, it will report the one with the better armor class.
+
+COMPARE with one argument compares an object in your inventory to the object
+you are currently wearing or wielding of the same type.
+
+COMPARE doesn't consider any special modifiers of the objects.  You may 
+wish to wear, wield or hold an item which compares as worse if it has 
+bonuses, such as additions to attributes.  These modifiers can be determined
+by using the IDENTIFY spell or the LORE skill..
+~
+
+0 CONSIDER~
+Syntax: consider <character>
+
+CONSIDER tells you what your chances are of killing a character.
+When you consider a character, you will see two lines of information.
+The first line refers to the relative level of you and the character you
+are considering; the second refers to the relative number of hit points
+(based on max hp, not current hp).  Between these two you should have a
+rough idea of whether or not it is worth attempting the fight.
+~
+
+0 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~
+
+0 CREDITS~
+Syntax: credits
+
+This command shows the list of the original Diku Mud implementors.
+~
+
+0 DELETE~
+Syntax: delete <password>
+        
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed along with your password to 
+delete a character, and you cannot be forced to delete. Deletion is permanent.  
+You will not be restored for deleting yourself.
+~
+
+0 DESCRIPTION DESC~
+Syntax: description <string>
+Syntax: description + <string>
+
+Sets your long description to the given string.  If the description string
+starts with a '+', the part after the '+' is appended to your current
+description, so that you can make multi-line descriptions.
+~
+
+0 DONATE~
+Syntax: donate <object>
+
+If you have items in your inventory that you no longer need, you may
+wish to donate them for the use of other adventurers.  The donate command
+allows you to do this even if you are far away from the Temple of Devota.
+The donated item will be placed randomly in one of the donation pits - 
+either in the Temple of Devota or in one of the guild halls in Dresden.
+~
+
+0 DRINK EAT FILL~
+Syntax: drink <object>
+Syntax: eat   <object>
+Syntax: fill  <object>
+
+When you are thirsty, DRINK something.
+
+When you are hungry, EAT something.
+
+FILL fills a drink container with water from a fountain or pool.
+~
+
+0 DROP GET GIVE PUT TAKE~
+Syntax: drop <object>
+Syntax: drop <amount> coins
+Syntax: get  <object>
+Syntax: get  <object> <container>
+Syntax: give <object> <character>
+Syntax: give <amount> coins <character>
+Syntax: put  <object> <container>
+
+DROP drops an object, or some coins, on the ground.
+
+GET gets an object, either lying on the ground, or from a container, or even
+from a corpse.  TAKE is a synonym for get.
+
+GIVE gives an object, or some coins, to another character.
+
+PUT puts an object into a container.
+
+DROP, GET and PUT understand the object names 'ALL' for all objects and
+'ALL.object' for all objects with the same name.
+~
+
+0 EMOTE , POSE SOCIAL SOCIALS~
+Syntax: emote <action>
+Syntax: , <action>
+Syntax: pose
+
+Socials are a large set of specialized commands that let you do such things
+as smile, wave, etc. to yourself, others or nobody in particular.  For a
+complete list of the available actions, type SOCIAL.
+
+EMOTE is used to express emotions or actions.  A shortcut for emote is ,.
+EMOTE allows you to perform actions that are not built in.
+
+POSE is a variant of EMOTE.  POSE selects a pose at random.  The poses are
+dependent on your class.
+
+The following is a (not necessarily complete) list of the socials which 
+exist in ToC:
+gack        kiss        eve         bounce      smile       dance
+cackle      laugh       giggle      shake       puke        growl
+scream      comfort     sigh        sulk        hug         snuggle
+cuddle      nuzzle      cry         poke        accuse      grin
+bow         applaud     blush       burp        chuckle     clap
+cough       curtsey     fart        flip        fondle      frown
+gasp        glare       groan       grope       hiccup      lick
+love        moan        nibble      pout        ruffle      shiver
+shrug       sing        slap        smirk       snap        sneeze
+snicker     sniff       snore       squeeze     stare       strut
+thank       twiddle     wave        whistle     wiggle      wink
+yawn        snowball    french      comb        massage     tickle
+pat         curse       pray        beg         cringe      daydream
+fume        grovel      hop         nudge       ponder      punch
+snarl       spank       hand        yodel       faint       pinch
+stroke      apologize   caress      stagger     snort       slobber
+blink       tease       knee        flirt       tip         lust
+flutter     bark        howl        babble      ramble      hush
+threaten    roll        swoon       bird        eyebrow     serenade
+grimace     boggle      beckon      wonder      worry       drool
+nod         purr        point       rub         bleed       highfive
+propose     peer        worship     bearhug     innocent    collapse
+stretch     spam        boast       squirm      moo         moon
+goose       wince       type        brb         mutter      rofl
+sob         pant        whine       flex        embrace     duck
+bonk        squeal      tackle      spit        life        mosh
+flinch      air         tweak       peck        explode     raspberry
+flash       strip       undress     tongue      view        grumble
+cheer       plead       charge      criticize   run         judge
+insane      cover       flare       head        pie         cower
+noogie      yeehaw      pissed      passout     adjust      scratch
+meditate    bkiss       beer        bcatch      claw        rose
+laces       tag         tank        starve      aargh       homework
+puff        differ      yae         lightbulb   voodoo
+~
+
+0 EQUIPMENT INVENTORY~
+Syntax: equipment
+Syntax: inventory
+
+EQUIPMENT lists your equipment (armor, weapons, and held items).
+
+INVENTORY lists your inventory (i.e. items you are carrying but not currently
+using).
+~
+
+0 EXAMINE LOOK READ~
+Syntax: look
+Syntax: look room
+Syntax: look <object>
+Syntax: look <character>
+Syntax: look <direction>
+Syntax: look <keyword>
+Syntax: look in <container>
+Syntax: look in <corpse>
+Syntax: examine <container>
+Syntax: examine <corpse>
+
+LOOK looks at something and sees what you can see.  For example, if you look
+at a character, you will see that character's description and equipment.
+
+LOOK alone, without an argument, describes the room you are in; if BRIEF is
+on, you will see only the short description of the room.  Use Look room to
+see the full ("unbriefed") description of the room.
+
+EXAMINE is short for 'LOOK container' followed by 'LOOK IN container'.
+
+READ is a synonym for LOOK.
+~
+
+51 EXCHANGE~
+
+Syntax: exchange
+
+If you are a hero, you may exchange experience for more practices.  The cost 
+is 5000 experience points.  This means that if you would rather get more 
+practices rather than another level, exchange the experience before leveling. 
+Otherwise you'll have to get 5000 more experience up and above your new level. 
+Exchanging experience for practices gives you 4-6 more; the exact number of
+practices you get is random.  You may exchange only at the guru in Hero Hall.
+~
+
+0 EXITS~
+Syntax: exits
+
+Tells you the visible exits of the room you are in.  Closed doors are shown
+in parentheses.  Not all exits are visible;  room descriptions will generally
+provide some clues as to the existence of hidden exits and their names.
+~
+
+0 FLEE~
+Syntax: flee
+
+Once you start a fight, you can't just walk away from it.  If the fight
+is not going well, you can attempt to FLEE, or another character can
+RESCUE you.  (You can also RECALL, but this is less likely to work,
+and costs more experience points, then fleeing).
+
+If you lose your link during a fight, then your character will keep
+fighting, and will attempt to RECALL from time to time.  Your chances
+of making the recall are reduced, and you will lose much more experience.
+
+WIMPY will cause you to flee automatically if your hit points drop too low.
+
+See also helps on RESCUE, RECALL and WIMPY.
+~
+
+0 FLIP MOVE PULL PUSH TURN~
+Syntax: flip <object>
+        move <object>
+        pull <object>
+        push <object>
+        turn <object>
+
+Some rooms contain objects which need to be manipulated by flipping, moving,
+pushing, pulling or turning them.  Manipulating these objects can have
+various effects.  For example, one might push a lever or flip a switch to 
+open a secret door.  Read room descriptions carefully in order to find
+objects that you can manipulate.
+~
+
+0 FOLLOW GROUP ~
+Syntax: follow <character>
+Syntax: group
+Syntax: group <character>
+
+FOLLOW starts you following another character.  To stop following anyone else,
+just FOLLOW <yourself>.  To keep yourself from being followed, use the
+NOFOLLOW command.
+
+GROUP <character> makes someone who is following you a member of your group.
+Group members share experience points from kills and may use the GTELL and
+SPLIT commands.  If anyone in your group is attacked, you will automatically
+join the fight.
+
+If the <character> is already a member of your group, then GROUP will
+kick the <character> out of your group.  Characters can also leave your
+group by using a FOLLOW command to stop following you.
+
+GROUP with no argument shows statistics for each character in your group.
+
+You may FOLLOW anyone but you may only GROUP with characters within 8 levels
+of yourself.
+~
+
+0 GAIN~
+Syntax: gain list
+        gain <skill or group>
+        gain convert
+
+The gain command is used to learn new skills, once the proper trainer has
+been found.  The following options can be used with gain:
+
+gain list:    list all groups and skills that can be learned
+gain <name>:  add a skill or skill group, at the listed cost
+gain convert: turns 10 practices into one training session
+
+Gain uses training sessions, not practices. (see 'help train').
+
+Read the helps on the various spellgroups and skills to determine what
+you want to gain.  The helps will show you the minimum level you need to be
+to use a skill or the lowest level spell in a spellgroup.
+~
+
+0 GROUPS~
+Syntax: groups
+
+The GROUPS command shows which spell groups you have (both default and 
+groups that you have gained).
+~
+
+0 HEAL~
+Syntax: heal
+        heal <spell>
+
+The Temple of Devota and some other locations provide healers for the 
+assistance of adventurers.  The healer's services are generally free to 
+players of level 10 or below.  Higher level adventurers may be healed of
+their wounds and ills on a fee for service basis.  The HEAL command without
+an argument shows a list of the healer's services.  To receive healing, be
+sure you have sufficient money and type heal <name of spell>.
+
+For information on the heal spell used by those of the cleric class (and
+members of the cleric's guild), read help for HEALSPELL.
+~
+
+0 HELP~
+Syntax: help
+Syntax: help <keyword>
+
+HELP without any arguments shows a one-page command summary.
+
+HELP <keyword> shows a page of help on that keyword.  The keywords include
+all the commands, spells, and skills listed in the game.  Type HELP INDEX
+for an alphabetical listing of all keywords.
+~
+
+0 HOLD REMOVE WEAR WIELD~
+Syntax: hold   <object>
+Syntax: remove <object>
+Syntax: wear   <object>
+Syntax: wear   all
+Syntax: wield  <object>
+
+Three of these commands will take an object from your inventory and start using
+it as equipment.  HOLD is for light sources, wands, and staves.  WEAR is for
+armor.  WIELD is for weapons.
+
+WEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your
+inventory.
+
+You may not be able to HOLD, WEAR, or WIELD an item if its alignment does not
+match yours, if it is too heavy for you, or if you are not experienced enough
+to use it properly.
+
+REMOVE will take any object from your equipment and put it back into your
+inventory.  REMOVE ALL will remove all of your equipment, except for cursed
+items.
+
+Those with the appropriate skill may wield a second weapon.  For more
+information on this, read help for DUAL WIELD.
+~
+
+0 JOIN~
+Syntax: join <guildname>
+
+The JOIN command is used to join a guild.  It works only when you are in
+Melancholy's treehouse.  The possible guildnames are cleric, mage, thief, 
+and warrior.  Joining a guild costs 500 coins, which Melancholy will 
+take automatically when you use the join command.
+
+See also help on GUILDS.
+~
+
+0 KILL PKILL MURDER~
+Syntax: kill <name of mob>
+        murder <character>
+
+The KILL command is used to start a fight with a mobile.  You need to type
+kill only once per fight.
+
+PKILL is permanent setting. Once you become level 15, you may choose to 
+participate in pKilling, and once you have passed level 30, the option is
+no longer available.
+  
+To do this, you type PKILL and your password.  Once you set yourself to PKILL, 
+it is permanent, and under no circumstances will it be set back.  You will only
+be able to see who pKillers are by physically walking up to them and CONSIDERing 
+them.  
+
+To kill other players, use MURDER.  Player killing is only permitted
+for those who have selected this option (SEE ABOVE)  and there are 
+restrictions on the relative levels of the pkiller and victim.  
+Non-pKILL players may pkill or be pkilled only in the arena (SEE HELP
+ARENA).
+
+MURDER also works to kill mobiles.
+~
+
+0 NOFOLLOW  NOFOL~
+
+Syntax: nofollow
+        nofol
+
+NOFOLLOW toggles the follow flag, either on or off.
+
+If you have pets you need to get rid of, or people you don't want following 
+you (i.e. members of a castle with whom you are at war), you can use this
+command to prevent them from following you.
+
+In order to be grouped, you must be able to accept followers.
+
+The default for NOFOL is OFF (meaning you can accept followers), and you can
+check the status of the NOFOL flag with the AUTO command.
+~
+
+0 NOLOOT~
+
+Syntax: noloot
+
+NOLOOT toggles whether or not anyone can mess with your corpse.
+There are valid reasons why you might want someone to mess with your corpse:
+to retrieve it or to get certain items from it.  If your corpse is set NOLOOT
+then it cannot be picked up by, nor can objects be removed by, anyone else.
+
+The default for NOLOOT is on (i.e. your corpse cannot be looted).  You can
+check the status of this flag with the AUTO command.
+~
+
+0 NOSUMMON~
+
+NOSUMMON toggles whether or not you can be summoned, gated to, or cancelled
+by other players.  Read help on SUMMON, GATE and CANCEL for more information
+on these spells.  In general, you will want to turn NOSUMMON off only to 
+permit trusted wizard friends to assist you in transportation and in removing
+harmful spells.  
+
+The default for NOSUMMON is on (you cannot be summoned, gated to or cancelled).
+The status of this flag can be checked with the AUTO command.
+~
+
+0 NOTE NOTES~
+The following options are available:
+
+reading notes:
+note list       : show all notes (unread notes are marked with an N)
+note read       : either by number, or read next to read unread notes
+note remove     : removes a note that you wrote or are the target of
+
+writing new notes:
+note to         : sets the to line for a new note (name(s), immortal, all, 
+		  or the castle(s) name)
+note subject    : sets the subject for a new note
+note +          : adds a line to a new note (i.e. note + hi guys!)
+note -          : deletes the last line you typed (no argument required)
+note clear      : erase a note in progress
+note show       : shows the note you are working on
+note post       : posts a new note. This MUST be done to post a note.
+
+When you log in, you will be informed if there are unread notes waiting. Type
+note read (or just note) to scroll through them one at a time.
+
+You must be at least level 2 to use the note system.
+~
+
+0 ORDER~
+Syntax: order <character> <command>
+Syntax: order all <command>
+
+ORDER orders one or all of your charmed followers (including pets) to
+perform any command.  The command may have arguments.  You are responsible
+for the actions of your followers, and others who attack your followers
+will incur the same penalty as if they attacked you directly.
+
+Most charmed creatures lose their aggressive nature (while charmed).  However,
+they will become aggressive again when the charm wears off.  For that reason,
+charmed aggressive mobs should not be brought outside the areas they are
+normally found in.  
+~
+
+0 OUTFIT~
+Syntax: outfit
+
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest),
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+
+0 PASSWORD~
+Syntax: password <old-password> <new-password>
+
+PASSWORD changes your character's password.  The first argument must be
+your old password.  The second argument is your new password.
+
+The PASSWORD command is protected against being snooped or logged.
+~
+
+0 PRACTICE~
+Syntax: PRACTICE
+Syntax: PRACTICE <skill|spell>
+
+PRACTICE without an argument tells you your current ability level in all
+the skills and spells available to you.  You can check this anywhere.
+
+PRACTICE with an argument practice that skill or spell.  Your learning
+percentage varies from 1% (unlearned) to a maximum of 75%.  You will continue
+to improve in a skill or spell by using it as long as you are not at 1%.
+You must be at a guild master to practice.
+
+The higher your intelligence, the more you will learn at each practice
+session.  The higher your wisdom, the more practice sessions you will gain 
+each time you gain a level.  Unused sessions are saved until you do use them.
+~
+
+0 QUIT RENT SAVE~
+Syntax: quit
+Syntax: save
+
+SAVE saves your character and object.  The game saves your character every
+15 minutes regardless, and is the preferred method of saving.  Typing save
+will block all other command for about 20 seconds, so use it sparingly.
+(90+ players all typing save every 30 seconds generates a lot of lag.)
+You may not save until you are at least level 3.
+
+Some objects, particularly keys, may not be saved.  Objects more than two
+levels higher than your current level will also not be saved.
+
+QUIT leaves the game.  You may QUIT anywhere and when you re-enter the game 
+you will be back in the same room.
+
+QUIT automatically does a SAVE, so you can safely leave the game with just one
+command.  Nevertheless it's a good idea to SAVE before QUIT.  If you get into
+the habit of using QUIT without SAVE, and then you play some other mud that
+doesn't save before quitting, you're going to regret it.
+
+There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
+~
+
+0 RECALL /~
+Syntax: RECALL
+
+RECALL prays to the gods for miraculous transportation from where you are 
+back to the Temple of Devota in Dresden.  '/' is a synonym for RECALL.
+
+If you RECALL during combat, you will lose experience (more than for fleeing),
+and you will have a chance of failing (again, more than for fleeing).  This
+chance is based on your recall skill, although a 100% recall does not
+insure success.
+
+RECALL costs half of your movement points.
+
+RECALL doesn't work in certain god-forsaken rooms.  Characters afflicted by a
+curse may not recall at all.
+~
+
+0 REMORT~
+Syntax: REMORT <passwd> <class> <guild> <race>
+
+REMORT allows level 54+ to start over their career as a new reborn character,
+without loosing your character-name. Because of the difficulty of having to
+advance again, some rewards are there for the remorted characters. This depends
+on the number of times a character has remorted:
+
+Nr of Remorts:    Max Level    Level bonus      Extra Bonus            Title
+   1                 55              +1           None                 Master
+   2                 56              +2       Freedom Hunger & Thirst  Lord
+   3                 57              +3         Psionic Powers         Emperor
+
+NOTE: A character who remorts looses all the knowledge of his currenct character.
+      You'll start all over, just as you would have created a new character.
+      This means you'll loose all spells/skills you currently know.
+
+The extra bonusses are accumulative over the number of remorts. I.e. at the
+third time you remort, you get and Freedom Hunger and Thirst and the Psionic
+Powers.
+Hero questing at level 50 costs 1000 qps instead of the 500 for the first time.
+The class & guild to be selected has to be different as the one you are 
+currently in. This if you are W/M you can't have these selections on your remort.
+Remorting will remember all the classes/guilds you have been in. If you select a 
+class which has not a guild (i.e. MONK & NECRO) you have to type none as guild.
+The Monks have a race restriction of Dwarf & Human.
+The Necromancers have a race restriction of Elf & Human. 
+
+The classes you can select: mage, cleric, thief, warrior, monk and necro.
+The guilds you can select:  mage, cleric, thief, warrior and none (see above). 
+The races you can select:   human, elf, dwarf, hobbit and saurian.
+~
+
+0 ATTRIBUTE AFFECT REPORT SCORE WORTH~
+Syntax: affect
+Syntax: attributes
+Syntax: report
+Syntax: score
+Syntax: worth
+
+AFFECT shows spells you are currently affected by. When high enough level,
+it will show the spell affected by, the duration of the spells affects left,
+and the level of the spell cast.
+
+ATTRIBUTE shows a quick list of your attributes of Str, Int, Wis, Dex and
+Con in the same format as the SCORE command below.
+
+REPORT shows your current statistics (hit points, mana and movement) to you 
+and also announces them to other players in the room.  
+
+SCORE shows much more detailed statistics to you only.  Your ability scores 
+are shown as true value(current value), so for example Str: 15(23) means you 
+have a 15 strength from training, but a 23 strength from other factors 
+(spells or equipment).
+
+WORTH shows you a brief summary of your gold and experience points, including
+how much experience you need to gain the next level.
+~
+
+0 REST SLEEP STAND WAKE SIT~
+Syntax: rest
+Syntax: sleep
+Syntax: stand
+Syntax: wake
+Syntax: sit
+
+These commands change your position.  When you REST or SLEEP, you
+regenerate hit points, mana points, and movement points faster.
+However, you are more vulnerable to attack, and if you SLEEP,
+you won't hear many things happen.
+
+Use STAND or WAKE to come back to a standing position.  You can
+also WAKE other sleeping characters.
+
+For information on the sleep spell, see help SLEEPSPELL.
+~
+
+0 RUN~
+Syntax: run <direction> <distance>
+
+This command allows you to move through multiple rooms.  Specifying
+the distance is optional, and will default to 15 rooms, or until
+your run into a wall. Max distance that can be traveled is 25 rooms.
+Direction must be specified.
+~
+
+0 SACRIFICE~
+Syntax: sacrifice <object>
+
+SACRIFICE offers an object to the gods, who may reward you.
+The nature of the reward depends upon the type of object.
+~
+
+0 SCAN~
+Syntax: scan
+
+The SCAN command tells you what mobs are in surrounding rooms.  Only visible
+mobs will be shown, unless you are affected by the appropriate detection
+spells.  You cannot scan through a closed door. 
+~
+
+0 SCROLL~
+Syntax: scroll
+Syntax: scroll <number>
+
+This command changes the number of lines the mud sends you in a page (the
+default is 24 lines).  Change this to a higher number for larger screen
+sizes, or to 0 to disabling paging.
+~
+
+0 SKILLS SPELLS~
+Syntax: skills
+Syntax: spells
+
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+
+See also help for GAIN and GROUPS. 
+~
+
+0 SPLIT~
+Syntax: split <amount>
+
+SPLIT splits some gold between you and all the members of your
+group who are in the same room as you.  It's customary to SPLIT
+the gold after a kill.  However, this is most conveniently done using
+the AUTOSPLIT option.
+~
+
+0 TIME WEATHER~
+Syntax: time
+Syntax: weather
+
+TIME shows the game time, as well as the time the mud was last started,
+and the current local time for the host computer.
+
+WEATHER shows the current game weather.  
+
+For information about spells that affect the weather, see help WEATHERSPELLS.
+~
+
+0 TITLE~
+Syntax: title <string>
+
+Sets your title to a given string.
+
+The game supplies a title when your character is created and when you
+advance a level.  You can use TITLE to set your title to something else.
+~
+
+0 TRAIN~
+Syntax: train <str int wis dex con hp mana>
+
+TRAIN increases one of your attributes.  When you start the game, your
+character has standard attributes based on your class, and several
+initial training sessions.  You can increase your attributes by
+using these sessions at a trainer.  Trainers can be found in mud school,
+wandering town or in guilds. 
+
+It takes one training session to improve an attribute, or to increase
+mana or hp by 10.  You receive one training session per level.  Training
+sessions are also used to buy new skills and practices may be converted to
+trains to help you in your studies.  See help on GAIN for more information.
+
+The best attributes to train first are WIS and CON.  WIS gives you more
+practices when you gain a level and  CON gives you more hit points.
+In the long run, your character will be most powerful if you train
+both WIS and CON to their maximum (which depends on your race and class)
+before training anything else.
+~
+
+0 VISIBLE~
+Syntax: visible
+
+VISIBLE cancels your hiding and sneaking, as well as any invisibility,
+making you visible again.
+~
+
+0 WHERE~
+Syntax: where
+Syntax: where <character>
+
+WHERE without an argument tells you the location of visible players in the same
+area as you are.
+
+WHERE with an argument tells you the location of one character with that name
+within your area, including monsters.
+~
+
+0 WHO WHOIS~
+Syntax: who
+Syntax: who <level-range>
+Syntax: who <class or race>
+Syntax: who <class or race> <level-range>
+Syntax: whois <character>
+
+WHO shows the people currently in the game.  Some people may choose to
+remain unseen and won't appear when you use WHO.
+
+WHOIS provides information about a specific player, including their class
+and level.  That information may be useful in determining whether to respond
+to a request to group or in ascertaining that the person speaking to you is
+an immortal and should, therefore, really not be ignored.
+
+WHO without any arguments shows all of the (visible) people currently playing.
+
+With arguments, WHO can show players of certain classes or levels.
+For example:
+
+who 10          lists all players of level 10 or above
+who 15 20       lists all players between level 15 and 20
+who cleric      lists all clerics playing
+who immortal    lists all immortals playing
+who cleric 1 5  lists all clerics between levels 1 and 5
+who elf cleric  lists all elven clerics
+who <castle>    lists all members of a specified castle 
+
+Classes and races may be abbreviated.
+~
+
+0 WIMPY~
+Syntax: wimpy
+Syntax: wimpy <number>
+
+WIMPY sets your wimpy value.  When your character takes damage that reduces
+your hit points below your wimpy value, you will automatically attempt to flee.
+You will only flee if your character is not in a wait state -- i.e. has not
+been using combat commands like cast, trip and bash, and has not been
+tripped or bash by an enemy.
+
+WIMPY with no argument sets your wimpy value to 20% of your maximum hit points.
+
+Some monsters are wimpy.
+~
+
+0 !~
+Syntax: !
+
+! repeats the last command you typed.
+~
+
+0 NORTH SOUTH EAST WEST UP DOWN NORTHEAST NORTHWEST SOUTHEAST SOUTHWEST~
+Syntax: north
+Syntax: south
+Syntax: east
+Syntax: west
+Syntax: up
+Syntax: down
+Syntax: northeast
+Syntax: ne
+Syntax: northwest
+Syntax: nw
+Syntax: southeast
+Syntax: se
+Syntax: southwest
+Syntax: sw
+
+Use these commands to walk in a particular direction.  The ordinary directions
+are usually abbreviated as N, S, E, W, U and D.   The diagonal directions 
+may be abbreviated as NE, NW, SE and SW.  If you are using a mud client to
+access the game, you may need to alter some of the files to allow for the
+abbreviated directions.
+~
+
+0 BUG IDEA TYPO~
+Syntax: bug <message>
+Syntax: idea <message>
+Syntax: typo <message>
+
+These commands are essentially an artifact of mud history.  They still
+exist and record a lot of bugs, ideas and typos to the implementors, but
+it is preferable to use the bug and idea note forums.  See help NOTE for
+more information.
+~
+
+0 GOSSIP . INFO LEVELING MUSIC Q/A SHOUT YELL~
+Syntax: gossip <message>
+Syntax: gossip
+Syntax: info
+Syntax: music <message>
+Syntax: music
+Syntax: question <message>
+Syntax: question
+Syntax: shout <message>
+Syntax: yell <message>
+
+ToC supplies a number of public communication channels.  Type the name of
+a channel with a message to use on of these channels.  Typing the name of
+the channel alone turns that channel off.  
+
+SHOUT sends a message to all awake players in the world.  To curb excessive
+shouting, SHOUT imposes a three-second delay on the shouter.  In addition,
+players must be at least level 3 in order to shout.
+
+GOSSIP is a variant of SHOUT (without the delay).  '.' is a synonym
+for GOSSIP.  GOSSIP is the most frequently used public channel on ToC.
+
+YELL sends a message to all awake players within your area.
+
+In general, most public communication between players will be on the gossip
+channel.  The Q/A  (Syntax: question) channel is used for asking questions
+about items.  Use the MUSIC channel when you wish to sing.
+If what you have to say is primarily of interest only to one other player,
+you might want to use a private channel (e.g. TELL) instead.
+Note that you must be at least level 2 to use the public channels.
+
+The INFO channel displays automatic messages when a player attains a new
+level.  The LEVELING channel is intended for congratulatory messages to
+those who level.
+
+Typing a channel name without a message turns that channel off.
+
+See also helps on CHANNELS, CC CGOS GTELL DEAF QUIET REPLY SAY and TELL.
+~
+
+0 DEAF QUIET~
+Deaf allows you to turn off your shout channel.
+Type deaf once to toggle the shout channel off, and again to toggle it
+back on.  The shout channel is used to give information to everyone on
+the mud, and sometimes its overuse leads to considerable spamming.
+
+Quiet allows you to toggle on/off all channels so all you will hear are
+emotes and says.
+~
+
+0 GTELL REPLY SAY TELL~
+Syntax: gtell <message>
+Syntax: say   <message>
+Syntax: tell  <character> <message>
+
+All of these commands send messages to other players.  GTELL sends a message 
+to all of the characters in your group, wherever they are, even if they are
+sleeping or stunned or dying.
+
+SAY sends a message to all awake players in your room.  The single quote '''
+is a synonym for SAY.
+
+TELL sends a message to one awake player anywhere in the world.
+
+REPLY sends a message to the last player who sent you a TELL.  REPLY will work
+even if you can't see the player, and without revealing their identity.  This
+is handy for talking to invisible or switched immortal players.
+~
+
+10 CGOS CASTLECHAT CC -~
+Syntax: cgos <message>
+Syntax: cc <message>
+
+CGOS allows you to send a message to members of all castles.
+
+CC is used to send  message only to members of your castle.  The dash, '-'
+is a synonym for CC.
+
+Type a channel name without a message to turn that channel off.
+~
+
+51 HERO =~
+Syntax: hero <message>
+
+A channel is provided for heros to communicate with one another.  This is
+similar to the other public channels, like gossip, etc. The equals sign,
+'=' is a synonym for hero.
+
+Immortals may also use the hero channel.
+~
+
+0 CHANNELS~
+Syntax: channels
+
+The CHANNELS command is used to tell you the status (on or off) of all of
+your communications channels, e.g. gossip, shouts, info, etc..
+
+To toggle the on/off status of a channel, type the name of that channel.
+~
+
+63 AREAVNUMS~
+Revised 7/19/96 - Soul.
+
+00  limbo     20  catacomb     40  moria        60  haon       80  mega1
+01  smurf     21  hood         41  moria        61  haon       81  -
+02  -         22  draconia     42  dresden      62  -          82  -
+03  plains    23  mahntor      43  dresden      63  arachnos   83  marsh
+04  -         24  dresden      44  dresden      64  -          84  -
+05  -         25  dresden      45  dresden      65  dwarven    85  -
+06  ofcol     26  arena        46  dresden      66  daycare    86  -
+07  camelot   27  horde        47  dresden      67  northsea   87  kerofk
+08  club      28  trollden     48  dresden      68  northsea   88  kerofk
+09  olympus   29  firenewt     49  -            69  -          89  grove
+10  uargo     30  nether       50  eastern      70  sewer      90  -
+11  shire     31  nether       51  drow         71  sewer      91  dylan
+12  -         32  school       52  thalos       72  sewer      92  canyon
+13  htower    33  -            53  mirror       73  sewer      93  galaxy
+14  htower    34  -            54  -            74  sewer      94  mobfact
+15  gnome     35  midennir     55  ofcol        75  astral     95  newthalo
+16  wyvern    36  -            56  tarin        76  ultima     96  newthalo
+17  wyvern    37  school       57  zoo          77  ultima     97  newthalo
+18  haven     38  ratslair     58  mid_ruin     78  valley     98  -
+19  rand      39  dresden      59  abyss        79  redferne   99  valhalla
+100 glitter   101 glitter      110 ancalado     120 froboz     130 lakes
+132 solace    133 solace       134 hell         135 hell       140 whouse
+150 campus    160 pirate       170 AG           171 highland4  172 highland
+173 highland  174 istari       175 consortium   176 dominion   177 landoz
+178 landoz    180 gelidia      190 -            191 rome       201 prison
+203 quest1    210 -	       215 -            220 -          225 -
+230 gcult     240 faerie       241 coven        242 crypt      243 chess
+244 parinn    245 -            246 -            247 -          248 -
+250 mountain  251 mushroom     252 underdrk     253 Nethril    254 Nethril
+255 Nethril   280 pyramid      281 dkrealm      282 dkrealm    283 dkrealm
+290 Korzath   291 korzath      292 korzath2     293 world      294 world
+295 lud       296 reserved     297 reserved     298 reserved   299 reserved
+300 abbeyrd   301 abbeyrd      302 finalj       303 finalj
+~
+
+
+63 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your possession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.
+Strung extended descriptions on objects are not kept, however.
+~
+
+69 ADVANCE~
+Syntax: advance <character> <level>
+
+ADVANCE sets a character's level to the specified value.  It is the
+only way to create new immortal characters within the game.  ADVANCE
+may also be used to demote characters.
+~
+
+70 TRUST~
+Syntax: trust <character> <level>
+
+TRUST sets a character's trust to the specified level.  This is similar to
+advancing the character for accessing immortal commands, but has no effect
+on combat strength, et cetera.  You can give more trust to mortal (or
+immortal) characters to give them access to more power without messing up
+the character.  You can also restrict a player's trust to less than their
+natural level.
+
+A trust of 0 means to use the character's natural level again.
+~
+
+67 ALLOW BAN~
+Syntax: allow   <site>
+        ban     <site>
+        ban
+
+BAN <site> prohibits players from that site from logging in.  BAN with
+no arguments lists the banned sites.  ALLOW <site> removes a site from
+the ban list.
+
+The site ban test works by suffix comparison, so if you ban 'foo.edu',
+all sites within 'foo.edu' are banned as well.
+
+Site bans are not saved; every time the server is rebooted, the site
+ban list is cleared.
+~
+
+65 GATHER~
+Syntax: GATHER <object name>
+        gather <object name> <character>
+        gather <object vnum>
+
+***WARNING***
+This command is very powerful.  Upmost discretion must be taken
+in its use.
+
+The command will gather all items in the game that match the object
+fields name. Example:
+
+gather sword
+
+This will gather all items that have the word 'sword' in the
+'name' field of the object.
+
+This command should only be used to gather quest items that are
+no longer in use, or objects that are suspected of being a bug
+in the game.
+
+The second form of the gather command, with a character's name as the 
+argument, will gather all of the objects that match the name from that 
+specific character.
+
+The third version will gather all objects that have a corresponding
+vnum.
+~
+
+69 REBOOT SHUTDOWN~
+Syntax: reboot
+        shutdown
+
+Reboot shuts down the server.  When the normal 'startup' script is used
+to control the server, a delay of fifteen seconds will ensue (to allow
+old connections to die), followed by a reboot.
+
+Shutdown shuts down the server and prevents the normal 'startup' script
+from restarting it.
+
+Never, ever, shutdown the mud without consulting Eclipse, Gravestone or
+Soulcrusher.
+~
+
+66 WIZLOCK NEWLOCK~
+Syntax: wizlock
+        newlock
+
+Wizlock and newlock both block login attempts to ToC Mud.  Wizlock locks
+out all non-gods (i.e. level less than 62), except for link-dead players who
+are returning.  Newlock only locks out new character generation, typically
+used for preventing a spammer from returning.  Wizlocking should be avoided,
+and newlocking should be accompanied by mail or a note to the implementors.
+
+A god must be at least Supreme level to wizlock the game.
+~
+
+67 DENY UNDENY~
+Syntax: deny <name>
+        undeny <name>
+
+Deny locks a character out of a game permanently, rendering their character
+name unusable.  Use the undeny command to allow to character to play again.
+
+~
+
+67 DISCONNECT DUMP~
+Syntax: dump <name>
+
+Disconnect breaks a player's link to the game, dumping them back to the telnet
+prompt.  This is a non-lethal way of getting rid of spammers and annoying
+players.
+~
+
+64 FREEZE~
+Syntax: freeze <name>
+
+FREEZE <character> is a toggle which prevents a character from issuing any
+commands at all. It can be removed from within the game, so freezing a
+troublemaker is usually a better option than they deny command.
+~
+
+63 FORCE~
+Syntax: force <character> <command>
+Syntax: force all <command>
+
+FORCE forces one character to execute a command, except of course delete.
+
+Below level 67 force can only be used on mobiles, and force all is
+unavailable.  You also cannot 'force orc murder hugo', for example.
+
+FORCE 'all' forces all player characters to execute a command.
+This is typically used for 'force all save'.
+~
+
+68 MAXLOAD~
+Syntax: maxload set <vnum> <amount>
+        maxload list
+        maxload pla <vnum>
+
+MAXLOAD sets, lists the amount of objects the game should load depending on
+vnum. Maxload set & Maxload pla are level 70 commands, while Maxload list
+can be done at 68.
+
+In case of maxload set you have options for amount:
+-1        -> remove the maxload
+0..number -> add the maxload
+
+Remember to check, because if the maxload is lower as the sum of in_game
+and with the players, the item will not load anymore, until enough items
+got extracted so that the sum of the items with the players and in the game
+is LESS as the maxload value specified. Which can take a while....
+~
+
+63 SOCKETS~
+Syntax: sockets
+        sockets <name>
+        sockets ip <ip address>
+
+SOCKETS reports all of the visible users connected to the server, including
+users in the process of logging in.  The two numbers inside brackets are the
+channel number and the 'connected' state.  The 'connected' states are listed in
+merc.h:
+
+PLAYING                      0
+GET_NAME                     1
+GET_OLD_PASSWORD             2
+CONFIRM_NEW_NAME             3
+GET_NEW_PASSWORD             4
+CONFIRM_NEW_PASSWORD         5
+GET_NEW_RACE                 6
+GET_NEW_SEX                  7
+GET_NEW_CLASS                8
+GET_ALIGNMENT                9
+DEFAULT_CHOICE              10
+GEN_GROUPS                  11
+PICK_WEAPON                 12
+READ_IMOTD                  13
+READ_MOTD                   14
+BREAK_CONNECT               15
+RETRY_PASSWORD              16 
+COPYOVER_RECOVER            17
+
+The optional name argument shows the site of a player, or optional can be used
+to identify switched gods (i.e. socket orc shows the name of anyone switched
+into an orc).
+
+You can also use the IP argument to list only the players from a certain site.
+Example:  socket ip nowhere.com
+
+~
+
+65 LOAD~
+Syntax: load mob <vnum>
+        load obj <vnum> <level>
+
+The load command is used to load new objects or mobiles (use clone to
+duplicate strung items and mobs).  The vnums can be found with the vnum
+command, or by stat'ing an existing mob or object.
+
+Load puts objects in inventory if they can be carried.  Otherwise they are
+put in the room.  Mobiles are always put into the same room as the god. Old
+format objects must be given a level argument to determine their power, new
+format objects have a preset level that cannot be changed without set.
+(see also clone, vnum, stat)
+~
+
+67 SLOOKUP~
+This command will show the slot number, and skill number used by the
+system. It is useful for finding out numbers to use when 'setting'
+a potion or scroll, and various other items.
+~
+
+66 SET~
+Syntax: set mob   <mobile> <field> <value>
+        set obj   <object> <field> <value>
+        set room  <number> <field> <value>
+        set skill <char>   <name>  <rating>
+        set skill <char>   all     <rating>
+
+The set command is used to change the numerical values of the various data
+structures. Type set <class> without an argument to see a listing of options.
+Set skill all (pc's only) will set all the character's skills to the value
+given.  Use string to change the strings on an object or mobile.
+(see also string, stat)
+~
+
+64 STRING~
+Syntax: string obj <field> <string>
+        string mob <field> <string>
+
+The string command changes the various strings associated with an object or
+mobile.  A full list of fields can be viewed by typing string obj or string
+mob.  Sorry, multi-line strings are not yet supported.
+
+For the action_to_room and action_to_char strings.  Use $p for the object
+name and $n for the player name if you want those in the message.
+
+DO NOT USE ANY OTHER VARIABLES, DOING SO WILL CAUSE THE MUD TO CRASH.
+~
+
+63 NOCHANNEL NOEMOTE NOSHOUT NOTELL~
+Syntax: nochannel <character>
+        noemote   <character>
+        noshout   <character>
+        notell    <character>
+
+Noemote, noshout, and notell are used to muffle other characters, by
+preventing them from emoting, shouting, and telling, respectively.
+Characters who are noshout'ed or notell'ed will also not receive those
+forms of communication.
+
+The nochannel command is similar, but more drastic. It prevents the victim
+from using any of the channels (gossip, auction, Q/A, music) on the game.
+Nochannels usually result from swearing or spamming on public channels.
+~
+
+66 PARDON~
+Syntax: pardon <character> killer
+        pardon <character> thief
+
+Pardon pardons a player for their crimes.  Don't pardon a player unless you
+are sure they deserve it.  
+~
+
+66 PURGE~
+Syntax: purge
+        purge <character>
+
+Purge is used to clean up the world.  Purge with no arguments removes all the
+NPC's and objects in the current room.  Purge with an argument purges one
+character from anywhere in the world.
+
+Purge will not get rid of PC's, or objects or mobiles with a NOPURGE flag
+set (i.e. the pit, the fountain, shopkeepers).  Mobiles may be
+purged if they are called directly by name.
+~
+
+
+66 RESTORE~
+Syntax: restore <character>
+        restore room
+        restore all
+
+Restore restores full hit points, mana points, and movement points to the
+target character.  It also heals poison, plague, and blindness.
+
+Restore room (or restore with no argument) performs a restore on every player
+in the room, restore all does the same for all connected players. Restore all
+is only usable by creators and implementors.  Restore should be used sparingly
+or not at all.
+~
+
+66 SLAY~
+Syntax: slay <character>
+
+Slay kills a character in cold blood, no saving throw.  Best not to use this
+command on players if you enjoy being a god.
+~
+
+63 TRANSFER TELEPORT~
+Syntax: transfer <character>
+        transfer all
+        transfer <character> <location>
+        transfer all         <location>
+
+Transfer transfers the target character, or ALL player characters,
+to your current location (default) or to a specified location. Trans all
+should almost never be used, as 100 players popping into one room can have
+horrible effects on slow links. Teleport is a synonym for transfer.
+~
+
+63 AT~
+Syntax: at <location> <command>
+
+At executes the given command (which may have arguments) at the given
+location.  The location may be specified as a vnum, as the name of
+a mobile, or as the name of an object.
+
+At works by temporarily moving you to that location, executing the
+command, and then moving you back (if the command didn't change your
+location).
+~
+
+64 ECHO GECHO PECHO~
+Syntax: echo  <message>
+        gecho <message>
+        pecho <character> <message>
+
+These commands all perform similar functions.  Echo sends the message to
+all characters in the same room as the user, with no indication of who sent
+it.  Gecho does the same for all players connected to the game, and pecho
+sends the message to the player specified as the target.  Any higher-level
+god will see a prompt in front of your message, informing him or her that it
+is an echo.
+~
+
+62 GOTO~
+Syntax: goto <location>
+
+Goto takes you to a location.  The location may be specified as a vnum,
+as the name of a mobile, or as the name of an object.
+
+You may not Goto a room if it is PRIVATE and has two (or more) characters
+already present, or if it is SOLITARY and has one (or more) characters
+already present. Some other rooms are barred to players below a certain
+god level.
+~
+
+63 EXPLODE~
+Syntax: explode container <container name>
+        explode room
+
+This command will scatter mobs in rooms, or items in containers in your
+inventory all over the MUD. It's main use is to simplify placing quest
+oriented stuff into the game. Item 26 is a generic item with a no_locate
+flag on it that can be used as a quest item.
+~
+
+62 HOLYLIGHT WIZINVIS~
+Syntax: holylight
+        wizinvis <level>
+
+Holylight is a toggle that allows you to see (almost) every character and
+mobile in the game.  With holy light, you can see what's in the game more
+easily.  Without holy light, you can only see what mortal players see.
+
+Wizinvis takes a level argument, and will make you invisible to all players of
+a lower level than your invisibility level.  It defaults to the maximum
+(your level) if no argument is given.  Wizi 70 characters are totally
+invisible.
+~
+
+65 MEMORY~
+Syntax: memory
+
+Memory reports the size of the mud.
+
+The 'Mobs' and 'Objs' lines report the number of types of mobiles and objects,
+not the number of instances currently in the game.
+
+The 'Strings' line shows memory used by area-file strings.  These strings have
+a maximum limit, which is also shown.
+
+The 'Perms' line shows permanently allocated memory blocks.  There is no limit
+on the number and size of these blocks.
+~
+
+65 VNUM~
+Syntax: vnum <name>
+        vnum <obj or mob> <name>
+        vnum skill <name>
+
+Vnum finds all objects and mobiles with a particular name, and prints out
+the results.  Use vnum obj or vnum mob to limit the search.  This vnum is
+very useful for loading. Vnum skill returns the skill number (for set) and
+the slot number (for making new zones) of a skill name.
+(see also load)
+~
+
+63 STAT~
+Syntax: stat <name>
+        stat mob  <name>
+        stat obj  <name>
+        stat room <number>
+
+The stat command gives you detailed information on an object, mobile, or room
+within the game.  Without a class argument, the command will return a object
+(if found), a mobile (if no object exists, but a mobile does), or a room
+(if a number is  given).  Stat room with no argument stats the room you are
+standing in.  Stat can be used to find room vnums for goto.
+(see also goto, transfer)
+~
+
+62 CLOAK~
+Syntax: cloak <level>
+
+Cloak will make you invisible to anyone not in the same room with you.  Anyone
+is higher level than the level you set your cloak at can see you anywhere though.
+~
+
+69 BACKUP~
+Syntax: backup
+        backup now
+
+This command will perform a backup on all of the pfiles.  Typing backup by itself
+will show when the next scheduled backup will take place.
+
+~
+
+69 PSTAT~
+Syntax: pstat
+
+Pstat shows you various statistics of all the players connected to the mud.
+~
+
+62 MWHERE OWHERE RWHERE GWHERE~
+Syntax: mwhere <name>
+Syntax: owhere <name>
+Syntax: rwhere <string>
+Syntax: gwhere
+
+Mwhere shows you the locations of all mobiles with a particular name.
+Owhere shows you the location of all objects with a particular name.
+Gwhere shows you the locations of all the players connected to the mud.
+
+Rwhere shows you the room vnum and name of any room matching any part of
+the string that you input.  The rwhere command is not case sensitive.
+
+Example:
+rwhere hermit
+
+Hermit's hut                             [  331]
+Hermit's Lair                            [ 1589]
+The Hermit's Corner                      [ 6373]
+
+
+~
+
+62 QFLAG~
+Syntax: qflag <player>
+
+This command sets a (Quest) flag on players that will keep them from losing 
+experience or equipment during quests.  Remember to remove the quest flag from
+the player after the quest is over.  The flag will automatically be removed when
+the player quits otherwise.
+
+~
+
+64 PEACE~
+Syntax: peace
+
+Peace causes all characters in a room to stop fighting. It also strips the
+AGGRESSIVE bit from mobiles.
+~
+
+62 POOFIN POOFOUT~
+Syntax: poofin  <message>
+Syntax: poofout <message>
+
+The standard messages for goto are 'arrives in a swirling mist' and
+'leaves in a swirling mist'.  You can replace these messages with messages of
+your own choosing using the poofin and poofout commands.  These messages
+must include your name somewhere in the string.
+
+Poofin and poofout only show to characters who can see you.
+(see also goto)
+~
+
+66 LOG SNOOP~
+Syntax: log   <character>
+        log   all
+        snoop <character>
+
+Log <character> causes all of a character's commands to be logged into
+the server's log file.  Like Freeze, it is a permanent character toggle.
+Logs may only be used by creators and implementors, and should be accompanied
+by mail to the implementors.
+
+Certain commands (Password) are protected against log.  Conversely, certain
+commands (especially immortal commands) are always logged.
+
+Log all logs all character commands.  It is a server-wide toggle; it does not
+persist across reboots. Please do not use this unless you tell an IMP first.
+
+Snoop shows you a copy of all the input and output going to a character.
+The character must have an open channel.  You may snoop more than one
+character at a time. Try to respect privacy.  This command should only be 
+used if a character is suspected of some kind of cheating, or you need to
+watch someone do something to find a bug in the game.  In the latter case, 
+it is a good idea to ask for permission first.  Do not use snoop just to
+be nosy.  Make sure you have a reason to use it, because you may be 
+questioned later about why you snooped someone.
+
+Snoop yourself to cancel all outstanding snoops.
+~
+
+64 SWITCH RETURN~
+Syntax: switch <character>
+        return
+
+Switch switches you into the body of another character (who must not
+already have a descriptor, e.g. you can't switch into a PC). You also cannot
+switch into link-dead PCs.
+
+Return returns you to your original body.
+~
+
+62 IMMTALK :~
+Syntax: immtalk <message>
+        immtalk
+
+Immtalk sends a message to all immortals.  : is a synonym for immtalk.
+Using this command with no argument turns off the immortal channel (or
+turns it back on).
+~
+
+62 WIZHELP~
+Syntax: wizhelp
+
+Wizhelp provides a list of all the immortal commands available to you.
+~
+
+65 EDIT~
+Syntax: edit <field> <arguments>
+Where field is exit
+~
+
+62 SHOWHUNT ~
+Syntax: showhunt
+
+Shows the number of hunting mobs in the game.
+~
+
+62 HPARDON~
+Syntax: hpardon <character>
+        hpardon all
+
+Stops a hunt.
+~
+
+67 RESTORECHAR~
+Syntax: restorechar <player> <date>
+
+Restores a character's pfile as of the specified date.  Date format is, 
+for example, Jun.1.  Restorechar is intended for use in restoring characters
+with bad pfiles, not those who have deleted themselves.
+~
+
+67 SWEDISH~
+Syntax: swedish <character>
+
+Makes the victim talk like a swede.  Remember to remove it from the player 
+before you or they leave.
+~
+
+63 WIZINFO~
+Syntax: wizinfo
+
+WIZINFO toggles whether or not you see WIZINFO messages, telling you who
+has logged in, logged out, lost link, etc..
+~
+
+68 WHINE~
+Syntax: whine <character>
+
+Flags target character as a "WHINER", this prevents them from noting to 
+all or immortal, and causes cityguards to taunt them incessantly. This
+command is NOT to be abused!
+~
+
+68 NONOTE~
+Syntax: nonote <character>
+
+This command completely removes target character's noting privileges. 
+This is to be used only as a last resort for players that have 
+consistently abused their note privilege.
+~
+
+
+0 $~
+
+#$
+

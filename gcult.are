@@ -1,0 +1,440 @@
+#AREA {25+}   Graves  Shou Lung~
+
+
+#MOBILES
+#23001
+monk quiet~
+The Quiet Monk~
+A small man sits here, quietly looking into the lotus pond.
+~
+This small man reminds you of one of the many fox'es you have seen scampering
+around the forest near by. His shaved head does not hide the fact that he 
+once had red hair. Clad in silk vestments of orange and red, he only glances
+at you quickly before returning to his contemplations of the pond.
+~
+human~
+BGQR CDEFJOTVZ AB 1000 S
+30 6 200d2+65 100d1+75 5d5+17 17
+-3 -5 -2 -10 
+ACEFN ABLN IJKPQ M 
+8 8 1 150
+0 0 M 0
+#23002
+master wind~
+The Master of Wind~
+The master meditates here in quite contemplation.
+~
+The master is a small wiry man of medium build. Clad in the orange and white
+silk vestments of the order, he also dons the ivory stole of leadership. As
+you enter the room, the master glances quickly at you and then returns to
+his meditations. One peculiar fact that catches your attention, is that as
+you get closer to the master, the sound of the wind becomes louder and 
+louder, maybe this is the person you seek for enlightenment.
+~
+human~
+BEGKMV CDEFGHNTV 1000 S
+60 19 200d2+5560 100d1+410 5d8+15 17
+-15 -15 -15 -30
+ACDEFHI ABCNP DIJKL M 
+8 8 1 500
+0 0 M 0
+#23003
+guard~
+A Temple Guard~
+A strong looking warrior watches your ever action.
+~
+Tall and clad in the finest armor you have ever seen, this temple guard is
+more than able to complete his assignment to protect this establishment. Many
+are the foolish adventurers that have tried desecrate the confines of this
+sacred place, if you look closely you can see the notches of those who failed
+marked on the pommel of this guards sword.
+~
+human~
+CGMT CDEFGHTV 1000 S
+40 9 200d2+300 100d1+50 5d6+9 17
+-6 -6 -6 -6
+ACEFJKNU ABENQR FK M 
+8 8 1 150
+0 0 M 0
+#23004
+djinn~
+A Djinn~
+A VERY ugly djinn is glaring at you here.
+~
+Erm this is quite an ugly fellow, kinda reminds you of your favorite aunt 
+hilda.....blach.
+~
+human~
+CDE H 1000 S
+51 30 200d2+5000 100d1+500 10d10+10 17
+-20 -20 -20 -20
+0 ABC 0 0
+8 8 1 500
+0 0 L 0 
+#0
+
+#OBJECTS
+#23001
+sword guardian~
+A Guardian's Sword~
+A Bright metallic blade lies in the dust.~
+steel~
+5 ABKMUV AN
+1 5 6 21 DE
+40 25 3500 P
+E
+sword~
+A brilliantly glowing sword lies here in the dust. As you stare upon its 
+beautiful craftsmanship, you can feel the potential of the blade upon your
+soul..This is a weapon for those who fight for good, let those of evil
+fear the sting of this blade.
+~
+A
+1 1
+A
+2 -1
+A
+18 2
+A
+19 2
+#23002
+vestments~
+Orange Vestments~
+A set of orange silk vestments lie on the ground.~
+silk~
+9 AK AD
+6 7 5 20 0
+30 9 650 P
+E
+vestments~
+Beautiful orange vestments made of the purest silk, flow freely thru your 
+hands, The owner of these must be quite upset at their loss.
+~
+A
+4 2
+A
+12 20
+A
+24 2
+#23003
+leader stole~
+A Leaders Stole~
+An ivory white stole hovers close to the ground.~
+silk~
+9 ABKPUV AC
+8 12 9 20 0
+50 10 3000 P
+E
+stole~
+A beautiful white stole that seems to be maid of an ivory white material, you
+cannot easily identify its make, but if you look closely you can just barely
+make out some characters sewn into the fabric near the edge.
+~
+E
+characters~
+You peer intently at the characters on the stole and read this message from 
+them...To the owner of this stole..let it be know that if you are not a
+follower of the Shou cult, Let your name be struck from the book of life, and
+let your days on this earth be numbered.
+~
+A
+3 1
+A
+4 1
+A
+9 10
+A
+13 -15
+A
+19 2
+#23004
+pond lotus~
+A lotus pond.~
+A small quiet pond filled with lotus flowers is here.~
+marble~
+25 UV 0
+1000 1000 0 0 0
+0 4000 0 P
+E
+pond~
+Gentle waters stir with the moving of the wind, and small lotus plants adorn
+this pond in quiet serenity. All are welcome to rest near or drink from the
+waters of the pond...and may enlightenment come from those who meditate here.
+~
+#23005
+vortex~
+The Wind Vortex~
+A miniture vortex of violent winds swirls in the center of the room.~
+wind~
+30 UV 0
+1 0 0 0 0
+0 4000 0 P
+E
+vortex~
+Swirling winds gather at the center of this room to form what looks like a 
+miniture tornado.
+~
+#23006
+bottle~
+A Bottle~
+A small voice that comes from this bottle you see is saying 'Hey pal let 
+me out I'm getting a bit cramped in here...pleeeeese!?!?~
+glass~
+36 0 AO
+0 0 0 0 0
+62 5 500 P
+#0
+
+#ROOMS
+#23001
+A Mountain Path~
+You find yourself on a mountain path leading upwards into the dark forest 
+above. Birds and butterflys float gently on the winds around you, and you
+notice the supreme harmony of the place around you. Up ahead in the distance
+you can just barely make out the styalized roof of some structure.
+~
+34 0 3
+D0
+A path up the mountain.
+~
+~
+0 -1 23002
+S
+#23002
+The Path Continues.~
+You have reached a point in the path that takes a sharp turn to the 
+northwest. Just up ahead you can make out the entrance to what looks like a
+temple of sorts. If you look in just the right spot you can barely make out
+the figure of a man standing near the entrance to the structure. All in the
+forest around you has fallen silent, and as you move yourself farther along
+the path, each step seems to come with some trepidation.
+~
+34 0 3
+D2
+Walking back on the path.
+~
+~
+0 -1 23001
+D7
+Entrance of the temple.
+~
+~
+0 -1 23003
+S
+#23003
+Entrance to the Temple.~
+A tall white marble building rises up our of the surrounding forest. Blue
+black marble stairs lead to the Annex entrance to what you think must be a
+temple of some sort. Standing above you, quite near the entrance to the
+temple? is a man clad in orange and white vestments.
+~
+34 0 3
+D8
+Back on the Path.
+~
+~
+0 -1 23002
+D0
+Into the Annex.
+~
+~
+0 -1 23004
+S
+#23004
+The Annex~
+Tall white marble colums mark the entrance into what must definatly be a 
+temple. As you walk among the giant sentinals you are watched by a very
+suspicious man. To the north you can just make out what looks like a small
+pond. And near the entrance you see a sign.
+~
+34 0 3
+D2
+On the Stairs.
+~
+~
+0 -1 23003
+D0
+The lotus pond.
+~
+~
+0 -1 23005
+E
+sign~
+Welcome brave adventurers, you have finally reached the last stronghold of 
+the Shou empire, enter if you will and partake of the teaching's of a once
+great race...but be warned..only those of pure heart and conscience may enter
+and maybe if you are brave of heart, and quick of though, you may join 
+forever the bretheren of this temple.
+						-The Monks of Shou.
+~
+S
+#23005
+The Lotus Pond~
+You gasp in amazement as you walk into one of the most beautiful places you
+have every know to exist. Small birds, and thousands of butterflies fly
+peacefully upon the wind here, creating a splash of a thousand colors, and a
+song to fill the heart. Nestled quietly at the center of this courtyard, a
+small pond filled with lotus flowers lies. Near the pond sits a man clad in
+orange and white vestements...He stares into the pond, watching the fleeting
+blurs, and flashes of color from the host above. Exits lead to the north,
+east and the west.
+~
+34 0 0
+D2
+To the Annex.
+~
+~
+0 -1 23004
+D0
+To dark to tell.
+~
+~
+0 -1 23006
+D1
+To dark to tell.
+~
+~
+0 -1 23007
+D3
+To dark to tell.
+~
+~
+0 -1 23008
+S
+#23006
+The Overlook.~
+After seeing the last room you though you would never be breath taken again,
+but you were hasty in your decision. A large airy room overlooks the 
+mountains below the temple. You can see why the temple was built at this 
+location, if only for its natural beauty. Sitting quietly at the center of 
+the room you can see a small wiry man, clad in the orange and white vestments
+of this order, and also wearing a snowy white stole. A large window adorns 
+the north wall, and the only exit is the one to the south.
+~
+34 0 0
+D2
+The Lotus Pond.
+~
+~
+0 -1 23005
+E
+window~
+You gasp in amazement as you over look the forest below the temple. Mists
+cling to the mountains like puffs of cotton blowing, and swaying in a field.
+The sky above is blazing with a multitude of colors, many of which you have
+never seen before. You also notice the soft purring of the wind, but 
+interesting...you can't feel its touch on your face.
+~
+S
+#23007
+A Hallway.~
+Paintings and art line this white marble hallway, each depecting the great
+emperors of the anchient Shou empire. Bronze statuetes line the green marble
+floor as you follow the twisting hallway to the northeast.
+~
+34 0 0
+D3
+The Lotus Pond.
+~
+~
+0 -1 23005
+D6
+A Place to rest.
+~
+~
+0 -1 23009
+S
+#23008
+A Marble Hallway.~
+This hallway show superior craftsmanship in its construction. Black Marble
+intertwines with the white, making a pattern that reminds you of the patterns
+the wind makes. Jade colored marble lines the floor as you follow it towards
+a door to the northwest.
+~
+34 0 0
+D1
+The Lotus Pond.
+~
+~
+0 -1 23005
+D7
+A Green Marble Door.
+~
+~
+1 -1 23010
+S
+#23009
+A Place to rest.~
+Carpets and pillows are strewn about the floor, reminding you of a room that
+has been attacked by children. This seems like a nice place to sit and heal
+from the wounds and hardships you have faced in the past days.
+~
+34 TUK 0
+D9
+A Hallway.
+~
+~
+0 -1 23007
+S
+#23010
+The Vortex~
+You gasp in amazment upon opening the door to this room, for standing at the
+center of it, is what looks like a miniture tornado Maybe this is the place
+you have been hearing all the wind sounds coming from. Working up your nerve
+you close the door, and move further into the room to investigate.
+~
+34 0 0
+D8
+A Hallway.
+~
+~
+1 -1 23008
+S
+#23011
+The High Passes~
+You stand breathlessly at the peak of a small mountain, around you is a 
+panorama of beautiful landscapes. Light mists cling to the top of this place
+and the sky is a beautiful shade of midnight blue. In fact you can see 
+the stars twinkling quietly in a sea of night. Three stone seats sit
+silently here at this place, if you look closely you can see a marking on 
+each one....A nightmare in flaming colors, symbol of the God Eclipse, A
+skeletal hand crushing a human hand, symbol of the God Soulcrusher, and
+a Grinning skull on a azure background, symbol of the God Gravestone. It
+is rumored that they gathered in this place during the worlds creation.
+~
+34 OSTU 5
+S
+#0
+
+#RESETS
+M 0 23003 1 23004  * Load Guard at the Annex
+E 1 23001 1 16    * Give/equip sword on guard
+E 1 23002 3 5     * Give/equip a set of vestments on guard.
+*
+M 0 23001 1 23005  * Load the quiet monk at the pond.
+E 1 23002 3 5     * Give monk set of vestments.
+*
+O 0 23004 1 23005  * Put the pond in the pond room.
+*
+M 0 23002 1 23006  * Put the master at the overlook.
+E 1 23002 3 5     * Give/equip master with vestments.
+E 1 23003 1 3     * Give/equip master with stole.
+*
+O 0 23005 1 23010  * Put the Vortex in the Vortex room.
+*
+*DOOR RESETS
+D 0 23008 7 1     * Close door to vortex.
+D 0 23010 8 1     * Close door to hallway.
+*
+O 0 23006 1 9960
+H 0 23006 0 23004 
+S
+
+#SPECIALS
+M 23003 spec_guard
+M 23001 spec_cast_cleric
+M 23002 spec_psionic
+S
+
+#$
+

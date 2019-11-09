@@ -1,0 +1,2425 @@
+#AREA  { 1 40) Trin    Nethril1~
+ 
+
+
+
+#MOBILES
+#25300
+elf drow gateguard guard~
+a gateguard~
+A guard watches for trouble makers entering into the city.
+~
+He's standing at a strict attention watching all who walks by for signs
+that they might bring harm somehow into the city proper.
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 1d1+100 5d6+30 1
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25301
+elf drow gateguard guard~
+a gateguard~
+A gateguard watches for any trouble that might occur here at the gates.
+~
+He looks like he doesn't even notice you.
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 1d1+100 5d6+30 1
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25302
+elf drow gateguard guard~
+a gateguard~
+A gateguard watches for any trouble that might occure here at the gates.
+~
+He looks like he doesn't even notice you.
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 30d30+100 5d6+30 0
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25303
+elf drow bridge guard~
+a bridge guard~
+A bridge guard watches for any trouble that might occure here at the bridge.
+~
+He gives you a casual glance and then points to the sign
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 30d30+100 5d6+30 0
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25304
+elf drow tax guard~
+a tax guard~
+A tax guard watches for anything of value that comes into the city.
+~
+He gives you a casual glance and realizes you have nothing of any real value.
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 30d30+100 5d6+30 0
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25305
+elf harbor guard~
+a harbor guard~
+A harbor guard watches for anything of value that comes into the city.
+~
+He gives you a casual glance and realizes you have nothing of any real value.
+~
+elf~
+ABMT JT -500 S
+30 15 30d30+100 30d30+100 5d6+30 0
+-3 -3 -3 -5
+CEFJK 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25306
+drow child kid~
+a drow child~
+A drow child is here playing in the street.
+~
+They look like any kid you would see above ground.  Well, except for the
+pure black skin and the skull they're playing with.  The dagger tucked
+away in the belt with the dried blood on it.  They still look like any
+kid you would see above ground.
+~
+elf~
+AGH J 0 S
+5 5 5d5+50 5d5+100 1d5+5 0
+1 1 1 -2
+0 0 CL U
+8 8 1 20
+AHMV ABCDEFGHIJK M 0
+#25307
+drow child kid~
+a drow child~
+A drow child is here playing in the street.
+~
+They look like any kid you would see above ground.  Well, except for the
+pure black skin and the skull they're playing with.  The dagger tucked
+away in the belt with the dried blood on it.  They still look like any
+kid you would see above ground.
+~
+elf~
+AGH J 0 S
+5 5 5d5+50 5d5+100 1d5+5 0
+1 1 1 -2
+0 0 CL U
+8 8 2 20
+AHMV ABCDEFGHIJK M 0
+#25308
+drow elf thief~
+a dark-elven thief~
+A dark-elven thief stands here trying to blend in with the crowd.
+~
+You feel a hand on your gold and grab the wrist to the hand it is attached to.
+You feel a tiny pin prick as another hand whips about and you let go.  You
+look up and see this dark figure retreating and blending back in with the crowd.
+
+~
+elf~
+AGHS JPQ -750 S
+5 5 5d5+50 1d1+100 1d5+5 0
+0 0 0 0
+FKN 0 CL U
+8 8 1 25
+AHMV ABCDEFGHIJK M 0
+#25309
+drow elf thief~
+a dark-elven thief~
+A dark-elven thief tries to blend into the crowd.
+~
+You feel hands on your belongings, but as you turn around the only thing you see
+is a figure disappearing into the crowd.
+~
+elf~
+A JPQ -750 S
+10 5 10d10+100 2d10+100 2d5+15 0
+0 0 0 0
+FKN 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25310
+drow elf thief~
+a dark-elven thief~
+A dark-elven thief disappears into the crowd.
+~
+A whirlwind detacches itself from the crowd and whirls by you.  You hear a
+cutting sound and think maybe you should count your gold.
+~
+elf~
+A JPQ -750 S
+18 18 18d18+180 25d25+25 0d0+0 0
+0 0 0 0
+0 0 CL U
+8 8 1 500
+AHMV ABCDEFGHIJK M 0
+#25311
+master thief boss dark elf~
+The Master of the Nethril Pickpockets~
+A dark elf stands here.
+~
+He stands off into the shadows of the alley and watches the crowd.  Every once in
+awhile you see a drow walk up to him and hand him a purse of gold.  He looks
+at you with an amused glance, and lays his hands on the twin short swords on
+his belt.
+~
+elf~
+ABCMS JP -1000 S
+42 30 30d30+1000 5d5+40 5d5+40 0
+0 0 0 0
+EFHJKN AB CL U
+8 8 0 3000
+AHMV ABCDEFGHIJK M 0
+#25312
+giant rat~
+a rat~
+A huge underground rat stands and stares at you with glowing red eyes.
+~
+It's midnight dark fur blends in perfectly with the shadows.  If it wsn't for
+the glowing red eyes, a sure sign of infravision, you wouldn't be able to tell
+that it was here at all.  It's standing up on its hindlegs sniffing the air
+and looking at you rather curiously.
+~
+cat~
+AGH J 0 S
+3 3 3d3+30 1d5+20 1d3+3 0
+0 0 0 0
+FH 0 0 0
+8 8 0 0
+AGV ACDEFHJKQUV M 0
+#25313
+honest eddy elf drow~
+Honest Eddy~
+A dark elf with a big smile immediatly welcomes you into his shop.
+~
+He's wearing the latest close from around the realms.  His hair is pulled back
+in a loose ponytail, and his smile is ear to ear.  He greets you with a firm
+handshake and asks if there is anything at all he can help you with.
+~
+elf~
+AB J 0 S
+50 50 50d50+5000 50d50+50 50d50+50 0
+0 0 0 0
+0 0 CL U
+8 8 0 0
+AHMV ABCDEFGHIJK M 0
+#25314
+honest eady drow elf~
+honest eady~
+Honest Eady is standing here waiting to serve you.
+~
+She runs and greets you as soon as you enter the store.  She starts talking to
+you like she's known you for the two or three hundred years since her birth.
+She's a tad overweight, and her onyx skin contrasts greatly with the white silk
+and lace shirt she wears.
+~
+elf~
+A 0 0 S
+50 0 50d50+50 50d50+50 50d50+50 0
+0 0 0 0
+0 0 CL U
+8 8 2 0
+AHMV ABCDEFGHIJK M 0
+#25315
+attendant drow ~
+an attendant drow~
+An attendant of the First House of Nethril is standing here.
+~
+~
+elf~
+ABHT HTVZ A 0 S
+40 40 20d20+1000 40d40+400 7d6+40 0
+0 0 0 0
+EFHKN 0 CL U
+8 8 2 0
+AHMV ABCDEFGHIJK M 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#25300
+Inside the Northern Gate.~
+The shadows of this room almost seem alive.  You can catch several shapes
+floating in the darkness above you.  The force of the pushing crowd makes 
+seeing anything else hard.
+~
+253 ACKN 1
+D0
+You can see the Northern Mushroom Grove.
+~
+~
+0 -1 25211
+D2
+The city of Nethril opens in front of you.
+~
+~
+0 -1 25301
+S
+#25301
+Into the city.~
+You stop in breathless awe.  The city of Nethril lays spread out before you
+in all of its dark glory.  The inside of the crystal has been hollowed out
+and stone buildings cover the entire floor.  Taking a closer look you can
+see that the interior of the crystal has been dug out like a giant crater
+with gentle sloping sides.  In the center is a large square with a clear tube
+with lava raising up in it to the darkness of the ceiling above.  In the
+distant south you can see a river and past that you can see several large
+houses.  Past the houses you see the other side of the crystal.
+~
+253 DN 1
+D0
+You see the northern gates of the city.
+~
+~
+0 -1 25300
+D1
+You can see a road around the wall.
+~
+~
+0 -1 25330
+D2
+The road leading to the center of the city
+~
+~
+0 -1 25302
+D3
+You can see a road around the wall.
+~
+~
+0 -1 25336
+S
+#25302
+The northern road.~
+The buildings here are somewhat plain and dirty looking.  Children playing on
+the street and the open doors on either side of the street suggest that this
+is one of the primary living sections of the city.  The street is made of
+cobblestone and you can feel gravity pulling you down the slope.
+~
+253 DN 1
+D0
+You can see the northern gates of the city.
+~
+~
+0 -1 25301
+D1
+You see an open doorway.
+~
+~
+0 -1 25343
+D2
+The street leads to the center of the city.
+~
+~
+0 -1 25303
+D3
+You see an open doorway.
+~
+~
+0 -1 25342
+S
+#25303
+The northern road.~
+The road continues on downward the slope.  You can see where it evens out
+though past the next set of buildings.  On either side of the road alleys
+go backward into the darkness.  You can see several children and adolescent
+drow playing and standing around in the alleys.  A stark white cat runs 
+across your feet chasing a child's ball.
+~
+253 DN 1
+D0
+You see the northern city gates.
+~
+~
+0 -1 25302
+D1
+You can see a dark alleyway.
+~
+~
+0 -1 25356
+D2
+You can see the road leading to the center of the city.
+~
+~
+0 -1 25304
+D3
+You can see a dark alleyway.
+~
+~
+0 -1 25350
+S
+#25304
+The northern road.~
+The houses here aren't so dirty looking as the ones north, and the children
+in the street are wearing better looking clothes.  The houses on either side
+of the street have doors made of material from the giant mushrooms of the
+grove outside the city walls.  Just to the south the road levels off and 
+leads on to the center of the city.  Noises from the crowded square have
+started to reach your ears.
+~
+253 DN 1
+D0
+The road leads to the northern city gates.
+~
+~
+0 -1 25303
+D1
+You see a closed doorway.
+~
+~
+0 -1 25345
+D2
+The road levels off and leads to the center square.
+~
+~
+0 -1 25305
+D3
+You see a closed doorway.
+~
+~
+1 -1 25344
+S
+#25305
+The northern road.~
+The street here levels off and goes on into the giant square past the
+buildings.  The alleys on either side of the street are well lighted with
+several hanging lanterns.  You can see several dark figures back in the
+alleyways walking.  The street here is free of any dirt and refuse and the
+cobblestones almost shine with an inner light.  From here you can see the
+square to the south of you and the lava tube that rises to the ceiling far 
+above.
+~
+253 DN 1
+D0
+The street begins its climb to the northern gates.
+~
+~
+0 -1 25304
+D1
+You see a lighted alleyway.
+~
+~
+0 -1 25361
+D2
+You can see the square past the next set of buildings.
+~
+~
+0 -1 25306
+D3
+You see a lighted alleyway.
+~
+~
+0 -1 25354
+S
+#25306
+The northern road out of the city.~
+The buildings on either side of the street are elaborate.  You can tell 
+that the richer of the commoners live in these.  The doors are made from 
+the mushroom stalks of the grove, but elaborate carvings cover them.  There 
+aren't any children playing in the street, but that is probably to keep them
+safe from anyone that would do them ill from the busy market section of the
+city.
+~
+253 DN 1
+D0
+The road leads to the northern gates.
+~
+~
+0 -1 25305
+D1
+You see a doorway.
+~
+~
+0 -1 25347
+D2
+You see the central square of the city.
+~
+~
+0 -1 25307
+D3
+You see a doorway.
+~
+~
+0 -1 25346
+S
+#25307
+The Northern Square.~
+The square is actually a large open garden used for relaxation by the large
+populace of the city.  Abundant moss covers the ground at your feet and 
+through the park four foot wide sidewalks twist and wind.  In the very center
+of the park you see a large clear tube that reaches up to the very ceiling.
+Several citizens of the city are resting here now and pay you no notice as
+you walk through.
+~
+253 DN 1
+D0
+You see a road leading north through the city
+~
+~
+0 -1 25306
+D2
+You see the center of the park.
+~
+~
+0 -1 25308
+S
+#25308
+The center of the park.~
+One of the most wonderful things you've ever seen stands here in the center
+of this park.  A large crystal tube that is about a foot across raises into
+the darkness above you.  The center of the tube is hollow and red hot lava
+is slowly climbing up it creating a warm red glow that covers the entire 
+area.  Several small benches have been placed around the tube and drow 
+sit here and there watching the lava as if in deep meditation.  To the east
+and west lays the busy market section and you can see the crowds from this
+little tanquil spot in the middle of the city.
+~
+253 DN 1
+D0
+You see the northern part of the park.
+~
+~
+0 -1 25307
+D1
+You see the eastern market street.
+~
+~
+0 -1 25309
+D2
+You see the southern part of the park.
+~
+~
+0 -1 25323
+D3
+You see the western market street.
+~
+~
+0 -1 25316
+S
+#25309
+Market Street - East.~
+You push your way through the crowded street.  Huge wagons being pulled by
+snails, rich nobles, commoners, and members of various underdark races are
+all filling the street.  Small, dark-elven kids are running around looking 
+handouts and trying to sell  small bits of candied-mushroom.  You notice a  
+few of the  elves looking at you and  your gear with  greedy eyes.  To the
+north of  you a huge pane - glass  window  with several  different weapons 
+displayed in it with the  name True Value Weaponry painted in yellow paint
+on the top  part of the window.  To the  south a  window of the  same sort 
+filled with  bright shiny armor awaits  your inspection.  The  name at the 
+top of this  one is in  elaborate black letters and reads  Honest  Eddie's 
+House of Protection.
+~
+253 DN 1
+D0
+You see a store filled with weapons.
+~
+~
+0 -1 25365
+D1
+You see that the market street continues.
+~
+~
+0 -1 25310
+D2
+You see a store filled with armor.
+~
+~
+0 -1 25366
+D3
+You see the city park.
+~
+~
+0 -1 25308
+S
+#25310
+Market Street - East.~
+It's hard to believe that every drow in the city isn't walking on this 
+street right now.  Members from every Underdark race known is walking
+these streets.  You hold your gold a little tighter as the crowd presses
+in.  To the north and the south are solid crystal walls.  You can't make
+out what awaits ahead in either direction for more than twenty feet, and
+the only escape from feeling caught in a trap is to look straight up where
+the inside of the crystal has been hollowed out and is lost in the darkness
+above you.
+~
+253 DN 1
+D1
+You see market street continuing.
+~
+~
+0 -1 25311
+D3
+You see the market street continuing.
+~
+~
+0 -1 25309
+S
+#25311
+Market Street - East.~
+The crowds have all gone to the sides of the street on the walkways in 
+front of the stores.  A Mother Matron has decided to come to market and
+her floating disc and escorts are taking up the street.  One of the 
+onlookers get a little to close to the disc and screams as one of the
+attending clerics whip them with a snake-headed whip.  The Matron Mother
+seeing you and noticing that you are from the surface calls over an
+attendant and then leaves.  The attendant invites you to please come and
+make a call at the First House for dinner.  The Matron Mother doesn't want
+any misgivings about the great city of Nethril.  The attendant leaves and
+for the first time you notice that since the Matron Mother's departure the
+crowds are back in the streets.  To the north sits a little shop with the
+words Dry Goods painted in red at the top of the door.  To the south a
+similar door sits with the words Honest Eddy's Adventuring Supplies painted
+in blue.
+~
+253 DN 1
+D0
+You see a small unremarkable door.
+~
+~
+0 -1 25363
+D1
+You see market street continues.
+~
+~
+0 -1 25312
+D2
+You see Honest Eddy's Adventuring Supplies.
+~
+~
+0 -1 25364
+D3
+You see market street continues.
+~
+~
+0 -1 25310
+S
+#25312
+Market Street - East.~
+The alleyway north allows traffic to take a bypass around the market street
+so the crowds here isn't that bad.  Looking east or west though you can see
+several different citizens of this  city and others as they  enter the city 
+and go toward the busy market.  To the east you can see a guards station on
+either side of the street stopping merchants and taking a fee for allowing 
+their goods to pass on to market.
+~
+253 DN 1
+D0
+You see an alleyway with several people entering and leaving it.
+~
+~
+0 -1 25360
+D1
+You see the gates of Nethril past the guard posts.
+~
+~
+0 -1 25313
+D3
+You see a busy market street.
+~
+~
+0 -1 25311
+S
+#25313
+The tax posts.~
+All merchants entering the city must pass through these guards watchful
+eyes and declare all good planned to sell or barter.  You see one poor
+duergar standing to the side as the guards go through his wagon looking
+for contraband.  The guards see you, but don't stop you.  What in the 
+world could you have that anyone would want.
+~
+253 DN 1
+D1
+You see the gates of the city.
+~
+~
+0 -1 25314
+D2
+You see the tax post.
+~
+~
+0 -1 25362
+D3
+You see the busy market street.
+~
+~
+0 -1 25312
+S
+#25314
+Inside the city.~
+The city lays sprawled out to the west inside this massive carved out 
+crystal.  The road slopes downward toward the center where you can make
+out a huge crystal tube filling up with lava stretching up to the ceiling.
+To the north you can take a road around the city walls and to the east you
+can leave the city.
+~
+253 DN 1
+D0
+The road around the city wall.
+~
+~
+0 -1 25335
+D1
+The Eastern Gates.
+~
+~
+0 -1 25315
+D3
+The market street begins past the post to pay taxes.
+~
+~
+0 -1 25313
+S
+#25315
+Inside the Eastern Gate.~
+The darkness coupled with the crowd trying to get into the city is mind-
+numbing.  The noise and the smell of unwashed mercenaries and pack animals
+make you want to retch.  In the shadows above you the red glowing eyes are
+visible of the dark elven guards watching for any trouble.  To the east you 
+can see a huge mushroom grove open up, and to the west you can make out the 
+city of Nethril.
+~
+253 DN 1
+D1
+You can see the mushroom grove.
+~
+~
+0 -1 25208
+D3
+You can see the city of Nethril.
+~
+~
+0 -1 25314
+S
+#25316
+Market Street - West.~
+The crowds here are overpowering.  It's close to the center of town and 
+it seems as if the whole city decided to see if they could fit it's 
+populace in this small section.  Every imaginable underdark inhabitant
+bumps into you and steps on your feet.  Maybe you could find solitude
+in one of the shops north or south.  The shop north has a plane glass
+window with the words Aeon Magical Goods in glowing blue letters.  The
+window south is almost the same except for the words Wands 'R' Us is painted
+in green.
+~
+253 DN 1
+D0
+You can see a store.
+~
+~
+0 -1 25367
+D1
+You see a quiet looking park.
+~
+~
+0 -1 25308
+D2
+You can see a store.
+~
+~
+0 -1 25368
+D3
+You see the market street continue.
+~
+~
+0 -1 25317
+S
+#25317
+Market Street - West.~
+The sidewalks are cluttered with races from all over the underdark and beyond
+as they all see what they can buy.  Crystal walls tower three stories high
+and you can see guards walking on the top of it watching the crowd for
+any trouble.  You feel a hand tugging at your money pouch, but before you can
+grab it the crowd swallows up the owner.  Maybe you should watch yourself.
+~
+253 DN 1
+D1
+You see the beginning of the western market street from the park.
+~
+~
+0 -1 25316
+D3
+You see the middle of the western market street.
+~
+~
+0 -1 25318
+S
+#25318
+Market Street - West.~
+You hear several children screaming and yelling and when the crowd thins out
+a little you see them surrounding a poor shopkeeper to the north.  He laughs
+and throws out little bits to them.  Laughing like it was a holiday they grab
+the tiny chunks and run off down the street.  Thats when you notice a sign on
+the front of the shop that reads Candies.  To the south of you a store that
+has a corked bottle for a sign sits.
+~
+253 DN 1
+D0
+You see the candy store.
+~
+~
+0 -1 25369
+D1
+You see the western market street continuing to the park.
+~
+~
+0 -1 25317
+D2
+You see the booze emporium to the south.
+~
+~
+0 -1 25370
+D3
+You see the gates of the city a short way ahead.
+~
+~
+0 -1 25319
+S
+#25319
+Market Street - West.~
+The crowd here has for the most part thinned out except for the steady stream
+of people entering the city from the gates in the west.  An alleyway to the
+north is the cause for part of this as you can see several beings enter it.
+Looking down the alley you can see floating lights every 10 feet casting a
+pale glow over the darkness.  To the west you can see the city gates and past
+them you can see the mushroom grove.
+~
+253 DN 1
+D0
+You can see a lighted alleyway.
+~
+~
+0 -1 25355
+D1
+You see the market street continuing deeper into the city.
+~
+~
+0 -1 25318
+D3
+You see the gates of the city.
+~
+~
+0 -1 25320
+S
+#25320
+The beginning of Market Street - West.~
+To the north and south of you sit tax posts.  Guards stop anyone that looks
+like they might be carrying something valuable to sell and take a small 
+amount of gold for it.  You see a wagon attached to a large snail off to the
+side and the duergar that was bringing it into the city standing there.  You
+only catch part of the conversation he is having with the guard, but he has
+apparently tried to sneak a large amount of metal into the city by hiding it
+in his wagon.  To the west you see the gates and to the east you see the city
+continue.
+~
+253 DN 1
+D0
+You see a tax post.
+~
+~
+0 -1 25371
+D1
+Market Street continues.
+~
+~
+0 -1 25319
+D2
+You see a tax post.
+~
+~
+0 -1 25372
+D3
+You see the city gates.
+~
+~
+0 -1 25321
+S
+#25321
+Into the city.~
+To the east the city open up.  Lights reflect off of the crystal walls that
+the entire city is encircled by.  A throng of people move along the road to
+the east as they enter and leave the shops.  In the center of the cavern you
+can make out a park with a huge crystal tube climbs up to the ceiling with
+lava slowly climbing up it.  To the north you can see a way around the city
+walls.  To the west you can see through the gates out into the mushroom grove
+and in distance, the walls of the cavern.
+~
+253 DN 1
+D0
+You see a street around the citywall.
+~
+~
+0 -1 25341
+D1
+You see the great city of Nethril.
+~
+~
+0 -1 25320
+D3
+You see the city gates.
+~
+~
+0 -1 25322
+S
+#25322
+Inside the city gates.~
+It's dark here and you can feel several eyes upon you, watching for any kind
+of aggressive movement toward the guards that are visible.  A deep gnome 
+suddenly pulls out a knife and runs toward the grove.  A guard doing his duty
+steps in front of the fleeing gnome just to have the knife slipped into his
+belly.  Several bolts streak from all point in the darkness above and the
+deep gnome dies almost instantly.  That is all you can see as guards quickly
+surround the scene to cut off anyone else looking.  You can go into the grove
+to the west or the city to the east.
+~
+253 DN 1
+D1
+You can see the city.
+~
+~
+0 -1 25321
+D3
+You see the mushroom grove.
+~
+~
+0 -1 25214
+S
+#25323
+South of the park.~
+Several scantily clad drow females are standing on a balcony at the top of 
+the western building enticing people to come and 'visit' them.  Loud music 
+comes from both of the buildings to the east and west.  Several drow come 
+stumbling out of the building to the east stumbling and singing.  You are 
+almost knocked over when a naked drow male comes flying out of the door to 
+the building to the west.  Another male, this one HUGE, follows him into the
+street.  When he stand up you can see his nose is broke and blood is coming
+out of his swollen lip.  A slip of a drow woman follows them laughing and
+tells them to never come back inside.  She goes back into the building.
+~
+253 DN 1
+D0
+You see a park.
+~
+~
+0 -1 25308
+D1
+You see a tavern.
+~
+~
+0 -1 25349
+D2
+You see the docks.
+~
+~
+0 -1 25324
+D3
+You see a whorehouse.
+~
+~
+0 -1 25348
+S
+#25324
+Before the docks.~
+There are two guards are here watching over the traffic coming from the docks 
+and into town.  Several drow are here sitting against the walls on either 
+side of the road begging for money and handouts.  One of the beggars pulls
+out a knife and cuts the pouch off of a fat merchant walking toward the
+market to the north and runs.  He drops a few coins as he dashes for safety,
+and one of the guards takes off after him while the other guard stays and
+tries to calm down the merchant.  The other guard comes back a few moments
+later empty-handed.  He stops and picks up the coins and puts them in his
+own pouch before he goes back to the other guard.  Thats all you see before
+the crowd pushes you on.
+~
+253 DN 1
+D0
+You see a park in the distance.
+~
+~
+0 -1 25323
+D2
+You see the beginning of the docks.
+~
+~
+0 -1 25325
+S
+#25325
+At the beginning of the pier.~
+A long pier stretches out into the river and several boats are docked and
+unloading goods to be sold at the market.  Several roth are hearded together
+and being watched over by a pair of hook horrors with diamond collars around
+their neck.  Some enterprising drow have bought wagons and snails and hire
+themselves out to carry goods to market from the different races that come
+here to trade.  All around you drow guards are taking duties and counting
+goods that are coming off the ships.  The harbor masters office is to the  
+east and a road runs off to the right.
+~
+253 DN 1
+D0
+The road leads into the city.
+~
+~
+0 -1 25324
+D1
+You see the harbor masters office.
+~
+~
+0 -1 25329
+D2
+You see the river.
+~
+~
+0 -1 25238
+D3
+A road runs along the river.
+~
+~
+0 -1 25326
+S
+#25326
+The road begins to rise.~
+The road leading to the west here begins to rise to climb up above the level
+of the river.  There are guards stationed every 10 feet along the wall.  
+They look at you for a moment before they look away and place their hand on
+their weapon.  Several young drow, dressed up for a night on the town, are 
+walking from the west.  You notice the guards bow a little to these.
+~
+253 DN 1
+D1
+The road continues to the docks.
+~
+~
+0 -1 25325
+D3
+The road continues to climb.
+~
+~
+0 -1 25327
+S
+#25327
+The road curves.~
+The road here continues to rise, but it curves here and allows you to see
+across the river where several magnificent drow houses have been built.  
+Flashes of faerie fire run through several of the walls and arches that are
+on most of the houses.  You see a bridge to the southwest and can go back to
+the docks to the east.  
+~
+253 DN 1
+D1
+The road slopes down to the docs.
+~
+~
+0 -1 25326
+S
+#25328
+At the cityside of the bridge.~
+Two guards are standing watch here.  They pay you no attention at all.  
+Several young drow are walking back and forth across the bridge entering and
+leaving the city for the safety of the Family District beyond the bridge. 
+You try to cross, but the guards stop you and point to a sign.
+~
+253 DN 1
+E
+sign~
+The area across the bridge is inaccesable to visitors to our city, because
+of several attacks made on the matron mothers.  We hope this will change.
+Please check here in the future.
+
+                      Matron Mother Gezralliphen,
+                      First Matron Mother of Nethril
+~
+D6
+The road goes down to the docs.
+~
+~
+0 -1 25327
+S
+#25329
+The Harbor Masters Office.~
+You walk into a huge office with paintings of different underground sailing
+ships hung here and there on the wall.  There are some surface sailing 
+equipment here as well.  You notice a telescope on the desk on the farside
+of the room and a huge compass by the desk.  The walls are made from a light
+brown wood looking material, and windows on the southern wall overlook the
+entire wharf.  The harbor master looks at you and then back to the stack of
+papers on his desk.
+~
+253 DN 1
+D3
+You see the beginnings of the dock.
+~
+~
+0 -1 25325
+S
+#25330
+The Eastern Wall Road.~
+Puddles of dirty water are here and there, but suprisingly there is very 
+little trash along the road.  You can see lights coming out of the windows
+of the house south of you.  It's dark here except for the light filtering
+from the house and from the lighted road to your west.
+~
+253 DN 1
+D1
+The road continues.
+~
+~
+0 -1 25331
+D3
+The road leads to the northern gate.
+~
+~
+0 -1 25301
+S
+#25331
+The Eastern Wall Road.~
+You step into something, but you really don't want to know what it is.  The
+light here is almost nonexistant and everything is draped in shadows.  You
+hear the scampering of tiny rodents in the darkness.  The smell of waste here
+is almost overpowering, but not quite.  You can see light in the distance
+in the cutoff to the south, or you can continue along the Wall Road to the
+southeast.
+~
+253 DN 1
+D2
+You see some light in the distance down the alley.
+~
+~
+0 -1 25357
+D3
+You see the light of the northern gates in the distance.
+~
+~
+0 -1 25330
+D8
+The road continues.
+~
+~
+0 -1 25332
+S
+#25332
+The Eastern Wall Road.~
+The stench here is still strong and you can feel water from the pools that
+stand still in the street begin to soak through the material.  From here you
+can see the light coming from a house to your west, and to the southeast you
+can make out some light.
+~
+253 DN 1
+D3
+You can see the back windows of a house.
+~
+~
+0 -1 25357
+D7
+The road continues.
+~
+~
+0 -1 25331
+D8
+The road continues toward some light.
+~
+~
+0 -1 25333
+S
+#25333
+The road continues.~
+The smell here isnt so bad and to the south you can see some torches set up
+along the walls for light.  Farther to the south you see a main road through
+the city.
+~
+253 DN 1
+D2
+You see an intersection.
+~
+~
+0 -1 25334
+D7
+~
+~
+0 0 25332
+S
+#25334
+The Eastern Wall Road.~
+The light here is pretty good.  Torches set up every ten feet assure that 
+there is enough light to see by.  Young drow couples are walking hand in hand
+down these back alleys.  Benches are set up underneath the torches for them
+to sit and talk.
+~
+253 DN 1
+D0
+The road gets dark.
+~
+~
+0 -1 25333
+D2
+You see the road continue.
+~
+~
+0 -1 25335
+D3
+You see a lighted alley.
+~
+~
+0 -1 25359
+S
+#25335
+The Eastern Wall Road.~
+The high walls of the buildings and the city wall let very little light 
+filter down to this point.  Torches have been placed among the walls every
+ten feet for light and protection.  You can continue to the north or you 
+can go to the south to the main road.
+~
+253 DN 1
+D0
+The road continues.
+~
+~
+0 -1 25334
+D2
+You see a main road.
+~
+~
+0 -1 25314
+S
+#25336
+The Western Wall Road.~
+The light here is almost down to nothing.  The building to the south of
+you and the wall to the north of you let very little light pass down to this
+point.  You can go east to the north gates or you can go west to contue
+along the wall.
+~
+253 DN 1
+D1
+You can see the northern gates.
+~
+~
+0 -1 25301
+D3
+The road continues.
+~
+~
+0 -1 25337
+S
+#25337
+The Western Wall Road.~
+You feel a sudden tug at your gold pouch and then see a figure run down the
+alley to your south.  You check and your gold is still there.  You can see  
+stray albino cats running through the alley as giant rats chase them.  You 
+see an alley to your south or you can continue along the wall to the south-
+west.
+~
+253 DN 1
+D1
+You can see the northern gates to in the distance.
+~
+~
+0 -1 25336
+D2
+You see an alley.
+~
+~
+0 -1 25351
+S
+#25338
+The Western Wall Road.~
+It looks like the rats caught a cat, because its carcass is sitting at your
+feet.  There is a little light here cast from a window in the alley to the 
+east.  You can hear some scuttling in the shadows.  Maybe you should get on
+moving.
+~
+253 DN 1
+D1
+You see an alley.
+~
+~
+0 -1 25351
+D6
+The way around the citywall continues.
+~
+~
+0 -1 25336
+S
+#25339
+The Western Wall Road.~
+The road turns here and in the distance to the south you can see a busy 
+street.  It makes you feel better to see so much action so close, but
+first you have to finish walking down the road.
+~
+253 DN 1
+D2
+The wall road continues.
+~
+~
+0 -1 25340
+D6
+The wall road continues.
+~
+~
+0 -1 25338
+S
+#25340
+Along the Western wall.~
+There are a couple of guards here watching everything carefully.  You wonder
+why when a passing man tells you that their has been some serious trouble
+lately with thieves along the wall road and that the merchants complained.
+The guards look at the old man and at you, and you get the feeling you should
+move on.
+~
+253 DN 1
+D0
+The wall road continues to the north.
+~
+~
+0 -1 25339
+D1
+You see an alley.
+~
+~
+0 -1 25353
+D2
+The road goes leads to a busy, main road.
+~
+~
+0 -1 25341
+S
+#25341
+The Western Wall Road.~
+You can hear the loud noises coming from the road to the south.  At the end
+of that road to the west you can see the eastern gates.  There is a smell
+here but it's no worse than in any city on the surface of the world.  You
+can see a couple of dark shapes to the north.
+~
+253 DN 1
+D0
+The Western Wall Road continues.
+~
+~
+0 -1 25340
+D2
+You can see the western city gates.
+~
+~
+0 -1 25321
+S
+#25342
+Inside a drow house.~
+This is a poor looking house.  The floor is nothing but some dirt thrown
+on the hard crystal for a cushion.  Tattered curtains hang in the windows
+and for the door a tattered curtain hangs tied to one side of the door.
+A table with half-eaten food sits in one corner.  A ladder leads to the
+second level of this humble dwelling.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25302
+D4
+A ladder lead upward.
+~
+~
+0 -1 25373
+S
+#25343
+Inside a drow house.~
+This house reminds you a lot of the alleys that surround it on three sides.
+It is FILTHY.  Grunge covers everything, and the walls that look like they 
+might have been white at one point in time are now covered in a heavy, dark
+soot.  You see some rickety stairs leading upward.
+~
+253 DN 1
+D3
+You see a road.
+~
+~
+0 -1 25302
+D4
+Some rickety stairs lead upward.
+~
+~
+0 -1 25374
+S
+#25344
+Inside a drow home.~
+This house is fairly clean if a little poor looking.  There is some dirt
+on the ground, but it looks fresh and not caked in and old.  There are a
+few items sitting on some poorly built shelves meant to be decoration for
+this home.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25304
+D4
+Some stairs lead upward.
+~
+~
+0 -1 25375
+S
+#25345
+Inside a drow home.~
+This house is farly clean if a little poor looking.  There is some dirt
+on the ground, but it looks fresh and not caked in and old.  There are a
+few items sitting on some poorly built shelves meant to be decoration for
+this home.  You see some stairs leading upward.
+~
+253 DN 1
+D3
+You see a road.
+~
+~
+0 -1 25304
+D4
+Some stairs lead upward.
+~
+~
+0 -1 25376
+S
+#25346
+A rich drow house.~
+This house is well built and maintained.  No dirt is anywhere.  When you 
+enter a kobold slave checks your shoes for dirt and then steps out of the
+way.  You can see tiny statues outlined in faerie fire on some well built
+shelves.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25306
+D4
+Some stairs lead upward.
+~
+~
+0 -1 25377
+S
+#25347
+A rich drow house.~
+This house is well built and maintained.  No dirt is anywhere.  When you
+enter a kobold slave checks your shoes for dirt and then cleans them with
+a little white rag.  He gets out of the way and you can see tiny statues
+outlines in faerie fire on some well built shelves.  Some stairs lead upward.
+~
+253 DN 1
+D3
+You see a road.
+~
+~
+0 -1 25306
+D4
+Some stairs lead upward.
+~
+~
+0 -1 25378
+S
+#25348
+Gheliash's House of Pleasure.~
+A heavy smokey scent fills the air.  You realize its the scent from several
+cigarettes that various patrons are puffing away on.  A drow female saunters
+up to you trying desperately to be seductive and says, 'Greetings.  I am
+Gheliash and any pleasure you want is yours to have.  For the right price."
+She welcomes everyone this way.  A bar against the northern wall is filled
+with half filled drinks and little plates full of ashes and half-smoked
+cigarettes along the side.  A little band plays in the corner.  Several 
+scantily clad drow women are dancing around and swinging from a pole set in
+the floor and ceiling.  Some are using faerie fire to outline their bust and
+crotch.  There can only be one type of place this building can be.  You see a
+stairway leading up.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25323
+D4
+You see some stairs leading upward.
+~
+~
+0 -1 25380
+S
+#25349
+Zarek's Tavern.~
+You walk in and immediately start feeling better.  The atmosphere is a lot 
+better here than outside.  It would be even better if you could see through
+the smoke.  You stumble around and bump into a chair.  Sitting down you
+see several drow laying around and some still sitting.  Most of them are 
+still smoking some strange cigarettes.  A drow male walks over to you and
+asks if you want anything.  He then puts a couple of the cigarettes down
+on your table before he falls over and passes out.
+~
+253 DN 11
+D3
+You can't see anything through the haze.
+~
+~
+0 -1 25323
+D4
+You see some stairs leading upward.
+~
+~
+0 -1 25379
+D5
+You see some loose floorboards.
+~
+floorboards~
+0 -1 25254
+S
+#25350
+The alley.~
+Sewage and filth cakes the sides of the wall from the houses on either side
+of the alley.  You might want to tread carefully here since all of it wasn't
+in solid form.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25303
+D3
+You see a crossing in the alley.
+~
+~
+0 -1 25351
+S
+#25351
+The alley crossing.~
+The alley here splits into four seperate ways to travel.  A massive crystal 
+pillar that has been stained grey over time stands to the northwest and on 
+either side you can see the cleaner crystal walls of the citywall beyond.
+You can see some light to the south.  To the east, west. and north 
+several bad smells get stronger.
+~
+253 DN 1
+D0
+You see the crystal citywall.
+~
+~
+0 -1 25337
+D1
+You see an alleyway.
+~
+~
+0 -1 25350
+D2
+You see light down the alley in the distance.
+~
+~
+0 -1 25352
+D3
+You see the crystal citywall.
+~
+~
+0 -1 25338
+S
+#25352
+The alley.~
+It's dingy.  It's dirty.  It makes you want to puke.  That is until you feel
+something run across your feet trailing scum.  Then all you want to do is
+get out of here.
+~
+253 DN 1
+D0
+You see a crossing.
+~
+~
+0 -1 25351
+D2
+You see an intersection.
+~
+~
+0 -1 25353
+S
+#25353
+An intersection in the alley.~
+It's extremely clean here.  There is no dirt or filth anywhere.  Torches 
+line the walls every few feet to cast the shadows out.  To the southwest
+you think you can make out some plants but you aren't sure.
+~
+253 DN 1
+D0
+You see an alley.
+~
+~
+0 -1 25352
+D1
+You see a road in the distance.
+~
+~
+0 -1 25354
+D3
+~
+~
+0 -1 25340
+S
+#25354
+The alley between two houses.~
+This is just an alley between two houses.  No big deal.
+~
+253 DN 1
+D1
+You see a road.
+~
+~
+0 -1 25305
+D3
+You see an alley.
+~
+~
+0 -1 25353
+S
+#25355
+A tiny park.~
+Several plants are growing here feeding from the magical balls of light that
+are lightly glowing in the air above.  Benches are placed here and there, 
+and on one of them you see a young drow couple wooing each other.  This
+would be a good place to rest if you needed to.
+~
+253 DKNTU 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25319
+D6
+You see an alley.
+~
+~
+0 -1 25353
+S
+#25356
+The alley.~
+Sewage and filth cakes the sides of the wall from the houses on either side
+of the alley.  You might want to tread carefully here since all of it wasn't
+in solid form.
+~
+253 DN 1
+D1
+You see a crossing in the alley.
+~
+~
+0 -1 25357
+D3
+You see a road.
+~
+~
+0 -1 25303
+S
+#25357
+The alley crossing.~
+The alley here splits into four seperate ways to travel.  A massive crystal
+pillar that has been stained grey over time sets in the northeast and on
+either side you can see the cleaner crystal walls of the citywalls beyond.
+You can see some light to the south.  To the east, west, and north several
+bad smells get stronger.
+~
+253 DN 1
+D0
+You see the citywall.
+~
+~
+0 -1 25331
+D1
+You see the citywall.
+~
+~
+0 -1 25332
+D2
+You see some light farther down the alley.
+~
+~
+0 -1 25358
+S
+#25358
+The alley.~
+It is so dirty.  You can tell from simply being in this area that no one 
+ever worries about cleaning it.  Hopefully you won't catch anything.
+Hopefully.
+~
+253 DN 1
+D0
+You see a crossroads in the alley.
+~
+~
+0 -1 25357
+D2
+You see an intersection in the alley.
+~
+~
+0 -1 25359
+S
+#25359
+An intersection in the alley.~
+It is extremely clean here.  There is no dirt or filth anywhere.  Torches
+line the walls every few feet to cast the shadows out.  To the southeast
+you think you can make out some plants but you are not sure.
+~
+253 DN 1
+D0
+You see an alley.
+~
+~
+0 -1 25358
+D1
+You see the citywall.
+~
+~
+0 -1 25334
+D3
+You see a road.
+~
+~
+0 -1 25361
+D8
+You think you can see some plants.
+~
+~
+0 -1 25360
+S
+#25360
+The tiny park.~
+Several plants are here growing from the magical balls of light that are
+lightly glowing in the air above.  Benches are places here and there, and   
+on one of them you see a young drow couple wooing each other.  This would
+be a good place to rest if you needed to.
+~
+253 DKNTU 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25312
+D7
+You see an alleyway.
+~
+~
+0 -1 25359
+S
+#25361
+An alley between two houses.~
+This is just an alley between two houses.  No big deal.
+~
+253 DN 1
+D1
+You see an alley.
+~
+~
+0 -1 25359
+D3
+You see a road.
+~
+~
+0 -1 25305
+S
+#25362
+The Eastern Tax Post.~
+There is a desk on the southern wall and posters and notices tacked here and
+there show who not too allow into the city under ANY circumstances.  These
+include smugglers, merchants who were delequant with taxes, and rogue nobles
+who believed that the drow of Nethril should return to the evil dominant
+race that they once were.
+~
+253 DN 1
+D0
+You see a busy merchant road.
+~
+~
+0 -1 25313
+S
+#25363
+Dry Goods.~
+This store has cans and cans lining the walls.  Mushroom soup, fish from the
+underground river, and roth jerky are some of the things you recognize.
+______________________________________________
+[  list       -  lists the goods you can buy ]
+[   buy       -  to buy an item from the list]
+[ value *item*-  to get the value of an item ]
+[____________________________________________]
+~
+253 DN 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25311
+S
+#25364
+Honest Eddy's Adventuring Supplies.~
+This store is run by a drow named Honest Eddy.  He looks at you and runs
+over and starts talking about all the new items he has.  Including their
+life expectancy, water resilance, and general wear and tear.
+______________________________________________
+[  list       -  lists the goods you can buy ]
+[   buy       -  to buy an item from the list]
+[ value *item*-  to get the value of an item ]
+[____________________________________________]
+~
+253 DN 1
+D0
+You see a busy market street.
+~
+~
+0 -1 25311
+S
+#25365
+True Value Weaponry.~
+Swords, daggers, spears, and other items of death lay among the shelves along
+with little statues of gnomes.  A little duergar comes up to you and asks if
+you would like to see anything or if you need to order anything.
+______________________________________________
+[  list       -  lists the goods you can buy ]
+[   buy       -  to buy an item from the list]
+[ value *item*-  to get the value of an item ]
+[____________________________________________]
+~
+253 DN 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25309
+S
+#25366
+Honest Eddy's House of Protection.~
+A woman runs up to you and greets you.  This is Honest Eady, Honest Eddy's
+wife of thirteen years.  She asks you if you want anything or need anything
+and if you need any help to just ask, before she runs over and bothers the
+next people to come through the door.
+
+----------------------------------------------
+[  list       -  lists the goods you can buy ]
+[   buy       -  to buy an item from the list]
+[ value *item*-  to get the value of an item ]
+[____________________________________________]
+~
+253 DN 1
+D0
+You see a busy market street.
+~
+~
+0 -1 25309
+S
+#25367
+Aeon magical goods.~
+A tiny bell goes off when you open the door and a loud explosion goes off
+in the store behind the locked door in the back.  A tiny drow male comes
+out of the door, locking it behind him, trailing smoke.  He stand behind
+the counter and watches you with a weary eye.  You pick up a potion in
+a tiny pink bottle and he shouts out, 'You break it you buy it!'.
+
+ ________________________________________
+[    list     - list items for sale      ]
+[     buy     - buys an item             ]
+[ value *item*- values an item you have  ]
+[________________________________________]
+~
+253 DN 1
+D2
+You see a street.
+~
+~
+0 -1 25316
+S
+#25368
+Wands 'R' Us.~
+No one is in this store when you open the door.  Except for the curious
+looking flesh golem standing behind the counter.  He shrugs when you notice
+you looking at him and mumbles something about a misfired spell.
+
+ ________________________________________
+[     list    - list items for sale      ]
+[      buy    - buys an item             ]
+[ value *item*- values an item you have  ]
+[________________________________________]
+~
+253 DN 1
+D0
+You see a street.
+~
+~
+0 -1 25316
+S
+#25369
+Candies.~
+Evidently, drow have recieved a strange addiction to the sweets that afflict
+many of the races of the land above.  Sweets, sugary filled and oh so good,
+are in huge jars on the shelves.  He asks you if he can help you as he tosses
+candy to the children in the street.
+
+ __________________________________________
+[     list      - list items for sale      ]
+[      buy      - buys an item             ]
+[ value *item*  - values an item you have  ]
+[__________________________________________]
+~
+253 DN 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25318
+S
+#25370
+Ye Olde Spiritts Shoppe.~
+The shopkeeper is here drunk.  The whole place smells like a brewery.
+Actually, it smells like several large breweries stuffed into one small
+shop.  You reach for a bottle, but he grabs your hand.  'Whatchawant?Can't
+youseeI'mbusy?', he says.
+
+ _____________________________________________
+[      list       - list items for sale       ]
+[       buy       - buys an item              ]
+[ value *item*    - values an item you have   ]
+[_____________________________________________]
+
+~
+253 DN 1
+D0
+You see a busy market street.
+~
+~
+0 -1 25318
+S
+#25371
+The Captain's Office.~
+The captain of the citywatch chose this place for his office for one
+all important reason.  The proximity to the tax post.  The Captain is
+a strict man, but he also enjoys the occasional bribe.  Which from the
+expensive looking pieces of art he has hanging on his walls and sitting
+on his desk, is no small amount.
+~
+253 DN 1
+D2
+You see a busy market street.
+~
+~
+0 -1 25320
+S
+#25372
+The Western Tax Post.~
+This is your basic guard post with a few additions.  Posters hang on the
+wall showing who not to let in the city.  A glass cabinet on one wall holds
+weapons favored by the drow including long swords and hand crossbows.  A 
+heavy chest in a locked cage stands in one corner of the room to put the
+collected taxes in.
+~
+253 DN 1
+D0
+You see a busy market street.
+~
+~
+0 -1 25320
+S
+#25373
+The second floor.~
+This is the bare upstairs floor of a poor family of drow.  Straw covers
+the floor in one corner of the room for the family members to sleep on.
+The walls are bare except for some cracks running from floor to ceiling.
+~
+253 DN 1
+D5
+You see the first floor.
+~
+~
+0 -1 25342
+S
+#25374
+The second floor.~
+This is the abondoned looking second floor of a poor family of drow.  Old
+blanket and cloaks cover the floor in one corner of the room.  The walls  
+are grungy looking and bare.  The one window in the room is so caked with
+dirt that you can't see out of it.
+~
+253 DN 1
+D5
+You see the first floor.
+~
+~
+0 -1 25343
+S
+#25375
+The second floor.~
+This floor is well made up with a bed sitting on one side of the room and a
+deep sunken tub on the other.  The furnishings here are nice, but moderate
+looking.  You can see the street from the window to the east.
+~
+253 DN 1
+D5
+You see the first floor.
+~
+~
+0 -1 25344
+S
+#25376
+The second floor.~
+This floor is well made up with a bed sitting on one side of the room and a
+tub on the other.  The furnishings here are moderate, but nice.  You can
+see the street from the window to the west.
+~
+253 DN 1
+D5
+You see the first floor.
+~
+~
+0 -1 25345
+S
+#25377
+The second floor.~
+This floor is as elaborate as the first.  A huge canopy bed sits on one side
+of this room.  On the other side a huge mirror covers the wall.  You think
+you see a fading image in it, but you're not sure.
+~
+253 DN 1
+E
+canopy bed~
+It is made out of oak, a rare material here in the underdark, and has rich
+beautiful purple curtains hanging off of it at all sides.  The covers are
+thick and warm looking.  Pillows, fluffed and extremely comfortable looking
+sit stacked neatly at the head of the bed.
+~
+E
+mirror~
+You think you see a beautiful drow woman sitting on a throne attended to by
+other females.  It's kind of strange, but you feel like she is looking
+right at you.
+~
+D5
+You see the first floor.
+~
+~
+0 -1 25346
+S
+#25378
+The second floor.~
+This floor has some exquisite statue sitting on little pedastels all around
+the room.  There is a bed, but this place doesn't have much of a lived in 
+feel.  It's more for display.
+~
+253 DN 1
+D5
+You see the first floor
+~
+~
+0 -1 25347
+S
+#25379
+Upstairs at Zarek's.~
+The air here is rich with the scented smells of incense.  A large desk
+sits against one wall with a stack of gold on it.  Beads hang from the 
+wall, and strange looking magical lights float in the air.  You can see
+a stairway that leads upward.
+~
+253 DN 1
+D4
+You see the top of the cavern.
+~
+~
+0 -1 25388
+D5
+You can't see anything through the smoke.
+~
+~
+0 -1 25349
+S
+#25380
+The second floor of Gheliash's.~
+The lights here are dim.  You can just see shadows farther down the 
+hallway.  Sounds of passion, laughter, and a slapping noises echo from
+the rooms that are off the hallway.  You can go downstairs here, or you  
+can go up some stairs.
+~
+253 DN 1
+D0
+You see a door.
+~
+door~
+1 -1 25385
+D2
+You see a door.
+~
+door~
+1 -1 25386
+D3
+You can see farther down the hallway.
+~
+~
+0 -1 25381
+D4
+You can see the cavern ceiling.
+~
+~
+0 -1 25387
+D5
+You can see downstairs.
+~
+~
+0 -1 25348
+S
+#25381
+A hallway.~
+It's dark and you just stepped in something you would rather not imagine.
+Noises echo off of the dark walls that you can't quite make out, but there
+is no mistaking considering this is Gheliash's House of Pleasure.
+~
+253 DN 1
+D0
+You see a door.
+~
+door~
+1 -1 25383
+D1
+You can see farther down the hallway.
+~
+~
+0 -1 25380
+D2
+You see a door.
+~
+door~
+1 -1 25384
+D3
+You see a door.
+~
+door~
+1 -1 25382
+S
+#25382
+Gheliash's room.~
+A huge bed covers most of the room.  Oils and ointments cover the dresser on
+the north wall, and a display board on the south wall holds all manners of
+whips and lingerie.  Gheliash has a very diversified interest in sex.
+~
+253 DN 1
+D1
+You see a door.
+~
+door~
+1 -1 25381
+S
+#25383
+The Jungle Room.~
+This room is completely covered in tropical plants.  Dirt covers the floor
+beneath your feet, and several small animals flee from the door when you
+open it.  Rich scents assault you as you step into the room.  You're not
+sure, but you think you might see a jungle cat sneaking through the growth.
+~
+253 DN 1
+D2
+You see a door.
+~
+door~
+1 -1 25381
+S
+#25384
+The Torture Room.~
+You can't make out anything when you first open the door except for the
+fire that burns in a fireplace on the southern wall.  When your eyes start
+to adjust you can make out various instruments of torture along with chains
+and manacles cover most of the walls.  In the center of the room is a small
+cage large enough for an average sized being to stand comfortably in.
+You didn't notice her at first, since she blended in so well to the darkness,
+but a well-built drow female comes out of the shadows and flicks her whip.
+She yells, 'KNEEL SLAVE!!'.  You have the most curious sensation of wanting
+to obey.
+~
+253 DN 1
+D0
+You see a door.
+~
+door~
+1 -1 25381
+S
+#25385
+The Altar.~
+The females that work at this house use this room to pray to their goddess.
+When they are working it is used for males to act out their fantasies 
+involving priestesses for the right amount of gold.  There is a statue of
+a spider behind the altar that looks out across the room.  The dark elven
+woman in this room sees you and starts to approach.  You can't tell if she
+thinks you are a sacrifice or if you are a client.  Guess you'll find out.
+~
+253 DN 1
+D2
+You see a door.
+~
+door~
+1 -1 25380
+S
+#25386
+The Lost Maiden.~
+This room is filled with 'trees' that reach from floor to ceiling.  There
+are bushes placed around sporatically to give it the sense of being outside.
+You hear some stumbling and an innocent looking drow female stumbles out of
+the brush and asks if you can help her find her way to her grandmothers
+house.
+~
+253 DN 1
+D0
+You see a door
+~
+door~
+1 -1 25380
+S
+#25387
+The roof.~
+It's a nice spatious roof.  Several chairs has been set up so guests and
+employees can look out over the rest of the city.  A small grill has been
+set up for the preperation of food.  The cook is strangely absent though.
+There is a sign tacked up to the grill to explain it.  To the east you see
+a rope bridge that connects this roof to the one across the street.
+~
+253 DN 1
+E
+grill note~
+The cook burned Gheliash's roth steak and is currently serving the
+house goddess in the Abyss.  Applications are being excepted.
+~
+D1
+You see a rope bridge.
+~
+~
+0 -1 25389
+D5
+You see some stairs.
+~
+~
+0 -1 25380
+S
+#25388
+The roof.~
+This roof has a lot of little mushrooms growing on it.  You also see a 
+machine off to the side that grinds up the mushroom.  There is a towel
+set off to the side with drying grounds on it.  By the stairs that lead
+down are some chairs.  An ash tray is sitting on a table between the chairs.
+~
+253 DN 1
+D3
+You see a rope bridge.
+~
+~
+0 -1 25389
+D5
+You see some stairs. 
+~
+~
+0 -1 25379
+S
+#25389
+A rope bridge.~
+This bridge is made out of rope and some kind of a heavy wood.  It starts
+creaking as soon as you put your foot on it.  The farther you walk across
+it the more it creaks.  You hope you can make it to the other side
+before it falls!
+~
+253 DN 1
+D1
+You see a rooftop.
+~
+~
+0 -1 25388
+D3
+You see a rooftop.
+~
+~
+0 -1 25387
+S
+#25390
+Secret Garden~
+This quiet hidden garden is totally surrounded and protected by an 8 foot
+tall hedge of roses.  The wicked thorns assure that unwanted visitors will
+never visit this enchanted place.  The sweet intoxicating fragrance of white
+roses embrace you.  Well-kept cobblestone paths wind through out the garden,
+allowing you to wander among exotic and brightly colored plants.  Large leaf 
+palms and ferns wave gently in a soft breeze, giving the impression of a
+lost tropical paradise.  You notice one arched opening through the hedge but
+you have the eerie feeling that if you walk through that exit, you will never
+return.
+~
+253 DJK 1
+D3
+You see a large kitchen.
+~
+~
+0 -1 9970
+S
+#0
+
+
+
+#SPECIALS
+M 25308 spec_thief Load to: a dark-elven thief
+M 25309 spec_thief Load to: a dark-elven thief
+M 25310 spec_thief Load to: a dark-elven thief
+M 25312 spec_fido Load to: a rat
+S
+
+
+
+#RESETS
+*Gateguards
+M 0 25300 8 25300
+M 0 25300 8 25300
+M 0 25300 8 25300
+M 0 25300 8 25300
+M 0 25300 8 25301
+M 0 25300 8 25301
+M 0 25300 8 25301
+M 0 25300 8 25301
+M 0 25301 8 25314
+M 0 25301 8 25314
+M 0 25301 8 25314
+M 0 25301 8 25314
+M 0 25301 8 25315
+M 0 25301 8 25315
+M 0 25301 8 25315
+M 0 25301 8 25315
+M 0 25302 8 25321
+M 0 25302 8 25321
+M 0 25302 8 25321
+M 0 25302 8 25321
+M 0 25302 8 25322
+M 0 25302 8 25322
+M 0 25302 8 25322
+M 0 25302 8 25322
+*Bridgeguard
+M 0 25303 2 25328
+M 0 25303 2 25328
+*Tax guards
+M 0 25304 6 25313
+M 0 25304 6 25313
+M 0 25304 6 25362
+M 0 25304 6 25362
+*Harbor guard
+M 0 25305 9 25324
+M 0 25305 9 25324
+M 0 25305 9 25325
+M 0 25305 9 25325
+M 0 25305 9 25325
+M 0 25305 9 25325
+*Draw boy and girl
+M 0 25306 30 25301
+M 0 25306 30 25302
+M 0 25306 30 25302
+M 0 25306 30 25303
+M 0 25306 30 25303
+M 0 25306 30 25304
+M 0 25306 30 25307
+M 0 25306 30 25307
+M 0 25306 30 25307
+M 0 25306 30 25307
+M 0 25306 30 25312
+M 0 25306 30 25311
+M 0 25306 30 25313
+M 0 25306 30 25313
+M 0 25306 30 25316
+M 0 25306 30 25316
+M 0 25306 30 25317
+M 0 25306 30 25317
+M 0 25306 30 25318
+M 0 25306 30 25318
+M 0 25306 30 25325
+M 0 25306 30 25325
+M 0 25306 30 25342
+M 0 25306 30 25342
+M 0 25306 30 25343
+M 0 25306 30 25344
+M 0 25307 30 25301
+M 0 25307 30 25302
+M 0 25307 30 25302
+M 0 25307 30 25303
+M 0 25307 30 25303
+M 0 25307 30 25304
+M 0 25307 30 25304
+M 0 25307 30 25304
+M 0 25307 30 25304
+M 0 25307 30 25304
+M 0 25307 30 25306
+M 0 25307 30 25306
+M 0 25307 30 25307
+M 0 25307 30 25307
+M 0 25307 30 25307
+M 0 25307 30 25310
+M 0 25307 30 25310
+M 0 25307 30 25307
+M 0 25307 30 25313
+M 0 25307 30 25316
+M 0 25307 30 25317
+M 0 25307 30 25317
+M 0 25307 30 25318
+M 0 25307 30 25318
+M 0 25307 30 25318
+M 0 25307 30 25313
+M 0 25307 30 25324
+M 0 25307 30 25345
+M 0 25307 30 25325
+*Thief level 5
+M 0 25308 1 25354
+M 0 25308 1 25310
+M 0 25308 1 25311
+M 0 25308 1 25319
+M 0 25308 1 25330
+M 0 25308 1 25312
+*Thief level 10
+M 0 25309 1 25311
+M 0 25309 1 25317
+M 0 25309 1 25319
+M 0 25309 1 25352
+M 0 25309 1 25331
+M 0 25309 1 25340
+*Thief level 18
+M 0 25310 1 25308
+M 0 25310 1 25313
+M 0 25310 1 25318
+*Master thief
+M 0 25311 1 25312
+*Giant rat
+M 0 25312 20 25330
+M 0 25312 20 25331
+M 0 25312 20 25333
+M 0 25312 20 25333
+M 0 25312 20 25337
+M 0 25312 20 25339
+M 0 25312 20 25340
+M 0 25312 20 25340
+M 0 25312 20 25353
+M 0 25312 20 25353
+M 0 25312 20 25354
+M 0 25312 20 25354
+M 0 25312 20 25359
+M 0 25312 20 25359
+M 0 25312 20 25361
+*Honest Eddy
+M 0 25313 1 25364
+*Honest Eady
+M 0 25314 1 25366
+S
+
+
+
+#$

@@ -1,0 +1,6034 @@
+#AREA   { 15+ } Drakk   Ruins of Midgaard~
+
+#MOBILES
+#5701
+ogre~
+the ogre~
+An ogre is here looking very alert for danger.
+~
+You see an very dirty ogre.
+~
+ogre~
+CGT J -600 S
+15 0 3d9+208 0d0+0 2d6+3 8
+-2 -2 -2 10
+CIOP Q 0 0
+8 8 1 0
+AHV ABCDEFGHIJKL L 0
+#5702
+gnoll~
+the gnoll~
+A gnoll is here watching out for signs of trouble.
+~
+You see a gnoll looking at you questioningly.
+~
+gnoll~
+CGT J -600 S
+15 0 3d9+208 0d0+0 2d6+3 17
+-2 -2 -2 10
+CIP Q 0 0
+8 8 1 0
+AHV ABCDEFGHIJK L 0
+#5703
+captain~
+the captain~
+A pirate captain stands here, watching over his boat.
+~
+This captain has killed more seamen than you have eaten peas.
+~
+human~
+BTV 0 900 S
+25 10 1d1+1500 1d1+150 1d8+40 13
+-17 -17 -17 -17
+CEI ABCD 0 0
+8 8 1 1300
+0 0 M 0
+#5704
+pirate~
+the pirate~
+A pirate stands here, waiting for his next raid.
+~
+He looks like a strong, fit pirate.
+~
+human~
+BJSV 0 900 S
+23 5 1d1+999 1d1+99 1d4+23 13
+-15 -15 -15 -15
+FHJN ABCD 0 0
+8 8 1 58
+0 0 M 0
+#5705
+pirate~
+the pirate~
+A pirate stands here, waiting for his next raid.
+~
+He looks like a strong, fit pirate.
+~
+human~
+BJSV 0 900 S
+23 5 1d1+999 1d1+99 1d4+23 13
+-15 -15 -15 -15
+FHJN ABCD 0 0
+8 8 1 58
+0 0 M 0
+#5706
+ghost~
+the ghost~
+You see the misty outline of a midgaardian person floating before you.
+~
+The person is dressed in misty clothing and holds his hands out to you for aid.
+~
+ghost~
+GOTU DFJPTU 0 S
+20 0 3d9+333 0d0+0 2d8+5 19
+-4 -4 -4 -4
+0 0 0 0
+8 8 0 0
+0 0 M 0
+#5707
+ghost~
+the ghost~
+You see the misty outline of a midgaardian person floating before you.
+~
+The person is dressed in misty clothing and holds his hands out to you for aid.
+~
+ghost~
+GOTU DFJPTU 0 S
+20 0 3d9+333 0d0+0 2d8+5 19
+-4 -4 -4 -4
+0 0 0 0
+8 8 0 0
+0 0 M 0
+#5708
+guildmaster master warrior ghost~
+the warrior's guildmaster~
+A ghost of the guildmaster is standing here.
+~
+This is your master. A short, strong dwarf with bulging muscles.  Several
+scars across his body prove that he was using arms before you were born.
+He has a dazed look on his face.
+~
+dwarf~
+BKT DF 1000 S
+36 0 1d1+1999 1d1+199 3d8+24 19
+-20 -20 -20 -3
+ACDEIK 0 0 0
+8 8 1 0
+0 0 M 0
+#5709
+assassin~
+the assassin~
+An assassin is looking for his next victum.
+~
+He is a thief who has specialized in killing others as effectively as possible,
+using all sorts of weapons.  His superior knowledge of how and where to use
+them combined with his extraordinary stealth makes him a deadly opponent.
+~
+human~
+CFGS DFOPQV -1000 S
+56 3 1d1+6999 1d1+199 10d4+24 11
+-26 -26 -26 -3
+BCDEIJK ABLQ 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M 0
+#5710
+cityguard guard~
+the cityguard~
+A cityguard stands here.
+~
+A big, strong, crazed guard.
+~
+human~
+CGT 0 1000 S
+15 3 15d15+160 1d1+149 2d4+4 17
+0 0 0 8
+CDEKLTU 0 C 0
+8 8 0 150
+0 0 M 0
+#5711
+troll~
+the troll~
+A troll is here, looking for victims.
+~
+He looks pretty mean, and would probably love to eat you.
+~
+troll~
+CFGT Jc -600 S
+25 2 5d10+550 0d0+0 2d10+7 8
+-7 -7 -7 -7
+DU 0 BE HK
+8 8 1 0
+ABHMV ABCDEFGHIJKUV L 0
+#5712
+giant~
+the giant~
+A giant is here, ready to pound you.
+~
+He is very very large and would love to squash you into a pulp.
+~
+giant~
+ACFGT J -600 S
+30 4 6d12+853 0d0+0 4d6+8 7
+-9 -9 -9 -9
+CDOU 0 HI JP
+8 8 1 0
+AGV ACDFGHIJK G 0
+#5713
+wolf pet~
+the wolf~
+A large, trained wolf is here.
+~
+The wolf looks like a strong, fearless fighter.
+~
+wolf~
+BU F 0 S
+9 3 6d10+80 1d1+99 2d5+1 10
+4 4 4 8
+C 0 C 0
+8 8 3 0
+0 0 M 0
+#5714
+captain~
+the captain~
+The captain of the guard has a crazed look in his eyes.
+~
+A big, strong, crazy captain.
+~
+human~
+CFT D 1000 S
+17 4 15d15+190 1d1+199 2d4+6 17
+-2 -2 -2 6
+CDEHKLU 0 C 0
+8 8 1 500
+0 0 M 0
+#5715
+mayor ghost~
+the ghost of the mayor~
+The ghost of the mayor is here weaping.
+~
+He is a stocky, middle-aged man with thin, grey hair with tears in his eyes.
+~
+human~
+B N 900 S
+23 6 6d10+500 1d1+199 1d8+12 17
+-15 -15 -15 -15
+EFNS AB CD 0
+4 4 1 1000
+0 0 M 0
+#5716 
+apparition~
+the dark apparition~
+A dark apparition flings itself at you with a bonegrinding shriek.
+~ 
+   The sole purpose of this dead spirit is to spread fear, seeking revenge
+for the evil way the draconians murdered him. It can take any form it wants,
+look any way it wants, usually choosing horrible, disgusting forms, such as
+mutilated animate corpses, that strike fear in any conscious man's mind.
+~
+undead~
+CGT CDEFNZ -700 M
+14 8 10d2+190 0d0+200 1d13+4 18
+-3 -3 -3 1
+DGLNR AKLQ 0 CJNP
+8 8 0 0
+ACDL 0 M 0
+{}
+#5717
+winged serpent~
+the winged serpent~
+From out of his shadowy shelter, a winged serpent hisses at you menacingly.
+~ 
+   These feathered, black snakes have bat wings and can grow till up to 
+ten feet long. They reside in ancient swamps, ruins, underground caverns and
+other dark and mysterious places. The Midgaard ruins, being sheltered by the
+woods, thus form a perfect habitat. 
+~
+snake~
+BGT CFNZ -400 M
+15 10 9d3+208 0d0+100 2d6+4 10
+-2 -2 -2 0
+FLMNOR ABLQ 0 0
+8 8 0 0
+ABHY 0 M 0
+{}
+#5718
+shadow assassin~
+the shadow assassin~
+A shadowy assassin materializes in front of you, its dagger raised.
+~
+   The spirits of dead assassins and nightblades, these entities are often 
+conjured up by foul necromancers and dark priests or magi to slay their 
+enemies. They are dark, unsubstantial in form with yellow, piercing eyes. 
+A shadow assassin is crafty, shrewd and has no mercy. It has no qualms 
+about slaying anyone that gets in the way of his mission. After completing 
+its mission it will discorpeate and his soul will return to the realm of 
+the dead until it is summoned again.
+~
+undead~
+CGT CDEFNZ -600 M
+18 14 9d3+283 0d0+200 2d7+5 18
+-5 -5 -5 -3
+CEFLNR ABQ BQ CE
+8 8 0 0
+ACDHL 0 M 0
+{}
+#5719
+black dragon~
+the Black Dragon~
+A Great Black Wyrm sleeps here, lying protectively over his treasure.
+~
+   These great lizards usually make their homes in marshes and jungles. 
+Black dragons are impulsive and nervous, tending to act first and think 
+later. Because of their independence, they are seldom used by Takhisis 
+except in times of great need. This particular one seems to have been 
+commanded to take the ruins of Midgaard as his domain though, which means 
+that the ruins, or maybe something buried beneath them, must be valued 
+highly by the Dark Queen. Black dragons are unpredictable in what they 
+hold precious ... some covet piles of coins and gems, while others have 
+collected only weapons.
+~
+dragon~
+BCGT CDEFJNRZcc -900 M
+60 40 200d2+4000 75d2+600 8d6+50 32
+-40 -40 -40 -30
+DEHILMNOR ABEILPQ 0 HN
+8 8 0 30000
+ACHZ 0 H 0
+{}
+#5720
+aurak draconian~
+the Aurak~
+An Aurak is observing your every move from behind some crumbled walls.
+~
+   The Auraks are the special agents of the Queen of Darkness. These
+draconians have no wings and as such cannot fly. Still they move swiftly on
+foot and have very accute senses. They have the innate power of infravision,
+can detect hidden and invisible objects and can even see through illusions. 
+They are of normal human length, but have reptilian scaled hides, a thick 
+tail and clawed hands and feet. Before it dies, the escaping magic energy 
+transforms it into a green lightning ball and finally explodes.
+~
+dragon~
+CGR CDFJNQ -600 M
+24 20 25d2+450 25d2+250 10d2+9 5
+-10 -10 -10 -8
+EFIJLMNR ABLQ P HN
+8 8 0 1500
+ACHZ 0 M 0
+{}
+#5721
+baaz draconian~
+the Baaz~
+A Baaz, diguised in thieves clothing, is listening in on some conversations.
+~
+   Weak of mind and character, Baaz appear as men with scaly, patterned skin
+and tail. Small wings, which they often cover with cloaks or other clothes,
+protrude from their shoulder bones. Many of these draconians have doglike
+snouts. The most human-like of this species become the spies of the Dragon-
+armies. When these creatures are killed, they turn into a substance similar
+to stone, trapping inside whatever dealt the final blow.
+~
+dragon~
+CGT CN -700 M
+20 15 9d3+333 0d0+200 8d2+5 5
+-7 -7 -7 -4
+DEFIJLMNR ABLQ 0 HN
+8 8 0 900
+ACHZ 0 M 0
+{}
+#5722
+bozak draconian~
+the Bozak~
+A Bozak rummages through the ruins in search of spell components.
+~
+   Bozak are typically six to six and a half feet tall and covered with
+bronze-hued scales. The scales are small and fishlike on the draconian's
+face, hands and feet, but about the size of a copper piece on the remainder
+of the off-spring's body. They also have some leathery wings wich enables
+them to glide on the thermals and limited flying abilities. Bozak are spell-
+casters and serve as special forces and commanders for their Dark Queen. When 
+killed, a Bozak's flesh becomes dry and brittle, turning to dust. The bones 
+begin to vibrate, then explode violently, hitting all within a ten feet range.
+~
+dragon~
+CGR CDEFN -600 M
+28 22 10d5+650 1d2999+1 12d2+8 5
+-11 -11 -11 -10
+EFIJLMNR ABLQ 0 HN
+8 8 0 2000
+ACHZ 0 M 0
+{}
+#5723
+kapak draconian~
+the Kapak~
+A Kapak is sneaking through the ruins, ready to plant a knife in your back.
+~
+   Kapaks look less like humans than Baaz. They have a short mane that
+hangs down to one side of their mouth, large leathery wings, which makes them 
+fair at gliding. They disdain clothes, considering them worthless trapping of
+humans. Kapaks are generally ignorant, ill-mannered, famished and witless.
+They are best-suited to a military lifestyle, where their movements and 
+actions are directed by more intelligent draconians, such as Baaz or Bozak. 
+They prefer close fighting, where their venomous saliva and curving claws work 
+to best effect. Kapaks serve as skirmishers and assassins in the Dark Queen's
+army. When they are slain, their body dissolves into a pool of acid.
+~
+dragon~
+CGT CFN -600 M
+22 18 10d5+400 0d0+200 4d4+6 5
+-8 -8 -8 -5
+BDEFIJLMNR ABLQ 0 HN
+8 8 0 1500
+ACHZ 0 M 0
+{}
+#5724
+sivak draconian~
+the Sivak~
+A Sivak marches through the ruins in search of a fight and loot.
+~
+   Sivak are the largest and sturdiest draconians. They are the elite forces
+of the Dragonarmies, shock troops wielding mighty flails and two-handed swords.
+Even so, like Kapaks, they need direction. Their small minds have trouble con-
+cocting long-range plans and elaborate tactics. Their great strength makes them
+accomplished fliers, but their most devastating ability is their mastery of
+shapechanging into the form of someone they just killed and maquerading as that
+person. When a Sivak is slain, they shapechange into the form of their slayer.
+They retain this death shape for three days, after which their form bursts into
+flames and is reduced to black soot.
+~
+dragon~
+GT CN -800 M
+26 22 10d5+600 0d0+200 7d3+10 5
+-11 -11 -11 -7
+DEHIJLMNOR ABLQ 0 HN
+8 8 0 1500
+ACHZ 0 L 0
+{}
+#5725
+death knight~
+the Death Knight~
+A Death Knight stands in the scrub grown streets challenging you to a duel.
+~
+   Death Knights are the tragic corruption of knights who have betrayed their
+honor and vow. This one faltered and fled during the attack of the dragons on
+Midgaard, leaving the populace defenseless. A death knight retains the fighting
+skills it had in life, but also some tortured sense of nobility: he will not
+attack from an ambush, nor attack an unarmed person.
+~
+undead~
+GT CEFN 700 M
+35 28 50d2+1300 0d0+300 4d7+12 18
+-14 -14 -14 -8
+DEHILNR ABLQ C HN
+8 8 1 1900
+ACHM 0 M 0
+{}
+#5726
+skeleton warrior~
+the Skeleton Warrior~
+A Skeleton Warrior is roaming the Midgaard ruins in search of his circlet.
+~ 
+   These undead lords were created when their life essences were trapped
+within their golden circlets. Skeleton warriors continually look for their
+circlets. Anyone possessing one of these circlets can control the warrior,
+but those not aware of how to control the warrior risk disaster. Skeleton
+warriors will not rest until they and their circlets are destroyed.
+~
+undead~
+BT CEFN 700 M
+25 21 10d5+550 0d0+300 2d10+8 18
+-11 -11 -11 -6
+DEFILNR ABLQ 0 HN
+8 8 1 1500
+ACH 0 M 0
+{}
+#5727
+algroth~
+the Algroth~
+An Algroth leaps in front of you from behind a large elm-grove.
+~ 
+   You see a non-human creature, somewhat distantly related to Trolls. 
+Algroths are huge, with apelike arms and sharp, venomous claws instead 
+of fingers. Their faces are goatish, surmounted by short sharp-pointed 
+horns. They have long, yellow fangs and their scaly, reptilian skin is 
+of a loathsome grey color. They usually dwell in the mountain forests 
+of Ulgo, but driven by hunger they have now come in search of food near 
+the ruins of Midgaard.
+~
+troll~
+CGHT CFNaa -100 M
+20 15 9d3+333 0d0+100 8d2+5 5
+-8 -7 -8 -3
+BEILOR AB BLQ N
+8 8 0 0
+ABVX X M 0
+{}
+#5728
+hrulga~
+the Hrulga~
+A Hrulga gallops through the forest, its manes and tails tossing. 
+~ 
+   In front of you stands a fourlegged animal, much like a horse, but with
+fangs instead of teeth, and clawed feet instead of hoves.
+~
+horse~
+GT CFN -200 M
+15 10 9d3+208 0d0+100 2d6+4 15
+-5 -4 -5 0
+DFILR ABPQ B N
+8 8 0 0
+ABGV ACDEFJKQUV M 0
+{}
+#5729
+eldrak~
+the Eldrak~
+An Eldrak is roaming through forest and the ruins in search of food.
+~ 
+   The Eldrakyn are related to Algroths and Trolls, but are more intelligent 
+and much bigger. They are big, quick and cruel. An Eldrak will eat anything 
+that moves and doesn't rally care if it's dead or not before he starts to eat. 
+They are about eight feet tall and covered with shaggy black fur. The Eldrakyn 
+have virtually no nose, and their lower jaw juts, showing two massive protru-
+ding tusks. Their eyes are sunk in deep sockets beneath a heavy ridge of bone 
+across their brow, and they are burned with a hideous hunger.
+~
+troll~
+CGT CFN -600 M
+27 22 10d5+650 0d0+100 5d4+7 5
+-11 -10 -11 -6
+DEHIKLNOR AB BLQ 0
+8 8 1 2500
+ABVX XY L 0
+{}
+#5730
+wolf rock-wolf~
+the rock wolf~
+A rock wolf is lurking within the forest, seeking for an easy prey. 
+~ 
+   Its forelegs are noticeably longer than its hind ones, giving it a 
+peculiar, half-erect stance, and there is a large, muscular hump across its 
+shoulders. Its muzzle is short, and it seems snub-faced, almost like a cat's. 
+Its coat is a splotchy black and white, marked with a pattern hovering some-
+where between spots and stripes. It stares at you with a dreadful intensity
+while yelping its high-pitched, hooting laugh.
+~
+wolf~
+GT CFN -300 M
+13 8 10d2+170 0d0+0 2d5+3 10
+-1 -1 -1 1
+ILNR A 0 N
+8 8 0 0
+AGV 0 M 0
+{}
+#5731
+dreadwing~
+the Dreadwing~
+A large black dreadwing glides down from the skies, its claws ready to strike.
+~ 
+   These horrible beasts are either huge pitch black, or blood-red 
+pterodactyl-like creatures, although they are capable of full flight and 
+not just gliding. Dreadwing's eyes always glow an eerie, pale blue. They
+are highly skilled in using their talons and tooth filled mouths in combat. 
+~
+bat~
+GT CENT -150 M
+18 14 9d3+283 0d0+100 7d2+5 5
+-5 -3 -5 -1
+DEFHLMNR AL 0 HN
+8 8 0 0
+ABGHVWX QU M 0
+{}
+#5732
+vampiric unicorn~
+the vampiric unicorn~
+A deadly beautiful white unicorn whinnies at you defiantly .
+~ 
+   A foul perversion of what was once good and fair, once guardian of all 
+that was pure in the woods, the vampiric unicorn has now become a menace, 
+feared by all within the Sembian realms. It has the beauty of the unicorn 
+still, but there is an evil about it now, so profound, so veil, it makes 
+the hairs in the nape of your neck stand upright.
+~
+vampire~
+GR CDEFNZcc -800 M
+24 20 10d5+475 35d2+180 7d3+6 15
+-11 -10 -11 -7
+DHILR ABLQ P NRSY
+8 8 0 0
+ACHMV 0 M 0
+{}
+#5733
+vampiric werewolf~
+the vampiric werewolf~
+A vampiric werewolf is hiding up in the trees, watching your every move.
+~
+   Perhaps the most cursed individuals in the history of the world, these poor
+souls have become infected with both lycanthropy and vapirism. These creatures
+can be encountered in human form, or in were-form, which looks like a wolf-man
+with long claws and huge bat wings.
+~
+vampire~
+CGT CDEFNZcc -700 M
+22 19 10d5+400 0d0+200 5d4+6 5 
+-10 -9 -10 -6
+DEFHLOR ABLQ P NRSY
+8 8 0 3000
+AHMV 0 M 0
+{}
+
+#5734
+dragon blue~
+the Great Blue Dragon~
+A blue dragon is here, waiting to feast on you.
+~
+The great wyrm is covered in a light blue scales.  You see that his 
+torso and left wing is covered is large scars from great battles which 
+he must have fought.
+~
+dragon~
+BCF DF -1000 M
+44 22 25d10+2750 2d44+440 8d4+15 30
+-15 -15 -15 -15
+ACM BEI C HN
+8 8 1 1500
+AHMV 0 G 0
+{}
+#0
+
+
+#OBJECTS
+#5701
+dagger rusty~
+a rusty dagger~
+A rusty dagger with a long thin blade is here.~
+steel~
+5 0 AN
+2 1 4 2 0
+0 1 10 D
+#5702
+sword small rusty~
+a rusty small sword~
+A rusty small sword lies here.~
+steel~
+5 0 AN
+1 1 5 1 0
+0 3 60 D
+A
+19 -2
+#5703
+sword long rusty~
+a rusty long sword~
+A rusty long sword has been left here.~
+steel~
+5 0 AN
+1 2 5 3 0
+7 5 250 D
+A
+19 -2
+#5704
+club~
+a club~
+A stout wooden club is here.~
+wood~
+5 0 AN
+4 1 7 7 0
+3 3 25 D
+A
+18 -1
+A
+19 -2
+#5705
+mace heavy rusty~
+a rusty mace~
+A heavy rusted iron mace is here.~
+iron~
+5 0 AN
+4 2 4 7 0
+6 10 70 D
+A
+19 -2
+#5706
+axe hand rusty~
+a rusty hand axe~
+A small hand axe lies forgotten on the floor.~
+iron~
+5 0 AN
+5 1 6 25 0
+0 5 50 D
+A
+19 -2
+#5707
+axe battle rusty~
+a rusty battle axe~
+A large rusted steel axe rests on the ground.~
+steel~
+5 0 AN
+5 2 5 25 F
+7 9 200 D
+A
+19 -2
+#5708
+spear rusty~
+a rusty spear~
+A long rusty spear leans against lays discarded on the ground.~
+steel~
+5 0 AN
+3 1 8 11 0
+4 5 50 D
+A
+19 -2
+#5709
+staff~
+a wooden staff~
+A stout wooden staff lies on the floor.~
+wood~
+5 0 AN
+3 1 8 7 F
+4 4 40 D
+A
+17 -2
+A
+19 -2
+#5710
+flail rusty~
+a rusty flail~
+A small rusty iron flail is here.~
+iron~
+5 0 AN
+6 1 7 7 0
+3 5 50 D
+A
+17 1
+A
+19 -2
+#5711
+book tome magic~
+a large tome~
+A large book is here covered in dust.
+~
+paper~
+8 64 1
+0 0 0 0 0
+0 5 10000 P
+#5712
+shard wand~
+a piece of wand~
+You see a small section of a blue wand laying discarded in the dirt.
+~
+crystal~
+1 97 16384
+0 0 250 0 0
+50 1 1000 B
+#5713
+orb dragon dragonorb~
+the Blue DragonOrb~
+A large blue orb lays on the ground pulsing with energy.
+~
+crystal~
+4 1|64|512 16384
+12 7 7 27 0
+24 5 7000 P
+#5714
+claw blue blueclaw~
+a set of blue dragon claws~
+A pair of blue dragon claws lie on the ground.
+~
+dragon~
+5 64|512 8192
+1 6 24 5 0
+24 18 6000 P
+#5715
+torso dragon~
+a blue torso~
+There is a pile of blue dragonscales here.
+~
+dragonscales~
+9 64|512 8
+8 8 6 0 0
+24 26 6000 P
+#5716
+club~
+a giant club~
+A giant club lays here discarded.
+~
+wood~
+5 0 8192
+0 10 18 7 0
+20 18 1000 G
+#5717
+sword bastard bastardsword~
+a bastardsword~
+A heavy sword lies on the ground.
+~
+metal~
+5 0 8192
+0 6 18 3 0
+18 10 700 G
+#5718
+sword long~
+a longsword~
+A longsword lies on the ground.
+~
+metal~
+5 0 8192
+0 8 14 3 0
+15 10 700 G
+#5719
+gauntlets ogre power~
+a set of gauntlets of ogre power~
+A set of leather gauntlets lies here.
+~
+leather~
+9 64 128
+5 5 5 0 0
+15 3 900 G
+A
+1 2
+#5720
+dagger heartseaker~
+Heartseaker~
+a small dagger lies here.
+~
+metal~
+5 4|16|64|512|2048 8192
+1 20 40 2 0
+50 3 9000 P
+A
+2 3
+A
+17 5
+#5721
+cutlass sword~
+a cutlass~
+A sailors cutlass lies here.
+~
+metal~
+5 0 8192
+0 8 17 1 0
+20 7 2000 P
+#5722
+gauntlets troll~
+a set of gauntlets~
+A set of leather gauntlets lies here.
+~
+leather~
+9 64 129
+5 5 5 0 0
+15 3 900 G
+A
+5 2
+#5723
+key steel~
+a steel key~
+A large steel key has been left here.~
+steel~
+18 0 A
+0 0 0 0 0
+0 1 0 G
+E
+key steel~
+A key of this size must fit a very strong lock.
+~
+#5724
+sword standard merc~
+a standard issue sword~
+You see a standard issue sword here.~
+steel~
+5 G AN
+1 2 5 3 0
+8 5 0 P
+E
+sword~
+You see a sword of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 1
+#5725
+dagger standard merc~
+a standard issue dagger~
+You see a standard issue dagger here.~
+steel~
+5 G AN
+2 1 6 11 0
+2 2 0 P
+E
+dagger~
+You see a dagger of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 1
+#5726
+mace standard merc~
+a standard issue mace~
+You see a standard issue mace here.~
+iron~
+5 G AN
+4 2 4 7 0
+7 10 0 P
+E
+mace~
+You see a mace of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+A
+18 1
+A
+19 2
+#5727
+vest standard merc~
+a standard issue vest~
+You see a standard issue vest here.~
+leather~
+9 0 AD
+4 4 3 1 1
+6 5 0 P
+E
+vest~
+You see a vest of great craftsmanship.  Stamped on the side is:
+Merc Industries
+~
+#5728
+shield standard merc~
+a standard issue shield~
+You see a standard issue shield here.~
+steel~
+9 0 AJ
+4 4 4 2 2
+6 3 0 P
+E
+shield~
+You see a shield of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5729
+cloak standard merc~
+a standard issue cloak~
+You see a standard issue cloak here.~
+cloth~
+9 0 AC
+3 5 4 1 1
+6 4 0 P
+E
+cloak~
+You see a cloak of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5730
+helmet standard merc~
+a standard issue helmet~
+You see a standard issue helmet here.~
+leather~
+9 0 AE
+4 4 3 1 1
+6 3 0 P
+E
+helmet~
+You see a helmet of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5731
+leggings standard merc~
+a pair of standard issue leggings~
+You see a pair of standard issue leggings here.~
+leather~
+9 0 AF
+4 4 3 1 1
+6 3 0 P
+E
+leggings~
+You see leggings of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5732
+boots standard merc~
+a pair of standard issue boots~
+You see a pair of standard issue boots here.~
+leather~
+9 0 AG
+4 4 3 1 1
+6 3 0 P
+E
+boots~
+You see boots of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5733
+gloves standard merc~
+a pair of standard issue gloves~
+You see a pair of standard issue gloves here.~
+leather~
+9 0 AH
+4 4 3 1 1
+6 3 0 P
+E
+gloves~
+You see gloves of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5734
+sleeves standard merc~
+a pair of standard issue sleeves~
+You see a pair of standard issue sleeves here.~
+leather~
+9 0 AI
+4 4 3 1 1
+6 2 0 P
+E
+sleeves~
+You see sleeves of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5735
+cape standard merc~
+a standard issue cape~
+You see a standard issue cape here.~
+cloth~
+9 0 AK
+3 4 3 1 1
+6 2 0 P
+E
+cape~
+You see a cape of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5736
+belt standard merc~
+a standard issue belt~
+You see a standard issue belt here.~
+bronze~
+9 0 AL
+4 4 3 1 1
+6 2 0 P
+E
+belt standard merc~
+You see a bronze belt of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5737
+bracer standard merc~
+a standard issue bracer~
+You see a standard issue bracer here.~
+bronze~
+9 0 4097
+2 4 4 1 0
+6 1 0 P
+E
+bracer~
+You see a bracer of great craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#5738
+ring signet~
+a city guard signet ring~
+You see a ring with a strange symbol on the floor.~
+copper~
+8 64 AB
+0 0 0 0 0
+12 1 0 P
+A
+17 -5
+A
+24 -1
+#5739
+banner war merc~
+a war banner~
+A war banner is on the floor here.~
+cloth~
+1 AG A
+0 0 500 0 0
+8 1 0 P
+E
+banner~
+This is the official Merc war banner to see you through the darkest realm!
+~
+A
+24 -1
+A
+17 -2
+#5740
+sword backbiting~
+the backbiting sword~
+A dreadfull sword lies here, buried under the rubble.~
+steel~
+5 CEGMR AN
+1 6 3 9 E
+18 14 15000 P
+E
+sword backbiting~
+   In your hands you hold the legendary Backbiting sword, lost for erastide
+it has now returned to, once again, create havoc upon the world.
+~
+A
+1 1
+A
+17 -5
+A
+18 4
+A
+19 3
+#5741
+night shroud~
+(Dark) a night shroud~
+(Dark) A mysterious, shadowy cloth lies in heap on the ground.~
+cotton~
+9 EGJM AC
+6 6 7 1 0                                  
+18 2 6000 P
+E
+night shroud~
+   The shroud, woven of the silken threads of night, absorbs all the light 
+in the room. It is beginning to envoke its dark powers on you ... arcane 
+words fill your mind, causing magic energy to surge into you from out of 
+the night air, however the intake leaves you physically drained.
+~
+A
+12 20
+A
+13 -10
+A
+24 -3
+#5742
+night robe~
+(Dark) a night robe~
+(Dark) A mysterious, shadowy robe lies in a heap on the ground.~
+cotton~
+9 EGJM AD
+7 6 7 1 0                                  
+18 2 6000 P
+E
+night robe~
+   The robe, woven of the silken threads of night, absorbs all the light 
+in the room. It is beginning to envoke its dark powers on you ... you 
+suddenly feel more at ease at night ... in fact you slowly begin to abhor
+daylight.
+~
+A
+12 -10
+A
+13 20
+A
+23 -1
+A
+24 -2
+#5743
+red cloak~
+a blood red cloak~
+A pile of blood red cloth lies neatly folded on the charred ground.~
+cotton~
+9 EGJ AC
+8 8 8 3 0                                  
+24 4 9000 P
+E
+red cloak~
+   You sense a deep evil about this garment and it is very cold to 
+your touch.
+~
+A
+12 15
+A
+23 -3
+#5744
+scaly bracer~
+a scaly bracer~
+An eerie bracer, made of small dragon scales, lies here near a charred wall.~
+organic~
+9 EGJ AM
+7 6 7 1 0                                  
+20 2 5000 P
+E
+scaly bracer~
+   It is a bracer made out of the smaller dragon scales. It has a dark
+color and you realize they have used the scales of a black dragon for it.
+~
+A
+12 10
+A
+13 15
+A
+23 -1
+A
+24 -2
+#5745
+scale mail skirt~
+a scale mail skirt~
+A shiny scale mail skirt has been left here on the charred ground.~
+steel~
+9 EGJR AF
+8 7 7 0 0                                  
+24 8 4000 P
+A
+17 -3
+A
+23 -2
+#5746
+black cloak~
+a black cloak~
+A black cloak lies neatly folded on top of some crumbled stones.~
+cotton~
+9 EGJ AC
+6 8 7 1 0                                  
+20 4 7000 P
+E
+black cloak~
+   You sense a deep evil about this garment and it feels chilling cold
+to your touch.
+~
+A
+2 1
+A
+13 5
+A
+24 -3
+#5747
+chain mail shirt~
+a long chain mail shirt~
+A shiny suit of chain mail lies here, surrounded by crumbled stones.~
+steel~
+9 EGJR AD
+7 6 7 1 0                                  
+20 15 6000 P
+A
+17 -4
+A
+23 -2
+#5748
+barbed longsword~
+a barbed longsword~
+A cruel looking sword lies buried under some crumbled stones.~
+steel~
+5 EGJR AN
+1 7 3 9 D                                  
+20 16 6000 P
+A
+18 5
+A
+19 2
+#5749
+plated chest armor~
+a plated chest armor~
+A sturdy looking plated armor lies in a pile of dust.~
+steel~
+9 EGJR AD
+9 8 9 2 0                                  
+28 20 7000 P
+A
+17 -5
+A
+23 -3
+A
+24 -1
+#5750
+plated greaves~
+some plated greaves~
+Some sturdy looking leg plates are lying in a pile of dust.~
+steel~
+9 EGJR AF
+9 8 8 2 0                                  
+28 14 6600 P
+A
+17 -4
+A
+23 -2
+#5751
+plated armguards~
+some plated armguards~
+Some sturdy looking arm plates are lying in a pile of dust.~
+steel~
+9 EGJR AI
+8 8 9 2 0                                  
+28 12 6400 P
+A
+17 -2
+A
+23 -1
+#5752
+slim scimitar~
+a slim scimitar~
+A wicked scimitar lies hidden in a pile of dust.~
+steel~
+5 EGJR AN
+2 9 3 1 0                                  
+28 15 7000 P
+A
+18 4
+A
+19 2
+#5753
+studded leather chest armor~
+a studded leather chest armor~
+A piece of leather chest protection lies in a pool of acid.~
+leather~
+9 EGJ AD
+7 8 7 0 0                                  
+22 8 5500 A
+A
+17 -3
+A
+23 -1
+A
+24 -1
+#5754
+studded leather pants~
+some small studded leather pants~
+Some studded leather pants are lying in a pool of acid.~
+leather~
+9 EGJ AF
+7 7 8 0 0                                  
+22 5 5300 A
+A
+17 -2
+A
+23 -1
+#5755
+buckler~
+a small buckler~
+A round shield lies in a pool of acid.~
+steel~
+9 EGJR AJ
+8 7 8 1 0                                  
+22 10 6000 G
+A
+17 -3
+A
+23 -3
+#5756
+small sword poisoned~
+a poisoned small sword~
+A saliva coated small sword lies in a pool of acid.~
+steel~
+5 EGJR AN
+1 7 3 10 E                                  
+22 10 16500 P
+E
+small sword poisoned~
+   Before entering combat the Kapak often lick their weapons to coat them
+with poisonous saliva.
+~
+A
+18 3
+A
+19 2
+#5757
+plated cuirass~
+a plated cuirass~
+A heavy looking plated armor lies here, covered in a pile of black soot.~
+steel~
+9 EGJR AD
+9 9 8 3 0                                  
+26 27 8000 P
+A
+17 -6
+A
+23 -4
+A
+24 -2
+#5758
+triple plated greaves~
+some triple plated greaves~
+Some heavy looking leg plates are lying in a pile of black soot.~
+steel~
+9 EGJR AF
+8 9 8 3 0                                  
+26 20 7600 P
+A
+17 -5
+A
+23 -3
+A
+24 -1
+#5759
+plated armguards~
+some triple plated armguards~
+Some heavy looking arm plates are buried under a pile of black soot.~
+steel~
+9 EGJR AI
+8 9 8 3 0                                  
+26 16 7400 P
+A
+17 -5
+A
+23 -2
+#5760
+barbed two-handed war blade~
+a barbed two-handed war blade~
+A heavy looking war blade is lying in a pile of black soot.~
+steel~
+5 EGJR AN
+1 4 7 9 DF                                  
+26 15 22000 P
+A
+18 3
+A
+19 2
+#5761
+dented plate mail~
+a dented plate mail~
+A dented plate lies on the cobble stones in front of you.~
+steel~
+9 EGR AD
+11 9 10 4 0                                  
+35 22 16000 G
+A
+17 -7
+A
+23 -5
+A
+24 -2
+#5762
+dented plate mail leggings~
+some dented plate mail leggings~
+Some dented leg plates are lying on the cobble stones in front of you.~
+steel~
+9 EGR AF
+10 9 11 3 0                                  
+35 16 14500 G
+A
+17 -6
+A
+23 -4
+A
+24 -1
+#5763
+dented plate mail armguards~
+some dented plate mail armguards~
+Some dented arm plates are lying on the cobble stones in front of you.~
+steel~
+9 EGR AI
+10 10 10 3 0                                  
+35 14 13500 G
+A
+17 -5
+A
+23 -3
+#5764
+dented tower shield~
+a dented tower shield~
+A dented tower shield lies on the cobble stones in front of you.~
+steel~
+9 EGR AJ
+10 11 9 3 0                                  
+35 10 15000 G
+A
+17 -5
+A
+18 3
+A
+19 2
+A
+23 -5
+#5765
+rusty tri-flail~
+a rusty tri-flail~
+A somewhat rusted flail lies on the cobble stones in front of you.~
+steel~
+5 EGR AN
+6 8 4 8 0                                  
+35 24 25000 P
+A
+18 5
+A
+19 4
+#5766
+suit ringmail~
+a suit of ringmail~
+A suit of ringmail lies near a crumbled wall.~
+steel~
+9 EGR AD
+8 9 8 1 0                                  
+25 16 13500 P
+A
+17 -5
+A
+23 -3
+#5767
+small round shield~
+a small round shield~
+A round shield lies near a crumbled wall.~
+steel~
+9 EGR AJ
+8 9 8 2 0                                  
+25 10 1300 P
+A
+17 -4
+A
+18 3
+A
+19 1
+A
+23 -3
+#5768
+spiked mace~
+a spiked mace~
+A spiked mace lies near a crumbled wall.~
+steel~
+5 EGR AN
+4 4 6 8 0                                  
+25 24 25000 P
+A
+18 3
+A
+19 1
+#5769
+adder sting throwing knife~
+an adder sting~
+An only shaped throwing knife is buried under a pile of dust.~
+steel~
+5 EGJR AN
+2 8 3 11 E
+28 8 20000 P
+E
+adder sting throwing knife~
+   You hold an odd-shaped throwing knife, sharp on all three sides, of which 
+the points are usually dipped in poison. It is the favored weapon of the
+Dagashi, a secret society in Cthol Murgos of trained assassins.
+~
+A
+18 2
+A
+19 2
+#5770
+algroth claws~
+some algroth claws~
+Hideous looking claws lie beneath the undergrowth.~ 
+organic~
+5 EGHJMR AN
+1 5 4 5 E                                  
+20 8 14500 P
+A
+2 1
+A
+18 3
+A
+19 2
+#5771
+armored shirt~
+an armored shirt of chainmail~
+A heap of chainmail lies hidden in the bushes, covered by moss.~
+steel~
+9 EGJR AK
+9 9 8 0 0                                  
+27 20 11000 P
+E
+armored shirt~
+   You take a look at an armored shirt, made of large scraps of chainmail 
+tied together with thongs.
+~
+A
+1 1
+A
+2 1
+A
+18 3
+#5772
+rusty breastplate~
+a rusty breastplate~
+A large piece of plate armor lies half buried under sand and moss.~
+steel~
+9 EGJR AD
+9 8 9 0 0                                  
+27 17 9000 P
+E
+rusty breastplate~
+   You examine a rusty breastplate that appears to have been hammered out 
+with rocks until it was big enough to fit around some creature's massive 
+chest.
+~      
+A
+2 1
+A
+19 2
+#5773
+conical helmet steel~
+a conical steel helmet~
+A conical helmet lies almost completely buried under sand and moss.~
+steel~
+9 EGJR AE
+8 9 9 0 0                                  
+27 12 8500 P
+E
+conical helmet~
+   In your hands you hold a conical steel helmet, it has been split up 
+at the back to make it fit. 
+~   
+A
+2 1
+A
+17 -6
+#5774
+huge club~
+a huge, steel wrapped club, studded with spikes~
+A huge club lies here covered by sand and moss.~
+steel~
+5 EGJR AN
+4 8 3 8 0                                  
+27 15 16250 P
+A
+18 5
+A
+19 1
+#5775
+bushes blueberry blueberry~
+the blueberry bushes~
+Rare blueberry bushes are growing here.~
+organic~
+15 G 0
+30 0 0 0 0                                  
+1 30 50 P
+#5776
+berries blueberries string~
+a string of blueberries~
+A string of rare blueberries have been dropped on the ground.~
+organic~
+26 AGH AO
+15 3 34 0 0
+7 1 4000 P
+A
+3 2
+#5777
+bushes blackberry~
+the blackberry bushes~
+blackberry bushes are growing here.~
+organic~
+15 G 0
+30 0 0 0 0                                  
+1 20 50 P
+#5778
+berries blackberries string~
+a string of blackberries~
+A string of rare blackberries has been dropped on the ground.~
+organic~
+26 AGH AO
+15 1 35 0 0                                  
+7 1 4500 P
+A
+2 2
+#5779
+bushes berry berries~
+the berry bushes~
+delicious red berried bushes are growing here.~
+organic~
+15 G 0
+30 0 0 0 0                                  
+1 25 50 P
+#5780
+berry berries red string~
+a string of red berries~
+A string of red berries has been dropped on the ground.~
+organic~
+19 AGH AO
+36 0 0 6 0                                  
+7 1 1500 P
+A
+5 2
+#5781
+elder-bush elderbush bush~
+an elder-bush~
+~
+organic~
+15 G 0
+5 0 0 0 0                                  
+1 25 100 P
+#5782
+elder-berries berries string~
+a string of elder-berries~
+A string of rare elder-berries lies here.~
+organic~
+26 AGH AO
+15 43 67 0 0
+7 1 5000 P
+A
+4 2
+#5783
+raspberry bush~
+a raspberry-bush~
+A thorny raspberry bush is growing here.~
+organic~
+15 G 0
+5 0 0 0 0                                  
+1 25 75 P
+#5784
+raspberries berries string~
+a string of raspberries~
+A string of rare raspberries lies on the ground.~
+organic~
+26 AGH AO
+16 61 0 0 0                                  
+10 1 4500 P
+A
+18 2
+A
+23 -2
+A
+24 -2
+#5785
+rose bushes bush~
+a rose bush~
+a beautiful rose bush is growing here.~
+organic~
+15 G 0
+10 0 0 0 0                                  
+1 25 75 P
+#5786
+rose~
+a beautiful red rose~
+A beautiful red rose grows in front of your feet.~
+organic~
+9 ACG AO
+5 6 6 0 0                                  
+15 1 5500 P
+A
+1 2
+#5787
+tulip~
+a beautiful orange tulip~
+A beautiful orange tulip grows in front of your feet.~
+organic~
+19 ACG AO
+6 6 6 1 0                                  
+18 1 6500 P
+A
+12 20
+A
+13 10
+#0
+
+#ROOMS
+#5700
+Mobile Work Room~
+This is the Mobile Work room where all testing of mobs is done.
+~
+57 N 0 
+S
+#5701
+The Ruined Temple Of Mota~
+You are in the southern end of the temple hall in the Temple of Mota.
+Everything in this room has been either burned or melted in some way so
+that nothing remains intacked.  Once beautiful paintings now lay scattered
+on the floor torn to shreads and covered in slime.  A small plaque is on
+this wall.
+~
+57 4|8 0
+D0
+At the northern end of the temple hall is a broken statue and a huge altar.
+~
+~
+0 -1 5754
+D2
+You see the old temple square.
+~
+~
+0 -1 5705
+D5
+You see a large hole in the floor of the temple.
+~
+~
+0 -1 5794
+E
+plaque~
+This entire world has been integrated, modified, debugged, and enhanced by
+Hatchet, Kahn, and Furey of MERC Industries to be run by any MERC Mud.
+1992 December 17
+
+Modifications to the once proud city of Midgaard were made by Tiamat and
+her dragon hoard.  Better known as Arkane and Drakk. Modified for DLL 1994.
+Further modifications were made by Morgan and Trinidad.
+
+ENJOY!!
+~
+S
+#5702
+Destroyed Inner Sanctum~
+This was once the great inner sanctum of the Clerics.  All about you, you
+see signs of destruction.  Scorch marks covers the walls where once
+pictures hung and a half an altar lies abandoned against the western wall.
+Bones can be seen amongst the debri.  A well in the middle of the floor 
+leads down into darkness.  Vile smells waft from the depths.
+~
+57 12 0
+D1
+You see a ruined bar.
+~
+~
+0 -1 5703
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 5736
+S
+#5703
+Ruined Cleric's Bar~
+The bar was one of the finest in the land, but now the whole room lays in
+ruins.  Once fine furniture now lays scattered around the room, broken and
+cut to pieces.  A small sign hangs lopsided on the wall.
+
+~
+57 12 0
+D2
+You see the entrance.
+~
+~
+0 -1 5704
+D3
+You see the inner sanctum.
+~
+~
+0 -1 5702
+E
+sign~
+The sign reads:
+Free instructions provided by the waiter:
+
+   Buy  - Buy something (drinkable) from the waiter.
+   List - The waiter will show you all the different drinks and
+	  specialties, and tell the price of each.
+~
+S
+#5704
+Entrance to the Old Cleric's Guild~
+This room is bare except for large claw marks which line the western wall.
+The exit leads east to the temple square.  A small entrance to the bar is
+in the northern wall.
+~
+57 8 0
+D0
+You see the bar.
+~
+~
+0 -1 5703
+D1
+You see the Temple Square.
+~
+~
+0 -1 5705
+S
+#5705
+The Old Temple Square~
+You are standing on the temple square.  Huge marble steps stained and
+cracked lead up to the rusted temple gate.  Vines seem to have taken hold
+of this area and cover everything.  The entrance to the Clerics Guild is to
+the west, and the old Grunting Boar Inn, is to the east.  Just south of
+here you see the market square, the center of Midgaard.
+~
+57 0 1
+D0
+You see the temple.
+~
+~
+0 -1 5701
+D1
+You see the remains of good old Grunting Boar Inn.
+~
+~
+0 -1 5706
+D2
+You see the Market Square.
+~
+~
+0 -1 5714
+D3
+You see the entrance to the Clerics Guild.
+~
+~
+0 -1 5704
+S
+#5706
+Entrance to what used to be the Grunting Boar Inn~
+You are standing in the entrance hall of the old Grunting Boar Inn.  It is
+hard to imagine this used to be an Inn.  The inside is littered with debri,
+bones and broken weapons can be see poking through the rubble.  It looks 
+as if a large battle was fought here.  You can see where tables may have been 
+lined up on thier sides as a form of defense.  You are saddened at the sight.
+~
+57 8 0
+D1
+You see what used to be the bar.
+~
+~
+0 -1 5707
+D3
+You see the old temple square.
+~
+~
+0 -1 5705
+S
+#5707
+The Grunting Boar~
+This used to be the bar to the inn.  Now only scorched wood of the famous
+bar remains, while scattered rubbish cover the floor.  The fireplace that
+is built into the western wall is now caved-in leaving only dust to show
+the warmth that use to errupt into the room.  A small sign with big letters
+is fastened to the bar.  On the far wall you see something scrawled on 
+the wall.
+
+~
+57 8 0
+D3
+You see the exit to the entrance hall.
+~
+~
+0 -1 5706
+E
+sign~
+The sign reads:
+Free instructions provided by the Grunting Boar Inn.
+
+   Buy  - Buy something (drinkable) from the bartender.
+   List - The bartender will show you all the different drinks and
+	  specialties, and tell the price of each.
+~
+E                                                                  
+wall scrawled~                                                    
+.                                                               (    )
+								////// 
+							       //O//O//
+    \        /                                                 ////////
+     \  /  /    ___       /               __-___---            ///oo///
+      |/ \/    \          | /       \         |                 /____\ 
+		\___      |/    |    |        \                  (  )       
+		 \        |\    |    |         |                            
+		  \---      \   |     \_____   |                            
+						     /\     |     |         
+						     / \     |   |         
+						    /---\    |    | 
+						    /   \    |___  |_____
+~
+E
+writing carving carvings symbols symbol~
+Although it is very hard to understand, you think it looks a lot like beer,
+poems about beer, and small beer-mugs.
+
+~
+S
+#5708
+The stairs collapse!!!~
+You just manage to jump to safety as the stairs beneath your feet collapse!
+As you collect your wits about you and look around you realize you are trapped
+up here.  Trying to descend to the first floor would be suicide.  You see that
+you are standing in what used to be the reception office to the rooms of the 
+inn, the entire second floor is burned out.  You are trapped.
+~
+57 8 0
+S
+#5709
+The Old Bakery~
+You are standing inside the small bakery.  Now nothing remains to this
+place as it has been looted along time ago.  You smell a musty smell in the
+air. A small borken sign is on the counter.
+~
+57 8 0
+D2
+You see the main street.
+~
+~
+0 -1 5713
+E
+sign broken~
+.
+
+	 __________________________________
+	|   Free instructions provided by /              
+	|                                /
+	|    Buy  - Will buy you some br/                  
+	|    List - The baker will kindl\                                            
+	|      his bakery.              /
+	|_______________________________\ 
+~
+S
+#5710
+The Ruins of the General Store~
+You are inside the general store.  Vines and mold seem to have taken over
+this store leaving nothing left.  There is a note laying discarded on the
+floor.
+
+~
+57 8 0
+D2
+You see the main street.
+~
+~
+0 -1 5715
+E
+note burned~
+.
+							  
+  Li t  - Sho  which var  us   ems        the store.      
+  Buy   - Buy    i em.                                    
+  Va      Th    op e per will (f  e of charge) tell   w              
+	  pay for yo r item.                              
+     l  - Se   an item.                                   
+~                                                         
+S
+#5711
+The Ruined Weapon Shop.~
+You are inside the weapon shop.  The whole room looks as though a tornado
+had hit it.  Burn marks line the walls and floor of this room.  All sorts of 
+broken weapons litter the floor.
+~
+57 8 0
+D2
+You see the main street.
+~
+~
+0 -1 5716
+S
+#5712
+Old Main Street~
+You are at the end of the old main street of Midgaard.  You see vines covering
+the area around you as though trying to bring some form of life back to
+this desolate place.  To the south of here is the once powerful entrance to
+the Guild of Magic Users.  The street continues east towards the market
+square.  The magic shop is to the north and to the west is the city gate.
+~
+57 0 1
+D0
+You see the magic shop.
+~
+~
+0 -1 5733
+D1
+You see the main street.
+~
+~
+0 -1 5713
+D2
+You see the entrance to the Guild of Magic Users.
+~
+~
+0 -1 5717
+D3
+You see the city gate.
+~
+~
+0 -1 5740
+S
+#5713
+Old Main Street~
+You are on the main street passing through the City of Midgaard.   A slient
+hush fills the air as though you are disturbing the silence that has
+remained here for so long.  South of here is the entrance to the Armoury,
+and the bakery is to the north.  East of here is the market square.
+~
+57 0 1
+D0
+You see the bakery.
+~
+~
+0 -1 5709
+D1
+You see the market square.
+~
+~
+0 -1 5714
+D2
+You see the armoury.
+~
+~
+0 -1 5720
+D3
+You see the main street.
+~
+~
+0 -1 5712
+S
+#5714
+Old Market Square~
+You are standing on the market square, the famous Square of Midgaard. A
+large, cracked statue is standing in the middle of the square covered in
+moss and vines. The once eligant pathing now lies cracked and charred from
+some tremendous heat.  Roads lead in every direction, north to the temple
+square, south to the common square, east and westbound is the main street.
+~
+57 0 1
+D0
+You see the temple square.
+~
+~
+0 -1 5705
+D1
+You see the main street.
+~
+~
+0 -1 5715
+D2
+You see the common square.
+~
+~
+0 -1 5725
+D3
+You see the main street.
+~
+~
+0 -1 5713
+
+E
+statue~
+You make out a statue of some kind of worm out of the pieces of rubble that
+remain.
+~
+S
+#5715
+Old Main Street~
+You are on Main Street crossing through town.  A hush fills the air as
+though ya are invading the piece that remains.  To the north is the general
+store, and the main street continues east.  To the west you see and hear
+the market place and to the south is the Jeweller's Shop.
+~
+57 0 1
+D0
+You see the general store.
+~
+~
+0 -1 5710
+D1
+You see Main Street.
+~
+~
+0 -1 5716
+D2
+You see the Jeweller's Shop.
+~
+~
+0 -1 5734
+D3
+You see the market square.
+~
+~
+0 -1 5714
+S
+#5716
+Old Main Street~
+You stand in the main street.  The stone pathing is cracked and warped due
+to either high pressure or fire.  To the north is the weapon shop and to
+the south is the Guild of Swordsmen, which is now covered in rubble in a
+tempory barriacde.  You wonder if the barriacde actually succeeded.  To the
+east you leave town and to the west the street leads to the market square.
+~
+57 0 1
+D0
+You see the weapon shop.
+~
+~
+0 -1 5711
+D1
+You see the city gate.
+~
+~
+0 -1 5741
+D3
+You see the main street leading to the market square.
+~
+~
+0 -1 5715
+S
+#5717
+Entrance to Mage's Guild~
+The entrance hall is a small, poor lighted room.  To the south, the ceiling
+has caved-in leaving the only exit which is to the north.
+~
+57 8 0
+D0
+You see the main street.
+~
+~
+0 -1 5712
+S
+#5718
+Mage's Bar~
+There is nothing in this room except a musty smell.  Huge holes in the wall
+decorate the once finely designed room where the most powerful of mages
+gathered to have a chat.
+~
+57 13 0
+D0
+You see the lobby.
+~
+~
+0 -1 5717
+D1
+You see the laboratory.
+~
+~
+0 -1 5719
+S
+#5719
+Mage's Laboratory~
+Broken furniture and glassware lie discarded all over this room.
+Everything has been shattered beyond repair, or burned to a crisp.  Now
+nothing remains of the experiments that once took part in this room.
+~
+57 13 0
+D3
+You see the bar.
+~
+~
+0 -1 5718
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 5737
+S
+#5720
+The Ruins of the Armoury~
+Nothing remains of this once famous armoury shop of Midgaard.  Holes it the
+walls is all that is left of this place letting moss and vines grow through
+them.
+~
+57 8 0
+D0
+You see the main street.
+~
+~
+0 -1 5713
+S
+#5721
+Entrance Hall to the Guild of Swordsmen~
+This is the entrance hall to the Guild of Swordsmen.  An acrid smell fills
+the air and half eaten furniture lays scattered around.  To the north
+rubble seems to be pilled up into a barricade.
+~
+57 8|1 0
+D1
+You see the swordsmen's bar, many noises comes from there.
+~
+~
+0 -1 5722
+S
+#5722
+The Bar of Swordsmen~
+This was once where the mightiest of warriors gathered together to brag
+about their deeds.  Now the bar has been broken in half and scorched, while
+now junk lays scattered throughout the room.  To the south is the yard, and
+to the west is the entrance hall.
+~
+57 12|1 0
+D2
+You see the practice yard.
+~
+~
+0 -1 5723
+D3
+You see the entrance hall to the thieves guild.
+~
+~
+0 -1 5721
+S
+#5723
+The Tournament and Practice Yard~
+This was once the practice yard of the mighty now fallen.  Now an acrid
+smell fills the air and blood red marks can be seen on the floor.  Unlike
+other areas, nothing seems to have grown in this yard
+~
+57 12|1 0
+D0
+You see the bar.
+~
+~
+0 -1 5722
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 5738
+S
+#5724
+Eastern End of Poor Alley~
+You are at the eastern end of what use to be the poor alley. Rubble and
+vines seem to have taken over this area, although you would really notice.
+South of here is the Grubby Inn which now lays in ruins and to the east you
+see common square.  The alley continues further west.  To the north, a
+building now lays in ruins.
+~
+57 0 1
+D1
+You see the common square.
+~
+~
+0 -1 5725
+D2
+You see the Inn.
+~
+~
+0 -1 5748
+D3
+You see the poor alley.
+~
+~
+0 -1 5744
+S
+#5725
+The Common Square~
+You see the remains of the common square.  Rubble lays scattered around
+here with vines and moss growing over it.  To the west is the poor alley
+and to the east is the dark alley.  To the north, this square is connected
+to the market square.  From the south you notice a nasty smell.
+~
+57 0 1
+D0
+You see the market square.
+~
+~
+0 -1 5714
+D1
+You see the dark alley.
+~
+~
+0 -1 5726
+D2
+You see the city dump.
+~
+~
+0 -1 5730
+D3
+You see the poor alley.
+~
+~
+0 -1 5724
+S
+#5726
+The Dark Alley~
+You smell a musty smell in the air as you enter.  You notice the remains of
+comman square to ther west, while a building now in ruins is to the south.
+Grebe's Tavern, the once famous sailor's dive, is but rubble to the north.
+The alley continues east.
+~
+57 0 1
+
+D1
+The alley continues east.
+~
+~
+0 -1 5745
+D3
+You see the common square.
+~
+~
+0 -1 5725
+S
+#5727
+Entrance Hall to the Guild of Thieves~
+This was once the entrance to the thieves guild.  Now rubble has sealed it
+off from the outside world.  Nothing remains here.
+~
+57 8|1 0
+D0
+You see the alley.
+~
+~
+0 -1 5726
+D1
+You see the thieves bar, where everything disappears.
+~
+~
+0 -1 5728
+S
+#5728
+The Thieves Bar~
+This room contains nothing.  It's as thought before they left they stripped
+the area clean.
+~
+57 12|1 0
+D2
+You see the secret yard.
+~
+~
+0 -1 5729
+D3
+You see the entrance hall to the thieves guild.
+~
+~
+0 -1 5727
+S
+#5729
+The Secret Yard~
+There is nothing in this closed area.
+~
+57 12|1 0
+D0
+You see the bar.
+~
+~
+0 -1 5728
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 5739
+S
+#5730
+The Dump~
+This was the dump, where the people from the city drop their garbage.
+Skeletons now lie pilled in heaps here.  Through the garbage you can see a
+large junction of pipes, looks like the entrance to the sewer system.
+South of here you see the river and to the north is the common square.  A
+rickety old bridge leads south to the promenade.
+~
+57 4 2
+D0
+You see the common square.
+~
+~
+0 -1 5725
+D2
+You see a river between northern and southern Midgaard.  A small bridge
+spans the flow.
+~
+~
+0 -1 5954
+S
+#5731
+The Old Pet Shop~
+The Pet Shop is a small crowded store, full of cages and with corpses of
+animals of various sorts and sizes.  There is a sign on the wall.
+~
+57 8|4096 0
+D2
+You see the Alley.
+~
+~
+0 -1 5745
+E
+sign~
+The sign reads:
+
+  Use 'List' to see the available pets.
+  Use 'Buy <pet> <name>' to buy yourself a pet and name it.
+
+  You can use 'order <pet> <instructions>' to order your pets around.
+  If you abuse your pet, it will no longer regard you as its master.
+  If you have several pets you may use 'order all <instructions>'
+
+ Regards,
+
+   The Shopkeeper
+~
+S
+#5732
+Pet Shop Store~
+This is the small dark room in which the Pet Shop Boy use to keeps his pets.
+Now only dust and various animal corpses are the only things in this room.
+~
+57 8 0
+S
+#5733
+The Burned Out Magic Shop~
+This use to be the great Magic Shop of Midgaard.  Now everything in the
+room looks as though it has been burned or melted leaving nothing but ash.
+~
+57 8 0
+D2
+You see the main street.
+~
+~
+0 -1 5712
+S
+#5734
+The Destroyed Jeweller's Shop~
+This room is in utter destruction.  Everything has been thrown arround the
+room as thought a huge tornado had hit it leaving everthing broken and
+beyond repair.  The once eligant desk now lies shattered to pieces leaving
+splinters of it around the room.  You see a sign with that looks like it had
+raised letters that were pried off.
+~
+57 8 0
+D0
+You see Main Street.
+~
+~
+0 -1 5715
+E
+sign~
+You can barely make out what it says:
+
+    Us  'lis   to s e w at is  n  t re,
+	 buy <it m ' to bu  an  tem, 
+	's ll <item ' t  sel  an i em  nd
+	 valu  <i e >' t  make  he j well r ev luate an i e .
+~                         
+S
+#5735
+The Ruined Leather Shop~
+A very strong acrid smell fills this large room.  Along the walls are
+numerous holes in the walls where shelves use to hang.  A fireplace now
+cold and scorched has a dented pot lying within it.  A wooden sign is
+barley hanging above the fireplace.
+~
+57 8 0
+D2
+You see the alley.
+~
+~
+0 -1 5744
+E
+fireplace~
+It is a rather large fireplace made from heavy granite rocks.
+~
+E
+sign~
+The wooden sign says :-
+
+    Use 'list' to see what is in store,
+	'buy <item>' to buy an item,
+	'sell <item>' to sell an item and
+	'value <item>' to make the leather worker evaluate an item.
+~
+S
+#5736
+Blackness.~
+As you climb down the ladder into darkness it breaks from under you!  
+After falling about 20 feet you land on a pile of debris.  Looking up at
+the hole above you it looks as if the entire structure may crumble at any
+time, trying to get back up through the hole seems futile.  It is about
+this time you realize you are not alone . . . 
+~
+57 8 0
+S
+#5737
+Blackness.~
+As you climb down the ladder into darkness it breaks from under you!  
+After falling about 20 feet you land on a pile of debris.  Looking up at
+the hole above you it looks as if the entire structure may crumble at any
+time, trying to get back up through the hole seems futile.  It is about
+this time you realize you are not alone . . . 
+~
+57 8 0
+S
+#5738
+Blackness.~
+As you climb down the ladder into darkness it breaks from under you!  
+After falling about 20 feet you land on a pile of debris.  Looking up at
+the hole above you it looks as if the entire structure may crumble at any
+time, trying to get back up through the hole seems futile.  It is about
+this time you realize you are not alone . . . 
+~
+57 8 0
+S
+#5739
+Blackness.~
+As you climb down the ladder into darkness it breaks from under you!  
+After falling about 20 feet you land on a pile of debris.  Looking up at
+the hole above you it looks as if the entire structure may crumble at any
+time, trying to get back up through the hole seems futile.  It is about
+this time you realize you are not alone . . . 
+~
+57 8 0
+S
+#5740
+Inside the Broken West Gates of Old Midgaard~
+You stand inside the west gate of Old Midgaard.  The gate now is rusted and
+covered in vines and moss and is barely hanging from its hooks.  Rubble now
+litters the gate area.  You are by two small towers, with holes in them,
+that have been built into the city wall and connected with a footbridge
+across the a once heavy wooden gate.  Main Street leads east and Wall Road
+leads both north and south from here.
+~
+57 0 1
+D0
+Wall road runs along the inner city wall to the north.
+~
+~
+0 -1 5957
+D1
+You see Main Street.
+~
+~
+0 -1 5712
+D2
+You see the road running along the inner side of the city wall.  You notice
+that it is called Wall Road.
+~
+~
+0 -1 5742
+D3
+The city gate is to the west.
+~
+gate~
+1 5833 5752
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across
+it from one tower to the other.  The footbridge now lies warped and rusted
+beyond repair.
+
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened
+to each other with some kind of mortar, just like the city wall.  There
+seems to be huge hole in each of the towers and the rock seems to be pilled
+up around the gate.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  There are missing
+sections in the walls where someone or something breached it.
+~
+S
+#5741
+Inside the East Gate of Midgaard~
+You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  The gate now
+lies in pieces and covered in vines and moss, while the towers have huge
+holes in them like someone punched the walls in.  Huge pieces of the outer
+wall now lie in rubble piles, leaving the gate cluttered.  Main Street
+leads west from here.  Wall road crosses the street, heading north and
+south along the city wall.
+~
+57 0 1
+D0
+Wall road heads north along the city wall.
+~
+~
+0 -1 5967
+D1
+You see the city gate.
+~
+gate~
+1 5833 5753
+D3
+You see Main Street.~
+~
+0 -1 5716
+D2
+Wall road heads south towards the poor section of town.
+~
+~
+0 0 5950
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across
+it from one tower to the other.  The footbridge now lies warped and rusted
+beyond repair.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood now lie unhinged
+and shattered on pieces lying on the grown.  Vines and moss seem to have
+taken over these once sturdy gates.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened
+to each other with some kind of mortar, just like the city wall.  There
+seems to be huge hole in each of the towers and the rock seems to be pilled
+up around the gate.
+
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5742
+Wall Road~
+You are walking next to the western city wall.  The stone cobblestone is
+cracked and even missing in some areas.  Red coloured stains and black
+scorch marks seem to be everwhere along this path.  The road continues
+further south and the city gate is just north of here.
+~
+57 0 1
+D0
+You see the city gate.
+~
+~
+0 -1 5740
+D2
+The road continues further south.
+~
+~
+0 -1 5743
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5743
+Wall Road~
+You are walking next to the western city wall.  The stone cobblestone is
+crached and even missing in some areas.  Red coloured stains and black
+scorch marks seem to be everwhere along this path.  Wall Road continues
+further north and south.  A small, poor alley leads east.  Some letters
+have been written on the wall here in blood.
+~
+57 0 1
+D0
+The road continues further north.
+~
+~
+0 -1 5742
+D1
+The alley leads east.
+~
+~
+0 -1 5744
+D2
+The road continues further south.
+~
+~
+0 -1 5747
+E
+letters~
+It says 'Here lies the desolate place that once was called the finest city
+in the world'.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5744
+Poor Alley~
+You are in narrow and dirty alley leading east and west.  The leather shop
+is to the north.
+~
+57 0 1
+D0
+The leather shop is to the north.
+~
+~
+0 -1 5735
+D1
+The alley leads east.
+~
+~
+0 -1 5724
+D3
+The alley leads west.
+~
+~
+0 -1 5743
+S
+#5745
+Alley at Levee~
+You are standing in the alley which continues east and west.  South of here
+you see the levee.  North is the Pet Shop.
+~
+57 0 1
+D0
+You smell decay from the pet shop north.
+~
+~
+0 0 5731
+D1
+The alley leads east.
+~
+~
+0 -1 5746
+D2
+You see the levee.
+~
+~
+0 -1 5749
+D3
+The alley leads west.
+~
+~
+0 -1 5726
+S
+#5746
+Eastern end of Alley~
+You are standing at the eastern end of the alley,  near the city walls.
+Wall road loops around the city to your east, and you can see an old
+three-story warehouse to the south.
+~
+57 0 1
+D1
+You see wall road, running a north-south loop around the city.
+~
+~
+0 -1 5951
+D2
+You see a ruined warehouse.
+~
+~
+0 -1 5750
+D3
+You see the alley.
+~
+~
+0 -1 5745
+S
+#5747
+Wall Road~
+You are standing on the road next to the western city wall which continues
+north.  South of here is the remains of a bridge across the river.
+~
+57 0 1
+D0
+You see the road.
+~
+~
+0 -1 5743
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5748
+Grubby Inn~
+You are inside what use to be the old Grubby Inn.  This place has not been
+cleaned for several decades, vile smells make you dizzy.
+~
+57 8 0
+D0
+You see the alley.
+~
+~
+0 -1 5724
+S
+#5749
+Levee~
+You are at the levee.  South of here you see the river gently flowing west
+now littered with refuse.  The river bank is very low making it possible to
+enter the river.
+~
+57 0 1
+D0
+You see the Alley.
+~
+~
+0 -1 5745
+D2
+You see the river flowing west.
+~
+~
+0 -1 5977
+S
+#5750
+Abandoned Warehouse~
+You are inside the only room in the old warehouse.  The place is very dusty
+and appears to have been unused for many years.  Rubble litters the floor
+leaving great holes in the roof and walls.  The skylight spills
+violet-tinged light.
+~
+57 8 0
+D0
+You see the alley.
+~
+~
+0 -1 5746
+S
+#5751
+On the Bridge~
+You are standing on the stone bridge crosses the river.  The bridge is
+built out from the western city wall and the river flows west through an
+opening in the wall ten feet below the bridge.  To the north, the bridge
+has collapsed, blocking any way to the north of the city throught this
+bridge.
+~
+57 0 1
+D2
+You see the Concourse.
+~
+~
+0 -1 5800
+E
+bridge~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar, just like the wall.
+~
+E
+opening~
+You cannot really see it from here as it is somewhere beneath your feet.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5752
+Outside the Broken West Gates of Midgaard~
+You are by two shattered towers that have been built into what once was the
+city wall and connected with a rusted footbridge across the heavy warped
+wooden gate.  To the west you can see the edge of a charred forest. 
+~
+57 0 1
+D1
+The city gate is to the east.
+~
+gate~
+1 5833 5740
+D3
+The forest edge is to the west.
+~
+~
+0 -1 5774
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across
+it from one tower to the other.  Now the bridge lays rusted and in
+disrepair.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  Now though these
+gate have been smashed open and low are warped.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened
+to each other with some kind of mortar, just like the city wall.  You see
+big holes in each tower and now they are covered in vines dangling down to
+the ground.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5753
+Outside the Broken East Gate of Midgaard~
+You are by two shattered towers that have been built into what once was the
+city wall and connected with a rusted footbridge across a now non-existant
+gate.  To the east the old cobblestone road is swallowed up by a thick dark
+forest.
+~
+57 0 1
+D1
+The road dissapears into tthe forest.~
+~
+0 -1 5761
+D3
+You see the remains of the city gate.
+~
+gate~
+1 5833 5741
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across
+it from one tower to the other.  Now the bridge lays rusted and in
+disrepair.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened
+to each other with some kind of mortar, just like the city wall.  You see
+big holes in each tower and now they are covered in vines dangling down to
+the ground.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high to climb.  Huge holes in the
+wall now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5754
+By the Desecrated Temple Altar~
+You are by what once was the temple altar in the northern end of the Temple
+of Mota.  A huge altar made from white marble now lays broken and stained
+with blood.
+~
+57 8|1024 0
+D2
+You see the southern end of the temple.
+~
+~
+0 -1 5701
+S
+#5755
+Overgrown Cobblestone Road~
+You are on an overgrown cobblestone road through the forest.  The road 
+can be traveled without too much difficulty.  The road continues to the 
+east and seems to end on a game trail to the west.
+~
+57 0 3
+D1
+Overgrown Road.
+~
+~
+0 0 5756
+D3
+~
+~
+0 0 6016
+S
+#5756
+Overgrown Cobblestone Road.~
+You are on an overgrown cobblestone road through the forest.  The road 
+can be traveled without too much difficulty.  The road continues to the
+west and breaks out into a clearing to the east.
+~
+57 0 3
+D1
+A Clearing
+~
+~
+0 0 5774
+D3
+Overgrown Cobblestone Road.
+~
+~
+0 0 5755
+S
+#5757
+Hunters trail~
+You have stumbled upon a narrow hunters trail that winds its way through 
+the forest to the south.
+~
+57 L 3
+D0
+~
+~
+0 0 5262
+D2
+A hunters trail.
+~
+~
+0 0 5758
+S
+#5758
+Hunters Trail~
+You are travelling down a narrow hunters trail throught a thick forest of 
+maples and birch trees.  Undergrowth chokes the ground on either side of 
+the trail.
+~
+57 L 3
+D0 
+A small game trail.
+~
+~
+0 0 5757
+D3
+A small game trail.
+~
+~
+0 0 5759
+S
+#5759
+Hunters Trail~
+You are on a narrow hunters trail throught a thick forest of maples
+and birch trees.  Undergrowth chokes the ground on either side of the trail.
+To the south is what looks to be an overgrown road.  To the north the game
+trail continues on.  To the south looks to be a road.
+~
+57 L 3
+D1 
+A small game trail.
+~
+~
+0 0 5758
+D2
+An overgrown road.
+~
+~
+0 0 5760
+S
+#5760
+Dead End.~
+You are on what appears to be an old cobblestone road which goes to the
+west.  To the east it abruptly ends at a wall of trees which seems 
+impenatrable.  The undergrowth to the north and south seems to be
+as solid of a barrier as do the trees.
+~
+57 0 3
+D0
+A thick wall of undergrowth.
+~
+undergrowth~
+4 0 5759
+D3
+Old Cobblestone Road.
+~
+~
+0 0 5761
+S
+#5761
+Old Cobblestone Road.~
+You are on what appears to be an old cobblestone road which goes to 
+the east and west.  The undergrowth to the north and south seems to be
+as solid as a wall of stone.  To the west it looks like there is a 
+clearing.
+~
+57 0 3
+D1
+Old Cobblestone Road.
+~
+~
+0 0 5760
+D3
+Edge of the forest.
+~
+~
+0 0 5753
+S
+#5762
+Twisting trail through the forest~
+You are on a small trail through the dark Miden'nir Forest. You have left 
+the safety of the patroled areas near Dresden behind.  The strange sounds of
+the dark forest are all around you.  Maybe it would be a good time to turn
+back.  The trail continues to the north and south.
+~
+57 A 3
+D0
+A faint light up ahead down the trail.
+~
+~
+0 0 3515
+D2
+A dark trail.
+~
+~
+0 0 5763
+S
+#5763
+Twisting trail through the forest~
+You are on a small trail through the dark Miden'nir Forest. The strange 
+sounds of the dark forest are all around you.  The trail continues to 
+the north and west.
+~
+57 A 3
+D0
+A dark trail.
+~
+~
+0 0 5762
+D3
+A dark trail.
+~
+~
+0 0 5764
+S
+#5764
+Twisting trail through the forest~
+You are on a small trail through the dark Miden'nir Forest. The strange 
+sounds of the dark forest are all around you.  The trail continues to 
+the south and east.
+~
+57 A 3
+D1
+A dark trail.
+~
+~
+0 0 5763
+D2
+A dark trail.
+~
+~
+0 0 5765
+S
+#5765
+Twisting trail through the forest~
+You are on a small trail through the dark Miden'nir Forest. The strange 
+sounds of the dark forest are all around you.  The trail continues to 
+the north and west.
+~
+57 A 3
+D0
+A dark trail.
+~
+~
+0 0 5764
+D3
+A dark trail.
+~
+~
+0 0 5766
+S
+#5766
+Clearing in the forest~
+As you enter the clearing you are astounded!  Before you is the Ruins of
+Midgaard!  You have heard many tales about this destroyed city but none who
+have ventured to it since the war have yet to return to tell the tale.
+~
+57 0 3
+D1
+A wall of trees.
+~
+~
+0 0 5765
+D2
+The Ruins of Old Midgaard.
+~
+~
+0 0 5968
+S
+#5767
+Andy's Pub~
+You stand in what is left of Andy's pub.  The rest of Andy's Pub has either
+been burned to a crisp or has fallen in upon itself leaving just theis
+entrance.
+~
+57 0 0
+D0
+Market Road is to the north.
+~
+~
+0 -1 5771
+S
+#5768
+Old Market Road~
+You are standing on the western end of Market Road.  This place looks
+tranquil compared to other parts of the ruined city.
+~
+57 0 1
+D1
+Market Road continues east.
+~
+~
+0 -1 5769
+D3
+Wall Road is to the west.
+~
+~
+0 -1 5958
+S
+#5769
+Old Market Road~
+You are walking along Market Road.  Market Road continues on to the east
+and the west.
+~
+57 0 1
+D1
+Market Road continues east.
+~
+~
+0 -1 5770
+D3
+Market Road continues west.
+~
+~    
+0 -1 5768
+S
+#5770
+Old Market Road~
+The shops on this stretch of Market road are long-closed and boarded up.
+~
+57 0 1
+D1
+Market Road continues to the east.
+~
+~
+0 -1 5771
+D3
+Market Road continues to the west.
+~
+~
+0 -1 5769
+S
+#5771
+Old Market Road~
+This area looks as though it has seen better days.  Everything around here
+seems to be broken and covered in vines and moss.  To the north is a
+boarded up house while to the south is a house which has caved-in.  Market
+street continues to the east and west.
+~
+57 0 1
+D1
+Market Road continues to the east.
+~
+~
+0 -1 5772
+D2
+A pub is to the south.
+~
+~
+0 -1 5767
+D3
+Market Road continues to the west.
+~
+~
+0 -1 5770
+S
+#5772
+Old Market Road~
+Market Road seems to widen here slightly.  To the north and south is a pile
+of rubble while Market Road continues to the east and west.
+~
+57 0 1
+D1
+Market Road continues to the east.
+~
+~
+0 -1 5773
+D3
+Market Road continues to the west.
+~
+~
+0 -1 5771
+S
+#5773
+Old Market Road~
+You are at the eastern end of Market Road.  To the east of you, the   tall
+wall around the city looms up before you and casts its shadow on you.
+Market Road continues to the west.
+~
+57 0 1
+D1
+Wall Road is east of here.
+~
+~
+0 -1 5966
+D3
+Market Road continues to the west.
+~
+~
+0 -1 5772
+S
+#5774
+Edge of the Forest.~
+As you break free of the thick bushes you are amazed at what you see.
+Before you is the Ruins of Midgaard!  You have heard many tales about 
+this destroyed city but none who have ventured to it since the war have 
+yet to return to tell the tale.
+~
+57 0 3
+D1
+The Ruins of Midgaard.
+~
+~
+0 0 5752
+D3
+Thick wall of bushes and trees.
+~
+bushes~
+4 0 5756
+S
+#5800
+Northwest end of Concourse~
+You are at the concourse, the city wall is just west.  Looking at the wall
+you see that there are lots of holes in the wall.  Also moss and vines seem
+to have taken up residence along the remaining sections of the walls.  A
+small promenade goes east, and the bridge is just north of here.  The
+concourse continues south along the city wall.
+~
+58 0 1
+D0
+You see the Bridge.
+~
+~
+0 -1 5751
+D1
+You see the promenade.
+~
+~
+0 -1 5801
+D2
+The concourse continues south.
+~
+~
+0 -1 5970
+D3
+A nice pink beach lies to the west.
+~
+~
+0 -1 10200
+S
+#5801
+Promenade~
+The river gently flows west just north of here.  You notice that the river
+has a pungent smell and it has a blood red tinge to it.  The promenade
+continues further east and to the west you see the city wall.  Park Road
+leads south from here.
+~
+58 0 1
+D1
+The promenade.
+~
+~
+0 -1 5802
+D2
+Park Road leads south.
+~
+~
+0 -1 5831
+D3
+You see the Concourse.
+~
+~
+0 -1 5800
+S
+#5802
+Promenade~
+The river gently flows west just north of here.  The promenade continues
+both east and west.  A rickety bridge covered in vines, crosses the river
+to the north, towards the city dump (fortunately, the wind is blowing
+towards the dump today).  South of here you see the entrance to the park,
+and a small crumbling building seems to be just west of the entrance.
+~
+58 0 1
+D0
+A rickety old bridge crosses the river, heading towards the city dump.
+~
+~
+0 -1 5954
+D1
+You see an overgrown sqaure.
+~
+~
+0 -1 5803
+D2
+You see the park entrance.
+~
+~
+0 -1 5805
+D3
+You see the promenade.
+~
+~
+0 -1 5801
+S
+#5803
+Austral Square~
+The Promenade opens here onto Austral Square, on the south bank of the
+Midaard River.  The area looks as though it has seen better days.  Cracked
+and warped cobblestone now allow shelter the plants which seem to have
+taken over this once marvellous square.  In the centre is a large red
+stained mark.  Emerald Avenue begins to the south, the Promenade continues
+west, and the concourse ends to your east.
+~
+58 0 1
+D1
+You see the Concourse.
+~
+~
+0 -1 5804
+D2
+The small path leads south.
+~
+~
+0 -1 5832
+D3
+You see the promenade.
+~
+~
+0 -1 5802
+S
+#5804
+Northeast end of Concourse~
+You are at the Concourse.  This area has been over-run by various types of
+plants and littered with rubble.  The city wall is just east, having seen
+better days, and Austral Square is to the west.  Looking across the river
+you see an old
+warehouse.  A strong stone bridge crosses the river to the north, where the
+concourse becomes wall road.  The Concourse continues south along the wall.
+~
+58 0 1
+D0
+A strong stone bridge crosses the river.
+~
+~
+0 -1 5953
+D2
+The Concourse continues south, towards an intersection with Penny Lane.
+~
+~
+0 -1 5972
+D3
+You see Austral Square.
+~
+~
+0 -1 5803
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.  Huge holes in the wall
+now lie in rubble piles thus allowing easy access into the city.
+~
+S
+#5805
+Park Entrance~
+You are standing just inside the small park of Midgaard.  To the north is
+the promenade and a small path leads south into the park.  To your east is
+the remains of Park Cafe.
+~
+58 4 1
+D0
+You see the promenade.
+~
+~
+0 -1 5802
+D1
+You see Park Cafe.
+~
+~
+0 -1 5806
+D2
+You see the park.
+~
+~
+0 -1 5808
+S
+#5806
+The Ruins of the Park Cafe~
+You are inside what remains of Park Cafe. The cafe is built from large
+logs, but most of these logs have now been burned leaving large holes in
+the walls. Through the paneless windows in the northern wall you see the
+river, and through the southern hole you see many vigorous colorful plants.
+~
+58 8 0
+D3
+You see the park entrance.
+~
+~
+0 -1 5805
+S
+#5807
+Small path through the park~
+You are walking along a small path through the park.  To either side you
+see the scattering of skeletal remains and burned trees.  The path
+continues south and east.
+~
+58 0 1
+D1
+~
+~
+0 -1 5808
+D2
+~
+~
+0 -1 5813
+S
+#5808
+Small path in the park~
+You are standing on a small path inside the park.  You notice that most of
+the trees have been burned to a crisp and large black spots are in its
+place.  The park entrance is just north of here, and the remains of Park
+Cafe is just east of the entrance.  The path leads further east and west.
+~
+58 0 1
+D0
+You see the northern park entrance.
+~
+~
+0 -1 5805
+D1
+~
+~
+0 -1 5809
+D3
+~
+~
+0 -1 5807
+S
+#5809
+Small path in the park~
+You are on a small path running through the overgrown park.  It continues
+west and south and just north of here you see the remains fo the southern
+wall of Park Cafe.
+~
+58 0 1
+D2
+~
+~
+0 -1 5815
+D3
+~
+~
+0 -1 5808
+S
+#5810
+Cityguard Head Quarters~
+This small hut has been torn apart.  Huge scratch marks line the walls and
+fungus covers the ceiling and floor.  You notice a sign half covered in
+moss on the floor.
+~
+58 8 0
+D1
+You see Park Road.
+~
+door~
+1 -1 5811
+D3
+~
+~
+0 -1 5842
+E
+sign~
+You barely see these words 'KEEP OUT!.
+~
+S
+#5811
+Park Road~
+The road continues north and south.  A building is just west of here, you
+notice a sign on the door.  The park entrance is to the east.
+~
+58 0 1
+D0
+~
+~
+0 -1 5831
+D1
+You see the park entrance.
+~
+~
+0 -1 5812
+D2
+~
+~
+0 -1 5818
+D3
+You see the cityguard head quarters.
+~
+door~
+1 -1 5810
+E
+building door sign~
+The sign on the door says:-
+
+		 Cityguard Head Quarters
+~
+S
+#5812
+Western Park Entrance~
+You are standing at the western end of the park.  A small overgrown path
+leads east into the park and going west through the entrance you will reach
+Park Road.
+~
+58 4 1
+D1
+~
+~
+0 -1 5813
+D3
+~
+~
+0 -1 5811
+S
+#5813
+A path in the park~
+You are in the park.  Looking around the park you see that the park now has
+been overrun by weeds and in some spots there is nothing but a skeletal
+remains in a darken area.  The paths lead north and west.  Westwards is the
+park entrance and to the east you see a small waterless pond.
+~
+58 0 1
+D0
+~
+~
+0 -1 5807
+D1
+You see the pond.
+~
+~
+0 -1 5814
+D3
+You see the western park entrance.
+~
+~
+0 -1 5812
+S
+#5814
+The Dried up Pond~
+You find yourself in the remains of what you guess to be a small pond.  Now
+nothing remains except dirt.  You see an overgrown path to the west and
+east.
+~
+58 0 6
+D1
+~
+~
+0 -1 5815
+D3
+~
+~
+0 -1 5813
+S
+#5815
+A path in the park~
+You are in the park.  Looking around the park you see that the park now has
+been overrun by weeds and in some spots there is nothing but a skeletal
+remains in a darken area.  The paths lead north and east.  Eastwards is the
+park entrance and to the west you see a small waterless pond.
+~
+58 0 1
+D0
+~
+~
+0 -1 5809
+D1
+~
+~
+0 -1 5816
+D3
+~
+~
+0 -1 5814
+S
+#5816
+Eastern Park Entrance~
+You are standing at the eastern end of the once beautiful park of Midgaard.
+Looking around you see nothing but chaos and destruction.  A small path
+leads west into the park.  Going east through the entrance you will reach
+Emerald Avenue.
+~
+58 4 1
+D1
+~
+~
+0 -1 5817
+D3
+~
+~
+0 -1 5815
+S
+#5817
+Emerald Avenue~
+You are at Emerald Avenue which continues north and south.  To the west is
+the park entrance and to the east is just a huge black stain in the middle
+of nowhere.
+~
+58 0 1
+D0
+~
+~
+0 -1 5832
+D1
+~
+~
+0 -1 5837
+D2
+~
+~
+0 -1 5819
+D3
+~
+~
+0 -1 5816
+S
+#5818
+Park Road~
+You are on the overgrown Park Road which leads north and south.
+~
+58 0 1
+D0
+~
+~
+0 -1 5811
+D2
+~
+~
+0 -1 5835
+S
+#5819
+Emerald Avenue~
+You are standing at a bend on Emerald Avenue.  Broken and black warped
+cobblestone show signs that a great battle was fought here.  Now skeletal
+remains litter the area.  The road leads north and west.
+~
+58 0 1
+D0
+~
+~
+0 -1 5817
+D3
+~
+~
+0 -1 5833
+S
+#5820
+Road Crossing~
+You are in the middle of the road cross.  Roads lead in all directions.  A
+huge black iron chain as thick as a tree trunk lies in a huge pile on the
+ground in the centre of the road crossing. A sign lies in the dirt here.
+~
+58 0 1
+D0
+~
+~
+0 -1 5833
+D1
+~
+~
+0 -1 5836
+D2
+~
+~
+0 -1 5834
+D3
+~
+~
+0 -1 5835
+E
+sign~
+The sign points in all directions but is useless now that it lies on the ground:
+
+   Emerald Avenue.
+   Park Road.
+   Emerald Avenue.
+   Park Road.
+~
+S
+#5821
+Emerald Avenue~
+You are standing at a bend on Emerald Avenue.  The road leads south and
+east.
+~
+58 0 1
+D1
+~
+~
+0 -1 5834
+D2
+~
+~
+0 -1 5825
+S
+#5822
+Park Road~
+You are on the remains of Park Road which leads south and north.  The area
+seems to be teaming with various plant life growing up throught the cracked
+cobblestone.  Elm Street is east of here.
+~
+58 0 1
+D0
+~
+~
+0 -1 5836
+D1
+~
+~
+0 -1 5823
+D2
+~
+~
+0 -1 5826
+S
+#5823
+Elm Street~
+You are on Elm street.  Park Road is to the west and Elm Street continues
+in eastward direction.
+~
+58 0 1
+D1
+~
+~
+0 -1 5824
+D3
+~
+~
+0 -1 5822
+S
+#5824
+Elm Street~
+You near the end of Elm Street.  An old half burned elm tree grows here.  
+A heavy iron grating is surrounding the city's graveyard.  The concourse 
+crosses Elm Street to the east.
+~
+58 0 1
+D1
+You see the concourse.
+~
+~
+0 -1 5973
+D3
+~
+~
+0 -1 5823
+E
+elm tree~
+The half dead branches of the elm tree bow gently in the wind.
+~
+S
+#5825
+Emerald Avenue~
+You are on Emerald Avenue which continues north. The Concourse is south of here.
+~
+58 0 1
+D0
+~
+~
+0 -1 5821
+D2
+~
+~
+0 -1 5828
+S
+#5826
+Park Road~
+You are on Park Road which continues north.  The Concourse is south of here.
+~
+58 0 1
+D0
+~
+~
+0 -1 5822
+D2
+~
+~
+0 -1 5829
+S
+#5827
+On the Concourse~
+You are at the southwest corner of the city wall.  The Concourse leads both
+north and east.
+~
+58 0 1
+D0
+~
+~
+0 -1 5971
+D1
+~
+~
+0 -1 5828
+S
+#5828
+On the Concourse~
+You are walking around the scenic concourse as it continues its path around
+the city of Midgaard.  The south gate of the city lies to your east, and
+the  southwestern corner of the city wall is west.  Emerald Avenue
+stretches out to the north.
+~
+58 0 1
+D0
+Emerald avenue lies to the north.
+~
+~
+0 -1 5825
+D1
+You can see the shattered remains southern gate of Midgaard.
+~
+~
+0 -1 5955
+D3
+~
+~
+0 -1 5827
+S
+#5829
+On the Concourse~
+The concourse continues its path around the city.  The southern gates of
+the city are west of here, and park road lies north.  The northeastern
+corner of the city wall is east.
+~
+58 1 1
+D0
+~
+~
+0 -1 5826
+D1
+~
+~
+0 -1 5830
+D3
+You see what use to be the south gate of Midgaard.
+~
+~
+0 -1 5955
+S
+#5830
+On the Concourse~
+You are at the southeast corner of the city wall.  The Concourse leads both
+north and west.
+~
+58 0 1
+D0
+~
+~
+0 -1 5973
+D3
+~
+~
+0 -1 5829
+S
+#5831
+Park Road~
+You are at Park Road which continues north and south.
+~
+58 0 1
+D0
+~
+~
+0 -1 5801
+D2
+~
+~
+0 -1 5811
+S
+#5832
+Emerald Avenue~
+You are standing on the north end of Emerald Avenue.  To the north is
+Austral Square and to the east is the small street Penny Lane.
+~
+58 0 1
+D0
+~
+~
+0 -1 5803
+D1
+~
+~
+0 -1 5839
+D2
+~
+~
+0 -1 5817
+S
+#5833
+Emerald Avenue~
+You are standing at a bend on Emerald Avenue.  To the east the road goes on
+and to the south is the Road Crossing.
+~
+58 0 1
+D1
+~
+~
+0 -1 5819
+D2
+~
+~
+0 -1 5820
+S
+#5834
+Emerald Avenue~
+You are standing at a bend on Emerald Avenue.  To the west the road goes on
+and to the north is the Road Crossing.
+~
+58 0 1
+D0
+~
+~
+0 -1 5820
+D3
+~
+~
+0 -1 5821
+S
+#5835
+Park Road~
+You are at a bend on Park Road.  To the north the road goes on and to the
+east is the Road Crossing.  To the south, the ancient cliffs rise from deep
+under the ground, forming a wall.
+~
+58 0 1
+D0
+~
+~
+0 -1 5818
+D1
+~
+~
+0 -1 5820
+S
+#5836
+Park Road~
+You are at a bend on Park Road.  To the south the road goes on and to the
+west is the Road Crossing.
+~
+58 0 1
+D2
+~
+~
+0 -1 5822
+D3
+~
+~
+0 -1 5820
+S
+#5837
+The Black Stain~
+You are standing in an area covered in black soot.
+~
+57 8 0
+D1
+~
+~
+0 -1 5838
+D3
+The exit west leads to Emerald Avenue.
+~
+~
+0 -1 5817
+S
+#5838
+What was once the Mayor's Office~
+Black soot now covers this area.
+~
+57 8 0
+D3
+~
+~
+0 -1 5837
+S
+#5839
+Penny Lane~
+You are on Penny Lane.  The whole area is covered in a black soot and
+scorched skeletal remains.  Nothing seems to have grown here.  Emerald
+Avenue is to the west and Penny Lane continues in eastward direction.
+~
+58 0 1
+D1
+~
+~
+0 -1 5840
+D3
+~
+~
+0 -1 5832
+S
+#5840
+Penny Lane~
+You are on Penny Lane.  The whole area is covered in a black soot and
+scorched skeletal remains.  Nothing seems to have grown here.  The narrow
+road continues north and west, and the concourse intersects this street to
+the east.
+~
+58 0 1
+D0
+~
+~
+0 -1 5841
+D1
+You see the concourse.
+~
+~
+0 -1 5972
+D3
+~
+~
+0 -1 5839
+S
+#5841
+The end of Penny Lane~
+You are at the end of Penny Lane.  Plants seem to have taken over here.
+The only exit appears to be south.
+~
+58 0 1
+D2
+~
+~
+0 -1 5840
+S
+#5842
+A pile of rubble~
+This use to be the office of the Cityguard Captain.  Now nothing remains
+other than the east and southern walls and a huge pile of rubble.  You see
+an iron door to the south and a hole in the wall to the east.
+~
+58 8 0
+D1
+You see the Cityguard Head Quarters.
+~
+~
+0 -1 5810
+D2
+You see the heavy steel door.
+~
+door~
+1 5837 5843
+S
+#5843
+The Jail~
+You are in a dark and humid jail.  The smell of decay fills the air making
+you choke.  As you walk around this room you hear a cruching sound of bones
+beneath your feet.  The dark stone walls are hard and cold to the touch.  A
+heavy steel door is to the north.
+~
+58 8 0
+D0
+You see the heavy steel door.
+~
+door~
+1 5837 5842
+E
+wall walls~
+The walls are marked with lots of scratches.  Some of them spell sentences
+like "JAIL IS BETTER THAN SQL" and "INGRES STRIKES AGAIN".
+~
+S
+#5900
+Along the Midgaard river~
+   To the south of you, the Midgaard River runs from the west to the east. 
+The current of the river is too strong to be able to swim here, but it still
+has a refreshing effect on you. Elm groves grow thick and impassible to your 
+north and west, but there is a small animal trail leading east.
+~
+0 N 2
+D1
+~
+~
+0 0 5901
+S
+#5901
+Along the Midaard river~
+   A small animal trail leads west and north. Thorn bushes obstruct your way 
+to the east. To the south of you runs the Midgaard River and you walk along 
+it's bank. You think about taking a nice little bath, but alas, the edge is 
+too steep to descend here. Maybe if you follow the animal trail to the west, 
+you might find a way to get to the river there.
+~ 
+0 N 3
+D0
+~
+~
+0 0 5902
+D3
+~
+~
+0 0 5900
+S
+#5902
+A grassy clearing~
+   You have come to the southern end of the grassy clearing. A large, thick 
+elm grove grows west of you and blocks that way. To the east you see some 
+bushes and undergrowth, finding a way through them shouldn't be too much 
+trouble. After some examination you also find a small animal trail leading
+south and in the far you think you hear the rustling sounds of a river.
+~
+0 N 3
+D0
+~
+~
+0 0 5905
+D1
+~
+~
+0 0 5903
+D2
+~
+~
+0 0 5901
+S
+#5903
+Between the blue-berry bushes~
+   You have forced your way into some bushes, but now that you are here, you
+wonder why you went through all that trouble, for thick thorn bushes block 
+your way south and east. The only possible ways to get out these bushes are
+to the west and north. With a grunt, you take note of the fact that the blue-
+berry bushes, really florish here and that it is difficult to get out. Now
+that you have got the chance to take a closer look at them, you notice that
+the blue-berries are from a rare type, exotic to Sambia.
+~
+0 N 5
+D0
+~
+~
+0 0 5904
+D3
+~
+~
+0 0 5902
+S
+#5904
+A grassy clearing~
+   You have reached a grassy clearing. A grove of weeping willows grows north
+of here, and to the east you see some mean looking thorn bushes. To the south
+florish some bushes and undergrowth, that look easy to pass on first sight.
+The clearing continues to the west.
+~
+0 N 3
+D2
+~
+~
+0 0 5903
+D3
+~
+~
+0 0 5905
+S
+#5905
+A grassy clearing~
+   You have come to a grassy field that continues north, east and south. To 
+the west runs a small, dusty trail, that once might have been a road, but 
+now has almost completely been reclaimed by the woods.
+~
+0 N 3
+D0
+~
+~
+0 0 5909
+D1
+~
+~
+0 0 5904
+D2
+~
+~
+0 0 5902
+D3
+~
+~
+0 0 5906
+S
+#5906
+A small dusty trail~
+   You cautiously walk on a dusty trail. A thick elm grove blocks your way
+south, but to your east you see a grassy clearing in the forest. The dust
+trail continues north and west.
+~
+0 N 2
+D0
+~
+~
+0 0 5910
+D1
+~
+~
+0 0 5905
+D3
+~
+~
+0 0 5907
+S
+#5907
+A small dusty trail~
+   Here and there you begin to see some crumbled stones, some are small and 
+have some resemblance with brick, others look more like cobble stones. The 
+dusty trail continues east, but it improves the more you go south. To the
+west and north a grove of weeping elms blocks your way.
+~
+0 N 2
+D1
+~
+~
+0 0 5906
+D2
+~
+~
+0 0 5908
+S
+#5908
+A dusty trail~
+   The trail has become wider here and you can now actually see some paved
+parts. Your astounded to find that the trail transforms into a real cobble
+stone road, be it a bit old and somewhat scrub overgrown.
+~
+0 N 2
+D0
+~
+~
+0 0 5907
+D3
+~
+~
+0 0 5761
+S
+#5909
+A grassy clearing~
+   You stand in a grassy field with here and there some small scrub and a 
+grove of weeping willows grows to the east. The grassy clearing continues
+south and to the west and north you see a small, dusty trail. After a quick 
+glance at the bushes, you notice that a few of them carry some delicious 
+looking red berries.
+~
+0 N 3
+D0
+~
+~
+0 0 5912
+D2
+~
+~
+0 0 5905
+D3
+~
+~
+0 0 5910
+S
+#5910
+A small dusty trail~
+   You are anxious to see to whom, or to what this dusty trail will lead,
+although it probably will have a dead end. You scan the elm grove to the
+west, for you never know what dangers might lurk in there, but it seems
+to be impassible. A grassy field lies east of here and the trail continues
+to the north and south.
+~
+0 N 2
+D0
+~
+~
+0 0 5913
+D1
+~
+~
+0 0 5909
+D2
+~
+~
+0 0 5906
+S
+#5911
+A small entrance to the Midgaard Woods~
+   You just stepped on a small, dusty trail leading into the Midgaard Woods.
+The sudden silence startles you ... the humming of the bees has stopped, as
+has the chirring of the crickets. Then a hoarse shriek fills the air, making
+the hairs in the nape of your neck rise. The sullen atmosphere of the woods
+rubbs off on you and where you were light-hearted before, you now feel gloomy
+and depressed. The dust trail continues to the west and a large sign has been
+placed alongside it. Not far from it, a scroll wavers in the air. Who placed
+it there and how it can just keep on hovering in the air like that, baffles 
+you. Willow trees block the north and the south, you can only go deeper into
+the woods or return.
+~
+0 N 2
+D1
+~
+~
+0 0 5911
+D3
+~
+~
+0 0 5912
+E
+sign way-sign~
+.
+		      BEWARE, YAE WHO ENTERS HERE
+		     WE, THE OUTCASTS, HAVE CHOSEN
+			REFUGE IN THESE WOODS
+
+		     ALL WHO IS NOT OUTCAST RETURN
+		     WHENCE THY HAVE COME OR FEEL
+			   OR OUR WRATH !!!
+~
+E
+scroll~
+   You still are astounded to find out that the scroll is just hovering in 
+mid-air, and then as are you watching, first letters, then words begin to 
+take form on it:
+
+       'Hail to yae who readest these words,
+
+       I besiege thee, take heed of the way-sign placed hither. For
+       there art truly outcasts residing in these woods. 
+       
+       If thou holdest dear thy life, then thou will leave this most
+       unholy place of murderers and backstabbers.
+
+       However art thou outcast thyself, then thou hath found thy safe
+       haven.
+
+       
+       Morgan the Wanderer
+       Anno Domini 1994, november (c)'
+~
+S
+#5912
+A small dusty trail~
+   You went deeper into the woods, walking slowly over the trail. To the 
+north are growing big pollard-willow groves. South of here is a grassy field
+and the dust trail continues east and west.
+~
+0 N 2
+D1
+~
+~
+0 0 5911
+D2
+~
+~
+0 0 5909
+D3
+~
+~
+0 0 5913
+S
+#5913
+A bend in the small dusty trail~
+   As you venture deeper into the woods, the sight of more and more pollard-
+willows makes you even more gloomy. You get the feeling someone or something
+is watching you from out of the bushes, but when you turn around to take a
+look, you can see nothing. The dust trail continues to the east and south, 
+to the west you see a grassy clearing.
+~
+0 N 2
+D1
+~
+~
+0 0 5912
+D2
+~
+~
+0 0 5910
+D3
+~
+~
+0 0 5914
+S
+#5914
+A grassy clearing~
+   You are standing in some grass, that reaches up to your ankles. After some 
+examination of the pollard-willow grove to the north and the elm-grove to the 
+south, you conclude, they are impossible to pass. To the east lies a small, 
+dusty trail. To the west the grassy field turns more scrub-grown.
+~
+0 N 3
+D1
+~
+~
+0 0 5913
+D3
+~
+~
+0 0 5915
+S
+#5915
+A scrub-grown clearing~
+   Knee deep grass and low growing scrub intermingle with each other. A 
+thick elm grove grows west of here. The grassy fields continues to the
+north. The south is more overgrown by bushes, and you think about having
+a closer look at them. Far to the east you see something, that could be 
+some sort of trail.
+~
+0 N 3
+D0
+~
+~
+0 0 5938
+D1
+~
+~
+0 0 5914
+D2
+bushes~
+~
+4 0 5916
+E
+bushes~
+   You take a closer look at the bushes that grow to the south. At first
+they seem impassible, but when you bend some of the smaller bushes to each
+side, you discover a small animal trail. You'd bet that if you chop some
+branches away, you might just be able to squeeze yourself through.
+~
+S
+#5916
+A bushy clearing~
+   You worked your way through the bushes into this small and bushy 
+clearing. East and south of you, an elm grove grows thick and high forming 
+an obstacle. To the north, someone has forced an entry throught the bushes. 
+You also notice a few blackberry bushes growing among the undergrowth. West
+of here you see a small grassy opening in the forest.
+~
+0 N 3
+D0
+~
+~
+0 0 5915
+D3
+~
+~
+0 0 5917
+S
+#5917
+A small grassy clearing~
+   Sunlight seeps through the roof of leaves, allowing grass and even an 
+occasional daisy to grow here. An old and thick elm grove blocks the north
+and some thorny bushes grow to the south. East of here, some more friendly
+bushes struggle to occupy a small clearing. There seems to be a small dust 
+trail west of here.
+~
+0 N 3
+D1
+~
+~
+0 0 5916
+D3
+~
+~
+0 0 5918
+S
+#5918
+A small dusty trail~
+   The dust trail comes to a dead end here, it does lead back north though.
+You are able to see some grassy clearings west and east of here. The thorns
+of the bushes in the south corner seem vicious enough, but there seem to be
+some traces of an old animal trail running through it.
+~
+0 N 3
+D0
+~
+~
+0 0 5921
+D1
+~
+~
+0 0 5917
+D2
+bushes~
+~
+4 0 5766
+D3
+~
+~
+0 0 5919
+E
+bushes trail animal~
+   Yes, you were right ... there is an animal trail running through the bushes 
+... maybe if you clear the bushes away u can follow the trail south.
+~
+S
+#5919
+A grassy clearing~
+   The grass reaches up to your knees here and continues north. Weeping 
+willows growing south of here, making you feel kind of sad. To the east 
+you see a little dust trail. Some oddlooking elm-trees obstruct the west.
+~
+0 N 3
+D0
+~
+~
+0 0 5922
+D1
+~
+~
+0 0 5918
+D3
+elm tree elm-tree~
+~
+4 0 5920
+E
+elm trees elm-trees~
+   You examinate the elm-trees, but you find nothing. However, your sixth
+keeps telling you there is something funny about them, but you just can't 
+exactly say what. Carefully you take another look, and this time you notice
+that one of the trees is rotten and can be pulled away, leaving a small 
+path between them.
+~
+S
+#5920
+A small grassy clearing~
+   You can hardly believe it, but hidden behind the elm-trees, actually 
+grows a rose bush in the middle of a small grassy field. You are astounded
+to find something so beautiful here in these dark and sinister woods.
+~
+0 N 3
+D1
+~
+~
+0 0 5919
+S
+#5921
+A small dusty trail~
+   The dust trail is flanked by a big, ancient looking elm grove to the east
+and a grassy field to the west. The trail continues south and north, with
+here and there a few small stones, that can hardly count as pavement.
+~
+0 N 2
+D0
+~
+~
+0 0 5940
+D2
+~
+~
+0 0 5918
+D3
+~
+~
+0 0 5922
+S
+#5922
+A grassy clearing~
+   You cross a knee deep grassy field, hoping it will take you to some 
+important place. The field continues south, to the west you see a thick elm
+grove and north and west of here you see a small trail running throug the
+woods.
+~
+0 N 3
+D0
+~
+~
+0 0 5941
+D1
+~
+~
+0 0 5921
+D2
+~
+~
+0 0 5919
+S
+#5923
+A bend in a small dusty trail~
+   You have arrived at a bend in the trail, it continues west and north from
+here. An old elm grove is struggling to stay alive south and east of here.
+Then, suddenly, dreadful howling shatters the night air, making your legs
+feel shaky.
+~
+0 N 2
+D0
+~
+~
+0 0 5943
+D3
+~
+~
+0 0 5924
+S
+#5924
+An intersection in the trail~
+   You walk along a dusty trail and come to an intersection. The trail leads
+into three directions here and to the north you see a small, grassy looking
+clearing. Here and there the scrub is trying to gain back territory from the
+trail.
+~
+0 N 2
+D0
+~
+~
+0 0 5944
+D1
+~
+~
+0 0 5923
+D2
+~
+~
+0 0 5927
+D3
+~
+~
+0 0 5925
+S
+#5925
+A small dusty trail~
+   The small dusty trail goes east and west from here. A grove of weeping
+willows grows to the north, a grassy field lies south. You find some small
+animal tracks, but they are a few days old.
+~
+0 N 2
+D1
+~
+~
+0 0 5924
+D2
+~
+~
+0 0 5928
+D3
+~
+~
+0 0 5926
+S
+#5926
+A small entrance to the Midgaard Woods~
+   You just stepped on a small, dusty trail leading into the Midgaard Woods.
+The sudden silence startles you ... the humming of the bees has stopped, as
+has the chirring of the crickets. Then a hoarse shriek fills the air, making
+the hairs in the nape of your neck rise. The sullen atmosphere of the woods
+rubbs off on you and where you were light-hearted before, you now feel gloomy
+and depressed. The dust trail continues to the east and a large sign has been
+placed alongside it. Not far from it, a scroll wavers in the air. Who placed
+it there and how it can just keep on hovering in the air like that, baffles 
+you. Weeping willows block the west and the south, you can only go deeper 
+into the woods or return.
+~
+0 N 2
+D0
+~
+~
+0 -1 6137
+D1
+~
+~
+0 0 5925
+E
+sign way-sign~
+.
+		      BEWARE, YAE WHO ENTERS HERE
+		     WE, THE OUTCASTS, HAVE CHOSEN
+			REFUGE IN THESE WOODS
+
+		     ALL WHO IS NOT OUTCAST RETURN
+		     WHENCE THY HAVE COME OR FEEL
+			   OR OUR WRATH !!!
+~
+E
+scroll~
+   You still are astounded to find out that the scroll is just hovering in 
+mid-air, and then as are you watching, first letters, then words begin to 
+take form on it:
+
+       'Hail to yae who readest these words,
+
+       I besiege thee, take heed of the way-sign placed hither. For
+       there art truly outcasts residing in these woods. 
+       
+       If thou holdest dear thy life, then thou will leave this most
+       unholy place of murderers and backstabbers.
+
+       However art thou outcast thyself, then thou hath found thy safe
+       haven.
+
+       
+       Morgan the Wanderer
+       Anno Domini 1994, november (c)'
+~
+S
+#5927
+A small dusty trail~
+   The trail leads north and south. A small, but thick grown elm grove blocks
+the east and there is a small grassy field growing to the west. An occasional
+stone serves as some kind of crude pavement.
+~
+0 N 2
+D0
+~
+~
+0 0 5924
+D2
+~
+~
+0 0 5930
+D3
+~
+~
+0 0 5928
+S
+#5928
+A grassy field~
+   You cross a grassy clearing in the woods. There are a few bushes growing 
+here, but they are small and nondescript. To the west and south, large pollard 
+willow groves rise up from the ground and to the north and east you see traces 
+of a small, dusty trail.
+~
+0 N 3
+D0
+~
+~
+0 0 5925
+D1
+~
+~
+0 0 5927
+E
+bushes~
+   Hmmm ... obviously, you have no knowledge of the meaning of the word 
+'nondescript'... there is nothing special to see here !
+~
+S
+#5929
+A grassy clearing~
+   You have come to a grassy clearing, that is closed in from the north by 
+a large, thick elm grove. The ground is slushy at some places, but solid 
+enough to stand on. Some bushes with vicious looking thorns grow to the east
+and you see a dust trail, west and south of here.
+~
+0 N 3
+D2
+~
+~
+0 0 5931
+D3
+~
+~
+0 0 5930
+S
+#5930
+A small dusty trail~
+   Here and there you begin to see some crumbled stones, they are small and 
+have a hint of cobble stones about them. The dust trail continues north,
+but it improves some more when you go south. To the west a grove of weeping 
+pollard willows tries to advance towards the trail. A grassy field grows to
+the east.
+~ 
+0 N 2
+D0
+~
+~
+0 0 5927
+D1
+~
+~
+0 0 5929
+D2
+~
+~
+0 0 5932
+S
+#5931
+An overgrown dust road~
+   The trail has become wider here and you can now actually see some paved 
+parts, that have remained intact over the years. Your astounded to find that 
+the trail has almost transformed into a real cobble stone road, be it a bit 
+old and somewhat scrub and moss overgrown. To the south you see a clearing 
+and in the far you hear the rushing sound of a river. North of here you see 
+a small grassy field. The road continues to the east and west.
+~
+0 N 2
+D0
+~
+~
+0 0 5929
+D1
+~
+~
+0 0 5756
+D2
+~
+~
+0 0 5936
+D3
+~
+~
+0 0 5932
+S
+#5932
+A bend in the dusty trail~
+   More and more of the crumbled stones are lying on the trail. It is obvious 
+now that they really were cobble stones once. The trail leads north, but gets 
+wider to the east. To the west you see a marsh-like scrap of land, which 
+looks very uninviting. South of here you see a clearing and far off you hear 
+the faint gurgling sound of a river.
+~ 
+0 N 2
+D0
+~
+~
+0 0 5930
+D1
+~
+~
+0 0 5931
+D2
+~
+~
+0 0 5937
+D3
+~
+~
+0 0 5933
+S
+#5933
+A marsh-like clearing~
+   You enter what seems to be the advance of the mist marshes. Some dreadful
+weeping willows grow to the south and to the north, a range of dead and leaf-
+less pollard willows looms up behind some wisps of mist. To the east you see
+a dusty trail, to the west the mist gets thicker.
+~
+0 AN 5
+D1
+~
+~
+0 0 5932
+D3
+~
+~
+0 0 5934
+S
+#5934
+In the mist~
+   You make your way through the marshes and through the thickest of mist. You
+have now reached the heart of the swamplands and all around you, the ground 
+has become treacherous ... what seem to be ordinary bushes and undergrowth, 
+turn out to be vegetation floating on murky water ... what seems to be solid 
+ground turns out to be one of the many bottomless pits, filled with quicksand.
+Gloomy trunks of half-decayed weeping willows occasionally loom up from out 
+of the mist.
+~
+0 AN 5
+D0
+~
+~
+0 0 5935
+D1
+~
+~
+0 0 5933
+S
+#5935
+In the mist~
+   You still find yourself crawling through the ever thicker growing mist, 
+while trying to avoid the nasty traps, nature has imposed on these swamp-
+lands. A tall pollard willow looms up ahead of you from out of the mist. 
+The suddenness of its appearance and the fact that it is so near, startles 
+you and causes a moment of distraction that is fatal to you, for in that 
+single moment, you step into a pool of quicksand. You curse the day that you 
+set foot into these damned marshes, but that, nor all the swearing of the 
+world for that matter, doesn't help you and you are inevitably drawn into 
+the quicksand's depths. 
+~
+0 A 5
+D0
+It is one of the longer branches, it grows in your direction and it hangs
+just over the quicksand.~
+branch~
+4 -1 5947
+E
+pollard willow~
+   After some moments of despair you calm down a bit and remember the pollard
+willow. You quickly direct your eyes towards it, but with a strangled cry you
+conclude that it's just a little out of your reach ... then another wisp of
+mist is blown away by a faint breeze, revealing another pollard willow, not
+quite as tall, but much closer to you. Hope flows back into your heart as you 
+reach for one of the willow's branches, hanging closely to the ground.
+~
+S
+#5936
+Along the Midgaard river~
+   South of here the Midgaard River runs from west to east. The forest has 
+completely retreated from its banks and allowed wild flowers grow here lush-
+lessly. The banks consist of gigantic boulders making descending towards the 
+river unthinkable. North of here you see a dust trail leading east, to the
+west the banks of the river continue. In the east grow a few nasty thron
+bushes.
+~
+0 N 3
+D0
+~
+~
+0 0 5931
+D3
+~
+~
+0 0 5937
+S
+#5937
+Along the Midgaard river~
+   A small dust trail lies to the north. Weeping willows obstruct your way 
+to the west, and south of you runs the Midgaard River. Its banks mostly
+consist of large boulders, making descending towards the river impossible.
+The river bank continues to the east.
+~
+0 N 3
+D0
+~
+~
+0 0 5932
+D1
+~
+~
+0 0 5936
+S
+#5938
+A grassy clearing~
+   You walk through a grassy field with some small scrub here and there. A 
+large grove of pollard willows grows like an immense wall to the east and 
+north. The grassy clearing continues south and west.
+~
+0 N 3
+D2
+~
+~
+0 0 5915
+D3
+~
+~
+0 0 5939
+S
+#5939
+A bushy clearing~
+   You labour your way through knee deep grass and a little streak of sweat
+begins to form on your forehead. You notice that the elderbushes that grew 
+here once, are now replaced by other bushes or grass, only a single elderbush 
+remains. South of here grow some old and gnarly elm trees, to the north grows 
+a thick pollard willow grove. The grassy clearing continues east, to the west
+you see something that might be a small trail. 
+~
+0 N 3
+D1
+~
+~
+0 0 5938
+D3
+~
+~
+0 0 5940
+S
+#5940
+A bend in the dust trail~
+   Small patches of grass grow here and there on the dust trail. A few 
+weeping willows grows to the north, their old, dry limbs forming a gloomy 
+sight. There is a grassy clearing east of here. The dust trail continues
+south and west.
+~
+0 N 2
+D1
+~
+~
+0 0 5939
+D2
+~
+~
+0 0 5921
+D3
+~
+~
+0 0 5941
+S
+#5941
+A small dust trail~
+   You venture deeper into the woods, walking slowly over the trail. To the 
+north grow old and gnarly weeping willow trees. You carefully scan the tree-
+line, but there's nothing there. To the south you see a fresh looking grassy 
+field. The dust trail continues east and west.
+~
+0 N 2
+D1
+~
+~
+0 0 5940
+D2
+~
+~
+0 0 5922
+D3
+~
+~
+0 0 5942
+S
+#5942
+A small dusty trail~
+   Small elm groves grows to the south, you think you see some sinister 
+forms running through them, but when you take a closer look, they are gone.
+To the north you see a dewy, grassy field and some small bushes. The dust 
+trail continues to the east and west. 
+~
+0 N 2
+D0
+~
+~
+0 0 5945
+D1
+~
+~
+0 0 5941
+D3
+~
+~
+0 0 5943
+S
+#5943
+An intersection in the dust trail~
+   You have reached an intersection in these dark and eerie woods, the dust
+trail continues east, south and north from here. To the west you see a scrub
+overgrown grassy field. There is an old way-sign posted beside the trail, but 
+it is largely rotten away.
+~
+0 N 2
+D0
+~
+~
+0 0 5946
+D1
+~
+~
+0 0 5942
+D2
+~
+~
+0 0 5923
+D3
+~
+~
+0 0 5944
+E
+way-sign sign~
+   You take a closer look at the way-sign, but the words that once were on
+it are now indecypherable ... 
+~
+S
+#5944
+A scrub-grown clearing~
+   In this sheltered place the grass grows tall and is only threatened by
+some low growing scrub, both struggling for more living space. Thick and old
+weeping willow trees grow west and north of here. To the south and east you 
+see something, that might be a trail.
+~
+0 N 3
+D1
+~
+~
+0 0 5943
+D2
+~
+~
+0 0 5924
+S
+#5945
+A bushy clearing~
+   You are in a small grassy clearing closed in by weeping elm trees. The
+grass reaches as high as your knees and small bushes grow near the tree 
+line. Just when you decide that this forest isn't that bad after all, the
+high-pitched hooting laugh of a wolf fills the night.   
+~
+0 N 3
+D2
+~
+~
+0 0 5942
+D3
+~
+~
+0 0 5946
+S
+#5946
+A small entrance to the Midgaard Woods~
+   You just stepped on a small, dusty trail leading into the Midgaard Woods.
+The sudden silence startles you ... the humming of the bees has stopped, as
+has the chirring of the crickets. Then a hoarse shriek fills the air, making
+the hairs in the nape of your neck rise. The sullen atmosphere of the woods
+rubbs off on you and where you were light-hearted before, you now feel gloomy
+and depressed. The dust trail continues to the west and a large sign has been
+placed alongside it. Not far from it, a scroll wavers in the air. Who placed
+it there and how it can just keep on hovering in the air like that, baffles 
+you. Weeping willow trees grow to the west, east of here you see a grassy
+clearing. You can also follow the trail deeper into the woods or return.
+~
+0 N 2
+D0
+~
+~
+0 0 5765
+D1
+~
+~
+0 0 5945
+D2
+~
+~
+0 0 5943
+E
+sign way-sign~
+.
+		      BEWARE, YAE WHO ENTERS HERE
+		     WE, THE OUTCASTS, HAVE CHOSEN
+			REFUGE IN THESE WOODS
+
+		     ALL WHO IS NOT OUTCAST RETURN
+		     WHENCE THY HAVE COME OR FEEL
+			   OR OUR WRATH !!!
+~
+E
+scroll~
+   You still are astounded to find out that the scroll is just hovering in 
+mid-air, and then as are you watching, first letters, then words begin to 
+take form on it:
+
+       'Hail to yae who readest these words,
+
+       I besiege thee, take heed of the way-sign placed hither. For
+       there art truly outcasts residing in these woods. 
+       
+       If thou holdest dear thy life, then thou will leave this most
+       unholy place of murderers and backstabbers.
+
+       However art thou outcast thyself, then thou hath found thy safe
+       haven.
+
+       
+       Morgan the Wanderer
+       Anno Domini 1994, november (c)'
+~
+S
+#5947
+A small grassy clearing~
+   The small clearing is closed in on all sides by pollard willow trees. 
+Still sunlight is able to seep through the roof of leaves, allowing grass 
+to grow here. You notice that there's something strange about the pollard 
+willows to the north, but you can't exactly say what. You can hardly belie-
+ve it ... but in the center of the grassy field, showered by the sunlight, 
+grows a flower of the utmost magnificence ... a beautiful orange tulip.
+~
+59 N 3
+D0
+A thick growth of pollard willoww trees blocks your view.~
+pollard willow~
+4 -1 5926
+E
+pollard willow~
+   After a thorough search you notice that there's a small animal trail
+leading through the pollard trees north of here ... you might be able to 
+squeeze yourself though.
+~
+S
+#5974
+Under the Bridge~
+The arch under the bridge is covered by seaweed for one foot above the
+surface of the river.  The water gently flows through an opening in the
+lower part of the city wall.
+~
+59 0 7
+D1
+~
+~  
+0 -1 5975
+D3
+You see the river flowing west into the Forest of Haon-Dor.~
+~
+0 -1 9772
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  Looks in disrepair.
+~
+S
+#5975
+On the River~
+North of here you see the miserable buildings of the poor alley.  The river
+flows west towards the bridge.  The riverbanks are too steep to climb.
+~
+59 0 7
+D1
+~
+~
+0 -1 5976
+D3
+~
+~
+0 -1 5974
+S
+#5976
+On the River~
+North of here you see the dump.  The river flows from east to west.  The
+riverbanks are too steep to climb.  A bridge passes overhead, connecting
+the dump to the promenade.
+~
+59 0 7
+D1
+~
+~
+0 -1 5977
+D3
+~
+~
+0 -1 5975
+S
+#5977
+On the River~
+The levee is directly north of here.  The river flows in an east west direction.
+~
+59 4 7
+D0
+~
+~
+0 -1 5749
+D1
+~
+~
+0 -1 5978
+D3
+~
+~
+0 -1 5976
+S
+#5978
+On the River~
+You see the warehouse on the northern riverbank.  East of here the river
+passes under the eastern bridge and through the city wall. The banks of the
+levee are west, in the direction of the current.
+~
+59 0 7
+D1
+~
+~
+0 -1 5979
+D3
+~
+~
+0 -1 5977
+S
+#5979
+On the River~
+The river enters from a hole in the eastern city wall.  The hole has been
+blocked by several vertically positioned iron bars set into the wall.
+Overhead you can see the ruined stone buttresses of the eastern bridge.
+~
+59 0 7
+D1
+The iron bars are broken, allowing passage through the hole in the wall.
+Beyond the bars you see a dark tunnel.
+bars~
+~
+0 -1 9775
+D3
+~
+~
+0 -1 5978
+S
+#5950
+Wall Road~
+Wall road extends north and south along the eastern walls of the city.  The
+east gate is north of you, south is an intersection with a dark alley.
+~
+57 0 1
+D0
+The eastern gate of the city is north.
+~
+~
+0 -1 5741
+D2
+You see an intersection with a dark alley.
+~
+~
+0 -1 5951
+S
+#5951
+Wall Road~
+You are walking along the eastern wall of the city, on a road extending
+between the east gate and a bridge to the south.  A dark, dirty alley lies
+east of here.  You step carefully around a pool of liquid...who knows what
+it could be in a place this foul...
+~
+57 0 1
+D0
+Wall road continues to the north, heading towards the gate.
+~
+~
+0 -1 5950
+D2
+Wall road continues to the south, towards a bridge over the Midgaard river.
+~
+~
+0 -1 5952
+D3
+~
+~
+0 -1 5746
+S
+#5952
+Wall Road~
+The breached walls of Midgaard tower above you to the east.  An
+intersection with a dark alley lies north, and a bridge over the Midgaard
+river is south.  Beyond the bridge wall road turns in the concourse.
+~
+57 0 1
+D0
+You see an intersection with a dark alley.
+~
+~
+0 -1 5951
+D2
+The eastern bridge crosses the river to the south.
+~
+~
+0 -1 5953
+S
+#5953
+On the Bridge~
+You are crossing a cracked stone bridge, which spans the Midgaard river.
+Below you, the river flows into an opening in the city wall, sealed with
+strong metal bars.  North of you is wall road, south of here the concourse
+loops around the inside the breached city walls.
+~
+57 0 1
+D0
+Wall road continues to the north.
+~
+~
+0 -1 5952
+D2
+The concourse stretches around the southern parts of Midgaard.
+~
+~
+0 -1 5804
+E
+opening bars river~
+Hmm...some of the bars have been ripped out of the wall.  Enough to pass a
+good sized raft or canoe, or perhaps even a barge.  You wonder what sort of
+beast had the strength to do this.
+~
+S
+#5954
+The South Bridge~
+You are standing on a small, rickety bridge leading from the Midgaard City
+Dump to the much more attractive promenade of the southern parts of
+Midgaard.  You can smell the stench of the dump to the north and the
+promenade to the south.  Below you are the swift-moving currents of the
+Midgaard river.
+~
+57 0 1
+D0
+You can see the clutter of the City Dump.
+~
+~
+0 0 5730
+D2
+The promenade lies to the south.
+~
+~
+0 -1 5802
+S
+#5955
+Inside the South Gate of Midgaard~
+This use to be just inside the southern gate of Midgaard.  Now the whole
+area has been layed to waiste and now only scorched rubble pilled
+everywhere and skeletal remains of long lost warriors is the only thing
+left here.  You can exit the city to the south, if you dare, or walk down
+the concourse to the east or west.
+~
+57 0 1
+D1
+The concourse heads east along the inside of the city wall.
+~
+~
+0 -1 5829
+D2
+You see the remains of southern gate.
+~
+~
+1 5833 5956
+D3
+The concourse heads west along the inside of the city wall.
+~
+~
+0 -1 5828
+S
+#5956
+Among the rubble of the southern gates.~
+As you pick you way through the rubble in an attempt to make it out the
+southern gates you realize that your way is blocked.  The gatehouse lies
+in ruins and the towers flanking it have fallen across the road.  They
+road south of Midgaard is totally blocked.
+~
+57 0 3
+D0
+You see the southern gate.
+~
+~
+1 5833 5955
+S
+#5957
+Wall Road~
+You are walking along wall road, just north of the west gate of Midgaard.
+The road continues along the western wall to the north, towards an
+intersection with a busy market street.
+~
+57 0 1
+D0
+You see an intersection between wall road and a busy market street.
+~
+~
+0 -1 5958
+D2
+The west gate of the city lies south.
+~
+~
+0 -1 5740
+S
+#5958
+Wall Road~
+Wall road intersects with a crowded market street here, filled with shops and
+artisans.  Vines seem to hand down from the top of the wall.  The street
+stretches off to the east, towards the far wall of the city.  Wall road
+continues to the north and south.
+~
+57 0 1
+D0
+Wall road continues to the north, towards the northwestern corner of the wall.
+~
+~
+0 -1 5959
+D1
+You see the empty shops of Market Road.
+~
+~
+0 -1 5768
+D2
+Wall road continues alongside the western wall, heading towards the west gate.
+~
+~
+0 -1 5957
+S
+#5959
+Wall Road~
+You are walking along wall road, which extends along the inside of the 
+breached western wall of Midgaard.  Vines seem to hand down from the top 
+of the wall.  To the south, you can see an intersection.  The northwestern 
+corner of the city wall lies ahead to the north.
+~
+57 0 1
+D0
+You see the northwestern corner of the city wall.
+~
+~
+0 -1 5960
+D2
+To the south, wall road intersects with market street.
+~
+~
+0 -1 5958
+S
+#5960
+The Northwest Corner~
+You are standing beneath the northwestern corner of the city wall, on a turn
+in wall road.  Vines seem to hand down from the top of the wall.  You can
+head south, towards the west gate, or east, to the
+north gate.
+~
+57 0 1
+D1
+Wall road continues along the northern wall of the city.
+~
+~
+0 -1 5961
+D2
+Wall road continues along the western wall of the city.
+~
+~
+0 -1 5959
+S
+#5961
+Wall Road~
+The city walls tower over you as walk down wall road, between the northwestern
+corner of the wall to the west, and the northern gate of Midgaard to the
+east.    Vines seem to hand down from the top of the wall.
+~
+57 0 1
+D1
+Wall road continues to the east, towards the northern gate of Midgaard.
+~
+~
+0 -1 5962
+D3
+You can see the northwest corner of the city wall to the west.
+~
+~
+0 -1 5960
+S
+#5962
+Inside the Open North Gate of Midgaard~
+Two small towers surround a warped wooden gate which lies half hanging on
+its hinges.  The towers are connected by a small stone bridge set with
+murder holes.  The hole stone structure is covered with plants.  You can
+leave midgaard to the north, or continues along wall road to the west and
+east.  A lonely market street is visible to the south, and beyond that the
+once graceful spires of the Temple of Mota, but there is no way to reach
+them from here.
+~
+57 0 1
+D0
+The northern plains are visible through the gate.
+~
+~
+1 5833 5968
+D1
+Wall road continues to the east, alongside the northern wall.
+~
+~
+0 -1 5963
+D3
+Wall road continues to the west, alongside the northern wall.
+~
+~
+0 -1 5961
+S
+#5963
+Wall Road~
+You are walking along wall road, between the northern gate of the city and the
+northeastern corner of the city walls.  You can see bloodstains on the road.
+~
+57 0 1
+D1
+You see the northeastern corner of the city walls.
+~
+~
+0 -1 5964
+D3
+The northern gate of the city lies east.
+~
+~
+0 -1 5962
+S
+#5964
+The Northeast Corner~
+Wall road turns the corner here, as you pass by the northeastern edge of the
+city wall.  The north gate lies to your west, and the road south leads to the
+eastern gate of Midgaard.
+~
+57 0 1
+D2
+Wall road continues to the south, along the eastern wall of the city.
+~
+~
+0 -1 5965
+D3
+Wall road continues to the west, along the northern wall of the city.
+~
+~
+0 -1 5963
+S
+#5965
+Wall Road~
+Just south of you is an intersection with a market street.  The breached
+and scorched eastern wall of Midgaard is beside you, and to the north you
+can see the northeast corner of the city wall.
+~
+57 0 1
+D0
+You can see the northeast corner of the city wall.
+~
+~
+0 -1 5964
+D2
+You see an intersection.
+~
+~
+0 -1 5966
+S
+#5966
+Wall Road~
+Here, wall road meets up with market street heading off towards the west,
+and the far fall of the city.  The smell of decay fills the air and
+skeletal remains litters the street. Wall road continues to the north and
+south.
+~
+57 0 1
+D0
+Wall road continues to the north, along the eastern wall of the city.
+~
+~
+0 -1 5965
+D2
+Wall road continues to the south, towards the east gate of Midgaard.
+~
+~
+0 -1 5967
+D3
+You see a mass of people heading down Market Road.
+~
+~
+0 -1 5773
+S
+#5967
+Wall Road~
+You are near the center of wall road, just north of the east gate of the
+city.  The street seems to be covered in dark red stains while plants seem
+to be growing throught the charred and warped cobblestones.  To the north,
+you can see an intersection with market street.
+~
+57 0 1
+D0
+You see an intersection with market street.
+~
+~
+0 -1 5966
+D2
+You see the ruined east gate of Midgaard.
+~
+~
+0 -1 5741
+S
+#5968
+Outside the North Gate of Midgaard~
+You stand outside the north gate of the walled city of Midgaard.  A dusty
+trail is visibile to the north, it stretches around the walls of the city.
+Further north are the wide expanses of the northern plains.  You can
+return to Midgaard to the south.
+~
+57 0 2
+D0
+You see a Dark Forest.
+~
+~
+0 0 5766
+D2
+You see the overgrown north gate of Midgaard.
+~
+~
+1 5833 5962
+S
+#5970
+On the Concourse~
+The crumbling stone walls of Midgaard rise up to the west.  The concourse
+heads towards a bridge to the north, and continues south alongside a
+beautiful park.
+~
+57 0 1
+D0
+The concourse continues to the north, along the breached city wall.
+~
+~
+0 -1 5800
+D2
+The concourse heads south, passing by a beautiful park.
+~
+~
+0 -1 5971
+S
+#5971
+On the Concourse near the park~
+You are walking down the Concoruse, along the ruined western wall of
+Midgaard.  To the north, the road passes by a overgrown park, to the south,
+you can see the southwest corner of the city wall.
+~
+57 0 1
+D0
+The concourse heads north, passing by a overgrown park.
+~
+~
+0 -1 5970
+D2
+You can see the southwest corner of the city wall.
+~
+~
+0 -1 5827
+S
+#5972
+On the Concourse at Penny Lane~
+You are on a road leading around the inner walls of Midgaard.  To the
+north, the concourse heads towards a bridge into northern Midgaard.  To the
+south, you can see an intersection with Elm Street.  The streets of Penny
+Lane lie west.
+~
+57 0 1
+D0
+The concourse continues to the north, towards the east bridge.
+~
+~
+0 -1 5804
+D2
+The concourse continues south, towards an intersection with Elm Street.
+~
+~
+0 -1 5973
+D3
+You see Penny Lane.
+~
+~
+0 -1 5840
+S
+#5973
+On the Concourse at Elm Street~
+The air grows chill as you pass near the Elm Street graveyard.  The walls
+of Midgaard are to the east, and the concourse continues to the north and
+south.  To your west, you see Elm Street at the graveyard entrance.
+~
+57 0 1
+D0
+The concourse continues to the north, towards an intersection with Penny Lane.
+~
+~
+0 -1 5972
+D2
+The concourse continues to the south, towards the southeast corner of the wall.
+~
+~
+0 -1 5830
+D3
+You see Elm Street and the graveyard entrance.
+~
+~
+0 -1 5824
+S
+#5794
+The Lair~
+What was once the secret treasure room of the Temple of Mota now has
+a new resident and guardian.  A huge black dragon was left behind to
+watch over the ruins and command the draconian forces.  It rises up
+out of the mountain of treasure and regards you with a look of hatred.
+Then it attacks!
+~
+57 AD 1
+D4
+The Temple of Mota.
+~
+~
+0 -1 5701
+S
+#0
+
+
+#RESETS
+*** Morgans Mobile Resets ***
+M 0 5718 1 5727         *SHADOW ASSASSIN
+E 1 5740 5 16            *wielded: backbiting sword 
+E 1 5741 5 3             *worn on neck: (Dark) shadow cloak
+E 1 5742 5 5             *worn on body: (Dark) shadow robes
+M 0 5720 3 5740         *AURAK
+E 1 5743 5 3             *worn on neck : blood red cloak (cotton)
+E 1 5744 5 14            *worn on wrist: scaly bracer     
+E 1 5745 5 7             *worn on legs : scale mail skirt        
+M 0 5720 3 5740         *AURAK
+E 1 5743 5 3
+E 1 5744 5 14
+E 1 5745 5 7
+M 0 5720 3 5955
+E 1 5743 5 3
+E 1 5744 5 14
+E 1 5745 5 7
+M 0 5721 3 5740         *BAAZ
+E 1 5746 5 3             *worn on neck: black cloak (cotton)
+E 1 5747 5 5             *worn on body: long chain mail shirt
+E 1 5744 5 14            *worn on wrist: metal bracer
+E 1 5748 5 16            *wielded: barbed long sword
+M 0 5721 3 5740
+E 1 5746 5 3
+E 1 5747 5 5
+E 1 5744 5 14
+E 1 5748 5 16
+M 0 5721 3 5955
+E 1 5746 5 3
+E 1 5747 5 5
+E 1 5744 5 14
+E 1 5748 5 16
+M 0 5722 3 5741         *BOZAK
+E 1 5749 5 5             *worn on body: plated chest armor
+E 1 5750 5 7             *worn on legs: plated greaves
+E 1 5751 5 10            *worn on arms: plated armguards
+E 1 5752 5 16            *wielded: a slim scimitar
+E 1 5769 5 17            *held/dual?: adder sting
+M 0 5722 3 5741
+E 1 5749 5 5
+E 1 5750 5 7
+E 1 5751 5 10
+E 1 5752 5 16
+E 1 5769 5 17
+M 0 5722 3 5955
+E 1 5749 5 5
+E 1 5750 5 7
+E 1 5751 5 10
+E 1 5752 5 16
+E 1 5769 5 17
+M 0 5723 3 5741         *KAPAK
+E 1 5753 5 5             *worn on body: studded leather chest armor
+E 1 5754 5 7             *worn on legs: small studded leather pants
+E 1 5755 5 11            *worn as shield: small buckler
+E 1 5756 5 16            *wielded: short sword (poisoned)
+M 0 5723 3 5741
+E 1 5753 5 5
+E 1 5754 5 7
+E 1 5755 5 11
+E 1 5756 5 16
+M 0 5723 3 5955
+E 1 5753 5 5
+E 1 5754 5 7
+E 1 5755 5 11
+E 1 5756 5 16
+M 0 5724 2 5752         *SIVAK
+E 1 5757 5 5             *worn on body: plated cuirass
+E 1 5758 5 7             *worn on legs: triple plated greaves
+E 1 5759 5 10            *worn on arms: triple plated armguards; 
+E 1 5760 5 16            *wielded: barbed two-handed war blade
+M 0 5724 2 5753
+E 1 5757 5 5
+E 1 5758 5 7
+E 1 5759 5 10
+E 1 5760 5 16
+M 0 5725 1 5704         *DEATH KNIGHT
+E 1 5761 5 5             *dented plate mail
+E 1 5762 5 7             *dented plate mail leggings
+E 1 5763 5 10            *dented plate mail armguards
+E 1 5764 5 11            *dented tower shield
+E 1 5765 5 16            *rusty tri-flail
+M 0 5726 3 5724         *SKELETON WARRIOR
+E 1 5766 5 5             *suit of ring mail
+E 1 5767 5 11            *small round shield
+E 1 5768 5 16            *spiked mace
+M 0 5726 3 5716
+E 1 5766 5 5
+E 1 5767 5 11
+E 1 5768 5 16
+M 0 5726 3 5714
+E 1 5766 5 5
+E 1 5767 5 11
+E 1 5768 5 16
+M 0 5701 3 5715         *Ogre
+E 1 5704 5 16
+M 0 5701 3 5715
+E 1 5704 5 16
+M 0 5702 4 5744         *Gnoll
+M 0 5702 4 5744
+M 0 5702 4 5944
+M 0 5703 1 5749         *Captain
+M 0 5704 2 5749         *Pirate
+M 0 5704 2 5749        
+M 0 5705 2 5749         *Pirate
+M 0 5705 2 5749
+M 0 5706 5 5725         *Ghost
+M 0 5706 5 5751
+M 0 5706 5 5806
+M 0 5707 5 5750         *Ghost
+M 0 5707 5 5750
+M 0 5707 5 5806
+M 0 5708 1 5721         *Guildmaster Ghost (warrior)
+M 0 5711 2 5730         *troll
+E 1 5722 3 9
+M 0 5711 2 5974         
+E 1 5722 3 9
+M 0 5712 1 5902         *giant
+E 1 5704 5 5704
+M 0 5715 1 5838         *ghost of the mayor
+M 0 5716 4 5705         *apparition
+M 0 5716 4 5960
+M 0 5717 1 5965         *winged serpent
+M 0 5719 1 5794         *black dragon
+*** Woods resets ***
+M 0 5727 3 5910         *ALGROTH
+E 1 5770 3 16            * algroth claws
+M 0 5727 3 5923         *ALGROTH 
+E 1 5770 3 16            * algroth claws
+M 0 5727 3 5939         *ALGROTH 
+E 1 5770 3 16             *algroth claws
+*
+M 0 5728 2 5915         *HRULGA 15
+M 0 5728 2 5930         *HRULGA 15
+*
+M 0 5729 2 5907         *ELDRAK 27
+E 0 5771 2 12            * armored shirt
+E 0 5772 2 5             * rusty breastplate
+E 0 5773 2 6             * conical steel helmet
+E 0 5774 2 16            * huge clug
+M 0 5729 2 5936         *ELDRAK 27
+E 0 5771 2 12            * armored shirt
+E 0 5772 2 5             * rusty breastplate
+E 0 5773 2 6             * conical steel helmet
+E 0 5774 2 16            * huge clug
+*     
+M 0 5730 4 5904         *ROCK WOLF 13
+M 0 5730 4 5922         *ROCK WOLF 13
+M 0 5730 4 5929         *ROCK WOLF 13
+M 0 5730 4 5944         *ROCK WOLF 13
+*
+M 0 5731 2 5914         *DREADWING 18
+M 0 5731 2 5917         *DREADWING 18
+*
+M 0 5732 1 5920         *VAMPIRIC UNICORN 24
+*
+M 0 5733 2 5903         *VAMPIRIC WEREWOLF 22
+M 0 5733 2 5933         *VAMPIRIC WEREWOLF 22
+*
+O 0 5775 1 5903         *blue-berry bush
+P 1 5776 0 5775         *blue-berry string
+*
+O 0 5777 1 5916         *blackberry bush
+P 1 5778 1 5777         *blackberry string
+*
+O 0 5779 1 5909         *bush with red berries
+P 1 5780 0 5779         *string of red berries
+*
+O 0 5781 1 5939         *elder-bush
+P 1 5782 0 5771         *string of elder-berries
+*
+O 0 5783 1 5937         *raspberry-bush
+P 1 5784 0 5783         *string of raspberries
+*
+O 0 5785 1 5920         *rose bush
+P 1 5786 0 5775         *rose
+*
+O 0 5787 1 5947         *tulip
+*     
+D 0 5915 2 4
+D 0 5918 2 4
+D 0 5919 3 4
+D 0 5935 0 4
+D 0 5947 0 4
+D 0 5760 0 1      *undergrowth on game trail
+S
+
+
+#SPECIALS
+M 5719 spec_breath_acid                 dragon
+M 5720 spec_cast_mage                   Aurak
+M 5722 spec_cast_mage                   Bozak
+M 5727 spec_castle_guard_agg            Algroth
+M 5729 spec_castle_guard_agg            Eldrak
+M 5730 spec_castle_guard_agg            Rock wolf
+M 5732 spec_cast_mage                   Vampiric Unicorn
+S
+
+#$

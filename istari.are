@@ -1,0 +1,1375 @@
+#AREA   { CAS } Wolff   Turm dur Istari~
+
+#HELPS
+-1 ISTARI~
+The days before the collapse were like any other in most respects,
+and nobody foresaw the years of chaos that would reign thereafter.
+Nobody but a small band of mages, who knew little of the exact timing
+of the collapse, but knew, like the four seasons, of it's inevitability.
+The great villain of such times is not the little warlord peon who seeks
+to impose their individual will on the landscape during his brief and
+violent life span.  Rather the true villain is the wholesale destruction
+of  information, knowledge, and the people that practice and teach others
+in skills other than the simple act of slicing another being's throat. It
+is left to individuals' own abilities for them to find a way to survive. 
+Some of them may, and many will not.  Truly, it is the irreplaceable 
+knowledge stored in priceless tomes, so vast in information that nobody 
+could be expected to remember it all, which is the most vulnerable during 
+such dark hours.  It was for the preservation of such knowledge that 
+the band of five mages decided they would join in hopes that the cycle
+turned yet again.  They combed the landscape, paying tremendous amounts of
+wealth and taking unheard of risks to copy, buy, and rescue such treasures
+before and during the dark times.  This archive grew so vast that the only
+way to truly protect it was to build walls around it.  And thus, the
+organization took the name Istari, and the tower like structure that it
+occupied was simply called Turm dur Istari.  It has since been the purpose
+of the Istari to continue to archive, research, and protect this vast
+treasure. The Istari take a neutral stance in regards to "good" and "evil",
+knowing that in truth they both belong and are nothing without the other.
+
+To become a member of Istari, one must possess a good degree of knowledge
+about the realm and especially it's magics.  Anyone belonging to a spellcast-
+ing guild can petition for membership to the order.  Seek either the current
+leader or the person handling membership applications for further
+information about joining.
+~
+0 $~
+
+#MOBILES
+#17401
+epcwaber~
+Sleeping Young Woman~
+A young lady has fallen asleep here, giving pause to her studies.
+~
+She is obviously a young apprentice Mage that has had her studies get the best
+of her.  You should probably let her continue her slumber. ~
+unique~
+ABMV B 0 S
+1 3 5d4+9 5d4+0 5d5+1 18
+-1 -1 -1 -1
+0 B 0 0
+8 8 2 0
+0 0 M 0
+#17402
+ifjslrwf~
+Efficient Secretary~
+A short young lady is busy shuffling papers here, oblivious to your presence.
+~
+She is a red-headed secretary with a mountain of work on her desk.  She
+seems irritated by your staring and says "I told you, the council will be
+with you shortly, they are busy at the moment, almost as busy as I am."
+With another motion of one hand a chair from the wall of the room flies
+forward and catching you unawares promptly puts you seated in it.
+~
+unique~
+ABMV B 0 S
+1 3 5d4+9 5d4+0 5d5+1 18
+-1 -1 -1 -1
+0 B 0 0
+8 8 2 0
+0 0 M 0
+#17403
+Tabitha Cleric Witch Healer~
+Tabitha~
+Tabitha, healer to the Istari is here to serve.
+~
+Having been cured of a multitude of childhood malodies by the great Dr.
+Stephanopolis, Tabitha turned her witchcraft toward the healing arts and
+proved herself to be an excellent witchdoctor.  She is well renound for her
+peculiar wiggling of the nose as a somantic when casting spells and still
+carries a reputation of getting into quite a bit of trouble, but given
+enough tries and she can cure just about anything.
+~
+human~
+BDMGQV DFHJ 1000 S
+60 30 300d1+5000 2d500+1500 12d7+10 1
+-5 -5 -5 -5
+F AB 0 0
+8 8 2 0
+0 0 M 0
+#17404
+Knight Statue Guard~
+The Knight Statue~
+Before you stands a steel statue of an armored knight guarding the gate.
+~
+The artistic skill with which this statue was sculpted is impossibly realistic.
+As you look closer you notice a glint behind the eye slits of the statue's visor
+that appear to be following your every move.  The statue depicts a human size
+knight armored from head to toe in gray steel full plate, holding a longsword
+before him in one hand point first on the floor. At his waist hangs a pouch with
+the word "Payment" embroidered on it. The pouch is obviously empty. The steel 
+bracers on his arms are etched with the following statement. "Woe be to he who
+made himself an enemy of Istari, for his payment is eternal payback."
+~
+dwarf~
+BMTV BDFHJ 500 S
+55 27 200d1+4700 2d255+600 11d5+5 21
+-3 -3 -3 -3
+CDEJKU AB CLQ R
+8 8 1 0
+0 0 M 0
+#17405
+Spirit Mage Man~
+The Ghostly Spirit~
+A ghostly spirit materializes near you.
+~
+You feel a cold chill carried on a gentle draft as a translucent spirit fades
+into view near you.  Like a moth to a flame, it moves in a tightening circle
+around you.  As it silently glides closer you can see the shimmering outline of
+an old man dressed in simple robes, holding what appears to be an open spellbook
+in one hand. With a slight squint of his long dead eyes he examines you. The 
+same curiosity and quest for knowledge that defined his life appears to be what
+draws him to you in death.
+~
+human~
+AGMRTV BDFJ 500 S
+55 27 200d1+4700 2d550+500 11d5+5 1
+-3 -3 -3 -3
+EGHUZ AB ABL G H 
+8 8 1 0
+0 0 M 0
+#17406
+Suit Armor~
+The Suit of Armor~
+A suit of shining plate mail armor stands watch here.
+~
+This suit of armor appears to be animated by some type of magical 
+enchantment.  The pieces hang in middle air as if being worn by an 
+invisible force.  The armor itself is polished to an incredible sheen
+that reflects every photon of light into a cascade of reflections 
+that dance about the confines of the room.  A single gauntlet 
+attached to the rest of the armor by unseen magic floats in 
+front of the construct holding a huge broad sword, point up before an 
+empty face visor, as if in a silent salute.
+~
+human~
+AGMRTV BDFJ 500 S
+50 25 100d1+2350 2d400+200 7d5+10 1
+-1 -1 -1 -1
+EGHUZ AB ABL G H 
+8 8 1 0
+0 0 M 0
+#17407
+Statue Knight Guard~
+The Knight Statue~
+Before you stands a steel statue of an armored knight guarding the gate.
+~
+The artistic skill with which this statue was sculpted is impossibly 
+realistic.  As you look closer you notice a glint behind the eye 
+slits of the statue's visor that appear to be following your every 
+move.  The statue depicts a human size knight armored from head to 
+toe in gray steel full plate, holding a longsword before him in one hand 
+point first on the floor.   At his waist hangs a pouch with the word 
+"Payment" embroidered on it.  The pouch is obviously empty.   The steel 
+bracers on his arms are etched with the following statement.  "Woe be 
+to he who made himself an enemy of Istari, for his payment is eternal 
+payback."
+~
+dwarf~
+BMTV BDFJ 500 S
+55 27 200d1+4700 2d255+600 11d5+5 21
+-3 -3 -3 -3
+CDEJKU AB CLQ R
+8 8 1 0
+0 0 M 0
+#17408
+Orb Sphere Light~
+The Golden Orb~
+A golden orb of light hovers in the air.
+~
+The pulsating sphere of gentle light measures about the width of a
+good size shield.  It darts about as if inspecting every movement
+and seems to be scrutinizing your every action.  It flickers in
+unison with a low droning chant that can be heard coming from it as
+if a dozen imprisoned souls were praying for release from within
+the glassy surface.
+~
+human~
+AGMRTV BDFJ 500 S
+55 27 200d1+4700 2d550+500 11d5+5 1
+-3 -3 -3 -3
+EGHUZ AB ABL G H 
+8 8 1 0
+0 0 M 0
+
+#0
+
+#OBJECTS
+#17401
+key istari~
+Key to Turm dur Istari~
+Nothing more, nor nothing less, than a key.~
+brass~
+18 0 AO
+0 0 0 0 0
+45 1 0 P
+#17402
+key war~
+Key to the War Room~
+The key which unlocks the path to death is here.~
+brass~
+18 0 AO
+0 0 0 0 0
+25 1 0 P
+#17403
+statue katrina~
+A statue of Katrina~
+A statue of Katrina stands here, an eternal rememberence to her splendor.~
+stone~
+12 OK 0
+0 0 0 0 0
+1 3000 10000 P
+E
+statue katrina~
+A statue of pure ivory depicts the fairest and most popular
+Queen of Silverglen.  Her reign, lasting many years, saw Silverglen
+at the pinnacle of respect and power, a power which ensured peace
+in Dresden.  She is dressed in a gown of silver and blue, clutching a
+tablet in her left hand and the remains of a necklace in her right.  
+She is of obvious elven descent and magic of a mystical nature almost
+radiates from her stone eyes.
+~
+E
+tablet~
+Upon the tablet is scribed, "May this castle always reflect our love -
+Forever yours, Telemid."
+~
+E
+necklace~
+A blue and silver necklace, it bears the coat of arms of Silverglen Castle.
+~
+#17404
+statue beuk~
+A statue of Beuk~
+A statue of Beuk illuminates a corner of this Gallery.~
+stone~
+12 OK 0
+0 0 0 0 0
+1 3000 10000 P
+E
+statue beuk~
+Standing here in her clerical garb is a likeness of Beuk, a woman of
+renowned kindness, upholding the finest of the qualities of the healing 
+arts.
+~
+#17405
+statue chelon~
+A statue of Chelon~
+A statue of Chelon greets all who enter this sanctum.~
+stone~
+12 OK 0
+0 0 0 0 0
+1 3000 10000 P
+E
+statue Chelon~
+The statue is of one of the most powerful clerics of the castle of Chaos.  Her
+power was based in her ability to overcome insurmountable odds at times and
+a personality that would charm even an elf.  For this she held the undeniable
+respect of her comrads and their adoration.
+~
+#17406
+statue sammuel~
+A statue of Sammuel~
+A statue of Sammuel radiates the immense wisdom its namesake possesed.~
+stone~
+12 OK 0
+0 0 0 0 0
+1 3000 10000 P
+E
+statue Sammuel~
+This statue is of a cleric who sits in one corner of the room with a jug of
+wine in one hand and a holy symbol in the other.  This is Sammuel, a jovial 
+cleric to whom nobody known held ill will.
+~
+#17407
+pit~
+A Donation Pit~
+A large donation pit is here.~
+stone~
+15 O 0
+10000 0 0 1000 0
+0 0 0 P
+E
+pit~
+This is where you put money and other items to help your castlemates in need.
+~
+#17408
+water basin~
+the water basin~
+A water basin is here.~
+onyx~
+32 OUV 0
+0 0 0 0 0
+10 10 0 P 
+E
+basin~
+The water basin is filled with an assortment of glassware that remains to be
+cleaned and shelved. A bottle of green, caustic glass cleaner sits to the top
+right corner of it.
+~
+#17409
+fountain~
+a small fountain~
+A small fountain is here, irrigating the sprawling garden.~
+stone~
+25 O 0
+1000 1000 0 0 0
+0 0 0 P
+E
+fountain~
+The fountain is a stone fountain sculpted in the figure of a woman holding a jug
+tilted slightly.  Water pours indefinitely from the jug into a small basin which
+feeds the irrigation system in the garden.
+~
+#17410
+chains~
+chains of binding~
+a black chain lies here.~
+adamantite~
+13 0 AF
+0 0 0 0 0
+1 250 0 P
+A
+14 -500
+#0
+
+#ROOMS
+#17401
+Before Turm dur Istari~
+A small dirt road meanders towards a distant mystical tower.  The
+tower itself stretches towards the Gods, but heavy almost unnatural 
+clouds obscure the exact height it reaches.  The grey marble stone
+forming the tower has been worked on by countless artisans.  The 
+artistry seems to flow and move with the heavy mist that moves like
+a veil across, or maybe around the tower itself.  While no one seems to
+be guarding the gates, you feel the presence of a force watching you 
+intently.
+~
+174 N 0
+D0
+A pass through electrum gates, radiating powerful magic
+~
+gates~
+1 -1 17402
+D3
+Ethereal Path.
+~
+~
+0 -1 68
+S
+#17402
+Small Courtyard~
+Atop a grassy knoll, this courtyard lies beneath the stone ring which
+comprises the meager defenses of the Tower itself.  Small windows look
+down upon this courtyard, and occasionally small explosions can be heard
+from within.  A magical breeding ground, cantrips and magick combine to
+form power of nearly proportionless measure!  A small sign is posted before
+the knoll.
+~
+174 NZ A 2
+D0
+The Path to the Inner Gates
+~
+~
+1 -1 17403
+D2
+A pass through electrum gates, radiating magic
+~
+electrum~
+1 -1 17401
+E
+grass~
+The grass is straggling and unmowed.
+~
+E
+sign~
+The sign reads, "Stay off the grass!".
+~
+S
+#17403
+The Inner Gates~
+Huge golden gates protect the final entrance to Turm dur Istari, as
+to the northeast you can faintly make out the image, or mirage, of
+the tower itself.  It seems unassuming, but anyone can see that
+to challenge these magicians and their protectors is to take their
+life into their own hands.
+~
+174 NZ A 1
+D0
+Foyer
+~
+~
+0 -1 17431
+D2
+To the Outer Courtyard
+~
+~
+1 -1 17402
+D6
+Entry Hall
+~
+~
+1 -1 17404
+D7
+Long Hallway
+~
+~
+0 -1 17432
+E
+mirage~
+Indeed the tower does look to be a mirage, or maybe it is simply
+your head spinning from that nasty brew from the Bloody Axe!
+~
+S
+#17404
+Entry Hall~
+This entry chamber has no obvious exit to the outside world nor any
+windows, and yet it seems that daylight is never forsaken in this
+room.  Ivory columns line each side, drawing you towards an inner
+stairwell to the north, and the artwork on the walls possess a
+mystical quality... it seems almost alive and watching your every
+step.  Above you can hear the training of young magicians,
+practicing their craft in the laboratories and libraries of the
+tower.
+~
+174 DNZ A 0
+D0
+A dark stairwell
+~
+~
+0 -1 17405
+D9
+CerwinVega
+~
+~
+1 -1 17403
+S
+#17405
+Stairwell - First Level~
+You are enveloped in darkness, contrasting sharply with the bright entry
+room.  As your eyes adjust to the darkness you see a spiral staircase
+leading up to the second floor and creeping down to the basement.  It is
+nerve-wracking to even consider plunging yourself into the basement without
+first asking what "resides" down there.  A faint light lingers above, and
+dim outlines in the four cardinal directions indicate four doors.
+~
+174 DNZ A 0
+D0
+Darkened Hallway
+~
+~
+0 -1 17433
+D1
+The Mystical Garden
+~
+~
+1 -1 17407
+D2
+The Entry Hall
+~
+~
+0 -1 17404
+D3
+The War Room
+~
+~
+2 17402 17408
+D4
+Stairs to the Second Floor
+~
+~
+0 -1 17410
+D5
+Stairs to the Basement
+~
+~
+0 -1 17409
+S
+#17406
+The Store Room~
+This room follows the contour of the tower's curved wall with a single 
+set of shelves reaching from the floor to the ceiling.  A rolling ladder 
+leans against the shelves fitted to a brass guide.  The shelves to one 
+section are filled with any matter of parchment, small ink bottles, and 
+various types of quills.  Another section is organized into a collection
+of the complicated laboratory glassware.  A large granite basin on the inner
+wall holds some of the glassware yet to be cleaned and put back in place.  
+A final section of the shelves, the largest of them all holds small vials
+and jars containing uncountable numbers of spell components collected over 
+the years by the occupants of this tower.
+~
+174 DNZ A 0
+D0
+The stairwell
+~
+~
+1 -1 17415
+E
+glassware~
+Any possible assortment of glassware you can imagine fills this section
+of the storeroom.  There are florance flasks of innumerable sizes, titration
+glassware, tubing and finely ground joints to connect it all together.  An
+assortment of mirrors, prisms, concave and convex lenses of various sizes,
+along with a large number of filters to shave off each wavelength of light as
+needed.
+~
+S
+#17407
+The Mystical Garden~
+It may or may not be surprising to learn that magicians are often
+skilled botanists.  This garden is the epitome of life, with
+numerous species of herbs and plants growing in every corner of
+the room.  This room is CLEARLY inside, and yet the sun is
+constantly shining down on these vivacious plants.  Fountains
+and springs are nearly everywhere, a natural irrigation system
+for both the magicians and their "pets".  A ceremonial altar is
+here, covered with a book whose pages are blowing back and forth
+in the slight easterly breeze that flows through this chamber.
+~
+174 DKNW 0
+D3
+The stairwell
+~
+~
+1 -1 17405
+E
+book~
+It is a detailed catalogue of the various species of plant life found
+in Sembia.
+~
+S
+#17408
+The War Room~
+Darkness engulfs the War Room, save for the sourceless illumination
+of a glass table.  The table itself is in the center of the room, a
+constant haze slightly covering its surface.  Seven mahogany chairs
+surround the table, three on each side with one chair clearly at its
+head.  Situated directly behind the table is large desk, lit by only
+one candle, and yet the candle seems to burn endlessly.  Several large
+tomes line the surface of the desk, and one book is constantly open
+on the desk, its pages often perused for the priceless strategic
+information of ages past.
+~
+174 CDNZ A 0
+D1
+The stairwell
+~
+~
+1 -1 17405
+E
+table~
+Upon closer examination, the haze covering the table isn't a haze
+at all -- It is more of a series of clouds, floating six inches
+above the table.  Beneath the clouds is a vivid map which reflects
+every change which occurs in the realm.
+~
+E
+book~
+Titled, "Dark Circle - Operation Manual," this tome is ageless,
+priceless, and a true relic.  An inscription reads: "Presented
+this 13th Day of the Moon, Year of the Blizzard, to the honorable
+Bubba by Lord Mithran.  May your work be forever reflected
+through the generations."
+~
+S
+#17409
+The Room of Travellers~
+This room is a simple unfurnished and bare room.  Three exits lead out of
+the room with the exception of the spiral stairwell up.  The north exit
+has above it an engraving of a comet screaming across the sky.  The 
+south exit has the engraving of an ankh, the universal symbol of sanctuary.
+The west exit has above it the engraving of a skull.
+~
+174 DNZ A 0
+D0
+University of Magic
+~
+~
+0 -1 4336
+D2
+Temple of Breas
+~
+~
+0 -1 4639
+D3
+Morgue of Dresden
+~
+~
+0 -1 4721
+D4
+The stairwell
+~
+~
+0 -1 17405
+S
+#17410
+The Second Story Stairwell~
+The stairwell has gone from a pitch black to a dull red which brightens as
+your eyes scan from floor to ceiling.  The change in tone and brightness of 
+the walls cannot be any conventional paint or stone combination as it is too
+smooth a transition.  The stairwell continues to spiral up but also offers
+exits to rooms in the cardinal directions.
+~
+174 DNZ A 0
+D0
+The Mages' Laboratory
+~
+~
+1 -1 17411
+D1
+The Art Gallery
+~
+~
+0 -1 17412
+D2
+The Library
+~
+~
+1 -1 17413
+D3
+The Shrine
+~
+~
+0 -1 17414
+D4
+Third Floor Stairwell
+~
+~
+0 -1 17415
+D5
+The stairwell
+~
+~
+0 -1 17405
+S
+#17411
+The Mages' Laboratory~
+The first thing that your senses take notice of is the caustic assault of 
+various chemical mixtures on your nostrils.  The chemical cocktails brewing
+here are the obvious culprits, but you dare not touch a single corkstop or
+raise or lower a single burner.  There are four large granite benches 
+clustered together in the center of the room where various experiments are
+being performed.  You notice an open book of notes lying on the side of one
+of the experiments.
+~
+174 DNZ A 0
+D2
+Second Floor Stairwell
+~
+~
+1 -1 17410
+E
+book~
+You try to read the book, but it is in some form of shorthand that you
+cannot decipher.
+~
+S
+#17412
+The Art Gallery~
+This room is filled with the treasures of the old world that these magicians
+have rescued from the ruins of various castles and cities.  Landscapes 
+and portraits line the walls lit by a complex set of mirrors and un-natural
+light shining at the corners of the ceiling.  The center of the room is
+dominated by a collection of large marble statues.
+~
+174 DNZ A 0
+D3
+Second Floor Stairwell
+~
+~
+0 -1 17410
+S
+#17413
+The Library~
+This room is dominated by seven arcing mahogony bookstacks that follow the 
+contour of the room and grow in length as you move from the door towards the
+back of the stacks.  This library is stocked with books that catalogue any
+number of spell components and their whereabouts, and the details of
+successful and unsuccessful experiments performed here and at other sites of
+enlightened learning.  There is no obvious way short of flying that you can
+see to get to those books at the top shelves of the library, but maybe that
+is what was intended.
+~
+174 DNZ A 0
+D0
+Second Floor Stairwell
+~
+~
+1 -1 17410
+S
+#17414
+Shrine to a Goddess~
+This room is bare except for a small shrine on the curved outter wall.  The 
+shrine is unlike any you have ever seen before, with an array of everburning
+candles of various colors lining it.  The other thing you notice is that it
+is not particularly dedicated to a specific goddess.  The small figurine you 
+see at the top of it is obviously feminine, but you cannot place it.  An 
+inscription rests at the base of the shrine.
+~
+174 DNZ A 0
+D1
+Second Floor Stairwell
+~
+~
+0 -1 17410
+E
+inscription~
+The inscription reads: "This shrine is dedicated to the patron goddess of
+Andrenor of the High Council."
+~
+S
+#17415
+Third Floor Stairwell~
+The stairwell abruptly ends here.  The stairwell has just as abruptly changed
+from a bright red to that of a bright bluish color, which slowly changes in 
+hue to a darker blue as you scan from floor to ceiling.  The marbled walls
+and combination of the dizzying height make for an unsettling feeling in the
+pit of your stomach.  A large oak door lies to the north and another to the
+south.
+~
+174 DNZ A 0
+D0
+The Guest Room
+~
+~
+1 -1 17416
+D1
+Meditation Chamber
+~
+~
+0 -1 17417
+D2
+Store Room
+~
+~
+1 -1 17406
+D3
+The Chamber of Study
+~
+~
+0 -1 17419
+D4
+The Ceiling
+~
+auxonfence~
+4 -1 17420
+D5
+Second Floor Stairwell
+~
+~
+1 -1 17410
+S
+#17416
+The Guest Room~
+This room is modestly furnished with a small oak desk in one corner and a 
+double bed in the other corner.  Along the curved outter wall face is a 
+fireplace with a large window to either side.  The windows don't provide 
+much scenery, as the clouds at this height obscure your vision of the 
+ground below or the sky which you know must be above.  An ink well lies 
+embedded in the top right corner of the desk, while a quill lies in a 
+long notched impression at the top of the desk.
+~
+174 DJNZ A 0
+D2
+Third Floor Stairwell
+~
+~
+1 -1 17415
+S
+#17417
+Meditation Chamber~
+This room holds a different description to everyone who enters it for the
+first time.  Some might see the room as a simple room with a small fireplace
+and a few cots to rest in, others might see a white marble room with a heavy
+mist obscuring any other occupants.  Yet others might find themselves awash 
+in a dazzling array of colors and light.  That which allows the individual
+to concentrate on his own sphere of inner power to provide both physical 
+and mental rest is what is provided here.
+~
+174 DNTUZ A 0
+D3
+Third Floor Stairwell
+~
+~
+0 -1 17415
+S
+#17418
+Empty Room~
+An empty Room.
+~
+174 DNZ A 0
+S
+#17419
+The Chamber of Study~
+This room is the study quarters for apprentices and students of the magic
+arts.  A set of three small wooden desks with hinged tops that provide 
+writing resources inside the drawer sit along the curved outter wall of 
+the room.  A young woman has fallen asleep at one of the desks cluttered
+with various opened books.
+~
+174 DZ A 0
+D1
+Third Floor Stairwell
+~
+~
+0 -1 17415
+S
+#17420
+Fourth Level Stairwell~
+The color of the walls has changed yet again.  Here the marble walls go
+from a dull purple to a bright purple color from floor to ceiling.  The
+same continuous changing of shade is seen here as in the other stairwells.
+A set of large double doors made of marble leads to a northern room.
+Above these doors is a plaque. To the south is a set of large iron double
+doors.
+~
+174 DNZ A 0
+D0
+Council Chambers
+~
+~
+2 17401 17421
+D1
+High Council Lounge
+~
+~
+0 -1 17422
+D2
+Law Library
+~
+~
+2 17401 17423
+D3
+Council Audience Chamber
+~
+~
+0 -1 17424
+D4
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+D5
+The Floor
+~
+auxonfence~
+4 -1 17415
+E
+plaque~
+The plaque reads: "Geht es hier nur allein."
+~
+S
+#17421
+Council Chambers~
+As you enter this room you notice that the curved north wall that would
+usually exist here is virtually gone.  A single pair of golden columns where
+the wall would be are spaced equally apart and appear to support the entire
+ceiling.  Nothing more than a small curb lines the rest of the path that the
+wall would be expected to stand.  The other remarkable thing about this room
+is that not a sound can be heard of the outside world.  There isn't even a
+slight breeze. You can see that heavy clouds surround the turret.  The heavy
+clouds appear to form a floor on which the Gods themselves would walk in and
+guide this august council.  The room is otherwise dominated by a large round
+table.  Upon this table is a large golden pentagram which has each tip
+pointing to a single distinctive chair.  Four large mahogany chairs with
+purple upholstery populate four of the tips of the star.  At the top point
+of the star stands another mahogany chair made in the same style but with a
+silver trimmed blue upholdstered chair.  Along the inside wall are various
+other large oak chairs with red upholstery.  Large black drapes occupy
+either corner of these chambers, and golden guides along the ceiling to draw
+them on for times when even the Gods are not invited.
+~
+174 DNZ A 0
+D2
+Fourth Floor Stairwell
+~
+~
+2 17401 17420
+S
+#17422
+High Council Lounge~
+This room is appointed with several large plush chairs, a couple of sofas
+and a small fireplace burning in one corner of the room.  A couple of small
+wooden movable tables also occupy the room.  This is where the high council
+meets to relax as much as they can be expected to with the matters of the
+tower's upkeep constantly on their mind.  They can relax here and discuss
+matters which they may bring up at council meetings in the future or just
+wax on about their adventures, experiments, and new magiks.
+~
+174 DNTUZ A 0
+D3
+Fourth Floor Stairwell
+~
+~
+0 -1 17420
+S
+#17423
+Law Library~
+This room has a row of small desks with a beam of light shining directly on
+the surface of each desk from the ceiling.  The light seems to come from a
+complex series of mirrors and some unknown light source at the corner of the
+ceiling and the walls. A row of four desks long lies east to west in the
+center of the room with pairs of desks facing each other making for eight
+desks in the center of the room.  The south wall is a curved stone wall
+with no windows, but various maps of regions of interest adorning
+the wall.  To the east and west a flank of bookshelfs are lined holding
+various gold leafed leather bound books filled with not only the laws of
+the high council but also the legal writings of many other realms and
+their relationship to high council decisions.
+~
+174 DNZ A 0
+D0
+Fourth Floor Stairwell
+~
+~
+2 17401 17420
+S
+#17424
+Council Audience Chamber~
+A long row of chairs forms an arc along the western wall.  This is where
+those seeking an audience with the High Council are allowed to wait for
+their chance to be heard.  A small desk sits in the center of the room.
+The secretary to the High Council sits here busily working to fit in
+appointments to open dates that the High Council has available, she
+obviously has her work cut out for her.
+~
+174 DZ A 0
+D1
+Fourth Floor Stairwell
+~
+~
+0 -1 17420
+S
+#17425
+Fifth Floor Stairwell~
+This stairwell has taken on the light grey marble color that the external
+tower appears to be made of.  Four doors lead in each of the cardinal
+directions and the stairwell continues to spiral upwards.
+~
+174 DNZ A 0
+D0
+Mandrake's Study
+~
+~
+1 -1 17426
+D1
+A Warm Room
+~
+~
+1 -1 17427
+D2
+Set's Laboratory
+~
+~
+1 -1 17428
+D3
+Nuttss' Playroom
+~
+~
+1 -1 17429
+D4
+Top of the Stairwell
+~
+~
+1 -1 17430
+D5
+Fourth Floor Stairwell
+~
+~
+1 -1 17420
+S
+#17426
+Mandrake's Study~
+This is a bedroom furnished more for function than decorum.  A large four
+poster mahogany bed sits unmade in the center of the room piled high with a
+tangle of plush embroidered blankets and pillows.  The wall opposite the door
+is made up of a workbench that stretches from corner to corner.  The entire
+surface of the workbench is covered with assorted pieces of armor and
+weapons laying atop tattered manuscripts and scrawled notes.  On the wall
+above the bench is a glass case with brackets to hold a sword and a small
+plaque.  The case is currently empty.  All of the remaining wall space is
+covered from floor to ceiling with shelves crammed full wth old books of
+every description from children's fairy tales to the most technical of
+arcane tomes.  Overall the room is in a state of total disarray but it
+appears it is going to stay that way for some time for even if someone
+chose to organize things, there is some sort of guardian magic that makes
+it impossible to move even the smallest object in this room.
+~
+174 DJNZ A 0
+D2
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+E
+plaque~
+My first real enchanting success.  Enchanted seven times, it saved my life
+more than once before I understood that mana is mightier than metal.
+~
+S
+#17427
+A Warm Study~
+A small brick fireplace can be found to one side of this sparsely
+decorated, yet fascinating bed chamber.  A fire burns brightly
+before two comfortable rading chairs which rest upon the hearth.
+Above the fireplace, a hand-carved mantle provides support for a few
+items: A small gold broach, a tiny ornate fumadore and pipe and a
+statuette of a small sickly man below which is scribed "My life into
+Yours".  Opposite the fireplace is a series of interlocking
+bookshelves, lined with tomes of various size, color and condition.
+Overlooked until now, you notice that you are standing at the center
+of a small pentagram that has been carefully drawn in front of the
+door.  Without notice, the lines of the drawing begin to glow,
+dimly at first, but grwoing into a burst of blinding light that
+sends an alarm of panic into all who enter here.
+~
+174 DJNZ A 0
+D3
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+E
+pipe~
+The name "Andrenor" has been carved along the length of the pipe.
+~
+S
+#17428
+Set's Laboratory~
+An electric charge permeates your entire body as you enter this chamber.
+Large stacks of books are dispersed randomly throughout the room,
+conspicuously ignoring the huge bookshelves that line three of the four
+walls.  Numerous scrolls containing complex equations of a mystical nature
+are scattered across a table at the center of the room.  An ancient
+looking gramarye, whose pages are written in an indiscernable, archaic
+script sits upon the table.  You observe a glowing sphere that hovers
+just above a black marble pedestal to the left.  It seems to house a
+quantity of pure energy that appears both infititely boundless yet
+appropriately limited at the same time.  Ordered chaos best describes this
+scene and you then realize that it is from the alignment of such polar
+differences that Set draws his colossal power.
+~
+174 DJNZ A 0
+D0
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+S
+#17429
+Nuttss' Playroom~
+You appear to have stepped through the boundaries of reality.  Lines
+of perspective do not converge.  Gravity comes and goes, from different
+angles.  A pulsating light source drifts around on an erratic course,
+casting unusual shadows.  Shades and phantoms, startlingly solid, waft
+in from elsewhere, but they fade out as they lose interest in whatever
+object that attracted their curiousity.  Intoxicated angels dance and
+play games with hallucinating demons in a bubblng vat of green pudding.
+A keg of beer and a barrel of aged red wine fight it out in the ring
+as a fermenting cask of cider and flask of liquor place side bets.
+Standing upright in the distance, in front of a studios class of
+multi-hued dragon, is a gleaming white skeleton carefully dissecting
+a variety of corpses.  As you try to focus on yet more oddities, you
+are temporarily enveloped in a wandering prismatic cube and left to
+wonder where exactly you are.
+~
+174 DJNZ A 0
+D1
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+S
+#17430
+Top of the Stairwell~
+The stairwell lies in the center of this brightly lit room.  The
+walls are a half tone blue and silver color.  During daytime, light
+and a crisp north wind flow through the four large arched windows at
+each of the cardinal directions.  Just beneath the east window sits a
+small desk equipped with ink well and quill for early morning study.
+To the corner lies a large brass seal.  From the window, it is apparent
+that you are well above the low clouds that surround the tower.  The
+city of Dresden can be seen sprawling to the easterly direction.  A
+small but comfortable bed sits beneath the west window.  The north
+wind blows through the open north window which is flanked by a
+large shield and broadsword.  Both bear the silver and blue colors
+of the room, and are of the finest elven craftmanship.  Beneath the
+south window is a small bookcase filled with leather bound
+treasured books of history and literature.
+~
+174 DJNZ A 0
+D5
+Fifth Floor Stairwell
+~
+~
+1 -1 17425
+E
+shield~
+The coat of arms on the shield pulls old history lessons from your
+mind, thought long forgotten, of a powerful and honorable castle of
+bygone ages.
+~
+E
+seal~
+The large brass seal bears the writing "Borzak, Arch Mage, Turm dur
+Istari."
+~
+S
+#17431
+Foyer~
+You hapless fool!  You got tricked by a gaggle of mages!  Allowing
+yourself to be lured to their lair and then falling directly into their
+trap must be the most embarassing experience of your life.  Probably
+just as embarassing is the notion of walking around naked for
+the next few days, as you struggle to replace all this precious
+equipment that will forever be rusting in the bottom of this water trap!
+~
+174 ACDINXZ A 8
+E
+water~
+Don't even true to amuse yourself looking at the water!  You are
+gonna die a long and painful death!
+~
+S
+#17432
+Long Hallway~
+WRONG AGAIN! This was a good attempt as well, but unfortunately, it didn't 
+work. Just sit back and contemplate your demise as you await certain death.
+~
+174 ACDFINXZ A 8
+17431 5 1
+S
+#17433
+Darkened Hallway~
+While light from the outside cascades through the two small windows on
+the north wall, this room is has taken on a gloomy appearance similiar
+to the stairwell south of it.  As your eyes adjust to the dim light filtering
+in, you notice the flanking walls are covered with ancient tapestries.  A
+small path lies to the north and outside the tower, while to the south is
+the stairwell.
+~
+174 ANZ A 0
+D0
+A Fenced Path
+~
+~
+0 -1 17434
+D2
+First Level Stairway
+~
+~
+0 -1 17405
+E
+tapestry~
+They depict a series of battles fought by two powerful yet opposing castles.
+One obviously darker in nature, the other a bastion of the forces of light.
+While the black banners of the first absorb the daylight as a sponge, the
+silver and blue banners of the latter reflect the honor and strength of the
+light.  Which side won these battles is not clear, but rather it seems to
+depict a continuous battle to be waged for all time.
+~
+S
+#17434
+A Fenced Path~
+The damp air chills you as you walk this cobblestone path. On either side
+of the path a small wooden fence has been erected to keep the traveller
+off the grass growing to either side.  As you walk, you notice to the right
+of the path several gravestones, marking the site of last resting places of
+those who gave their final breath to this tower's existance.  To the north
+you can see an odd circular building of larger girth than the tower, but
+shorter and with a domed ceiling.
+~
+174 ANZ A 2
+D0
+Weapons Room
+~
+~
+1 -1 17435
+D2
+Darkened Hallway
+~
+~
+0 -1 17433
+S
+#17435
+Weapons Room~
+Marble floors and walls greet you on entry to this building.  On each of
+the walls are racks of any number of assorted weaponry and armor that
+could be imagined.  The sound of parrying swords can be plainly heard
+to the north and the continuous clash of metal on metal almost deafens
+one to the typical explosions that seem to occur every quarter hour from
+the tower itself. To the east appears to be a quieter section of the building.
+~
+174 ANZ A 0
+D0
+Combat Arena
+~
+~
+2 17402 17437
+D1
+Recovery Room
+~
+~
+0 -1 17436
+D2
+Fenced Path
+~
+~
+1 -1 17434
+S
+#17436
+Recovery Room~
+This room is appointed with a mixture of plush furnature and makeshift
+cots and tables.  A large chalk-board hangs on one of the walls.  This
+is obviously a place of rest, where the various combattants will be found
+after a day of testing their physical and mental combat abilities on one
+another.
+~
+174 ANTUZ A 0
+D3
+Weapons Room
+~
+~
+0 -1 17435
+E
+chalk board~
+The chalk-board has scribbled on it various stick figures in differing poses,
+blocking, parrying, dodging attacks.  Some of them are crossed out
+indicating it was apparently the wrong move for the circumstance.  There is
+also a schedule with timeslots that the combat arena is available and who
+has what times reserved.
+~
+S
+#17437
+Combat Arena~
+The noises from this room are unmistakeably those of hand to hand
+combat.  An assortment of trainees are learning the arts of combat,
+and some are even testing out their newly learned spells on sometimes
+unsuspecting comrads.  There is just enough room to set up another
+sparring match in the far right corner.
+~
+174 DNVZ A 2
+D0
+Coward
+~
+~
+0 -1 17435
+D1
+Wimp
+~
+~
+0 -1 17435
+D2
+Weapons Room
+~
+~
+0 -1 17435
+D3
+Weenie
+~
+~
+0 -1 17435
+S
+#0
+
+#RESETS
+M 0 17401 1   17419       * QRTRLPL
+M 0 17402 1   17424       * BJCTCNS
+M 0 17403 1   17407       * Tabitha Healer
+M 0 17404 2   17401       * Knight Statue Gateguard (Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17404 2   17401       * Knight Statue Gateguard (Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17405 2   17415       * Mage Aggie Guard (Highlevel)
+M 0 17405 2   17424       * Mage Aggie Guard (Highlevel)
+M 0 17406 4   17415       * Warrior Aggie Guard (Lowlevel)
+M 0 17406 4   17417       * Warrior Aggie Guard (Lowlevel)
+M 0 17406 4   17419       * Warrior Aggie Guard (Lowlevel)
+M 0 17406 4   17424       * Warrior Aggie Guard (Lowlevel)
+M 0 17407 10 17401       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17401       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17402       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17402       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17402       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17402       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17403       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17403       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17403       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17407 10 17403       * Knight Statue Gateguard (Un-Sanced)
+E 1 17410 -1  7		  *  chains
+M 0 17408 2   17419       * Cleric Aggie Guard (Highlevel)
+M 0 17408 2   17420       * Cleric Aggie Guard (Highlevel)
+*
+O 0 17403 1 17412       * Statue of Katrina
+O 0 17404 1 17412       * Statue of Beuk
+O 0 17405 1 17412       * Statue of Chelon
+O 0 17406 1 17412       * Statue of Sammuel
+O 0 17407 1 17406       * Pit
+O 0 17408 1 17406       * Relic
+O 0 17409 1 17407       * Fountain
+*               *
+** Door Resets **
+*               *
+D 0 17401 0 1           * Before Turm dur Istari
+D 0 17402 0 1           * Small Couryard
+D 0 17402 2 1           * 
+D 0 17403 2 1           *
+D 0 17403 6 1           * 
+D 0 17404 9 1           *
+D 0 17405 1 1           * Stairwell - First Level
+D 0 17405 3 2           *
+D 0 17406 0 1           * Storeroom
+D 0 17407 3 1           * Membership Room
+D 0 17408 1 1           *
+D 0 17410 0 1           *
+D 0 17410 2 1           *
+D 0 17411 2 1           *
+D 0 17413 0 1           *
+D 0 17415 0 1           *
+D 0 17415 2 1           *
+D 0 17415 4 4           *
+D 0 17415 5 1           *
+D 0 17416 2 1           *
+D 0 17420 0 2           * Stairwell - Fourth Level
+D 0 17420 2 2           * Stairwell - Fourth Level
+D 0 17420 4 1           *
+D 0 17420 5 4           *
+D 0 17421 2 2           * Council Chambers
+D 0 17423 0 2           * Law Library
+D 0 17425 0 1           *
+D 0 17425 1 1           *
+D 0 17425 2 1           *
+D 0 17425 3 1           *
+D 0 17425 4 1           *
+D 0 17425 5 1           *
+D 0 17426 2 1           *
+D 0 17427 3 1           *
+D 0 17428 0 1           * Set's Laboratory
+D 0 17429 1 1           * Nuttss' Playroom
+D 0 17430 5 1           *
+D 0 17434 0 1           * Fenced Path
+D 0 17435 0 2           * Combat Room
+D 0 17435 2 1		*
+S
+
+#SPECIALS
+M 17403 spec_cast_adept         healer
+M 17404 spec_castle_guard       Warrior Mage Gateguard (Sanc'd)
+M 17405 spec_castle_guard_agg   Mage Aggie Guards
+M 17405 spec_cast_mage          Mage Aggie Guards
+M 17406 spec_castle_guard_agg   Warrior Aggie Guards
+M 17407 spec_castle_guard       Warrior Mage Gateguard (Unsanc'd)
+M 17408 spec_castle_guard_agg   Cleric Aggie Guards
+M 17408 spec_cast_cleric        Cleric Aggie Guards
+S
+
+#$
