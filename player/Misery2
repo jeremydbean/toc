@@ -1,0 +1,443 @@
+#PLAYER
+Name Misery~
+Id   59089
+LogO 1543024673
+Vers 3
+Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
+
+
+
+.                     //:::_______:::::::::________::::::::::_____:::::::\\
+
+
+
+.                    //:::_/   _-"":::_--"""        """--_::::\_  ):::::::::\\
+
+
+
+.                   //:::/    /:::::_"                    "-_:::\/:::::|^\:::\\
+
+
+
+.                  //:::/   /-::::::I__                      \:::::::::|  \:::\\
+
+
+
+.                  \\:::\   (::::::::::""""---___________     "--------"  /::://
+
+
+
+.                   \\:::\  |::::::::::::::::::::::::::::""""==____      /::://
+
+
+
+.                    \\:::"\/::::::::::::::::::::::::::::::::::::::\   /-::://
+
+
+
+.                      \\:::::::::::::::::::::::::::::::::::::::::::)/-::://
+
+
+
+.                        \\::::\""""""------_____::::::::::::::::::::::://
+
+
+
+.                          \\:::"\               """""-----_____:::::://
+
+
+
+.                            \\:::"\    __----__                )::://
+
+
+
+.                              \\:::"\/-::::::::-\_         __/-:://
+
+
+
+.                                \\::::::::::::::::""----""":::://
+
+
+
+.                                  \\::::::::::::::::::::::::://
+
+
+
+.                                    \\:::\^""--._.--""^/::://
+
+
+
+.                                      \\::"\         /":://
+
+
+
+.                                        \\::"\     /":://
+
+
+
+.                                          \\::"\_/":://
+
+
+
+.                                            \\::::://
+
+
+
+.                                              \\_//
+
+
+
+.                                                "
+
+
+
+
+You'll see him in your nightmares, you'll see him in your dreams.
+
+
+
+He'll appear out of nowhere but he ain't what he seems.
+
+
+
+You'll see him in your head, on the TV screen, 
+
+
+
+Hey buddy, I'm warning you to turn it off.
+
+
+
+He's a ghost, he's a god, he's a man, he's a guru.
+
+
+
+You're one microscopic cog in his catastrophic plan,
+
+
+
+Designed and directed by his red right hand.
+
+
+
+
+
+You see something very special about him.
+
+
+
+~
+Prom ~
+Ignoring rech~
+Race human~
+Sex  2
+Cla  4
+Gui  4
+Psionic  2
+Cast Fors
+Levl 40
+Plyd 1672306
+ListRemorts 2  2 ~
+NumRemorts 1
+Note 953485148
+Scro 22
+Room 29498
+HMV  573 750 546 714 383 484
+NewGold 1533
+NewPlat 5219
+NewCopp 8570
+NewSilv 3865
+Bank 978395
+Dcount 0
+Corpses	0
+PkRec 0
+PkGiv 24
+QuestPnts 111
+Exp  87457
+Act  33947848
+AfBy 3678888
+AfBy2 536
+Comm 24576
+Mounted 0
+On_Quest 0
+Quest_Pause 0
+Pk_State 1
+Jw_Timer 0
+ColFlag 1
+Color 0 0
+Color 1 8
+Color 2 5
+Color 3 14
+Color 4 11
+Color 5 3
+Color 6 10
+Color 7 4
+Color 8 3
+Color 9 14
+Color 10 4
+Color 11 3
+Color 12 12
+Color 13 3
+Color 14 11
+Color 15 6
+Color 16 6
+Pos  8
+Prac 72
+Trai 3
+Save  -15
+Alig  1000
+Hit   42
+Dam   79
+ACs -83 -68 -70 31
+Attr 13 13 13 13 13
+AMod 9 10 10 2 11
+Pass Kilrpis9ggekI~
+Ariv $n lets an arrow fly to $T.~
+Dprt $n lets an arrow fly to $T.~
+Titl  the Master Monk~
+Pnts 2540
+TSex 2
+LLev 3
+HMVP 699 664 459
+Cond 0 47 47
+Alias / who~
+Alias f flee~
+Alias ] recall~
+Alias l get all~
+Alias p track~
+Alias k bash~
+Alias a confuse~
+Alias m murder~
+Alias \ emote points at you and declares you a future victim.~
+Alias tit1 title ... the man, the myth, the legend.~
+Alias 5 emote has left the game.~
+Alias 4 emote has entered the game.~
+Alias 1 stealth~
+Alias rep emote reports all is well.~
+Alias tit2 title ... the man, the myth, the castle leader.~
+Alias bb armavirum@wxs.nl~
+Alias smi smile~
+Sk 100 'confuse'
+Sk 8 'axe'
+Sk 20 'dagger'
+Sk 6 'flail'
+Sk 80 'mace'
+Sk 3 'polearm'
+Sk 7 'spear'
+Sk 3 'sword'
+Sk 15 'whip'
+Sk 1 'bash'
+Sk 75 'dirt kicking'
+Sk 75 'dodge'
+Sk 45 'enhanced damage'
+Sk 97 'hand to hand'
+Sk 75 'kick'
+Sk 77 'parry'
+Sk 75 'trip'
+Sk 1 'second attack'
+Sk 1 'blinding fists'
+Sk 1 'crane dance'
+Sk 1 'fists of fury'
+Sk 1 'iron skin'
+Sk 1 'levitate'
+Sk 75 'nerve damage'
+Sk 75 'steel fist'
+Sk 75 'stunning blow'
+Sk 62 'fast healing'
+Sk 76 'meditation'
+Sk 100 'recall'
+Gr 'rom basics'
+Gr 'monk basics'
+Gr 'monk default'
+AffD 'pass door'   0  68   0   0    1048576          0
+AffD 'protection evil'   0  68   0   0       8192          0
+AffD 'fire shield'  10  68   0   0          0          8
+AffD 'frost shield'  -1  68   0   0          0         16
+AffD 'detect hidden'  -1  68   0   0         32          0
+AffD 'detect invis'   0  68   0   0          8          0
+AffD 'power gloves'   2  68  35  19          0          0
+AffD 'infravision'   9 138   0   0        512          0
+AffD 'giant strength'  -1  68   4   1          0          0
+AffD 'frenzy'  -2  68 110  17          0          0
+AffD 'frenzy'   0  68  11  19          0          0
+AffD 'frenzy'  -1  68  11  18          0          0
+AffD 'fly'  15  71   0   0     524288          0
+AffD 'aid'   0  68  28  13          0          0
+AffD 'aid'  -1  68   7  18          0          0
+AffD 'force sword'  -1  68   0   0          0        512
+AffD 'bless'   5  74  -8  24          0          0
+AffD 'bless'  -1  74   8  18          0          0
+AffD 'haste'   0  68   4   2    2097152          0
+AffD 'major globe'  13  68 -150  17          0          0
+End
+
+#O
+Vnum 3715
+Nest 0
+Wear 17
+Cost 0
+Cond 59
+Repd 0
+End
+
+#O
+Vnum 29032
+Nest 0
+Wear 12
+Lev  29
+Cost 500
+Cond 95
+Repd 0
+End
+
+#O
+Vnum 3715
+Nest 1
+Wear -1
+Cost 0
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 3737
+Nest 0
+Wear 11
+Lev  1
+Cost 10
+Cond 74
+Repd 0
+Val  3 3 4 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 4
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  8 7 7 0 0
+End
+
+#O
+Vnum 1395
+Nest 0
+Wear 3
+Lev  22
+Cost 5000
+Cond 100
+Repd 0
+Val  8 6 6 0 0
+Affect -1 22 -1 -1 22 0 0
+End
+
+#O
+Vnum 8713
+Nest 0
+Wear 13
+Lev  6
+Cost 1250
+Cond 80
+Repd 0
+Val  3 5 5 0 0
+End
+
+#O
+Vnum 724
+Nest 0
+Wear 8
+Lev  30
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9944
+Nest 0
+Wear 0
+Lev  20
+Cost 0
+Cond 36
+Repd 0
+Val  0 0 -1 0 0
+End
+
+#O
+Vnum 2390
+Nest 0
+Wear 9
+Lev  23
+Cost 10000
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 10048
+Nest 0
+Wear 5
+Lev  32
+Cost 2200
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 9213
+Nest 0
+Wear 10
+Lev  22
+Cost 5566
+Cond 100
+Repd 0
+Affect -1 22 -1 -1 2 0 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 14
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 5025
+Nest 0
+ExtF 64
+Wear 15
+Lev  28
+Cost 500
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16011
+Nest 0
+ExtF 66
+Wear 6
+Lev  42
+Cost 1842
+Cond 100
+Repd 0
+End
+
+#O
+Vnum 16013
+Nest 0
+Wear 7
+Lev  41
+Cost 1498
+Cond 100
+Repd 0
+Affect -1 41 -1 -7 13 0 0
+End
+
+#END
