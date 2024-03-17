@@ -1,102 +1,102 @@
 #PLAYER
 Name Misery~
 Id   59089
-LogO 1542921164
+LogO 1709829508
 Vers 3
 Desc .                       //:::::::::::::::::::::::::::::::::::::::::::::\\
 
 
-.                     //:::_______:::::::::________::::::::::_____:::::::\\
+.                     //:::_______:::::::::________::::::::::_____:::::::\\
 
 
-.                    //:::_/   _-"":::_--"""        """--_::::\_  ):::::::::\\
+.                    //:::_/   _-"":::_--"""        """--_::::\_  ):::::::::\\
 
 
-.                   //:::/    /:::::_"                    "-_:::\/:::::|^\:::\\
+.                   //:::/    /:::::_"                    "-_:::\/:::::|^\:::\\
 
 
-.                  //:::/   /-::::::I__                      \:::::::::|  \:::\\
+.                  //:::/   /-::::::I__                      \:::::::::|  \:::\\
 
 
-.                  \\:::\   (::::::::::""""---___________     "--------"  /::://
+.                  \\:::\   (::::::::::""""---___________     "--------"  /::://
 
 
-.                   \\:::\  |::::::::::::::::::::::::::::""""==____      /::://
+.                   \\:::\  |::::::::::::::::::::::::::::""""==____      /::://
 
 
-.                    \\:::"\/::::::::::::::::::::::::::::::::::::::\   /-::://
+.                    \\:::"\/::::::::::::::::::::::::::::::::::::::\   /-::://
 
 
-.                      \\:::::::::::::::::::::::::::::::::::::::::::)/-::://
+.                      \\:::::::::::::::::::::::::::::::::::::::::::)/-::://
 
 
-.                        \\::::\""""""------_____::::::::::::::::::::::://
+.                        \\::::\""""""------_____::::::::::::::::::::::://
 
 
-.                          \\:::"\               """""-----_____:::::://
+.                          \\:::"\               """""-----_____:::::://
 
 
-.                            \\:::"\    __----__                )::://
+.                            \\:::"\    __----__                )::://
 
 
-.                              \\:::"\/-::::::::-\_         __/-:://
+.                              \\:::"\/-::::::::-\_         __/-:://
 
 
-.                                \\::::::::::::::::""----""":::://
+.                                \\::::::::::::::::""----""":::://
 
 
-.                                  \\::::::::::::::::::::::::://
+.                                  \\::::::::::::::::::::::::://
 
 
-.                                    \\:::\^""--._.--""^/::://
+.                                    \\:::\^""--._.--""^/::://
 
 
-.                                      \\::"\         /":://
+.                                      \\::"\         /":://
 
 
-.                                        \\::"\     /":://
+.                                        \\::"\     /":://
 
 
-.                                          \\::"\_/":://
+.                                          \\::"\_/":://
 
 
-.                                            \\::::://
+.                                            \\::::://
 
 
-.                                              \\_//
+.                                              \\_//
 
 
-.                                                "
-
-
-
-You'll see him in your nightmares, you'll see him in your dreams.
-
-
-He'll appear out of nowhere but he ain't what he seems.
-
-
-You'll see him in your head, on the TV screen, 
-
-
-Hey buddy, I'm warning you to turn it off.
-
-
-He's a ghost, he's a god, he's a man, he's a guru.
-
-
-You're one microscopic cog in his catastrophic plan,
-
-
-Designed and directed by his red right hand.
+.                                                "
 
 
 
+You'll see him in your nightmares, you'll see him in your dreams.
 
-You see something very special about him.
+
+He'll appear out of nowhere but he ain't what he seems.
 
 
-~
+You'll see him in your head, on the TV screen, 
+
+
+Hey buddy, I'm warning you to turn it off.
+
+
+He's a ghost, he's a god, he's a man, he's a guru.
+
+
+You're one microscopic cog in his catastrophic plan,
+
+
+Designed and directed by his red right hand.
+
+
+
+
+You see something very special about him.
+
+
+~
 Prom ~
 Ignoring rech~
 Race dwarf~
@@ -106,17 +106,18 @@ Gui  2
 Psionic  1
 Cast Fors
 Levl 54
-Plyd 1657948
+Tru  70
+Plyd 1658758
 ListRemorts ~
 NumRemorts 0
 Note 953485148
 Scro 22
-Room 29205
-HMV  1798 1862 849 938 343 343
-NewGold 248
-NewPlat 5183
-NewCopp 701
-NewSilv 486
+Room 1
+HMV  1862 1862 938 938 343 343
+NewGold 308
+NewPlat 5206
+NewCopp 845
+NewSilv 593
 Bank 978395
 Dcount 0
 Corpses	0
@@ -124,10 +125,11 @@ PkRec 0
 PkGiv 24
 QuestPnts 111
 Exp  177312
-Act  33947848
+Act  33964232
 AfBy 3678888
 AfBy2 4632
-Comm 28672
+Comm 24576
+Invi 70
 Mounted 0
 On_Quest 0
 Quest_Pause 0
@@ -153,7 +155,7 @@ Color 15 6
 Color 16 6
 Pos  8
 Save  2
-Alig  1000
+Alig  955
 Hit   88
 Dam   133
 ACs -252 -223 -282 -85
@@ -225,25 +227,25 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'thief default'
 Gr 'thief guild'
-AffD 'force sword'   0  55   0   0          0        512
-AffD 'major globe'  -1  65 -150  17          0          0
-AffD 'sanctuary'   0  65   0   0        128          0
-AffD 'haste'   0  65   4   2    2097152          0
-AffD 'divine protection'   0  65   0   0          0       4096
-AffD 'aid'   0  65   7  18          0          0
-AffD 'aid'   0  65  34  13          0          0
-AffD 'fly'   0  68   0   0     524288          0
-AffD 'frenzy'   0  65  11  18          0          0
-AffD 'frenzy'   0  65  11  19          0          0
-AffD 'frenzy'   0  65 110  17          0          0
-AffD 'giant strength'   0  65   4   1          0          0
-AffD 'power gloves'   0  65  35  19          0          0
-AffD 'detect invis'   0  65   0   0          8          0
-AffD 'detect hidden'   0  65   0   0         32          0
-AffD 'frost shield'   0  65   0   0          0         16
-AffD 'fire shield'   0  65   0   0          0          8
-AffD 'protection evil'   0  65   0   0       8192          0
-AffD 'pass door'   0  65   0   0    1048576          0
+AffD 'force sword'   0  43   0   0          0        512
+AffD 'major globe'  -1  53 -150  17          0          0
+AffD 'sanctuary'   0  53   0   0        128          0
+AffD 'haste'   0  53   4   2    2097152          0
+AffD 'divine protection'   0  53   0   0          0       4096
+AffD 'aid'   0  53   7  18          0          0
+AffD 'aid'   0  53  34  13          0          0
+AffD 'fly'   0  56   0   0     524288          0
+AffD 'frenzy'   0  53  11  18          0          0
+AffD 'frenzy'   0  53  11  19          0          0
+AffD 'frenzy'   0  53 110  17          0          0
+AffD 'giant strength'   0  53   4   1          0          0
+AffD 'power gloves'   0  53  35  19          0          0
+AffD 'detect invis'   0  53   0   0          8          0
+AffD 'detect hidden'   0  53   0   0         32          0
+AffD 'frost shield'   0  53   0   0          0         16
+AffD 'fire shield'   0  53   0   0          0          8
+AffD 'protection evil'   0  53   0   0       8192          0
+AffD 'pass door'   0  53   0   0    1048576          0
 End
 
 #O
@@ -1333,6 +1335,17 @@ Lev  51
 Cost 3000
 Cond 100
 Repd 0
+End
+
+#O
+Vnum 29226
+Nest 0
+Wear -1
+Lev  52
+Cost 5000
+Cond 100
+Repd 0
+Val  800 29 29269 0 10
 End
 
 #END
