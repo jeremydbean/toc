@@ -2952,7 +2952,6 @@ void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     int nuke = 0;
     char buf[MAX_STRING_LENGTH];
-    int count;
     int chance;
 
     if(victim == NULL)
@@ -3000,7 +2999,6 @@ void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
     act("The sword rips out of your hand, flashing across the sky.",
 	 ch,NULL,NULL,TO_CHAR);
 
-    count = 0;
     chance = number_percent();
 
     if (chance > 50)
@@ -3012,7 +3010,6 @@ void spell_vengence( int sn, int level, CHAR_DATA *ch, void *vo )
     {
     send_to_char("You hear a whistling sound. Your vengeance has gone awry!!!",ch);
     act("You hear a whistling sound, then a SWORD plunges into $n's heart!",ch,NULL,NULL,TO_ROOM);
-    count = 1;
     }
 
     if(!IS_NPC(victim) && IS_IMMORTAL(victim) )
