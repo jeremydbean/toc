@@ -142,10 +142,9 @@ int     bind            args( ( int s, const void *addr, int addrlen ) );
 void    bzero           args( ( char *b, int length ) );
 int     getpeername     args( ( int s, void *addr, int *addrlen ) );
 int     getsockname     args( ( int s, void *name, int *addrlen ) );
-int     gettimeofday    args( ( struct timeval *tp, struct timezone *tzp ) );
 int     listen          args( ( int s, int backlog ) );
 int     setsockopt      args( ( int s, int level, int optname,
-				const void *optval, int optlen ) );
+                                const void *optval, int optlen ) );
 int     socket          args( ( int domain, int type, int protocol ) );
 #endif
 
@@ -166,8 +165,6 @@ int     close           args( ( int fd ) );
 int     getpeername     args( ( int s, struct sockaddr *name, int *namelen ) );
 int     getsockname     args( ( int s, struct sockaddr *name, int *namelen ) );
 */
-
-int     gettimeofday    args( ( struct timeval *tp, struct timezone *tzp ) );
 
 /*  Commented out in the OS upgrade -Rico
 int     listen          args( ( int s, int backlog ) );
@@ -432,7 +429,8 @@ int main( int argc, char **argv )
    /* mudport = port; */
     control = init_socket( port );
     boot_db();
-    /*init_web(port+2);*/
+    /* Start the lightweight web status server two ports above the game. */
+    init_web(port+2);
     sprintf( log_buf, "TOC is ready to rock on port %d.", port );
     log_string( log_buf );
     game_loop_unix( control );
@@ -613,7 +611,8 @@ void game_loop_mac_msdos( void )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-	/*handle_web();*/
+        /* Service any pending web status connections. */
+        handle_web();
 
 
 	/*
@@ -818,7 +817,8 @@ void game_loop_unix( int control )
 	 * Autonomous game motion.
 	 */
 	update_handler( );
-	/*handle_web();*/
+        /* Service any pending web status connections. */
+        handle_web();
 
 	/*
 	 * Output.

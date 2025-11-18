@@ -9,6 +9,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <sys/time.h>
+#include <fcntl.h>
 #include "merc.h"
 
 #define MAXDATA 1024
@@ -19,7 +20,7 @@ struct web_descriptor {
     int fd;
     char request[MAXDATA*2];
     struct sockaddr_in their_addr;
-    int sin_size;
+    socklen_t sin_size;
     WEB_DESCRIPTOR *next;
     bool valid;
 };
@@ -45,20 +46,31 @@ int sockfd;
 
 void init_web(int port) {
     struct sockaddr_in my_addr;
+    int reuseaddr = 1;
 
     web_descs = NULL;
 
     sprintf(log_buf,"Web features starting on port: %d", port);
+    log_string(log_buf);
 
     if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
-	perror("web-socket");
-	exit(1);
+        perror("web-socket");
+        exit(1);
     }
 
+    /* Allow quick restart without lingering TIME_WAIT collisions. */
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &reuseaddr, sizeof(reuseaddr)) < 0) {
+        perror("web-setsockopt");
+    }
+
+    /* Keep the listener non-blocking so the game loop is never stalled. */
+    fcntl(sockfd, F_SETFL, O_NONBLOCK);
+
+    memset(&my_addr, 0, sizeof(my_addr));
     my_addr.sin_family = AF_INET;
     my_addr.sin_port = htons(port);
-    my_addr.sin_addr.s_addr = htons(INADDR_ANY);
-    bzero(&(my_addr.sin_zero),8);
+    /* Listen on all interfaces. */
+    my_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
     if((bind(sockfd, (struct sockaddr*)&my_addr, sizeof(struct sockaddr)))
 == -1)
@@ -101,15 +113,18 @@ void handle_web(void) {
 	    current->sin_size  = sizeof(struct sockaddr_in);
 	    current->request[0] = '\0';
 
-	    if((current->fd = accept(sockfd, (struct sockaddr
+            current->fd = accept(sockfd, (struct sockaddr
 *)&(current->their_addr),
-&(current->sin_size))) == -1) {
-	    	perror("web-accept");
-	    	exit(1);
-	    }
-
-	    current->next = web_descs;
-	    web_descs = current;
+&(current->sin_size));
+            if(current->fd == -1) {
+                if (errno != EWOULDBLOCK && errno != EAGAIN && errno != EINTR) {
+                    perror("web-accept");
+                }
+                free_web_desc(current);
+            } else {
+                current->next = web_descs;
+                web_descs = current;
+            }
 
 	    /* END ADDING NEW DESC */
 	}
@@ -121,10 +136,12 @@ void handle_web(void) {
 	    	char buf[MAXDATA];
 		int numbytes;
 
-		if((numbytes=read(current->fd,buf,sizeof(buf))) == -1) {
-		    perror("web-read");
-		    exit(1);
-		}
+                if((numbytes=read(current->fd,buf,sizeof(buf))) == -1) {
+                    if (errno != EWOULDBLOCK && errno != EAGAIN && errno != EINTR) {
+                        perror("web-read");
+                    }
+                    numbytes = 0;
+                }
 
 		buf[numbytes] = '\0';
 
@@ -184,11 +201,11 @@ void handle_web_request(WEB_DESCRIPTOR *wdesc) {
 	    if(strstr(wdesc->request, "/wholist")) {
 		log_string("Web Hit: WHOLIST");
 		handle_web_who_request(wdesc);
-	    } else {
-		log_string("Web Hit: INVALID URL");
-		send_buf(wdesc->fd,"Sorry, ROM Integrated Webserver 1.0
-only supports /wholist");
-	    }
+            } else {
+                log_string("Web Hit: INVALID URL");
+                send_buf(wdesc->fd,
+                         "Sorry, ROM Integrated Webserver 1.0 only supports /wholist");
+            }
 }
 
 void shutdown_web (void) {
@@ -211,10 +228,10 @@ void handle_web_who_request(WEB_DESCRIPTOR *wdesc)
   char output[MAX_STRING_LENGTH];
   DESCRIPTOR_DATA *d;
 
-  send_buf(wdesc->fd,"<HTML><HEAD><TITLE>Times Of Chaos Who
-List</TITLE></HEAD>\n\r");
-  send_buf(wdesc->fd,"<BODY BGCOLOR=\"#FFFFFF\"><B>Times Of
-Chaos Who List</B><P>\n\r");
+  send_buf(wdesc->fd,
+           "<HTML><HEAD><TITLE>Times Of Chaos Who List</TITLE></HEAD>\n\r");
+  send_buf(wdesc->fd,
+           "<BODY BGCOLOR=\"#FFFFFF\"><B>Times Of Chaos Who List</B><P>\n\r");
 
   for (d = descriptor_list; d; d = d->next)
   {
@@ -311,8 +328,7 @@ Chaos Who List</B><P>\n\r");
 	    IS_NPC(wch) ? "" : wch->pcdata->title );
       send_buf(wdesc->fd,output);
   }
-  sprintf(output, "<P>Times Of Chaos Who List [%d players
-found]</BODY></HTML>", count);
+  sprintf(output, "<P>Times Of Chaos Who List [%d players found]</BODY></HTML>", count);
   send_buf(wdesc->fd,output);
 }
 
