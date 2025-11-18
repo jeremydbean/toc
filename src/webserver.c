@@ -9,6 +9,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <sys/time.h>
+#include <fcntl.h>
 #include "merc.h"
 
 #define MAXDATA 1024
@@ -19,7 +20,7 @@ struct web_descriptor {
     int fd;
     char request[MAXDATA*2];
     struct sockaddr_in their_addr;
-    int sin_size;
+    socklen_t sin_size;
     WEB_DESCRIPTOR *next;
     bool valid;
 };
@@ -45,16 +46,27 @@ int sockfd;
 
 void init_web(int port) {
     struct sockaddr_in my_addr;
+    int reuseaddr = 1;
 
     web_descs = NULL;
 
     sprintf(log_buf,"Web features starting on port: %d", port);
+    log_string(log_buf);
 
     if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
-	perror("web-socket");
-	exit(1);
+        perror("web-socket");
+        exit(1);
     }
 
+    /* Allow quick restart without lingering TIME_WAIT collisions. */
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &reuseaddr, sizeof(reuseaddr)) < 0) {
+        perror("web-setsockopt");
+    }
+
+    /* Keep the listener non-blocking so the game loop is never stalled. */
+    fcntl(sockfd, F_SETFL, O_NONBLOCK);
+
+    memset(&my_addr, 0, sizeof(my_addr));
     my_addr.sin_family = AF_INET;
     my_addr.sin_port = htons(port);
     /* Listen on all interfaces. */
