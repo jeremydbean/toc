@@ -2,12 +2,12 @@
 CC       = gcc
 PROF     =
 NOCRYPT  = -lcrypt
-C_FLAGS  = -O -Wall -DROM $(PROF) $(NOCRYPT)
+C_FLAGS  = -O -Wall -fcommon -DROM $(PROF) $(NOCRYPT)
 L_FLAGS  = -O $(PROF)
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o comm.o const.o \
-	  db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o \
-	  skills.o special.o hunt.o update.o magic2.o quest.o  \
+          db.o edit.o fight.o handler.o misc.o interp.o magic.o pkill.o save.o \
+          skills.o special.o hunt.o update.o magic2.o quest.o webserver.o \
           maxload.o wizlist.o
 
 default: all

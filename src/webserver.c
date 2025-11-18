@@ -57,7 +57,8 @@ void init_web(int port) {
 
     my_addr.sin_family = AF_INET;
     my_addr.sin_port = htons(port);
-    my_addr.sin_addr.s_addr = htons(INADDR_ANY);
+    /* Listen on all interfaces. */
+    my_addr.sin_addr.s_addr = htonl(INADDR_ANY);
     bzero(&(my_addr.sin_zero),8);
 
     if((bind(sockfd, (struct sockaddr*)&my_addr, sizeof(struct sockaddr)))
@@ -184,11 +185,11 @@ void handle_web_request(WEB_DESCRIPTOR *wdesc) {
 	    if(strstr(wdesc->request, "/wholist")) {
 		log_string("Web Hit: WHOLIST");
 		handle_web_who_request(wdesc);
-	    } else {
-		log_string("Web Hit: INVALID URL");
-		send_buf(wdesc->fd,"Sorry, ROM Integrated Webserver 1.0
-only supports /wholist");
-	    }
+            } else {
+                log_string("Web Hit: INVALID URL");
+                send_buf(wdesc->fd,
+                         "Sorry, ROM Integrated Webserver 1.0 only supports /wholist");
+            }
 }
 
 void shutdown_web (void) {
@@ -211,10 +212,10 @@ void handle_web_who_request(WEB_DESCRIPTOR *wdesc)
   char output[MAX_STRING_LENGTH];
   DESCRIPTOR_DATA *d;
 
-  send_buf(wdesc->fd,"<HTML><HEAD><TITLE>Times Of Chaos Who
-List</TITLE></HEAD>\n\r");
-  send_buf(wdesc->fd,"<BODY BGCOLOR=\"#FFFFFF\"><B>Times Of
-Chaos Who List</B><P>\n\r");
+  send_buf(wdesc->fd,
+           "<HTML><HEAD><TITLE>Times Of Chaos Who List</TITLE></HEAD>\n\r");
+  send_buf(wdesc->fd,
+           "<BODY BGCOLOR=\"#FFFFFF\"><B>Times Of Chaos Who List</B><P>\n\r");
 
   for (d = descriptor_list; d; d = d->next)
   {
@@ -311,8 +312,7 @@ Chaos Who List</B><P>\n\r");
 	    IS_NPC(wch) ? "" : wch->pcdata->title );
       send_buf(wdesc->fd,output);
   }
-  sprintf(output, "<P>Times Of Chaos Who List [%d players
-found]</BODY></HTML>", count);
+  sprintf(output, "<P>Times Of Chaos Who List [%d players found]</BODY></HTML>", count);
   send_buf(wdesc->fd,output);
 }
 
