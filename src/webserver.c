@@ -71,6 +71,7 @@ void init_web(int port) {
     my_addr.sin_port = htons(port);
     /* Listen on all interfaces. */
     my_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    bzero(&(my_addr.sin_zero),8);
 
     if((bind(sockfd, (struct sockaddr*)&my_addr, sizeof(struct sockaddr)))
 == -1)
