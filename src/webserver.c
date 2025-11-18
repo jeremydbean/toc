@@ -45,7 +45,7 @@ WEB_DESCRIPTOR *web_descs;
 int sockfd;
 
 void init_web(int port) {
-    struct sockaddr_in my_addr;
+    struct sockaddr_in my_addr = { 0 };
     int reuseaddr = 1;
 
     web_descs = NULL;
@@ -66,7 +66,6 @@ void init_web(int port) {
     /* Keep the listener non-blocking so the game loop is never stalled. */
     fcntl(sockfd, F_SETFL, O_NONBLOCK);
 
-    memset(&my_addr, 0, sizeof(my_addr));
     my_addr.sin_family = AF_INET;
     my_addr.sin_port = htons(port);
     /* Listen on all interfaces. */
